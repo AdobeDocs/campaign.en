@@ -12,7 +12,9 @@ hide: yes
 # Adobe Campaign v8 Help {#using-v8}
 
 + [Product documentation](campaign-v8-home.md)
-+ Developing {#developing}
-  + [Get started with Campaign Standard data model](developing/get-started-data-model.md)
-  + About custom resources {#about-custom-resources}
-       + [Data model concepts](developing/data-model-concepts.md)
++ Getting started {#start}
+  + [Get started with v8](getting-started/get-started-v8.md)
++ Delta v7-v8 {#delta}
+  + [Delta](delta/deltav7v8.md)
++ Architecture {#architecture}
+  + [Archi ](architecture/architecture-v8.md)

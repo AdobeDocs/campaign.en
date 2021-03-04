@@ -20,9 +20,9 @@ The following prerequisites are needed:
 * Systems and server side knowledge
 * Administrative rights and permissions
 
-You can find more information in these sections: [Updating Adobe Campaign](../../production/using/upgrading.md), [Migrating to a new version](../../migration/using/about-migration.md).
+You can find more information in these sections: .
 
-For hosted and hybrid instances, you must request the build upgrade to Adobe Technical Operations team. For more on this, refer to the Frequently Asked Questions section at the bottom if this page. Also consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+For hosted and hybrid instances, you must request the build upgrade to Adobe Technical Operations team. For more on this, refer to the Frequently Asked Questions section at the bottom if this page. Also consult the .
 
 ## Prepare the upgrade
 
@@ -46,7 +46,7 @@ Here are the key points on how to plan a build upgrade:
 1. Distribute contact details for Adobe and customer staff.
 1. For hosted instances: Adobe and customer staff will coordinate the time for the upgrade and who will execute.
 1. For on-premise instances: customer staff manages the entire process - if assistance in testing of customized workflows and delivery logic is needed, consulting services should be brought in.
-1. Determine and confirm which version of Adobe Campaign you want to upgrade to - consult the [Adobe Campaign Classic release notes](../../rn/using/rn-overview.md).
+1. Determine and confirm which version of Adobe Campaign you want to upgrade to - consult the .
 1. Confirm possession of upgrade executables.
 
 ### Key people
@@ -75,11 +75,11 @@ Before starting the build upgrade, on-premise customers need to perform the foll
 
 1. Perform a full backup of the databases for all instances of the source and target environments. 
 
-1. Get the latest version of your [server configuration file](../../installation/using/the-server-configuration-file.md).
+1. Get the latest version of your .
 
 1. [Download the latest build](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). [Learn more](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html).
 
-You also need to know all the [useful command lines](../../installation/using/command-lines.md) before starting a build upgrade:
+You also need to know all the  before starting a build upgrade:
 
 * **nlserver pdump**: lists running processes
 * **nlserver pdump -who**: lists active client sessions
@@ -407,7 +407,7 @@ Here are the steps to perform a complex merge:
 
 **Related topics**
 
-* [Build upgrade FAQ](../../platform/using/faq-build-upgrade.md)
-* [Campaign Classic Release Notes](../../rn/using/rn-overview.md)
+* 
+* 
 * [Help and Support options for Campaign Classic](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
 * [Gold Standard program](https://helpx.adobe.com/campaign/kb/gold-standard.html)

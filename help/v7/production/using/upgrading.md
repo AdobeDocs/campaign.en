@@ -10,16 +10,16 @@ topic-tags: updating-adobe-campaign
 
 # Upgrading to a new build (on-premise){#upgrading}
 
-Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the [Release Notes](../../rn/using/latest-release.md) .
+Before starting the upgrading process, detemine and confirm which version of Adobe Campaign is to being upgraded to and consult the  .
 
 >[!IMPORTANT]
 >
->We strongly recommend making a database backup on each instance before updating. For more information, refer to [Backup](../../production/using/backup.md).   
+>We strongly recommend making a database backup on each instance before updating. For more information, refer to .   
 >To perform an upgrade, make sur you have the ability and permissions to access instances and logs.
 
 >[!NOTE]
 >
->Also refer to the [installation guide](../../installation/using/general-architecture.md) and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
+>Also refer to the  and the [build upgrade](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) getting started.
 
 ## Windows {#in-windows}
 
@@ -30,7 +30,7 @@ To update Adobe Campaign in a new version when delivering a new build, the follo
 * [Synchronize resources](#synchronize-resources),
 * [Restart services](#restart-services).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-windows.md).
+To find out how to update the client console, refer to .
 
 ### Shut down services {#shut-down-services}
 
@@ -110,7 +110,7 @@ To update Adobe Campaign in a new version when a new build is delivered, the pro
 * [Perform an update](#perform-an-update),
 * [Reboot the web server](#reboot-the-web-server).
 
-To find out how to update the client console, refer to [this section](../../installation/using/client-console-availability-for-linux.md).
+To find out how to update the client console, refer to .
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ The file is **nlserver6-v7-XXX.rpm**
 
 >[!NOTE]
 >
->Full installation procedures are detailed in [this section](../../installation/using/installing-campaign-standard-packages.md). Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
+>Full installation procedures are detailed in . Resources are synchronized automatically, however you need to make sure no errors occurred. For more on this, refer to [Resolving upgrade conflicts](#resolving-upgrade-conflicts).
 
 ### Reboot the web server {#reboot-the-web-server}
 
@@ -249,7 +249,7 @@ The next time client consoles are connected, a window will inform users about th
 
 >[!NOTE]
 >
->Make sure the IIS_XPG user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
+>Make sure the IIS_XPG user has the appropriate read rights for this installation file and refer to the  for more information.
 
 ### Linux {#in-linux-1}
 
@@ -267,5 +267,5 @@ The next time client consoles are connected, a window will inform users about th
 
 >[!NOTE]
 >
->Make sure the Apache user has the appropriate read rights for this installation file and refer to the [installation guide](../../installation/using/general-architecture.md) for more information.
+>Make sure the Apache user has the appropriate read rights for this installation file and refer to the  for more information.
 

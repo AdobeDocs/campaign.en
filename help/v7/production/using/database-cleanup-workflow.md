@@ -24,7 +24,7 @@ The database cleanup is configured on two levels: in the workflow scheduler and 
 
 >[!NOTE]
 >
->For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
+>For more on the scheduler, refer to .
 
 By default, the **[!UICONTROL Database cleanup]** workflow is configured to start daily at 4AM. The scheduler lets you change the workflow triggering frequency. The following frequencies are available:
 
@@ -317,7 +317,7 @@ This task purges each workflow instance using its identifer (**lWorkflowId**) an
 
 >[!NOTE]
 >
->The purge frequency of the history is specified for each workflow in the **History in days** field (default value 30 days). This field can be found in the **Execution** tab of the workflow properties. For more on this, refer to [this section](../../workflow/using/workflow-properties.md#execution).
+>The purge frequency of the history is specified for each workflow in the **History in days** field (default value 30 days). This field can be found in the **Execution** tab of the workflow properties. For more on this, refer to .
 
 1. To recover the list of workflows to be deleted, the following query is used:
 

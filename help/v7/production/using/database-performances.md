@@ -33,7 +33,7 @@ Inappropriate configuration may affect platform performance. We recommend that y
 
 **Database cleanup task**
 
-Please make sure the database cleanup task is operational. To do this, view the log files to see if they contain any errors. For more on this, refer to [this section](../../production/using/database-cleanup-workflow.md).
+Please make sure the database cleanup task is operational. To do this, view the log files to see if they contain any errors. For more on this, refer to .
 
 **Maintenance plans**
 
@@ -43,7 +43,7 @@ Make sure database maintenance is correctly scheduled and executed. To do this, 
 * Previously executed maintenance plans
 * Viewing the script logs
 
-For more on this, refer to [this section](../../production/using/recommendations.md).
+For more on this, refer to .
 
 >[!IMPORTANT]
 >
@@ -59,14 +59,14 @@ Please check the number and size of work tables. When they exceed a certain size
 
 >[!IMPORTANT]
 >
->If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to [this section](../../production/using/recommendations.md).
+>If the operation takes a long time and frees up a lot of space, this means that in-depth maintenance is necessary (index rebuilding, etc.). For more on this, refer to .
 
 **Adobe Campaign process monitoring**
 
 Depending on Adobe Campaign installation settings, two tools can be used for platform monitoring:
 
-* The instance production page. For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring). 
-* The *netreport* script. For more on this, refer to [Automatic monitoring via Adobe Campaign scripts](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* The instance production page. For more on this, refer to . 
+* The *netreport* script. For more on this, refer to .
 
 ## Specifics {#specifics}
 

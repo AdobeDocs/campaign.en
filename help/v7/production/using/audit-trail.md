@@ -23,7 +23,7 @@ Audit Trail consists of three components:
 
 * **Schema audit trail**: Check the activities and last modifications done to your schemas.
 
-  For more information on schemas, refer to this [page](../../configuration/using/data-schemas.md).
+  For more information on schemas, refer to this .
 
 * **Workflow audit trail**: Check activities and last modifications done to workflows, and additionally, the state of your workflows such as:
 
@@ -36,13 +36,13 @@ Audit Trail consists of three components:
     * Wakeup which equals to the action Execute pending tasks now
     * Unconditional Stop
 
-  For more information on workflows, refer to this [page](../../workflow/using/about-workflows.md).
+  For more information on workflows, refer to this .
   
-  For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
+  For more on how to monitor workflows, refer to the .
 
 * **Option audit trail**: Check the activities and last modifications done to your options.
 
-  For more information on options, refer to this [page](../../installation/using/configuring-campaign-options.md).
+  For more information on options, refer to this .
 
 ## Accessing Audit trail {#accessing-audit-trail}
 
@@ -73,7 +73,7 @@ To access your instance's **[!UICONTROL Audit trail]** :
 
 >[!NOTE]
 >
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]** . To learn more on how to change the retention period, refer to this [page](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>By default, retention period is set to 180 days for **.
 
 ## Enable/disable Audit trail {#enable-disable-audit-trail}
 

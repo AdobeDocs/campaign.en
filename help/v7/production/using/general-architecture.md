@@ -38,7 +38,7 @@ The distribution of modules over several machines provides great flexibility of 
 
 >[!NOTE]
 >
->For more on the various architectures, refer to [this section](../../installation/using/general-architecture.md).
+>For more on the various architectures, refer to .
 
 ## List of open ports {#list-of-open-ports}
 

@@ -1,12 +1,18 @@
 ---
-keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
+keywords: Campaign v8;home;popular topics
+solution: Campaign v8
 product: campaign
-title: Adobe Campaign Standard product documentation
-description: Browse Campaign Standard product documentation
+title: Adobe Campaign v8 product documentation
+description: Browse Campaign v8 product documentation
 topic: Premium
 ---
 
-# Help Center {#campaign-standard-documentation}
+# Help Center for v8 {#campaign-v8-documentation}
 
-Developing
+Hello in v8
+
+You want to start your experience in v8 -> Go and consult the **Getting Started Guide**
+
+You want to quick view the features delta between v8 and Classic -> Go and consult the **Delta Guide**
+
+You want to start building your solution with pure v8 technical features -> Go and consult the **Architecture Guide**

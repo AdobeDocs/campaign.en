@@ -16,7 +16,7 @@ Follow the procedure below to find out the exact version of Tomcat used in a **C
 
 ## Tomcat used in Adobe Campaign
 
-Tomcat runs on Java and requires JDK to be installed. For more information, see Java Development Kit (JDK) in the [Campaign Compatibility Matrix](../../rn/using/compatibility-matrix.md) section.
+Tomcat runs on Java and requires JDK to be installed. For more information, see Java Development Kit (JDK) in the  section.
 
 The Tomcat used in Adobe Campaign is a customized embedded version that does not use all the features of the full generally available release of Tomcat, and may not suffer all the vulnerabilities of the full version. The Tomcat should also not be exposed to the outside internet, and any Adobe Campaign instances which are exposed should have an external web server (IIS, Apache, etc.) in front of the Tomcat to protect it.
 

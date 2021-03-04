@@ -95,7 +95,7 @@ Check that the number of exported options/accounts is equal to the number of lin
 >
 >The number of lines to export in a package export is 1000 lines. If the number of options or external accounts is more than 1000, you must carry out several exports.
 > 
->For more information, refer to [this section](../../platform/using/working-with-data-packages.md#exporting-packages).
+>For more information, refer to .
 
 >[!NOTE]
 >

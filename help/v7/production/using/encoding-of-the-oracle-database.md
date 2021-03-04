@@ -12,4 +12,4 @@ topic-tags: troubleshooting
 
 Adobe Campaign uses the default Oracle encodings.
 
-If you use different ones, an incompatibility can occur. For more on this, refer to [this section](../../installation/using/database.md#oracle).
+If you use different ones, an incompatibility can occur. For more on this, refer to .

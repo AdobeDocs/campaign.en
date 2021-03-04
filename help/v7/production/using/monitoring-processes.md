@@ -24,7 +24,7 @@ The page displayed lets you view the state of the connected instance, i.e.:
 * the list of missing processes and execution information (start date, PID, etc.), 
 * a view of workflows and deliveries.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
+Additional ways of monitoring the different Campaign processes are presented in .
 
 ### Log journal {#log-journal}
 
@@ -38,7 +38,7 @@ The list of system indicators enables you to display information concerning the 
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
+* ** for more information.
 * **[!UICONTROL Memory]** : information concerning the physical memory (RAM).
 
   **[!UICONTROL Current value]** : actual memory consumption.
@@ -95,7 +95,7 @@ The list of system indicators enables you to display information concerning the 
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL Pending events queued]** : indicator specific to **Message Center**. Refer to [this section](../../message-center/using/monitoring-thresholds.md) for more information.
+* ** for more information.
 * **[!UICONTROL Load average (1/5/15 minutes)]** : information concerning the load, i.e. the use rate of the processer by the processes running on the machine over the last minute, five minutes, or fifteen minutes
 
   **[!UICONTROL Current value]** : actual load of the machine.
@@ -323,7 +323,7 @@ Click on a PublicId identifier to view further detail.
 
 >[!NOTE]
 >
->For further information about SMTP errors and managing them in Adobe Campaign, please consult [this section](../../installation/using/email-deliverability.md).
+>For further information about SMTP errors and managing them in Adobe Campaign, please consult .
 
 ## Billing report {#billing-report}
 
@@ -420,7 +420,7 @@ This **jsp** represents the point of entry of Adobe Campaign application APIs. I
 
 ### Monitoring based on deployment types {#monitoring-based-on-deployment-types}
 
-Adobe Campaign enables various deployment configurations (for more on this, refer to [this section](../../installation/using/hosting-models.md)). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
+Adobe Campaign enables various deployment configurations (for more on this, refer to ). This section details the various automatic monitoring techniques to be applied depending on your type of installation.
 
 <table> 
  <thead> 
@@ -480,7 +480,7 @@ The following pre-installation precautions are required for automatic monitoring
 * You must have the **netreport.tgz** (Linux installation) or **netreport.zip** (Windows installation) files,
 * We strongly advise you not to install monitoring on the machine to be monitored, 
 * it must be installed on a machine with a JRE or a JDK,
-* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to [this section](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages).
+* in Linux, the machine to be monitored must have the **bc** package. For more on this, refer to .
 
 ### Installation procedure {#installation-procedure}
 
