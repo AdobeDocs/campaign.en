@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign
 product: campaign
 audience: end-user
 user-guide-title: Campaign v8
