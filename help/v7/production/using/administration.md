@@ -16,7 +16,7 @@ Installing Adobe Campaign automatically configures the machine so that the **nls
 
 The following commands are used to start up and shut down the Adobe Campaign service manually:
 
->[!WARNING]
+ >[!WARNING]
  >
  >v8 behaviour is different here. To consult the v8 specificities, consult the [architecture guide](../../../v8/architecture/architecture-v8.md)
 
