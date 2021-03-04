@@ -1,14 +1,16 @@
 ---
 keywords: Campaign Classic;home;popular topics
-solution: Campaign Classic
+solution: Campaign
 description: toto
 product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
 ---
 
-# Help Center {#campaign-classic-documentation}
+# Help Center for Classic {#campaign-classic-documentation}
 
 ## What's New
 
-Workflow
+![](assets/classic.png)
+
+Welcome to Campaign Classic

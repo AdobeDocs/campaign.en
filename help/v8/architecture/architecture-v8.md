@@ -10,4 +10,5 @@ Start
 
 Nice 
 
-    ![](../assets/archi.png)
+![](../assets/archi.png)
+

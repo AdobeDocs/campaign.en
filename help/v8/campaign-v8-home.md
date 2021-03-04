@@ -11,6 +11,8 @@ topic: Premium
 
 Hello in v8
 
+![](../assets/v8.png)
+
 You want to start your experience in v8 -> Go and consult the **Getting Started Guide**
 
 You want to quick view the features delta between v8 and Classic -> Go and consult the **Delta Guide**
