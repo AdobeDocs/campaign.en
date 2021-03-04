@@ -1,6 +1,6 @@
 ---
 keywords: Campaign v8;home;popular topics
-solution: Campaign v8
+solution: Campaign
 product: campaign
 title: Adobe Campaign v8 product documentation
 description: Browse Campaign v8 product documentation
