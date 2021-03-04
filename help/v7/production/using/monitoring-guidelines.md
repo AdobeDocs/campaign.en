@@ -94,7 +94,7 @@ Specific actions can be performed when encountering issues with deliveries:
 * 
 * 
 * 
-*  - *on premise hosting models only*
+* *on premise hosting models only*
 
 ### Monitoring the database {#monitoring-database}
 
