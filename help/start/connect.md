@@ -11,3 +11,11 @@ level: Beginner
 # Connect to Adobe Campaign v8{#gs-ac-connect}
 
 [See here](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html)
+
+
+## Download and install the Client Console
+
+## Create your connection
+
+## Grant access to users
+
