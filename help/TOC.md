@@ -25,5 +25,6 @@ hide: yes
  + Technical articles {#tech}
   + [Architecture](start/architecture.md)
   + [Replication and data](start/replication.md)
+  + [Datamodel](start/datamodel.md)
   + [Integration](start/integration.md)
 

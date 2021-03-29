@@ -46,7 +46,7 @@ Learn more about segmentation, audience creation and personalization in [this se
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. 
 
-For more on scheduling and executing campaigns, refer to [this section](campaign-management.md).
+For more on scheduling and executing campaigns, refer to [this section](campaigns.md).
 
 
 ### Analysis and reporting {#analysis-and-reporting}
