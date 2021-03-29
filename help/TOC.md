@@ -9,7 +9,7 @@ title: Campaign v8 docs
 hide: yes
 ---
 
-# Adobe Campaign v8 Help {#using-v8}
+# Adobe Campaign v8 documentation {#campaign-help-center}
 
 + [Product documentation](adobe-campaign-home.md)
 + Get started {#start}
