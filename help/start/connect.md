@@ -14,7 +14,7 @@ Campaign Client Console is a rich client which enables you to connect to your Ca
 
 >[!CAUTION]
 >
->Before starting, you need to check Campaign [Compatibility matrix](ompatibility-matrix.md), get your Campaign server URL and user credentials.
+>Before starting, you need to check Campaign [Compatibility matrix](compatibility-matrix.md), get your Campaign server URL and user credentials.
 
 ## Download and install the Client Console
 

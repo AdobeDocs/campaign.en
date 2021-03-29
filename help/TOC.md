@@ -29,6 +29,6 @@ hide: yes
 + Deployment {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
-  + [Implementation steps](start/implementation.md)
+  + [Implementation steps](start/implement.md)
   + [Help & Support](start/support.md)
 
