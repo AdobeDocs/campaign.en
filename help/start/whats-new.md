@@ -10,9 +10,17 @@ level: Beginner
 
 # What's new in Adobe Campaign v8? {#ac-gs-what-is-new}
 
-## Major changes
+Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. By leveraging Snowflake, a cloud database technology, Adobe Campaign dramatically improves its scale and speed, with the ability to manage a more significant number of customer profiles, as well as much higher delivery rates and transactions per hour. 
 
-### Scale
+Key capabilities include:
+
+* **Speed and scale**. Adobe Campaign v8 leverages the Cloud Database Manager, leading to queries performing up to 200x faster, multi-petabyte scale, increased number of messages per hour, with up to 20M/hour or 1.5M/hour for transactional messages, and manage up to 200M active profiles with the potential to reach 1B.
+
+* **Connections to the Adobe Experience Platform**. Adobe Campaign v8 supports data connectors with Adobe Experience Platform/RT-CDP, unified Customer Profile, and native integration with Journey Orchestration. These investments will optimize the Adobe Campaign customer experience and unlock new use cases such as the ability to add individualized real-time customer journeys to campaigns.
+
+* **Managed Cloud Service**. Adobe Campaign v8 is available as a best-in-class Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. The value for the marketer is more agile and scalable cross-channel campaign management.
+
+## Scale
 
 Campaign v8 brings end-to-end scale at any step of the process, from Targeting to the final reporting:
 
@@ -21,14 +29,14 @@ Campaign v8 brings end-to-end scale at any step of the process, from Targeting t
 * Scale the delivery preparation (from hours to minutes)
 And we simplify data management at the same time
 
-### Simplification
+## Simplification
 
 * Simplify data management: index free, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
 
 * Simplify accessibility through advanced sharing capabilities.
 
 
-### Performances
+## Performances
 
 Snowflake (aka Cloud Database) will bring you speed and endurance: no overload of the system activity peaks. 
 
@@ -43,10 +51,6 @@ Key changes:
 * Increase speed of delivery
 
 * Real-time reporting
-
-## Cloud Database with Full Data Federation (aka FFDA)
-
-
 
 ## Campaign with Snowflake
 
