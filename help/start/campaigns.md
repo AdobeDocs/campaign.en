@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns

@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Campaign Classic - Campaign v8 capability matrix
 description: Understand differences between Campaign Classic and Campaign v8

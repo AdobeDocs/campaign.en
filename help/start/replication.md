@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Technical workflows and data replication
 description: Technical workflows and data replication

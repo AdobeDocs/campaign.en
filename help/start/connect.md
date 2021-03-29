@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Learn how to connect to Campaign v8
 description: Connect to Campaign v8

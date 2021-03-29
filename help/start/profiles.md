@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Get started with profiles
 description: Get started with profiles

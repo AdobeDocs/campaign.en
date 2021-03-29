@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: What's new in Campaign v8
 description: Learn more key capabilities

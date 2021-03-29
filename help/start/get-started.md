@@ -1,5 +1,5 @@
 ---
-solution: Campaign v8
+solution: Campaign Classic
 product: campaign
 title: Get started with Campaign v8
 description: Discover key capabilities, user interface and global guidelines
