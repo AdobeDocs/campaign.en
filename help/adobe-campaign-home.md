@@ -14,8 +14,6 @@ topic: Premium
 
 * **[What is Adobe Campaign](start/get-started.md)** - Key capabilities and use cases
 
-* **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
-
 * **[What's new in v8](start/whats-new.md)** - Discover Campaign v8 capabilities
 
 * **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
