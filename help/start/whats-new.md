@@ -12,7 +12,6 @@ level: Beginner
 
 ## Major changes
 
-
 ### Scale
 
 Campaign v8 brings end-to-end scale at any step of the process, from Targeting to the final reporting:

@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#campaign-documentation}
 
-![](assets/do-not-localize/ACCv8.png) 
+![](assets/ACCv8.png) 
 
 ## What's New
 
@@ -20,7 +20,7 @@ topic: Premium
 
 ## Get started
 
-* **[Connect to Campaign](start/audiences.md)** - Install Campaign Client Console and connect
+* **[Connect to Campaign](start/connect.md)** - Install Campaign Client Console and connect
 
 * **[Import your recipients](start/profiles.md)** - Learn how to import profiles in Campaign
 
