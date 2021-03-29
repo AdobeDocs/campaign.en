@@ -16,7 +16,7 @@ level: Beginner
 
 ## Check your Campaign version
 
-The** Help > About…** menu lets you access the following information:
+The **Help > About…** menu lets you access the following information:
 
 * the version number for Campaign client console and application server
 * the build number for Campaign client console and application server
