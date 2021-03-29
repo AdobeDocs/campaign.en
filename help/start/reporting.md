@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Get started with Campaign reports
 description: Get started with Campaign reporting capabilities
-feature: Audiences
+feature: Overview
 role: Data Engineer
 level: Beginner
 ---

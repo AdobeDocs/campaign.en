@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns
-feature: Audiences
+feature: Overview
 role: Data Engineer
 level: Beginner
 ---

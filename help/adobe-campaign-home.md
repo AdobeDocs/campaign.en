@@ -26,7 +26,7 @@ topic: Premium
 
 * **[Create your first email](start/create-message.md)** - Discover steps to create and send an email
 
-* **[Orchestrate marketing campaigns](start/campaign-management.md)** - Use Campaign to plan, launch and measure campaigns across channels
+* **[Orchestrate marketing campaigns](start/campaigns.md)** - Use Campaign to plan, launch and measure campaigns across channels
 
 ## More resources
 
