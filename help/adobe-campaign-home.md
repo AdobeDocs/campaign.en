@@ -12,9 +12,13 @@ topic: Premium
 
 ## What's New
 
-* **[Smart start](start/get-started.md)** -  Learn how to start your implementation
+* **[What is Adobe Campaign](start/get-started.md)** - Key capabilities and use cases
+
+* **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
 
 * **[What's new in v8](start/whats-new.md)** - Discover Campaign v8 capabilities
+
+* **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
 
 * **[From Classic to v8](start/capability-matrix.md)** - Transitioning from Campaign Classic to v8? Learn key differences
 
@@ -38,7 +42,9 @@ topic: Premium
 
 [Integration with other solutions](start/integration.md)
 
+[Find support](start/support.md)
+
 
 ## Control Panel
 
-Campaign Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+Manage settings and track usages of your instances through Campaign Control Panel. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)

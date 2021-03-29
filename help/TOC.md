@@ -16,15 +16,19 @@ hide: yes
   + [Get started](start/get-started.md)
   + [What's new](start/whats-new.md)
   + [Capabilities](start/capability-matrix.md)
-  + [Connect to Campaign](start/connect.md)
   + [Profiles](start/profiles.md)
   + [Audiences](start/audiences.md)
   + [Campaigns](start/campaigns.md)
   + [Messages](start/create-message.md)
   + [Reports](start/reporting.md)
- + Technical articles {#tech}
++ Technical articles {#tech}
   + [Architecture](start/architecture.md)
   + [Replication and data](start/replication.md)
   + [Datamodel](start/datamodel.md)
   + [Integration](start/integration.md)
++ Deployment {#deploy}
+  + [Compatibility matrix](start/compatibility-matrix.md)
+  + [Connect to Campaign](start/connect.md)
+  + [Implementation steps](start/implementation.md)
+  + [Help & Support](start/support.md)
 

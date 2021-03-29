@@ -54,3 +54,9 @@ For more on cross-solution and authentication integrations, refer to [this secti
 Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign Classic Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 As an existing Campaign Classic user, learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
+
+## Workspace and customization
+
+Learn how to use Campaign workspace in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+
+Learn how to customize lists in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
