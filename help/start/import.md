@@ -39,3 +39,11 @@ DETAILS TO ADD + LINK
 ## Collect profiles through web apps
 
 DETAILS TO ADD + LINK
+
+
+**What's next?**
+
+* [Create audiences](audiences.md)
+* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
+

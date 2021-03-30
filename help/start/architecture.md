@@ -27,4 +27,4 @@ General communication between servers and processes is carried out according to 
 >
 
 
-TO BE CONTINUED...
+
