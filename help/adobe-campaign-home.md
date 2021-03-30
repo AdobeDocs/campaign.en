@@ -24,7 +24,7 @@ topic: Premium
 
 * **[Connect to Campaign](start/connect.md)** - Install Campaign Client Console and connect
 
-* **[Import your recipients](start/profiles.md)** - Learn how to import profiles in Campaign
+* **[Import your recipients](start/import.md)** - Learn how to import profiles in Campaign
 
 * **[Create your first email](start/create-message.md)** - Discover steps to create and send an email
 
