@@ -51,7 +51,7 @@ For more on cross-solution and authentication integrations, refer to [this secti
 
 ## More about Campaign capabilities {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign Classic Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 As an existing Campaign Classic user, learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
 
