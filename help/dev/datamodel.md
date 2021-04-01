@@ -38,5 +38,5 @@ The default delivery template for email is **mailRcpXl**
 
 See also:
 
-* Discover how to import profiles in [this section](import.md)
-* Learn more about Campaign audiences in [this section](audiences.md)
+* Discover how to import profiles in [this section](../start/import.md)
+* Learn more about Campaign audiences in [this section](../start/audiences.md)
