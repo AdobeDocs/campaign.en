@@ -37,8 +37,8 @@ Some Campaign modules operate continuously, while others are started up occasion
 
 There are three types of Adobe Campaign modules:
 
-* Multi-instance modules: a single process is run for all instances. This applies to the following modules: web, syslogd, trackinglogd and watchdog (activities from the config-default.xml file).
-* Mono-instance modules: one process is run per instance. This applies to the following modules: mta, wfserver, inMail, sms and stat (activities from the config-<instance>.xml file).
+* Multi-instance modules: a single process is run for all instances. This applies to the following modules: web, syslogd, trackinglogd and watchdog.
+* Mono-instance modules: one process is run per instance. This applies to the following modules: mta, wfserver, inMail, sms and stat.
 * Utility modules: these are modules that are run occasionally to perform occasional or recurrent operations (cleanup, config, downloading tracking logs, etc.).
 
 The main processes are:
