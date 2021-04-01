@@ -12,6 +12,8 @@ level: Beginner
 
 ## Basics
 
+TO DO
+
 ## Built-in profile table {#ootb-profiles}
 
 The built-in Recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.

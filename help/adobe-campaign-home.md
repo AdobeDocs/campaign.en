@@ -32,7 +32,7 @@ topic: Premium
 
 ## More resources
 
-[Architecture](start/architecture.md)
+[Architecture](dev/architecture.md)
 
 [Speed and scale](start/whats-new.md)
 

@@ -15,6 +15,7 @@ hide: yes
 + Start {#start}
   + [Get started](start/get-started.md)
   + [What's new](start/whats-new.md)
+  + [Release notes](start/release-notes.md)
   + [Capabilities](start/capability-matrix.md)
   + [Audiences](start/audiences.md)
   + [Import](start/import.md)
@@ -24,11 +25,19 @@ hide: yes
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
-  + [Implementation steps](start/implement.md)
   + [Help & Support](start/support.md)
 + Configure {#config}
-  + [Architecture](start/architecture.md)
   + [Manage data](start/replication.md)
-  + [Datamodel](start/datamodel.md)
-  + [Integration](start/integration.md)
-
+  + [Datamodel](dev/datamodel.md)
++ Implement {#implement}
+  + [Implementation steps](start/implement.md)
+  + [Connectors](start/connectors.md)
+  + [Multi-solutions](start/integration.md)
++ Developer resources {#architecture}
+  + [Sytems and versions](start/compatibility-matrix.md)
+  + Architecture {#architecture}
+    + [Global principles](dev/general-architecture.md)
+    + [Architecture](dev/architecture.md)
+  + APIs {#api}
+    + [Start with APIs](dev/api.md)
+    + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)

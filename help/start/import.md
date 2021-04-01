@@ -15,7 +15,7 @@ Campaign helps you add contacts to the Cloud database. You can load a file, sche
 See also:
 
 * Get started with [audiences](audiences.md)
-* Understand Campaign [datamodel](datamodel.md)
+* Understand Campaign [datamodel](../dev/datamodel.md)
 
 ## Import profiles in a workflow
 

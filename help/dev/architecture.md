@@ -22,8 +22,8 @@ General communication between servers and processes is carried out according to 
 
 >[!NOTE]
 >
-> As an existing Campaign Classic user, note that all deliveries go through MID server. “Hybrid” is then the new Standard (and only) architecture.
-> Internal routing is not available anymore and then the external account has been disabled accordingly.
+> If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server (MID. Campaign v8 relies on a hybrid architecture.
+> As a consequence, internal routing is not possible in Campaign v8, and the external account has been disabled accordingly.
 >
 
 
