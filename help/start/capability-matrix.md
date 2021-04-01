@@ -37,4 +37,6 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Integration with Adobe Analytics Data Connectors
 * Legacy SMS connectors
 * Oracle CRM Connector
+* Connection through LDAP
+* ACS Connector (Prime offering)
 
