@@ -22,6 +22,7 @@ hide: yes
   + [Campaigns](start/campaigns.md)
   + [Messages](start/create-message.md)
   + [Reports](start/reporting.md)
+  + [FAQ](start/campaign-faq.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
