@@ -8,21 +8,11 @@ role: Data Engineer
 level: Beginner
 ---
 
-# Help & support options for Campaign Classic {#help-support-options}
+# Help & support options for Campaign v8 {#help-support-options}
 
-Get support using our FAQs, best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue.
-
-<table>
-    <tr>
-        <td><img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Common issues and best practices</a></p></td>
-        <td><img src="platform/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Campaign Control Panel</a></p></td>
-        <td><img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Request for help</a></p></td>
-    </tr>
-</table>
+Get support using our FAQs, best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue
 
 ## Common issues and best practices {#faq}
-
-<img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 ### Frequently Asked Questions
 
@@ -32,11 +22,9 @@ ADD + Update table from [here](https://experienceleague.adobe.com/docs/campaign-
 
 ## Campaign Control Panel {#control-panel}
 
-<img src="platform/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
-
 ### What is Control Panel?
 
-Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign Classic, by allowing you to manage settings and track usages for each of your instances.
+Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign, by allowing you to manage settings and track usages for each of your instances.
 [Click here](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html) for more information.
 
 ### How to access Control Panel?
@@ -60,20 +48,18 @@ You can monitor your subdomains and their certificates. Learn more:
 
 ### Instance settings
 
-Learn how to manage your Campaign Classic instances settings in the Control Panel. Learn more:
+Learn how to manage your Campaign instances settings in the Control Panel. Learn more:
 * [IP on the allow list](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html)
 * [URL permissions](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html)
 * [Instance details](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html)
 
 ## Request for help {#support}
 
-<img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
-
 The new ticketing system has been launched through [Adobe Admin Console](https://adminconsole.adobe.com/overview). The new system requires new individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
-Join Campaign Classic Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+Join Campaign Community: search for answers in existing question or ask your question to the community. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 ### Access Campaign Download Center
 
