@@ -6,8 +6,8 @@ description: Get started with messages
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
-
 # Get Started with messages{#gs-ac-audiences}
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.

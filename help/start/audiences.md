@@ -6,8 +6,8 @@ description: Get started with audiences
 feature: Audiences
 role: Data Engineer
 level: Beginner
+exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 ---
-
 # Get Started with audiences{#gs-ac-audiences}
 
 Profiles can be grouped in lists or collected by querying the database.

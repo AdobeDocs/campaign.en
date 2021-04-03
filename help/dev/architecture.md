@@ -6,8 +6,8 @@ description: Get started with Campaign architecture
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 ---
-
 # Get Started with Campaign architecture{#gs-ac-archi}
 
 ## Mid-sourcing deployment{#mid-sourcing-deployment}
@@ -25,6 +25,3 @@ General communication between servers and processes is carried out according to 
 > If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server (MID. Campaign v8 relies on a hybrid architecture.
 > As a consequence, internal routing is not possible in Campaign v8, and the external account has been disabled accordingly.
 >
-
-
-

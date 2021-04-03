@@ -6,8 +6,8 @@ description: Get started with CRM connectors
 feature: Audiences
 role: Data Engineer
 level: Beginner
+exl-id: 540ac251-b873-4402-8bc5-f9ad849b2363
 ---
-
 # Connect Campaign and external systems {#gs-ac-connectors}
 
 Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data.

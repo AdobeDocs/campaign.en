@@ -3,8 +3,8 @@ solution: Campaign Classic
 product: campaign
 title: General architecture
 description: Campaign v8 general architecture
+exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 ---
-
 # General architecture{#general-architecture}
 
 The typical Adobe Campaign solution deployment consists of the following components:

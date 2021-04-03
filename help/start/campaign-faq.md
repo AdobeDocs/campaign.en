@@ -6,8 +6,8 @@ description: Discover Campaign common Q&A
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: f5688357-db90-4f88-9596-91e9d0a20d75
 ---
-
 # Frequently Asked Questions{#faq}
 
 Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
@@ -53,4 +53,3 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
     Use Campaign Control Panel to set up domain delegation. [Click here to learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
-
