@@ -6,8 +6,7 @@ description: Learn systems and versions compatible with Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 870a336f-94ac-4171-891b-67614feef6ef
-exl-id: bebdd930-c7f6-4629-a489-3c704b33f058
+exl-id: 870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058
 ---
 # Campaign v8 compatibility matrix
 
