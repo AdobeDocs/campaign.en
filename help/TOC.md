@@ -12,16 +12,18 @@ hide: yes
 # Adobe Campaign v8 documentation {#campaign-help-center}
 
 + [Product documentation](adobe-campaign-home.md)
-+ Start {#start}
-  + [Get started](start/get-started.md)
++ What's new? {#start}
   + [What's new](start/whats-new.md)
   + [Release notes](start/release-notes.md)
-  + [Capabilities](start/capability-matrix.md)
-  + [Audiences](start/audiences.md)
-  + [Import](start/import.md)
-  + [Campaigns](start/campaigns.md)
-  + [Messages](start/create-message.md)
-  + [Reports](start/reporting.md)
+  + [Sytems and versions](start/compatibility-matrix.md)
+  + [Classic v7 to v8](start/capability-matrix.md)
++ Start {#start}
+  + [Get started](start/get-started.md)
+  + [Profiles & Audiences](start/audiences.md)
+  + [Import data](start/import.md)
+  + [Create campaigns](start/campaigns.md)
+  + [Send messages](start/create-message.md)
+  + [Metrics and reports](start/reporting.md)
   + [FAQ](start/campaign-faq.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
@@ -35,7 +37,6 @@ hide: yes
   + [Connectors](start/connectors.md)
   + [Multi-solutions](start/integration.md)
 + Developer resources {#architecture}
-  + [Sytems and versions](start/compatibility-matrix.md)
   + Architecture {#architecture}
     + [Global principles](dev/general-architecture.md)
     + [Architecture](dev/architecture.md)
