@@ -6,8 +6,8 @@ description: Get started with profiles
 feature: Profiles
 role: Data Engineer
 level: Beginner
+exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 ---
-
 # Import data into Campaign {#ootb-profiles}
 
 Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profiles info directly into the recipient table. 
@@ -46,4 +46,3 @@ DETAILS TO ADD + LINK
 * [Create audiences](audiences.md)
 * [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
 * [Enrich profile data](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
-

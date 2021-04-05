@@ -6,8 +6,8 @@ description: Learn systems and versions compatible with Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058
 ---
-
 # Campaign v8 compatibility matrix
 
 This document lists all systems and components supported for [the latest build](release-notes.md) of **Adobe Campaign v8**. Products and versions that are not part of this list are not compatible with Adobe Campaign.

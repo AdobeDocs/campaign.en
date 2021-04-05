@@ -6,8 +6,8 @@ description: Understand differences between Campaign Classic and Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 7105477f-d29e-4af8-8789-82b4459761b0
 ---
-
 # Campaign Classic - Campaign v8 capabilities{#gs-matrix}
 
 As a Campaign Classic user, note that most of the Campaign Classic features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more](#gs-unavailable-features)
@@ -39,4 +39,3 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Oracle CRM Connector
 * Connection through LDAP
 * ACS Connector (Prime offering)
-

@@ -6,8 +6,8 @@ description: Get started with Campaign reporting capabilities
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: e7931de5-83ce-431d-ae81-83793d257550
 ---
-
 # Get Started with reporting{#gs-ac-reports}
 
 Adobe Campaign provides a set of reporting tools:

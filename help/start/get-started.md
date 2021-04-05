@@ -6,8 +6,8 @@ description: Discover key capabilities, user interface and global guidelines
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 ---
-
 # Get Started with Campaign v8{#gs-ac-v8}
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.

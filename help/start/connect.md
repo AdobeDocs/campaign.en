@@ -6,8 +6,8 @@ description: Connect to Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
+exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
-
 # Connect to Adobe Campaign v8{#gs-ac-connect}
 
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
