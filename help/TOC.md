@@ -40,5 +40,5 @@ hide: yes
     + [Global principles](dev/general-architecture.md)
     + [Architecture](dev/architecture.md)
   + APIs {#api}
-    + [Start with APIs](dev/api.md)
+    + [Get started](dev/api.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
