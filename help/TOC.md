@@ -13,7 +13,7 @@ hide: yes
 
 + [Product documentation](adobe-campaign-home.md)
 + What's new? {#start}
-  + [What's new](start/whats-new.md)
+  + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
   + [Sytems and versions](start/compatibility-matrix.md)
   + [Classic v7 to v8](start/capability-matrix.md)
