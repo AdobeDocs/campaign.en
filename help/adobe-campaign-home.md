@@ -6,6 +6,7 @@ title: Adobe Campaign v8 product documentation
 topic: Premium
 exl-id: 9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 ---
+
 # Help Center {#campaign-documentation}
 
 ![](assets/banner-documentationv8.png) 
@@ -38,9 +39,9 @@ exl-id: 9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 
 [Measure and track](start/reporting.md)
 
-[Integration with other solutions](start/integration.md)
+[Integrate with other solutions](start/integration.md)
 
-[Find support](start/support.md)
+[Help & support](start/support.md)
 
 
 ## Control Panel
