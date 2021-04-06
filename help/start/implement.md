@@ -28,6 +28,8 @@ In this section, you will learn how to adjust Adobe Campaign to the requirements
 
 You can manually add users to Cammaign and associate them with groups, aligned with your role hierarchy. Users will then be able to log in and access the data and permilssions which are appropriate for them.
 
+Learn how to add users to Adobe Campaign in this section.
+
 ## Extend your deployment
 
 You can customize many different Campaign areas and capabilities. Most of our customers customize three things:
