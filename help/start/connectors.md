@@ -14,7 +14,7 @@ Adobe Campaign comes with several connectors that allow you to communicate with 
 
 Check compatible systems and versions in [this page](compatibility-matrix.md).
 
-## CRM Connectors
+## CRM Connectors{#gs-crm-connectors}
 
 You can connect your Adobe Campaign platform to your CRM third-party systems and synchronize data: contacts, accounts, purchases, etc. 
 
@@ -24,7 +24,7 @@ CRM connectors enable quick and easy data integration: Adobe Campaign provides a
 Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-connectors.html).
 
 
-## Federated Data Access (FDA)
+## Federated Data Access (FDA){#gs-fda}
 
 Use the FDA Connector (Federated Data Access) to connect Campaign to one or more external databases and process information stored into them without affecting your Campaign Cloud Database data. you can access external data without changing the structure of Adobe Campaign data.
 

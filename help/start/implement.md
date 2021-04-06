@@ -24,6 +24,32 @@ In this section, you will learn how to adjust Adobe Campaign to the requirements
 * Design your workflows
 * Extend your deployment
 
+## Multi-solutions implementation
+
+Discover the full list of Adobe solution which can be integrated with Adobe Campaign in this page. 
+
+* Connect to Campaign with an AdobeID
+* Campaign - Journey Orchestration
+* Campaign - Real-time CDP
+* Campaign - Experience Cloud Triggers
+* Campaign - Experience Manager
+* Campaign - Target
+* Campaign - Audience Manager / People core service
+* Campaign - Asset
+* Campaign - Analytics Data connectors
+
+## Connectors
+
+You can connect Campaign with third-party systems to combine a large range of capabilities. Learn more in [this section](connectors.md).
+
+## Connect your CRM to Campaign
+
+You can connect your Adobe Campaign platform to your CRM third-party systems and synchronize data: contacts, accounts, purchases, etc.  Learn how to connect your CRM system to Campaign in [this section](connectors.md#gs-crm-connectors)
+
+## Connect to an external database
+
+You can connect Campaign Cloud database to external systems. Learn how to configure Campaign FDA module to define access parameters in [this section](connectors.md#gs-fda)
+
 ## Add users and grant permissions
 
 You can manually add users to Cammaign and associate them with groups, aligned with your role hierarchy. Users will then be able to log in and access the data and permilssions which are appropriate for them.

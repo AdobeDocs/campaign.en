@@ -31,6 +31,7 @@ Please note that some capabilities are not available in this first version but w
 To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic capabilities are not available in Campaign v8.
 
 * Coupons
+* Connection with LDAP
 * Web tracking
 * Surveys
 * Social Marketing
