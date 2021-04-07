@@ -60,19 +60,19 @@ Learn how to add users to Adobe Campaign in this section.
 
 You can customize many different Campaign areas and capabilities. Most of our customers customize three things:
 
-1. Tables and schemas
+1. **Tables and schemas**
 
     Adobe Campaign comes with common schemas to identify data such as: recipients, delivery logs, subscriptions, and more. Refer to this section to learn more about Campaign built-in datamodel.
     
     You can extend existing schemas or create new schemas from scratch. Learn more in this page.
     
-1. Dashboards and lists
+1. **Dashboards and lists**
 
     You can easily configure lists, add and remove fields and customize columns. Learn more.
 
     You can also create new dashboard depending on your needs. Learn more.
 
-1. Reports
+1. **Reports**
 
     Campaign provides a set of built-in reports on delivery monitoring, URLs and click streams, tracking, deliverability indicators, and more.
 
