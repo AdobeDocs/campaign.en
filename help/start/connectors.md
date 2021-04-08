@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Get started with CRM connectors
-description: Get started with CRM connectors
+title: Get started with connectors
+description: Get started with connectors
 feature: Audiences
 role: Data Engineer
 level: Beginner
