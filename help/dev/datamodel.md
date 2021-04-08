@@ -10,9 +10,15 @@ exl-id: b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
 ---
 # Get started with Campaign data model{#gs-ac-datamodel}
 
-## Basics
+Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction.
 
-TO DO
+To access the description of each table, go to Admin > Configuration > Data schemas, select a resource from the list and click the **Documentation** tab.
+
+Adobe Campaign relies on a Cloud database containing tables that are linked together.
+
+The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields for each.
+
+ADD DIAGRAM
 
 ## Built-in profile table {#ootb-profiles}
 
