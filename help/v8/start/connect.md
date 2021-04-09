@@ -85,3 +85,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 The permissions apply to operator profiles or operator groups.
 
 Learn how to grant access to users and define their permissions in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html).
+
+## Web access
+
+Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
