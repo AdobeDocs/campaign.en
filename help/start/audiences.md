@@ -33,7 +33,7 @@ Learn more about lists and how to create and manage them in [this guide](https:/
 
 ## Query the database
 
-Use the **Query** activity in a woekflow to query your database, segment data and build complex audiences. 
+Use the **Query** activity in a workflow to query your database, segment data and build complex audiences. 
 
 Learn more about Campaign queries in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html).
 
