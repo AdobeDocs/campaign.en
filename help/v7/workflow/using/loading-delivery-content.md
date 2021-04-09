@@ -6,7 +6,7 @@ description: Loading delivery content
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
+exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85,f5005edb-47dd-4a77-a386-303f84bb2d84
 ---
 # Loading delivery content{#loading-delivery-content}
 

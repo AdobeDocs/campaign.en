@@ -8,7 +8,7 @@ content-type: reference
 index: y
 internal: n
 snippet: y
-exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
+exl-id: 93239192-37e5-4911-92c3-0300a0251be0,ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 

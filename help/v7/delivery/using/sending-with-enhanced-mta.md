@@ -6,7 +6,7 @@ description: Learn about the scope and the specificities of sending emails with 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
+exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91,aee92eef-e2d9-450b-90ba-69972a45cdba
 ---
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 

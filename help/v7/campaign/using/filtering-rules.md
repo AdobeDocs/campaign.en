@@ -6,7 +6,7 @@ description: Filtering rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
+exl-id: 6614ee26-6300-42de-9d5f-e5e6d80966a5,a4d12445-5680-4704-9c67-e43e0ea6631b
 ---
 # Filtering rules{#filtering-rules}
 

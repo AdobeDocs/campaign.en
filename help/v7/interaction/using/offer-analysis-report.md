@@ -6,7 +6,7 @@ description: Offer analysis report
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
+exl-id: 3be26146-81ef-4d08-9b38-9b064427123a,44c57b0c-3561-4943-812f-945f5fcbb142
 ---
 # Offer analysis report{#offer-analysis-report}
 

@@ -6,7 +6,7 @@ description: Element layout
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
+exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f,9f5fc017-1041-4e81-8c76-a43ae70e0283
 ---
 # Element layout{#element-layout}
 

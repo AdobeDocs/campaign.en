@@ -5,7 +5,9 @@ title: Technote
 description: Technote
 hide: yes
 hidefromtoc: yes
-exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
+exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4,fae8b3a5-065d-4302-a087-6ef188b7f4bb
+robots: noindex
+googlebot: noindex
 ---
 # Adobe Campaign configuration updates - March 2021 {#acc-config-updates}
 

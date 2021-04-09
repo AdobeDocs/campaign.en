@@ -6,7 +6,7 @@ description: Manage data between Campaign and your CRM
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
+exl-id: 7f9eda15-76e8-40a1-8302-004cea085778,df444f00-8fe1-4637-aa4c-97002132e3e2
 ---
 # Synchronize data between Campaign and the CRM {#data-synchronization}
 

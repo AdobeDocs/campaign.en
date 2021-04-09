@@ -6,7 +6,7 @@ description: Managing activity images
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
+exl-id: 6bebcbb7-eab3-4e71-ac37-d7812fd44c0a,cafdbc10-9c10-4d42-a485-c9880df8d371
 ---
 # Managing activity images{#managing-activity-images}
 

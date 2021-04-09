@@ -6,7 +6,7 @@ description: Data schemas
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
+exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b,4022d1be-12eb-44c3-b00f-81316cadcf6e
 ---
 # Data schemas{#data-schemas}
 

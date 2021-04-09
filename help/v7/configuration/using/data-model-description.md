@@ -6,7 +6,7 @@ description: This document describes the Adobe Campaign data model.
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
+exl-id: 41a1c5a2-e36a-446c-aa1e-0bcab39d2bf8,fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 ---
 # Campaign data model description{#data-model-description}
 

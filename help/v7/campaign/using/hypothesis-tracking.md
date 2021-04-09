@@ -6,7 +6,7 @@ description: Hypothesis tracking
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
+exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df,c58adcee-7fb2-4b33-9935-f0459352a911
 ---
 # Hypothesis tracking{#hypothesis-tracking}
 

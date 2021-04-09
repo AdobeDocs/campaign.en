@@ -6,7 +6,7 @@ description: Exporting and importing profiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
-exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
+exl-id: e68f21b1-5c52-4e20-bcbc-72fc5210029c,fd0f7b6e-84e1-442d-ae88-817fb6758d64
 ---
 # Import and export profiles{#exporting-and-importing-profiles}
 

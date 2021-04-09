@@ -6,7 +6,7 @@ description: Defining the direct mail content
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
+exl-id: 1ad54153-9cef-41c1-9609-faf06ff95cad,585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Defining the direct mail content{#defining-the-direct-mail-content}
 

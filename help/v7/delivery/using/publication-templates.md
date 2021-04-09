@@ -6,7 +6,7 @@ description: Publication templates
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
+exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91,5dda2274-c8c7-4d98-a3fa-91c5f274e365
 ---
 # Publication templates{#publication-templates}
 

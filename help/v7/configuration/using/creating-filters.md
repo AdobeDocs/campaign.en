@@ -6,7 +6,7 @@ description: Creating filters
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
+exl-id: 350977d1-2027-483d-8605-97eca85ebb53,6fad3dac-9af0-4796-adcf-d1de4b255aca
 ---
 # Creating filters{#creating-filters}
 

@@ -6,7 +6,7 @@ description: Learn how to send transactional emails with individual and/or perso
 audience: message-center
 content-type: reference
 topic-tags: use-case
-exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
+exl-id: 16e8b3d4-1e43-445a-a4f3-f4d87de8edbd,755d2364-f6c4-4943-97e8-3ed52a0f2665
 ---
 # Use case: Sending transactional emails with attachments{#transactional-email-with-attachments}
 

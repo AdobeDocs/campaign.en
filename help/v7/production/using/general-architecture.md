@@ -6,7 +6,7 @@ description: General architecture
 audience: production
 content-type: reference
 topic-tags: introduction
-exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
+exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e,f0148edd-aaee-4615-b060-15bbb3d3aa56
 ---
 # General architecture{#general-architecture}
 

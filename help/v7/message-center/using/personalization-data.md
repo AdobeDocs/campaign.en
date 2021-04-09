@@ -6,7 +6,7 @@ description: Personalization data
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 587d48aa-43ae-41c5-a0e3-6805a0e9b6a4
+exl-id: 587d48aa-43ae-41c5-a0e3-6805a0e9b6a4,92485660-b370-4d8b-9005-a438faff6c9f
 ---
 # Personalization data{#personalization-data}
 

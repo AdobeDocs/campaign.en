@@ -6,7 +6,7 @@ description: About web tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
+exl-id: 91c31703-75e6-47a4-a877-35682dd687a9,f23c4793-f18d-4d46-911c-a95b088144d3
 ---
 # About web tracking{#about-web-tracking}
 

@@ -6,7 +6,7 @@ description: Event collection
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-exl-id: 63cde1c2-8f4c-4cb0-aa98-0c42f9e5f3c6
+exl-id: 63cde1c2-8f4c-4cb0-aa98-0c42f9e5f3c6,e895dbdb-7f82-4238-afc4-40528a02746a
 ---
 # Event collection{#event-collection}
 

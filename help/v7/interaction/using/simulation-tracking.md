@@ -6,7 +6,7 @@ description: Simulation tracking
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
+exl-id: 148fc4d9-4f6b-4a34-9179-7ad87b75f8ff,490ebbea-9bdc-453e-8a02-c02b095e55e9
 ---
 # Simulation tracking{#simulation-tracking}
 

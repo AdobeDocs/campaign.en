@@ -6,7 +6,7 @@ description: Message Center service level
 audience: message-center
 content-type: reference
 topic-tags: reports
-exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
+exl-id: 23061e3e-66b3-46e4-8bfa-9e94b8c10e63,b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
 # Message Center service level{#message-center-service-level}
 

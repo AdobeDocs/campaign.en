@@ -6,7 +6,7 @@ description: Conditional content
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
+exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11,c9e9eb68-d9ec-45cb-b62e-9ff03f0c3dc1
 ---
 # Conditional content{#conditional-content}
 

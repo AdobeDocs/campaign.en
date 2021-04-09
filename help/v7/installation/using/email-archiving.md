@@ -6,7 +6,7 @@ description: Email archiving
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
+exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190,700af435-da0c-4042-8563-2781977f0efa
 ---
 # Email BCC {#email-archiving}
 

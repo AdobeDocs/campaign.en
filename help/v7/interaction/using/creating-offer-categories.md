@@ -6,7 +6,7 @@ description: Creating offer categories
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
+exl-id: 9d51b736-d396-47de-bc03-c639819f51c6,ed97a1b5-c870-4b67-98b6-16adc316fd46
 ---
 # Creating offer categories{#creating-offer-categories}
 

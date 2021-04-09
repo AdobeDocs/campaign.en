@@ -6,7 +6,7 @@ description: Approvals enable operators to make decisions governing a workflow o
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
+exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281,ca4d0a01-9464-48fc-80a2-d77198407135
 ---
 # Defining approvals {#defining-approvals}
 

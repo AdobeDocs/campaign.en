@@ -6,7 +6,7 @@ description: Loading (SOAP)
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
+exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0,71def9f2-4642-4722-ad1f-8498cc7f464b
 ---
 # Loading (SOAP){#loading-soap}
 

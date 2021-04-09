@@ -6,7 +6,7 @@ description: This page lists all the new features and updates in Adobe Campaign 
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91,fb4f48fd-8b65-4eb7-bcf7-5adf25f0001b
 ---
 # Documentation Updates{#documentation-updates}
 

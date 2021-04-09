@@ -6,7 +6,7 @@ description: Learn how to configure access to SAP HANA in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
+exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90,47619d6f-1daa-497e-a923-e92260249f92
 ---
 # Configure access to SAP HANA {#configure-access-to-sap-hana}
 

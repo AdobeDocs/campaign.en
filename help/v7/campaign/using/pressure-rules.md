@@ -6,7 +6,7 @@ description: Pressure rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
+exl-id: 8f6f7b47-71e0-4fca-ab4c-de84a9880234,c23212f2-fdf8-4820-b389-546f7c84db27
 ---
 # Pressure rules{#pressure-rules}
 

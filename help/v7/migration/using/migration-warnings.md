@@ -6,7 +6,7 @@ description: Migration warnings
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520
+exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520,53c61985-14ff-4c69-870d-f929aaf1eef9
 ---
 # Migration warnings{#migration-warnings}
 

@@ -6,7 +6,7 @@ description: Learn more about the Deduplication workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 38add4fe-6238-45de-863e-895ebca189b7
+exl-id: 38add4fe-6238-45de-863e-895ebca189b7,c3841835-50b7-4331-9599-6d32c17bcc2c
 ---
 # Deduplication{#deduplication}
 
@@ -15,7 +15,8 @@ Deduplication deletes duplicates from the results of inbound activities. Dedupli
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. For example, the records below could be considered duplicate as they have the same email address and same mobile and/or home phone.
 
 Last modification date | First Name | Last Name | Email | Mobile Phone | Phone
------|------------|-----------|-------|--------------|------
+-----|------------|-----------|-------|--------------|---
+---
 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
@@ -23,7 +24,8 @@ Last modification date | First Name | Last Name | Email | Mobile Phone | Phone
 The **[!UICONTROL Deduplication]** activity has the capability to keep an entire row as the unique record after duplicates were identified. For example, in the above use case, if the activity is configured to keep only the record with the oldest **[!UICONTROL Date]**, the result would be:
 
 Date | First Name | Last Name | Email | Mobile Phone | Phone
------|----------|------------|-------|--------------|------
+-----|----------|------------|-------|--------------|---
+---
 02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888
 
 The master record selected will carry forward the data without any merging of field data with other relevant data in the duplicate rows.
@@ -31,7 +33,8 @@ The master record selected will carry forward the data without any merging of fi
 Complement:
 
 Date | First Name | Last Name | Email | Mobile Phone | Phone
------|------------|-----------|-------|--------------|------
+-----|------------|-----------|-------|--------------|---
+---
 05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
 07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777
 

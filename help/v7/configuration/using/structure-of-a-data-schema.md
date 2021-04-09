@@ -6,7 +6,7 @@ description: Structure of a data schema
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
+exl-id: 5726863f-561a-4bff-aefe-2e5fca927377,86036f2f-ec7c-413e-b1e1-10a71a06cd6d
 ---
 # Structure of a data schema{#structure-of-a-data-schema}
 

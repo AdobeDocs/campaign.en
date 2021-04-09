@@ -5,7 +5,9 @@ title: Technote
 description: Technote
 hide: yes
 hidefromtoc: yes
-exl-id: d288fe86-0564-45f2-8777-606abdea531f
+exl-id: 86b9a406-f527-48de-a6a4-cc58d6a08caf,d288fe86-0564-45f2-8777-606abdea531f
+robots: noindex
+googlebot: noindex
 ---
 # Technote {#about}
 

@@ -6,7 +6,7 @@ description: Restricting PII view
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
+exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4,f71dab93-d548-4f59-9fce-ca5ba400b57d
 ---
 # Restrict PI view{#restricting-pii-view}
 

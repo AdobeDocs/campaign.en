@@ -6,7 +6,7 @@ description: Create your first survey with Campaign
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
+exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f,a736bf0d-71b3-4c95-a55d-b5febd18f2ea
 ---
 # Key steps to create a survey{#getting-started-with-surveys}
 

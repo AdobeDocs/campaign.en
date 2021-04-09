@@ -6,7 +6,7 @@ description: Integration into a Web server for Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a,8ed6da38-1ebd-4952-a857-e13c42394cf9
 ---
 # Integration into a Web server for Windows{#integration-into-a-web-server-for-windows}
 

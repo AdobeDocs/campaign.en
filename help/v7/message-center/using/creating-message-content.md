@@ -6,7 +6,7 @@ description: Creating message content
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 0528c856-5dc2-4b8c-a389-f615a9052a9e
+exl-id: 0528c856-5dc2-4b8c-a389-f615a9052a9e,15b8ccec-3e8f-4e2d-b94a-95c3c54425d4
 ---
 # Creating message content{#creating-message-content}
 

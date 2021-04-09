@@ -6,7 +6,7 @@ description: Campaign network endpoints
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
+exl-id: 027ed2b6-365f-434f-9a18-2140512168e9,ad9c2cd3-b4ce-4a49-b986-56f89eabc16c
 ---
 # Campaign network endpoints {#campaign-standard-network-endpoints}
 

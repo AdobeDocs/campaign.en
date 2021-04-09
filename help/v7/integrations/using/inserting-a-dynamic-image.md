@@ -6,7 +6,7 @@ description: Inserting a dynamic image
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
+exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77,da94a665-cccc-40a0-8f38-661c64fd7912
 ---
 # Inserting Target dynamic content {#inserting-a-dynamic-image}
 

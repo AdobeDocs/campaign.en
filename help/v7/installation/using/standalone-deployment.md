@@ -6,7 +6,7 @@ description: Standalone deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
+exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2,5c43cd18-f3c6-41bc-8d73-8af6df2cb6c7
 ---
 # Standalone deployment{#standalone-deployment}
 

@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
+exl-id: 5c898c2c-8c78-4a19-a794-aff9f6b7feb8,d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 ---
 # dbindex element {#dbindex--element}
 

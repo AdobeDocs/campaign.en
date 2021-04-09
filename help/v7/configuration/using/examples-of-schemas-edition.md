@@ -6,7 +6,7 @@ description: Examples of schemas edition
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
+exl-id: 3a1e60ae-8f33-4c2c-9052-6cb0f01d403c,b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 ---
 # Examples of schemas edition{#examples-of-schemas-edition}
 

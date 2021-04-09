@@ -6,7 +6,7 @@ description: Learn more about the Delivery outline workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
+exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa,eec1f18d-42dd-4f2a-bdd2-6d2a2149f6ab
 ---
 # Delivery outline{#delivery-outline}
 

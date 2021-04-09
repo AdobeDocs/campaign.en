@@ -6,7 +6,7 @@ description: Troubleshooting
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
+exl-id: 0a6db3f8-8065-405e-9449-c0c7ecfd5dde,61bb184e-affa-430c-8571-56e911cd5a3d
 ---
 # Troubleshooting{#troubleshooting}
 

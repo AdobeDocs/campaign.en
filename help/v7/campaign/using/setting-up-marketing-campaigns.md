@@ -6,7 +6,7 @@ description: Learn how to create and execute marketing campaigns
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
+exl-id: 3dff8f5e-66a8-4c4e-8fb8-ef3fbd13af98,a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 ---
 # Get started with marketing campaigns{#setting-up-marketing-campaigns}
 

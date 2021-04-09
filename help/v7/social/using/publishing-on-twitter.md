@@ -6,7 +6,7 @@ description: Publishing on Twitter
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
+exl-id: 28582d94-8758-4b3f-bc01-50324a69fbc0,e030c029-d1ee-4749-94e3-6bdfc8d89a34
 ---
 # Publishing on Twitter{#publishing-on-twitter}
 

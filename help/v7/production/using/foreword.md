@@ -6,7 +6,7 @@ description: Foreword
 audience: production
 content-type: reference
 topic-tags: introduction
-exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
+exl-id: 84dd0c06-14b0-4f1e-8529-fb802dc5e76c,c9e92fec-383e-46ba-bce1-183ac8f637de
 ---
 # Foreword{#foreword}
 

@@ -6,7 +6,7 @@ description: Approving and activating an offer
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
+exl-id: 5dbe451f-0523-4a0a-9fd5-d2bde69903a0,cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 ---
 # Approving and activating an offer{#approving-and-activating-an-offer}
 

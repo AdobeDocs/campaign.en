@@ -6,7 +6,7 @@ description: Integrating with Adobe Target
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
+exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04,41473010-05b2-4ede-8e53-0601d8dbd108
 ---
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 

@@ -6,7 +6,7 @@ description: Creating a shared connection
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
+exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee,8d6abc35-1aa2-485f-b4be-c051d3faad77
 ---
 # Creating a shared connection{#creating-a-shared-connection}
 

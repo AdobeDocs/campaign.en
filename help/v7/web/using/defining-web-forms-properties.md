@@ -6,7 +6,7 @@ description: Defining web forms properties
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
+exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b,bea36383-d6e2-4ad3-84c6-59b2102f8fc3
 ---
 # Defining web forms properties{#defining-web-forms-properties}
 

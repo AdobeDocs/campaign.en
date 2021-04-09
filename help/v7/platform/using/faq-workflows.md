@@ -6,7 +6,7 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
+exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa,8a163cca-e12a-4726-a5e9-768aa6b50559
 ---
 # Workflows FAQ {#workflows-faq}
 

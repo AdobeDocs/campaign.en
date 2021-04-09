@@ -6,7 +6,7 @@ description: Configuring SpamAssassin
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
+exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5,c8eafd28-efc6-4bff-8d65-d6582784d1f9
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 

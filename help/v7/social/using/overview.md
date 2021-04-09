@@ -6,7 +6,7 @@ description: Overview
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
+exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a,f9788cb2-1a95-428a-b783-138ab403fec6
 ---
 # Overview{#overview}
 

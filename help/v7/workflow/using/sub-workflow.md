@@ -6,7 +6,7 @@ description: Learn more about the Sub-workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
+exl-id: 8d2bbce5-822a-4050-bff2-c35a4ecdc2df,bc64ca11-2c50-4896-b6c6-ae42c0315924
 ---
 # Sub-workflow{#sub-workflow}
 

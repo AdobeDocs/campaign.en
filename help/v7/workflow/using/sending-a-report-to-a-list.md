@@ -6,7 +6,7 @@ description: Learn how to send a report to a list with a workflow
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
+exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235,f8fb6309-4df2-4e75-a90e-defbfa6eab5f
 ---
 # Sending a report to a list{#sending-a-report-to-a-list}
 

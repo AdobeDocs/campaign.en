@@ -6,7 +6,7 @@ description: Learn more about generic imports and exports.
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
+exl-id: 2142c1ec-a427-485c-9c42-82aa5a5b4d1d,9ac13db3-552f-43cc-ab67-3aea82e0519e
 ---
 # Get started with import and export jobs {#about-generic-imports-exports}
 

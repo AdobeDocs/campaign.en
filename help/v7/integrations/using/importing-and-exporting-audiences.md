@@ -6,7 +6,7 @@ description: Importing and exporting audiences
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
+exl-id: 2f640946-08f6-45ad-ae4f-ab82212e540e,c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 ---
 # Importing and exporting audiences{#importing-and-exporting-audiences}
 

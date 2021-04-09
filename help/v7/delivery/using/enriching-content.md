@@ -6,7 +6,7 @@ description: Enriching content
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
+exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4,c02875a1-c012-4e0a-8e23-7e8587b50033
 ---
 # Enriching content{#enriching-content}
 

@@ -6,7 +6,7 @@ description: Connect Campaign and Microsoft Dynamics
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa,ff21bacc-c545-453f-8f3f-6bbfb946a1e2
 ---
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    

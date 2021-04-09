@@ -6,7 +6,7 @@ description: Configuring Campaign server
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
+exl-id: 12335803-9450-4215-82be-3e2ef9463c3b,46c8ed46-0947-47fb-abda-6541b12b6f0c
 ---
 # Get started with Campaign server configuration{#gs-campaign-server-config}
 

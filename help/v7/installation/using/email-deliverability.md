@@ -6,7 +6,7 @@ description: Learn how to configure Campaign to control the output of your insta
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 515adad2-6129-450a-bb9e-fc80127835af
+exl-id: 4c197ee0-ef1e-4cf0-8848-6eaf48f73a57,515adad2-6129-450a-bb9e-fc80127835af
 ---
 # Technical email configurations{#email-deliverability}
 

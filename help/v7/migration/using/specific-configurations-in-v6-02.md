@@ -6,7 +6,7 @@ description: Specific configurations in v6.02
 audience: migration
 content-type: reference
 topic-tags: configuration
-exl-id: 7e8f8488-f3ef-4b64-9981-335d67caf372
+exl-id: 1ec82337-22e3-49b1-bc33-77f8f4c77540,7e8f8488-f3ef-4b64-9981-335d67caf372
 ---
 # Specific configurations in v6.02{#specific-configurations-in-v6-02}
 

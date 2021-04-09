@@ -6,7 +6,7 @@ description: Creating predefined filters
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-exl-id: 399e9468-bf70-425d-af0b-72c29636b513
+exl-id: 036c132f-1609-447a-89af-08ffc36b83cb,399e9468-bf70-425d-af0b-72c29636b513
 ---
 # Creating predefined filters{#creating-predefined-filters}
 

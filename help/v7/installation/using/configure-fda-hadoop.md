@@ -6,7 +6,7 @@ description: Learn how to configure access to Hadoop in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
+exl-id: 674e637e-8451-46a4-aa86-93fe19c83362,e3a97e55-dd8b-41e1-b48c-816d973f62a8
 ---
 # Configure access to Hadoop {#configure-access-to-hadoop}
 

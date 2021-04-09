@@ -6,7 +6,7 @@ description: Use cases
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
+exl-id: bc6cb55b-b348-461e-85e2-2359c3fc1d37,e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
 # Use cases{#use-cases}
 

@@ -6,7 +6,7 @@ description: Database recommendations
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
+exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f,967632f5-d23f-4440-a5c9-43125d467fdc
 ---
 # Database{#database}
 

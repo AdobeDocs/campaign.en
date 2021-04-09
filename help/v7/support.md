@@ -1,10 +1,10 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Help & support options for Campaign Classic 
+title: Help & support options for Campaign Classic
 description: Need Support for Campaign Classic? You are at the right place!
 hidefromtoc: yes
-exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
+exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0,70ff1903-3ec8-4cbe-a211-99c5a8b7dc4a
 ---
 # Help & support options for Campaign Classic {#help-support-options}
 

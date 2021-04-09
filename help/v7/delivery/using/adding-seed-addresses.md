@@ -6,7 +6,7 @@ description: Adding seed addresses
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
+exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f,c314e290-fb6b-4f7a-87cf-ea51c00808fb
 ---
 # Add seed addresses{#adding-seed-addresses}
 

@@ -6,7 +6,7 @@ description: Types of maintenance
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
+exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92,79aaf19a-48d3-4d42-9214-621297498fa4
 ---
 # Types of maintenance{#types-of-maintenance}
 

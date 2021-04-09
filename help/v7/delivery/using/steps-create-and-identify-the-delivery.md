@@ -6,7 +6,7 @@ description: Creating and identifying the delivery
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
+exl-id: 28e5f9bf-5c12-4bad-a1c2-32a255b68425,6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 ---
 # Creating and identifying the delivery {#create-and-identify-the-delivery}
 

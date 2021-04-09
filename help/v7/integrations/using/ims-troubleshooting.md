@@ -6,7 +6,7 @@ description: IMS troubleshooting
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
+exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3,de3f9f5b-6aa6-49e2-af3c-73b2cc8bf678
 ---
 # IMS troubleshooting{#ims-troubleshooting}
 

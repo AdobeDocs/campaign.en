@@ -6,7 +6,7 @@ description: Learn more about the File transfer workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
+exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2,e16db618-fe4c-4fed-b031-eef6c8724325
 ---
 # File transfer{#file-transfer}
 

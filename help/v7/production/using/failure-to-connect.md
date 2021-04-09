@@ -6,7 +6,7 @@ description: Failure to connect
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
+exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848,608fdf8f-b1db-4f56-ba1e-e44c178c6d15
 ---
 # Failure to connect{#failure-to-connect}
 

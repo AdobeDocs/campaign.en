@@ -6,7 +6,7 @@ description: Synchronizing profiles
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
+exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e,e1773fa0-f603-4fd9-a939-467dc3e362af
 ---
 # Synchronizing profiles{#synchronizing-profiles}
 

@@ -6,7 +6,7 @@ description: Content editing best practices
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
+exl-id: 93cbc442-4d69-4ac5-be83-082d87311b15,c1eccb48-59bf-412f-9c18-9cda2a022096
 ---
 # Content editing best practices{#content-editing-best-practices}
 

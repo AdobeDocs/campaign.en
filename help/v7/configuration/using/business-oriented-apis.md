@@ -6,7 +6,7 @@ description: Business oriented APIs
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: e6638870-3141-4f12-b904-db436127c0d1
+exl-id: e6638870-3141-4f12-b904-db436127c0d1,ffb94919-d66d-412f-b806-e5b142d4e08c
 ---
 # Business oriented APIs{#business-oriented-apis}
 

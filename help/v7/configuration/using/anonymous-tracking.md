@@ -6,7 +6,7 @@ description: Anonymous tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
+exl-id: 32e333f0-0e76-4307-b110-8cf85ee01bef,f251eb21-0f3c-4b46-927a-57a3291e705f
 ---
 # Anonymous tracking{#anonymous-tracking}
 

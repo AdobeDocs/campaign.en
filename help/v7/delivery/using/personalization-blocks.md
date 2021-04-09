@@ -6,7 +6,7 @@ description: Personalization blocks
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
+exl-id: 662dd03c-5da9-48f7-b242-fb02e5b51195,8d155844-d18a-4165-9886-c3b144109f6e
 ---
 # Personalization blocks{#personalization-blocks}
 

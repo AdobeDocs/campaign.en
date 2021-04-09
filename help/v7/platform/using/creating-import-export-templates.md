@@ -6,7 +6,7 @@ description: Learn how to create import and export templates in Campaign Classic
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
+exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2,bb259923-ffb1-47af-9602-d80373bcf51b
 ---
 # Create import and export templates {#creating-import-export-templates}
 

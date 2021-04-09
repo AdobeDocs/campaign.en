@@ -6,7 +6,7 @@ description: Learn more about how to use the delivery dashboard to monitor your 
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
+exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123,5a12736a-c855-4677-adca-e15efafd2dad
 ---
 # Delivery dashboard {#delivery-dashboard}
 

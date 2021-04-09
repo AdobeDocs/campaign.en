@@ -6,7 +6,7 @@ description: Learn how to connect via an Adobe ID
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
+exl-id: 32540cf1-6010-45ba-8e9e-56f7da1c9801,b70ca220-1c81-4b23-b07a-a2cd694877fe
 ---
 # Configuring IMS{#configuring-ims}
 

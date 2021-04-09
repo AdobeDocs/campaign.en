@@ -6,7 +6,7 @@ description: Learn how to send personalized alerts to operators
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
+exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a,c17dd1df-aa89-474f-9dfa-1b1ebc1877ab
 ---
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
 

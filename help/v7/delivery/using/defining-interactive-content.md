@@ -6,7 +6,7 @@ description: Learn how to define interactive and dynamic email content with AMP 
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
+exl-id: 05a6f413-007a-4603-8b24-cada9305cbc9,3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
 # Defining interactive content{#defining-interactive-content}
 

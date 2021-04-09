@@ -6,7 +6,7 @@ description: Learn more about offer catalog in Campaign
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: 464a6548-1b91-4e09-b620-3b820ef69653
+exl-id: 464a6548-1b91-4e09-b620-3b820ef69653,46f19921-26e3-4a00-b737-fd98a2390069
 ---
 # Offer catalog overview{#offer-catalog-overview}
 

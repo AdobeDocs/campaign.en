@@ -6,7 +6,7 @@ description: About web services
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
+exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216,9d103ffa-bf54-48d1-bddf-ed8ce21d06a8
 ---
 # About web services{#about-web-services}
 

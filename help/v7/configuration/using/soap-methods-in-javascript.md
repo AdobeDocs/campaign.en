@@ -6,7 +6,7 @@ description: SOAP methods in JavaScript
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
+exl-id: 62020447-fe59-4363-994d-de4d8032bbd7,dac1cae6-8120-4fff-9da2-38d5d77d1e66
 ---
 # SOAP methods in JavaScript{#soap-methods-in-javascript}
 

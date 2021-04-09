@@ -6,7 +6,7 @@ description: Live/Design environments
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
+exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13,d3b3b0cb-c645-4704-ba89-617ba4e31582
 ---
 # Live/Design environments{#live-design-environments}
 

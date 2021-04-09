@@ -6,7 +6,7 @@ description: Send the best offers to your contacts based on eligibility rules.
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
+exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721,c134307c-9acb-4228-866b-8b6b96bdeef4
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 

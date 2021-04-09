@@ -6,7 +6,7 @@ description: This section provides general information specific to the email cha
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
+exl-id: a83dd7ac-42ee-42c8-99ef-3b7d1610a6f9,dbdfc04a-691b-470d-b96d-4c8a9531327d
 ---
 # About email channel{#about-email-channel}
 

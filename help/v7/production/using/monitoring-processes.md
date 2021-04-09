@@ -6,7 +6,7 @@ description: Learn how to monitor Campaign processes
 audience: production
 content-type: reference
 topic-tags: production-procedures
-exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
+exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794,3598ac21-a93e-4503-91d1-9a78803d9d79
 ---
 # Monitoring processes{#monitoring-processes}
 

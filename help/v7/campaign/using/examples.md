@@ -6,7 +6,7 @@ description: Examples
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
+exl-id: 0bff8b77-8169-45ec-87b7-dd3792768244,2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
 # Examples{#examples}
 

@@ -6,7 +6,7 @@ description: Hypothesis templates
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
+exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa,d93c1e27-8a87-4cb4-bf9e-41a630bd2086
 ---
 # Hypothesis templates{#hypothesis-templates}
 

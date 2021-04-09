@@ -6,7 +6,7 @@ description: Latest Campaign Classic Release Notes
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
+exl-id: 720b8e79-30e3-4ce0-8575-fd7d4b74c48c,d65869ca-a785-4327-8e8d-791c28e4696c
 ---
 # Latest release{#latest-release}
 

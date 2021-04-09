@@ -6,7 +6,7 @@ description: Collecting data to analyze
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
+exl-id: 8d2a5bf2-742a-4f0e-a75e-144e72d6d90b,cf621374-88f9-4def-8bea-87e0ea69ecd3
 ---
 # Collecting data to analyze{#collecting-data-to-analyze}
 

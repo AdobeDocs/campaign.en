@@ -6,7 +6,7 @@ description: Form structure
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
+exl-id: 25e77193-f557-43c4-941a-819819c758e8,e61f2b63-06d3-4b8c-867f-1c729176d2da
 ---
 # Form structure{#form-structure}
 

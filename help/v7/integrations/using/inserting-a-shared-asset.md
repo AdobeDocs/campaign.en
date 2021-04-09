@@ -6,7 +6,7 @@ description: Inserting a shared asset
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
+exl-id: 263ca646-2bab-45a4-b0e4-6e6f32aa1c2d,30a94bce-6d96-4a6d-a62f-7451c822f0e3
 ---
 # Inserting a shared asset{#inserting-a-shared-asset}
 

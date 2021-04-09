@@ -6,7 +6,7 @@ description: Learn how to configure A/B testing in Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
+exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd,c741c74b-78ba-487a-9277-d40c8139e18c
 ---
 # Configuring A/B testing {#configuring-a-b-testing}
 

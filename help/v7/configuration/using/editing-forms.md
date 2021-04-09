@@ -6,7 +6,7 @@ description: Editing forms
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
+exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e,29a36a7e-85c3-4597-ba89-e4365c6707a7
 ---
 # Editing forms{#editing-forms}
 

@@ -6,7 +6,7 @@ description: Synchronizing web applications
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
+exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098,ca8833f9-5799-4d5c-b7cd-290ed213f6ec
 ---
 # Synchronizing web applications{#synchronizing-web-applications}
 

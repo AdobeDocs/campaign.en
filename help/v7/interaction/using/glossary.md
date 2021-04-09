@@ -6,7 +6,7 @@ description: Glossary
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
+exl-id: 5d48b561-b9af-41dd-8218-64503cbbe11b,9e199b7c-9307-4797-bf86-7940388555bc
 ---
 # Glossary{#glossary}
 

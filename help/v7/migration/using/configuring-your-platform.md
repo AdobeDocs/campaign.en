@@ -6,7 +6,7 @@ description: Configuring your platform
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
+exl-id: 21b4b99c-f28e-4583-b440-597587291f33,ad71dead-c0ca-42d5-baa8-0f340979231a
 ---
 # Configuring your platform{#configuring-your-platform}
 

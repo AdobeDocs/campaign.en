@@ -6,7 +6,7 @@ description: Learn more about parameters for web tracking
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
+exl-id: 834959f0-733e-4ce7-a63a-27a7fc930a52,d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
 # Additional parameters{#additional-parameters}
 
@@ -87,15 +87,18 @@ adobe@selma:~$ systemctl stop nlserver
 adobe@selma:~$ systemctl stop apache2
 adobe@selma:~$ ipcs shm
 
------- Shared Memory Segments --------
+------ Shared Memory Segments -----
+---
 key        shmid      owner      perms      bytes      nattch     status      
 0x52020679 2097153    adobe   666        93608      8                       
 
------- Semaphore Arrays --------
+------ Semaphore Arrays -----
+---
 key        semid      owner      perms      nsems     
 0x52020678 4227081    adobe   666        1         
 
------- Message Queues --------
+------ Message Queues -----
+---
 key        msqid      owner      perms      used-bytes   messages    
 
 adobe@selma:~$ ipcrm shm 2097153                             

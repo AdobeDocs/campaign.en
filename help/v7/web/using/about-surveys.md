@@ -6,7 +6,7 @@ description: Get started with Campaign surveys
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
+exl-id: 030009e3-12cf-445f-a231-116a31a0ac23,7061a4f1-006f-4f19-8761-918d8930d885
 ---
 # Get started with surveys{#about-surveys}
 

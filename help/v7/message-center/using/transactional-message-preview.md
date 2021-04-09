@@ -6,7 +6,7 @@ description: Transactional message preview
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 9eb94c78-6822-41ef-9fa1-cf0ac53b0490
+exl-id: 20e74b60-c933-4253-925a-479d546cbbb7,9eb94c78-6822-41ef-9fa1-cf0ac53b0490
 ---
 # Transactional message preview{#transactional-message-preview}
 

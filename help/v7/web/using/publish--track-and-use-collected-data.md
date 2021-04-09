@@ -6,7 +6,7 @@ description: Publish, track and use collected data
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
+exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60,41b27444-3332-4136-9775-681580369615
 ---
 # Publish, track and use collected data{#publish-track-and-use-collected-data}
 

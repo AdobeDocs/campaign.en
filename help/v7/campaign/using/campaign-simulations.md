@@ -6,7 +6,7 @@ description: Campaign simulations
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
+exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8,ed1d0be3-69f4-473f-ada7-8dd83362355c
 ---
 # Campaign simulations{#campaign-simulations}
 

@@ -6,7 +6,7 @@ description: About response manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
+exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703,d6d31874-c59d-4f44-891c-db5089af2f63
 ---
 # About response manager{#about-response-manager}
 

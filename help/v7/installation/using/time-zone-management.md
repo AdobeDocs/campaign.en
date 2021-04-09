@@ -6,7 +6,7 @@ description: Time zone management
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
+exl-id: 0660681c-5520-4e04-b97a-3d6afb14131a,e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 ---
 # Time zone management{#time-zone-management}
 

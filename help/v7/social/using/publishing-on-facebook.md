@@ -6,7 +6,7 @@ description: Publishing on Facebook
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
+exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193,c09503bd-8e56-4027-87de-3a1e5fb08c94
 ---
 # Publishing on Facebook{#publishing-on-facebook}
 

@@ -6,7 +6,7 @@ description: Migrating in Windows for Adobe Campaign 7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
+exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785,cda58536-cdf3-4532-8011-01ff8a11367f
 ---
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
 

@@ -6,7 +6,7 @@ description: "Use case: displaying report on answers to an online survey"
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
+exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505,c3819ffb-0c51-4354-833a-cee4ad437b3a
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 

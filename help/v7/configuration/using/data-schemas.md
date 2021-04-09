@@ -6,7 +6,7 @@ description: Data schemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
+exl-id: 10885cd3-9597-4b92-8377-c0534a341738,d4446035-3988-4d89-b7df-7b8528c2e371
 ---
 # Data schemas{#data-schemas}
 

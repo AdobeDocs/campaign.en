@@ -6,7 +6,7 @@ description: Learn more about Adobe IMS integration
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
+exl-id: 1817a0d1-ee23-4708-8de5-b347d6c41ad4,8dad8fa9-674c-433c-af30-8c6d0aadf525
 ---
 # About Adobe ID{#about-adobe-id}
 

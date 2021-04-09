@@ -6,7 +6,7 @@ description: Distributed architectures
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
+exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db,d1429205-62da-437c-84ea-5c9ae1826e7a
 ---
 # Distributed architectures{#distributed-architectures}
 

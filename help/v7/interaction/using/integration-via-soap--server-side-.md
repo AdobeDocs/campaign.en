@@ -6,7 +6,7 @@ description: Integration via SOAP (server side)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
+exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec,c1df5e43-500b-434b-abfa-ed40740bf0ca
 ---
 # Integration via SOAP (server-side){#integration-via-soap-server-side}
 

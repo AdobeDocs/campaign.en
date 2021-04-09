@@ -6,7 +6,7 @@ description: About inbound channels
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-exl-id: 33247728-b865-4dfd-814f-2900965a7187
+exl-id: 33247728-b865-4dfd-814f-2900965a7187,85726c91-6d45-43e2-b55d-371038050d38
 ---
 # About inbound channels{#about-inbound-channels}
 

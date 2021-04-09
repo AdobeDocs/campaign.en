@@ -6,7 +6,7 @@ description: Learn how to rollback to the previous version
 audience: migration
 content-type: reference
 topic-tags: rollback
-exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
+exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8,cfb8458c-2c2b-4093-8ab9-58b46b5da31b
 ---
 # Rollback to the previous version{#about-rollback}
 

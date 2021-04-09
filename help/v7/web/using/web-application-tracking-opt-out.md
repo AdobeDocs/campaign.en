@@ -6,7 +6,7 @@ description: Web application tracking opt-out
 audience: web
 content-type: reference
 topic-tags: web-applications
-exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
+exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3,6e3d0f95-5049-4e84-9398-bac3bd828812
 ---
 # Web application tracking opt-out{#web-application-tracking-opt-out}
 

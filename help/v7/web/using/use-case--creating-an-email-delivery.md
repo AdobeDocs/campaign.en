@@ -6,7 +6,7 @@ description: Creating an email delivery use case
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: e2679f12-459b-466d-9c82-60a28363b104
+exl-id: d14bea8b-d177-4139-a69a-4a94e00a29ef,e2679f12-459b-466d-9c82-60a28363b104
 ---
 # Use case: creating an email delivery{#use-case-creating-an-email-delivery}
 

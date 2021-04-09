@@ -6,7 +6,7 @@ description: Learn more about the key elements to check regarding security and p
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
+exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532,fbe394e0-ff7c-4037-8194-a66dba5ccc31
 ---
 # Get started with security and privacy {#get-started-security-privacy}
 

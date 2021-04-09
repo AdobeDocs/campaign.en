@@ -6,7 +6,7 @@ description: Learn how to use the local approval activity
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
+exl-id: 8108b41e-674f-4ad6-9d4d-bbbe7fa13044,cc29eec9-9c97-4d1b-9567-2581154d7b3f
 ---
 # Using the local approval activity{#using-the-local-approval-activity}
 

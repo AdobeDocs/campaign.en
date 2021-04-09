@@ -6,7 +6,7 @@ description: Designing a survey
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
+exl-id: 7e337d30-78d5-4ca1-a99d-e66bca8a299d,8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 ---
 # Designing a survey{#building-a-survey}
 

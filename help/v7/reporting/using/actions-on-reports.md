@@ -6,7 +6,7 @@ description: Actions on reports
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
+exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609,b9762251-7389-456c-824d-b3fe732c6157
 ---
 # Actions on reports{#actions-on-reports}
 

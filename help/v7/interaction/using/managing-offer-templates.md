@@ -6,7 +6,7 @@ description: Managing offer templates
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
+exl-id: 188dbbc3-e5a0-4a13-b954-e37869ba12d7,e4a6cc22-05bd-4b8a-984d-d0706fc210e1
 ---
 # Managing offer templates{#managing-offer-templates}
 

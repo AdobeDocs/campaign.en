@@ -6,7 +6,7 @@ description: About content management
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
+exl-id: 8687b263-9e53-4f73-a2e5-ecfd025e7af9,87434cc2-1636-4558-ab60-255b7f873c0c
 ---
 # About content management{#about-content-management}
 

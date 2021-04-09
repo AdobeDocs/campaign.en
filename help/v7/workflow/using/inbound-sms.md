@@ -6,7 +6,7 @@ description: Learn more about the Inbound SMS workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
+exl-id: 86634cff-1299-43a5-9e42-4bdee2cd1712,94a9d50b-4ead-4815-8d12-942fa78b4e8a
 ---
 # Inbound SMS{#inbound-sms}
 

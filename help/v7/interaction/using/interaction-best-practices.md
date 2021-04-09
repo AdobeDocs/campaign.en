@@ -6,7 +6,7 @@ description: This section presents the best practice approach to manage the Inte
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-exl-id: 98413cde-50c9-416c-8316-85837f724c27
+exl-id: 7e9d9b59-c332-4b7d-97f8-8d63cf8b7c7a,98413cde-50c9-416c-8316-85837f724c27
 ---
 # Interaction best practices{#interaction-best-practices}
 

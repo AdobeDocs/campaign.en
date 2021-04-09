@@ -6,7 +6,7 @@ description: Learn more about the File collector workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
+exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a,fe56fe7d-0754-4bf3-8633-2b9be573f730
 ---
 # File collector{#file-collector}
 

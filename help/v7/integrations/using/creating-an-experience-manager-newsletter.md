@@ -5,7 +5,7 @@ title: Creating an Experience Manager newsletter
 description: Creating an Experience Manager newsletter
 audience: integrations
 content-type: reference
-exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
+exl-id: 5add68ab-dabe-4866-b88a-12d0feee1339,9fa3ce08-3007-4c65-9841-bad339428b7c
 ---
 # Creating an Experience Manager newsletter{#creating-an-experience-manager-newsletter}
 

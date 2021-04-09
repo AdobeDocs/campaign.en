@@ -6,7 +6,7 @@ description: Learn how to define the email content when using Adobe Campaign Cla
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
+exl-id: 0657e104-f005-4534-ba78-ef403031a1e8,46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Defining the email content {#defining-the-email-content}
 

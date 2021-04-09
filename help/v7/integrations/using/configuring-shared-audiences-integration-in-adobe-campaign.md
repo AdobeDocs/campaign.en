@@ -6,7 +6,7 @@ description: Learn how to configure shared audiences integration
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
+exl-id: 5eb729b2-f38b-46d5-bd67-13e01900a211,a3e26cff-9609-4d91-8976-9213a30c3fd2
 ---
 # Configuring shared audiences integration in Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 

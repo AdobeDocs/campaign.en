@@ -6,7 +6,7 @@ description: Learn more about marketing campaign documents and delivery outlines
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
+exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7,fdfb6fc4-54d1-45e7-9cde-a21e41e12ed0
 ---
 # Manage associated documents {#managing-associated-documents}
 

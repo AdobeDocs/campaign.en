@@ -6,7 +6,7 @@ description: Updating data
 audience: platform
 content-type: reference
 topic-tags: profile-management
-exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
+exl-id: ce459746-d6cf-48b1-b128-07a2eaf125d7,f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
 # Update data{#updating-data}
 

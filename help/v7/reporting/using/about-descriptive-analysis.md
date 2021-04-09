@@ -6,7 +6,7 @@ description: About descriptive analysis
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
+exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04,74af4454-6300-43ce-a431-5a918cb0b082
 ---
 # About descriptive analysis{#about-descriptive-analysis}
 

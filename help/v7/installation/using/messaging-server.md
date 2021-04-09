@@ -6,7 +6,7 @@ description: Messaging server
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
+exl-id: 20ef52bf-18de-4dfb-a424-6b67481806ca,d9ffa58d-81e3-4291-8502-3cb7c326b666
 ---
 # Messaging server{#messaging-server}
 

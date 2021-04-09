@@ -5,7 +5,7 @@ title: Technote
 description: Technote
 hide: no
 hidefromtoc: yes
-exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
+exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296,718f18b3-fc06-4dd9-8d18-07f32b57192d
 ---
 # Apple Push Notification service server certificate update {#apns-certificate-update}
 

@@ -6,7 +6,7 @@ description: Learn how to confirm the delivery of an email and discover the spec
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
+exl-id: 920b7078-1f1e-4c8d-af84-5e8023b9fee1,c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 ---
 # Main steps to send an email {#confirming-email-delivery}
 

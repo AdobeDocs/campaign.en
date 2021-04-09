@@ -6,7 +6,7 @@ description: Learn more about SQL and JavaScript codes workflow activities
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
+exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef,f217b62c-f29f-4047-b559-1807350951e4
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
 

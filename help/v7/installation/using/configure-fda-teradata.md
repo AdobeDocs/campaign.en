@@ -6,7 +6,7 @@ description: Learn how to configure access to Teradata in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
+exl-id: 273173ac-0522-452b-9410-8e81a0045fb0,3a5856c3-b642-4722-97ff-6ae7107efdbe
 ---
 # Configure access to Teradata {#configure-access-to-teradata}
 

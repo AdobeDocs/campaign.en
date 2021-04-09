@@ -6,7 +6,7 @@ description: Using a web form template
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
+exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8,61af7f99-708d-4fef-b333-db83c034c276
 ---
 # Use a web form template{#using-a-web-form-template}
 

@@ -6,7 +6,7 @@ description: Validating
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
+exl-id: 3649c907-2955-46d3-9757-83372f10b122,42bb395b-b3fe-4d48-8720-5a4cae191984
 ---
 # Validating{#validating}
 

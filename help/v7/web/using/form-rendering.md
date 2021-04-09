@@ -6,7 +6,7 @@ description: Form rendering
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 723a6c47-5323-4914-a014-58be493852cc
+exl-id: 13c4e139-c227-43c6-b247-2c2c1f7da0e6,723a6c47-5323-4914-a014-58be493852cc
 ---
 # Form rendering{#form-rendering}
 

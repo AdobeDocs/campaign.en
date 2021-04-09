@@ -6,7 +6,7 @@ description: Learn how to use and customize Campaign workspace
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
+exl-id: 5f689679-7148-4abd-a9bf-185854c64b13,7b0b5200-9254-4407-b851-ab95fe6cfd7f
 ---
 # Adobe Campaign workspace{#adobe-campaign-workspace}
 

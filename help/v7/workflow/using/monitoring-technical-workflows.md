@@ -6,7 +6,7 @@ description: Monitoring technical workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
+exl-id: 25149138-5599-421b-828d-54a660c624c7,5e77d196-5c71-438e-8dae-10c6a6e4f29c
 ---
 # Monitoring technical workflows {#monitoring-technical-workflows}
 

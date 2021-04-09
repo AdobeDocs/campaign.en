@@ -4,7 +4,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic product documentation
 topic: Premium
-exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157,b08bb39b-9b2d-4dc4-a9b0-37010e9db4f7
 ---
 # Help Center {#campaign-classic-documentation}
 

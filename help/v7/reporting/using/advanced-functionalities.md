@@ -6,7 +6,7 @@ description: Advanced capabilities
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
+exl-id: 239e4281-b0dd-4ad4-9e15-c06d01c41ef6,8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 ---
 # Advanced capabilities{#advanced-functionalities}
 

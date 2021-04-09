@@ -6,7 +6,7 @@ description: Client console availability for Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
+exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0,daf070db-dfff-4408-b466-529e636d7d19
 ---
 # Client console availability for Windows{#client-console-availability-for-windows}
 

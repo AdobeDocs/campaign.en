@@ -5,7 +5,7 @@ title: Check before sending
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
+exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69,7d875d5c-bf11-4159-97ac-ebb7f9918eb4
 ---
 # Perform all checks before sending {#perform-all-checks}
 

@@ -6,7 +6,7 @@ description: Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
+exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328,a7521167-e6fb-456a-90e0-5b14ab8e60f3
 ---
 # Validate, send and track messages {#validate-send-track}
 

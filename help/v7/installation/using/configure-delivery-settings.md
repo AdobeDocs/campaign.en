@@ -6,6 +6,7 @@ description: Learn how to configure Campaign Delivery settings
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: 954245f8-e8de-4b29-a8d2-5b60ac0bcde0
 ---
 # Configure delivery settings {#delivery-settings}
 

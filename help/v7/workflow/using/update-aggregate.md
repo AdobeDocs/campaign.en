@@ -6,7 +6,7 @@ description: Learmore about the Update aggregate workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
+exl-id: 872b52a5-d479-487d-a860-7ae1cede64ea,d2b26af0-30a1-4852-acd5-996795f198a1
 ---
 # Update aggregate{#update-aggregate}
 

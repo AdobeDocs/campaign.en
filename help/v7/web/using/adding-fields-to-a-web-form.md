@@ -6,7 +6,7 @@ description: Adding fields to a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
+exl-id: 4fbd7385-0758-4e00-bf3a-669426f31be5,827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
 # Adding fields to a web form{#adding-fields-to-a-web-form}
 

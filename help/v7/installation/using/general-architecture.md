@@ -6,7 +6,7 @@ description: Learn how to install and configure Campaign Classic.
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
+exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81,be70b8e0-a070-4b56-b6fa-1bfea46763ca
 ---
 # General architecture{#general-architecture}
 

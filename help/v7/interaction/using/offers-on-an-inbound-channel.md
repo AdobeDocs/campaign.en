@@ -6,7 +6,7 @@ description: Offers on an inbound channel
 audience: interaction
 content-type: reference
 topic-tags: case-study
-exl-id: 90afced3-465d-4370-8a33-51a7e4356135
+exl-id: 671498fa-de7c-4a2f-8529-70c3fca80aa8,90afced3-465d-4370-8a33-51a7e4356135
 ---
 # Offers on an inbound channel{#offers-on-an-inbound-channel}
 

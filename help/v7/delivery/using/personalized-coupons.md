@@ -6,7 +6,7 @@ description: Personalized coupons
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
+exl-id: 04aff42c-b1c1-405e-84a0-e3f8c4b26bb3,182939bb-7aff-4667-bda9-c5d48be3b946
 ---
 # Personalized coupons{#personalized-coupons}
 

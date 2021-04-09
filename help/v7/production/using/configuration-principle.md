@@ -6,7 +6,7 @@ description: Configuration principle
 audience: production
 content-type: reference
 topic-tags: production-procedures
-exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
+exl-id: 0179b3be-926a-4a05-9e01-e0ccb8fd389a,03d7e579-8678-44b8-bbe7-cf4204bffb25
 ---
 # Configuration principle{#configuration-principle}
 

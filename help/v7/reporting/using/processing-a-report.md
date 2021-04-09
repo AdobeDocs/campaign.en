@@ -6,7 +6,7 @@ description: Processing a report
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-exl-id: d133efec-33e1-4711-a90f-e40385059386
+exl-id: 44de8f03-9e24-4fe5-9508-e2ce7976cd40,d133efec-33e1-4711-a90f-e40385059386
 ---
 # Using an analysis report{#processing-a-report}
 

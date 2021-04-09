@@ -2,11 +2,11 @@
 solution: Campaign Classic
 product: campaign
 title: About transactional messaging
-description: Send trigger messages based on events generated from information systems. 
+description: Send trigger messages based on events generated from information systems.
 audience: message-center
 content-type: reference
 topic-tags: introduction
-exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
+exl-id: cd508a92-cf23-461d-8723-7d3c435bf943,dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 ---
 # About transactional messaging{#about-transactional-messaging}
 

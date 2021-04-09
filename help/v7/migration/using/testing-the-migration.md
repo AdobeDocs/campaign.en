@@ -6,7 +6,7 @@ description: Testing the migration
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
+exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac,a6f61750-9923-45f5-8766-c33a0f2f7cd2
 ---
 # Testing the migration{#testing-the-migration}
 

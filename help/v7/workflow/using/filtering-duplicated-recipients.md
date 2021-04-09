@@ -6,7 +6,7 @@ description: Learn how to filter duplicated recipients
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
+exl-id: 73d385d5-2a15-4b63-8116-bad9239088c8,7cbabbae-375f-4336-9afa-6356f37a79d0
 ---
 # Filtering duplicated recipients {#filtering-duplicated-recipients}
 

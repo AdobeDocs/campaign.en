@@ -6,7 +6,7 @@ description: Release notes for Campaign 20.3
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
+exl-id: 685a5f01-3c53-4754-9073-4ed2a26acace,e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---
 # Release 20.3{#release-20-3}
 

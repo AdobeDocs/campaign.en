@@ -6,7 +6,7 @@ description: Tracking logs issues
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
+exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056,cf0401d0-7c96-42f2-afce-f2ef6241671a
 ---
 # Tracking logs issues{#tracking-logs-issues}
 

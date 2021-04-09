@@ -6,7 +6,7 @@ description: Translating a web application
 audience: web
 content-type: reference
 topic-tags: web-applications
-exl-id: 82c5c610-8161-4686-aa79-1b690e763765
+exl-id: 64e1364d-d7ca-4116-baa0-ac85ed7b1f30,82c5c610-8161-4686-aa79-1b690e763765
 ---
 # Translating a web application{#translating-a-web-application}
 

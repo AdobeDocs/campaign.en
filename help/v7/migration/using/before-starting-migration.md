@@ -6,7 +6,7 @@ description: Before starting migration
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
+exl-id: bb62a5b7-8332-4b3f-be7d-de17bb7f6549,d666bc0b-596a-4908-9364-7df5bb8d68d0
 ---
 # Before starting migration{#before-starting-migration}
 

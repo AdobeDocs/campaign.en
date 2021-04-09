@@ -6,7 +6,7 @@ description: About flow control activities
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
+exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300,a0c8ea51-7f82-41e1-8362-eba688b6ffb1
 ---
 # About flow control activities{#about-flow-control-activities}
 

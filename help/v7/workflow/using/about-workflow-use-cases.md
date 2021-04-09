@@ -6,10 +6,9 @@ description: Learn more on use cases that you can perform using Campaign Classic
 audience: workflow
 content-type: reference
 topic-tags: about-workflows-and-data-management
-
 internal: n
 snippet: y
-exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
+exl-id: 2f9cde68-95a2-47e4-8177-1a9c9b844beb,7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 ---
 # About workflow use cases {#about-workflow-use-cases}
 

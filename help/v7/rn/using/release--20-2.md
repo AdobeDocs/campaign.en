@@ -6,7 +6,7 @@ description: Release 20.2
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
+exl-id: cb9100c8-8c59-4e42-b358-c57e1e8f36b1,fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 ---
 # Release 20.2{#release-20-2}
 

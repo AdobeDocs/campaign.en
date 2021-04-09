@@ -6,7 +6,7 @@ description: Learn how to create and manage campaign users
 feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
-exl-id: 580282ce-ee30-422a-8724-9c328637cc39
+exl-id: 580282ce-ee30-422a-8724-9c328637cc39,a2eb7347-ef2f-4dbb-a1e2-d030f5d7d41b
 ---
 # Create and manage operators {#operators}
 

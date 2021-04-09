@@ -6,7 +6,7 @@ description: Sharing audiences with Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
+exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d,4b200cf3-a48a-42de-b445-32edae60ff36
 ---
 # Sharing audiences with Adobe Experience Cloud{#sharing-audiences-with-adobe-experience-cloud}
 

@@ -6,7 +6,7 @@ description: Learn how to access the list of created deliveries.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
+exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b,85e45e71-6169-434b-8bbf-e61ea8174b92
 ---
 # Accessing the list of deliveries {#list-of-deliveries}
 

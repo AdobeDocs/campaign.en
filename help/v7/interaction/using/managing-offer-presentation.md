@@ -6,7 +6,7 @@ description: Managing offer presentation
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
+exl-id: 499a9a0a-e49e-4c45-90df-0449294a9956,6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 ---
 # Managing offer presentation{#managing-offer-presentation}
 

@@ -6,7 +6,7 @@ description: Creating and managing tasks
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
+exl-id: 2a518c33-1bf1-498c-9b17-1d42269c1dbb,cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 ---
 # Creating and managing tasks{#creating-and-managing-tasks}
 

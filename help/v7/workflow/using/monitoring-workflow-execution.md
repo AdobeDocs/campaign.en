@@ -6,7 +6,7 @@ description: Monitoring workflow execution
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
+exl-id: 76edbc95-ec29-4fef-81b3-12f33a4d9fc5,d589180b-8e1d-4149-9b16-3f541018a41f
 ---
 # Monitoring workflow execution {#monitoring-workflow-execution}
 

@@ -2,11 +2,11 @@
 solution: Campaign Classic
 product: campaign
 title: Connecting through LDAP
-description: Learn how to use LDAP to login to Campaign 
+description: Learn how to use LDAP to login to Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
+exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f,54621c12-2dee-4edb-b69c-c977ec4a38d9
 ---
 # Connecting through LDAP{#connecting-through-ldap}
 

@@ -6,7 +6,7 @@ description: Coordinating data updates
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
+exl-id: 408bc541-5a5e-4632-9968-8eafcc2c5594,9959e22e-9aa0-410f-b22c-9ca1cac46b97
 ---
 # Coordinating data updates{#coordinating-data-updates}
 

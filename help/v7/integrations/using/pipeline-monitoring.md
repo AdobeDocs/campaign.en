@@ -5,7 +5,7 @@ title: Configuring the integration
 description: Configuring the integration
 audience: integrations
 content-type: reference
-exl-id: 84399496-33fd-4936-85e7-32de8503740f
+exl-id: 84399496-33fd-4936-85e7-32de8503740f,e8fc5413-751c-4c08-ad87-45afd6a4fe20
 ---
 # Pipeline monitoring {#pipeline-monitoring}
 

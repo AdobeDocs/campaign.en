@@ -6,7 +6,7 @@ description: Personalization fields
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
+exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f,e8f45b92-3e18-451f-9b2a-682c6cfdb6ef
 ---
 # Personalization fields{#personalization-fields}
 

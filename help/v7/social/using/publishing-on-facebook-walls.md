@@ -6,7 +6,7 @@ description: Publishing on Facebook walls
 audience: social
 content-type: reference
 topic-tags: configuration
-exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
+exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd,556a8f4d-f4d4-47ab-b0dc-72e1006c7bbf
 ---
 # Publishing on Facebook walls{#publishing-on-facebook-walls}
 

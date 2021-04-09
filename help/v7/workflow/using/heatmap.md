@@ -6,7 +6,7 @@ description: Monitor your Campaign workflows with Workflow HeatMap
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
+exl-id: d3e0584e-22a7-4209-bf4f-4538f177615b,f1016ddf-0c87-4611-a878-d01f3684935f
 ---
 # Workflow HeatMap {#workflow-heatmap}
 

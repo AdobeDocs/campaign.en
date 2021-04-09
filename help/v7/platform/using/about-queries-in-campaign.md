@@ -6,7 +6,7 @@ description: About queries in Campaign
 feature: Query Editor
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
+exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0,f6d3a4e2-8cf5-4049-8849-03b0cf332229
 ---
 # Get started with queries{#about-queries-in-campaign}
 

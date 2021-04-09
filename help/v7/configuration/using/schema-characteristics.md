@@ -6,7 +6,7 @@ description: Schema characteristics
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 099161b4-b4cb-433c-aed6-71157269a536
+exl-id: 099161b4-b4cb-433c-aed6-71157269a536,523d0957-99e9-42b6-a031-74e42cb06aa1
 ---
 # Schema characteristics{#schema-characteristics}
 

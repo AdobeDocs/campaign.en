@@ -6,7 +6,7 @@ description: Learn more about the Wait workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
+exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca,ded05799-182c-4cb3-a8ac-7f69ddabcb51
 ---
 # Wait{#wait}
 

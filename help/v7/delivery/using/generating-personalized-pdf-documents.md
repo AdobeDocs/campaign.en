@@ -6,7 +6,7 @@ description: Generating personalized PDF documents
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: e5239d99-256b-412b-be20-f64f822da9c3
+exl-id: 20649c98-ba64-42cc-9205-344413ad0a6e,e5239d99-256b-412b-be20-f64f822da9c3
 ---
 # Generating personalized PDF documents{#generating-personalized-pdf-documents}
 

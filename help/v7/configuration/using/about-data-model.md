@@ -6,7 +6,7 @@ description: Learn how to extend Campaign data model, edit schemas, use APIs, an
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
+exl-id: 2470ecfa-1903-4dbb-b1a1-8532d59ef425,655b5928-b005-442f-b026-2f1b0c1abb99
 ---
 # Get started with Campaign data model{#about-data-model}
 

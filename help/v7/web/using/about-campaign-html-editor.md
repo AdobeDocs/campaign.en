@@ -6,7 +6,7 @@ description: Get started with Campaign DCE
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
+exl-id: 9ac9bd99-9f1a-40ff-b9db-309cbed31c01,f5d65e89-6b18-482b-97d8-11ab94f6775e
 ---
 # Get started with Campaign HTML editor{#about-campaign-html-editor}
 

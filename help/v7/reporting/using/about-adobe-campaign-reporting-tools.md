@@ -6,7 +6,7 @@ description: Analyze the success of your campaigns in build-in or customized rep
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
-exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
+exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b,712e356b-c55b-4825-9ed3-75849a129382
 ---
 # Get started with reporting {#about-adobe-campaign-reporting-tools}
 

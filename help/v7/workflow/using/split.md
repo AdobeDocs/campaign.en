@@ -6,7 +6,7 @@ description: Learn more about the Split workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
+exl-id: 1b6648d8-4c23-4e79-ab42-42fc225f37fb,4204350a-c2d2-4033-9bdf-87b49d8211b9
 ---
 # Split{#split}
 

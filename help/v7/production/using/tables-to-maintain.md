@@ -6,7 +6,7 @@ description: Tables to maintain
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
+exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b,1e364f6d-2739-4e3e-b0a4-dab29c0e37ba
 ---
 # Tables to maintain{#tables-to-maintain}
 

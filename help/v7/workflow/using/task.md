@@ -6,7 +6,7 @@ description: Learn more about the Task workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
+exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479,9f2bf7cf-b0a4-4f3e-a245-f648b58c1a8f
 ---
 # Task{#task}
 

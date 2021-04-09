@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
+exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d,ccb34648-28ff-46f5-bcfe-8cbb9eba9aa9
 ---
 # help element {#help--element}
 

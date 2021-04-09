@@ -6,7 +6,7 @@ description: Learn more about web-server configuration main best practices.
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
+exl-id: cb7dea96-8a95-4c25-bf39-6a06763f15ca,fc0d3f16-5f62-473d-a1de-aab574eff734
 ---
 # Web-server configuration {#web-server-configuration}
 

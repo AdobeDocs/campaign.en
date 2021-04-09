@@ -6,7 +6,7 @@ description: Alert
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
+exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307,c6313a77-16d2-473f-9d4d-3a79380fe43e
 ---
 # Alert{#alert}
 

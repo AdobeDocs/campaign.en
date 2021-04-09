@@ -6,7 +6,7 @@ description: About marketing resource management
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
+exl-id: 8cf4d30d-f914-438d-8836-030202b6a449,92708e68-ad63-4c88-8128-06634bbc1934
 ---
 # About marketing resource management{#about-marketing-resource-management}
 

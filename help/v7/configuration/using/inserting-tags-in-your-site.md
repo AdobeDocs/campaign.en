@@ -6,7 +6,7 @@ description: Inserting tags in your site
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
+exl-id: 9d007481-f83d-4b42-a677-6c8255df266b,e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 ---
 # Inserting tags in your site{#inserting-tags-in-your-site}
 

@@ -6,7 +6,7 @@ description: Learn more about cross-channel delivery workflows
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
+exl-id: 51b3e41c-bbac-4075-b6e7-d6530a4f73c1,dfd36d2c-44ff-49a9-80b4-09eaf3377072
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 

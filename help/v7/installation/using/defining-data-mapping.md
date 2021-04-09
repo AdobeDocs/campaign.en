@@ -6,7 +6,7 @@ description: Accessing an external database
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
+exl-id: 6d5b82bc-c1a2-48a6-bbd3-366064802858,a7253ca7-47e5-4def-849d-3ce1c9b948fb
 ---
 # Defining data mapping {#defining-data-mapping}
 

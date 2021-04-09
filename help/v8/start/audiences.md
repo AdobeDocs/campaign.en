@@ -6,7 +6,7 @@ description: Get started with audiences
 feature: Audiences
 role: Data Engineer
 level: Beginner
-exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
+exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8,8eb43059-61e2-45c5-99ea-8fe13db5e2f3
 ---
 # Get Started with audiences{#gs-ac-audiences}
 

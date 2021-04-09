@@ -6,7 +6,7 @@ description: Learn more about delivery performances and how to troubleshoot issu
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
+exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf,84ed1b62-44eb-485a-b65f-43d5e1807f97
 ---
 # Delivery sending troubleshooting {#delivery-troubleshooting}
 

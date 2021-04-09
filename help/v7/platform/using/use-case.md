@@ -6,7 +6,7 @@ description: Use case
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82,ffe34b80-52e1-436c-8b09-eb6ab65b20fd
 ---
 # Use case{#use-case}
 

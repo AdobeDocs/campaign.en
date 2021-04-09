@@ -6,7 +6,7 @@ description: General configurations
 audience: migration
 content-type: reference
 topic-tags: configuration
-exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
+exl-id: 05736a1d-532e-4141-a157-4c7af57ed8d9,7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 ---
 # General configurations{#general-configurations}
 

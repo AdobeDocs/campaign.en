@@ -6,7 +6,7 @@ description: Launching Adobe Campaign
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
+exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703,95b2ce34-5f83-4863-8c87-72cbaacb272f
 ---
 # Launch Adobe Campaign{#launching-adobe-campaign}
 

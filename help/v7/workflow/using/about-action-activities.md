@@ -6,7 +6,7 @@ description: About action activities
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
+exl-id: 55016627-d0a7-4431-86f4-93ee7b4353cc,8758601b-c4bd-4179-8816-305d1a68d499
 ---
 # About action activities{#about-action-activities}
 

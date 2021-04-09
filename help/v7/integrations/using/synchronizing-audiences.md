@@ -6,7 +6,7 @@ description: Synchronizing audiences
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
+exl-id: 807744e3-61f7-4fd7-8cec-e7a42941e6df,88e581cf-43cd-4c43-9347-d016c62fdf42
 ---
 # Synchronizing audiences{#synchronizing-audiences}
 

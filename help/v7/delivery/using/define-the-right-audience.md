@@ -5,7 +5,7 @@ title: Define the right audience
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: c0533148-b027-4158-9b95-8d2df769e963
+exl-id: 838941bc-6712-4673-96ba-e041b10e528d,c0533148-b027-4158-9b95-8d2df769e963
 ---
 # Define the right audience {#define-the-right-audience}
 

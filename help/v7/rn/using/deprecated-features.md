@@ -6,7 +6,7 @@ description: This page lists deprecated and removed features in Adobe Campaign C
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
+exl-id: 81af11e8-5ed0-474c-8115-e0a13f8b29d0,d60d67de-6618-4f3b-be4a-ad7633ab5645
 ---
 # Deprecated and removed features {#deprecated-and-removed-features}
 

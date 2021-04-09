@@ -6,7 +6,7 @@ description: Learn more about Start and End workflow activities
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
+exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5,d0b40795-8883-4b48-8405-6220db310f4f
 ---
 # Start and end{#start-and-end}
 

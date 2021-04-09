@@ -6,7 +6,7 @@ description: The server configuration file
 audience: installation
 content-type: reference
 topic-tags: appendices
-exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
+exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf,99caa835-9749-4543-b335-ac6ab078f9a4
 ---
 # The server configuration file{#the-server-configuration-file}
 

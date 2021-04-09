@@ -6,7 +6,7 @@ description: Learn how to find out the current version of embedded Tomcat web se
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
+exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93,7bdcf6e2-e7f8-44d7-ba9c-bf3a6fad57ab
 ---
 # Locate Tomcat version{#locate-tomcat-version}
 

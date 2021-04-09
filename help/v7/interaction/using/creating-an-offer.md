@@ -6,7 +6,7 @@ description: Creating an offer
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
+exl-id: 985afdec-0763-4717-a6ea-aafeb78724f0,c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
 # Creating an offer{#creating-an-offer}
 

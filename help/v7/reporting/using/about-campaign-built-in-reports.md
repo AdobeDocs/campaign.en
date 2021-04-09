@@ -6,7 +6,7 @@ description: About Campaign built-in reports
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
+exl-id: a1f0e598-4346-4581-8fa3-7f15d6d2536a,afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 ---
 # About Campaign built-in reports{#about-campaign-built-in-reports}
 

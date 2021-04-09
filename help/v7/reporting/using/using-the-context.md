@@ -6,7 +6,7 @@ description: Using the context
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
+exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360,fd0703d5-c4fe-4ab1-a058-d3abbb25b6d9
 ---
 # Using the context{#using-the-context}
 

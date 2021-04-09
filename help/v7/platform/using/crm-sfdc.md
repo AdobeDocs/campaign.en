@@ -6,7 +6,7 @@ description: Connect Campaign and Salesforce.com
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
+exl-id: 23fe45ac-90cf-45df-b4b6-e4fd5e917e0f,94a1f00d-e952-4edd-9012-f71c87b897ca
 ---
 # Connect Campaign and Microsoft Dynamics 365{#connect-to-msdyn}
    

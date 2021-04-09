@@ -6,7 +6,7 @@ description: Learn more about the Exclusion workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
+exl-id: 30cfdbdc-04fc-403b-975f-d3bdce04c228,f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 ---
 # Exclusion{#exclusion}
 

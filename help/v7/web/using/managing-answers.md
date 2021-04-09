@@ -6,7 +6,7 @@ description: Managing answers
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
+exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996,66991e5e-ca78-4939-9e2c-c787ab826954
 ---
 # Managing answers{#managing-answers}
 

@@ -6,7 +6,7 @@ description: About campaign typologies
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
+exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323,7e0da766-37a8-4cab-a938-96b261e9c12e
 ---
 # About campaign typologies{#about-campaign-typologies}
 

@@ -6,7 +6,7 @@ description: In this use case, an incremental query is used to automatically upd
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
+exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac,42a06020-4bf4-491d-91e7-7f963cfd250c
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}
 

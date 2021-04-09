@@ -6,7 +6,7 @@ description: Learn more about the Enrichment workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
+exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479,52c5bdb1-8e92-43ab-b404-f795e34dbe52
 ---
 # Enrichment{#enrichment}
 

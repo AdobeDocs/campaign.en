@@ -6,7 +6,7 @@ description: Learn how to create import and export jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
+exl-id: 160730d9-8b4e-4f25-8c00-4c3669c9f96f,85c48712-3704-41db-a255-a07ca8d02ec4
 ---
 # Create import and export jobs {#creating-import-export-jobs}
 

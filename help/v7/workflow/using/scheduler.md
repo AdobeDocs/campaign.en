@@ -6,7 +6,7 @@ description: Learn more about the Scheduler workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
+exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a,93df3ebf-2a5e-4e18-ac20-474593eb9192
 ---
 # Scheduler {#scheduler}
 

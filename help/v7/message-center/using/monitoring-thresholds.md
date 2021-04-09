@@ -6,7 +6,7 @@ description: Monitoring thresholds
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
+exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e,6ffac2f9-556f-410b-bbd0-8d0ce3fdf7bc
 ---
 # Monitoring thresholds{#monitoring-thresholds}
 

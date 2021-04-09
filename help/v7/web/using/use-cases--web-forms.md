@@ -6,7 +6,7 @@ description: "Use cases: web forms"
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
+exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973,8b138ec0-bd5e-4241-a30a-5c822feba328
 ---
 # Use cases: web forms{#use-cases-web-forms}
 

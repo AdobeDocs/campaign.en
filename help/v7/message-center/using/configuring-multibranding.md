@@ -6,7 +6,7 @@ description: Configuring multibranding
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
+exl-id: 1f53f27f-fa9a-4a66-93a8-de183bb02157,aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
 ---
 # Configuring multibranding{#configuring-multibranding}
 

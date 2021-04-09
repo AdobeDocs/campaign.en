@@ -6,7 +6,7 @@ description: Integrating an offer via the wizard
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
+exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb,cf38bd1f-58ab-4775-9a08-fafeec50a137
 ---
 # Integrating an offer via the wizard{#integrating-an-offer-via-the-wizard}
 

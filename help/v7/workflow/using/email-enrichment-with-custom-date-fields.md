@@ -6,7 +6,7 @@ description: Learn how to enrich emails with custom date fields
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
+exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a,bc8b6a35-181e-4a12-a960-14ee799d6486
 ---
 # Email enrichment with custom date fields{#email-enrichment-with-custom-date-fields}
 

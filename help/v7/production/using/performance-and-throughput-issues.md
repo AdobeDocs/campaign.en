@@ -6,7 +6,7 @@ description: Performance and throughput issues
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
+exl-id: 7088434a-dc04-4896-92cf-0297c7f8ba81,fe69efda-a052-4f67-9c13-665f011d0a2b
 ---
 # Performance and throughput issues{#performance-and-throughput-issues}
 

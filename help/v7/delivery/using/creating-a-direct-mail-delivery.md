@@ -6,7 +6,7 @@ description: Creating a direct mail delivery
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
+exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12,9c986443-5c4d-467a-997d-4923f2afd054
 ---
 # Creating a direct mail delivery{#creating-a-direct-mail-delivery}
 

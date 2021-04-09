@@ -6,7 +6,7 @@ description: "Use case: selecting seed addresses on criteria"
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
+exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd,90882e63-8de4-4e87-8aff-2768957c75b4
 ---
 # Use case: selecting seed addresses on criteria{#use-case-selecting-seed-addresses-on-criteria}
 

@@ -6,7 +6,7 @@ description: Learn more about the Update data workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
+exl-id: 477783e8-15f7-40f0-87a7-36ec72d3363c,9f5735d2-73b8-469f-bc10-482c99cdd4a1
 ---
 # Update data{#update-data}
 

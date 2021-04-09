@@ -6,7 +6,7 @@ description: Creating an email delivery
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
+exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52,f08c5715-8fe1-426a-b08d-c2a181521510
 ---
 # Creating an email delivery{#creating-an-email-delivery}
 

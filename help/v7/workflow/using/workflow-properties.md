@@ -6,7 +6,7 @@ description: Learn more about Campaign Workflow properties
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
+exl-id: 7719c37e-d200-4aae-9358-4d4be36cfa75,c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
 # Workflow properties{#workflow-properties}
 

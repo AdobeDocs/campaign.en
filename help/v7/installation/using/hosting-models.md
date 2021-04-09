@@ -6,7 +6,7 @@ description: Discover Campaign hosting models
 feature: Overview
 role: Architect
 level: Beginner
-exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
+exl-id: a06b1365-d487-4df1-8f4a-7268b871a427,bc29c5a9-5f14-46ad-86ab-b9f6dd174b16
 ---
 # Hosting models{#hosting-models}
 

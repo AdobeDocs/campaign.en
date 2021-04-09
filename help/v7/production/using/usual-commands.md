@@ -6,7 +6,7 @@ description: Usual commands
 audience: production
 content-type: reference
 topic-tags: production-procedures
-exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
+exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f,55a3f3b9-c1db-44f5-928a-94301c121f64
 ---
 # Usual commands{#usual-commands}
 
@@ -42,12 +42,14 @@ trackinglogd@default (9985) - 45.6 Mo
 mta@test (9986) - 9.6 Mo
 wfserver@test (9987) - 8.8 Mo
 
-Connections ------------------------------------------------------
+Connections ---------------------------------------------------
+---
 Last Access IP Instance Login 
 DD/MM/YYYY HH:MM:SS 127.0.0.1 default formation_fr|tracking
 DD/MM/YYYY HH:MM:SS 127.0.0.1 default internal|monitoring
 
-Connection pool --------------------------------------------------
+Connection pool -----------------------------------------------
+---
 Datasource Server Provider Login 
 default xxxxx myserver myprovider test400
 

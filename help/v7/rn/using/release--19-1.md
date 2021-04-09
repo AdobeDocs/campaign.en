@@ -5,8 +5,8 @@ title: Campaign 19.1 release notes
 description: Release notes for Campaign 19.1
 feature: 
 role: 
-level:
-exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
+level: 
+exl-id: 11a69a81-799a-4f65-b1db-ecf20dbabcfe,8540b5f0-194b-45f3-b497-5d30efb318b8
 ---
 # Release 19.1{#release-19-1}
 

@@ -6,7 +6,7 @@ description: Filtering options
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
+exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb,ecd5fe4f-a4f3-4d4d-9efb-c87c469ca6fa
 ---
 # Filtering options{#filtering-options}
 

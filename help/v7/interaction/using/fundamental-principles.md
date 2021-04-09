@@ -6,7 +6,7 @@ description: Fundamental principles
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
+exl-id: 7795d083-929d-4ded-82f7-134ce7f4eaa0,b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 ---
 # Fundamental principles{#fundamental-principles}
 

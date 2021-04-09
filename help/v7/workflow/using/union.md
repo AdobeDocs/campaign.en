@@ -6,7 +6,7 @@ description: Learn more about the Union workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
+exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2,9273da3b-8803-472b-966c-daca9aaf38d3
 ---
 # Union{#union}
 

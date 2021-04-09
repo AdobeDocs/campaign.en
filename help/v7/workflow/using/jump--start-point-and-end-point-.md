@@ -6,7 +6,7 @@ description: Jump (start point and end point)
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
+exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355,6d765db0-3fc7-4147-8490-12f44098bf4b
 ---
 # Jump (start point and end point){#jump-start-point-and-end-point}
 

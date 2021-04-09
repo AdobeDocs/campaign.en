@@ -6,7 +6,7 @@ description: Examples of Facebook apps
 audience: social
 content-type: reference
 topic-tags: annexes
-exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
+exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f,eb530a16-a0e2-4dd5-b423-f737162e3f19
 ---
 # Examples of Facebook apps{#examples-of-facebook-apps}
 

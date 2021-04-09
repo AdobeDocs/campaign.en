@@ -6,7 +6,7 @@ description: "Use case: creating content management"
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
+exl-id: 2a3cd009-9b61-450d-8213-5878a6f4ff7a,b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 ---
 # Use case: creating content management{#use-case-creating-content-management}
 

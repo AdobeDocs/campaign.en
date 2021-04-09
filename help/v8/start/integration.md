@@ -6,9 +6,8 @@ description: Get started with marketing campaigns
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a,d8ee7ef5-757b-42ee-b98f-da8ff3c58bd5
 ---
-
 # Connect Campaign and other solutions {#gs-ac-connectors}
 
 You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities.

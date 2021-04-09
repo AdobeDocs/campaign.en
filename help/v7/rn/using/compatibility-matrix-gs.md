@@ -6,7 +6,7 @@ description: Campaign Classic Compatibility matrix for [!DNL Gold Standard] rele
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
+exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c,7ed88c7a-22b4-4614-bc5d-ee9a07389c26
 ---
 # [!DNL Gold Standard] Compatibility matrix{#compatibility-matrix-gs}
 

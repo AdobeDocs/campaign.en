@@ -6,7 +6,7 @@ description: Steps to create a query
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
+exl-id: b47b2f3d-a90b-4240-ad8f-dd90ea0c06e3,cf914366-8bac-4d68-a0cc-2a43d102eef2
 ---
 # Steps to create a query{#steps-to-create-a-query}
 

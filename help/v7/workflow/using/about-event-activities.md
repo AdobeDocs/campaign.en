@@ -6,7 +6,7 @@ description: About event activities
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
+exl-id: b5285f69-2c16-4ab6-b88f-e2f41483c15a,ed27159e-2fce-4b1c-92e8-581901b82f60
 ---
 # About event activities{#about-event-activities}
 

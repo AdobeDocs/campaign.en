@@ -6,7 +6,7 @@ description: Learn how to grant access to Campaign folders and create views
 feature: Application Settings
 role: Business Practitioner, Administrator
 level: Beginner
-exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
+exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3,f2501a28-17ae-4030-8c62-1e97b397a76c
 ---
 # Manage access to folders{#folder-access-management}
 

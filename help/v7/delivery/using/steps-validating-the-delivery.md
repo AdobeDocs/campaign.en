@@ -6,7 +6,7 @@ description: Validating the delivery
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
+exl-id: a711f889-6e5a-4fab-9180-cf80110ce467,c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
 

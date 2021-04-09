@@ -1,12 +1,12 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Configuring the mobile application in Adobe Campaign 
+title: Configuring the mobile application in Adobe Campaign
 description: Learn how to start with the mobile application configuration
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
+exl-id: 16fa5d87-4247-4416-84a6-1724fbcd5d0d,95bc07cc-8837-4511-81bc-05fad28191c9
 ---
 # Get started with the app configuration
 

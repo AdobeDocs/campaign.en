@@ -6,7 +6,7 @@ description: Get started with web forms in Campaign
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
+exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0,aefe0d39-4fc1-4293-9813-5946e3c5756b
 ---
 # Get started with web forms{#about-web-forms}
 

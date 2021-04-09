@@ -6,7 +6,7 @@ description: Learn how to build a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
+exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be,f906a838-58cc-427d-9c6e-5a9f2089bce2
 ---
 # Building a workflow {#building-a-workflow}
 

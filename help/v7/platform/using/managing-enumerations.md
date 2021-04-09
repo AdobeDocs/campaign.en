@@ -6,7 +6,7 @@ description: Managing enumerations
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
+exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f,b64cd136-f748-448a-b86b-6f69a24cdc91
 ---
 # Manage enumerations{#managing-enumerations}
 

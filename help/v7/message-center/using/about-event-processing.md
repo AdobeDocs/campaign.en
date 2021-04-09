@@ -6,7 +6,7 @@ description: About event processing
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-exl-id: 3d85866a-6339-458c-807a-b267cce772b8
+exl-id: 3d85866a-6339-458c-807a-b267cce772b8,f7339b3d-449b-4cef-ac77-21ca144ebff4
 ---
 # About event processing{#about-event-processing}
 

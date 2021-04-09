@@ -6,7 +6,7 @@ description: Setup stages
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
+exl-id: 64480ae0-1524-4648-8b60-bdb9e8db95c1,a5ae0b61-3377-46d9-a327-6c897eeda770
 ---
 # Setup stages{#setup-stages}
 

@@ -6,7 +6,7 @@ description: Message Center processing time
 audience: message-center
 content-type: reference
 topic-tags: reports
-exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
+exl-id: 20909920-ec93-4bf3-b561-6de92ea36345,c797fd94-0c8d-480b-b22a-1489ac331e77
 ---
 # Message Center processing time{#message-center-processing-time}
 

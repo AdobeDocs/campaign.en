@@ -6,7 +6,7 @@ description: About deployment types
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
+exl-id: 08628efb-9186-4b67-9431-310d4bc276b4,1a82d912-462a-4232-826c-5844bc2307a4
 ---
 # About deployment types{#about-deployment-types}
 

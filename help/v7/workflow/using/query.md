@@ -6,7 +6,7 @@ description: Learn more about the Query workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
+exl-id: 026e0e3e-8d15-41ef-9bc2-f27e301b6e39,20d03627-cd56-46da-bc02-73b48a02a350
 ---
 # Query{#query}
 

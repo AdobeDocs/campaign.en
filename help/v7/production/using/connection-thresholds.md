@@ -6,7 +6,7 @@ description: Connection thresholds
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
+exl-id: 147f7c0a-11b4-409a-a277-6e2845cefdf9,4ee05559-e719-4e6e-b42c-1e82df428871
 ---
 # Connection thresholds{#connection-thresholds}
 

@@ -6,7 +6,7 @@ description: Learn how to grant access to Campaign capabilities
 feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
-exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
+exl-id: 952d633f-932b-4323-8118-f4d10404fd8b,9b616715-33cd-43ba-8548-8d96a179408e
 ---
 # Get started with permissions{#access-management}
 

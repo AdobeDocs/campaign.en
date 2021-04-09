@@ -6,7 +6,7 @@ description: Learn technical steps to upgrade to a new build
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
+exl-id: 4aaa6256-256a-441d-80c9-430f8e427875,6d176be7-13f7-4cb1-ac58-95be0a14792c
 ---
 # Upgrading to a new build (on-premise){#upgrading}
 

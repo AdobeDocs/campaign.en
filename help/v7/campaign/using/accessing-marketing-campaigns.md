@@ -6,7 +6,7 @@ description: Accessing marketing campaigns
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
+exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36,65874719-4d5c-416c-afe7-cefb5086fe9c
 ---
 # Accessing marketing campaigns{#accessing-marketing-campaigns}
 

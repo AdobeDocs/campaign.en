@@ -6,7 +6,7 @@ description: Template management
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
+exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a,8343dc96-079b-4c92-9b3b-c27cb5f55486
 ---
 # Template management{#template-management}
 

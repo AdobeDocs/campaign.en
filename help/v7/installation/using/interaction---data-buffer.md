@@ -6,7 +6,7 @@ description: Interaction - Data buffer
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
+exl-id: 3f36e5d6-ca62-4324-80ec-d18d64251dd1,7250b885-0606-466a-bfc2-6dd3cc5a012d
 ---
 # Interaction - Data buffer{#interaction-data-buffer}
 

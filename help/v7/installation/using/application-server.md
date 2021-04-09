@@ -6,7 +6,7 @@ description: Application server
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
+exl-id: 2a12b264-3c92-4899-9f7d-0aa596ba54ea,87103c31-1530-4f8d-ab3a-6ff73093b80c
 ---
 # Application server{#application-server}
 

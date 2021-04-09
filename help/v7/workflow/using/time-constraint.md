@@ -6,7 +6,7 @@ description: Learn more about the Time constraint workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
+exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732,44d6f094-c542-44c9-ae83-a502c2469846
 ---
 # Time constraint{#time-constraint}
 

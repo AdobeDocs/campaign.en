@@ -6,7 +6,7 @@ description: Viral and social marketing
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
+exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5,9dccc1ee-3a7d-4c0e-b3ba-cbe3fb69cf78
 ---
 # Viral and social marketing{#viral-and-social-marketing}
 

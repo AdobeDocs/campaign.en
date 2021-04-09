@@ -6,7 +6,7 @@ description: Delivery reports
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
+exl-id: 4037323d-b19e-4112-af8f-7af463956d70,74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 ---
 # Delivery reports {#delivery-reports}
 

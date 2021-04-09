@@ -6,7 +6,7 @@ description: Seed addresses
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
+exl-id: 04e10e29-1120-4a41-be81-72a829a93b8e,a16103bf-0498-4f59-ad96-8bfdeea26577
 ---
 # Seed addresses{#seed-addresses}
 

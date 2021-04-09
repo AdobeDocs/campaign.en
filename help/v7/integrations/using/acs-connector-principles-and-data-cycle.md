@@ -6,7 +6,7 @@ description: ACS Connector principles and data cycle
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
+exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2,ac1cc681-75b9-4274-bad0-bb004b4ce710
 ---
 # ACS Connector principles and data cycle{#acs-connector-principles-and-data-cycle}
 

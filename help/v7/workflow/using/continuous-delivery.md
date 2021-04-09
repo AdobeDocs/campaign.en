@@ -6,7 +6,7 @@ description: Continuous delivery
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
+exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf,bc42a13c-a152-4d89-b86c-e7cfa7163c99
 ---
 # Continuous delivery{#continuous-delivery}
 

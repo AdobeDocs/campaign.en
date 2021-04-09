@@ -6,7 +6,7 @@ description: Learn more on the SMS connector and how to configure it.
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-exl-id: fded088a-11a2-4b87-a368-7b197334aca4
+exl-id: ba1b63d9-8b56-4d79-8289-dca83589fd09,fded088a-11a2-4b87-a368-7b197334aca4
 ---
 # SMS connector protocol and settings {#sms-connector-protocol}
 

@@ -6,7 +6,7 @@ description: Learn how to create a profile list in a workflow
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
+exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02,f49b032e-2f39-4c69-b593-31e579855ab3
 ---
 # Creating a profile list with a workflow{#creating-a-profile-list-with-a-workflow}
 

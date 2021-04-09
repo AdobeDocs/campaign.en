@@ -6,7 +6,7 @@ description: About targeting activities
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
+exl-id: 0d91eae5-69b0-4189-a444-a7b4d4fc596e,5028ad4c-e427-4e78-962d-c5ea54390db5
 ---
 # About targeting activities{#about-targeting-activities}
 

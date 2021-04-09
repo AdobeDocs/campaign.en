@@ -6,7 +6,7 @@ description: Data oriented APIs
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
+exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d,ce83af22-3b0b-4dbb-9ae4-2fd4af0591d1
 ---
 # Data oriented APIs{#data-oriented-apis}
 

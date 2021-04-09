@@ -6,7 +6,7 @@ description: Translating a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 72959141-ca18-4512-80c7-239efd31f711
+exl-id: 72959141-ca18-4512-80c7-239efd31f711,f112a256-1959-4537-81d4-ced0fb34e5ff
 ---
 # Translating a web form{#translating-a-web-form}
 

@@ -6,7 +6,7 @@ description: Learn more about the Web download workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
+exl-id: 8ab32628-dd2b-4cae-8f8e-b0910228c077,b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 ---
 # Web download{#web-download}
 

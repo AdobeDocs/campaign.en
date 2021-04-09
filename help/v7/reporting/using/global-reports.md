@@ -6,7 +6,7 @@ description: Global reports
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
+exl-id: 2b7cadb1-4d8b-41ac-849e-aae20c995d73,6839fd7e-ecf4-4504-90a8-0207bc3991e4
 ---
 # Global reports {#global-reports}
 

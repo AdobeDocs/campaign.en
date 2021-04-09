@@ -6,7 +6,7 @@ description: Execution settings
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
+exl-id: 221906fd-4ef8-4957-b97f-eb5e24a045b8,e2dea4a0-9ed8-47b6-a16b-eeee653d2290
 ---
 # Execution settings{#execution-settings}
 

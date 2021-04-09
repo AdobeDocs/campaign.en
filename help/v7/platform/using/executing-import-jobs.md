@@ -6,7 +6,7 @@ description: Learn how to configure and execute import jobs in Campaign Classic.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
+exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec,cf3bf275-5756-4b8a-ab3d-38e7ef11d514
 ---
 # Configure import jobs {#executing-import-jobs}
 

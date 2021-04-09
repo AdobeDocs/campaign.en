@@ -6,7 +6,7 @@ description: Discover key capabilities, user interface and global guidelines
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
+exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 ---
 # Get Started with Campaign v8{#gs-ac-v8}
 

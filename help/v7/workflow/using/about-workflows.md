@@ -6,7 +6,7 @@ description: Automate processes with workflows, manage data and audiences, send 
 audience: workflow
 content-type: reference
 topic-tags: introduction
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
+exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff,5464435b-5f32-459b-a1b9-308ab5072252
 ---
 # Get started with workflows{#gs-workflows}
 

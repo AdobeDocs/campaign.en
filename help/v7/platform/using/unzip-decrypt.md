@@ -6,7 +6,7 @@ description: Learn how to unzip or decrypt a file in Campaign Classic before pro
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
+exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d,5e8c5a0f-4b28-46f0-a84c-3c04f6ffb0cf
 ---
 # Unzip or decrypt a file {#unzipping-or-decrypting-a-file-before-processing}
 

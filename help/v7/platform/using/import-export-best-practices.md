@@ -6,7 +6,7 @@ description: Learn more about the best practices to follow when importing or exp
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-exl-id: 03d35202-d221-4136-aad4-00704aabb356
+exl-id: 03d35202-d221-4136-aad4-00704aabb356,2b0001ba-0a13-4a05-af73-301518bdf2fe
 ---
 # Import and export best practices {#import-export-best-practices}
 

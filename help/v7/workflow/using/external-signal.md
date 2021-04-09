@@ -6,7 +6,7 @@ description: Learn more about the External signal workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
+exl-id: 0f17ad49-e94f-45c2-a15e-60b5bfe1ba0b,da84d3ff-1e64-45ef-bef0-da4a24d93461
 ---
 # External signal{#external-signal}
 

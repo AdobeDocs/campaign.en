@@ -6,7 +6,7 @@ description: Learn more about marketing campaign deliveries
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
+exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860,b992f968-a42c-4bbd-a430-75c6327d8408
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 

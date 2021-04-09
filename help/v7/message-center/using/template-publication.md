@@ -6,7 +6,7 @@ description: Transactional message template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
+exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3,dfd0631a-d5e8-4d23-a40c-64fb5434fed1
 ---
 # Template publication{#template-publication}
 

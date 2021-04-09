@@ -6,7 +6,7 @@ description: Learn how to create external accounts
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
+exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0,a187a9cd-4ca7-4513-a14b-80b10c8553ef
 ---
 # External accounts{#external-accounts}
 

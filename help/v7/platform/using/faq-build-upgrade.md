@@ -6,7 +6,7 @@ description: Common questions related to Campaign build upgrades
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
+exl-id: 172b27ee-6214-41a5-97d6-f5f1b4c85cda,85e2135d-a1a3-44f0-a4f9-de38db5c8726
 ---
 # Build Upgrade FAQ {#build-upgrade-faq}
 

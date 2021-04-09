@@ -6,7 +6,7 @@ description: Managing workflows
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
+exl-id: 617b0050-6b04-4c68-9f63-511baae99f41,e10a19d9-6d0d-4003-8524-9074d8791b59
 ---
 # Managing workflows{#managing-workflows}
 

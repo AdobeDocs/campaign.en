@@ -6,7 +6,7 @@ description: Accessing the tracking logs
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: df494786-5950-4646-aa9c-4dde45845057
+exl-id: bffa58fc-a335-438d-b328-30d4a9aad8a2,df494786-5950-4646-aa9c-4dde45845057
 ---
 # Access the tracking logs{#accessing-the-tracking-logs}
 

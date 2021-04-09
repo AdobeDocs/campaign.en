@@ -6,7 +6,7 @@ description: Learn how to perform A/B testing through a dedicated use case.
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
+exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028,950b99b4-d993-4cfe-9fac-882f87874e41
 ---
 # Creating the script {#step-5--creating-the-script}
 

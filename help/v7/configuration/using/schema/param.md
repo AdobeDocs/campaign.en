@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
+exl-id: 7cc2c05a-af25-4236-9972-840a3d6775a0,d8960a2e-6900-4346-9f06-e7dd9d7b5139
 ---
 # param element {#param--element}
 

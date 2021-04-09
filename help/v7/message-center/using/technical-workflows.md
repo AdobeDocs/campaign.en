@@ -6,7 +6,7 @@ description: Technical workflows
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: 771b08df-69f8-4a35-8c78-99edf0a66c69
+exl-id: 771b08df-69f8-4a35-8c78-99edf0a66c69,d5c46b53-863a-42b0-8774-57c3b57c2254
 ---
 # Technical workflows{#technical-workflows}
 

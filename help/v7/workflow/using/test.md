@@ -6,7 +6,7 @@ description: Learn more about the Test workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
+exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8,9bfae328-a04c-4dc4-8349-2da02720112a
 ---
 # Test{#test}
 

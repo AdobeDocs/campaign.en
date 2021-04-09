@@ -6,7 +6,7 @@ description: Learn how to use Campaign to interact with customers via Facebook a
 audience: social
 content-type: reference
 topic-tags: introduction
-exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
+exl-id: 3921b4f1-6e20-44ff-bae8-9a5cb9d366d0,c8fd5f75-9386-42dd-bfb6-8086a86aa324
 ---
 # About social marketing{#about-social-marketing}
 

@@ -6,7 +6,7 @@ description: Learn how to start a workflow and discover workflows actions toolba
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
+exl-id: 6718b346-b42e-4d2a-8188-afc29bf694b6,d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
 # Starting a workflow {#starting-a-workflow}
 

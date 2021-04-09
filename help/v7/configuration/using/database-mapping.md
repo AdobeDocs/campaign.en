@@ -6,7 +6,7 @@ description: Database mapping
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: 728b509f-2755-48df-8b12-449b7044e317
+exl-id: 728b509f-2755-48df-8b12-449b7044e317,de263c9e-a909-4680-8190-ebd76dec3118
 ---
 # Database mapping{#database-mapping}
 

@@ -6,7 +6,7 @@ description: Defining web forms layout
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
+exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1,b479e2e6-83a4-4281-99dc-9282676aba1f
 ---
 # Defining web forms layout{#defining-web-forms-layout}
 

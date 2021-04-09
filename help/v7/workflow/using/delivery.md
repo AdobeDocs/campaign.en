@@ -6,7 +6,7 @@ description: Learn more about the Delivery-type workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
+exl-id: 212b1928-bd58-4ef0-8475-9d04f9161d25,72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 ---
 # Delivery{#delivery}
 

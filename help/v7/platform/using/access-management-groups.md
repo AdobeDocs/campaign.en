@@ -6,7 +6,7 @@ description: Learn how to grant access to operator groups
 feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
-exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
+exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525,e8f35b16-bb2b-4504-bb5a-bdab91889b27
 ---
 # Create and manage operator groups {#operator-groups}
 

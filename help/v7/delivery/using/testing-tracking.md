@@ -6,7 +6,7 @@ description: Testing tracking
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
+exl-id: 0bb1533d-8fbf-4b94-976f-d259b4e3957b,16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
 # Testing tracking{#testing-tracking}
 

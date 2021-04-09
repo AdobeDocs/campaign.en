@@ -6,7 +6,7 @@ description: Get started with Campaign data model
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
+exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
 ---
 # Get started with Campaign data model{#gs-ac-datamodel}
 

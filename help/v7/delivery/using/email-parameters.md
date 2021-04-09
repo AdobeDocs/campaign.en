@@ -6,7 +6,7 @@ description: Learn about options and settings that are specific to email deliver
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
+exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2,8afef310-b394-4979-b92c-72dcc556ea41
 ---
 # Email parameters {#email-parameters}
 

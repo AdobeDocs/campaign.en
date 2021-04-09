@@ -6,7 +6,7 @@ description: Learn main differences between hosted and on-premise deployments
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
+exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f,c572a03b-7baa-46c4-a99f-ad36cf871f62
 ---
 # Capability matrix per model{#capability-matrix-per-model}
 

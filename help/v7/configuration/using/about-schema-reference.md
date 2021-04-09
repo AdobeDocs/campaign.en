@@ -6,7 +6,7 @@ description: Learn how to configure extension schemas in order to extend the con
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
+exl-id: 7c0a269f-f43a-4ac6-aecb-4b07556e7c17,f36a1b01-a002-4a21-9255-ea78b5f173fe
 ---
 # About schema reference{#about-schema-reference}
 

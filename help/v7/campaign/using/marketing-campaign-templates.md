@@ -6,7 +6,7 @@ description: Marketing campaign templates
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
+exl-id: c4eac526-bc2a-44dd-99b0-4f83d64e132c,d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 ---
 # Create and configure campaign templates {#campaign-templates}
 

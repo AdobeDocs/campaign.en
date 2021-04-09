@@ -6,7 +6,7 @@ description: Learn more about managing deliverability in Adobe Campaign Classic.
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
+exl-id: bf02ba70-1e15-46d4-9e4e-8c2b3a1449a2,dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
 # Controlling your message content{#control-message-content}
 

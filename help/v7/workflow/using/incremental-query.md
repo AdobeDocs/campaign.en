@@ -6,7 +6,7 @@ description: Learn more about the Incremental query workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
+exl-id: abc08232-1a92-41e8-90f1-02e0a673539b,b306fd32-68fc-4a45-b221-7a93f31a4d7e
 ---
 # Incremental query{#incremental-query}
 

@@ -6,7 +6,7 @@ description: Content manager resources and principles
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
+exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15,d42f3dc1-f66f-4f4d-bef1-076a27c13d8f
 ---
 # Content manager resources and principles{#content-manager-resources-and-principles}
 

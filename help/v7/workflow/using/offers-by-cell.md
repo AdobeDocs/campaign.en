@@ -6,7 +6,7 @@ description: Offers by cell
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
+exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61,78e74d43-c39c-4f7e-81dd-9e25dde8563a
 ---
 # Offers by cell{#offers-by-cell}
 

@@ -5,7 +5,7 @@ title: Configuring events
 description: Learn how to configure events for custom implementation
 audience: integrations
 content-type: reference
-exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
+exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e,e7b0282d-f621-4ab1-9748-72df53a0ba92
 ---
 # Configuring events for custom implementation {#events}
 

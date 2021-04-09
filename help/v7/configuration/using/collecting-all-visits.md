@@ -6,7 +6,7 @@ description: Collecting all visits
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
+exl-id: 05634067-1ad0-4b3d-ae62-142534ec49c1,cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 ---
 # Collecting all visits{#collecting-all-visits}
 

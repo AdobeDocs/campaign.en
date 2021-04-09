@@ -6,7 +6,7 @@ description: Learn more about the Data loading (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
+exl-id: 14704f55-609c-45a4-ba69-c1dc2843d46d,a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
 # Data loading (file){#data-loading-file}
 

@@ -6,7 +6,7 @@ description: Web service calls
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
+exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34,f86f2d40-001b-4aa5-b2ad-e23d6d3c2a48
 ---
 # Web service calls{#web-service-calls}
 

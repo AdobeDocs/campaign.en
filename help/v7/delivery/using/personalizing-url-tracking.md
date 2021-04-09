@@ -6,7 +6,7 @@ description: Configuring URL tracking options
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
+exl-id: 3277726a-fd92-4720-8871-3d0422c7db70,a253c1cf-404c-4c34-8ba0-a8e578c4379c
 ---
 # Configuring URL tracking options{#personalizing-url-tracking}
 

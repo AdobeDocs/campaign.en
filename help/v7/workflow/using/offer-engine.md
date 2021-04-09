@@ -6,7 +6,7 @@ description: Offer engine
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
+exl-id: 7218f2b3-b191-4654-abe4-a9b82d5b4c73,8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}
 

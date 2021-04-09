@@ -6,7 +6,7 @@ description: Creating and configuring the database
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
+exl-id: 5177eaa2-db83-4fa5-a617-4742c5cecc3e,f40bab8c-5064-40d9-beed-101a9f22c094
 ---
 # Creating and configuring the database{#creating-and-configuring-the-database}
 

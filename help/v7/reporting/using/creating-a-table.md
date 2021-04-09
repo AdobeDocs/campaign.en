@@ -6,7 +6,7 @@ description: Creating a table
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
+exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e,4e6b8d5f-d28d-4dff-9fc6-2f60934bb793
 ---
 # Creating a table{#creating-a-table}
 

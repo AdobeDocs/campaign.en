@@ -6,7 +6,7 @@ description: Learn how to manage Privacy requests
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
+exl-id: 07a93afa-3bdd-4350-bbd1-ffc7862255ef,c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 ---
 # Managing privacy requests {#privacy-requests}
 

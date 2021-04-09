@@ -6,7 +6,7 @@ description: Configuring access to Assets
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
+exl-id: 8709ff20-56fe-4ec9-810c-f7c521e0f060,f3897a40-b080-47e5-9e31-4d861c1bacd5
 ---
 # Configuring access to Assets{#configuring-access-to-assets}
 

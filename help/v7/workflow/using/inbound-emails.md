@@ -6,7 +6,7 @@ description: Learn more about the Inbound Emails workflow activity
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
+exl-id: 3570ed5d-6f13-43c9-b730-7ce8731292b9,b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 ---
 # Inbound Emails{#inbound-emails}
 

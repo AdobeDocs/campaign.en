@@ -6,7 +6,7 @@ description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
+exl-id: 6b65fef1-aeef-4146-9528-c18021130ce2,9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 ---
 # Common questions{#common-questions}
 

@@ -6,7 +6,7 @@ description: Migration method
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-exl-id: dd4d068b-f414-448f-8d9a-eedf44e7b6e6
+exl-id: 1928c5c4-b4bb-46dc-ac0e-5319e1e14400,dd4d068b-f414-448f-8d9a-eedf44e7b6e6
 ---
 # Migration method{#migration-method}
 

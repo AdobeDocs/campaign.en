@@ -6,7 +6,7 @@ description: Creating a collaborative campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
+exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef,eb8d76b1-876d-40ab-b46c-ee4b40453635
 ---
 # Creating a collaborative campaign{#creating-a-collaborative-campaign-intro}
 

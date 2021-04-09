@@ -6,7 +6,7 @@ description: Get started with schema edition
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
+exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7,d276deee-8b6b-4dcf-aa2e-74a3c95159b7
 ---
 # About schema edition{#about-schema-edition}
 

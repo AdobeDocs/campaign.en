@@ -6,7 +6,7 @@ description: Integration via JavaScript (client side)
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
+exl-id: 7c60ada8-7643-4bc2-ad70-14701361c671,a9842e59-120c-4a35-abdf-6540a0bbdd6d
 ---
 # Integration via JavaScript (client side){#integration-via-javascript-client-side}
 

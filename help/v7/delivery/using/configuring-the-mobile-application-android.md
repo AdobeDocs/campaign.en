@@ -9,7 +9,7 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
+exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9,52d88957-2393-4e1a-8022-eb255d7eeaba
 ---
 # Configuration steps for Android
 

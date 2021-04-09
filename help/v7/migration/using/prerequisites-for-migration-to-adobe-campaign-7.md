@@ -6,7 +6,7 @@ description: Prerequisites for migration to Adobe Campaign 7
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-exl-id: 747d8a2c-b13a-4852-a9b5-0d37b236a36f
+exl-id: 747d8a2c-b13a-4852-a9b5-0d37b236a36f,8fe48774-6489-4b7d-bac6-6e9919f1cacf
 ---
 # Prerequisites for migration to Adobe Campaign 7{#prerequisites-for-migration-to-adobe-campaign}
 

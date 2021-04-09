@@ -6,7 +6,7 @@ description: RDBMS Specific recommendations
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
+exl-id: a586d70b-1b7f-47c2-a821-635098a70e45,a6ce6e0f-d4bb-42d4-be38-ff68bc14d170
 ---
 # RDBMS Specific recommendations{#rdbms-specific-recommendations}
 
@@ -106,9 +106,11 @@ Here is an example of table defragmentation using specific functions to generate
 * Using two functions instead of one means that if the first one fails, you don't run the risk of deleting the original table.
 
 ```
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  -- Generate the CREATE TABLE DDL for a table
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  create or replace function GenTableDDL(text) returns text as $$
  declare
  vstrTable text;
@@ -173,9 +175,11 @@ Here is an example of table defragmentation using specific functions to generate
  END;
  $$ LANGUAGE plpgsql;
 
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  -- Generate the CREATE INDEX DDL for a table
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  create or replace function GenIndexDDL(text) returns text as $$
  declare
  vstrTable text;
@@ -236,9 +240,11 @@ Here is an example of table defragmentation using specific functions to generate
  END;
  $$ LANGUAGE plpgsql;
 
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  -- Generate the ALTER INDEX RENAME for a table
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  create or replace function GenRenameIndexDDL(text) returns text as $$
  declare
  vstrTable text;
@@ -271,9 +277,11 @@ Here is an example of table defragmentation using specific functions to generate
  END;
  $$ LANGUAGE plpgsql;
 
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  -- Build a copy of a table, with index
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  create or replace function GenRebuildTablePart1(text) returns text as $$
  declare
  vstrTable text;
@@ -297,9 +305,11 @@ Here is an example of table defragmentation using specific functions to generate
  end;
  $$ LANGUAGE plpgsql;
  
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  -- Drop the original table and rename the copy
- -- --------------------------------------------------------------------------
+ -- -----------------------------------------------------------------------
+---
  create or replace function GenRebuildTablePart2(text) returns text as $$
  declare
  vstrTable text;

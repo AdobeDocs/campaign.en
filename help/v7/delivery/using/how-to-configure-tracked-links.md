@@ -6,7 +6,7 @@ description: How to configure tracked links
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
+exl-id: 390ab67f-b972-47b9-be2f-49b312cdd0c9,ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 ---
 # How to configure tracked links{#how-to-configure-tracked-links}
 

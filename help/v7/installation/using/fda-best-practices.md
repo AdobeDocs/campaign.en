@@ -6,7 +6,7 @@ description: Learn best practices and limitations when working with an external 
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
+exl-id: 76e95381-ae08-47cb-af9a-d181d35ca50c,f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
 # Best practices and limitations 
 

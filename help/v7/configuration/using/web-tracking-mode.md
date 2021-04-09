@@ -6,7 +6,7 @@ description: Web tracking mode
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
+exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3,fb6e6901-fdb2-445c-a19c-9ab2188bfe15
 ---
 # Web tracking mode{#web-tracking-mode}
 

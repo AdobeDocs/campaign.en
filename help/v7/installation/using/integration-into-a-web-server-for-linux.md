@@ -6,7 +6,7 @@ description: Learn how to integrate Campaign into a Web server (Linux)
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
+exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d,ed32a130-faab-4c29-8f4a-ed7be20b7e2b
 ---
 # Integration into a Web server for Linux{#integration-into-a-web-server-for-linux}
 

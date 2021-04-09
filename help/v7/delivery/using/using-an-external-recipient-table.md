@@ -6,7 +6,7 @@ description: Using an external recipient table
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
+exl-id: b6aabc68-707d-4c6c-b008-277609166c6c,e586948e-539b-41bb-a9d7-ffe35277927b
 ---
 # Using an external recipient table{#using-an-external-recipient-table}
 

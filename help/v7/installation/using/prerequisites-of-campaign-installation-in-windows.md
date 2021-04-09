@@ -6,7 +6,7 @@ description: Prerequisites of Campaign installation in Windows
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
+exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da,e88dfe98-c099-4e87-94f7-208b08c5dc5c
 ---
 # Get started with installing Campaign on Windows {#prerequisites-of-campaign-installation-in-windows}
 

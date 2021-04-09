@@ -6,7 +6,7 @@ description: Power Booster and Power Cluster
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
+exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07,6c49bc4a-cec9-414c-93b4-7638d7332e19
 ---
 # Power Booster and Power Cluster{#power-booster-and-power-cluster}
 

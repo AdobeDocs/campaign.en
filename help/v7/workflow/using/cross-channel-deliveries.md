@@ -6,7 +6,7 @@ description: Learn more about cross-channel deliveries
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
+exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25,53abc44f-fa0a-4e75-9b2b-008e0dbfb60a
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}
 

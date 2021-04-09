@@ -6,7 +6,7 @@ description: Learn more about transactional messaging event
 audience: message-center
 content-type: reference
 topic-tags: introduction
-exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
+exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b,a94ed148-6f76-4974-9f0a-cc62d36f2718
 ---
 # Event description{#event-description}
 

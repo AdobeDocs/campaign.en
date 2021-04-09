@@ -6,7 +6,7 @@ description: Discussion forums
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
+exl-id: 19440f19-9ea8-4a1f-95dc-51d6045f23c2,222853c5-c754-4c0b-8ee4-a64b2f8677a4
 ---
 # Discussion forums{#discussion-forums}
 

@@ -6,7 +6,7 @@ description: Control rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
+exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331,b907a412-c205-4490-9710-707203380830
 ---
 # Control rules{#control-rules}
 

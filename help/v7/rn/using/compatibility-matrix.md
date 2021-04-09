@@ -6,7 +6,7 @@ description: Campaign Classic Compatibility matrix
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
+exl-id: 78333d9c-9dd5-42f7-9ae3-86e763bbec0c,b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 ---
 # Compatibility matrix{#compatibility-matrix}
 

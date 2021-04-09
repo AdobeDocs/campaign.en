@@ -6,7 +6,7 @@ description: Creating a Facebook application
 audience: social
 content-type: reference
 topic-tags: configuration
-exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
+exl-id: 15ffeffc-1439-46e5-937f-5259030ef935,5c11bd0f-2df7-4c7f-b682-955fedf8e664
 ---
 # Creating a Facebook application{#creating-a-facebook-application}
 

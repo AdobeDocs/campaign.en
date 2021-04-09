@@ -6,7 +6,7 @@ description: Input forms
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
+exl-id: 44d3c46c-0f14-4eb5-bfd6-68313bbc4d10,8ec52c96-44a2-4544-93b6-9ba251510682
 ---
 # Input forms{#input-forms}
 

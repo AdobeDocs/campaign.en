@@ -6,7 +6,7 @@ description: Accessing an external database (FDA)
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
+exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f,f322b624-e929-4048-a5f2-9634aedc4e04
 ---
 # Accessing an external database (FDA){#accessing-an-external-database-fda}
 

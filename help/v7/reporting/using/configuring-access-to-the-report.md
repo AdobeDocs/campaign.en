@@ -6,7 +6,7 @@ description: Configuring access to the report
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
+exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24,6d99e653-1a9a-4ec9-ac2a-71d8d843edb1
 ---
 # Configuring access to the report{#configuring-access-to-the-report}
 

@@ -12,7 +12,7 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
+exl-id: 61be22e6-f1a3-462d-8cc5-bb9d5c7a02a1,a6b10585-7bf9-4fef-b886-db081b6d3acc
 ---
 # Using the Deduplication activity's Merge functionality {#deduplication-merge}
 

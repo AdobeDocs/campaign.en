@@ -5,7 +5,7 @@ title: About Adobe Experience Manager
 description: About Adobe Experience Manager
 audience: integrations
 content-type: reference
-exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
+exl-id: ac5d6920-4aff-485c-966e-8c29a0434514,e9756046-fc67-4afd-b7a9-c8d73614f02e
 ---
 # About Adobe Experience Manager{#about-adobe-experience-manager}
 

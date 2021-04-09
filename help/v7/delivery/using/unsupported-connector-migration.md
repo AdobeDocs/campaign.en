@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: yes
-exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
+exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43,de453186-3e3e-4aeb-b3f9-4597b693f618
 ---
 # Migrate unsupported SMS connector to the Extended Generic SMPP connector{#unsupported-connector-migration}
 

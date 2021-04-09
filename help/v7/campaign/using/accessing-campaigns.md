@@ -6,7 +6,7 @@ description: Accessing campaigns
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
+exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3,65d4e7ce-3f0d-43b7-94e2-81288a1a5048
 ---
 # Accessing campaigns{#accessing-campaigns}
 

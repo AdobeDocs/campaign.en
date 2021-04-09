@@ -6,7 +6,7 @@ description: Using cubes to explore data
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
+exl-id: 2bb488d4-13be-4d43-9189-b86387d00b9e,32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Using cubes to explore data{#using-cubes-to-explore-data}
 

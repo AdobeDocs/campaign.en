@@ -6,7 +6,7 @@ description: Regenerating schemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
+exl-id: 397668d9-82d1-4484-949c-53929a866efc,6c48cfea-6d20-4462-a485-71e1575a08a7
 ---
 # Regenerating schemas{#regenerating-schemas}
 

@@ -6,7 +6,7 @@ description: Local approval
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
+exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca,c2f15ccb-389d-45f2-8be0-834ad3abbb3e
 ---
 # Local approval{#local-approval}
 

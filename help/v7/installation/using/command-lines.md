@@ -6,7 +6,7 @@ description: Command lines
 audience: installation
 content-type: reference
 topic-tags: appendices
-exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
+exl-id: 321baba3-3f44-4b84-8158-b89708222c7c,5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 ---
 # Command lines{#command-lines}
 

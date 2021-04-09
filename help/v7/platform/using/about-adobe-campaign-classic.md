@@ -6,7 +6,7 @@ description: Discover key capabilities, user interface and global guidelines.
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
+exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943,9b69a121-208c-4be7-b8ae-6d97be1aa843
 ---
 # Get Started with Campaign Classic{#about-adobe-campaign-classic}
 

@@ -6,7 +6,7 @@ description: Learn system communication guidelines
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
+exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01,be818daa-cecb-4d98-848e-8afac4b1ec5e
 ---
 # Network configuration{#network-configuration}
 

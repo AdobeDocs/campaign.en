@@ -6,7 +6,7 @@ description: Identifying a form
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
+exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27,235ab4f5-fa3e-4004-b303-0114dc7abebe
 ---
 # Identifying a form{#identifying-a-form}
 

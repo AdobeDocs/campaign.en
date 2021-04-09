@@ -6,7 +6,7 @@ description: Tracking a campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
+exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914,c54faf89-85a1-4ab2-a7d8-6cef479301ae
 ---
 # Tracking a campaign{#tracking-a-campaign}
 

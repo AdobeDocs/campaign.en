@@ -6,7 +6,7 @@ description: Managing seed addresses in transactional messages
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
+exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b,82009b62-0e55-4f82-a845-6b4e8bdbef3f
 ---
 # Managing seed addresses in transactional messages{#managing-seed-addresses-in-transactional-messages}
 

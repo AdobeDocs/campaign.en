@@ -6,7 +6,7 @@ description: Managing profiles
 audience: platform
 content-type: reference
 topic-tags: profile-management
-exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
+exl-id: 6adf3af3-9dba-4c6c-a594-4159c04491d6,e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 ---
 # Manage profiles{#managing-profiles}
 

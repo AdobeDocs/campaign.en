@@ -6,7 +6,7 @@ description: About offers simulation
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
+exl-id: 653255dc-1832-47ba-a0b5-5f403d8d0537,facaa88e-1fa2-4189-9d8f-348aaef3e235
 ---
 # About offers simulation{#about-offers-simulation}
 

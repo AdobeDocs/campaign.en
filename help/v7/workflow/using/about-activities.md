@@ -6,7 +6,7 @@ description: About activities
 audience: workflow
 content-type: reference
 topic-tags: introduction
-exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
+exl-id: 081ecb7c-adae-4d06-9d66-506dd1c4f755,900dd30e-d4fb-452a-af3f-ae00758b0077
 ---
 # About activities{#about-activities}
 

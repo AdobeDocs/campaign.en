@@ -6,7 +6,7 @@ description: Learn how to understand delivery failures
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
+exl-id: 1ef9663d-6341-45d6-ad46-f042ed3ebb68,86c7169a-2c71-4c43-8a1a-f39871b29856
 ---
 # Understanding delivery failures{#understanding-delivery-failures}
 

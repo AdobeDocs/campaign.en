@@ -6,7 +6,7 @@ description: Managing reports
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
+exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3,f4219972-d598-47f6-9d05-c992d78efb87
 ---
 # Managing reports{#managing-reports}
 

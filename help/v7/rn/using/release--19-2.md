@@ -3,10 +3,10 @@ solution: Campaign Classic
 product: campaign
 title: Release 19.2
 description: Release notes for Campaign 19.2
-feature:
+feature: 
 role: 
-level:
-exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
+level: 
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196,d9b98a94-2db4-49ae-99b1-cfe825b3050e
 ---
 # Release 19.2{#release-19-2}
 

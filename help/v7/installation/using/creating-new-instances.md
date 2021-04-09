@@ -6,7 +6,7 @@ description: Creating new instances
 audience: installation
 content-type: reference
 topic-tags: appendices
-exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
+exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b,ffc75f6f-1705-48bc-a279-ccaca5a9f559
 ---
 # Creating new instances{#creating-new-instances}
 

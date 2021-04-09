@@ -6,7 +6,7 @@ description: Sharing assets with Adobe Experience Cloud
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
+exl-id: 578f8708-58b2-410b-9854-d00f692e5f74,b28aa5a5-afba-458b-8a85-375493c6c836
 ---
 # Sharing assets with Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 

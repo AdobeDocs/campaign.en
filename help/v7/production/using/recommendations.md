@@ -6,7 +6,7 @@ description: Recommendations
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-exl-id: e458f6cb-f6d1-4688-9f6d-2a27a2f90829
+exl-id: 72acd127-0f6d-40a5-9189-de199bf41a0e,e458f6cb-f6d1-4688-9f6d-2a27a2f90829
 ---
 # Recommendations{#recommendations}
 

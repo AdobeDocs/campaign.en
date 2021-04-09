@@ -6,7 +6,7 @@ description: About outbound channels
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
+exl-id: 298b5ceb-a2fd-4ad0-9802-918b7545022c,6e32dadc-097f-4380-b931-88468f3cb3b1
 ---
 # About outbound channels{#about-outbound-channels}
 

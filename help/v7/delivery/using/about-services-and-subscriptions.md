@@ -6,7 +6,7 @@ description: About services and subscriptions
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
+exl-id: 988b6255-7f67-4574-b03b-ce5b1c071ab7,eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 ---
 # About services and subscriptions{#about-services-and-subscriptions}
 

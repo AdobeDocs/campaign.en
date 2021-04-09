@@ -6,7 +6,7 @@ description: Learn more about the life cycle of a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
+exl-id: ac5b57da-7327-4235-826e-f279d758f7d5,fceb5752-dc73-4386-8c18-c4f3e6110ca5
 ---
 # Workflow life cycle {#workflow-life-cycle}
 

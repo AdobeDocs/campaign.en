@@ -6,7 +6,7 @@ description: Troubleshooting the ACS Connector
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
+exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058,6a7e7632-2c74-4e2f-b490-2f38eb6831fb
 ---
 # Troubleshooting the ACS Connector{#troubleshooting-the-acs-connector}
 

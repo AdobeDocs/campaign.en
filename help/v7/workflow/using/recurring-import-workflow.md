@@ -6,7 +6,7 @@ description: Learn how to configure a workflow template for recurring imports.
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
+exl-id: 7c946793-4a03-4069-a6f7-abc69f40bb1c,e6e140cb-8de0-4ab9-bddc-95abe04124c6
 ---
 # Setting up a recurring import workflow {#setting-up-a-recurring-import}
 

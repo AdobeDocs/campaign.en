@@ -6,7 +6,7 @@ description: "Use case: creating a Refer A Friend form"
 audience: web
 content-type: reference
 topic-tags: online-surveys
-exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
+exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482,cc8bc432-ad36-496d-95ef-d6dc6b725372
 ---
 # Use case: create a referral form{#use-case-creating-a-refer-a-friend-form}
 

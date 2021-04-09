@@ -6,7 +6,7 @@ description: Learn deliverability best practices
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
+exl-id: 26c14331-f885-419e-9e4d-a45fca00d089,f301b34c-244c-4279-b23f-8224ea8eedbe
 ---
 # What is deliverability{#about-deliverability}
 

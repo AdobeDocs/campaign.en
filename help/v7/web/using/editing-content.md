@@ -6,7 +6,7 @@ description: Editing content
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
+exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c,dcfb2ddd-dce4-4f88-b5f0-9179832597b7
 ---
 # Editing content{#editing-content}
 

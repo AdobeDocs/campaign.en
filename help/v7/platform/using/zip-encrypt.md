@@ -6,7 +6,7 @@ description: Learn how to zip or crypt a file in Campaign Classic before process
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
+exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430,73d15b67-ce3b-44b1-b77b-35663b968280
 ---
 # Zip or encrypt a file {#zipping-or-encrypting-a-file}
 

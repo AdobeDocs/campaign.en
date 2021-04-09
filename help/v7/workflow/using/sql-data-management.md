@@ -6,7 +6,7 @@ description: Learn more about SQL Data Management workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
+exl-id: 31830ed5-d182-4132-a870-353e0f52c6d5,cada78cb-658f-4b9e-8136-31c17cb1d82f
 ---
 # SQL Data Management{#sql-data-management}
 

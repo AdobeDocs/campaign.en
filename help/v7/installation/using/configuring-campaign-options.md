@@ -6,7 +6,7 @@ description: Learn how to configure Campaign options
 audience: installation
 content-type: reference
 topic-tags: appendices
-exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
+exl-id: 4cb2f73c-8223-4313-981c-d3caa2914eef,a979cd99-afa7-4ce6-ba0f-9495089cba08
 ---
 # List of Campaign Classic options{#configuring-campaign-options}
 

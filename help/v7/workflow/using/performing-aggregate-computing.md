@@ -6,7 +6,7 @@ description: Learn how to perform aggregate computing in queries
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
+exl-id: 5b05788f-498b-4a84-bdde-2852900f0129,87385d3b-2a50-4570-ac79-121a2580afa2
 ---
 # Performing aggregate computing {#performing-aggregate-computing}
 

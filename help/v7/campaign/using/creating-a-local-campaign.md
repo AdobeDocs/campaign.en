@@ -6,7 +6,7 @@ description: Creating a local campaign
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
+exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da,4c938c62-7430-4ed4-99d1-31f40401fca2
 ---
 # Creating a local campaign{#creating-a-local-campaign}
 

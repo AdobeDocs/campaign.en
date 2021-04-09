@@ -6,7 +6,7 @@ description: Change dimension
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
+exl-id: 95e44f2b-ac53-472c-b62d-a7ad9fb8398d,c3de99f8-089f-4c7c-be11-f375a9463eaa
 ---
 # Change dimension{#change-dimension}
 

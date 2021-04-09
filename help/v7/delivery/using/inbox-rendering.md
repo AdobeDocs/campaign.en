@@ -6,7 +6,7 @@ description: Learn how to capture email renderings and make them available in a 
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-exl-id: a3294e70-ac96-4e51-865f-b969624528ce
+exl-id: a3294e70-ac96-4e51-865f-b969624528ce,fbd0eaa3-5260-42a9-82c0-46c65221c686
 ---
 # Inbox rendering{#inbox-rendering}
 

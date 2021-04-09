@@ -6,7 +6,7 @@ description: Create deliveries to send personalized messages on different channe
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
+exl-id: 3b889cdd-b3a5-47d6-a3ee-c4eaae5b1cbe,92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 ---
 # Communication channels{#communication-channels}
 

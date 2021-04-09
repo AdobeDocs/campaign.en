@@ -6,7 +6,7 @@ description: Image display issues
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
+exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e,74dd07af-edbc-4730-8fc4-0e7d9ae10b0a
 ---
 # Image display issues{#image-display-issues}
 

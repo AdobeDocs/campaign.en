@@ -6,7 +6,7 @@ description: Discover Campaign common Q&A
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: f5688357-db90-4f88-9596-91e9d0a20d75
+exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 ---
 # Frequently Asked Questions{#faq}
 

@@ -6,7 +6,7 @@ description: Create and share dynamic Web applications, landing pages and survey
 audience: web
 content-type: reference
 topic-tags: web-applications
-exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
+exl-id: 9d62aa5b-51f5-433a-8271-383cb3252078,df58221f-f71b-49d5-a6a1-c81ddff27fdb
 ---
 # Get started with web applications{#about-web-applications}
 

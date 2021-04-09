@@ -6,7 +6,7 @@ description: Recommending a category
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
+exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25,f541314f-fdbb-4339-ac2c-ba114aed9085
 ---
 # Recommending a category{#recommending-a-category}
 

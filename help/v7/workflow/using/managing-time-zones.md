@@ -6,7 +6,7 @@ description: Managing time zones
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
+exl-id: 9e383cd3-433e-4620-bb7f-374d69400051,c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---
 # Managing time zones{#managing-time-zones}
 

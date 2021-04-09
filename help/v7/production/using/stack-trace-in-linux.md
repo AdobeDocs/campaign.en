@@ -6,7 +6,7 @@ description: Stack trace in Linux
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
+exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb,cc0719b5-3a84-442a-b248-73b3fe40e10a
 ---
 # Stack trace in Linux{#stack-trace-in-linux}
 

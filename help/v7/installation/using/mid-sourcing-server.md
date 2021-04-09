@@ -6,7 +6,7 @@ description: This section details the installation and configuration of a mid-so
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
+exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98,c355c7e8-a56b-432a-a93d-ab07a3d4eb7a
 ---
 # Mid-sourcing server{#mid-sourcing-server}
 

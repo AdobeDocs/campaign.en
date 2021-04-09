@@ -6,7 +6,7 @@ description: Switching to Unicode
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
+exl-id: 267c756a-97c0-4049-b341-0e127a7b5147,4cfecf2f-cf98-42c1-b979-cdd26d5de48b
 ---
 # Switching to Unicode{#switching-to-unicode}
 

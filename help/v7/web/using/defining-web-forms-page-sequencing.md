@@ -6,7 +6,7 @@ description: Defining web forms page sequencing
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
+exl-id: 9e8b2c6a-9015-4fda-8265-56677f42e08d,c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}
 

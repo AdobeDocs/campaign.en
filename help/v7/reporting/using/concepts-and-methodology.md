@@ -6,7 +6,7 @@ description: Concepts and methodology
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
+exl-id: 0a52064e-32f1-48db-8189-de922ad45af5,5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
 # Best practices for cubes{#concepts-and-methodology}
 

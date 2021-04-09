@@ -6,7 +6,7 @@ description: Define, optimize, execute and analyse marketing campaigns.
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
+exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5,cbae3c7f-4e48-4862-8a07-753fb5925d89
 ---
 # Design and execute marketing campaigns{#designing-marketing-campaigns}
 

@@ -6,7 +6,7 @@ description: "Use case: configuring the field substitution"
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
+exl-id: 1476dbc9-6d61-4c2a-bd75-9f7b5ee01461,3f567b2d-6f98-4831-af84-7db17fd12c6e
 ---
 # Use case: configuring the field substitution{#use-case-configuring-the-field-substitution}
 

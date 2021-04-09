@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: yes
-exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
+exl-id: 34be23f7-17fa-475e-9663-2e353d76b172,cd89e582-0aa5-4e78-8847-d228cbc19b64
 ---
 # Update bounce qualification after an ISP outage {#update-bounce-qualification.md}
 

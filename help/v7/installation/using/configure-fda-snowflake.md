@@ -6,7 +6,7 @@ description: Learn how to configure access to Snowflake in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
+exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d,dfb344d8-f28f-4e4a-b8a6-cd4946191ef1
 ---
 # Configure access to Snowflake {#configure-access-to-snowflake}
 

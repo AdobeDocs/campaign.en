@@ -6,7 +6,7 @@ description: Approval
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
+exl-id: 77ac61fe-5bc2-4ccc-9caa-879aa5ca7689,7ff5da71-ef82-48a2-a608-06a4ca188bb9
 ---
 # Approval{#approval}
 

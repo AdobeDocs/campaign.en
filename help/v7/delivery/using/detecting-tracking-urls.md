@@ -6,7 +6,7 @@ description: Learn more about recommended pattern to track URLs
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
+exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991,abf4c770-13bd-44ec-b8b1-4192334ca82f
 ---
 # Detecting tracking URLs
 

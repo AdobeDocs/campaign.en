@@ -6,7 +6,7 @@ description: Learn how to monitor import and export jobs execution.
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
+exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa,85c4c30a-39aa-4ca2-9cfc-7270b5d06414
 ---
 # Monitor jobs execution {#monitoring-job-execution}
 

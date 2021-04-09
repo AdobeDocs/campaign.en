@@ -6,7 +6,7 @@ description: JavaScript scripts and templates
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
+exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a,fb77b4db-6168-45b2-b609-62a498ada4cb
 ---
 # JavaScript scripts and templates{#javascript-scripts-and-templates}
 

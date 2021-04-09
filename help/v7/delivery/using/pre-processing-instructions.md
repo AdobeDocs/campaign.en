@@ -6,7 +6,7 @@ description: Learn more about pre-processing instructions to use to script the U
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
+exl-id: 96acbe82-740d-464a-8d95-53d90f046d85,9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 ---
 # Pre-processing instructions {#pre-processing-instructions}
 

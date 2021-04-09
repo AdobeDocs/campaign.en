@@ -6,7 +6,7 @@ description: Submitting request to Adobe
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
+exl-id: 0ec936a6-81e0-4228-942c-b91dd5cd3398,f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 ---
 # Submitting request to Adobe{#submitting-request-to-adobe}
 

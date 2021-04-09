@@ -6,7 +6,7 @@ description: Creating a landing page
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
+exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7,da462454-eace-4ede-a342-a7f245f72a1f
 ---
 # Creating a landing page{#creating-a-landing-page}
 

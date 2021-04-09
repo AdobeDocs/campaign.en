@@ -6,7 +6,7 @@ description: This section describes the Adobe Campaign Classic transactional mes
 audience: message-center
 content-type: reference
 topic-tags: introduction
-exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
+exl-id: 0a059397-b037-405b-b9c1-94a4a072674d,813f9c4f-e059-4395-81cf-eabdad888f97
 ---
 # Transactional messaging architecture{#transactional-messaging-architecture}
 

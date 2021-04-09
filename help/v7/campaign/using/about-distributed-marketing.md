@@ -6,7 +6,7 @@ description: About distributed marketing
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-exl-id: c166409b-e040-491e-840a-a41310935d75
+exl-id: 0d5367f0-4f52-46ed-9e56-cd09055c3698,c166409b-e040-491e-840a-a41310935d75
 ---
 # About distributed marketing{#about-distributed-marketing}
 

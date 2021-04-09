@@ -6,7 +6,7 @@ description: Installing the server
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
+exl-id: a56b6b50-5a37-455e-b2ab-1f50e1089c05,c0cb4efa-cae9-4312-88fb-738857a89595
 ---
 # Installing the server{#installing-the-server}
 

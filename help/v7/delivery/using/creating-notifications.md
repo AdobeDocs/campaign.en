@@ -6,7 +6,7 @@ description: Learn how to create push notifications
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
+exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4,e5fa168d-c1df-426e-9b8d-c499578ce754
 ---
 # Creating notifications{#creating-notifications}
 

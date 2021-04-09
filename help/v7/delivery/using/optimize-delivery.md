@@ -5,7 +5,7 @@ title: Optimize message delivery
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
+exl-id: 0817718b-a497-4b4c-a039-311f17e25bff,24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
 # Optimize delivery {#optimize-delivery}
 

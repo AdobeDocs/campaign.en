@@ -6,7 +6,7 @@ description: About reports creation in Campaign
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
+exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da,8bded02b-edba-4072-b822-83bd0b99d1d5
 ---
 # Key steps to create a report{#about-reports-creation-in-campaign}
 

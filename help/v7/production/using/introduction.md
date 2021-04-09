@@ -6,7 +6,7 @@ description: Introduction
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
+exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33,c23e9daa-e629-453b-9f0f-9e623f84bc4b
 ---
 # Introduction{#introduction}
 

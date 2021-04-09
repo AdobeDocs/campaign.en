@@ -6,7 +6,7 @@ description: Configuring the interface
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
+exl-id: 0bfb6cf4-5be2-4d1f-8b57-c7fe0b7c7df2,9f50f258-845e-4895-b1ef-b73744dea326
 ---
 # Configuring the interface{#configuring-the-interface}
 

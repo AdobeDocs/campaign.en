@@ -6,7 +6,7 @@ description: Offer proposition history
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-exl-id: 480d49e7-0237-4c87-abe8-445b7bf91a30
+exl-id: 1a0182f1-085b-447e-9579-e38853ad0e15,480d49e7-0237-4c87-abe8-445b7bf91a30
 ---
 # Offer proposition history{#offer-proposition-history}
 

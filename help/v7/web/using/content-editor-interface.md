@@ -6,7 +6,7 @@ description: Content editor interface
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
+exl-id: 4e01ebd3-db08-4d0a-a185-19c5d7b74119,cb76f3dc-7f3a-49de-89cb-c106865ecb17
 ---
 # Content editor interface{#content-editor-interface}
 

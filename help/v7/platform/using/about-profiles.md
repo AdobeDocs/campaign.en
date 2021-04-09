@@ -6,7 +6,7 @@ description: About profiles
 feature: Profiles, Audiences
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
+exl-id: 1040e54e-c1f3-41bd-838f-ceb81798ab60,54f1ad6c-54b0-4448-8c38-806dd75c1dae
 ---
 # Get started with profiles{#about-profiles}
 

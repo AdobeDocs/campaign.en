@@ -6,7 +6,7 @@ description: Learn more how to troubleshoot SMS channel
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
-exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
+exl-id: 6a4d53ee-ecd8-4806-8849-b1b40e45abb6,841f0c2f-90ef-4db0-860a-75fc7c48804a
 ---
 # SMS Troubleshooting {#troubleshooting-sms}
 

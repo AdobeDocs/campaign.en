@@ -6,7 +6,7 @@ description: About templates
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-exl-id: d943898c-06fe-451d-aa28-8a95665f4112
+exl-id: 41666c6a-bad3-47ae-b871-154453c7524d,d943898c-06fe-451d-aa28-8a95665f4112
 ---
 # About templates{#about-templates}
 

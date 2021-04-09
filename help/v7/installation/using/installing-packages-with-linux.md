@@ -6,7 +6,7 @@ description: Installing packages with Linux
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
+exl-id: 2f8d3a24-5671-493d-a75d-a434787aecc2,f41c7510-5ad7-44f3-9485-01f54994b6cb
 ---
 # Installing packages with Linux{#installing-packages-with-linux}
 

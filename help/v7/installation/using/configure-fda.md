@@ -6,7 +6,7 @@ description: Learn configuration steps for FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
+exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146,9ae69eb2-5acb-438f-8d0e-b7281efad029
 ---
 # Configuring FDA connectors {#specific-configurations-by-database-type}
 

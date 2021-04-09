@@ -6,7 +6,7 @@ description: Routing towards a template
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-exl-id: 2c18c557-f49b-4af8-8795-3d59bd78e63f
+exl-id: 2c18c557-f49b-4af8-8795-3d59bd78e63f,80a95a22-346e-40be-862f-9554bf5430e2
 ---
 # Routing towards a template{#routing-towards-a-template}
 

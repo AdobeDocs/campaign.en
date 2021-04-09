@@ -6,7 +6,7 @@ description: About custom recipient table
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
+exl-id: ca08a4c9-cbbf-474a-86a0-a70865bd0836,d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 ---
 # Use a custom recipient table{#about-custom-recipient-table}
 

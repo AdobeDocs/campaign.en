@@ -5,7 +5,7 @@ title: About Adobe Experience Cloud Triggers
 description: Get started with Adobe Experience Cloud Triggers implementation
 audience: integrations
 content-type: reference
-exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
+exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1,ed099872-0872-4e6c-8b13-7875c6e86db2
 ---
 # Get started with Adobe Experience Cloud Triggers{#about-adobe-experience-triggers}
 

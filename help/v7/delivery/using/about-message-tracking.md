@@ -6,7 +6,7 @@ description: Learn more the general guidelines for tracking in Adobe Campaign Cl
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 43779505-9917-4e99-af25-b00a9d29a645
+exl-id: 2b057491-164d-47aa-ba4a-2a5b5bb4d899,43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}
 

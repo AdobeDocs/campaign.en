@@ -6,7 +6,7 @@ description: Lost password
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
+exl-id: 037f82c2-03ac-45aa-88ee-2a66a434e7b8,064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 ---
 # Lost password{#lost-password}
 

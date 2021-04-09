@@ -6,7 +6,7 @@ description: About seed addresses
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
+exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df,260656ef-692f-490e-b4ba-8c6a7a163cab
 ---
 # About seed addresses{#about-seed-addresses}
 

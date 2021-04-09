@@ -6,7 +6,7 @@ description: Learn how to configure access to Synapse in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
+exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a,b7790d9d-7833-46fb-8c03-e0c54adbe6b9
 ---
 # Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 

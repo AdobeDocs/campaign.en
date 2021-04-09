@@ -6,7 +6,7 @@ description: Duplicating environments
 audience: production
 content-type: reference
 topic-tags: data-processing
-exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
+exl-id: 19fa906d-7324-4612-b6c2-40aff5e08d8f,2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 ---
 # Duplicating environments{#duplicating-environments}
 

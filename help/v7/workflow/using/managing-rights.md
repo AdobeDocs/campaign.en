@@ -6,7 +6,7 @@ description: Learn how to manage workflow permissions
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
+exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0,d7ff20f4-ff5a-4bdb-ba24-039e7362a26d
 ---
 # Manage workflow permissions{#managing-rights}
 

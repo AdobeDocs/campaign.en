@@ -6,7 +6,7 @@ description: About connectors
 feature: Overview
 role: Business Practitioner, Data Architect
 level: Beginner
-exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
+exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d,b356d15d-9feb-40a2-8a50-f897631d48b4
 ---
 # Get started with connectors{#about-connectors}
 

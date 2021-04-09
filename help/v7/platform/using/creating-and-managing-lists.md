@@ -6,7 +6,7 @@ description: Learn how to create and manage lists
 feature: Profiles
 role: Business Practitioner
 level: Beginner
-exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
+exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01,951986ce-bd0e-4f94-b0c7-79200f02502b
 ---
 # Create and manage lists{#creating-and-managing-lists}
 

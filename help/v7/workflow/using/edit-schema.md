@@ -6,7 +6,7 @@ description: Learn more about the Edit schema workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
+exl-id: 98abe107-cb1b-45b1-9694-57fe5256936a,d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 ---
 # Edit schema{#edit-schema}
 

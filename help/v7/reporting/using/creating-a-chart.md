@@ -6,7 +6,7 @@ description: Creating a chart
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
+exl-id: 65af1844-a64c-47a0-8ec0-5d78327b7baa,d32b614f-82c1-4363-816c-4ebedaa5cfe9
 ---
 # Creating a chart{#creating-a-chart}
 

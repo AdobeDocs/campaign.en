@@ -6,7 +6,7 @@ description: Integrating an offer via a workflow
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
+exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3,a9a8141e-4b4a-478e-8810-91d9e7086846
 ---
 # Integrating an offer via a workflow{#integrating-an-offer-via-a-workflow}
 

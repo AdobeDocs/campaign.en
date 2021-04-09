@@ -6,7 +6,7 @@ description: Learn more about the Recurring delivery workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
+exl-id: 4e0bdd1d-94e1-4343-b6b8-239b217fdb3d,efd2cdfb-2e5f-4672-8be8-a424481b11ed
 ---
 # Recurring delivery{#recurring-delivery}
 

@@ -6,7 +6,7 @@ description: Using a content template
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
+exl-id: 441de385-1e76-412b-8bde-8dac4f3ed8e4,e43dd68e-2e95-4367-9029-4622fbcb1759
 ---
 # Using a content template{#using-a-content-template}
 

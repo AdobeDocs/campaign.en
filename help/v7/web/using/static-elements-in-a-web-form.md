@@ -6,7 +6,7 @@ description: Static elements in a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
+exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b,dc48d151-5c3d-49d0-bf2a-037da5a9b081
 ---
 # Static elements in a web form{#static-elements-in-a-web-form}
 

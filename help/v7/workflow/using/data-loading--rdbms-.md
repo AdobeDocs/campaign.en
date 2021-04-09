@@ -6,7 +6,7 @@ description: Learn more about Data loading (RDBMS) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
+exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920,9aa5306a-c129-497b-956a-caedef9e378b
 ---
 # Data loading (RDBMS){#data-loading-rdbms}
 

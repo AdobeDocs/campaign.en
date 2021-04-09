@@ -6,7 +6,7 @@ description: Learn more about Privacy management
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
+exl-id: 0319bf65-41b5-4981-b82c-ce7aed31f934,23c873fd-9016-4d32-842c-772cfff0e23e
 ---
 # Privacy management {#privacy-management}
 

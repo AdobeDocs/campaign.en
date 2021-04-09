@@ -6,7 +6,7 @@ description: Learn how to use aggregates
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
+exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c,d96341b8-86bc-4a36-a3af-15b488b3dae0
 ---
 # Using aggregates{#using-aggregates}
 

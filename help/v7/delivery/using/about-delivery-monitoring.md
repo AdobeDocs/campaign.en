@@ -6,7 +6,7 @@ description: Learn more about Campaign Classic delivery monitoring capabilities.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
+exl-id: 63a7a652-5db6-46a9-b696-7aceb4fcbc3d,9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 ---
 # Get started with delivery monitoring {#about-delivery-monitoring}
 

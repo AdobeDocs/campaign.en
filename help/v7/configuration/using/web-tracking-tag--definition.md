@@ -6,7 +6,7 @@ description: "Web tracking tag: definition"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
+exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf,2b522064-9290-447a-899a-f3ec9cf8d805
 ---
 # Web tracking tag: definition{#web-tracking-tag-definition}
 

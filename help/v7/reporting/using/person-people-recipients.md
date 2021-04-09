@@ -6,7 +6,7 @@ description: Reports on deliveries
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
+exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9,8886afdc-2e18-46e5-b59c-a207b80e3fb1
 ---
 # Person/people and recipients {#person-people-and-recipients}
 

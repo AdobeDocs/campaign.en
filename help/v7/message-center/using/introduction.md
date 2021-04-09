@@ -6,7 +6,7 @@ description: Get started with transactional message templates
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: f87c77e1-2b7c-4b83-8761-73d2fb132b0f
+exl-id: 1643140d-d609-4ed1-af59-af61369d6720,f87c77e1-2b7c-4b83-8761-73d2fb132b0f
 ---
 # About transactional message templates{#introduction}
 

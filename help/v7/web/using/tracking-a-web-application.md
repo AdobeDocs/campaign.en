@@ -6,7 +6,7 @@ description: Tracking a web application
 audience: web
 content-type: reference
 topic-tags: web-applications
-exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
+exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0,e5702cd4-613f-4dce-9773-dbae0d4c517e
 ---
 # Track visits on a web application{#tracking-a-web-application}
 

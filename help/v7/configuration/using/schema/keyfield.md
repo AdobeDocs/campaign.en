@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
+exl-id: d6f9c4e5-027f-43ca-93b3-3142b4206b24,fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 ---
 # keyfield element {#keyfield--element}
 

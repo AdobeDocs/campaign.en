@@ -6,7 +6,7 @@ description: Creating an instance and logging on
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
+exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b,abba88a3-450b-4d37-a0a8-dac64239369b
 ---
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}
 

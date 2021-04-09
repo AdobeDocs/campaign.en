@@ -6,7 +6,7 @@ description: Learn more about server configuration best practices
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
+exl-id: 195f65f0-68da-47dd-8710-6fd3c9c9c8b2,e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
 # Server security settings {#server-configuration}
 

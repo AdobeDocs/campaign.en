@@ -6,7 +6,7 @@ description: Extension example
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
+exl-id: 97dbdd02-f638-4611-8378-e125c18cf153,d4acf99b-cef4-48f7-b4cd-c032ec12592f
 ---
 # Extension example{#extension-example}
 

@@ -6,7 +6,7 @@ description: Learn more about the Data extraction (file) workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
+exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6,6acd5ee3-5634-4944-88c9-ced5b11b982a
 ---
 # Data extraction (file){#extraction-file}
 

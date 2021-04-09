@@ -6,7 +6,7 @@ description: Restoration
 audience: production
 content-type: reference
 topic-tags: data-processing
-exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
+exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5,bbb30f18-3bb5-4a7b-a8c8-a6d3dd6ae329
 ---
 # Restoration{#restoration}
 

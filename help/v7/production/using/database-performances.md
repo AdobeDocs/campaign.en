@@ -6,7 +6,7 @@ description: Database performances
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
+exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da,76bf12d3-734d-4c22-b7c6-7dd0146b8b51
 ---
 # Database performance{#database-performances}
 

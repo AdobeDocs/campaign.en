@@ -6,7 +6,7 @@ description: Publishing a web form
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
+exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508,920ca6a9-6cc0-4b15-a2f3-4fe35167abcb
 ---
 # Publishing a web form{#publishing-a-web-form}
 

@@ -6,7 +6,7 @@ description: Creating indicators
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
+exl-id: 1bea0f6b-e023-4d5e-b442-bb1f29922596,e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 ---
 # Creating indicators{#creating-indicators}
 

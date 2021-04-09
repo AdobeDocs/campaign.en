@@ -6,7 +6,7 @@ description: Purging events
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: 275a333b-70cc-4549-ac52-ac8ce54c2805
+exl-id: 275a333b-70cc-4549-ac52-ac8ce54c2805,2daa71db-13c2-4549-9197-98109d412fc1
 ---
 # Purging events{#purging-events}
 

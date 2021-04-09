@@ -6,7 +6,7 @@ description: Editing a profile
 audience: platform
 content-type: reference
 topic-tags: profile-management
-exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982,e92a723d-5798-4493-84c4-1014a65acf2c
 ---
 # Edit a profile{#editing-a-profile}
 

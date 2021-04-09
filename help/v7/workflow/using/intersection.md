@@ -6,7 +6,7 @@ description: Intersection
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: f426bf02-9899-49eb-b699-728d51b57c64
+exl-id: f426bf02-9899-49eb-b699-728d51b57c64,f4ecb0d6-d106-4a0f-9b88-f327eeb5462a
 ---
 # Intersection{#intersection}
 

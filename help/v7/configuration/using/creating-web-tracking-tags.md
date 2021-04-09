@@ -6,7 +6,7 @@ description: Creating web tracking tags
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
+exl-id: 0dbde2b6-cb5b-4bc0-91f9-8ba912799122,160df6e1-43e5-4eb9-ad2f-5db444e314ea
 ---
 # Creating web tracking tags{#creating-web-tracking-tags}
 

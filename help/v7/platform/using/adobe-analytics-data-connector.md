@@ -6,7 +6,7 @@ description: Adobe Analytics Data Connector
 feature: Overview
 role: Business Practitioner, Administrator
 level: Beginner
-exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803,b171a573-6cee-4081-b78d-a64a2610c73d
 ---
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector}
 

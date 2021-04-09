@@ -5,7 +5,7 @@ title: Build personalized content
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
+exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c,e45f7ce5-21d7-4529-bead-b5b6ce3a2399
 ---
 # Build personalized content {#build-personalized-content}
 

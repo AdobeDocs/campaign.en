@@ -5,7 +5,7 @@ title: Track and monitor messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
+exl-id: 2003dba1-b91b-4244-a753-662882235f7a,a039a288-2e7b-4f35-9885-ead3ed4347af
 ---
 # Track and monitor {#track-and-monitor}
 

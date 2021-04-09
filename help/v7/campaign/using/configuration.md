@@ -6,7 +6,7 @@ description: Configuration
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
+exl-id: 054630d3-4e9d-4f6e-844a-970b9d68da3f,1a115ca9-2532-4bd3-be77-814e43250c51
 ---
 # Configuration{#configuration}
 

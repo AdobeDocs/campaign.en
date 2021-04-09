@@ -6,7 +6,7 @@ description: Temporary files
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
+exl-id: 7af04405-cd43-4f5f-937a-d4012f381742,e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 ---
 # Temporary files{#temporary-files}
 

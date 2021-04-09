@@ -6,7 +6,7 @@ description: Learn about tools and guidelines on deliverability monitoring in Ad
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
+exl-id: 79329fbd-0a07-4e74-bd75-3a5283f9d6b6,e4caa316-242f-46cd-a20b-a5eee5a0c456
 ---
 # Monitoring deliverability{#monitoring-deliverability}
 

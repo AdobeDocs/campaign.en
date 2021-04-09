@@ -6,7 +6,7 @@ description: Audit trail
 audience: production
 content-type: reference
 topic-tags: production-procedures
-exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
+exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67,9e71f9f8-e0ef-4137-ac44-edab4943cf22
 ---
 # Audit trail{#audit-trail}
 

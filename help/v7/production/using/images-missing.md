@@ -6,7 +6,7 @@ description: Images missing
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
+exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013,a97bcfeb-366b-4feb-a560-d3190c123e92
 ---
 # Images missing{#images-missing}
 

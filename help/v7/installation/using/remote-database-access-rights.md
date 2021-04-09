@@ -6,7 +6,7 @@ description: External database access permissions
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
+exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe,db3867c7-6f07-4844-ac01-80010248e70d
 ---
 # Remote database access rights {#remote-database-access-rights}
 

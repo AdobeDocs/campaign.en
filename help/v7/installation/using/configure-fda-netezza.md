@@ -6,7 +6,7 @@ description: Learn how to configure access to Netezza in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
+exl-id: 948e3ac7-4aef-425c-b2e4-936f68229312,b148d34b-4060-4c54-9cb2-9e712a7c17d7
 ---
 # Configure access to Netezza {#configure-access-to-netezza}
 

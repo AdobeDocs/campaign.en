@@ -4,9 +4,9 @@ product: campaign
 title: Campaign 18.4 release notes
 description: Release notes for Campaign 18.4
 feature: 
-role:
-level:
-exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
+role: 
+level: 
+exl-id: 4cd66f91-34ec-429b-bb4b-1df153c76a79,bbad81ba-a09f-4d67-9309-628ea7a08c9b
 ---
 # Release 18.4{#release-18-4}
 

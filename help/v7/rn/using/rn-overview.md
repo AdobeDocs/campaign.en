@@ -6,7 +6,7 @@ description: Learn more about Campaign Classic upgrades
 feature: Overview
 role: Business Practitioner
 level: Beginner
-exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
+exl-id: 192d6bbf-7472-4ee3-997b-bd9a4abaf323,7a05fdff-8f9d-4e8d-812e-0f1509db5499
 ---
 # Get started with upgrades{#rn-overview}
 

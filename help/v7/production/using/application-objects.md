@@ -6,7 +6,7 @@ description: Application objects
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
+exl-id: cb2219ab-88ae-41c6-8f9e-600299810a1e,fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 ---
 # Application objects{#application-objects}
 

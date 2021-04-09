@@ -6,7 +6,7 @@ description: Learn how to personalize messages and use conditional content in Ca
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
+exl-id: 3b0e4d7d-d435-4883-9901-92d986b304ae,555082a2-1b62-4aa4-b80c-77b1a1ef9491
 ---
 # Get started witb personalization{#about-personalization}
 

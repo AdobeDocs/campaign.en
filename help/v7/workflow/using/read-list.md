@@ -6,7 +6,7 @@ description: Learn more about the Read list workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
+exl-id: 422af1ff-206f-497c-8dc9-890088685793,99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
 # Read list{#read-list}
 

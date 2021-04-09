@@ -6,7 +6,7 @@ description: About cubes
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
+exl-id: 7a7c8ea7-1f20-4c22-9c0f-c56037693fa3,ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 ---
 # Get started with cubes{#about-cubes}
 

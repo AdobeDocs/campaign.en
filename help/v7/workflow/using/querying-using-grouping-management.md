@@ -6,7 +6,7 @@ description: Learn how to perform queries using grouping management
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
+exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e,59ea587d-3d8b-42b2-9408-580e419ca220
 ---
 # Querying using grouping management {#querying-using-grouping-management}
 

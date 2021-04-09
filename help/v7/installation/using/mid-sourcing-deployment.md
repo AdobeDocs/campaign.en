@@ -6,7 +6,7 @@ description: Mid-sourcing deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
+exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61,e1b68a21-f944-4eff-a041-08d2ac21d6e0
 ---
 # Mid-sourcing deployment{#mid-sourcing-deployment}
 

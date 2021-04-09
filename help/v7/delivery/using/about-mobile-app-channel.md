@@ -6,7 +6,7 @@ description: This section provides general information specific to the mobile ap
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
+exl-id: 7e49c972-9ef1-4db1-b0c2-dc9e64867ede,c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 ---
 # Get started with mobile app channel{#about-mobile-app-channel}
 

@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
+exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5,d0631cb6-9ea0-474a-83db-631cb9b4cbe2
 ---
 # join element {#join--element}
 

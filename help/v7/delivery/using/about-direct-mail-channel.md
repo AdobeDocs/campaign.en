@@ -6,7 +6,7 @@ description: About direct mail channel
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
+exl-id: 4390608b-927d-426d-a416-0413e6cf4e07,6474cf2e-c4db-4430-b001-18bf4911b0ea
 ---
 # About direct mail channel{#about-direct-mail-channel}
 

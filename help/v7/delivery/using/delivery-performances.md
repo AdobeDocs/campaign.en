@@ -6,7 +6,7 @@ description: Learn more about delivery performances and best practices.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
+exl-id: 822adc01-5b45-4b07-afab-e1073b68de67,cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 ---
 # Delivery performances best practices {#delivery-performances}
 

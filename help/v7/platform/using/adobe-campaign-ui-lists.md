@@ -6,7 +6,7 @@ description: Learn how to browse and configure lists
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
+exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,b4b364fc-99ff-49e2-a952-6e7429f717a1
 ---
 # Manage and customize lists{#manage-and-customize-lists}
 

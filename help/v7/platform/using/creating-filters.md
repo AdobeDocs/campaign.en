@@ -6,7 +6,7 @@ description: Creating filters
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
+exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6,66642cca-c562-4f33-b962-3149ddc845ec
 ---
 # Create filters{#creating-filters}
 

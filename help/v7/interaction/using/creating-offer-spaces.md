@@ -6,7 +6,7 @@ description: Creating offer spaces
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
+exl-id: 07f0cbf1-8c17-4d36-a591-2735ff7f163e,bdda98f7-a083-4f3b-b691-c28ec79af780
 ---
 # Creating offer spaces{#creating-offer-spaces}
 

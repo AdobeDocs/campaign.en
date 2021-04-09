@@ -6,7 +6,7 @@ description: Learn how to create a filter when performing queries
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
+exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf,2d562c36-5014-4c09-96fc-35c5666c4c75
 ---
 # Creating a filter {#creating-a-filter}
 

@@ -6,7 +6,7 @@ description: Simulation scope
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
+exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f,ae7b9db8-23c0-4b08-a78f-e662d7cd2f82
 ---
 # Simulation scope{#simulation-scope}
 

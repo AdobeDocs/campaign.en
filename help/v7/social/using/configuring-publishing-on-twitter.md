@@ -6,7 +6,7 @@ description: Configuring publishing on Twitter
 audience: social
 content-type: reference
 topic-tags: configuration
-exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
+exl-id: 0af60c58-2a4e-49e5-927e-0c51fd76f03d,2d2a6e32-587d-4a7b-ba1c-d9140da53f64
 ---
 # Configuring publishing on Twitter{#configuring-publishing-on-twitter}
 

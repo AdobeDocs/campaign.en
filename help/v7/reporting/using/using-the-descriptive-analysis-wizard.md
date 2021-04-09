@@ -6,7 +6,7 @@ description: Using the descriptive analysis wizard
 audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
-exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
+exl-id: 1201aac8-9de0-445d-96c7-ba3a033b95d6,848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 ---
 # Using the descriptive analysis wizard{#using-the-descriptive-analysis-wizard}
 

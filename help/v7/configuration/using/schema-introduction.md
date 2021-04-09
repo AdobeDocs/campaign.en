@@ -6,7 +6,7 @@ description: Elements and attributes
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
+exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa,58c15f2b-455d-45c0-a0d7-a00bea9e7719
 ---
 # Schema reference {#schema-reference}
 

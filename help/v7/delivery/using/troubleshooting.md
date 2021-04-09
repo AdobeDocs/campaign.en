@@ -6,7 +6,7 @@ description: Troubleshooting
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
+exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763,ab684111-78a3-4298-935c-630574885e0b
 ---
 # Troubleshooting{#troubleshooting}
 

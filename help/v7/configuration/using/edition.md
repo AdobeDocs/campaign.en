@@ -6,7 +6,7 @@ description: Edition
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
+exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116,329a8b63-28b9-4af7-bc44-ff6c271582db
 ---
 # Edit Campaign Explorer navigation tree{#edition}
 

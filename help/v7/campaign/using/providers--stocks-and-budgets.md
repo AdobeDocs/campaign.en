@@ -6,7 +6,7 @@ description: Providers, stocks and budgets
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
+exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6,ee5df51e-69bc-4a5c-a3af-962069cdb4ce
 ---
 # Providers, stocks and budgets{#providers-stocks-and-budgets}
 

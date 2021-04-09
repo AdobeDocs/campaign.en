@@ -6,7 +6,7 @@ description: Learn more about Privacy and Consent
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
+exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1,fcd0f8bf-c865-4add-aefa-9ff30a4b4647
 ---
 # Privacy and Consent{#privacy-and-recommendations}
 

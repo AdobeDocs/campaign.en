@@ -6,7 +6,7 @@ description: Creating a test environment
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
+exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52,e1a55bdf-e345-4dca-a654-daad13847d15
 ---
 # Creating a test environment{#creating-a-test-environment}
 

@@ -6,7 +6,7 @@ description: Learn how to connect to an external database
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
+exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c,3d817f98-64fc-411d-bbd3-3d8869a08f15
 ---
 # Connecting to the database {#connecting-to-the-database}
 

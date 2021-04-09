@@ -6,7 +6,7 @@ description: Learn how to configure access to Sybase IQ in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
+exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851,20438e56-9963-41fb-a9bf-3cad3a4dca22
 ---
 # Configure access to Sybase IQ {#configure-access-to-sybase-iq}
 

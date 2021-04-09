@@ -6,7 +6,7 @@ description: Learn how to create hypotheses in Campaign Response Manager
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
+exl-id: 19914fd5-44ab-4829-874f-2f8f60f31ad2,e0b3bc9f-5e81-463f-a59e-cd972a47109b
 ---
 # Create hypotheses{#creating-hypotheses}
 

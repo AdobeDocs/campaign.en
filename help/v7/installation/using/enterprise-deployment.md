@@ -6,7 +6,7 @@ description: Enterprise deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88,580e0c48-2738-4aad-b928-fe9c6cfa17b7
 ---
 # Enterprise deployment{#enterprise-deployment}
 

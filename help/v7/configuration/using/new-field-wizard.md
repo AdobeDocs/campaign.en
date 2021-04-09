@@ -6,7 +6,7 @@ description: New field wizard
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
+exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605,dbea1c47-944c-4779-9b37-bd47adf7ca16
 ---
 # New field wizard{#new-field-wizard}
 

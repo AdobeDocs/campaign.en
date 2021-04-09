@@ -6,7 +6,7 @@ description: Filtering schemas
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
+exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6,78cfb789-7be5-421b-89fa-da576572abe8
 ---
 # Filter schemas{#filtering-schemas}
 

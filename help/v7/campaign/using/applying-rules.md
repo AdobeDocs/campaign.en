@@ -6,7 +6,7 @@ description: Applying rules
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
+exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9,3c4601c1-9e73-4e24-9e7b-badaf22dce67
 ---
 # Applying rules{#applying-rules}
 

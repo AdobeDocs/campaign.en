@@ -6,7 +6,7 @@ description: Learn more about the Fork workflow activity
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
+exl-id: 523bd166-333d-4e24-a193-f0f1264b6477,7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---
 # Fork{#fork}
 

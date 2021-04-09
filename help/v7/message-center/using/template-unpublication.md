@@ -6,7 +6,7 @@ description: Template publication
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 1e09381d-af20-4309-8769-47f0d5e8dd64
+exl-id: 081e7c39-c6d9-4dd0-80ac-54a7a7ef7191,1e09381d-af20-4309-8769-47f0d5e8dd64
 ---
 # Template unpublication{#template-unpublication}
 

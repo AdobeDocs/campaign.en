@@ -6,7 +6,7 @@ description: Learn more about the Delivery control workflow activity
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
+exl-id: 03ec1a16-0bc7-4a48-8d61-648e9ad9a4da,c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---
 # Delivery control{#delivery-control}
 

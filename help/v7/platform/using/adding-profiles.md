@@ -6,7 +6,7 @@ description: Adding profiles
 feature: Profiles
 role: Business Practitioner
 level: Beginner
-exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
+exl-id: a3fd8bd3-4d93-4871-8f8f-86b7e8ffcce8,befa8948-ef2e-4f4d-a002-3f26d8516a0d
 ---
 # Add profiles{#adding-profiles}
 

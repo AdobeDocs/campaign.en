@@ -6,7 +6,7 @@ description: Learn how to configure the SMS channel in Campaign
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
+exl-id: 8c4a507c-95d1-4f15-b12a-cb92f6eb6cb8,a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}
 

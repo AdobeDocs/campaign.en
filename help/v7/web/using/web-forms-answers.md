@@ -6,7 +6,7 @@ description: Web forms answers
 audience: web
 content-type: reference
 topic-tags: web-forms
-exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
+exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc,c184ff85-c47a-4f40-b0e9-dd05f50ba7ae
 ---
 # Web forms answers{#web-forms-answers}
 

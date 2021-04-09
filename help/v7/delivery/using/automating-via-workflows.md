@@ -6,7 +6,7 @@ description: Automating via workflows
 audience: delivery
 content-type: reference
 topic-tags: content-management
-exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
+exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf,d31338ec-a684-4b6b-9053-5f9ac937835e
 ---
 # Automate with workflows{#automating-via-workflows}
 

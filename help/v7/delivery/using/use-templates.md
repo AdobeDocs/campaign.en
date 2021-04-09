@@ -5,7 +5,7 @@ title: Use delivery templates
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
+exl-id: 046a481e-460b-4548-98ea-e0e38cd172ce,a5da3f29-5eab-428c-b7c3-d9e4243fe628
 ---
 # Use templates {#use-templates}
 

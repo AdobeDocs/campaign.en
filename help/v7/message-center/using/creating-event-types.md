@@ -6,7 +6,7 @@ description: Creating event types
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
+exl-id: 4d28fe8d-6273-46a8-b1e4-1754f3600282,98b7c827-f31d-46a6-a28d-40a78a4b4248
 ---
 # Creating event types{#creating-event-types}
 

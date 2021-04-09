@@ -6,7 +6,7 @@ description: Monitoring marketing campaigns
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
+exl-id: 067239d7-3db4-4a15-acdf-d94317127626,c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}
 

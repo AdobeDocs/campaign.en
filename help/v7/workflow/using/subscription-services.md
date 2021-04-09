@@ -6,7 +6,7 @@ description: Learn more about the Subscription Services workflow activity
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
+exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228,7723b87f-b858-453f-aef1-d9eee162aa8d
 ---
 # Subscription Services{#subscription-services}
 

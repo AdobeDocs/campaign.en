@@ -6,7 +6,7 @@ description: Learn how to create and use seed addresses
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
+exl-id: eb4a0c16-0d19-4432-bc30-c8f15ea524e2,f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 ---
 # Creating seed addresses{#creating-seed-addresses}
 

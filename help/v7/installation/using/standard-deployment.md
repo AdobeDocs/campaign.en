@@ -6,7 +6,7 @@ description: Standard deployment
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e,caf177f7-cdb9-494a-a4da-7105ad890564
 ---
 # Standard deployment{#standard-deployment}
 

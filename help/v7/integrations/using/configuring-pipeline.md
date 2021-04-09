@@ -5,7 +5,7 @@ title: Configuring the pipeline
 description: Learn how to configure the pipeline
 audience: integrations
 content-type: reference
-exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
+exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba,580c5735-913f-4990-b8ba-0344ceae7c94
 ---
 # Configuring pipeline {#configuring-pipeline}
 

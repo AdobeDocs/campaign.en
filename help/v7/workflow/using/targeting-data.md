@@ -6,7 +6,7 @@ description: Learn more about Targeting data in a workflow
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
+exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788,a333fba1-1be9-4c6a-a945-91df390b10cf
 ---
 # Targeting data{#targeting-data}
 

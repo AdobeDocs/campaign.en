@@ -6,7 +6,7 @@ description: Console update
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
+exl-id: 142be2a8-e233-44c3-9454-71b6de3a58c9,3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 ---
 # Console update{#console-update}
 

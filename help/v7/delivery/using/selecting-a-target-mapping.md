@@ -6,7 +6,7 @@ description: Selecting a target mapping
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
+exl-id: 4ad3195a-0e3c-463b-8b81-2b9bbd03e081,b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 ---
 # Selecting a target mapping{#selecting-a-target-mapping}
 

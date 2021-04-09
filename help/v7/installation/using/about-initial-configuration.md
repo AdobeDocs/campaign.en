@@ -6,7 +6,7 @@ description: About initial configuration
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-exl-id: f77ba178-0dfb-4a2e-b33b-971765d42298
+exl-id: b00e4d6b-8481-4486-850e-183dbf8d0192,f77ba178-0dfb-4a2e-b33b-971765d42298
 ---
 # Key steps to configure and deploy your instance{#about-initial-configuration}
 

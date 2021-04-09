@@ -6,7 +6,7 @@ description: Schema of an existing table
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
+exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b,f532ed8c-1415-4178-95ee-7e5845ed773a
 ---
 # Schema of an existing table{#schema-of-an-existing-table}
 

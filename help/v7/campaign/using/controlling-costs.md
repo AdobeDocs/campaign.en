@@ -6,7 +6,7 @@ description: Controlling costs
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
+exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e,be4fc48f-7dc1-412e-8804-7579c5851731
 ---
 # Controlling costs{#controlling-costs}
 

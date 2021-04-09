@@ -6,7 +6,7 @@ description: Learn more about the technical workflows available with Campaign Cl
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
+exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01,dbc237c7-826f-4c97-b0e6-dcb494417394
 ---
 # Technical workflows{#about-technical-workflows}
 

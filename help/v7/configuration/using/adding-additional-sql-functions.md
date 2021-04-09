@@ -6,7 +6,7 @@ description: Adding additional SQL functions
 audience: configuration
 content-type: reference
 topic-tags: api
-exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
+exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717,466c627a-05b5-456f-8d75-de0408a12886
 ---
 # Adding additional SQL functions{#adding-additional-sql-functions}
 

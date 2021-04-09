@@ -6,7 +6,7 @@ description: Learn more about the Enrichment workflow activity
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
+exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776,b9d7bfac-f0aa-4d67-a4cb-869457ce65ca
 ---
 # Enriching data{#enriching-data}
 

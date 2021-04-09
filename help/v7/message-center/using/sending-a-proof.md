@@ -6,7 +6,7 @@ description: Sending a proof
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-exl-id: 4022578a-1ba0-460f-813c-7dc547febc7f
+exl-id: 4022578a-1ba0-460f-813c-7dc547febc7f,b3cb1716-6c72-47ed-b0ab-5069e116fe3b
 ---
 # Sending a proof{#sending-a-proof}
 

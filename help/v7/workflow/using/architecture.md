@@ -6,7 +6,7 @@ description: Workflows are handled by a specific module, which can be started on
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
+exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222,9b2466d1-cdb1-4dca-af90-fe9838e464e3
 ---
 # Architecture {#architecture}
 

@@ -6,7 +6,7 @@ description: This section provides common questions related to tracking configur
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
+exl-id: 33fc983e-1afb-42a3-920e-a4dfebf45d1f,62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 ---
 # Tracking troubleshooting {#tracking-troubleshooting}
 

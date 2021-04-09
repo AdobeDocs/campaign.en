@@ -6,7 +6,7 @@ description: Learn how to configure access to Oracle in FDA
 audience: platform
 content-type: reference
 topic-tags: connectors
-exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
+exl-id: 2aea2889-6e40-4b13-9a58-b5482aca84dd,320bfbb4-533b-4c45-a46f-c3c8dd68221f
 ---
 # Configure access to Oracle {#configure-access-to-oracle}
 

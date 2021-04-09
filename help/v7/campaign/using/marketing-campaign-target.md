@@ -6,7 +6,7 @@ description: Learn how to define the audience of your marketing campaigns
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
+exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d,b27c9527-182b-4101-87a4-0c3d3706c20a
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}
 

@@ -6,7 +6,7 @@ description: Prerequisites of Campaign installation in Linux
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
+exl-id: 203c108e-bacb-413e-bc47-2260ae9f45e0,acbd2873-7b1c-4d81-bc62-cb1246c330af
 ---
 # Prerequisites to install Campaign on Linux{#prerequisites-of-campaign-installation-in-linux}
 

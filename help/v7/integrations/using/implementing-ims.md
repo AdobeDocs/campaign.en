@@ -6,7 +6,7 @@ description: Implementing IMS
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
+exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823,a34ca120-5586-41ef-a841-e28b44bca2a1
 ---
 # Implementing IMS{#implementing-ims}
 

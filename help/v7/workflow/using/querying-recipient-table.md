@@ -6,7 +6,7 @@ description: Learn how to query the recipient table
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
+exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6,7109295e-61da-4c02-9489-df6f5d81eed3
 ---
 # Querying the recipient table {#querying-recipient-table}
 
