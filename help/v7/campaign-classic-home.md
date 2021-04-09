@@ -18,11 +18,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 
 * **[Secure your Campaign instances](technotes/acc-config-updates.md)**<br/> Update to the latest builds to secure your Campaign platform.
 
-* **[Remove incorrect hard bounces](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Learn how to update incorrect hard bounces after Gmail outage
-
 * **[Update your Adobe Experience Cloud Triggers integration](integrations/using/configuring-adobe-io.md)**<br/> The legacy oAuth authentication service has reached end-of-life. Learn how to migrate to Adobe I/O.
-
-* **[Move to HTTP/2-based APNs provider API](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/> Learn how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API
 
 * **[Get Support](support.md)**<br/> Access FAQs, best practices, help resources, and request for help
 
