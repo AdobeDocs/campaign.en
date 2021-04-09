@@ -1,5 +1,5 @@
 ---
-keywords: Campaign Standard;home;popular topics
+keywords: Campaign Classic;home;popular topics
 solution: Campaign Classic
 description: toto
 title: Adobe Campaign v8 product documentation
