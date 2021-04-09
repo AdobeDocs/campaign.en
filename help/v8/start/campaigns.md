@@ -11,17 +11,23 @@ exl-id: c4798c8f-619e-4a60-80d7-29b9e4c61168
 
 # Get Started with marketing campaigns{#gs-ac-campaigns}
 
-Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels.
+Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
 
-* Simplify campaign management - manage your data and monitor the performance of your cross-channel campaigns from one place.
+Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
-* Deliver engaging email - use personalized, contextual and real-time email messages to deliver a compelling customer experience.
+Key steps to create a cross-channel marketing campaign are:
 
-* Automate campaigns - use marketing automation to increase your campaign productivity and reduce your time to market.
+1. Create a campaign: define label, type, start and end dates, budget, associated resources, manager(s) and participants. Learn more.
 
-Adobe Campaign lets you create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to access and create marketing campaigns in this section.
+1. Define audiences: create a campaign workflow and target populations. Learn more.
 
+1. Create deliveries: select channel(s) and define the message content. Learn more.
 
+1. Approve deliveries: set up approval and validation process. Learn more.
+
+1. Monitor messages: control deliveries and execution. Learn more.
+
+1. Plan campaigns and associated costs. Learn more.
 
 ## Create campaigns
 
@@ -38,4 +44,3 @@ All type of campaign operation (Single & reccuring)
 (Push, SMS, Direct mail, Phone, LINE, etc. …)
 
 ## Reporting
-

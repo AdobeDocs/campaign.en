@@ -9,10 +9,10 @@ title: Campaign Classic v7 docs
 hide: yes
 ---
 
-# Adobe Campaign v7 documentation {#campaign-help-center}
+# Adobe Campaign v7 documentation {#campaign-v7-help-center}
 
 + [Product documentation](adobe-campaign-classic-home.md)
 + What's new? {#start}
-  + [Key capabilities](start/whats-new.md)
+  + [Key capabilities](start/start.md)
 
  

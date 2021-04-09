@@ -6,9 +6,9 @@ title: Adobe Campaign v7 product documentation
 topic: Premium
 ---
 
-# Help Center V7 {#campaign-documentation}
+# Help Center V7 {#campaign-v7-documentation}
 
 
 ## What's New
 
-* **[What is Adobe Campaign](start/get-started.md)** - Key capabilities and use cases
+* **[What is Adobe Campaign](start/start.md)** - Key capabilities and use cases
