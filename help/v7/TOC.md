@@ -3,7 +3,7 @@ solution: Campaign
 product: campaign
 audience: end-user
 user-guide-title: Campaign v7
-title: Adobe Campaign v8 Help Center
+title: Adobe Campaign v7 Help Center
 breadcrumb-title: Campaign v7
 title: Campaign Classic v7 docs
 hide: yes
