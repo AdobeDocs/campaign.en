@@ -291,7 +291,7 @@ Data model best practices have been updated with new sections including [Sequenc
 
 A new section describing the Adobe Campaign built-in data model and interaction between tables is now available. [Read more](../../configuration/using/data-model-description.md)
 
-Additional key links have been added to the documentation home page. [Read more](../../campaign-classic-home.md)
+Additional key links have been added to the documentation home page. [Read more](../../campaign-home.md)
 
 A use case has been added on how to integrate a dynamic offer from Adobe Target into an email in Adobe Campaign. [Read more](../../integrations/using/inserting-a-dynamic-image.md)
 

@@ -11,7 +11,7 @@ hide: yes
 
 # Adobe Campaign v8 documentation {#campaign-v8}
 
-+ [Product documentation](adobe-campaign-home.md)
++ [Product documentation](campaign-home.md)
 + What's new? {#start}
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
