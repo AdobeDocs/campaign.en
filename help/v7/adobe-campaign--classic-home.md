@@ -1,7 +1,7 @@
 ---
 keywords: Campaign Standard;home;popular topics
 solution: Campaign Classic
-description: toto
+description: desc
 title: Adobe Campaign v7 product documentation
 topic: Premium
 ---

@@ -2,10 +2,10 @@
 solution: Campaign
 product: campaign
 audience: end-user
-user-guide-title: Campaign v8
+user-guide-title: Campaign v7
 title: Adobe Campaign v8 Help Center
-breadcrumb-title: Campaign v8
-title: Campaign v8 docs
+breadcrumb-title: Campaign v7
+title: Campaign Classic v7 docs
 hide: yes
 ---
 
