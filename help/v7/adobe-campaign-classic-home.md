@@ -1,5 +1,5 @@
 ---
-keywords: Campaign Standard;home;popular topics
+keywords: Campaign Classic;home;popular topics
 solution: Campaign Classic
 description: desc
 title: Adobe Campaign v7 product documentation

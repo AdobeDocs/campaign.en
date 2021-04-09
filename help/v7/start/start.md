@@ -8,6 +8,6 @@ role: Data Engineer
 level: Beginner
 ---
 
-# What's new in Adobe Campaign v7? {#ac-gs-what-is-new}
+# What's new in Adobe Campaign v7? {#ac-gs-new}
 
 THIS IS NEW IN V7
