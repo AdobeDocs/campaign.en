@@ -1,18 +1,847 @@
 ---
-solution: Campaign
-product: campaign
 audience: end-user
-user-guide-title: Campaign v7
-title: Adobe Campaign v7 Help Center
-breadcrumb-title: Campaign v7
-title: Campaign Classic v7 docs
-hide: yes
+product: campaign
+title: Adobe Campaign Classic Guide
+breadcrumb-title: Help Center
+product: campaign
+title: Campaign Classic Guide
+breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
+user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+solution: Campaign Classic
+sub-product: adobe campaign classic
+type: Documentation
 ---
 
-# Adobe Campaign v7 documentation {#campaign-v7-help-center}
+# Adobe Campaign Classic Guide {#using}
 
-+ [Product documentation](adobe-campaign-classic-home.md)
-+ What's new? {#start}
-  + [Key capabilities](start/start.md)
-
- 
++ [Product documentation](campaign-classic-home.md)
++ [Latest updates](rn/using/documentation-updates.md)
++ Release Notes {#release-notes}
+  + [Get started with upgrades](rn/using/rn-overview.md)
+  + [Latest release](rn/using/latest-release.md)
+  + [!DNL Gold Standard] release {#gs-release}
+     + [What is [!DNL Gold Standard]](rn/using/gs-overview.md)
+     + [[!DNL Gold Standard] release notes](rn/using/gold-standard.md)
+     + [[!DNL Gold Standard] compatibility matrix](rn/using/compatibility-matrix-gs.md)
+  + Previous releases {#previous-releases}
+    + [Release 20.3](rn/using/release--20-3.md)
+    + [Release 20.2](rn/using/release--20-2.md)
+    + [Release 20.1](rn/using/release--20-1.md)
+    + [Release 19.2](rn/using/release--19-2.md)
+    + [Release 19.1](rn/using/release--19-1.md)
+    + [Release 18.10](rn/using/release--18-10.md)
+    + [Release 18.6](rn/using/release--18-6.md)
+    + [Release 18.4](rn/using/release--18-4.md)
+  + [Deprecated features](rn/using/deprecated-features.md)
+  + [Compatibility matrix](rn/using/compatibility-matrix.md)
+  + [Technotes](technotes/technote.md)
+  + [iOS certificate update](technotes/ios-certificate-update.md)
+  + [Campaign configuration updates](technotes/acc-config-updates.md)
++ Get started {#getting-started}
+  + Start with Adobe Campaign {#starting-with-adobe-campaign}
+       + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
+       + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
+     + Adobe Campaign workspace{#campaign-workspace}
+       + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
+       + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)
+       + [Browse and customize lists](platform/using/adobe-campaign-ui-lists.md)
+     + Frequently Asked Questions {#faq}
+       + [Top questions](platform/using/common-questions.md)
+       + [Global concepts](platform/using/faq-key-concepts.md)
+       + [Build upgrade](platform/using/faq-build-upgrade.md)
+       + [Privacy](platform/using/privacy-faq.md)
+       + [Audiences](platform/using/faq-audiences.md)
+       + [Design messages](platform/using/faq-designing.md)
+       + [Send messages](platform/using/faq-messages.md)
+       + [Workflows](platform/using/faq-workflows.md)
+       + [Configuration](platform/using/faq-campaign-config.md)
+       + [Reports](platform/using/faq-reporting.md)
+       + [Development](platform/using/faq-developers.md)
+       + [Tutorials](platform/using/tutorials.md)
+  + Privacy {#privacy}
+       + [Privacy and consent](platform/using/privacy-and-recommendations.md)
+       + [Privacy management](platform/using/privacy-management.md)
+       + [Privacy requests](platform/using/privacy-requests.md)
+  + Profile management {#profile-management}
+       + [About profiles](platform/using/about-profiles.md)
+       + [Edit a profile](platform/using/editing-a-profile.md)
+       + [Add profiles](platform/using/adding-profiles.md)
+       + [Manage profiles](platform/using/managing-profiles.md)
+       + [Update data](platform/using/updating-data.md)
+       + [Import and export profiles](platform/using/exporting-and-importing-profiles.md)
+       + [Create and manage lists](platform/using/creating-and-managing-lists.md)
+  + Import and export data {#importing-and-exporting-data}
+       + [Get started with data import and export](platform/using/get-started-data-import-export.md)
+       + [Use workflows to import and export data](platform/using/import-export-workflows.md)
+       + Create generic imports and exports {#generic-imports-exports}
+          + [Get started with generic imports and exports](platform/using/about-generic-imports-exports.md)
+          + [Create import and export templates](platform/using/creating-import-export-templates.md)
+          + [Create import and export jobs](platform/using/creating-import-export-jobs.md)
+          + [Configure import jobs](platform/using/executing-import-jobs.md)
+          + [Configure export jobs](platform/using/executing-export-jobs.md)
+          + [Monitor jobs execution](platform/using/monitoring-jobs-execution.md)
+          + [Generic import samples](platform/using/import-operations-samples.md)
+       + Manage data encryption and compression {#managing-data-encryption-compression}
+          + [Unzip or decrypt a file before processing](platform/using/unzip-decrypt.md)
+          + [Zip or encrypt a file before processing](platform/using/zip-encrypt.md)
+       + Best practices and troubleshooting {#best-practices}
+          + [Import and export best practices](platform/using/import-export-best-practices.md)
+          + [SFTP server best practices and troubleshooting](platform/using/sftp-server-usage.md)
+  + Filter data {#filtering-data}
+       + [Filtering options](platform/using/filtering-options.md)
+       + [Create filters](platform/using/creating-filters.md)
+       + [Use case](platform/using/use-case.md)
+  + Create queries {#creating-queries}
+       + [About queries in Campaign](platform/using/about-queries-in-campaign.md)
+       + [Steps to create a query](platform/using/steps-to-create-a-query.md)
+       + [Define filter conditions](platform/using/defining-filter-conditions.md)
+  + Permissions {#permissions}
+       + [Get started with permissions](platform/using/access-management.md)
+       + [Create and manage operators](platform/using/access-management-operators.md)
+       + [Create and manage groups](platform/using/access-management-groups.md)
+       + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
+       + [Manage access to folders](platform/using/access-management-folders.md)
+  + Data packages and enumerations {#administration-basics}
+       + [Data packages](platform/using/working-with-data-packages.md)
+       + [Enumerations](platform/using/managing-enumerations.md)
+  + Connectors {#connectors}
+       + [About connectors](platform/using/about-connectors.md)
+       + CRM Connectors{#crm-connectors}
+          + [Get started with CRM Connectors](platform/using/crm-connectors.md)
+          + [Connect with Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
+          + [Connect with Salesforce.com](platform/using/crm-sfdc.md)
+          + [Syncronize data with the CRM](platform/using/crm-data-sync.md)
+       + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
+  + [Help & support options](support.md)
++ Create and send messages {#sending-messages}
+     + [Get started with messages](delivery/using/communication-channels.md)
+  + Key steps when creating a delivery {#key-steps-when-creating-a-delivery}
+       + [Get started with deliveries](delivery/using/steps-about-delivery-creation-steps.md)
+       + [Create and identify a delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+       + [Define the audience](delivery/using/steps-defining-the-target-population.md)
+       + [Validate the delivery](delivery/using/steps-validating-the-delivery.md)
+       + [Send the delivery](delivery/using/steps-sending-the-delivery.md)
+       + Delivery best practices {#delivery-bestpractices}
+          + [Learn good practices](delivery/using/delivery-best-practices.md)
+          + [Optimize delivery](delivery/using/optimize-delivery.md)
+          + [Use templates](delivery/using/use-templates.md)
+          + [Build personalized content](delivery/using/design-and-personalize.md)
+          + [Define the right audience](delivery/using/define-the-right-audience.md)
+          + [Check before sending](delivery/using/check-before-sending.md)
+          + [Track and monitor](delivery/using/track-and-monitor.md)                    
+  + Send emails {#sending-emails}
+       + [About email channel](delivery/using/about-email-channel.md)
+       + [Create an email delivery](delivery/using/creating-an-email-delivery.md)
+       + [Define the email content](delivery/using/defining-the-email-content.md)
+       + [Define interactive content](delivery/using/defining-interactive-content.md)
+       + Send the email delivery {#sending-an-email}
+            + [Main steps to send an email](delivery/using/sending-messages.md)
+            + [Email parameters](delivery/using/email-parameters.md)
+            + [Send with the Enhanced MTA](delivery/using/sending-with-enhanced-mta.md)
+            + [Send on Japanese mobiles](delivery/using/sending-emails-on-japanese-mobiles.md)
+       + [Attach files](delivery/using/attaching-files.md)
+  + Send SMS {#sending-messages-on-mobiles}
+       + [Get started with SMS](delivery/using/sms-channel.md)
+       + [Configure SMS channel](delivery/using/sms-set-up.md)
+       + [Create a SMS](delivery/using/sms-create.md)
+       + [Send and track SMS](delivery/using/sms-send.md)
+       + [SMS connector protocol and settings](delivery/using/sms-protocol.md)
+       + [SMS troubleshooting](delivery/using/troubleshooting-sms.md)
+       + [Migrate to the Extended Generic SMPP connector](delivery/using/unsupported-connector-migration.md)
+  + [Send LINE messages](delivery/using/line-channel.md)
+  + Send push notifications {#sending-push-notifications}
+       + [Get started with mobile app channel](delivery/using/about-mobile-app-channel.md)
+       + [Integrate Campaign SDK into the mobile application](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+       + Configure the mobile application{#configure-the-mobile-app}
+            + [Get started with the app configuration](delivery/using/get-started-app-config.md)
+            + [Configuration steps for iOS](delivery/using/configuring-the-mobile-application.md)
+            + [Configuration steps for Android](delivery/using/configuring-the-mobile-application-android.md)
+       + [Create notifications](delivery/using/creating-notifications.md)
+       + [Troubleshooting](delivery/using/troubleshooting.md)
+  + Send direct mail {#sending-direct-mail}
+       + [About direct mail channel](delivery/using/about-direct-mail-channel.md)
+       + [Create a direct mail delivery](delivery/using/creating-a-direct-mail-delivery.md)
+       + [Defining the direct mail content](delivery/using/defining-the-direct-mail-content.md)
+       + [Validating](delivery/using/validating.md)
+  + Use delivery templates {#using-delivery-templates}
+       + [About templates](delivery/using/about-templates.md)
+       + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
+       + [Select a target mapping](delivery/using/selecting-a-target-mapping.md)
+       + [Create a delivery from a template](delivery/using/creating-a-delivery-from-a-template.md)
+  + Personalize deliveries {#personalizing-deliveries}
+       + [About personalization](delivery/using/about-personalization.md)
+       + [Personalization fields](delivery/using/personalization-fields.md)
+       + [Personalization blocks](delivery/using/personalization-blocks.md)
+       + [Conditional content](delivery/using/conditional-content.md)
+       + [Personalized coupons](delivery/using/personalized-coupons.md)
+       + [Generate personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+       + [Customize the emoticon list](delivery/using/customizing-emoticon-list.md)
+  + Use seed addresses {#using-seed-addresses}
+       + [About seed addresses](delivery/using/about-seed-addresses.md)
+       + [Create seed addresses](delivery/using/creating-seed-addresses.md)
+       + [Add seed addresses](delivery/using/adding-seed-addresses.md)
+       + [Use an external recipient table](delivery/using/using-an-external-recipient-table.md)
+       + [Use case: select seed addresses on criteria](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+       + [Use case: configure the field substitution](delivery/using/use-case--configuring-the-field-substitution.md)
+  + A/B testing {#a-b-testing}
+       + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
+       + [Configure A/B testing](delivery/using/configuring-a-b-testing.md)
+       + Use case {#use-case}
+          + [About this use case](delivery/using/a-b-testing-use-case.md)
+          + [Create a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
+          + [Configure population samples](delivery/using/a-b-testing-uc-population-samples.md)
+          + [Create the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
+          + [Configure the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+          + [Create the script](delivery/using/a-b-testing-uc-script.md)
+          + [Define the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
+          + [Start the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+          + [Analyze the result](delivery/using/a-b-testing-uc-analyzing.md)
+  + Services and subscriptions {#subscriptions-and-referrals}
+       + [About services and subscriptions](delivery/using/about-services-and-subscriptions.md)
+       + [Manage subscriptions](delivery/using/managing-subscriptions.md)
+       + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
+  + Monitor deliveries {#monitoring-deliveries}
+       + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
+       + [Access the list of deliveries](delivery/using/list-of-deliveries.md)     
+       + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+       + [Delivery performances best practices](delivery/using/delivery-performances.md)
+       + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
+       + [Delivery statuses](delivery/using/delivery-statuses.md)
+       + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
+       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
+       + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
+  + Track messages {#tracking-messages}
+       + [About message tracking](delivery/using/about-message-tracking.md)
+       + [How to configure tracked links](delivery/using/how-to-configure-tracked-links.md)
+       + Track personalized links {#tracking-personalized-links}
+          + [Get started with personalized links tracking](delivery/using/tracking-personalized-links.md)
+          + [Detect tracking URLs](delivery/using/detecting-tracking-urls.md)
+          + [Pre-processing instructions for tracking](delivery/using/pre-processing-instructions.md)
+       + [Configure URL tracking options](delivery/using/personalizing-url-tracking.md)
+       + [Access the tracking logs](delivery/using/accessing-the-tracking-logs.md)
+       + [Test tracking](delivery/using/testing-tracking.md)
+       + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
+  + Deliverability management {#deliverability-management}
+       + [What is deliverability](delivery/using/about-deliverability.md)
+       + [Control message content](delivery/using/control-message-content.md)
+       + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
+       + [Inbox rendering](delivery/using/inbox-rendering.md)
+       + [SpamAssassin](delivery/using/spamassassin.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
+  + Content management module {#content-management}
+       + [About content management](delivery/using/about-content-management.md)
+       + [Content manager resources and principles](delivery/using/content-manager-resources-and-principles.md)
+       + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
+       + [Data schemas](delivery/using/data-schemas.md)
+       + [Input forms](delivery/using/input-forms.md)
+       + [Formatting](delivery/using/formatting.md)
+       + [Publication templates](delivery/using/publication-templates.md)
+       + [Use a content template](delivery/using/using-a-content-template.md)
+       + [Enrich content](delivery/using/enriching-content.md)
+       + [Automate via workflows](delivery/using/automating-via-workflows.md)
++ Orchestrate marketing campaigns {#orchestrating-campaigns}
+  + About marketing campaigns {#about-marketing-campaigns}
+       + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)
+       + [Access marketing campaigns](campaign/using/accessing-marketing-campaigns.md)
+  + Orchestrate campaigns {#orchestrate-campaigns}
+       + [Get started with marketing campaigns](campaign/using/setting-up-marketing-campaigns.md)
+       + [Create and configure templates](campaign/using/marketing-campaign-templates.md)
+       + [Add deliveries](campaign/using/marketing-campaign-deliveries.md)
+       + [Select the audience](campaign/using/marketing-campaign-target.md)
+       + [Manage documents and assets](campaign/using/marketing-campaign-assets.md)
+       + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
+       + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
+       + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
+  + Tasks, resources and budgets {#tasks--resources-and-budgets}
+       + [About marketing resource management](campaign/using/about-marketing-resource-management.md)
+       + [Create and manage tasks](campaign/using/creating-and-managing-tasks.md)
+       + [Control costs](campaign/using/controlling-costs.md)
+       + [Manage marketing resources](campaign/using/managing-marketing-resources.md)
+       + [Discussion forums](campaign/using/discussion-forums.md)
+  + Campaign optimization {#campaign-optimization}
+       + [About campaign typologies](campaign/using/about-campaign-typologies.md)
+       + [Pressure rules](campaign/using/pressure-rules.md)
+       + [Consistency rules](campaign/using/consistency-rules.md)
+       + [Control rules](campaign/using/control-rules.md)
+       + [Filtering rules](campaign/using/filtering-rules.md)
+       + [Apply rules](campaign/using/applying-rules.md)
+       + [Campaign simulations](campaign/using/campaign-simulations.md)
+  + Distributed marketing {#distributed-marketing}
+       + [About distributed marketing](campaign/using/about-distributed-marketing.md)
+       + [Create a local campaign](campaign/using/creating-a-local-campaign.md)
+       + [Create a collaborative campaign](campaign/using/creating-a-collaborative-campaign.md)
+       + [Publish the campaign package](campaign/using/publishing-the-campaign-package.md)
+       + [Access campaigns](campaign/using/accessing-campaigns.md)
+       + [Track a campaign](campaign/using/tracking-a-campaign.md)
+       + [Use cases](campaign/using/examples.md)
+  + Response manager {#response-manager}
+       + [Get started with response manager](campaign/using/about-response-manager.md)
+       + [Configuration](campaign/using/configuration.md)
+       + [Hypothesis templates](campaign/using/hypothesis-templates.md)
+       + [Create hypotheses](campaign/using/creating-hypotheses.md)
+       + [Hypothesis tracking](campaign/using/hypothesis-tracking.md)
++ Design and share reports {#reporting}
+  + Get started with reporting {#reporting-in-adobe-campaign}
+       + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
+       + [Best practices for reporting](reporting/using/best-practices.md)
+  + Access built-in reports {#accessing-built-in-reports}
+       + [About built-in reports](reporting/using/about-campaign-built-in-reports.md)
+       + [List of reports](reporting/using/list-of-reports.md)
+  + Reports on deliveries{#reports-on-deliveries}
+       + [About reports on deliveries](reporting/using/reports-on-deliveries.md) 
+       + [Global reports](reporting/using/global-reports.md)
+       + [Delivery reports](reporting/using/delivery-reports.md)
+       + [Cumulative reports](reporting/using/cumulative-reports.md)
+       + [Indicator calculation](reporting/using/indicator-calculation.md)
+       + [Person/people and recipients](reporting/using/person-people-recipients.md)
+  + Analyze populations {#analyzing-populations}
+       + [About descriptive analysis](reporting/using/about-descriptive-analysis.md)
+       + [Use the descriptive analysis wizard](reporting/using/using-the-descriptive-analysis-wizard.md)
+       + [Report settings](reporting/using/processing-a-report.md)
+       + [Use cases](reporting/using/use-cases.md)
+  + Create new reports {#creating-new-reports}
+       + [Key steps to design a report](reporting/using/about-reports-creation-in-campaign.md)
+       + [Create a new report](reporting/using/creating-a-new-report.md)
+       + [Collect data to analyze](reporting/using/collecting-data-to-analyze.md)
+       + [Use the context](reporting/using/using-the-context.md)
+       + [Create a table](reporting/using/creating-a-table.md)
+       + [Create a chart](reporting/using/creating-a-chart.md)
+       + [Element layout](reporting/using/element-layout.md)
+       + [Define a conditional content](reporting/using/defining-a-conditional-content.md)
+       + [Advanced capabilities](reporting/using/advanced-functionalities.md)
+       + [Properties of the report](reporting/using/properties-of-the-report.md)
+       + [Configure access to the report](reporting/using/configuring-access-to-the-report.md)
+       + [Actions on reports](reporting/using/actions-on-reports.md)
+  + Design reports with cubes {#designing-reports-with-cubes}
+       + [Get started with cubes](reporting/using/about-cubes.md)
+       + [Create indicators](reporting/using/creating-indicators.md)
+       + [Use cubes to explore data](reporting/using/using-cubes-to-explore-data.md)
+       + [Concepts and methodology](reporting/using/concepts-and-methodology.md)
+       + [Use case: display report on answers to an online survey](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
++ Design web content {#designing-content}
+  + Web applications {#web-applications}
+       + [Get started with web applications](web/using/about-web-applications.md)
+       + [Create a new web application](web/using/creating-a-new-web-application.md)
+       + [Design a web application](web/using/designing-a-web-application.md)
+       + [Use cases: create overviews](web/using/use-cases--creating-overviews.md)
+       + [Translate a web application](web/using/translating-a-web-application.md)
+       + [Track visits on a web application](web/using/tracking-a-web-application.md)
+       + [Web application tracking opt-out](web/using/web-application-tracking-opt-out.md)
+  + Edit HTML content {#editing-html-content}
+       + [Get started with the HTML editor](web/using/about-campaign-html-editor.md)
+       + [Template management](web/using/template-management.md)
+       + [Content editor interface](web/using/content-editor-interface.md)
+       + [Edit content](web/using/editing-content.md)
+       + [Content editing best practices](web/using/content-editing-best-practices.md)
+       + [Create a landing page](web/using/creating-a-landing-page.md)
+       + [Use case: create an email delivery](web/using/use-case--creating-an-email-delivery.md)
+  + Web forms {#web-forms}
+       + [Get started with web forms](web/using/about-web-forms.md)
+       + [Use a web form template](web/using/using-a-web-form-template.md)
+       + [Add fields to a web form](web/using/adding-fields-to-a-web-form.md)
+       + [Static elements in a web form](web/using/static-elements-in-a-web-form.md)
+       + [Define web forms layout](web/using/defining-web-forms-layout.md)
+       + [Form rendering](web/using/form-rendering.md)
+       + [Define page sequencing](web/using/defining-web-forms-page-sequencing.md)
+       + [Save web forms answers](web/using/web-forms-answers.md)
+       + [Publish a web form](web/using/publishing-a-web-form.md)
+       + [Define web forms properties](web/using/defining-web-forms-properties.md)
+       + [Translate a web form](web/using/translating-a-web-form.md)
+       + [Use cases: web forms](web/using/use-cases--web-forms.md)
+  + Online surveys {#online-surveys}
+       + [Get started with surveys](web/using/about-surveys.md)
+       + [Key steps to create a survey](web/using/getting-started-with-surveys.md)
+       + [Design a survey](web/using/building-a-survey.md)
+       + [Manage answers](web/using/managing-answers.md)
+       + [Publish, track and use collected data](web/using/publish--track-and-use-collected-data.md)
+       + [Configure surveys](web/using/configuring-surveys.md)
+       + [Use case: create a referral form](web/using/use-case--creating-a-refer-a-friend-form.md)
++ Integrate with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
+  + [About Campaign integrations](integrations/using/about-campaign-integrations.md)
+  + Audience sharing {#audience-sharing}
+       + [Share audiences with [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+       + [Submit request to Adobe](integrations/using/submitting-request-to-adobe.md)
+       + [Configure shared audiences integration in [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+       + [Troubleshooting](integrations/using/troubleshooting.md)
+       + [Import and export audiences](integrations/using/importing-and-exporting-audiences.md)
+  + Asset sharing {#asset-sharing}
+       + [Share assets with [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+       + [Configure access to [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
+       + [Insert a shared asset](integrations/using/inserting-a-shared-asset.md)
+  + Adobe Experience Manager {#adobe-experience-manager}
+       + [About [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+       + [Configure the integration](integrations/using/configuring-the-integration.md)
+       + [Create an [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
+  + Adobe Target {#adobe-target}
+       + [Integrate with [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+       + [Configure the integration with [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
+       + [Insert a dynamic image](integrations/using/inserting-a-dynamic-image.md)
+  + ACS Connector {#acs-connector}
+       + [[!DNL ACS Connector] principles and data cycle](integrations/using/acs-connector-principles-and-data-cycle.md)
+       + [Synchronize profiles](integrations/using/synchronizing-profiles.md)
+       + [Synchronize audiences](integrations/using/synchronizing-audiences.md)
+       + [Synchronize web applications](integrations/using/synchronizing-web-applications.md)
+       + [Troubleshoot the [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+  + Adobe Experience Cloud Triggers {#experience-triggers}
+       + [Get started with [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+       + [Configure pipeline](integrations/using/configuring-pipeline.md)
+       + [Configure Adobe I/O for [!DNL Experience Cloud Triggers]](integrations/using/configuring-adobe-io.md)
+       + [Configure events for custom implementation](integrations/using/events.md)
+       + [Pipeline monitoring](integrations/using/pipeline-monitoring.md)
+       + [Pipeline troubleshooting](integrations/using/pipeline-troubleshooting.md)
++ Automate with workflows {#automating-with-workflows}
+  + Get started with workflows {#introduction}
+       + [About workflows](workflow/using/about-workflows.md)
+       + [About activities](workflow/using/about-activities.md)
+       + [Build a workflow](workflow/using/building-a-workflow.md)
+       + [Target data](workflow/using/targeting-data.md)
+       + [Use workflow data](workflow/using/how-to-use-workflow-data.md)
+       + [Workflow best practices](workflow/using/workflow-best-practices.md)
+  +  Execute a workflow {#executing-a-workflow}
+       + [Start a workflow](workflow/using/starting-a-workflow.md)
+       + [Workflow life cycle](workflow/using/workflow-life-cycle.md)
+       + [Data life cycle](workflow/using/data-life-cycle.md)
+       + [Define approvals](workflow/using/defining-approvals.md)
+       + [Architecture](workflow/using/architecture.md)
+  + Targeting activities {#targeting-activities}
+       + [About targeting activities](workflow/using/about-targeting-activities.md)
+       + [Query](workflow/using/query.md)
+       + [Incremental query](workflow/using/incremental-query.md)
+       + [Read list](workflow/using/read-list.md)
+       + [Union](workflow/using/union.md)
+       + [Intersection](workflow/using/intersection.md)
+       + [Exclusion](workflow/using/exclusion.md)
+       + [Split](workflow/using/split.md)
+       + [Cells](workflow/using/cells.md)
+       + [Offers by cell](workflow/using/offers-by-cell.md)
+       + [Delivery outline](workflow/using/delivery-outline.md)
+       + [Enrichment](workflow/using/enrichment.md)
+       + [Edit schema](workflow/using/edit-schema.md)
+       + [Offer engine](workflow/using/offer-engine.md)
+       + [Deduplication](workflow/using/deduplication.md)
+       + [Change dimension](workflow/using/change-dimension.md)
+       + [List update](workflow/using/list-update.md)
+       + [Subscription Services](workflow/using/subscription-services.md)
+       + [Update data](workflow/using/update-data.md)
+       + [CRM Connector](workflow/using/crm-connector.md)
+  + Flow control activities {#flow-control-activities}
+       + [About flow control activities](workflow/using/about-flow-control-activities.md)
+       + [Start and end](workflow/using/start-and-end.md)
+       + [Fork](workflow/using/fork.md)
+       + [AND-join](workflow/using/and-join.md)
+       + [Scheduler](workflow/using/scheduler.md)
+       + [Test](workflow/using/test.md)
+       + [Wait](workflow/using/wait.md)
+       + [Time constraint](workflow/using/time-constraint.md)
+       + [Sub-workflow](workflow/using/sub-workflow.md)
+       + [Jump (start point and end point)](workflow/using/jump--start-point-and-end-point-.md)
+       + [External signal](workflow/using/external-signal.md)
+       + [Approval](workflow/using/approval.md)
+       + [Alert](workflow/using/alert.md)
+       + [Task](workflow/using/task.md)
+  + Action activities {#action-activities}
+       + [About action activities](workflow/using/about-action-activities.md)
+       + [Delivery](workflow/using/delivery.md)
+       + [Delivery control](workflow/using/delivery-control.md)
+       + [Continuous delivery](workflow/using/continuous-delivery.md)
+       + [Recurring delivery](workflow/using/recurring-delivery.md)
+       + [Cross-channel deliveries](workflow/using/cross-channel-deliveries.md)
+       + [Local approval](workflow/using/local-approval.md)
+       + [Data loading (RDBMS)](workflow/using/data-loading--rdbms-.md)
+       + [Loading (SOAP)](workflow/using/loading--soap-.md)
+       + [Data loading (file)](workflow/using/data-loading--file-.md)
+       + [Content Management](workflow/using/content-management.md)
+       + [Data extraction (file)](workflow/using/extraction--file-.md)
+       + [SQL code and JavaScript code](workflow/using/sql-code-and-javascript-code.md)
+       + [SQL Data Management](workflow/using/sql-data-management.md)
+       + [Nlserver module](workflow/using/nlserver-module.md)
+       + [Update aggregate](workflow/using/update-aggregate.md)
+  + Event activities {#event-activities}
+       + [About event activities](workflow/using/about-event-activities.md)
+       + [File collector](workflow/using/file-collector.md)
+       + [File transfer](workflow/using/file-transfer.md)
+       + [Web download](workflow/using/web-download.md)
+       + [Inbound Emails](workflow/using/inbound-emails.md)
+       + [Inbound SMS](workflow/using/inbound-sms.md)
+  + Use cases {#use-cases}
+       + [About workflow use cases](workflow/using/about-workflow-use-cases.md)
+       + Deliveries {#deliveries}
+          + [Use the local approval activity](workflow/using/using-the-local-approval-activity.md)
+          + [Send a birthday email](workflow/using/sending-a-birthday-email.md)
+          + [Load delivery content](workflow/using/loading-delivery-content.md)
+          + [Cross-channel delivery workflow](workflow/using/cross-channel-delivery-workflow.md)
+          + [Email enrichment with custom date fields](workflow/using/email-enrichment-with-custom-date-fields.md)
+       + Monitoring {#monitoring}
+          + [Send a report to a list](workflow/using/sending-a-report-to-a-list.md)
+          + [Supervise your workflows](workflow/using/supervising-workflows.md)
+          + [Send personalized alerts to operators](workflow/using/sending-personalized-alerts-to-operators.md)
+       + Data management {#data-management}   
+          + [Coordinate data updates](workflow/using/coordinating-data-updates.md)
+          + [Create a summary list](workflow/using/creating-a-summary-list.md)
+          + [Enrich data](workflow/using/enriching-data.md) 
+          + [Use aggregates](workflow/using/using-aggregates.md)
+          + [Use the Deduplication activity's merge functionality](workflow/using/deduplication-merge.md)
+          + [Set up a recurring import workflow](workflow/using/recurring-import-workflow.md)
+       + Design queries {#designing-queries}
+          + [Quarterly list update using an incremental query](workflow/using/quarterly-list-update.md)
+       + Query and filter {#designing-queries}
+          + [Query the recipient table](workflow/using/querying-recipient-table.md)
+          + [Query delivery information](workflow/using/querying-delivery-information.md)
+          + [Perform aggregate computing](workflow/using/performing-aggregate-computing.md)
+          + [Query using grouping management](workflow/using/querying-using-grouping-management.md)
+          + [Query using a many-to-many-relationship](workflow/using/querying-using-many-to-many-relationship.md)
+          + [Add an enumeration type calculated field](workflow/using/adding-enumeration-type-calculated-field.md)
+          + [Create a filter](workflow/using/creating-a-filter.md)
+          + [Filter duplicated recipients](workflow/using/filtering-duplicated-recipients.md)
+  + Monitor workflows {#monitoring-workflows}
+       + [Monitor workflow execution](workflow/using/monitoring-workflow-execution.md)
+       + [Monitor technical workflows](workflow/using/monitoring-technical-workflows.md)
+       + [Workflow HeatMap](workflow/using/heatmap.md)
+  + Advanced management {#advanced-management}
+       + [Workflow properties](workflow/using/workflow-properties.md)
+       + [Advanced parameters](workflow/using/advanced-parameters.md)
+       + [JavaScript scripts and templates](workflow/using/javascript-scripts-and-templates.md)
+       + [Access an external database](workflow/using/accessing-an-external-database--fda-.md)
+       + [Manage permissions](workflow/using/managing-rights.md)
+       + [Manage activity images](workflow/using/managing-activity-images.md)
+       + [Manage time zones](workflow/using/managing-time-zones.md)
+       + [Technical workflows](workflow/using/about-technical-workflows.md)
++ Manage Offers {#managing-offers}
+  + Get started with Interaction {#interaction-overview}
+       + [Interaction and offer management](interaction/using/interaction-and-offer-management.md)
+       + [Glossary](interaction/using/glossary.md)
+       + [Interaction best practices](interaction/using/interaction-best-practices.md)
+  + General operation {#general-operation}
+       + [Implementation steps](interaction/using/implementation-steps.md)
+       + [Fundamental principles](interaction/using/fundamental-principles.md)
+  + Manage environments {#managing-environments}
+       + [Environments overview](interaction/using/environments-overview.md)
+       + [Operator profiles](interaction/using/operator-profiles.md)
+       + [Live/Design environments](interaction/using/live-design-environments.md)
+       + [Create offer spaces](interaction/using/creating-offer-spaces.md)
+       + [Create predefined filters](interaction/using/creating-predefined-filters.md)
+  + Manage an offer catalog {#managing-an-offer-catalog}
+       + [Offer catalog overview](interaction/using/offer-catalog-overview.md)
+       + [Create offer categories](interaction/using/creating-offer-categories.md)
+       + [Recommend a category](interaction/using/recommending-a-category.md)
+       + [Create an offer](interaction/using/creating-an-offer.md)
+       + [Approve and activate an offer](interaction/using/approving-and-activating-an-offer.md)
+       + [Manage offer templates](interaction/using/managing-offer-templates.md)
+       + [Manage offer presentation](interaction/using/managing-offer-presentation.md)
+  + Offers simulation{#simulating-offers}
+       + [About offers simulation](interaction/using/about-offers-simulation.md)
+       + [Execution settings](interaction/using/execution-settings.md)
+       + [Simulation scope](interaction/using/simulation-scope.md)
+       + [Simulation tracking](interaction/using/simulation-tracking.md)
+  + Deliver an offer {#delivering-an-offer}
+       + [About outbound channels](interaction/using/about-outbound-channels.md)
+       + [Integrate an offer via the wizard](interaction/using/integrating-an-offer-via-the-wizard.md)
+       + [Integrate an offer via a workflow](interaction/using/integrating-an-offer-via-a-workflow.md)
+  + Unitary interactions {#unitary-interactions}
+       + [About inbound channels](interaction/using/about-inbound-channels.md)
+       + [Integration via JavaScript (client side)](interaction/using/integration-via-javascript--client-side-.md)
+       + [Integration via SOAP (server side)](interaction/using/integration-via-soap--server-side-.md)
+       + [Anonymous interactions](interaction/using/anonymous-interactions.md)
+  + Track offers {#tracking-offers}
+       + [Offer proposition history](interaction/using/offer-proposition-history.md)
+       + [Offer analysis report](interaction/using/offer-analysis-report.md)
+  + Advanced parameters {#advanced-parameters}
+       + [Use advanced parameters](interaction/using/using-advanced-parameters.md)
+       + [Additional data](interaction/using/additional-data.md)
+       + [Extension example](interaction/using/extension-example.md)
+       + [Create a test environment](interaction/using/creating-a-test-environment.md)
+       + [Hooks](interaction/using/hooks.md)
+       + [Distributed architectures](interaction/using/distributed-architectures.md)
+       + [Data buffer configuration](installation/using/interaction---data-buffer.md)
+  + Use case {#case-study}
+       + [Presentation rules](interaction/using/presentation-rules.md)
+       + [Offers on an inbound channel](interaction/using/offers-on-an-inbound-channel.md)
+       + [Offers on an outbound channel](interaction/using/offers-on-an-outbound-channel.md)
++ Transactional messaging {#transactional-messaging}
+  + Get started with transactional messaging {#introduction}
+       + [About transactional messaging](message-center/using/about-transactional-messaging.md)
+       + [Transactional messaging architecture](message-center/using/transactional-messaging-architecture.md)
+       + [Event description](message-center/using/event-description.md)
+  + Configure the instance {#instance-configuration}
+       + [Create a shared connection](message-center/using/creating-a-shared-connection.md)
+       + [Identify execution instances](message-center/using/identifying-execution-instances.md)
+       + [Monitor thresholds](message-center/using/monitoring-thresholds.md)
+       + [Purge events](message-center/using/purging-events.md)
+       + [Technical workflows](message-center/using/technical-workflows.md)
+       + [Create event types](message-center/using/creating-event-types.md)
+       + [Configure multibranding](message-center/using/configuring-multibranding.md)
+  + Message templates {#message-templates}
+       + [About transactional message templates](message-center/using/introduction.md)
+       + [Create the message template](message-center/using/creating-the-message-template.md)
+       + [Create message content](message-center/using/creating-message-content.md)
+       + [Manage seed addresses in transactional messages](message-center/using/managing-seed-addresses-in-transactional-messages.md)
+       + [Personalization data](message-center/using/personalization-data.md)
+       + [Transactional message preview](message-center/using/transactional-message-preview.md)
+       + [Send a proof](message-center/using/sending-a-proof.md)
+       + [Template publication](message-center/using/template-publication.md)
+       + [Template unpublication](message-center/using/template-unpublication.md)
+  + Event processing {#event-processing}
+       + [About event processing](message-center/using/about-event-processing.md)
+       + [Event collection](message-center/using/event-collection.md)
+       + [Routing towards a template](message-center/using/routing-towards-a-template.md)
+       + [Delivery execution](message-center/using/delivery-execution.md)
+  + Reports {#reports}
+       + [About transactional messaging reports](message-center/using/about-transactional-messaging-reports.md)
+       + [History of Message Center events](message-center/using/history-of-message-center-events.md)
+       + [Message Center service level](message-center/using/message-center-service-level.md)
+       + [Message Center processing time](message-center/using/message-center-processing-time.md)
+  + Use case {#use-case}
+       + [Send transactional emails with attachments](message-center/using/transactional-email-with-attachments.md)
++ Integrate with social media {#integrating-with-social-media}
+  + [About social marketing](social/using/about-social-marketing.md)
+  + Configuration {#configuration}
+       + [Start workflows](social/using/starting-workflows.md)
+       + [Publish on Facebook walls](social/using/publishing-on-facebook-walls.md)
+       + [Create a Facebook application](social/using/creating-a-facebook-application.md)
+       + [Configure publishing on Twitter](social/using/configuring-publishing-on-twitter.md)
+  + Publish on social media {#publishing-on-facebook-twitter}
+       + [Overview](social/using/overview.md)
+       + [Publish on Facebook](social/using/publishing-on-facebook.md)
+       + [Publish on Twitter](social/using/publishing-on-twitter.md)
+  + Annexes {#annexes}
+       + [Examples of Facebook apps](social/using/examples-of-facebook-apps.md)
+       + [Tracking](social/using/tracking.md)
++ Installation and configuration guide {#installing-campaign-classic}
+  + Architecture principles {#architecture-and-hosting-models}
+       + [General architecture](installation/using/general-architecture.md)
+       + Hosting models{#hosting-models-lp}
+          + [Campaign hosting models](installation/using/hosting-models.md)
+          + [Capability matrix](installation/using/capability-matrix.md)
+  + Deployment types {#deployment-types-}
+       + [About deployment types](installation/using/about-deployment-types.md)
+       + [Standalone deployment](installation/using/standalone-deployment.md)
+       + [Standard deployment](installation/using/standard-deployment.md)
+       + [Enterprise deployment](installation/using/enterprise-deployment.md)
+       + [Mid-sourcing deployment](installation/using/mid-sourcing-deployment.md)
+       + [Power Booster and Power Cluster](installation/using/power-booster-and-power-cluster.md)
+  + Security and privacy settings {#security-privacy}
+       + [Get started with security and privacy](installation/using/get-started-security-privacy.md)
+       + [Personalization and privacy](installation/using/privacy.md)
+       + [Secure access management](installation/using/access-management.md)
+       + [Scripting and coding guidelines](installation/using/scripting-coding-guidelines.md)
+       + [Network, database and SSL/TLS](installation/using/network-database.md)
+       + [Server security settings](installation/using/server-configuration.md)
+       + [Web server security settings](installation/using/web-server-configuration.md)
+  + Install Campaign (on-premise){#install-campaign-on-prem}
+     + Deployment guidelines {#deployment-guidelines}
+       + [Database server](installation/using/database.md)
+       + [Application server](installation/using/application-server.md)
+       + [Messaging server](installation/using/messaging-server.md)
+       + [Network configuration](installation/using/network-configuration.md)
+     + Campaign on Windows {#installing-campaign-in-windows-}
+       + [Get started](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+       + [Install the server](installation/using/installing-the-server.md)
+       + [Integrate into a Web server (Windows)](installation/using/integration-into-a-web-server-for-windows.md)
+       + [Client console availability for Windows](installation/using/client-console-availability-for-windows.md)
+     + Campaign on Linux {#installing-campaign-in-linux-}
+       + [Prerequisites](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+       + [Install packages](installation/using/installing-packages-with-linux.md)
+       + [Integrate into a web server](installation/using/integration-into-a-web-server-for-linux.md)
+     + [Time zone management](installation/using/time-zone-management.md)
+     + [Install a mid-sourcing server](installation/using/mid-sourcing-server.md)
+  + Deploy Campaign (on-premise) {#initial-configuration}
+       + [Key steps](installation/using/about-initial-configuration.md)
+       + [Create an instance and log on](installation/using/creating-an-instance-and-logging-on.md)
+       + [Create and configure the database](installation/using/creating-and-configuring-the-database.md)
+       + [Deploy an instance](installation/using/deploying-an-instance.md)
+       + [Install built-in packages](installation/using/installing-campaign-standard-packages.md)
+  + Configure Campaign {#additional-configurations}
+       + [Campaign server configuration](installation/using/configuring-campaign-server.md)
+       + [Define security zones](installation/using/security-zones.md)
+       + [Set URL permissions](installation/using/url-permissions.md)
+       + [Files and resources](installation/using/file-res-management.md)
+       + [Configure Tomcat](installation/using/configure-tomcat.md)
+       + [Configure delivery settings](installation/using/configure-delivery-settings.md)
+       + [Technical email configurations](installation/using/email-deliverability.md)
+       + [Using MX servers with Campaign](installation/using/using-mx-servers.md)
+       + [Configure email BCC](installation/using/email-archiving.md)
+       + [Configure SpamAssassin](installation/using/configuring-spamassassin.md)
+  + Connect to Campaign{#connect-to-campaign}
+       + [Install the client console](installation/using/installing-the-client-console.md)
+       + Connect via an Adobe ID {#connecting-via-an-adobe-id}
+          + [About [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+          + [Configure Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
+          + [Implement Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
+          + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
+       + [Connect through LDAP](installation/using/connecting-through-ldap.md)
+  + Connect Campaign to external systems {#accessing-external-database}
+       + [Configure external accounts](installation/using/external-accounts.md)
+       + Configure Federated Data Access{#configure-fda}
+          + [Get started with Federated Data Access](installation/using/about-fda.md)
+          + [Best practices and limitations](installation/using/fda-best-practices.md)
+          + Configuration guidelines {#config-databases}
+            + [Configuration steps](installation/using/configure-fda.md)
+            + [Configure Snowflake](installation/using/configure-fda-snowflake.md)
+            + [Configure Azure Synapse](installation/using/configure-fda-synapse.md)
+            + [Configure Hadoop](installation/using/configure-fda-hadoop.md)
+            + [Configure Oracle](installation/using/configure-fda-oracle.md)
+            + [Configure Netezza](installation/using/configure-fda-netezza.md)
+            + [Configure Sybase IQ](installation/using/configure-fda-sybase.md)
+            + [Configure Teradata](installation/using/configure-fda-teradata.md)
+            + [Configure SAP HANA](installation/using/configure-fda-sap-hana.md)
+          + [Remote access rights](installation/using/remote-database-access-rights.md)
+          + [Connect to the database](installation/using/connecting-to-database.md)
+          + [Create the data schema](installation/using/creating-data-schema.md)
+          + [Define data mapping](installation/using/defining-data-mapping.md)
+  + Appendices {#appendices}
+       + [Server configuration file](installation/using/the-server-configuration-file.md)
+       + [Campaign network endpoints](installation/using/campaign-network-endpoints.md)
+       + [Command lines](installation/using/command-lines.md)
+       + [Create new instances](installation/using/creating-new-instances.md)
+       + [List of Campaign options](installation/using/configuring-campaign-options.md)
+       + [Uninstall Campaign](installation/using/uninstalling-campaign.md)
++ Monitoring guide {#monitoring-campaign-classic}
+  + Introduction {#introduction}
+       + [Foreword](production/using/foreword.md)
+       + [General architecture](production/using/general-architecture.md)
+       + [Monitoring guidelines](production/using/monitoring-guidelines.md)
+  + Production procedures {#production-procedures}
+       + [Configuration principle](production/using/configuration-principle.md)
+       + [Operating principle](production/using/operating-principle.md)
+       + [Administration](production/using/administration.md)
+       + [Configuration](production/using/configuration.md)
+       + [Log files](production/using/log-files.md)
+       + [Monitor processes](production/using/monitoring-processes.md)
+       + [Usual commands](production/using/usual-commands.md)
+       + [Audit trail](production/using/audit-trail.md)
+  + Data processing {#data-processing}
+       + [Backup](production/using/backup.md)
+       + [Restoration](production/using/restoration.md)
+       + [Duplicating environments](production/using/duplicating-environments.md)
+       + [Database cleanup workflow](production/using/database-cleanup-workflow.md)
+  + Update Adobe Campaign {#updating-adobe-campaign}
+       + [Introduction](production/using/introduction.md)
+       + [Perform a build upgrade](production/using/build-upgrade.md)
+       + [Upgrade procedure (on-premise)](production/using/upgrading.md)
+       + [Switch to Unicode](production/using/switching-to-unicode.md)
+       + [Migration procedures](production/using/migration-procedures.md)
+  + Database maintenance {#database-maintenance}
+       + [Recommendations](production/using/recommendations.md)
+       + [Tables to maintain](production/using/tables-to-maintain.md)
+       + [Types of maintenance](production/using/types-of-maintenance.md)
+       + [RDBMS Specific recommendations](production/using/rdbms-specific-recommendations.md)
+       + [Application objects](production/using/application-objects.md)
+  + Troubleshooting {#troubleshooting-toc}
+       + [Production troubleshooting overview](production/using/troubleshooting.md)
+       + Common and general issues {#common-general-issues-toc}
+          + [Modules and frequent issues](production/using/modules-and-frequent-issues.md)
+          + [Workflow execution](production/using/workflow-execution.md)
+          + [Lost password](production/using/lost-password.md)
+          + [Console update](production/using/console-update.md)
+       + Delivery troubleshooting {#delivery-troubleshooting-toc}
+          + [Performance and throughput issues](production/using/performance-and-throughput-issues.md)
+          + [Image display issues](production/using/image-display-issues.md)
+          + [Images missing](production/using/images-missing.md)
+          + [Temporary files](production/using/temporary-files.md)
+       + Working with logs {#working-with-log-toc}
+          + [Log precision](production/using/log-precision.md)
+          + [Tracking logs issues](production/using/tracking-logs-issues.md)
+       + Database issues {#database-issues-toc}
+          + [Database performance](production/using/database-performances.md)
+          + [Encoding of the Oracle database](production/using/encoding-of-the-oracle-database.md)
+       + Connection improvements {#connection-improvements-toc}
+          + [Failure to connect](production/using/failure-to-connect.md)
+          + [Connection thresholds](production/using/connection-thresholds.md)
+       + Technical troubleshooting {#technical-troubleshooting-toc}
+          + [Stack trace in Linux](production/using/stack-trace-in-linux.md)
+          + [JSP behavior](production/using/jsp-behavior.md)
+          + [Locating Tomcat version](production/using/locate-tomcat-version.md)
++ Developers guide {#configuring-campaign-classic}
+  + Data model {#data-model}
+       + [About the data model](configuration/using/about-data-model.md)
+       + [Data model description](configuration/using/data-model-description.md)
+       + [Best practices](configuration/using/data-model-best-practices.md)
+  + Schema Reference {#schema-reference}
+       + [About schema reference](configuration/using/about-schema-reference.md)
+       + [Schema structure](configuration/using/schema-structure.md)
+       + [Database mapping](configuration/using/database-mapping.md)
+       + Elements and attributes {#elements-attributes}
+           + [Introduction](configuration/using/schema-introduction.md)
+           + [Attribute](configuration/using/schema/attribute.md)
+           + [Compute string](configuration/using/schema/compute-string.md)
+           + [Condition](configuration/using/schema/condition.md)
+           + [DB index](configuration/using/schema/db-index.md)
+           + [Element](configuration/using/schema/element.md)
+           + [Enumeration](configuration/using/schema/enumeration.md)
+           + [Help](configuration/using/schema/help.md)
+           + [Join](configuration/using/schema/join.md)
+           + [Key](configuration/using/schema/key.md) 
+           + [Keyfield](configuration/using/schema/keyfield.md)
+           + [Method](configuration/using/schema/method.md)
+           + [Methods](configuration/using/schema/methods.md)
+           + [Param](configuration/using/schema/param.md)
+           + [Parameters](configuration/using/schema/parameters.md)
+           + [SrcSchema](configuration/using/schema/srcschema.md)
+           + [Sysfilter](configuration/using/schema/sysfilter.md)
+           + [Value](configuration/using/schema/value.md)
+  + Editing schemas {#editing-schemas}
+       + [About schema edition](configuration/using/about-schema-edition.md)
+       + [Data schemas](configuration/using/data-schemas.md)
+       + [Schema of an existing table](configuration/using/schema-of-an-existing-table.md)
+       + [Extending a schema](configuration/using/extending-a-schema.md)
+       + [Filtering schemas](configuration/using/filtering-schemas.md)
+       + [Restricting PII view](configuration/using/restricting-pii-view.md)
+       + [Updating the database structure](configuration/using/updating-the-database-structure.md)
+       + [New field wizard](configuration/using/new-field-wizard.md)
+       + [Structure of a data schema](configuration/using/structure-of-a-data-schema.md)
+       + [Regenerating schemas](configuration/using/regenerating-schemas.md)
+       + [Examples of schemas edition](configuration/using/examples-of-schemas-edition.md)
+  + Input forms {#input-forms}
+       + [Identifying a form](configuration/using/identifying-a-form.md)
+       + [Editing forms](configuration/using/editing-forms.md)
+       + [Form structure](configuration/using/form-structure.md)
+  + API {#api}
+       + [About web services](configuration/using/about-web-services.md)
+       + [Web service calls](configuration/using/web-service-calls.md)
+       + [Data oriented APIs](configuration/using/data-oriented-apis.md)
+       + [Business oriented APIs](configuration/using/business-oriented-apis.md)
+       + [Implementing SOAP methods](configuration/using/implementing-soap-methods.md)
+       + [SOAP methods in JavaScript](configuration/using/soap-methods-in-javascript.md)
+       + [Adding additional SQL functions](configuration/using/adding-additional-sql-functions.md)
+  + Navigation hierarchy {#navigation-hierarchy}
+       + [Configure the Explorer hierarchy](configuration/using/configuration.md)
+       + [Edit the Explorer hierarchy](configuration/using/edition.md)
+  + Use a custom recipient table {#use-a-custom-recipient-table}
+       + [About custom recipient table](configuration/using/about-custom-recipient-table.md)
+       + [Schema characteristics](configuration/using/schema-characteristics.md)
+       + [Target mapping](configuration/using/target-mapping.md)
+       + [Configuring the interface](configuration/using/configuring-the-interface.md)
+       + [Seed addresses](configuration/using/seed-addresses.md)
+       + [Creating filters](configuration/using/creating-filters.md)
+       + [Creating a profile list with a workflow](configuration/using/creating-a-profile-list-with-a-workflow.md)
+       + [Managing workflows](configuration/using/managing-workflows.md)
+       + [Managing reports](configuration/using/managing-reports.md)
+  + Setting up web tracking {#setting-up-web-tracking}
+       + [About web tracking](configuration/using/about-web-tracking.md)
+       + [Web tracking mode](configuration/using/web-tracking-mode.md)
+       + [Web tracking tag: definition](configuration/using/web-tracking-tag--definition.md)
+       + [Setup stages](configuration/using/setup-stages.md)
+       + [Additional parameters](configuration/using/additional-parameters.md)
+       + [Creating web tracking tags](configuration/using/creating-web-tracking-tags.md)
+       + [Inserting tags in your site](configuration/using/inserting-tags-in-your-site.md)
+       + [Collecting all visits](configuration/using/collecting-all-visits.md)
+       + [Anonymous tracking](configuration/using/anonymous-tracking.md)
++ Migration guide {#migrating-to-a-new-version}
+  + Migration overview {#migration-overview}
+       + [About migration](migration/using/about-migration.md)
+       + [Migration method](migration/using/migration-method.md)
+       + [Migration warnings](migration/using/migration-warnings.md)
+  + Migration procedure {#migration-procedure}
+       + [Before starting migration](migration/using/before-starting-migration.md)
+       + [Testing the migration](migration/using/testing-the-migration.md)
+       + [Configuring your platform](migration/using/configuring-your-platform.md)
+  + Migrating to Adobe Campaign 7 {#migrating-to-adobe-campaign-7}
+       + [Prerequisites for migration to Adobe Campaign 7](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+       + [Migrating in Windows for Adobe Campaign 7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+       + [Migrating in Linux for Adobe Campaign v7](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+  + Configuration {#configuration}
+       + [General configurations](migration/using/general-configurations.md)
+       + [Specific configurations in v5.11](migration/using/specific-configurations-in-v5-11.md)
+       + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
+       + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
+  + [Rollback procedure](migration/using/about-rollback.md)
