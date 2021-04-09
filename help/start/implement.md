@@ -73,14 +73,14 @@ Discover the full list of Adobe solution which can be integrated with Adobe Camp
 
 ### Connectors
 
-You can connect Campaign with third-party systems to combine a large range of capabilities. Learn more in [this section](connectors.md).
+You can connect Campaign with third-party systems to combine a large range of capabilities. Learn more in [this section](integration.md).
 
 **Connect your CRM to Campaign**
 
-You can connect your Adobe Campaign platform to your CRM third-party systems and synchronize data: contacts, accounts, purchases, etc.  Learn how to connect your CRM system to Campaign in [this section](connectors.md#gs-crm-connectors)
+You can connect your Adobe Campaign platform to your CRM third-party systems and synchronize data: contacts, accounts, purchases, etc.  Learn how to connect your CRM system to Campaign in [this section](integration.md#gs-crm-connectors)
 
 **Connect to an external database**
 
-You can connect Campaign Cloud database to external systems. Learn how to configure Campaign FDA module to define access parameters in [this section](connectors.md#gs-fda)
+You can connect Campaign Cloud database to external systems. Learn how to configure Campaign FDA module to define access parameters in [this section](integration.md#gs-fda)
 
 

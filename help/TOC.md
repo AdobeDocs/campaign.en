@@ -33,9 +33,8 @@ hide: yes
   + [Datamodel](dev/datamodel.md)
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
-  + [Connectors](start/connectors.md)
-  + [Multi-solutions](start/integration.md)
-+ Developer resources {#architecture}
+  + [Connect with other solutions](start/integration.md)
+-+ Developer resources {#architecture}
   + Architecture {#architecture}
     + [Global principles](dev/general-architecture.md)
     + [Architecture](dev/architecture.md)

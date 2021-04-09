@@ -39,7 +39,7 @@ exl-id: 9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 
 [Measure and track](start/reporting.md)
 
-[Integrate with other solutions](start/integration.md)
+[Connect with other solutions](start/integration.md)
 
 [Help & support](start/support.md)
 
