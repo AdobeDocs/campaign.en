@@ -31,6 +31,17 @@ ADD CONTEXT
 [Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 
+## Send proofs
+
+(Seed & Address substitution)
+
+## Custom targeting dimensions
+
+## Control and typologies (Control & Filtering)
+
+## Delivery and tracking logs
+
+
 See also:
 
 * [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
