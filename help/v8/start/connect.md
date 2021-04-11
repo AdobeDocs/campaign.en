@@ -38,7 +38,7 @@ This video shows how to install and setup the Adobe Campaign Client.
 
 ## Create your connection
 
-Once the client console is installed, follow the steps below to create the connection to the application server:
+Once the client console is newly installed, follow the steps below to create the connection to the application server:
 
 1. Start the console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
 
@@ -70,22 +70,37 @@ To log on to an existing instance, follow the steps below:
 
 1. Select the Campaign instance you need to log in to.
 
-1. Click **[!UICONTROL Ok]**
+1. Click **[!UICONTROL Ok]**.
 
-1. Enter your user login credentials and click **[!UICONTROL LOG IN]**
+1. Enter your user login credentials and click **[!UICONTROL LOG IN]**.
+
+Depending on your configuration, your credentials can be:
+
+* provided by your Campaign administrator who granted you access
+* your LDAP user/password
+* your Adobe ID
 
 ## Grant access to users
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
 
 * Access to certain functionalities (via the named rights),
-* Access to certain records,
-* Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).
-
-The permissions apply to operator profiles or operator groups.
+* Access to certain elements,
+* Create, modify and/or delete elements (delivery, contacts, campaigns, groups, etc.).
 
 Learn more about users and how to define their permissions in [this section](permissions.md).
+
+As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
+
+### Use Adobe ID or LDAP credentials
+
+You can integrate Campaign with your LDAP directory or with Adobe Identity Management System (IMS) so that users can connect to Campaign with their Adobe ID. 
+
+* [Learn how to integrate Campaign and Adobe IMS](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html)
+* [Learn how to integrate Campaign with your LDAP directory](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-through-ldap.html)
 
 ## Web access
 
 Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more.
+
+
