@@ -84,7 +84,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 
 The permissions apply to operator profiles or operator groups.
 
-Learn how to grant access to users and define their permissions in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html).
+Learn more about users and how to define their permissions in [this section](permissions.md).
 
 ## Web access
 
