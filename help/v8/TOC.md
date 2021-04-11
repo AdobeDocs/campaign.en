@@ -27,6 +27,7 @@ hide: yes
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
+  + [Permissions](start/permissions.md)
   + [Help & Support](start/support.md)
 + Configure {#config}
   + [Manage data](start/replication.md)
