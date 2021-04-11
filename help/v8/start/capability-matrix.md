@@ -55,7 +55,7 @@ A specific technical workflow handles replication of tables that need to be pres
 > Some tables are replicated in real-time as others will be on hourly basis. Some tables will have incremental updates as others will be full update.
 >
 
-[Learn more about Data replication](replication.md)
+[Learn more about Data replication](config/replication.md)
 
 ### ID management
 

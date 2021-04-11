@@ -30,7 +30,8 @@ hide: yes
   + [Permissions](start/permissions.md)
   + [Help & Support](start/support.md)
 + Configure {#config}
-  + [Manage data](start/replication.md)
+  + [Workflows](config/workflows.md)
+  + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
 + Implement {#implement}
   + [Implementation steps](start/implement.md)

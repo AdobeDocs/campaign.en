@@ -36,6 +36,20 @@ Adobe Campaign lets you design and orchestrate targeted and personalized campaig
 
 For more on scheduling and executing campaigns, refer to [this section](campaigns.md).
 
+## Workflows
+
+Adobe Campaign offers a comprehensive graphical environment that allows you to design complex processes including segmentation, campaign execution, file processing, etc. For example, you can use a workflow to download a file from a server, decompress it, and then import its records into the Adobe Campaign database.
+
+A workflow can also involve users by assigning them tasks or having them approve performed tasks. This means you can assign a task to one or several users to work on content or specify targets, and approve proofs before sending the message.
+
+Workflows can be used in different contexts, as for example:
+
+* Targeting to manage audiences or send messages.
+* Data management (ETL) to manipulate data.
+* Importing data into Campaign database.
+* Technical processes such as database cleanup, recovering tracking information, etc.
+
+Learn more about workflows in [this section](../config/workflows.md).
 
 ## Analysis and reporting {#analysis-and-reporting}
 
