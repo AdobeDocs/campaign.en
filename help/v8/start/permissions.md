@@ -6,9 +6,8 @@ description: Learn how to grant permissions to Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
-exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917,ed68cb7f-da6a-470c-bcd2-e07660f48b17
+exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917,3d61abac-03df-42d3-a950-37e41a5a7756,ed68cb7f-da6a-470c-bcd2-e07660f48b17
 ---
-
 # Get started with permissions
 
 In Adobe Campaign, users are **operators** and **operator groups** represent user roles.

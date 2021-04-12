@@ -6,6 +6,7 @@ description: Get started with Campaign workflows
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 ---
 # Get Started with Campaign workflows{#gs-ac-wf}
 
