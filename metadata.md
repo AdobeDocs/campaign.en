@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Campaign
 version: v8
 product: campaign
+feature-set: Campaign
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/campaign.en
