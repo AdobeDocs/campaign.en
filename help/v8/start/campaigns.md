@@ -32,14 +32,15 @@ Key steps to create a cross-channel marketing campaign are:
 
 All type of campaign operation (Single & reccuring)
 
+Cross channel campaigns: email, push, SMS
+
 ## Approvals & validation
 
 
 ## Services & subscriptions
 
-
-## Cross-channel campaigns
-
-(Push, SMS, Direct mail, Phone, LINE, etc. …)
+Create services and manage subscriptions/unsubscriptions
 
 ## Reporting
+
+Reports on campaigns
