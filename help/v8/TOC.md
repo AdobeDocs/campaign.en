@@ -43,3 +43,6 @@ hide: yes
   + APIs {#api}
     + [Get started](dev/api.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
+  + Schemas and forms {#schemas}
+    + [Extend schemas](dev/schemas.md)
+
