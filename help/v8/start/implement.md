@@ -58,7 +58,7 @@ You can customize many different Campaign areas and capabilities. Most of our cu
 
 ### Multi-solutions implementation
 
-Discover the full list of Adobe solution which can be integrated with Adobe Campaign in this page. 
+Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](integration.md). 
 
 * Connect to Campaign with an AdobeID
 * Campaign - Journey Orchestration

@@ -8,19 +8,28 @@ role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 ---
-# Get Started with Campaign v8{#gs-ac-v8}
+# Get Started with Adobe Campaign{#gs-ac-v8}
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.
+
+Use Campaign to:
+
+* Drive personalization and engagement through a single accessible view of the customer
+* Integrate email, mobile, online and offline channels into the customer journey
+* Automate the delivery of meaningful and timely messages and offers
 
 ![](assets/ac-capabilities.png) 
 
 ## Integrated customer profile {#integrated-customer-profile}
 
-Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in a powerfull cloud database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
+Profiles are centralized in a powerfull cloud database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-Profile management basics are explained in [this section](import.md).
+:rocket: Profile management basics are explained in [this section](audiences.md).
+
+:rocket: Learn how to add profiles to Campaign in [this section](import.md).
+
 
 ## Targeted segmentation {#targeted-segmentation}
 
@@ -51,7 +60,7 @@ Workflows can be used in different contexts, as for example:
 
 Learn more about workflows in [this section](../config/workflows.md).
 
-## Analysis and reporting {#analysis-and-reporting}
+## Reporting and analysis {#analysis-and-reporting}
 
 Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. 
 
