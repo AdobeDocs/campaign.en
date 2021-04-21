@@ -22,13 +22,13 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
 1. How can I connect to Campaign v8?
 
-    [Click here to learn more](connect.md).
+    :bulb: [Click here to learn more](connect.md).
 
 1. How to improve email deliverability? 
 
-    Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+    :arrow_upper_right: Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-    Learn how to implement deliverability in Campaign [in this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+    :arrow_upper_right: Learn how to implement deliverability in Campaign [in this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. How can I make sure my delivery is sent without errors?
 
@@ -38,7 +38,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
     
 1. Can I monitor workflow execution?
 
-    Understand how to monitor Campaign workflow execution [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. Which systems and components Campaign v8 is compatible with? 
 
@@ -46,10 +46,10 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
 1. Where are Campaign v8 release notes?
 
-    You can access latest Campaign release notes [in this page](release-notes.md).
+    :bulb: You can access latest Campaign release notes [in this page](release-notes.md).
 
 1. What is the procedure for domain configuration?
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    Use Campaign Control Panel to set up domain delegation. [Click here to learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
+    :arrow_upper_right: Use Campaign Control Panel to set up domain delegation. [Click here to learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
