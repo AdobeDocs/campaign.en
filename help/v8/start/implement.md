@@ -39,7 +39,7 @@ You can customize many different Campaign areas and capabilities. Most of our cu
 
     Adobe Campaign comes with common schemas to identify data such as: recipients, delivery logs, subscriptions, and more. Refer to this section to learn more about [Campaign built-in datamodel](../dev/datamodel.md).
     
-    You can extend existing schemas or create new schemas from scratch. Learn more in [this page](../dev/schemas.md).
+    You can extend existing schemas or create new schemas from scratch. Learn more in [this page](../dev/customize.md).
     
 1. **Dashboards and lists**
 
