@@ -24,11 +24,11 @@ Two options are available:
 
 1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html) and download the Client Console installation program. You can then install it on your local machine.
 
-1. As a end-user, Adobe can deploy the Console for you: once the console is updated, you will be prompted to download the latest client console version in a pop-up window. 
+1. As a end-user, Adobe can deploy the Console for you: once the Console is updated, you will be prompted to download the latest Client Console version in a pop-up window. 
 
 >[!CAUTION]
 >
->Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the console is available.  If this option is selected the user will not be informed of new available versions.
+>Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the Console is available.  If this option is selected the user will not be informed of new available versions.
 
 ### Tutorial video
 
@@ -38,9 +38,9 @@ This video shows how to install and setup the Adobe Campaign Client.
 
 ## Create your connection
 
-Once the client console is newly installed, follow the steps below to create the connection to the application server:
+Once the Client Console is newly installed, follow the steps below to create the connection to the application server:
 
-1. Start the console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
+1. Start the Console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
 
 1. Click the link in the top right-hand corner of the credentials fields to access the connection configuration window.
 
@@ -64,7 +64,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 
 To log on to an existing instance, follow the steps below:
 
-1. Start the console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
+1. Start the Console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
 
 1. Click the link in the top right-hand corner of the credentials fields to access the connection configuration window.
 

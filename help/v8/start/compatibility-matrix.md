@@ -179,7 +179,7 @@ Internet Explorer 11 is supported.
 
 The **Help > About…** menu lets you access the following information:
 
-* the version number for Campaign client console and application server
-* the build number for Campaign client console and application server
+* the version number for Campaign Client Console and application server
+* the build number for Campaign Client Console and application server
 * a link to contact Adobe Customer Care
 * links to Adobe Privacy Policy, Terms of Use and Cookies Policy

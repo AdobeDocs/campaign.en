@@ -25,9 +25,17 @@ The typical Adobe Campaign solution deployment consists of the following compone
 
 The application can be accessed in different ways: Rich client, Thin client or API integration.
 
-* **Client Console**: The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. [Learn more about Campaign Client Console](../start/connect.md).
-* **Web access**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, functionalities of the Distributed Marketing module (central/local), instance monitoring, etc. This mode makes it possible to include Adobe Campaign functionalities in an intranet or an extranet. [Learn more about Campaign Web Access](../start/connect.md).
-* **Campaign APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol. [Learn more about Campaign APIs](../dev/api.md).
+* **Client Console**: The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. 
+
+  :bulb: [Learn more about Campaign Client Console](../start/connect.md).
+
+* **Web access**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, functionalities of the Distributed Marketing module (central/local), instance monitoring, etc. This mode makes it possible to include Adobe Campaign functionalities in an intranet or an extranet. 
+
+  :bulb: [Learn more about Campaign Web Access](../start/connect.md).
+  
+* **Campaign APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol. 
+
+  :bulb: [Learn more about Campaign APIs](../dev/api.md).
 
 ## Logical application layer {#logical-application-layer}
 
@@ -45,7 +53,7 @@ The main processes are:
 
 **Application server** (nlserver web)
 
-This process exposes the full range of Adobe Campaign functionality via Web Services APIs (SOAP - HTTP + XML). Furthermore, it can dynamically generate the Web pages used for HTML-based access (reports, Web forms, etc). To achieve this, this process includes an Apache Tomcat JSP server. This is the process to which the console connects.
+This process exposes the full range of Adobe Campaign functionality via Web Services APIs (SOAP - HTTP + XML). Furthermore, it can dynamically generate the Web pages used for HTML-based access (reports, Web forms, etc). To achieve this, this process includes an Apache Tomcat JSP server. This is the process to which the Console connects.
 
 **Workflow engine** (nlserver wfserver)
 

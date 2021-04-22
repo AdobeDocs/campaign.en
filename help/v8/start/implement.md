@@ -12,7 +12,7 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46,4dce4fb0-8aab-4280-ba93-ea11b8e4df8
 
 In this section, you will learn how to adjust Adobe Campaign to the requirements of your company. Use the following guidelines to structure and organize your implementation. 
 
-1. **Define settings**: grant access, share client console, configure channels (email, push, sms)
+1. **Define settings**: grant access, share Client Console, configure channels (email, push, sms)
 1. **Prepare your environment**: import profiles, create audiences, design workflow and campaign templates, create typology rules, 
 1. **Customize your instance**: create new data fields, add tables/schemas
 1. **Extend your deployment**: connect to Adobe solutions, other products and systems - connectors, multi-solution settings
@@ -27,7 +27,7 @@ Learn how to add users to Adobe Campaign in this section.
 
 ### Install Campaign Client Console
 
-The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. [Learn more about Campaign Client Console](connect.md).
+The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. [Learn more about Campaign Client Console](connect.md).
 
 ## Prepare your environment
 

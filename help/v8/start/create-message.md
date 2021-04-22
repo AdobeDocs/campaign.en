@@ -81,8 +81,12 @@ Messages delivered by Adobe Campaign can be personalized in various ways. You ca
 
 ## Delivery and tracking logs
 
+Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
-See also:
+:arrow_upper_right: [Learn how to monitor your deliveries in this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
+
+
+**See also**
 
 :arrow_upper_right:  [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
 

@@ -13,7 +13,7 @@ exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075,b4cfaf5a-abbf-4507-9522-ce69ff0ac74
 
 >[!AVAILABILITY]
 >
-> :warning: **Does not apply to Campaign v8**. [Learn more](campaign-faq.md). 
+> :warning: **This page does not apply to Campaign v8**. [Learn more](campaign-faq.md). 
 >
 
 Get support using our FAQs, best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue
@@ -61,7 +61,7 @@ Learn how to manage your Campaign instances settings in the Control Panel.
 
 ## Request for help {#support}
 
-The ticketing system is accessible in [Adobe Admin Console](https://adminconsole.adobe.com/overview). This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+The ticketing system is accessible in [Adobe Admin Console](https://adminConsole.adobe.com/overview). This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
@@ -76,4 +76,4 @@ Learn more about the Distribution Center [in this page](https://docs.adobe.com/c
 
 Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview). Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview). Follow the detailed procedure described in [this page](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
