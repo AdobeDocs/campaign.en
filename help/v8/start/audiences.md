@@ -21,10 +21,9 @@ A record in the **xxl:nmsRecipientXl** table or an external table contains a coo
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-:arrow_forward: [Understand the concept of profiles in video](https://video.tv.adobe.com/v/35611?quality=12)
+:arrow_forward: [Understand what is a profile in video](https://video.tv.adobe.com/v/35611?quality=12)
 
 :arrow_upper_right: Learn how to manage profiles in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
-
 
 ## Privacy and consent
 
@@ -37,7 +36,7 @@ Adobe Campaign is a powerful tool for collecting and processing extremely large 
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-:arrow_upper_right: Learn how to create and manage lists in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html).
+:arrow_upper_right: Learn how to create and manage lists in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html).
 
 ## Query the database
 

@@ -37,7 +37,7 @@ hide: yes
   + [Implementation steps](start/implement.md)
   + [Connect with other solutions](start/integration.md)
   + [Customize your instance](dev/customize.md)
--+ Developer resources {#architecture}
++ Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
   + APIs {#api}
