@@ -36,13 +36,11 @@ hide: yes
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
   + [Connect with other solutions](start/integration.md)
+  + [Customize your instance](dev/customize.md)
 -+ Developer resources {#architecture}
-  + Architecture {#architecture}
-    + [Global principles](dev/general-architecture.md)
-    + [Architecture](dev/architecture.md)
+  + [Global principles](dev/general-architecture.md)
+  + [Architecture](dev/architecture.md)
   + APIs {#api}
     + [Get started](dev/api.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
-  + Schemas and forms {#schemas}
-    + [Extend schemas](dev/customize.md)
 
