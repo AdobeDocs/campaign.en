@@ -6,7 +6,7 @@ description: Connect to Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
-exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917,ed68cb7f-da6a-470c-bcd2-e07660f48b17
+exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
 # Connect to Adobe Campaign v8{#gs-ac-connect}
 
@@ -102,5 +102,3 @@ You can integrate Campaign with your LDAP directory or with Adobe Identity Manag
 ## Web access
 
 Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more.
-
-

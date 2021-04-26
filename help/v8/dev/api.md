@@ -6,7 +6,7 @@ description: Get started with Campaign APIs
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b,558ae882-c687-41c4-8ead-1568a2d836b2,72dfe033-c3cd-49d2-b581-c48030646367
+exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 ---
 # Get Started with Campaign APIs{#gs-ac-api}
 
@@ -34,4 +34,3 @@ Before using the Adobe Campaign APIs, you need to be familliar with the followin
 In order to use APIs and interact with Adobe Campaign, you also need to be familiar with your datamodel.  
 
 **Note** - You can generate a complete description of your datamodel. Learn more in [this page](datamodel.md).
-

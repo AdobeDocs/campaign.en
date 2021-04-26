@@ -6,7 +6,7 @@ description: Get started with messages
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb,ab7ac983-2f58-42fb-9b58-1455a8f2bc4a
+exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
 # Get Started with messages{#gs-ac-audiences}
 

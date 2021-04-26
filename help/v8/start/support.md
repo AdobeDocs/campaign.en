@@ -6,7 +6,7 @@ description: Learn how to find support when using Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075,b4cfaf5a-abbf-4507-9522-ce69ff0ac74c
+exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 ---
 # Help & support options for Campaign v8 {#help-support-options}
 
