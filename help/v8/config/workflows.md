@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 ---
-# Marketing campaign automation
+# Manage and automate processes
 
 Configure Campaign to leverage powerful marketing campaign automation capabilities.
 
@@ -78,5 +78,7 @@ Use Campaign Transactional messaging to automate messages generated from events 
 
 Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
 
-:arrow_upper_right: Learn how to combine  solutions to 
+:arrow_upper_right: Learn how to integrate Campaign with Analytics triggers in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
+
+:bulb:  Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
