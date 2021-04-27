@@ -1,16 +1,29 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Get started with Campaign workflows
-description: Get started with Campaign workflows
+title: Get started with campaign automation
+description: Get started with campaign automation
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 ---
-# Get Started with Campaign workflows{#gs-ac-wf}
+# Marketing campaign automation
 
-Use Adobe Campaign workflows to orchestrate processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, deduplication, etc. 
+Configure Campaign to leverage powerful marketing campaign automation capabilities.
+
+You can set up:
+
+* Workflows
+* Recurring campaigns
+* End-to-end validation cycle
+* Alerts
+* Automatic report sending
+* Triggered events
+
+## Design and use workflows{#gs-ac-wf}
+
+Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery.
 
 Learn more about workflows in these sections:
 
@@ -25,3 +38,45 @@ Learn more about workflows in these sections:
 * [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
 * [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 * [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
+
+## Set up recurring campaigns
+
+Design recurring and create a new delivery instance each time it executes. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
+
+:arrow_upper_right: Learn how to create a recurring campaign in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
+
+## Configure your end-to-end validation cycle
+
+Set up approval process for each step of your deliveries and ensure full monitoring and control of the various processes of your marketing campaigns: targeting, content, budget, extraction, and sending a proof.
+
+Notifications are sent to the Adobe Campaign operators who are set as reviewers to inform them of an approval request.
+
+:arrow_upper_right: Learn how to set up and manage the approval process in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html).
+
+
+## Send alerts
+
+As a Campaign operator, you can receive alerts when a faiure happens.
+
+You can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors.
+
+:arrow_upper_right: Learn how to create a workflow to monitor the status of other workflows in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html?lang=en#step-1--creating-the-monitoring-workflow).
+
+You can also receive an alert when a failure happens
+
+## Send automatic reports
+
+:arrow_upper_right: Learn how to automatically send a report to a list of operators [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html?lang=en#step-1--creating-the-recipient-list).
+
+
+## Leverage trigger events
+
+Use Campaign Transactional messaging to automate messages generated from events triggered from information systems. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. These messages can be sent individually or in batch via email, SMS or push notificat)ions.
+
+:arrow_upper_right: Learn more about transactional messaging capabilities in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
+
+
+Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
+
+:arrow_upper_right: Learn how to combine  solutions to 
+

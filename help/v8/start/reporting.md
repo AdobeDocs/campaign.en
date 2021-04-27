@@ -8,7 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 ---
-# Get Started with reporting{#gs-ac-reports}
+# Metrics & reports
+
+## Get Started with reporting{#gs-ac-reports}
 
 Adobe Campaign provides a set of reporting tools:
 
@@ -28,3 +30,5 @@ Depending on the complexity of the queries, calculations and volumes, the data a
 
  :arrow_upper_right: For more on reporting capabilities, [refer to this section](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html).
  
+## Key metrics to check
+

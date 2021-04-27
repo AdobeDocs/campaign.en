@@ -22,7 +22,8 @@ hide: yes
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
   + [Send messages](start/create-message.md)
-  + [Metrics and reports](start/reporting.md)
+  + [Track & monitor](start/tracking.md)
+  + [Metrics & reports](start/reporting.md)
   + [FAQ](start/campaign-faq.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
@@ -30,7 +31,7 @@ hide: yes
   + [Permissions](start/permissions.md)
   + [Help & Support](start/support.md)
 + Configure {#config}
-  + [Workflows](config/workflows.md)
+  + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
 + Implement {#implement}
