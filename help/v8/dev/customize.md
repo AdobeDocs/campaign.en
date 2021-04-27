@@ -6,7 +6,7 @@ description: Learn how to customize your instance
 feature: Overview
 role: Data Engineer
 level: Beginner
-
+exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 ---
 # Customize your instance{#gs-ac-custom}
 
@@ -86,4 +86,3 @@ When you navigate in the Adobe Campaign Explorer tree, the data contained in the
 You can apply filter on these lists to display only the data needed by the operator. Then actions can then be executed on the filtered data. Filter configuration lets you select data from a list dynamically. If the data is modified, the filtered data is updated.
 
 :arrow_upper_right: Learn how to filter data in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
-

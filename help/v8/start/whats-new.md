@@ -6,7 +6,7 @@ description: Learn more key capabilities
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493,bf4f3ed4-7c28-4852-895c-200766424f30
+exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 ---
 # What's new in Adobe Campaign v8? {#ac-gs-what-is-new}
 

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: General architecture
 description: Campaign v8 general architecture
-exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e,2671aef3-4680-479a-ba8d-051d29e243a1,6bc5ae95-76e9-4249-9fac-575b873bf088
+exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 ---
 # General architecture{#general-architecture}
 

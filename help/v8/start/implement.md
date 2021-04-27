@@ -6,7 +6,7 @@ description: Learn how to implement Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 09562b6c-3d3d-4808-a70b-202172867f46,4dce4fb0-8aab-4280-ba93-ea11b8e4df8b
+exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 ---
 # Campaign implementation guidelines
 
@@ -143,4 +143,3 @@ You can connect your Adobe Campaign platform to your CRM third-party systems and
 You can connect Campaign Cloud database to external systems through the Federated Data Access (FDA) module. 
 
 :bulb: Learn how to configure Campaign FDA module to define access parameters in [this section](integration.md#gs-fda)
-

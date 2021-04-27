@@ -6,7 +6,7 @@ description: Get started with Campaign architecture
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f,911ac708-cd58-4d19-93d8-bc3354acef19,dcc16090-b9af-4d08-ba99-d0929741a022
+exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 ---
 # Get Started with Campaign architecture{#gs-ac-archi}
 
