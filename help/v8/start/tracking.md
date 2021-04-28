@@ -14,79 +14,117 @@ exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d25755
 
 Use Campaign tracking capabilities track the messages sent and check the behavior of recipients: opening, clicks on links, subscriptions/unsubscription, and more.
 
-This information is retrieved in the Tracking tab of the profile of each recipient of the delivery. This tab groups all the URL links tracked and clicked by a recipient selected from the list, and displays all URLs tracked in the deliveries that are available in the delivery screen. The list can be configured and typically will contain: the URL clicked, the date and time of the click, and the document in which the URL was found. 
-
-:arrow_upper_right:  For more on this, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab)..
+:arrow_upper_right:  For more on this, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab)..
 
 The delivery dashboard is also key to monitor your deliveries and eventual issues encountered during the sending of messages. 
 
-:arrow_upper_right: For more on this refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages).
+:arrow_upper_right: For more on this refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages).
+Thanks to its tracking functionalities, Adobe Campaign enables you to tra track the messages sent and check the behavior of recipients: opening, clicks on links, unsubscription, etc.
 
-## Configure tracking
 
-* Operating principle
-    
-    Before using tracking, you need to first configure it for your instance. Learn more
+### Message tracking {#message-tracking}
 
-*Tracking server
+<img src="assets/do-not-localize/icon-message-tracking.svg" width="60px">
 
-    To configure tracking, your instance must be declared and registered with the tracking server(s). Learn more
+**Tracked links**
 
-* Saving tracking
+You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients.
 
-    Once tracking is configured and your URLs populated, the tracking server must be registered. Learn more
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages)
 
-## Message tracking
+**URL tracking**
 
-* Tracked links
-    
-    You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients. Learn more
+Tracking options can be configured by activating or deactivating tracked URLs. 
 
-* URL tracking
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html?lang=en#sending-messages)
 
-    Tracking options can be configured by activating or deactivating tracked URLs. Learn more
 
-* Tracked link personalization
+**Tracked link personalization**
 
-    Campaign tracking capabilities allow you to add links in emails that can be personalized and that support tracking. Learn more
+Campaign tracking capabilities allow you to add links in emails that can be personalized and that support tracking. 
 
-* Tracking logs
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=en#sending-messages)
 
-    The Tracking technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. Learn more
+**Tracking logs**
 
-* Testing tracking
+The **Tracking** technical workflow retrieves the tracking data once the delivery has been sent and tracking activated. This data can be found in the Tracking tab of your delivery. 
 
-    Before sending your messages with your tracking, you can test the tracking on your mirror page, email logs and links. Learn more
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages)
 
-## Web application tracking
+**Testing tracking**
 
-* Tracking a web application
+Before sending your messages with your tracking, you can test the tracking on your mirror page, email logs and links. 
 
-    You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and online surveys. Learn more
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=en#sending-messages)
 
-* Web application tracking opt-out
+### Web application tracking {#web-application-tracking}
 
-    The Web application tracking opt-out enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking. You can include the ability to display a banner into web applications or landing pages to allow users to opt-out. Learn more
+<img src="assets/do-not-localize/icon-web-app.svg" width="60px">
 
-## Tracking reports
+**Tracking a web application**
 
-* Tracking statistics
+You can also track and measure visits on Web application pages with tracking tags. This functionality can be used for all Web application types such as forms and online surveys. 
 
-    This report provides statistics on opens, clicks and transactions and lets you track the marketing impact of the delivery. Learn more
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=en#designing-content)
 
-* URLs and click streams
+**Web application tracking opt-out**
 
-    This report shows the list of pages visited following a delivery. Learn more
+The Web application tracking opt-out enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking. You can include the ability to display a banner into web applications or landing pages to allow users to opt-out. 
 
-* Person/people and recipients
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=en#designing-content)
 
-    Better understand the tracking difference between a person/people and a recipient in Adobe Campaign with this example. Learn more
+### Tracking reports {#tracking-reports}
 
-* Tracking indicators
+<img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
-    This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery such as open, click-through rates and click streams. Learn more
+**Tracking statistics**
 
-* Indicator calculation
+This report provides statistics on opens, clicks and transactions and lets you track the marketing impact of the delivery. 
 
-    The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. Learn more
-    
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=en#tracking-reports)
+
+**URLs and click streams**
+
+This report shows the list of pages visited following a delivery. 
+
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#urls-and-click-streams)
+
+**Person/people and recipients**
+
+Better understand the tracking difference between a person/people and a recipient in Adobe Campaign with this example. 
+
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=en#reporting)
+
+**Tracking indicators**
+
+This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery such as open, click-through rates and click streams.
+
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=en#reporting)
+
+**Indicator calculation**
+
+The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. 
+
+:arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting)
+
+## Monitoring guidelines
+
+Adobe Campaign offers a set of capabilities to monitor your processes and your environment.
+
+### Monitor your deliveries
+
+Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers.
+
+:arrow_upper_right: Learn more about the information you can monitor after sending a delivery, understand how delivery failures and quarantines are managed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
+
+### Monitor your workflows
+
+:arrow_upper_right: Learn how to monitor workflow execution in  [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows)
+
+### Monitor your instance
+
+:arrow_upper_right: Instance monitoring guidelines are available in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic)
+
+Use the Audit trail self-service interface to monitor changes made within your instance. Audit trail captures, in real-time, a comprehensive list of actions and events occurring within your Adobe Campaign instance. You can access a history of data to help answer questions such as: what happened to your workflows, and who last updated them or what did your users do in the instance.
+
+:arrow_upper_right: Learn more about Audit trail in  [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail)
