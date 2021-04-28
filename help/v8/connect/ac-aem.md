@@ -20,5 +20,5 @@ This means that you can make the most of both Adobe Experience Manager content e
 
 :arrow_upper_right: [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](start/support.md#support) to integrate Adobe Experience Manager with Campaign.
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to integrate Adobe Experience Manager with Campaign.
 

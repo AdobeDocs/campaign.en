@@ -17,7 +17,7 @@ This integration helpx you implement use cases as follows: when a recipient open
 >[!NOTE]
 >The integration only supports static images. The rest of the content cannot be personalized.
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](start/support.md#support) to implement Experience Cloud triggers with Campaign.
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to implement Experience Cloud triggers with Campaign.
 
 The following types of data can be used by Adobe Target:
 
