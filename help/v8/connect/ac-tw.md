@@ -18,14 +18,20 @@ Use the **Managing social networks (Social Marketing)** option to interact with 
 
 ## Configuration steps
 
+Get info from:
+
 https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/configuration/configuring-publishing-on-twitter.html?lang=en#integrating-with-social-media
 
 
 ## Publish on Twitter
 
+Get info from:
+
  https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/publishing-on-facebook-twitter/publishing-on-twitter.html?lang=en#integrating-with-social-media
 
 
 ## Tracking
+
+Get info from:
 
 https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/annexes/tracking.html?lang=en#integrating-with-social-media

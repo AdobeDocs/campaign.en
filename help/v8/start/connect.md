@@ -92,7 +92,7 @@ Learn more about users and how to define their permissions in [this section](per
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
 
 
-## Connect to Campaign with your Adobe ID
+## Connect to Campaign with your Adobe ID{#connect-ims}
 
 Campaign users can connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). This implementation provides the following advantages:
 

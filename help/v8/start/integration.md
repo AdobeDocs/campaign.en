@@ -18,7 +18,9 @@ Check compatible systems and versions in [this page](compatibility-matrix.md).
 
 ## Leverage Adobe solutions {#gs-ac-integration}
 
-If you use other Adobe Experience Cloud solutions, you can connect them with Campaign. You can then modernize your implementation and leverage the Experience Cloud capabilities.
+Modernize your implementation and leverage all Adobe Experience Cloud capabilities.
+
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](support.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. You need to implement Adobe Identity Management Service (IMS). [Learn more](connect.md#connect-ims)
 
 Campaign v8 can connect with:
 
@@ -32,11 +34,11 @@ Campaign v8 can connect with:
 
 * [Adobe Target](../connect/ac-at.md)
 
-* Journey AI (?)
+You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
-Combine your audiences and assets across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
+:arrow_upper_right: Learn more about Audience sharing between Campaign and Experience Cloud solutions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](support.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+:arrow_upper_right: Learn more about Asset sharing between Campaign and Experience Cloud solutions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## CRM Connectors{#gs-crm-connectors}
 
