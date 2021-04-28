@@ -39,7 +39,7 @@ The action fields for each tool are as follows:
     * recovers and analyzes segments
     * triggers a re-marketing campaign
 
-+ https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html?lang=en#technical-workflows-of-web-analytics-processes
+SEE https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html?lang=en#technical-workflows-of-web-analytics-processes
 
 :speech_balloon: As a Managed Cloud Service user, [contact Adobe](support.md#support) to integrate Adobe Analytics Data Connector with Campaign.
 
