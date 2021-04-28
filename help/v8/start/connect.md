@@ -77,7 +77,6 @@ To log on to an existing instance, follow the steps below:
 Depending on your configuration, your credentials can be:
 
 * provided by your Campaign administrator who granted you access
-* your LDAP user/password
 * your Adobe ID
 
 ## Grant access to users
@@ -92,13 +91,18 @@ Learn more about users and how to define their permissions in [this section](per
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
 
-### Use Adobe ID or LDAP credentials
 
-You can integrate Campaign with your LDAP directory or with Adobe Identity Management System (IMS) so that users can connect to Campaign with their Adobe ID. 
+## Connect to Campaign with your Adobe ID
 
-* [Learn how to integrate Campaign and Adobe IMS](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html)
-* [Learn how to integrate Campaign with your LDAP directory](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-through-ldap.html)
+Campaign users can connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). This implementation provides the following advantages:
+
+* The same ID can be used for all Experience Cloud solutions.
+* The connection is memorized when using Adobe Campaign with different integrations.
+* Stronger password management policy.
+* Use of Federated ID accounts (external ID provider).
+
+:speech_balloon: As a Managed Cloud Service user, contact Adobe to implement Adobe IMS with Campaign.
 
 ## Web access
 
-Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more.
+Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 

@@ -112,9 +112,8 @@ To orchestrate complex marketing campaigns to different audiences across multipl
 
 ### Multi-solutions implementation
 
-You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities.
+If you are using other Adobe solutions, you can connect them to your Campaign environment and combine capabilities.
 
-* Connect to Campaign with an AdobeID
 * Campaign - Journey Orchestration
 * Campaign - Real-time CDP
 * Campaign - Experience Cloud Triggers
@@ -123,6 +122,9 @@ You can connect your Campaign instance with Adobe Experience Cloud solutions to 
 * Campaign - Audience Manager / People core service
 * Campaign - Asset
 * Campaign - Analytics Data connectors
+
+
+You can also use Single Sign-On (SSO) to connect to Campaign. Learn more in [this page](connect.md).
 
 :bulb: Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](integration.md).
 
