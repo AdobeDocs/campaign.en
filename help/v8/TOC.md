@@ -25,6 +25,10 @@ hide: yes
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
   + [FAQ](start/campaign-faq.md)
++ Implement {#implement}
+  + [Implementation steps](start/implement.md)
+  + [Connect with other solutions](start/integration.md)
+  + [Customize your instance](dev/customize.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
@@ -34,14 +38,12 @@ hide: yes
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
-+ Implement {#implement}
-  + [Implementation steps](start/implement.md)
-  + [Connect with other solutions](start/integration.md)
-  + [Customize your instance](dev/customize.md)
-+ Integrations {#integrations}
-  + [Campaign + Analytics](ac-aa.md)
-  + [Campaign + Experience Manager](ac-aem.md)
-  + [Campaign + RTCDP](ac-rtcdp.md)
++ Connect {#connect}
+  + [Campaign + Analytics](connect/connect/ac-aa.md)
+  + [Campaign + Experience Manager](connect/ac-aem.md)
+  + [Campaign + Target](connect/connect/ac-at.md)
+  + [Campaign + RTCDP](connect/ac-rtcdp.md)
+  + [Campaign + Twitter](connect/ac-tw.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
