@@ -39,9 +39,9 @@ hide: yes
   + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
 + Connect {#connect}
-  + [Campaign + Analytics](connect/connect/ac-aa.md)
+  + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
-  + [Campaign + Target](connect/connect/ac-at.md)
+  + [Campaign + Target](connect/ac-at.md)
   + [Campaign + RTCDP](connect/ac-rtcdp.md)
   + [Campaign + Twitter](connect/ac-tw.md)
 + Developer resources {#architecture}
