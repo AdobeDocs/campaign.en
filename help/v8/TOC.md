@@ -38,6 +38,10 @@ hide: yes
   + [Implementation steps](start/implement.md)
   + [Connect with other solutions](start/integration.md)
   + [Customize your instance](dev/customize.md)
++ Integrations {#integrations}
+  + [Campaign + Analytics](ac-aa.md)
+  + [Campaign + Experience Manager](ac-aem.md)
+  + [Campaign + RTCDP](ac-rtcdp.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)

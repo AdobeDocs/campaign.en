@@ -18,7 +18,7 @@ Check compatible systems and versions in [this page](compatibility-matrix.md).
 
 ## Leverage Adobe solutions {#gs-ac-integration}
 
-Learn about functional integrations available between Adobe Campaign and Adobe Experience Cloud solutions and services. You can then modernize your implementation and leverage the Experience Cloud capabilities.
+If you use other Adobe Experience Cloud solutions, you can connect them with Campaign. You can then modernize your implementation and leverage the Experience Cloud capabilities.
 
 Campaign v8 can connect with:
 
@@ -30,11 +30,11 @@ Campaign v8 can connect with:
 
 * Adobe Experience Cloud Triggers
 
-* Adobe Analytics data connector
+* [Adobe Analytics data connector](../ac-aa.md)
 
-* Adobe Experience Manager
+* [Adobe Experience Manager](../ac-aem.md)
 
-[Learn more](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html)
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](support.md#support) to connect Campaign with Adobe Experience Cloud solutions.
 
 
 ## CRM Connectors{#gs-crm-connectors}

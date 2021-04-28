@@ -101,7 +101,7 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, t
 * Stronger password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-:speech_balloon: As a Managed Cloud Service user, contact Adobe to implement Adobe IMS with Campaign.
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](support.md#support) to implement Adobe IMS with Campaign.
 
 ## Web access
 

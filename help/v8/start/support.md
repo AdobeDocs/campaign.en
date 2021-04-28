@@ -61,7 +61,9 @@ Learn how to manage your Campaign instances settings in the Control Panel.
 
 ## Request for help {#support}
 
-The ticketing system is accessible in [Adobe Admin Console](https://adminConsole.adobe.com/overview). This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
+If you need to send a request to Adobe or report an issue, open a ticket. The ticketing system is accessible in [Adobe Admin Console](https://adminConsole.adobe.com/overview). 
+
+This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
 ### Ask the experts!
 
