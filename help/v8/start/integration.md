@@ -24,7 +24,7 @@ Campaign v8 can connect with:
 
 * Journey Orchestration 
 
-* Real-Time CDP
+* [Real-Time CDP](../ac-rtcdp.md)
 
 * Journey AI
 
