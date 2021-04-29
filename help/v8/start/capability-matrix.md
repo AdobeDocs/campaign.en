@@ -80,8 +80,6 @@ Please note that some capabilities are not available in this first version but w
 * Hybrid/On-premise deployment models
 * Response Manager
 * Social marketing with Twitter
-* Email BCC
-
 
 ## Removed features{#gs-removed}
 
