@@ -38,6 +38,7 @@ hide: yes
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
+  + [Use a custom recipien table](dev/custom-recipient.md)
 + Connect {#connect}
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
@@ -49,4 +50,9 @@ hide: yes
   + APIs {#api}
     + [Get started](dev/api.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
+  + Schemas & forms {#shemas-forms}
+    + [Schemas](dev/schemas.md)
+    + [Input forms](dev/forms.md)
+
+
 
