@@ -45,6 +45,7 @@ hide: yes
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + RTCDP](connect/ac-rtcdp.md)
+  + [Campaign + Twitter](connect/ac-tw.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
