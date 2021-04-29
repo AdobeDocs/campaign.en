@@ -7,8 +7,12 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+hidefromtoc: yes
+hide: yes
 ---
 # Work with Campaign and Twitter
+
+**NOT YET AVAILABLE** 
 
 Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
 
