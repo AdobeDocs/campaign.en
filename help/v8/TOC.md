@@ -38,7 +38,8 @@ hide: yes
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Datamodel](dev/datamodel.md)
-  + [Use a custom recipien table](dev/custom-recipient.md)
+  + [Use a custom recipient table](dev/custom-recipient.md)
+  + [Email settings](config/email-settings.md)
 + Connect {#connect}
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)

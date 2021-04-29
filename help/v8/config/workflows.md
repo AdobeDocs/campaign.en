@@ -81,4 +81,4 @@ Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send nea
 :arrow_upper_right: Learn how to integrate Campaign with Analytics triggers in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
 
-:bulb:  Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
+:bulb: Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)

@@ -73,22 +73,22 @@ Please note that some capabilities are not available in this first version but w
 
 * Marketing Resource Management
 * Distributed Marketing
-* Response Manager
-* Offer Management (Interaction module)
-* Email BCC
-* Integration with Adobe Experience Cloud Triggers
+* Offer Management inbound messages (Interaction module)
 * Campaign Optimization
+* LINE channel
+* Japanese email formats
+* Hybrid/On-premise deployment models
+* Response Manager
+* Social marketing with Twitter
+* Email BCC
+
 
 ## Removed features{#gs-removed}
 
 To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic capabilities are not available in Campaign v8.
 
 * Coupons
-* Connection with LDAP
 * Web tracking
 * Surveys
-* Social Marketing
-* Integration with Adobe Analytics Data Connectors
-* Legacy SMS connectors
-* Oracle CRM Connector
+* Social Marketing with Facebook
 * ACS Connector (Prime offering)
