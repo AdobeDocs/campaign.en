@@ -22,6 +22,10 @@ Three types of environments available with Campaign Cloud Service:
 
 * Development environment: allows developers to implement Campaign under the same runtime conditions as the stage and production environments.
 
+You can export and import packages from one environment to another.
+
+:arrow_upper_right: Learn more about packages in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)
+
 ## Mid-sourcing deployment{#mid-sourcing-deployment}
 
 General communication between servers and processes is carried out according to the following schema:

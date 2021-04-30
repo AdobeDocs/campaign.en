@@ -17,14 +17,13 @@ These connectors enable quick and easy data integration: Adobe Campaign provides
 >
 >This feature is available in Adobe Campaign through the **CRM connectors** dedicated package.
 
-
-### Compatible systems {#compatible-crm-systems-and-limitations}
+## Compatible systems {#compatible-crm-systems-and-limitations}
 
 Supported CRM and versions are detailed in Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
 **NOTE** - The CRM connectors only work with a secure URL (https).
 
-### Implementation steps {#crm-implementation-steps}
+## Implementation steps {#crm-implementation-steps}
 
 :arrow_upper_right: Learn step-by-step procedure to connect Campaign and Microsoft Dynamics in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
