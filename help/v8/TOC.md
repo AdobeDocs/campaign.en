@@ -29,6 +29,7 @@ hide: yes
   + [Implementation steps](start/implement.md)
   + [Connect with other solutions](start/integration.md)
   + [Customize your instance](dev/customize.md)
+  + [Design web apps and forms](dev/webapps.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)

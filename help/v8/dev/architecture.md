@@ -34,9 +34,9 @@ General communication between servers and processes is carried out according to 
 
 >[!NOTE]
 >
-> If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server (MID. Campaign v8 relies on a hybrid architecture.
+> Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
 > As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
->
+
 
 ## Message Center architecture{#transac-msg-archi}
 
@@ -65,8 +65,6 @@ In this specific architecture, execution cell is separated from the control inst
 
 ![](assets/messagecenter_diagram.png)
 
-
-
 :arrow_upper_right: Message Center architecture is described in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 
@@ -74,13 +72,11 @@ In this specific architecture, execution cell is separated from the control inst
 
 To use these capabilities, Adobe Campaign users log on to the control instance to create transactional message templates, generate the message preview using a seed list, display reports and monitor execution instance(s).
 
-
-Single RT cell:
-With interacting with an Adobe hosted RT server (Message Center execution instance), an external system can first retrieve a session token (that by default expires in 24 hours), by making an api call to the session logon method, using a provided account login and password.
-Then, with the sessionToken provided by the RT server in response to the above call, the external application can make SOAP api invocations (rtEvents or batchEvents) to send communications, without the need to include in each SOAP call the account login and password.
+* Single Execution instance
+    When interacting with an Adobe hosted Message Center execution instance, an external system can first retrieve a session token (that by default expires in 24 hours), by making an api call to the session logon method, using a provided account login and password.
+    Then, with the sessionToken provided by the execution instance in response to the above call, the external application can make SOAP api invocations (rtEvents or batchEvents) to send communications, without the need to include in each SOAP call the account login and password.
  
-Multi-cell RT cluster:
-In a multi-cell RT architecture with multiple RT servers behind a load balancer, if the logon method is invoked by the external application going through the load balancer, the token will be retrieved from one of the RT servers behind the load-balancer, and stored in the specific cell that issued it.
-Then, if trying to use the retrieved token with api SOAP calls, the load balancer could direct these calls to any RT server behind the LB, so the authentication will be invalid in most cases.
+* Multiple execution instances
+    In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot  be used. A user/password-based authentication is required. 
 
-
+:arrow_upper_right: Learn more about Transactional messaging events in [Campaign Classic documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)

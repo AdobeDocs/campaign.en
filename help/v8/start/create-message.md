@@ -32,10 +32,7 @@ Create personalized and contextually relevant emails that are consistent with th
 
 :arrow_upper_right: [Learn how to create an email delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
-
-You can create directly into Campaign or import your audience, as well as your email content.
-
-Use the links below to learn how to:
+You can create directly into Campaign or import your audience, as well as your email content. Use the links below to learn how to:
 
 * Design an email in Campaign
     :arrow_upper_right: [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
