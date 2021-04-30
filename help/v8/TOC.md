@@ -43,7 +43,7 @@ hide: yes
   + [Campaign + Twitter](connect/ac-tw.md)
 + Send {#send}
   + [Transactional messages](send/transactional.md)
-  + [Emails](send/emails.md)
+  + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [Direct mail](send/direct-mail.md)
