@@ -45,4 +45,5 @@ You can integrate Campaign with a set of powerful Adobe solutions, such as: Adob
 
 You can also configure predictive send time optimization and predictive engagement scoring with Journey AI, and increase open rates, clicks and revenues.
 
-[Learn more about Campaign integrations](integration.md)
+:bulb: [Learn more about Campaign integrations](integration.md)
+
