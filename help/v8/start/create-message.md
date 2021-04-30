@@ -14,7 +14,7 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery wizard. This access point leads to multiple capabilities covered by Adobe Campaign.
 
-Learn key steps to create a delivery in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
+Learn key steps to create a delivery in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
 
 Adobe Campaign v8 comes with the following delivery channels:
 
@@ -77,7 +77,32 @@ Messages delivered by Adobe Campaign can be personalized in various ways. You ca
 * Create conditional content. 
     :arrow_upper_right: [Learn how to insert conditional content](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
-## Control and typologies (Control & Filtering)
+## Send transactional messages
+
+Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
+
+:bulb: Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
+
+To send transactional messages you need to:
+
+* Create a message template
+
+    :arrow_upper_right: Learn how to create and publish transactional message templates in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/introduction.html?lang=en#transactional-messaging)
+
+* Configure event processing 
+
+    :arrow_upper_right: Learn more about event processing in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/event-processing/about-event-processing.html?lang=en#transactional-messaging)
+
+* Monitor transactional messages
+
+    :arrow_upper_right: Learn more about event processing in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/event-processing/delivery-execution.html?lang=en#integrating-with-adobe-experience-cloud)
+
+* Access transactional messaging reports: history of events, service report, processing time
+
+    :arrow_upper_right: Learn more about these reports in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/reports/about-transactional-messaging-reports.html?lang=en#transactional-messaging)
+
+
+Discover this capability in a end-to-end use case in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## Delivery and tracking logs
 

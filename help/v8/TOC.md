@@ -40,6 +40,7 @@ hide: yes
   + [Datamodel](dev/datamodel.md)
   + [Use a custom recipient table](dev/custom-recipient.md)
   + [Email settings](config/email-settings.md)
+  + [Transactional messaging settings](config/transactional-msg-settings.md)
 + Connect {#connect}
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
