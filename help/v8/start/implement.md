@@ -126,22 +126,22 @@ If you are using other Adobe solutions, you can connect them to your Campaign en
 
 You can also use Single Sign-On (SSO) to connect to Campaign. Learn more in [this page](connect.md).
 
-:bulb: Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](integration.md).
+:bulb: Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](../connect/integration.md).
 
 ### Connectors
 
 Connect Campaign with third-party systems to combine a large range of capabilities and automate processes. 
 
-:bulb: Learn more about available connectors in [this section](integration.md).
+:bulb: Learn more about available connectors in [this section](../connect/integration.md).
 
 **Connect your CRM to Campaign**
 
 You can connect your Adobe Campaign platform to your CRM third-party systems and synchronize data: contacts, accounts, purchases, etc.  
 
-:bulb: Learn how to connect your CRM system to Campaign in [this section](integration.md#gs-crm-connectors)
+:bulb: Learn how to connect your CRM system to Campaign in [this section](../connect/integration.md#gs-crm-connectors)
 
 **Connect to an external database**
 
 You can connect Campaign Cloud database to external systems through the Federated Data Access (FDA) module. 
 
-:bulb: Learn how to configure Campaign FDA module to define access parameters in [this section](integration.md#gs-fda)
+:bulb: Learn how to configure Campaign FDA module to define access parameters in [this section](../connect/integration.md#gs-fda)

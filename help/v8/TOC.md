@@ -27,7 +27,6 @@ hide: yes
   + [FAQ](start/campaign-faq.md)
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
-  + [Connect with other solutions](start/integration.md)
   + [Customize your instance](dev/customize.md)
   + [Design web apps and forms](dev/webapps.md)
 + Deploy {#deploy}
@@ -36,11 +35,14 @@ hide: yes
   + [Permissions](start/permissions.md)
   + [Help & Support](start/support.md)
 + Connect {#connect}
+  + [Connect with other solutions](connect/integration.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + RTCDP](connect/ac-rtcdp.md)
   + [Campaign + Twitter](connect/ac-tw.md)
+  + [Campaign + External database](connect/fda.md)
+  + [Campaign + your CRM](connect/crm.md)
 + Send {#send}
   + [Transactional messages](send/transactional.md)
   + [Emails](send/email.md)
