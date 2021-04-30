@@ -9,6 +9,10 @@ level: Beginner
 ---
 # Design and send emails
 
+Email deliveries let you send personalized emails to the target population. 
+
+:arrow_upper_right: Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+
 ## Create your first email delivery
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.

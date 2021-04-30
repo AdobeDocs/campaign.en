@@ -46,6 +46,7 @@ hide: yes
   + [Emails](send/emails.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
+  + [Direct mail](send/direct-mail.md)
 + Configure {#config}
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)

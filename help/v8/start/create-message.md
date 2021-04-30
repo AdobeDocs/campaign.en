@@ -18,13 +18,13 @@ Learn key steps to create a delivery in [Campaign Classic documentation](https:/
 
 Adobe Campaign v8 comes with the following delivery channels:
 
-* **Email channel**: email deliveries let you send personalized emails to the target population. Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+* **Email channel**: email deliveries let you send personalized emails to the target population. Learn more in [this page](../send/email.md).
 
-* **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
+* **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population.  Learn more in [this page](../send/direct-mail.md)
 
-* **Mobile channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
+* **Mobile channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn more in [this page](../send/sms.md)
 
-* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
+* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [this page](../push.md)
 
 ## Choose how to send your messages 
 
@@ -59,26 +59,9 @@ Transactional messaging (Message Center) is the Campaign module designed for man
 
 :bulb: Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
 
-To send transactional messages you need to:
+:bulb: Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-* Create a message template
-
-    :arrow_upper_right: Learn how to create and publish transactional message templates in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/introduction.html?lang=en#transactional-messaging)
-
-* Configure event processing 
-
-    :arrow_upper_right: Learn more about event processing in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/event-processing/about-event-processing.html?lang=en#transactional-messaging)
-
-* Monitor transactional messages
-
-    :arrow_upper_right: Learn more about event processing in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/event-processing/delivery-execution.html?lang=en#integrating-with-adobe-experience-cloud)
-
-* Access transactional messaging reports: history of events, service report, processing time
-
-    :arrow_upper_right: Learn more about these reports in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/reports/about-transactional-messaging-reports.html?lang=en#transactional-messaging)
-
-
-Discover this capability in a end-to-end use case in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
+:arrow_upper_right: Discover this capability in a end-to-end use case in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## Delivery and tracking logs
 
