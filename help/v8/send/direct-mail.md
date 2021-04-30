@@ -13,5 +13,3 @@ Direct mail deliveries let you generate an extraction file which contains data o
 
 :arrow_upper_right: Learn more in [Campaign Classic documentation]Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
 
-
-## Create your first SMS

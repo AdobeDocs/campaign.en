@@ -33,6 +33,7 @@ hide: yes
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
+  + [Control Panel](config/self-service.md)
   + [Help & Support](start/support.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)
