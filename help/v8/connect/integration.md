@@ -14,8 +14,6 @@ You can connect your Campaign instance with Adobe Experience Cloud solutions to 
 
 Adobe Campaign comes with several connectors that allow you to communicate with external applications, connect to database engines, share and synchronize data.
 
-Check compatible systems and versions in [this page](../start/compatibility-matrix.md).
-
 ## Leverage Adobe solutions {#gs-ac-integration}
 
 Modernize your implementation and leverage all Adobe Experience Cloud capabilities.

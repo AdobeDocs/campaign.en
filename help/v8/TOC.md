@@ -35,15 +35,6 @@ hide: yes
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
   + [Help & Support](start/support.md)
-+ Connect {#connect}
-  + [Connect with other solutions](connect/integration.md)
-  + [Campaign + Analytics](connect/ac-aa.md)
-  + [Campaign + Experience Manager](connect/ac-aem.md)
-  + [Campaign + Target](connect/ac-at.md)
-  + [Campaign + RTCDP](connect/ac-rtcdp.md)
-  + [Campaign + Twitter](connect/ac-tw.md)
-  + [Campaign + External database](connect/fda.md)
-  + [Campaign + your CRM](connect/crm.md)
 + Send {#send}
   + [Transactional messages](send/transactional.md)
   + [Emails](send/email.md)
@@ -57,6 +48,15 @@ hide: yes
   + [Use a custom recipient table](dev/custom-recipient.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
++ Connect {#connect}
+  + [Connect with other solutions](connect/integration.md)
+  + [Campaign + Analytics](connect/ac-aa.md)
+  + [Campaign + Experience Manager](connect/ac-aem.md)
+  + [Campaign + Target](connect/ac-at.md)
+  + [Campaign + RTCDP](connect/ac-rtcdp.md)
+  + [Campaign + Twitter](connect/ac-tw.md)
+  + [Campaign + External database](connect/fda.md)
+  + [Campaign + your CRM](connect/crm.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
