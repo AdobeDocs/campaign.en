@@ -18,34 +18,13 @@ Learn key steps to create a delivery in [Campaign Classic documentation](https:/
 
 Adobe Campaign v8 comes with the following delivery channels:
 
-* **Email channel**: email deliveries let you send personalized emails to the target population. Learn more in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+* **Email channel**: email deliveries let you send personalized emails to the target population. Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
-* **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population.  Learn more in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
+* **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
 
-* **Mobile channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn more in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
+* **Mobile channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
 
-* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
-
-## Create your first email delivery
-
-Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
-
-:arrow_upper_right: [Learn how to create an email delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
-
-You can create directly into Campaign or import your audience, as well as your email content. Use the links below to learn how to:
-
-* Design an email in Campaign
-    :arrow_upper_right: [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
-* Import an email content
-    :arrow_upper_right: [Use case: Create a workflow to load a delivery content](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
-* Create and use an email template
-    :arrow_upper_right: [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
-* Select the audience of your email
-    :arrow_upper_right: [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
-* Validate a delivery and send proofs
-    :arrow_upper_right: [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* Add [seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
-
+* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
 
 ## Choose how to send your messages 
 

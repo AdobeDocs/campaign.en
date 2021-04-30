@@ -9,6 +9,12 @@ level: Beginner
 ---
 # Transactional messaging settings
 
+:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to install and configure Campaign Transactional messaging in your environment.
+
+:bulb: Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
+
+:bulb: Understand transactional messaging architecture in [this page](../dev/architecture.md).
+
 ## Define permissions
 
 To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access ‘Real time events’ (nmsRtEvent) folders.

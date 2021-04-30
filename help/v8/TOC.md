@@ -35,6 +35,17 @@ hide: yes
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Help & Support](start/support.md)
++ Connect {#connect}
+  + [Campaign + Analytics](connect/ac-aa.md)
+  + [Campaign + Experience Manager](connect/ac-aem.md)
+  + [Campaign + Target](connect/ac-at.md)
+  + [Campaign + RTCDP](connect/ac-rtcdp.md)
+  + [Campaign + Twitter](connect/ac-tw.md)
++ Send {#send}
+  + [Transactional messages](send/transactional.md)
+  + [Emails](send/emails.md)
+  + [SMS](send/sms.md)
+  + [Push notifications](send/push.md)
 + Configure {#config}
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
@@ -42,12 +53,6 @@ hide: yes
   + [Use a custom recipient table](dev/custom-recipient.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
-+ Connect {#connect}
-  + [Campaign + Analytics](connect/ac-aa.md)
-  + [Campaign + Experience Manager](connect/ac-aem.md)
-  + [Campaign + Target](connect/ac-at.md)
-  + [Campaign + RTCDP](connect/ac-rtcdp.md)
-  + [Campaign + Twitter](connect/ac-tw.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)

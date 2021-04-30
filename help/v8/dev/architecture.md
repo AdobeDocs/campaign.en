@@ -42,11 +42,7 @@ General communication between servers and processes is carried out according to 
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-Transactional messages are used to for:
-
-* notifications, such as order confirmations or password resets for example
-* send out an individual real-time response to a customer action
-* non-promotional content
+:bulb: Learn how to send transactional messages in [this section](../send/transactional.md).
 
 In response to an action of a customer on a website, an event is sent Campaign through a REST API, and the message template is populated with the information or data provided through the API call, and a transactional message is sent in real-time to the customer. These messages can be sent individually or in batches via email, SMS or push notifications. 
 
@@ -61,7 +57,6 @@ In this specific architecture, execution cell is separated from the control inst
 >[!CAUTION]
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
-
 
 ![](assets/messagecenter_diagram.png)
 
