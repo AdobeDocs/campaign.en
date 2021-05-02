@@ -21,27 +21,42 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## Get started
 
-* **[Connect to Campaign](start/connect.md)** - Install Campaign Client Console and connect
+<table>
+<tr>
+  <td valign="bottom">
+    <a href="start/connect.md">
+      <img alt="Connect" src="start/assets/do-not-localize/login.jpeg"/>
+    </a>
+    <div>
+    <a href="start/connect.md">Connect to Campaign</a>
+    </div>
+    <br>
+  </td>
 
-* **[Import your recipients](start/import.md)** - Learn how to import profiles in Campaign
-
-* **[Create your first email](start/create-message.md)** - Discover steps to create and send an email
-
-* **[Orchestrate marketing campaigns](start/campaigns.md)** - Use Campaign to plan, launch and measure campaigns across channels
+  <td valign="bottom">
+      <a href="start/import.md">
+       <img alt="Import" src="start/assets/do-not-localize/profiles.jpeg" />
+       </a>
+    <div><a href="start/import.md">Import profiles</a>
+    </div>
+    <br>
+  </td>
+  <td valign="bottom">
+    <a href="start/create-message.md">
+      <img alt="Email" src="start/assets/do-not-localize/email.jpeg" />
+    </a>
+    <div>
+    <a href="start/create-message.md">Create an email</a>
+    </div>
+    <br>
+  </td>
+</tr>
+</table>
 
 ## More resources
 
-[Architecture](dev/architecture.md)
-
-[Speed and scale](start/whats-new.md)
-
-[Measure and track](start/reporting.md)
-
-[Connect with other solutions](connect/integration.md)
-
-[Help & support](start/support.md)
-
-
-## Control Panel
-
-Manage settings and track usages of your instances through Campaign Control Panel. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [Architecture](dev/architecture.md)
+* [Measure and track](start/reporting.md)
+* [Connect with other solutions](connect/integration.md)
+* [Help & support](start/support.md)
+* [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
