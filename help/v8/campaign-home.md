@@ -28,7 +28,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
       <img alt="Connect" src="start/assets/do-not-localize/login.jpeg"/>
     </a>
     <div>
-    <a href="start/connect.md" valign="center">Connect to Campaign</a>
+    <a href="start/connect.md" text-align:center>Connect to Campaign</a>
     </div>
     <br>
   </td>
