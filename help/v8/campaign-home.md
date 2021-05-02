@@ -28,7 +28,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
       <img alt="Connect" src="start/assets/do-not-localize/login.jpeg"/>
     </a>
     <div>
-    <a href="start/connect.md" valign="center">Connect to Campaign</a>
+    <a href="start/connect.md" valign="center">:bulb: Connect to Campaign</a>
     </div>
     <br>
   </td>
@@ -37,7 +37,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
       <a href="start/import.md">
        <img alt="import" src="start/assets/do-not-localize/profiles.jpeg" />
        </a>
-    <div><a href="start/import.md" valign="center">Import profiles</a>
+    <div><a href="start/import.md" valign="center">:bulb: Import profiles</a>
     </div>
     <br>
   </td>
@@ -46,7 +46,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
       <img alt="Email" src="start/assets/do-not-localize/email.jpeg" />
     </a>
     <div>
-    <a href="start/create-message.md" valign="center">Create an email</a>
+    <a href="start/create-message.md" valign="center">:bulb: Create an email</a>
     </div>
     <br>
   </td>
