@@ -43,7 +43,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
   </td>
   <td valign="bottom">
     <a href="start/create-message.md">
-      <img alt="Email" src="start/assets/do-not-localize/design.png" />
+      <img alt="Email" src="start/assets/do-not-localize/email.jpeg" />
     </a>
     <div>
     <a href="start/create-message.md" valign="center">Create an email</a>
