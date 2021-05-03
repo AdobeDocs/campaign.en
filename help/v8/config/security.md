@@ -41,8 +41,6 @@ This restriction allows you to remove passwords fields but let the external acco
 
 1. Create a new **[!UICONTROL Extension of a schema]**.
 
-    ![](assets/privacy-data-restriction.png)
-
 1. Choose **[!UICONTROL External Account]** (extAccount).
 
 1. In the last screen, you can edit your new srcSchema to restrict access to all password fields:

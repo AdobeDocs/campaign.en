@@ -30,7 +30,7 @@ The preview automatically generates the extended schema:
 >
 >When the source schema is saved, generation of the extended schema is automatically launched.
 
-If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+If you need to check the complete structure of a schema, you can use the preview tab. If the schema has been extended, you will then be able to visualize all its extensions. As a complement, the Documentation tab displays all the schema attributes and elements, and their properties (SQL Field, type/length, label, description). The Documentation tab only applies to generated schemas. 
 
 ## Use case: creating a contract table {#example--creating-a-contract-table}
 
