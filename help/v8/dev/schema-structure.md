@@ -334,7 +334,7 @@ With projection of the XML content:
 
 ```
 
-## Reference with XPath {}
+## Reference with XPath {#reference-with-xpath}
 
 The XPath language is used in Adobe Campaign to reference an element or attribute belonging to a data schema.
 
