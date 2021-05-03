@@ -187,11 +187,9 @@ Keys obey the following rules:
 
 >[!NOTE]
 >
->As a standard, keys are the elements declared from the main element of the schema after indexes have been defined.
-
->[!NOTE]
+>* Keys are the elements declared from the main element of the schema after indexes have been defined.
 >
->Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
+>* Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
 
 **Example**:
 
@@ -335,14 +333,14 @@ In the interface, you can distinguish the different types of relations easily th
 
 For join relations with a campaign table/database:
 
-* ![](assets/join_with_campaign11.png) : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. 
-* ![](assets/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 
-* ![](assets/join_with_campaign1n.png) : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurences on the subscriptions table.
+* ![](assets/do-not-localize/join_with_campaign11.png) : Cardinality 1-1. For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time. 
+* ![](assets/do-not-localize/externaljoin11.png) : Cardinality 1-1, external join. For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved. 
+* ![](assets/do-not-localize/join_with_campaign1n.png) : Cardinality 1-N. For example, between a recipient and the subscriptions table. A recipient can be related to several occurences on the subscriptions table.
 
 For join relations using Federated Database Access:
 
-* ![](assets/join_fda_11.png) : Cardinality 1-1
-* ![](assets/join_fda_1m.png) : Cardinality 1-N
+* ![](assets/do-not-localize/join_fda_11.png) : Cardinality 1-1
+* ![](assets/do-not-localize/join_fda_1m.png) : Cardinality 1-N
 
 :bulb: For more information on FDA tables, refer to [Federated Data Access](../connect/fda.md).
 

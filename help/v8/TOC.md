@@ -66,6 +66,7 @@ hide: yes
     + [Extend schemas](dev/extend-schema.md)
     + [Schema structure](dev/schema-structure.md)
     + [Database mapping](dev/database-mapping.md)
+    + [Restrict PI view](dev/restrict-pi-view.md)
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
