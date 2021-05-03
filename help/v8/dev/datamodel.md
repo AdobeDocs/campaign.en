@@ -10,15 +10,36 @@ exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f
 ---
 # Get started with Campaign data model{#gs-ac-datamodel}
 
-Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction.
+Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction. Adobe Campaign relies on a Cloud database containing tables that are linked together.
 
-To access the description of each table, go to Admin > Configuration > Data schemas, select a resource from the list and click the **Documentation** tab.
+The basic structure of the Adobe Campaign data model can be described as follows:
 
-Adobe Campaign relies on a Cloud database containing tables that are linked together.
+* **Recipient table**: The data model relies on a main table which is by default the Recipient table (xxl:nmsRecipientXl)). This table enables to store all the marketing profiles.
 
-The following diagram shows the joins between the main business tables of the Adobe Campaign data model with the main fields for each.
+    For more on the Recipient table, see [this section](#ootb-profiles).
 
-ADD DIAGRAM
+* **Delivery table**: The data model also includes a part dedicated to store all the marketing activities. Usually it is the Delivery table (NmsDelivery). Each record in this table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc.
+
+* **Logs tables**: These tables enable to temporarily store all the logs associated with the execution of the campaigns.
+
+    Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (NmsBroadLog) contains the delivery logs for all recipients.
+    The main Tracking logs table (NmsTrackingLog) stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
+    Delivery logs and tracking logs are deleted after a certain period, which is specified in Adobe Campaign and can be modified. Therefore, it is highly recommended to export the logs on a regular basis.
+
+* **Technical tables**: Gather technical data used for the applicative process, including operators and user rights (NmsGroup), folders (XtkFolder).
+
+>[!NOTE]
+>
+>To access the description of each table, go to Admin > Configuration > Data schemas, select a resource from the list and click the **Documentation** tab.
+
+When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
+
+You can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#ootb-profiles). If needed, you can extend it with two mechanisms:
+
+* Extend an existing table with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
+* Create a new table, for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table. [Learn more](custom-recipient.md).
+
+For more on configuring extension schemas to extend the conceptual data model, refer to Campaign Classic documentation
 
 ## Built-in profile table {#ootb-profiles}
 

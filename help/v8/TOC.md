@@ -28,6 +28,7 @@ hide: yes
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
   + [Customize your instance](dev/customize.md)
+  + [Security guidelines](config/security.md)
   + [Design web apps and forms](dev/webapps.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
@@ -44,8 +45,6 @@ hide: yes
 + Configure {#config}
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
-  + [Datamodel](dev/datamodel.md)
-  + [Use a custom recipient table](dev/custom-recipient.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
 + Connect {#connect}
@@ -60,12 +59,18 @@ hide: yes
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
+  + [Datamodel](dev/datamodel.md)
+  + Schemas & forms {#shemas-forms}
+    + [Work with schemas](dev/schemas.md)
+    + [Create schemas](dev/create-schemas.md)
+    + [Extend schemas](dev/extend-schemas.md)
+    + [Schema structure](dev/schema-structure.md)
+    + [Database mapping](dev/database-mapping.md)
+    + [Use a custom recipient table](dev/custom-recipient.md)
+    + [Update the database](dev/update-database-structure.md)
+    + [Input forms](dev/forms.md)
   + APIs {#api}
     + [Get started](dev/api.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
-  + Schemas & forms {#shemas-forms}
-    + [Schemas](dev/schemas.md)
-    + [Input forms](dev/forms.md)
-
 
 

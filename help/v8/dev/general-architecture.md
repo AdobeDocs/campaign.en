@@ -21,7 +21,7 @@ The typical Adobe Campaign solution deployment consists of the following compone
 
   Based on relational database technology, the Adobe Campaign Cloud Database stores all customers information, campaign components, offers and workflows, as well as campaign results in customer database containers.
 
-## Interact with Campaign  {#presentation-layer}
+## Personalized Client Environment {#client-env}
 
 The application can be accessed in different ways: Rich client, Thin client or API integration.
 
@@ -29,7 +29,7 @@ The application can be accessed in different ways: Rich client, Thin client or A
 
   :bulb: [Learn more about Campaign Client Console](../start/connect.md).
 
-* **Web access**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, functionalities of the Distributed Marketing module (central/local), instance monitoring, etc. This mode makes it possible to include Adobe Campaign functionalities in an intranet or an extranet. 
+* **Web access**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, instance monitoring, etc. 
 
   :bulb: [Learn more about Campaign Web Access](../start/connect.md).
   
@@ -37,7 +37,7 @@ The application can be accessed in different ways: Rich client, Thin client or A
 
   :bulb: [Learn more about Campaign APIs](../dev/api.md).
 
-## Logical application layer {#logical-application-layer}
+## Development environment {#dev-env}
 
 Adobe Campaign is a single platform with different applications that combine to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet your business needs. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
 
@@ -109,8 +109,11 @@ This technical process acts as a primary process which spawns the others. It als
 
 This process maintains statistics on the number of connections, the messages sent for each mail server which messages are sent to, as well as their limitations (highest number of simultaneous connections, messages per hour/ and or connection). It also lets you federate several instances or machines if they share the same public IP addresses.
 
-## Persistence layer {#persistence-layer}
+## Database containers {#db-containers}
 
-Information and data managed by Adobe Campaign are stored in a Cloud Database. This includes both functional data (profiles, subscriptions, content, etc.), technical data (delivery jobs and logs, tracking logs, etc.) and work data (purchases, leads).
+The Adobe Campaign Cloud database relies on Snowflake which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.(1)
 
-The platform comes predefined with a marketing centered data mart or can easily sit atop an existing data mart and schema using any of the major Relational Database Management Systems (RDBMS). All data within the data mart is accessed by the Adobe Campaign platform via SQL calls from Adobe Campaign to the database. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
+Customers can deploy Adobe Campaign using the predefined data mart and schemas, and can extend also it. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
+
+![](assets/data-flow-diagram.png) 
+
