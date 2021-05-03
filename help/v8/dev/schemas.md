@@ -16,9 +16,13 @@ For a better understanding of Campaign built-in tables and their interaction, re
 
 ## Create or extend Campaign schemas {#create-or-extend-schemas}
 
-To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. For more on this, refer to [Extend a schema](extend-schema.md).
+To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. 
 
-To add an entirely new type of data that does not exist in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [Create a new schema](create-schema.md).
+:bulb: For more on this, refer to [Extend a schema](extend-schema.md).
+
+To add an entirely new type of data that does not exist in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. 
+
+:bulb: For more on this, refer to [Create a new schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -76,7 +80,7 @@ The **xpath** attribute points to the field in your schema that you wish to inde
 >
 >It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
 
-For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
+:bulb: For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
 
 ## Keys {#keys}
 
@@ -98,7 +102,7 @@ In this example, instead of letting the **@autopk** attribute create a default p
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-Learn more about keys in [this section](database-mapping.md#management-of-keys).
+:bulb: Learn more about keys in [this section](database-mapping.md#management-of-keys).
 
 ## Attributes (Fields) {#attributes--fields-}
 

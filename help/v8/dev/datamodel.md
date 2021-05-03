@@ -16,7 +16,7 @@ The basic structure of the Adobe Campaign data model can be described as follows
 
 * **Recipient table**: The data model relies on a main table which is by default the Recipient table (xxl:nmsRecipientXl)). This table enables to store all the marketing profiles.
 
-    For more on the Recipient table, see [this section](#ootb-profiles).
+    :bulb: For more on the Recipient table, see [this section](#ootb-profiles).
 
 * **Delivery table**: The data model also includes a part dedicated to store all the marketing activities. Usually it is the Delivery table (NmsDelivery). Each record in this table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc.
 

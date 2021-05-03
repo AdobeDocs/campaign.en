@@ -79,7 +79,10 @@ The edit control automatically adapts to the corresponding data type and uses th
 
 By default, each field is displayed on a single line and occupies all available space depending on the type of data.
 
-### Formatting {#formatting}
+:arrow_upper_right: All form attributes are listed in [Campaign Classic documentation]()
+https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+
+## Formatting {#formatting}
 
 The layout of the controls looks like the layout used in HTML tables, with the possibility of dividing a control into several columns, interlacing elements, or specifying the occupation of available space. Remember, however, that formatting only lets you divide the area up by proportions; you cannot specify fixed dimensions for an object.
 

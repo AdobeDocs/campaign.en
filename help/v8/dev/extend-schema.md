@@ -8,7 +8,7 @@ description: Learn how to extend Campaign schemas
 
 This article describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md).
+:bulb: For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md).
 
 The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a **schema**.
 
