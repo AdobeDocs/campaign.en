@@ -24,10 +24,6 @@ Adobe Campaign is a powerful cross-channel campaign management system that can h
 
 While most email service providers are communicating to customers via a list-centric approach, Adobe Campaign relies on a relational database in order to leverage a broader view of the customers and their attributes.
 
-This customer-centric approach is shown on the chart below. The **Recipient** table in grey represents the main customer table around which everything is being built:
-
-![](assets/customer-centric-data-model.png)
-
 To access the description of each table, go to **[!UICONTROL Admin > Configuration > Data schemas]**, select a resource from the list and click the **[!UICONTROL Documentation]** tab.
 
 
