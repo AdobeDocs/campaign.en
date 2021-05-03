@@ -20,11 +20,19 @@ To send push notifications in Adobe Campaign, you need to:
 
 :arrow_upper_right: Learn how to get started with mobile app in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
 
-## Integrate Campaign SDK
+## Integrate with Adobe SDK
 
-The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
+### Integrate Campaign SDK 
+
+Campaign SDK facilitates the integration of your mobile application into the Adobe Campaign platform.
 
 :arrow_upper_right: Learn how to integrate Campaign SDK with your app in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
+
+### Configure Campaign Extension in Launch
+
+You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
+
+:arrow_upper_right: Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic)
 
 ## Configure your app settings in Campaign
 
