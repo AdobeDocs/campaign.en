@@ -30,6 +30,7 @@ hide: yes
   + [Customize your instance](dev/customize.md)
   + [Security guidelines](config/security.md)
   + [Design web apps and forms](dev/webapps.md)
+  + [Datamodel best practices](dev/datamodel-best-practices.md)
 + Deploy {#deploy}
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Connect to Campaign](start/connect.md)

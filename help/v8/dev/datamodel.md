@@ -36,10 +36,10 @@ When starting with Adobe Campaign, you need to assess the default data model to 
 
 You can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#ootb-profiles). If needed, you can extend it with two mechanisms:
 
-* Extend an existing table with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
-* Create a new table, for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table. [Learn more](custom-recipient.md).
+* [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
+* [Create a new table](create-schema.md), for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
-For more on configuring extension schemas to extend the conceptual data model, refer to Campaign Classic documentation
+:bulb: Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
 
 ## Built-in profile table {#ootb-profiles}
 
@@ -54,7 +54,9 @@ The benefits of using the standard recipient table are:
 
 It is possible to extend the recipient table, but not to reduce the number of fields or links in the table.
 
-:arrow_upper_right: Learn how to extend the recipient table in the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+:bulb: Learn how to extend an existing schema in [this section](extend-schema.md).
+
+:arrow_upper_right: Discover examples of built-in recipient table extensions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 The default recipient schema is **xxl:nmsRecipientXl**.
 

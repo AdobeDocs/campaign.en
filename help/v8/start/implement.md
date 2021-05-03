@@ -17,10 +17,9 @@ In this section, you will learn how to adjust Adobe Campaign to the requirements
 1. **Customize your instance**: create new data fields, add tables/schemas
 1. **Extend your deployment**: connect to Adobe solutions, other products and systems - connectors, multi-solution settings
 
-
 ## Before starting
 
-This section includes information for developers specific to their implementation that they need to gather, privacy considerations, a discussion about cookies, a list of the various methods that can be used to get data into Campaign, security considerations, and information about TLS (Transport Layer Security) Encryption.
+This section includes information for developers specific to their implementation that they need to take care of about privacy and security before starting.
 
 ### Privacy
 
