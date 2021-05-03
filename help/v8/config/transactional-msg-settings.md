@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Transactional messaging settings
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to install and configure Campaign Transactional messaging in your environment.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 :bulb: Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
 

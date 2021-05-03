@@ -18,7 +18,7 @@ Key capabilities include:
 
 * **Connections to the Adobe Experience Platform**. Adobe Campaign v8 supports data connectors with Adobe Experience Platform/RT-CDP, unified Customer Profile, and native integration with Journey Orchestration. These investments will optimize the Adobe Campaign customer experience and unlock new use cases such as the ability to add individualized real-time customer journeys to campaigns.
 
-* **Managed Cloud Service**. Adobe Campaign v8 is available as a best-in-class Managed Cloud Service, providing proactive oversight, timely alerting, and service governance. The value for the marketer is more agile and scalable cross-channel campaign management.
+* **Managed Cloud Services**. Adobe Campaign v8 is available as a best-in-class Managed Cloud Services, providing proactive oversight, timely alerting, and service governance. The value for the marketer is more agile and scalable cross-channel campaign management.
 
 ## Scale
 

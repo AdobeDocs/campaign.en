@@ -29,4 +29,4 @@ Once email BCC is configured, make sure the feature is enabled in the delivery t
 
 **Note**: Email BCC capability is optional. Please check your license agreement.
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to activate Email BCC in Campaign. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to activate Email BCC in Campaign. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.

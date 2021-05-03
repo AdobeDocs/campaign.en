@@ -16,4 +16,4 @@ With Adobe Experience Platform, you can share data between Campaign and Adobe Re
 
 :arrow_upper_right: Learn how to implement and use RTCDP with Campaign in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to connect RTCDP and Campaign.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to connect RTCDP and Campaign.

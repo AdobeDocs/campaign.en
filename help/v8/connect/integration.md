@@ -18,7 +18,7 @@ Adobe Campaign comes with several connectors that allow you to communicate with 
 
 Modernize your implementation and leverage all Adobe Experience Cloud capabilities.
 
-:speech_balloon: As a Managed Cloud Service user, [contact Adobe](../start/support.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. You need to implement Adobe Identity Management Service (IMS). [Learn more](../start/connect.md#connect-ims)
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. You need to implement Adobe Identity Management Service (IMS). [Learn more](../start/connect.md#connect-ims)
 
 Campaign v8 can connect with:
 

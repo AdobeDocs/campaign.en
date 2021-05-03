@@ -40,7 +40,7 @@ Any built-in schema/table which needs to be moved or replicated in Cloud Databas
 
 Those extensions content any modification required to move built-in schemas from Campaign local database to Snowflake Cloud database and to adapt their structure accordingly: new UUID, updated links, etc.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 > Customer data is not stored in the local Campaign database. As a consequence, any custom table needs to be create in the Cloud database.
 >

@@ -66,7 +66,7 @@ For hybrid and on-premise instances, FDA (Federated Data Access, an optional fea
 
 ### Choice of keys {#choice-of-keys}
 
-In addition to the **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
+In addition to the **autouuid** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
 
 Efficient keys are essential for performance. Numeric data types should always be preferred as keys for tables.
 
@@ -105,15 +105,15 @@ Most organizations are importing records from external systems. While the physic
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box table has both an autopk and an internal key, the internal key will be set as a unique index in the physical database table.
+When an out-of-the-box table has both an autouuid and an internal key, the internal key will be set as a unique index in the physical database table.
 
 When creating a custom table, you have two options:
 * A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
-* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. Autopk should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
+* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. Autouuid should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->An autopk should not be used as a reference in workflows.
+>An autouuid should not be used as a reference in workflows.
 
 ## Indexes {#indexes}
 
@@ -138,7 +138,7 @@ However, keep in mind the following:
 
 Beware of the "own" integrity on large tables. Deleting records that have wide tables in "own" integrity can stop the instance. The table is locked, and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
 
-Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autopk.
+Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autouuid.
 
 While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 

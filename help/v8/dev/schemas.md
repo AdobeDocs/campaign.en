@@ -76,7 +76,7 @@ Examples:
 
 The **xpath** attribute points to the field in your schema that you wish to index.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
 
@@ -84,7 +84,7 @@ The **xpath** attribute points to the field in your schema that you wish to inde
 
 ## Keys {#keys}
 
-Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autopk=true** attribute set to "true".
+Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid=true** attribute set to "true".
 
 The primary key can also be defined using the **internal** attribute.
 
@@ -96,9 +96,9 @@ Example:
 </key>
 ```
 
-In this example, instead of letting the **@autopk** attribute create a default primary key named “id” we are specifying our own “householdId” primary key.
+In this example, instead of letting the **@autouuid** attribute create a default primary key named “id” we are specifying our own “householdId” primary key.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
@@ -140,7 +140,7 @@ Example of an XML field also stored in an SQL field and which has an **@dataPoli
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Although most attributes are linked according to a 1-1 cardinality to a physical field of the database, this is not the case for the XML fields or the computed fields.   
 >An XML field is stored in a memo field ("mData") of the table.   

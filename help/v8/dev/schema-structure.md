@@ -110,7 +110,7 @@ The following rules must be adhered to:
 
 * Each **`<element>`** and **`<attribute>`** must be identified by name via the **name** attribute.
 
-  >[!IMPORTANT]
+  >[!CAUTION]
   >
   >The name of the element should be concise, preferably in English, and include only authorized characters in accordance with XML naming rules.
 

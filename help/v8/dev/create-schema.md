@@ -60,7 +60,7 @@ To do this, you need to create the schema of the table and update the database s
    ```
    <srcSchema desc="Active contracts" img="ncm:channels.png" label="Contracts" labelSingular="Contract" mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
      <element desc="Active contracts" img="ncm:channels.png" label="Contracts" labelSingular="Contract"
-              name="Contracts" autopk="true">
+              name="Contracts" autouuid="true">
               <attribute name="holderName" label="Holder last name" type="string"/>
               <attribute name="holderFirstName" label="Holder first name" type="string"/>
               <attribute name="holderEmail" label="Holder email" type="string"/>
@@ -84,7 +84,7 @@ To do this, you need to create the schema of the table and update the database s
        <value label="Health" name="health" value="2"/>
        <value label="Pension fund" name="pension fund" value="2"/>
      </enumeration>
-     <element autopk="true" desc="Active contracts" img="ncm:channels.png" label="Contracts"
+     <element autouuid="true" desc="Active contracts" img="ncm:channels.png" label="Contracts"
               labelSingular="Contract" name="Contracts">
        <attribute label="Holder last name" name="holderName" type="string"/>
        <attribute label="Holder first name" name="holderFirstName" type="string"/>
