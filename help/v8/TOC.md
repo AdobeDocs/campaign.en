@@ -38,11 +38,11 @@ hide: yes
   + [Control Panel](config/self-service.md)
   + [Help & Support](start/support.md)
 + Send {#send}
-  + [Transactional messages](send/transactional.md)
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [Direct mail](send/direct-mail.md)
+  + [Transactional messages](send/transactional.md)
 + Configure {#config}
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
