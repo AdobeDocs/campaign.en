@@ -62,8 +62,8 @@ hide: yes
   + [Datamodel](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
-    + [Create schemas](dev/create-schemas.md)
-    + [Extend schemas](dev/extend-schemas.md)
+    + [Create schemas](dev/create-schema.md)
+    + [Extend schemas](dev/extend-schema.md)
     + [Schema structure](dev/schema-structure.md)
     + [Database mapping](dev/database-mapping.md)
     + [Use a custom recipient table](dev/custom-recipient.md)
