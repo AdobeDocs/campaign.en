@@ -111,9 +111,8 @@ This process maintains statistics on the number of connections, the messages sen
 
 ## Database containers {#db-containers}
 
-The Adobe Campaign Cloud database relies on Snowflake which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.(1)
+The Adobe Campaign Cloud database relies on Snowflake which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.
 
 Customers can deploy Adobe Campaign using the predefined data mart and schemas, and can extend also it. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
 
 ![](assets/data-flow-diagram.png) 
-

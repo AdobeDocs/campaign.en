@@ -48,6 +48,7 @@ hide: yes
   + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
+  + [External accounts](config/external-accounts.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)
   + [Campaign + Analytics](connect/ac-aa.md)
