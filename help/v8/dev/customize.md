@@ -16,7 +16,6 @@ Learn how to **Customize your Campaign instance**
 >
 >Adobe Campaign customization is reserved to expert users only. 
 
-
 ## Create new data fields and schemas
 
 Adobe Campaign employs Data Schemas to:
@@ -42,7 +41,7 @@ You can create new tables in Campaign database and extend built-in datamodel.
 
 To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [this example](../dev/create-schema.md#example--creating-a-contract-table).
 
-**See also**
+**Related topics**
 
 :arrow_upper_right: Example of schema edition in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 

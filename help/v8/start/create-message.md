@@ -70,7 +70,7 @@ Monitoring your deliveries after they have been sent is a key step to ensure you
 :arrow_upper_right: [Learn how to monitor your deliveries in this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
 
-**See also**
+**Related topics**
 
 :arrow_upper_right:  [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
 

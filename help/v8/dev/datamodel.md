@@ -68,7 +68,7 @@ The default delivery template for email is **mailRcpXl**
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 
-**See also**
+**Related topics**
 
 :bulb: Discover how to import profiles in [this section](../start/import.md)
 :bulb: Learn more about Campaign audiences in [this section](../start/audiences.md)
