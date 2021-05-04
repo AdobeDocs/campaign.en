@@ -29,34 +29,31 @@ You can add a field to an existing table, such as the recipient table (nms:recip
 
 Two table extension modes are available:
 
-* Through the interface, by using the New field assistant
+* Through the interface, by using the **New field** assistant
 
     :arrow_upper_right: Learn how to quickly add a new field in Campaign in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * Programmatically, by extending the schema
 
-    :arrow_upper_right: Learn how to extend an existing schema in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/extending-a-schema.html?lang=en#configuring-campaign-classic)
+    :bulb: Learn how to extend an existing schema in [this section](../dev/extend-schema.md).
 
 
 You can create new tables in Campaign database and extend built-in datamodel.
 
-To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [this example](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/data-schemas.html?lang=en#example--creating-a-contract-table).
+To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [this example](../dev/create-schema.md#example--creating-a-contract-table).
 
 **See also**
 
-:arrow_upper_right: [Example of schema edition](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
+:arrow_upper_right: Example of schema edition in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 
-:arrow_upper_right: [Use Case: link a field to an existing reference table](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
+:arrow_upper_right: Use Case: link a field to an existing reference table in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
 
 
 ## Modify the input forms
 
 Campaign input forms can be adapted to fit with your implementation. You can add or remove fields by modifying the XML content.
 
-:arrow_upper_right: Learn how to modify an existing input form in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/input-forms/editing-forms.html?lang=en#configuring-campaign-classic)
-
-:arrow_upper_right: Discover input form customization options in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/input-forms/form-structure.html?lang=en#formatting)
-
+:bulb: Learn how to modify an existing input form or create a new form in [this section](../dev/forms.md).
 
 ## Customize dashboards{#gs-custom-dashboards}
 
