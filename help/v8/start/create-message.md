@@ -44,14 +44,16 @@ Once your message has been created and its content designed and tested, you can 
 
 ## Add personalization
 
-Messages delivered by Adobe Campaign can be personalized in various ways. You can:
+Messages delivered by Adobe Campaign can be personalized in various ways. 
+
+You can:
 
 * Insert dynamic personalization fields. 
-    :arrow_upper_right: [Learn how to use personalization fields](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+    :arrow_upper_right: Learn how to use personalization fields in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * Insert predefined personalization blocks. 
-    :arrow_upper_right: [Learn what is a personalization block and how to use it](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+    :arrow_upper_right: Learn what is a personalization block and how to use it in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
 * Create conditional content. 
-    :arrow_upper_right: [Learn how to insert conditional content](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
+    :arrow_upper_right: Learn how to insert conditional content in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## Send transactional messages
 

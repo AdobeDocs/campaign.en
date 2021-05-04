@@ -33,4 +33,10 @@ Before using the Adobe Campaign APIs, you need to be familliar with the followin
 
 In order to use APIs and interact with Adobe Campaign, you also need to be familiar with your datamodel.  
 
-**Note** - You can generate a complete description of your datamodel. Learn more in [this page](datamodel.md).
+>[!NOTE]
+>You can generate a complete description of your datamodel. Learn more in [this page](datamodel.md).
+
+
+**Related topics**
+
+* [Datamodel best practices](datamodel-best-practices.md)
