@@ -30,7 +30,6 @@ In Adobe Campaign, recipients are the default profiles targeted for sending deli
 
 :bulb: Learn how to add profiles to Campaign in [this section](import.md).
 
-
 ## Targeted segmentation {#targeted-segmentation}
 
 Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and graphical query editor functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. 

@@ -74,6 +74,8 @@ To log on to an existing instance, follow the steps below:
 
 1. Enter your user login credentials and click **[!UICONTROL LOG IN]**.
 
+   ![](assets/sign-in-v8.png) 
+
 Depending on your configuration, your credentials can be:
 
 * provided by your Campaign administrator who granted you access
