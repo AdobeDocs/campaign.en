@@ -37,6 +37,8 @@ You can create directly into Campaign or import your audience, as well as your e
 
 Campaign offers several ways to test and validate your emails before sending them to your audiences.
 
+:arrow_upper_right: [Apply best practices listed in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+
 You can:
 
 * Check delivery analysis logs
@@ -47,13 +49,9 @@ You can:
 
 :arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
-:arrow_upper_right: [Apply best practices listed in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
-
 ## Monitor your emails
 
 Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports confirm messages were correctly sent.
 
 :arrow_upper_right: [Learn more in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
-
-
 
