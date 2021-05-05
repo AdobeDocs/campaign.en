@@ -58,19 +58,13 @@ It is possible to extend the recipient table, but not to reduce the number of fi
 
 :arrow_upper_right: Discover examples of built-in recipient table extensions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
+You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
+
 ## Campaign tables and Cloud database
 
 For a better understanding of table management in Campaign v8, note that tables are replicated between Campaign and its Snowflake Cloud database.
 
-The default recipient schema is **nms:recipient** - which corresponds to the **xxl:nmsRecipientXL** advanced schema in the Cloud database.
-
-The corresponding Cloud database table in Snowflake is **PUBLIC.NMSRECIPIENT**
-The corresponding delivery logs, tracking logs, etc. are **PUBLIC.XXLBROADLOGRCPXL**, ...
-The corresponding target mapping is **mapRecipientXl**
-The global source delivery, used as the default source of events which are not related to a delivery, is **globalDeliveryRcpXl**
-The default delivery template for email is **mailRcpXl**
-
-You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
+:bulb: Learn more about replication strategy and mechanisms in [this section](../config/replication.md).
 
 **Related topics**
 

@@ -174,17 +174,17 @@ Regarding retention, built-in log tables in Campaign have pre-set retention peri
 
 The following are the default retention values for built-in tables. Be aware that the retention configuration is set by Adobe technical administrators during implementation and values may vary for each implementation, based on customer requirements.
 
-* Consolidated tracking: 1 year
-* Delivery logs: 6 months
-* Tracking logs: 1 year
-* Deleted deliveries: 1 week
-* Import rejects: 6 months
-* Visitor profiles: 1 month
-* Offer propositions: 1 year
-* Events: 1 month
-* Statistics of event processing: 1 year
-* Archived events: 1 year
-* Pipeline events ignored: 1 month
+* **Consolidated tracking**: 1 year
+* **Delivery logs**: 6 months
+* **Tracking logs**: 1 year
+* **Deleted deliveries**: 1 week
+* **Import rejects**: 6 months
+* **Visitor profiles**: 1 month
+* **Offer propositions**: 1 year
+* **Events**: 1 month
+* **Statistics of event processing**: 1 year
+* **Archived events**: 1 year
+* **Pipeline events ignored**: 1 month
 
 >[!CAUTION]
 >
