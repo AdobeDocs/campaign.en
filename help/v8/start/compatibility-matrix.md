@@ -21,159 +21,42 @@ This document lists all systems and components supported for [the latest build](
 
 ### CRM connectors{#CRMconnectors}
 
-<table>
-<tbody>
-<tr>
-<td>Salesforce connector API</td>
-<td>
-<p>API version 49</p>
-</td>
-</tr>
-<tr>
-<td>Microsoft Dynamics connector</td>
-<td>
-<p>Web API: Dynamics 365 On-premise and Online</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Salesforce** connector API version 49
+* **Microsoft Dynamics** connector, Web API: Dynamics 365 On-premise and Online
 
 ### Federated Data Access (FDA){#FederatedDataAccessFDA}
-
-<table>
-<tbody>
-<tr>
-<td>Microsoft Azure Synapse Analytics</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>Amazon Redshift</td>
-<td><p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td>Oracle</td>
-<td>
-<p>19c</p>
-<p>18c</p>
-<p>12c</p>
-<p>11g</p>
-</td>
-</tr>
-<tr>
-<td>PostgreSQL</td>
-<td>
-<p>12.x</p>
-<p>11.x</p>
-<p>10.x</p>
-<p>9.6.x</p>
-<p>9.5.x</p>
-<p>9.4.x</p>
-</td>
-</tr>
-<tr><td>SQL Server</td>
-<td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
-<p>2012 SP1 and SP2</p>
-</td>
-</tr>
-<tr><td>MySQL</td>
-<td>
-<p>5.7</p>
-</td>
-</tr>
-<tr>
-<td>Teradata</td>
-<td>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
-</td>
-</tr>
-<tr>
-<td>Netezza</td>
-<td>
-<p>7.2</p>
-</td>
-</tr>
-<tr>
-<td>Sybase</td>
-<td>
-<p>IQ 16</p>
-<p>ASE 15.7</p>
-</td>
-</tr>
-<tr>
-<td>SAP HANA</td>
-<td>
-<p>version 1 SPS 12</p>
-</td>
-</tr>
-<tr><td>Hadoop via HiveSQL</td>
-<td>
-<p>HortonWorks HDP 2.4.X, 2.5.x, 2.6.x</p>
-<p>HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)</p>
-<p>Cloudera CDH6.x</p>
-</td>
-</tr>
-<tr>
-<td>Snowflake</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-</table>
+ 
+* Microsoft Azure Synapse Analytics
+* Amazon Redshift
+* Snowflake
+* Oracle 19c, 18c, 12c, 11G
+* PostgreSQL 12.x, 11.x, 10.x, 9.6.x, 9.5.x, 9.4.x
+* SQL Server 2019, 2017, 2016, 2014, 2012 SP1 and SP2
+* MySQL 5.7
+* Teradata 16.20, 16, 15.10, 15.0
+* Netezza 7.2
+* Sybase IQ 16, ASE 15.7
+* SAP HANA version 1 SPS 12
+* Hadoop via HiveSQL
+    * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
+    * HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6
+    * Cloudera CDH6.x
 
 ### Client Console operating systems{#ClientConsoleoperatingsystems}
 
-<table>
-<tbody>
-<tr>
-<td>Windows Server</td>
-<td>
-<p>2016</p>
-<p>2012</p>
-</td>
-</tr>
-<tr>
-<td>Windows</td>
-<td>
-<p>8</p>
-<p>10 (recommended for Japanese instances)</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Windows Server 2016, 2012
+* Windows 8, 10 (recommended for Japanese instances
 
 ### Mobile SDK{#MobileSDK}
 
-<table>
-<tbody>
-<tr>
-<td>Android</td>
-<td>
-<p>7.x, 8.x, 9.0</p>
-<p>with mobile SDK build 1.0.27.</p>
-</td>
-</tr>
-<tr>
-<td>iOS</td>
-<td>
-<p>iOS 9 - 14</p>
-<p>with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Android 7.x, 8.x, 9.0 with mobile SDK build 1.0.27.
+* iOS 9 - 14 with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
 ## Supported browsers {#Browsers}
 
-For the following browsers, the latest version is supported: Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+* Microsoft Edge, Mozilla Firefox, Google Chrome, Safari (latest versions)
 
-Internet Explorer 11 is supported.
+* Internet Explorer 11 is supported.
 
 ## How to check your Campaign version
 
