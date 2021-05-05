@@ -14,7 +14,7 @@ Adobe Campaign comes with a pre-defined data model. This section gives some deta
 
 The basic structure of the Adobe Campaign data model can be described as follows:
 
-* **Recipient table**: The data model relies on a main table which is by default the Recipient table (xxl:nmsRecipientXl)). This table enables to store all the marketing profiles.
+* **Recipient table**: The data model relies on a main table which is by default the Recipient table (nmsRecipient). This table enables to store all the marketing profiles.
 
     :bulb: For more on the Recipient table, see [this section](#ootb-profiles).
 
@@ -43,7 +43,7 @@ You can use the default Recipient table with the out-of-the-box fields, such as 
 
 ## Built-in profile table {#ootb-profiles}
 
-The built-in recipient table in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
+The built-in recipient table (nmsrecipient) in Adobe Campaign provides a good starting point for building your data model. It has a number of predefined fields and table links that can be easily extended. This is particularly useful when you are mainly targeting recipients, because it fits a simple recipient-centric data model.
 
 The benefits of using the standard recipient table are:
 
@@ -58,9 +58,13 @@ It is possible to extend the recipient table, but not to reduce the number of fi
 
 :arrow_upper_right: Discover examples of built-in recipient table extensions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
-The default recipient schema is **xxl:nmsRecipientXl**.
+## Campaign tables and Cloud database
 
-The corresponding Snowflake table is **PUBLIC.NMSRECIPIENT**
+For a better understanding of table management in Campaign v8, note that tables are replicated between Campaign and its Snowflake Cloud database.
+
+The default recipient schema is **nms:recipient** - which corresponds to the **xxl:nmsRecipientXL** advanced schema in the Cloud database.
+
+The corresponding Cloud database table in Snowflake is **PUBLIC.NMSRECIPIENT**
 The corresponding delivery logs, tracking logs, etc. are **PUBLIC.XXLBROADLOGRCPXL**, ...
 The corresponding target mapping is **mapRecipientXl**
 The global source delivery, used as the default source of events which are not related to a delivery, is **globalDeliveryRcpXl**
