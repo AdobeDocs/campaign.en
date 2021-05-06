@@ -76,4 +76,4 @@ Certain namespaces are reserved for descriptions of the system entities required
 * **ncm**: concerning content management,
 * **temp**: reserved for temporary schemas.
 
-The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **xxl:recipientXxl**.
+The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **nms:recipient**.

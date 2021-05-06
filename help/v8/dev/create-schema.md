@@ -14,7 +14,6 @@ To edit, create and configure the schemas, click the **[!UICONTROL Administratio
 
 ![](assets/schema_navtree.png)
 
-
 The **[!UICONTROL Edit]** tab shows the XML content of a schema:
 
 ![](assets/schema_edition.png)
@@ -59,8 +58,8 @@ To do this, you need to create the schema of the table and update the database s
 1. Define the settings for the contract table:
 
    ```
-   <srcSchema created="2021-05-06 07:37:01.795Z" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
-           label="Contracts" labelSingular="Contract" lastModified="2021-05-06 07:37:01.795Z"
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
+           label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <element dataSource="nms:extAccount:ffda" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" name="Contracts">
@@ -79,7 +78,7 @@ To do this, you need to create the schema of the table and update the database s
    Add the type of contract and place an index on the contract number.
 
    ```
-   <srcSchema created="2021-05-06 07:37:01.795Z" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="2021-05-06 07:37:01.795Z" mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>
          <value label="Car" name="car" value="1"/>
