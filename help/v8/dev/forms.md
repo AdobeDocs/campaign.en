@@ -283,9 +283,7 @@ Target selection is accessible via the edit field. Entry is assisted by type-ahe
 
 A drop-down list is used to select a target element from the list of records already created.
 
-The **[!UICONTROL Modify the link]** (folder) icon launches a selection form with the list of targeted elements and a filter zone:
-
-![](assets/do-not-localize/form_exemple10.png)
+The **[!UICONTROL Modify the link]** (folder) icon launches a selection form with the list of targeted elements and a filter zone.
 
 The **[!UICONTROL Edit link]** (magnifier) icon launches the edit form of the linked element. The form used is deduced by default on the key of the targeted schema. The **form** attribute lets you force the name of the edit form (e.g. "cus:company2").
 
@@ -426,8 +424,6 @@ These lists are used on XML mapped collection elements or on low-volume links.
 
 This control displays an editable column list with a toolbar containing Add and Delete buttons.
 
-![](assets/do-not-localize/form_exemple13.png)
-
 ```
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
@@ -445,8 +441,6 @@ The columns are declared in the child **`<input>`** tags of the list. Column lab
 
 The toolbar buttons can be aligned horizontally:
 
-![](assets/do-not-localize/form_exemple14.png)
-
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
@@ -459,8 +453,6 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 ### Enable zoom in a list {#zoom-in-a-list}
 
 Insertion and editing of the data in a list can be entered in a separate edit form.
-
-![](assets/do-not-localize/form_exemple15.png)
 
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
@@ -635,8 +627,6 @@ To add an assistant, use the following type of structure:
 </form>
 
 ```
-
-![](assets/do-not-localize/form_exemple19.png)
 
 The presence of the **type="wizard"** attribute on the `<form>` element lets you define the wizard mode in the construction of the form. The pages are completed from `<container>` elements, which are children of the `<form>` element. The `<container>` element of a page is populated with the title attributes for the title and desc to display the description under the page title. The **[!UICONTROL Previous]** and **[!UICONTROL Next]** buttons are automatically added to allow browsing between pages.
 

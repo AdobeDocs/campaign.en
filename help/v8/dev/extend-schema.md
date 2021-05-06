@@ -38,20 +38,26 @@ To extend a schema, follow the steps below:
 
     ![](assets/extend-schema-edit.png)
 
-    In the example below, we add the Membership Year attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
+    In the example below, we add the MembershipYear attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
 
+    ![](assets/extend-schema-sample.png)
+    
     ```
     <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
             img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
             mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-            name="recipient">
-    <attribute name="Membership Year" label="memberYear" type="long"/>
+     <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+           name="recipient">
+    <attribute label="Member since" name="MembershipYear" type="long"/>
     <attribute length="50" name="lastName"/>
     <attribute _operation="delete" name="birthDate"/>
     </element>
-    </srcSchema> 
+    </srcSchema>
     ```
+1. Disconnect and reconnect to Campaign to check schema structure update in the **[!UICONTROL Structure]** tab.
+
+    ![](assets/extend-schema-structure.png)
 
 1. Update the database structure to apply your changes. [Learn more](update-database-structure.md)
+
 1. Once changes are implemented in the database, you can adapt the recipient input form to make your changes visible. [Learn more](forms.md)
