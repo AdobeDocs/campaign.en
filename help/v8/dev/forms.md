@@ -335,8 +335,6 @@ Example of a collection link in a schema:
 
 The list in its input form:
 
-![](assets/do-not-localize/form_exemple11.png)
-
 ```
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
