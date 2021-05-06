@@ -25,6 +25,6 @@ This section describes the key points to map existing tables in Adobe Campaign a
 
 >[!CAUTION]
 >
->Adobe Campaign customization is reserved to expert users only. It requires advanced knowledge of the principles of screen and schema design.
+>Adobe Campaign customization is reserved to expert users only. It requires expertise in input form and schema design.
 
 See  what is valid/not valid here: https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=en#configuring-campaign-classic
