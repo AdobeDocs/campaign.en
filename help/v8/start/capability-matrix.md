@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign Classic - Campaign v8 capability matrix
-description: Understand differences between Campaign Classic and Campaign v8
+title: Campaign Classic v7 - Campaign v8 capability matrix
+description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 ---
-# Campaign Classic - Campaign v8 capabilities{#gs-matrix}
+# Campaign Classic v7 - Campaign v8 capabilities{#gs-matrix}
 
 
-As an existing Campaign Classic user, you should expect any big disruption in the way you usually "play" with Adobe Campaign. Most of changes are not visible, except small changes surfacing in the UI and configuration steps. 
+As an existing Campaign Classic v7 user, you should expect any big disruption in the way you usually "play" with Adobe Campaign. Most of changes are not visible, except small changes surfacing in the UI and configuration steps. 
 
 Key changes: 
 
@@ -21,7 +21,7 @@ Key changes:
 
 * Real-time reporting
 
-As a Campaign Classic user, note that most of the Campaign Classic features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more](#gs-unavailable-features)
+As a Campaign Classic user, note that most of the Campaign Classic v7 features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more](#gs-unavailable-features)
 
 
 ## Product configuration changes
@@ -75,18 +75,18 @@ Please note that some capabilities are not available in this first version but w
 * Distributed Marketing
 * Offer Management inbound messages (Interaction module)
 * Campaign Optimization
-* LINE channel
-* Japanese email formats
-* Hybrid/On-premise deployment models
 * Response Manager
 * Social marketing with Twitter
+* Hybrid/On-premise deployment models
 
 ## Removed features{#gs-removed}
 
-To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic capabilities are not available in Campaign v8.
+To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are not available in Campaign v8.
 
 * Coupons
 * Web tracking
 * Surveys
 * Social Marketing with Facebook
 * ACS Connector (Prime offering)
+* Microsoft SQL database
+* Oracle database
