@@ -38,7 +38,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
     
 1. Can I monitor workflow execution?
 
-    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. Which systems and components Campaign v8 is compatible with? 
 
@@ -46,7 +46,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
 1. Where are Campaign v8 release notes?
 
-    :bulb: You can access latest Campaign release notes [in this page](release-notes.md).
+    :bulb: You can access latest Campaign release notes here.
 
 1. What is the procedure for domain configuration?
 

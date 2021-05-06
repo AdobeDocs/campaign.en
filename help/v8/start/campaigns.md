@@ -38,7 +38,7 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 
 Adobe Campaign lets you create, configure, execute and analyze all marketing campaigns from a unified control center.
 
-:arrow_upper_right: Discover how to access and implement marketing campaigns in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
+:arrow_upper_right: Discover how to access and implement marketing campaigns in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
 
 ## Key steps to start
@@ -49,50 +49,33 @@ Key steps to create a cross-channel marketing campaign are:
 
     Define hierarchy and schedule, set budget, add resources, select operators. 
     
-    :arrow_upper_right: Learn how to create a marketing plan and configure campaigns in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
+    :arrow_upper_right: Learn how to create a marketing plan and configure campaigns in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
 
     All marketing campaigns are based on a template, which stores main settings and capabilities. A built-in template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
-    :arrow_upper_right: Learn how to work with campaign templates in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+    :arrow_upper_right: Learn how to work with campaign templates in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-    :arrow_upper_right: Discover recurring campaigns and how to configure them in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)
+    :arrow_upper_right: Discover recurring campaigns and how to configure them in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)
 
 1. **Define audiences**
     
     You can build the audience in a workflow or select an existing group, such as a recipient list, subscribers of a newsletter, recipients of a previous delivery, or any filtering condition.
 
-    :arrow_upper_right: Learn how to define the audience of your messages in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
+    :arrow_upper_right: Learn how to define the audience of your messages in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
     
 1. **Create deliveries**
 
     Select channel(s), define the message content and start deliveries.
 
-    :arrow_upper_right: Learn how to create and start marketing campaign deliveries in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
+    :arrow_upper_right: Learn how to create and start marketing campaign deliveries in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc.
 
-    :arrow_upper_right: Learn more about associated documents in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)
+    :arrow_upper_right: Learn more about associated documents in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)
     
 1. **Set up the approval process**
 
     Adobe Campaign lets you set up collaborative approval processes for the main stages of the marketing campaign. For each campaign you can approve the delivery target, content, and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a web connection. 
 
-    :arrow_upper_right: Learn how to set up and manage approvals in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+    :arrow_upper_right: Learn how to set up and manage approvals in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
 
-
-1. Monitor messages: control deliveries and execution. Learn more.
-
-1. Plan campaigns and associated costs. Learn more.
-
-## Approvals & validation
-
-
-## Services & subscriptions
-
-Create services and manage subscriptions/unsubscriptions
-
-## Reporting
-
-Reports on campaigns
-
-:bulb: 
