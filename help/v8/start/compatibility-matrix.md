@@ -28,7 +28,7 @@ This document lists all systems and components supported for [the latest build](
  
 * **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
-* **Snowflake**
+* **[!DNL Snowflake]**
 * **Oracle** 19c, 18c, 12c, 11G
 * **PostgreSQL** 12.x, 11.x, 10.x, 9.6.x, 9.5.x, 9.4.x
 * **Microsoft SQL Server** 2019, 2017, 2016, 2014, 2012 SP1 and SP2

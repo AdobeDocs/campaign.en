@@ -26,9 +26,9 @@ As a Campaign Classic user, note that most of the Campaign Classic v7 features a
 
 ## Product configuration changes
 
-### Campaign and Snowflake {#ac-gs-snowflake}
+### Campaign and [!DNL Snowflake] {#ac-gs-snowflake}
 
-Cloud storage is performed in Snowflake: a new external account ensures connectivity with the Cloud Database. [Learn more](#ac-gs-snowflake).
+Cloud storage is performed in [!DNL Snowflake]: a new external account ensures connectivity with the Cloud Database. [Learn more](#ac-gs-snowflake).
 
 This is a foundational change in the software architecture. Data is now remote: Campaign federates the whole data, including Profiles. Campaign process now scales end to end, from Targeting to Delivery execution: Data ingestion, Segmentation, Targeting, queries, Delivery execution will now run in minutes.
 
@@ -38,7 +38,7 @@ A new built-in **external account** is dedicated to Full FDA. This is the heart 
 
 Any built-in schema/table which needs to be moved or replicated in Cloud Database come with a built-in schema extension under namespace **xxl**. As for schema extension the new XXL namespace will be used for any new piece of OOTB configuration like JavaScript, JSSP, etc.
 
-Those extensions content any modification required to move built-in schemas from Campaign local database to Snowflake Cloud database and to adapt their structure accordingly: new UUID, updated links, etc.
+Those extensions content any modification required to move built-in schemas from Campaign local database to [!DNL Snowflake] Cloud database and to adapt their structure accordingly: new UUID, updated links, etc.
 
 >[!CAUTION]
 >

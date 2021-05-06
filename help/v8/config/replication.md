@@ -21,7 +21,7 @@ These workflows perform maintenance operations on the database, leverage the tra
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-    This workflow performs automatic replication of reference tables that need to be present on Campaign local database (Postgres) and Cloud database (Snowflake). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated. The order of the tables in the array below is the order used by the replication workflow.
+    This workflow performs automatic replication of reference tables that need to be present on Campaign local database (Postgres) and Cloud database ([!DNL Snowflake]). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated. The order of the tables in the array below is the order used by the replication workflow.
 * **[!UICONTROL Replicate Staging data]**
     This workflow replicates staging data for unitary calls. It is scheduled to execute every hour, daily.
 * **[!UICONTROL Deploy FFDA immediately]**  
@@ -33,7 +33,7 @@ These technical workflows are available from the **[!UICONTROL Administration > 
 
 ## Data replication{#data-replication}
 
-Tables are replicated from Campaign database to Snowflake Cloud database through dedicated workflows decribed above.
+Tables are replicated from Campaign database to [!DNL Snowflake] Cloud database through dedicated workflows decribed above.
 
 Replication policies are based on the size of the table. Some tables will be replicated. Some tables will be replicated in real-time, come others will be replicated on hourly basis. Some talbes will have incremental updates when others will be replaced.
 

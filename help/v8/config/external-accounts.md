@@ -14,3 +14,30 @@ Adobe Campaign comes with a set of pre-defined external accounts. In order to se
 External accounts are used by technical processes such as technical workflows or campaign workflows. For example, when setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
 
 :arrow_upper_right: Learn how to create and configure external accounts in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)
+
+A specific external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
+
+:speech_balloon: As a Managed Cloud Services user, [!DNL Snowflake] external account is configured for your instance by Adobe. 
+
+You can access this external account to check settings and execute replication workflows. To perform this, follow the steps below:
+
+1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration > Platform > External Accounts]**.
+
+1. Select the **[!UICONTROL Full FDA]** external account.
+
+![](assets/snowflake-ext-account.png) 
+
+Global settings are displayed in the **[!UICONTROL General tab]**.
+
+Use the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
+
+![](assets/snowflake-parameters.png)
+
+**ADD PARAMETERS DESC HERE**
+
+Use the **[!UICONTROL Full FDA]** tab to force replication workflow execution.
+
+![](assets/snowflake-full-fda.png)
+
+**ADD DETAILS HERE**
+
