@@ -18,26 +18,3 @@ External accounts are used by technical processes such as technical workflows or
 A specific external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 
 :speech_balloon: As a Managed Cloud Services user, [!DNL Snowflake] external account is configured for your instance by Adobe. 
-
-You can access this external account to check settings and execute replication workflows. To perform this, follow the steps below:
-
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration > Platform > External Accounts]**.
-
-1. Select the **[!UICONTROL Full FDA]** external account.
-
-![](assets/snowflake-ext-account.png) 
-
-Global settings are displayed in the **[!UICONTROL General tab]**.
-
-Use the **[!UICONTROL Parameters]** tab then the **[!UICONTROL Deploy functions]** button to create functions.
-
-![](assets/snowflake-parameters.png)
-
-**ADD PARAMETERS DESC HERE**
-
-Use the **[!UICONTROL Full FDA]** tab to force replication workflow execution.
-
-![](assets/snowflake-full-fda.png)
-
-**ADD DETAILS HERE**
-

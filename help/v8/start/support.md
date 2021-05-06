@@ -10,12 +10,6 @@ exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 ---
 # Help & support options for Campaign v8 {#help-support-options}
 
-
->[!AVAILABILITY]
->
-> :warning: **This page does not apply to Campaign v8**. [Learn more](campaign-faq.md). 
->
-
 Get support using our FAQs, best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue
 
 ## Common issues and best practices {#faq}
