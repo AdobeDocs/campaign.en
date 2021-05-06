@@ -31,13 +31,13 @@ And we simplify data management at the same time
 
 ## Simplification and performance increase
 
-* Simplify data management: index free, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
+* Simplify data management: no index, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
 
 * Simplify accessibility through advanced sharing capabilities.
 
 Snowflake (aka Cloud Database) will bring you speed and endurance: no overload of the system activity peaks. 
 
-The Cloud database technology does not require specific maintenance to guarantee the level of performance. In addition, you do not need to add indexes on schema to speed up the queries based on access patterns. 
+The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
 ## Integrated ecosystem
 

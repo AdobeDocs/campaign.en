@@ -18,9 +18,6 @@ The basic structure of an `<srcschema>` is as follows:
     <element>         //definition of the root <element>    (mandatory)
 
         <compute-string/>  //definition of a compute-string
-        <dbindex>
-            ...        //definition of indexes
-        </dbindex>
         <key>
             ...        //definition of keys
         </key>

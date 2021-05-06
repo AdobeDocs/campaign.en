@@ -16,7 +16,7 @@ For a better understanding of Campaign built-in tables and their interaction, re
 
 ## Create or extend Campaign schemas {#create-or-extend-schemas}
 
-To add a field or index or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. 
+To add a field or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. 
 
 :bulb: For more on this, refer to [Extend a schema](extend-schema.md).
 
@@ -52,35 +52,6 @@ type="string" enum="exTransactionTypeEnum"/>
 >[!NOTE]
 >
 >You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
-
-## Index {#index} 
-
-Indexes are the first elements declared in the main element of the schema.
-
-They can be unique or not, and reference one or more fields.
-
-Examples:
-
-```
-<dbindex name="email" unique="true">
-  <keyfield xpath="@email"/>
-</dbindex>
-```
-
-```
-<dbindex name="lastNameAndZip">
-  <keyfield xpath="@lastName"/>
-  <keyfield xpath="location/@zipCode"/>
-</dbindex>
-```
-
-The **xpath** attribute points to the field in your schema that you wish to index.
-
->[!CAUTION]
->
->It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
-
-:bulb: For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
 
 ## Keys {#keys}
 

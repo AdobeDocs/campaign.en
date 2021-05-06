@@ -16,7 +16,6 @@ A schema is an XML document associated with a database table. It defines data st
 
 * The name of the table
 * Fields
-* Indexes
 * Links with other tables
 
 It also describes the XML structure used to store data:

@@ -75,7 +75,7 @@ To do this, you need to create the schema of the table and update the database s
    </srcSchema>
    ```
 
-   Add the type of contract and place an index on the contract number.
+   Add the type of contract enumeration.
 
    ```
    <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">

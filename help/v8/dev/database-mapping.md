@@ -96,75 +96,6 @@ To populate a field in XML, you must add the **xml** attribute with the value "t
 
 The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.).
 
-The main disadvantage is that it is impossible to index or filter an XML field.
-
-## Indexed fields {#indexed-fields}
-
-Indexes let you optimize the performance of the SQL queries used in the application.
-
-An index is declared from the main element of the data schema.
-
-```
-<dbindex name="name_of_index" unique="true/false">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-Indexes obey the following rules:
-
-* An index can reference one or more fields in the table.
-* An index can be unique (to avoid duplicates) in all of the fields if the **unique** attribute contains the value "true".
-* The SQL name of the index is determined from the SQL name of the table and the name of the index.
-
->[!NOTE]
->
->As a standard, indexes are the first elements declared from the main element of the schema.
-
->[!NOTE]
->
->Indexes are created automatically during table mapping (standard or FDA).
-
-**Example**:
-
-* Adding an index to the e-mail address and city:
-
-  ```
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </dbindex>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-* Adding a unique index to the "id" name field:
-
-  ```
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <dbindex name="id" unique="true">
-        <keyfield xpath="@id"/> 
-      </dbindex>
-  
-      <dbindex name="email">
-        <keyfield xpath="@email"/> 
-      </dbindex>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
 ## Key management {#management-of-keys}
 
 A table must have at least one key for identifying a record in the table.
@@ -183,13 +114,6 @@ Keys obey the following rules:
 
 * A key can reference one or more fields in the table.
 * A key is known as 'primary' (or 'priority') when it is the first in the schema to be populated or if it contains the **internal** attribute with the value "true".
-* A unique index is declared implicitly for each key definition. The creation of an index on the key can be prevented by adding the **noDbIndex** attribute with the value "true".
-
->[!NOTE]
->
->* Keys are the elements declared from the main element of the schema after indexes have been defined.
->
->* Keys are created during table mapping (standard or FDA), Adobe Campaign finds unique indexes.
 
 **Example**:
 
@@ -216,11 +140,6 @@ Keys obey the following rules:
   ```
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
-     <dbindex name="email" unique="true">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-     </dbindex>    
-  
      <key name="email">      
       <keyfield xpath="@email"/>      
       <keyfield xpath="location/@city"/>    
@@ -243,7 +162,7 @@ Keys obey the following rules:
         <keyfield xpath="@id"/> 
       </key>
   
-      <key name="email" noDbIndex="true">
+      <key name="email">
         <keyfield xpath="@email"/> 
       </key>
   
@@ -260,11 +179,7 @@ Keys obey the following rules:
     <element name="recipient" sqltable="CusRecipient">    
       <key name="email">      
         <keyfield xpath="@email"/>    
-      </key>    
-  
-      <dbindex name="id" unique="true">      
-        <keyfield xpath="@id"/>    
-      </dbindex>    
+      </key>  
   
       <key internal="true" name="id">      
        <keyfield xpath="@id"/>    
@@ -297,9 +212,6 @@ The schema generated:
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" autouuid="true" sqltable="CusRecipient"> 
-    <dbindex name="id" unique="true">
-      <keyfield xpath="@id"/>
-    </dbindex>
 
     <key internal="true" name="id">
       <keyfield xpath="@id"/>
@@ -310,7 +222,7 @@ The schema generated:
 </schema>
 ```
 
-In addition to the definition of the key and its index, a numeric field called "id" has been added to the extended schema in order to contain the auto-generated primary key.
+In addition to the definition of the key, a numeric field called "id" has been added to the extended schema in order to contain the auto-generated primary key.
 
 >[!CAUTION]
 >
@@ -373,7 +285,6 @@ Links obey the following rules:
     * **revExternalJoin** (optional): forces the outer join on the reverse link
 
 * A link references one or more fields from the source table to the destination table. The fields making up the join ( `<join>`  element) need not be populated because they are automatically deduced by default using the internal key of the target schema.
-* An index is automatically added to the foreign key of the link in the extended schema.
 * A link consists of two half-links, where the first is declared from the source schema and the second is created automatically in the extended schema of the target schema.
 * A join can be an outer join if the **externalJoin** attribute is added, with the value "true" (supported in PostgreSQL).
 
@@ -399,9 +310,6 @@ The schema generated:
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
-    <dbindex name="companyId">      
-      <keyfield xpath="@company-id"/>    
-    </dbindex>
     ...
     <element label="Company" name="company" revLink="recipient" target="cus:company" type="link">      
       <join xpath-dst="@id" xpath-src="@company-id"/>    
@@ -420,9 +328,6 @@ Extended schema of the target ("cus:company"):
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
   <element name="company" sqltable="CusCompany" autouuid="true"> 
-    <dbindex name="id" unique="true">     
-      <keyfield xpath="@id"/>    
-    </dbindex>   
     <key internal="true" name="id">      
       <keyfield xpath="@id"/>    
     </key>
@@ -500,15 +405,6 @@ The schema generated:
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
-    <dbindex name="companyId">      
-      <keyfield xpath="@company-id"/>    
-    </dbindex>
-
-    <dbindex name="companyEmail" unique="true">
-      <keyfield xpath="@email"/>      
-      <keyfield xpath="@company-id"/>    
-    </dbindex>    
-
     <key name="companyEmail">      
       <keyfield xpath="@email"/>      
       <keyfield xpath="@company-id"/>    
@@ -523,4 +419,4 @@ The schema generated:
 </schema>
 ```
 
-The definition of the "companyEmail" name key was extended with the foreign key of the "company" link. This key generates a unique index on both fields.
+The definition of the "companyEmail" name key was extended with the foreign key of the "company" link.
