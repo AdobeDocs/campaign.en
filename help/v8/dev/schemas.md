@@ -6,13 +6,86 @@ description: Get started with schemas
 ---
 # Work with schemas{#gs-ac-schemas}
 
+The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a **schema**.
+
+A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table:
+
+* The name of the table
+* Fields
+* Links with other tables
+
+It also describes the XML structure used to store data:
+
+* Elements and attributes
+* Hierarchy of elements
+* Element and attribute types
+* Default values
+* Labels, descriptions, and other properties.
+
+Schemas enable you to define an entity in the database. There is a schema for each entity.
+
 Adobe Campaign employs Data Schemas to:
 
-* Define how data objects within the application are tied to underlying database tables.
+* Define how data object within the application are tied to underlying database tables.
 * Define links between the different data objects within the Campaign application.
 * Define and describe the individual fields included in each object.
 
 For a better understanding of Campaign built-in tables and their interaction, refer to [this section](datamodel.md).
+
+>[!CAUTION]
+>
+>Some built-in Campaign schemas have an associated schema on the Cloud database. These schemas are identified by the **Xxl** namespace and must not be modified.
+
+## Syntax of schemas {#syntax-of-schemas}
+
+The root element of the schema is **`<srcschema>`**. It contains the **`<element>`** and **`<attribute>`** sub-elements.
+
+The first **`<element>`** sub-element coincides with the root of the entity.
+
+```
+<srcSchema name="recipient" namespace="cus">
+  <element name="recipient">  
+    <attribute name="lastName"/>
+    <attribute name="email"/>
+    <element name="location">
+      <attribute name="city"/>
+   </element>
+  </element>
+</srcSchema>
+```
+
+>[!NOTE]
+>
+>The root element of the entity has the same name as the schema.
+
+![](assets/schema_and_entity.png)
+
+The **`<element>`** tags define the names of entity elements. **`<attribute>`** tags of the schema define the names of the attributes in the **`<element>`** tags which they have been linked to.
+
+## Identification of a schema {#identification-of-a-schema}
+
+A data schema is identified by its name and its namespace.
+
+A namespace lets you group a set of schemas by area of interest. For example, the **cus** namespace is used for customer-specific configuration (**customers**).
+
+>[!CAUTION]
+>
+>As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
+>
+>Identifiers must not begin with numeric characters.
+
+## Reserved namespaces
+
+Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application. The following namespace **must not be used** to identify a new schema, in any upper/lower case combination:
+
+* **xxl**: reserved to Cloud database schemas,
+* **xtk**: reserved to platform system data,
+* **nl**: reserved to the overall use of the application,
+* **nms**: reserved to deliveries (recipient, delivery, tracking, etc.),
+* **ncm**: reserved to content management,
+* **temp**: reserved to temporary schemas.
+
+The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **nms:recipient**.
 
 ## Create or extend Campaign schemas {#create-or-extend-schemas}
 
@@ -25,6 +98,7 @@ To add an entirely new type of data that does not exist in Adobe Campaign (a tab
 :bulb: For more on this, refer to [Create a new schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
+
 
 Once you have created or extended a schema to work in, the best practice is to define its XML content elements in the same order they appear in below.
 

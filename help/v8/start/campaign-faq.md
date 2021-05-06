@@ -34,11 +34,11 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
     Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
-    [Click here to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+    [Read out Campaign Classic v7 documentation to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
     
 1. Can I monitor workflow execution?
 
-    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. Which systems and components Campaign v8 is compatible with? 
 

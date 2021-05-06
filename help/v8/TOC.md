@@ -21,6 +21,7 @@ hide: yes
   + [Profiles & Audiences](start/audiences.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
+  + [Manage subscriptions](start/subscriptions.md)
   + [Send messages](start/create-message.md)
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
@@ -74,6 +75,7 @@ hide: yes
     + [Input forms](dev/forms.md)
   + APIs {#api}
     + [Get started](dev/api.md)
+    + [New APIs](dev/new-apis.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
 
 

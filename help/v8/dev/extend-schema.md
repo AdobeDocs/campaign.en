@@ -6,73 +6,52 @@ description: Learn how to extend Campaign schemas
 ---
 # Extend a schema{#extend-schemas}
 
-This article describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.
+As a technical user, you can customize Campaign datamodel to meet the needs of your implementation: add elements to an existing schema, modify an element in a schema or delete elements.
+
+Key steps to customize Campaign datamodel are:
+
+1. Create an extension schema
+1. Update Campaign database
+1. Adapt the input form
+
+>[!CAUTION]
+>Built-in schema must not be modified directly. If you need to adapt a built-in schema, you must extend it.
 
 :bulb: For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md).
 
-The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a **schema**.
+To extend a schema, follow the steps below:
 
-A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table:
+1. Navigate to the **[!UICONTROL Administration > Configuration > Data schemas]** folder in the Explorer.
+1. Click the **New** button and select **[!UICONTROL Extend the data in a table using an extension schema]**.
 
-* The name of the table
-* Fields
-* Links with other tables
+    ![](assets/extend-schema-option.png)
 
-It also describes the XML structure used to store data:
+1. Identify the built-in schema to extend and select it.
 
-* Elements and attributes
-* Hierarchy of elements
-* Element and attribute types
-* Default values
-* Labels, descriptions, and other properties.
+    ![](assets/extend-schema-select.png)
 
-Schemas enable you to define an entity in the database. There is a schema for each entity.
+    By convention, name the extension schema the same as the built-in schema, and use a custom namespace.
 
-## Syntax of schemas {#syntax-of-schemas}
+    ![](assets/extend-schema-validate.png)
 
-The root element of the schema is **`<srcschema>`**. It contains the **`<element>`** and **`<attribute>`** sub-elements.
+1. Once in the schema editor, add the elements you need using the contextual menu, and save.
 
-The first **`<element>`** sub-element coincides with the root of the entity.
+    ![](assets/extend-schema-edit.png)
 
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
-   </element>
-  </element>
-</srcSchema>
-```
+    In the example below, we add the Membership Year attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
 
->[!NOTE]
->
->The root element of the entity has the same name as the schema.
+    ```
+    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+            name="recipient">
+    <attribute name="Membership Year" label="memberYear" type="long"/>
+    <attribute length="50" name="lastName"/>
+    <attribute _operation="delete" name="birthDate"/>
+    </element>
+    </srcSchema> 
+    ```
 
-![](assets/schema_and_entity.png)
-
-The **`<element>`** tags define the names of entity elements. **`<attribute>`** tags of the schema define the names of the attributes in the **`<element>`** tags which they have been linked to.
-
-## Identification of a schema {#identification-of-a-schema}
-
-A data schema is identified by its name and its namespace.
-
-A namespace lets you group a set of schemas by area of interest. For example, the **cus** namespace is used for customer-specific configuration (**customers**).
-
->[!CAUTION]
->
->As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
->
->Identifiers must not begin with numeric characters.
-
-Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application:
-
-* **xxl**: concerning Cloud database schemas,
-* **xtk**: concerning platform system data,
-* **nl**: concerning the overall use of the application,
-* **nms**: concerning delivery (recipient, delivery, tracking, etc.),
-* **ncm**: concerning content management,
-* **temp**: reserved for temporary schemas.
-
-The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **nms:recipient**.
+1. Update the database structure to apply your changes. [Learn more](update-database-structure.md)
+1. Once changes are implemented in the database, you can adapt the recipient input form to make your changes visible. [Learn more](forms.md)
