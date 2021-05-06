@@ -22,7 +22,6 @@ This functionality allows Adobe Campaign to process data from an external databa
 
 This section describes the key points to map existing tables in Adobe Campaign and the configuration settings to apply to execute deliveries based on any table. It also describes how to design querying interfaces for end-users. 
 
-
 >[!CAUTION]
 >
 >Adobe Campaign customization is reserved to expert users only. It requires expertise in input form and schema design.
