@@ -31,7 +31,9 @@ And we simplify data management at the same time
 
 ## Simplification and performance increase
 
-Campaign v8 simplifies data management: no index, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
+Campaign v8 brings the concept of **Full Federated Data Access** (FDA): all data is now remote on the Cloud Database.
+
+With this new architecture, Campaign v8 simplifies data management: no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
 
 [!DNL Snowflake] is Campaign Cloud Database, and will bring you speed and endurance: no overload of the system activity peaks. 
 
