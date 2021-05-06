@@ -69,14 +69,7 @@ This restriction allows you to remove passwords fields but let the external acco
     So your extended srcSchema can look like:
 
     ```
-    <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-                desc="Definition of external accounts (Email, SMS...) used by the modules"
-                entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-                labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-                mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-                name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-        <createdBy _cs="Administrator (admin)"/>
-        <modifiedBy _cs="Administrator (admin)"/>
+    <...>
         <element name="extAccount">
             <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
             <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -93,7 +86,7 @@ This restriction allows you to remove passwords fields but let the external acco
                 <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
             </element>
         </element>
-    </srcSchema>    
+    <...> 
     ```
 
     >[!NOTE]
