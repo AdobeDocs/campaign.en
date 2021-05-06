@@ -31,6 +31,8 @@ In addition to these technical workflows, Campaign v8 relies on specific technic
 
 These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** node of Campaign Explorer.
 
+**SHOULD WE ADD THIS? https://wiki.corp.adobe.com/display/neolane/Full+FDA+%3A%3A+Replication+strategy**
+
 
 **Related topics**
 
