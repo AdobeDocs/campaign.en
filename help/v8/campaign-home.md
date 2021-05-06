@@ -17,7 +17,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 * **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
 
-* **[From Classic to v8](start/capability-matrix.md)** - Transitioning from Campaign Classic to v8? Learn key differences
+* **[From v7 to v8](start/capability-matrix.md)** - Transitioning from Campaign Classic v7 to v8? Learn key differences
 
 ## Get started
 
