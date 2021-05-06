@@ -24,16 +24,14 @@ Key capabilities include:
 
 Campaign v8 brings end-to-end scale at any step of the process, from Targeting to the final reporting:
 
-* Scale the volume of data you can handle (multi petabytes)
+* Scale the volume of data you can handle (until 8 TB)
 * Scale the performance of queries for segmentation and targeting but also data ingestion and egress
 * Scale the delivery preparation (from hours to minutes)
 And we simplify data management at the same time
 
 ## Simplification and performance increase
 
-* Simplify data management: no index, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
-
-* Simplify accessibility through advanced sharing capabilities.
+Campaign v8 simplifies data management: no index, no database maintenance. With Campaign v8, no index is required on Cloud Database. You just need to create the tables, copy the data and you can start.
 
 Snowflake (aka Cloud Database) will bring you speed and endurance: no overload of the system activity peaks. 
 
