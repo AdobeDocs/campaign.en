@@ -59,7 +59,7 @@ The XML document of a data schema must contain the **`<srcschema>`** root elemen
 Let us use the following XML content to illustrate the structure of a data schema:
 
 ```
-<recipient email="John.doe@aol.com" created="2009/03/12" gender="1"> 
+<recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
 ```
@@ -136,11 +136,11 @@ The following data types are supported in schemas:
 * **datetimenotz**: date + time without time zone data.
 * **timespan**: durations. Example: seniority.
 * **memo**: long text fields (multiple lines). Examples: a description, a comment, etc.
-* **uuid**: "uniqueidentifier" fields to support a GUID (supported in Microsoft SQL Server only).
+* **uuid**: "uniqueidentifier" fields
 
   >[!NOTE]
   >
-  >To contain a **uuid** field in engines other than Microsoft SQL Server, the "newuuid()" function must be added and completed with its default value.
+  >To contain a **uuid** field, the "newuuid()" function must be added and completed with its default value.
 
 Here is our example schema with the types entered:
 
