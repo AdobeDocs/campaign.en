@@ -30,12 +30,6 @@ Two options are available:
 >
 >Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the Console is available.  If this option is selected the user will not be informed of new available versions.
 
-### Tutorial video
-
-This video shows how to install and setup the Adobe Campaign Client.
-
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
-
 ## Create your connection
 
 Once the Client Console is newly installed, follow the steps below to create the connection to the application server:
