@@ -28,7 +28,7 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 
 * **Plan**: the marketing plan can contain multiple programs. It is linked to a calendar period, has an allocated budget and can also be linked up to documents and objectives.
 
-* **Campaign workflow**: a campaign workflow contains activities to build the campaign logic. Use campaign workflows enables to define audiences and create deliveries for all available channels.
+* **Campaign workflow**: a campaign workflow contains activities to build the campaign logic. Use campaign workflows to define audiences and create deliveries for all available channels.
 
 * **Recurring campaigns**: recurring campaigns are created from a specific template defining the workflow template to be executed and the execution schedule.
 
