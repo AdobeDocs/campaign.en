@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Technical workflows and data replication
 description: Technical workflows and data replication
 feature: Overview

@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Extend Campaign schemas
 description: Learn how to extend Campaign schemas
 ---

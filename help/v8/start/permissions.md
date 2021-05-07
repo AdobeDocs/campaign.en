@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Grant permissions to Campaign v8
 description: Learn how to grant permissions to Campaign v8
 feature: Audiences

@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Implementation guidelines
 description: Learn how to implement Campaign v8
 feature: Overview

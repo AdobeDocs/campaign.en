@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Learn how to connect to Campaign v8
 description: Connect to Campaign v8
 feature: Audiences

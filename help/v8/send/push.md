@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign
 feature: Overview

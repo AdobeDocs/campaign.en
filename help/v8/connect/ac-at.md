@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Work with Campaign and Adobe Target
 description: Learn how to work with Campaign and Adobe Target
 feature: Overview
