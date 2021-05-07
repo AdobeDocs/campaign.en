@@ -4,6 +4,7 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 Help Center
+description: Campaign v8 documentation
 breadcrumb-title: Campaign v8
 title: Campaign v8 docs
 hide: yes
