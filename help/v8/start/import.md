@@ -10,7 +10,7 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 ---
 # Import data into Campaign {#ootb-profiles}
 
-Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profiles info directly into the recipient table. 
+Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
 
 :blub: Get started with [audiences](audiences.md)
 :blub: Understand Campaign [datamodel](../dev/datamodel.md)
