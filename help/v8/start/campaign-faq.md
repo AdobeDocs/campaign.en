@@ -10,7 +10,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 ---
 # Frequently Asked Questions{#faq}
 
-Need help as you are working with Campaign Classic? Read the top 10 questions below, and other frequently asked questions in that page. You can also:
+Need help as you are working with Campaign? Read the top 10 questions below, and other frequently asked questions in that page.
 
 1. How can I upgrade Campaign to the latest version?
 
@@ -18,7 +18,7 @@ Need help as you are working with Campaign Classic? Read the top 10 questions be
 
     This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
     
-    You need to reach out to the Customer Care team to have your environment upgraded.
+    Please reach out to the Customer Care team to have your environment upgraded.
 
 1. How can I connect to Campaign v8?
 
