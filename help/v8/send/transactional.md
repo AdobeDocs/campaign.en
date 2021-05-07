@@ -13,10 +13,10 @@ Transactional messaging (Message Center) is a Campaign module designed for manag
 
 :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to install and configure Campaign Transactional messaging in your environment.
 
-Transactional messages are used to for:
+Transactional messages are used to send:
 
 * notifications, such as order confirmations or password resets for example
-* send out an individual real-time response to a customer action
+* an individual real-time response to a customer action
 * non-promotional content
 
 :bulb: Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
