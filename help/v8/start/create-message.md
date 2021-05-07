@@ -25,6 +25,7 @@ Adobe Campaign v8 comes with the following delivery channels:
 * **Mobile channel**: deliveries on mobile channels let you send personalized SMS to the target population.  Learn more in [this page](../send/sms.md)
 
 * **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [this page](../send/push.md)
+* **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 
 ## Choose how to send your messages 
 
