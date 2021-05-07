@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Get started with Campaign architecture
 description: Get started with Campaign architecture
 feature: Overview

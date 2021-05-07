@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Get started with Campaign data model
 description: Get started with Campaign data model
 feature: Overview

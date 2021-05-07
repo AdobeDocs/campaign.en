@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign v8 Frequently Asked Questions
 description: Discover Campaign common Q&A
 feature: Overview

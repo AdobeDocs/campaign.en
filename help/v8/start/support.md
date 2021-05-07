@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Find help and support
 description: Learn how to find support when using Campaign v8
 feature: Overview

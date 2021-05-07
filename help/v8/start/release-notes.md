@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign v8 release notes
 description: Latest Campaign v8 release
 feature: Overview

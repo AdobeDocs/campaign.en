@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Get started with tracking and monitoring capabilities
 description: Get started with tracking and monitoring capabilities
 feature: Overview

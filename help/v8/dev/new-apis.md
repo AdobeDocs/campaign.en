@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: New Campaign v8 APIs
 description: New Campaign v8 APIs
 feature: Overview

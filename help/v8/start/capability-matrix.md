@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 capability matrix
 description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview

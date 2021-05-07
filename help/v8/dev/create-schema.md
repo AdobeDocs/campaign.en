@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Create a new schema in Campaign
 description: Learn how to create a new schema in Campaign
 ---

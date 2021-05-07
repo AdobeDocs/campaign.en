@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Get started with Campaign v8
 description: Discover key capabilities, user interface and global guidelines
 feature: Overview

@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Data model best practices
 description: Learn Campaign data model extension best practices
 ---
