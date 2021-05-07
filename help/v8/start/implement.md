@@ -12,14 +12,14 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 
 In this section, you will learn how to adjust Adobe Campaign to the requirements of your company. Use the following guidelines to structure and organize your implementation. 
 
-1. **Define settings**: grant access, share Client Console, configure channels (email, push, sms)
+1. **Define settings**: grant access, share the Client Console, configure channels (email, push, sms)
 1. **Prepare your environment**: import profiles, create audiences, design workflow and campaign templates, create typology rules
 1. **Customize your instance**: create new data fields, add tables/schemas
 1. **Extend your deployment**: connect to Adobe solutions, other products and systems - connectors, multi-solution settings
 
 ## Before starting
 
-This section includes information for developers specific to their implementation that they need to take care of about privacy and security before starting.
+This section contains critical information about privacy and security that needs to be reviewed and taken into account before even starting the actual implementation.
 
 ### Privacy
 
@@ -55,7 +55,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
 1. Import profiles and create audiences
 
-    Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profiles info directly into the recipient table. 
+    Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
 
     :bulb: [Learn how to import profiles](import.md).
     
@@ -81,7 +81,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
 1. Get familiar with Campaign built-in data model
 
-    Adobe Campaign comes with a pre-defined data model. To implement and customize your environment, you need to be familiar with the built-in tables of the Adobe Campaign data model and their interaction.
+    Adobe Campaign comes with a pre-defined data model. To implement and customize your environment, you need to be familiar with the built-in tables of the Adobe Campaign data model and how they relate to each other.
 
     :bulb: [Learn more about Campaign datamodel](../dev/datamodel.md).
 
