@@ -18,13 +18,13 @@ Learn how to **Customize your Campaign instance**
 
 ## Create new data fields and schemas
 
-Adobe Campaign employs Data Schemas to:
+Adobe Campaign makes use of Data Schemas to:
 
 * Define how data objects within the application are tied to underlying database tables
 * Define links between the different data objects within the Campaign application
 * Define and describe the individual fields included in each object
 
-You can add a field to an existing table, such as the recipient table (nms:recipient), you have to extend that schema. 
+For example, to add a field to an existing table, such as the recipient table (nms:recipient), you have to extend that schema. 
 
 Two table extension modes are available:
 
@@ -37,7 +37,7 @@ Two table extension modes are available:
     :bulb: Learn how to extend an existing schema in [this section](../dev/extend-schema.md).
 
 
-You can create new tables in Campaign database and extend built-in datamodel.
+You can also create new tables in the Campaign database and extend the built-in datamodel.
 
 To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [this example](../dev/create-schema.md#example--creating-a-contract-table).
 
@@ -50,7 +50,7 @@ To add an entirely new type of data that does not exist out-of-the-box in Adobe 
 
 ## Modify the input forms
 
-Campaign input forms can be adapted to fit with your implementation. You can add or remove fields by modifying the XML content.
+Campaign input forms can be adapted to adapt to your implementation. You can add or remove form fields by modifying the XML content.
 
 :bulb: Learn how to modify an existing input form or create a new form in [this section](../dev/forms.md).
 
