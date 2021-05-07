@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign security best practices
 description: Get started with Campaign security best practices
 ---
