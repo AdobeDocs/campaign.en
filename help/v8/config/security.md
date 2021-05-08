@@ -33,9 +33,9 @@ When adding personalized links to your content, always avoid having any personal
 
 ## Data restriction
 
-You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main way: restrict access to password fields only or to the entire entity (need a build >= 8770).
+You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main ways: restrict access to password fields only or to the entire entity.
 
-This restriction allows you to remove passwords fields but let the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
+This restriction allows you to remove passwords fields but leaves the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
 
 1. Go in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -91,7 +91,7 @@ This restriction allows you to remove passwords fields but let the external acco
 
     >[!NOTE]
     >
-    >You can remplace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
+    >You can replace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
 
 
 ## Access management
