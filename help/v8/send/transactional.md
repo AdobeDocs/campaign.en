@@ -109,7 +109,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seed_4.png)
 
-1. Insert test data. See [this section](#personalization-data).
+1. Insert test data. Refer to [this section](#personalization-data).
 
    ![](assets/messagecenter_create_custo_3.png)
 
