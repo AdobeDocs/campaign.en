@@ -108,10 +108,10 @@ Access management is an important part of security hardening. Here are some of t
 
 When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
 
-* Scripting: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
+* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
 
-* Secure the data model: use named rights to limit operator actions, add system filters (sysFilter)
+* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
 
-* Add captchas in web applications: add captchas in your public landing pages and subscription pages.
+* **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
 
 :arrow_upper_right: Learn more in [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
