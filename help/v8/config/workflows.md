@@ -56,7 +56,7 @@ Notifications are sent to the Adobe Campaign operators who are set as reviewers 
 
 ## Send alerts
 
-As a Campaign operator, you can receive alerts when a faiure happens.
+As a Campaign operator, you can receive alerts when a failure happens.
 
 You can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors.
 
