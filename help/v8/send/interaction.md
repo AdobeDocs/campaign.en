@@ -61,7 +61,7 @@ Before starting, as a Campaign **Administrator**, make sure you performed the fo
 
 1. Create user profiles. [Learn more](interaction-operators.md).
 1. (optional) Create an offer environment for each targeting dimension. [Learn more](interaction-env.md)
-1. Create typology rules for each environment. [Learn more](interaction-offers.md#offer-presentation).
+1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation).
 1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md).
   If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
 

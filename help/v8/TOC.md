@@ -51,6 +51,7 @@ hide: yes
       + [Create operators](send/interaction-operators.md)
       + [Create environments](send/interaction-env.md)
       + [Create pre-defined filters](send/interaction-predefined-filters.md)
+      + [Create offer spaces](send/interaction-offer-spaces.md)
     + [Create an offer catalog](send/interaction-offer-catalog.md)
     + [Create an offer](send/interaction-offer.md)
     + [Send an offer](send/interaction-send-offers.md)
