@@ -23,7 +23,7 @@ In Adobe Campaign, recipients are the default profiles targeted for sending deli
 
 :arrow_forward: [Understand what is a profile in video](https://video.tv.adobe.com/v/35611?quality=12)
 
-:arrow_upper_right: Learn how to manage profiles in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
+:arrow_upper_right: Learn how to manage profiles in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html{{){:target="_blank"}.
 
 ## Privacy and consent
 
