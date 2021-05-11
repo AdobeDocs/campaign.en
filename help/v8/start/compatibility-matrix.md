@@ -53,18 +53,7 @@ This document lists all systems and components supported for the latest build of
 
 **Browser**
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Internet Explorer</p>
-</td>
-<td>
-<p>11</p>
-</td>
-</tr>
-</tbody>
-</table>
+Microsoft Internet Explorer 11
 
 ### Mobile SDK{#MobileSDK}
 
