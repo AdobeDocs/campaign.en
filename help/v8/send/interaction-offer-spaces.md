@@ -51,7 +51,7 @@ To create a new offer space, follow the steps below:
    
     **Note** -  XML format is restricted to inbound interactions which are temporary unavailable. [Learn more](../start/capability-matrix.md#gs-unavailable-features)
 
-   ![](assets/offer_spacecreate_006.png)_
+   ![](assets/offer_space_create_006.png)_
 
 1. Go to the **[!UICONTROL HTML rendering]** tab and select **[!UICONTROL Overload the HTML rendering function]**.
 1. Insert your rendering function.

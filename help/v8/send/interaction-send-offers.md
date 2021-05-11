@@ -177,7 +177,7 @@ After configuring your **Query** activity:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](inserting-an-offer-proposition-into-a-delivery).
+1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#inserting-an-offer-proposition-into-a-delivery).
 
 ### Offers by cell {#offers-by-cell}
 
