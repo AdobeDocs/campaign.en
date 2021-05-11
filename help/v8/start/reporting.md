@@ -28,7 +28,8 @@ Adobe Campaign provides a set of reporting tools:
 
 Depending on the complexity of the queries, calculations and volumes, the data analyzed in these reports can be collected via a query and pre-aggregated in a list (‘data management’ type workflow) or in a Cube (using Marketing Analytics). It will be displayed in the form of a pivot table or a group list.
 
+
  :arrow_upper_right: For more on reporting capabilities, [refer to this section](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html).
  
-## Key metrics to check
+ Note that Campaign v8 reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
 
