@@ -47,12 +47,54 @@ This document lists all systems and components supported for the latest build of
 * **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10 (recommended for Japanese instances
 
+## Client Console {#ClientConsoleoperatingsystems}
+
+:warning: The following operating systems and browser are required to use Campaign Client Console.
+
+### Operating systems
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft Windows Server</td>
+<td>
+<p>2016</p>
+<p>2012</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>8</p>
+<p>10 (recommended for Japanese instances)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Browser
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Mobile SDK{#MobileSDK}
 
 * **Android** 7.x, 8.x, 9.0 with mobile SDK build 1.0.27.
 * **Apple iOS** 9 - 14 with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
 ## Supported browsers {#Browsers}
+
+The following browsers are compatible with Campaign for Web Access.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
 
