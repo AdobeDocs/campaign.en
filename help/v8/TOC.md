@@ -45,6 +45,16 @@ hide: yes
   + [Push notifications](send/push.md)
   + [Direct mail](send/direct-mail.md)
   + [Transactional messages](send/transactional.md)
+  + Add offers{#interaction}
+    + [Get started with interaction](send/interaction.md)
+    + Define settings{#interaction}
+      + [Create operators](send/interaction-operators.md)
+      + [Create environments](send/interaction-env.md)
+      + [Create pre-defined filters](send/interaction-predefined-filters.md)
+    + [Create an offer catalog](send/interaction-offer-catalog.md)
+    + [Create an offer](send/interaction-offer.md)
+    + [Send an offer](send/interaction-send-offers.md)
+    + [Use cases](send/interaction-use-cases.md)
 + Configure {#config}
   + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
