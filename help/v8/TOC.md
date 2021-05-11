@@ -43,6 +43,7 @@ hide: yes
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
+  + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
   + [Transactional messages](send/transactional.md)
   + Add offers{#interaction}
