@@ -15,6 +15,36 @@ You can create an offer catalog that will interface with your outbound channels 
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
+## Get started with offers
+
+Key steps to start are listed below.
+
+### Configure your platform
+
+Before starting, as a Campaign **Administrator**, make sure you performed the following tasks in design environments:
+
+1. Create user profiles. [Learn more](interaction-operators.md).
+1. (optional) Create an offer environment for each targeting dimension. [Learn more](interaction-env.md)
+1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation).
+1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md).
+  If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
+
+### Create and publish the offer catalog {#managing-the-offer-catalog-}
+
+As an **Offer manager** you need to perform the following tasks:
+
+1. Create offer categories in design environments. [Learn more](interaction-offer-catalog.md#creating-offer-categories).
+1. Create offers in design environments. [Learn more](interaction-offer.md).
+1. Approve and publish offers on one or several spaces in order to make them available on live environments for the delivery manager. [Learn more](interaction-offer.md#approve-offers).
+
+### Leverage the offer catalog {#using-the-offer-catalog-}
+
+As a **Delivery manager**  you need to perform the following tasks:
+
+1. Create a campaign.
+1. Reference an offer in the campaign or the delivery. [Learn more](interaction-send-offers.md).
+
+
 ## Concepts and terminology
 
 Discover offer-specific terms and related guidance before starting.
@@ -50,33 +80,4 @@ Discover offer-specific terms and related guidance before starting.
 * The **Preview** of the offer shows the offer as it is displayed in its folder. It is accessible from the offer settings window or the contact profile.
 * **Predefined filters** are filtering rules can take into account offer parameters (for example, an offer code). They can be reused after offers have been created.
 * An **Offer representation** is an information used by the channel to display the offer. Offer representation may be constructed from the rendering function of the space on which the offer is represented or entered directly into the interface (for example, in the HTML block). An offer may be represented by space.
-
-## Get started with offers
-
-Key steps to start are listed below.
-
-### Configure your platform
-
-Before starting, as a Campaign **Administrator**, make sure you performed the following tasks in design environments:
-
-1. Create user profiles. [Learn more](interaction-operators.md).
-1. (optional) Create an offer environment for each targeting dimension. [Learn more](interaction-env.md)
-1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation).
-1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md).
-  If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
-
-### Create and publish the offer catalog {#managing-the-offer-catalog-}
-
-As an **Offer manager** you need to perform the following tasks:
-
-1. Create offer categories in design environments. [Learn more](interaction-offer-catalog.md#creating-offer-categories).
-1. Create offers in design environments. [Learn more](interaction-offer.md).
-1. Approve and publish offers on one or several spaces in order to make them available on live environments for the delivery manager. [Learn more](interaction-offer.md#approve-offers).
-
-### Leverage the offer catalog {#using-the-offer-catalog-}
-
-As a **Delivery manager**  you need to perform the following tasks:
-
-1. Create a campaign.
-1. Reference an offer in the campaign or the delivery. [Learn more](interaction-send-offers.md).
 
