@@ -12,9 +12,11 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 
->[!CAUTION]
->
->Before starting, you need to check Campaign [Compatibility matrix](compatibility-matrix.md), get your Campaign server URL and user credentials.
+Before starting, you need to:
+
+* Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
+* Get your Campaign server URL 
+* Get your user credentials
 
 ## Download and install the Client Console
 
@@ -86,7 +88,6 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 Learn more about users and how to define their permissions in [this section](permissions.md).
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
-
 
 ## Connect to Campaign with your Adobe ID{#connect-ims}
 

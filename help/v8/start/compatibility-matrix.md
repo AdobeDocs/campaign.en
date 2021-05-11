@@ -19,6 +19,19 @@ This document lists all systems and components supported for the latest build of
 
 ## Compatible systems
 
+### Client Console{#ClientConsoleoperatingsystems}
+
+:warning: The following operating systems and browser are required to use Campaign Client Console.
+
+**Operating systems**
+
+* **Microsoft Windows Server** 2016, 2012
+* **Microsoft Windows** 8, 10 (recommended for Japanese instances
+
+**Browser**
+
+**Microsoft Internet Explorer** 11
+
 ### CRM connectors{#CRMconnectors}
 
 * **Salesforce** connector API version 49
@@ -41,19 +54,6 @@ This document lists all systems and components supported for the latest build of
     * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
     * HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6
     * Cloudera CDH6.x
-
-### Client Console{#ClientConsoleoperatingsystems}
-
-:warning: The following operating systems and browser are required to use Campaign Client Console.
-
-**Operating systems**
-
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recommended for Japanese instances
-
-**Browser**
-
-Microsoft Internet Explorer 11
 
 ### Mobile SDK{#MobileSDK}
 
