@@ -143,7 +143,7 @@ By default, when an **Enrichment** activity is used to deliver offers, their ran
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -196,8 +196,7 @@ To do this, use the following process:
     
       ![](assets/int_offer_per_cell1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. For more on this, refer to the [Inserting an offer proposition into a delivery](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) section.
-
+1. Then configure a delivery activity that corresponds to your chosen channel.
 
 <!--
 

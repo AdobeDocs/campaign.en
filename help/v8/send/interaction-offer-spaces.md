@@ -13,8 +13,6 @@ The content of the offer catalog is configured in offer spaces. By default, the 
 
 As a **technical administrator**, you can create offer spaces in the Design environment. You need to have access to the offer space sub-folder. Once created, these offer spaces are automatically duplicated into the Live environment during offer approval.
 
-Advanced parameters let you specify a contact identification key (which can be made of up of various elements, the name and email field at the same time for example). For more on this, refer to the [Presenting an identified offer](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) section.
-
 The HTML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.
 
 ![](assets/offer_space_create_009.png)
@@ -59,8 +57,6 @@ To create a new offer space, follow the steps below:
 1. Insert your rendering function.
 
    ![](assets/offer_space_create_007.png)
-
-If necessary, you can overload HTML and text rendering functions. [Learn more](../../interaction/using/about-inbound-channels.md).
 
 ## Offer proposition statuses {#offer-proposition-statuses}
 
@@ -154,5 +150,5 @@ If a recipient is not eligible for any offers, this is shown in the preview.
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->

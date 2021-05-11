@@ -181,9 +181,9 @@ You can now approve and activate the offer to make it available in the **Live** 
 
 :arrow_upper_right: For more on this, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
-## Manage offer presentation
+## Manage offer presentation{#offer-presentation}
 
-Campaign lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Campaign Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment.
+Campaign lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Campaign Interaction, are **typology rules**. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment.
 
 :arrow_upper_right: For more on this, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
