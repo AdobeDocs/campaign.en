@@ -116,3 +116,10 @@ The Adobe Campaign Cloud database relies on [!DNL Snowflake] which contains the 
 Customers can deploy Adobe Campaign using the predefined data mart and schemas, and can extend also it. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
 
 ![](assets/data-flow-diagram.png) 
+
+
+>[!CAUTION]
+>
+>With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your licence agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
+>
+>If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.

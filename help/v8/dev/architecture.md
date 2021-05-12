@@ -16,15 +16,15 @@ Campaign is made available as individual instances with each instance representi
 
 Three types of environments available with Campaign Cloud Service:
 
-* Production environment: hosts the applications for the business practitioners.
+* **Production environment**: hosts the applications for the business practitioners.
 
-* Stage environment: used for various performance and quality tests before changes to the application are pushed to the production environment.
+* **Stage environment**: used for various performance and quality tests before changes to the application are pushed to the production environment.
 
-* Development environment: allows developers to implement Campaign under the same runtime conditions as the stage and production environments.
+* **Development environment**: allows developers to implement Campaign under the same runtime conditions as the stage and production environments.
 
 You can export and import packages from one environment to another.
 
-:arrow_upper_right: Learn more about packages in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)
+:arrow_upper_right: Learn more about packages in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Mid-sourcing deployment{#mid-sourcing-deployment}
 

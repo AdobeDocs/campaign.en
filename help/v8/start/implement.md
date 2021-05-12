@@ -17,6 +17,12 @@ In this section, you will learn how to adjust Adobe Campaign to the requirements
 1. **Customize your instance**: create new data fields, add tables/schemas
 1. **Extend your deployment**: connect to Adobe solutions, other products and systems - connectors, multi-solution settings
 
+>[!CAUTION]
+>
+>With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your licence agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
+>
+>If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.
+
 ## Before starting
 
 This section contains critical information about privacy and security that needs to be reviewed and taken into account before even starting the actual implementation.
@@ -33,7 +39,7 @@ Adobe Campaign comes with processes and settings that allow you to use Campaign 
 
 ### Security
 
-Learn security guidelines and principles with Adobe Campaign in [Campaign Security checklist](../config/security.md))
+Learn security guidelines and principles with Adobe Campaign in [Campaign Security checklist](../config/security.md).
 
 ## Define Campaign settings
 
