@@ -41,7 +41,7 @@ To extend a schema, follow the steps below:
     In the example below, we add the MembershipYear attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
 
     ![](assets/extend-schema-sample.png)
-    
+
     ```
     <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
             img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
@@ -54,6 +54,7 @@ To extend a schema, follow the steps below:
     </element>
     </srcSchema>
     ```
+
 1. Disconnect and reconnect to Campaign to check schema structure update in the **[!UICONTROL Structure]** tab.
 
     ![](assets/extend-schema-structure.png)
