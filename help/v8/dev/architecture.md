@@ -41,7 +41,6 @@ General communication between servers and processes is carried out according to 
 > Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
 > As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
 
-
 ## Message Center architecture{#transac-msg-archi}
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
@@ -65,7 +64,6 @@ In this specific architecture, execution cell is separated from the control inst
 ![](assets/messagecenter_diagram.png)
 
 :arrow_upper_right: Message Center architecture is described in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
-
 
 ### Authentication
 

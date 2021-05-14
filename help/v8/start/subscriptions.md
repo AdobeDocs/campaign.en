@@ -13,6 +13,47 @@ Use Adobe Campaign to create and monitor your information services such as newsl
 
 :arrow_upper_right: Learn how to create an information service, send newsletter and manage opt-in and opti-out in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
 
+To subscribe (opt-in) a profile to a service, available options are:
+
+* Manually add the service to the recipient profile: to do this, from the **[!UICONTROL Subscriptions]** tab of their profile, click **[!UICONTROL Add]** and select the information service concerned. 
+    
+    :arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
+    
+* Automatically subscribe a set of recipients to the service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct manual selection. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and start the operation.
+
+    :arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
+
+
+* Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard. 
+
+    :arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients)
+
+* Use a web form so that recipients can subscribe to a service. 
+
+    :arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+
+* Create a targeting workflow and using a **[!UICONTROL Subscription service]** activity. 
+
+    :arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
+    
+
+To unsubscribe (opt-out) a profile from a service, available options are:
+
+**Manual unsubscription**
+
+* Personalized unsubscription link or web form
+* Manual deletion of an information service
+* Manual deletion of recipients from particular subscription service
+
+**Automatic unsubscription**
+
+* Specify a duration limit of the information service: recipients will be unsubscribed automatically when the period of validity has expired. This period is specified in the Edit tab of the service properties. It is expressed in days.
+* Set up an unsubscription workflow for a population
+
+:arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
+
+
 >[!CAUTION]
 >
 >Subscriptions and unsubscriptions are **asynchronous** processes. Opt-in and opt-out requests are processed each hour.

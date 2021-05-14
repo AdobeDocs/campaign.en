@@ -10,13 +10,13 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff
 ---
 # Technical workflows and data replication
 
-## Technical workflows
+## Technical workflows{#tech-wf}
 
 Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
-:arrow_upper_right: The full list of technical workflows is detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=en#overview)
+:arrow_upper_right: The full list of technical workflows is detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
