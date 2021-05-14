@@ -98,14 +98,15 @@ The **xtk.session.IngestExt** API is optmized for data update/delete. For insert
 
 ## Subscription management {#sub-apis}
 
-Subscription management in Campaign is decribed in [this page](../start/subscriptions.md).
+Subscription management in Campaign is described in [this page](../start/subscriptions.md).
+
+
+Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. Subscriber information is temporary stored in staging tables in the local database, and the synchronization workflow sends this data from the local database to the Cloud database. As a consequence, subscription and unsubscription processes are **asynchronous**. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
+
 
 Subscriptions and unsubscriptions can be managed with the following APIs:
 
 
->[!CAUTION]
->
->Subscriptions and unsubscriptions are **asynchronous** processes. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
 
 **Related topics**
 

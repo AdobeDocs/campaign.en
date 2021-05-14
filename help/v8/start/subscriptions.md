@@ -56,7 +56,7 @@ To unsubscribe (opt-out) a profile from a service, available options are:
 
 >[!CAUTION]
 >
->Subscriptions and unsubscriptions are **asynchronous** processes. Opt-in and opt-out requests are processed each hour.
+>Subscriptions and unsubscriptions are **asynchronous** processes. Opt-in and opt-out requests are processed each hour. [Learn more](../dev/new-apis.md#sub-apis)
 
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
 

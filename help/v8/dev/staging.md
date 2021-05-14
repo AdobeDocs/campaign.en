@@ -14,17 +14,19 @@ With Campaign Cloud database, blast unitary calls are not recommended due to per
 Campaign staging mechanism is available for both built-in and custom table and brings the following advantages:
 
 * Data schema structure is replicated in the local staging table
-* [New APIs](new-apis.md) for ingestion flow directly into the staging table 
-* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database
+* New APIs for ingestion flow directly into the staging table. [Learn more](new-apis.md)
+* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](../config/replication.md).
 
 Some built-in schemas are Staged by default, such as nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
 Campaign Classic v7 APIs are still available but cannot benefit from this new Staging mechanism: API calls flow to directly directly to the Cloud database. Adobe recommends to use new Staging mechanism as much as possible to reduce overall pressure and latency on Campaign Cloud database. 
 
->[!NOTE]
->With this new mechanism, data synchronization is now **asynchronous**.
+>[!CAUTION]
+>
+>With this new mechanism, data synchronization for subscriptions, unsubscriptions or mobile registration is now **asynchronous**.
+>
 
-## Implementation steps
+## Implementation steps{#implement-staging}
 
 To implement Campaign staging mechanism on a specific table, follow the steps below:
 

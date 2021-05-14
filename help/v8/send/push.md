@@ -45,3 +45,8 @@ You must define your iOS and Android apps settings in Adobe Campaign.
 ## Create your first push notification
 
 :arrow_upper_right: Learn how to create your first push notifications in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+
+
+>[!CAUTION]
+>
+>With Campaign v8 mobile registration is now **asynchronous**. [Learn more](../dev/staging.md).

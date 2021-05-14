@@ -18,6 +18,7 @@ These workflows perform maintenance operations on the database, leverage the tra
 
 :arrow_upper_right: The full list of technical workflows is detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 
+
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
@@ -31,15 +32,40 @@ In addition to these technical workflows, Campaign v8 relies on specific technic
 
 These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** node of Campaign Explorer. **They must not be modified.**
 
+If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
+
 ## Data replication{#data-replication}
 
-Some built-in tables are replicated from Campaign database to [!DNL Snowflake] Cloud database through dedicated workflows decribed above.
+Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows decribed above.
 
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
+
+In addition to the built-in **Replicate Reference Tables** technical workflow, you can force data replication in your workflows. 
+
+You can:
+
+* add a specific **Javascript code** activity with the following code:
+
+![](assets/jscode.png)
+
+
+```
+nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
+```
+
+* add a specific **nlmodule** activity with the following command:
+
+![](assets/nlmodule.png)
+
+
+```
+nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
+```
+
+
 
 **Related topics**
 
 :arrow_upper_right: Learn how to get started with worflows in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
 :bulb: Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)
-
