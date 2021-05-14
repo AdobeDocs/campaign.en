@@ -9,15 +9,11 @@ level: Beginner
 ---
 # New Campaign APIs{#gs-new-api}
 
-You can use [all Campaign Classic v7 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) in Campaign v8. However, for subscriptions and unsubscription management, use the APIs [listed below](#sub-apis).
-
-## Data management
-
 Campaign v8 comes with three new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md).
 
 * Ingestion API: xtk.session.ingest. This API is dedicated to Data Insert only. [Learn more](#data-insert-api)
 * Data update/delete API: xtk.session.ingestExt. Ths API is used to update or delete data. [Learn more](#data-update-api)
-* xtk.session.lookup
+* Query API: xtk.session.lookup
 
 A dedicated built-in workflow will synchronize the data in the Cloud Database.
 
