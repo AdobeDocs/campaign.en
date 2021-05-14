@@ -44,15 +44,13 @@ In order to use APIs and interact with Adobe Campaign, you also need to be famil
 
 With Campaign Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
 
-:bulb: Learn how to implement the staging mechanism in [this page](staging.md).
+:bulb: [API staging mechanism is detailed in this page](staging.md)
 
 ## New APIs
 
 New APIs are available to manage data synchronization between Campaign local database and cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance
 
 :bulb: [New APIs are detailed in this page](new-apis.md)
-
-:bulb: [API staging mechanism is detailed in this page](staging.md)
 
 **Related topics**
 
