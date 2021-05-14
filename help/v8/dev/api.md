@@ -52,7 +52,7 @@ New APIs are available to manage data synchronization between Campaign local dat
 
 :bulb: [New APIs are detailed in this page](new-apis.md)
 
-:bulb: [API staging mechanism is detailed in this page](new-apis.md)
+:bulb: [API staging mechanism is detailed in this page](staging.md)
 
 **Related topics**
 
