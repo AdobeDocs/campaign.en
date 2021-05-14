@@ -10,25 +10,33 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 ---
 # Frequently Asked Questions{#faq}
 
-Need help as you are working with Campaign? Read the top 10 questions below, and other frequently asked questions in that page.
+Need help as you are working with Campaign? Read the top questions / answers below.
 
 1. How can I upgrade Campaign to the latest version?
 
     Adobe Campaign is regularly updated. Minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only.
 
     This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
-    
-    Please reach out to Adobe Customer Care team to have your environment upgraded.
+
+    :speech_balloon: As a Managed Cloud Services user, your instance is upgraded by Adobe with every new release. 
 
 1. How can I connect to Campaign v8?
 
+    You need to download and install Campaign Client Console to connect to Adobe Campaign.
+
     :bulb: [Click here to learn more](connect.md).
+
+1. Can Campaign v8 be installed on an on-premise or hybrid environment?
+
+    For now, Campaign v8 is only available in Managed Cloud Services, fully hosted by Adobe.
 
 1. How to improve email deliverability? 
 
+    Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
+
     :arrow_upper_right: Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-    :arrow_upper_right: Learn how to implement deliverability in Campaign [in this section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+    :arrow_upper_right: Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. How can I make sure my delivery is sent without errors?
 
@@ -38,18 +46,19 @@ Need help as you are working with Campaign? Read the top 10 questions below, and
     
 1. Can I monitor workflow execution?
 
-    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+    :arrow_upper_right: Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. Which systems and components Campaign v8 is compatible with? 
 
     You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
 
-1. Where are Campaign v8 release notes?
-
-    :bulb: You can access latest Campaign release notes here.
-
-1. What is the procedure for domain configuration?
+1. What is the procedure for domain delegation?
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    :arrow_upper_right: Use Campaign Control Panel to set up domain delegation. [Click here to learn more](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
+    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to delegate your subdomains to Adobe.
+
+1. I am a Campaign Classic v7 user, can I migrate to Campaign v8?
+
+    For now, Campaign v8 is only available for new implementations.
+    

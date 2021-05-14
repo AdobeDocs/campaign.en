@@ -13,7 +13,7 @@ Campaign v8 comes with three new APIs to manage data between Campaign local data
 
 * Ingestion API: xtk.session.ingest. This API is dedicated to Data Insert only. [Learn more](#data-insert-api)
 * Data update/delete API: xtk.session.ingestExt. Ths API is used to update or delete data. [Learn more](#data-update-api)
-* Query API: xtk.session.lookup
+* Query API: xtk.session.lookup. This API retrieves data from a query. [Learn more](#lookup-api)
 
 A dedicated built-in workflow will synchronize the data in the Cloud Database.
 
@@ -196,7 +196,20 @@ Once the workflow is executed, the staging table is updated as expected.
 As a result, staging table is updated as expected.
 
 
+## Query data{#lookup-api}
 
+Use the xtk.session.lookup API to retrieve data from a query.
+At the schema level, a specific attribute needs to be present.
+
+<srcSchema _cs="New (cus)" created="2021-02-25 09:05:08.523Z" createdBy-id="0" entitySchema="xtk:srcSchema"
+           img="xtk:schema.png" label="New" lastModified="2021-02-26 13:10:36.283Z"
+           mappingType="sql" md5="13B698F9536AD7EFA396D107D3DD9719" modifiedBy-id="0"
+           name="New" namespace="cus" xtkschema="xtk:srcSchema">
+  <element lookup="true" autoStg="true" autopk="true" dataSource="nms:extAccount:ffda" label="New"
+           name="New">
+    <attribute label="test1" name="test1" type="string"/>
+</element>
+</srcSchema>
 
 ## Subscription management {#sub-apis}
 
