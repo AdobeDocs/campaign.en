@@ -46,7 +46,8 @@ Once the workflow is executed, the staging table is fed as expected.
 **From a SOAP call**
 
 1. Get the authentication token. 
-1. Trigger the API. The payload is: 
+1. Trigger the API. The payload is:
+    
     ```
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
     <soapenv:Header/>
