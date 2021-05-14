@@ -89,6 +89,7 @@ hide: yes
   + APIs {#api}
     + [Get started](dev/api.md)
     + [New APIs](dev/new-apis.md)
+    + [API staging mechanism](dev/staging.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
 
 
