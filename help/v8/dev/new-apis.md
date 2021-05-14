@@ -11,9 +11,17 @@ level: Beginner
 
 Campaign v8 comes with three new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md).
 
-* Ingestion API: xtk.session.ingest. This API is dedicated to Data Insert only. [Learn more](#data-insert-api)
-* Data update/delete API: xtk.session.ingestExt. Ths API is used to update or delete data. [Learn more](#data-update-api)
-* Query API: xtk.session.lookup. This API retrieves data from a query. [Learn more](#lookup-api)
+* Ingestion API: **xtk.session.ingest**
+
+    This API is dedicated to Data Insert only. [Learn more](#data-insert-api)
+    
+* Data update/delete API: **xtk.session.ingestExt**
+
+    This API is used to update or delete data. [Learn more](#data-update-api)
+
+* Query API: **xtk.session.lookup**. 
+    
+    This API retrieves data from a query. [Learn more](#lookup-api)
 
 A dedicated built-in workflow will synchronize the data in the Cloud Database.
 
@@ -198,7 +206,8 @@ As a result, staging table is updated as expected.
 
 ## Query data{#lookup-api}
 
-Use the xtk.session.lookup API to retrieve data from a query.
+Use the **xtk.session.lookup** API to retrieve data from a query.
+
 At the schema level, a specific attribute needs to be present.
 
 ```
