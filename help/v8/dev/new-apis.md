@@ -201,6 +201,7 @@ As a result, staging table is updated as expected.
 Use the xtk.session.lookup API to retrieve data from a query.
 At the schema level, a specific attribute needs to be present.
 
+ ```
 <srcSchema _cs="New (cus)" created="2021-02-25 09:05:08.523Z" createdBy-id="0" entitySchema="xtk:srcSchema"
            img="xtk:schema.png" label="New" lastModified="2021-02-26 13:10:36.283Z"
            mappingType="sql" md5="13B698F9536AD7EFA396D107D3DD9719" modifiedBy-id="0"
@@ -210,6 +211,7 @@ At the schema level, a specific attribute needs to be present.
     <attribute label="test1" name="test1" type="string"/>
 </element>
 </srcSchema>
+ ```
 
 ## Subscription management {#sub-apis}
 
