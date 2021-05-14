@@ -34,7 +34,7 @@ For a better understanding of Campaign built-in tables and their interaction, re
 
 >[!CAUTION]
 >
->Some built-in Campaign schemas have an associated schema on the Cloud database. These schemas are identified by the **Xxl** namespace and must not be modified.
+>Some built-in Campaign schemas have an associated schema on the Cloud database. These schemas are identified by the **Xxl** namespace and must not be modified or extended.
 
 ## Syntax of schemas {#syntax-of-schemas}
 
@@ -74,16 +74,17 @@ A namespace lets you group a set of schemas by area of interest. For example, th
 >
 >Identifiers must not begin with numeric characters.
 
-## Reserved namespaces
+## Reserved namespaces {#reserved-namespaces}
 
 Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application. The following namespace **must not be used** to identify a new schema, in any upper/lower case combination:
 
-* **xxl**: reserved to Cloud database schemas,
-* **xtk**: reserved to platform system data,
-* **nl**: reserved to the overall use of the application,
-* **nms**: reserved to deliveries (recipient, delivery, tracking, etc.),
-* **ncm**: reserved to content management,
-* **temp**: reserved to temporary schemas.
+* **xxl**: reserved to Cloud database schemas
+* **xtk**: reserved to platform system data
+* **nl**: reserved to the overall use of the application
+* **nms**: reserved to deliveries (recipient, delivery, tracking, etc.)
+* **ncm**: reserved to content management
+* **temp**: reserved to temporary schemas
+* **crm**: reserved to CRM connectors integration
 
 The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **nms:recipient**.
 

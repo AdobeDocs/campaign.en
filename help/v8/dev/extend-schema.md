@@ -30,7 +30,7 @@ To extend a schema, follow the steps below:
 
     ![](assets/extend-schema-select.png)
 
-    By convention, name the extension schema the same as the built-in schema, and use a custom namespace.
+    By convention, name the extension schema the same as the built-in schema, and use a custom namespace.  Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces).
 
     ![](assets/extend-schema-validate.png)
 
