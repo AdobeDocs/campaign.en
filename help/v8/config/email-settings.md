@@ -25,7 +25,7 @@ Note that:
 
 Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **Email BCC** option. 
 
-:arrow_upper_right: For more on this, refer to [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=en#email-bcc)
+:arrow_upper_right: For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=en#email-bcc)
 
 **Note**: Email BCC capability is optional. Please check your license agreement.
 

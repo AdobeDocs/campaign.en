@@ -79,7 +79,7 @@ The edit control automatically adapts to the corresponding data type and uses th
 
 By default, each field is displayed on a single line and occupies all available space depending on the type of data.
 
-:arrow_upper_right: All form attributes are listed in [Campaign Classic documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+:arrow_upper_right: All form attributes are listed in [Campaign Classic v7 documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Formatting {#formatting}
 

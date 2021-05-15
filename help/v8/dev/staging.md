@@ -35,7 +35,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
     ```
     <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
             entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
-            lastModified="YYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
+            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
             modifiedBy-id="0" name="sampleTable" namespace="dem" xtkschema="xtk:srcSchema">
     <element autopk="true" autouuid="true" dataSource="nms:extAccount:ffda" label="Sample Table"
             name="sampleTable">
@@ -52,9 +52,9 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
 1. Enable the staging mechanism in the schema definition by adding the **autoStg="true"** parameter.
 
     ```
-    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
+    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
             entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
-            lastModified="YYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
+            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
             modifiedBy-id="0" name="sampleTable" namespace="dem" xtkschema="xtk:srcSchema">
     <element autoStg="true" autopk="true" autouuid="true" dataSource="nms:extAccount:ffda" label="Sample Table"
             name="sampleTable">

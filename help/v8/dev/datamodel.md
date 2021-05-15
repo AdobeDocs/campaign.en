@@ -56,7 +56,7 @@ It is possible to extend the recipient table, but not to reduce the number of fi
 
 :bulb: Learn how to extend an existing schema in [this section](extend-schema.md).
 
-:arrow_upper_right: Discover examples of built-in recipient table extensions in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+:arrow_upper_right: Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 

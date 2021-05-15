@@ -19,7 +19,7 @@ External accounts are used by technical processes such as technical workflows or
 >The internal email delivery routing external account must not be enabled in Campaign v8.
 > 
 
-:arrow_upper_right: Learn how to create and configure external accounts in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)
+:arrow_upper_right: Learn how to create and configure external accounts in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)
 
 A specific external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 

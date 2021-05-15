@@ -30,7 +30,7 @@ Two table extension modes are available:
 
 * Through the interface, by using the **New field** assistant
 
-    :arrow_upper_right: Learn how to quickly add a new field in Campaign in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+    :arrow_upper_right: Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * Programmatically, by extending the schema
 
@@ -43,9 +43,9 @@ To add an entirely new type of data that does not exist out-of-the-box in Adobe 
 
 **Related topics**
 
-:arrow_upper_right: Example of schema edition in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
+:arrow_upper_right: Example of schema edition in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 
-:arrow_upper_right: Use Case: link a field to an existing reference table in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
+:arrow_upper_right: Use Case: link a field to an existing reference table in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
 
 
 ## Modify the input forms
@@ -60,7 +60,7 @@ The Adobe Campaign interface uses many Web applications to access, manage, and i
 
 The out-of-the-box Web applications are stored in the Administration > Configuration > Web applications node.
 
-:arrow_upper_right: Learn how to create an overview page in Campaign in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
+:arrow_upper_right: Learn how to create an overview page in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
 
 
 ## Customize lists and create filters {#gs-lists-and-filters}
@@ -69,16 +69,16 @@ The out-of-the-box Web applications are stored in the Administration > Configura
 
 Campaign lists come with predefined filters to facilitate navigation and data vizualisation. 
 
-:arrow_upper_right: Learn more about filtering options in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
+:arrow_upper_right: Learn more about filtering options in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
 
 
 ### Access data from the Explorer
 
 When you navigate in the Adobe Campaign Explorer tree, the data contained in the database is displayed in lists. You can filter these lists, run searches, add information, filter and sort data.
 
-:arrow_upper_right: Learn how to configure lists and save a list configuration in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
+:arrow_upper_right: Learn how to configure lists and save a list configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
 
 
 You can apply filter on these lists to display only the data needed by the operator. Then actions can then be executed on the filtered data. Filter configuration lets you select data from a list dynamically. If the data is modified, the filtered data is updated.
 
-:arrow_upper_right: Learn how to filter data in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
+:arrow_upper_right: Learn how to filter data in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)

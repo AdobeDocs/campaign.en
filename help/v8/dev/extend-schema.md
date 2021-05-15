@@ -43,14 +43,13 @@ To extend a schema, follow the steps below:
     ![](assets/extend-schema-sample.png)
 
     ```
-    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
-            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
             mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-     <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-           name="recipient">
-    <attribute label="Member since" name="MembershipYear" type="long"/>
-    <attribute length="50" name="lastName"/>
-    <attribute _operation="delete" name="birthDate"/>
+     <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient" name="recipient">
+        <attribute label="Member since" name="MembershipYear" type="long"/>
+        <attribute length="50" name="lastName"/>
+        <attribute _operation="delete" name="birthDate"/>
     </element>
     </srcSchema>
     ```

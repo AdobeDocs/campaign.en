@@ -14,7 +14,7 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign.
 
-Learn key steps to create a delivery in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
+Learn key steps to create a delivery in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
 
 Adobe Campaign v8 comes with the following delivery channels:
 
@@ -51,11 +51,11 @@ Messages delivered by Adobe Campaign can be personalized in various ways.
 You can:
 
 * Insert dynamic personalization fields. 
-    :arrow_upper_right: Learn how to use personalization fields in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+    :arrow_upper_right: Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * Insert predefined personalization blocks. 
-    :arrow_upper_right: Learn what is a personalization block and how to use it in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+    :arrow_upper_right: Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
 * Create conditional content. 
-    :arrow_upper_right: Learn how to insert conditional content in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
+    :arrow_upper_right: Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## Send transactional messages
 
@@ -65,7 +65,7 @@ Transactional messaging (Message Center) is the Campaign module designed for man
 
 :bulb: Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-:arrow_upper_right: Discover this capability in a end-to-end use case in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
+:arrow_upper_right: Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## Delivery and tracking logs
 

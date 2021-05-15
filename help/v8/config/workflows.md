@@ -43,7 +43,7 @@ Learn more about workflows in these sections:
 
 Design recurring and create a new delivery instance each time it executes. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
 
-:arrow_upper_right: Learn how to create a recurring campaign in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
+:arrow_upper_right: Learn how to create a recurring campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
 
 ## Configure your end-to-end validation cycle
 
@@ -51,7 +51,7 @@ Set up approval process for each step of your deliveries and ensure full monitor
 
 Notifications are sent to the Adobe Campaign operators who are set as reviewers to inform them of an approval request.
 
-:arrow_upper_right: Learn how to set up and manage the approval process in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html).
+:arrow_upper_right: Learn how to set up and manage the approval process in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html).
 
 
 ## Send alerts
@@ -60,24 +60,24 @@ As a Campaign operator, you can receive alerts when a failure happens.
 
 You can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors.
 
-:arrow_upper_right: Learn how to create a workflow to monitor the status of other workflows in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html?lang=en#step-1--creating-the-monitoring-workflow).
+:arrow_upper_right: Learn how to create a workflow to monitor the status of other workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html?lang=en#step-1--creating-the-monitoring-workflow).
 
 You can also receive an alert when a failure happens
 
 ## Send automatic reports
 
-:arrow_upper_right: Learn how to automatically send a report to a list of operators [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html?lang=en#step-1--creating-the-recipient-list).
+:arrow_upper_right: Learn how to automatically send a report to a list of operators [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html?lang=en#step-1--creating-the-recipient-list).
 
 
 ## Leverage trigger events
 
 Use Campaign Transactional messaging to automate messages generated from events triggered from information systems. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. These messages can be sent individually or in batch via email, SMS or push notificat)ions.
 
-:arrow_upper_right: Learn more about transactional messaging capabilities in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
+:arrow_upper_right: Learn more about transactional messaging capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
 
 
 Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
 
-:arrow_upper_right: Learn how to integrate Campaign with Analytics triggers in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
+:arrow_upper_right: Learn how to integrate Campaign with Analytics triggers in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
 :bulb: Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)

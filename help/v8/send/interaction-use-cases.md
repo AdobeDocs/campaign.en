@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Use cases
 
-Leverage Campaign Interaction capabilities through these step-by-step use cases available in Campaign Classic documentation.
+Leverage Campaign Interaction capabilities through these step-by-step use cases available in Campaign Classic v7 documentation.
 
 :arrow_upper_right: [Create and apply a presentation rule](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html)
 

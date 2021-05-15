@@ -17,10 +17,10 @@ Campaign helps you add contacts to the Cloud database. You can load a file, sche
 
 ## Import profiles in a workflow
 
-Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html).
+Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html).
 
 
-Learn more in Campaign Classic documentation:
+Learn more in Campaign Classic v7 documentation:
 
 :arrow_upper_right: [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
 
@@ -32,7 +32,7 @@ Learn more in Campaign Classic documentation:
 
 Create and execute a generic data import job to load contacts in the Cloud database.
 
-:arrow_upper_right: Learn how to run unitary import jobs to feed your database in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
+:arrow_upper_right: Learn how to run unitary import jobs to feed your database in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
 
 ## Collect profiles through web apps
 

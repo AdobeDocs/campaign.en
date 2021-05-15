@@ -19,7 +19,7 @@ Two types of operators can use Campaign Interaction: **Offer managers** and **De
 
 1. Create a new operator. 
 
-    :arrow_upper_right: Steps to create an operator in Campaign are detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+    :arrow_upper_right: Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
 
@@ -43,7 +43,7 @@ The rights assigned to the Offer manager enable them to carry out the following 
 
 1. Create a new operator.
   
-    :arrow_upper_right: Steps to create an operator in Campaign are detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+    :arrow_upper_right: Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Delivery manager]** group.
 
