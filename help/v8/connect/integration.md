@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 ---
-# Connect Campaign and your solutions and tools{#gs-ac-connectors}
+# Connect Campaign with your solutions{#gs-ac-connectors}
 
 You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities.
 
