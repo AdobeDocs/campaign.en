@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 ---
-# Connect Campaign and other solutions {#gs-ac-connectors}
+# Connect Campaign and your solutions and tools{#gs-ac-connectors}
 
 You can connect your Campaign instance with Adobe Experience Cloud solutions to combine capabilities.
 
@@ -46,7 +46,6 @@ Activate your CRM data on cross-channel communication: learn how to pass on cont
 CRM connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
 :bulb: Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
-
 
 ## Federated Data Access (FDA){#gs-fda}
 
