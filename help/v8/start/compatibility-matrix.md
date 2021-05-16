@@ -26,7 +26,7 @@ This document lists all systems and components supported for the latest build of
 **Operating systems**
 
 * **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recommended for Japanese instances
+* **Microsoft Windows** 8, 10 (recommended for Japanese instances)
 
 **Browser**
 
