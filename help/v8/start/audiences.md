@@ -16,7 +16,7 @@ Profiles can be grouped in lists or collected by querying the database.
 
 Profiles are centralized in the cloud database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action.
 
-“**Profile**” means a record of information representing a customer, a prospect, a newsletter subscriber, etc.
+**Profile** means a record of information representing a customer, a prospect, a newsletter subscriber, etc.
 A record in the **nmsRecipient** table or an external table contains a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. Learn more about built-in profiles and recipient tables in [this section](../dev/datamodel.md#ootb-profiles).
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
@@ -50,14 +50,14 @@ Use the **Query** activity in a workflow to query your database, segment data an
 
 Targeting can be created via a combination of queries in a graphical sequence in a workflow. You can create audiences which will be targeted according to your requirements. To display the workflow editor, click the **[!UICONTROL Targeting and workflows]** tab in the campaign dashboard.
 
-:arrow_upper_right: Learn how to build an audience in a campaign workflow in [this page]https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+:arrow_upper_right: Learn how to build an audience in a campaign workflow in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
 
 ## Active profiles{#active-profiles}
 
 According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles.
 
-“Profile” means a record of information (e.g.: a record in the [Recipient table](../dev/datamodel.md) or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Profiles are considered active if they have been targeted or communicated within the past 12 months via any channel.
+**Profile** means a record of information (e.g.: a record in the [Recipient table](../dev/datamodel.md) or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Profiles are considered active if they have been targeted or communicated within the past 12 months via any channel.
 
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 

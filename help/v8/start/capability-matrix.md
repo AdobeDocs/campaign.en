@@ -18,7 +18,7 @@ Key changes:
 * Increase speed of delivery
 * Real-time reporting with Cubes
 
-As a Campaign Classic user, note that most of the Campaign Classic v7 features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more](#gs-unavailable-features)
+As a Campaign Classic user, note that most of the Campaign Classic v7 features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
 :bulb: Learn more about Campaign v8 architecture in [this page](../dev/architecture.md).
 
@@ -57,7 +57,7 @@ A specific technical workflow handles replication of tables that need to be pres
 
 Campaign v8 objects now use a **Universally Unique ID (UUID)**, which allows for unlimited unique values to identify data
 
-Please not that this ID is string-based and not sequential.
+Please note that this ID is string-based and not sequential.
  
 ### Simplified maintenance
 

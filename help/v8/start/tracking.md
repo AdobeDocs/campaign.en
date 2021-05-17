@@ -14,7 +14,7 @@ exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d25755
 
 Campaign tracking capabilities track the messages sent and  help you analyze the behavior of recipients: opening, clicks on links, subscriptions/unsubscription, and more. You can access dedicated logs, reports and metrics, query the database to review collected data, and more.  
 
-:arrow_upper_right:  For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab)..
+:arrow_upper_right:  For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab).
 
 The delivery dashboard is a key tool to monitor your deliveries and potential issues during the sending of messages. 
 

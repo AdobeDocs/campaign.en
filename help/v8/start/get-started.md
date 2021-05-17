@@ -14,9 +14,9 @@ Adobe Campaign provides a platform for designing cross-channel customer experien
 
 Use Campaign to:
 
-* Drive personalization and engagement through a single accessible view of the customer
-* Integrate email, mobile, online and offline channels into the customer journey
-* Automate the delivery of meaningful and timely messages and offers
+* **Drive** personalization and engagement through a single accessible view of the customer
+* **Integrate** email, mobile, online and offline channels into the customer journey
+* **Automate** the delivery of meaningful and timely messages and offers
 
 ![](assets/ac-capabilities.png) 
 
@@ -85,9 +85,9 @@ Campaign workspace is available through the [Client Console](../dev/general-arch
 
 Campaign workspace can be adapted depending on your needs. 
 
-:arrow_upper_right: Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+:arrow_upper_right:  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
 
-:arrow_upper_right: Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+:arrow_upper_right:  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 You can also access some capabilities through the web.
 
