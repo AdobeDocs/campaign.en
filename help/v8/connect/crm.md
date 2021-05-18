@@ -21,7 +21,7 @@ These connectors enable quick and easy data integration: Adobe Campaign provides
 
 Supported CRM and versions are detailed in Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
-**NOTE** - The CRM connectors only work with a secure URL (https).
+:speech_balloon: The CRM connectors only work with a secure URL (https).
 
 ## Implementation steps {#crm-implementation-steps}
 

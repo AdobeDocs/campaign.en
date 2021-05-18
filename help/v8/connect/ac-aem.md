@@ -12,7 +12,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 
 Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
-You can also directly insert assets from your Adobe Experience Manager Assets Library while editing an email or a landing page in Adobe Campaign. This functionality is detailed in the Assets chapter.**ADD LINK**
+You can also directly insert assets from your Adobe Experience Manager Assets Library while editing an email or a landing page in Adobe Campaign. This functionality is detailed in the Adobe Experience Manager Assets [chapter](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
 
 This means that you can make the most of both Adobe Experience Manager content editing capabilities and Adobe Campaign delivery capabilities.
 
