@@ -57,8 +57,6 @@ To create a message template, follow the steps below:
 
 1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body. See [Create the message content](#create-message-content).
 
-   ![](assets/messagecenter_create_model_004.png)
-
 ### Create the content{#create-message-content}
 
 The definition of the transactional message content is the same as for all deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to [this section](../start/create-message.md).
@@ -93,29 +91,21 @@ To insert personalization tags into the body of an email message, apply the foll
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before sending the message. Seed addresses are linked to the delivery and cannot be used for other deliveries.
 
-1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
+1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab, then click the **[!UICONTROL Add]** button.
 
    ![](assets/messagecenter_create_seed_1.png)
 
-1. Assign a label to it for easy selection later.
-
-   ![](assets/messagecenter_create_seed_2.png)
-
-1. Enter the seed address (email or mobile phone depending on the communication channel). 
-
-   ![](assets/messagecenter_create_seed_3.png)
+1. Assign a label to it for easy selection later, then enter the seed address (email or mobile phone depending on the communication channel).
 
 1. Enter the external identifier: this optional field allows you to enter a business key (unique ID, name + email, etc.) that is common to all applications on your website, used to identify your profiles. If this field is also present in the Adobe Campaign marketing database, you can then reconcile an event with a profile in the database.
 
-   ![](assets/messagecenter_create_seed_4.png)
+   ![](assets/messagecenter_create_seed_2.png)
 
 1. Insert test data. Refer to [this section](#personalization-data).
 
    ![](assets/messagecenter_create_custo_3.png)
 
-1. Click the **[!UICONTROL Add other seed addresses]** link, then click the **[!UICONTROL Add]** button.
-
-   ![](assets/messagecenter_create_seed_5.png)
+1. Click **[!UICONTROL Ok]** to confirm the creation of the seed address.
 
 1. Repeat the process to create as many addresses as you need.
 
@@ -138,18 +128,13 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_custo_3.png)
 
-
 ### Peview your transactional message{#transactional-message-preview}
 
 Once you have created one or more seed addresses and the message body, you can preview the message and check its personalization.
 
-1. In the message template, click the **[!UICONTROL Preview]** tab.
+1. In the message template, click the **[!UICONTROL Preview]** tab, then select **[!UICONTROL A seed address]** in the drop-down list.
 
    ![](assets/messagecenter_preview_1.png)
-
-1. Select **[!UICONTROL A seed address]** in the drop-down list.
-
-   ![](assets/messagecenter_preview_2.png)
 
 1. Select the seed address created previously to display the personalized message.
 
