@@ -17,7 +17,7 @@ Adobe Campaign comes with a set of Javascript functions which you can use:
 
 You can use Javascript APIs to write in Campaign cloud database or read from the database:
 
-* Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Learn more in[Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
+* Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
 * Generic data acces APIs for querying the datamodel data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
 
 Campaign v8 works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.

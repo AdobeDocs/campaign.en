@@ -17,11 +17,12 @@ However, Adobe Campaign itself does not manage archived files. It does enable yo
 
 To do this, .eml files corresponding to the sent emails are transferred to a remote server, such as an SMTP email server. The archiving destination is a BCC email address (invisible to the delivery recipients) that you must specify.
 
-Note that:
-
-* You can only use one BCC email address.
-
-* Only successfully sent emails are taken in account, bounces are not.
+>[!NOTE]
+>
+>* You can only use one BCC email address.
+>
+>* Only successfully sent emails are taken in account, bounces are not.
+>
 
 Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **Email BCC** option. 
 

@@ -16,7 +16,7 @@ External accounts are used by technical processes such as technical workflows or
 
 >[!CAUTION]
 >
->The internal email delivery routing external account must not be enabled in Campaign v8.
+>The internal email delivery routing external account must not be enabled in Adobe Campaign.
 > 
 
 :arrow_upper_right: Learn how to create and configure external accounts in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)

@@ -36,7 +36,7 @@ If needed, you can launch data synchronization manually. To perform this, right-
 
 ## Data replication{#data-replication}
 
-Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows decribed above.
+Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows described above.
 
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 
@@ -46,23 +46,20 @@ You can:
 
 * add a specific **Javascript code** activity with the following code:
 
-![](assets/jscode.png)
-
-
 ```
 nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
 ```
 
+![](assets/jscode.png)
+
+
 * add a specific **nlmodule** activity with the following command:
-
-![](assets/nlmodule.png)
-
 
 ```
 nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
-
+![](assets/nlmodule.png)
 
 **Related topics**
 
