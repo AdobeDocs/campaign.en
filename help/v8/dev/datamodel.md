@@ -22,11 +22,11 @@ The basic structure of the Adobe Campaign data model can be described as follows
 
 * **Logs tables**: These tables store all the logs associated with the execution of the campaigns.
 
-    Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (NmsBroadLog) contains the delivery logs for all recipients.
-    The main Tracking logs table (NmsTrackingLog) stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
+    Delivery logs are all messages sent to recipients or devices across all channels. The main Delivery logs table (NmsBroadLogRcp) contains the delivery logs for all recipients.
+    The main Tracking logs table (NmsTrackingLogRcp) stores the tracking logs for all recipients. The tracking logs refer to reactions of recipients, such as email openings and clicks. Each reaction corresponds to a tracking log.
     Delivery logs and tracking logs are deleted after a certain period, which is specified in Adobe Campaign and can be modified. Therefore, it is highly recommended to export the logs on a regular basis.
 
-* **Technical tables**: Gather technical data used for the applicative process, including operators and user rights (NmsGroup), folders (XtkFolder).
+* **Technical tables**: Gather technical data used for the applicative process, including operators and user rights (xtkGroup), folders (XtkFolder).
 
 >[!NOTE]
 >

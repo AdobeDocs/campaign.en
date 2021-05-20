@@ -51,11 +51,11 @@ If not falling into any of these, you are most likely not going to need this att
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign.
 
-* A large table should mostly have numeric fields and contain links to reference tables (when working with list of values).
+* Within large tabl, you could insert string or numeric fields and add links to reference tables (when working with list of values).
 * The **expr** attribute  allows to define a schema attribute as a calculated field rather than a physical set value in a table. This can enable access to the information in a different format (as for age and birth date for example) without the need to store both values. This is a good way to avoid duplicating fields. For instance, the Recipient table uses an expression for the domain, which is already present in the email field.
 * However, when the expression calculation is complex, it is not recommended to use the **expr** attribute as on-the-fly calculation may impact the performance of your queries.
 * The **XML** type is a good way to avoid creating too many fields. But it also takes up disk space as it uses a CLOB column in the database. It also can lead to complex SQL queries and may impact performance.
-* The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
+* The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 16K, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
 ### Choice of fields {#choice-of-fields}
@@ -67,7 +67,7 @@ A field is required to be stored in a table if it has a targeting or personaliza
 
 In addition to the **autouuid** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
 
-Efficient keys are essential for performance. Numeric data types should always be preferred as keys for tables.
+Efficient keys are essential for performance. With Snowflake, you can insert nnumeric or string-based data types as keys for tables.
 
 <!-- ### Dedicated tablespaces {#dedicated-tablespaces}
 
@@ -103,7 +103,7 @@ Most organizations are importing records from external systems. While the physic
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
 When creating a custom table, you have two options:
-* A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
+* A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. With Snowflake, integers or string-based keys will provide higher performances in big tables and joining with other tables.
 * Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. Autouuid should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
 
 >[!CAUTION]
@@ -202,7 +202,7 @@ Below are a few common best practices that should be followed when designing you
 * When using additional custom recipient tables, make sure you have a dedicated log table for each delivery mapping.
 * Reduce the number of columns, particularly by identifying those that are unused.
 * Optimize the data model relations by avoiding complex joins, such as joins on several conditions and/or several columns.
-* For join keys, always use numeric data rather than character strings.
+* For join keys, you can use numeric or string-based values.
 * Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
 ### Size of tables {#size-of-tables}
