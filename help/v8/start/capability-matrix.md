@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 ---
-# Campaign Classic v7 - Campaign v8 capabilities{#gs-matrix}
+# [!DNL Campaign Classic] v7 - [!DNL Campaign] v8 capabilities{#gs-matrix}
 
-As an existing Campaign Classic v7 user, you should not expect any big disruption in the way you usually interact with Adobe Campaign. Most changes in v8 are not visible, except for small changes surfacing in the UI and configuration steps. 
+As an existing [!DNL Campaign Classic] v7 user, you should not expect any big disruption in the way you usually interact with [!DNL Adobe Campaign]. Most changes in v8 are not visible, except for small changes surfacing in the UI and configuration steps. 
 
 Key changes: 
 
@@ -18,25 +18,25 @@ Key changes:
 * Increase speed of delivery
 * Real-time reporting with Cubes
 
-As a Campaign Classic user, note that most of the Campaign Classic v7 features are available with Campaign v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
+As a [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
-:bulb: Learn more about Campaign v8 architecture in [this page](../dev/architecture.md).
+:bulb: Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
 
 ## Product configuration changes
 
-### Campaign and [!DNL Snowflake] {#ac-gs-snowflake}
+### [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, batch queries and workflow execution.
+[!DNL Adobe Campaign] v8 works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, batch queries and workflow execution.
 
-This is a foundational change in the software architecture. Data is now remote and Campaign federates the whole data, including Profiles. Campaign processes now scales end-to-end, from targeting to message execution: data ingestion, segmentation, targeting, queries, deliveries will now typically run in minutes. This new version solves the whole challenge of scaling while keeping the same level of flexibility & extensibility. The number of profiles is almost unlimited, and data retention can be extended.
+This is a foundational change in the software architecture. Data is now remote and Campaign federates the whole data, including Profiles. [!DNL Campaign] processes now scales end-to-end, from targeting to message execution: data ingestion, segmentation, targeting, queries, deliveries will now typically run in minutes. This new version solves the whole challenge of scaling while keeping the same level of flexibility & extensibility. The number of profiles is almost unlimited, and data retention can be extended.
 
-Cloud storage is performed in **[!DNL Snowflake]**: a new built-in **external account** ensures connectivity with the Cloud Database. It is configured by Adobe and must not be modified.  [Learn more](../config/external-accounts.md).
+Cloud storage is performed in **[!DNL Snowflake]**: a new built-in **external account** ensures connectivity with the Cloud Database. It is configured by Adobe and must not be modified. [Learn more](../config/external-accounts.md).
 
-Any built-in schema/table which needs to be moved or replicated in Cloud Database comes with a built-in schema extension under the **xxl** namespace. Those extensions contain any modification required to move built-in schemas from the Campaign local database to the [!DNL Snowflake] Cloud database and to adapt their structure accordingly: new UUID, updated links, etc.
+Any built-in schema/table which needs to be moved or replicated in Cloud Database comes with a built-in schema extension under the **xxl** namespace. Those extensions contain any modification required to move built-in schemas from the [!DNL Campaign] local database to the [!DNL Snowflake] Cloud database and to adapt their structure accordingly: new UUID, updated links, etc.
 
 >[!CAUTION]
 >
-> Customer data is not stored in the local Campaign database. As a consequence, any custom table needs to be create in the Cloud database.
+> Customer data is not stored in the local [!DNL Campaign] database. As a consequence, any custom table needs to be create in the Cloud database.
 >
 
 Specific APIs are available to manage data between the local and the cloud database. Learn how these new APIs work and how to use them in [this page](../dev/new-apis.md).

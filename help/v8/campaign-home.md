@@ -11,7 +11,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
-* **[What is Adobe Campaign](start/get-started.md)** - Key capabilities and use cases
+* **[What is [!DNL Adobe Campaign]](start/get-started.md)** - Key capabilities and use cases
 
 * **[What's new in v8](start/whats-new.md)** - Discover Campaign v8 capabilities
 
