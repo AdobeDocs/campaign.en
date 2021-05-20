@@ -203,24 +203,6 @@ Once the workflow is executed, the staging table is updated as expected.
 
 As a result, staging table is updated as expected.
 
-
-## Query data{#lookup-api}
-
-Use the **xtk.session.lookup** API to retrieve data from a query.
-
-At the schema level, a specific attribute needs to be present.
-
-```
-<srcSchema _cs="New (cus)" created="YYYY-DD-MM HH:MM:SS.TZ" createdBy-id="0" entitySchema="xtk:srcSchema"
-           img="xtk:schema.png" label="New" lastModified="YYYY-DD-MM HH:MM:SS.TZ"
-           mappingType="sql" md5="xxxxxxxxxxxxxx" modifiedBy-id="0"
-           name="New" namespace="cus" xtkschema="xtk:srcSchema">
-    <element lookup="true" autoStg="true" autopk="true" dataSource="nms:extAccount:ffda" label="New" name="New">
-    <attribute label="test1" name="test1" type="string"/>
-    </element>
-</srcSchema>
-```
-
 ## Subscription management {#sub-apis}
 
 Subscription management in Campaign is described in [this page](../start/subscriptions.md).
