@@ -32,7 +32,7 @@ Delivery managers can only view the **[!UICONTROL Live]** environment and levera
 
 By default, Campaign comes with a built-in environment to target the recipient table (identified offers). To target another table, follow the steps below:
 
-1. Browse to **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Delivery mappings]**, right-click the delivery mapping you want to use and select **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
+1. Browse to **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, right-click the target mapping you want to use and select **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 
    ![](assets/offer_env_anonymous_001.png)
 
