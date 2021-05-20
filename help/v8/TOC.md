@@ -39,7 +39,6 @@ hide: yes
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
-  + [Help & Support](start/support.md)
 + Send {#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)

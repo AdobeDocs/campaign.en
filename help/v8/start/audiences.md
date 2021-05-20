@@ -59,10 +59,11 @@ According to your contract, each of your Campaign instances is provisioned with 
 
 **Profile** means a record of information (e.g.: a record in the [Recipient table](../dev/datamodel.md) or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Profiles are considered active if they have been targeted or communicated within the past 12 months via any channel.
 
+<!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
 :arrow_upper_right: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
-
+-->
 
 **Related topics**
 

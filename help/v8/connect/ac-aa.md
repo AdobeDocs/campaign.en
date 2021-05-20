@@ -14,7 +14,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 
 You can use Experience Cloud Triggers to connect data between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves user's actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to implement Experience Cloud triggers with Campaign.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
 
 ## Adobe Analytics Data Connector
 
@@ -41,5 +41,5 @@ The action fields for each tool are as follows:
 
 Learn more about Adobe Campaign and Adobe Analytics in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html?lang=en#technical-workflows-of-web-analytics-processes)
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to integrate Adobe Analytics Data Connector with Campaign.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics Data Connector with Campaign.
 

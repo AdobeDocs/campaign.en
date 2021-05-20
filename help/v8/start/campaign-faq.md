@@ -56,9 +56,31 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to delegate your subdomains to Adobe.
+    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to delegate your subdomains to Adobe.
 
 1. I am a Campaign Classic v7 user, can I migrate to Campaign v8?
 
     For now, Campaign v8 is only available for new implementations.
+
+
+
+1. How can I download Campaign?
+
+    You can get the installation program and the client console from Adobe Download Center.
     
+    [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
+    
+    Learn more about the Distribution Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+
+1.  Can I connect with Campaign experts?
+
+    Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+
+
+1. How can I log an issue?
+
+    Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
+
+    To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview). 
+
+    This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 
