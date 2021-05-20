@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Extend Campaign schemas
 description: Learn how to extend Campaign schemas

@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
@@ -12,7 +12,7 @@ hide: yes
 
 # Adobe Campaign v8 documentation {#campaign-v8}
 
-+ [Product documentation](campaign-home.md)
++ [Campaign v8 documentation](campaign-home.md)
 + What's new? {#start}
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)

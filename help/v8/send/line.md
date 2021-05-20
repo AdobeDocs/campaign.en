@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Send direct LINE messages with Adobe Campaign
 description: Get started with LINE messaging

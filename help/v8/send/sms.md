@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Send SMS with Adobe Campaign
 description: Get started with SMS in Campaign

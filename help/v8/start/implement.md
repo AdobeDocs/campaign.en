@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Implementation guidelines
 description: Learn how to implement Campaign v8

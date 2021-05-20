@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign Interaction Offer spaces
 description: Learn how to create Offer spaces

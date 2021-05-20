@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8 Frequently Asked Questions
 description: Discover Campaign common Q&A

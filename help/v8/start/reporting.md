@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Get started with Campaign reports
 description: Get started with Campaign reporting capabilities
