@@ -70,9 +70,13 @@ The following browsers are compatible with Campaign for Web Access.
 
 ## How to check your Campaign version
 
-The **Help > About…** menu lets you access the following information:
+Use the **Help > About…** menu to check your version.
 
-* the version number for Campaign Client Console and application server
-* the build number for Campaign Client Console and application server
-* a link to contact Adobe Customer Care
-* links to Adobe Privacy Policy, Terms of Use and Cookies Policy
+![](assets/ac-version.png)
+
+You access the following information:
+
+* The **version** number of your Client console and Application server. In the sample above, the version is 8.1.5 for both the Client console and the Application server.
+* The SHA number, between parenthesis.
+* A link to contact Adobe Customer Care.
+* Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.

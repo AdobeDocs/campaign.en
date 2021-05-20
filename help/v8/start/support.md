@@ -10,22 +10,7 @@ exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 ---
 # Help & support options for Campaign v8 {#help-support-options}
 
-Get support using our FAQs, best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue
-
-## Common issues and best practices {#faq}
-
-### Frequently Asked Questions
-
-How to upgrade to a new build? how to monitor workflow execution? how to improve deliverability?... [Read out top Q&A](campaign-faq.md).
-
-ADD + Update table from [here](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/support.html?lang=en#faq)
-
-## Campaign Control Panel {#control-panel}
-
-### What is Control Panel?
-
-Campaign Control Panel helps you increase efficiency in your work as a product admin of Campaign, by allowing you to manage settings and track usages for each of your instances.
-[Learn more](../config/self-service.md)
+Get support with best practices, online resources and support portal. You can also join Campaign community, ask the experts or log an issue
 
 ## Request for help {#support}
 
@@ -33,16 +18,16 @@ If you need to send a request to Adobe or report an issue, open a ticket. The ti
 
 This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 
-### Ask the experts!
+## Ask the experts!
 
 Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
-### Access Campaign Download Center
+## Access Campaign Download Center
 
 [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
-Learn more about the Distribution Center [in this page](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html).
+Learn more about the Distribution Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
 
-### Create a ticket or start a chat
+## Create a ticket or start a chat
 
 Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
