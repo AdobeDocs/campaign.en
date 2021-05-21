@@ -14,7 +14,7 @@ Adobe Campaign v8 brings significant infrastructure, security, deliverability, a
 
 Key capabilities include:
 
-* **Speed and scale**. Adobe Campaign v8 leverages the Cloud Database Manager, leading to queries performing up to 200x faster, multi-petabyte scale, increased number of messages per hour, with up to 20M/hour or 1.5M/hour for transactional messages, and manage up to 200M active profiles with the potential to reach 1B.
+* **Speed and scale**. Adobe Campaign v8 leverages the Cloud Database Manager, leading to queries performing up to 200x faster, multi-petabyte scale, increased number of messages per hour, with up to 20M/hour or 1M/hour for transactional messages, and manage up to 200M active profiles with the potential to reach 1B.
 
 * **Connections to the Adobe Experience Platform**. Adobe Campaign v8 supports data connectors with Adobe Experience Platform/RT-CDP, unified Customer Profile, and native integration with Journey Orchestration. These investments will optimize the Adobe Campaign customer experience and unlock new use cases such as the ability to add individualized real-time customer journeys to campaigns.
 
@@ -25,6 +25,8 @@ Key capabilities include:
 >For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
 >
 >Migration from an existing Campaign Classic v7 environment is not yet available.
+>
+>If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
 
 ## Scale
