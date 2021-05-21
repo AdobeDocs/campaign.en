@@ -63,9 +63,9 @@ Please note that this ID is string-based and not sequential.
 
 Campaign users do not need to be database experts: there is no longer any need for complex database maintenance operations or complex table indexing.
 
-## Temporary unavailable features{#gs-unavailable-features}
+## Unavailable features{#gs-unavailable-features}
 
-Please note that some capabilities are not yet available in this first version, such as:
+Please note that some capabilities are not available in this first version, such as:
 
 * Marketing Resource Management
 * Distributed Marketing
@@ -73,6 +73,14 @@ Please note that some capabilities are not yet available in this first version, 
 * Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
+
+>[!CAUTION]
+>
+>For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+>
+>Migration from an existing Campaign Classic v7 environment is not yet available.
+>
+>If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
 ## Removed features{#gs-removed}
 
