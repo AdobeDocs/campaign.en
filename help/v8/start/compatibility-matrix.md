@@ -21,7 +21,7 @@ This document lists all systems and components supported for the latest build of
 
 ### Client Console{#ClientConsoleoperatingsystems}
 
-:warning: The following operating systems and browser are required to use Campaign Client Console.
+[!DNL :warning:] The following operating systems and browser are required to use Campaign Client Console.
 
 **Operating systems**
 
