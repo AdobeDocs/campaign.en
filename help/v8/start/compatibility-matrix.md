@@ -39,21 +39,8 @@ This document lists all systems and components supported for the latest build of
 
 ### Federated Data Access (FDA){#FederatedDataAccessFDA}
  
-* **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
 * **[!DNL Snowflake]**
-* **Oracle** 19c, 18c, 12c, 11G
-* **PostgreSQL** 12.x, 11.x, 10.x, 9.6.x, 9.5.x, 9.4.x
-* **Microsoft SQL Server** 2019, 2017, 2016, 2014, 2012 SP1 and SP2
-* **MySQL** 5.7
-* **Teradata** 16.20, 16, 15.10, 15.0
-* **Netezza** 7.2
-* **Sybase IQ** 16, ASE 15.7
-* **SAP HANA** version 1 SPS 12
-* **Hadoop** via HiveSQL
-    * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
-    * HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6
-    * Cloudera CDH6.x
 
 ### Mobile SDK{#MobileSDK}
 
