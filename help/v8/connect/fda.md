@@ -116,7 +116,7 @@ To create the schema of the external database in Adobe Campaign, follow the step
 
 1. Click **[!UICONTROL Save]** to confirm creation.
 
-## Define the taraget mapping{#define-data-mapping}
+## Define the target mapping{#define-data-mapping}
 
 You can define a mapping on the data in an external table.
 
@@ -124,7 +124,7 @@ To do this, once the schema of the external table has been created, you need to 
 
 To do this, follow these steps:
 
-1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** > from Adobe Campaign explorer.
+1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** from Adobe Campaign explorer.
 
 1. Create a new target mapping and select the schema you just created as the targeting dimension.
 
