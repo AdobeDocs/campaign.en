@@ -65,7 +65,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     :bulb: Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
 
-    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to implement Adobe IMS with Campaign.
+    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Adobe IMS with Campaign.
 
 * **Web Analytics**
 
@@ -136,8 +136,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 * **FTP and SFTP**
 
-    The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts. For more on this, refer to this [page](../../workflow/using/file-transfer.md).
-
+    The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
     To do so, specify in this external account the address and credentials used to establish the connection to the FTP server
 
     :arrow_upper_right: Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
