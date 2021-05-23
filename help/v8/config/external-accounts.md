@@ -16,9 +16,15 @@ External accounts are used by technical processes such as technical workflows or
 
 You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
-A specific external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
+![](assets/external-accounts.png)
 
-:speech_balloon: As a Managed Cloud Services user, [!DNL Snowflake] external account is configured for your instance by Adobe. 
+
+>[!CAUTION]
+>
+>A specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
+>
+>As a Managed Cloud Services user, this external account is configured for your instance by Adobe. It must not be modified.
+
 
 ## Campaign-specific external accounts
 
@@ -38,7 +44,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     >[!CAUTION]
     >
-    >The internal email delivery routing external account **must not** be enabled in Adobe Campaign v8.
+    >The **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) external account **must not** be enabled in Adobe Campaign v8.
     > 
 
 * **Execution instance**
