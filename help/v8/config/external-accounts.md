@@ -140,20 +140,18 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 ## Transfer Data external accounts
 
+These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity.
+
+:arrow_upper_right: Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+
 * **FTP and SFTP**
 
     The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
-    To do so, specify in this external account the address and credentials used to establish the connection to the FTP server
-
-    :arrow_upper_right: Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+    To do so, specify in this external account the address and credentials used to establish the connection to the SFTP or FTP server.
 
 * **Amazon Simple Storage Service (S3)**
 
-    The **AWS S3** connector can be used to import or export data to Adobe Campaign.
-    
-    :arrow_upper_right: Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
-
-    As you are setting up this new external account, you need to provide the following details:
+    The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
 
     * **[!UICONTROL AWS S3 Account Server]**: URL of your server, filled as follows:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
@@ -167,11 +165,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 * **Azure Blob Storage**
 
-    The **Azure** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity.
-
-    :arrow_upper_right: Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
-
-    To configure the **Azure** external account to work with Adobe Campaign, you need to provide the following details:
+    The **Azure** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. To configure the **Azure** external account to work with Adobe Campaign, you need to provide the following details:
 
     * **[!UICONTROL Server]**:  URL of your Azure Blob storage server.
 
