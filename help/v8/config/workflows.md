@@ -69,7 +69,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-* [A/B testing](../../delivery/using/a-b-testing-use-case.md)
+* [A/B testing](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html)
 
     Learn how to compare two email delivery contents via a targeting workflow. The message and the text are identical in both deliveries: only the layout changes. The targeted population is divided into three: two test groups and the remaining population. A different version of the delivery is sent to each test group.
     
@@ -85,7 +85,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
     Learn how to build a cross-channel delivery workflow. The objective is to segment an audience from the recipients of your database into different groups and send an email to the first group and a SMS to the other.
 
-* [Email enrichment with custom date fields](be.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+* [Email enrichment with custom date fields](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
 
     Learn how to send an email with custom data fields to profiles who celebrate their birthdays this month. The email will include a coupon valid one week before and after their birthday.
 
