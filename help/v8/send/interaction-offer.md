@@ -157,8 +157,6 @@ To do this:
 
 1. If you have personalized the offer content, select the offer target to view personalization.
 
-   ![](assets/offer_preview_create_003.png)
-
 <!--
 
 ## Create a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}

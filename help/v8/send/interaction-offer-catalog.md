@@ -45,19 +45,9 @@ To create an new category, follow the steps below:
     
       ![](assets/offer_cat_create_004.png)
 
-    * Enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
-    
-      ![](assets/offer_cat_create_005.png)
+    * **[!UICONTROL Edit query]** to apply filters to the offer target.
 
-      >[!NOTE]
-      >
-      >When calling up the offer engine, only the part of the catalog in which the themes or categories match the parameters is selected.
-
-    * Temporarily "boost" the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
-    
-      ![](assets/offer_cat_create_006.png)
-
-A recap of the eligibility rules is available on the dashboard of the offers included in the category. To view them, click the **[!UICONTROL Schedule and eligibility rules of the offer]** link.
+    * A recap of the eligibility rules.To view them, click the **[!UICONTROL Schedule and eligibility rules of the offer]** link.
 
 ## Add a fallback category
 
