@@ -39,8 +39,11 @@ Create and execute a generic data import job to load contacts in the Cloud datab
 
 ## Collect profiles through web apps
 
-DETAILS TO ADD + LINK
+Use Campaign to create web forms and collect and manage profile information easily and efficiently. You can share these forms into your website, which makes it easy for your contacts to provide their information. Their information is sent to Campaign to create their profile or update their information if they are already present in the database.
 
+![](assets/web-form-page.png) 
+
+:arrow_upper_right: Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html).
 
 **Related topics**
 
