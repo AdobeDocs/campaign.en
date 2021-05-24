@@ -1,7 +1,7 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaign v8 knonw limitations
+title: Campaign v8 known limitations
 description: Known limitations
 feature: Overview
 role: Data Engineer

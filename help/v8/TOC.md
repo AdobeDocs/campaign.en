@@ -58,7 +58,7 @@ hide: yes
     + [Send an offer](send/interaction-send-offers.md)
     + [Use cases](send/interaction-use-cases.md)
 + Configure {#config}
-  + [Automation](config/workflows.md)
+  + [Automate with workflows](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
