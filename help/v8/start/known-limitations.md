@@ -15,6 +15,8 @@ hidefromtoc: yes
 * No bi-directional data replication, only from the Campaign local database to the Cloud database
 * Capapbilities listed [in this section](capability-matrix.md#gs-unavailable-features) are not yet available in Campaign v8
 * Some temporary non-available or removed features are still visible in the user interface
+* Cannot install built-in packages - even with Administrator permissions
+* LINE - to confirm + details
 * Latency - to confirm + details
 
 
