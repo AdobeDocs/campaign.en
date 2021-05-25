@@ -53,7 +53,7 @@ In this specific architecture, execution cell is separated from the control inst
 
 * The **Control instance** (or Marketing instance) is used by marketers and IT teams to create, configure and publish message templates. This instance also centralize event monitoring and history.
     
-    :arrow_upper_right: Learn how to create and publish message templates in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/introduction.html?lang=en#transactional-messaging)
+    :bulb: Learn how to create and publish message templates in [this section](../send/transactional.md).
 
 * The **Execution instance** retreives incoming events (password reset or orders from a website for example) and sends out personalized messages. There can be more than one execution instance to process messages via the load-balancer and scale the number of events to be proceeded for maximum availability.
 

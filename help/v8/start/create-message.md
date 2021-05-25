@@ -10,7 +10,7 @@ exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
 # Get Started with messages{#gs-ac-audiences}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign.
 
@@ -26,7 +26,9 @@ Adobe Campaign v8 comes with the following delivery channels:
 
 * **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android systems.  Learn more in [this page](../send/push.md)
 
+<!--
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
+-->
 
 ## Choose how to send your messages 
 
