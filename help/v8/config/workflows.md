@@ -52,12 +52,9 @@ Design recurring workflow and create a new delivery instance each time the workf
 
 Use Campaign Transactional messaging to automate messages generated from events triggered from information systems. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. These messages can be sent individually or in batch via email, SMS or push notifications.
 
-[!DNL :arrow_upper_right:] Learn more about transactional messaging capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
-
+[!DNL :bulb:] Learn more about transactional messaging capabilities in in [this section](../send/transactional.md).
 
 Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
-
-[!DNL :arrow_upper_right:] Learn how to integrate Campaign with Analytics triggers in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
 [!DNL :bulb:] Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
 
