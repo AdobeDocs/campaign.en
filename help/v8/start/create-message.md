@@ -35,15 +35,15 @@ Adobe Campaign v8 comes with the following delivery channels:
 Once your message has been created and its content designed and tested, you can choose how you want to send it. Campaign offers a set of capabilities to:
 
 * Send messages manually to the main target
-    :[!DNL :arrow_upper_right:]: [Learn how to send messages](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+   [!DNL :arrow_upper_right:] [Learn how to send messages](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 * Send messages associated to a [marketing campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html)
-    :[!DNL :arrow_upper_right:]: [Learn how to send messages in the context of a campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
+   [!DNL :arrow_upper_right:] [Learn how to send messages in the context of a campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
 * Send messages via a [workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)
-    :[!DNL :arrow_upper_right:]: [Learn how to automate email deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
+   [!DNL :arrow_upper_right:] [Learn how to automate email deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
 * [Trigger messages](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) from an event
-    :[!DNL :arrow_upper_right:]: [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
+   [!DNL :arrow_upper_right:] [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * Schedule your messages
-    :[!DNL :arrow_upper_right:]: [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
+   [!DNL :arrow_upper_right:] [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
 
 
 ## Add personalization
@@ -53,11 +53,11 @@ Messages delivered by Adobe Campaign can be personalized in various ways.
 You can:
 
 * Insert dynamic personalization fields. 
-    :[!DNL :arrow_upper_right:]: Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+   [!DNL :arrow_upper_right:] Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * Insert predefined personalization blocks. 
-    :[!DNL :arrow_upper_right:]: Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+   [!DNL :arrow_upper_right:] Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
 * Create conditional content. 
-    :[!DNL :arrow_upper_right:]: Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
+   [!DNL :arrow_upper_right:] Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## Send transactional messages
 

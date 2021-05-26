@@ -22,15 +22,15 @@ Create personalized and contextually relevant emails that are consistent with th
 You can create directly into Campaign or import your audience, as well as your email content. Use the links below to learn how to:
 
 * Design an email in Campaign
-    :[!DNL :arrow_upper_right:]: [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   [!DNL :arrow_upper_right:] [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * Import an email content
-    :[!DNL :arrow_upper_right:]: [Use case: Create a workflow to load a delivery content](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   [!DNL :arrow_upper_right:] [Use case: Create a workflow to load a delivery content](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * Create and use an email template
-    :[!DNL :arrow_upper_right:]: [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 * Select the audience of your email
-    :[!DNL :arrow_upper_right:]: [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   [!DNL :arrow_upper_right:] [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * Validate a delivery and send proofs
-    :[!DNL :arrow_upper_right:]: [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * Add [seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## Test and validate your emails

@@ -30,7 +30,7 @@ Two table extension modes are available:
 
 * Through the interface, by using the **New field** assistant
 
-    :[!DNL :arrow_upper_right:]: Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+   [!DNL :arrow_upper_right:] Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * Programmatically, by extending the schema
 

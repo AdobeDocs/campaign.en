@@ -73,17 +73,17 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
     Campaigns, deliveries, jobs or workflows are all based on a template, which stores key settings and capabilities. A built-in template is supplied for each component, for which no specific configuration has been defined. You need to configure and adapt templates to your needs and make them available to end-users.
 
-    :[!DNL :arrow_upper_right:]: [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 
-    :[!DNL :arrow_upper_right:]: Learn how to work with campaign templates in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Learn how to work with campaign templates in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-    :[!DNL :arrow_upper_right:]: Learn how to configure a workflow template in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
+   [!DNL :arrow_upper_right:] Learn how to configure a workflow template in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
 
 1. Configure typology rules
 
     Leverage Campaign typologies rules to filter, control and monitor delivery sending. For example, fatigue rules control frequency and quantity of messaging to avoid over-solicitation of recipients. Once implemented, typology rules are referenced in deliveries. 
 
-    :[!DNL :arrow_upper_right:]: [Learn more about typologies and fatigue management](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] [Learn more about typologies and fatigue management](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
 
 1. Get familiar with Campaign built-in data model
 

@@ -34,9 +34,9 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
-    :[!DNL :arrow_upper_right:]: Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+   [!DNL :arrow_upper_right:] Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-    :[!DNL :arrow_upper_right:]: Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   [!DNL :arrow_upper_right:] Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. **How can I make sure my delivery is sent without errors?**
 
@@ -46,7 +46,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
     
 1. **Can I monitor workflow execution?**
 
-    :[!DNL :arrow_upper_right:]: Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   [!DNL :arrow_upper_right:] Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. **Which systems and components Campaign v8 is compatible with?**
 
