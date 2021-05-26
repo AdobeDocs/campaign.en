@@ -11,13 +11,13 @@ level: Beginner
 
 Email deliveries let you send personalized emails to the target population. 
 
-:[!DNL :arrow_upper_right:]: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+[!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Create your first email delivery
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
 
-:[!DNL :arrow_upper_right:]: [Learn how to create an email delivery in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+[!DNL :arrow_upper_right:] [Learn how to create an email delivery in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 You can create directly into Campaign or import your audience, as well as your email content. Use the links below to learn how to:
 
@@ -37,7 +37,7 @@ You can create directly into Campaign or import your audience, as well as your e
 
 Campaign offers several ways to test and validate your emails before sending them to your audiences.
 
-:[!DNL :arrow_upper_right:]: [Apply best practices listed in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+[!DNL :arrow_upper_right:] [Apply best practices listed in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
 
 You can:
 
@@ -47,11 +47,11 @@ You can:
 * Use control groups
 * Check email rendering
 
-:[!DNL :arrow_upper_right:]: [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[!DNL :arrow_upper_right:] [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## Monitor your emails
 
 Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports confirm messages were correctly sent.
 
-:[!DNL :arrow_upper_right:]: [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+[!DNL :arrow_upper_right:] [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 

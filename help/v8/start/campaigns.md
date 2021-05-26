@@ -38,7 +38,7 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 
 Adobe Campaign lets you create, configure, execute and analyze all marketing campaigns from a unified control center.
 
-:[!DNL :arrow_upper_right:]: Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
 
 ## Key steps to start

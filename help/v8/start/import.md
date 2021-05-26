@@ -23,11 +23,11 @@ Profile imports are configured in dedicated templates executed through workflows
 
 Learn more in Campaign Classic v7 documentation:
 
-:[!DNL :arrow_upper_right:]: [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+[!DNL :arrow_upper_right:] [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
 
-:[!DNL :arrow_upper_right:]: [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+[!DNL :arrow_upper_right:] [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
 
-:[!DNL :arrow_upper_right:]: [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+[!DNL :arrow_upper_right:] [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
 
 ## Run unitary imports
 
@@ -35,7 +35,7 @@ Create and execute a generic data import job to load contacts in the Cloud datab
 
 ![](assets/new-import.png) 
 
-:[!DNL :arrow_upper_right:]: Learn how to run unitary import jobs to feed your database in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
+[!DNL :arrow_upper_right:] Learn how to run unitary import jobs to feed your database in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
 
 ## Collect profiles through web apps
 
@@ -43,7 +43,7 @@ Use Campaign to create web forms and collect and manage profile information easi
 
 ![](assets/web-form-page.png) 
 
-:[!DNL :arrow_upper_right:]: Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html).
+[!DNL :arrow_upper_right:] Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html).
 
 **Related topics**
 

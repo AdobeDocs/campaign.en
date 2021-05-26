@@ -17,5 +17,5 @@ hide: yes
 
 LINE is an application for free instant messaging, voice and video calls, available on all mobile devices and on PC. Adobe Campaign allows you to send LINE messages.
 
-:[!DNL :arrow_upper_right:]: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
+[!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 

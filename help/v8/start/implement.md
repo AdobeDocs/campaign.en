@@ -47,7 +47,7 @@ Learn security guidelines and principles with Adobe Campaign in [Campaign Securi
 
 You can manually add users to Cammaign and associate them with groups, aligned with your role hierarchy. Users will then be able to log in and access the data and permissions which are appropriate for them.
 
-:[!DNL :arrow_upper_right:]: Learn how to add users to Adobe Campaign in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started).
+[!DNL :arrow_upper_right:] Learn how to add users to Adobe Campaign in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started).
 
 ### Install Campaign Client Console
 

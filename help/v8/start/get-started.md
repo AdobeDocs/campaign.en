@@ -85,9 +85,9 @@ Campaign workspace is available through the [Client Console](../dev/general-arch
 
 Campaign workspace can be adapted depending on your needs. 
 
-:[!DNL :arrow_upper_right:]:  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+[!DNL :arrow_upper_right:]  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
 
-:[!DNL :arrow_upper_right:]:  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+[!DNL :arrow_upper_right:]  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 You can also access some capabilities through the web.
 

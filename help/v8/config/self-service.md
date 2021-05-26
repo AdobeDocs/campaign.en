@@ -50,4 +50,4 @@ Learn how to manage your Campaign instances settings in the Control Panel.
 * [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [GPG Keys management](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:[!DNL :arrow_upper_right:]: Discover all Control Panel capabilities in [this documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en)
+[!DNL :arrow_upper_right:] Discover all Control Panel capabilities in [this documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en)
