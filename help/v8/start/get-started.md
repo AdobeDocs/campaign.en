@@ -26,9 +26,9 @@ Profiles are centralized in a powerful cloud database. There are many possible m
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-:bulb: Profile management basics are explained in [this section](audiences.md).
+[!DNL :bulb:] Profile management basics are explained in [this section](audiences.md).
 
-:bulb: Learn how to add profiles to Campaign in [this section](import.md).
+[!DNL :bulb:] Learn how to add profiles to Campaign in [this section](import.md).
 
 ## Targeted segmentation {#targeted-segmentation}
 
@@ -36,13 +36,13 @@ Adobe Campaign has powerful, user-friendly segmentation and targeting features t
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. 
 
-:bulb: Learn more about segmentation, audience creation and personalization in [this section](audiences.md).
+[!DNL :bulb:] Learn more about segmentation, audience creation and personalization in [this section](audiences.md).
 
 ## Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. 
 
-:bulb: Learn how to design, schedule and execute a campaign in [this section](campaigns.md).
+[!DNL :bulb:] Learn how to design, schedule and execute a campaign in [this section](campaigns.md).
 
 ## Workflows
 
@@ -57,41 +57,41 @@ Workflows can be used in different contexts, as for example:
 * Importing data into Campaign database.
 * Technical processes such as database cleanup, recovering tracking information, etc.
 
-:bulb: Learn how to design and execute workflows in [this section](../config/workflows.md).
+[!DNL :bulb:] Learn how to design and execute workflows in [this section](../config/workflows.md).
 
 ## Reporting and analysis {#analysis-and-reporting}
 
 Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. 
 
-:bulb: Learn more about report and tracking capabilities in [this section](reporting.md).
+[!DNL :bulb:] Learn more about report and tracking capabilities in [this section](reporting.md).
 
 ## Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example.  
 
-:bulb: Learn how to integrate with Adobe services and solutions in [this section](../connect/integration.md).
+[!DNL :bulb:] Learn how to integrate with Adobe services and solutions in [this section](../connect/integration.md).
 
 ## More about Campaign capabilities {#core-capabilities-and-add-ons}
 
 Adobe Campaign offers a set of capabilities to help you implement and optimize the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package on your configuration. A detailed product description is available here: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
-:bulb: Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
+[!DNL :bulb:] Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
 
 ## Workspace and customization
 
 Campaign workspace is available through the [Client Console](../dev/general-architecture.md). 
 
-:bulb: [Learn more about Campaign Client Console](../start/connect.md).
+[!DNL :bulb:] [Learn more about Campaign Client Console](../start/connect.md).
 
 Campaign workspace can be adapted depending on your needs. 
 
-:arrow_upper_right:  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+:[!DNL :arrow_upper_right:]:  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
 
-:arrow_upper_right:  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+:[!DNL :arrow_upper_right:]:  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 You can also access some capabilities through the web.
 
-:bulb: [Learn more about Campaign Web Access](../start/connect.md#web-access).
+[!DNL :bulb:] [Learn more about Campaign Web Access](../start/connect.md#web-access).
 
 
 ## Languages

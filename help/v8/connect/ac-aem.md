@@ -16,9 +16,9 @@ You can also directly insert assets from your Adobe Experience Manager Assets Li
 
 This means that you can make the most of both Adobe Experience Manager content editing capabilities and Adobe Campaign delivery capabilities.
 
-:arrow_upper_right: [Learn more in this document](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+:[!DNL :arrow_upper_right:]: [Learn more in this document](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
 
-:arrow_upper_right: [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+:[!DNL :arrow_upper_right:]: [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
 :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Campaign.
 

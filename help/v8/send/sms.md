@@ -35,4 +35,4 @@ For global information on how to create a delivery, refer to [Campaign Classic v
 > 
 >For more on this, refer to [this section](push.md).
 
-:arrow_upper_right: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
+:[!DNL :arrow_upper_right:]: Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)

@@ -16,7 +16,7 @@ Adobe Campaign comes with a set of built-in technical workflows. Technical workf
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
-:arrow_upper_right: The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
+:[!DNL :arrow_upper_right:]: The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
@@ -63,6 +63,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Related topics**
 
-:arrow_upper_right: Learn how to get started with worflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+:[!DNL :arrow_upper_right:]: Learn how to get started with worflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
-:bulb: Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)
+[!DNL :bulb:] Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)

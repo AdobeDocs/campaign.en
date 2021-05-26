@@ -45,7 +45,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
     </srcSchema>
     ```
 
-    :bulb: Learn more about custom schema creation in [this page](create-schema.md).
+    [!DNL :bulb:] Learn more about custom schema creation in [this page](create-schema.md).
 
 1. Save and update the database structure.  [Learn more](update-database-structure.md)
 

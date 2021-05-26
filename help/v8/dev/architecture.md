@@ -24,7 +24,7 @@ Three types of environments available with Campaign Cloud Service:
 
 You can export and import packages from one environment to another.
 
-:arrow_upper_right: Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+:[!DNL :arrow_upper_right:]: Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Mid-sourcing deployment{#mid-sourcing-deployment}
 
@@ -45,7 +45,7 @@ General communication between servers and processes is carried out according to 
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-:bulb: Learn how to send transactional messages in [this section](../send/transactional.md).
+[!DNL :bulb:] Learn how to send transactional messages in [this section](../send/transactional.md).
 
 In response to an action of a customer on a website, an event is sent Campaign through a REST API, and the message template is populated with the information or data provided through the API call, and a transactional message is sent in real-time to the customer. These messages can be sent individually or in batches via email, SMS or push notifications. 
 
@@ -53,7 +53,7 @@ In this specific architecture, execution cell is separated from the control inst
 
 * The **Control instance** (or Marketing instance) is used by marketers and IT teams to create, configure and publish message templates. This instance also centralize event monitoring and history.
     
-    :bulb: Learn how to create and publish message templates in [this section](../send/transactional.md).
+    [!DNL :bulb:] Learn how to create and publish message templates in [this section](../send/transactional.md).
 
 * The **Execution instance** retreives incoming events (password reset or orders from a website for example) and sends out personalized messages. There can be more than one execution instance to process messages via the load-balancer and scale the number of events to be proceeded for maximum availability.
 
@@ -63,7 +63,7 @@ In this specific architecture, execution cell is separated from the control inst
 
 ![](assets/messagecenter_diagram.png)
 
-:arrow_upper_right: Message Center architecture is described in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
+:[!DNL :arrow_upper_right:]: Message Center architecture is described in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 ### Authentication
 
@@ -76,4 +76,4 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
 * Multiple execution instances
     In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot  be used. A user/password-based authentication is required. 
 
-:arrow_upper_right: Learn more about Transactional messaging events in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
+:[!DNL :arrow_upper_right:]: Learn more about Transactional messaging events in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)

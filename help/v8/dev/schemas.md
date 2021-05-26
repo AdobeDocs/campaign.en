@@ -92,11 +92,11 @@ The identification key of a schema is a string built using the namespace and the
 
 To add a field or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. 
 
-:bulb: For more on this, refer to [Extend a schema](extend-schema.md).
+[!DNL :bulb:] For more on this, refer to [Extend a schema](extend-schema.md).
 
 To add an entirely new type of data that does not exist in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. 
 
-:bulb: For more on this, refer to [Create a new schema](create-schema.md).
+[!DNL :bulb:] For more on this, refer to [Create a new schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -148,7 +148,7 @@ In this example, instead of letting the **@autouuid** attribute create a default
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-:bulb: Learn more about keys in [this section](database-mapping.md#management-of-keys).
+[!DNL :bulb:] Learn more about keys in [this section](database-mapping.md#management-of-keys).
 
 ## Attributes (Fields) {#attributes--fields-}
 
@@ -158,7 +158,7 @@ Attributes allow you to define the fields which make up your data object. You ca
 
 The full list of attributes is available in the `<attribute>` element section in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-:arrow_upper_right: For more information on each attribute, refer to the Attribute description in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+:[!DNL :arrow_upper_right:]: For more information on each attribute, refer to the Attribute description in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Examples {#examples}
 

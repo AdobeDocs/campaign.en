@@ -12,9 +12,9 @@ Adobe Campaign system is very flexible and can be extended beyond the initial im
 
 For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md) .
 
-:bulb: Read out [this section](schemas.md) to get started with Campaign schemas. 
+[!DNL :bulb:] Read out [this section](schemas.md) to get started with Campaign schemas. 
 
-:bulb: Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
+[!DNL :bulb:] Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
 
 ## Data model architecture {#data-model-architecture}
 

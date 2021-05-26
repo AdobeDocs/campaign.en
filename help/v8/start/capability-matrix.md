@@ -20,7 +20,7 @@ Key changes:
 
 As a [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
-:bulb: Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
+[!DNL :bulb:] Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
 
 ## Product configuration changes
 
