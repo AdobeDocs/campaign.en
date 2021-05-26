@@ -31,7 +31,7 @@ To populate Campaign with profile data, you can:
 ![](assets/create-profile.png) 
 
 
-[!DNL :arrow_upper_right:]] Learn how to manage profiles in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
+[!DNL :arrow_upper_right:] Learn how to manage profiles in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 
 ## Privacy and consent
