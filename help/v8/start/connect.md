@@ -98,13 +98,13 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, t
 * Stronger password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to implement Adobe IMS with Campaign.
+[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to implement Adobe IMS with Campaign.
 
 ## Connect to Campaign with your LDAP login
 
 Adobe Campaign can be configured so that the user accesses the platform via their LDAP authentication. 
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to configure LDAP integration with Campaign.
+[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to configure LDAP integration with Campaign.
 
 
 ## Web access{#web-access}

@@ -30,7 +30,7 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 The following technical accounts are used by Adobe Campaign to enable and execute specific processes.
 
-:speech_balloon: As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
+[!DNL :speech_balloon:] As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
 
 * **Bounce mails (POP3)**
 
@@ -71,7 +71,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     [!DNL :bulb:] Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
 
-    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Adobe IMS with Campaign.
+    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Adobe IMS with Campaign.
 
 * **Web Analytics**
 
@@ -79,7 +79,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     [!DNL :bulb:] Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
 
-    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
+    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
 
     * **Adobe Experience Manager**
 
@@ -87,7 +87,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     [!DNL :bulb:] Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
 
-    :speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
+    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
 
 
 ## CRM Connector External Accounts 

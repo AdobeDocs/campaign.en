@@ -34,7 +34,7 @@ The action fields for each tool are as follows:
 
 Learn more about Adobe Campaign and Adobe Analytics on [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)
 
-:speech_balloon:  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics Data Connector with Campaign.
+[!DNL :speech_balloon:]  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics Data Connector with Campaign.
 
 
 ## Experience Cloud Triggers
@@ -43,4 +43,4 @@ You can use Experience Cloud Triggers to connect data between Adobe Campaign and
 
 Learn more about Adobe Campaign and Experience Cloud Triggers on [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-:speech_balloon:  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+[!DNL :speech_balloon:]  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
