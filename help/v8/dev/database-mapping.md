@@ -201,7 +201,7 @@ Declaring an incremental key in the source schema:
 
 ```
 <srcSchema name="recipient" namespace="cus">
-  <element name="recipient" autouuid="true">
+  <element name="recipient"  autopk="true" autouuid="true">
   ...
   </element>
 </srcSchema>
@@ -211,7 +211,7 @@ The schema generated:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-  <element name="recipient" autouuid="true" sqltable="CusRecipient"> 
+  <element name="recipient"  autopk="true" autouuid="true" sqltable="CusRecipient"> 
 
     <key internal="true" name="id">
       <keyfield xpath="@id"/>
@@ -327,7 +327,7 @@ Extended schema of the target ("cus:company"):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
-  <element name="company" sqltable="CusCompany" autouuid="true"> 
+  <element name="company" sqltable="CusCompany"  autopk="true" autouuid="true"> 
     <key internal="true" name="id">      
       <keyfield xpath="@id"/>    
     </key>
