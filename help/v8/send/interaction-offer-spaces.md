@@ -64,7 +64,7 @@ The offer proposition status varies depending on the interactions with the targe
 
 >[!NOTE]
 >
->Status update is an asynchronous process. It is carried out by the tracking workflow which is triggered every hour.
+>Status update is an **asynchronous** process. It is carried out by the tracking workflow which is triggered every hour.
 
 ### Offer status list {#status-list}
 

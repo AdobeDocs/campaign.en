@@ -65,7 +65,7 @@ A field is required to be stored in a table if it has a targeting or personaliza
 
 ### Choice of keys {#choice-of-keys}
 
-In addition to the **autouuid** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
+In addition to the **autouuid** and **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
 
 Efficient keys are essential for performance. With Snowflake, you can insert nnumeric or string-based data types as keys for tables.
 
@@ -104,7 +104,7 @@ This custom key is the actual record primary key in the external system feeding 
 
 When creating a custom table, you have two options:
 * A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. With Snowflake, integers or string-based keys will provide higher performances in big tables and joining with other tables.
-* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. Autouuid should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
+* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. **Autouuid** should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
 
 >[!CAUTION]
 >
@@ -117,7 +117,7 @@ When creating a custom table, you have two options:
 
 Beware of the "own" integrity on large tables. Deleting records that have large tables in "own" integrity can potentially stop the instance. The table is locked, and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
 
-Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autouuid.
+Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the **autouuid**.
 
 While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 
