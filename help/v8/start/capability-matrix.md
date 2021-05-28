@@ -55,7 +55,7 @@ A specific technical workflow handles replication of tables that need to be pres
 
 ### ID management
 
-Campaign v8 objects now use a **Universally Unique ID (UUID)**, which allows for unlimited unique values to identify data
+Campaign v8 objects now use a **Universally Unique ID (UUID)**, which allows for unlimited unique values to identify data.
 
 Please note that this ID is string-based and not sequential.
  

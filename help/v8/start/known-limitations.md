@@ -14,14 +14,12 @@ Known limitations identify capabilities, architecture, or processes that are not
 
 For Adobe Campaign v8, the following limitations exist:
 
-* Adobe Campaign v8 is not available for on-premise/hybrid deployments - only released as an Adobe Managed Cloud Service
+* Adobe Campaign v8 is not available for on-premise/hybrid deployments - only released as an Adobe Managed Cloud Service.
 * Existing customers cannot migrate from an existing Adobe Campaign environment to Adobe Campaign v8
 * No bi-directional data replication: replication happens only from the Campaign local database to the Cloud database
-* Capapbilities listed [in this section](capability-matrix.md#gs-unavailable-features) are not available in the current Campaign v8 build
+* Capabilities listed [in this section](capability-matrix.md#gs-unavailable-features) are not available in the current Campaign v8 build
 * Some non-available or removed features are still visible in the user interface
 * Subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
 * ID management - duplicates - to confirm + details
 * LINE - to confirm + details
 * Latency - to confirm + details
-
-
