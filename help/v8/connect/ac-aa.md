@@ -197,35 +197,35 @@ This workflow is available from Campaign Explorer tree, under the **[!UICONTROL 
 
 The **[!UICONTROL Sending of indicators and campaign attributes]** workflow lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
-  Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
+Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
 
-  The indicators involved are:
+The indicators involved are:
       
-  * **[!UICONTROL Messages to deliver]** (@toDeliver)
-  * **[!UICONTROL Processed]** (@processed)
-  * **[!UICONTROL Success]** (@success)
-  * **[!UICONTROL Total count of opens]** (@totalRecipientOpen)
-  * **[!UICONTROL Recipients who have opened]** (@recipientOpen)
-  * **[!UICONTROL Total number of recipients who clicked]** (@totalRecipientClick)
-  * **[!UICONTROL People who clicked]** (@personClick)
-  * **[!UICONTROL Number of distinct clicks]** (@recipientClick)
-  * **[!UICONTROL Opt-Out]** (@optOut)
-  * **[!UICONTROL Errors]** (@error)
+* **[!UICONTROL Messages to deliver]** (@toDeliver)
+* **[!UICONTROL Processed]** (@processed)
+* **[!UICONTROL Success]** (@success)
+* **[!UICONTROL Total count of opens]** (@totalRecipientOpen)
+* **[!UICONTROL Recipients who have opened]** (@recipientOpen)
+* **[!UICONTROL Total number of recipients who clicked]** (@totalRecipientClick)
+* **[!UICONTROL People who clicked]** (@personClick)
+* **[!UICONTROL Number of distinct clicks]** (@recipientClick)
+* **[!UICONTROL Opt-Out]** (@optOut)
+* **[!UICONTROL Errors]** (@error)
 
-  >[!NOTE]
-  >
-  >Data sent is the delta based on the last snapshot which may lead to negative value in the metric data.
+>[!NOTE]
+>
+>Data sent is the delta based on the last snapshot which may lead to negative value in the metric data.
 
-  The attributes sent are as follows:
+The attributes sent are as follows:
 
-  * **[!UICONTROL Internal name]** (@internalName)
-  * **[!UICONTROL Label]** (@label)
-  * **[!UICONTROL Label]** (operation/@label): only if the **Campaign** package is installed
-  * **[!UICONTROL Nature]** (operation/@nature): only if the **Campaign** package is installed
-  * **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
-  * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
-  * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
-  * **[!UICONTROL Contact date]** (scheduling/@contactDate)
+* **[!UICONTROL Internal name]** (@internalName)
+* **[!UICONTROL Label]** (@label)
+* **[!UICONTROL Label]** (operation/@label): only if the **Campaign** package is installed
+* **[!UICONTROL Nature]** (operation/@nature): only if the **Campaign** package is installed
+* **[!UICONTROL Tag 1]** (webAnalytics/@tag1)
+* **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
+* **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
+* **[!UICONTROL Contact date]** (scheduling/@contactDate)
 
 ## Tracking deliveries in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 
