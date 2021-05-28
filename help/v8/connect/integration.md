@@ -23,13 +23,10 @@ Modernize your implementation and leverage all Adobe Experience Cloud capabiliti
 Campaign v8 can connect with:
 
 * [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-
 * [Real-Time CDP](../connect/ac-rtcdp.md)
-
-* [Adobe Analytics data connector](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
