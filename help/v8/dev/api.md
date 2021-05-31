@@ -48,7 +48,7 @@ With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due
 
 ## New APIs
 
-New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance
+New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance.
 
 [!DNL :bulb:] [New APIs are detailed in this page](new-apis.md)
 

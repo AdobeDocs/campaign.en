@@ -9,7 +9,7 @@ level: Beginner
 ---
 # New Campaign APIs{#gs-new-api}
 
-Campaign v8 comes with three new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md).
+Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md).
 
 * Ingestion API: **xtk.session.ingest**
 
@@ -18,10 +18,6 @@ Campaign v8 comes with three new APIs to manage data between Campaign local data
 * Data update/delete API: **xtk.session.ingestExt**
 
     This API is used to update or delete data. [Learn more](#data-update-api)
-
-* Query API: **xtk.session.lookup**. 
-    
-    This API retrieves data from a query. [Learn more](#lookup-api)
 
 A dedicated built-in workflow will synchronize the data in the Cloud Database.
 
