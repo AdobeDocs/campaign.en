@@ -15,10 +15,10 @@ exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 * in Scripts - in [!DNL Adobe Campaign] workflows
 * via APIs - from external systems
 
-You can use Javascript APIs to write in Campaign cloud database or read from the database:
+You can use JavaScript APIs to write in Campaign cloud database or read from the database:
 
-* Business specific APIs that let you act on each object: deliveries, workflows, subscriptions, etc. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
-* Generic data acces APIs for querying the datamodel data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
+* Business-specific APIs that let you act on each object: deliveries, workflows, subscriptions, and so on. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
+* Generic data access APIs for querying the data model data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
 
 Campaign v8 works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.
 
@@ -31,14 +31,14 @@ Campaign v8 works with two databases: a local database for the user interface re
 
 Before using [!DNL Adobe Campaign] APIs, you need to be familliar with the following topics:
 
-* Javascript
+* JavaScript
 * SOAP protocol
 * [!DNL Adobe Campaign] datamodel
 
-In order to use APIs and interact with [!DNL Adobe Campaign], you also need to be familiar with your datamodel.  
+In order to use APIs and interact with [!DNL Adobe Campaign], you also must be familiar with your data model.  
 
 >[!NOTE]
->You can generate a complete description of your datamodel. Learn more in [this page](datamodel.md).
+>You can generate a complete description of your data model. Learn more in [this page](datamodel.md).
 
 ## [!DNL Campaign] API staging mechanism
 
@@ -54,4 +54,4 @@ New APIs are available to manage data synchronization between [!DNL Campaign] lo
 
 **Related topics**
 
-* [Datamodel best practices](datamodel-best-practices.md)
+* [Data model best practices](datamodel-best-practices.md)
