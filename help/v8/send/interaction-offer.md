@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign Interaction Offer
 description: Learn how to create an offer

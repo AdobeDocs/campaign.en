@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: What's new in Campaign v8
 description: Learn more key capabilities

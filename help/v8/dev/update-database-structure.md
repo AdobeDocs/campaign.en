@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Update the database structure
 description: Update the database structure

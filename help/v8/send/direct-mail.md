@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Send direct mails with Adobe Campaign
 description: Get started with direct mail in Campaign

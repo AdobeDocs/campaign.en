@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns

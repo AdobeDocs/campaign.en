@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Technical workflows and data replication
 description: Technical workflows and data replication

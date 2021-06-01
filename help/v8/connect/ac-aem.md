@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Work with Campaign and Adobe Experience Manager
 description: Learn how to work with Campaign and Adobe Experience Manager

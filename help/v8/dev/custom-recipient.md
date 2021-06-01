@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Change your default recipient table
 description: Learn how to use a custom recipient table

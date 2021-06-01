@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign API staging mechanism
 description: Campaign API staging mechanism

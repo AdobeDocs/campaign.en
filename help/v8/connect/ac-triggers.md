@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Work with Campaign and Adobe Experience Cloud triggers
 description: Learn how to work with Campaign and Adobe Experience Cloud triggers

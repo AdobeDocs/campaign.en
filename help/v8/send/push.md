@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign

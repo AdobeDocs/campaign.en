@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Manage subscriptions and unsubscriptions in Campaign
 description: Learn how to manage subscriptions and unsubscriptions in Campaign v8
