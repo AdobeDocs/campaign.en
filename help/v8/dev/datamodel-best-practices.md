@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Data model best practices
 description: Learn Campaign data model extension best practices

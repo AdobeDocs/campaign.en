@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
-solution: Campaign v8
 version: v8
+solution: Campaign v8
 product: Adobe Campaign
 feature-set: Campaign
 type: Documentation

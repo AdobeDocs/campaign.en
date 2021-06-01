@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Get started with Campaign APIs
 description: Get started with Campaign APIs

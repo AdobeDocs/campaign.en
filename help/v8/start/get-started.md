@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Get started with Campaign v8
 description: Discover key capabilities, user interface and global guidelines

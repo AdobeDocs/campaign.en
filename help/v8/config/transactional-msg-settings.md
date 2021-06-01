@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings

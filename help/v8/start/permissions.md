@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Grant permissions to Campaign v8
 description: Learn how to grant permissions to Campaign v8

@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Get started with tracking and monitoring capabilities
 description: Get started with tracking and monitoring capabilities

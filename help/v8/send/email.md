@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Send emails with Adobe Campaign
 description: Get started with emails in Campaign

@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Create a new schema in Campaign
 description: Learn how to create a new schema in Campaign
