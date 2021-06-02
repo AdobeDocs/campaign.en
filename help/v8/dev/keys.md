@@ -9,15 +9,15 @@ In Campaign v8, the primary key is a Universally Unique IDentifier (UUID), which
 
 Adobe campaign v8 comes with Snowflake as the core Database. The distributed architecture of the Snowflake database does not provide mechanisms to manage the unicity of a key within a table: end-users are responsible for ensuring consistency of keys within the Adobe Campaign database.
 
-Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as Query, Reconciliation, Update, and more.
+Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as **Query**, **Reconciliation**, **Update data**, and more.
 
-Adobe Campaign proposes powerful Data Management tools to reconcile the data, make sure to insert or update data depending on its presence in the database (Reconciliation) and remove duplicates before ingesting data (Deduplication). As a best practice, Adobe recommends adopting a [Detect](#detect-duplicates) and [Correct](#correct-duplicates) strategy as part of your overall Data Management process, in case of duplicated keys have been loaded into the database. 
+Adobe Campaign proposes powerful data management tools to reconcile the data, make sure to insert or update data depending on its presence in the database (**Reconciliation**) and remove duplicates before ingesting data (**Deduplication**). As a best practice, Adobe recommends adopting a [Detect](#detect-duplicates) and [Correct](#correct-duplicates) strategy as part of your overall Data Management process, in case of duplicated keys have been loaded into the database. 
 
 ## Detect duplicates{#detect-duplicates}
 
 Campaign comes with a new guardrail which removes automatically any duplicated UUID from an audience during delivery preparation. This new mechanism prevents any error from happening while preparing a delivery. 
 
-As a end-user, you can check this information in the Delivery logs: some recipients can be excluded from the main target because of duplicated key. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
+As a end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated key. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/delivery-log-duplicates.png)
 
@@ -75,4 +75,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-Once the selected row is updated with a new UUID then you can check the updated row from the interface and notice the UUID has been updated as expected. You can also detect duplicates in the Database by running the "Detect duplicates" workflow [as explained here](#detect-duplicates).
+Once the selected row is updated with a new UUID then you can check the updated row from the interface and notice the UUID has been updated as expected. You can also detect duplicates in the Database by running the **Detect duplicates** workflow [as explained here](#detect-duplicates).
