@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Work with Campaign and Adobe Analytics
-description: Learn how to work with Campaign and Adobe Analytics
+description: Learn how to integrate Campaign and Analytics
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -13,22 +13,15 @@ You can configure Adobe Analytics to integrate Campaign and Analytics.
 
 This integration allows Adobe Campaign and Adobe Analytics to interact through the **Web Analytics connectors** add-on. This integration sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.
 
+[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. Adobe Identity Management Service (IMS) must be implemented for your instance. [Learn more](../start/connect.md#connect-ims). The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
+
 Using Adobe Analytics Connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). The Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to Analytics.
 
 The action perimeter of each tool is as follows:
 
-* **Adobe Analytics**
+* **Adobe Analytics** marks the email campaigns launched with Adobe Campaign
 
-    * marks the email campaigns launched with Adobe Campaign
-    * saves recipient behavior, on the site they browsed after clicking the campaign email, in the form of segments. Segments are related to abandoned products (viewed but not added to the cart or purchased), purchases or cart abandonments.
-
-* **Adobe Campaign**
-
-    * sends the indicators and campaign attributes to the connector, which in turn forwards them to the Web analytics tool
-    * recovers and analyzes segments
-    * triggers a re-marketing campaign
-
-[!DNL :speech_balloon:]  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics Connector with Campaign. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
+* **Adobe Campaign** sends the indicators and campaign attributes to the connector, which in turn forwards them to the Web analytics tool
 
 
 >[!CAUTION]
@@ -41,7 +34,7 @@ To set up Campaign-Analytics connection, you must perform the following operatio
 1. [Configure your Conversion variables and Success events](#configure-conversion-success)
 1. [Configure your external account in Adobe Campaign](#external-account-ac)
 
-## Create your Report suite in Adobe Analytics {#report-suite-analytics}
+## Create your Analytics Report suite {#report-suite-analytics}
 
 To create your **[!UICONTROL Report suite]** in [!DNL Adobe Analytics], follow the steps below:
 
@@ -116,7 +109,7 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
 
 When your report suite is configured, you will need to configure the **[!UICONTROL External accounts]** in Adobe Campaign.
 
-## Configure your external account in Adobe Campaign {#external-account-ac}
+## Configure your Campaign external account {#external-account-ac}
 
 You now need to configure your **[!UICONTROL Web Analytics]** external account in Adobe Campaign to enable the sync between the two solutions.
 
@@ -186,7 +179,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 >
 >If you are using several audience measuring tools, you can select **[!UICONTROL Other]** in the **[!UICONTROL Partners]** drop-down list when creating the external account. You may only reference one external account in the delivery properties: you will therefore need to adapt the formula of tracked URLs by adding the parameters expected by the Adobe and all other measuring tools used.
 
-## Technical workflows of web analytics processes {#technical-workflows-of-web-analytics-processes}
+## Technical workflow of web analytics processes {#technical-workflows-of-web-analytics-processes}
 
 Data exchange between Adobe Campaign and Adobe Analytics is handled by a technical workflow which runs as a background task.
 
@@ -226,7 +219,7 @@ The attributes sent are as follows:
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
 * **[!UICONTROL Contact date]** (scheduling/@contactDate)
 
-## Tracking deliveries in Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
+## Track deliveries {#tracking-deliveries-in-adobe-campaign}
 
 In order for the Adobe Experience Cloud to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:
 
@@ -240,46 +233,6 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
    ![](assets/webanalytics_delivery_properties_002.png)
 
 1. You can now send your delivery and access your report for it in Adobe Analytics.
-
-## Creating a re-marketing campaign {#creating-a-re-marketing-campaign}
-
-To prepare your re-marketing campaign, simply create delivery templates to be used for re-marketing type campaigns. Then configure your re-marketing campaign and link it to a segment. Each segment must have a different re-marketing campaign.
-
-Re-marketing campaigns are started automatically once Adobe Campaign has finished recovering the segments analyzing the behavior of people targeted by the initial campaign. In case of cart abandonment or product viewing without a purchase, a delivery is sent to the concerned recipients in order for their site browsing to end in a purchase.
-
-Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns.
-
-1. From the **[!UICONTROL Explorer]**, go to the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** folder of the Adobe Campaign tree.
-
-1. Duplicate the **[!UICONTROL Email delivery (re-marketing)]** template or the re-marketing template examples offered by Adobe Campaign.
-
-   ![](assets/webanalytics_delivery_model.png)
-
-1. Personalize the template to suit your needs and save it.
-
-1. Create a new campaign and select the **[!UICONTROL Re-marketing campaign]** template from the drop-down list.
-
-   ![](assets/webanalytics_remarketing_campaign_002.png)
-
-1. Click the **[!UICONTROL Configure...]** link to specify the segment and delivery template linked to the campaign.
-
-1. Select the previously configured external account.
-
-   ![](assets/webanalytics_remarketing_campaign_003.png)
-
-1. Select the concerned segment.
-
-   ![](assets/webanalytics_remarketing_campaign_005.png)
-
-1. Select the delivery template to be used for this re-marketing campaign, then click **[!UICONTROL Finish]** to close the window.
-
-   ![](assets/webanalytics_remarketing_campaign_006.png)
-
-1. Click **[!UICONTROL OK]** to close the campaign window.
-
-The **[!UICONTROL Re-marketing efficiency]** report is accessed via the global reports page. It lets you view the number of contacts converted (i.e. having purchased something) in relation to the number of cart abandonments following the Adobe Campaign re-marketing campaign. The conversion rate is calculated per week, month or since the start of synchronization between Adobe Campaign and Web analytics tools.
-
-![](assets/webanalytics_reporting.png)
 
 
 **Related topics**
