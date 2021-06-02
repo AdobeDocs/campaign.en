@@ -129,7 +129,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Keys {#keys}
 
-Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid=true** attribute set to "true".
+Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid** and **autopk** attributes set to **true**.
 
 The primary key can also be defined using the **internal** attribute.
 

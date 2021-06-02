@@ -78,6 +78,7 @@ hide: yes
   + [Datamodel](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
+    + [Key management and unicity](dev/keys.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
     + [Schema structure](dev/schema-structure.md)
