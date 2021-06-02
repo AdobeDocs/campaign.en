@@ -71,7 +71,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
    * Integrate a link to a Web application
 
-      The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page. For more on this, refer to [Link to a Web application](../../web/using/editing-content.md#link-to-a-web-application).
+      The Digital Content Editor lets you integrate links to Web applications from your Adobe Campaign console, such as a landing page or a form page.
 
       Select a text field for your link to a Web application, then click the first icon. Choose **[!UICONTROL Link to a Web application]**, then select the desired application by clicking the icon at the end of the **Web Application** field.
 
