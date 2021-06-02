@@ -11,7 +11,7 @@ Adobe campaign v8 comes with Snowflake as the core Database. The distributed arc
 
 Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as **Query**, **Reconciliation**, **Update data**, and more.
 
-Adobe Campaign proposes powerful data management tools to reconcile the data, make sure to insert or update data depending on its presence in the database (**Reconciliation**) and remove duplicates before ingesting data (**Deduplication**). As a best practice, Adobe recommends adopting a [Detect](#detect-duplicates) and [Correct](#correct-duplicates) strategy as part of your overall Data Management process, in case of duplicated keys have been loaded into the database. 
+As a best practice, Adobe recommends adopting a [Detect](#detect-duplicates) and [Correct](#correct-duplicates) strategy as part of your overall Data Management process, in case of duplicated keys have been loaded into the database. 
 
 ## Detect duplicates{#detect-duplicates}
 
