@@ -20,5 +20,4 @@ For Adobe Campaign v8, the following limitations exist:
 * Some non-available or removed features are still visible in the user interface
 * Subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
 * Duplicates need to be handled manually by end-users. [Learn more](../dev/keys.md)
-* LINE - to confirm + details
 * Latency - to confirm + details

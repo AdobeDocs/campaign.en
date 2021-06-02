@@ -77,6 +77,7 @@ Please note that some capabilities are not available in this first version, such
 * Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
+* LINE messaging
 
 >[!CAUTION]
 >
