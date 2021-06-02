@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
-title: Get started with campaign automation
-description: Get started with campaign automation
+title: Manage and automate processes with Adobe Campaign workflows
+description: Get started with workflows
 feature: Overview
 role: Data Engineer
 level: Beginner

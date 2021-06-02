@@ -30,7 +30,7 @@ Transactional messages are used to send:
 
 Each event can trigger a a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target.
 
-### Create the template
+## Create the template
 
 To create a message template, follow the steps below:
 
@@ -56,7 +56,7 @@ To create a message template, follow the steps below:
 
 1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body. See [Create the message content](#create-message-content).
 
-### Create the content{#create-message-content}
+## Create the content{#create-message-content}
 
 The definition of the transactional message content is the same as for all deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to [this section](../start/create-message.md).
 
@@ -86,7 +86,7 @@ To insert personalization tags into the body of an email message, apply the foll
 
    ![](assets/messagecenter_create_custo_2.png)
 
-### Add seed addresses{#add-seeds}
+## Add seed addresses{#add-seeds}
 
 A seed address lets you display a preview of your message, send a proof, and test message personalization before sending the message. Seed addresses are linked to the delivery and cannot be used for other deliveries.
 
@@ -112,7 +112,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
 Once the addresses are created, you can access their preview and personalization.
 
-### Add personalization data{#personalization-data}
+## Add personalization data{#personalization-data}
 
 You can add data in the message template to test transactional message personalization. This will allow you to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various desktop, web or mobile clients.
 
@@ -127,7 +127,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_custo_3.png)
 
-### Peview your transactional message{#transactional-message-preview}
+## Peview your transactional message{#transactional-message-preview}
 
 Once you have created one or more seed addresses and the message body, you can preview the message and check its personalization.
 
@@ -139,7 +139,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Send a proof
+## Send a proof
 
 You can test message delivery by sending a proof to a previously created seed address.
 
