@@ -127,12 +127,15 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. Click **[!UICONTROL Configure]** next to the **[!UICONTROL Integration]** drop-down.
 
-1. From the **[!UICONTROL Configure Analytics integration]** window, map your external account with your previously created Report suite providing the following information:
+1. From the **[!UICONTROL Configure Analytics integration]** window, map your external account with your previously created Report suite providing the following information: 
+   
+   ![](assets/analytics_connector_0.png)
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
    * **[!UICONTROL Report Suite]**
+
 
 1. From the **[!UICONTROL eVars]** category, map the two **[!UICONTROL Conversion variables]** configured in [!DNL Adobe Analytics].
 
