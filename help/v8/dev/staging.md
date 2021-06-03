@@ -8,12 +8,12 @@ level: Beginner
 ---
 # Campaign API staging mechanism
 
-With Campaign Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
+With Campaign Cloud database, blasting unitary calls is not recommended with regards to performances (latency & concurrency). Batching operation is always preferred. In order to improve performance, ingestion APIs are redirected to the local database.
 
-Campaign staging mechanism is available for both built-in and custom table and brings the following advantages:
+Campaign staging capability is enabled by default on some built-in schemas. We can also enable it on any custom schema. Staging mechanism in a nutshell:
 
-* Data schema structure is replicated in the local staging table
-* New APIs for ingestion flow directly into the staging table. [Learn more](new-apis.md)
+* Data schema structure is duplicated into the local staging table
+* New APIs dedicated for data ingestion flow directly into the local staging table. [Learn more](new-apis.md)
 * A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](../config/replication.md).
 
 Some built-in schemas are Staged by default, such as nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
@@ -22,7 +22,9 @@ Campaign Classic v7 APIs are still available but cannot benefit from this new St
 
 >[!CAUTION]
 >
->With this new mechanism, data synchronization for subscriptions, unsubscriptions or mobile registration is now **asynchronous**.
+>* With this new mechanism, data synchronization for channel optout, subscriptions, unsubscriptions or mobile registration is now **asynchronous**.
+>
+>* Staging only applies for schemas stored on Cloud Database. Do not enable staging on replicated schemas. Do not enable Staging on local schemas. Do not enable Staging on a Staged schema
 >
 
 ## Implementation steps{#implement-staging}

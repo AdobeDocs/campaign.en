@@ -9,7 +9,7 @@ To edit, create and configure the schemas, click the **[!UICONTROL Administratio
 
 >[!NOTE]
 >
->Built-in data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
+>Built-in data schemas can only be deleted by an administrator of your Adobe Campaign console.
 
 ![](assets/schema_navtree.png)
 
@@ -54,7 +54,9 @@ To do this, you need to create the schema of the table and update the database s
 
    ![](assets/create_new_content.png)
 
-1. Define the settings for the contract table:
+1. Define the settings for the contract table.
+
+   As a best practice, create the table in the Cloud database by adding the `dataSource="nms:extAccount:ffda"` attribute. This attribute is added by default when creating a new table.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
