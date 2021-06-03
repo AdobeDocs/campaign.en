@@ -61,7 +61,6 @@ To ensure good architecture and performance of your system, follow the best prac
 
 A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it will unnecessarily take up disk space. 
 
-
 ### Choice of keys {#choice-of-keys}
 
 In addition to the **autouuid** and **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).

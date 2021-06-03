@@ -213,8 +213,8 @@ Once a message template is published on the execution instances, it can be unpub
 
 To unpublish a transactional message template, follow the steps below.
 
-1. On the control instance, go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
-1. Select the template you want to unpublish.
+1. On the control instance, browse to the **[!UICONTROL Message Center > Transactional message templates]** folder.
+1. Select the template to unpublish.
 1. Click **[!UICONTROL Unpublish]**.
 1. Click **[!UICONTROL Start]**.
 
