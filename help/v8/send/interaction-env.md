@@ -25,7 +25,7 @@ By default, Campaign comes with a **[!UICONTROL Design]** environment and a **[!
 
 ![](assets/offer_environments_overview_002.png)
 
-Delivery managers can only view the **[!UICONTROL Live]** environment and leverage offers to deliver them. Offer managers can view and use the **[!UICONTROL Design]** environment, and view the **[!UICONTROL Live]** environment. [Learn more](interaction-operators.md).
+Delivery managers can only view the **[!UICONTROL Live]** environment and leverage offers to deliver them. Offer managers can view and use the **[!UICONTROL Design]** environment, and view the **[!UICONTROL Live]** environment. [Learn more](interaction-operators.md)
 
 ## Create an offer environment {#creating-an-offer-environment}
 

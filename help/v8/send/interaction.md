@@ -22,19 +22,19 @@ Key steps to start are listed below.
 
 Before starting, as a Campaign **Administrator**, make sure you performed the following tasks in design environments:
 
-1. Create user profiles. [Learn more](interaction-operators.md).
+1. Create user profiles. [Learn more](interaction-operators.md)
 1. (optional) Create an offer environment for each targeting dimension. [Learn more](interaction-env.md)
-1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation).
-1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md).
+1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation)
+1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md)
   If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
 
 ### Create and publish the offer catalog {#managing-the-offer-catalog-}
 
 As an **Offer manager** you need to perform the following tasks:
 
-1. Create offer categories in design environments. [Learn more](interaction-offer-catalog.md#creating-offer-categories).
-1. Create offers in design environments. [Learn more](interaction-offer.md).
-1. Approve and publish offers on one or several spaces in order to make them available on live environments for the delivery manager. [Learn more](interaction-offer.md#approve-offers).
+1. Create offer categories in design environments. [Learn more](interaction-offer-catalog.md#creating-offer-categories)
+1. Create offers in design environments. [Learn more](interaction-offer.md)
+1. Approve and publish offers on one or several spaces in order to make them available on live environments for the delivery manager. [Learn more](interaction-offer.md#approve-offers)
 
 ### Leverage the offer catalog {#using-the-offer-catalog-}
 

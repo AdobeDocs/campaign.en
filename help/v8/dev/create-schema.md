@@ -19,7 +19,7 @@ The **[!UICONTROL Edit]** tab shows the XML content of a schema:
 
 >[!NOTE]
 >
->The "Name" edit control lets you enter the schema key made up of the name and namespace. The "name" and "namespace" attributes of the root element of the schema are automatically updated in the XML editing zone of the schema. Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces).
+>The "Name" edit control lets you enter the schema key made up of the name and namespace. The "name" and "namespace" attributes of the root element of the schema are automatically updated in the XML editing zone of the schema. Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces)
 
 The **[!UICONTROL Preview]** tab automatically generates the extended schema:
 

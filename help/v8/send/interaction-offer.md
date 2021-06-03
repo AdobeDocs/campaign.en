@@ -44,7 +44,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 ![](assets/offer_eligibility_create_003.png)
 
-If predefined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md).
+If predefined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -58,7 +58,7 @@ For example, an offer can have a weight of A for contacts aged 18 to 25 and a we
 
 >[!NOTE]
 >
->The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. [Learn more](interaction-offer-catalog.md#creating-offer-categories).
+>The assigned weight can be temporarily modified according to the parameters of the category the offer belongs to. [Learn more](interaction-offer-catalog.md#creating-offer-categories)
 
 To create a weight in an offer, apply the following steps:
 
@@ -134,7 +134,7 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
 
    ![](assets/offer_content_create_002.png)
 
-   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. [Learn more](interaction-offer-spaces.md).
+   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. [Learn more](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 

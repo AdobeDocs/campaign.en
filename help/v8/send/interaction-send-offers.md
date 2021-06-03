@@ -34,11 +34,11 @@ To insert offer propositions into a delivery, follow the steps below:
 
    ![](assets/offer_delivery_005.png)
 
-1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary. [Learn more](#parameters-for-calling-offer-engine).
+1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary. [Learn more](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. If needed, select the **[!UICONTROL Do not display anything if no offers are selected]** option. [Learn more](#parameters-for-calling-offer-engine).
+1. If needed, select the **[!UICONTROL Do not display anything if no offers are selected]** option. [Learn more](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -104,7 +104,7 @@ After configuring your **Query** activity:
     
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery).
+1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ To do this, follow the steps below:
 
    ![](assets/int_enrichment_link2.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery).
+1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ By default, when an **Enrichment** activity is used to deliver offers, their ran
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -176,7 +176,7 @@ After configuring your **Query** activity:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#inserting-an-offer-proposition-into-a-delivery).
+1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Offers by cell {#offers-by-cell}
 

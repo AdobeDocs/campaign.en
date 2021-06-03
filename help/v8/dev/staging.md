@@ -14,7 +14,7 @@ Campaign staging capability is enabled by default on some built-in schemas. We c
 
 * Data schema structure is duplicated into the local staging table
 * New APIs dedicated for data ingestion flow directly into the local staging table. [Learn more](new-apis.md)
-* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](../config/replication.md).
+* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](../config/replication.md)
 
 Some built-in schemas are Staged by default, such as nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 

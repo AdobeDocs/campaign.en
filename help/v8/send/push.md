@@ -48,4 +48,4 @@ You must define your iOS and Android apps settings in Adobe Campaign.
 
 >[!CAUTION]
 >
->With Campaign v8 mobile registration is now **asynchronous**. [Learn more](../dev/staging.md).
+>With Campaign v8 mobile registration is now **asynchronous**. [Learn more](../dev/staging.md)

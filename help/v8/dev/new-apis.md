@@ -8,7 +8,7 @@ level: Beginner
 ---
 # New Campaign APIs{#gs-new-api}
 
-Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md).
+Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
 
 * Ingestion API: **xtk.session.ingest**
 
