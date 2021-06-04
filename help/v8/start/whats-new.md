@@ -27,6 +27,7 @@ Key capabilities include:
 >
 >If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
+![](assets/home-page.png) 
 
 ## Scale
 

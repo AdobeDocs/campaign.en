@@ -80,6 +80,8 @@ Adobe Campaign offers a set of capabilities to help you implement and optimize t
 
 Campaign workspace is available through the [Client Console](../dev/general-architecture.md). 
 
+![](assets/home-page.png) 
+
 [!DNL :bulb:] [Learn more about Campaign Client Console](../start/connect.md).
 
 Campaign workspace can be adapted depending on your needs. 
