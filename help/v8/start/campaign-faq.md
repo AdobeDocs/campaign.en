@@ -71,7 +71,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1.  **Can I connect with Campaign experts?**
 
-    Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+    Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 
 1. **How can I log an issue?**
