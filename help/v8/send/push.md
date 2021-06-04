@@ -91,19 +91,19 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 1. Select the **[!UICONTROL Deliver on Android (android)]** delivery template.
 
-   ![](assets/push-template-android.png)
+   <!--![](assets/push-template-android.png)-->
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
-   ![](assets/nmac_delivery_android_2.png)
+   <!--![](assets/nmac_delivery_android_2.png)-->
 
 1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
 
-   ![](assets/push-android-select-target.png)
+   <!--![](assets/push-android-select-target.png)-->
 
 1. Then enter the content for the notification.
 
-   ![](assets/push-android-content.png)
+   <!--![](assets/push-android-content.png)-->
 
 1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification.
 
@@ -111,7 +111,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
-   ![](assets/push-android-preview.png)
+   <!--![](assets/push-android-preview.png)-->
 
 ## Test, send and monitor your push notifications
 
