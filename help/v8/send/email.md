@@ -102,7 +102,7 @@ You can:
 
 ## Monitor your emails
 
-Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports confirm messages were correctly sent.
+Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports to confirm messages were correctly sent.
 
 [!DNL :arrow_upper_right:] [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
