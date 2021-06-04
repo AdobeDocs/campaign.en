@@ -43,9 +43,78 @@ You must define your iOS and Android apps settings in Adobe Campaign.
 
 ## Create your first push notification
 
-[!DNL :arrow_upper_right:] Learn how to create your first push notifications in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+This section details the elements specific to the delivery of iOS and Android notifications.
 
+[!DNL :arrow_upper_right:] All the steps to create push notifications are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
 
 >[!CAUTION]
 >
->With Campaign v8 mobile registration is now **asynchronous**. [Learn more](../dev/staging.md)
+>With Campaign v8, mobile registration is now **asynchronous**. [Learn more](../dev/staging.md)
+
+To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
+
+   ![](assets/delivery_step_1.png)
+
+### Sending notifications on iOS {#sending-notifications-on-ios}
+
+1. Select the **[!UICONTROL Deliver on iOS]** delivery template and click **[!UICONTROL Continue]**.
+
+   ![](assets/push-template-ios.png)
+
+1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
+
+   ![](assets/push-ios-select-target.png)
+
+1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, select the service relevant to your mobile application, then select the iOS version of the application.
+
+   ![](assets/push-ios-subscribers.png)
+
+1. Select the notification type: **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** or **[!UICONTROL Silent Push]**.
+
+   ![](assets/push-ios-alert.png)
+
+1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification.
+
+1. Enter the **[!UICONTROL Message]** and the **[!UICONTROL Value of the badge]** based on the chosen notification type.
+
+1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload).
+
+1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
+
+1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. For example, you can configure a specific application screen to be displayed when the user activates the notification.
+
+1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
+
+   ![](assets/push-ios-preview.png)
+
+### Sending notifications on Android {#sending-notifications-on-android}
+
+1. Select the **[!UICONTROL Deliver on Android (android)]** delivery template.
+
+   ![](assets/push-template-android.png)
+
+1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
+
+   ![](assets/nmac_delivery_android_2.png)
+
+1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
+
+   ![](assets/push-android-select-target.png)
+
+1. Then enter the content for the notification.
+
+   ![](assets/push-android-content.png)
+
+1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification.
+
+1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. For example, you can configure a specific application screen to be displayed when the user activates the notification.
+
+1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
+
+   ![](assets/push-android-preview.png)
+
+## Test, send and monitor your push notifications
+
+To send a proof and to send the final delivery, use the same process as email deliveries.
+
+After sending messages, you can monitor and track your deliveries.
