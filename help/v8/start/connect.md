@@ -108,9 +108,19 @@ Adobe Campaign can be configured so that the user accesses the platform via thei
 
 ## Web access{#web-access}
 
-Certain parts of the application can be accessed via a simple web browser using an HTML user interface: Campaign dashboard, Cube reporting, instance monitoring, and more. 
+Certain parts of the application can be accessed via a simple web browser using an HTML user interface: Campaign dashboard, Cube reporting, instance monitoring, and more.
 
 [!DNL :arrow_upper_right:] Learn more about Web access in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+The Web access provides an interface that is similar to the console, but with a reduced set of functionalities.
+
+For example, for a given operator, a campaign will show up with the following options in the console:
+
+![](assets/campaign-from-console.png)
+
+Whereas with Web access, the options will mainly enable viewing:
+
+![](assets/campaign-from-web.png)
 
 Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
 
