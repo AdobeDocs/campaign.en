@@ -62,8 +62,6 @@ In this specific architecture, execution cell is separated from the control inst
 
 ![](assets/messagecenter_diagram.png)
 
-[!DNL :arrow_upper_right:] Message Center architecture is described in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
-
 ### Authentication
 
 To use these capabilities, Adobe Campaign users log on to the control instance to create transactional message templates, generate the message preview using a seed list, display reports and monitor execution instance(s).
