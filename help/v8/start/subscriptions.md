@@ -15,6 +15,8 @@ Use Adobe Campaign to create and monitor your information services such as newsl
 To subscribe (opt-in) a profile to a service, available options are:
 
 * Manually add the service to the recipient profile: to do this, from the **[!UICONTROL Subscriptions]** tab of their profile, click **[!UICONTROL Add]** and select the information service concerned. 
+
+   ![](assets/subscribe-to-a-service.png) 
     
    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
     
