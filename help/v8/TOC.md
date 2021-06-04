@@ -6,7 +6,6 @@ title: Adobe Campaign v8 Help Center
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8
 title: Campaign v8 docs
-hide: yes
 ---
 
 # Adobe Campaign v8 documentation {#campaign-v8}

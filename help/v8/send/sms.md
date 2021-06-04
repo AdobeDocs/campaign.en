@@ -45,9 +45,9 @@ In addition, you need to be familiar with the SMS protocol and settings. Walk th
 
    ![](assets/sms-template-list.png)
     
-    [!DNL :arrow_upper_right:] Learn how to create an SMPP external account in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+    [!DNL :arrow_upper_right:] Learn how to create an SMPP external account in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
 
-    [!DNL :arrow_upper_right:] Learn how to create a delivery template to deliver to mobiles in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+    [!DNL :arrow_upper_right:] Learn how to create a delivery template to deliver to mobiles in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
 
 1. Identify your delivery with a label, code, and description.
 
