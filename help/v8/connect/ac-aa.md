@@ -151,10 +151,10 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
    ![](assets/analytics_connnector_12.png)
 
-1. If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
-
-   ![](assets/analytics_connnector_12a.png)
-
+   >[!NOTE]
+   >
+   > You cannot add or remove segments in this version of Campaign v8.
+   
 1. From your **[!UICONTROL External account]**, click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
 
    ![](assets/analytics_connnector_13.png)
