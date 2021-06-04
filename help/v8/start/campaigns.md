@@ -17,6 +17,8 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications.
 
+![](assets/campaign-tab.png) 
+
 ### Core concepts
 
 Before starting implementing marketing campaigns, you need to be familiar with the following concepts:
@@ -36,6 +38,8 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 ## Marketing campaign workspace
 
 Adobe Campaign lets you create, configure, execute and analyze all marketing campaigns from a unified control center.
+
+![](assets/calendar.png) 
 
 [!DNL :arrow_upper_right:] Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
