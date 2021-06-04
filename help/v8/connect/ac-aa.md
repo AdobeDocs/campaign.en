@@ -128,8 +128,6 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 1. Click **[!UICONTROL Configure]** next to the **[!UICONTROL Integration]** drop-down.
 
 1. From the **[!UICONTROL Configure Analytics integration]** window, map your external account with your previously created Report suite providing the following information: 
-   
-   ![](assets/analytics_connector_0.png)
 
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
@@ -154,6 +152,8 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
    ![](assets/analytics_connnector_12.png)
 
 1. If needed, you can add or remove segments from the **[!UICONTROL Update Segments]** Tab.
+
+   ![](assets/analytics_connnector_12a.png)
 
 1. From your **[!UICONTROL External account]**, click the **[!UICONTROL Enrich the formula...]** link to change the URL calculation formula to specify the Web analytics tool integration information (campaign IDs) and the domains of the sites whose activity must be tracked.
 

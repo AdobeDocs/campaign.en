@@ -38,7 +38,7 @@ Campaign v8 brings end-to-end scale at any step of the process, from targeting t
 
 ## Simplification and performance increase
 
-Campaign v8 brings the concept of **Full Federated Data Access** (FDA): all data is now remote on the Cloud Database.
+Campaign v8 brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database.
 
 With this new architecture, Campaign v8 simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start.
 
@@ -48,7 +48,7 @@ The Cloud database technology does not require specific maintenance to guarantee
 
 ## Integrated ecosystem
 
-You can integrate Campaign with a set of powerful Adobe solutions, such as: Adobe Analytics, Workfront, Journey Orchestration, Real-Time CDP, and more.
+You can integrate Campaign with a set of powerful Adobe solutions, such as: Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP, and more.
 
 You can also configure predictive send time optimization and predictive engagement scoring with Journey AI, and increase open rates, clicks and revenues.
 
