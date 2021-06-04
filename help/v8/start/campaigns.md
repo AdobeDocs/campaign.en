@@ -64,12 +64,16 @@ Key steps to create a cross-channel marketing campaign are:
     
     You can build the audience in a workflow or select an existing group, such as a recipient list, subscribers of a newsletter, recipients of a previous delivery, or any filtering condition.
 
+    ![](assets/campaign-wf.png) 
+    
    [!DNL :arrow_upper_right:] Learn how to define the audience of your messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
     
 1. **Create deliveries**
 
     Select channel(s), define the message content and start deliveries.
 
+    ![](assets/campaign-dashboard.png) 
+    
    [!DNL :arrow_upper_right:] Learn how to create and start marketing campaign deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc.
