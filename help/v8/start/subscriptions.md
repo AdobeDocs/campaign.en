@@ -20,7 +20,13 @@ To subscribe (opt-in) a profile to a service, available options are:
     
    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
     
-* Automatically subscribe a set of recipients to the service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct manual selection. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**, select the service concerned, and start the operation.
+* Automatically subscribe a set of recipients to the service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct manual selection. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**.
+
+   ![](assets/subscribe-selection.png) 
+
+   Select the service concerned, and start the operation.
+
+   ![](assets/subscribe-confirm.png) 
 
    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -31,14 +37,21 @@ To subscribe (opt-in) a profile to a service, available options are:
 
 * Use a web form so that recipients can subscribe to a service. 
 
+   ![](assets/opt-in-webapp.png) 
+
+   Campaign comes with a default web form to manage opt-in. You can personalize it and map the profile data.
+
+   ![](assets/web-app.png) 
+
    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * Create a targeting workflow and using a **[!UICONTROL Subscription service]** activity. 
 
+   ![](assets/wf-subscription.png) 
+
    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
     
-
 To unsubscribe (opt-out) a profile from a service, available options are:
 
 **Manual unsubscription**
@@ -50,7 +63,7 @@ To unsubscribe (opt-out) a profile from a service, available options are:
 **Automatic unsubscription**
 
 * Specify a duration limit of the information service: recipients will be unsubscribed automatically when the period of validity has expired. This period is specified in the Edit tab of the service properties. It is expressed in days.
-* Set up an unsubscription workflow for a population
+* Set up an unsubscription workflow for a population.
 
 [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
