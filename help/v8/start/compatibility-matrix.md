@@ -54,7 +54,7 @@ The following browsers are compatible with Campaign for Web Access.
 
 * **Internet Explorer** 11
 
-## How to check your Campaign version
+## How to check your Campaign version and build
 
 Use the **Help > About…** menu to check your version.
 
