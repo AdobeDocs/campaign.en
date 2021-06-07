@@ -41,7 +41,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
 * **Cubes**
 
-    Analyze and measure data, calculate statistics, simplify and optimize report creation and calculation with Cubes.  You can extend the database exploration and analysis capacities while making it easier for end users to configure reports and tables: all they need to do is select an existing (fully configured) cube when creating their report or table to process calculations, measures and statistics.
+    Analyze and measure data, calculate statistics, simplify and optimize report creation and calculation with Cubes.  You can extend the database exploration and analysis capacities and make it easier for end users to configure reports and tables. All they need to do is select an existing (fully configured) cube when creating their report or table to process calculations, measures and statistics.
 
     ![](assets/create-a-report.png)
 
