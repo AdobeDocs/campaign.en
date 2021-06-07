@@ -66,6 +66,10 @@ Adobe campaign v8 comes with Snowflake as the core Database. As it dramatically 
 
 Campaign users do not need to be database experts: there is no longer any need for complex database maintenance operations or complex table indexing.
 
+## Reporting
+
+ Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
+
 ## Unavailable features{#gs-unavailable-features}
 
 Please note that some capabilities are not available in this first version, such as:
