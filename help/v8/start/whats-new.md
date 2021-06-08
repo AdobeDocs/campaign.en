@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: What's new in Campaign v8
-description: Learn more key capabilities
+description: Discover key capabilities in Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner

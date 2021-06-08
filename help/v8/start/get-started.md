@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Get started with Campaign v8
-description: Discover key capabilities, user interface and global guidelines
+description: New to Campaign? Discover how to get started
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -113,3 +113,8 @@ The language is selected during the installation process.
 
 Language affected dates and time formats. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time).
 
+**See also**
+
+* [Campaign v8 Compatibility matrix](compatibility-matrix.md)
+* [Connect to Campaign](connect.md)
+* [Frequently Asked Questions](campaign-faq.md)

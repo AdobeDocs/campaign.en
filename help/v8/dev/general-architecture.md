@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: General architecture
-description: Campaign v8 general architecture
+description: Learn more about Campaign architecture and components
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 ---
 # General architecture{#general-architecture}

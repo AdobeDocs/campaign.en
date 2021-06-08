@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Get started with Campaign architecture
-description: Get started with Campaign architecture
+description: Discover environments and deployment basics
 feature: Overview
 role: Data Engineer
 level: Beginner

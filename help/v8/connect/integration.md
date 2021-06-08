@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
-title: Get started with marketing campaigns
-description: Get started with marketing campaigns
+title: Connect Campaign with your solutions
+description: learn how to connect Campaign with your solutions
 feature: Overview
 role: Data Engineer
 level: Beginner
