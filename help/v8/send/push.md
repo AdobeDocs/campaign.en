@@ -45,7 +45,7 @@ You must define your iOS and Android apps settings in Adobe Campaign.
 
 This section details the elements specific to the delivery of iOS and Android notifications.
 
-[!DNL :arrow_upper_right:] All the steps to create push notifications are detailed in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
+[!DNL :arrow_upper_right:] All the steps to create push notifications are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -119,7 +119,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] All the detailed steps to create and send push notifications on Android are detailed in [Campaign Classic v7 documentation](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+[!DNL :arrow_upper_right:] All the detailed steps to create and send push notifications on Android are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
 
 ## Test, send and monitor your push notifications
 
@@ -129,12 +129,12 @@ To send a proof and to send the final delivery, use the same process as email de
    [!DNL :arrow_upper_right:] [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 * Confirm and send the delivery
-    [!DNL :arrow_upper_right:] [Learn key steps to send a delivery](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+    [!DNL :arrow_upper_right:] [Learn key steps to send a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
 
 After sending messages, you can monitor and track your deliveries. Learn more in Campaign Classic v7 documentation:
 
 * Push notification quarantines
-    [!DNL :arrow_upper_right:] [Learn more about push notification quarantines](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+    [!DNL :arrow_upper_right:] [Learn more about push notification quarantines](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
 
 * Troubleshooting
-    [!DNL :arrow_upper_right:] [Learn how to troubleshoot your push notifications](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+    [!DNL :arrow_upper_right:] [Learn how to troubleshoot your push notifications](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
