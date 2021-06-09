@@ -60,6 +60,7 @@ title: Campaign v8 docs
   + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
+  + [Mobile app settings](config/push-config.md)
   + [External accounts](config/external-accounts.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)

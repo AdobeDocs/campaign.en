@@ -27,7 +27,7 @@ Campaign SDK facilitates the integration of your mobile application into the Ado
 
 Compatible SDK versions are listed in [Campaign Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
 
-[!DNL :arrow_upper_right:] Learn how to integrate Campaign SDK with your app in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
+[!DNL :arrow_upper_right:] Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
 
 ### Configure Campaign Extension in Launch
 
