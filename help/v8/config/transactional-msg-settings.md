@@ -22,7 +22,7 @@ To create new users for Message Center execution instances hosted on Adobe Cloud
 
 All schema extensions made on the schemas used by **Message Center technical workflows** on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 
-[!DNL :arrow_upper_right:] Learn more about Message center technical workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:] Learn more about Message center technical workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Send transactional push notifications
 

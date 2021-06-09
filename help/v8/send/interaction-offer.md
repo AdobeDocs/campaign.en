@@ -190,4 +190,4 @@ The Simulation module lets you test the distribution of offers belonging to a ca
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers and their presentation rules. This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
-[!DNL :arrow_upper_right:] For more on Offer simulation, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] For more on Offer simulation, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

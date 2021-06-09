@@ -49,7 +49,7 @@ Once your message has been created and its content designed and tested, you can 
 
    [!DNL :arrow_upper_right:] [Learn how to automate email deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
 * [Trigger messages](../send/transactional.md) from an event
-   [!DNL :arrow_upper_right:] [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
+   [!DNL :arrow_upper_right:] [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * Schedule your messages
 
    ![](assets/schedule-send.png) 
@@ -78,7 +78,7 @@ Transactional messaging (Message Center) is the Campaign module designed for man
 
 [!DNL :bulb:] Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-[!DNL :arrow_upper_right:] Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
+[!DNL :arrow_upper_right:] Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## Delivery and tracking logs
 
