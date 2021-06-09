@@ -355,24 +355,23 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 1. **Track opens and clicks on notification messages**
 
     For notification messages, the open/click tracking needs to be done with the `notifyOpening` function inside the application launch activity, as below:
+
     ```
     /** Called when the activity is first created. */
         @Override
-        public void onCreate(Bundle savedInstanceState)
-        {
+        public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
     
         SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
     
-        // initialize Neolane sdk
+        // Initialize Campaign SDK
         Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
         Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
         Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
         ...
         ...
         ...
-
-            // Manage opening/receive tracking of message notification
+        // Manage open/receive tracking of message notification
             Intent intent = getIntent();
             Bundle data = intent.getExtras();
             String messageId = null, deliveryId = null;
@@ -404,7 +403,6 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
                     toastMessage( "error", getString(R.string.rec_track_ok));
                 }
                 });
-            }
             }
         }
     ```
