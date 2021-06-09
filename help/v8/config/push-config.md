@@ -95,7 +95,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     The `IntegrationKey` must match with the 'IntegrationKey' set in the Adobe Campaign Mobile Application linked to this Android application.
 
-2. **Register the mobile device to Adobe Campaign server**
+1. **Register the mobile device to Adobe Campaign server**
 
     The registration function enables you to:
 
@@ -415,8 +415,8 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
 
 1. **Receive tracking for data messages**
-    
-    For data messages, the tracking is received at `onMessageReceived` call level. The 'notifyReceive' function needs to be called.
+
+    For data messages, the tracking is received at the `onMessageReceived` call level. The 'notifyReceive' function needs to be called.
 
     YourApplicationMessagingService.java
 
