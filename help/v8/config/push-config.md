@@ -35,7 +35,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
 * **In Android**:
 
-  ```
+  ```sql
   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
@@ -43,7 +43,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
 * **In iOS**:
 
-  ```
+  ```sql
   Neolane_SDK *nl = [Neolane_SDK getInstance];
   [nl setMarketingHost:strMktHost];
   [nl setTrackingHost:strTckHost];
@@ -76,7 +76,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     Before using the Android SDK, you need to initialize it. The SDK initialization can be done in the `onCreate` function of an activity.
 
-    ```
+    ```sql
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -104,7 +104,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     You must register you device to Adobe Campaign, at the app initialization or on user action. It can be easily done using the `registerDevice` method.
 
-    ```
+    ```sql
     public void onClick(View v)
     {
     SharedPreferences settings = this.context.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
@@ -119,7 +119,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     
     YourApplicationActivity.java
 
-    ```
+    ```sql
     public static void registerOnNeolane(final Context ctx, String registrationId, String userKey)
     {
         NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
@@ -180,7 +180,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     YourApplicationFirebaseInstanceIDService.java
 
-    ```
+    ```sql
     package com.android.YourApplication;
     
     import android.content.Context;
@@ -217,7 +217,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     YourApplicationMessagingService.java
     
-    ```
+    ```sql
     package com.android.YourApplication;
  
     import android.content.Context;
@@ -262,7 +262,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     For Campaign Android SDK v1.1.1
 
-    ```
+    ```sql
     public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
     {
         if( message == null ) message = "No Content";
@@ -322,7 +322,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     For Campaign Android SDK v1.1.1
 
-    ```
+    ```sql
     public class NotificationActivity extends Activity {
         public void onCreate(Bundle savedBundle) {
             [...]
@@ -422,7 +422,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     YourApplicationMessagingService.java
 
-    ```
+    ```sql
     package com.android.YourApplication;
     
     import android.content.Context;
@@ -465,7 +465,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     }
     ```
 
-    ```
+    ```sql
     public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
         .....
         .....
@@ -493,7 +493,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     
     It needs to be done at the same moment as open/click tracking.
 
-    ```
+    ```sql
     /** Called when the activity is first created. */
         @Override
         public void onCreate(Bundle savedInstanceState)
@@ -558,7 +558,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     * recover the reconciliation key or userKey (email or account number, for instance)
     
     
-    ```
+    ```sql
     // Callback called on successful registration to the APNs
      - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
     {
@@ -569,19 +569,19 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     ```
 
 1. **Enable tracking function**
+    
+    The tracking function allows you to track when notifications are activated (opens).
 
-  The tracking function allows you to track when notifications are activated (opens).
-
-  ```
-  (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-  fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-  {
-  if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-  *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-  ...  
-  completionHandler(UIBackgroundFetchResultNoData);
-  }
-  ```
+    ```sql
+    (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+    fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+    {
+    if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+    *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+    ...  
+    completionHandler(UIBackgroundFetchResultNoData);
+    }
+    ```
 
 1. **Silent notification tracking**
 
@@ -589,7 +589,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     To track your silent notification, follow the example below:
 
-    ```
+    ```sql
     // AppDelegate.m
     ...
     ...
@@ -604,7 +604,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
     NSLog(@"Application state: %ld", (long)application.applicationState);
 
-    // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
+    // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user does not have click/open the notification)
     if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
         {
     NSLog(@"Silent Push Notification");
@@ -623,13 +623,13 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     }
     ```
 
-1. Configure registration status
+1. **Configure registration status**
 
     The delegate protocol allows you to get the result of the **registerDevice** call and can be used to know if an error occured during registration.
 
     The **registerDeviceStatus** prototype is:
 
-    ```
+    ```sql
     - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
     ```
 
@@ -681,7 +681,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     **Neolane_SDKDelegate** protocol and **registerDeviceStatus** delegate definition is as follows:
 
-    ```
+    ```sql
     //  Neolane_SDK.h
     //  Campaign SDK
     ..
@@ -715,7 +715,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     1. Implement the **setDelegate** during the SDK initialization.
 
-        ```
+        ```sql
         // AppDelegate.m
         ...
         ... 
@@ -744,7 +744,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     1. Add the protocol in the **@interface** of your class.
 
-        ```
+        ```sql
         //  AppDelegate.h
 
         #import <UIKit/UIKit.h>
@@ -766,7 +766,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     1. Implement the delegate in the **AppDelegate**.
 
-        ```
+        ```sql
         //  AppDelegate.m
 
         #import "AppDelegate.h"
@@ -825,7 +825,7 @@ Below is an example of a code that allows a mobile application to collect any ad
 
 * **In Android**:
 
-  ```
+  ```sql
   public void onReceive(Context context, Intent intent) {
        ...
       String event = intent.getStringExtra("VAR");
@@ -835,7 +835,7 @@ Below is an example of a code that allows a mobile application to collect any ad
 
 * **In iOS**:
 
-  ```
+  ```sql
   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
   {
       ....
@@ -873,7 +873,7 @@ Below is an example of a code that allows a mobile application to collect any ad
 
 The media has to be downloaded at the notification service extension level.
 
-```
+```sql
 
 #import "NotificationService.h"
 
@@ -921,7 +921,7 @@ At this level, you need to:
 
   You need to add code to feed the media data to the widget. Here is an example of code for an image:
 
-  ```
+  ```sql
 
   #import "NotificationViewController.h"
   #import <UserNotifications/UserNotifications.h>
