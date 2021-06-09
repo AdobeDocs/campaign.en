@@ -43,7 +43,7 @@ This document lists all systems and components supported for the latest build of
 
 ### Mobile SDK{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0 with mobile SDK build 1.0.27.
+* **Android** 7.x, 8.x, 9.0 with mobile SDK build 1.1.1.
 * **Apple iOS** 9 - 14 with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
 ### Supported browsers {#Browsers}
