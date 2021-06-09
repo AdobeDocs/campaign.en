@@ -375,31 +375,41 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
             Intent intent = getIntent();
             Bundle data = intent.getExtras();
             String messageId = null, deliveryId = null;
-            if( data != null ) {
+            if( data != null )
+            {
             if (data.containsKey("_mId")) messageId = data.get("_mId").toString();
             if (data.containsKey("_dId")) deliveryId = data.get("_dId").toString();
-            if ( messageId != null && deliveryId != null) {
+            if ( messageId != null && deliveryId != null) 
+            {
                 Log.i(TAG, "Notify opening from backgroun click_action");
                 NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-                nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
-                public void onNeolaneException(NeolaneException arg0, Object arg1) {
+                nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() 
+                {
+                public void onNeolaneException(NeolaneException arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.open_track_sdk_error) + arg0.getErrorCode());
                 }
-                public void onIOException(IOException arg0, Object arg1) {
+                public void onIOException(IOException arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.open_track_io_error) +  arg0.getLocalizedMessage());
                 }
-                public void onComplete(String arg0, Object arg1) {
+                public void onComplete(String arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.open_track_ok));
                 }
-                });
-                nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-                public void onNeolaneException(NeolaneException arg0, Object arg1) {
+            });
+                nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() 
+                {
+                public void onNeolaneException(NeolaneException arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
                 }
-                public void onIOException(IOException arg0, Object arg1) {
+                public void onIOException(IOException arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.rec_track_io_error) +  arg0.getLocalizedMessage());
                 }
-                public void onComplete(String arg0, Object arg1) {
+                public void onComplete(String arg0, Object arg1) 
+                {
                     toastMessage( "error", getString(R.string.rec_track_ok));
                 }
                 });
