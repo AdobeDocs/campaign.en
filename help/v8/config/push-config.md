@@ -637,7 +637,6 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
     * **ErrorReason** provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.
 
-
 | Status                                                     | Description                                            | ErrorReason                               |
 | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
 | ACCRegisterDeviceStatusSuccess                             | Registration Succeeded                                 | EMPTY                                     |
@@ -646,7 +645,6 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 | ACCRegisterDeviceStatusFailureConnectionIssue              | Connection issue with ACC                              | More information (in OS current language) |
 | ACCRegisterDeviceStatusFailureUnknownUUID                  | The provided UUID (integration key) is unknown.        | EMPTY                                     |
 | ACCRegisterDeviceStatusFailureUnexpectedError              | Unexpected error returned to ACC server.               | The error message returned to ACC.        |
-
 
 {style="table-layout:auto"}
 
