@@ -638,7 +638,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     * **ErrorReason** provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.
 
 
-        | Status                                                     | Description                                            | ErrorReason                               |
+    | Status                                                     | Description                                            | ErrorReason                               |
     | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
     | ACCRegisterDeviceStatusSuccess                             | Registration Succeeded                                 | EMPTY                                     |
     | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | The ACC marketing server hostname is empty or not set. | EMPTY                                     |
@@ -647,47 +647,6 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     | ACCRegisterDeviceStatusFailureUnknownUUID                  | The provided UUID (integration key) is unknown.        | EMPTY                                     |
     | ACCRegisterDeviceStatusFailureUnexpectedError              | Unexpected error returned to ACC server.               | The error message returned to ACC.        |
 
-    <table> 
-    <thead>
-    <tr>
-    <th> Status<br /> </th>
-    <th> Description<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> Registration Succeeded<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> The ACC marketing server hostname is empty or not set.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> The integration key is empty or not set.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> Connection issue with ACC<br /> </td>
-    <td> More information (in OS current language)<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> The provided UUID (integration key) is unknown.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
-    <td> Unexpected error returned to ACC server.<br /> </td>
-    <td> The error message returned to ACC.<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
     **Neolane_SDKDelegate** protocol and **registerDeviceStatus** delegate definition is as follows:
 
