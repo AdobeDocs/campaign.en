@@ -411,9 +411,9 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     }
     ```
 
-  >[!NOTE]
-  >
-  > Similar management needs to be done if user is using `click_action` option inside the targeted activity.
+    >[!NOTE]
+    >
+    > Similar management needs to be done if user is using `click_action` option inside the targeted activity.
 
 
 1. **Receive tracking for data messages**
@@ -636,6 +636,16 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     * **Status** allows you to know if a registration succeeded or if an error occured.
 
     * **ErrorReason** provides you with more information on the errors that occurred. For more information on available errors and their descriptions, refer to the table below.
+
+
+        | Status                                                     | Description                                            | ErrorReason                               |
+    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+    | ACCRegisterDeviceStatusSuccess                             | Registration Succeeded                                 | EMPTY                                     |
+    | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | The ACC marketing server hostname is empty or not set. | EMPTY                                     |
+    | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty          | The integration key is empty or not set.               | EMPTY                                     |
+    | ACCRegisterDeviceStatusFailureConnectionIssue              | Connection issue with ACC                              | More information (in OS current language) |
+    | ACCRegisterDeviceStatusFailureUnknownUUID                  | The provided UUID (integration key) is unknown.        | EMPTY                                     |
+    | ACCRegisterDeviceStatusFailureUnexpectedError              | Unexpected error returned to ACC server.               | The error message returned to ACC.        |
 
     <table> 
     <thead>

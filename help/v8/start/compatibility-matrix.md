@@ -39,7 +39,9 @@ This document lists all systems and components supported for the latest build of
 ### Federated Data Access (FDA){#FederatedDataAccessFDA}
  
 * **Amazon Redshift**
+* **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
+* **[!DNL Vertica]**
 
 ### Mobile SDK{#MobileSDK}
 
