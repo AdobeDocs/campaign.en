@@ -648,6 +648,9 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     | ACCRegisterDeviceStatusFailureUnexpectedError              | Unexpected error returned to ACC server.               | The error message returned to ACC.        |
 
 
+    {style="table-layout:auto"}
+    
+
     **Neolane_SDKDelegate** protocol and **registerDeviceStatus** delegate definition is as follows:
 
     ```sql
