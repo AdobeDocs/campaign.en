@@ -33,19 +33,19 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
-   [!DNL :arrow_upper_right:] Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+   [!DNL :arrow_upper_right:] Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
-   [!DNL :arrow_upper_right:] Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   [!DNL :arrow_upper_right:] Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
 1. **How can I make sure my delivery is sent without errors?**
 
     Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
-    [Read out Campaign Classic v7 documentation to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+    [Read out Campaign Classic v7 documentation to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
     
 1. **Can I monitor workflow execution?**
 
-   [!DNL :arrow_upper_right:] Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   [!DNL :arrow_upper_right:] Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target="_blank"}
 
 1. **Which systems and components Campaign v8 is compatible with?**
 
@@ -65,19 +65,19 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     You can get the installation program and the client console from Adobe Download Center.
     
-    [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
+    [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html){target="_blank"} to access the Experience Cloud Software Distribution.
     
-    Learn more about the Distribution Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html).
+    Learn more about the Distribution Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 1.  **Can I connect with Campaign experts?**
 
-    Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+    Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **How can I log an issue?**
 
     Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
-    To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview). 
+    To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}. 
 
-    This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 
+    This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
