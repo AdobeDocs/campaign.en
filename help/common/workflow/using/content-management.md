@@ -23,7 +23,7 @@ The properties of the activity are divided into three steps:
 
   ![](assets/content_mgmt_edit.png)
 
-  For more on configuring and using content management in Adobe Campaign, refer to this [section](../../delivery/using/about-content-management.md).
+  For more on configuring and using content management in Adobe Campaign, refer to this [section](../../../v7/delivery/using/about-content-management.md).
 
 1. **Content**
 
@@ -95,4 +95,4 @@ Identifier of the content to be used if the **[!UICONTROL Specified in the trans
 
 ## Examples {#examples}
 
-Examples are provided in this [section](../../delivery/using/automating-via-workflows.md#examples).
+Examples are provided in this [section](../../../v7/delivery/using/automating-via-workflows.md#examples).

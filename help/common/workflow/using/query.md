@@ -40,7 +40,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
 1. Define the populations using the wizard. The fields to be entered can differ according to the type of target. You can preview the targeted population with your current criteria using the **[!UICONTROL Preview]** tab.
 
-   For more on creating and using filters or queries, refer to this [section](../../platform/using/filtering-options.md).
+   For more on creating and using filters or queries, refer to this [section](../../../v7/platform/using/filtering-options.md).
 
    ![](assets/s_user_segmentation_wizard.png)
 
@@ -48,7 +48,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](querying-using-grouping-management.md).
 
-   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../platform/using/defining-filter-conditions.md#building-expressions).
+   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the **[!UICONTROL Corresponding SQL query...]** for your criteria combination. For more on this refer to this [section](../../../v7/platform/using/defining-filter-conditions.md#building-expressions).
 
    Save your filter if you wish to re-use it later.
 
@@ -189,7 +189,7 @@ The section below provides best practices to optimize the queries running on Ado
 * Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
 * Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
 
-  For more on functions, refer to [this section](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  For more on functions, refer to [this section](../../../v7/platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Filtering dimensions {#filtering-dimensions}
 

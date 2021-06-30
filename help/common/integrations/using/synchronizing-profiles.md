@@ -35,7 +35,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 ## Creating a new recipient {#creating-a-new-recipient}
 
-1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](#editing-a-recipient). For further information, see [Adding recipients](../../platform/using/adding-profiles.md).
+1. Create a new recipient in Campaign v7 for replication to Campaign Standard. Enter as much information as possible, including the recipient's last name, first name, email address, and postal address. However, do not choose a **[!UICONTROL Salutation]** since it will be added in the next section, [Editing a recipient](#editing-a-recipient). For further information, see [Adding recipients](../../../v7/platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -49,7 +49,7 @@ When a recipient clicks the unsubscription link in an email sent by Campaign Sta
 
 The steps below for changing a single point of data offer a simple example of how Campaign v7 becomes the primary database for Campaign Standard when using data replication. Modifying or deleting replicated data in Campaign v7 has the same effect on the corresponding data in Campaign Standard.
 
-1. Choose the newly created recipient from [Creating a new recipient](#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../platform/using/editing-a-profile.md).
+1. Choose the newly created recipient from [Creating a new recipient](#creating-a-new-recipient) and edit the recipient’s name. For example, choose a **[!UICONTROL Salutation]** for the recipient (e.g. Mr. or Mrs.). For further information, see [Editing a profile](../../../v7/platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -162,7 +162,7 @@ Follow the instructions in [Creating a workflow](#creating-a-workflow) and [Crea
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. The recipient data in Campaign v7 is updated to reflect that the user has unsubscribed. Confirm that the box **[!UICONTROL No longer contact (by any channel)]** is checked for the recipient. To learn how to view a recipient in Campaign v7, see [Editing a profile](../../platform/using/editing-a-profile.md).
+1. The recipient data in Campaign v7 is updated to reflect that the user has unsubscribed. Confirm that the box **[!UICONTROL No longer contact (by any channel)]** is checked for the recipient. To learn how to view a recipient in Campaign v7, see [Editing a profile](../../../v7/platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_22.png)
 

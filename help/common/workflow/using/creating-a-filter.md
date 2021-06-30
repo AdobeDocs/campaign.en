@@ -13,7 +13,7 @@ The filters available in Adobe Campaign are defined via filtering conditions whi
 
 >[!NOTE]
 >
->For more on creating filters, refer to [this section](../../platform/using/filtering-options.md).
+>For more on creating filters, refer to [this section](../../../v7/platform/using/filtering-options.md).
 
 The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the filters used in the lists and overviews.
 

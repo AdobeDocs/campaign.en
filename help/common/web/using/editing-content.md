@@ -19,7 +19,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 >[!NOTE]
 >
->Advanced expression editing is presented on [this page](../../platform/using/defining-filter-conditions.md#list-of-functions).
+>Advanced expression editing is presented on [this page](../../../v7/platform/using/defining-filter-conditions.md#list-of-functions).
 
 ![](assets/dce_popup_visibilitycondition.png)
 
@@ -252,4 +252,4 @@ The **Personalization block** option lets you insert dynamic and personalized bl
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../../v7/delivery/using/personalization-blocks.md).

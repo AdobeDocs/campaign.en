@@ -20,7 +20,7 @@ In order to use the integration between Adobe Campaign and Adobe Target, you mus
 
 To configure Adobe Campaign:
 
-1. Install the **[!UICONTROL Integration with the Adobe Experience Cloud]** standard package. Installing an integration package is the same as installing a standard package, which is detailed in the [Package Import](../../platform/using/working-with-data-packages.md#importing-packages) section. This gives you access to the shared assets via Digital Asset Manager.
+1. Install the **[!UICONTROL Integration with the Adobe Experience Cloud]** standard package. Installing an integration package is the same as installing a standard package, which is detailed in the [Package Import](../../../v7/platform/using/working-with-data-packages.md#importing-packages) section. This gives you access to the shared assets via Digital Asset Manager.
 1. Enable connection via IMS (Adobe ID connection service) to use images shared via Adobe Experience Cloud in your emails. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).
 1. In **[!UICONTROL Administration > Platform > Options]**, configure the server and organization (Tenant) options for Adobe Target:
 
@@ -31,4 +31,4 @@ To configure Adobe Campaign:
 
 >[!CAUTION]
 >
->For hybrid and hosted architectures, these options must be set on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance).
+>For hybrid and hosted architectures, these options must be set on all servers, including the [mid-sourcing server](../../../v7/installation/using/mid-sourcing-server.md) and the [execution instance](../../../v7/message-center/using/configuring-instances.md#execution-instance).

@@ -14,7 +14,7 @@ With S3, Azure Blob Storage or SFTP connection, you can also import segment data
 
 >[!NOTE]
 >
->Best practices and troubleshooting on SFTP server usage are detailed [in this page](../../platform/using/sftp-server-usage.md).
+>Best practices and troubleshooting on SFTP server usage are detailed [in this page](../../../v7/platform/using/sftp-server-usage.md).
 
 ## Properties {#properties}
 

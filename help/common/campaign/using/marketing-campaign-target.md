@@ -13,11 +13,11 @@ In a marketing campaign, for each delivery, you can define:
 
 * The audience - Learn more in [Building the audience in a workflow](#building-the-main-target-in-a-workflow) and [Selecting the target population](#selecting-the-target-population).
 * A control group - Learn more in [this section](#defining-a-control-group).
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).
+* Seed addresses - Learn more in [this section](../../../v7/delivery/using/about-seed-addresses.md).
 
 Some of this information can be inherited from the [campaign template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in [this section](../../delivery/using/steps-defining-the-target-population.md).
+To build the delivery target, you can define filtering criteria for the recipients in the database. This recipient selection mode is presented in [this section](../../../v7/delivery/using/steps-defining-the-target-population.md).
 
 ## Send to a group
 

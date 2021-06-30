@@ -40,12 +40,12 @@ To define your target, create a query to identify the recipients.
 
 ## Step 2: Creating an email including an offer {#step-2--creating-an-email-including-an-offer}
 
-1. Create an **[!UICONTROL Email delivery]** activity and double-click it in your workflow to edit it. For more on creating an email, refer to [this section](../../delivery/using/about-email-channel.md).
+1. Create an **[!UICONTROL Email delivery]** activity and double-click it in your workflow to edit it. For more on creating an email, refer to [this section](../../../v7/delivery/using/about-email-channel.md).
 1. Design the message and insert a link including an offer into the content.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   For more on integrating an offer into the body of a message, refer to [this section](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine).
+   For more on integrating an offer into the body of a message, refer to [this section](../../../v7/interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine).
 
 1. Save your changes.
 1. Right-click the **[!UICONTROL Email delivery]** activity to open it.
@@ -103,7 +103,7 @@ Once your target is identified and your first delivery created, you need to segm
     * Add a **[!UICONTROL Mobile delivery]** activity to send an SMS message to the second subset.
     * Add a **[!UICONTROL List update]** activity to add the corresponding recipients to the database.
 
-1. Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to [Email channel](../../delivery/using/about-email-channel.md) and [SMS channel](../../delivery/using/sms-channel.md).
+1. Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to [Email channel](../../../v7/delivery/using/about-email-channel.md) and [SMS channel](../../../v7/delivery/using/sms-channel.md).
 1. Double-click the **[!UICONTROL List update]** activity and select the **[!UICONTROL Generate an outbound transition]** option.
 
    You can then export the resulting recipients from Adobe Campaign to the Adobe Experience Cloud. For example, you can use the audience in Adobe Target by adding an **[!UICONTROL Update shared audience]** activity to the workflow. For more on this, refer to [Exporting an audience](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience).

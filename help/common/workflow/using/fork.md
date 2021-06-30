@@ -16,7 +16,7 @@ For example, you can use the activity after a query, in order to perform two act
 * Save the result of the query into an audience,
 * Execute a segmentation on the result in order to send multiple deliveries.
 
-You can also use the activity in the context of content creation and delivery sending automation, in order to launch the target calculation and the content creation in parallel. A dedicated use case is available in [this section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
+You can also use the activity in the context of content creation and delivery sending automation, in order to launch the target calculation and the content creation in parallel. A dedicated use case is available in [this section](../../../v7/delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content).
 
 >[!IMPORTANT]
 >

@@ -13,7 +13,7 @@ The workflows detailed below are installed with the **Offer engine (Interaction)
 
 For more on this, depending on your Campaign version, refer to these sections:
   
-![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../../v7/interaction/using/interaction-and-offer-management.md)
   
 ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
 

@@ -11,7 +11,7 @@ exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 
 Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is only available to **Campaign Administrators**.
 
-Discover additional ways to monitor Campaign processes in [this page](../../production/using/monitoring-guidelines.md).
+Discover additional ways to monitor Campaign processes in [this page](../../../v7/production/using/monitoring-guidelines.md).
 
 ## Get started with the Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -48,7 +48,7 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
    >[!NOTE]
    >
-   >Only the workflows that have not been deleted by the **[!UICONTROL Database cleanup]** workflow are visible. For more on the Database cleanup workflow, refer to [this section](../../production/using/database-cleanup-workflow.md).  
+   >Only the workflows that have not been deleted by the **[!UICONTROL Database cleanup]** workflow are visible. For more on the Database cleanup workflow, refer to [this section](../../../v7/production/using/database-cleanup-workflow.md).  
    >By default, the Workflow HeatMap time zone is the one defined for the current administrator user. For example, you may want to change it if you are not in the same area as the marketing users you are working with.
 
 1. Click the **[!UICONTROL Filters]** button.

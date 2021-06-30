@@ -53,7 +53,7 @@ This data is contained in a "Purchases.txt" text file.
 
    The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data.
 
-   For more on this activity, refer to [Load data from a file](../../platform/using/import-export-workflows.md#loading-data-from-a-file).
+   For more on this activity, refer to [Load data from a file](../../../v7/platform/using/import-export-workflows.md#loading-data-from-a-file).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 

@@ -11,7 +11,7 @@ exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 
 Technical workflows need to be monitored, and actions need to be taken when they fail.
 
-Additional ways of monitoring the different Campaign processes are presented in [this page](../../production/using/monitoring-guidelines.md).
+Additional ways of monitoring the different Campaign processes are presented in [this page](../../../v7/production/using/monitoring-guidelines.md).
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 
@@ -37,7 +37,7 @@ For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
 1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. For more on this, refer to this [page](delivery.md).
 1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
-1. For more information, check this [page](../../production/using/database-cleanup-workflow.md).
+1. For more information, check this [page](../../../v7/production/using/database-cleanup-workflow.md).
 
 For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 

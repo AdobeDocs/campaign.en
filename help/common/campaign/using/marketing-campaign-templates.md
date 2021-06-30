@@ -95,7 +95,7 @@ The following links and tabs will be displayed:
 
 * **Seed addresses**
 
-  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more  about seed addresses in [this section](../../delivery/using/about-seed-addresses.md).
+  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more  about seed addresses in [this section](../../../v7/delivery/using/about-seed-addresses.md).
 
   ![](assets/s_ncs_user_op_template_activate_2.png)
 
@@ -150,7 +150,7 @@ When you create a campaign template, you need to enter the following information
 
   >[!NOTE]
   >
-  >For more information on enumerations, refer to the [Getting Started](../../platform/using/managing-enumerations.md) section.
+  >For more information on enumerations, refer to the [Getting Started](../../../v7/platform/using/managing-enumerations.md) section.
 
 * Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed in [this section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.

@@ -35,7 +35,7 @@ This template determines the type of Web application. You can create:
 
 1. Surveys
 
-   Adobe Campaign enables you, via the **Survey Manager** option, to design and manage online surveys and process their results: dynamic field creation, score management, export of answers and dedicated reports. For more on this, refer to [this section](../../surveys/using/about-surveys.md).
+   Adobe Campaign enables you, via the **Survey Manager** option, to design and manage online surveys and process their results: dynamic field creation, score management, export of answers and dedicated reports. For more on this, refer to [this section](../../../v7/surveys/using/about-surveys.md).
 
    >[!CAUTION]
    >
@@ -43,7 +43,7 @@ This template determines the type of Web application. You can create:
 
 1. Facebook applications
 
-   Thanks to the **Social Marketing** option, Adobe Campaign lets you publish personalized content in a Facebook application. For more on this, refer to [this section](../../social/using/about-social-marketing.md).
+   Thanks to the **Social Marketing** option, Adobe Campaign lets you publish personalized content in a Facebook application. For more on this, refer to [this section](../../../v7/social/using/about-social-marketing.md).
 
    >[!CAUTION]
    >

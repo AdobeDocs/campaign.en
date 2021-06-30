@@ -21,7 +21,7 @@ For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and 
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [this section](../../mrm/using/creating-and-managing-tasks.md).
+* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. This view lets you edit them or delete them. Tasks are available with the MRM application. They are detailed in [this section](../../../v7/mrm/using/creating-and-managing-tasks.md).
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -41,7 +41,7 @@ To check the status of a delivery, edit it and view its dashboard and tabs.
 
 >[!NOTE]
 >
->Information concerning delivery details is available in [this section](../../delivery/using/about-message-tracking.md) section.
+>Information concerning delivery details is available in [this section](../../../v7/delivery/using/about-message-tracking.md) section.
 
 ## Execution tracking {#execution-tracking}
 

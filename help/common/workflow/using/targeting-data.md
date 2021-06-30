@@ -127,7 +127,7 @@ The exclusion activity lets you exclude the elements of a target from a differen
 
 When necessary, it is possible to manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this click the **[!UICONTROL Add]** button and specify the dimension change conditions.
 
-Data reconciliation is carried out either via an identifier, changing axis, or a join. An example is available in [Using data from a list: Read list](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
+Data reconciliation is carried out either via an identifier, changing axis, or a join. An example is available in [Using data from a list: Read list](../../../v7/platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
@@ -171,7 +171,7 @@ To configure it, you first need to select criteria:
 
    For more on this, depending on your Campaign version, refer to these sections:
    
-    ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../installation/using/about-fda.md)
+    ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../../v7/installation/using/about-fda.md)
 
     ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=en)
 

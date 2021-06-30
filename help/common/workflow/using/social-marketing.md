@@ -11,7 +11,7 @@ topic-tags: technical-workflows
 
 >[!AVAILABILITY]
 >
->:warning: This capability is only available in Campaign Classic v7. [Learn more](../../social/using/about-social-marketing.md)
+>:warning: This capability is only available in Campaign Classic v7. [Learn more](../../../v7/social/using/about-social-marketing.md)
 
 The workflows detailed below are installed with the **Social Marketing** module by default.
 

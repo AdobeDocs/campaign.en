@@ -21,7 +21,7 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 ![](assets/campaign_op_add_delivery.png)
 
-The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../delivery/using/steps-about-delivery-creation-steps.md).
+The suggested configurations are suited to the different types of delivery: direct mail, email, mobile channels. [Learn more](../../../v7/delivery/using/steps-about-delivery-creation-steps.md).
 
 ## Starting a delivery {#starting-a-delivery}
 
@@ -120,7 +120,7 @@ In a campaign you can also refer to other items, such as promotional coupons, sp
 
 >[!NOTE]
 >
->If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../mrm/using/managing-marketing-resources.md).
+>If you are using MRM, you can also manage a library of marketing resources that are available for several participants for collaborative work. See [Managing marketing resources](../../../v7/mrm/using/managing-marketing-resources.md).
 
 ### Adding documents {#adding-documents}
 
@@ -197,7 +197,7 @@ An outline can contain items and personalization fields, resources and offers:
 
   >[!NOTE]
   >
-  >For more on marketing resources, refer to [Managing marketing resources](../../mrm/using/managing-marketing-resources.md).
+  >For more on marketing resources, refer to [Managing marketing resources](../../../v7/mrm/using/managing-marketing-resources.md).
 
 #### Selecting an outline {#selecting-an-outline}
 
@@ -225,7 +225,7 @@ The export model must be associated with the service provider selected for the d
 
 >[!NOTE]
 >
->For more on exports, refer to the [Getting Started](../../platform/using/get-started-data-import-export.md) section.
+>For more on exports, refer to the [Getting Started](../../../v7/platform/using/get-started-data-import-export.md) section.
 
 #### Tutorial video {#create-email-video}
 

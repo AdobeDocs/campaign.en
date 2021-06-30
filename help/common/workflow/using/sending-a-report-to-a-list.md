@@ -25,7 +25,7 @@ Go to the **[!UICONTROL Profiles and targets]** tab, click the **[!UICONTROL Lis
 
 ![](assets/use_case_report_1.png)
 
-For more on creating lists, refer to this [section](../../platform/using/creating-and-managing-lists.md).
+For more on creating lists, refer to this [section](../../../v7/platform/using/creating-and-managing-lists.md).
 
 ## Step 2: Creating the delivery template {#step-2--creating-the-delivery-template}
 
@@ -33,7 +33,7 @@ For more on creating lists, refer to this [section](../../platform/using/creatin
 
    ![](assets/use_case_report_2.png)
 
-   For more on creating a delivery template, refer to this [section](../../delivery/using/about-templates.md).
+   For more on creating a delivery template, refer to this [section](../../../v7/delivery/using/about-templates.md).
 
 1. Enter the various template parameters: label, target (the list of previously created recipients), subject and content.
 
@@ -41,7 +41,7 @@ For more on creating lists, refer to this [section](../../platform/using/creatin
 
 1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]**:
 
-   For more on creating a calculated attachment, refer to this [section](../../delivery/using/attaching-files.md#creating-a-calculated-attachment).
+   For more on creating a calculated attachment, refer to this [section](../../../v7/delivery/using/attaching-files.md#creating-a-calculated-attachment).
 
     * Click the **[!UICONTROL Attachments]** link and click **[!UICONTROL Add]**, then select **[!UICONTROL Calculated attachment]**.
     

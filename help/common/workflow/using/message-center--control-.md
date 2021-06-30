@@ -14,7 +14,7 @@ The workflow detailed below is scheduled to run every hour. It is installed with
 
 For more on this, depending on your Campaign version, refer to these sections:
   
-![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../../v7/message-center/using/about-transactional-messaging.md)
   
 ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 

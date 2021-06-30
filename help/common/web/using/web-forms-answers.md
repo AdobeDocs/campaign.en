@@ -133,4 +133,4 @@ You can select a search folder for reconciliation and the creation folder for ne
 >
 >Possible operations are: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.  
 >The default folder of the operator is the first folder for which the operator has write-permission.   
->Refer to [this section](../../platform/using/access-management.md).
+>Refer to [this section](../../../v7/platform/using/access-management.md).

@@ -10,7 +10,7 @@ exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
 
 The **CRM connector** activity lets you configure the data synchronization between Adobe Campaign and a CRM system.
 
-For more information on CRM connectors in Adobe Campaign, refer to this [section](../../platform/using/crm-connectors.md).
+For more information on CRM connectors in Adobe Campaign, refer to this [section](../../../v7/platform/using/crm-connectors.md).
 
 With this activity, you can:
 
@@ -25,4 +25,4 @@ Select the external account that matches the CRM that you want to configure sync
 
 ![](assets/crm_task_select_obj.png)
 
-The configuration of this activity depends on the process to be carried out. Various configurations are detailed [in this page](../../platform/using/crm-data-sync.md).
+The configuration of this activity depends on the process to be carried out. Various configurations are detailed [in this page](../../../v7/platform/using/crm-data-sync.md).

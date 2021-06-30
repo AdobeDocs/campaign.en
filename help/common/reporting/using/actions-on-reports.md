@@ -72,9 +72,9 @@ In certain instances, the default value **maxMB** (**SKMS** for hosted instances
 
 To apply changes made to the configuration, the **nlserver** service needs to be restarted.
 
-To find out more about the **serverConf.xml** file, refer to [this section](../../production/using/configuration-principle.md).
+To find out more about the **serverConf.xml** file, refer to [this section](../../../v7/production/using/configuration-principle.md).
 
-To find out more about the **nlserver** service, refer to [this section](../../production/using/administration.md).
+To find out more about the **nlserver** service, refer to [this section](../../../v7/production/using/administration.md).
 
 ## Printing a report {#printing-a-report}
 

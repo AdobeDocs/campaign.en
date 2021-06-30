@@ -13,9 +13,9 @@ This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](supervising-workflows.md#supervising-workflows).
 
-Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to [Campaign Classic v7 Production Guide](../../production/using/audit-trail.md).
+Additionnally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to [Campaign Classic v7 Production Guide](../../../v7/production/using/audit-trail.md).
 
-Additional ways of monitoring the different Campaign processes are presented in [Campaign Classic v7 Production Guide](../../production/using/monitoring-guidelines.md).
+Additional ways of monitoring the different Campaign processes are presented in [Campaign Classic v7 Production Guide](../../../v7/production/using/monitoring-guidelines.md).
 
 ## Displaying progress {#displaying-progress}
 
@@ -135,7 +135,7 @@ In this case, the error task is aborted. This mode is particularly suited to wor
 >
 >You can apply this configuration individually for each activity. To do this, edit activity properties and select the error management mode in the **[!UICONTROL Advanced]** tab.
 
-For more on workflows' execution troubleshooting, refer to [Campaign Classic v7 Production Guide](../../production/using/workflow-execution.md).
+For more on workflows' execution troubleshooting, refer to [Campaign Classic v7 Production Guide](../../../v7/production/using/workflow-execution.md).
 
 ## Processing errors {#processing-errors}
 
@@ -226,11 +226,11 @@ A use case is presented in this section: [Coordinating data updates](coordinatin
 
 ## Database maintenance {#database-maintenance}
 
-Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this [section](../../production/using/tables-to-maintain.md) .
+Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this [section](../../../v7/production/using/tables-to-maintain.md) .
 
-The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to [Campaign Classic v7 Production Guide](../../production/using/database-cleanup-workflow.md).
+The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to [Campaign Classic v7 Production Guide](../../../v7/production/using/database-cleanup-workflow.md).
 
-You can also create specific technical workflows to purge unnecessary data consuming space. Refer to [Campaign Classic v7 Production Guide](../../production/using/application-objects.md) and this [section](#purging-the-logs).
+You can also create specific technical workflows to purge unnecessary data consuming space. Refer to [Campaign Classic v7 Production Guide](../../../v7/production/using/application-objects.md) and this [section](#purging-the-logs).
 
 ## Handling of paused workflows {#handling-of-paused-workflows}
 
@@ -253,7 +253,7 @@ The following views are available:
 * **[!UICONTROL Running]**: lists all running workflows.
 * **[!UICONTROL Paused]**: lists all paused workflows.
 * **[!UICONTROL Failed]**: lists all failed workflows.
-* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only. Learn more in [Campaign Classic v7 Installation Guide](../../installation/using/installing-campaign-standard-packages.md)).
+* **[!UICONTROL Start Pending]**: lists all workflows that are waiting to be started by the operationMgt process. This view is available with the **Marketing campaigns** package only. Learn more in [Campaign Classic v7 Installation Guide](../../../v7/installation/using/installing-campaign-standard-packages.md)).
 
 ![](assets/workflow-monitoring-views.png)
 
@@ -263,7 +263,7 @@ To do this:
 
 1. Right-click on the folder where you want to add the view.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
-1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../platform/using/access-management-folders.md).
+1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to [this section](../../../v7/platform/using/access-management-folders.md).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
 
@@ -275,5 +275,5 @@ Additionally to these views, you can set up filters folders that will allow you 
 
 For more information, refer to these sections:
 
-* [Creating advanced filters](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Saving filters](../../platform/using/creating-filters.md#saving-a-filter)
+* [Creating advanced filters](../../../v7/platform/using/creating-filters.md#creating-an-advanced-filter)
+* [Saving filters](../../../v7/platform/using/creating-filters.md#saving-a-filter)
