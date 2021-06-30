@@ -233,7 +233,7 @@ This table matches the **nms:batchEvent** schema. It contains the definition of 
 
 <!--## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../../common/web/using/about-web-applications.md).
 
 ![](assets/data-model_microsites.png)
 

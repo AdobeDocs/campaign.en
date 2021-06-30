@@ -19,7 +19,7 @@ You have the ability to define new blocks that will enable you to optimize your 
 
 >[!NOTE]
 >
->Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../web/using/editing-content.md#inserting-a-personalization-block).
+>Personalization blocks are also available from the **[!UICONTROL Digital Content Editor (DCE)]** . For more on this, refer to [this page](../../../common/web/using/editing-content.md#inserting-a-personalization-block).
 
 ## Inserting personalization blocks {#inserting-personalization-blocks}
 

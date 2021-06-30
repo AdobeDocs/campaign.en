@@ -19,13 +19,13 @@ This chapter details how to create and manage **Surveys**, field and page manage
 
 >[!NOTE]
 >
->* Detailed steps for creating a standard Web form are available in [this document](../../web/using/about-web-forms.md).
+>* Detailed steps for creating a standard Web form are available in [this document](../../../common/web/using/about-web-forms.md).
 >
->* Web application management is detailed in [this document](../../web/using/about-web-applications.md). Please refer to this chapter for more information.
+>* Web application management is detailed in [this document](../../../common/web/using/about-web-applications.md). Please refer to this chapter for more information.
 
 ## Feature scope {#campaign-surveys-scope}
 
-In Adobe Campaign, use [Web applications](../../web/using/about-web-forms.md) to:
+In Adobe Campaign, use [Web applications](../../../common/web/using/about-web-forms.md) to:
 
 * Create multiple-page forms,
 * Manage multilingual forms with an integrated translation tool,
@@ -56,7 +56,7 @@ Apply the following steps to create and deliver a survey and process its results
 1. Publish, then deliver the survey to recipients (e.g. include link in a delivery or in a website).
 1. Monitor responses and view reports.
 
-For more information on configuring and sequencing these steps, refer to [this document](../../web/using/about-web-forms.md). Only configurations specific to surveys are detailed in this chapter.
+For more information on configuring and sequencing these steps, refer to [this document](../../../common/web/using/about-web-forms.md). Only configurations specific to surveys are detailed in this chapter.
 
 >[!CAUTION]
 >
@@ -73,4 +73,4 @@ Settings are stored in the following folders:
 
 >[!NOTE]
 >
->Settings details are available in [this document](../../web/using/about-web-forms.md).
+>Settings details are available in [this document](../../../common/web/using/about-web-forms.md).

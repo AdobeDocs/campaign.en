@@ -94,7 +94,7 @@ Learn how to [create an online survey](../../surveys/using/getting-started-with-
 
 You can use Adobe Campaign digital content editor to design a landing page and define mapping with database fields.
 
-[Click here to learn more](../../web/using/creating-a-landing-page.md).
+[Click here to learn more](../../../common/web/using/creating-a-landing-page.md).
 
 ## How can I track deliveries? {#how-can-i-track-deliveries-}
 
@@ -112,7 +112,7 @@ An error message is displayed in a foreign language? All error messages and thei
 
 ## Can I create a webform and collect answers in Campaign? {#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
-Learn how to [create a web form](../../web/using/about-web-forms.md): design, test, publish a web form, and collect answers.
+Learn how to [create a web form](../../../common/web/using/about-web-forms.md): design, test, publish a web form, and collect answers.
 
 ## Is there a list of deprecated features and versions? {#is-there-a-list-of-deprecated-features-and-versions-}
 

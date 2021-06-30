@@ -31,7 +31,7 @@ Discover how to import an existing HTML to create and send an email in Adobe Cam
 
 ## How to use Campaign DCE to create an email content? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Design an email with Campaign digital content editor](../../web/using/use-case--creating-an-email-delivery.md): learn how to use Campaign DCE to design an email through an example.
+[Design an email with Campaign digital content editor](../../../common/web/using/use-case--creating-an-email-delivery.md): learn how to use Campaign DCE to design an email through an example.
 
 ## How can I create a subscription-based newsletter in Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
@@ -54,4 +54,4 @@ To do this, you can localize the message content, and personalize depending on t
 
 ## How can I localize a webform? {#how-can-i-localize-a-webform-}
 
-You can localize a web application into several languages. Translation mechanism is presented in [this section](../../web/using/translating-a-web-form.md).
+You can localize a web application into several languages. Translation mechanism is presented in [this section](../../../common/web/using/translating-a-web-form.md).

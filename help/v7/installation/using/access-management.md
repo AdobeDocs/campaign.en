@@ -23,7 +23,7 @@ Out of the box, the webApp operator is an administrator. To improve security, fo
 
     1. Enter a name for each duplicate. For example: webapp_brand, webapp_brand2, etc.
 
-    1. Duplicate a web application template to have one template per brand and edit the properties to change the operator by selecting Use a specific account.  Learn more in [this page](../../web/using/defining-web-forms-properties.md).
+    1. Duplicate a web application template to have one template per brand and edit the properties to change the operator by selecting Use a specific account.  Learn more in [this page](../../../common/web/using/defining-web-forms-properties.md).
 
 ## Security groups and admin operators
 

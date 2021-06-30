@@ -13,7 +13,7 @@ exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 
 Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.
 
-The available parameters are detailed in [this document](../../web/using/defining-web-forms-properties.md).
+The available parameters are detailed in [this document](../../../common/web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

@@ -23,7 +23,7 @@ When a user clicks the tab of a Facebook application, it is displayed in a space
 
 >[!NOTE]
 >
->This section details the elements linked to Facebook type web applications. All elements shared with standard web applications are detailed in [this section](../../web/using/about-web-applications.md).
+>This section details the elements linked to Facebook type web applications. All elements shared with standard web applications are detailed in [this section](../../../common/web/using/about-web-applications.md).
 
 The examples of Facebook type web applications detailed here are:
 
@@ -188,7 +188,7 @@ This option lets you recover the data of a profile which exists in the visitors 
 
 >[!NOTE]
 >
->For more on pre-loading data via the Adobe Campaign database, refer to [this section](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data).
+>For more on pre-loading data via the Adobe Campaign database, refer to [this section](../../../common/web/using/publishing-a-web-form.md#pre-loading-the-form-data).
 
 **Facebook**
 
@@ -293,7 +293,7 @@ The **[!UICONTROL Activities]** screen of a visitor's details page contains the 
 
 ## How to preload a form using Facebook profile data {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
-The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (**[!UICONTROL Page]** type activities) is detailed in [this section](../../web/using/static-elements-in-a-web-form.md#inserting-html-content).
+The **[!UICONTROL Social Marketing]** application also enables you to add a button to a form, for pre-loading fields using Facebook profile information. This option, which is available in all web application templates (**[!UICONTROL Page]** type activities) is detailed in [this section](../../../common/web/using/static-elements-in-a-web-form.md#inserting-html-content).
 
 ![](assets/social_webapp_035.png)
 
@@ -303,7 +303,7 @@ The **[!UICONTROL Social Marketing]** application also enables you to add a butt
 
 **Preload the fields of the form with data taken from the Facebook profile**
 
-You create a web form and include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. Learn more about static elements in a web form in [this page](../../web/using/static-elements-in-a-web-form.md).
+You create a web form and include elements with which the user has no interaction in the pages of the form; these are static elements such as images, HTML content, a horizontal bar, or a hypertext link. Learn more about static elements in a web form in [this page](../../../common/web/using/static-elements-in-a-web-form.md).
 
 When inserting a static element, the **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information. 
 

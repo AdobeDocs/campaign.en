@@ -51,7 +51,7 @@ It also gives you access to:
 
 * lists - [Learn more](../../platform/using/creating-and-managing-lists.md)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
-* web applications - [Learn more](../../web/using/about-web-applications.md)
+* web applications - [Learn more](../../../common/web/using/about-web-applications.md)
 * imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
 * targeting workflows - [Learn more](../../../common/workflow/using/building-a-workflow.md#implementation-steps-)
 

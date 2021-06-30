@@ -70,7 +70,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, Twitter,
 * [Workflow](../../../common/workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
-* [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
+* [Web applications](../../../common/web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,

@@ -100,7 +100,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   >[!NOTE]
   >
-  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](../../web/using/about-web-forms.md).
+  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](../../../common/web/using/about-web-forms.md).
 
   In the detail screen, click the **[!UICONTROL Preview]** tab to view the rendering of the survey you have just created.
 

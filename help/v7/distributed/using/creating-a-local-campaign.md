@@ -232,7 +232,7 @@ To order a campaign:
 
    >[!NOTE]
    >
-   >Web applications are detailed in [this section](../../web/using/about-web-applications.md).
+   >Web applications are detailed in [this section](../../../common/web/using/about-web-applications.md).
 
 1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
 
