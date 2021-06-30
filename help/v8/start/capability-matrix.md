@@ -107,3 +107,4 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Social Marketing
 * ACS Connector (Prime offering)
 * Integration with LDAP
+* User/Password sign in
