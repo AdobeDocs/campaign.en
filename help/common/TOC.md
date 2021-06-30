@@ -11,10 +11,9 @@ sub-product: adobe campaign classic
 type: Documentation
 ---
 
-# Adobe Campaign COMMON documentation {#using}
+# Adobe Campaign COMMON documentation {#common}
 
 + [Campaign Common documentation](campaign-common-home.md)
-
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
   + About marketing campaigns {#about-marketing-campaigns}
        + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)
@@ -28,14 +27,6 @@ type: Documentation
        + [Set up and manage approvals](campaign/using/marketing-campaign-approval.md)
        + [Monitor your campaigns](campaign/using/marketing-campaign-monitoring.md)
        + [Providers, stocks and budgets](campaign/using/providers--stocks-and-budgets.md)
-  + Campaign optimization {#campaign-optimization}
-       + [About campaign typologies](campaign-opt/using/about-campaign-typologies.md)
-       + [Pressure rules](campaign-opt/using/pressure-rules.md)
-       + [Consistency rules](campaign-opt/using/consistency-rules.md)
-       + [Control rules](campaign-opt/using/control-rules.md)
-       + [Filtering rules](campaign-opt/using/filtering-rules.md)
-       + [Apply rules](campaign-opt/using/applying-rules.md)
-       + [Campaign simulations](campaign-opt/using/campaign-simulations.md)
 + Design and share reports {#reporting}
   + Get started with reporting {#reporting-in-adobe-campaign}
        + [Reporting tools](reporting/using/about-adobe-campaign-reporting-tools.md)
