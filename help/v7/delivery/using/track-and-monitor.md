@@ -35,11 +35,11 @@ To better know the behavior of your recipients, you can track how they react to 
 
 **Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery wizard. For each URL of the message, you can choose whether to activate tracking.
 
-For more on this, refer to the [Configuring tracking](how-to-configure-tracked-links.md) section and the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) description. 
+For more on this, refer to the [Configuring tracking](how-to-configure-tracked-links.md) section and the [Tracking indicators](../../../common/reporting/using/delivery-reports.md#tracking-indicators) description. 
 
 ## Delivery performances {#delivery-performances}
 
-To measure the speed at which the messages are delivered, you can control the delivery throughput. The criteria are the number of messages sent per hour and the size of the messages (in bits per second). For more on this, see [Delivery throughput](../../reporting/using/global-reports.md#delivery-throughput).
+To measure the speed at which the messages are delivered, you can control the delivery throughput. The criteria are the number of messages sent per hour and the size of the messages (in bits per second). For more on this, see [Delivery throughput](../../../common/reporting/using/global-reports.md#delivery-throughput).
 
 **Tips**:
 

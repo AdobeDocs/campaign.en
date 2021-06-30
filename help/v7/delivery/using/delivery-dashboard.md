@@ -39,7 +39,7 @@ The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: d
 
 The **[!UICONTROL Reports]** link, which is accessible from the **[!UICONTROL Summary]** tab, lets you look at a set of reports related to the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc.
 
-The contents of this tab can be configured according to your requirements. For more on delivery reports, refer to [this section](../../reporting/using/delivery-reports.md).
+The contents of this tab can be configured according to your requirements. For more on delivery reports, refer to [this section](../../../common/reporting/using/delivery-reports.md).
 
 ![](assets/delivery-report.png)
 
@@ -71,7 +71,7 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 
 Tracking configuration is performed at the appropriate stage in the delivery wizard. See [How to configure tracked links](how-to-configure-tracked-links.md).
 
-**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../reporting/using/delivery-reports.md).
+**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../../../common/reporting/using/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -107,13 +107,13 @@ Some indicators or status can be incorrect or not up-to-date, this may be resolv
 
 * If your delivery status is incorrect, check that all necessary approvals have been done for this delivery or that the **[!UICONTROL operationMgt]** and **[!UICONTROL deliveryMgt]** workflows are running without errors. This can also be due to the delivery using an affinity not configured on the sending instance.
 
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. For more information on tracking indicators, refer to this [section](../../../common/reporting/using/delivery-reports.md#tracking-indicators).
 
-* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../reporting/using/delivery-reports.md#tracking-indicators).
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to this [section](../../../common/reporting/using/delivery-reports.md#tracking-indicators).
 
 * If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to this [page](../../installation/using/mid-sourcing-deployment.md).
 
-You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../reporting/using/delivery-reports.md).
+You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to this [section](../../../common/reporting/using/delivery-reports.md).
 
 ## Use case: Adding senders' IP addresses to the logs {#use-case}
 

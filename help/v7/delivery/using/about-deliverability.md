@@ -88,7 +88,7 @@ For more on this, refer to the following sections:
 
 * [Monitoring deliverability](monitoring-deliverability.md)
 * [About delivery monitoring](about-delivery-monitoring.md)
-* [About Campaign built-in reports](../../reporting/using/about-campaign-built-in-reports.md)
+* [About Campaign built-in reports](../../../common/reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE
 ## Background {#background}

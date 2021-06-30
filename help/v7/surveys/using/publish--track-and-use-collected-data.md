@@ -77,7 +77,7 @@ Answers to a survey can be exported in an external file to be processed later. T
 
    To export report data, click the **[!UICONTROL Export]** button and choose the export format.
 
-   For more on exporting report data, refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md).
+   For more on exporting report data, refer to [this section](../../../common/reporting/using/about-reports-creation-in-campaign.md).
 
 1. Exporting answers
 

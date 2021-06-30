@@ -29,12 +29,12 @@ The Deliverability package gives you access to:
 
 You can also use the following tools:
 
-* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
+* The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../../../common/reporting/using/global-reports.md#delivery-throughput).
 * Each delivery generates a broadcast statistics report for the different Internet service providers (ISPs). It shows some data quality and reputation metrics that may impact your deliverability, including the following numbers:
     * **[!UICONTROL Hard bounces]** indicate data quality. This number should be less than 2%.
     * **[!UICONTROL Soft bounces]** indicate reputation. This number should not be higher than 10% for any given ISP.
     
-    For more on this, see the [Delivery statistics](../../reporting/using/global-reports.md#delivery-statistics) section.
+    For more on this, see the [Delivery statistics](../../../common/reporting/using/global-reports.md#delivery-statistics) section.
 * More generally, the [delivery dashboard](about-delivery-monitoring.md) gives you access to:
     * the [delivery summary](delivery-dashboard.md#delivery-summary), which shows the detail of the sending and the number of messages to send, processed and sent with success;
     * the [delivery logs and history](delivery-dashboard.md#delivery-logs-and-history), which show which target has been excluded and why;
@@ -44,7 +44,7 @@ You can also use the following tools:
 
 Here are some additional guidelines on deliverability monitoring:
 
-* Regularly check the [delivery throughput](../../reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
+* Regularly check the [delivery throughput](../../../common/reporting/using/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
 * Check that [retries](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the [bounce](understanding-delivery-failures.md#bounce-mail-management) mailbox is accessible and that the account is not about to expire.
 * Check each delivery throughput, accessible from the [delivery dashboard](delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days).

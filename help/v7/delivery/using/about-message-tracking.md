@@ -77,23 +77,23 @@ The Web application tracking opt-out enables you to stop tracking web behaviors 
 
 **Tracking statistics**
 
-This report provides statistics on opens, clicks and transactions and lets you track the marketing impact of the delivery. [Learn more](../../reporting/using/delivery-reports.md#tracking-statistics)
+This report provides statistics on opens, clicks and transactions and lets you track the marketing impact of the delivery. [Learn more](../../../common/reporting/using/delivery-reports.md#tracking-statistics)
 
 **URLs and click streams**
 
-This report shows the list of pages visited following a delivery. [Learn more](../../reporting/using/delivery-reports.md#urls-and-click-streams)
+This report shows the list of pages visited following a delivery. [Learn more](../../../common/reporting/using/delivery-reports.md#urls-and-click-streams)
 
 **Person/people and recipients**
 
-Better understand the tracking difference between a person/people and a recipient in Adobe Campaign with this example. [Learn more](../../reporting/using/person-people-recipients.md)
+Better understand the tracking difference between a person/people and a recipient in Adobe Campaign with this example. [Learn more](../../../common/reporting/using/person-people-recipients.md)
 
 **Tracking indicators**
 
-This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery such as open, click-through rates and click streams. [Learn more](../../reporting/using/delivery-reports.md#tracking-indicators)
+This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery such as open, click-through rates and click streams. [Learn more](../../../common/reporting/using/delivery-reports.md#tracking-indicators)
 
 **Indicator calculation**
 
-The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. [Learn more](../../reporting/using/indicator-calculation.md)
+The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. [Learn more](../../../common/reporting/using/indicator-calculation.md)
 
 ## Tracking troubleshooting {#tracking-troubleshooting}
 

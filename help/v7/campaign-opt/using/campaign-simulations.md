@@ -133,7 +133,7 @@ The **[!UICONTROL Audit]** tab lets you monitor simulation execution. The **[!UI
 
 The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you analyze the data resulting from a simulation.
 
-Descriptive analysis is detailed in [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
+Descriptive analysis is detailed in [this section](../../../common/reporting/using/about-adobe-campaign-reporting-tools.md).
 
 ## Results of a simulation {#results-of-a-simulation}
 
@@ -151,7 +151,7 @@ The following reports are provided by default:
 
 >[!NOTE]
 >
->You can create new reports and add them to the ones offered. For more on this, refer to [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
+>You can create new reports and add them to the ones offered. For more on this, refer to [this section](../../../common/reporting/using/about-adobe-campaign-reporting-tools.md).
 
 To access reports, click the **[!UICONTROL Reports]** link of the targeted simulation via its dashboard.
 

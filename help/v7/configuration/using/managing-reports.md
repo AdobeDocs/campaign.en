@@ -11,9 +11,9 @@ exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 
 Reports based on a schema that is specific to the default Adobe Campaign recipients (nm:recipient or schema linked) must be re-developed in order to take into account the data from the custom table and its tables linked via the target mapping (see the [Target mapping](../../configuration/using/target-mapping.md) section).
 
-To create new reports, refer to [this section](../../reporting/using/about-reports-creation-in-campaign.md).
+To create new reports, refer to [this section](../../../common/reporting/using/about-reports-creation-in-campaign.md).
 
-In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](../../reporting/using/about-cubes.md).
+In some cases, you must also put new cubes that are specific to these tables into place. Cubes are detailed in [this section](../../../common/reporting/using/about-cubes.md).
 
 The following reports are concerned:
 

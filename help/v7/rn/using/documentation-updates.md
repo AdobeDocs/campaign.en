@@ -177,9 +177,9 @@ Campaign on-premise, hosted and hybrid hosting models are now described in a ded
 
 Campaign capability matrix per hosting model has been updated and moved in the Installation guide. [Read more](../../installation/using/capability-matrix.md)
 
-Campaign Reporting advanced capabilities section has been improved to detail how to use URL parameters and variables in custom reports. [Read more](../../reporting/using/advanced-functionalities.md)
+Campaign Reporting advanced capabilities section has been improved to detail how to use URL parameters and variables in custom reports. [Read more](../../../common/reporting/using/advanced-functionalities.md)
 
-The reports properties page has been reorganized and enriched to facilitate configuration. [Read more](../../reporting/using/properties-of-the-report.md)
+The reports properties page has been reorganized and enriched to facilitate configuration. [Read more](../../../common/reporting/using/properties-of-the-report.md)
 
 A new technote has been created with details on how to migrate from the legacy binary protocol to HTTP/2-based APNs provider API. [Read more](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
@@ -370,7 +370,7 @@ Information has been added on the new **[!UICONTROL Start Pending]** view availa
 
 The [Sending push notifications](../../delivery/using/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
 
-The new parameter for URLs report configuration has been documented [here](../../reporting/using/properties-of-the-report.md#defining-additional-settings).
+The new parameter for URLs report configuration has been documented [here](../../../common/reporting/using/properties-of-the-report.md#defining-additional-settings).
 
 The **Campaign Classic On-premise & Hosted capability matrix** page has been updated with the new FDA connectors. [Read more](../../installation/using/capability-matrix.md).
 
@@ -398,7 +398,7 @@ The Interaction documentation has been enriched with links to several videos tha
 
 The best practices article on how to optimize the queries running on your instance has been integrated into the documentation. [Read more](../../../common/workflow/using/query.md#optimizing-queries)
 
-Reporting guide has been updated and reorganized. [Read more](../../reporting/using/about-adobe-campaign-reporting-tools.md)
+Reporting guide has been updated and reorganized. [Read more](../../../common/reporting/using/about-adobe-campaign-reporting-tools.md)
 
 An example of how to use an instance variable in a workflow has been added. [Read more](../../../common/workflow/using/javascript-scripts-and-templates.md)
 
