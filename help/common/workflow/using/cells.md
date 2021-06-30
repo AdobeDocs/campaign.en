@@ -42,4 +42,4 @@ For this configuration, the following information was added to the workflow form
                 </container>
 ```
 
-Entry form personalization in Adobe Campaign is reserved for expert users. For more on this, refer to this [section](../../configuration/using/identifying-a-form.md).
+Entry form personalization in Adobe Campaign is reserved for expert users. For more on this, refer to this [section](../../../v7/configuration/using/identifying-a-form.md).

@@ -180,7 +180,7 @@ The section below provides best practices to optimize the queries running on Ado
   
   For more on this, depending on your Campaign version, refer to these sections:
   
-  ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 documentation](../../../v7/configuration/using/database-mapping.md)
   
   ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 

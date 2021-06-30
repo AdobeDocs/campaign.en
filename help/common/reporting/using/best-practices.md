@@ -94,7 +94,7 @@ In addition to this, Adobe Campaign recommends the following improvements:
 
   To find an indexed field quickly, look at the name of the column in the Adobe Campaign interface: the sorting arrow is underlined in red if the field is indexed.
 
-  For more on indexes, refer to [this section](../../configuration/using/data-model-best-practices.md#indexes).
+  For more on indexes, refer to [this section](../../../v7/configuration/using/data-model-best-practices.md#indexes).
 
 * Make sure the report is scalable: data volume may increase significantly over time.
 
@@ -102,7 +102,7 @@ In addition to this, Adobe Campaign recommends the following improvements:
 
   Finally, data purge delays need to be known and adapted when necessary for easy data manipulation.
 
-  For more on cleanup and data retention, refer to [this section](../../configuration/using/data-model-best-practices.md#data-retention).
+  For more on cleanup and data retention, refer to [this section](../../../v7/configuration/using/data-model-best-practices.md#data-retention).
 
 ### Exporting reports {#exporting-reports}
 

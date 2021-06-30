@@ -53,7 +53,7 @@ The following options are available:
 
 * **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Total number of clicks on links in deliveries. Clicks on unsubscription links and mirror pages are not taken into account.
-* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../../v7/configuration/using/about-web-tracking.md).
 
 ## Non-deliverables and bounces {#non-deliverables-and-bounces}
 

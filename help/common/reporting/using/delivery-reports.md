@@ -104,7 +104,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
   >[!NOTE]
   >
-  >In order for a visited page, transaction, amount or article to be taken into account, a webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+  >In order for a visited page, transaction, amount or article to be taken into account, a webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../../v7/configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
@@ -188,4 +188,4 @@ This report provides a table of values and a Pareto chart which display the time
 
 * **[!UICONTROL Opens]** : Estimate of the time needed to reach a percentage of the total number of messages opened. Emails in text format aren't taken into account. For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** : Estimate of the time required to reach a percentage of the total number of clicks recorded. Clicks on the opt-out link and the mirror page are not taken into account.
-* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../../v7/configuration/using/about-web-tracking.md).
