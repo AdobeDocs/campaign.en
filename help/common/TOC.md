@@ -1,13 +1,11 @@
 ---
 audience: end-user
 product: campaign
-title: Adobe Campaign Classic v7 Guide
-breadcrumb-title: Campaign Classic v7 Documentation
+title: Adobe Campaign Common Guide
+breadcrumb-title: Campaign Common Documentation
 product: campaign
-title: Campaign Classic v7 Guide
-breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
-sub-product: adobe campaign classic
+title: Campaign Common Guide
+breadcrumb-url: /docs/campaign-classic/using/campaign-common-home.html
 type: Documentation
 ---
 

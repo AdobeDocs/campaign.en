@@ -258,6 +258,14 @@ type: Documentation
   + [Access campaigns](distributed/using/accessing-campaigns.md)
   + [Track a campaign](distributed/using/tracking-a-campaign.md)
   + [Use cases](distributed/using/examples.md)
++ Campaign optimization {#campaign-optimization}
+     + [About campaign typologies](campaign-opt/using/about-campaign-typologies.md)
+     + [Pressure rules](campaign-opt/using/pressure-rules.md)
+     + [Consistency rules](campaign-opt/using/consistency-rules.md)
+     + [Control rules](campaign-opt/using/control-rules.md)
+     + [Filtering rules](campaign-opt/using/filtering-rules.md)
+     + [Apply rules](campaign-opt/using/applying-rules.md)
+     + [Campaign simulations](campaign-opt/using/campaign-simulations.md)
 + Response manager {#response-manager}
   + [Get started with response manager](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
