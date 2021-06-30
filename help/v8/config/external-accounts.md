@@ -66,11 +66,9 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 * **Adobe Experience Cloud**
 
-    To connect to the Adobe Campaign console using an Adobe ID, you must configure the **[!UICONTROL Adobe Experience Cloud]** external account.
+    The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe IMS to connect to the Adobe Campaign console using an Adobe ID.
 
     [!DNL :bulb:] Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
-
-    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Adobe IMS with Campaign.
 
 * **Web Analytics**
 

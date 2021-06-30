@@ -66,6 +66,12 @@ Adobe campaign v8 comes with Snowflake as the core Database. As it dramatically 
 
 Campaign users do not need to be database experts: there is no longer any need for complex database maintenance operations or complex table indexing.
 
+## Connection to Campaign
+
+Campaign users connect through their Adobe ID. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account. 
+
+[!DNL :bulb:] Learn how to connect to [!DNL Campaign] in [this page](connect.md).
+
 ## Reporting
 
  Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
@@ -100,4 +106,4 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Surveys
 * Social Marketing
 * ACS Connector (Prime offering)
-
+* Integration with LDAP
