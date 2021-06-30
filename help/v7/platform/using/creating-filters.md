@@ -186,7 +186,7 @@ Advanced filters can use functions; **filters with functions** are created via a
 
       >[!NOTE]
       >
-      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
+      >For an example of filter creation based on an expression, refer to [this section](../../../common/workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
 ## Save a filter {#saving-a-filter}
 

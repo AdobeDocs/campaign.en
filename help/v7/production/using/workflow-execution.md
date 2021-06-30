@@ -13,10 +13,10 @@ The section below presents information on common issues related to workflows exe
 
 For more information on workflows, refer to these sections:
 
-* [About workflows](../../workflow/using/about-workflows.md)
-* [Starting a workflow](../../workflow/using/starting-a-workflow.md)
-* [Workflow life cycle](../../workflow/using/workflow-life-cycle.md)
-* [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
+* [About workflows](../../../common/workflow/using/about-workflows.md)
+* [Starting a workflow](../../../common/workflow/using/starting-a-workflow.md)
+* [Workflow life cycle](../../../common/workflow/using/workflow-life-cycle.md)
+* [Best practices when using workflows](../../../common/workflow/using/workflow-best-practices.md)
 
 ## Start as soon as possible in campaigns {#start-as-soon-as-possible-in-campaigns}
 
@@ -24,9 +24,9 @@ In some cases, workflows executed from a campaign do not start when clicking the
 
 There can be several causes for this issue, follow the steps below to solve it:
 
-1. Check the [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop. Restart it to resume the running of campaign workflows.
+1. Check the [**[!UICONTROL operationMgt]**](../../../common/workflow/using/about-technical-workflows.md) technical workflow status. This workflow manages jobs or workflows inside a campaign. If it fails, this will result in workflows to not start / stop. Restart it to resume the running of campaign workflows.
 
-    For more on technical workflows monitoring, refer to [this page](../../workflow/using/monitoring-technical-workflows.md).
+    For more on technical workflows monitoring, refer to [this page](../../../common/workflow/using/monitoring-technical-workflows.md).
 
     >[!NOTE]
     >
@@ -63,13 +63,13 @@ There can be several causes for this issue, follow the steps below to solve it:
 
     To solve this issue, stop unwanted workflows and delete failed deliveries. If the threshold was reached, this will allow the running of new processes.
 
-    To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
+    To check the number of workflows running of your instance, we recommend using the predefined views, accessible by default in the **[!UICONTROL Administration]** / **[!UICONTROL Audit]** folder. For more information, refer to [this page](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
 
     >[!IMPORTANT]
     >
     >Increasing the **[!UICONTROL NmsOperation_LimitConcurrency]** option threshold may lead to performance issues on your instance. In any case, do not perform this on your own and reach out to your Adobe Campaign contact.
 
-For more on how to monitor you workflows, refer to [this section](../../workflow/using/monitoring-workflow-execution.md).
+For more on how to monitor you workflows, refer to [this section](../../../common/workflow/using/monitoring-workflow-execution.md).
 
 ## Start in progress {#start-in-progress}
 
@@ -108,6 +108,6 @@ To check this and to start the module if necessary, apply the following steps:
 
 If a workflow fails, take the following steps:
 
-1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../workflow/using/monitoring-workflow-execution.md) and [Display logs](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
-1. Monitor technical workflows. For more on this refer to the [this section](../../workflow/using/monitoring-technical-workflows.md).
+1. Check the workflow journal. For more on this, refer to the [Monitoring workflow execution](../../../common/workflow/using/monitoring-workflow-execution.md) and [Display logs](../../../common/workflow/using/monitoring-workflow-execution.md#displaying-logs) sections.
+1. Monitor technical workflows. For more on this refer to the [this section](../../../common/workflow/using/monitoring-technical-workflows.md).
 1. Look for failures on the individual workflow activities.

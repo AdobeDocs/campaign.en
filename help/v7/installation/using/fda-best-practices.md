@@ -21,13 +21,13 @@ This option significantly improves performances when executing the personalizati
 
 In multiple Adobe Campaign workflow activities, you can use the data stored in an external database.
 
-* **Filter on external data** -  The [Query](../../workflow/using/targeting-data.md#selecting-data) activity allows you to add external data and use it in the defined filter configurations. For more on this, refer to [this page](../../workflow/using/targeting-data.md#selecting-data).
+* **Filter on external data** -  The [Query](../../../common/workflow/using/targeting-data.md#selecting-data) activity allows you to add external data and use it in the defined filter configurations. For more on this, refer to [this page](../../../common/workflow/using/targeting-data.md#selecting-data).
 
-* **Create sub-sets** - The [Split](../../workflow/using/split.md) activity allows you to create sub-sets. You can use external data to define the filtering criteria to use. For more on this, refer to [this page](../../workflow/using/split.md).
+* **Create sub-sets** - The [Split](../../../common/workflow/using/split.md) activity allows you to create sub-sets. You can use external data to define the filtering criteria to use. For more on this, refer to [this page](../../../common/workflow/using/split.md).
 
-* **Load external database** - You can use the external data in the [Data loading](../../workflow/using/data-loading--rdbms-.md) (RDBMS) activity. Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
+* **Load external database** - You can use the external data in the [Data loading](../../../common/workflow/using/data-loading--rdbms-.md) (RDBMS) activity. Learn more in [this page](../../../common/workflow/using/data-loading--rdbms-.md).
 
-* **Adding information and links** - The [Enrichment](../../workflow/using/enrichment.md) activity lets you to add additional data to the worktable of the workflow, and links to an external table. In this context, it can use data from an external database. Learn more in [this page](../../workflow/using/enrichment.md).
+* **Adding information and links** - The [Enrichment](../../../common/workflow/using/enrichment.md) activity lets you to add additional data to the worktable of the workflow, and links to an external table. In this context, it can use data from an external database. Learn more in [this page](../../../common/workflow/using/enrichment.md).
 
 ## FDA limitations {#limitations}
 

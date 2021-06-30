@@ -35,9 +35,9 @@ Audit Trail consists of three components:
     * Wakeup which equals to the action Execute pending tasks now
     * Unconditional Stop
 
-  For more information on workflows, refer to this [page](../../workflow/using/about-workflows.md).
+  For more information on workflows, refer to this [page](../../../common/workflow/using/about-workflows.md).
   
-  For more on how to monitor workflows, refer to the [dedicated section](../../workflow/using/monitoring-workflow-execution.md).
+  For more on how to monitor workflows, refer to the [dedicated section](../../../common/workflow/using/monitoring-workflow-execution.md).
 
 * **Option audit trail**: Check the activities and last modifications done to your options.
 

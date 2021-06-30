@@ -50,7 +50,7 @@ Messages delivered by Adobe Campaign can be personalized in several different wa
 
 You can send multilingual messages to your recipients, depending on their preferences or their country for example.
 
-To do this, you can localize the message content, and personalize depending on the recipient's profile, using [conditions](../../delivery/using/conditional-content.md). You can also use [workflows](../../workflow/using/split.md) to select the version of the message to send depending on a test on preferred language.
+To do this, you can localize the message content, and personalize depending on the recipient's profile, using [conditions](../../delivery/using/conditional-content.md). You can also use [workflows](../../../common/workflow/using/split.md) to select the version of the message to send depending on a test on preferred language.
 
 ## How can I localize a webform? {#how-can-i-localize-a-webform-}
 

@@ -110,13 +110,13 @@ _February 17, 2020_
 
 * Improved quarantine management and cleanup of the tables used by the push notification feature (nms:address and nms:appSubscriptionRcp). For iOS (HTTP2 connector only), disabled tokens are now handled in the same way as for Android. The disable flag is now set in the NmsAppSubscriptionRcp table. [Read more](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* A new option has been added in the **JavaScript code** and **Advanced JavaScript code** workflow activities to define a time-out period. This prevents the javascript execution phase from running for too long. If the time-out period elapses, the workflow is stopped. The default time-out is 1 hour. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
+* A new option has been added in the **JavaScript code** and **Advanced JavaScript code** workflow activities to define a time-out period. This prevents the javascript execution phase from running for too long. If the time-out period elapses, the workflow is stopped. The default time-out is 1 hour. [Read more](../../../common/workflow/using/sql-code-and-javascript-code.md)
 
 * The delivery analysis is now stopped when no matching affinity is found on the mid-sourcing server, with the corresponding error message being displayed.
 
 * Database failover for Postgres is now supported: when the database server crashes and restarts, Campaign now reconnects to it automatically.
 
-* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+* The **Start Pending** view has been added to the Administration > Audit > Workflows Status node. This allows you to monitor all workflows on your instance that are waiting to be started by the **operationMgt** process. This view comes with the Marketing campaigns package. [Read more](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 **Other changes**
 

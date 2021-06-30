@@ -119,6 +119,6 @@ The **[!UICONTROL Twitter account synchronization]** workflow, which is accessed
 
 >[!NOTE]
 >
->It is possible to start the workflow at any time by running anticipated task processing. You can also edit the scheduler to change the workflow triggering frequency. For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
+>It is possible to start the workflow at any time by running anticipated task processing. You can also edit the scheduler to change the workflow triggering frequency. For more on the scheduler, refer to [this section](../../../common/workflow/using/scheduler.md).
 
 You may now send tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to: [Publishing on Twitter](../../social/using/publishing-on-twitter.md).

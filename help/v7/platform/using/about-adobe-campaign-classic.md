@@ -39,7 +39,7 @@ Profile management basics are explained in [About profiles](../../platform/using
 
 Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/about-queries-in-campaign.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
 
-The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../workflow/using/targeting-data.md#data-management).
+The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../../common/workflow/using/targeting-data.md#data-management).
 
 ### Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
@@ -69,7 +69,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, Twitter,
-* [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
+* [Workflow](../../../common/workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,

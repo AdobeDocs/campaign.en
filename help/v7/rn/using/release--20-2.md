@@ -199,7 +199,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
-* The performance of the [CRM Connector activity](../../workflow/using/crm-connector.md) for Microsoft Dynamics has been improved. (NEO-13303, NEO-12710)
+* The performance of the [CRM Connector activity](../../../common/workflow/using/crm-connector.md) for Microsoft Dynamics has been improved. (NEO-13303, NEO-12710)
 
 * Shared memory version has been increased.
 
@@ -213,7 +213,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * The management of HTTP proxy connections has been improved. [Learn more](../../installation/using/file-res-management.md).
 
-* New option in **[!UICONTROL Javascript Code]** and **[!UICONTROL Advanced Javascript Code]** workflow activities to stop execution after a limit. Default value is 1 hour. [Learn more](../../workflow/using/sql-code-and-javascript-code.md#javascript-code).
+* New option in **[!UICONTROL Javascript Code]** and **[!UICONTROL Advanced Javascript Code]** workflow activities to stop execution after a limit. Default value is 1 hour. [Learn more](../../../common/workflow/using/sql-code-and-javascript-code.md#javascript-code).
 
 **Other changes**
 

@@ -119,11 +119,11 @@ exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
   </tr> 
   <tr> 
    <td> SQL Data Management activity<br /> </td> 
-   <td> <p>A new data management workflow activity has been added. The <strong>SQL Data Management</strong> activity lets you write or copy-paste your own SQL scripts to create and populate work tables (FDA only). </p> <p>For more information, refer to the <a href="../../workflow/using/sql-data-management.md">detailed documentation</a>.</p></td> 
+   <td> <p>A new data management workflow activity has been added. The <strong>SQL Data Management</strong> activity lets you write or copy-paste your own SQL scripts to create and populate work tables (FDA only). </p> <p>For more information, refer to the <a href="../../../common/workflow/using/sql-data-management.md">detailed documentation</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Workflow monitoring<br /> </td> 
-   <td> <p>With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.</p> <p>For more information, refer to the <a href="../../workflow/using/heatmap.md">detailed documentation</a>.</p> <p>The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">this page</a>.</p> </td> 
+   <td> <p>With the new Adobe Campaign Workflow HeatMap, the platform administrators have a quick graphical representation of all the concurrent workflows, which allows them to monitor the load on the instance and plan workflows accordingly.</p> <p>For more information, refer to the <a href="../../../common/workflow/using/heatmap.md">detailed documentation</a>.</p> <p>The Workflow HeatMap package is also available on demand for builds prior to 8977 (starting build 8700). For more on requesting and installing it, refer to <a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">this page</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

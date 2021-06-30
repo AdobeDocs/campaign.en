@@ -11,11 +11,11 @@ exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 
 This section details how to build a workflow to perform A/B testing. 
 
-1. Create a new workflow then configure a [Query](../../workflow/using/query.md) activity to target the desired population.
+1. Create a new workflow then configure a [Query](../../../common/workflow/using/query.md) activity to target the desired population.
 
-1. Add a [Split](../../workflow/using/split.md) activity to divide the targeted population into multiple sub-sets.
+1. Add a [Split](../../../common/workflow/using/split.md) activity to divide the targeted population into multiple sub-sets.
 
-1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to [this section](../../workflow/using/split.md).
+1. Open the activity, then configure each sub-set according to your needs. For more on how to configure a **[!UICONTROL Split]** activity, refer to [this section](../../../common/workflow/using/split.md).
 
     In this example, we want to test 2 new subjects for a newsletter by presenting each of them to 10% of the targeted population.
 

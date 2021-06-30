@@ -57,8 +57,8 @@ Deduplicating addresses protects your sending reputation and ensures good quaran
 
 **Related topics:**
 
-* [Deduplication activity](../../workflow/using/deduplication.md).
-* [Use case: Using the Deduplication activity's merge functionality](../../workflow/using/deduplication-merge.md)
+* [Deduplication activity](../../../common/workflow/using/deduplication.md).
+* [Use case: Using the Deduplication activity's merge functionality](../../../common/workflow/using/deduplication-merge.md)
 
 ## Index email addresses {#index-addresses}
 

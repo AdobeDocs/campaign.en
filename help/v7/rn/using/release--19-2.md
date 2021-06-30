@@ -84,7 +84,7 @@ _December 2, 2019_
  <tbody> 
   <tr> 
    <td> <p>You can now monitor the execution status of all workflows on your instance using predefined views.</p>
-   <p>For more information, refer to the <a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">detailed documentation</a>.</p></td> 
+   <p>For more information, refer to the <a href="../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">detailed documentation</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>

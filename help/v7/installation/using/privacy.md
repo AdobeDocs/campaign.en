@@ -27,7 +27,7 @@ When adding personalized links to your content, always avoid having any personal
 
 ### Recommendation
 
-To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/steps-to-create-a-query.md) or create a workflow with filter criteria in the [query activity](../../workflow/using/query.md).
+To validate and ensure that you are not using above, run a query on tracking URL table via [Campaign Generic Query Editor](../../platform/using/steps-to-create-a-query.md) or create a workflow with filter criteria in the [query activity](../../../common/workflow/using/query.md).
 
 Example:
 

@@ -9,7 +9,7 @@ exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 ---
 # Synchronize data between Campaign and the CRM {#data-synchronization}
 
-Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../workflow/using/crm-connector.md).
+Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity: [CRM connector](../../../common/workflow/using/crm-connector.md).
 
 For example, to import the Microsoft Dynamics data into Adobe Campaign, create the following type of workflow:
 

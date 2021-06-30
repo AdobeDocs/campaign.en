@@ -70,7 +70,7 @@ You can use a workflow, for example, to download a file from a server, decompres
 
 A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
 
-[Click here to learn more](../../workflow/using/about-workflows.md) about workflows. You can also read out [workflow best practices](../../workflow/using/building-a-workflow.md).
+[Click here to learn more](../../../common/workflow/using/about-workflows.md) about workflows. You can also read out [workflow best practices](../../../common/workflow/using/building-a-workflow.md).
 
 ## How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 

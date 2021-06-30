@@ -13,7 +13,7 @@ Adobe Campaign lets you import data into the database from one or more files in 
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../workflow/using/read-list.md).  
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../../common/workflow/using/read-list.md).  
 
 The import wizard lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
 

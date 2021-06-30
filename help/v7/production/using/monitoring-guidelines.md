@@ -58,7 +58,7 @@ The Control Panel allows you to manage several settings of your instance: manage
 
 **Workflow HeatMap**
 
-The Workflow HeatMap provided a visual representation of all the workflows that are running on your instance. It allows you to easily monitor the load on the instance and plan workflows accordingly. [Click here](../../workflow/using/heatmap.md) for more information.
+The Workflow HeatMap provided a visual representation of all the workflows that are running on your instance. It allows you to easily monitor the load on the instance and plan workflows accordingly. [Click here](../../../common/workflow/using/heatmap.md) for more information.
 
 **Audit trail**
 
@@ -70,13 +70,13 @@ Specific actions can be performed when encountering issues with a workflow execu
 
 **Workflow status monitoring**
 
-Additionally to the heatmap, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. [Click here](../../workflow/using/supervising-workflows.md) for more information.
+Additionally to the heatmap, you can create a workflow that will let you monitor the status of a set of workflows and send recurring messages to supervisors. [Click here](../../../common/workflow/using/supervising-workflows.md) for more information.
 
 **General guidelines**
 
 Following guidelines and best practices when using workflows can help improve performances. For more information, refer to these sections:
-* [Best practices when using workflows](../../workflow/using/workflow-best-practices.md)
-* [Monitoring workflow execution](../../workflow/using/monitoring-workflow-execution.md)
+* [Best practices when using workflows](../../../common/workflow/using/workflow-best-practices.md)
+* [Monitoring workflow execution](../../../common/workflow/using/monitoring-workflow-execution.md)
 
 ### Monitoring deliveries {#monitoring-deliveries}
 

@@ -38,7 +38,7 @@ A list is a static set of recipients that can be targeted in delivery actions, u
 
 You can use a workflow to exclude duplicate from the target of a delivery, to avoid sending the same message to a recipient several times.
 
-[Click here to learn more](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery) through an example.
+[Click here to learn more](../../../common/workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery) through an example.
 
 ## How to identify and target subscribers to a newsletter? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
@@ -46,4 +46,4 @@ Discover subscription management in Campaign and learn how to [send a message to
 
 ## What is the best practice to exclude profiles from a target population? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
-Read out [this page](../../workflow/using/read-list.md) to learn how to exclude a list of profiles from your target population.
+Read out [this page](../../../common/workflow/using/read-list.md) to learn how to exclude a list of profiles from your target population.

@@ -51,7 +51,7 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 
 >[!NOTE]
 >
->Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../workflow/using/delivery-outline.md).
+>Typologies and filtering rules can be used in a workflow, in the **[!UICONTROL Delivery outline]** activity. For more on this, refer to [this section](../../../common/workflow/using/delivery-outline.md).
 
 ## Creating and using a filtering typology {#creating-and-using-a-filtering-typology}
 

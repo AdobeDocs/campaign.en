@@ -40,7 +40,7 @@ The external account is created and added to the external accounts list.
 
 ### Bounce mails {#bounce-mails-external-account}
 
-The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. For more on this external account, refer to this [page](../../workflow/using/inbound-emails.md).
+The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. For more on this external account, refer to this [page](../../../common/workflow/using/inbound-emails.md).
 
 All servers configured for POP3 access can be used to receive return mail.
 
@@ -112,7 +112,7 @@ For more information on this configuration, refer to this [page](../../message-c
 
 ### FTP {#ftp-external-account}
 
-The FTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as FTP servers 898 used for file transfers, you can create your own external accounts. For more on this, refer to this [page](../../workflow/using/file-transfer.md).
+The FTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as FTP servers 898 used for file transfers, you can create your own external accounts. For more on this, refer to this [page](../../../common/workflow/using/file-transfer.md).
 
 To do so, specify in this external account the address and credentials used to establish the connection to the FTP server
 
@@ -142,7 +142,7 @@ To know where to locate these credentials, refer to this [page](https://help.dre
 
 ### SFTP {#sftp-external-account}
 
-The SFTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP used for file transfers, you can create your own external accounts. For more on this, refer to this [page](../../workflow/using/file-transfer.md).
+The SFTP external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP used for file transfers, you can create your own external accounts. For more on this, refer to this [page](../../../common/workflow/using/file-transfer.md).
 
 ![](assets/ext_account_4.png)
 
@@ -378,7 +378,7 @@ For more information on this configuration, refer to this [page](../../platform/
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-The Amazon Simple Storage Service (S3) connector can be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. For more on this, refer to this [page](../../workflow/using/file-transfer.md).
+The Amazon Simple Storage Service (S3) connector can be used to import or export data to Adobe Campaign. It can be set up in a workflow activity. For more on this, refer to this [page](../../../common/workflow/using/file-transfer.md).
 
 ![](assets/ext_account_3.png)
 
@@ -410,7 +410,7 @@ To learn where to find the access key ID and secret access key, refer to Amazon 
 
 ### Azure Blob Storage {#azure-blob-external-account}
 
-The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../workflow/using/file-transfer.md).
+The **Azure Blob storage** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. For more on this, refer to this [section](../../../common/workflow/using/file-transfer.md).
 
 ![](assets/ext_account_23.png)
 

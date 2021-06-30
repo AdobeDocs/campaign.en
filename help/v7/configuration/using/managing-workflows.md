@@ -17,6 +17,6 @@ By basing your new workflows on a recently created template, your personalized t
 
 All the activities used in your workflow will thus use your custom table without needing any additional manual configuration.
 
-For more information on workflows, refer to [this section](../../workflow/using/about-workflows.md).
+For more information on workflows, refer to [this section](../../../common/workflow/using/about-workflows.md).
 
 ![](assets/cfg_external_table_workflow.png)

@@ -27,11 +27,11 @@ New Vertica FDA connector - [Learn more](../../installation/using/configure-fda-
 
 New Google Big Query FDA connector - [Learn more](../../installation/using/configure-fda-google-big-query.md)
 
-The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../workflow/using/about-technical-workflows.md)
+The “Billing (billing)” technical workflow description now includes the tasks originally performed by the “Number of active billing profiles (billingActiveContactCount)”. [Read more](../../../common/workflow/using/about-technical-workflows.md)
 
 ## May 2021 {#may-2021}
 
-The Workflow Heatmap report documentation has been updated and improved. [Read more](../../workflow/using/heatmap.md)
+The Workflow Heatmap report documentation has been updated and improved. [Read more](../../../common/workflow/using/heatmap.md)
 
 Campaign Client Console requirements have been updated in the Compatibility Matrix. [Read more](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
@@ -62,7 +62,7 @@ Learn how to create and manage your campaigns through these new pages:
 * [Manage associated documents](../../campaign/using/marketing-campaign-assets.md) 
 * [Set up and manage the approval process](../../campaign/using/marketing-campaign-approval.md)
 
-Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../../common/workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 The [Deliverability](../../delivery/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
@@ -94,7 +94,7 @@ Information has been added on how to add links in emails that can be personalize
 
 ## January 2021 {#jan-2021}
 
-The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](../../workflow/using/fork.md)
+The **[!UICONTROL Fork]** activity section has been enriched with best practices. [Read more](../../../common/workflow/using/fork.md)
 
 The **CRM Connectors** section has been updated, improved and reorganized. [Read more](../../platform/using/crm-connectors.md).
 
@@ -104,7 +104,7 @@ Oracle On Demand API is now deprecated as a CRM connected with Campaign. [Read m
 
 Learn how to find out the current version of embedded Tomcat web servlet used in an instance of Adobe Campaign [here](../../production/using/locate-tomcat-version.md).
 
-The list of technical workflows with their associated packages has been enhanced and centralized into one single page. [Read more](../../workflow/using/about-technical-workflows.md)
+The list of technical workflows with their associated packages has been enhanced and centralized into one single page. [Read more](../../../common/workflow/using/about-technical-workflows.md)
 
 The troubleshooting section of the **Monitoring** guide has been reorganized and enhanced with a landing page. [Read more](../../production/using/troubleshooting.md).
 
@@ -118,7 +118,7 @@ A use case has been added on how to add senders' IP addresses to the delivery lo
 
 Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
 
-A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../workflow/using/deduplication-merge.md)
+A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../../common/workflow/using/deduplication-merge.md)
 
 The complete description of SMS connector protocol and settings page is now available [here](../../delivery/using/sms-protocol.md).
 
@@ -215,24 +215,24 @@ How-to videos are now available on the following topics:
 
 * [How to manage seed and proofs in an email](../../delivery/using/steps-defining-the-target-population.md)
 
-* [How to set up a recurring delivery](../../workflow/using/recurring-delivery.md)
+* [How to set up a recurring delivery](../../../common/workflow/using/recurring-delivery.md)
 
-* [How to set up a continuous delivery](../../workflow/using/continuous-delivery.md)
+* [How to set up a continuous delivery](../../../common/workflow/using/continuous-delivery.md)
 
 Information has been added on the checks and actions to perform when getting the "Couldn't resolve host name" error after connecting to an FTP server. [Read more](../../platform/using/sftp-server-usage.md)
 
-New use cases have been referenced in the list of [workflow use cases](../../workflow/using/about-workflow-use-cases.md):
+New use cases have been referenced in the list of [workflow use cases](../../../common/workflow/using/about-workflow-use-cases.md):
 
 * Automating content creation, edition and publishing
 * Setting up a recipient approval process before a delivery is sent
 * Calling an instance variable in a query
 * Applying a split percentage on a population
 
-The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, as well as a note regarding the use of variables. [Read more](../../workflow/using/and-join.md)
+The **[!UICONTROL AND-join]** activity section has been enriched with additional information on its usage, as well as a note regarding the use of variables. [Read more](../../../common/workflow/using/and-join.md)
 
 ## July 2020 {#july-2020}
 
-A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../workflow/using/about-workflow-use-cases.md)
+A use case on how to automatically update a list using an incremental query has been added to the workflow use cases. [Read more](../../../common/workflow/using/about-workflow-use-cases.md)
 
 The [Release Notes](../../rn/using/latest-release.md) have been reorganized: an [overview page](../../rn/using/latest-release.md) has been added with information on build statuses, upgrade process, recommendations and important links. A dedicated page for [[!DNL Gold Standard] releases](../../rn/using/gold-standard.md) has also been added and the [Compatibility matrix](../../rn/using/compatibility-matrix.md) has been integrated.
 
@@ -244,9 +244,9 @@ The Privacy Management in Campaign Classic page has been updated with informatio
 
 The Privacy Management Overview page has been updated to include information on the Thailand’s Personal Data Protection Act (PDPA) and the Brazil's Lei Geral de Proteção de Dados (LGPD). [Read more](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../workflow/using/sub-workflow.md)
+Information has been added on sub-workflows logs and behaviour in case of error. [Read more](../../../common/workflow/using/sub-workflow.md)
 
-Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../workflow/using/scheduler.md)
+Best practices have been added in the **[!UICONTROL Scheduler]** activity section. [Read more](../../../common/workflow/using/scheduler.md)
 
 ## June 2020 {#june-2020}
 
@@ -310,7 +310,7 @@ Data model best practices have been improved with additional information on inde
 
 The section describing the Adobe Campaign built-in data model has been updated with more details on each table. [Read more](../../configuration/using/data-model-description.md)
 
-Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../workflow/using/about-workflow-use-cases.md)
+Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../../common/workflow/using/about-workflow-use-cases.md)
 
 The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
 
@@ -364,9 +364,9 @@ The database cleanup workflow section has been updated. The provided batch figur
 
 A limitation on FDA over HTTP has been added to the transactional messaging guide. [Read more](../../production/using/database-cleanup-workflow.md)
 
-Information has been added on the new option that allows you to define a time-out period for the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** workflow activities. [Read more](../../workflow/using/sql-code-and-javascript-code.md)
+Information has been added on the new option that allows you to define a time-out period for the **[!UICONTROL JavaScript code]** and **[!UICONTROL Advanced JavaScript code]** workflow activities. [Read more](../../../common/workflow/using/sql-code-and-javascript-code.md)
 
-Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 The [Sending push notifications](../../delivery/using/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
 
@@ -378,7 +378,7 @@ The **Campaign Classic Capability matrix** page has been updated. [Read more](ht
 
 The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [here](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress).
 
-A limitation has been added when using a query activity in a workflow. [Read more](../../workflow/using/query.md).
+A limitation has been added when using a query activity in a workflow. [Read more](../../../common/workflow/using/query.md).
 
 A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
 
@@ -390,17 +390,17 @@ A new section describing the Adobe Campaign Classic data model basics and how to
 
 The Adobe Campaign Enhanced MTA article has been updated with more detailed information on installing a specific Typology package on instances that do not add the required Enhanced MTA headers to every message. [Read more](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
-The use cases related to query designing have been reorganized into separate sections. [Read more](../../workflow/using/querying-recipient-table.md)
+The use cases related to query designing have been reorganized into separate sections. [Read more](../../../common/workflow/using/querying-recipient-table.md)
 
 A new section about tips and tricks on managing offers and using the Interaction module in Adobe Campaign Classic is now available. [Read more](../../interaction/using/interaction-best-practices.md#tips-managing-offers)
 
 The Interaction documentation has been enriched with links to several videos that help understand better how to manage offers. [Read more](../../interaction/using/interaction-and-offer-management.md)
 
-The best practices article on how to optimize the queries running on your instance has been integrated into the documentation. [Read more](../../workflow/using/query.md#optimizing-queries)
+The best practices article on how to optimize the queries running on your instance has been integrated into the documentation. [Read more](../../../common/workflow/using/query.md#optimizing-queries)
 
 Reporting guide has been updated and reorganized. [Read more](../../reporting/using/about-adobe-campaign-reporting-tools.md)
 
-An example of how to use an instance variable in a workflow has been added. [Read more](../../workflow/using/javascript-scripts-and-templates.md)
+An example of how to use an instance variable in a workflow has been added. [Read more](../../../common/workflow/using/javascript-scripts-and-templates.md)
 
 ## December 2019 {#december-2019}
 
@@ -418,7 +418,7 @@ California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/cam
 
 Interactive content with AMP - [Read more](../../delivery/using/defining-interactive-content.md)
 
-Workflow live monitoring - [Read more](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+Workflow live monitoring - [Read more](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 Secure SMS Messaging (TLS) - [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -468,7 +468,7 @@ The Delivery Best Practices getting started guide has been moved and updated. [R
 
 A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-set-up.md#automatic-reply)
 
-Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../workflow/using/scheduler.md)
+Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../../common/workflow/using/scheduler.md)
 
 The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
@@ -476,11 +476,11 @@ The steps to configure Inbox rendering for on-premise installations have 
 
 A new page has been added to provide general guidelines for maintaining Campaign Classic. [Read more](../../production/using/monitoring-guidelines.md)
 
-Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../workflow/using/monitoring-workflow-execution.md).
+Information related to workflows monitoring has been centralized into a new dedicated section. [Read more](../../../common/workflow/using/monitoring-workflow-execution.md).
 
 A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
-The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/delivery-performances.md#best-practices-performance).
+The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../../common/workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/delivery-performances.md#best-practices-performance).
 
 ## May 2019 {#release-19-1}
 
@@ -506,7 +506,7 @@ A section has been added describing the Campaign server uninstallation steps. [R
 
 The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
-The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../workflow/using/data-loading--file-.md)
+The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../../common/workflow/using/data-loading--file-.md)
 
 The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
 
@@ -524,7 +524,7 @@ The Managing Offers documentation has been updated with a new section listing be
 
 A new Knowledge base article on using the offer catalog in Adobe Campaign Classic has been created. [Read more](https://helpx.adobe.com/campaign/kb/offer-best-practices.html)
 
-The Sub-workflow activity section has been enhanced with an example of usage. [Read more](../../workflow/using/sub-workflow.md)
+The Sub-workflow activity section has been enhanced with an example of usage. [Read more](../../../common/workflow/using/sub-workflow.md)
 
 The [Campaign Classic On-premise & Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
@@ -532,7 +532,7 @@ The Transactional Messaging documentation has been updated with a note regarding
 
 The Unprocessed bounce mails section has been updated with more details on the Forwarding address and Address for errors fields. [Read more](../../installation/using/deploying-an-instance.md)
 
-A new section on workflow planning best practices has been added. [Read more](../../workflow/using/workflow-best-practices.md)
+A new section on workflow planning best practices has been added. [Read more](../../../common/workflow/using/workflow-best-practices.md)
 
 Added two new options to the list of Campaign options: XtkSecurity_Restrict_EditXML and NmsOperation_OperationMgtDebug.
  [Read more](../../installation/using/configuring-campaign-options.md)
@@ -551,7 +551,7 @@ Updated documentation on the Shared audiences integration.
 
 The following technotes have been updated: [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) and [Sequence auto generation](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
-The Technical workflows section has been updated. [Read more](../../workflow/using/about-technical-workflows.md)
+The Technical workflows section has been updated. [Read more](../../../common/workflow/using/about-technical-workflows.md)
 
 The Campaign Domain Name Setup procedure has been improved and updated. [Read more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -579,7 +579,7 @@ The [Email archiving](../../installation/using/email-archiving.md) section has b
 
 * We've updated the steps to upgrade to the new email archiving system (BCC) if you were already using email archiving with an older build (prior to Adobe Campaign 17.2 – build 8795).
 
-A use case has been added to the Automating with Workflows guide: Sending personalized alerts to operators. [Read more](../../workflow/using/sending-personalized-alerts-to-operators.md)
+A use case has been added to the Automating with Workflows guide: Sending personalized alerts to operators. [Read more](../../../common/workflow/using/sending-personalized-alerts-to-operators.md)
 
 The "Migrating to a new version" section has been updated. The documentation now only details the steps for a migration to Adobe Campaign Classic v7 from any older version, as it is no longer possible to migrate to Adobe Campaign v6.11. [Read more](../../migration/using/about-migration.md)
 
@@ -589,8 +589,8 @@ Links to the "Digital Content Editor" section have been added to the "Defining t
 
 The "Transactional messaging architecture" section has been updated with a warning specifying that the control and the execution instances cannot be installed on the same machine. [Read more](../../message-center/using/transactional-messaging-architecture.md)
 
-The "Workflow monitoring" section has been updated with a note for builds between 8700 and 8977 (18.10), including a link to the technote on how to install the Workflow HeatMap package for these builds. [Read more](../../workflow/using/heatmap.md)
+The "Workflow monitoring" section has been updated with a note for builds between 8700 and 8977 (18.10), including a link to the technote on how to install the Workflow HeatMap package for these builds. [Read more](../../../common/workflow/using/heatmap.md)
 
-Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](../../workflow/using/email-enrichment-with-custom-date-fields.md)
+Added a use case on how to send an email with custom data fields using the Enrichment activity in a workflow. [Read more](../../../common/workflow/using/email-enrichment-with-custom-date-fields.md)
 
 Feature videos have been moved [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

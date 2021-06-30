@@ -46,7 +46,7 @@ The enrichment activity lets you add offers or links to offers for delivery reci
 
 >[!NOTE]
 >
->For more information on the enrichment activity, refer to the dedicated documentation in the [Workflows guide](../../workflow/using/enrichment.md).
+>For more information on the enrichment activity, refer to the dedicated documentation in the [Workflows guide](../../../common/workflow/using/enrichment.md).
 
 For example, you can enrich the data for a recipient query before a delivery.
 
@@ -59,7 +59,7 @@ There are two methods for specifying offer propositions.
 
 ### Specifying an offer or a call to the offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
+After configuring your query (refer to the [Workflows guide](../../../common/workflow/using/query.md)):
 
 1. Add and open an enrichment activity.
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
@@ -137,7 +137,7 @@ This activity works on the same principle as the enrichment activity with an eng
 
 ![](assets/int_offerengine_activity2.png)
 
-After configuring your query (refer to the [Workflows guide](../../workflow/using/query.md)):
+After configuring your query (refer to the [Workflows guide](../../../common/workflow/using/query.md)):
 
 1. Add and open an **[!UICONTROL Offer engine]** activity.
 1. Complete the various available fields to specify the call to offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.

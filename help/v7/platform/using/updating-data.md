@@ -13,7 +13,7 @@ The data linked to a recipient's profile can be updated manually or automaticall
 
 ## Set up an automatic update {#setting-up-an-automatic-update}
 
-An automatic update can be configured via a workflow. For more on this, refer to [this section](../../workflow/using/update-data.md).
+An automatic update can be configured via a workflow. For more on this, refer to [this section](../../../common/workflow/using/update-data.md).
 
 ## Perform a mass update {#performing-a-mass-update}
 

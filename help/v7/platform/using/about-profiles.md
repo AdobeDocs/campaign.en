@@ -53,7 +53,7 @@ It also gives you access to:
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
 * web applications - [Learn more](../../web/using/about-web-applications.md)
 * imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
-* targeting workflows - [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* targeting workflows - [Learn more](../../../common/workflow/using/building-a-workflow.md#implementation-steps-)
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
@@ -91,7 +91,7 @@ The profiles that were excluded during delivery preparation (typology rules, qua
 >
 >Facebook and Twitter channels are not taken into account.
 
-From Campaign explorer, browse **[!UICONTROL Administration > Campaign Management > Customer metrics]** to have an overview of the number of active profiles. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [technical workflow](../../workflow/using/about-technical-workflows.md). This wokflow runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** folder. 
+From Campaign explorer, browse **[!UICONTROL Administration > Campaign Management > Customer metrics]** to have an overview of the number of active profiles. The actual count is performed by the **[!UICONTROL Number of active billing profiles]** ([!UICONTROL billingActiveContactCount]) [technical workflow](../../../common/workflow/using/about-technical-workflows.md). This wokflow runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** folder. 
 
 Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
 
@@ -115,7 +115,7 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Define the target population](../../delivery/using/define-the-right-audience.md)
 
-* [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
+* [Create queries and segment data in workflows](../../../common/workflow/using/targeting-data.md)
 
 * [Select target mapping](../../delivery/using/selecting-a-target-mapping.md)
 
