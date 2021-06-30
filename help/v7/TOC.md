@@ -417,10 +417,10 @@ type: Documentation
   + Connect to Campaign{#connect-to-campaign}
        + [Install the client console](installation/using/installing-the-client-console.md)
        + Connect via an Adobe ID {#connecting-via-an-adobe-id}
-          + [About [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
-          + [Configure Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
-          + [Implement Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
-          + [IMS troubleshooting](integrations/using/ims-troubleshooting.md)
+          + [About [!DNL Adobe ID]](installation/using/about-adobe-id.md)
+          + [Configure Adobe [!DNL IMS]](installation/using/configuring-ims.md)
+          + [Implement Adobe [!DNL IMS]](installation/using/implementing-ims.md)
+          + [IMS troubleshooting](installation/using/ims-troubleshooting.md)
        + [Connect through LDAP](installation/using/connecting-through-ldap.md)
   + Connect Campaign to external systems {#accessing-external-database}
        + [Configure external accounts](installation/using/external-accounts.md)
