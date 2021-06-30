@@ -170,7 +170,7 @@ Images can be:
 
   Public resources are accessible via the **[!UICONTROL Resources > Online]** node of the Adobe Campaign hierarchy. They are grouped in a library and can be included in email messages, but can also be used for campaigns or tasks, or for content management.
 
-* An asset shared with Adobe Experience Cloud. Refer to [this section](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+* An asset shared with Adobe Experience Cloud. Refer to [this section](../../../common/integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 >[!IMPORTANT]
 >

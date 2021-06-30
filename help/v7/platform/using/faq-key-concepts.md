@@ -20,7 +20,7 @@ Thanks to the integration with the IMS (Adobe Identity Management System), users
 * Securer password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-[Click here to learn more](../../integrations/using/about-adobe-id.md) about accessing Campaign Classic with an Adobe ID.
+[Click here to learn more](../../../common/integrations/using/about-adobe-id.md) about accessing Campaign Classic with an Adobe ID.
 
 ## What is my version of Campaign? {#what-is-my-version-of-campaign-}
 

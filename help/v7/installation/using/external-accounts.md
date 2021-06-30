@@ -252,7 +252,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
   Name of your Adobe Experience Cloud Tenant.
 
-For more information on this configuration, refer to [this page](../../integrations/using/configuring-ims.md).
+For more information on this configuration, refer to [this page](../../../common/integrations/using/configuring-ims.md).
 
 ## Web Analytics {#web-analytics-external-account}
 
@@ -280,7 +280,7 @@ The **[!UICONTROL AEM (AEM instance)]** external account allows you to manage th
 
   Password used to connect to the Adobe Experience Manager authoring instance.
 
-For more on this, refer to this [section](../../integrations/using/about-adobe-experience-manager.md).
+For more on this, refer to this [section](../../../common/integrations/using/about-adobe-experience-manager.md).
 
 
 

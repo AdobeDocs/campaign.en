@@ -79,7 +79,7 @@ For example, if you are experiencing performance issues when delivering to a hig
 
 To use this option, follow the steps below:
 
-1. Create a campaign. For more on this, refer to [this section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
+1. Create a campaign. For more on this, refer to [this section](../../../common/campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](../../../common/workflow/using/query.md).
 1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. For more on using this activity, refer to [this section](../../../common/workflow/using/delivery.md).
 1. Go to the **[!UICONTROL Analysis]** tab of the **[!UICONTROL Delivery properties]** and select the **[!UICONTROL Prepare the personalization data with a workflow]** option.

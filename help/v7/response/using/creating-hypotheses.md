@@ -136,7 +136,7 @@ In this example, we want to create a hypothesis linked to a delivery. This hypot
 
 We will then refine the query inherited from the model to make a hypothesis on a specific article of the purchase table.
 
-1. Create a campaign and a delivery. [Learn more](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
+1. Create a campaign and a delivery. [Learn more](../../../common/campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
 
    In our example, we will use a direct mail type delivery.
 
@@ -146,7 +146,7 @@ We will then refine the query inherited from the model to make a hypothesis on a
 
    >[!NOTE]
    >
-   >For more information, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+   >For more information, refer to [this section](../../../common/campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 1. Open the **[!UICONTROL Direct mail delivery]** and click the **[!UICONTROL Delivery measurement]** icon, then click **[!UICONTROL Add]**.
 
@@ -168,7 +168,7 @@ We will then refine the query inherited from the model to make a hypothesis on a
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Launch your targeting workflow and run the necessary checks until the campaign is finished. [Learn more](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
+1. Launch your targeting workflow and run the necessary checks until the campaign is finished. [Learn more](../../../common/campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

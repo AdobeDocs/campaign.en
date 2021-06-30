@@ -633,7 +633,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## ims {#ims}
 
-Here are the different parameters of the **ims** node. This is the configuration for Campaign connecting to another service using [IMS](../../integrations/using/about-adobe-id.md).
+Here are the different parameters of the **ims** node. This is the configuration for Campaign connecting to another service using [IMS](../../../common/integrations/using/about-adobe-id.md).
 
 <table> 
  <thead> 

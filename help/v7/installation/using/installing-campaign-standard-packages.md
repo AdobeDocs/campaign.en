@@ -57,7 +57,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Marketing campaigns (Campaign)<br /> </td> 
-   <td> Defines, optimizes, executes and analyzes communications and marketing campaigns. <a href="../../campaign/using/designing-marketing-campaigns.md">Learn More</a><br /> </td> 
+   <td> Defines, optimizes, executes and analyzes communications and marketing campaigns. <a href="../../../common/campaign/using/designing-marketing-campaigns.md">Learn More</a><br /> </td> 
    <td> Marketing</td>
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Campaign Optimization<br /> </td> 
-   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
+   <td> Controls, filters and monitors the sending of deliveries so that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. Optional. <a href="../../../common/campaign-opt/using/about-campaign-typologies.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -188,17 +188,17 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> AEM integration<br /> </td> 
-   <td> Allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager in order to benefit from AEM's content editing functionalities as well as Adobe Campaign's delivery capacities. <a href="../../integrations/using/about-adobe-experience-manager.md">Learn More</a> <br /> </td> 
+   <td> Allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager in order to benefit from AEM's content editing functionalities as well as Adobe Campaign's delivery capacities. <a href="../../../common/integrations/using/about-adobe-experience-manager.md">Learn More</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud Shared Audiences Integration<br /> </td> 
-   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. Requires IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
+   <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services. Requires IMS. <a href="../../../common/integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Integration with Adobe Experience Cloud<br /> </td> 
-   <td> Enables you to import and export audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Optional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
+   <td> Enables you to import and export audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Optional. <a href="../../../common/integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -223,7 +223,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> ACS Connector<br /> </td> 
-   <td> Bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Optional. <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">Learn More</a> <br /> </td> 
+   <td> Bridges Adobe Campaign v7 and Adobe Campaign Standard. It is an integrated feature in Campaign v7 that automatically replicates data to Campaign Standard, uniting the best of both applications. Optional. <a href="../../../common/integrations/using/acs-connector-principles-and-data-cycle.md">Learn More</a> <br /> </td> 
    <td> Marketing </td> 
   </tr> 
  </tbody> 

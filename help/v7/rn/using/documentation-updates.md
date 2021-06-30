@@ -41,7 +41,7 @@ A new technote has been created about the Tracked URLs signature issue. [Read mo
 
 ## April 2021 {#april-2021}
 
-A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../integrations/using/get-started-sources-destinations.md)
+A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../../common/integrations/using/get-started-sources-destinations.md)
 
 A new technote has been created to learn how to update bounce qualification after an ISP outage. [Read more](../../delivery/using/update-bounce-qualification.md)
 
@@ -56,11 +56,11 @@ A new section has been added with best practices and checks to perform regarding
 The [permission management chapter](../../platform/using/access-management.md) has been improved and split into sections, including details about [Operators](../../platform/using/access-management-operators.md) , [Groups of operators](../../platform/using/access-management-groups.md) , [Named rights](../../platform/using/access-management-named-rights.md)  and [Folder management](../../platform/using/access-management-folders.md) .
 
 Learn how to create and manage your campaigns through these new pages: 
-* [Create and configure campaign templates](../../campaign/using/marketing-campaign-templates.md)
-* [Marketing campaign deliveries](../../campaign/using/marketing-campaign-deliveries.md)
-* [Select the audience of your campaigns](../../campaign/using/marketing-campaign-target.md)
-* [Manage associated documents](../../campaign/using/marketing-campaign-assets.md) 
-* [Set up and manage the approval process](../../campaign/using/marketing-campaign-approval.md)
+* [Create and configure campaign templates](../../../common/campaign/using/marketing-campaign-templates.md)
+* [Marketing campaign deliveries](../../../common/campaign/using/marketing-campaign-deliveries.md)
+* [Select the audience of your campaigns](../../../common/campaign/using/marketing-campaign-target.md)
+* [Manage associated documents](../../../common/campaign/using/marketing-campaign-assets.md) 
+* [Set up and manage the approval process](../../../common/campaign/using/marketing-campaign-approval.md)
 
 Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../../common/workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
@@ -161,7 +161,7 @@ The Deprecated and removed features page has been updated. [Read more](../../rn/
 Release notes and Compatibility matrix for [!DNL Gold Standard] release are now available in a dedicated section.
 [Read more](../../rn/using/gold-standard.md#gs-11).
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../../common/integrations/using/configuring-adobe-io.md)
 
 **Other updates**
 
@@ -199,9 +199,9 @@ The Deliverability best practices landing page has been improved to facilitate a
 
 How-to videos are now available on the following topics:
 
-* [How to set up fatigue management using typology rules and predefined filters](../../campaign-opt/using/about-campaign-typologies.md)
+* [How to set up fatigue management using typology rules and predefined filters](../../../common/campaign-opt/using/about-campaign-typologies.md)
 
-* [How to create an email in a campaign](../../campaign/using/marketing-campaign-deliveries.md)
+* [How to create an email in a campaign](../../../common/campaign/using/marketing-campaign-deliveries.md)
 
 * [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
 
@@ -254,7 +254,7 @@ The Removing a quarantined address section has been updated. This includes clari
 
 Use cases have been added on how to [encrypt](../../platform/using/zip-encrypt.md) and [decrypt](../../platform/using/unzip-decrypt.md) data using Control Panel and Campaign workflows.
 
-The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
+The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../../common/integrations/using/about-triggers.md).
 
 ## July 2020 {#release-20-2}
 
@@ -322,9 +322,9 @@ Data model best practices have been updated with new sections including [Sequenc
 
 A new section describing the Adobe Campaign built-in data model and interaction between tables is now available. [Read more](../../configuration/using/data-model-description.md)
 
-Additional key links have been added to the documentation home page. [Read more](../../campaign-classic-home.md)
+Additional key links have been added to the documentation home page. [Read more](../../../common/campaign-classic-home.md)
 
-A use case has been added on how to integrate a dynamic offer from Adobe Target into an email in Adobe Campaign. [Read more](../../integrations/using/inserting-a-dynamic-image.md)
+A use case has been added on how to integrate a dynamic offer from Adobe Target into an email in Adobe Campaign. [Read more](../../../common/integrations/using/inserting-a-dynamic-image.md)
 
 A new section detailing the different languages available in Adobe Campaign is now available. [Read more](../../platform/using/adobe-campaign-workspace.md#languages)
 
@@ -438,7 +438,7 @@ The examples for API calls using an **HttpServletRequest** with logon() and quer
 
 A recommendation for **sqlDefault** attribute in schema definition has been added. [Read more](../../configuration/using/schema/attribute.md)).
 
-The integration between Adobe Campaign and Adobe Real-time Customer Data Platform is now referenced in the **Integrating with Adobe Experience Cloud** guide. [Read more](../../integrations/using/about-campaign-integrations.md).
+The integration between Adobe Campaign and Adobe Real-time Customer Data Platform is now referenced in the **Integrating with Adobe Experience Cloud** guide. [Read more](../../../common/integrations/using/about-campaign-integrations.md).
 
 ## November 2019 {#november-2019}
 
@@ -508,7 +508,7 @@ The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [delivera
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../../common/workflow/using/data-loading--file-.md)
 
-The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
+The Marketing Cloud Triggers technote has been updated. [Read more](../../../common/integrations/using/about-triggers.md)
 
 The list of error messages has been updated. [Read more](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
@@ -547,7 +547,7 @@ Added information on the Billing report.
  [Read more](../../production/using/monitoring-processes.md)
 
 Updated documentation on the Shared audiences integration.
- [Read more](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+ [Read more](../../../common/integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
 The following technotes have been updated: [SMS connector protocol and settings](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) and [Sequence auto generation](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence).
 
@@ -563,7 +563,7 @@ Information was added on Query Banding for the Teradata external account. [Read 
 
 ## January 2019{#release-doc-16-01-2019}
 
-The Marketing Cloud Triggers technote has been updated. [Read more](../../integrations/using/about-triggers.md)
+The Marketing Cloud Triggers technote has been updated. [Read more](../../../common/integrations/using/about-triggers.md)
 
 A note was added in the offer approval section to specify  that the "Content approved" mention indicates that the content approval process has been achieved, whether all offers have been enabled/approved or not. [Read more](../../interaction/using/offer-catalog-overview.md)
 

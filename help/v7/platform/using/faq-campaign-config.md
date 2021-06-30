@@ -23,7 +23,7 @@ For English, when installing Campaign, you can select either US English or UK En
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
-Click here to learn [how to work with other Adobe solutions](../../integrations/using/about-campaign-integrations.md) and [how to set up IMS in Campaign](../../integrations/using/about-adobe-id.md).
+Click here to learn [how to work with other Adobe solutions](../../../common/integrations/using/about-campaign-integrations.md) and [how to set up IMS in Campaign](../../../common/integrations/using/about-adobe-id.md).
 
 ## How can I set up tracking capabilities on my Campaign instance? {#how-can-i-set-up-tracking-capabilities-on-my-campaign-instance-}
 
@@ -41,7 +41,7 @@ In addition to the [Adobe Deliverability Best Practice Guide](https://experience
 
 Campaign lets you set up approval processes for the main steps of the marketing campaign, in collaborative mode. For each campaign you can approve the delivery target, contents and costs. Adobe Campaign operators in charge of approval can be notified by e-mail and can accept or reject approval from the console or via a Web connection.
 
-[Click here to learn more](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) and discover steps to implement your delivery content approval in Campaign.
+[Click here to learn more](../../../common/campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) and discover steps to implement your delivery content approval in Campaign.
 
 ## How can I access data stored in an external database? {#how-can-i-access-data-stored-in-an-external-database-}
 

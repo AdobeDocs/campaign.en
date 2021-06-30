@@ -153,7 +153,7 @@ Marketing resources can be associated with campaigns, provided that this feature
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>For details on how to create and configure campaign templates, refer to [Campaign templates](../../../common/campaign/using/marketing-campaign-templates.md#campaign-templates).
 
 Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 
@@ -177,7 +177,7 @@ Marketing resources can be associated with deliveries via delivery outlines.
 
 >[!NOTE]
 >
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+>For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../../../common/campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Stock management {#stock-management}
 
@@ -185,7 +185,7 @@ You can associate a marketing resource with one or more stocks in order to manag
 
 >[!NOTE]
 >
->For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>For more information on stock management in Adobe Campaign, refer to [Stock management](../../../common/campaign/using/providers--stocks-and-budgets.md#stock-management).
 
 To associate a marketing resource with a stock, edit the stock map and edit or create a stock. Add a stock line and select the corresponding marketing resource.
 

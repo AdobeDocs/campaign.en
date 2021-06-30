@@ -20,7 +20,7 @@ To present an offer during a marketing campaign, simply create a classic deliver
 
 ![](assets/offer_delivery_009.png)
 
-Learn more about direct mail deliveries [in this section](../../delivery/using/about-direct-mail-channel.md). Learn more about marketing campaigns [in this section](../../campaign/using/setting-up-marketing-campaigns.md).
+Learn more about direct mail deliveries [in this section](../../delivery/using/about-direct-mail-channel.md). Learn more about marketing campaigns [in this section](../../../common/campaign/using/setting-up-marketing-campaigns.md).
 
 ### Main steps for inserting an offer into a delivery {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -81,7 +81,7 @@ The delivery can be personalized using the offer's fields or, in the case of an 
 
 You can also present offers in a delivery using delivery outlines.
 
-For more information on delivery outlines, refer to the [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
+For more information on delivery outlines, refer to the [Campaign - MRM](../../../common/campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) guide.
 
 1. Create a new campaign or access an existing campaign.
 1. Access the delivery outlines via the campaign's **[!UICONTROL Edit]** > **[!UICONTROL Documents]** tab.

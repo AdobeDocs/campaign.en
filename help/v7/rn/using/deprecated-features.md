@@ -53,7 +53,7 @@ Customers are advised to review if they make use of the feature/capability in th
   <tr>
   <td>OAuth Authentication (OAuth and JWT)<br></td>
   <td><p> Starting Campaign 20.3 release, Triggers integration authentication originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. <p>
-  <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../integrations/using/configuring-adobe-io.md">Learn more</a></p> 
+  <p>If you are using Triggers integration, you need to adapt your implementation accordingly. <a href="../../../common/integrations/using/configuring-adobe-io.md">Learn more</a></p> 
   <p>For more information on OAuth Authentication depreciation, refer to this <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">page</a></p> 
   <p><em>Target removal date: Nov 2021</em></p>
   </td>
@@ -76,7 +76,7 @@ This section lists features and capabilities that have been removed from Campaig
    <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
   <tr>
   <td>Demdex domain<br></td>
-  <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
+  <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../../common/integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
   </td>
   </td>
   </tr>

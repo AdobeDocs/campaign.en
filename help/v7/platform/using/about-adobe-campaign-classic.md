@@ -43,7 +43,7 @@ The advanced Data Management functionality extends the data processing capabilit
 
 ### Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
-Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. For more on scheduling and executing campaigns, refer to [this page](../../campaign/using/setting-up-marketing-campaigns.md).
+Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. For more on scheduling and executing campaigns, refer to [this page](../../../common/campaign/using/setting-up-marketing-campaigns.md).
 
 ### Personalization and real-time interaction {#personalization-and-real-time-interaction}
 
@@ -55,7 +55,7 @@ Adobe Campaign lets you monitor and interpret the behavior of your customers by 
 
 ### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
-You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../integrations/using/about-adobe-id.md).
+You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../../common/integrations/using/about-adobe-id.md).
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
@@ -64,7 +64,7 @@ Adobe Campaign offers a set of capabilities to help you implementing and optimiz
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
 * [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
-* [Campaign](../../campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
+* [Campaign](../../../common/campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
 * [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,

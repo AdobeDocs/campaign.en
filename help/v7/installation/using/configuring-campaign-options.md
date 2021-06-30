@@ -46,7 +46,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
+   <td><p> Lets you allow the operator in charge of the delivery to confirm the send, if a specific operator or group of operators is designated for starting a delivery in the delivery's properties.</p><p> To do this, activate the option by entering "1" as the value. To deactivate this option, enter "0".</p><p> The send confirmation process will then function as default: only the operator or group of operators designated for the send in the delivery properties (or an administrator) will be able to confirm and carry out the send. See <a href="../../../common/campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">this section</a>.</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign uses a "Nms_DefaultRcpSchema" global variable to dialog with the default recipient database (nms:recipient).<br /> The option value must correspond to the name of the schema which matches the external recipient table.<br /> </td> 
@@ -729,11 +729,11 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> Adobe Target server used for the integration. This option is already selected by default. This value corresponds to the Adobe Target Domain Server, followed by the value /m2. For example: tt.omtrdc.net/m2.<br /> See <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
+   <td> Adobe Target server used for the integration. This option is already selected by default. This value corresponds to the Adobe Target Domain Server, followed by the value /m2. For example: tt.omtrdc.net/m2.<br /> See <a href="../../../common/integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Adobe Target Organization name. This value corresponds to the name of the Adobe Target Client.<br /> See <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
+   <td> Adobe Target Organization name. This value corresponds to the name of the Adobe Target Client.<br /> See <a href="../../../common/integrations/using/configuring-the-integration-with-adobe-target.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 

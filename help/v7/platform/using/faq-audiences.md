@@ -23,7 +23,7 @@ Discover easy use cases to [import profiles](../../platform/using/import-operati
 
 ## How can I define the target population of a marketing campaign? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-You can [use workflows to create target population](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. 
+You can [use workflows to create target population](../../../common/campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) of a marketing campaign. 
 
 
 ## How can I create a list of profiles? {#how-can-i-create-a-list-of-profiles-}
