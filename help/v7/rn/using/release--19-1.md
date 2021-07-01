@@ -2,9 +2,9 @@
 product: campaign
 title: Campaign 19.1 release notes
 description: Release notes for Campaign 19.1
-feature: 
-role: 
-level:
+feature: Overview
+role: Business Practitioner
+level: Beginner
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 ---
 # Release 19.1{#release-19-1}

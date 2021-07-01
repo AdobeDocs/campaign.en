@@ -39,8 +39,9 @@ Join Campaign Community: search for answers in existing question or ask the expe
 
 ### Access Campaign Download Center
 
-[Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html) to access the Experience Cloud Software Distribution.
-Learn more about the Distribution Center [in this page](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html).
+[Access the Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html).
+
+Learn more about the Distribution Center [in this page](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 ### Create a ticket or start a chat
 

@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Build personalized content
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn how to design personalized messagecontent
+feature: Personalization, Email Design
+role: Business Practitioner
+level: Beginner
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 ---
 # Build personalized content {#build-personalized-content}

@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Check before sending
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn delivery sending best practices
+feature: Email, Audiences
+role: Business Practitioner
+level: Beginner
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 ---
 # Perform all checks before sending {#perform-all-checks}

@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Campaign delivery best practices
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn delivery best practices
+feature: Overview
+role: Business Practitioner
+level: Beginner
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 ---
 # Delivery best practices {#delivery-best-practices}

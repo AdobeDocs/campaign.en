@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Track and monitor messages
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn how to track and monitor messages
+feature: Monitoring
+role: Business Practitioner
+level: Beginner
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 ---
 # Track and monitor {#track-and-monitor}

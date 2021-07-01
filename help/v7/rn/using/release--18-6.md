@@ -2,9 +2,6 @@
 product: campaign
 title: Campaign 18.6 release notes
 description: Release notes for Campaign 18.6
-audience: rn
-content-type: reference
-topic-tags: latest-release-notes
 feature: Overview
 role: Business Practitioner
 level: Beginner

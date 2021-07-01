@@ -61,7 +61,7 @@ According to your contract, each of your Campaign instances is provisioned with 
 
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-:arrow_upper_right: For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+:arrow_upper_right: For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
 
 **Related topics**
