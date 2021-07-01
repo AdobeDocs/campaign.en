@@ -46,16 +46,16 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
         <li><a href="delivery/using/delivery-performances.md">Delivery performances</a></li>
-        <li><a href="workflow/using/workflow-best-practices.md">Optimize workflow performances</a></li>
-        <li><a href="workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
+        <li><a href="../common/workflow/using/workflow-best-practices.md">Optimize workflow performances</a></li>
+        <li><a href="../common/workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
-        <li><a href="workflow/using/workflow-best-practices.md">Workflows best practices</a></li>
-        <li><a href="workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
+        <li><a href="../common/workflow/using/workflow-best-practices.md">Workflows best practices</a></li>
+        <li><a href="../common/workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
         <li><a href="delivery/using/about-message-tracking.md">Understand tracking management</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
@@ -73,8 +73,8 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
         <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
         <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
         <li><a href="platform/using/steps-to-create-a-query.md">Design a query</a></li>
-        <li><a href="workflow/using/querying-recipient-table.md">Query samples</a></li>
-        <li><a href="workflow/using/building-a-workflow.md">Build a workflow</a></li>
+        <li><a href="../common/workflow/using/querying-recipient-table.md">Query samples</a></li>
+        <li><a href="../common/workflow/using/building-a-workflow.md">Build a workflow</a></li>
         </ul>
     </td>
     </tr>

@@ -19,7 +19,7 @@ The full list of Adobe solutions and core services which can be integrated with 
 
 >[!CAUTION]
 >
->Most of these integrations require to implement Adobe Identity Management System (IMS), to log in via an Adobe ID. [Learn more in this page](../../integrations/using/about-adobe-id.md).
+>Most of these integrations require to implement Adobe Identity Management System (IMS), to log in via an Adobe ID. [Learn more in this page](../../../v7/installation/using/about-adobe-id.md).
 >
 
 ## Linking your solutions {#working-with-experience-cloud-solutions}
@@ -56,7 +56,7 @@ The following table provides access to available Experience Cloud integration do
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS) - Adobe ID</strong><br /> </td> 
-   <td> Allows you to connect to Adobe Campaign with the same Adobe ID as for the other Adobe Experience Cloud solutions.<br /> An Adobe ID has to be used to log in in order to use certain functionalities linked to the Adobe Experience Cloud integrations, particularly Core Services.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Learn more</a> about implementing Adobe ID with Adobe Campaign.</p><br /> </td> 
+   <td> Allows you to connect to Adobe Campaign with the same Adobe ID as for the other Adobe Experience Cloud solutions.<br /> An Adobe ID has to be used to log in in order to use certain functionalities linked to the Adobe Experience Cloud integrations, particularly Core Services.<br /> <p><a href="../../../v7/installation/using/about-adobe-id.md">Learn more</a> about implementing Adobe ID with Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 

@@ -29,7 +29,7 @@ In order to use the integration between Adobe Campaign and Experience Cloud Asse
 * An Adobe Experience Cloud organization
 * The Adobe IMS authentification mode enabled
 
-To enable the connection between Adobe Campaign and Adobe Experience Cloud, configure the connection via IMS (Adobe ID connection service). This configuration is detailed in the [Connecting via an Adobe ID](../../integrations/using/about-adobe-id.md) document. It involves:
+To enable the connection between Adobe Campaign and Adobe Experience Cloud, configure the connection via IMS (Adobe ID connection service). This configuration is detailed in the [Connecting via an Adobe ID](../../../v7/installation/using/about-adobe-id.md) document. It involves:
 
 * Installing the **[!UICONTROL Integration with the Adobe Experience Cloud]** package.
 * Configuring an Adobe Experience Cloud external account.

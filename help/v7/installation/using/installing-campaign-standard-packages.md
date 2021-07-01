@@ -198,7 +198,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Integration with Adobe Experience Cloud<br /> </td> 
-   <td> Enables you to import and export audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Optional. <a href="../../../common/integrations/using/configuring-ims.md#installing-the-package">Learn More</a> </td> 
+   <td> Enables you to import and export audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign. Optional. <a href="configuring-ims.md#installing-the-package">Learn More</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 

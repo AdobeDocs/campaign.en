@@ -23,7 +23,7 @@ With ACS Connector, Campaign Standard continues to be used by digital marketers 
 >
 >ACS Connector is only available for hosted and hybrid architectures. It is not available for full on-premise installations.
 >
->To use this feature, you must connect to Campaign with an Adobe ID (IMS). See [Connecting via an Adobe ID](../../integrations/using/about-adobe-id.md).
+>To use this feature, you must connect to Campaign with an Adobe ID (IMS). See [Connecting via an Adobe ID](../../../v7/installation/using/about-adobe-id.md).
 
 This document presents the ACS Connector capabilities. The sections below provide information on how the feature replicates data and instructions on how to work with replicated profiles.
 

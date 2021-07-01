@@ -70,7 +70,7 @@ An upgrade of the Campaign Client Console is required to ensure compatibility wi
 
 **Are you impacted?**
 
-If you are connecting to Campaign [via an Adobe ID](../integrations/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
+If you are connecting to Campaign [via an Adobe ID](../../../v7/installation/using/about-adobe-id.md), through Adobe Identity Management Service (IMS), upgrade to one of the new versions listed below is mandatory:
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)

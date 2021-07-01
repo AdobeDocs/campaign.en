@@ -11,7 +11,7 @@ exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 
 >[!NOTE]
 >
->To be able to proceed further, make sure that IMS is enabled on your system. Consult the section about [IMS](../../integrations/using/about-adobe-id.md).
+>To be able to proceed further, make sure that IMS is enabled on your system. Consult the section about [IMS](../../../v7/installation/using/about-adobe-id.md).
 
 Once IMS is enabled, you can request provisioning of the People core service/Audience Manager integration with Campaign. To do that, send an email to [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) with the following information:
 
