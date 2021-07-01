@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Optimize message delivery
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: Learn how to optimize message delivery
+feature: Monitoring, Deliverability
+role: Business Practitioner
+level: Beginner
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 ---
 # Optimize delivery {#optimize-delivery}

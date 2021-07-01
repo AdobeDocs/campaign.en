@@ -2,7 +2,7 @@
 product: campaign
 title: Define the right audience
 description: Learn audience best practices
-feature: Audiences
+feature: Audiences, Deliverability
 role: Business Practitioner
 level: Beginner
 exl-id: c0533148-b027-4158-9b95-8d2df769e963

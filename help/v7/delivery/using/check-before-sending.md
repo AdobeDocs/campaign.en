@@ -2,7 +2,7 @@
 product: campaign
 title: Check before sending
 description: Learn delivery sending best practices
-feature: Email, Audiences
+feature: Email, Audiences, Deliverability
 role: Business Practitioner
 level: Beginner
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
