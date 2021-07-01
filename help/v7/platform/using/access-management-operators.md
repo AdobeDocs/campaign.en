@@ -27,7 +27,7 @@ For more on Adobe Campaign and LDAP integration, refer to [this page](../../inst
 >
 >Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/security-zones.md).
 
-Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../../common/integrations/using/about-adobe-id.md).
+Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../../v7/installation/using/about-adobe-id.md).
 
 ## Create an operator {#creating-an-operator}
 

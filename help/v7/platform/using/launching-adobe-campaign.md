@@ -26,7 +26,7 @@ The client console connection window lets you select or configure existing datab
 
 ## Connect to Adobe Campaign {#connecting-to-adobe-campaign}
 
-You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](../../../common/integrations/using/about-adobe-id.md).
+You can connect to Adobe Campaign using your Adobe ID. For more on this, refer to [this page](../../../v7/installation/using/about-adobe-id.md).
 
 You can also connect with a dedicated login/password:
 
@@ -61,7 +61,7 @@ You must then define the connection settings. To do this:
 
 1. Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
 
-1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../../common/integrations/using/about-adobe-id.md).
+1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../../v7/installation/using/about-adobe-id.md).
 
 1. Click **[!UICONTROL OK]** to validate.
 

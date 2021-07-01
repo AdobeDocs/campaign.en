@@ -55,7 +55,7 @@ Adobe Campaign lets you monitor and interpret the behavior of your customers by 
 
 ### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
-You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../../common/integrations/using/about-adobe-id.md).
+You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../../v7/installation/using/about-adobe-id.md).
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 

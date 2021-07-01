@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # How to update your environment to connect to Adobe Campaign with IMS {#acc-ims-faq}
  
-On June 30, 2021 changes will be made to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities that could impact your ability to continue to use Adobe Campaign. Learn how to ensure you continue to use Adobe Campaign Classic v7 without interruption. 
+Starting June 30, 2021 changes to [Adobe Identity Management System](https://helpx.adobe.com/enterprise/using/identity.html) (IMS) login capabilities could impact your ability to continue to use Adobe Campaign. Learn how to ensure you can continue to use Adobe Campaign Classic v7.
 
 ## What changed?
 
@@ -55,25 +55,25 @@ To check your connection mode, you can:
 
 * Launch Campaign Client Console and access your instance connection settings. If the **Connect with an Adobe ID** option is selected, you are using Adobe IMS.
 
-    ![](../integrations/using/assets/ims_1.png)
+    ![](assets/ims_1.png)
 
 or
 
 * Launch Campaign Client Console, and check your connection window. If you are connecting with an Adobe ID, as shown in the screen below, you are using IMS.
 
-    ![](../integrations/using/assets/adobeID.png)
+    ![](assets/adobeID.png)
     
 **Connection Warning Message**
 
 The following warning message is visible to users if they need to update their Client Console or use an old version of Microsoft Internet Explorer: **You need to install the latest updated to Windows and/or your Adobe apps.**
 
-![](../integrations/using/assets/do-not-localize/errorMsg.png)
+![](assets/do-not-localize/errorMsg.png)
 
 If you see such a warning, ensure that you install the latest updates of the operating system you are using. [Learn more](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 **After June 30, 2021**, you will see the following message, and will no longer be able to connect to Adobe Campaign:
 
-![](../integrations/using/assets/do-not-localize/errorUpdateReq.png)
+![](assets/do-not-localize/errorUpdateReq.png)
 
 >[!NOTE]
 >

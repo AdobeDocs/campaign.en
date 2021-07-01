@@ -20,7 +20,7 @@ Available connectors are listed below:
 You can also integrate Campaign with multiple other systems, such as:
 
 * Adobe Experience Cloud solutions: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud triggers, etc. [Learn more](../../../common/integrations/using/about-campaign-integrations.md)
-* Adobe IMS/SSO, to secure access to your Campaign instance, and connect to Adobe Campaign with the same Adobe ID as for the other Adobe Experience Cloud solutions. [Learn more](../../../common/integrations/using/about-adobe-id.md).
+* Adobe IMS/SSO, to secure access to your Campaign instance, and connect to Adobe Campaign with the same Adobe ID as for the other Adobe Experience Cloud solutions. [Learn more](../../../v7/installation/using/about-adobe-id.md).
 * LDAP directory, to unify access management. [Learn more](../../installation/using/connecting-through-ldap.md).
 
 >[!NOTE]

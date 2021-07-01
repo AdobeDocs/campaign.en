@@ -23,7 +23,7 @@ For English, when installing Campaign, you can select either US English or UK En
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
 
-Click here to learn [how to work with other Adobe solutions](../../../common/integrations/using/about-campaign-integrations.md) and [how to set up IMS in Campaign](../../../common/integrations/using/about-adobe-id.md).
+Click here to learn [how to work with other Adobe solutions](../../../common/integrations/using/about-campaign-integrations.md) and [how to set up IMS in Campaign](../../../v7/installation/using/about-adobe-id.md).
 
 ## How can I set up tracking capabilities on my Campaign instance? {#how-can-i-set-up-tracking-capabilities-on-my-campaign-instance-}
 

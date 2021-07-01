@@ -199,7 +199,7 @@ The Deliverability best practices landing page has been improved to facilitate a
 
 How-to videos are now available on the following topics:
 
-* [How to set up fatigue management using typology rules and predefined filters](../../../common/campaign-opt/using/about-campaign-typologies.md)
+* [How to set up fatigue management using typology rules and predefined filters](../../../v7/campaign-opt/using/about-campaign-typologies.md)
 
 * [How to create an email in a campaign](../../../common/campaign/using/marketing-campaign-deliveries.md)
 
@@ -407,8 +407,6 @@ An example of how to use an instance variable in a workflow has been added. [Rea
 The "WdbcOptions_TempDbName" option has been added to the list of Campaign options. [Read more](../../installation/using/configuring-campaign-options.md)
 
 The FDA matrix page has been moved [here](../../installation/using/remote-database-access-rights.md).
-
-The Access Rights Matrix page has been moved [here](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en).
 
 The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
 

@@ -24,7 +24,7 @@ The different hosting models are introduced [in this section](../../installation
 | Manage Message Center execution instance | On-demand | On-demand | Available | [Learn more](../../message-center/using/about-transactional-messaging.md) | 
 | Managing Mid-sourcing platform | On-demand | On-demand | Available | [Learn more](../../installation/using/mid-sourcing-server.md) |
 | Inbox rendering via Litmus | On-demand | On-demand | Available | [Learn more](../../delivery/using/inbox-rendering.md) |
-| Integrating with IMS (Adobe ID) | On-demand | On-demand | On-demand | [Learn more](../../../common/integrations/using/about-adobe-id.md)                    |
+| Integrating with IMS (Adobe ID) | On-demand | On-demand | On-demand | [Learn more](../../../v7/installation/using/about-adobe-id.md)                    |
 | Encrypting/Decrypting data for file transfers | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Zipping/Unzipping files | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html) |
