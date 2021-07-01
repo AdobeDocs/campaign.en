@@ -252,7 +252,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
   Name of your Adobe Experience Cloud Tenant.
 
-For more information on this configuration, refer to [this page](../../../common/integrations/using/configuring-ims.md).
+For more information on this configuration, refer to [this page](configuring-ims.md).
 
 ## Web Analytics {#web-analytics-external-account}
 

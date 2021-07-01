@@ -29,7 +29,7 @@ In Adobe Campaign, recipients are the default profiles targeted for sending deli
 
 Adobe Campaign is a powerful tool for collecting and processing extremely large amounts of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-:arrow_upper_right: Learn how to manage privacy and consent in [this guide](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
+:arrow_upper_right: Learn how to manage privacy and consent in [this guide](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
 
 
 ## Create lists
