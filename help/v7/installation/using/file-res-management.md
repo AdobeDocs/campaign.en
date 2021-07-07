@@ -97,6 +97,19 @@ If you have internal connections that should go through the proxy, add them in t
 
 If you want to tempararily disable the proxy connection, set the enabled parameter to "false" or "0".
 
+If you need to use the iOS HTTP/2 connector through a proxy, the following HTTP proxy modes are supported:
+
+* HTTP without authentication
+* HTTP basic authentication
+
+To activate the proxy mode, the following change must be done in the `serverconf.xml` file:
+
+```
+<nmac useHTTPProxy="true">
+```
+
+For more information on this iOS HTTP/2 connector, refer to this [page](../../delivery/using/about-mobile-app-channel.md).
+
 ## Manage public resources {#managing-public-resources}
 
 To be publicly available, the images used in emails and public resources linked to campaigns must be present on an externally accessible server. They can then be available to external recipients or operators. [Learn more](../../installation/using/deploying-an-instance.md#managing-public-resources).
