@@ -12,6 +12,25 @@ type: Documentation
 # Adobe Campaign COMMON documentation {#common}
 
 + [Campaign Common documentation](campaign-common-home.md)
++ Create and send deliveries {#create-deliveries}
+     + [Get started with deliveries](delivery/using/communication-channels.md)
+     + [Create your first delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+     + [Define the audience](delivery/using/steps-defining-the-target-population.md)
+     + [Validate the delivery](delivery/using/steps-validating-the-delivery.md)
+     + [Send the delivery](delivery/using/steps-sending-the-delivery.md)
+     + Delivery best practices {#delivery-bestpractices}
+          + [Learn good practices](delivery/using/delivery-best-practices.md)
+          + [Optimize delivery](delivery/using/optimize-delivery.md)
+          + [Use templates](delivery/using/use-templates.md)
+          + [Build personalized content](delivery/using/design-and-personalize.md)
+          + [Define the right audience](delivery/using/define-the-right-audience.md)
+          + [Check before sending](delivery/using/check-before-sending.md)
+          + [Track and monitor](delivery/using/track-and-monitor.md) 
++ [Send emails](email.md)
++ [Send SMS](sms.md)
++ [Send push notifications](push.md)
++ [Send LINE messages](line.md)
++ [Send direct mails](direct-mail.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
   + About marketing campaigns {#about-marketing-campaigns}
        + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)
