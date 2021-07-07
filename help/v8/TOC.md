@@ -78,11 +78,11 @@ hide: yes
     + [Get started](dev/api.md)
     + [New APIs](dev/new-apis.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
-+ [Orchestrate marketing campaigns](../common/campaign/using/designing-marketing-campaigns.md)
-+ [Design and share reports](../common/reporting/using/about-adobe-campaign-reporting-tools.md)
-+ [Design web content](../common/web/using/about-web-applications.md)
-+ [Integrate with Adobe Experience Cloud](../common/integrations/using/about-campaign-integrations.md)
-+ [Automate with workflows](../common/workflow/using/about-workflows.md)
++ [Orchestrate marketing campaigns](https://experienceleague-review.corp.adobe.com/docs/campaign/common/orchestrating-campaigns/about-marketing-campaigns/designing-marketing-campaigns.html?lang=en)
++ [Design and share reports](https://experienceleague-review.corp.adobe.com/docs/campaign/common/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html?lang=en#reporting)
++ [Design web content](https://experienceleague-review.corp.adobe.com/docs/campaign/common/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)
++ [Integrate with Adobe Experience Cloud](https://experienceleague-review.corp.adobe.com/docs/campaign/common/integrating-with-adobe-experience-cloud/about-campaign-integrations.html?lang=en)
++ [Automate with workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/common/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
 
 
