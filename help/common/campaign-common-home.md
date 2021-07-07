@@ -11,4 +11,8 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 >
 > This content set is the common documentation for Campaign v7 and v8. For specificities on each version refer to the dedicated sets: ![](assets/v7-icon.png) ![](assets/v8-icon.png)
 
+![](assets/v7-icon.png)
+
+![](assets/v8-icon.png)
+
 COMMON DOCS
