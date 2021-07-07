@@ -78,5 +78,11 @@ hide: yes
     + [Get started](dev/api.md)
     + [New APIs](dev/new-apis.md)
     + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
++ [Orchestrate marketing campaigns](../common/campaign/using/designing-marketing-campaigns.md)
++ [Design and share reports](../common/reporting/using/about-adobe-campaign-reporting-tools.md)
++ [Design web content](../common/web/using/about-web-applications.md)
++ [Integrate with Adobe Experience Cloud](../common/integrations/using/about-campaign-integrations.md)
++ [Automate with workflows](../common/workflow/using/about-workflows.md)
+
 
 

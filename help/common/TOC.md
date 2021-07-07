@@ -246,3 +246,5 @@ type: Documentation
        + [Manage activity images](workflow/using/managing-activity-images.md)
        + [Manage time zones](workflow/using/managing-time-zones.md)
        + [Technical workflows](workflow/using/about-technical-workflows.md)
++ [v7 Classic Documentation](../v7/campaign-classic-home.md)
++ [v8 Documentation](../v8/campaign-home.md)

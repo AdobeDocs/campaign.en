@@ -608,3 +608,8 @@ type: Documentation
        + [Specific configurations in v6.02](migration/using/specific-configurations-in-v6-02.md)
        + [Specific configurations in v6.10](migration/using/specific-configurations-in-v6-10.md)
   + [Rollback procedure](migration/using/about-rollback.md)
++ [Orchestrate marketing campaigns](../common/campaign/using/designing-marketing-campaigns.md)
++ [Design and share reports](../common/reporting/using/about-adobe-campaign-reporting-tools.md)
++ [Design web content](../common/web/using/about-web-applications.md)
++ [Integrate with Adobe Experience Cloud](../common/integrations/using/about-campaign-integrations.md)
++ [Automate with workflows](../common/workflow/using/about-workflows.md)
