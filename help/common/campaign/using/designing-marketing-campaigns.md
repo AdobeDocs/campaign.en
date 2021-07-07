@@ -9,6 +9,10 @@ exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 ---
 # Design and execute marketing campaigns{#designing-marketing-campaigns}
 
+>[!AVAILABILITY]
+>
+> This content set is the common documentation for Campaign v7 and v8. For specificities on each version refer to the dedicated sets: [![image](../../assets/v7-icon.png)](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html) [![image](../../assets/v8-icon.png)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+
 Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../../v7/distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 
 In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. The Marketing Resource Management lets you optimize and regulate the management of internal and external processes, resources and marketing campaigns, as well as third party relations (agencies, printers, etc.). For more on this, refer to [this section](../../../v7/mrm/using/about-marketing-resource-management.md).
