@@ -103,7 +103,7 @@ The following table presents the characters taken into account by the GSM standa
  <tbody> 
   <tr> 
    <td> @ </td> 
-   <td> <img height="21px" src="assets/delta.png" /> </td> 
+   <td> <img height="21px" src="../assets/delta.png" /> </td> 
    <td> SP </td> 
    <td> 0 </td> 
    <td> ¡ </td> 
@@ -123,7 +123,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> $ </td> 
-   <td> <img height="21px" src="assets/phi.png" /> </td> 
+   <td> <img height="21px" src="../assets/phi.png" /> </td> 
    <td> " </td> 
    <td> 2 </td> 
    <td> B </td> 
@@ -133,7 +133,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> ¥ </td> 
-   <td> <img height="21px" src="assets/gamma.png" /> </td> 
+   <td> <img height="21px" src="../assets/gamma.png" /> </td> 
    <td> # </td> 
    <td> 3 </td> 
    <td> C </td> 
@@ -143,7 +143,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> è </td> 
-   <td> <img height="21px" src="assets/delta.png" /> </td> 
+   <td> <img height="21px" src="../assets/delta.png" /> </td> 
    <td> ¤ </td> 
    <td> 4 </td> 
    <td> D </td> 
@@ -153,7 +153,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> é </td> 
-   <td> <img height="21px" src="assets/omega.png" /> </td> 
+   <td> <img height="21px" src="../assets/omega.png" /> </td> 
    <td> % </td> 
    <td> 5 </td> 
    <td> E </td> 
@@ -163,7 +163,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> ù </td> 
-   <td> <img height="21px" src="assets/pi.png" /> </td> 
+   <td> <img height="21px" src="../assets/pi.png" /> </td> 
    <td> &amp; </td> 
    <td> 6 </td> 
    <td> F </td> 
@@ -173,7 +173,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> ì </td> 
-   <td> <img height="21px" src="assets/psi.png" /> </td> 
+   <td> <img height="21px" src="../assets/psi.png" /> </td> 
    <td> ' </td> 
    <td> 7 </td> 
    <td> G </td> 
@@ -183,7 +183,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> ò </td> 
-   <td> <img height="21px" src="assets/sigma.png" /> </td> 
+   <td> <img height="21px" src="../assets/sigma.png" /> </td> 
    <td> ( </td> 
    <td> 8 </td> 
    <td> H </td> 
@@ -193,7 +193,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> Ç </td> 
-   <td> <img height="21px" src="assets/theta.png" /> </td> 
+   <td> <img height="21px" src="../assets/theta.png" /> </td> 
    <td> ) </td> 
    <td> 9 </td> 
    <td> I </td> 
@@ -203,7 +203,7 @@ The following table presents the characters taken into account by the GSM standa
   </tr> 
   <tr> 
    <td> LF </td> 
-   <td> <img height="21px" src="assets/xi.png" /> </td> 
+   <td> <img height="21px" src="../assets/xi.png" /> </td> 
    <td> * </td> 
    <td> : </td> 
    <td> J </td> 
