@@ -1,8 +1,7 @@
 ---
-solution: Campaign
 product: Adobe Campaign
-title: Learn how to connect to Campaign v8
-description: Connect to Campaign v8
+title: Connect to Campaign v8
+description: Learn how to connect to Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
@@ -12,9 +11,11 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 
->[!CAUTION]
->
->Before starting, you need to check Campaign [Compatibility matrix](compatibility-matrix.md), get your Campaign server URL and user credentials.
+Before starting, you need to:
+
+* Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
+* Get your Campaign server URL 
+* Get your user credentials
 
 ## Download and install the Client Console
 
@@ -87,7 +88,6 @@ Learn more about users and how to define their permissions in [this section](per
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
 
-
 ## Connect to Campaign with your Adobe ID{#connect-ims}
 
 Campaign users can connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). This implementation provides the following advantages:
@@ -97,15 +97,31 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, t
 * Stronger password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](support.md#support) to implement Adobe IMS with Campaign.
+[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to implement Adobe IMS with Campaign.
 
 ## Connect to Campaign with your LDAP login
 
 Adobe Campaign can be configured so that the user accesses the platform via their LDAP authentication. 
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](support.md#support) to configure LDAP integration with Campaign.
+[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](campaign-faq.md#support) to configure LDAP integration with Campaign.
 
 
-## Web access
+## Web access{#web-access}
 
-Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
+Certain parts of the application can be accessed via a simple web browser using an HTML user interface: Campaign dashboard, Cube reporting, instance monitoring, and more.
+
+[!DNL :arrow_upper_right:] Learn more about Web access in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target="_blank"}
+
+The Web access provides an interface that is similar to the console, but with a reduced set of functionalities.
+
+For example, for a given operator, a campaign will show up with the following options in the console:
+
+![](assets/campaign-from-console.png)
+
+Whereas with Web access, the options will mainly enable viewing:
+
+![](assets/campaign-from-web.png)
+
+Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
+
+[!DNL :arrow_upper_right:] Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}

@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Grant permissions to Campaign v8
 description: Learn how to grant permissions to Campaign v8
@@ -12,7 +11,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 
 In Adobe Campaign, users are **operators** and **operator groups** represent user roles.
 
-Adobe Campaign comes with built-in operator groups such as Campaign Managers or Workflow Supervisors. All built-in groups are listed in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
+Adobe Campaign comes with built-in operator groups such as Campaign Managers or Workflow Supervisors. All built-in groups are listed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
 
 As a member of an operator group, a user has rights to perform operations, called 'Named Rights', and has access to data, which is contained in folders in the **Explorer** view. An operator can be a member of multiple operator groups: rights and access permissions are additive.
 
@@ -22,12 +21,14 @@ Named Rights grant permissions to:
     For example, the **Analyze** button in the Delivery editor is activated for members of the **Delivery Operator** group who have the **Prepare Delivery** Named Right
 
 * Access to folders
-    Membership of Operator Groups can grant or restrict access rights to folders, by changing the [security settings on folders](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder). For example it can impact: **Write access** to create new entities (such as deliveries, profiles, etc.), **Read access** to use entities, **Delete access** to delete entities.
+    Membership of Operator Groups can grant or restrict access rights to folders, by changing the security settings on folders. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target="_blank"}. For example it can impact: **Write access** to create new entities (such as deliveries, profiles, etc.), **Read access** to use entities, **Delete access** to delete entities.
 
-**Learn more**
+**Learn more** in Campaign Classic v7 documentation:
 
-* [Built-in Named Rights](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html)
+[!DNL :arrow_upper_right:] [Built-in Named Rights](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target="_blank"}
 
-* [Built-in Operator Groups](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
+[!DNL :arrow_upper_right:] [Built-in Operator Groups](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target="_blank"}
 
-* [Steps to set up permissions](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html)
+[!DNL :arrow_upper_right:] [Steps to set up permissions](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target="_blank"}
+
+[!DNL :arrow_upper_right:] [Security settings on folders](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target="_blank"}

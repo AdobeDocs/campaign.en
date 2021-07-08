@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Campaign v8 compatibility matrix
 description: Learn systems and versions compatible with Campaign v8
@@ -19,6 +18,19 @@ This document lists all systems and components supported for the latest build of
 
 ## Compatible systems
 
+### Client Console{#ClientConsoleoperatingsystems}
+
+:warning: The following operating systems and browser are required to use Campaign Client Console.
+
+**Operating systems**
+
+* **Microsoft Windows Server** 2016, 2012
+* **Microsoft Windows** 8, 10 (recommended for Japanese instances)
+
+**Browser**
+
+**Microsoft Internet Explorer** 11
+
 ### CRM connectors{#CRMconnectors}
 
 * **Salesforce** connector API version 49
@@ -26,43 +38,33 @@ This document lists all systems and components supported for the latest build of
 
 ### Federated Data Access (FDA){#FederatedDataAccessFDA}
  
-* **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
+* **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
-* **Oracle** 19c, 18c, 12c, 11G
-* **PostgreSQL** 12.x, 11.x, 10.x, 9.6.x, 9.5.x, 9.4.x
-* **Microsoft SQL Server** 2019, 2017, 2016, 2014, 2012 SP1 and SP2
-* **MySQL** 5.7
-* **Teradata** 16.20, 16, 15.10, 15.0
-* **Netezza** 7.2
-* **Sybase IQ** 16, ASE 15.7
-* **SAP HANA** version 1 SPS 12
-* **Hadoop** via HiveSQL
-    * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
-    * HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6
-    * Cloudera CDH6.x
-
-### Client Console operating systems{#ClientConsoleoperatingsystems}
-
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recommended for Japanese instances
+* **[!DNL Vertica]**
 
 ### Mobile SDK{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0 with mobile SDK build 1.0.27.
-* **Apple iOS** 9 - 14 with mobile SDK build 1.0.26, compatible with 32 and 64-bit versions.
+* **Android** 7.x, 8.x, 9.0 with Campaign Android SDK build 1.1.1.
+* **Apple iOS** 9 - 14 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
-## Supported browsers {#Browsers}
+### Supported browsers {#Browsers}
+
+The following browsers are compatible with Campaign for Web Access.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
 
 * **Internet Explorer** 11
 
-## How to check your Campaign version
+## How to check your Campaign version and build
 
-The **Help > About…** menu lets you access the following information:
+Use the **Help > About…** menu to check your version.
 
-* the version number for Campaign Client Console and application server
-* the build number for Campaign Client Console and application server
-* a link to contact Adobe Customer Care
-* links to Adobe Privacy Policy, Terms of Use and Cookies Policy
+![](assets/ac-version.png)
+
+You access the following information:
+
+* The **version** number of your Client console and Application server. In the sample above, the version is 8.1.5 for both the Client console and the Application server.
+* The SHA number, between parenthesis.
+* A link to contact Adobe Customer Care.
+* Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
