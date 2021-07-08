@@ -115,7 +115,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms-channel.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>

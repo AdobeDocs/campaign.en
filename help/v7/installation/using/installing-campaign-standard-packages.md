@@ -113,7 +113,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Mobile channel (SMS) <br /> </td> 
-   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../../common/delivery/using/sms/sms-channel.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../../common/delivery/using/sms/sms.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
    <tr> 

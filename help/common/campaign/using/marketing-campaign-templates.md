@@ -95,7 +95,7 @@ The following links and tabs will be displayed:
 
 * **Seed addresses**
 
-  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more  about seed addresses in [this section](../../../v7/delivery/using/about-seed-addresses.md).
+  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more  about seed addresses in [this section](../../../common/delivery/using/about-seed-addresses.md).
 
   ![](assets/s_ncs_user_op_template_activate_2.png)
 

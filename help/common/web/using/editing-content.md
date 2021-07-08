@@ -252,4 +252,4 @@ The **Personalization block** option lets you insert dynamic and personalized bl
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../../v7/delivery/using/personalization-blocks.md).
+For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../../common/delivery/using/personalization-blocks.md).

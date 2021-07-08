@@ -47,7 +47,7 @@ A new technote has been created to learn how to update bounce qualification afte
 
 ## March 2021 {#march-2021}
 
-The [Get started with SMS section](../../../common/delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../../common/delivery/using/sms-set-up.md), [create a SMS](../../../common/delivery/using/sms-create.md), [send and track SMS](../../../common/delivery/using/sms-send.md) in dedicated sections.
+The [Get started with SMS section](../../../common/delivery/using/sms/sms.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../../common/delivery/using/sms-set-up.md), [create a SMS](../../../common/delivery/using/sms-create.md), [send and track SMS](../../../common/delivery/using/sms-send.md) in dedicated sections.
 
 The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 

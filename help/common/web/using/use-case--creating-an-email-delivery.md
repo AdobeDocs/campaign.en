@@ -26,7 +26,7 @@ Our final goal is to create a delivery with a personalized template which contai
 
 ## Step 1 - Creating a delivery {#step-1---creating-a-delivery}
 
-To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../../v7/delivery/using/about-email-channel.md).
+To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](../../../common/delivery/using/email/email.md).
 
 ![](assets/delivery_step_1.png)
 

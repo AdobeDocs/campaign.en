@@ -19,7 +19,7 @@ Assets shared from Adobe Experience Cloud can be used in your emails and landing
 
 1. In the editing window, select the option to add an image:
 
-    * If you are using the [standard editing mode](../../../v7/delivery/using/defining-the-email-content.md#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
+    * If you are using the [standard editing mode](../../../common/delivery/using/defining-the-email-content.md#adding-images), select **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
     
       ![](assets/dam_insert_image_standard.png)
 

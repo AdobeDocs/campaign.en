@@ -13,13 +13,13 @@ Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of
 
 The various channels available are:
 
-* [Email](../../../v7/delivery/using/about-email-channel.md)
-* [Direct Mail](../../../v7/delivery/using/about-direct-mail-channel.md)
-* [Mobile](../../../v7/delivery/using/sms-channel.md)
+* [Email](../../../common/delivery/using/email/email.md)
+* [Direct Mail](../../../common/delivery/using/about-direct-mail-channel.md)
+* [Mobile](../../../common/delivery/using/sms/sms.md)
 * [Twitter](../../../v7/social/using/publishing-on-twitter.md) (Campaign Classic v7 only)
 * [Facebook](../../../v7/social/using/publishing-on-facebook.md) (Campaign Classic v7 only)
-* [iOS](../../../v7/delivery/using/create-notifications-ios.md)
-* [Android](../../../v7/delivery/using/create-notifications-android.md)
+* [iOS](../../../common/delivery/using/create-notifications-ios.md)
+* [Android](../../../common/delivery/using/create-notifications-android.md)
 
 Select the template on which you want to base your delivery and define its content.
 
@@ -44,14 +44,14 @@ In the example below, we will create a workflow to send an email or an SMS for p
 1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
 1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
 
-   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this [page](../../../v7/delivery/using/about-email-channel.md).
+   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this [page](../../../common/delivery/using/email/email.md).
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
 1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
 
-   Select a service for each of the operating systems. For more on service creation, refer to this [page](../../../v7/delivery/using/configuring-the-mobile-application.md).
+   Select a service for each of the operating systems. For more on service creation, refer to this [page](../../../common/delivery/using/configuring-the-mobile-application.md).
 
    ![](assets/cross_channel_delivery_4.png)
 

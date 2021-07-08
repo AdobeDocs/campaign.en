@@ -49,7 +49,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 * **How Adobe Experience Cloud is used to collect information**
 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
-    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../../common/delivery/using/sms-channel.md) and [Mobile app channel](../../../common/delivery/using/about-mobile-app-channel.md).
+    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../../common/delivery/using/sms/sms.md) and [Mobile app channel](../../../common/delivery/using/about-mobile-app-channel.md).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
 

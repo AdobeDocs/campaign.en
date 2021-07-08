@@ -48,7 +48,7 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../../common/delivery/using/sms/sms-channel.md">Learn more</a></p> 
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../../common/delivery/using/sms/sms.md">Learn more</a></p> 
   <p>Learn how to migrate legacy connectors in <a href="../../../common/delivery/using/unsupported-connector-migration.md">this technote</a>.</p>
   <p><em>Target removal date: 2021</em></p>
   </td> 
@@ -103,7 +103,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms-channel.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>

@@ -21,12 +21,12 @@ They will help you discover the different contexts in which workflows can be use
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Using the local approval activity](using-the-local-approval-activity.md)
-* [A/B testing](../../../v7/delivery/using/a-b-testing-use-case.md)
+* [A/B testing](../../../common/delivery/using/a-b-testing-use-case.md)
 * [Sending a birthday email](sending-a-birthday-email.md)
 * [Loading delivery content](loading-delivery-content.md)
 * [Cross-channel delivery workflow](cross-channel-delivery-workflow.md)
 * [Email enrichment with custom date fields](email-enrichment-with-custom-date-fields.md)
-* [Automating content creation, edition and publishing](../../../v7/delivery/using/automating-via-workflows.md#examples)
+* [Automating content creation, edition and publishing](../../../common/delivery/using/automating-via-workflows.md#examples)
 
 ## Monitoring {#monitoring}
 

@@ -41,7 +41,7 @@ To check the status of a delivery, edit it and view its dashboard and tabs.
 
 >[!NOTE]
 >
->Information concerning delivery details is available in [this section](../../../v7/delivery/using/about-message-tracking.md) section.
+>Information concerning delivery details is available in [this section](../../../common/delivery/using/about-message-tracking.md) section.
 
 ## Execution tracking {#execution-tracking}
 
