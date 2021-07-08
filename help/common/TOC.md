@@ -26,11 +26,39 @@ type: Documentation
           + [Define the right audience](delivery/using/define-the-right-audience.md)
           + [Check before sending](delivery/using/check-before-sending.md)
           + [Track and monitor](delivery/using/track-and-monitor.md)
-+ [Send emails](email.md)
-+ [Send SMS](sms.md)
-+ [Send push notifications](push.md)
-+ [Send LINE messages](line.md)
-+ [Send direct mails](direct-mail.md)
++ Email channel {#email-channel}
+     + [Get started with emails](delivery/using/email/email.md)
+     + [Create an email delivery](delivery/using/email/creating-an-email-delivery.md)
+     + [Define the email content](delivery/using/email/defining-the-email-content.md)
+     + [Define interactive content](delivery/using/email/defining-interactive-content.md)
+     + Send the email delivery {#sending-an-email}
+            + [Key steps to send an email](delivery/using/email/sending-messages.md)
+            + [Email parameters](delivery/using/email/email-parameters.md)
+            + [Send with the Enhanced MTA](delivery/using/email/sending-with-enhanced-mta.md)
+            + [Send on Japanese mobiles](delivery/using/email/sending-emails-on-japanese-mobiles.md)
+     + [Attach files](delivery/using/email/attaching-files.md)
++ SMS channel {#sms-channel}
+     + [Get started with SMS](delivery/using/sms/sms.md)
+     + [Configure SMS channel](delivery/using/sms/sms-set-up.md)
+     + [Create a SMS](delivery/using/sms/sms-create.md)
+     + [Send and track SMS](delivery/using/sms/sms-send.md)
+     + [SMS connector protocol and settings](delivery/using/sms/sms-protocol.md)
+     + [SMS troubleshooting](delivery/using/sms/troubleshooting-sms.md)
+     + [Migrate to the Extended Generic SMPP connector](delivery/using/sms/unsupported-connector-migration.md)
++ Mobile app channel {#push-channel}
+     + [Get started with push notifications](delivery/using/push/push.md)
+     + [Configure mobile app channel](delivery/using/push/about-mobile-app-channel.md)
+     + [Integrate Campaign SDK into the mobile application](delivery/using/push/integrating-campaign-sdk-into-the-mobile-application.md)
+     + Configure the mobile application{#configure-the-mobile-app}
+          + [Get started with the app configuration](delivery/using/push/get-started-app-config.md)
+          + [Configuration steps for iOS](delivery/using/push/configuring-the-mobile-application.md)
+          + [Configuration steps for Android](delivery/using/push/configuring-the-mobile-application-android.md)
+     + Create a push notification{#create-a-push-msg}
+          + [Create a push message for iOS](delivery/using/push/create-notifications-ios.md)
+          + [Create a push message for Android](delivery/using/push/create-notifications-android.md)
+     + [Troubleshooting](delivery/using/push/troubleshooting.md)
++ [Send LINE messages](delivery/using/line.md)
++ [Send direct mails](delivery/using/direct-mail.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
   + About marketing campaigns {#about-marketing-campaigns}
        + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)
