@@ -554,10 +554,6 @@ In the form, the field for selecting the image will be added via the following s
   </input>
 ```
 
->[!NOTE]
->
->For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](../../installation/using/deploying-an-instance.md#managing-public-resources).
-
 ## Date display {#date-display}
 
 In the XML input document, the dates are stored in internal XML format: **YYYY/MM/DD HH:MM:SS** (example 2018/10/01 12:23:30).

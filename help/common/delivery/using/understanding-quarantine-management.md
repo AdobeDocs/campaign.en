@@ -107,7 +107,7 @@ Their status then changes to **[!UICONTROL Valid]**.
 >
 >Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
 
-You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../installation/using/deploying-an-instance.md).
+You can modify the number of errors and the period between two errors. To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). For more on the deployment wizard, refer to [this section](../../../v7/installation/using/deploying-an-instance.md).
 
 ## Conditions for sending an address to quarantine {#conditions-for-sending-an-address-to-quarantine}
 

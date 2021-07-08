@@ -81,9 +81,9 @@ To better control the outbound SMTP traffic, you can manage affinities by defini
 
 You can:
 
-* Define the IP affinities in the serverConf.xml configuration file. [Learn more](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)
+* Define the IP affinities in the serverConf.xml configuration file (on-premise only). [Learn more](../../../v7/installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities)
 
-* For each IPAffinity element, declare the IP addresses that can be used. [Learn more](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
+* For each IPAffinity element, declare the IP addresses that can be used. [Learn more](../../../v7/installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
 * In the [typology](../../campaign/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
 

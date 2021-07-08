@@ -21,7 +21,7 @@ This feature is available through a dedicated package in Adobe Campaign. To use 
 
 >[!NOTE]
 >
-> For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../installation/using/mid-sourcing-server.md) and the [execution instance](../../message-center/using/configuring-instances.md#execution-instance). 
+> For hybrid and hosted architectures, the package needs to be installed on all servers, including the [mid-sourcing server](../../../../v7/installation/using/mid-sourcing-server.md) and the [execution instance](../../../../v7/message-center/using/configuring-instances.md#execution-instance). 
 
 
 ## About AMP for Email {#about-amp-for-email}
@@ -42,7 +42,7 @@ For more on the AMP for Email format, specification and requirements, see the [A
 ## Implementation steps
 
 To successfully test and send an AMP email with Adobe Campaign, follow the steps below:
-1. Install the **[!UICONTROL AMP support]** package. See [Installing Campaign built-in packages](../../installation/using/installing-campaign-standard-packages.md).
+1. Install the **[!UICONTROL AMP support]** package. See [Installing Campaign built-in packages](../../../../v7/installation/using/installing-campaign-standard-packages.md).
 1. Create an email and build your AMP content within Adobe Campaign. See [Build AMP email content with Adobe Campaign](#build-amp-email-content).
 1. Make sure you follow all the delivery requirements from the email providers supporting the AMP format. See [AMP for Email delivery requirements](#amp-for-email-delivery-requirements).
 1. When defining your target, make sure you select recipients that will be able to display the AMP format. See [Targeting an AMP email](#targeting-amp-email).
@@ -182,7 +182,7 @@ For example, if you included a product list in your email, when editing the pric
 
 >[!NOTE]
 >
->You can create a mail processing rule to prevent specific domains from receiving AMP emails. See [Managing email formats](../../installation/using/email-deliverability.md#managing-email-formats).
+>You can create a mail processing rule to prevent specific domains from receiving AMP emails. See [Managing email formats](../../../../v7/installation/using/email-deliverability.md#managing-email-formats).
 >
 >By default the **[!UICONTROL AMP inclusion]** option is set to **[!UICONTROL No]**.
 

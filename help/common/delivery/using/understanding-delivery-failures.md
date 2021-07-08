@@ -193,7 +193,7 @@ A message can fail immediately (synchronous error), or later on, after it has be
 
   >[!NOTE]
   >
-  >Configuration of the bounce mailbox is detailed in [this section](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
+  >Configuration of the bounce mailbox is detailed in [this section](../../../v7/installation/using/deploying-an-instance.md#managing-bounced-emails).
 
   The [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) operates like bounce emails. When a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. Messages sent to users who have qualified an email as spam are automatically redirected towards an email box specifically created for this purpose. The addresses of these users are on denylist even though they didn't click the unsubscription link. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
@@ -267,7 +267,7 @@ Mail rules are accessed via the **[!UICONTROL Administration > Campaign Manageme
 
 >[!NOTE]
 >
->The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](../../installation/using/deploying-an-instance.md).
+>The default parameters of the platform are configured in the deployment wizard. For further information, refer to [this section](../../../v7/installation/using/deploying-an-instance.md).
 
 The default rules are as follows.
 
@@ -303,7 +303,7 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
 * You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* The **SMTP relay** parameters let you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
+* The **SMTP relay** parameters let you configure the IP address and the port of a relay server for a particular domain. For more on this, see [this section](../../../v7/installation/using/configuring-campaign-server.md#smtp-relay).
 
 If your messages are displayed in Outlook with **[!UICONTROL on behalf of]** in the sender address, make sure you are not signing your emails with **Sender ID**, which is the outdated proprietary email authentication standard from Microsoft. If the **[!UICONTROL Sender ID]** option is enabled, uncheck the corresponding box and contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Your deliverability will not be impacted.
 

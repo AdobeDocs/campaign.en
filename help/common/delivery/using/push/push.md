@@ -53,7 +53,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 ![](../assets/delivery_step_1.png)
 
-For global information on how to create a delivery, refer to [this section](../steps-about-delivery-creation-steps.md).
+For global information on how to create a delivery, refer to [this section](../comminication-channels.md).
 
 ### Send notifications on iOS {#send-notifications-on-ios}
 

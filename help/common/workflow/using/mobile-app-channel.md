@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Mobile App Channel{#mobile-app-channel}
 
-The workflow detailed below is installed with the **Mobile App Channel** module by default. For more on this module, refer to this [section](../../../common/delivery/using/about-mobile-app-channel.md).
+The workflow detailed below is installed with the **Mobile App Channel** module by default. For more on this module, refer to this [section](../../../common/delivery/using/push/about-mobile-app-channel.md).
 
 <table> 
  <tbody> 

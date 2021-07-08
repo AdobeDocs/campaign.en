@@ -100,6 +100,6 @@ See also:
 
 * [Get started with Deliverability](about-deliverability.md)
 
-* [Delivery creation steps](steps-about-delivery-creation-steps.md)
+* [Delivery creation steps](comminication-channels.md)
 
 * [Security and Privacy checklist](https://helpx.adobe.com/campaign/kb/acc-security.html)

@@ -126,7 +126,7 @@ As an option, you can use the **[!UICONTROL Managing affinities with IP addresse
 >[!NOTE]
 >
 >Affinity management does not apply for **[!UICONTROL Filtering]** typologies.  
->Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).
+>Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../../v7/installation/using/about-initial-configuration.md).
 
 ### Campaign Optimization and Distributed Marketing {#campaign-optimization-and-distributed-marketing}
 

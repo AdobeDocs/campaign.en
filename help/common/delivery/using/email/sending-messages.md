@@ -14,7 +14,7 @@ Once your email has been created and configured, you can send it to the main tar
 1. Make sure you configured all the settings that are specific to email delivery. [Learn more](email-parameters.md).
 1. When the email is ready, before sending it to the main target, it is recommended to detect any potential errors by sending proofs. [Learn more](../steps-validating-the-delivery.md#sending-a-proof).
 
-1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. [Learn more](steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Once done, you must validate the email by launching the analysis. To do this, click **[!UICONTROL Send]**, select an action and click **[!UICONTROL Analyze]**. [Learn more](../steps-validating-the-delivery.md#analyzing-the-delivery).
 
 1. Once analysis is complete, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages to the targeted recipients. [Learn more](../steps-sending-the-delivery.md#confirming-delivery).
 

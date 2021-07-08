@@ -17,7 +17,7 @@ To create a new SMS delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../steps-about-delivery-creation-steps.md).
+>Global concepts on delivery creation are presented in [this section](../comminication-channels.md).
 
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. For more on this, refer to the [Change the delivery template](sms-set-up.md#changing-the-delivery-template) section.

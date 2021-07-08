@@ -126,7 +126,7 @@ When combined with Mobile App channel module, transactional messaging enables yo
 
 >[!NOTE]
 >
->The Mobile App channel is detailed in [this section](../../../common/delivery/using/about-mobile-app-channel.md).
+>The Mobile App channel is detailed in [this section](../../../common/delivery/using/push/about-mobile-app-channel.md).
 
 To use transactional message modules with Mobile App Channel, you need to apply the following configurations:
 

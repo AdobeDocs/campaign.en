@@ -105,7 +105,7 @@ For more on typologies, see [this section](../../../../v7/campaign-opt/using/abo
 
 Campaign v7 MX management delivery throughput rules are no longer used. The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
-For more on MX configuration, see [this section](../../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX configuration, see [this section](../../../../v7/installation/using/email-deliverability.md#mx-configuration).
 
 ### Bounce qualification
 

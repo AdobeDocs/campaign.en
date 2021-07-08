@@ -34,7 +34,7 @@ The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers
 >
 >For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../../v7/platform/using/adobe-campaign-workspace.md).
 >
->All functionalities related to channels and deliveries are detailed in [this section](../../../common/delivery/using/steps-about-delivery-creation-steps.md).
+>All functionalities related to channels and deliveries are detailed in [this section](../../../common/delivery/using/comminication-channels.md).
 
 ### Campaign calendar {#campaign-calendar}
 

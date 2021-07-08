@@ -111,7 +111,7 @@ Some indicators or status can be incorrect or not up-to-date, this may be resolv
 
 * If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. For more information on tracking indicators, refer to [this section](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to [this page](../../installation/using/mid-sourcing-deployment.md).
+* If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. For more on this, refer to [this page](../../../v7/installation/using/mid-sourcing-deployment.md).
 
 You can also track your deliveries with different reports via the delivery dashboard. For more on this, refer to [this section](../../reporting/using/delivery-reports.md).
 

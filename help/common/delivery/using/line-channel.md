@@ -11,7 +11,7 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 
 [!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 
-[!DNL LINE] can also be combined with the transactional message module to send real time messages on the [!DNL LINE] app installed in consumer mobile devices. For more on this, refer to this [page](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
+[!DNL LINE] can also be combined with the transactional message module to send real time messages on the [!DNL LINE] app installed in consumer mobile devices. For more on this, refer to this [page](../../../v7/message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line).
 
 ![](assets/line_message.png)
 

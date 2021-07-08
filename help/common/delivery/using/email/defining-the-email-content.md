@@ -19,12 +19,12 @@ To define the name and address of the sender which will appear in the header of 
 
 This window lets you enter all the information required to create the email message headers. This information can be personalized. To do this, use the buttons to the right of the input fields to insert personalization fields.
 
-To find out how to insert and use personalization fields, refer to [this section](about-personalization.md).
+To find out how to insert and use personalization fields, refer to [this section](../about-personalization.md).
 
 >[!NOTE]
 >
 >* The sender's address will be used for replies by default.
->* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../installation/using/deploying-an-instance.md).
+>* The header parameters must not be empty. By default, they contain the values input when configuring the deployment wizard. For further information, refer to the [Installation Guide](../../../../v7/installation/using/deploying-an-instance.md).
 >* The sender's address is mandatory to allow an email to be sent (RFC standard).
 >* Adobe Campaign checks the syntax of email addresses entered.
 
@@ -60,7 +60,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the [Digital Content Editor](../../../common/web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../../common/web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
+  If you are using the [Digital Content Editor](../../../web/using/about-campaign-html-editor.md) (DCE), refer to [Selecting a content template](../../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!CAUTION]
   >
@@ -141,7 +141,7 @@ An additional tab lets you enter content that will automatically be integrated a
 
 >[!NOTE]
 >
->For further information about content management in Adobe Campaign, refer to [this section](about-content-management.md).
+>For further information about content management in Adobe Campaign, refer to [this section](../about-content-management.md).
 
 ## Add emoticons {#inserting-emoticons}
 
@@ -154,7 +154,7 @@ You can insert emoticons to your email content.
 
 1. Click the **[!UICONTROL Close]** button when done.
 
-To customize the emoticon list, refer to this [page](customizing-emoticon-list.md).
+To customize the emoticon list, refer to this [page](../customizing-emoticon-list.md).
 
 ## Add images {#adding-images}
 
@@ -167,13 +167,13 @@ Images can be:
 
   Public resources are accessible via the **[!UICONTROL Resources > Online]** node of the Adobe Campaign hierarchy. They are grouped in a library and can be included in email messages, but can also be used for campaigns or tasks, or for content management.
 
-* An asset shared with Adobe Experience Cloud. Refer to [this section](../../../common/integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+* An asset shared with Adobe Experience Cloud. Refer to [this section](../../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 >[!CAUTION]
 >
->* To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../installation/using/deploying-an-instance.md) for further information on configuration.
+>* To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../../../v7/installation/using/deploying-an-instance.md) for further information on configuration.
 >
->* To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../installation/using/configuring-campaign-options.md#delivery).
+>* To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../../../v7/installation/using/configuring-campaign-options.md#delivery).
 
 The delivery wizard lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 

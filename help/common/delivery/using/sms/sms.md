@@ -33,7 +33,7 @@ In addition, you need to be familiar with the SMS protocol and settings. Walk th
 
    ![](../assets/delivery_step_1.png)
 
-   For global information on how to create a delivery, refer to [this section](../steps-about-delivery-creation-steps.md).
+   For global information on how to create a delivery, refer to [this section](../comminication-channels.md).
 
 1. Select a delivery template referencing the relevant external account to send SMS deliveries.
 

@@ -95,7 +95,7 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
     >[!NOTE]
     >
-    >This operation can be performed with an **on-premise** or **hybrid** hosting model with access the the Campaign server (see [hosting models](../../installation/using/hosting-models.md)).
+    >This operation can be performed with an **on-premise** or **hybrid** hosting model with access the the Campaign server (see [hosting models](../../../v7/installation/using/hosting-models.md)).
 
     1. Check that your `mta@<instance>` modules are launched on your MTA servers.
 
@@ -119,13 +119,13 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 
 * The delivery may be using an affinity not configured on the sending server.
     
-    In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../installation/using/configure-delivery-settings.md).
+    In this case, check the configuration of the traffic management (IP affinity) and use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the MTA that manages the affinity. For more information on affinities, refer to [this section](../../../v7/installation/using/configure-delivery-settings.md).
 
 * When too many campaigns are running, the delivery status remains in ‘Pending’ status.
 
     The limit of simultaneous campaigns is defined in the **[!UICONTROL NmsOperation_LimitConcurrency]** option. Default value is 10.
     
-    Learn more about options in [this page](../../installation/using/configuring-campaign-options.md).
+    Learn more about options in [this page](../../../v7/installation/using/configuring-campaign-options.md).
 
 
 **Related topics:**

@@ -25,15 +25,15 @@ The following diagram illustrates the tracking flow.
 
 **Operating principle**
 
-Before using tracking, you need to first configure it for your instance. [Learn more](../../installation/using/deploying-an-instance.md#operating-principle)
+Before using tracking, you need to first configure it for your instance. [Learn more](../../../v7/installation/using/deploying-an-instance.md#operating-principle)
 
 **Tracking server**
 
-To configure tracking, your instance must be declared and registered with the tracking server(s). As a Campaign hosted customer, Adobe owns tracking configuration. For Campaign Classic v7 on-premise customers, refer to [this section](../../installation/using/deploying-an-instance.md#tracking-server).
+To configure tracking, your instance must be declared and registered with the tracking server(s). As a Campaign hosted customer, Adobe owns tracking configuration. For Campaign Classic v7 on-premise customers, refer to [this section](../../../v7/installation/using/deploying-an-instance.md#tracking-server).
 
 **Saving tracking**
 
-Once tracking is configured and your URLs populated, the tracking server must be registered. As a Campaign hosted customer, Adobe owns tracking configuration. For Campaign Classic v7 on-premise customers, refer to [this section](../../installation/using/deploying-an-instance.md#saving-tracking)
+Once tracking is configured and your URLs populated, the tracking server must be registered. As a Campaign hosted customer, Adobe owns tracking configuration. For Campaign Classic v7 on-premise customers, refer to [this section](../../../v7/installation/using/deploying-an-instance.md#saving-tracking)
 
 ## Message tracking {#message-tracking}
 
