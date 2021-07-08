@@ -25,7 +25,7 @@ type: Documentation
           + [Build personalized content](delivery/using/design-and-personalize.md)
           + [Define the right audience](delivery/using/define-the-right-audience.md)
           + [Check before sending](delivery/using/check-before-sending.md)
-          + [Track and monitor](delivery/using/track-and-monitor.md) 
+          + [Track and monitor](delivery/using/track-and-monitor.md)
 + [Send emails](email.md)
 + [Send SMS](sms.md)
 + [Send push notifications](push.md)
