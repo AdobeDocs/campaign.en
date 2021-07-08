@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
@@ -6,15 +7,15 @@ title: Adobe Campaign v8 Help Center
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8
 title: Campaign v8 docs
+hide: yes
 ---
 
 # Adobe Campaign v8 documentation {#campaign-v8}
 
-+ [Campaign v8 documentation](campaign-home.md)
++ [Product documentation](campaign-home.md)
 + What's new? {#start}
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
-  + [Known limitations](start/known-limitations.md)
   + [Classic v7 to v8](start/capability-matrix.md)
 + Start {#start}
   + [Get started](start/get-started.md)
@@ -37,37 +38,24 @@ title: Campaign v8 docs
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
+  + [Help & Support](start/support.md)
 + Send {#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
-  + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
   + [Transactional messages](send/transactional.md)
-  + Add offers{#interaction}
-    + [Get started with interaction](send/interaction.md)
-    + Define settings{#interaction}
-      + [Create operators](send/interaction-operators.md)
-      + [Create environments](send/interaction-env.md)
-      + [Create pre-defined filters](send/interaction-predefined-filters.md)
-      + [Create offer spaces](send/interaction-offer-spaces.md)
-    + [Create an offer catalog](send/interaction-offer-catalog.md)
-    + [Create an offer](send/interaction-offer.md)
-    + [Send an offer](send/interaction-send-offers.md)
-    + [Use cases](send/interaction-use-cases.md)
 + Configure {#config}
-  + [Automate with workflows](config/workflows.md)
+  + [Automation](config/workflows.md)
   + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
-  + [Mobile app settings](config/push-config.md)
   + [External accounts](config/external-accounts.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
-  + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
   + [Campaign + RTCDP](connect/ac-rtcdp.md)
   + [Campaign + Twitter](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
@@ -78,7 +66,6 @@ title: Campaign v8 docs
   + [Datamodel](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
-    + [Key management and unicity](dev/keys.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
     + [Schema structure](dev/schema-structure.md)
@@ -90,4 +77,12 @@ title: Campaign v8 docs
   + APIs {#api}
     + [Get started](dev/api.md)
     + [New APIs](dev/new-apis.md)
-    + [API staging mechanism](dev/staging.md)
+    + [Campaign v8 APIs](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
++ [Orchestrate marketing campaigns](https://experienceleague-review.corp.adobe.com/docs/campaign/common/orchestrating-campaigns/about-marketing-campaigns/designing-marketing-campaigns.html?lang=en)
++ [Design and share reports](https://experienceleague-review.corp.adobe.com/docs/campaign/common/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html?lang=en#reporting)
++ [Design web content](https://experienceleague-review.corp.adobe.com/docs/campaign/common/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)
++ [Integrate with Adobe Experience Cloud](https://experienceleague-review.corp.adobe.com/docs/campaign/common/integrating-with-adobe-experience-cloud/about-campaign-integrations.html?lang=en)
++ [Automate with workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/common/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+
+
+

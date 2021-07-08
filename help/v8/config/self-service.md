@@ -1,16 +1,13 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Campaign Control Panel
 description: Campaign Control Panel
 feature: Overview
 role: Data Engineer
 level: Beginner
-hidefromtoc: yes
-hide: yes
 ---
 # Campaign Control Panel
-
-NOT YET AVAILABLE
 
 Campaign Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
@@ -37,16 +34,16 @@ In the Control Panel, you can interact with all SFTP servers that are connected 
 ## Subdomains and certificates
 
 You can monitor your subdomains and their certificates. Learn more:
-* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html){target="_blank"}
-* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target="_blank"}
-* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target="_blank"}
+* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ## Instance settings
 
 Learn how to manage your Campaign instances settings in the Control Panel.
-* [IP on the allow list](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target="_blank"}
-* [URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html){target="_blank"}
-* [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
-* [GPG Keys management](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html){target="_blank"}
+* [IP on the allow list](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+* [URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [GPG Keys management](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-[!DNL :arrow_upper_right:] Discover all Control Panel capabilities in [this documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en){target="_blank"}
+:arrow_upper_right: Discover all Control Panel capabilities in [this documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en)

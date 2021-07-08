@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Data model best practices
 description: Learn Campaign data model extension best practices
@@ -9,11 +10,11 @@ This document outlines key recommendations while designing your Adobe Campaign d
 
 Adobe Campaign system is very flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
 
-For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md) .
+For a better understanding of Campaign built-in tables and their interaction, refer to [this section](datamodel.md) .
 
-[!DNL :bulb:] Read out [this section](schemas.md) to get started with Campaign schemas. 
+:bulb: Read out [this section](schemas.md) to get started with Campaign schemas. 
 
-[!DNL :bulb:] Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
+:bulb: Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
 
 ## Data model architecture {#data-model-architecture}
 
@@ -50,22 +51,24 @@ If not falling into any of these, you are most likely not going to need this att
 
 To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign.
 
-* Within large tabl, you could insert string or numeric fields and add links to reference tables (when working with list of values).
-* The **expr** attribute  allows to define a schema attribute as a calculated field rather than a physical set value in a table. This can enable access to the information in a different format (as for age and birth date for example) without the need to store both values. This is a good way to avoid duplicating fields. For instance, the Recipient table uses an expression for the domain, which is already present in the email field.
+* A large table should mostly have numeric fields and contain links to reference tables (when working with list of values).
+* The **expr** attribute  allows to define a schema attribute as a calculated field rather than a physical set value in a table. This can enable to access information in a different format (as for age and birth date for example) without the need to store both values. This is a good way to avoid duplicating fields. For instance, the Recipient table uses an expression for the domain, which is already present in the email field.
 * However, when the expression calculation is complex, it is not recommended to use the **expr** attribute as on-the-fly calculation may impact the performance of your queries.
 * The **XML** type is a good way to avoid creating too many fields. But it also takes up disk space as it uses a CLOB column in the database. It also can lead to complex SQL queries and may impact performance.
-* The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 16K, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
+* The length for a **string** field should always be defined with the column. By default, the maximum length in Adobe Campaign is 255, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
 * It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
 ### Choice of fields {#choice-of-fields}
 
-A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it will unnecessarily take up disk space. 
+A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it takes up disk space whereas it is useless. 
+
+For hybrid and on-premise instances, FDA (Federated Data Access, an optional feature that allows to access external data) covers the need to add a field "on-the-fly" during a campaign process. You do not need to import everything if you have FDA. For more on this, refer to [Federated Data Access](../connect/fda.md).
 
 ### Choice of keys {#choice-of-keys}
 
-In addition to the **autouuid** and **autopk** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
+In addition to the **autouuid** defined by default in most tables, you should consider adding some logical or business keys (account number, client number, and so on). It can be used later for imports/reconciliation or data packages. For more on this, see [Identifiers](#identifiers).
 
-Efficient keys are essential for performance. With Snowflake, you can insert nnumeric or string-based data types as keys for tables.
+Efficient keys are essential for performance. Numeric data types should always be preferred as keys for tables.
 
 <!-- ### Dedicated tablespaces {#dedicated-tablespaces}
 
@@ -84,10 +87,10 @@ The following table describe these identifiers and their purpose.
 | Identifier | Description | Best practices |
 |--- |--- |--- |
 | Id | <ul><li>The id is the physical primary key of an Adobe Campaign table. For built-in tables, it is a Universally Unique ID (UUID)</li><li>This identifier must be unique. </li><li>An UUID can be visible in a schema definition.</li></ul> | <ul><li>Auto-generated identifiers should not be used as a reference in a workflow or in a package definition.</li><li>The id in a table is a UUID and this type should not be changed.</li></ul> |
-| Name (or internal name) | <ul><li>This information is a unique identifier of a record in a table. This value can be manually updated, usually with a generated name.</li><li>This identifier keeps its value when deployed in a different instance of Adobe Campaign and it should not be empty.</li></ul> | <ul><li>Rename the record name generated by Adobe Campaign if the object is meant to be deploy from an environment to another.</li><li>When an object has a namespace attribute (*schema* for example), this common namespace will be leveraged across all custom objects created. Some reserved namespaces should not be used: *nms*, *xtk*, etc.  Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces).</li><li>When an object does not have any namespace (*workflow* or *delivery* for example), this namespace notion would be added as a prefix of an internal name object: *namespaceMyObjectName*.</li><li>Do not use special characters such as space “ “, semi-column “:” or hyphen “-“. All these characters would be replaced by an underscore “_” (allowed character). For example, “abc-def” and “abc:def” would be stored as “abc_def” and overwrite each other.</li></ul> |
+| Name (or internal name) | <ul><li>This information is a unique identifier of a record in a table. This value can be manually updated, usually with a generated name.</li><li>This identifier keeps its value when deployed in a different instance of Adobe Campaign and it should not be empty.</li></ul> | <ul><li>Rename the record name generated by Adobe Campaign if the object is meant to be deploy from an environment to another.</li><li>When an object has a namespace attribute (*schema* for example), this common namespace will be leveraged across all custom objects created. Some reserved namespaces should not be used: *nms*, *xtk*.</li><li>When an object does not have any namespace (*workflow* or *delivery* for example), this namespace notion would be added as a prefix of an internal name object: *namespaceMyObjectName*.</li><li>Do not use special characters such as space “ “, semi-column “:” or hyphen “-“. All these characters would be replaced by an underscore “_” (allowed character). For example, “abc-def” and “abc:def” would be stored as “abc_def” and overwrite each other.</li></ul> |
 | Label | <ul><li>The label is the business identifier of an object or record in Adobe Campaign.</li><li>This object allows spaces and special characters.</li><li>It does not guarantee the uniqueness of a record.</li></ul>| <ul><li>It is recommended to determine a structure for your object labels.</li><li>This is the most user-friendly solution to identify a record or object for an Adobe Campaign user.</li></ul> |
 
-Adobe Campaign primary key is an auto-generated UUID for all built-in tables. A UUID can also be used for custom tables. [Learn more](keys.md)
+Adobe Campaign primary key is an auto-generated UUID for all built-in tables and can be the same for custom tables.
 
 Even if the number of IDs is infinite, you should take care of the size of your database to ensure optimal performances. To prevent any issue, make sure to adjust your instance purge settings. For more on this, see [this section](#data-retention).
 
@@ -101,8 +104,8 @@ Most organizations are importing records from external systems. While the physic
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
 When creating a custom table, you have two options:
-* A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. With Snowflake, integers or string-based keys will provide higher performances in big tables and joining with other tables.
-* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. **Autouuid** should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
+* A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. Integers will provide higher performances in big tables and joining with other tables.
+* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. Autouuid should be disabled if the key is named “id” and expected to be filled with external values (not auto-generated).
 
 >[!CAUTION]
 >
@@ -113,9 +116,9 @@ When creating a custom table, you have two options:
 
 ### Links {#links}
 
-Beware of the "own" integrity on large tables. Deleting records that have large tables in "own" integrity can potentially stop the instance. The table is locked, and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
+Beware of the "own" integrity on large tables. Deleting records that have wide tables in "own" integrity can stop the instance. The table is locked, and the deletions are made one by one. So it's best to use "neutral" integrity on child tables that have large volumes.
 
-Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the **autouuid**.
+Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. It is not necessary to declare external joins if the link uses the autouuid.
 
 While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 
@@ -169,7 +172,7 @@ There are a few solutions to minimize the need of records in Adobe Campaign:
 
 You can declare the "deleteStatus" attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
+:speech_balloon: As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
 
 ## Performance {#performance}
 
@@ -200,7 +203,7 @@ Below are a few common best practices that should be followed when designing you
 * When using additional custom recipient tables, make sure you have a dedicated log table for each delivery mapping.
 * Reduce the number of columns, particularly by identifying those that are unused.
 * Optimize the data model relations by avoiding complex joins, such as joins on several conditions and/or several columns.
-* For join keys, you can use numeric or string-based values.
+* For join keys, always use numeric data rather than character strings.
 * Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
 ### Size of tables {#size-of-tables}

@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Work with Campaign and Adobe Target
 description: Learn how to work with Campaign and Adobe Target
@@ -11,22 +12,22 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 
 Connect Campaign and Target to include an offer from Adobe Target in an Adobe Campaign email delivery.
 
-This integration helps you to implement use cases as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
+This integration helpx you implement use cases as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
 
 >[!NOTE]
->The integration only supports static images. The other types of content cannot be personalized.
+>The integration only supports static images. The rest of the content cannot be personalized.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to implement Experience Cloud triggers with Campaign.
 
 The following types of data can be used by Adobe Target:
 
-* Data from the Adobe Campaign database
-* Segments linked to the visitor ID in Adobe Target, only if the data used is not subject to legal limitations
+* Data from the Adobe Campaign datamart
+* Segments linked to the visitor ID in Adobe Target, if the data used is not subject to legal limitations
 * Adobe Target data: user agent, IP address, geolocalization data
 
 ## Insert a dynamic content
 
-In the example below, you will learn how to integrate **a dynamic offer** from Adobe Target into an Adobe Campaign email.
+In the example below, you will learn how to integrate a dynamic offer from Adobe Target into an Adobe Campaign email.
 
 We want to create a message with an image that will dynamically change according to the recipient's country. The data is sent with each mbox request and depends on the visitor's IP address.
 

@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings
@@ -8,11 +9,11 @@ level: Beginner
 ---
 # Transactional messaging settings
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+:speech_balloon: As a Managed Cloud Services user, [contact Adobe](../start/support.md#support) to install and configure Campaign Transactional messaging in your environment.
 
-[!DNL :bulb:] Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
+:bulb: Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
 
-[!DNL :bulb:] Understand transactional messaging architecture in [this page](../dev/architecture.md).
+:bulb: Understand transactional messaging architecture in [this page](../dev/architecture.md).
 
 ## Define permissions
 
@@ -22,13 +23,13 @@ To create new users for Message Center execution instances hosted on Adobe Cloud
 
 All schema extensions made on the schemas used by **Message Center technical workflows** on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 
-[!DNL :arrow_upper_right:] Learn more about Message center technical workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+:arrow_upper_right: Learn more about Message center technical workflows in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
 
 ## Send transactional push notifications
 
 When combined with Mobile app channel module, transactional messaging enables you to push transactional messages through notifications on mobile devices.
 
-[!DNL :arrow_upper_right:] The Mobile app channel is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+:arrow_upper_right: The Mobile app channel is detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 To send transactional push notifications, you need to perform the following configurations:
 

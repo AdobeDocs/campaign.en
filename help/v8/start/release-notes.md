@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Campaign v8 release notes
 description: Latest Campaign v8 release

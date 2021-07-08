@@ -1,7 +1,8 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: General architecture
-description: Learn more about Campaign architecture and components
+description: Campaign v8 general architecture
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 ---
 # General architecture{#general-architecture}
@@ -24,35 +25,35 @@ The typical Adobe Campaign solution deployment consists of the following compone
 
 The application can be accessed in different ways: Rich client, Thin client or API integration.
 
-* **Client Console**: The main user interface of the application is a native application (on Windows) that communicates with the Adobe Campaign application server with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration as it only generates HTTP(S) traffic. 
+* **Client Console**: The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. 
 
-  [!DNL :bulb:] [Learn more about Campaign Client Console](../start/connect.md).
+  :bulb: [Learn more about Campaign Client Console](../start/connect.md).
 
-* **Web access**: parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, instance monitoring, etc. 
+* **Web access**: Certain parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, instance monitoring, etc. 
 
-  [!DNL :bulb:] [Learn more about Campaign Web Access](../start/connect.md).
+  :bulb: [Learn more about Campaign Web Access](../start/connect.md).
   
 * **Campaign APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol. 
 
-  [!DNL :bulb:] [Learn more about Campaign APIs](../dev/api.md).
+  :bulb: [Learn more about Campaign APIs](../dev/api.md).
 
 ## Development environment {#dev-env}
 
-Adobe Campaign is a single platform with different applications to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet your business needs. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
+Adobe Campaign is a single platform with different applications that combine to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet your business needs. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
 
 Some Campaign modules operate continuously, while others are started up occasionally to perform administrative tasks (e.g. to configure the database connection) or to run a recurrent task (e.g. consolidating tracking information).
 
 There are three types of Adobe Campaign modules:
 
-* **Multi-instance modules**: a single process is run for all instances. This applies to the following modules: web, syslogd, trackinglogd and watchdog.
-* **Mono-instance modules**: one process is run per instance. This applies to the following modules: mta, wfserver, inMail, sms and stat.
-* **Utility modules**: these are modules that are run occasionally to perform occasional or recurrent operations (cleanup, config, downloading tracking logs, etc.).
+* Multi-instance modules: a single process is run for all instances. This applies to the following modules: web, syslogd, trackinglogd and watchdog.
+* Mono-instance modules: one process is run per instance. This applies to the following modules: mta, wfserver, inMail, sms and stat.
+* Utility modules: these are modules that are run occasionally to perform occasional or recurrent operations (cleanup, config, downloading tracking logs, etc.).
 
 The main processes are:
 
 **Application server** (nlserver web)
 
-This process exposes the full range of Adobe Campaign functionality via Web Services APIs (SOAP / HTTP + XML). Furthermore, it can dynamically generate the Web pages used for HTML-based access (reports, Web forms, etc). To achieve this, this process includes an Apache Tomcat JSP server. This is the process to which the Console connects.
+This process exposes the full range of Adobe Campaign functionality via Web Services APIs (SOAP - HTTP + XML). Furthermore, it can dynamically generate the Web pages used for HTML-based access (reports, Web forms, etc). To achieve this, this process includes an Apache Tomcat JSP server. This is the process to which the Console connects.
 
 **Workflow engine** (nlserver wfserver)
 
@@ -60,13 +61,13 @@ It executes the workflow processes defined in the application.
 
 It also handles periodically executed technical workflows, including:
 
-* **Tracking**: Recovering and consolidating tracking logs. It enables you retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
-* **Cleanup**: Database cleaning. Used to purge old records and avoid the database growing exponentially.
-* **Billing**: Automatic sending of an activity report for the platform (database size, number of marketing actions, etc.).
+* Tracking: Recovering and consolidating tracking logs. It enables you retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
+* Cleanup: Database cleaning. Used to purge old records and avoid the database growing exponentially.
+* Billing: Automatic sending of an activity report for the platform (database size, number of marketing actions, etc.).
 
 **Delivery Server** (nlserver mta)
 
-Adobe Campaign has native email broadcast functionality. This process functions as an SMTP mail transfer agent (MTA). It performs "one-to-one" personalization of messages and handles their physical delivery. It runs using delivery jobs and handles automatic retries. In addition, when tracking is enabled, it automatically replaces the URLs so that they point to the redirection server.
+Adobe Campaign has native email broadcast functionality. This process functions as an SMTP mail transfer agent (MTA). It performs "one-to-one" personalization of messages and handles their physical delivery. It functions using delivery jobs and handles automatic retries. In addition, when tracking is enabled, it automatically replaces the URLs so that they point to the redirection server.
 
 This process can handle the customization and automatic sending to a third-party router for SMS, fax and direct mail.
 
@@ -112,13 +113,6 @@ This process maintains statistics on the number of connections, the messages sen
 
 The Adobe Campaign Cloud database relies on [!DNL Snowflake] which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.
 
-Customers can deploy Adobe Campaign using the predefined database and schemas, and if needed this predefined environment can be extended. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
+Customers can deploy Adobe Campaign using the predefined data mart and schemas, and can extend also it. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
 
 ![](assets/data-flow-diagram.png) 
-
-
->[!CAUTION]
->
->With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your licence agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
->
->If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.

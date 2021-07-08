@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Send direct mails with Adobe Campaign
 description: Get started with direct mail in Campaign
@@ -8,48 +9,7 @@ level: Beginner
 ---
 # Create direct mail deliveries
 
-Direct mail deliveries let you generate an extraction file which contains data on the target population. You can then share this file with the provider who will deliver messages to the target populations.
+Direct mail deliveries let you generate an extraction file which contains data on the target population.  
 
-Steps to generate the file are:
+:arrow_upper_right: Learn more in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
 
-1. Create the delivery
-
-    Create a direct mail delivery based on the template. You can duplicate and configure the **[!UICONTROL Deliver by direct mail (paper)]** built-in template.
-
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html)
-
-1. Define the audience
-
-    The recipient profiles must contain at least their names and postal addresses.
-
-    Postal addresses are calculated fields. An address can contain up to six lines by default: the first contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city. 
-    
-    An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty.
-
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
-
-1. Define the content of the file
-
-    Use the extraction wizard to define the information (columns) to be exported into the output file. 
-
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html)
-
-1. Validate the delivery
-
-    Check the result of the analysis and the content of the output file. 
-
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html)
-
-    In the context of a marketing campaign, on the extraction date, the extraction file is created. You can view the content of the extracted file, approve it, or change the format and re-launch the extraction if needed. Once the file has been approved, you can send the notification e-mail to the router.
-
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file)
-
-1. Start the  delivery
-
-    Once you validated the extraction file, click **Confirm delivery** a confirmation message lets you launch the delivery.
-
-    The confirmation starts the data extraction in the specified file.
-
-    In the context of a marketing campaign, when all approvals have been granted, the extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. 
-    
-    [!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery)

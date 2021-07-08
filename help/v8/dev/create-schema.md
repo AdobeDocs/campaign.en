@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Create a new schema in Campaign
 description: Learn how to create a new schema in Campaign
@@ -9,7 +10,7 @@ To edit, create and configure the schemas, click the **[!UICONTROL Administratio
 
 >[!NOTE]
 >
->Built-in data schemas can only be deleted by an administrator of your Adobe Campaign console.
+>Built-in data schemas can only be deleted by an administrator of your Adobe Campaign Classic console.
 
 ![](assets/schema_navtree.png)
 
@@ -19,7 +20,7 @@ The **[!UICONTROL Edit]** tab shows the XML content of a schema:
 
 >[!NOTE]
 >
->The "Name" edit control lets you enter the schema key made up of the name and namespace. The "name" and "namespace" attributes of the root element of the schema are automatically updated in the XML editing zone of the schema. Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces)
+>The "Name" edit control lets you enter the schema key made up of the name and namespace. The "name" and "namespace" attributes of the root element of the schema are automatically updated in the XML editing zone of the schema.
 
 The **[!UICONTROL Preview]** tab automatically generates the extended schema:
 
@@ -54,13 +55,11 @@ To do this, you need to create the schema of the table and update the database s
 
    ![](assets/create_new_content.png)
 
-1. Define the settings for the contract table.
-
-   As a best practice, create the table in the Cloud database by adding the `dataSource="nms:extAccount:ffda"` attribute. This attribute is added by default when creating a new table.
+1. Define the settings for the contract table:
 
    ```
-   <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
-           label="Contracts" labelSingular="Contract" lastModified="YYYY-MM-DD HH:MM:SS.TZ"
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
+           label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <element dataSource="nms:extAccount:ffda" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" name="Contracts">
@@ -79,7 +78,7 @@ To do this, you need to create the schema of the table and update the database s
    Add the type of contract enumeration.
 
    ```
-   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
+   <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" lastModified="AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>
          <value label="Car" name="car" value="1"/>

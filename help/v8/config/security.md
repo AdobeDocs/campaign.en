@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Campaign security best practices
 description: Get started with Campaign security best practices
@@ -18,7 +19,7 @@ Privacy configuration and hardening is a key element of security optimization. H
 * Make sure that encrypted passwords are restricted
 * Protect the pages that might contain personal information such as mirror pages, web applications, etc.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
+:speech_balloon: As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
 
 ## Personalization
 
@@ -32,9 +33,9 @@ When adding personalized links to your content, always avoid having any personal
 
 ## Data restriction
 
-You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main ways: restrict access to password fields only or to the entire entity.
+You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main way: restrict access to password fields only or to the entire entity (need a build >= 8770).
 
-This restriction allows you to remove passwords fields but leaves the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
+This restriction allows you to remove passwords fields but let the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
 
 1. Go in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -90,7 +91,7 @@ This restriction allows you to remove passwords fields but leaves the external a
 
     >[!NOTE]
     >
-    >You can replace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
+    >You can remplace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
 
 
 ## Access management
@@ -101,16 +102,16 @@ Access management is an important part of security hardening. Here are some of t
 * Check that each operator has the appropriate access rights
 * Avoid using the admin operator and avoid having too many operators in the admin group
 
-[!DNL :arrow_upper_right:] Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+:arrow_upper_right: Learn more in [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
 
 ## Coding guidelines
 
 When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
 
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
+* Scripting: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
 
-* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
+* Secure the data model: use named rights to limit operator actions, add system filters (sysFilter)
 
-* **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
+* Add captchas in web applications: add captchas in your public landing pages and subscription pages.
 
-[!DNL :arrow_upper_right:] Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
+:arrow_upper_right: Learn more in [Adobe Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)

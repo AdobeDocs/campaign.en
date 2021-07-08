@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Campaign Database mapping
 description: Campaign Database mapping
@@ -200,7 +201,7 @@ Declaring an incremental key in the source schema:
 
 ```
 <srcSchema name="recipient" namespace="cus">
-  <element name="recipient"  autopk="true" autouuid="true">
+  <element name="recipient" autouuid="true">
   ...
   </element>
 </srcSchema>
@@ -210,7 +211,7 @@ The schema generated:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-  <element name="recipient"  autopk="true" autouuid="true" sqltable="CusRecipient"> 
+  <element name="recipient" autouuid="true" sqltable="CusRecipient"> 
 
     <key internal="true" name="id">
       <keyfield xpath="@id"/>
@@ -250,7 +251,7 @@ For join relations using Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinality 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinality 1-N
 
-[!DNL :bulb:] For more information on FDA tables, refer to [Federated Data Access](../connect/fda.md).
+:bulb: For more information on FDA tables, refer to [Federated Data Access](../connect/fda.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 
@@ -326,7 +327,7 @@ Extended schema of the target ("cus:company"):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
-  <element name="company" sqltable="CusCompany"  autopk="true" autouuid="true"> 
+  <element name="company" sqltable="CusCompany" autouuid="true"> 
     <key internal="true" name="id">      
       <keyfield xpath="@id"/>    
     </key>

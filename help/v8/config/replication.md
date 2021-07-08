@@ -1,4 +1,5 @@
 ---
+solution: Campaign
 product: Adobe Campaign
 title: Technical workflows and data replication
 description: Technical workflows and data replication
@@ -9,14 +10,13 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff
 ---
 # Technical workflows and data replication
 
-## Technical workflows{#tech-wf}
+## Technical workflows
 
 Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
-[!DNL :arrow_upper_right:] The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
-
+:arrow_upper_right: The full list of technical workflows is detailed in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=en#overview)
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
@@ -31,37 +31,15 @@ In addition to these technical workflows, Campaign v8 relies on specific technic
 
 These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** node of Campaign Explorer. **They must not be modified.**
 
-If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
-
 ## Data replication{#data-replication}
 
-Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows described above.
+Some built-in tables are replicated from Campaign database to [!DNL Snowflake] Cloud database through dedicated workflows decribed above.
 
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 
-In addition to the built-in **Replicate Reference Tables** technical workflow, you can force data replication in your workflows. 
-
-You can:
-
-* add a specific **Javascript code** activity with the following code:
-
-```
-nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
-```
-
-![](assets/jscode.png)
-
-
-* add a specific **nlmodule** activity with the following command:
-
-```
-nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
-```
-
-![](assets/nlmodule.png)
-
 **Related topics**
 
-[!DNL :arrow_upper_right:] Learn how to get started with worflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+:arrow_upper_right: Learn how to get started with worflows in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 
-[!DNL :bulb:] Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)
+:bulb: Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)
+
