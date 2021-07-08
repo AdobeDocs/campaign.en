@@ -30,7 +30,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
    Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
-   ![](assets/dce_delivery_model.png)
+   ![](../assets/dce_delivery_model.png)
 
 1. **Import your content**
 

@@ -98,7 +98,7 @@ For global information on how to create a delivery, refer to [this section](../s
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
-    ![](assets/push-android-select-target.png)
+    ![](../assets/push-android-select-target.png)
 
 1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
 
@@ -113,8 +113,6 @@ For global information on how to create a delivery, refer to [this section](../s
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. For example, you can configure a specific application screen to be displayed when the user activates the notification.
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
-
-   <!--![](assets/push-android-preview.png)-->
 
 ## Test, send and monitor your push notifications
 

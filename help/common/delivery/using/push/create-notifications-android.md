@@ -71,19 +71,19 @@ You can now create a push notification. Follow the steps below:
 
 1. Click **[!UICONTROL New]**.
 
-    ![](assets/nmac_android_3.png)
+    ![](../assets/nmac_android_3.png)
 
 1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
 
 1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service.
 
-    ![](assets/nmac_android_7.png)
+    ![](../assets/nmac_android_7.png)
 
 1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
 
 1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
 
-    ![](assets/nmac_android_6.png)
+    ![](../assets/nmac_android_6.png)
 
 1. Select **[!UICONTROL notification message]** as **[!UICONTROL Message Type]**.
 
@@ -98,7 +98,7 @@ You can now create a push notification. Follow the steps below:
 
    For more on the **[!UICONTROL Notification options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
-   ![](assets/nmac_android_8.png)
+   ![](../assets/nmac_android_8.png)
 
 1. If your application is configured with HTTP v1 API protocol, you can further personalize your push notification with the following **[!UICONTROL HTTPV1 additional options]**:
 
@@ -111,7 +111,7 @@ You can now create a push notification. Follow the steps below:
 
    For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
-   ![](assets/nmac_android_9.png)
+   ![](..assets/nmac_android_9.png)
 
 1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 

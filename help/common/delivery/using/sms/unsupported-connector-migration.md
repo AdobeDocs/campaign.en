@@ -49,7 +49,7 @@ If you know that this connector is already using the SMPP protocol then you can 
 
 From your **[!UICONTROL Generic]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_generic.png)
+![](../assets/smpp_generic.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 
@@ -62,7 +62,7 @@ In the **[!UICONTROL Connection Settings]** tab:
 
 From your **[!UICONTROL Generic SMPP]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_generic_2.png)
+![](../assets/smpp_generic_2.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 
@@ -93,7 +93,7 @@ In the **[!UICONTROL SMSC specificities]** tab:
 
 From your **[!UICONTROL Sybase365]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_3.png)
+![](../assets/smpp_3.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 
@@ -107,7 +107,7 @@ In the **[!UICONTROL Connection Settings]** tab:
 
 From your **[!UICONTROL CLX]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_4.png)
+![](../assets/smpp_4.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 
@@ -130,7 +130,7 @@ In the **[!UICONTROL SMSC specificities]** tab:
 
 From your **[!UICONTROL Tele2]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_6.png)
+![](../assets/smpp_6.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 
@@ -155,7 +155,7 @@ In the **[!UICONTROL Mapping of Encoding]** tab:
 
 From your **[!UICONTROL O2]** connector, you can transpose to your newly created **[!UICONTROL Extended SMPP]** account:
 
-![](assets/smpp_5.png)
+![](../assets/smpp_5.png)
 
 In the **[!UICONTROL Connection Settings]** tab:
 

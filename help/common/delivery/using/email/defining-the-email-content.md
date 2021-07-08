@@ -105,8 +105,6 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
-![](assets/s_ncs_user_wizard_email_param.png)
-
 Select the format of the email in the lower section of the window:
 
 * **[!UICONTROL Use recipient preferences]** (default mode)
@@ -188,11 +186,11 @@ The delivery wizard lets you add local images, or images stored in the library, 
 To manage images via the delivery wizard:
 
 1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
-  ![](assets/s_ncs_user_email_del_img_param.png)
+  ![](../assets/s_ncs_user_email_del_img_param.png)
 
 1. Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab.
 1. You can then choose whether you wish to include the images in the email message.
-  ![](assets/s_ncs_user_email_del_img_upload.png)
+  ![](../assets/s_ncs_user_email_del_img_upload.png)
 
 * You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
 * You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Images URL]** field. This value overrides the value defined in the parameters of the installation wizard.

@@ -357,7 +357,7 @@ In the example below, we create a template to deliver messages via the SMPP acco
 1. Click **[!UICONTROL Properties]**.
 1. In the **[!UICONTROL General]** tab, select a routing mode that corresponds to the external account that you created in the previous steps.
 
-   ![](assets/s_user_mobile_template_change_03.png)
+   ![](../assets/s_user_mobile_template_change_03.png)
 
 1. Click **[!UICONTROL Save]** to create the template.
 

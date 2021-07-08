@@ -46,7 +46,7 @@ The following options are available:
 
 **Parameters specific to an SMPP connector**
 
-![](assets/s_user_mobile_sms_adv_smpp.png)
+![](../assets/s_user_mobile_sms_adv_smpp.png)
 
 * **Maximum number of SMS per message**: this option lets you set the number of SMS to use to send a message. If the number is set to 0, you can use an SMS to deliver your message. If the number of SMS is set to 1 or 2 for instance, and the message exceeds this threshold, it will not be sent.
 

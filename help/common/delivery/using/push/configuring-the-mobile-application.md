@@ -115,13 +115,13 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
    >
    > Adobe recommends using **[!UICONTROL Token-based authentication]** for your iOS configuration since this authentication mode is more secured and not bound to certificate expiration.
 
-   ![](assets/nmac_ios_4.png)
+   ![](../assets/nmac_ios_4.png)
 
 1. You can click **[!UICONTROL Test the connection]** to be sure it is successful.
 
 1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
 
-   ![](assets/nmac_ios_5.png)
+   ![](../assets/nmac_ios_5.png)
 
 1. Click **[!UICONTROL Finish]**.
 

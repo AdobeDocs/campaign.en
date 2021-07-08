@@ -59,7 +59,7 @@ The three main steps of the notification process are: registration of the applic
 
 The mobile application is downloaded by the user from the App Store or from Google Play. This application contains the connection settings (iOS certificate and project key for Android) and the integration key. The first time the application is opened, (depending on configuration), the user can be asked to enter registration information (@userKey: email or account number for instance). At the same time, the application questions the notification service to collect a notification ID (push ID). All this information (connection settings, integration key, notification identifier, userKey) is sent to Adobe Campaign.
 
-![](assets/nmac_register_view.png)
+![](../assets/nmac_register_view.png)
 
 ### Step 2: Delivery {#step-2--delivery}
 
@@ -70,7 +70,7 @@ The following information is available in Adobe Campaign:
 * Android only: number of devices that have displayed the notification (impressions)
 * Android and iOS: number of clicks on the notification
 
-![](assets/nmac_delivery_view.png)
+![](../assets/nmac_delivery_view.png)
 
 The Adobe Campaign server must be able to contact the APNs server on the 443 port for iOS HTTP/2 connector.
 
