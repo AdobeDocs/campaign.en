@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
-# Create notifications for Android{#create-notificaations-android}
+# Create push notifications for Android{#create-notificaations-android}
 
-Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](steps-about-delivery-creation-steps.md).
+Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](../steps-about-delivery-creation-steps.md).
 
 Start by creating a new delivery.
 
-![](assets/nmac_delivery_1.png)
+![](../assets/nmac_delivery_1.png)
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -23,8 +23,7 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 * **[!UICONTROL Notification message]**, handled automatically by the FCM SDK.
    <br> FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
-For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages
-).
+For more information on Firebase Cloud Messaging messages types, refer to [FCM documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 
 ## Create a data message {#creating-data-message}
 
@@ -32,26 +31,26 @@ For more information on Firebase Cloud Messaging messages types, refer to [FCM d
 
 1. Click **[!UICONTROL New]**.
 
-    ![](assets/nmac_android_3.png)
+    ![](../assets/nmac_android_3.png)
 
 1. Select **[!UICONTROL Deliver on Android (android)]** in the **[!UICONTROL Delivery template]** drop-down. Add a **[!UICONTROL Label]** to your delivery.
 
 1. Click **[!UICONTROL To]** to define the population to target. By default, the **[!UICONTROL Subscriber application]** target mapping is applied. Click **[!UICONTROL Add]** to select your service.
 
-    ![](assets/nmac_android_7.png)
+    ![](../assets/nmac_android_7.png)
 
 1. In the **[!UICONTROL Target type]** window, select **[!UICONTROL Subscribers of an Android mobile application]** and click **[!UICONTROL Next]**.
 
 1. In the **[!UICONTROL Service]** drop-down, select your previously created service then application and click **[!UICONTROL Finish]**.
     The **[!UICONTROL Application variables]** are automatically added depending on what was added during the configuration steps.
 
-    ![](assets/nmac_android_6.png)
+    ![](../assets/nmac_android_6.png)
 
 1. Select **[!UICONTROL data message]** as **[!UICONTROL Message Type]**.
 
 1. Edit your rich notification.
 
-    ![](assets/nmac_android_5.png)
+    ![](../assets/nmac_android_5.png)
 
 1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 
@@ -59,15 +58,14 @@ For more information on Firebase Cloud Messaging messages types, refer to [FCM d
 
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
 
-![](assets/nmac_android_4.png)
+![](../assets/nmac_android_4.png)
 
 ## Create a notification message {#creating-notification-message}
 
-   >[!NOTE]
-   >
-   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](configuring-the-mobile-application-android.md#android-service-httpv1).
+![](../assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to create an Android push notification in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
+
+You can now create a push notification. Follow the steps below:
 
 1. Go to **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
@@ -120,3 +118,7 @@ The image and web page should be displayed in the push notification when receive
 1. Click **[!UICONTROL Save]** and send your delivery.
 
 The image and web page should be displayed in the push notification when received on the subscribers' mobile Android devices.
+
+   >[!NOTE]
+   >
+   >Additional options for notification message are only available with HTTP v1 API configuration. For more on this, refer to this [section](configuring-the-mobile-application-android.md#android-service-httpv1).

@@ -8,19 +8,17 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 ---
-# Integrating Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
+# Integrate Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
 
-Campaign SDKs for iOS and Android are one of the components of the Mobile App Channel module.
+Adobe provides Campaign SDKs for iOS and Android as part of the Mobile App Channel module.
+
+The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
 
 >[!NOTE]
 >
 >To get Campaign SDK (previously known as Neolane SDK), contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.
-
-To learn more on the different Android and iOS versions supported, refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md#MobileSDK) .
-
-## Loading Campaign SDK {#loading-campaign-sdk}
+## Load Campaign SDK {#loading-campaign-sdk}
 
 * **In Android**: the **neolane_sdk-release.aar** file must be linked to the project.
 
@@ -48,7 +46,7 @@ To learn more on the different Android and iOS versions supported, refer to the 
   >
   >For version 1.0.25 of the SDK, the four architectures are available in the **Neolane_SDK.h** file.
 
-## Declaring integration settings {#declaring-integration-settings}
+## Declare integration settings {#declaring-integration-settings}
 
 To integrate Campaign SDK into the mobile application, the functional administrator must provide the following information to the developer:
 
@@ -56,7 +54,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [Configuring a mobile application in Adobe Campaign](configuring-the-mobile-application.md).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [this page](configuring-the-mobile-application.md).
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.
@@ -282,10 +280,6 @@ The registration function enables you to:
   completionHandler(UIBackgroundFetchResultNoData);
   }
   ```
-
-  >[!NOTE]
-  >
-  >From version 7.0, once the **application:didReceiveRemoteNotification:fetchCompletionHandler** function is implemented, the operating system only calls this function. The **application:didReceiveRemoteNotification** function is therefore not called.
 
 ## Silent notification tracking {#silent-notification-tracking}
 
@@ -525,7 +519,7 @@ To implement **registerDeviceStatus** delegate, follow these steps:
 
 ## Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service. [Learn more](configuring-the-mobile-application.md)). Here is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 
 * **In Android**:
 

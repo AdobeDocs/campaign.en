@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Campaign Schema structure
 description: Campaign schema structure
@@ -119,7 +118,7 @@ The following rules must be adhered to:
 
 The data type is entered via the **type** attribute in the **`<attribute>`** and **`<element>`** elements.
 
-A detailed list is available in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+A detailed list is available in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 When this attribute is not populated, **string** is the default data type unless the element contains child elements. If it does, it is used only to structure the elements hierarchically (**`<location>`** element in our example).
 

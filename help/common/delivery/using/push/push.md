@@ -122,7 +122,7 @@ To send a proof and to send the final delivery, use the same process as email de
 
 * [Learn key steps to validate a delivery](../steps-validating-the-delivery.md)
 
-* [Learn key steps to send a delivery](../)steps-sending-the-delivery.md)
+* [Learn key steps to send a delivery](../steps-sending-the-delivery.md)
 
 After sending messages, you can monitor and track your deliveries. Learn more in the pages below:
 

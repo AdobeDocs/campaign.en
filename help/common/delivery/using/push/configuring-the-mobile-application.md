@@ -9,7 +9,7 @@ exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 ---
 # Configuration steps for iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-Once the package is installed, you can define your iOS app settings in Adobe Campaign Classic.
+Once the Mobile App package is installed, you can define your iOS app settings in Adobe Campaign.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ To configure this connector, follow these steps:
 1. Select the **[!UICONTROL iOS routing]** external account.
 1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field with the following URL: ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
 
-   ![](assets/nmac_connectors.png)
+   ![](../assets/nmac_connectors.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -48,41 +48,44 @@ Your iOS connector is now configured. You can start creating your service.
 >
 >If this is not the case, please refer to [this page](https://developer.apple.com/documentation/usernotifications).
 
+To configure the iOS service, follow the steps below: 
+
 1. Go to the **[!UICONTROL Profiles and Targets > Services and subscriptions]** node and click **[!UICONTROL New]**.
 
-   ![](assets/nmac_service_1.png)
+   ![](../assets/nmac_service_1.png)
 
 1. Define a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**.
 1. Go to the **[!UICONTROL Type]** field and select **[!UICONTROL Mobile application]**.
 
-   >[!NOTE]
-   >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to the [Configuration guide](../../configuration/using/about-custom-recipient-table.md).
+   ![](../assets/nmac_ios.png)
 
-   ![](assets/nmac_ios.png)
+
+   >[!CAUTION]
+   >
+   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. For more on creating target mapping, refer to [this page for Adobe Campaign Classic v7](../../../../v7/configuration/using/about-custom-recipient-table.md), and to [this page for Adobe Campaign v8](../../../../v8/dev/custom-recipient.md).
 
 1. Then click the **[!UICONTROL Add]** button to select the application type.
 
-   ![](assets/nmac_service_2.png)
+   ![](../assets/nmac_service_2.png)
 
 1. Create your iOS Development and Production applications. For more on this, refer to this [section](configuring-the-mobile-application.md#creating-ios-app).
 
 ## Create iOS mobile app {#creating-ios-app}
 
-After creating your service, create your iOS applicationin Campaign. Follow the steps below:
+After creating your service, create your iOS application in Campaign. Follow the steps below:
 
 1. From your newly created service, click the **[!UICONTROL Add]** button to select the application type.
 
-   ![](assets/nmac_service_2.png) 
+   ![](../assets/nmac_service_2.png) 
 
 1. The following window appears. Select **[!UICONTROL Create an iOS application]** and start by entering the **[!UICONTROL Label]**.
 
-   ![](assets/nmac_ios_2.png)
+   ![](../assets/nmac_ios_2.png)
 
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
 In the following example, we add **mediaURl** and **mediaExt** to create rich push notification and then provides the application with the image to display within the notification.
 
-   ![](assets/nmac_ios_3.png)
+   ![](../assets/nmac_ios_3.png)
 
 1. The **[!UICONTROL Subscription parameters]** tab allows you to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
@@ -94,7 +97,9 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. For more on this, refer to: [Integrating Campaign SDK into the mobile application](integrating-campaign-sdk-into-the-mobile-application.md). This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. [Learn more](integrating-campaign-sdk-into-the-mobile-application.md). 
+
+   This integration key, which is specific to each application, lets you link the mobile application to the Adobe Campaign platform.
 
     >[!NOTE]
     >
@@ -120,4 +125,4 @@ In the following example, we add **mediaURl** and **mediaExt** to create rich pu
 
 1. Click **[!UICONTROL Finish]**.
 
-Your iOS application is now ready to be used in Campaign Classic.
+Your iOS application is now ready to be used in Campaign.

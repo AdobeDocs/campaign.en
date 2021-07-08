@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Extend Campaign schemas
 description: Learn how to extend Campaign schemas
@@ -17,7 +16,7 @@ Key steps to customize Campaign datamodel are:
 >[!CAUTION]
 >Built-in schema must not be modified directly. If you need to adapt a built-in schema, you must extend it.
 
-:bulb: For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md).
+[!DNL :bulb:] For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md). See also recommendations when creating a new schema in [this page](create-schema.md).
 
 To extend a schema, follow the steps below:
 
@@ -30,7 +29,7 @@ To extend a schema, follow the steps below:
 
     ![](assets/extend-schema-select.png)
 
-    By convention, name the extension schema the same as the built-in schema, and use a custom namespace.
+    By convention, name the extension schema the same as the built-in schema, and use a custom namespace.  Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces)
 
     ![](assets/extend-schema-validate.png)
 
@@ -38,19 +37,18 @@ To extend a schema, follow the steps below:
 
     ![](assets/extend-schema-edit.png)
 
-    In the example below, we add the MembershipYear attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
+    In the example below, we add the **MembershipYear** attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
 
     ![](assets/extend-schema-sample.png)
 
     ```
-    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
-            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
             mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-     <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-           name="recipient">
-    <attribute label="Member since" name="MembershipYear" type="long"/>
-    <attribute length="50" name="lastName"/>
-    <attribute _operation="delete" name="birthDate"/>
+     <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient" name="recipient">
+        <attribute label="Member since" name="MembershipYear" type="long"/>
+        <attribute length="50" name="lastName"/>
+        <attribute _operation="delete" name="birthDate"/>
     </element>
     </srcSchema>
     ```

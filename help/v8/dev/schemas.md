@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Work with Campaign schemas
 description: Get started with schemas
@@ -34,7 +33,7 @@ For a better understanding of Campaign built-in tables and their interaction, re
 
 >[!CAUTION]
 >
->Some built-in Campaign schemas have an associated schema on the Cloud database. These schemas are identified by the **Xxl** namespace and must not be modified.
+>Some built-in Campaign schemas have an associated schema on the Cloud database. These schemas are identified by the **Xxl** namespace and must not be modified or extended.
 
 ## Syntax of schemas {#syntax-of-schemas}
 
@@ -74,16 +73,17 @@ A namespace lets you group a set of schemas by area of interest. For example, th
 >
 >Identifiers must not begin with numeric characters.
 
-## Reserved namespaces
+## Reserved namespaces {#reserved-namespaces}
 
 Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application. The following namespace **must not be used** to identify a new schema, in any upper/lower case combination:
 
-* **xxl**: reserved to Cloud database schemas,
-* **xtk**: reserved to platform system data,
-* **nl**: reserved to the overall use of the application,
-* **nms**: reserved to deliveries (recipient, delivery, tracking, etc.),
-* **ncm**: reserved to content management,
-* **temp**: reserved to temporary schemas.
+* **xxl**: reserved to Cloud database schemas
+* **xtk**: reserved to platform system data
+* **nl**: reserved to the overall use of the application
+* **nms**: reserved to deliveries (recipient, delivery, tracking, etc.)
+* **ncm**: reserved to content management
+* **temp**: reserved to temporary schemas
+* **crm**: reserved to CRM connectors integration
 
 The identification key of a schema is a string built using the namespace and the name separated by a colon; for example: **nms:recipient**.
 
@@ -91,11 +91,11 @@ The identification key of a schema is a string built using the namespace and the
 
 To add a field or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema. 
 
-:bulb: For more on this, refer to [Extend a schema](extend-schema.md).
+[!DNL :bulb:] For more on this, refer to [Extend a schema](extend-schema.md).
 
 To add an entirely new type of data that does not exist in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. 
 
-:bulb: For more on this, refer to [Create a new schema](create-schema.md).
+[!DNL :bulb:] For more on this, refer to [Create a new schema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -129,7 +129,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Keys {#keys}
 
-Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid=true** attribute set to "true".
+Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid** and **autopk** attributes set to **true**.
 
 The primary key can also be defined using the **internal** attribute.
 
@@ -147,7 +147,7 @@ In this example, instead of letting the **@autouuid** attribute create a default
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-:bulb: Learn more about keys in [this section](database-mapping.md#management-of-keys).
+[!DNL :bulb:] Learn more about keys in [this section](database-mapping.md#management-of-keys).
 
 ## Attributes (Fields) {#attributes--fields-}
 
@@ -155,9 +155,9 @@ Attributes allow you to define the fields which make up your data object. You ca
 
 ![](assets/schemaextension_2.png)
 
-The full list of attributes is available in the `<attribute>` element section in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model) section. Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+The full list of attributes is available in the `<attribute>` element section in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-:arrow_upper_right: For more information on each attribute, refer to the Attribute description in [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+[!DNL :arrow_upper_right:] For more information on each attribute, refer to the Attribute description in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Examples {#examples}
 

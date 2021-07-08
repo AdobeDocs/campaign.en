@@ -17,7 +17,7 @@ To send push notifications in Adobe Campaign, you need to:
 * Add the iOS and Android versions of the application to this service.
 * Create a delivery for [iOS](create-notifications-ios.md) and [Android](create-notifications-android.md).
 
-![](assets/nmac_service_diagram.png)
+![](../assets/nmac_service_diagram.png)
 
 >[!NOTE]
 >
@@ -25,37 +25,36 @@ To send push notifications in Adobe Campaign, you need to:
 
 ## Install the package {#installing-package-ios}
 
-![](assets/do-not-localize/how-to-video.png) [Learn how to install the mobile app package in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
+As hybrid/hosted customer, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team to access push notification channel in Campaign. 
 
-As a hybrid/hosted customer, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) team to access push notification channel in Campaign. 
-
-As an on-premise customer, you need to install a built-in package.
-
->[!CAUTION]
->
->Learn more about Campaign built-in packages, best practices and recommendations in [this page](../../installation/using/installing-campaign-standard-packages.md).
+As a Campaign Classic v7 on-premise customer, you need to install a [built-in package](../../installation/using/installing-campaign-standard-packages.md).
 
 Installation steps are:
 
 1. Access the package import wizard from **[!UICONTROL Tools > Advanced > Package import...]** in the Adobe Campaign client console.
 
-   ![](assets/package_ios.png)
+   ![](../assets/package_ios.png)
 
 1. Select **[!UICONTROL Install a standard package]**.
 
 1. In the list that appears, check **[!UICONTROL Mobile App Channel]**.
 
-   ![](assets/package_ios_2.png)
+   ![](../assets/package_ios_2.png)
 
 1. Click **[!UICONTROL Next]**, then **[!UICONTROL Start]** to start the package installation.
 
    Once the packages are installed, the progress bar shows **100%** and you can see the following message in the installation logs: **[!UICONTROL Installation of packages successful]**.
 
-   ![](assets/package_ios_3.png)
+   ![](../assets/package_ios_3.png)
 
 1. **[!UICONTROL Close]** the installation window.
 
 Once this step is done, you can configure your Android and iOS apps.
+
+
+![](../assets/do-not-localize/how-to-video.png) [Learn how to install the mobile app package in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
+
+
 Refer to these sections:
 
 * [Configuration steps for iOS](configuring-the-mobile-application.md)

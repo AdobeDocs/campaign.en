@@ -1,5 +1,4 @@
 ---
-solution: Campaign
 product: Adobe Campaign
 title: Change your default recipient table
 description: Learn how to use a custom recipient table
@@ -12,7 +11,7 @@ exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 
 Adobe Campaign comes with a built-in profile table: **nmsRecipient**. This table has a number of predefined fields and tables that can be easily extended. Learn more about this table in [this page](datamodel.md#ootb-profiles).
 
-Built-in table extension offers good flexibility, but it does not allow to remove some unused fields or links. As a consequence, using a custom recipient table can be a good option when your datamodel differs drastically from Campaign built-in recipient table structure, or if you have a large number of profiles.  However, this method requires certain precautions when implementing it.
+Built-in table extension offers flexibility, but it does not allow to remove some unused fields or links. As a consequence, using a custom recipient table can be a good option when your datamodel differs drastically from Campaign built-in recipient table structure, or if you have a large number of profiles.  However, this method requires certain precautions when implementing it.
 
 This functionality allows Adobe Campaign to process data from an external database: this data will be used as a set of profiles for deliveries. Implementing this process involves limitations, such as:
 

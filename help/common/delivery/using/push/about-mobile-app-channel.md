@@ -13,26 +13,23 @@ The **Mobile App Channel** lets you use the Adobe Campaign platform to send pers
 
 >[!CAUTION]
 >
->This document details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
+>This section details the process for integrating your mobile application with the Adobe Campaign platform. It does not provide information on how to create the mobile application or how to configure it for managing notifications. If you would like further information on this, refer to the official Apple [documentation](https://developer.apple.com/) and Android [documentation](https://developer.android.com/index.html).
 
 Two delivery channels are available:
 
 * An iOS channel that enables you to send notifications to Apple mobile devices.
 
-  ![](assets/nmac_intro_2.png)
+  ![](../assets/nmac_intro_2.png)
 
 * An Android channel that enables you to send data messages to Android mobile devices.
 
-  ![](assets/nmac_intro_1.png)
+  ![](../assets/nmac_intro_1.png)
 
 Corresponding to those two channels there are two delivery activities in the campaign workflows:
 
-![](assets/nmac_intro_3.png)
+![](../assets/../nmac_intro_3.png)
 
-
->[!NOTE]
->
->Two transactional message templates are also available for transactional messaging.
+Two transactional message templates are also available for transactional messaging.
 
 You can define the application behavior for when the user activates the notification to display the screen that matches the application context. For example:
 
@@ -42,15 +39,13 @@ You can define the application behavior for when the user activates the notifica
 >[!CAUTION]
 >
 >* You need to make sure the notifications sent to a mobile application are compliant with the prerequisites and conditions specified by Apple (Apple Push Notification Service) and Google (Firebase Cloud Messaging).
->* Warning: in some countries, the law requires that you inform users of your collected data type mobile applications and the purpose of their processing. You must check the legislation.
+>* **Warning** - in some countries, the law requires that you inform users of your collected data type mobile applications and the purpose of their processing. You must check the legislation.
 
-The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [list of technical workflows](../../../common/workflow/using/about-technical-workflows.md).
+The **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) workflow updates notification unsubscriptions on mobile devices. For more information on this workflow, refer to the [list of technical workflows](../../../workflow/using/about-technical-workflows.md).
 
-Adobe Campaign is compatible with HTTP/2 APNs. For more details on the configuration steps, refer to the [this section](configuring-the-mobile-application.md) section.
+Adobe Campaign is compatible with HTTP/2 APNs. For more details on the configuration steps, refer to the [this page](configuring-the-mobile-application.md).
 
-For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
-
-## Data path {#data-path}
+## Configuration process {#data-path}
 
 The following schemas detail the steps that enable a mobile application to exchange data with Adobe Campaign. This process involves three entities:
 
@@ -95,4 +90,4 @@ To check that it works correctly, use the following commands:
 
 With the iOS HTTP/2 connector, the MTA and web server must be able to contact the APNs on port 443.
 
-If you need to use the iOS HTTP/2 connector through a proxy, refer to this [page](../../installation/using/file-res-management.md#proxy-connection-configuration).
+As a Campaign v7 on-premise customer, if you need to use the iOS HTTP/2 connector through a proxy, refer to this [page](../../../../v7/installation/using/file-res-management.md#proxy-connection-configuration).

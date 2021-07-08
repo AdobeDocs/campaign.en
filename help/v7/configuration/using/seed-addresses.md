@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Seed addresses
-description: Seed addresses
+title: Use seed addresses with an external recipient table
+description: Learn how to use seed addresses with an external recipient table
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
