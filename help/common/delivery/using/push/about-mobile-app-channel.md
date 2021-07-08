@@ -27,7 +27,7 @@ Two delivery channels are available:
 
 Corresponding to those two channels there are two delivery activities in the campaign workflows:
 
-![](../assets/../nmac_intro_3.png)
+![](../assets/nmac_intro_3.png)
 
 Two transactional message templates are also available for transactional messaging.
 

@@ -111,7 +111,7 @@ You can now create a push notification. Follow the steps below:
 
    For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification).
 
-   ![](..assets/nmac_android_9.png)
+   ![](../assets/nmac_android_9.png)
 
 1. You can add information in your previously configured **[!UICONTROL Application variables]** if needed. **[!UICONTROL Application variables]** needs to be configured in the Android service and are a part of the message payload sent to the mobile device.
 
