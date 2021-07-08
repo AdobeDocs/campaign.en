@@ -33,7 +33,7 @@ This screen contains all general data about the selected profile. In particular,
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../../common/delivery/using/understanding-quarantine-management.md).
 
 ## Contact information tab {#contact-information-tab}
 
@@ -69,7 +69,7 @@ This screen contains the information services to which the profile has subscribe
 
 The **[!UICONTROL Detail]** button displays the properties of the selected subscription. The **[!UICONTROL Add]** button is used to add a new subscription manually.
 
-For more on this, refer to [this page](../../delivery/using/managing-subscriptions.md).
+For more on this, refer to [this page](../../../common/delivery/using/managing-subscriptions.md).
 
 ## Deliveries tab {#deliveries-tab}
 
@@ -89,4 +89,4 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).
+>For more on tracking functionality, please refer to [this page](../../../common/delivery/using/delivery-dashboard.md).

@@ -276,11 +276,11 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDir</span> <br /> </td> 
-   <td> Location of resources for publication in the Adobe Campaign client console. See <a href="../../delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
+   <td> Location of resources for publication in the Adobe Campaign client console. See <a href="../../../common/delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDirPreview</span> <br /> </td> 
-   <td> Location of resources for previewing in the Adobe Campaign client console. See <a href="../../delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
+   <td> Location of resources for previewing in the Adobe Campaign client console. See <a href="../../../common/delivery/using/formatting.md#image-referencing">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -300,7 +300,7 @@ The **[!UICONTROL Administration / Platform / Options]** node allows you to conf
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> Root folder for publications.<br /> For more on HTML and Text contents generation, refer to <a href="../../delivery/using/using-a-content-template.md">this section</a>.<br /> </td> 
+   <td> Root folder for publications.<br /> For more on HTML and Text contents generation, refer to <a href="../../../common/delivery/using/using-a-content-template.md">this section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 

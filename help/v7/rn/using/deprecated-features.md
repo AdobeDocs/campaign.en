@@ -73,7 +73,7 @@ This section lists features and capabilities that have been removed from Campaig
   </tr>
   <tr>  
    <td>Fax channel<br></td>
-   <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a></p>
+   <td><p>Starting Campaign 21.1.3 release, the Fax channel is no longer available. <a href="../../../common/delivery/using/communication-channels.md">Learn more</a></p>
   <tr>
   <td>Demdex domain<br></td>
   <td><p> Starting Campaign 21.1.3 release, the demdex domain used to import and export audiences to the Adobe Experience Cloud is no longer available. <a href="../../../common/integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Learn more</a></p> 
@@ -115,11 +115,11 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms-channel.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
-   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a></td>
+   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../../common/delivery/using/line-channel.md">Learn more</a></td>
   </tr>
  </tbody> 
 </table>

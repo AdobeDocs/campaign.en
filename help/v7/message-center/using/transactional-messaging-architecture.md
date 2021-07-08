@@ -126,7 +126,7 @@ When combined with Mobile App channel module, transactional messaging enables yo
 
 >[!NOTE]
 >
->The Mobile App channel is detailed in [this section](../../delivery/using/about-mobile-app-channel.md).
+>The Mobile App channel is detailed in [this section](../../../common/delivery/using/about-mobile-app-channel.md).
 
 To use transactional message modules with Mobile App Channel, you need to apply the following configurations:
 
@@ -175,7 +175,7 @@ To use transactional message module with LINE, the following elements are needed
 
 * Install the **[!UICONTROL LINE Connect]** package on both instances.
 * Install the **[!UICONTROL Transactional message control]** package on your marketing instance, and the **[!UICONTROL Transactional message execution]** package on the execution instance.
-* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to [this section](../../delivery/using/line-channel.md#setting-up-line-channel).
+* Create a LINE **external account** and **service** on both instances with identical naming for them to be synchronized. For more information on how to create a LINE external account and service, refer to [this section](../../../common/delivery/using/line-channel.md#setting-up-line-channel).
 
 Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
 

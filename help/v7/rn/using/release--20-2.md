@@ -129,7 +129,7 @@ _June 8, 2020_
  <tbody> 
   <tr> 
    <td> <p>When designing a message in Campaign, you can now easily insert emoticons in the message body, using a dedicated button. They can also be added in the email subject line. You can customize the list of available emoticons in the interface.</p>
-    <p>For more information about adding emoticons, refer to the <a href="../../delivery/using/defining-the-email-content.md#inserting-emoticons">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
+    <p>For more information about adding emoticons, refer to the <a href="../../../common/delivery/using/email/defining-the-email-content.md#inserting-emoticons">detailed documentation</a>. Learn how to customize the emoticon list <a href="../../../common/delivery/using/customizing-emoticon-list.md">in this section</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -197,7 +197,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * New options are available to set limitations when sending emails that include images or attachments. These guardrails can avoid performance issues, which is particularly useful with transactional messaging. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
-* The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
+* The new **Prepare the delivery parts in the database** option enables to perform delivery preparation directly within the database, which can significantly accelerate the analysis. This option is only available for specific configurations. [Learn more](../../../common/delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
 * The performance of the [CRM Connector activity](../../../common/workflow/using/crm-connector.md) for Microsoft Dynamics has been improved. (NEO-13303, NEO-12710)
 
@@ -219,7 +219,7 @@ Learn more in [Campaign Compatibility matrix](https://helpx.adobe.com/campaign/k
 
 * Legacy SMS connectors are now deprecated. Refer to the [Deprecated features page](../../rn/using/deprecated-features.md).
 
-* You can no longer use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. [Learn more](../../delivery/using/inbox-rendering.md).
+* You can no longer use your own Litmus account to provision and use Inbox rendering in Adobe Campaign. [Learn more](../../../common/delivery/using/inbox-rendering.md).
 
 * To better distinguish views from folders, the color of view names has been changed from dark blue to dark cyan. [Read more](../../platform/using/access-management-folders.md)
 

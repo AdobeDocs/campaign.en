@@ -27,11 +27,11 @@ By default, they are sorted into sub-folders by delivery month. This sort can be
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../../common/delivery/using/sending-with-enhanced-mta.md), all transactional messages may also be sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages.
 
 ## Transactional message monitoring {#transactional-message-monitoring}
 
-To monitor your transactional messages, check the [delivery logs](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+To monitor your transactional messages, check the [delivery logs](../../../common/delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 
 The transactional deliveries sent from the execution instance are synchronized back to the control instance through a technical workflow (**[!UICONTROL Message Center execution instance]**) that runs every hour.
  

@@ -315,7 +315,7 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_7.png)
 
-       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [this section](../../delivery/using/managing-subscriptions.md).
+       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [this section](../../../common/delivery/using/managing-subscriptions.md).
 
 * Use the **[!UICONTROL Origin]** field to add information about the origin of recipients to their profiles. This information is particularly useful within the framework of a multiple import.
 

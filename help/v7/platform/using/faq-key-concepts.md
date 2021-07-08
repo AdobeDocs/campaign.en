@@ -60,7 +60,7 @@ Read out [this section](../../platform/using/adobe-campaign-workspace.md) to lea
 
 With Adobe Campaign, you can use different strategies to create audiences and select target recipients.
 
-[Click here to learn more](../../delivery/using/steps-defining-the-target-population.md).
+[Click here to learn more](../../../common/delivery/using/steps-defining-the-target-population.md).
 
 ## What is a workflow? {#what-is-a-workflow-}
 
@@ -74,17 +74,17 @@ A workflow can also involve one or more operators to be notified or who can make
 
 ## How to create and send a first email? {#how-to-create-and-send-a-first-email-}
 
-[Click here to learn more](../../delivery/using/about-email-channel.md).
+[Click here to learn more](../../../common/delivery/using/about-email-channel.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## How to send SMS messages? {#how-to-send-sms-messages-}
 
-Learn how to configure your platform and send SMS messages [in this section](../../delivery/using/sms-channel.md).
+Learn how to configure your platform and send SMS messages [in this section](../../../common/delivery/using/sms-channel.md).
 
 ## How to send push notifications? {#how-to-send-push-notifications-}
 
-Learn how to use the Adobe Campaign to [send a personalized push notification](../../delivery/using/create-notifications-ios.md) to iOS and Android devices via apps.
+Learn how to use the Adobe Campaign to [send a personalized push notification](../../../common/delivery/using/create-notifications-ios.md) to iOS and Android devices via apps.
 
 ## How to design and share an online survey? {#how-to-design-and-share-an-online-survey-}
 

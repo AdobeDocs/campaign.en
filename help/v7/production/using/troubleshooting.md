@@ -28,7 +28,7 @@ Specific actions can be performed when having troubles with deliveries:
 
 **Related topic**:
 
-[Delivery performance issues](../../delivery/using/delivery-performances.md)
+[Delivery performance issues](../../../common/delivery/using/delivery-performances.md)
 
 ## Working with logs {#working-with-logs}
 

@@ -158,6 +158,6 @@ To do this, follow the steps below:
 
     >[!NOTE]
     >
-    >    Learn how to create a delivery template in [this section](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
+    >    Learn how to create a delivery template in [this section](../../../common/delivery/using/creating-a-delivery-template.md#creating-a-new-template).
 
 1. In the delivery template's **[!UICONTROL Properties]**, set the routing to the external account of the brand.

@@ -187,7 +187,7 @@ Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > T
 
 Clicks on the URL contained in the delivery are measured by Adobe Campaign. The number of clicks on the **[!UICONTROL Like]** button, the number of comments and the number of fans are measured by Facebook.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/about-delivery-monitoring.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../../common/delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
@@ -197,7 +197,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 We highly recommend sending a proof of your publication before the final delivery to view the exact rendering of the publication on a private Facebook test page. For more on creating a private Facebook test page, refer to [Creating a test Facebook page](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). The steps for selecting the target proof are detailed in [Selecting the proof target](#selecting-the-proof-target).
 
-Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Proof delivery is identical to email deliveries. Refer to [this section](../../../common/delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ## Sending the message {#sending-the-message}
 

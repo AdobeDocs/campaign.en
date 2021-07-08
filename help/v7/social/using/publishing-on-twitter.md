@@ -81,7 +81,7 @@ The **[!UICONTROL Preview]** tab lets you view a rendering of the tweet.
 
 Tracking can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
-Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../delivery/using/about-delivery-monitoring.md).
+Tracking configuration is the same as for an email delivery. For more on this, refer to [this section](../../../common/delivery/using/about-delivery-monitoring.md).
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Tracking configuration is the same as for an email delivery. For more on this, r
 
 We highly recommend sending a proof of your publication before the final delivery to get an exact rendering of the publication on a private Twitter test page. For more on creating a private Twitter account, refer to [Creating a test account on Twitter](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). The steps for selecting the proof target are detailed in [Selecting the target of the proof](#selecting-the-target-of-the-proof).
 
-Proof delivery is identical to email deliveries. Refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Proof delivery is identical to email deliveries. Refer to [this section](../../../common/delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 
 ### Sending the message {#sending-the-message}
 
@@ -142,7 +142,7 @@ The following limitations are constraints which are inherent to Twitter.
 
 * The message may not exceed 140 characters.
 * HTML is not supported.
-* You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+* You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in several waves. Deliveries in waves are configured like email deliveries. For more on this, refer to [this section](../../../common/delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
 ### Creating the delivery {#creating-the-delivery-}
 
@@ -170,7 +170,7 @@ Select the followers whom you want to send your direct message to.
 
       >[!IMPORTANT]
       >
-      >You cannot send more than 250 messages per day. If your Twitter account has more than 250 followers, we highly recommend delivering in waves. This involves the same process as email deliveries. Refer to [this section](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
+      >You cannot send more than 250 messages per day. If your Twitter account has more than 250 followers, we highly recommend delivering in waves. This involves the same process as email deliveries. Refer to [this section](../../../common/delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves).
 
     * Select **[!UICONTROL Filter conditions]** to define a query and view its result. This option is the same as for email deliveries. Refer to [this section](../../platform/using/defining-filter-conditions.md) for more information. 
     
@@ -192,7 +192,7 @@ Enter the content of the tweet in the **[!UICONTROL Content]** tab.
 
 ![](assets/social_twitter_delivery_015.png)
 
-Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Content personalization is detailed in [this section](../../delivery/using/about-personalization.md).
+Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Content personalization is detailed in [this section](../../../common/delivery/using/about-personalization.md).
 
 ![](assets/social_twitter_delivery_021.png)
 

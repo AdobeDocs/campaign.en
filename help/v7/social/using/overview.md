@@ -17,4 +17,4 @@ Social Marketing lets you send deliveries to your various Facebook pages and Twi
 >
 >Before sending publications, you need to comply with the configuration steps described in [Starting workflows](../../social/using/starting-workflows.md).
 
-This section details the elements specific to a Facebook and Twitter delivery. All elements which are identical to email deliveries are detailed in [this section](../../delivery/using/about-email-channel.md).
+This section details the elements specific to a Facebook and Twitter delivery. All elements which are identical to email deliveries are detailed in [this section](../../../common/delivery/using/email/email.md).

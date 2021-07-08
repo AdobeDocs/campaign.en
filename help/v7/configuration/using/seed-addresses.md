@@ -13,7 +13,7 @@ If the recipient table is a custom table, additional configurations are required
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-For more on using seed addresses, refer [this section](../../delivery/using/about-seed-addresses.md).
+For more on using seed addresses, refer [this section](../../../common/delivery/using/about-seed-addresses.md).
 
 ## Implementation {#implementation}
 

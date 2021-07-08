@@ -88,13 +88,13 @@ SMTP reports display delivery statistics and SMTP errors by domain. [Learn more]
 
 **Best practices**
 
-[Best practices for delivery sending and designing](../../delivery/using/delivery-best-practices.md) can help you improve their performances.
+[Best practices for delivery sending and designing](../../../common/delivery/using/delivery-best-practices.md) can help you improve their performances.
 
 **Delivery troubleshooting**
 Specific actions can be performed when encountering issues with deliveries:
 * [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Image display issues](../../production/using/image-display-issues.md)
-* [Delivery performance issues](../../delivery/using/delivery-performances.md)
+* [Delivery performance issues](../../../common/delivery/using/delivery-performances.md)
 * [Temporary files issues](../../production/using/temporary-files.md) - *on premise hosting models only*
 
 ### Monitoring the database {#monitoring-database}

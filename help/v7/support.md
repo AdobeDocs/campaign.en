@@ -39,37 +39,37 @@ How to upgrade to a new build? how to monitor workflow execution? what is the da
         <li><a href="platform/using/faq-messages.md">Testing, sending and tracking messages</a></li>
         <li><a href="platform/using/faq-workflows.md">Workflows</a></li>
         <li><a href="platform/using/faq-developers.md">Developers</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">Deliverability</a></li>
+        <li><a href="../common/delivery/using/monitoring-deliverability.md">Deliverability</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Performance and throughput issues</a></li>
-        <li><a href="delivery/using/delivery-performances.md">Delivery performances</a></li>
+        <li><a href="../common/delivery/using/delivery-performances.md">Delivery performances</a></li>
         <li><a href="../common/workflow/using/workflow-best-practices.md">Optimize workflow performances</a></li>
         <li><a href="../common/workflow/using/monitoring-workflow-execution.md">Workflow execution troubleshooting</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP server usage</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
+        <li><a href="../common/delivery/using/understanding-delivery-failures.md">Understand delivery failures</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="../common/workflow/using/workflow-best-practices.md">Workflows best practices</a></li>
         <li><a href="../common/workflow/using/monitoring-technical-workflows.md">Technical workflow monitoring</a></li>
-        <li><a href="delivery/using/about-message-tracking.md">Understand tracking management</a></li>
+        <li><a href="../common/delivery/using/about-message-tracking.md">Understand tracking management</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Discover monitoring tools</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import data with workflows</a></li>
-        <li><a href="delivery/using/steps-sending-the-delivery.md">Send messages in multiple waves</a></li>
-        <li><a href="delivery/using/defining-the-email-content.md">Design email content</a></li>
-        <li><a href="delivery/using/delivery-best-practices.md">Delivery best practices</a></li>
+        <li><a href="../common/delivery/using/steps-sending-the-delivery.md">Send messages in multiple waves</a></li>
+        <li><a href="../common/delivery/using/email/defining-the-email-content.md">Design email content</a></li>
+        <li><a href="../common/delivery/using/delivery-best-practices.md">Delivery best practices</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="production/using/build-upgrade.md">Upgrade to the latest build</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Build upgrade FAQ</a></li>
-        <li><a href="delivery/using/about-delivery-monitoring.md">Monitor a delivery</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
+        <li><a href="../common/delivery/using/about-delivery-monitoring.md">Monitor a delivery</a></li>
+        <li><a href="../common/delivery/using/understanding-quarantine-management.md">Understand quarantine management</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Security and privacy checklist</a></li>
         <li><a href="platform/using/privacy-management.md">Privacy and consent management</a></li>
         <li><a href="platform/using/steps-to-create-a-query.md">Design a query</a></li>
