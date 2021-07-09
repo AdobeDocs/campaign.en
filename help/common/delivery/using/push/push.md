@@ -45,15 +45,17 @@ Configuration guidelines for Anddroid are detailed in [this page](configuring-th
 
 This section details the elements specific to the delivery of iOS and Android notifications.
 
+<!--
 >[!CAUTION]
 >
->With Campaign v8, mobile registration is now **asynchronous**. [Learn more](../../../../v8/dev/staging.md).
+>With Campaign v8, mobile registration is now **asynchronous**. [Learn more](../../../v8/dev/staging.md).
+-->
 
 To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
 
 ![](../assets/delivery_step_1.png)
 
-For global information on how to create a delivery, refer to [this section](../comminication-channels.md).
+For global information on how to create a delivery, refer to [this section](../communication-channels.md).
 
 ### Send notifications on iOS {#send-notifications-on-ios}
 

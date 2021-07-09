@@ -197,7 +197,7 @@ If you’re interested in participating in this private beta, fill out this [for
 * Workflow Heatmap has been improved to avoid timeouts when running workflows with multiple activities. (NEO-27423).
 * Fixed an issue which could allow an offer to be presented even if its end date was passed. Campaign Classic now takes into account the end date's whole timestamp rather that the date only. (NEO-27590)
 * The Google+ link has been removed from the **Social network sharing links** personalization block.
-* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../../common/delivery/using/sms-protocol.md#skip-tls)
+* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../../common/delivery/using/sms/sms-protocol.md#skip-tls)
 
 **Patches**
 

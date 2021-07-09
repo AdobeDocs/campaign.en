@@ -27,4 +27,8 @@ These mappings are as follows:
 
 >[!NOTE]
 >
->You can also create new target mappings. This operation is reserved for expert users. For more information, refer to [Campaign Classic v7 documentation](../../configuration/using/target-mapping.md). These steps also apply to Campaign v8.
+>You can also create new target mappings. This operation is reserved for expert users. 
+
+<!--
+For more information, refer to [Campaign Classic v7 documentation](../../configuration/using/target-mapping.md).
+-->

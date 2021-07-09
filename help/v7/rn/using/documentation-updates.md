@@ -47,7 +47,7 @@ A new technote has been created to learn how to update bounce qualification afte
 
 ## March 2021 {#march-2021}
 
-The [Get started with SMS section](../../../common/delivery/using/sms/sms.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../../common/delivery/using/sms-set-up.md), [create a SMS](../../../common/delivery/using/sms-create.md), [send and track SMS](../../../common/delivery/using/sms-send.md) in dedicated sections.
+The [Get started with SMS section](../../../common/delivery/using/sms/sms.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../../common/delivery/using/sms/sms-set-up.md), [create a SMS](../../../common/delivery/using/sms/sms-create.md), [send and track SMS](../../../common/delivery/using/sms/sms-send.md) in dedicated sections.
 
 The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
@@ -70,11 +70,11 @@ The [Deliverability](../../../common/delivery/using/about-deliverability.md) sec
 
 **Documentation updates coming with the 21.1 release**
 
-The new **Email Feedback Service** capability (private beta) is documented [here](../../../common/delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+The new **Email Feedback Service** capability (private beta) is documented [here](../../../common/delivery/using/email/sending-with-enhanced-mta.md#email-feedback-service).
 
 The **Server configuration file** section has been updated with the configuration parameters needed for Campaign to connect to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
 
-In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../../common/delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../../common/delivery/using/delivery-statuses.md#list-delivery-statuses)
+In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../../common/delivery/using/email/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../../common/delivery/using/delivery-statuses.md#list-delivery-statuses)
 
 The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
@@ -82,13 +82,13 @@ The keyboard shortcuts available on the new logon screen to connect to Adobe Cam
 
 A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../../common/delivery/using/get-started-a-b-testing.md)
 
-The Adobe Campaign Enhanced MTA section has moved [here](../../../common/delivery/using/sending-with-enhanced-mta.md).
+The Adobe Campaign Enhanced MTA section has moved [here](../../../common/delivery/using/email/sending-with-enhanced-mta.md).
 
 A new page has been added to provide an overview of tracking capabilities in [!DNL Campaign Classic]. [Read more](../../../common/delivery/using/about-message-tracking.md)
 
 A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../../common/delivery/using/tracking-troubleshooting.md)
 
-The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../../common/delivery/using/sending-messages.md)
+The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../../common/delivery/using/email/sending-messages.md)
 
 Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../../common/delivery/using/tracking-personalized-links.md).
 
@@ -120,7 +120,7 @@ Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md
 
 A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../../common/workflow/using/deduplication-merge.md)
 
-The complete description of SMS connector protocol and settings page is now available [here](../../../common/delivery/using/sms-protocol.md).
+The complete description of SMS connector protocol and settings page is now available [here](../../../common/delivery/using/sms/sms-protocol.md).
 
 A note has been added to the **Transactional messaging** section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/about-event-processing.md#event-collection)
 
@@ -148,9 +148,9 @@ A new section listing Frequently Asked Questions on Privacy has been added. [Rea
 
 **New capabilities included in 20.3 release**
 
-Push notifications improvements for iOS - [Read more](../../../common/delivery/using/configuring-the-mobile-application.md)
+Push notifications improvements for iOS - [Read more](../../../common/delivery/using/push/configuring-the-mobile-application.md)
 
-Push notifications improvements for Android - [Read more](../../../common/delivery/using/configuring-the-mobile-application-android.md)
+Push notifications improvements for Android - [Read more](../../../common/delivery/using/push/configuring-the-mobile-application-android.md)
 
 **Other documentation updates coming with the release**
 
@@ -207,7 +207,7 @@ How-to videos are now available on the following topics:
 
 * [How to configure and deploy a delivery template](../../../common/delivery/using/creating-a-delivery-template.md)
 
-* [How to activate and use AMP for emails](../../../common/delivery/using/defining-interactive-content.md)
+* [How to activate and use AMP for emails](../../../common/delivery/using/email/defining-interactive-content.md)
 
 * [How to personalize emails using dynamic content blocks](../../../common/delivery/using/personalization-blocks.md)
 
@@ -338,7 +338,7 @@ A new section is available about Technical email configurations. [Read more](../
 
 The Deliverability FAQ has been updated with more details on the "quotas met" error message. [Read more](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-AMP for Email is now supported by new email providers: the related documentation has been updated. [Read more](../../../common/delivery/using/defining-interactive-content.md)
+AMP for Email is now supported by new email providers: the related documentation has been updated. [Read more](../../../common/delivery/using/email/defining-interactive-content.md)
 
 The Email archiving section has been improved. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
@@ -442,7 +442,7 @@ The integration between Adobe Campaign and Adobe Real-time Customer Data Platfor
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
 
-A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../../common/delivery/using/sending-messages.md#character-encoding)
+A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../../common/delivery/using/email/sending-messages.md#character-encoding)
 
 The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management-named-rights.md)
 
@@ -581,7 +581,7 @@ The "Migrating to a new version" section has been updated. The documentation now
 
 The "Retries after a delivery temporary failure" section has been clarified. [Read more](../../../common/delivery/using/understanding-delivery-failures.md)
 
-Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](../../../common/delivery/using/defining-the-email-content.md)
+Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](../../../common/delivery/using/email/defining-the-email-content.md)
 
 The "Transactional messaging architecture" section has been updated with a warning specifying that the control and the execution instances cannot be installed on the same machine. [Read more](../../message-center/using/transactional-messaging-architecture.md)
 

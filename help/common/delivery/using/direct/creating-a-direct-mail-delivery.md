@@ -22,4 +22,4 @@ To create a new direct mail delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../comminication-channels.md).
+>Global concepts on delivery creation are presented in [this section](../communication-channels.md).

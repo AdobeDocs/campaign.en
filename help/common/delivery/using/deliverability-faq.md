@@ -21,7 +21,11 @@ In Adobe Campaign, there is a configuration regarding the number of emails per h
 
 This means a connection can use an MX rule without successfully sending an email. In this case, a configuration with an IP or a domain with a low reputation will have to try several connections before sending an email. For each attempt, a messages per hour credit will be used. As a result, the marketing campaign performance will be significantly impacted.
 
-Therefore, 'quotas met' is not only a configuration issue, but can also be linked to reputation. It is important to analyze error messages in the [SMTP log](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
+Therefore, 'quotas met' is not only a configuration issue, but can also be linked to reputation. 
+
+<!--
+As an on-premise user, you must also check error messages in the [SMTP log](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
+-->
 
 For more on MX configuration, see [this section](../../../v7/installation/using/email-deliverability.md#mx-configuration).
 

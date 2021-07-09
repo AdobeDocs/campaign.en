@@ -306,7 +306,7 @@ You can define the format of sent messages, so that the content displayed automa
 
 To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../../common/delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../../common/delivery/using/email/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 

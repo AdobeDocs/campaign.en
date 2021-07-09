@@ -41,7 +41,7 @@ For more on creating lists, refer to this [section](../../../v7/platform/using/c
 
 1. Each time the workflow is executed, the **[!UICONTROL Tracking indicators]** report is updated (refer to [Step 3: Creating the workflow](#step-3--creating-the-workflow)). To include the latest version of the report in the delivery, you need to add a **[!UICONTROL Calculated attachment]**:
 
-   For more on creating a calculated attachment, refer to this [section](../../../common/delivery/using/attaching-files.md#creating-a-calculated-attachment).
+   For more on creating a calculated attachment, refer to this [section](../../../common/delivery/using/email/attaching-files.md#creating-a-calculated-attachment).
 
     * Click the **[!UICONTROL Attachments]** link and click **[!UICONTROL Add]**, then select **[!UICONTROL Calculated attachment]**.
     

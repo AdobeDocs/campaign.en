@@ -50,4 +50,4 @@ Steps to generate the file are:
 
     In the context of a marketing campaign, when all approvals have been granted, the extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. 
     
-    Learn more in [this section](../../../campaign/using/marketing-campaign-deliveries.mdhtml#starting-an-offline-delivery).
+    Learn more in [this section](../../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).

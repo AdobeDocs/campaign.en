@@ -56,7 +56,7 @@ The diagram below shows the different steps when implementing this scenario:
 
 To add an email attachment on the fly to a transactional message, follow the steps below:
 
-1. Start by designing your attachment. For more on this, see [this section](../../../common/delivery/using/attaching-files.md#attach-a-personalized-file).
+1. Start by designing your attachment. For more on this, see [this section](../../../common/delivery/using/email/attaching-files.md#attach-a-personalized-file).
     
     This allows you to have the files attached to an email, even if they are not hosted on the execution instance.
 

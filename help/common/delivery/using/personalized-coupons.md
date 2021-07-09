@@ -15,7 +15,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 >
 >Coupon management is a package that must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 >
->Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
+>Coupon data can be imported and exported using CSV and XML formats. For details regarding importing and exporting, refer to [this page for Campaign Classic v7](../../../v7/platform/using/get-started-data-import-export.md).
 
 ## Create a coupon {#creating-a-coupon}
 
@@ -47,11 +47,7 @@ Before following the steps below, make sure that you know the type of coupon you
     1. Click **[!UICONTROL Save]** to generate the coupon.
 
    For more details about the Coupons tab, see [this section](#configuring-individual-coupons).
-
-   >[!NOTE]
-   >
-   >Individual coupons can be imported in bulk. For details regarding importing data into Campaign, refer to [this page for Campaign Classic v7](../../../v7/platform/using/get-started-data-import-export.md) and this page for Campaign v8.
-
+   
 ### Configure individual coupons {#configuring-individual-coupons}
 
 ![](assets/deliv_coup_03.png)

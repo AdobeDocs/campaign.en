@@ -86,7 +86,7 @@ A list of personalization blocks is available by default to help you personalize
 * **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
 * **[!UICONTROL Insert logo]** : inserts an logo that has been defined when configuring the instance.
 * **[!UICONTROL Powered by Adobe Campaign]** : inserts the "Powered by Adobe Campaign" logo.
-* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link. [Learn more](sending-messages.md#generating-the-mirror-page).
+* **[!UICONTROL Mirror page URL]** : inserts the email mirror page URL. [Learn more](email/sending-messages.md#generating-the-mirror-page).
 * **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist).
 * **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 

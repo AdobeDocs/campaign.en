@@ -194,7 +194,7 @@ Filters are specific to each operator and are re-initialized each time the opera
 
 You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to [this section](../../../common/delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
+These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to [this section](../../../common/delivery/using/email/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
 
 * Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 

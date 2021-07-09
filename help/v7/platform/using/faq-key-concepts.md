@@ -84,7 +84,7 @@ Learn how to configure your platform and send SMS messages [in this section](../
 
 ## How to send push notifications? {#how-to-send-push-notifications-}
 
-Learn how to use the Adobe Campaign to [send a personalized push notification](../../../common/delivery/using/create-notifications-ios.md) to iOS and Android devices via apps.
+Learn how to use the Adobe Campaign to [send a personalized push notification](../../../common/delivery/using/push/create-notifications-ios.md) to iOS and Android devices via apps.
 
 ## How to design and share an online survey? {#how-to-design-and-share-an-online-survey-}
 

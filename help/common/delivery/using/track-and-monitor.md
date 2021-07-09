@@ -21,7 +21,7 @@ You can also control the status of the messages in the delivery logs. [Learn mor
 What if the deliveries are not being sent and their status remains **Pending**?
 
 * The execution process is waiting on the availability of some resources. The MTA may have not been started.
-Check that your mta@instance modules are launched on your MTA servers and start the MTA module if necessary. [Learn more](../../production/using/administration.md).
+Check that your mta@instance modules are launched on your MTA servers and start the MTA module if necessary. [Learn more in Campaign Classic v7 documentation](../../../v7/production/using/administration.md).
 
 * The delivery may be using an affinity that has not been configured on the sending instance.
 Tip: Check the configuration of traffic management (IP affinity). For more on this, see Control outgoing SMTP traffic.
@@ -52,12 +52,12 @@ To measure the speed at which the messages are delivered, you can control the de
 
 ## Delivery troubleshooting {#delivery-troubleshooting}
 
-Specific actions can be performed when encountering issues with deliveries:
-
-* [Deliverability issues](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
-
-* [Image display issues](../../production/using/image-display-issues.md)
+You can take actions when facing issues with deliveries. Learn more in the following pages:
 
 * [Delivery performance issues](delivery-performances.md)
 
-* [Temporary files issues](../../production/using/temporary-files.md) - *on-premise customers only*
+* [Temporary files issues](../../../v7/production/using/temporary-files.md) in Campaign Classic v7 - *on-premise customers only*
+
+* [Deliverability issues](../../../v7/production/using/performance-and-throughput-issues.md#deliverability_issues) in Campaign Classic v7 
+
+* [Image display issues](../../../v7/production/using/image-display-issues.md) in Campaign Classic v7 

@@ -218,7 +218,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> AMP support<br /> </td> 
-   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../../common/delivery/using/defining-interactive-content.md">Learn More</a> <br /> </td> 
+   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../../common/delivery/using/email/defining-interactive-content.md">Learn More</a> <br /> </td> 
    <td> All </td> 
   </tr> 
   <tr> 

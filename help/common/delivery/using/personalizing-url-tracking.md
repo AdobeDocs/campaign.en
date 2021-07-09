@@ -13,7 +13,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
 >[!NOTE]
 >
->The management of images in emails is also configured in this window. See [Adding images](defining-the-email-content.md#adding-images).
+>The management of images in emails is also configured in this window. See [this page](email/defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

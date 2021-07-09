@@ -52,7 +52,7 @@ To set up a control group, click the **[!UICONTROL To]** link. In the **[!UICONT
 
    ![](assets/d_best_practices_control_group.png)
 
-## Use typologies to apply filters or control rules
+## Use typologies to apply filters or control rules in Campaign Classic v7 
 
 A typology contains checking rules that are applied during the analysis phase, before sending any message.
 
@@ -60,4 +60,4 @@ In the **[!UICONTROL Typology]** tab of the template's properties, change the de
 
 For example, to better control the outbound traffic, you can define which IP addresses can be used by defining one affinity per sub-domain and creating one typology per affinity. The affinities are defined in the instance's configuration file. Contact your Adobe Campaign administrator.
 
-For more on typologies, refer to [this section](../../campaign/using/about-campaign-typologies.md).
+For more on typologies, refer to [this section](../../../v7/campaign-opt/using/about-campaign-typologies.md). 

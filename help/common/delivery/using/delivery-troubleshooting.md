@@ -65,7 +65,7 @@ Delivery logs are key to learn why a delivery failed. Here are possible errors t
 
   The cause is linked to performance issues. It means that the marketing instance spend too much time building data before sending it to the mid-sourcing server.
 
-  To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md).
+  To solve this, we recommend performing a vacuum and reindex on the database. For more information on database maintenance, refer to [this section](../../production/using/recommendations.md) in Campaign Classic v7 documentation (applies to on-premise users only).
 
   You should also restart all workflows with a scheduled activity, and all workflows in failed status. Refer to [this section](../../workflow/using/scheduler.md).
 

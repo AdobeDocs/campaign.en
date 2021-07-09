@@ -86,7 +86,7 @@ Typically, the Inbox rendering feature is used to test the HTML framework of a n
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
-For more on creating, designing and targeting a delivery, refer to [this section](email/about-email-channel.md).
+For more on creating, designing and targeting a delivery, refer to [this section](email/email.md).
 
 1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
 1. Select **[!UICONTROL Analyze]** to start the capture process.

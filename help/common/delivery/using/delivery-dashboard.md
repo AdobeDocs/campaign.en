@@ -129,8 +129,6 @@ To add **publicID** in your delivery logs you need to extend the schema first. Y
 
 1. Create a schema extension, under **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data Schemas]** > **[!UICONTROL New]**.
 
-    For more information about schema extensions, refer to [this page](../../configuration/using/extending-a-schema.md).
-
 1. Select **[!UICONTROL broadLogRcp]** to extend the Recipient delivery logs (nms) and define a custom Namespace. In this case it will be "cus":
 
     ![](assets/schema-parameters.png)
@@ -194,9 +192,11 @@ To do this, access the delivery logs and add the "IP identifier" column.
 
 ![](assets/list-config.png)
 
+<!--
 >[!NOTE]
 >
 >To learn how to configure lists in Campaign Classic interface, refer to [this page](../../platform/using/adobe-campaign-workspace.md).
+-->
 
 Below is what you should see in the **[!UICONTROL Delivery]** tab after modifications:
 

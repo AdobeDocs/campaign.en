@@ -27,7 +27,7 @@ Delivery configuration and parameters can be saved in a delivery template in ord
 
 Discover how to import an existing HTML to create and send an email in Adobe Campaign in one click.
 
-[Click here to learn more](../../../common/delivery/using/defining-the-email-content.md#message-content).
+[Click here to learn more](../../../common/delivery/using/email/defining-the-email-content.md#message-content).
 
 ## How to use Campaign DCE to create an email content? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
@@ -41,7 +41,7 @@ Discover how to import an existing HTML to create and send an email in Adobe Cam
 
 Messages delivered by Adobe Campaign can be personalized in several different ways, concerning the content or the appearance of messages. These ways can be combined according to criteria taken particularly from the recipient profiles. In general, Adobe Campaign allows you to:
 
-* Personalize the message format. [Click here to learn more](../../../common/delivery/using/defining-the-email-content.md#message-content).
+* Personalize the message format. [Click here to learn more](../../../common/delivery/using/email/defining-the-email-content.md#message-content).
 * Insert dynamic personalization fields. [Click here to learn more](../../../common/delivery/using/personalization-fields.md).
 * Insert predefined personalization blocks, or create your own block. [Click here to learn more](../../../common/delivery/using/personalization-blocks.md).
 * Create conditional content. [Click here to learn more](../../../common/delivery/using/conditional-content.md) and read [this section](../../../common/delivery/using/conditional-content.md).

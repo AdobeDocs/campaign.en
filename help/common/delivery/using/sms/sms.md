@@ -33,7 +33,7 @@ In addition, you need to be familiar with the SMS protocol and settings. Walk th
 
    ![](../assets/delivery_step_1.png)
 
-   For global information on how to create a delivery, refer to [this section](../comminication-channels.md).
+   For global information on how to create a delivery, refer to [this section](../communication-channels.md).
 
 1. Select a delivery template referencing the relevant external account to send SMS deliveries.
 
@@ -67,7 +67,9 @@ The key steps to create and design an SMS are detailed in Campaign Classic v7 do
 
    [Learn how to define the target population](../steps-defining-the-target-population.md)
 
+<!-- 
 Steps to define an audience are detailed on [this page](../start/audiences.md).
+-->
 
 ## Test your SMS
 
@@ -78,7 +80,7 @@ To view the rendering of the message with its personalization, click **[!UICONTR
 To send a proof, refer to these sections:
 
 * [Learn key steps to validate a delivery](../steps-validating-the-delivery.md)
-* [Learn about seed addresses](../about-seed-addresses.html)
+* [Learn about seed addresses](../about-seed-addresses.md)
 
 ## Send and monitor SMS deliveries
 

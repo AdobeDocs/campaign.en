@@ -72,7 +72,7 @@ You can defer the delivery of messages in order to schedule the delivery or to m
 
 With Campaign Classic, you can add personalized attachments to your emails.
 
-[Click here to learn more about email attachments](../../../common/delivery/using/attaching-files.md).
+[Click here to learn more about email attachments](../../../common/delivery/using/email/attaching-files.md).
 
 ## Track your messages and measure their impact {#track-your-messages-and-measure-their-impact}
 

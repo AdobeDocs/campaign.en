@@ -18,7 +18,7 @@ There are two possible cases:
 
 >[!NOTE]
 >
->To avoid performance issue, it is recommended not to include more than one attachment per email. As a hosted customer, the recommended threshold can be configured configured by Adobe. For on-premise customers, refer to [the list of Campaign Classic options](.../../../../v7/installation/using/configuring-campaign-options.md#delivery).
+>To avoid performance issue, it is recommended not to include more than one attachment per email. As a hosted customer, the recommended threshold can be configured configured by Adobe. For on-premise customers, refer to [the list of Campaign Classic options](.../../../../../../v7/installation/using/configuring-campaign-options.md#delivery).
 
 ## Attach a local file {#attaching-a-local-file}
 

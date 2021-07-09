@@ -15,7 +15,7 @@ For email deliveries, you can define the elements and personalization conditions
 
 In general, Adobe Campaign allows you to:
 
-* Personalize the message format. [Learn more](defining-the-email-content.md#message-content)
+* Personalize the email format. [Learn more](email/defining-the-email-content.md#message-content)
 * Insert dynamic personalization fields. [Learn more](personalization-fields.md)
 * Insert predefined personalization blocks. [Learn more](personalization-blocks.md)
 * Create conditional content. [Learn more](conditional-content.md) section

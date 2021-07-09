@@ -337,7 +337,7 @@ The steps for setting up an external account using the Extended generic SMPP con
 
 ## Change the delivery template {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](about-templates.md) section.
+Adobe Campaign provides you with a template for delivering to mobiles. This template is available in the **[!UICONTROL Resources > Templates > Delivery templates]** node. For more on this, refer to the [About templates](../about-templates.md) section.
 
 To deliver via SMS channel, you must create a template in which the channel connector is referenced.
 

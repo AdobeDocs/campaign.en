@@ -48,7 +48,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 >[!NOTE]
 >
->Learn how to use personalization fields in [this section](about-personalization.md).
+>Learn how to use personalization fields in [this section](../about-personalization.md).
 
 You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
 
@@ -83,7 +83,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
   >
   >For privacy reasons, use HTTPS for all external resources.
   
-  The last button in the toolbar lets you insert personalization fields. [Learn more](about-personalization.md).
+  The last button in the toolbar lets you insert personalization fields. [Learn more](../about-personalization.md).
 
   The tabs at the bottom of the page let you display the HTML code of the page being created and view the rendering of the message with its personalization. To launch this display, click **[!UICONTROL Preview]** and select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined target(s) or choose another recipient.
 
@@ -171,9 +171,9 @@ Images can be:
 
 >[!CAUTION]
 >
->* To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../../../v7/installation/using/deploying-an-instance.md) for further information on configuration.
+>* To include images in the email messages using the delivery wizard, the Adobe Campaign instance must be configured to enable public resource management. This procedure can be performed from the deployment wizard. Refer to the [this section](../../../../v7/installation/using/deploying-an-instance.md) in Campaign Classic v7 documentation for further information on configuration.
 >
->* To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic options](../../../../v7/installation/using/configuring-campaign-options.md#delivery).
+>* To avoid performance issue, if you include images downloaded on the fly from a personalized URL as [attachment](attaching-files.md), each image size should not exceed 100,000 bytes by default. This recommended threshold can be configured from [the list of Campaign Classic v7 options](../../../../v7/installation/using/configuring-campaign-options.md#delivery).
 
 The delivery wizard lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 

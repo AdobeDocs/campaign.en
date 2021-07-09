@@ -9,7 +9,7 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create push notifications for iOS{#create-notifications-ios}
 
-This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](../comminication-channels.md).
+This section details the elements specific to the delivery of iOS notifications. Global concepts on delivery creation are presented in [this section](../communication-channels.md).
 
 Start by creating a new delivery.
 

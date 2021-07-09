@@ -45,7 +45,7 @@ To create an **email delivery**, you need to:
 1. Create a delivery from a DCE template - [Learn more](use-case--creating-an-email-delivery.md)
 1. Select an existing content or create content from a [standard template](template-management.md)
 1. Edit and configure online content
-1. Send the delivery - [Learn more](../../../common/delivery/using/comminication-channels.md)
+1. Send the delivery - [Learn more](../../../common/delivery/using/communication-channels.md)
 
 >[!NOTE]
 >
