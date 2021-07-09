@@ -116,6 +116,7 @@ type: Documentation
        + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
        + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
   + [Help & support options](support.md)
++ [Send messages](../common/delivery/using/communication-channels.md)
 + Marketing Resource Management {#mrm}
   + [About marketing resource management](mrm/using/about-marketing-resource-management.md)
   + [Create and manage tasks](mrm/using/creating-and-managing-tasks.md)
