@@ -166,7 +166,9 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 
 * **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
-  The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
+<!--
+The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
+-->
 
 ## Define advanced sending parameters {#delivery-additiona-parameters}
 
@@ -190,4 +192,4 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >Using this option is not advised when installing using mid-sourcing as to not call mta. For more on configuring an SMTP server, refer [to this section](../../../v7/installation/using/configure-delivery-settings.md).
 
-* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: This option lets you store emails on an external system through BCC by simply adding a BCC email address to your message target. For more on this, refer to [this section](email/sending-messages.md#archiving-emails).

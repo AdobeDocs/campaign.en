@@ -27,7 +27,9 @@ For example, you can deliver to visitors whose profiles have been collected via 
 
 These mappings are presented [in this section](selecting-a-target-mapping.md).
 
+<!--
 You can also create and use a customized target mapping. For more on this, refer to [this section](../../configuration/using/target-mapping.md).
+-->
 
 ## External recipients {#external-recipients}
 
@@ -65,4 +67,6 @@ Deduplicating addresses protects your sending reputation and ensures good quaran
 
 To optimize the performance of the SQL queries used in the application, an index can be declared from the main element of the data schema.
 
+<!--
 The steps for adding an index to the email address are presented [in this section](../../configuration/using/database-mapping.md#indexed-fields).
+-->

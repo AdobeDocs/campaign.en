@@ -85,7 +85,7 @@ You can:
 
 * For each IPAffinity element, declare the IP addresses that can be used. [Learn more](../../../v7/installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* In the [typology](../../campaign/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic).
+* In the [typology](../../../v7/campaign-opt/using/about-campaign-typologies.md) of your choice, use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) which manages the said affinity. [Learn more](../../../v7/campaign/using/applying-rules.md#control-outgoing-smtp-traffic) in Campaign Classic v7 documentation.
 
 * Once the email is sent, check the header to verify which IP address the delivery was sent from. Your email administrator should help you obtain the header information.
 
@@ -95,7 +95,11 @@ You can:
 
 ### Use typologies
 
-You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. Learn more [in this example](../../campaign/using/filtering-rules.md).
+You can use typology rules to exclude part of the target based on specific criteria. This guarantees that the messages sent best meet the needs and expectations of customers, in keeping with company communication policies. For example, you can filter the recipients who are underage from the target of your newsletter. 
+
+<!--
+Learn more [in this example](../../campaign/using/filtering-rules.md).
+-->
 
 ### Avoid attachments
 

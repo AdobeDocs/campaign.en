@@ -61,7 +61,7 @@ For more details on the different delivery failures you can encounter, and how t
   </tr> 
   <tr> 
    <td> Taken into account by the service provider<br /> </td> 
-   <td> The SMS service provider received the delivery.<br /> For hosted or hybrid installations, if you have upgraded to the <a href="sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>, the message was successfully relayed from Campaign to the Enhanced MTA.</td> 
+   <td> The SMS service provider received the delivery.<br /> For hosted or hybrid installations, if you have upgraded to the <a href="email/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a>, the message was successfully relayed from Campaign to the Enhanced MTA.</td> 
   </tr> 
   <tr> 
    <td> Received on mobile<br /> </td> 
