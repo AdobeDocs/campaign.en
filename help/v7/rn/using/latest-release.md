@@ -53,7 +53,7 @@ _June 5, 2021_
 <li><p>Support for LINE Partner Registration API</p></li>
 <li><p>Support retry of message sending in the event of LINE server-side error or network timeout</p></li>
 </ul>
-<p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
+<p>For more information refer to the <a href="../../../common/delivery/using/line-channel.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -188,7 +188,7 @@ Learn more in the [Deprecated and removed features page](../../rn/using/deprecat
 * Calculation of the Delivered indicator is now based on real-time feedback from the Enhanced MTA for improved accuracy and reactivity.
 * EFS solves the problem of delays with synchronous soft bounces reporting.
 
-For more information refer to the [detailed documentation](../../delivery/using/sending-with-enhanced-mta.md#efs).
+For more information refer to the [detailed documentation](../../../common/delivery/using/email/sending-with-enhanced-mta.md#efs).
 If you’re interested in participating in this private beta, fill out this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) and we’ll get back to you.
 
 **Other changes**
@@ -197,7 +197,7 @@ If you’re interested in participating in this private beta, fill out this [for
 * Workflow Heatmap has been improved to avoid timeouts when running workflows with multiple activities. (NEO-27423).
 * Fixed an issue which could allow an offer to be presented even if its end date was passed. Campaign Classic now takes into account the end date's whole timestamp rather that the date only. (NEO-27590)
 * The Google+ link has been removed from the **Social network sharing links** personalization block.
-* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../delivery/using/sms-protocol.md#skip-tls)
+* Fixed an issue after the implementation of a bug fix in the last release. A check was added on the hostname when connecting using SSL/TLS which led SMS deliveries to fail. Hostname verification has been disabled for most protocols such as POP3, SMS and HTTP with proxy and the certificate check for the SMS external account has been improved with three values (NEO-29581). [Learn more](../../../common/delivery/using/sms/sms-protocol.md#skip-tls)
 
 **Patches**
 

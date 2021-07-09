@@ -34,7 +34,7 @@ The **[!UICONTROL Browsing]** block of the **[!UICONTROL Campaigns]** tab offers
 >
 >For more on the overall Adobe Campaign ergonomics, permissions and on profile management functionalities, refer to [this section](../../../v7/platform/using/adobe-campaign-workspace.md).
 >
->All functionalities related to channels and deliveries are detailed in [this section](../../../v7/delivery/using/steps-about-delivery-creation-steps.md).
+>All functionalities related to channels and deliveries are detailed in [this section](../../../common/delivery/using/communication-channels.md).
 
 ### Campaign calendar {#campaign-calendar}
 
@@ -138,7 +138,7 @@ Campaigns are created via campaign templates. You can configure reusable templat
 * Referencing of documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. See [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents). 
 * Defining costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. See [Defining cost categories](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories).
 * Defining objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Managing seed addresses (for more on this, refer to [this section](../../../v7/delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
+* Managing seed addresses (for more on this, refer to [this section](../../../common/delivery/using/about-seed-addresses.md)) and control groups (refer to [Defining a control group](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)).
 * Managing approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. See [Checking and approving deliveries](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]

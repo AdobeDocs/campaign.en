@@ -48,15 +48,15 @@ Customers are advised to review if they make use of the feature/capability in th
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../delivery/using/sms-channel.md">Learn more</a></p> 
-  <p>Learn how to migrate legacy connectors in <a href="../../delivery/using/unsupported-connector-migration.md">this technote</a>.</p>
+  <p>If you are using one of these connectors, you need to adapt your implementation accordingly. <a href="../../../common/delivery/using/sms/sms.md">Learn more</a></p> 
+  <p>Learn how to migrate legacy connectors in <a href="../../../common/delivery/using/unsupported-connector-migration.md">this technote</a>.</p>
   <p><em>Target removal date: 2021</em></p>
   </td> 
  </tr>
   <tr>  
    <td>Fax channel<br></td>
    <td><p>Starting Campaign 20.2 release, the Fax channel is deprecated.</p> 
-   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../delivery/using/steps-about-delivery-creation-steps.md">Learn more</a> about Campaign channels.</p>
+   <p>If you are using this channel, you need to adapt your implementation accordingly. <a href="../../../common/delivery/using/communication-channels.md">Learn more</a> about Campaign channels.</p>
    <p><em>Target removal date: 2021</em></p></td>
   </tr>
  </tbody> 
@@ -103,11 +103,11 @@ This section lists features and capabilities that have been removed from Campaig
   </tr> 
    <tr> 
    <td>Mobile channel - MMS and WAP Push messages</td>
-   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../delivery/using/sms-channel.md">SMS</a> and <a href="../../delivery/using/about-mobile-app-channel.md">Push</a> deliveries.</td>
+   <td>Starting Campaign 18.4 release, MMS and Wap Push channels are no longer available. As a replacement, you can leverage <a href="../../../common/delivery/using/sms/sms.md">SMS</a> and <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Push</a> deliveries.</td>
   </tr> 
    <tr> 
    <td>Mobile channel - LINE v1</td>
-   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../delivery/using/line-channel.md">Learn more</a></td>
+   <td>Starting Campaign 18.4 release, LINE Connect package is no longer available. Adobe recommends using the new LINE Channel package as a replacement. <a href="../../../common/delivery/using/line-channel.md">Learn more</a></td>
   </tr> 
  </tbody> 
 </table>

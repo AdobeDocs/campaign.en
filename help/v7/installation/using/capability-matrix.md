@@ -23,13 +23,13 @@ The different hosting models are introduced [in this section](../../installation
 | Email BCC | On-demand | On-demand | Available |  [Learn more](../../installation/using/email-archiving.md)|
 | Manage Message Center execution instance | On-demand | On-demand | Available | [Learn more](../../message-center/using/about-transactional-messaging.md) | 
 | Managing Mid-sourcing platform | On-demand | On-demand | Available | [Learn more](../../installation/using/mid-sourcing-server.md) |
-| Inbox rendering via Litmus | On-demand | On-demand | Available | [Learn more](../../delivery/using/inbox-rendering.md) |
+| Inbox rendering via Litmus | On-demand | On-demand | Available | [Learn more](../../../common/delivery/using/inbox-rendering.md) |
 | Integrating with IMS (Adobe ID) | On-demand | On-demand | On-demand | [Learn more](../../../v7/installation/using/about-adobe-id.md)                    |
 | Encrypting/Decrypting data for file transfers | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Zipping/Unzipping files | On-demand | Available | Available | [Learn more](../../platform/using/unzip-decrypt.md) |
 | Domain Name Delegation | On-demand | On-demand | Not available | [Learn more](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html) |
-| Installing SpamAssassin | On-demand | Available | Available | [Learn more](../../delivery/using/spamassassin.md) |
-| Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../delivery/using/monitoring-deliverability.md)|
+| Installing SpamAssassin | On-demand | Available | Available | [Learn more](../../../common/delivery/using/spamassassin.md) |
+| Accessing deliverability reports | Available | On-demand | Available | [Learn more](../../../common/delivery/using/monitoring-deliverability.md)|
 | Configuring LDAP authentication | Not Available | Available | Available | [Learn more](../../installation/using/connecting-through-ldap.md) |
 
 

@@ -108,7 +108,7 @@ To activate the proxy mode, the following change must be done in the `serverconf
 <nmac useHTTPProxy="true">
 ```
 
-For more information on this iOS HTTP/2 connector, refer to this [page](../../delivery/using/about-mobile-app-channel.md).
+For more information on this iOS HTTP/2 connector, refer to this [page](../../../common/delivery/using/push/about-mobile-app-channel.md).
 
 ## Manage public resources {#managing-public-resources}
 

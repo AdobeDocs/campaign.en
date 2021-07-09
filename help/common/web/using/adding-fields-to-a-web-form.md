@@ -306,7 +306,7 @@ Indicate the label for the checkbox and select the information service concerned
 
 >[!NOTE]
 >
->Information services are detailed in [this page](../../../v7/delivery/using/managing-subscriptions.md).
+>Information services are detailed in [this page](../../../common/delivery/using/managing-subscriptions.md).
 
 The user subscribes to the service by checking the relevant option.
 

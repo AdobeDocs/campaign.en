@@ -42,7 +42,7 @@ You can use a workflow to exclude duplicate from the target of a delivery, to av
 
 ## How to identify and target subscribers to a newsletter? {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
-Discover subscription management in Campaign and learn how to [send a message to subscribers](../../delivery/using/managing-subscriptions.md).
+Discover subscription management in Campaign and learn how to [send a message to subscribers](../../../common/delivery/using/managing-subscriptions.md).
 
 ## What is the best practice to exclude profiles from a target population? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 

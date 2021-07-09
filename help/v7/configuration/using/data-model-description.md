@@ -99,7 +99,7 @@ The tree is managed by the iParentId and iChildCount fields. The sFullName field
 
 ## Delivery and tracking {#delivery-and-tracking}
 
-This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../delivery/using/about-delivery-monitoring.md). For more on tracking, see [Tracking messages](../../delivery/using/about-message-tracking.md).
+This set of tables is linked to the **Delivery** module, which allows to monitor deliveries and eventual issues encountered when messages are sent. For more on this, see [Monitoring deliveries](../../../common/delivery/using/about-delivery-monitoring.md). For more on tracking, see [Tracking messages](../../../common/delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
@@ -243,7 +243,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## NMAC Module {#nmac-module}
 
-This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps. For more on this, see [About mobile app channel](../../delivery/using/about-mobile-app-channel.md).
+This set of tables is linked to the **Mobile App Channel**, which allows to send personalized notifications to iOS and Android terminals via apps. For more on this, see [About mobile app channel](../../../common/delivery/using/push/about-mobile-app-channel.md).
 
 * **NmsMobileApp**: This table matches the **nms:mobileApp** schema. It contains the mobile applications defined in Adobe Campaign.
 * **NmsAppSubscription**: This table matches the **nms:appSubscription** schema. It contains the subscribers information regarding one or more applications.

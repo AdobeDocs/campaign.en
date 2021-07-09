@@ -21,7 +21,7 @@ To do this, .eml files corresponding to the sent emails are transferred to a rem
 * For **hosted and hybrid architectures**, contact your account executive to activate it. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
 * For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
 * You can only use one BCC email address.
-* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Email BCC]** option. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Email BCC]** option. For more on this, see [this section](../../../common/delivery/using/email/sending-messages.md#archiving-emails).
 * Only successfully sent emails are taken in account, bounces are not.
 * The email archiving system changed with Adobe Campaign 17.2 (build 8795). If you were already using email archiving, you must upgrade manually to the new email BCC system. For more on this, see the [Moving to the new Email BCC](#updated-email-archiving-system--bcc-) section.
 
@@ -127,7 +127,7 @@ To do this, make the following changes to the **`config-<instance>.xml`** file:
 1. Set the **compressionFormat** parameter to **1** if needed.
 1. Set the **archivingType** parameter to **1**.
 
-Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../../common/delivery/using/email/sending-messages.md#archiving-emails).
 
 ## Email BCC best practices {#best-practices}
 

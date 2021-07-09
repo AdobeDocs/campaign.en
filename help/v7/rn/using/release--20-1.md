@@ -132,7 +132,7 @@ _February 17, 2020_
 
 * The robustness of the connection pool has been improved, which may prevent unexpected connection failures from happening too often.
 
-* The email address validation rules to send an address to quarantine in case of a soft error have been enhanced. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+* The email address validation rules to send an address to quarantine in case of a soft error have been enhanced. [Read more](../../../common/delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 * For Debian, Campaign now uses system PCRE libraries when they are available.
 

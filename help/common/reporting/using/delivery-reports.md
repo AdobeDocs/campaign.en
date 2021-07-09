@@ -60,7 +60,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on unsubscription links and mirror pages are taken into account. 
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../../v7/delivery/using/about-delivery-monitoring.md). 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../../common/delivery/using/about-delivery-monitoring.md). 
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]
@@ -151,7 +151,7 @@ This report provides all the main information on the delivery.
 This section has two indicators:
 
 * **[!UICONTROL Initial population]** : Total number of recipients targeted by the delivery. 
-* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, on denylist, etc. For more information on typology rules, refer to this [page](../../../v7/delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, on denylist, etc. For more information on typology rules, refer to this [page](../../../common/delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
 
 **[!UICONTROL Causes of exclusion]**
 

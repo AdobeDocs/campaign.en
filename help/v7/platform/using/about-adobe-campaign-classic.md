@@ -47,7 +47,7 @@ Adobe Campaign lets you design and orchestrate targeted and personalized campaig
 
 ### Personalization and real-time interaction {#personalization-and-real-time-interaction}
 
-Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../mrm/using/about-marketing-resource-management.md).
+Attract your customers' attention and improve response rates thanks to the advanced personalization of message content and headers based on customer profiles and preferences. For more on message content management and personalization, refer to [this page](../../../common/delivery/using/about-personalization.md). Collaborative management of content, notification and approval circuits are detailed in [this section](../../mrm/using/about-marketing-resource-management.md).
 
 ### Analysis and reporting {#analysis-and-reporting}
 
@@ -63,7 +63,7 @@ Adobe Campaign offers a set of capabilities to help you implementing and optimiz
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Channels](../../../common/delivery/using/communication-channels.md) - design and send deliveries on various channels: email, SMS, LINE, mobile app, direct mail,
 * [Campaign](../../../common/campaign/using/designing-marketing-campaigns.md) - orchestrate cross-channel campaigns,
 * [MRM](../../mrm/using/about-marketing-resource-management.md) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,
@@ -72,7 +72,7 @@ The following capabilities are available. Depending on your license agreement, s
 * [Workflow](../../../common/workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../../common/web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
-* [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
+* [Content Manager](../../../common/delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](../../distributed/using/about-distributed-marketing.md) - coordinate campaigns for central/local agencies,
 * [Response Manager](../../response/using/about-response-manager.md) - manage customer response,
 * [Connectors](../../platform/using/about-connectors.md) - use connectors to communicate with external solutions and database engines,

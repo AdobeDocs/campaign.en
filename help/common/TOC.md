@@ -12,6 +12,133 @@ type: Documentation
 # Adobe Campaign COMMON documentation {#common}
 
 + [Campaign Common documentation](campaign-common-home.md)
++ Create and send deliveries {#create-deliveries}
+     + [Get started with deliveries](delivery/using/communication-channels.md)
+     + [Create your first delivery](delivery/using/steps-create-and-identify-the-delivery.md)
+     + [Define the audience](delivery/using/steps-defining-the-target-population.md)
+     + [Validate the delivery](delivery/using/steps-validating-the-delivery.md)
+     + [Send the delivery](delivery/using/steps-sending-the-delivery.md)
+     + Delivery best practices {#delivery-bestpractices}
+          + [Learn good practices](delivery/using/delivery-best-practices.md)
+          + [Optimize delivery](delivery/using/optimize-delivery.md)
+          + [Use templates](delivery/using/use-templates.md)
+          + [Build personalized content](delivery/using/design-and-personalize.md)
+          + [Define the right audience](delivery/using/define-the-right-audience.md)
+          + [Check before sending](delivery/using/check-before-sending.md)
+          + [Track and monitor](delivery/using/track-and-monitor.md)
+     + Channels{#channels}
+          + Email channel {#email-channel}
+               + [Get started with emails](delivery/using/email/email.md)
+               + [Create an email delivery](delivery/using/email/creating-an-email-delivery.md)
+               + [Define the email content](delivery/using/email/defining-the-email-content.md)
+               + [Define interactive content](delivery/using/email/defining-interactive-content.md)
+               + Send the email delivery {#sending-an-email}
+                    + [Key steps to send an email](delivery/using/email/sending-messages.md)
+                    + [Email parameters](delivery/using/email/email-parameters.md)
+                    + [Send with the Enhanced MTA](delivery/using/email/sending-with-enhanced-mta.md)
+                    + [Send on Japanese mobiles](delivery/using/email/sending-emails-on-japanese-mobiles.md)
+               + [Attach files](delivery/using/email/attaching-files.md)
+          + SMS channel {#sms-channel}
+               + [Get started with SMS](delivery/using/sms/sms.md)
+               + [Configure SMS channel](delivery/using/sms/sms-set-up.md)
+               + [Create a SMS](delivery/using/sms/sms-create.md)
+               + [Send and track SMS](delivery/using/sms/sms-send.md)
+               + [SMS connector protocol and settings](delivery/using/sms/sms-protocol.md)
+               + [SMS troubleshooting](delivery/using/sms/troubleshooting-sms.md)
+               + [Migrate to the SMPP connector](delivery/using/sms/unsupported-connector-migration.md)
+          + Mobile app channel {#push-channel}
+               + [Get started with push notifications](delivery/using/push/push.md)
+               + [Configure mobile app channel](delivery/using/push/about-mobile-app-channel.md)
+               + [Integrate Campaign SDK into the mobile application](delivery/using/push/integrating-campaign-sdk-into-the-mobile-application.md)
+               + Configure the mobile application{#configure-the-mobile-app}
+                    + [Get started with the app configuration](delivery/using/push/get-started-app-config.md)
+                    + [Configuration steps for iOS](delivery/using/push/configuring-the-mobile-application.md)
+                    + [Configuration steps for Android](delivery/using/push/configuring-the-mobile-application-android.md)
+               + Create a push notification{#create-a-push-msg}
+                    + [Create a push message for iOS](delivery/using/push/create-notifications-ios.md)
+                    + [Create a push message for Android](delivery/using/push/create-notifications-android.md)
+               + [Troubleshooting](delivery/using/push/troubleshooting.md)
+          + [LINE channel](delivery/using/line-channel.md)
+          + Direct mail channel {#direct-mail-channel}
+               + [Get started with direct mail channel](delivery/using/direct/about-direct-mail-channel.md)
+               + [Create a direct mail delivery](delivery/using/direct/creating-a-direct-mail-delivery.md)
+               + [Define the direct mail content](delivery/using/direct/defining-the-direct-mail-content.md)
+               + [Validate data extraction](delivery/using/direct/validating.md)
+     + Use delivery templates {#using-delivery-templates}
+          + [About templates](delivery/using/about-templates.md)
+          + [Create a delivery template](delivery/using/creating-a-delivery-template.md)
+          + [Change the target mapping](delivery/using/selecting-a-target-mapping.md)
+          + [Create a delivery from a template](delivery/using/creating-a-delivery-from-a-template.md)
+     + Personalize deliveries {#personalizing-deliveries}
+          + [Get started with personalization](delivery/using/about-personalization.md)
+          + [Personalization fields](delivery/using/personalization-fields.md)
+          + [Personalization blocks](delivery/using/personalization-blocks.md)
+          + [Conditional content](delivery/using/conditional-content.md)
+          + [Personalized coupons](delivery/using/personalized-coupons.md)
+          + [Generate personalized PDF documents](delivery/using/generating-personalized-pdf-documents.md)
+          + [Customize the emoticon list](delivery/using/customizing-emoticon-list.md)
+     + Use seed addresses {#using-seed-addresses}
+          + [Get started with seed addresses](delivery/using/about-seed-addresses.md)
+          + [Create seed addresses](delivery/using/creating-seed-addresses.md)
+          + [Add seed addresses](delivery/using/adding-seed-addresses.md)
+          + [Seed addresses with an external recipient table](delivery/using/using-an-external-recipient-table.md)
+          + [Use case: select seed addresses on criteria](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+          + [Use case: configure the field substitution](delivery/using/use-case--configuring-the-field-substitution.md)
+     + A/B testing {#a-b-testing}
+          + [Get started with A/B testing](delivery/using/get-started-a-b-testing.md)
+          + [Configure A/B testing](delivery/using/configuring-a-b-testing.md)
+          + Use case {#use-case}
+               + [About this use case](delivery/using/a-b-testing-use-case.md)
+               + [Create a targeting workflow](delivery/using/a-b-testing-uc-targeting-workflow.md)
+               + [Configure population samples](delivery/using/a-b-testing-uc-population-samples.md)
+               + [Create the delivery templates](delivery/using/a-b-testing-uc-delivery-templates.md)
+               + [Configure the deliveries](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+               + [Create the script](delivery/using/a-b-testing-uc-script.md)
+               + [Define the final delivery](delivery/using/a-b-testing-uc-final-delivery.md)
+               + [Start the workflow](delivery/using/a-b-testing-uc-start-workflow.md)
+               + [Analyze the result](delivery/using/a-b-testing-uc-analyzing.md)
+  + Services and subscriptions {#subscriptions-and-referrals}
+       + [Get started with services and subscriptions](delivery/using/about-services-and-subscriptions.md)
+       + [Manage subscriptions](delivery/using/managing-subscriptions.md)
+       + [Viral and social marketing](delivery/using/viral-and-social-marketing.md)
+  + Monitor deliveries {#monitoring-deliveries}
+       + [Get started with delivery monitoring](delivery/using/about-delivery-monitoring.md)     
+       + [Access the list of deliveries](delivery/using/list-of-deliveries.md)     
+       + [Delivery dashboard](delivery/using/delivery-dashboard.md)
+       + [Delivery performances best practices](delivery/using/delivery-performances.md)
+       + [Delivery troubleshooting](delivery/using/delivery-troubleshooting.md)
+       + [Delivery statuses](delivery/using/delivery-statuses.md)
+       + [Understand delivery failures](delivery/using/understanding-delivery-failures.md)
+       + [Update bounce qualification after an ISP outage](delivery/using/update-bounce-qualification.md)
+       + [Understand quarantine management](delivery/using/understanding-quarantine-management.md)
+  + Track messages {#tracking-messages}
+       + [Get started with tracking](delivery/using/about-message-tracking.md)
+       + [How to configure tracked links](delivery/using/how-to-configure-tracked-links.md)
+       + Track personalized links {#tracking-personalized-links}
+          + [Get started with personalized links tracking](delivery/using/tracking-personalized-links.md)
+          + [Detect tracking URLs](delivery/using/detecting-tracking-urls.md)
+          + [Pre-processing instructions for tracking](delivery/using/pre-processing-instructions.md)
+       + [Configure URL tracking options](delivery/using/personalizing-url-tracking.md)
+       + [Access the tracking logs](delivery/using/accessing-the-tracking-logs.md)
+       + [Test tracking](delivery/using/testing-tracking.md)
+       + [Tracking troubleshooting](delivery/using/tracking-troubleshooting.md)
+  + Deliverability management {#deliverability-management}
+       + [Get started with deliverability](delivery/using/about-deliverability.md)
+       + [Control message content](delivery/using/control-message-content.md)
+       + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
+       + [Inbox rendering](delivery/using/inbox-rendering.md)
+       + [SpamAssassin](delivery/using/spamassassin.md)
+       + [Troubleshooting](delivery/using/deliverability-faq.md)
+  + Content management module {#content-management}
+       + [About content management](delivery/using/about-content-management.md)
+       + [Use case: creating content management](delivery/using/use-case--creating-content-management.md)
+       + [Data schemas](delivery/using/data-schemas.md)
+       + [Input forms](delivery/using/input-forms.md)
+       + [Formatting](delivery/using/formatting.md)
+       + [Publication templates](delivery/using/publication-templates.md)
+       + [Use a content template](delivery/using/using-a-content-template.md)
+       + [Enrich content](delivery/using/enriching-content.md)
+       + [Automate via workflows](delivery/using/automating-via-workflows.md)
 + Orchestrate marketing campaigns {#orchestrating-campaigns}
   + About marketing campaigns {#about-marketing-campaigns}
        + [Design marketing campaigns](campaign/using/designing-marketing-campaigns.md)

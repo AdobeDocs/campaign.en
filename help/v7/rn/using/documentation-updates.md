@@ -21,7 +21,7 @@ The **Transactional Messaging** section has been reorganized an clarified with a
 
 Integration with Adobe Journey Orchestration - [Learn more](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html). A step-by-step use case is presented in [this page](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)
 
-LINE channel enhancements - [Learn more](../../delivery/using/line-channel.md)
+LINE channel enhancements - [Learn more](../../../common/delivery/using/line-channel.md)
 
 New Vertica FDA connector - [Learn more](../../installation/using/configure-fda-vertica.md)
 
@@ -43,11 +43,11 @@ A new technote has been created about the Tracked URLs signature issue. [Read mo
 
 A new section has been on how to work with Adobe Experience Platform Sources and Destinations to share data between Campaign Classic and Adobe Real-time Customer Data Platform (RTCDP). [Read more](../../../common/integrations/using/get-started-sources-destinations.md)
 
-A new technote has been created to learn how to update bounce qualification after an ISP outage. [Read more](../../delivery/using/update-bounce-qualification.md)
+A new technote has been created to learn how to update bounce qualification after an ISP outage. [Read more](../../../common/delivery/using/update-bounce-qualification.md)
 
 ## March 2021 {#march-2021}
 
-The [Get started with SMS section](../../delivery/using/sms-channel.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../delivery/using/sms-set-up.md), [create a SMS](../../delivery/using/sms-create.md), [send and track SMS](../../delivery/using/sms-send.md) in dedicated sections.
+The [Get started with SMS section](../../../common/delivery/using/sms/sms.md) has been reorganized and improved. You can now learn how to [configure the SMS channel](../../../common/delivery/using/sms/sms-set-up.md), [create a SMS](../../../common/delivery/using/sms/sms-create.md), [send and track SMS](../../../common/delivery/using/sms/sms-send.md) in dedicated sections.
 
 The "Help & support options" page for Campaign Classic has been integrated into the core documentation. [Read more](../../support.md)
 
@@ -64,33 +64,33 @@ Learn how to create and manage your campaigns through these new pages:
 
 Information has been added in the **[!UICONTROL Advanced JavaScript]** activity section on how to use the task.setCompleted() method to terminate the task and prevent future recalls. [Read more](../../../common/workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-The [Deliverability](../../delivery/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+The [Deliverability](../../../common/delivery/using/about-deliverability.md) section has been updated and now includes links to the new [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). All generic information related to deliverability that can apply to various Adobe solutions has been moved to the [Best Practice Guide Appendix](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## February 2021 {#release-21.1}
 
 **Documentation updates coming with the 21.1 release**
 
-The new **Email Feedback Service** capability (private beta) is documented [here](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service).
+The new **Email Feedback Service** capability (private beta) is documented [here](../../../common/delivery/using/email/sending-with-enhanced-mta.md#email-feedback-service).
 
 The **Server configuration file** section has been updated with the configuration parameters needed for Campaign to connect to another service using IMS. [Read more](../../installation/using/the-server-configuration-file.md#ims)
 
-In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../../common/delivery/using/email/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../../common/delivery/using/delivery-statuses.md#list-delivery-statuses)
 
 The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **Other updates**
 
-A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../delivery/using/get-started-a-b-testing.md)
+A new section has been added with detailed information on how to perform A/B testing using workflows. [Read more](../../../common/delivery/using/get-started-a-b-testing.md)
 
-The Adobe Campaign Enhanced MTA section has moved [here](../../delivery/using/sending-with-enhanced-mta.md).
+The Adobe Campaign Enhanced MTA section has moved [here](../../../common/delivery/using/email/sending-with-enhanced-mta.md).
 
-A new page has been added to provide an overview of tracking capabilities in [!DNL Campaign Classic]. [Read more](../../delivery/using/about-message-tracking.md)
+A new page has been added to provide an overview of tracking capabilities in [!DNL Campaign Classic]. [Read more](../../../common/delivery/using/about-message-tracking.md)
 
-A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../delivery/using/tracking-troubleshooting.md)
+A troubleshooting section has been added to help you solve common issues related to tracking. [Read more](../../../common/delivery/using/tracking-troubleshooting.md)
 
-The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../delivery/using/sending-messages.md)
+The **Sending an email** section has been reorganized and clarified with new subsections. [Read more](../../../common/delivery/using/email/sending-messages.md)
 
-Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../delivery/using/tracking-personalized-links.md).
+Information has been added on how to add links in emails that can be personalized and that support tracking. [Read more](../../../common/delivery/using/tracking-personalized-links.md).
 
 ## January 2021 {#jan-2021}
 
@@ -112,15 +112,15 @@ A new **Importing and exporting data** section is available with new pages relat
 
 ## December 2020 {#dec-2020}
 
-The **Delivery monitoring** section has been reorganized into thematic topics. [Read more](../../delivery/using/about-delivery-monitoring.md)
+The **Delivery monitoring** section has been reorganized into thematic topics. [Read more](../../../common/delivery/using/about-delivery-monitoring.md)
 
-A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../delivery/using/delivery-dashboard.md#use-case)
+A use case has been added on how to add senders' IP addresses to the delivery logs. [Read more](../../../common/delivery/using/delivery-dashboard.md#use-case)
 
 Privacy FAQ has been moved to [this section](../../platform/using/privacy-faq.md).
 
 A use case has been added on how to use the **[!UICONTROL Deduplication]** activity's merge functionality. [Read more](../../../common/workflow/using/deduplication-merge.md)
 
-The complete description of SMS connector protocol and settings page is now available [here](../../delivery/using/sms-protocol.md).
+The complete description of SMS connector protocol and settings page is now available [here](../../../common/delivery/using/sms/sms-protocol.md).
 
 A note has been added to the **Transactional messaging** section to warn that the event folders must not be set as views on the execution instances, to avoid access right issues. [Read more](../../message-center/using/about-event-processing.md#event-collection)
 
@@ -148,9 +148,9 @@ A new section listing Frequently Asked Questions on Privacy has been added. [Rea
 
 **New capabilities included in 20.3 release**
 
-Push notifications improvements for iOS - [Read more](../../delivery/using/configuring-the-mobile-application.md)
+Push notifications improvements for iOS - [Read more](../../../common/delivery/using/push/configuring-the-mobile-application.md)
 
-Push notifications improvements for Android - [Read more](../../delivery/using/configuring-the-mobile-application-android.md)
+Push notifications improvements for Android - [Read more](../../../common/delivery/using/push/configuring-the-mobile-application-android.md)
 
 **Other documentation updates coming with the release**
 
@@ -189,13 +189,13 @@ A note has been added to specify that Active profiles count is available for Mar
 
 A new sample about schema edition has been added to link a field to an existing reference table. [Read more](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
-A note has been added regarding the use of additional data with seed addresses in deliveries. [Read more](../../delivery/using/creating-seed-addresses.md#defining-addresses)
+A note has been added regarding the use of additional data with seed addresses in deliveries. [Read more](../../../common/delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## August 2020 {#aug-2020}
 
-Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../delivery/using/delivery-best-practices.md)
+Learn best practices related to delivery design and sending with Campaign in a dedicated section. [Read more](../../../common/delivery/using/delivery-best-practices.md)
 
-The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../delivery/using/about-deliverability.md)
+The Deliverability best practices landing page has been improved to facilitate access to sub-sections. [Read more](../../../common/delivery/using/about-deliverability.md)
 
 How-to videos are now available on the following topics:
 
@@ -203,17 +203,17 @@ How-to videos are now available on the following topics:
 
 * [How to create an email in a campaign](../../../common/campaign/using/marketing-campaign-deliveries.md)
 
-* [How to create a multilingual newsletter with conditional content](../../delivery/using/conditional-content.md)
+* [How to create a multilingual newsletter with conditional content](../../../common/delivery/using/conditional-content.md)
 
-* [How to configure and deploy a delivery template](../../delivery/using/creating-a-delivery-template.md)
+* [How to configure and deploy a delivery template](../../../common/delivery/using/creating-a-delivery-template.md)
 
-* [How to activate and use AMP for emails](../../delivery/using/defining-interactive-content.md)
+* [How to activate and use AMP for emails](../../../common/delivery/using/email/defining-interactive-content.md)
 
-* [How to personalize emails using dynamic content blocks](../../delivery/using/personalization-blocks.md)
+* [How to personalize emails using dynamic content blocks](../../../common/delivery/using/personalization-blocks.md)
 
-* [How to personalize emails using personalization fields](../../delivery/using/personalization-fields.md)
+* [How to personalize emails using personalization fields](../../../common/delivery/using/personalization-fields.md)
 
-* [How to manage seed and proofs in an email](../../delivery/using/steps-defining-the-target-population.md)
+* [How to manage seed and proofs in an email](../../../common/delivery/using/steps-defining-the-target-population.md)
 
 * [How to set up a recurring delivery](../../../common/workflow/using/recurring-delivery.md)
 
@@ -250,7 +250,7 @@ Best practices have been added in the **[!UICONTROL Scheduler]** activity sectio
 
 ## June 2020 {#june-2020}
 
-The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+The Removing a quarantined address section has been updated. This includes clarification of the cases in which addresses are automatically removed from the quarantine list. [Read more](../../../common/delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 Use cases have been added on how to [encrypt](../../platform/using/zip-encrypt.md) and [decrypt](../../platform/using/unzip-decrypt.md) data using Control Panel and Campaign workflows.
 
@@ -260,7 +260,7 @@ The Experience Cloud Triggers and Adobe Campaign Classic integration page has be
 
 **New capabilities included in 20.2 release**
 
-Support of Emoticons - [Read more](../../delivery/using/customizing-emoticon-list.md)
+Support of Emoticons - [Read more](../../../common/delivery/using/customizing-emoticon-list.md)
 
 Azure Synapse FDA Connector - [Read more](../../installation/using/configure-fda-synapse.md)
 
@@ -272,9 +272,9 @@ The new option enabling to unpublish a transactional message template is documen
 
 The new options allowing to set limitations when sending emails that include images downloaded from a personalized URL and attachments have been added to the list of Campaign Classic options. [Read more](../../installation/using/configuring-campaign-options.md#delivery)
 
-The new **Prepare the delivery parts in the database** option is documented in [this section](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
+The new **Prepare the delivery parts in the database** option is documented in [this section](../../../common/delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis).
 
-The Validating the delivery section has been clarified and updated. [Read more](../../delivery/using/steps-validating-the-delivery.md)
+The Validating the delivery section has been clarified and updated. [Read more](../../../common/delivery/using/steps-validating-the-delivery.md)
 
 The parameters related to the new tracking link signature mechanism have been added to the [Server configuration file](../../installation/using/the-server-configuration-file.md) section.
 
@@ -290,9 +290,9 @@ The section on duplicating environments has been updated. [Learn more](../../pro
 
 ## May 2020 {#may-2020}
 
-The Monitoring deliverability section has been moved and improved. [Read more](../../delivery/using/monitoring-deliverability.md)
+The Monitoring deliverability section has been moved and improved. [Read more](../../../common/delivery/using/monitoring-deliverability.md)
 
-The Deliverability troubleshooting section has been moved and improved. [Read more](../../delivery/using/deliverability-faq.md)
+The Deliverability troubleshooting section has been moved and improved. [Read more](../../../common/delivery/using/deliverability-faq.md)
 
 Deliverability guidelines when starting a new platform have been enhanced. [Read more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process)
 
@@ -312,7 +312,7 @@ The section describing the Adobe Campaign built-in data model has been updated w
 
 Workflow use cases have been updated and reorganized into thematic sections. [Read more](../../../common/workflow/using/about-workflow-use-cases.md)
 
-The [Bounce mail qualification](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
+The [Bounce mail qualification](../../../common/delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) and [Email management rules](../../../common/delivery/using/understanding-delivery-failures.md#email-management-rules) sections have been enhanced with updated information.
 
 The Adobe Campaign Enhanced MTA article has been updated. It now only applies to Campaign Classic. [Read more](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
@@ -338,7 +338,7 @@ A new section is available about Technical email configurations. [Read more](../
 
 The Deliverability FAQ has been updated with more details on the "quotas met" error message. [Read more](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-AMP for Email is now supported by new email providers: the related documentation has been updated. [Read more](../../delivery/using/defining-interactive-content.md)
+AMP for Email is now supported by new email providers: the related documentation has been updated. [Read more](../../../common/delivery/using/email/defining-interactive-content.md)
 
 The Email archiving section has been improved. [Read more](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
@@ -368,7 +368,7 @@ Information has been added on the new option that allows you to define a time-ou
 
 Information has been added on the new **[!UICONTROL Start Pending]** view available in the **[!UICONTROL Administration]** > **[!UICONTROL Audit]** > **[!UICONTROL Workflows Status]** node. [Read more](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
-The [Sending push notifications](../../delivery/using/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
+The [Sending push notifications](../../../common/delivery/using/push/about-mobile-app-channel.md) guide has been moved, reorganized and improved with clarified information.
 
 The new parameter for URLs report configuration has been documented [here](../../../common/reporting/using/properties-of-the-report.md#defining-additional-settings).
 
@@ -380,11 +380,11 @@ The new **[!UICONTROL Cleanup of Nmsaddress]** workflow has been documented [her
 
 A limitation has been added when using a query activity in a workflow. [Read more](../../../common/workflow/using/query.md).
 
-A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../delivery/using/understanding-quarantine-management.md#soft-error-management)
+A new section has been added to detail the enhanced email address validation rules to send an address to quarantine in case of soft error. [Read more](../../../common/delivery/using/understanding-quarantine-management.md#soft-error-management)
 
 The parameter from the configuration file indicating that an instance is using the Enhanced MTA or not is now documented. [Read more](../../installation/using/the-server-configuration-file.md#mta)
 
-The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../delivery/using/about-deliverability.md)
+The Deliverability section has been moved, reorganized, and enhanced with updated content. [Read more](../../../common/delivery/using/about-deliverability.md)
 
 A new section describing the Adobe Campaign Classic data model basics and how to access the description of each table is now available. [Read more](../../configuration/using/about-data-model.md)
 
@@ -408,13 +408,13 @@ The "WdbcOptions_TempDbName" option has been added to the list of Campaign optio
 
 The FDA matrix page has been moved [here](../../installation/using/remote-database-access-rights.md).
 
-The section describing how to define interactive content with AMP has been moved. [Read more](../../delivery/using/defining-interactive-content.md)
+The section describing how to define interactive content with AMP has been moved. [Read more](../../../common/delivery/using/email/defining-interactive-content.md)
 
 **New capabilities included in 19.2 release**
 
 California Consumer Privacy Act (CCPA) - [Read more](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-Interactive content with AMP - [Read more](../../delivery/using/defining-interactive-content.md)
+Interactive content with AMP - [Read more](../../../common/delivery/using/email/defining-interactive-content.md)
 
 Workflow live monitoring - [Read more](../../../common/workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -430,7 +430,7 @@ The new "NmsOperation_DeliveryPreparationWindow" and "WdbcKillSessionPolicy" opt
 
 A new document describing the Adobe Campaign Classic data model basics is now available. [Read more](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)
 
-The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../delivery/using/personalization-fields.md#timing-out-personalization).
+The new **Maximum personalization run time** option in the delivery properties is documented in this [section](../../../common/delivery/using/personalization-fields.md#timing-out-personalization).
 
 The examples for API calls using an **HttpServletRequest** with logon() and query() have been updated. [Read more](../../configuration/using/web-service-calls.md).
 
@@ -442,15 +442,15 @@ The integration between Adobe Campaign and Adobe Real-time Customer Data Platfor
 
 A warning has been added to the [Multiplexing the mid-sourcing server](../../installation/using/mid-sourcing-server.md#multiplexing-the-mid-sourcing-server) and [Supporting several control instances](../../message-center/using/transactional-messaging-architecture.md#supporting-several-control-instances) sections mentioning that these deployments are not supported for fully hosted and hybrid clients.
 
-A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../delivery/using/sending-messages.md#character-encoding)
+A new section has been added to describe how to force the character encoding used when sending an email. [Read more](../../../common/delivery/using/email/sending-messages.md#character-encoding)
 
 The Access management section has been updated with the **Privacy Data right**. [Read more](../../platform/using/access-management-named-rights.md)
 
-Information was added to specify that personalization fields content cannot exceed 1024 characters. [Read more](../../delivery/using/personalization-fields.md)
+Information was added to specify that personalization fields content cannot exceed 1024 characters. [Read more](../../../common/delivery/using/personalization-fields.md)
 
 The Control Panel documentation has been integrated into the new collaborative documentation set. [Read more](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
-The Delivery Best Practices getting started guide has been updated. [Read more](../../delivery/using/delivery-best-practices.md)
+The Delivery Best Practices getting started guide has been updated. [Read more](../../../common/delivery/using/delivery-best-practices.md)
 
 ## October 2019 {#october-2019}
 
@@ -462,13 +462,13 @@ A new troubleshooting page has been added for tracking in Campaign Classic. [Rea
 
 A new page of best practices for Adobe Analytics Connector has been added. [Read more on Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md)
 
-The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../delivery/using/delivery-best-practices.md)
+The Delivery Best Practices getting started guide has been moved and updated. [Read more](../../../common/delivery/using/delivery-best-practices.md)
 
-A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../delivery/using/sms-set-up.md#automatic-reply)
+A recommendation has been added to the SMS channel documentation to avoid issues when using multiple external accounts leveraging the Extended generic SMPP connector with the same provider account. [Read more](../../../common/delivery/using/sms/sms-set-up.md#automatic-reply)
 
 Information was added in the Scheduler activity documentation on how to prevent simultaneous executions of a workflow. [Read more](../../../common/workflow/using/scheduler.md)
 
-The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
+The steps to configure Inbox rendering for on-premise installations have been added to documentation. [Read more](../../../common/delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
 ## September 2019 {#september-2019}
 
@@ -478,7 +478,7 @@ Information related to workflows monitoring has been centralized into a new dedi
 
 A new page about general guidelines for tracking in Adobe Campaign Classic has been added. [Read more](https://helpx.adobe.com/campaign/kb/acc-tracking.html).
 
-The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../../common/workflow/using/workflow-best-practices.md) and [more on deliveries](../../delivery/using/delivery-performances.md#best-practices-performance).
+The best practices for performance improvements of workflows and deliveries have been updated. [Read more on workflows](../../../common/workflow/using/workflow-best-practices.md) and [more on deliveries](../../../common/delivery/using/delivery-performances.md#best-practices-performance).
 
 ## May 2019 {#release-19-1}
 
@@ -502,7 +502,7 @@ A section has been added describing the installation and configuration steps for
 
 A section has been added describing the Campaign server uninstallation steps. [Read more](../../installation/using/uninstalling-campaign.md)
 
-The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
+The [security](https://helpx.adobe.com/campaign/kb/acc-security.html), [deliverability](../../../common/delivery/using/about-deliverability.md) and [privacy](../../platform/using/privacy-management.md) getting started guides have been updated.
 
 The description of the pre-process workflow option has been updated to reflect product changes. [Read more](../../../common/workflow/using/data-loading--file-.md)
 
@@ -567,9 +567,7 @@ A note was added in the offer approval section to specify  that the "Content app
 
 A new section was added in the Installation guide, listing options from the Administration / Platform / Options node. [Read more](../../installation/using/configuring-campaign-options.md)
 
-Information was added about the use of seed addresses to protect your mailing list. [Read more](../../delivery/using/creating-seed-addresses.md)
-
-Key steps when creating and sending a delivery have been regrouped into a new section, with references to the various channels when needed. [Read more](../../delivery/using/steps-about-delivery-creation-steps.md)
+Information was added about the use of seed addresses to protect your mailing list. [Read more](../../../common/delivery/using/creating-seed-addresses.md)
 
 The [Email archiving](../../installation/using/email-archiving.md) section has been moved, reorganized and improved with clarified information:
 
@@ -581,9 +579,9 @@ A use case has been added to the Automating with Workflows guide: Sending person
 
 The "Migrating to a new version" section has been updated. The documentation now only details the steps for a migration to Adobe Campaign Classic v7 from any older version, as it is no longer possible to migrate to Adobe Campaign v6.11. [Read more](../../migration/using/about-migration.md)
 
-The "Retries after a delivery temporary failure" section has been clarified. [Read more](../../delivery/using/understanding-delivery-failures.md)
+The "Retries after a delivery temporary failure" section has been clarified. [Read more](../../../common/delivery/using/understanding-delivery-failures.md)
 
-Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](../../delivery/using/defining-the-email-content.md)
+Links to the "Digital Content Editor" section have been added to the "Defining the email content" section. [Read more](../../../common/delivery/using/email/defining-the-email-content.md)
 
 The "Transactional messaging architecture" section has been updated with a warning specifying that the control and the execution instances cannot be installed on the same machine. [Read more](../../message-center/using/transactional-messaging-architecture.md)
 

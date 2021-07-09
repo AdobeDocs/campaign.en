@@ -100,7 +100,7 @@ _December 2, 2019_
   <tr> 
 <td> <p>Adobe Campaign enables you to try out the new interactive <a href="https://amp.dev/about/email/">AMP for Email</a> format, which allows marketers to include AMP components inside messages to enhance the email experience with rich, dynamic and interactive content, directly actionable in the message itself.</p>
    <p>This capability is released as a public beta.</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+   <p>For more information, refer to the <a href="../../../common/delivery/using/email/defining-interactive-content.md">detailed documentation</a> and the <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ _December 2, 2019_
     * The **WdbcOptions_TempDbName** option allows you to configure a separate database for working tables on Microsoft SQL Server. This optimizes backups and replication. [Read more](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
     * The **XtkCleanup_NoStats** option has been enhanced for PostgreSQL to better control the behavior of the storage optimization step of the database cleanup workflow. [Read more](../../production/using/database-cleanup-workflow.md#statistics-update)
 * An account lockout mechanism has been added to the **logon()** API. It prevents any further login attempts after a certain number of consecutive failed login attempts within a specified timeframe.
-* A new **Maximum personalization run time** option in the delivery properties allows you to define a time-out period for the personalization run time, in order to prevent the personalization phase from running for too long. [Read more](../../delivery/using/personalization-fields.md#timing-out-personalization)
+* A new **Maximum personalization run time** option in the delivery properties allows you to define a time-out period for the personalization run time, in order to prevent the personalization phase from running for too long. [Read more](../../../common/delivery/using/personalization-fields.md#timing-out-personalization)
 * The **ftp protocol** option has been added to allow you to use a proxy configuration for SFTP connections. [Read more](../../installation/using/file-res-management.md)
 * New support of proxy access to an SFTP external server for on-premise environments.
 * A specific guardrail has been added to prevent installation of packages which are not compatible with the Campaign instance. [Read more](../../installation/using/installing-campaign-standard-packages.md)

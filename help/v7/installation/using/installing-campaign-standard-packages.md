@@ -52,7 +52,7 @@ The following table lists all Campaign built-in packages.
  <tbody> 
   <tr> 
    <td> Delivery<br /> </td> 
-   <td> Monitors deliveries and eventual issues encountered when messages are sent. <a href="../../delivery/using/about-delivery-monitoring.md">Learn more</a><br /> </td> 
+   <td> Monitors deliveries and eventual issues encountered when messages are sent. <a href="../../../common/delivery/using/about-delivery-monitoring.md">Learn more</a><br /> </td> 
    <td> All</td> 
   </tr> 
   <tr> 
@@ -103,32 +103,32 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> LINE channel<br /> </td> 
-   <td> Sends deliveries using the LINE channel with Adobe Campaign. Optional. Transactional messaging (Message center package) mandatory. <a href="../../delivery/using/line-channel.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the LINE channel with Adobe Campaign. Optional. Transactional messaging (Message center package) mandatory. <a href="../../../common/delivery/using/line-channel.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
    <td> Direct Mail channel<br /> </td> 
-   <td> Sends deliveries using the direct mail channel with Adobe Campaign. Optional. <a href="../../delivery/using/about-direct-mail-channel.md">Learn More</a><br /> </td> 
+   <td> Sends deliveries using the direct mail channel with Adobe Campaign. Optional. <a href="../../../common/delivery/using/direct/about-direct-mail-channel.md">Learn More</a><br /> </td> 
    <td> All<br /> </td>
   </tr> 
   <tr> 
    <td> Mobile channel (SMS) <br /> </td> 
-   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../delivery/using/sms-channel.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the Mobile/SMS channel with Adobe Campaign. Optional. <a href="../../../common/delivery/using/sms/sms.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
    <tr> 
    <td> Telephone channel<br /> </td> 
-   <td> Sends deliveries using the telephone channel with Adobe Campaign. Used for call center. Optional. <a href="../../delivery/using/communication-channels.md">Learn More</a> <br /> </td> 
+   <td> Sends deliveries using the telephone channel with Adobe Campaign. Used for call center. Optional. <a href="../../../common/delivery/using/communication-channels.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
    <td> Mobile App Channel<br /> </td> 
-   <td> Uses the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Optional. <a href="../../delivery/using/about-mobile-app-channel.md">Learn More</a> <br /> </td> 
+   <td> Uses the Adobe Campaign platform to send personalized notifications to iOS and Android terminals via apps. Optional. <a href="../../../common/delivery/using/push/about-mobile-app-channel.md">Learn More</a> <br /> </td> 
    <td> All<br /> </td> 
   </tr> 
   <tr> 
    <td> Content Manager<br /> </td> 
-   <td> Creates recurrent newsletters or website then validate and publish your messages. <a href="../../delivery/using/about-content-management.md">Learn More</a> <br /> </td> 
+   <td> Creates recurrent newsletters or website then validate and publish your messages. <a href="../../../common/delivery/using/about-content-management.md">Learn More</a> <br /> </td> 
    <td> </td>
   </tr> 
   <tr> 
@@ -158,17 +158,17 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> Deliverability monitoring (Email Deliverability)<br /> </td> 
-   <td> Measures the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. Optional. <a href="../../delivery/using/about-deliverability.md">Learn More</a> <br /> </td> 
+   <td> Measures the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam. Optional. <a href="../../../common/delivery/using/about-deliverability.md">Learn More</a> <br /> </td> 
    <td> All </td> 
   </tr> 
   <tr> 
    <td> Coupon Management<br /> </td> 
-   <td> Creates a set of coupons to add to upcoming marketing offers. Optional. <a href="../../delivery/using/personalized-coupons.md">Learn More</a> <br /> </td> 
+   <td> Creates a set of coupons to add to upcoming marketing offers. Optional. <a href="../../../common/delivery/using/personalized-coupons.md">Learn More</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Inbox Rendering (IR)<br /> </td> 
-   <td> Enables you to preview the message sent in the different contexts in which it may be received and check the compatibility in major desktops and applications. Optional. <a href="../../delivery/using/inbox-rendering.md">Learn More</a><br /> </td> 
+   <td> Enables you to preview the message sent in the different contexts in which it may be received and check the compatibility in major desktops and applications. Optional. <a href="../../../common/delivery/using/inbox-rendering.md">Learn More</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ The following table lists all Campaign built-in packages.
   </tr> 
   <tr> 
    <td> AMP support<br /> </td> 
-   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../delivery/using/defining-interactive-content.md">Learn More</a> <br /> </td> 
+   <td> Enables you to use the new interactive AMP for email format, and send dynamic emails. Optional. <a href="../../../common/delivery/using/email/defining-interactive-content.md">Learn More</a> <br /> </td> 
    <td> All </td> 
   </tr> 
   <tr> 

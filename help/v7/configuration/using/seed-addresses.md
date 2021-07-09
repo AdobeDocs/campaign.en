@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Seed addresses
-description: Seed addresses
+title: Use seed addresses with an external recipient table
+description: Learn how to use seed addresses with an external recipient table
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
@@ -13,7 +13,7 @@ If the recipient table is a custom table, additional configurations are required
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-For more on using seed addresses, refer [this section](../../delivery/using/about-seed-addresses.md).
+For more on using seed addresses, refer [this section](../../../common/delivery/using/about-seed-addresses.md).
 
 ## Implementation {#implementation}
 

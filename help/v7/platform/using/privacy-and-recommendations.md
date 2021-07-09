@@ -49,7 +49,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 * **How Adobe Experience Cloud is used to collect information**
 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
-    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../delivery/using/sms-channel.md) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
+    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../../common/delivery/using/sms/sms.md) and [Mobile app channel](../../../common/delivery/using/push/about-mobile-app-channel.md).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
 
@@ -110,7 +110,7 @@ Here is the general flow for this use case:
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
 * Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../../../common/web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
-* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](../../delivery/using/about-seed-addresses.md).
+* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](../../../common/delivery/using/about-seed-addresses.md).
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
 
@@ -129,7 +129,7 @@ The main Privacy capabilities in Campaign and an example of the personas involve
 
 Originally, Adobe Campaign offers important features that are essential to Privacy:
 
-* **Consent management**: Through the subscription management process, you can manage your recipients' preferences and track which recipients have opted-in to which type of subscriptions. For more on this, see [About subscriptions](../../delivery/using/about-services-and-subscriptions.md).
+* **Consent management**: Through the subscription management process, you can manage your recipients' preferences and track which recipients have opted-in to which type of subscriptions. For more on this, see [About subscriptions](../../../common/delivery/using/about-services-and-subscriptions.md).
 * **Data retention**: All built-in standard log tables have pre-set retention periods, generally limiting their data storage to 6 months or less. Additional retention periods can be set up with workflows. For more on this, reach out to the Adobe consultants or technical administrators.
 * **Rights management**: Adobe Campaign provides you with the ability to manage the rights assigned to the various Campaign operators via different pre-built or custom roles. This allows you to manage who within your company can access, modify or export different types of data. For more on this, see [About access management](../../platform/using/access-management.md).
 
@@ -166,9 +166,9 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 ### Message tracking {#message-tracking}
 
-Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
+Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../../common/delivery/using/about-message-tracking.md).
 
-To do this, add [tracked links](../../delivery/using/how-to-configure-tracked-links.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../delivery/using/delivery-dashboard.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../../common/reporting/using/delivery-reports.md#tracking-indicators) report.
+To do this, add [tracked links](../../../common/delivery/using/how-to-configure-tracked-links.md) to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](../../../common/delivery/using/delivery-dashboard.md#tracking-logs) tab of the delivery dashboard. Tracking data is interpreted in the [Tracking indicators](../../../common/reporting/using/delivery-reports.md#tracking-indicators) report.
 
 ### Web tracking {#web-tracking}
 

@@ -50,7 +50,7 @@ Here are is a list of articles related to application configuration best practic
 
 Here are is a list of best practices and articles related to deliverability:
 
-* IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../delivery/using/monitoring-deliverability.md). 
+* IP reputation: if the IP reputation is not good enough, there will be an impact on performance. The **Deliverability Monitoring** module offers various tools to track the deliverability performance of your platform. Refer to this [page](../../../common/delivery/using/monitoring-deliverability.md). 
 * IP warm-up: the IP warm-up is performed by the deliverability team. This involves gradually increasing the number of emails through new IPs over a period of a few weeks.
 * IP affinity setup: an incorrect IP affinity setup can stop the emails altogether (incorrect operator/affinity name in configuration) or reduce the throughput (small number of IPs in the affinity). Refer to this [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 * Email size: email size plays an important role in throughput. The recommended maximum email size is 60 KB. Refer to this [page](https://helpx.adobe.com/legal/product-descriptions/campaign.html). In the [Delivery throughput](../../../common/reporting/using/global-reports.md#delivery-throughput) report, check the number of bytes transferred by hour. 
@@ -59,4 +59,4 @@ Here are is a list of best practices and articles related to deliverability:
 
 >[!NOTE]
 >
->See also the [Deliverability](../../delivery/using/about-deliverability.md) section. For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+>See also the [Deliverability](../../../common/delivery/using/about-deliverability.md) section. For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).

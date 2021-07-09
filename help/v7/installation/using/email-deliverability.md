@@ -17,7 +17,7 @@ The following section provides an overview of the configuration required for con
 >
 >Some configurations can only be performed by Adobe for deployments hosted by Adobe, for example, to access the server and instance configuration files. To learn more about the different deployments, refer to the [Hosting models](../../installation/using/hosting-models.md) section or to [this page](../../installation/using/capability-matrix.md).
 
-For more on the concepts and best practices related to deliverability with Adobe Campaign, refer to this [section](../../delivery/using/about-deliverability.md).
+For more on the concepts and best practices related to deliverability with Adobe Campaign, refer to this [section](../../../common/delivery/using/about-deliverability.md).
 
 For a deeper dive on what deliverability is, including all technical recommendations concerning the efficient sending and receiving of emails by an Adobe platform, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
@@ -125,7 +125,7 @@ By default, the statistics server listens on port 7777. This port can be modifie
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../../common/delivery/using/email/sending-with-enhanced-mta.md), the **[!UICONTROL MX management]** delivery throughput rules are no longer used. The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
 ### About MX rules {#about-mx-rules}
 
@@ -306,7 +306,7 @@ You can define the format of sent messages, so that the content displayed automa
 
 To do this, go to the **[!UICONTROL Management of email formats]** document, which is located in **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+This document contains a list of all of the predefined domains that correspond to the Japanese formats managed by Adobe Campaign. For more information, refer to [this document](../../../common/delivery/using/email/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 ![](assets/mail_rule_sets.png)
 
@@ -321,7 +321,7 @@ The **MIME structure** (Multipurpose Internet Mail Extensions) parameter allows 
 
 If the **[!UICONTROL Image inclusion]** option is enabled, these are displayed directly in the body of the email. The images will then be uploaded and the URL links will be replaced by their content.
 
-This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+This option is particularly used by the Japanese market for **Deco-mail**, **Decore Mail** or **Decoration Mail**. For more information, consult [this document](../../../common/delivery/using/email/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
 
 >[!IMPORTANT]
 >

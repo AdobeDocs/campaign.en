@@ -44,7 +44,7 @@ Using an external recipient table has the following limitations:
 
 * You cannot use the standard **[!UICONTROL Services and Subscriptions]** offered in the product.
 
-  This means the overall operation detailed in [this section](../../delivery/using/managing-subscriptions.md) is not applicable.
+  This means the overall operation detailed in [this section](../../../common/delivery/using/managing-subscriptions.md) is not applicable.
 
 * The link with the **[!UICONTROL visitor]** table does not work.
 

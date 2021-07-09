@@ -29,7 +29,7 @@ Profiles can be identified based on storage space. This means that a profile can
 
 Delivery recipients are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc. When you create campaigns, you can define the target of the deliveries to a selection of the profiles in the base according to simple or advanced criteria.
 
-You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](../../../common/delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
 
 The main methods for creating recipient profiles are as follows:
 
@@ -50,7 +50,7 @@ The **[!UICONTROL Profiles and targets]** link lets you display recipients store
 It also gives you access to:
 
 * lists - [Learn more](../../platform/using/creating-and-managing-lists.md)
-* subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
+* subscription services - [Learn more](../../../common/delivery/using/managing-subscriptions.md)
 * web applications - [Learn more](../../../common/web/using/about-web-applications.md)
 * imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
 * targeting workflows - [Learn more](../../../common/workflow/using/building-a-workflow.md#implementation-steps-)
@@ -113,10 +113,10 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
 
-* [Define the target population](../../delivery/using/define-the-right-audience.md)
+* [Define the target population](../../../common/delivery/using/define-the-right-audience.md)
 
 * [Create queries and segment data in workflows](../../../common/workflow/using/targeting-data.md)
 
-* [Select target mapping](../../delivery/using/selecting-a-target-mapping.md)
+* [Select target mapping](../../../common/delivery/using/selecting-a-target-mapping.md)
 
-* [Define the audience - best practices](../../delivery/using/define-the-right-audience.md)
+* [Define the audience - best practices](../../../common/delivery/using/define-the-right-audience.md)

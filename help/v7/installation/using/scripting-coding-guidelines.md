@@ -110,7 +110,7 @@ The general way to add a captcha in the DCE is to create a personalization block
 
 1. Use the **[!UICONTROL Web application]** content type and check **[!UICONTROL Visible in the customization menus]**.
 
-    For more information, refer to [this page](../../delivery/using/personalization-blocks.md).
+    For more information, refer to [this page](../../../common/delivery/using/personalization-blocks.md).
 
     Here is an example of a **Campaign captcha**:
 

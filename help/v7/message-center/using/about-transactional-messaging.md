@@ -81,7 +81,6 @@ Once you designed and published the transactional message template, if a corresp
 
 ## Related topics {#related-topics}
 
-* [Get started with communication channels](../../delivery/using/communication-channels.md)
-* [Delivery creation key steps](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [Get started with communication channels](../../../common/delivery/using/communication-channels.md)
 * [Transactional messaging architecture](../../message-center/using/transactional-messaging-architecture.md)
 * [Access transactional messaging reports](../../message-center/using/about-transactional-messaging-reports.md)

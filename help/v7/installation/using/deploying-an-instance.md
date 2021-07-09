@@ -139,7 +139,7 @@ Once the POP settings are specified, click **Test** to make sure they are correc
 
 ### Unprocessed bounce mails {#unprocessed-bounce-mails}
 
-Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **Administration > Campaign Management > Non deliverables Management > Delivery log qualification** node. For more on this, refer to [Bounce mail management](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Bounces are handled automatically by Adobe Campaign, applying the rules listed in the **Administration > Campaign Management > Non deliverables Management > Delivery log qualification** node. For more on this, refer to [Bounce mail management](../../../common/delivery/using/understanding-delivery-failures.md#bounce-mail-management).
 
 Unprocessed bounces are not displayed in the Adobe Campaign interface. They are automatically deleted unless they are transferred to a third party mailbox using the following fields:
 
@@ -361,7 +361,7 @@ The field **URL masks** lets you specify the list of URL masks to be skipped whe
 
 You can specify multiple URL masks by using a comma to separate each of them.
 
-* For information on using and managing images in emails, refer to [this section](../../delivery/using/defining-the-email-content.md#adding-images).
+* For information on using and managing images in emails, refer to [this section](../../../common/delivery/using/email/defining-the-email-content.md#adding-images).
 * In the delivery wizard, the images called from these URLs will have the status "Ignored".
 
 ### Publication modes {#publication-modes}

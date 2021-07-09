@@ -67,7 +67,7 @@ The **[!UICONTROL Number of messages processed]** represents the total number of
 
 >[!NOTE]
 >
->The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](../../../v7/delivery/using/understanding-quarantine-management.md).
+>The errors shown in this report trigger the quarantine process. For more on quarantine management, refer to [Quarantine management](../../../common/delivery/using/understanding-quarantine-management.md).
 
 The first section of this report shows the breakdown of non-deliverables in the form of a table of values and a chart.
 
@@ -89,7 +89,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >This indicator only concerns deliveries on mobile channels. For more on this, refer to [this section](../../../v7/delivery/using/sms-channel.md).
+  >This indicator only concerns deliveries on mobile channels. For more on this, refer to [this section](../../../common/delivery/using/sms/sms.md).
 
   You can open up each line of the value table by clicking the `[+]` symbol. For each error type, you can show the breakdown of error messages by domain.
 
@@ -152,7 +152,7 @@ The table of values uses the following indicators:
 
 ### Sharing to social networks {#sharing-to-social-networks}
 
-Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](../../../v7/delivery/using/viral-and-social-marketing.md).
+Viral marketing lets delivery recipients share information with their contact network: they can add a link to their profile (Facebook, Twitter, etc.) or send a message to a friend. Each share and each access to shared information is tracked within the delivery. For more information on viral marketing, refer to [this section](../../../common/delivery/using/viral-and-social-marketing.md).
 
 This report shows the breakdown of shared and opened messages per social network (Facebook, Twitter, etc.) and/or per email.
 
@@ -189,7 +189,7 @@ This section includes two charts which represent the breakdown of sharing activi
 
 This report shows the evolution of shares to social networks (Facebook, Twitter, email, etc.) in time.
 
-For more information on viral marketing, refer to [this section](../../../v7/delivery/using/viral-and-social-marketing.md).
+For more information on viral marketing, refer to [this section](../../../common/delivery/using/viral-and-social-marketing.md).
 
 ![](assets/s_ncs_user_social_report2.png)
 
@@ -246,7 +246,7 @@ This report lets you monitor subscriptions to information services. It shows sub
 
 It can be displayed for a subscription by clicking the **[!UICONTROL Profiles and targets > Services and subscriptions]** node of the home page or the explorer. Select the desired subscription, and then click the **[!UICONTROL Reports]** tab. The **[!UICONTROL Subscriptions tracking]** report is available by default. It lets you see the subscription and unsubscription trends and the loyalty rate over a period. You can configure the representation of this data via the drop-down list. Click **[!UICONTROL Refresh]** to validate the selected configuration.
 
-For further information, refer to [this page](../../../v7/delivery/using/managing-subscriptions.md).
+For further information, refer to [this page](../../../common/delivery/using/managing-subscriptions.md).
 
 The **[!UICONTROL Number subscribed to date]** represents the total number of people currently subscribed.
 
@@ -279,7 +279,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >For more on hard and soft bounces, refer to [Quarantine management](../../../v7/delivery/using/understanding-quarantine-management.md).
+  >For more on hard and soft bounces, refer to [Quarantine management](../../../common/delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Opens]** : percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 * **[!UICONTROL Clicks]** : percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully. 

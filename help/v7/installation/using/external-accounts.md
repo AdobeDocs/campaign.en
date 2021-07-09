@@ -74,19 +74,6 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 
 ![](assets/ext_account_7.png)
 
-The following channels can be configured:
-
-* [Email](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [Mobile (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
-* [Phone](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Direct mail](../../delivery/using/about-direct-mail-channel.md)
-* [Agency](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
-* [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [iOS channel](../../delivery/using/configuring-the-mobile-application.md)
-* [Android channel](../../delivery/using/configuring-the-mobile-application-android.md)
-
-
 ### Execution instance  {#execution-instance-external-account}
 
 If you have a broken-down architecture, you need to specify the execution instances linked to the control instance and connect them. Transactional message templates are deployed to the execution instance
