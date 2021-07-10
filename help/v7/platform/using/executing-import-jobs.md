@@ -303,7 +303,7 @@ The next step of the import wizard lets you select or create the folder in which
     
        ![](assets/s_ncs_user_import_wizard05_5.png)
 
-       You can create a new list for these recipients by clicking **[!UICONTROL Select link]**, then **[!UICONTROL Create]**. The creation and management of lists are presented in [this section](../../platform/using/creating-and-managing-lists.md).
+       You can create a new list for these recipients by clicking **[!UICONTROL Select link]**, then **[!UICONTROL Create]**. The creation and management of lists are presented in [this section](../../../common/profiles/using/creating-and-managing-lists.md).
     
        ![](assets/s_ncs_user_import_wizard05_6.png)
 

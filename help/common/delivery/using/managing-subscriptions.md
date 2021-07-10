@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Managing subscriptions
-description: Managing subscriptions
+title: Manage subscriptions
+description: Learn how to manage subscriptions in Adobe Campaign
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals

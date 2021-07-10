@@ -185,7 +185,7 @@ A new technote has been created with details on how to migrate from the legacy b
 
 ## September 2020 {#september-2020}
 
-A note has been added to specify that Active profiles count is available for Marketing instances only. [Read more](../../platform/using/about-profiles.md#active-profiles)
+A note has been added to specify that Active profiles count is available for Marketing instances only. [Read more](../../../common/profiles/using/about-profiles.md#active-profiles)
 
 A new sample about schema edition has been added to link a field to an existing reference table. [Read more](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 

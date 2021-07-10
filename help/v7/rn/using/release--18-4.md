@@ -102,7 +102,7 @@ exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
   </tr> 
   <tr> 
    <td> Active profiles<br /> </td> 
-   <td> <p>Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.</p> <p>For more information, refer to the <a href="../../platform/using/about-profiles.md#active-profiles">detailed documentation</a>.</p> </td> 
+   <td> <p>Adobe Campaign now provides the list of active profiles, updated monthly through a dedicated workflow.</p> <p>For more information, refer to the <a href="../../../common/profiles/using/about-profiles.md#active-profiles">detailed documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Android Push Connector enhancement<br /> </td> 

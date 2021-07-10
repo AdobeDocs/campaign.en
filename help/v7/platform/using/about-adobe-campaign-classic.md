@@ -33,7 +33,7 @@ Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-Profile management basics are explained in [About profiles](../../platform/using/about-profiles.md).
+Profile management basics are explained in [About profiles](../../../common/profiles/using/about-profiles.md).
 
 ### Targeted segmentation {#targeted-segmentation}
 

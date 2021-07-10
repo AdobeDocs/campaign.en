@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Creating and managing lists
+title: Create and manage lists
 description: Learn how to create and manage lists
 feature: Profiles
 role: Business Practitioner
@@ -8,8 +8,6 @@ level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 ---
 # Create and manage lists{#creating-and-managing-lists}
-
-## What is a list? {#about-lists-in-adobe-campaign}
 
 A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
 
@@ -21,7 +19,7 @@ Two types of lists are available in Adobe Campaign:
 
 * **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
 
-  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](#creating-a-profile-list-from-a-group).
+  For more information on how to create a **[!UICONTROL Group]** type list, refer to [this section](#creating-a-profile-list-from-a-group).
 
 * **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
 
@@ -61,7 +59,7 @@ You can create new profiles directly from the 'add profiles' window by clicking 
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-The profile list can be configured just like other lists. See [this section](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+The profile list can be configured just like other lists. See [this section](../../../v7/platform/using/adobe-campaign-workspace.md#configuring-lists).
 
 ## Link data to a list {#linking-data-to-a-list}
 
@@ -133,5 +131,3 @@ Learn how to create an audience by configuring a list of recipients from the Exp
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
-
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).

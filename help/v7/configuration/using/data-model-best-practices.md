@@ -168,7 +168,7 @@ However, keep in mind the following:
 ### Example
 
 Managing indexes can become very complex, therefore it is important to understand how they work. To illustrate this complexity, let's take a basic example such as searching recipients by filtering on the first name and last name. To do this:
-1. Go to the folder that lists all recipients in the database. For more on this, see [Managing profiles](../../platform/using/managing-profiles.md).
+1. Go to the folder that lists all recipients in the database. For more on this, see [Manage profiles](../../../common/profiles/using/managing-profiles.md).
 1. Right-click the **[!UICONTROL First name]** field.
 1. Select **[!UICONTROL Filter on this field]**.
 

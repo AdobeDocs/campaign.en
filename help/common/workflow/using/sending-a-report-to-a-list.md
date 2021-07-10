@@ -25,7 +25,7 @@ Go to the **[!UICONTROL Profiles and targets]** tab, click the **[!UICONTROL Lis
 
 ![](assets/use_case_report_1.png)
 
-For more on creating lists, refer to this [section](../../../v7/platform/using/creating-and-managing-lists.md).
+For more on creating lists, refer to this [section](../../profiles/using/creating-and-managing-lists.md).
 
 ## Step 2: Creating the delivery template {#step-2--creating-the-delivery-template}
 

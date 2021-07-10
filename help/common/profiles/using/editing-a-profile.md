@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Editing a profile
-description: Editing a profile
+title: Edit a profile 
+description: Learn how to edit a profile in Adobe Campaign
 audience: platform
 content-type: reference
 topic-tags: profile-management
@@ -9,7 +9,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
 # Edit a profile{#editing-a-profile}
 
-To view information related to a profile, click on their name in the profiles list.
+To view data related to a profile, select it from the profiles list.
 
 The profile details come up in a new tab.
 
@@ -22,8 +22,10 @@ Tabs and their content depend on your configuration and installed packages.
 >[!CAUTION]
 >
 >The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. Only expert users may make changes to these schemas.  
->
->For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
+
+<!--
+For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
+--> 
 
 ## General tab {#general-tab}
 
@@ -33,7 +35,7 @@ This screen contains all general data about the selected profile. In particular,
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../../common/delivery/using/understanding-quarantine-management.md).
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). They will no longer be targeted by deliveries on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
 
 ## Contact information tab {#contact-information-tab}
 
@@ -49,9 +51,11 @@ This screen contains user-defined fields that can be personalized based on requi
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
+<!--
 >[!NOTE]
 >
 >For more on field properties and on adding fields, refer to [this page](../../configuration/using/new-field-wizard.md).
+-->
 
 ## Lists tab {#lists-tab}
 
@@ -59,7 +63,7 @@ This screen displays the group(s) to which the selected profile belongs. Click *
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-For more on this, refer to [Create and manage lists](../../platform/using/creating-and-managing-lists.md).
+For more on this, refer to [this page](creating-and-managing-lists.md).
 
 ## Subscriptions tab {#subscriptions-tab}
 
@@ -89,4 +93,4 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](../../../common/delivery/using/delivery-dashboard.md).
+>For more on tracking functionality, please refer to [this page](../../delivery/using/delivery-dashboard.md).

@@ -64,14 +64,6 @@ type: Documentation
        + [Privacy and consent](platform/using/privacy-and-recommendations.md)
        + [Privacy management](platform/using/privacy-management.md)
        + [Privacy requests](platform/using/privacy-requests.md)
-  + Profile management {#profile-management}
-       + [About profiles](platform/using/about-profiles.md)
-       + [Edit a profile](platform/using/editing-a-profile.md)
-       + [Add profiles](platform/using/adding-profiles.md)
-       + [Manage profiles](platform/using/managing-profiles.md)
-       + [Update data](platform/using/updating-data.md)
-       + [Import and export profiles](platform/using/exporting-and-importing-profiles.md)
-       + [Create and manage lists](platform/using/creating-and-managing-lists.md)
   + Import and export data {#importing-and-exporting-data}
        + [Get started with data import and export](platform/using/get-started-data-import-export.md)
        + [Use workflows to import and export data](platform/using/import-export-workflows.md)
