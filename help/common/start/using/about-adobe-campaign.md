@@ -31,7 +31,7 @@ Profile management basics are explained in [this page](../../profiles/using/abou
 
 Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../../v7/platform/using/about-queries-in-campaign.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../../v7/platform/using/creating-filters.md) section.
 
-The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../..//workflow/using/targeting-data.md#data-management).
+The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](../../workflow/using/targeting-data.md#data-management).
 
 ### Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
@@ -65,7 +65,7 @@ The following capabilities are available. Depending on your version, deployment 
 * [MRM](../../../v7/mrm/using/about-marketing-resource-management.md) (Campaign v7 only) - manage marketing resources and budgets,
 * [Interaction](../../../v7/interaction/using/interaction-and-offer-management.md) (Campaign v7 only) - managing offers with Campaign,
 * [Message Center](../../../v7/message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
-* [Social Marketing](../../social/using/about-social-marketing.md) (Campaign v7 only) - communicate on social media: Facebook, Twitter,
+* [Social Marketing](../../../v7/social/using/about-social-marketing.md) (Campaign v7 only) - communicate on social media: Facebook, Twitter,
 * [Workflow](../../workflow/using/about-workflows.md) / Data Management - automate processes and manage data with workflows,
 * [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
 * [Survey Manager](../../../v7/surveys/using/about-surveys.md) (Campaign v7 only) - create online surveys and polls,
