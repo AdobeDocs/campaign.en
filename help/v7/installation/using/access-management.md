@@ -13,9 +13,9 @@ exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 
 Out of the box, the webApp operator is an administrator. To improve security, follow these guidelines:
 
-* Replace the admin named right from this operator with a new one (can be named 'webapp'). For more information, refer to [this page](../../platform/using/access-management.md).
+* Replace the admin named right from this operator with a new one (can be named 'webapp'). For more information, refer to [this page](../../../common/access/using/access-management.md).
 
-* Add the webApp operator in folders (mainly recipient folders) to grant read/write access to recipients. For more on this, refer to [this page](../../platform/using/access-management.md).
+* Add the webApp operator in folders (mainly recipient folders) to grant read/write access to recipients. For more on this, refer to [this page](../../../common/access/using/access-management.md).
 
 * If using a multi-brand (or multi-geo) instance, you may want to split web application access to different recipient folders. To do so:
 
@@ -29,11 +29,11 @@ Out of the box, the webApp operator is an administrator. To improve security, fo
 
 Create enough security groups to give just enough rights to your operators to let them do what they need, and not more.
 
-Do not use the admin operator (or don't share it). Create one operator per physical user (to have an accurate audit/logging). Add your newly named administrators to the admin group. If you don't use the admin operator, do not delete it, and don't disable it: this operator is used internally to execute processing. But you can ban its [access to the client console](../../platform/using/access-management.md) and restrict its security zone (to localhost).
+Do not use the admin operator (or don't share it). Create one operator per physical user (to have an accurate audit/logging). Add your newly named administrators to the admin group. If you don't use the admin operator, do not delete it, and don't disable it: this operator is used internally to execute processing. But you can ban its [access to the client console](../../../common/access/using/access-management.md) and restrict its security zone (to localhost).
 
 Avoid adding too many operators in the admin group (or with admin named rights). They are very powerful operators (they can perform all SQL statements, execute commands on the server, etc.).
 
-Adobe Campaign provides three high-level privileges through [named rights](../../platform/using/access-management.md#named-rights):
+Adobe Campaign provides three high-level privileges through [named rights](../../../common/access/using/access-management.md#named-rights):
 
 * **ADMINISTRATION** (admin): gives access to everything and allows to do everything, bypassing all named right checks, so it includes the PROGRAM EXECUTION (createProcess) and SQL named rights
 

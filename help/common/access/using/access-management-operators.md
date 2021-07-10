@@ -11,23 +11,13 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 
 ## Get started with Campaign operators  {#about-operators}
 
-An operator is an Adobe Campaign user who has permissions to log in and perform actions.
-
-By default, operators are stored in the **[!UICONTROL Administration > Access management > Operators]** node.
+An operator is an Adobe Campaign user who has permissions to log in and perform actions. By default, operators are stored in the **[!UICONTROL Administration > Access management > Operators]** node.
 
 ![](assets/s_ncs_user_list_operators.png)
 
-Operators can be created manually or mapped on an existing LDAP directory.
-
-Complete procedure to create an operator is described in [this page](#creating-an-operator).
-
-For more on Adobe Campaign and LDAP integration, refer to [this page](../../installation/using/connecting-through-ldap.md).
-
->[!IMPORTANT]
+>[!CAUTION]
 >
->Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this page](../../installation/using/security-zones.md).
-
-Users can also directly connect to Adobe Campaign using their Adobe ID. For more on this, refer to this [page](../../../v7/installation/using/about-adobe-id.md).
+>Operators need to be linked to a security zone to log on to an instance. For more on security zones in Adobe Campaign, refer to [this section](#security-zones.md).
 
 ## Create an operator {#creating-an-operator}
 
@@ -37,9 +27,13 @@ To create a new operator and grant permissions, follow the steps below:
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Specify the **[!UICONTROL Identification parameters]** of the user: its login, password and name. The login and password will be used by the operator to log on to Adobe Campaign. Once the user is logged on, they can change their password via the **[!UICONTROL Tools > Change password]** menu. The email of the operator is essential as it enables the operator to receive notifications, for instance when processing approvals.
+1. Specify the **[!UICONTROL Identification parameters]** of the user: its login, password and name. 
 
-   This section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](../../distributed/using/about-distributed-marketing.md).
+   When connecting through an **Adobe ID**, do not enter a password in the identification parameters.
+
+   In other cases, the user can change its password via the **[!UICONTROL Tools > Change password]** menu. The email of the operator is essential as it enables the operator to receive notifications, for instance when processing approvals.
+
+   In Campaign Classic v7, this section also enables you to link an operator to an organizational entity. For more on this, refer to the [this page](../../../v7/distributed/using/about-distributed-marketing.md).
 
 1. Select the permissions granted to the operator in the **[!UICONTROL Operator access rights]** section.
 
@@ -67,21 +61,21 @@ Once the operator's profile has been created, you can add to or update their inf
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. For more on this, refer to [About Federated Data Access](../../installation/using/about-fda.md).
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 
 
-## Define the operator's time zone {#time-zone-of-the-operator}
+<!-- For more on this, refer to [About Federated Data Access](../../installation/using/about-fda.md).
+-->
+
+## Change the time zone {#time-zone-of-the-operator}
 
 In the **[!UICONTROL General]** tab, you can select the time zone of the operator. By default, operators work in the server time zone. However, it is possible to select another time zone using the drop-down list.
-
-The configuration of time zones is described in [this page](../../installation/using/time-zone-management.md).
 
 >[!NOTE]
 >
 >Collaborations within various time zones require the storage of dates in UTC. Dates are converted in the appropriate time zone in the following contexts: when a date is displayed in the user time zone, when files are imported and exported, when an email delivery is scheduled, when activities are scheduled in a workflow (scheduler, wait, time constraint, etc.)  
 >
->Constraints and recommendations linked to these contexts are presented in related sections of the Adobe Campaign documentation.
 
-In addition, the **[!UICONTROL Regional settings]** drop-down list lets you select the format to display dates and numbers.
+In addition, the **[!UICONTROL Regional settings]** drop-down list lets you select the format to display dates and numbers in the operator's user interface.
 
 ## Add permissions {#access-rights-options}
 
@@ -97,9 +91,13 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
   >
   >Even if his account is disabled, the operator can still receive alerts or notifications from Campaign. To stop sending Campaign notifications to this operator, Adobe recommends you to remove the email address from his profile.
 
-* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
-* It's possible to link a safety zone to the operator. For more on this, refer to [this page](../../installation/using/security-zones.md).
-* You can also define a trusted IP mask using the appropriate link.
+* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to Web Access or through APIs: access to the Adobe Campaign client console is no longer available for the user.
+
+<!--
+[Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)
+-->
+
+* You can define a trusted IP mask using the appropriate link.
 
   The operator will be able to connect to Adobe Campaign without entering their password if their IP address is in this list.
 
@@ -107,7 +105,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
   ![](assets/operator_trustip.png)
 
-  >[!NOTE]
+  >[!CAUTION]
   >
   >To keep access to your platform secure, this option must be used with care.
 
@@ -115,13 +113,13 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
   ![](assets/s_ncs_user_restrictions_operators.png)
 
-  >[!IMPORTANT]
+  >[!CAUTION]
   >
-  >This is a very tight restriction, and it must be used with caution. An operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities he has access to (for example: workflows), he can display data that is usually stored in nodes that he cannot see.
+  >This restriction must be used with caution: an operator logged in with this type of rights can ONLY see the content of the specified folder, and has no access to any other node of the tree via the explorer. However, depending on the functionalities he has access to (for example: workflows), he can display data that is usually stored in nodes that he cannot see.
 
 ### Check settings {#check-settings}
 
-The **[!UICONTROL Audit]** tab lets you view information related to the operator. The various tabs are added to automatically based on the settings defined in the operator's area of intervention.
+The **[!UICONTROL Audit]** tab lets you view information related to the operator. Tabs are added to automatically based on the settings.
 
 You can access:
 
@@ -143,21 +141,21 @@ You can access:
 
 ## Default operators {#default-operators}
 
-Adobe Campaign uses technical operators with profiles configured by default: Administrator ('admin'), Billing ('billing'), Monitoring, Web application agent ('webapp'), etc. Some of these depend on the applications and options installed on the platform: 'central' and 'local' operators, for instance, are only visible if the Distributed Marketing option is installed.
+Adobe Campaign uses technical operators with profiles configured by default: Administrator ('admin'), Billing ('billing'), Monitoring, Web application agent ('webapp'), etc. Some of these depend on the modules and add-ons installed on the platform.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->These technical operators are notified by default when information messages are returned by the platform. We strongly recommend providing a contact email for them.  
+>These technical operators are notified when notifications are set by the platform. Adobe strongly recommends specifying their email.  
 >
->To make sure Web applications operate correctly, we also recommend not defining specific regional settings for the 'webapp' operator.
+>To ensure Web applications work fine, do not define specific regional settings for the 'webapp' operator.
 
-By default, the 'webapp' technical operator has the named ADMINISTRATION right, which can lead to security risks. To fix this problem, we recommend removing this right. To do this:
+By default, the 'webapp' technical operator has the ADMINISTRATION named right, which can lead to security risks. Adobe recommends removing this right. To do this:
 
-1. From the **[!UICONTROL Administration > Access management > Named rights]** node, click **[!UICONTROL New]** to create a right and name it WEBAPP.
+1. From the **[!UICONTROL Administration > Access management > Named rights]** node, click **[!UICONTROL New]** to create a new right and name it WEBAPP.
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
-   Named rights are detailed in the [Named rights](#named-rights) section.
+   Named rights are detailed in the [Named rights](access-management-named-rights.md) page.
 
 1. From the **[!UICONTROL Administration > Access management > Operators]** node, select the Web applications agent operator ('webapp').
 
@@ -173,8 +171,25 @@ By default, the 'webapp' technical operator has the named ADMINISTRATION right, 
 
    ![](assets/s_ncs_default_operators_webapp_folder_access.png)
 
-   Modifying rights on tree folders is detailed in the [Folder access management](#folder-access-management) section.
+   Modifying rights on tree folders is detailed in the [Folder access management](access-management-folders.md) page.
 
+<!--
 >[!NOTE]
 >
 >For more information on Security guidelines, refer to [Adobe Campaign Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+-->
+
+## Security zones{#security-zones}
+
+Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
+
+Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators]** node.
+
+>[!NOTE]
+>
+>As an **on-premise** customer, learn how to configure security zones in [Adobe Campaign Classic v7 documentation](../../../v7/installation/using/security-zones.md). 
+>
+>As a **hosted** customer, if you can access [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), you can use the Security Zone self service interface. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>Other **hybrid/hosted** customers need to reach out to Adobe support team to configure security zones.
+>

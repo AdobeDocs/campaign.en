@@ -42,7 +42,7 @@ These are a set of rights and restrictions that authorize or deny to:
 * Access to certain data,
 * Create, modify and/or delete data.
 
-[Click here to learn more](../../platform/using/access-management.md) about user permissions.
+[Click here to learn more](../../../common/access/using/access-management.md) about user permissions.
 
 ## How to ensure privacy compliance with Campaign? {#how-to-be-gdpr-compliant-with-campaign-}
 

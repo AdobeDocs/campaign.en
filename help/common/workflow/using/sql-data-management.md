@@ -24,7 +24,7 @@ Before configuring the activity, make sure the following prerequisites are fulfi
     ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 * The Outbound schema must exist in the database and be linked to an FDA database.
-* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../../v7/platform/using/access-management-named-rights.md).
+* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. [Learn more](../../../common/access/using/access-management-named-rights.md).
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 

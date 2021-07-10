@@ -108,4 +108,4 @@ Similarly, this functionality also allows you to configure different capabilitie
 
 ![](assets/privacy-user-management.png)
 
-For more on access management, refer to the [detailed documentation](../../platform/using/access-management.md).
+For more on access management, refer to the [detailed documentation](../../../common/access/using/access-management.md).

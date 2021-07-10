@@ -19,7 +19,11 @@ Folders are nodes in Adobe Campaign tree. These nodes are created by right-click
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-You can customize the Explorer navigation tree. Learn configuration steps and best practices [in this section](adobe-campaign-workspace.md).
+You can customize the Explorer navigation tree. 
+
+<!--
+Learn configuration steps and best practices [in this section](adobe-campaign-workspace.md).
+-->
 
 ### What is a view {#about-views}
 
@@ -29,7 +33,7 @@ A view is a folder that displays records that are physically stored in one or mo
 
 When you convert a folder to a view, all the data corresponding to the folder type present in the database is displayed in the view, irrespective of the folder in which it is saved. You can then filter it to restrict the list of data displayed.
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >The views contain data and provide access to it, but the data is not physically stored in the view folder. The operator must have the appropriate rights for the desired action in the data source folders (read access at least).  
 >
@@ -54,9 +58,11 @@ In the example below, we will create new folders to display specific data:
 
 1. Define the delivery filter criteria from the query editor in the middle section of the window: the campaigns corresponding to the defined filter will then be displayed.
 
+<!--
    >[!NOTE]
    >
    >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
+-->
 
    With the following filter conditions:
 
@@ -66,13 +72,15 @@ The following deliveries will be displayed in the view:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
 
+<!--
 >[!NOTE]
 >
 >When managing [transactional messaging](../../message-center/using/about-transactional-messaging.md) events, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views on the execution instances, as this could lead to access right issues. For more on event collection, see [this section](../../message-center/using/about-event-processing.md#event-collection).
+-->
 
 ## Permissions on a folder
 
-### Edit permissions on a folder {#edit-permissions-on-a-folder}
+### Edit folder permissions {#edit-permissions-on-a-folder}
 
 To edit permissions on a specific folder of the tree, follow the steps below:
 
@@ -84,7 +92,7 @@ To edit permissions on a specific folder of the tree, follow the steps below:
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### Modify permissions {#modify-permissions}
+### Modify folder permissions {#modify-permissions}
 
 To modify permissions, you can:
 
@@ -100,13 +108,13 @@ To modify permissions, you can:
 
 ### Propagate permissions {#propagate-permissions}
 
-You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
+You can propagate authorizations and access rights on folders. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
 
 The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
 
 >[!NOTE]
 >
->Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
+>Removing this option for a folder does not automatically remove it for the sub-folders. You must clear it explicitly for each of the sub-folders.
 
 ### Grant access to all operators {#grant-access-to-all-operators}
 

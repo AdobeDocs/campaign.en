@@ -38,5 +38,5 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID. T
 | Useful pages | Additional resources |
 |---|---|
 | [Configuring IMS](configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
-| [Implementing IMS](implementing-ims.md) | [Access management](../../platform/using/access-management.md) |
+| [Implementing IMS](implementing-ims.md) | [Access management](../../../common/access/using/access-management.md) |
 | [IMS Troubleshooting](ims-troubleshooting.md) |  [Installing Campaign packages](installing-campaign-standard-packages.md) |

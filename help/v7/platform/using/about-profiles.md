@@ -77,7 +77,7 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 >
 >You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](../../platform/using/adobe-campaign-ui-lists.md).  
 >
->You can also define recipient views. For further information about this functionality, refer to [this section](../../platform/using/access-management-folders.md).
+>You can also define recipient views. For further information about this functionality, refer to [this section](../../../common/access/using/access-management-folders.md).
 
 ## Active profiles {#active-profiles}
 

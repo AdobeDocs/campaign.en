@@ -97,12 +97,6 @@ type: Documentation
        + [About queries in Campaign](platform/using/about-queries-in-campaign.md)
        + [Steps to create a query](platform/using/steps-to-create-a-query.md)
        + [Define filter conditions](platform/using/defining-filter-conditions.md)
-  + Permissions {#permissions}
-       + [Get started with permissions](platform/using/access-management.md)
-       + [Create and manage operators](platform/using/access-management-operators.md)
-       + [Create and manage groups](platform/using/access-management-groups.md)
-       + [Use named rights to set up permissions](platform/using/access-management-named-rights.md)
-       + [Manage access to folders](platform/using/access-management-folders.md)
   + Data packages and enumerations {#administration-basics}
        + [Data packages](platform/using/working-with-data-packages.md)
        + [Enumerations](platform/using/managing-enumerations.md)

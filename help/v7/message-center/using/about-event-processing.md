@@ -48,7 +48,7 @@ Once they are collected, events are broken down by technical workflows between r
 
 >[!NOTE]
 >
->On the execution instances, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views, as this could lead to access right issues. For more on setting a folder as a view, refer to [this section](../../platform/using/access-management-folders.md).
+>On the execution instances, the **[!UICONTROL Real time events]** or **[!UICONTROL Batch events]** folders must not be set as views, as this could lead to access right issues. For more on setting a folder as a view, refer to [this section](../../../common/access/using/access-management-folders.md).
 
 ## Routing towards a template {#routing-towards-a-template}
 

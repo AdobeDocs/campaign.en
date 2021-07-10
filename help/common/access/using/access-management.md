@@ -17,7 +17,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 
 The permissions apply to operator profiles or operator groups.
 
-They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](../../installation/using/security-zones.md).
+They are completed by safety parameters linked to the operator's connection mode to Adobe Campaign. For more about security zones in [this page](access-management-operators.md#security-zones).
 
 There are two types of permissions you can grant to a user:
 
@@ -41,7 +41,7 @@ Learn how to grant access and set up permissions in these sections:
 
 * [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
 
-
+<!--
 See also:
 
 * [Manage permissions for workflows](../../../common/workflow/using/managing-rights.md)
@@ -49,3 +49,4 @@ See also:
 * [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
 * [Filter access to schemas](../../configuration/using/filtering-schemas.md)
 * [Restricting PI view](../../configuration/using/restricting-pii-view.md)
+-->
