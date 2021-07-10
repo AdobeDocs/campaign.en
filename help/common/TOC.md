@@ -9,9 +9,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-common-home.html
 type: Documentation
 ---
 
-# Adobe Campaign COMMON documentation {#common}
+# Adobe Campaign documentation {#common}
 
-+ [Campaign Common documentation](campaign-common-home.md)
++ [Campaign v7/v8 documentation](campaign-common-home.md)
 + Get Started with Campaign {#start}
   + [What is Adobe Campaign?](start/using/about-adobe-campaign.md)
   + Profile and audiences {#profile-management}
