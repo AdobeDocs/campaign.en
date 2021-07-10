@@ -11,6 +11,12 @@ exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 
 Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
 
+>[!AVAILABILITY]
+>
+> This content set is the common documentation for Campaign v7 and v8. For specificities on each version refer to the dedicated sets: [![image](../../assets/v7-icon.png)](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html) [![image](../../assets/v8-icon.png)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
+
+Adobe Campaign lets you define, optimize, execute and analyze communications and marketing campaigns. Adobe Campaign acts like a unified order and execution center for marketing strategies. For more on this, refer to [Access campaigns](../../../v7/distributed/using/accessing-campaigns.md) and [Create marketing campaigns](../../campaign/using/setting-up-marketing-campaigns.md).
+
 >[!NOTE]
 >
 >For more on the Adobe Campaign core functionalities, refer to [this section](../../start/using/about-adobe-campaign.md).  
