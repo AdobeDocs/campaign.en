@@ -81,4 +81,3 @@ The following capabilities are available. Depending on your version, deployment 
 This video presents Campaign Classic main features and capabilities.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
-
