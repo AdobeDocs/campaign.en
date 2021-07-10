@@ -36,7 +36,7 @@ You can also connect with a dedicated login/password:
 
 1. Enter your password in the **[!UICONTROL Password]** field.
 
-   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
+   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../../common/access/using/access-management.md).
 
 1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.-->
 
@@ -69,7 +69,7 @@ You must then define the connection settings. To do this:
 
 The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
 
-This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
+This functionality is detailed in the [Access management](../../../common/access/using/access-management.md) section.
 
 ## Disconnect from Adobe Campaign {#disconnecting-from-adobe-campaign}
 

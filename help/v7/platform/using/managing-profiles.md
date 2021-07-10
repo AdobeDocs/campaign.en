@@ -19,7 +19,7 @@ Each node coincides with a folder. The data from each folder must be considered 
 
 >[!NOTE]
 >
->To display the list of all recipients in the database, you must create a view. Learn more in [Folders and views](../../platform/using/access-management-folders.md).
+>To display the list of all recipients in the database, you must create a view. Learn more in [Folders and views](../../../common/access/using/access-management-folders.md).
 
 ## Move recipients {#moving-recipients}
 

@@ -25,7 +25,7 @@ The main platform functionalities regarding time zone management are: import/exp
 >
 >If the database does not manage multiple time zones, for all data filtering manipulations, SQL queries must be executed in the time zone of the database server.
 
-Each Adobe Campaign operator is linked to a time zone: this information is configured in their profile. For more on this, refer to [this document](../../platform/using/access-management.md).
+Each Adobe Campaign operator is linked to a time zone: this information is configured in their profile. For more on this, refer to [this document](../../../common/access/using/access-management.md).
 
 When the Adobe Campaign platform does not require time zone management, you can keep a storage mode in local format with a specific linked time zone.
 

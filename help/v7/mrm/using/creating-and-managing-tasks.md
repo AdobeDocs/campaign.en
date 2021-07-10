@@ -85,7 +85,7 @@ By default, when an Adobe Campaign operator creates a task, it is assigned to th
 
 >[!NOTE]
 >
->Operator management is presented in [this section](../../platform/using/access-management.md).
+>Operator management is presented in [this section](../../../common/access/using/access-management.md).
 
 You may specify the operators involved in carrying out the task. These operators aren't authorized to close the task. They may only approve the task assigned to them.
 

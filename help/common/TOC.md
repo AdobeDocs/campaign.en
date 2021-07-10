@@ -12,6 +12,13 @@ type: Documentation
 # Adobe Campaign COMMON documentation {#common}
 
 + [Campaign Common documentation](campaign-common-home.md)
++ Get Started with Campaign {#start}
+  + Permissions {#permissions}
+     + [Get started with permissions](access/using/access-management.md)
+     + [Create and manage operators](access/using/access-management-operators.md)
+     + [Create and manage groups](access/using/access-management-groups.md)
+     + [Use named rights to set up permissions](access/using/access-management-named-rights.md)
+     + [Manage access to folders](access/using/access-management-folders.md)
 + Create and send deliveries {#create-deliveries}
      + [Get started with deliveries](delivery/using/communication-channels.md)
      + [Create your first delivery](delivery/using/steps-create-and-identify-the-delivery.md)

@@ -61,7 +61,7 @@ If you are using user input to build filters in queries or SQL statements, you a
 
 Refer to these pages:
 
-* [Folder access properties](../../platform/using/access-management.md)
+* [Folder access properties](../../../common/access/using/access-management.md)
 * [Linked folder](../../configuration/using/configuration.md#linked-folder)
 
 ### Named rights

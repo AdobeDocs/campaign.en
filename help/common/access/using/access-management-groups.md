@@ -87,7 +87,10 @@ The default operator groups are:
 
 1. **[!UICONTROL Offer managers]**
 
-   The operators in this group can create and maintain offers. For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
+   The operators in this group can create and maintain offers. 
+   
+   <!--For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
+   -->
    This group contains the following named rights:
 
     * **[!UICONTROL INSERT FOLDERS]**: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),

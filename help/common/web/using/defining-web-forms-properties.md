@@ -107,7 +107,7 @@ When the page is accessed, the following authentication form will come up:
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-Login and password are those used by Adobe Campaign operators. For more on this, refer to [this section](../../../v7/platform/using/access-management.md).
+Login and password are those used by Adobe Campaign operators. For more on this, refer to [this section](../../../common/access/using/access-management.md).
 
 The **[!UICONTROL Use a specific account]** option lets you limit the read or write permission of the operator who accesses the form. Use the drop-down box to select an operator or group of operators who will be in charge of granting these permissions. 
 

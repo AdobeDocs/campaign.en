@@ -39,7 +39,7 @@ Possible options are:
 
 * **[!UICONTROL Anonymous access]**: this option enables unrestricted access to the report. However, no manipulation is possible.
 
-  Permissions of the 'webapp' technical operator are used to display report elements. Learn more [in this section](../../../v7/platform/using/access-management-operators.md).
+  Permissions of the 'webapp' technical operator are used to display report elements. Learn more [in this section](../../../common/access/using/access-management-operators.md).
 
 * **[!UICONTROL Access control]**: this option enables Adobe Campaign operators to access it once they are logged on.
 * **[!UICONTROL Specific account]**: this option lets you execute the report with the rights of the operator selected in the **[!UICONTROL Operator]** field.
