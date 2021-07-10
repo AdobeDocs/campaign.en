@@ -13,7 +13,7 @@ type: Documentation
 
 + [Campaign Common documentation](campaign-common-home.md)
 + Get Started with Campaign {#start}
-+ [What is Adobe Campaign?](start/using/about-adobe-campaign.md)
+  + [What is Adobe Campaign?](start/using/about-adobe-campaign.md)
   + Profile and audiences {#profile-management}
        + [About profiles](profiles/using/about-profiles.md)
        + [Edit a profile](profiles/using/editing-a-profile.md)
