@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Updating data
-description: Updating data
+title: Update data
+description: Learn how to update data in Adobe Campaign
 audience: platform
 content-type: reference
 topic-tags: profile-management
@@ -9,23 +9,19 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
 # Update data{#updating-data}
 
-The data linked to a recipient's profile can be updated manually or automatically.
+Use Campaign to update data linked to a recipient's profile. Updates can be manual or automatic.
 
-## Set up an automatic update {#setting-up-an-automatic-update}
-
-An automatic update can be configured via a workflow. For more on this, refer to [this section](../../../common/workflow/using/update-data.md).
-
-## Perform a mass update {#performing-a-mass-update}
+## Mass data update {#performing-a-mass-update}
 
 To perform manual updates, right-click the selected recipient(s) to use the **[!UICONTROL Actions]** shortcut menu, or use the **[!UICONTROL Actions]** icon.
 
 ![](assets/s_ncs_user_action_icon.png)
 
-There are two types of updates: mass update for a set of recipients, and data merging between two profiles. For each action, a wizard lets you configure the update.
+There are two types of updates: [mass update](#mass-update) for a set of recipients, and [data merging](#merge-data)between two profiles. For each action, a wizard lets you configure the update.
 
 ### Mass update {#mass-update}
 
-For mass updating, use **[!UICONTROL Action > Mass update of selected lines...]**. The wizard helps you configure and run the update.
+To perform a mass update of recipients, select the recipients and use **[!UICONTROL Action > Mass update of selected lines...]** option. The mass update wizard helps you configure and run the update.
 
 The first step of the wizard is to specify the field(s) to be updated.
 
@@ -59,7 +55,7 @@ The **[!UICONTROL Stop]** lets you cancel the update, but certain records might 
 
 ### Merge data {#merge-data}
 
-Select **[!UICONTROL Merge selected lines...]** to launch the merging of two recipient profiles. The profiles to be merged must be selected before selecting the option. The merge is configured and launched using a wizard.
+Select **[!UICONTROL Merge selected lines...]** to merge two recipient profiles. The profiles to be merged must be selected before selecting the option. The merge is configured and launched using a wizard.
 
 The wizard displays the values to be retrieved for each field completed in one or other of the source profiles. If one or more fields in the profiles to be merged have different values, they are displayed in the **[!UICONTROL List of conflicts]** section. You can then select the default profile using the radio buttons under the list, as in the following example:
 
@@ -70,6 +66,10 @@ Click **[!UICONTROL Compute]** to display the result of your choice.
 ![](assets/s_ncs_user_merge_wizard01_2.png)
 
 Check the **[!UICONTROL Result]** columns of both sections of the window, and click **[!UICONTROL Finish]** to run the merge.
+
+## Set up an automatic update {#setting-up-an-automatic-update}
+
+An automatic update can be configured via a workflow. For more on this, refer to [this section](../../workflow/using/update-data.md).
 
 ## Export data {#exporting-data}
 
@@ -84,7 +84,7 @@ The content of a list can be exported. To configure and run the export:
 
     ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [this section](../../platform/using/executing-export-jobs.md).
+   For more on how to configure the export wizard, refer to [this section](../../../v7/platform/using/executing-export-jobs.md).
 
 ## Subscribe to a service {#subscribing-to-a-service}
 
@@ -118,4 +118,4 @@ To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the pro
 
 >[!NOTE]
 >
->For more on creating and configuring information services, refer to [this page](../../../common/delivery/using/managing-subscriptions.md).
+>For more on creating and configuring information services, refer to [this page](../../delivery/using/managing-subscriptions.md).

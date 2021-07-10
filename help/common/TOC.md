@@ -13,6 +13,14 @@ type: Documentation
 
 + [Campaign Common documentation](campaign-common-home.md)
 + Get Started with Campaign {#start}
+  + Profile and audiences {#profile-management}
+       + [About profiles](profiles/using/about-profiles.md)
+       + [Edit a profile](profiles/using/editing-a-profile.md)
+       + [Add profiles](profiles/using/adding-profiles.md)
+       + [Manage profiles](profiles/using/managing-profiles.md)
+       + [Update data](profiles/using/updating-data.md)
+       + [Import and export profiles](profiles/using/exporting-and-importing-profiles.md)
+       + [Create and manage lists](profiles/using/creating-and-managing-lists.md)
   + Permissions {#permissions}
      + [Get started with permissions](access/using/access-management.md)
      + [Create and manage operators](access/using/access-management-operators.md)

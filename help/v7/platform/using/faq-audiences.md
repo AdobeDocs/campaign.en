@@ -13,7 +13,7 @@ Learn how to target a population and manage audiences within Adobe Campaign.
 
 ## How to create recipients? {#how-to-create-recipients-}
 
-You can import recipients or create them manually using Campaign client console. Read out [this section](../../platform/using/about-profiles.md) and learn how to create and manage profiles in Campaign.
+You can import recipients or create them manually using Campaign client console. Read out [this section](../../../common/profiles/using/about-profiles.md) and learn how to create and manage profiles in Campaign.
 
 ## How to import profiles? {#how-to-import-profiles-}
 
@@ -30,7 +30,7 @@ You can [use workflows to create target population](../../../common/campaign/usi
 
 A list is a static set of recipients that can be targeted in delivery actions, updated during import operations or workflow execution. For example, a population extracted from the database via a query can supply a list.
 
-[Click here to learn more](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). 
+[Click here to learn more](../../../common/profiles/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group). 
 
 ![](assets/do-not-localize/how-to-video.png) Discover this feature [in this video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) and [in this other video](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
 

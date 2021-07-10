@@ -54,7 +54,7 @@ Using an external recipient table has the following limitations:
 
 * You cannot manually add profiles in a list.
 
-  Therefore, the procedure detailed in [this section](../../platform/using/creating-and-managing-lists.md) is not applicable without an additional configuration.
+  Therefore, the procedure detailed in [this section](../../../common/profiles/using/creating-and-managing-lists.md) is not applicable without an additional configuration.
 
   >[!NOTE]
   >
