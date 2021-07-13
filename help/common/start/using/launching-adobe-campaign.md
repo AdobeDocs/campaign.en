@@ -13,9 +13,9 @@ Campaign Client Console is a rich client which enables you to connect to Campaig
 
 To connect to Adobe Campaign, you need to install the client console and enter your credentials.
 
-## Install Campaign client console
+## Prerequisites
 
-Before starting to install the Client Console, you need to:
+Before starting to install the client console, you need to:
 
 * Check your system and tools compatibility with Adobe Campaign in the **Compatibility matrix**
    
@@ -36,19 +36,22 @@ The process to install or update the client console differs depending on your im
    
 * As a Campaign Classic v7 **hybrid or on-premise customer**, users need to download and install the client console to log in. [Learn more](#download-client).
 
-### Download and share the client console{#download-client}
+## Download the client console {#download-client}
 
 As an admin user, you can download Campaign client console by browsing to [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). 
+
+The client console installation file is called `setup-client-7.X.XXXX.exe` for v7 or `setup-client-8.X.XXXX.exe` for v8, where X is the sub-version of Adobe Campaign and XXXX is the build number. [Learn more about Campaign versions](#getting-your-campaign-version).
+
 
 >[!CAUTION]
 >
 >Admin access is required access to complete the update. If the users do not have admin rights, a system administrator will need to deploy the client console.
 
-The client console installation file is called `setup-client-7.X.XXXX.exe` for v7 or `setup-client-8.X.XXXX.exe` for v8, where X is the sub-version of Adobe Campaign and XXXX is the build number. [Learn more about Campaign versions](#getting-your-campaign-version)
+## Share the client console with end-users
 
-You can make the setup program for the Adobe Campaign client console available to end-users via an HTML interface. 
+Every Campaign user need to install the client console. You can make the client console installation program available to end-users via an HTML interface. 
 
-To do this, once you downloaded the client console,you must:
+To do this, [download the client console](#download-client), and:
 
 1. Copy and paste the installation program into the Adobe Campaign installation folder (on the marketing server for hybrid installations), under /datakit/nl/eng/jsp.
 
@@ -56,9 +59,9 @@ To do this, once you downloaded the client console,you must:
 
 1. Share the URL with users so that they can download Campaign client console. The URL is:  `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`
 
-Repeat steps 1 and 2 whenever a new version of the client console is available: users will be invited to download it when launching their client console.
+Repeat these steps whenever a new version of the client console is available: users will be invited to download it when launching their client console.
 
-### No longer ask this question option
+**No longer ask this question option**
 
 Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the console is available.  If this option is selected the user will not be informed of new available versions.
 
@@ -78,56 +81,33 @@ If **[!UICONTROL No longer ask this question]**  has been selected, you can rese
 >
 >If you are applying an updated console to an existing implementation, the users will automatically recieve a prompt to update their client console. If you are implementing Campaign for the first time, users will need to download the console. Please see below for details on both options
 
-### Install the console{#download-the-client-console}
+
+## Install the console{#download-the-client-console}
 
 Users can install the console by following the steps below:
+
 1. Access the URL to download Campaign client console. The URL is: `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`
 1. Click the **[!UICONTROL Download]** link on the installation page.
 1. Download and save the client setup file.
 1. Execute the downloaded file on a computer on Windows: The installation starts up. The default installation path of the client console is **$PROGRAMFILES$/Adobe/Adobe Campaign `[version]` Client**.
 
-
-## Tutorial video
+## Tutorial video: install and setup the client console
 
 This video shows how to install and setup the Adobe Campaign Client.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 
-
-
 ## Start Adobe Campaign {#starting-adobe-campaign}
 
 You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**.
 
-The client console connection window lets you select or configure existing databases and connect to them using a user name and password:
+The client console connection window lets you select or configure existing databases and connect to them.
 
-![](assets/acc-logon.png)
-
-## Connect to Adobe Campaign {#connecting-to-adobe-campaign}
-
-You can connect to Adobe Campaign using your Adobe ID or your Campaign login/password (Campaign Classic v7 only).
-
-1. Enter the operator account identifier in the **[!UICONTROL Login]** field.
-
-   Your identifier is given by the administrator of your Adobe Campaign platform.
-
-1. Enter your password in the **[!UICONTROL Password]** field.
-
-   The first time you access the database, your password is the one given to you by the administrator. Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../../common/access/using/access-management.md).
-
-1. Click **[!UICONTROL LOG IN]** to confirm.<!--You can also press the **Enter** key to launch connection.-->
-
-You can now access [Adobe Campaign workspace](../../platform/using/adobe-campaign-workspace.md).
-
-Some keyboard shortcuts are available on the **[!UICONTROL Sign in screen]**:
-* All actionable items are selectable through the **Tab** key (top to bottom) or the **Tab** + **Shift** keys (bottom to top).
-* To launch connection, you can also press the **Enter** key.
-* You can use the **Escape** key to reset the **[!UICONTROL Login]** and **[!UICONTROL Password]** fields to the last successful connection values.
 
 ## Set up connections {#setting-up-connections}
 
-You can access the server connection settings via the link above the input zone.
+Use the link on the top right to access connection settings.
 
 ![](assets/s_ncs_user_connections_management.png)
 
@@ -139,25 +119,23 @@ You must then define the connection settings. To do this:
 
 1. Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
 
-1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID. For more on this, refer to [this page](../../../v7/installation/using/about-adobe-id.md).
+1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID (mandatory for Campaign v8). 
 
 1. Click **[!UICONTROL OK]** to validate.
 
-## Operators and permissions {#operators-and-permissions}
+## Connect to Adobe Campaign {#connecting-to-adobe-campaign}
 
-The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
+You can connect to Adobe Campaign using your Adobe ID or your Campaign login/password (Campaign Classic v7 only).
 
-This functionality is detailed in the [Access management](../../../common/access/using/access-management.md) section.
+In both cases, enter your credentials and confirm. 
 
-## Disconnect from Adobe Campaign {#disconnecting-from-adobe-campaign}
+The first time you access the database, your credentials are given to you by your Adobe Campaign administrator. Once you are connected, you can change your password. To perform this:
 
-To disconnect from Adobe Campaign, use the first icon in the icon bar.
+* If you are not connecting with your Adobe ID, browse to the **[!UICONTROL Tools > Change password...]** menu and change your password.
 
-![](assets/s_ncs_user_deconnexion.png)
+* If you are connecting with your Adobe ID, reset your password from the connection window.
 
->[!NOTE]
->
->You can also close the application without logging off first.
+💡 Details on operators and connections are available in [this section](../../../common/access/using/access-management.md).
 
 ## Get your Adobe Campaign version {#getting-your-campaign-version}
 

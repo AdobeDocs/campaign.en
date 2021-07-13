@@ -10,8 +10,6 @@ level: Beginner
 
 Email deliveries let you send personalized emails to the target population. 
 
-[!DNL :arrow_upper_right:] Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
-
 ## Create your first email delivery
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
@@ -72,22 +70,22 @@ In the following sample, you will learn steps to design an email delivery in Ado
 Learn more in these sections of Campaign Classic v7 documentation:
 
 * Design an email in Campaign
-   [!DNL :arrow_upper_right:] [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   💡 [Learn how to design an email](defining-the-email-content.md)
 * Import an email content
-   [!DNL :arrow_upper_right:] [Use case: Create a workflow to load a delivery content](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   💡 [Use case: Create a workflow to load a delivery content](../../../workflow/using/loading-delivery-content.md)
 * Create and use an email template
-   [!DNL :arrow_upper_right:] [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   💡 [Learn more about email templates](../about-templates.md)
 * Select the audience of your email
-   [!DNL :arrow_upper_right:] [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   💡 [Learn how to define the target population](../steps-defining-the-target-population.md)
 * Validate a delivery and send proofs
-   [!DNL :arrow_upper_right:] [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* Add [seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+   💡 [Learn key steps to validate a delivery](../steps-validating-the-delivery.md)
+* Add [seed addresses](../about-seed-addresses.md)
 
 ## Test and validate your emails
 
 Campaign offers several ways to test and validate your emails before sending them to your audiences.
 
-[!DNL :arrow_upper_right:] [Apply best practices listed in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+💡 Learn how to perform all checks before sending your deliveries in [Delivery best practices](../check-before-sending.md)
 
 You can:
 
@@ -97,11 +95,11 @@ You can:
 * Use control groups
 * Check email rendering
 
-[!DNL :arrow_upper_right:] [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[Learn more](../steps-validating-the-delivery.md)
 
 ## Monitor your emails
 
 Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports to confirm messages were correctly sent.
 
-[!DNL :arrow_upper_right:] [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+[Learn more](../track-and-monitor.md)
 

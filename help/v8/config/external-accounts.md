@@ -17,4 +17,4 @@ External accounts are used by technical processes such as technical workflows or
 
 A specific external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 
-:speech_balloon: As a Managed Cloud Services user, [!DNL Snowflake] external account is configured for your instance by Adobe. 
+💬 As a Managed Cloud Services user, [!DNL Snowflake] external account is configured for your instance by Adobe. 
