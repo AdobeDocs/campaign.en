@@ -143,7 +143,16 @@ Certain parts of the application can be accessed via a web browser using an HTML
 
 The Web access provides an interface that is similar to the console but with a reduced set of functionalities.
 
-For instance, for a given operator, a campaign will show up with the following options in the console:
+For example, for a given operator, a campaign will show up with the following options in the console:
+
+![](assets/campaign-from-console.png)
+
+Whereas with Web access, the options will mainly enable viewing:
+
+![](assets/campaign-from-web.png)
+
+Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
+
 
 ## Get your Adobe Campaign version {#getting-your-campaign-version}
 
