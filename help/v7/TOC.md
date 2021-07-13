@@ -42,7 +42,6 @@ type: Documentation
 + Get started {#getting-started}
   + Start with Adobe Campaign {#starting-with-adobe-campaign}
        + [Get started with Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
-       + [Launch Adobe Campaign](platform/using/launching-adobe-campaign.md)
      + Adobe Campaign workspace{#campaign-workspace}
        + [Get started with Campaign UI](platform/using/adobe-campaign-workspace.md)
        + [Use Campaign Explorer](platform/using/adobe-campaign-explorer.md)

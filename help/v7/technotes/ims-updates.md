@@ -46,7 +46,7 @@ In addition, ensure the latest update of your [Windows version](../rn/using/comp
 
 **How can I check my Campaign version?**
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 
 **How can I check if I use IMS?** 

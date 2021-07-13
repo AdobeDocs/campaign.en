@@ -104,12 +104,9 @@ You can start Adobe Campaign by selecting **[!UICONTROL Start / All Programs / A
 
 The client console connection window lets you select or configure existing databases and connect to them.
 
-
 ## Set up connections {#setting-up-connections}
 
 Use the link on the top right to access connection settings.
-
-![](assets/s_ncs_user_connections_management.png)
 
 In the **[!UICONTROL Connections]** window, click **[!UICONTROL Add > Connection]**.
 
@@ -120,6 +117,8 @@ You must then define the connection settings. To do this:
 1. Add the address of the application server in the **[!UICONTROL URL]** field. If you do not know the connection URL, contact the administrator.
 
 1. Check **[!UICONTROL Connect with an Adobe ID]** for the operators to connect to the console using their Adobe ID (mandatory for Campaign v8). 
+
+   ![](assets/connect-to-campaign.png)
 
 1. Click **[!UICONTROL OK]** to validate.
 
@@ -152,7 +151,6 @@ Whereas with Web access, the options will mainly enable viewing:
 ![](assets/campaign-from-web.png)
 
 Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
-
 
 ## Get your Adobe Campaign version {#getting-your-campaign-version}
 

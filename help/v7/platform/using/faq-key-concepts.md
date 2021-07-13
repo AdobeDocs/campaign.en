@@ -24,7 +24,7 @@ Thanks to the integration with the IMS (Adobe Identity Management System), users
 
 ## What is my version of Campaign? {#what-is-my-version-of-campaign-}
 
-Check your [version and build number](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) from the **Help > About...** menu of Campaign client console.
+Check your [version and build number](../../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version) from the **Help > About...** menu of Campaign client console.
 
 ## What are the differences when working on-premise vs. in a hosted environment? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 

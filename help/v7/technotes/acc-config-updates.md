@@ -36,7 +36,7 @@ If your environment is on a lower build than the ones listed below, you are impa
 * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -81,7 +81,7 @@ If you are connecting to Campaign [via an Adobe ID](../installation/using/about-
 
 These releases come with a new connection protocol: upgrade is mandatory for both Campaign server and Client Console to be able to connect to Campaign after **June 30, 2021**.
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -110,7 +110,7 @@ Upgrade to one of the new versions listed below is mandatory:
 * Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 
@@ -130,7 +130,7 @@ Since **March 31, 2021**, the Apple Push Notification service (APNs) no longer s
 
 If your instances are running on an **older version than Campaign 21.1,** and you send push notifications with the legacy Apple binary protocol, you need to update to the HTTP/2-based APNs provider API. 
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 

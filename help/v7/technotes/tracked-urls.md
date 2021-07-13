@@ -27,7 +27,7 @@ If your environment is running on one of the versions listed below, you can be i
 * Campaign 19.2.2 (build 9080) to 19.2.3 (build 9081) releases. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.5 (build 9033) to 19.1.7 (build 9036) releases. [Learn more](../rn/using/release--19-1.md)
 
-Learn how to check your version [in this section](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn how to check your version [in this section](../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **How to update?**
 

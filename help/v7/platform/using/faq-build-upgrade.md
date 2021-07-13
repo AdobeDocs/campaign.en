@@ -29,7 +29,7 @@ The latest Campaign Classic version, including new features and documentation, i
 
 Check your version from **[!UICONTROL Help > About...]** menu in the Adobe Campaign Client console. The **[!UICONTROL About]**  box contains detailed information on the version and build you are running both for the console and the server. 
 
-Learn more [in this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Learn more [in this section](../../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## What does the build status mean?
 
