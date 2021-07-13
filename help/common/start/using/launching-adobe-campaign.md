@@ -137,6 +137,14 @@ The first time you access the database, your credentials are given to you by you
 
 💡 Details on operators and connections are available in [this section](../../../common/access/using/access-management.md).
 
+## Web access
+
+Certain parts of the application can be accessed via a web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
+
+The Web access provides an interface that is similar to the console but with a reduced set of functionalities.
+
+For instance, for a given operator, a campaign will show up with the following options in the console:
+
 ## Get your Adobe Campaign version {#getting-your-campaign-version}
 
 The **[!UICONTROL Help > About...]** menu lets you access the following information:
