@@ -93,11 +93,9 @@ Learn more about Adobe IMS in [this page](https://helpx.adobe.com/enterprise/usi
 
 ## Web access{#web-access}
 
-Certain parts of the application can be accessed via a simple web browser using an HTML user interface: Campaign dashboard, Cube reporting, instance monitoring, and more.
+Certain parts of the application can be accessed via a web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
 
-↗️ Learn more about Web access in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target="_blank"}
-
-The Web access provides an interface that is similar to the console, but with a reduced set of functionalities.
+The Web access provides an interface that is similar to the console but with a reduced set of functionalities.
 
 For example, for a given operator, a campaign will show up with the following options in the console:
 
@@ -109,4 +107,4 @@ Whereas with Web access, the options will mainly enable viewing:
 
 Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
 
-↗️ Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
+To access to your Campaign instance from the web, the URL is:  `https://<your adobe campaign server>:<port number>/view/home`.
