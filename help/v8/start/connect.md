@@ -45,7 +45,7 @@ Once the Client Console is newly installed, follow the steps below to create the
 
    For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
-1. If Adobe Identity Management System (IMS) is configured for your organization, check the option **[!UICONTROL Connect with an Adobe ID]** .
+1. Check the option **[!UICONTROL Connect with an Adobe ID]**.
 
 1. Click **[!UICONTROL Ok]** to save your settings.
 
