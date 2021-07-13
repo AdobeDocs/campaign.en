@@ -23,7 +23,7 @@ When using Campaign for the first time, or if you need to upgrade to a newer ver
 
 Two options are available:
 
-1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html) and download the Client Console installation program. You can then install it on your local machine.
+1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and download the Client Console installation program. You can then install it on your local machine.
 
 1. As a end-user, Adobe can deploy the Console for you: once the Console is updated, you will be prompted to download the latest Client Console version in a pop-up window. 
 
