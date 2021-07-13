@@ -69,7 +69,7 @@ To log on to an existing instance, follow the steps below:
 
 1. Click **[!UICONTROL Ok]**.
 
-1. You can then sign in to Campaign.
+1. You can then sign in to Campaign with [your Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png) 
 
