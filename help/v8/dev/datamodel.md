@@ -15,7 +15,7 @@ The basic structure of the Adobe Campaign data model can be described as follows
 
 * **Recipient table**: The data model relies on a main table which is by default the Recipient table (nmsRecipient). This table enables to store all the marketing profiles.
 
-    [!DNL :bulb:] For more on the Recipient table, see [this section](#ootb-profiles).
+    💡 For more on the Recipient table, see [this section](#ootb-profiles).
 
 * **Delivery table**: The data model also includes a part dedicated to store all the marketing activities. Usually it is the Delivery table (NmsDelivery). Each record in this table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc.
 
@@ -38,7 +38,7 @@ You can use the default Recipient table with the out-of-the-box fields, such as 
 * [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
 * [Create a new table](create-schema.md), for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
-[!DNL :bulb:] Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
+💡 Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
 
 ## Built-in profile table {#ootb-profiles}
 
@@ -53,9 +53,9 @@ The benefits of using the standard recipient table are:
 
 It is possible to extend the recipient table, but not to reduce the number of fields or links in the table.
 
-[!DNL :bulb:] Learn how to extend an existing schema in [this section](extend-schema.md).
+💡 Learn how to extend an existing schema in [this section](extend-schema.md).
 
-[!DNL :arrow_upper_right:] Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+↗️ Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 
@@ -63,9 +63,9 @@ You can also use a different recipient table to better fit with your business or
 
 For a better understanding of table management in Campaign v8, note that tables are replicated between Campaign and its Snowflake Cloud database.
 
-[!DNL :bulb:] Learn more about replication strategy and mechanisms in [this section](../config/replication.md).
+💡 Learn more about replication strategy and mechanisms in [this section](../config/replication.md).
 
 **Related topics**
 
-[!DNL :bulb:] Discover how to import profiles in [this section](../start/import.md)
-[!DNL :bulb:] Learn more about Campaign audiences in [this section](../start/audiences.md)
+💡 Discover how to import profiles in [this section](../start/import.md)
+💡 Learn more about Campaign audiences in [this section](../start/audiences.md)

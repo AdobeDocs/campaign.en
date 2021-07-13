@@ -29,13 +29,13 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 The following technical accounts are used by Adobe Campaign to enable and execute specific processes.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
+💬 As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
 
 * **Bounce mails (POP3)**
 
     The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-   [!DNL :arrow_upper_right:] Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
+   ↗️ Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
 
 * **Routing**
 
@@ -50,7 +50,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
 
-    [!DNL :bulb:] Learn more about Message Center architecture in [this page](../dev/architecture.md#transac-msg-archi).
+    💡 Learn more about Message Center architecture in [this page](../dev/architecture.md#transac-msg-archi).
 
 ## Access to External Systems external accounts 
 
@@ -60,33 +60,31 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     External databases compatible with Adobe Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md)
 
-    [!DNL :bulb:] Learn more about Federated Data Access (FDA) option in [this section](../connect/fda.md).
+    💡 Learn more about Federated Data Access (FDA) option in [this section](../connect/fda.md).
 
 ## Adobe Solution Integration external accounts
 
 * **Adobe Experience Cloud**
 
-    To connect to the Adobe Campaign console using an Adobe ID, you must configure the **[!UICONTROL Adobe Experience Cloud]** external account.
+    The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe IMS to connect to the Adobe Campaign console using an Adobe ID.
 
-    [!DNL :bulb:] Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
-
-    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Adobe IMS with Campaign.
+    💡 Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
 
 * **Web Analytics**
 
     Use the **[!UICONTROL Web Analytics (Adobe Analytics)]** external account to configure data transfer from Adobe Analytics to Adobe Campaign. 
 
-    [!DNL :bulb:] Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
+    💡 Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
 
-    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
+    💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
 
     * **Adobe Experience Manager**
 
     The **[!UICONTROL AEM]** external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
-    [!DNL :bulb:] Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
+    💡 Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
 
-    [!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
+    💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
 
 
 ## CRM Connector External Accounts 
@@ -95,7 +93,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
     
-    [!DNL :bulb:] Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/crm.md).
+    💡 Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/crm.md).
 
     With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
@@ -141,7 +139,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity.
 
-[!DNL :arrow_upper_right:] Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target="_blank"}
+↗️ Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target="_blank"}
 
 * **FTP and SFTP**
 

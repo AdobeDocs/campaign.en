@@ -43,13 +43,13 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 
 With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
 
-[!DNL :bulb:] [API staging mechanism is detailed in this page](staging.md)
+💡 [API staging mechanism is detailed in this page](staging.md)
 
 ## New APIs
 
 New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance.
 
-[!DNL :bulb:] [New APIs are detailed in this page](new-apis.md)
+💡 [New APIs are detailed in this page](new-apis.md)
 
 **Related topics**
 

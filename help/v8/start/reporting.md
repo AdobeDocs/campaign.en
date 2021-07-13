@@ -21,7 +21,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     ![](assets/built-in-reports.png)
 
-    [!DNL :arrow_upper_right:] Campaign built-in reports are presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target="_blank"}
+    ↗️ Campaign built-in reports are presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target="_blank"}
 
 * **Descriptive data analysis**
 
@@ -31,13 +31,13 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     ![](assets/desc-analysis-report.png)
 
-    [!DNL :arrow_upper_right:] Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+    ↗️ Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
 * **Personalized reports** 
 
     Use Adobe Campaign to create reports on the data in the database. Once these have been created, make them accessible in the appropriate contexts.
 
-    [!DNL :arrow_upper_right:] Steps to create a report are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Personalized report creation is reserved to advanced users.
+    ↗️ Steps to create a report are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Personalized report creation is reserved to advanced users.
 
 * **Cubes**
 
@@ -47,7 +47,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     Depending on the complexity of the queries, calculations and volumes, the data analyzed in these reports can be collected via a query and pre-aggregated in a list (data management type workflow) or in a Cube (using Marketing Analytics). It will be displayed in the form of a pivot table or a group list.
 
-    [!DNL :arrow_upper_right:] Learn how to create Cubes in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target="_blank"}
+    ↗️ Learn how to create Cubes in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target="_blank"}
 
  
 Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.

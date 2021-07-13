@@ -10,7 +10,7 @@ level: Beginner
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 
@@ -18,9 +18,9 @@ Transactional messages are used to send:
 * an individual real-time response to a customer action
 * non-promotional content
 
-[!DNL :bulb:] Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
+💡 Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-[!DNL :bulb:] Understand transactional messaging architecture in [this page](../dev/architecture.md).
+💡 Understand transactional messaging architecture in [this page](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -145,7 +145,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 
 Sending a proof involves the same process as for any delivery.
 
-[!DNL :arrow_upper_right:] Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+↗️ Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 
