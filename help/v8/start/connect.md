@@ -60,20 +60,13 @@ To log on to an existing instance, follow the steps below:
 
 1. Start the Console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
 
-1. Click the link in the top right-hand corner of the credentials fields to access the connection configuration window.
+1. Click the link in the top right-hand corner to access the connection configuration window.
 
-1. Select the Campaign instance you need to log in to.
+1. Select the Adobe Campaign instance you need to log in to.
 
 1. Click **[!UICONTROL Ok]**.
 
-1. Enter your user login credentials and click **[!UICONTROL LOG IN]**.
-
-   ![](assets/sign-in-v8.png) 
-
-Depending on your configuration, your credentials can be:
-
-* provided by your Campaign administrator who granted you access
-* your Adobe ID
+1. Enter your user Adobe ID credentials and validate.
 
 ## Grant access to users
 
@@ -97,13 +90,13 @@ Campaign users can connect to the Adobe Campaign console using their Adobe ID, t
 * Stronger password management policy.
 * Use of Federated ID accounts (external ID provider).
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](support.md#support) to implement Adobe IMS with Campaign.
+💬 As a Managed Cloud Services user, [contact Adobe](support.md#support) to implement Adobe IMS with Campaign.
 
 ## Connect to Campaign with your LDAP login
 
 Adobe Campaign can be configured so that the user accesses the platform via their LDAP authentication. 
 
-:speech_balloon: As a Managed Cloud Services user, [contact Adobe](support.md#support) to configure LDAP integration with Campaign.
+💬 As a Managed Cloud Services user, [contact Adobe](support.md#support) to configure LDAP integration with Campaign.
 
 
 ## Web access

@@ -51,7 +51,7 @@ Understand how to monitor Campaign workflow execution [in this page](../../../co
 
 To connect to Adobe Campaign Classic, you need to launch Adobe Campaign client console and enter your login and password to your instance.
 
-[Click here to learn more](../../platform/using/launching-adobe-campaign.md).
+[Click here to learn more](../../../common/start/using/launching-adobe-campaign.md).
 
 ## 7. Which systems and components Campaign Classic is compatible with? {#which-systems-and-components-campaign-classic-is-compatible-with-}
 

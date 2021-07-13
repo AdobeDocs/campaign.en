@@ -172,7 +172,7 @@ There are a few solutions to minimize the need of records in Adobe Campaign:
 
 You can declare the "deleteStatus" attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
 
-:speech_balloon: As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
+💬 As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
 
 ## Performance {#performance}
 

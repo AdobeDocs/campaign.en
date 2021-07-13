@@ -24,11 +24,11 @@ Please review the details below to understand what is required for your implemen
 
 >[!CAUTION]
 >
->Campaign Client console and Campaign application server must run **on the same product version**. Adobe also highly recommends to use the **same product build**. Learn how to check your Campaign Client and Server versions in [this section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>Campaign Client console and Campaign application server must run **on the same product version**. Adobe also highly recommends to use the **same product build**. Learn how to check your Campaign Client and Server versions in [this section](../../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Adobe Hosted implementations {#hosted-customers}
 
-Ads a hosted customer, you have two options to install or update your client console(s):
+As a hosted customer, you have two options to install or update your client console(s):
 
 1. Adobe can deploy directly. Once the console is updated, users will be prompted to download the latest client console version in a pop-up window. 
 

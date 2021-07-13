@@ -76,7 +76,7 @@ The **Server configuration file** section has been updated with the configuratio
 
 In the list of delivery statuses, the description for **Taken into account by the service provider** has been updated: this status is now also used for email deliveries sent using the [Email Feedback Service](../../../common/delivery/using/email/sending-with-enhanced-mta.md#email-feedback-service). [Read more](../../../common/delivery/using/delivery-statuses.md#list-delivery-statuses)
 
-The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+The keyboard shortcuts available on the new logon screen to connect to Adobe Campaign are now documented. [Read more](../../../common/start/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **Other updates**
 
@@ -167,7 +167,7 @@ Triggers integration originally based on oAUTH authentication setup to access pi
 
 Documentation pages have been updated to reflect the Tomcat 8 update. 
 
-Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+Details have been added in the 'About' box description in the 'Getting your Adobe Campaign version' section. [Read more](../../../common/start/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
 Guidelines to perform a build upgrade have been added to the 'Updating Adobe Campaign Classic' section. Read more [Read more](../../production/using/build-upgrade.md)
 
