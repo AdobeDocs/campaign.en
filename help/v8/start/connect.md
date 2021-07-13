@@ -95,7 +95,7 @@ Learn more about Adobe IMS in [this page](https://helpx.adobe.com/enterprise/usi
 
 Certain parts of the application can be accessed via a simple web browser using an HTML user interface: Campaign dashboard, Cube reporting, instance monitoring, and more.
 
-[!DNL :arrow_upper_right:] Learn more about Web access in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target="_blank"}
+↗️ Learn more about Web access in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target="_blank"}
 
 The Web access provides an interface that is similar to the console, but with a reduced set of functionalities.
 
@@ -109,4 +109,4 @@ Whereas with Web access, the options will mainly enable viewing:
 
 Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
 
-[!DNL :arrow_upper_right:] Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
+↗️ Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}

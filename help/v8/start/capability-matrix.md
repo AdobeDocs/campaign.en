@@ -19,7 +19,7 @@ Key changes:
 
 As a [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
-[!DNL :bulb:] Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
+💡 Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
 
 ## Product configuration changes
 
@@ -70,7 +70,7 @@ Campaign users do not need to be database experts: there is no longer any need f
 
 Campaign users connect through their Adobe ID. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account. 
 
-[!DNL :bulb:] Learn how to connect to [!DNL Campaign] in [this page](connect.md).
+💡 Learn how to connect to [!DNL Campaign] in [this page](connect.md).
 
 ## Reporting
 

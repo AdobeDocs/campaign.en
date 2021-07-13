@@ -17,7 +17,7 @@ Adobe Campaign comes with several connectors that allow you to communicate with 
 
 Modernize your implementation and leverage all Adobe Experience Cloud capabilities.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
 
 Campaign v8 can connect with:
 
@@ -34,9 +34,9 @@ Campaign v8 can connect with:
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
-[!DNL :arrow_upper_right:] Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+↗️ Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-[!DNL :arrow_upper_right:] Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+↗️ Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## CRM Connectors{#gs-crm-connectors}
 
@@ -45,13 +45,13 @@ You can connect your Adobe Campaign platform to your **CRM third-party systems**
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from your CRM system to Adobe Campaign, and share campaign data back from Adobe Campaign to your CRM system.
 CRM connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
-[!DNL :bulb:] Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
+💡 Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
 
 ## Federated Data Access (FDA){#gs-fda}
 
 Use the FDA Connector (Federated Data Access) to connect Campaign to one or more **external databases** and process information stored into them without affecting your Campaign Cloud Database data.
 
-[!DNL :bulb:] Learn more in [this page](fda.md)
+💡 Learn more in [this page](fda.md)
 
 
 <!-- 
@@ -63,4 +63,4 @@ Use the **Managing social networks (Social Marketing)** option to interact with 
 
 * Collect new contacts - Adobe Campaign Social Marketing also makes it easy to acquire new contacts via Facebook: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
-[!DNL :bulb:] Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->
+💡 Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->

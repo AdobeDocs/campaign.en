@@ -11,9 +11,9 @@ Adobe Campaign system is very flexible and can be extended beyond the initial im
 
 For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md) .
 
-[!DNL :bulb:] Read out [this section](schemas.md) to get started with Campaign schemas. 
+💡 Read out [this section](schemas.md) to get started with Campaign schemas. 
 
-[!DNL :bulb:] Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
+💡 Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
 
 ## Data model architecture {#data-model-architecture}
 
@@ -169,7 +169,7 @@ There are a few solutions to minimize the need of records in Adobe Campaign:
 
 You can declare the "deleteStatus" attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
 
-[!DNL :speech_balloon:] As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
+💬 As a Managed Cloud Services user, reach out to the Adobe consultants or technical administrators to learn more about retention or if you need to set retention for custom tables.
 
 ## Performance {#performance}
 

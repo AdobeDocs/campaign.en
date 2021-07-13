@@ -16,7 +16,7 @@ Key steps to customize Campaign datamodel are:
 >[!CAUTION]
 >Built-in schema must not be modified directly. If you need to adapt a built-in schema, you must extend it.
 
-[!DNL :bulb:] For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md). See also recommendations when creating a new schema in [this page](create-schema.md).
+💡 For a better understanding of Campaign built-in tables and their interaction, refer to [this page](datamodel.md). See also recommendations when creating a new schema in [this page](create-schema.md).
 
 To extend a schema, follow the steps below:
 
