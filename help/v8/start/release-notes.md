@@ -27,7 +27,9 @@ _July 23, 2021_
 <tbody>
 <tr>
 <td>
-<p>A new workflow activity is introduced. The <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This gives you the ability to perform large and efficient unitary operations on working table data by moving the worktable from Snowflake to Postgresql.
+<p>The new <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This provides enhanced flexibility in managing data accross different data sources (FDA, FFDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data accross workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>With Campaign v8, the main profiles table is stored on the cloud database directly. So querying on the Profiles table will create a working table on the cloud database as well. In certain cases, it can make sense to move the working table to another data source in order to perform specific operations.</p>
 </p>
 <p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
 </td>
