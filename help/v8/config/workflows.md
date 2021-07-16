@@ -28,16 +28,50 @@ Learn how to design workflows in these [end-to-end use cases](#end-to-end-uc).
 
 Learn more about workflows user interface and execution in Campaign Classic v7 documentation:
 
-↗️  [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
-* Workflow activities:
-    * [Targeting activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target="_blank"}: Query, Read list, Enrichment, Union, and more
-    * [Flow control activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target="_blank"}: Scheduler, Fork, Alert, External signal, and more
-    * [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
-    * [Event activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: File transfer, Web download and more
-↗️  [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
-↗️  [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
+↗️ [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+
+↗️ [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
+
 ↗️ [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
+
 ↗️ [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target="_blank"}
+
+↗️  [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
+
+## Workflow activities {#wf-activities}
+
+↗️ Learn more about the available workflow activities [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target="_blank"}
+
+Workflow activities are grouped by category. The four activity categories are available:
+
+* [Targeting activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target="_blank"}: Query, Read list, Enrichment, Union, and more
+* [Flow control activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target="_blank"}: Scheduler, Fork, Alert, External signal, and more
+* [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
+* [Event activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: File transfer, Web download and more
+
+### Change Data Source Activity {#change-data-source-activity}
+
+There are two goals here:
+
+Provide a new workflow activity allowing to "change" the "data-source" of workflow working table (Technically it will create a new working table on the new data-source and perform a copy of the input data to this new working table)
+In V8, this activity allows the possibility to perform large and efficient unitary operations on working table data by moving the worktable from snowflake to postgresql.
+Simplify the understanding of the location (data-source) of the workflow working table
+Display Target: Add the data Source information
+Javascript Activity: Add a warning at execution when queryDef , write are used directly on the Snowflake database
+
+ A new workflow activity is introduced. The <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This provides enhanced flexibility in managing data across different data sources (FDA, FFDA & local database)
+An Adobe Campaign workflow handles data thanks to what we call a Working table (aka temporary table). As the workflow executes, working tables are sharing data across workflow activities.
+By default, Working Tables are created on the same database than the source of the data we query on.
+Example: With V8, main profiles table is now stored on Cloud database directly. So querying on Profiles table will create a working table on Cloud database as well.
+Sometimes it could make sense to move the working table to another data source in order to perform specific operation(s)
+Example :
+- I query on my Products List which is stored on the Cloud Database.
+- A new working table is then created on Cloud database and this contains the result of my query.
+- Now I need to run a Javascript Activity that performs unitary operations on this working table.
+- I know this is not recommended to perform such unitary operations on the Cloud Database directly.
+- Then I will first move the working table from Cloud Database to the local Postgres Database.
+- I am now able to run my script on top of the local Postgres database which is more efficient with unitary operations.
+This was just an example and there are many other use use cases that benefit from this new <b>Change Data Source</b> activity.
 
 
 ## Set up recurring campaigns
