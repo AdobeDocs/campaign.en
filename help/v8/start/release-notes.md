@@ -12,7 +12,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
-## Release 8.1.2 - Build 9335 {#release-8-1-2-build-9335}
+## Release 8.1.13 {#release-8-1-13}
 
 _July 23, 2021_
 
@@ -31,7 +31,6 @@ _July 23, 2021_
 <p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data accross workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
 <p>With Campaign v8, the main profiles table is stored on the cloud database directly. So querying on the Profiles table will create a working table on the cloud database as well. In certain cases, it can make sense to move the working table to another data source in order to perform specific operations.</p>
 </p>
-<p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +44,7 @@ _July 23, 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The following improvements have been added to LINE channel when used with Message Center:
+<td> <p>The LINE channel is now available with Campaign v8. The following enhancements have been made when using LINE with Message Center:
 </p>
 <ul> 
 <li><p>Fixed an issue which could prevent visitors from being targeted in a LINE delivery. 
@@ -62,6 +61,6 @@ _July 23, 2021_
 **Other improvements**
 
 * Fixed an issue which could prevent the **Hot clicks** report from displaying for specific deliveries.
-* Fixed an issue with the **Deduplication** workflow activity which could result in an inacurrate duplicate counting.
+* Fixed an issue with the **Deduplication** workflow activity which could result in an inacurrate duplicate counting. 
 * Fixed an issue when using a workflow query with the "ID is not empty" filter which could result in an empty item being dislayed in the transition population.
 * Fixed an issue which prevented additional fields from being created in a new target mapping.
