@@ -55,7 +55,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to delegate your subdomains to Adobe.
+    💬 As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
 
 1. **As a Campaign Classic v7 user, can I migrate to Campaign v8?**
 
@@ -65,7 +65,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     You can get the installation program and the client console from Adobe Download Center.
     
-    [Click here](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html){target="_blank"} to access the Experience Cloud Software Distribution.
+    As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} to download Adobe Campaign.
     
     Learn more about the Distribution Center [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
