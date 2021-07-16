@@ -27,8 +27,8 @@ _July 23, 2021_
 <tbody>
 <tr>
 <td>
-<p>The new <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This provides enhanced flexibility in managing data accross different data sources (FDA, FFDA & local database).</p>
-<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data accross workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
+<p>The new <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This provides enhanced flexibility in managing data across different data sources (FDA, FFDA & local database).</p>
+<p>In Adobe Campaign workflows, data is managed using working (or temporary) tables. As the workflow executes, working tables share data across workflow activities. By default, working tables are created on the same database as the source of the data we query on.</p>
 <p>With Campaign v8, the main profiles table is stored on the cloud database directly. So querying on the Profiles table will create a working table on the cloud database as well. In certain cases, it can make sense to move the working table to another data source in order to perform specific operations.</p>
 </p>
 </td>
@@ -39,7 +39,7 @@ _July 23, 2021_
 <table> 
 <thead>
 <tr> 
-<th> <strong>LINE channel enhancements</strong><br /> </th> 
+<th> <strong>LINE channel availability</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -61,6 +61,6 @@ _July 23, 2021_
 **Other improvements**
 
 * Fixed an issue which could prevent the **Hot clicks** report from displaying for specific deliveries.
-* Fixed an issue with the **Deduplication** workflow activity which could result in an inacurrate duplicate counting. 
+* Fixed an issue with the **Deduplication** workflow activity which could result in an inaccurate duplicate counting. 
 * Fixed an issue when using a workflow query with the "ID is not empty" filter which could result in an empty item being dislayed in the transition population.
 * Fixed an issue which prevented additional fields from being created in a new target mapping.
