@@ -1,8 +1,7 @@
 ---
-solution: Campaign
 product: Adobe Campaign
-title: Learn how to connect to Campaign v8
-description: Connect to Campaign v8
+title: Connect to Campaign v8
+description: Learn how to connect to Campaign v8
 feature: Audiences
 role: Data Engineer
 level: Beginner
@@ -12,9 +11,11 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 
 Campaign Client Console is a rich client which enables you to connect to your Campaign application server(s).
 
->[!CAUTION]
->
->Before starting, you need to check Campaign [Compatibility matrix](compatibility-matrix.md), get your Campaign server URL and user credentials.
+Before starting, you need to:
+
+* Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
+* Get your Campaign server URL 
+* Create your Adobe ID or get your user credentials from your company
 
 ## Download and install the Client Console
 
@@ -22,7 +23,7 @@ When using Campaign for the first time, or if you need to upgrade to a newer ver
 
 Two options are available:
 
-1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html) and download the Client Console installation program. You can then install it on your local machine.
+1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) and download the Client Console installation program. You can then install it on your local machine.
 
 1. As a end-user, Adobe can deploy the Console for you: once the Console is updated, you will be prompted to download the latest Client Console version in a pop-up window. 
 
@@ -44,7 +45,7 @@ Once the Client Console is newly installed, follow the steps below to create the
 
    For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
 
-1. If Adobe Identity Management System (IMS) is configured for your organization, check the option **[!UICONTROL Connect with an Adobe ID]** .
+1. Check the option **[!UICONTROL Connect with an Adobe ID]**.
 
 1. Click **[!UICONTROL Ok]** to save your settings.
 
@@ -60,13 +61,17 @@ To log on to an existing instance, follow the steps below:
 
 1. Start the Console from the Windows **[!UICONTROL Start]** menu, in the **Adobe Campaign** program group.
 
-1. Click the link in the top right-hand corner to access the connection configuration window.
+1. Click the link in the top right-hand corner of the credentials fields to access the connection configuration window.
+   
+   ![](assets/connectToCampaign.png) 
 
-1. Select the Adobe Campaign instance you need to log in to.
+1. Select the Campaign instance you need to log in to.
 
 1. Click **[!UICONTROL Ok]**.
 
-1. Enter your user Adobe ID credentials and validate.
+1. You can then sign in to Campaign with [your Adobe ID](#connect-ims).
+
+   ![](assets/adobeID.png) 
 
 ## Grant access to users
 
@@ -80,25 +85,26 @@ Learn more about users and how to define their permissions in [this section](per
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
 
-
 ## Connect to Campaign with your Adobe ID{#connect-ims}
 
-Campaign users can connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). This implementation provides the following advantages:
+Campaign users connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). They can use same ID all Adobe solutions. The connection is saved when using Adobe Campaign with other solutions.
 
-* The same ID can be used for all Experience Cloud solutions.
-* The connection is memorized when using Adobe Campaign with different integrations.
-* Stronger password management policy.
-* Use of Federated ID accounts (external ID provider).
+Learn more about Adobe IMS in [this page](https://helpx.adobe.com/enterprise/using/identity.html).
 
-💬 As a Managed Cloud Services user, [contact Adobe](support.md#support) to implement Adobe IMS with Campaign.
+## Web access{#web-access}
 
-## Connect to Campaign with your LDAP login
+Certain parts of the application can be accessed via a web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
 
-Adobe Campaign can be configured so that the user accesses the platform via their LDAP authentication. 
+The Web access provides an interface that is similar to the console but with a reduced set of functionalities.
 
-💬 As a Managed Cloud Services user, [contact Adobe](support.md#support) to configure LDAP integration with Campaign.
+For example, for a given operator, a campaign will show up with the following options in the console:
 
+![](assets/campaign-from-console.png)
 
-## Web access
+Whereas with Web access, the options will mainly enable viewing:
 
-Certain parts of the application can be accessed via a simple web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
+![](assets/campaign-from-web.png)
+
+Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
+
+To access to your Campaign instance from the web, the URL is:  `https://<your adobe campaign server>:<port number>/view/home`.
