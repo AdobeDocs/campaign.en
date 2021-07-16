@@ -27,7 +27,7 @@ _July 23, 2021_
 <tbody>
 <tr>
 <td>
-<p>A new workflow activity is introducted. The <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This gives you the ability to perform large and efficient unitary operations on working table data by moving the worktable from Snowflake to Postgresql.
+<p>A new workflow activity is introduced. The <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This gives you the ability to perform large and efficient unitary operations on working table data by moving the worktable from Snowflake to Postgresql.
 </p>
 <p>For more information refer to the <a href="../../delivery/using/line-channel.md">detailed documentation</a>.</p>
 </td>
@@ -48,9 +48,9 @@ _July 23, 2021_
 <ul> 
 <li><p>Fixed an issue which could prevent visitors from being targeted in a LINE delivery. 
 </p></li>
-<li><p>Fixed an issue which could cause errors when when retrieving visitors from the execution instance to the marketing instance.
+<li><p>Fixed an issue which could cause errors when retrieving visitors from the execution instance to the marketing instance.
 </p></li>
-<li><p>Enrichment during real-time event processing has been enhanced to support the LINE channel.</p></li>
+<li><p>Fixed issues during the processing of real-time events in the context of LINE deliveries using Message Center.</p></li>
 </ul>
 </td> 
 </tr> 
@@ -59,7 +59,7 @@ _July 23, 2021_
 
 **Other improvements**
 
-* Fixed an issue which could prevent the **Hot clicks** report from displaying when selecting a specific delivery.
+* Fixed an issue which could prevent the **Hot clicks** report from displaying for specific deliveries.
 * Fixed an issue with the **Deduplication** workflow activity which could result in an inacurrate duplicate counting.
 * Fixed an issue when using a workflow query with the "ID is not empty" filter which could result in an empty item being dislayed in the transition population.
 * Fixed an issue which prevented additional fields from being created in a new target mapping.
