@@ -51,28 +51,13 @@ Workflow activities are grouped by category. The four activity categories are av
 
 ### Change Data Source Activity {#change-data-source-activity}
 
-There are two goals here:
+The **[!UICONTROL Change Data Source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
-Provide a new workflow activity allowing to "change" the "data-source" of workflow working table (Technically it will create a new working table on the new data-source and perform a copy of the input data to this new working table)
-In V8, this activity allows the possibility to perform large and efficient unitary operations on working table data by moving the worktable from snowflake to postgresql.
-Simplify the understanding of the location (data-source) of the workflow working table
-Display Target: Add the data Source information
-Javascript Activity: Add a warning at execution when queryDef , write are used directly on the Snowflake database
+The **[!UICONTROL Working table]** (or temporary table) allows Adobe Campaign workflow to handle data and share data with the workflow activities.
+By default, the **[!UICONTROL Working table]** is created in the same database than the source of the data we query on.
 
- A new workflow activity is introduced. The <b>Change Data Source</b> activity allows you to change the data source of a workflow working table. This provides enhanced flexibility in managing data across different data sources (FDA, FFDA & local database)
-An Adobe Campaign workflow handles data thanks to what we call a Working table (aka temporary table). As the workflow executes, working tables are sharing data across workflow activities.
-By default, Working Tables are created on the same database than the source of the data we query on.
-Example: With V8, main profiles table is now stored on Cloud database directly. So querying on Profiles table will create a working table on Cloud database as well.
-Sometimes it could make sense to move the working table to another data source in order to perform specific operation(s)
-Example :
-- I query on my Products List which is stored on the Cloud Database.
-- A new working table is then created on Cloud database and this contains the result of my query.
-- Now I need to run a Javascript Activity that performs unitary operations on this working table.
-- I know this is not recommended to perform such unitary operations on the Cloud Database directly.
-- Then I will first move the working table from Cloud Database to the local Postgres Database.
-- I am now able to run my script on top of the local Postgres database which is more efficient with unitary operations.
-This was just an example and there are many other use use cases that benefit from this new <b>Change Data Source</b> activity.
-
+For example, since main profiles table are stored on the Cloud database, when querying the Profiles table you will create a **[!UICONTROL Working table]** on the Cloud database as well.
+To change this, you can add the **[!UICONTROL Change Data Source]** activity to choose a different data source for your **[!UICONTROL Working table]**.
 
 ## Set up recurring campaigns
 
