@@ -49,15 +49,19 @@ Workflow activities are grouped by category. The four activity categories are av
 * [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
 * [Event activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: File transfer, Web download and more
 
-### Change Data Source Activity {#change-data-source-activity}
+### Change data source Activity {#change-data-source-activity}
 
-The **[!UICONTROL Change Data Source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
 The **[!UICONTROL Working table]** (or temporary table) allows Adobe Campaign workflow to handle data and share data with the workflow activities.
 By default, the **[!UICONTROL Working table]** is created in the same database than the source of the data we query on.
 
-For example, since main profiles table are stored on the Cloud database, when querying the Profiles table you will create a **[!UICONTROL Working table]** on the Cloud database as well.
+For example, Profiles tables are stored on the Cloud database, when querying the Profiles table you will create a **[!UICONTROL Working table]** on the Cloud database as well.
 To change this, you can add the **[!UICONTROL Change Data Source]** activity to choose a different data source for your **[!UICONTROL Working table]**.
+
+Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to revert back to the FDA data source to continue the workflow execution.
+
+Learn how to use the **[!UICONTROL Change Data Source]** in this [end-to-end use case](#end-to-end-uc).
 
 ## Set up recurring campaigns
 
@@ -176,4 +180,23 @@ In this section, you will find various use cases leveraging Campaign workflows c
 * [Call an instance variable in a query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target="_blank"}
 
     Learn how to use an instance variable to compute dynamically the split percentage to apply on a population.
-    
+
+### Change data source activity {#data-source-uc}
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
+
+In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
+
+![](assets/wf_data_source_uc.png)
+
+1. Create a workflow and add a **[!UICONTROL Start]** activity.
+
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. For more information on the Query Activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+    A new working table is then created on Cloud database and this contains the result of my query.
+
+1. Now I need to run a Javascript Activity that performs unitary operations on this working table.
+
+1. Then I will first move the working table from Cloud Database to the local Postgres Database.
+
+1. I am now able to run my script on top of the local Postgres database which is more efficient with unitary operations.
