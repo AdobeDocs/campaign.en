@@ -201,6 +201,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
     Learn how to use an instance variable to compute dynamically the split percentage to apply on a population.
 
+<!--
 ### Change data source activity {#data-source-uc}
 
 The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
@@ -228,3 +229,5 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
 1. Add an **[!UICONTROL End]** activity and start your workflow.
+-->
+
