@@ -49,17 +49,17 @@ Workflow activities are grouped by category. The four activity categories are av
 * [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
 * [Event activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: File transfer, Web download and more
 
-### Change data source Activity {#change-data-source-activity}
+### Change data source activity {#change-data-source-activity}
 
-The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
+In Campaign v8, the **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
-The **[!UICONTROL Working table]** (or temporary table) allows Adobe Campaign workflow to handle data and share data with the workflow activities.
-By default, the **[!UICONTROL Working table]** is created in the same database than the source of the data we query on.
+The **[!UICONTROL Working table]** allows Adobe Campaign workflow to handle data and share data with the workflow activities.
+By default, the **[!UICONTROL Working table]** is created in the same database as the source of the data we query on.
 
-For example, Profiles tables are stored on the Cloud database, when querying the Profiles table you will create a **[!UICONTROL Working table]** on the Cloud database as well.
+For example, when querying the **[!UICONTROL Profiles]** table, stored on the Cloud database, you will create a **[!UICONTROL Working table]** on the same Cloud database.
 To change this, you can add the **[!UICONTROL Change Data Source]** activity to choose a different data source for your **[!UICONTROL Working table]**.
 
-Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to revert back to the FDA data source to continue the workflow execution.
+Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to revert back to the Cloud database to continue the workflow execution.
 
 Learn how to use the **[!UICONTROL Change Data Source]** in this [end-to-end use case](#end-to-end-uc).
 
@@ -191,12 +191,20 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
 
 1. Create a workflow and add a **[!UICONTROL Start]** activity.
 
-1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. For more information on the Query Activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
 
-    A new working table is then created on Cloud database and this contains the result of my query.
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
 
-1. Now I need to run a Javascript Activity that performs unitary operations on this working table.
+1. 
 
-1. Then I will first move the working table from Cloud Database to the local Postgres Database.
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
 
-1. I am now able to run my script on top of the local Postgres database which is more efficient with unitary operations.
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. Add an **[!UICONTROL End]** activity and start your workflow.

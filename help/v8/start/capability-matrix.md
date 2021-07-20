@@ -76,6 +76,14 @@ Campaign users connect through their Adobe ID. The same Adobe ID is used to keep
 
  Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
 
+## Workflow {#workflow}
+
+Campaign v8 offers an additional targeting workflow activity: **[!UICONTROL Change data source]**.
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]** to manage data across different data sources such as FDA, FFDA and local database.
+
+💡 Learn more on the **[!UICONTROL Change data source]** activity in [this page](../config/worfklows.md#change-data-source-activity).
+
 ## Unavailable features{#gs-unavailable-features}
 
 Please note that some capabilities are not available in this first version, such as:
