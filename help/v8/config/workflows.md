@@ -61,7 +61,27 @@ To change this, you can add the **[!UICONTROL Change Data Source]** activity to 
 
 Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to revert back to the Cloud database to continue the workflow execution.
 
-Learn how to use the **[!UICONTROL Change Data Source]** in this [end-to-end use case](#end-to-end-uc).
+To use the **[!UICONTROL Change Data Source]** activity:
+
+1. Create a workflow.
+
+1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
+
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
+
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to the [JavaScript code and Advanced JavaScript code](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) page in Campaign Classic V7 documentation.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. You can now start your workflow.
 
 ## Set up recurring campaigns
 
