@@ -51,7 +51,7 @@ Workflow activities are grouped by category. The four activity categories are av
 
 ### Change data source activity {#change-data-source-activity}
 
-In Campaign v8, the **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
 The **[!UICONTROL Working table]** allows Adobe Campaign workflow to handle data and share data with the workflow activities.
 By default, the **[!UICONTROL Working table]** is created in the same database as the source of the data we query on.
@@ -59,7 +59,7 @@ By default, the **[!UICONTROL Working table]** is created in the same database a
 For example, when querying the **[!UICONTROL Profiles]** table, stored on the Cloud database, you will create a **[!UICONTROL Working table]** on the same Cloud database.
 To change this, you can add the **[!UICONTROL Change Data Source]** activity to choose a different data source for your **[!UICONTROL Working table]**.
 
-Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to revert back to the Cloud database to continue the workflow execution.
+Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to switch back to the Cloud database to continue the workflow execution.
 
 To use the **[!UICONTROL Change Data Source]** activity:
 
@@ -77,7 +77,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
     For more information on the **[!UICONTROL JavaScript code]** activity, refer to the [JavaScript code and Advanced JavaScript code](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) page in Campaign Classic V7 documentation.
 
-1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
