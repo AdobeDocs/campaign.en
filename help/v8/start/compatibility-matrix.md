@@ -9,46 +9,43 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 ---
 # Campaign v8 compatibility matrix
 
-This document lists all systems and components supported for the latest build of **Adobe Campaign v8**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+This document lists all systems and components supported for the latest build of **Adobe Campaign v8**. Unless mentioned otherwise, all minor releases are supported. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+
+As specific versions of these 3rd party systems and tools reach end-of-life (EOL), Adobe Campaign will no longer be compatible with those versions, and they will be removed from this compatibility matrix. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
+
+## Client Console{#ClientConsoleoperatingsystems}
 
 >[!CAUTION]
 >
->* Unless mentioned otherwise, all minor releases are supported.
->* As specific versions of these 3rd party systems and tools reach end-of-life (EOL), Adobe Campaign will no longer be compatible with those versions, and they will be removed from this compatibility matrix. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
+> The following operating systems and browser are required to use Campaign Client Console.
 
-## Compatible systems
-
-### Client Console{#ClientConsoleoperatingsystems}
-
-:warning: The following operating systems and browser are required to use Campaign Client Console.
-
-**Operating systems**
+### Operating systems
 
 * **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10 (recommended for Japanese instances)
 
-**Browser**
+### Browser
 
 **Microsoft Internet Explorer** 11
 
-### CRM connectors{#CRMconnectors}
+## CRM connectors{#CRMconnectors}
 
 * **Salesforce** connector API version 49
 * **Microsoft Dynamics** connector, Web API: Dynamics 365 On-premise and Online
 
-### Federated Data Access (FDA){#FederatedDataAccessFDA}
+## Federated Data Access (FDA){#FederatedDataAccessFDA}
  
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-### Mobile SDK{#MobileSDK}
+## Mobile SDK{#MobileSDK}
 
 * **Android** 7.x, 8.x, 9.0 with Campaign Android SDK build 1.1.1.
 * **Apple iOS** 9 - 14 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
-### Supported browsers {#Browsers}
+## Web access
 
 The following browsers are compatible with Campaign for Web Access.
 
@@ -58,7 +55,7 @@ The following browsers are compatible with Campaign for Web Access.
 
 ## How to check your Campaign version and build
 
-Use the **Help > About…** menu to check your version.
+Access the **Help > About…** menu to check your version.
 
 ![](assets/ac-version.png)
 
