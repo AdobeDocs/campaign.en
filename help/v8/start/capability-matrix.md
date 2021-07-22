@@ -82,7 +82,7 @@ Campaign v8 offers an additional targeting workflow activity: **[!UICONTROL Chan
 
 The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]** to manage data across different data sources such as FDA, FFDA and local database.
 
-💡 Learn more on the **[!UICONTROL Change data source]** activity in [this page](../config/worfklows.md#change-data-source-activity).
+💡 Learn more on the **[!UICONTROL Change data source]** activity in [this page](../config/workflows.md#change-data-source-activity).
 
 ## Unavailable features{#gs-unavailable-features}
 
