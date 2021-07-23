@@ -12,6 +12,10 @@ title: Campaign v8 docs
 
 + [Campaign v8 documentation](campaign-home.md)
 + Start {#start}
+  + [Key capabilities](start/whats-new.md)
+  + [Release notes](start/release-notes.md)
+  + [Known limitations](start/known-limitations.md)
+  + [Classic v7 to v8](start/capability-matrix.md)
   + [Get started](start/get-started.md)
   + [Profiles & Audiences](start/audiences.md)
   + [Import data](start/import.md)
