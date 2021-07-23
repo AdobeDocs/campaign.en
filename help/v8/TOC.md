@@ -10,12 +10,7 @@ title: Campaign v8 docs
 
 # Adobe Campaign v8 documentation {#campaign-v8}
 
-+ [Campaign v8 documentation](campaign-home.md) 
-+ What's new? {#start}
-  + [Key capabilities](start/whats-new.md)
-  + [Release notes](start/release-notes.md)
-  + [Known limitations](start/known-limitations.md)
-  + [Classic v7 to v8](start/capability-matrix.md)
++ [Campaign v8 documentation](campaign-home.md)
 + Start {#start}
   + [Get started](start/get-started.md)
   + [Profiles & Audiences](start/audiences.md)
