@@ -44,14 +44,13 @@ _July 23, 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The LINE channel is now available with Campaign v8. The following enhancements have been made when using LINE with Message Center:
-</p>
+<td> <p>The <a href="../send/line.md">LINE channel</a> is now available with Campaign v8, including the following enhancements when combined with the <a href="../send/transactional.md">transactional messaging</a> module:
 <ul> 
 <li><p>Fixed an issue which could prevent visitors from being targeted in a LINE delivery. 
 </p></li>
 <li><p>Fixed an issue which could cause errors when retrieving visitors from the execution instance to the marketing instance.
 </p></li>
-<li><p>Fixed issues during the processing of real-time events in the context of LINE deliveries using Message Center.</p></li>
+<li><p>Fixed issues during the processing of real-time events.</p></li>
 </ul>
 </td> 
 </tr> 
