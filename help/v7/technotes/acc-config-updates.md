@@ -31,7 +31,7 @@ If your environment is on a lower build than the ones listed below, you are impa
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
 * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
@@ -74,7 +74,7 @@ If you are connecting to Campaign [via an Adobe ID](../installation/using/about-
 
 * Gold Standard 11. [Learn more](../rn/using/gold-standard.md)
 * Campaign 21.1.1 release. [Learn more](../rn/using/latest-release.md)
-* Campaign 20.2.4 release. [Learn more](../rn/using/release--20-2.md)
+* Campaign 20.2.5 release. [Learn more](../rn/using/release--20-2.md)
 * Campaign 20.1.4 release. [Learn more](../rn/using/release--20-1.md)
 * Campaign 19.2.4 release. [Learn more](../rn/using/release--19-2.md)
 * Campaign 19.1.8 release. [Learn more](../rn/using/release--19-1.md)
