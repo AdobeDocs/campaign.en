@@ -1,6 +1,7 @@
 ---
 product: campaign
 title: Use delivery templates
+description: Using templates
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
