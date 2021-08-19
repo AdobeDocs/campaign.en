@@ -29,15 +29,15 @@ You can also use Campaign Control Panel to configure your instance settings such
 
 ## How to access Control Panel?
 
-The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html) for more information.
+The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target="_blank"} for more information.
 
 ## Control Panel FAQ
 
-[Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) to access Campaign Control Panel FAQ.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target="_blank"} to access Campaign Control Panel FAQ.
 
 ## SFTP management
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management) for more information.
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management){target="_blank"} for more information.
 
 ## Instance settings
 
