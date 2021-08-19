@@ -1,16 +1,12 @@
 ---
 product: Adobe Campaign
 title: Campaign Control Panel
-description: Campaign Control Panel
+description: Get started with Campaign Control Panel
 feature: Overview
 role: Data Engineer
 level: Beginner
-hidefromtoc: yes
-hide: yes
 ---
 # Campaign Control Panel
-
-NOT YET AVAILABLE
 
 Campaign Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
 
@@ -21,6 +17,15 @@ Key benefits:
 * Enhance security by controlling access settings on a need-by-need basis.
 
 You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and retrieve information about your instance.
+
+↗️ Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target="_blank"}.
+
+>[!CAUTION]
+> The following capabilities are not yet supported with Campaign v8:
+>
+>* Sub-domain management
+>* Certificate management
+>
 
 ## How to access Control Panel?
 
@@ -34,13 +39,6 @@ The Control Panel is available directly from Adobe Experience Cloud. It is acces
 
 In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management) for more information.
 
-## Subdomains and certificates
-
-You can monitor your subdomains and their certificates. Learn more:
-* [Subdomain branding](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html){target="_blank"}
-* [Set up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target="_blank"}
-* [Monitor SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target="_blank"}
-
 ## Instance settings
 
 Learn how to manage your Campaign instances settings in the Control Panel.
@@ -49,4 +47,3 @@ Learn how to manage your Campaign instances settings in the Control Panel.
 * [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
 * [GPG Keys management](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html){target="_blank"}
 
-↗️ Discover all Control Panel capabilities in [this documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en){target="_blank"}

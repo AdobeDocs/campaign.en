@@ -74,7 +74,7 @@ Campaign users connect through their Adobe ID. The same Adobe ID is used to keep
 
 ## Reporting
 
- Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
+ Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Limitations on Cubes do not apply.
 
 ## Workflow {#workflow}
 
@@ -94,8 +94,6 @@ Please note that some capabilities are not available in this first version, such
 * Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
-* LINE messaging
-* Campaign Control Panel
 
 >[!CAUTION]
 >
