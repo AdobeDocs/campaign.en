@@ -18,7 +18,7 @@ Key benefits:
 
 You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and retrieve information about your instance.
 
-↗️ Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target="_blank"}.
+↗️ Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en){target="_blank"}.
 
 >[!CAUTION]
 > The following capabilities are not yet supported with Campaign v8:
