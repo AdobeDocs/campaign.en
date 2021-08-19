@@ -9,6 +9,8 @@ exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---
 # Get Started with Campaign{#about-adobe-campaign-classic}
 
+![](../assets/do-not-localize/v7-only.png)
+
 To deliver a high degree of customer engagement and great experiences, brands must create consistent customer journeys at all touchpoints. Marketers can now efficiently design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment and drive loyalty.
 
 Adobe Campaign lets you coordinate the creation of conversational marketing campaigns. Adobe Campaign has innovative features to model, streamline, and automate marketing and customer communication processes.
@@ -17,9 +19,13 @@ Adobe Campaign lets you coordinate the creation of conversational marketing camp
 
 ## Key capabilities {#key-capabilities}
 
+![](../assets/do-not-localize/v8-only.png)
+
 Adobe Campaign provides a platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution.
 
 ### Integrated customer profile {#integrated-customer-profile}
+
+![](../assets/do-not-localize/common.png)
 
 Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
 
