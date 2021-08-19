@@ -9,6 +9,8 @@ exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 ---
 # Configure SMS channel {#setting-up-sms-channel}
 
+![](assets/do-not-localize/common.svg)
+
 To send to a mobile phone, you need:
 
 1. An external account specifying a connector and type of message.
@@ -135,6 +137,8 @@ The following table presents the characters taken into account by the GSM standa
    <td> ¥ </td> 
    <td> <img height="21px" src="../assets/gamma.png" /> </td> 
    <td> # </td> 
+
+![](assets/do-not-localize/common.svg)
    <td> 3 </td> 
    <td> C </td> 
    <td> S </td> 

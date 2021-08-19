@@ -9,6 +9,8 @@ exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 ---
 # Use case: creating content management{#use-case-creating-content-management}
 
+![](assets/do-not-localize/common.svg)
+
 To create content management in Adobe Campaign, follow the steps below:
 
 * [Step 1 - Analyze the content to be produced](#step-1---analyzing-the-content-to-be-produced),

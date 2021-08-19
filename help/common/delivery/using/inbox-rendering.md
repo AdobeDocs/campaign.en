@@ -9,6 +9,8 @@ exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 ---
 # Inbox rendering{#inbox-rendering}
 
+![](assets/do-not-localize/common.svg)
+
 Make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
 Adobe Campaign leverages the [Litmus](https://litmus.com/email-testing) web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.

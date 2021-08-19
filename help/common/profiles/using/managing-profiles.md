@@ -9,6 +9,8 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 ---
 # Manage profiles{#managing-profiles}
 
+![](assets/do-not-localize/common.svg)
+
 To access recipient management capabilities, browse the Adobe Campaign tree. To do this, click the **[!UICONTROL Explorer]** button in the toolbar.
 
 By default, recipients are stored in the **[!UICONTROL Profiles and targets]** node of the Adobe Campaign tree. From the same node, you can create one or more folders and sub-folders to store recipient profiles.

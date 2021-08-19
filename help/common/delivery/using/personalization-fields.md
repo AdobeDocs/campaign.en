@@ -9,6 +9,8 @@ exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 ---
 # Personalization fields{#personalization-fields}
 
+![](assets/do-not-localize/common.svg)
+
 Personalization fields are used for first-level personalization of the content of messages. The fields you insert in a content show the position where to insert the data from the selected data source.
 
 An Adobe Campaign personalization tag always has the following form **<%=table.field%>**. For example, the personalization field with the **<%= recipient.LastName %>** syntax tells Adobe Campaign to insert the name of the recipient as stored into the database in the default recipient table.

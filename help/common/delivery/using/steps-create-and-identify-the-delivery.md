@@ -9,6 +9,8 @@ exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 ---
 # Create your first delivery {#create-first-delivery}
 
+![](assets/do-not-localize/common.svg)
+
 ## Create the delivery {#creating-the-delivery}
 
 You can create a delivery via the overview or via the **[!UICONTROL Create > Delivery]** menu.

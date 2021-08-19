@@ -9,6 +9,8 @@ exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 ---
 # Tracking troubleshooting {#tracking-troubleshooting}
 
+![](assets/do-not-localize/common.svg)
+
 In this section, you will find common questions related to tracking configuration and implementation in Adobe Campaign. 
 
 These actions are restricted to Campaign Classic v7 on-premise implementations.
@@ -59,6 +61,8 @@ You can then stop the tracking workflow, delete the corrupted line(s) and restar
    ```
    $ grep -Rn <Log Id>
    # for example:
+
+![](assets/do-not-localize/common.svg)
    $ grep -Rn 50x000000000FD7EC86
    ```
 

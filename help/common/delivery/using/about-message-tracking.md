@@ -9,6 +9,8 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}
 
+![](assets/do-not-localize/common.svg)
+
 Use Adobe Campaign to track the messages sent and monitor the behavior of recipients: opening, clicks, subscriptions, unsubscription, etc.
 
 This information is retrieved in the **[!UICONTROL Tracking]** tab of the profile of each recipient of the delivery. This tab presents all the URL links tracked and clicked by the recipient selected from the list. This is the accumulation of all URLs tracked in the deliveries that are still present in the delivery screen. The list can be configured and typically will contain: the URL clicked, the date and time of the click, and the document in which the URL was found.

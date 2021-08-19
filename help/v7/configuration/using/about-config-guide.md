@@ -9,6 +9,8 @@ topic-tags: about
 
 # About Configuration Guide{#about}
 
+![](assets/do-not-localize/v7-only.svg)
+
 Test
 
 

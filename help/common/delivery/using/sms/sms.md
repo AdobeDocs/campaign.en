@@ -8,6 +8,8 @@ level: Beginner
 ---
 # Create and send SMS
 
+![](assets/do-not-localize/common.svg)
+
 Use Adobe Campaign to send personalized SMS messages.
 
 ## Configure SMS channel

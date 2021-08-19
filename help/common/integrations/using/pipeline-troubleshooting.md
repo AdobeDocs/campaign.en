@@ -8,6 +8,8 @@ exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 ---
 # Pipeline troubleshooting {#pipeline-troubleshooting}
 
+![](assets/do-not-localize/common.svg)
+
 **Pipelined fails with error "No task corresponds to the mask pipelined@<&nbsp;instance&nbsp;>"**
 
 Your version of Adobe Campaign Classic does not support the pipeline.

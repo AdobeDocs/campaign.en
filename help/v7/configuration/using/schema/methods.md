@@ -9,6 +9,8 @@ exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 ---
 # methods element {#methods--element}
 
+![](assets/do-not-localize/v7-only.svg)
+
 ## Content model {#content-model-11}
 
 methods:==method

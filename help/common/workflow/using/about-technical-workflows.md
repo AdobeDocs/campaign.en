@@ -9,6 +9,8 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 ---
 # Technical workflows{#about-technical-workflows}
 
+![](assets/do-not-localize/common.svg)
+
 ## About technical workflows {#overview}
 
 The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your licence agreement. Built-in packages are detailed in [this section](../../../v7/installation/using/installing-campaign-standard-packages.md).

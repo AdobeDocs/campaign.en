@@ -8,6 +8,8 @@ level: Beginner
 ---
 # Get started with direct mail deliveries
 
+![](assets/do-not-localize/common.svg)
+
 Direct mail deliveries let you generate an extraction file which contains data on the target population. You can then share this file with the provider who will deliver messages to the target populations.
 
 Steps to generate the file are:

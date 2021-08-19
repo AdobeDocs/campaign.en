@@ -9,6 +9,8 @@ exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 ---
 # Publication templates{#publication-templates}
 
+![](assets/do-not-localize/common.svg)
+
 The publication template is the identity card of the content to be published. It references the resources used in the publication process, i.e.:
 
 * the data schema,

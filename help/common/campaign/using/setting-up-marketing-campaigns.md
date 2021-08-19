@@ -9,6 +9,8 @@ exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 ---
 # Get started with marketing campaigns{#setting-up-marketing-campaigns}
 
+![](assets/do-not-localize/common.svg)
+
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
 ![](assets/do-not-localize/how-to-video.png) Discover how to create a marketing plan, programs, and campaigns [in video](#video)
@@ -159,6 +161,8 @@ To create the recurring campaign and execute its workflows according to the sche
    ![](assets/s_ncs_user_op_recur_planning_wfs.png)
 
    The label of a recurring workflow instance consists of its template label and the workflow number, with the # character in between.
+
+![](assets/do-not-localize/common.svg)
 
    Workflows created from the schedule are automatically associated with it in the **[!UICONTROL Workflow]** column of the **[!UICONTROL Schedule]** tab. 
 

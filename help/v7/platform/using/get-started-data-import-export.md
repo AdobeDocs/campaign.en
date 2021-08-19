@@ -9,6 +9,8 @@ exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 ---
 # Get started with data import and export {#get-started-data-import-export}
 
+![](assets/do-not-localize/v7-only.svg)
+
 Adobe Campaign Classic provides data management capabilities that allow you to import and export data. These operations can be performed using either workflows or generic imports and exports.
 
 >[!IMPORTANT]

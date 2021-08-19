@@ -9,6 +9,8 @@ exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 ---
 # Manage subscriptions{#managing-subscriptions}
 
+![](assets/do-not-localize/common.svg)
+
 An information service comprises:
 
 * Registration and subscription (opt-in),

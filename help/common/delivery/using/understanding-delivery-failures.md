@@ -9,6 +9,8 @@ exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 ---
 # Understand delivery failures{#understanding-delivery-failures}
 
+![](assets/do-not-localize/common.svg)
+
 When a message (email, SMS, push notification) cannot be sent to a profile, the remote server automatically sends an error message, which is picked up by the Adobe Campaign platform and qualified to determine whether or not the email address or phone number should be quarantined. See [Bounce mail management](#bounce-mail-management).
 
 >[!NOTE]

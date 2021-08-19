@@ -9,6 +9,8 @@ exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 ---
 # Test tracking{#testing-tracking}
 
+![](assets/do-not-localize/common.svg)
+
 You can test tracking on mirror pages, email logs and links. 
 
 To do this:

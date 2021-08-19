@@ -9,6 +9,8 @@ exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 ---
 # Tutorials{#tutorials}
 
+![](assets/do-not-localize/v7-only.svg)
+
 ## Step-by-step guides {#step-by-step-guides}
 
 Get started with Adobe Campaign by consulting our intuitive step-by-step guides.

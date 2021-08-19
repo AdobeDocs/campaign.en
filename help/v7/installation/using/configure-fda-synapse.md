@@ -9,6 +9,8 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 ---
 # Configure access to Azure Synapse {#configure-access-to-azure-synapse}
 
+![](assets/do-not-localize/v7-only.svg)
+
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Microsoft Azure Synapse Analytics.
 
 1. Configure Azure Synapse on [CentOS](#azure-centos), [Windows](#azure-windows) or [Debian](#azure-debian)
@@ -35,6 +37,8 @@ To configure Azure Synapse on CentOS, follow the steps below:
     curl https://packages.microsoft.com/config/rhel/6/prod.repo > /etc/yum.repos.d/mssql-release.repo
     exit
     # Uninstall if already installed Unix ODBC driver
+
+![](assets/do-not-localize/v7-only.svg)
     sudo yum remove unixODBC-utf16 unixODBC-utf16-devel #to avoid conflicts
 
     sudo ACCEPT_EULA=Y yum install msodbcsql
@@ -45,12 +49,16 @@ To configure Azure Synapse on CentOS, follow the steps below:
     source ~/.bashrc
   
     # the Microsoft driver expects unixODBC to be here /usr/lib64/libodbc.so.1, so add soft links to the '.so.2' files
+
+![](assets/do-not-localize/v7-only.svg)
     cd /usr/lib64
     sudo ln -s libodbccr.so.2   libodbccr.so.1
     sudo ln -s libodbcinst.so.2 libodbcinst.so.1
     sudo ln -s libodbc.so.2     libodbc.so.1
   
     # Set the path for unixODBC
+
+![](assets/do-not-localize/v7-only.svg)
     export ODBCINI=/usr/local/etc/odbc.ini
     export ODBCSYSINI=/usr/local/etc
     source ~/.bashrc
@@ -76,6 +84,8 @@ To configure Azure Synapse on CentOS, follow the steps below:
 
     ```
     /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+
+![](assets/do-not-localize/v7-only.svg)
     ```
 
 1. In Campaign, you can then configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to [this section](#azure-external).
@@ -85,6 +95,8 @@ To configure Azure Synapse on CentOS, follow the steps below:
     ```
     firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
     # you can ping your hostname and the ping command will translate the hostname to IP address which you can use here
+
+![](assets/do-not-localize/v7-only.svg)
     ```
 
    >[!NOTE]
@@ -168,6 +180,8 @@ To configure Azure Synapse on Debian:
 
     ```
     /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
+
+![](assets/do-not-localize/v7-only.svg)
     ```
 
 1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. For more on how to configure your external account, refer to [this section](#azure-external).

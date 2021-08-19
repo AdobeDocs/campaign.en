@@ -8,6 +8,8 @@ level: Beginner
 ---
 # Get started: design and send emails
 
+![](assets/do-not-localize/common.svg)
+
 Email deliveries let you send personalized emails to the target population. 
 
 ## Create your first email delivery

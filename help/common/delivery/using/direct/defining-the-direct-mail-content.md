@@ -9,6 +9,8 @@ exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 ---
 # Define the direct mail content{#defining-the-direct-mail-content}
 
+![](assets/do-not-localize/common.svg)
+
 The name of the file which contains the extracted data is defined in the **[!UICONTROL File]** field. The button to the right of the field lets you use personalization fields to create the file name.
 
 By default, the extraction file is created and stored on the server. You can save it on your computer. To do this, check the **[!UICONTROL Download the generated file after the analysis of the delivery]**. In this case, you need to indicate the access path to the local storage directory as well as the file name.

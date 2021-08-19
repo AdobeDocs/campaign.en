@@ -10,6 +10,8 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 ---
 # Integrate Campaign SDK with your app {#integrating-campaign-sdk-into-the-mobile-application}
 
+![](assets/do-not-localize/common.svg)
+
 Adobe provides Campaign SDKs for iOS and Android as part of the Mobile App Channel module.
 
 The goal of the SDK is to facilitate the integration of a mobile application into the Adobe Campaign platform.

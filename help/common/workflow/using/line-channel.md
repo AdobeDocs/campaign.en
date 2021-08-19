@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # LINE Channel{#line-channel}
 
+![](assets/do-not-localize/common.svg)
+
 The workflows detailed below are installed with the **LINE channel** module by default. For more on this module, refer to this [section](../../../common/delivery/using/line-channel.md).
 
 <table> 

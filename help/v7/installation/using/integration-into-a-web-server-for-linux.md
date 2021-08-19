@@ -9,6 +9,8 @@ exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 ---
 # Integration into a Web server for Linux{#integration-into-a-web-server-for-linux}
 
+![](assets/do-not-localize/v7-only.svg)
+
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP (and SOAP).
 
 You can use this integrated Tomcat server to serve HTTP requests.
@@ -80,6 +82,8 @@ Apply the following steps:
 
    ```
    # Added Neolane
+
+![](assets/do-not-localize/v7-only.svg)
    if [ "$LD_LIBRARY_PATH" != "" ]; then export LD_LIBRARY_PATH="/usr/local/neolane/nl6/lib:$LD_LIBRARY_PATH"; else export LD_LIBRARY_PATH=/usr/local/neolane/nl6/lib; fi
    export USERPATH=/usr/local/neolane
    ```

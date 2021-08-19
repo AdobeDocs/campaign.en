@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Web Analytics{#web-analytics}
 
+![](assets/do-not-localize/common.svg)
+
 The workflows detailed below are installed with the **Web Analytics connectors** module by default. For more on this module, refer to this [section](../../../v7/platform/using/adobe-analytics-connector.md).
 
 <table> 

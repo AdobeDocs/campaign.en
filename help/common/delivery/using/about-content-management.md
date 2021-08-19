@@ -9,6 +9,8 @@ exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 ---
 # Get started with Content management{#about-content-management}
 
+![](assets/do-not-localize/common.svg)
+
 Adobe Campaign Content Manager module is a specific Campaign add-on which you can install to create recurrent newsletters or website. It can assist you to create, validate, and publish your messages.
 
 >[!NOTE]

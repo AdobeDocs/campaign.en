@@ -9,6 +9,8 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 ---
 # SFTP server best practices and troubleshooting {#sftp-server-usage}
 
+![](assets/do-not-localize/v7-only.svg)
+
 ## SFTP server global recommendations {#global-recommendations}
 
 When managing files and data for ETL purposes, these files are stored on a hosted SFTP server provided by Adobe. Make sure you follow the recommendations below when using SFTP servers.
@@ -82,8 +84,14 @@ The section below lists the information to check and provide to the Adobe Suppor
    ```
    bash-3.2$ nc -vz <SFTP_URL> 22
    # Replace the SFTP_URL with actual SFTP instance URL
+
+![](assets/do-not-localize/v7-only.svg)
    # If the port 22 is opened you will see output similar to the below one
+
+![](assets/do-not-localize/v7-only.svg)
    # for e.g. the  output for the command on myCompany-stage-sftp.neolane.net after ssh-out, will give
+
+![](assets/do-not-localize/v7-only.svg)
    bash-3.2$ nc -vz myCompagny-stage-sftp.neolane.net 22
    myCompany-stage-sftp.neolane.net [AAA.BBB.CCC.D] 22 (ssh) open
    ```

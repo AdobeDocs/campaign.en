@@ -9,6 +9,8 @@ exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
 
+![](assets/do-not-localize/common.svg)
+
 When a delivery has been created and configured, you must validate it before sending it to the main target.
 
 To do this:
@@ -168,6 +170,8 @@ The following options are available:
 * Both of the following options let you keep recipients that are on denylist and addresses in quarantine. See the description of these options for the main target in [Customize exclusion settings](steps-defining-the-target-population.md#customizing-exclusion-settings). Unlike the target of a delivery, where these addresses are excluded by default, they are kept by default for the target of a proof.
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
+
+![](assets/do-not-localize/common.svg)
 
 ## Validation process with typologies {#validation-process-with-typologies}
 

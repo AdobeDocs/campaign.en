@@ -11,6 +11,8 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 ---
 # Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
+![](assets/do-not-localize/common.svg)
+
 >[!CAUTION]
 >
 >If you are using an older version of Triggers integration through oAuth authentication, **you need to move to Adobe I/O as described below**. Legacy oAuth authentication mode with Campaign with Campaign will be retired on November 30, 2021. [Learn more](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)

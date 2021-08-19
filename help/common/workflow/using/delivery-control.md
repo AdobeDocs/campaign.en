@@ -9,6 +9,8 @@ exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 ---
 # Delivery control{#delivery-control}
 
+![](assets/do-not-localize/common.svg)
+
 A **Delivery control**-type action lets you start, pause, or stop a delivery.
 
 This can be the delivery specified in the transition, a delivery selected explicitly, or a delivery calculated by a script. For more on this, refer to [Delivery](delivery.md).

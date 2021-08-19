@@ -9,6 +9,8 @@ topic-tags: technical-workflows
 
 # Social Marketing{#social-marketing}
 
+![](assets/do-not-localize/common.svg)
+
 >[!AVAILABILITY]
 >
 >:warning: This capability is only available in Campaign Classic v7. [Learn more](../../../v7/social/using/about-social-marketing.md)

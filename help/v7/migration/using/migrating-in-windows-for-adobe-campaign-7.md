@@ -9,6 +9,8 @@ exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 ---
 # Migrating in Windows for Adobe Campaign 7{#migrating-in-windows-for-adobe-campaign}
 
+![](assets/do-not-localize/v7-only.svg)
+
 ## General procedure {#general-procedure}
 
 For Windows, the migration steps are as follows:
@@ -59,6 +61,8 @@ First, stop all processes with access to the database on all machines concerned.
 
    ```
    Image Name                     PID Session Name        Session#    Mem Usage
+
+![](assets/do-not-localize/v7-only.svg)
    ========================= ======== ================ =========== ============
    nlserver.exe                  3192 Console                    1     13,108 K
    ```

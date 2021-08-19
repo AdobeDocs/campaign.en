@@ -9,6 +9,8 @@ exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 ---
 # Create a SMS delivery {#creating-a-sms-delivery}
 
+![](assets/do-not-localize/common.svg)
+
 Learn how to create a SMS delivery, define its content and select the audience in this step-by-step procedure.
 
 ## Select the delivery channel {#selecting-the-delivery-channel}

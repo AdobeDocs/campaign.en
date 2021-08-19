@@ -9,6 +9,8 @@ exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
 ---
 # Detect tracking URLs
 
+![](assets/do-not-localize/common.svg)
+
 Follow guidelines below to ensure URL detection and security when adding personalized links in your messages.
 
 ## Example of non-detection

@@ -9,6 +9,8 @@ exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 ---
 # Configure access to Hadoop {#configure-access-to-hadoop}
 
+![](assets/do-not-localize/v7-only.svg)
+
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external databases. Follow the steps below to configure access to Hadoop.
 
 1. Configure [Hadoop database](#configuring-hadoop) 
@@ -113,6 +115,8 @@ If you need to connect to Hadoop 2.1, follow the steps decribed below for [Windo
    ```
 
    root@campadpac71:/tmp# odbcinst -j
+
+![](assets/do-not-localize/v7-only.svg)
    unixODBC 2.3.1
    DRIVERS............: /etc/odbcinst.ini
    SYSTEM DATA SOURCES: /etc/odbc.ini
