@@ -9,7 +9,7 @@ exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 ---
 # Building a workflow {#building-a-workflow}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 This section details the key principles and best practices to build a workflow in Campaign.
 

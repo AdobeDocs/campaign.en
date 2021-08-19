@@ -9,7 +9,7 @@ exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 ---
 # Message Center service level {#message-center-service-level}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This report displays the delivery statistics related to transactional messages as well as the error breakdown. You can click on an error type to display its details.
 

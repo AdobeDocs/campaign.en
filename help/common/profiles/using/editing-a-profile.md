@@ -9,7 +9,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 ---
 # Edit a profile{#editing-a-profile}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 To view data related to a profile, select it from the profiles list.
 

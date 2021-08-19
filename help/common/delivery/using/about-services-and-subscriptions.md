@@ -9,7 +9,7 @@ exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 ---
 # Get started with services and subscriptions{#about-services-and-subscriptions}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign enables you to create and administer information services such as newsletters and to manage the subscriptions to these services. Several services can be defined in parallel, for example: specialist newsletters for certain product categories, themes or areas of a web site, subscriptions to various types of alert messages and real-time notifications. Refer to [Manage subscriptions](managing-subscriptions.md).
 

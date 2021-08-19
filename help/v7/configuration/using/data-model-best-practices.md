@@ -9,7 +9,7 @@ exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 ---
 # Data model best practices{#data-model-best-practices}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This document outlines key recommendations while designing your Adobe Campaign data model.
 

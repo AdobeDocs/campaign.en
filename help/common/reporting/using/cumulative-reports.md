@@ -9,7 +9,7 @@ exl-id: e67748dd-fa50-4992-b85f-474389e876cf
 ---
 # Cumulative reports {#cumulative-reports}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can display cumulated reports on deliveries. To do this, select the deliveries to be compared to obtain the list of reports for these deliveries.
 

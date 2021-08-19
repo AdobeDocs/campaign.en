@@ -9,7 +9,7 @@ exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 ---
 # SMS Troubleshooting {#troubleshooting-sms}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Conflict between different external accounts {#external-account-conflict}
 

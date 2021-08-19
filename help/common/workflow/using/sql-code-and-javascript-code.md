@@ -9,7 +9,7 @@ exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## SQL code {#sql-code}
 

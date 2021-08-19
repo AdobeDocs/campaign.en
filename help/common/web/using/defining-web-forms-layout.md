@@ -9,7 +9,7 @@ exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 ---
 # Defining web forms layout{#defining-web-forms-layout}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Creating containers {#creating-containers}
 

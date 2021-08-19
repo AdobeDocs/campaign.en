@@ -9,7 +9,7 @@ exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 ---
 # Template management{#template-management}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The Digital Content Editor offers **standard templates** for Web applications and deliveries.
 

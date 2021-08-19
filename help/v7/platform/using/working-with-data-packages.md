@@ -9,7 +9,7 @@ exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 ---
 # Work with data packages{#working-with-data-packages}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## About data packages {#about-data-packages}
 

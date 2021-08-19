@@ -9,7 +9,7 @@ exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 ---
 # Control costs{#controlling-costs}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you control scheduled, committed and invoiced marketing costs and to break them down by category using the Marketing Resource Management module.
 

@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Message Center (Execution){#message-center-execution}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflows detailed below are installed with the **Message Center - Execution** add-on by default. 
 

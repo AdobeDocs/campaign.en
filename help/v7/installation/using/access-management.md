@@ -9,7 +9,7 @@ exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 ---
 # Access management {#access-management}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Webapp operator
 

@@ -9,7 +9,7 @@ exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 ---
 # Translating a web application{#translating-a-web-application}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can translate Web application pages created with the Adobe Campaign Digital content editor (DCE).
 

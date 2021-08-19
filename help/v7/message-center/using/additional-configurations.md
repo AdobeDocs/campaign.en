@@ -9,7 +9,7 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 ---
 # Additional configurations {#mc-additional-configurations}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Monitor thresholds {#monitoring-thresholds}
 

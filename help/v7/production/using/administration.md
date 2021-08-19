@@ -9,7 +9,7 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 ---
 # Administration{#administration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Automatic startup of the Adobe Campaign modules (**web**, **mta**, **wfserver**, etc.) is provided by the **nlserver** server.
 

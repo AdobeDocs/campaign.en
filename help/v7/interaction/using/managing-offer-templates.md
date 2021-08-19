@@ -9,7 +9,7 @@ exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
 ---
 # Managing offer templates{#managing-offer-templates}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Offer templates are delivered out-of-box in Adobe Campaign. You may use them after creating your offers, duplicating them or adapting their configuration to your needs. You can also create your own templates. Template offers are stored in the folder **Resources** > **Templates** > **Offer templates**.
 

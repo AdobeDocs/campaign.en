@@ -9,7 +9,7 @@ exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 ---
 # Creating an offer{#creating-an-offer}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Creating the offer {#creating-the-offer}
 

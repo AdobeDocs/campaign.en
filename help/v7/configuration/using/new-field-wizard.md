@@ -9,7 +9,7 @@ exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 ---
 # New field wizard{#new-field-wizard}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 A wizard accessible via **[!UICONTROL Tools > Advanced > Add new fields]** lets you add one or more fields to a table in the database.
 

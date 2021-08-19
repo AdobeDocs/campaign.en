@@ -9,7 +9,7 @@ exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 ---
 # Web service calls{#web-service-calls}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## General information {#general-information}
 

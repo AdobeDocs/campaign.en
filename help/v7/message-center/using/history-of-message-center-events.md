@@ -9,7 +9,7 @@ exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 ---
 # History of Message Center events {#history-of-message-center-events}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The **[!UICONTROL History of Message Center events]** report provides you with an overview of the Message Center activity, i.e. the number of events processed and delivered as transactional messages.
 

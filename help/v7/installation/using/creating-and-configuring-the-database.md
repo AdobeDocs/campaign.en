@@ -9,7 +9,7 @@ exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 ---
 # Creating and configuring the database{#creating-and-configuring-the-database}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 When you create a database, Adobe Campaign provides two different options:
 

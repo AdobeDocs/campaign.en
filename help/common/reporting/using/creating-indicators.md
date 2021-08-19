@@ -9,7 +9,7 @@ exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 ---
 # Creating indicators{#creating-indicators}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 To make a cube functional, you need to identify the relevant dimensions and measures and create them in the cube.
 

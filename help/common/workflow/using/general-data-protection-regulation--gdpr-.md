@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Privacy Data Protection Regulation{#general-data-protection-regulation-gdpr}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflows detailed below are installed with the **Privacy Data Protection Regulation** module by default. For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 

@@ -9,7 +9,7 @@ exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 ---
 # Configuring access to the report{#configuring-access-to-the-report}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Report display context {#report-display-context}
 

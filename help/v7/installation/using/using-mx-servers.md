@@ -10,7 +10,7 @@ exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 ---
 # Using MX servers with Campaign {#using-mx-servers}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Learn how MX servers work with Adobe Campaign Classic.
 

@@ -9,7 +9,7 @@ exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 ---
 # Configure population samples {#step-2--configuring-population-samples}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Configure the Query activity {#configuring-the-query-activity}
 

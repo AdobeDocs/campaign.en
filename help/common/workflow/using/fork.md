@@ -9,7 +9,7 @@ exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 ---
 # Fork{#fork}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **[!UICONTROL Fork]** activity allows you to create multiple outbound transitions, in order to carry out several activities independently within the same workflow.
 

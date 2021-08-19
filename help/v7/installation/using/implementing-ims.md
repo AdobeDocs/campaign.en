@@ -9,7 +9,7 @@ exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 ---
 # Implementing IMS{#implementing-ims}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Enabling the IMS connection {#enabling-the-ims-connection}
 

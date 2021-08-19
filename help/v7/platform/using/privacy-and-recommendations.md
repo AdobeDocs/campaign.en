@@ -9,7 +9,7 @@ exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 ---
 # Privacy and Consent{#privacy-and-recommendations}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## General recommendations {#general-recommendations}
 

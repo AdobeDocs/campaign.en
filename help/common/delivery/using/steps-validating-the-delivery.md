@@ -9,7 +9,7 @@ exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 ---
 # Validate the delivery {#validating-the-delivery}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 When a delivery has been created and configured, you must validate it before sending it to the main target.
 
@@ -171,7 +171,7 @@ The following options are available:
 * The **[!UICONTROL Keep the delivery code for the proof]** option lets you give the proof the same delivery code as the one defined for the delivery to which it relates. This code is specified in the first step of the delivery wizard.
 * By default, the subject of the proof is prefixed by 'Proof #', where # is the number of the proof. You can change this prefix in the **[!UICONTROL Label prefix]** field.
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Validation process with typologies {#validation-process-with-typologies}
 

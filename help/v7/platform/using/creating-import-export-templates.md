@@ -9,7 +9,7 @@ exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
 ---
 # Create import and export templates {#creating-import-export-templates}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
 

@@ -9,7 +9,7 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 ---
 # Manage profiles{#managing-profiles}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 To access recipient management capabilities, browse the Adobe Campaign tree. To do this, click the **[!UICONTROL Explorer]** button in the toolbar.
 

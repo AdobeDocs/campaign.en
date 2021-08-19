@@ -9,7 +9,7 @@ exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 ---
 # Examples of schemas edition{#examples-of-schemas-edition}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Extending a table {#extending-a-table}
 

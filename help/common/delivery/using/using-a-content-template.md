@@ -9,7 +9,7 @@ exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 ---
 # Use a content template{#using-a-content-template}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Content templates can be referenced and used in deliveries directly. [Learn more](#creating-a-delivery-via-content-management)
 

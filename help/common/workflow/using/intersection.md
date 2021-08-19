@@ -9,7 +9,7 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 ---
 # Intersection{#intersection}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 An **Intersection**-type activity creates a target from the intersection of the targets received.
 

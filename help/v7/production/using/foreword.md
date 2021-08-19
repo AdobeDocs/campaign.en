@@ -9,7 +9,7 @@ exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
 ---
 # Foreword{#foreword}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This document details the production procedures for Adobe Campaign: configuration, monitoring, upgrading process, data processing, database maintenance procedure and recommendations. A troubleshooting section is available at the end of this document.
 

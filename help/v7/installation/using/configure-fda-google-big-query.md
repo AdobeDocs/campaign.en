@@ -10,7 +10,7 @@ topic-tags: connectors
 
 # Configure access to Google BigQuery {#configure-fda-google-big-query}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Use Adobe Campaign Classic **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Google BigQuery].
 
@@ -86,7 +86,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     yum update
     # install unixODBC driver manager
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     yum install unixODBC
     ```
 
@@ -95,7 +95,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     ```
     # switch to root user
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     sudo su
     ```
 
@@ -106,7 +106,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     apt-get upgrade
     # install unixODBC driver manager
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     apt-get install unixODBC
     ```
 
@@ -115,7 +115,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     ```
     # in this example driver version is 2.3.1.1001
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     wget https://storage.googleapis.com/simba-bq-release/odbc/SimbaODBCDriverforGoogleBigQuery_[Version]-Linux.tar.gz
     ```
 
@@ -167,7 +167,7 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     ```
     # /opt/simba/googlebigqueryodbc/lib/simba.googlebigqueryodbc.ini
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     [Driver]
     DriverManagerEncoding=UTF-16
     ErrorMessagesPath=opt/simba/googlebigqueryodbc/ErrorMessages
@@ -183,10 +183,10 @@ Bulk Load utility allows faster transfer, which is achieved through Google Cloud
     ```
     # /etc/odbcinst.ini
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     # Make sure to use Simba ODBC Driver for Google BigQuery as a driver name.
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
  
     [ODBC Drivers]
     Simba ODBC Driver for Google BigQuery=Installed

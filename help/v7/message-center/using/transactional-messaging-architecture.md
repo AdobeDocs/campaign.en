@@ -9,7 +9,7 @@ exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 ---
 # Transactional messaging architecture {#transactional-messaging-architecture}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Transactional messaging relies on a specific architecture, which is made up of several instances:
 

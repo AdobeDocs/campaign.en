@@ -9,7 +9,7 @@ exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 ---
 # Manage enumerations{#managing-enumerations}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 An enumeration (also known as 'itemized list') is a list of values suggested by the system to populate certain fields. Enumerations let you standardize the values of these fields, and help with data input or use within queries.
 

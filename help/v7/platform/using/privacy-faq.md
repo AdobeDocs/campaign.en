@@ -9,7 +9,7 @@ exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 ---
 # Privacy FAQ {#privacy-faq}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Here are some of the Frequently Asked Questions about Privacy and Consent when using Adobe Campaign.
 

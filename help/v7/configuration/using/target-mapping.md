@@ -9,7 +9,7 @@ exl-id: 38333669-5598-4811-a121-b677c1413f56
 ---
 # Target mapping{#target-mapping}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Target mapping creation is necessary in two cases:
 

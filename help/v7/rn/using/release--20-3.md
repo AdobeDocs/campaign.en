@@ -9,7 +9,7 @@ exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 ---
 # Release 20.3{#release-20-3}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/red_2.png) Release 20.3.3 - Build 9234 {#release-20-3-3-build-9234}
 

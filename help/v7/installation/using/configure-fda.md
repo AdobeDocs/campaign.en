@@ -9,7 +9,7 @@ exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 ---
 # Configuring FDA connectors {#specific-configurations-by-database-type}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Depending on the external databases that you want to be able to access from Adobe Campaign, you will need to carry out certain specific configurations. These configurations essentially involve installing drivers and declaring environment variables that belong to each RDBMS on the Adobe Campaign server.
 

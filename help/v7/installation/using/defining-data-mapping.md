@@ -9,7 +9,7 @@ exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 ---
 # Defining data mapping {#defining-data-mapping}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you define mapping on the data in an external table.
 

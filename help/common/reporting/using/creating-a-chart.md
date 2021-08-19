@@ -9,7 +9,7 @@ exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 ---
 # Creating a chart{#creating-a-chart}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The data in the database can also be collected and displayed in a chart. Adobe Campaign provides a set of graphical representations. Their configuration is detailed below.
 

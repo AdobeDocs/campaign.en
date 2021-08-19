@@ -9,7 +9,7 @@ exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 ---
 # Defining approvals {#defining-approvals}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Approvals enable operators to make decisions governing a workflow or to confirm its continued execution.
 

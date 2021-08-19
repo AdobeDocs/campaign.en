@@ -9,7 +9,7 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 ---
 # Audit trail{#audit-trail}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 In Adobe Campaign, the **[!UICONTROL Audit trail]** gives you access to the complete history of changes made within your instance.
 

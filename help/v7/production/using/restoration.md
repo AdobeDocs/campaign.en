@@ -9,7 +9,7 @@ exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
 ---
 # Restoration{#restoration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 On a clean server, the restoration procedure is as follows:
 

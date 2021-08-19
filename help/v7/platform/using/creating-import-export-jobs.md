@@ -9,7 +9,7 @@ exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
 ---
 # Create import and export jobs {#creating-import-export-jobs}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Once templates have been configured, import and export operations can be launched in several contexts in Adobe Campaign.
 

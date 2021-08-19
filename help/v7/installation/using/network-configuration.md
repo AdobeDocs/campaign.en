@@ -9,7 +9,7 @@ exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 ---
 # Network configuration{#network-configuration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Communication between processes {#communication-between-processes}
 

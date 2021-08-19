@@ -9,7 +9,7 @@ exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 ---
 # Task{#task}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 >[!AVAILABILITY]
 >

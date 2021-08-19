@@ -9,7 +9,7 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 ---
 # Create push notifications for Android{#create-notificaations-android}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Use Adobe Campaign to send push notifications on Android devices. Global concepts on delivery creation are presented in [this section](../communication-channels.md).
 

@@ -9,7 +9,7 @@ exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 ---
 # Use cases{#use-cases}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Analyzing a population {#analyzing-a-population}
 

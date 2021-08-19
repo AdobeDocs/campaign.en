@@ -9,7 +9,7 @@ exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 ---
 # Configuring SpamAssassin{#configuring-spamassassin}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >

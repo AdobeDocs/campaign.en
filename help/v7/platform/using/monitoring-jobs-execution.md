@@ -9,7 +9,7 @@ exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 ---
 # Monitor jobs execution {#monitoring-job-execution}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 You can track the execution of your import and export jobs directly from the list of import/export jobs.
 

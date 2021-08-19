@@ -9,7 +9,7 @@ exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 ---
 # Using aggregates{#using-aggregates}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 This use case details how to automatically identify the last recipients added to the database.
 

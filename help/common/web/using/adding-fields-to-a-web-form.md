@@ -9,7 +9,7 @@ exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 ---
 # Adding fields to a web form{#adding-fields-to-a-web-form}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 In a Web form, fields enable users to enter information and select options. Web forms can offer input fields, selection fields, static and advanced content (captchas, subscriptions, etc.).
 

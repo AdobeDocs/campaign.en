@@ -9,7 +9,7 @@ exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 ---
 # Cells{#cells}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **[!UICONTROL Cells]** activity provides a view of the various subsets in the form of data columns. It facilitates subset manipulation and is also designed to encourage personalization possibilities.
 

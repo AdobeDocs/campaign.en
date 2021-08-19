@@ -9,7 +9,7 @@ exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 ---
 # [!DNL Gold Standard] releases {#gs-overviews}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## What is [!DNL Gold Standard]?
 

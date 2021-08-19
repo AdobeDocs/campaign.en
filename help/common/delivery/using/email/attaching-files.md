@@ -9,7 +9,7 @@ exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 ---
 # Attach files to an email{#attaching-files}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can attach one or more files to an email delivery.
 

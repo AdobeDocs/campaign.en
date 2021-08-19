@@ -9,7 +9,7 @@ exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 ---
 # Define the email content {#defining-the-email-content}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Once you [created the email delivery](creating-an-email-delivery.md), you can compose the message content and settings.
 

@@ -9,7 +9,7 @@ exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 ---
 # Campaign network endpoints {#campaign-standard-network-endpoints}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Here are the different endpoints used in Campaign Classic.
 

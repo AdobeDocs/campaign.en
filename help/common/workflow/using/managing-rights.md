@@ -9,7 +9,7 @@ exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 ---
 # Manage workflow permissions{#managing-rights}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 If they are not Administrators, Adobe Campaign operators need access rights for creating, executing or modifying workflows.
 

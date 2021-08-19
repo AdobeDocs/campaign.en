@@ -9,7 +9,7 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 ---
 # Installing the server{#installing-the-server}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Executing the installation program {#executing-the-installation-program}
 

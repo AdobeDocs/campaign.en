@@ -9,7 +9,7 @@ exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 ---
 # Message Center processing time {#message-center-processing-time}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This report displays the main indicators related to the real time queue.
 

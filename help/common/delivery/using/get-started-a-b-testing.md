@@ -9,7 +9,7 @@ exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 ---
 # Get started with A/B testing {#get-started-a-b-testing}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 A/B testing allows you to compare multiple versions of a delivery against each other, in order to identify which one will have the biggest impact on the targeted population.
 

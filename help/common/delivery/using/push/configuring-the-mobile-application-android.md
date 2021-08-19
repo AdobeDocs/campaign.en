@@ -12,7 +12,7 @@ exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 ---
 # Configuration steps for Android
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Once the package is installed, you can define your Android app settings in Adobe Campaign.
 

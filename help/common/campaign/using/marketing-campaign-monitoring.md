@@ -9,7 +9,7 @@ exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 ---
 # Monitor marketing campaigns {#monitoring-marketing-campaigns}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Track a campaign {#tracking-a-campaign}
 

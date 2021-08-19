@@ -9,7 +9,7 @@ exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 ---
 # Campaign simulations{#campaign-simulations}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## About simulations {#about-simulations}
 

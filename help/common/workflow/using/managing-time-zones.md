@@ -9,7 +9,7 @@ exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 ---
 # Managing time zones{#managing-time-zones}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.
 

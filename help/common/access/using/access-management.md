@@ -9,7 +9,7 @@ exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 ---
 # Get started with permissions{#access-management}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
 

@@ -9,7 +9,7 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 ---
 # File and resource management{#file-and-resmanagement}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Limit upload file format {#limiting-uploadable-files}
 

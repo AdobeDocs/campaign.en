@@ -9,7 +9,7 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 ---
 # Types of maintenance{#types-of-maintenance}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Application maintenance {#application-maintenance}
 

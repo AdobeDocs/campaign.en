@@ -9,7 +9,7 @@ exl-id: 3a127bbe-9abb-4b5b-bd7e-e1ea550929ba
 ---
 # Console update{#console-update}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 If you selected the **[!UICONTROL Do not request console update]** option and you wish to reactivate the update request, apply the following procedure:
 

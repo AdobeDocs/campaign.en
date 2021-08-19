@@ -9,7 +9,7 @@ exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
 ---
 # Using advanced parameters{#using-advanced-parameters}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This chapter details the various possible advanced parameters in Interaction.
 

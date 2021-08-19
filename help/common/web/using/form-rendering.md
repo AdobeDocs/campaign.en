@@ -9,7 +9,7 @@ exl-id: 723a6c47-5323-4914-a014-58be493852cc
 ---
 # Form rendering{#form-rendering}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Selecting the form rendering template {#selecting-the-form-rendering-template}
 

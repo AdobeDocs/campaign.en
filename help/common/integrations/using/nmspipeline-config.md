@@ -8,7 +8,7 @@ content-type: reference
 
 # Pipeline option NmsPipeline_Config {#nmspipeline_config}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Once the authentication works, [!DNL pipelined] can retrieve the events and process them. It only processes triggers that are configured in Adobe Campaign, ignoring the others. The trigger must have been generated from Analytics and pushed to the pipeline beforehand.
 The option can also be configured with a wildcard to catch all triggers regardless of name.

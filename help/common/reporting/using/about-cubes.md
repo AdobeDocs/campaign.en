@@ -9,7 +9,7 @@ exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 ---
 # Get started with cubes{#about-cubes}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Exploration of data in the database is offered via the **Marketing Analytics** module. It enables you to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition to this, Marketing Analytics enables you to create reports and build target populations. Once these are identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 

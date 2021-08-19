@@ -9,7 +9,7 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 ---
 # Performing a build upgrade{#performing-a-build-upgrade}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This section will provide you with an in-depth walkthrough on the upgrade process and the steps to identify and resolve conflicts.
 

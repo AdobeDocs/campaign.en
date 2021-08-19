@@ -9,7 +9,7 @@ exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 ---
 # Email parameters {#email-parameters}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 This section presents the options and parameters that are specific to email delivery.
 

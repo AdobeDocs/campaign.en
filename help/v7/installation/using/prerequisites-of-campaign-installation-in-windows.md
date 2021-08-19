@@ -9,7 +9,7 @@ exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
 ---
 # Get started with installing Campaign on Windows {#prerequisites-of-campaign-installation-in-windows}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The technical configuration and software needed to install Adobe Campaign is presented in the [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 

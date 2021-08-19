@@ -9,7 +9,7 @@ exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 ---
 # Pre-processing instructions {#pre-processing-instructions}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can use a specific syntax in the delivery content to add instructions and script the URL of the tracked email. The <%@ instructions are not JavaScript: this syntax is specific to Adobe Campaign.
 

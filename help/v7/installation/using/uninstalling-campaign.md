@@ -9,7 +9,7 @@ exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 ---
 # Uninstalling Campaign{#uninstalling-campaign}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 >[!CAUTION]
 >

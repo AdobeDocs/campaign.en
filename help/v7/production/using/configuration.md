@@ -9,7 +9,7 @@ exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 ---
 # Configuration{#configuration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Changing the syslogd listening port {#changing-the-syslogd-listening-port}
 

@@ -9,7 +9,7 @@ exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 ---
 # Publish message templates {#publishing-template-messages}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Template publication {#template-publication}
 

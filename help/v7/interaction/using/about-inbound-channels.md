@@ -9,7 +9,7 @@ exl-id: 33247728-b865-4dfd-814f-2900965a7187
 ---
 # About inbound channels{#about-inbound-channels}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Offers can be presented on various offer spaces using an inbound or outbound channel. This chapter details some specific features for inbound channels.
 

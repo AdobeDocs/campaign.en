@@ -9,7 +9,7 @@ exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 ---
 # Inserting tags in your site{#inserting-tags-in-your-site}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Simple method {#simple-method}
 

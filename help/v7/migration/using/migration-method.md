@@ -9,7 +9,7 @@ exl-id: dd4d068b-f414-448f-8d9a-eedf44e7b6e6
 ---
 # Migration method{#migration-method}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Modernizing your environment {#modernizing-your-environment}
 

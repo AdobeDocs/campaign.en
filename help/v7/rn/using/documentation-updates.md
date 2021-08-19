@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 ---
 # Documentation Updates{#documentation-updates}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This page lists all the new features and documentation updates per month and Campaign release.
 

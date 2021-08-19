@@ -9,7 +9,7 @@ exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 ---
 # Access the list of deliveries {#list-of-deliveries}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
 

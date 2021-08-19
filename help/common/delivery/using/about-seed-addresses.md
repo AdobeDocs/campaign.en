@@ -9,7 +9,7 @@ exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 ---
 # Get started seed addresses{#about-seed-addresses}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Seed addresses are used to target recipients who do not match the defined target criteria. This way, recipients who are out of the delivery scope can receive the delivery, as any other target recipient would.
 

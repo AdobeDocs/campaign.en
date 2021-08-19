@@ -9,7 +9,7 @@ exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 ---
 # Examples{#examples}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Creating a local campaign (by form) {#creating-a-local-campaign--by-form-}
 

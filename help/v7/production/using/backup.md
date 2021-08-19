@@ -9,7 +9,7 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 ---
 # Backup{#backup}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Backing up is essential in order to avoid losing data in the event of a problem (whether physical or system-related) on a machine.
 

@@ -9,7 +9,7 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 ---
 # Technical email configurations{#email-deliverability}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Overview {#overview}
 

@@ -9,7 +9,7 @@ exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 ---
 # SMS connector protocol and settings {#sms-connector-protocol}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 >[!NOTE]
 >

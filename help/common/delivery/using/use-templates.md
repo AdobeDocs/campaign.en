@@ -9,7 +9,7 @@ exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 ---
 # Use templates {#use-templates}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities. With templates, marketers can deploy new campaigns with minimal customization in a shorter amount of time.
 

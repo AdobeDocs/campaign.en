@@ -9,7 +9,7 @@ exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 ---
 # Schema structure{#schema-structure}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The basic structure of an `<srcschema>` is as follows:
 

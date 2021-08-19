@@ -9,7 +9,7 @@ exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 ---
 # Best practices and limitations 
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
 

@@ -9,7 +9,7 @@ exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 ---
 # How to use workflow data{#how-to-use-workflow-data}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Updating the database {#updating-the-database}
 

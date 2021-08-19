@@ -9,7 +9,7 @@ exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 ---
 # Import and export data using workflows {#import-export-workflows}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Collecting data {#collecting-data-workflows}
 

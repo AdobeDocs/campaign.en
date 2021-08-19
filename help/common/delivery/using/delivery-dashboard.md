@@ -9,7 +9,7 @@ exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 ---
 # Delivery dashboard {#delivery-dashboard}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **delivery dashboard** is key to monitor your deliveries and eventual issues encountered during the sending of messages.
 

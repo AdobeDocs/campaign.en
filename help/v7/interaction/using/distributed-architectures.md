@@ -9,7 +9,7 @@ exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 ---
 # Distributed architectures{#distributed-architectures}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Principle {#principle}
 

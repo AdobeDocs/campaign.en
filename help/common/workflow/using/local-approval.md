@@ -9,7 +9,7 @@ exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 ---
 # Local approval{#local-approval}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 When integrated into a targeting workflow, the **[!UICONTROL Local approval]** activity lets you set up a recipient approval process before the delivery is sent. 
 

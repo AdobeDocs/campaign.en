@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Interaction{#interaction}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflows detailed below are installed with the **Offer engine (Interaction)** add-on by default. 
 

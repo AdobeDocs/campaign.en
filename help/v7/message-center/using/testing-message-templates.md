@@ -9,7 +9,7 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 ---
 # Test transactional message templates {#testing-message-templates}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Once your [message template](../../message-center/using/creating-the-message-template.md) is ready, follow the steps below to preview and test it.
 

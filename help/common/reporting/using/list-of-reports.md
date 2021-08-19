@@ -9,7 +9,7 @@ exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 ---
 # List of reports{#list-of-reports}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Reports on deliveries {#reports-on-deliveries}
 

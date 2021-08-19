@@ -9,7 +9,7 @@ exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 ---
 # About schema edition{#about-schema-edition}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign employs Data Schemas to:
 

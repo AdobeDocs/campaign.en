@@ -9,7 +9,7 @@ exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 ---
 # Get started with the app configuration
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 You can find in this section a configuration sample based on a company which sells online holiday packages. His mobile application (Neotrips) is available to its customers in two versions: Neotrips for Android and Neotrips for iOS.
 

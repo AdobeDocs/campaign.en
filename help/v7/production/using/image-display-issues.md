@@ -9,7 +9,7 @@ exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
 ---
 # Image display issues{#image-display-issues}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 If you face image display issues in a sent message, reasons may be linked to bad location:
 

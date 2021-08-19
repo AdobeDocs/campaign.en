@@ -9,7 +9,7 @@ exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 ---
 # Editing content{#editing-content}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Defining a visibility condition {#defining-a-visibility-condition}
 

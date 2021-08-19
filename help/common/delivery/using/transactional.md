@@ -9,7 +9,7 @@ level: Beginner
 ---
 # Get Started with Transactional messaging{#send-transactional-messages}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
 

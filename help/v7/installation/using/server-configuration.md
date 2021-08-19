@@ -9,7 +9,7 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 ---
 # Server security settings {#server-configuration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## File upload protection
 

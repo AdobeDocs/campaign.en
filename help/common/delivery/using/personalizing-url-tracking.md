@@ -9,7 +9,7 @@ exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 ---
 # Configure URL tracking options{#personalizing-url-tracking}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.
 

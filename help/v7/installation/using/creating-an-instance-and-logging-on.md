@@ -9,7 +9,7 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 ---
 # Creating an instance and logging on{#creating-an-instance-and-logging-on}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 To create a new instance and Adobe Campaign database, apply the following process:
 

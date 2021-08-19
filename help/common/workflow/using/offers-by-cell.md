@@ -9,7 +9,7 @@ exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 ---
 # Offers by cell{#offers-by-cell}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
 

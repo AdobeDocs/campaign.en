@@ -9,7 +9,7 @@ exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 ---
 # Release 19.1{#release-19-1}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/limited_2.png) Release 19.1.8 - Build 9039 {#release-19-1-8-build-9039}
 

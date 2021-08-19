@@ -9,7 +9,7 @@ exl-id: 03d35202-d221-4136-aad4-00704aabb356
 ---
 # Import and export best practices {#import-export-best-practices}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Being cautious and following the few simple rules detailed below will help a lot in ensuring data consistency within the database and in avoiding common errors during database update or data exports.
 

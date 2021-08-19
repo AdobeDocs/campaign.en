@@ -9,7 +9,7 @@ exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
 ---
 # Migration procedures{#migration-procedures}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 If you upgrade from Adobe Campaign v6 to v7, we recommend the following guidelines.
 

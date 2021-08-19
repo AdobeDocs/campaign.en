@@ -9,7 +9,7 @@ exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 ---
 # Interaction - Data buffer{#interaction-data-buffer}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 You can configure a data buffer zone to increase inbound Interaction performance by desynchronizing offer proposition calculations. This configuration is to be carried out in the instance's own configuration file (config-Instance.xml). 
 

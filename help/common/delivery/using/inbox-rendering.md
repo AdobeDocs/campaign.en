@@ -9,7 +9,7 @@ exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 ---
 # Inbox rendering{#inbox-rendering}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 

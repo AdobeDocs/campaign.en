@@ -9,7 +9,7 @@ exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 ---
 # Use case: display a report on answers to an online survey{#use-case-displaying-report-on-answers-to-an-online-survey}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Answers to Adobe Campaign surveys can be collected and analyzed using dedicated reports.
 

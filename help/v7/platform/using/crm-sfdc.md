@@ -9,7 +9,7 @@ exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 ---
 # Connect Campaign and Salesforce.com{#connect-to-sfdc}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
    
 In this page, you will learn how to connect Campaign Classic to **Salesforce**.
 

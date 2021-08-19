@@ -9,7 +9,7 @@ exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 ---
 # Set up and manage the approval process {#approving-marketing-campaigns}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes of the campaign: targeting, content, budget, extraction, and sending a proof.
 

@@ -9,7 +9,7 @@ exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 ---
 # Filtering options{#filtering-options}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## About filtering {#about-filtering}
 

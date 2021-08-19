@@ -9,7 +9,7 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 ---
 # Data loading (file){#data-loading-file}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Use {#use}
 

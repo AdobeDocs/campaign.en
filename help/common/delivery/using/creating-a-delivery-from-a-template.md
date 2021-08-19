@@ -9,7 +9,7 @@ exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 ---
 # Create a delivery from a template{#creating-a-delivery-from-a-template}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Link the template to a delivery {#linking-the-template-to-a-delivery}
 

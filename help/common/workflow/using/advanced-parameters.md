@@ -9,7 +9,7 @@ exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 ---
 # Advanced parameters{#advanced-parameters}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The properties screen of an activity has an **[!UICONTROL Advanced]** tab that lets you define a behavior in case of errors, the execution period for the activity; and lets you enter an initialization script. There are two versions of this tab:
 

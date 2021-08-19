@@ -9,7 +9,7 @@ exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 ---
 # Managing offer presentation{#managing-offer-presentation}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Presentation rules overview {#presentation-rules-overview}
 

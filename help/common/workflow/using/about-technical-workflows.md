@@ -9,7 +9,7 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 ---
 # Technical workflows{#about-technical-workflows}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## About technical workflows {#overview}
 

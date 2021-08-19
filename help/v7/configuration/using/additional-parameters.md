@@ -9,7 +9,7 @@ exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 ---
 # Additional parameters{#additional-parameters}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Definition of parameters {#definition-of-parameters}
 

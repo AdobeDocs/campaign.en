@@ -9,7 +9,7 @@ exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 ---
 # Web forms answers{#web-forms-answers}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Response storage fields {#response-storage-fields}
 

@@ -9,7 +9,7 @@ exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 ---
 # Delivery outline{#delivery-outline}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **delivery outline** lets you use an outline in a campaign workflow. The outline must have been created in the campaign beforehand.
 

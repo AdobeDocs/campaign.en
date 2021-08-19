@@ -9,7 +9,7 @@ exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 ---
 # External signal{#external-signal}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **External signal** activity lets you trigger execution of a set of tasks in a workflow to a schedule.
 

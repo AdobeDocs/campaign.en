@@ -9,7 +9,7 @@ exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 ---
 # SpamAssassin{#spamassassin}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign can be configured to work with [SpamAssassin](https://spamassassin.apache.org), a third-party service used for email spam filtering. This allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt.
 

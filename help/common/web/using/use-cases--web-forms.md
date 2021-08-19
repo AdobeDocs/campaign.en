@@ -9,7 +9,7 @@ exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 ---
 # Use cases: web forms{#use-cases-web-forms}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Create a subscription form with double opt-in {#create-a-subscription--form-with-double-opt-in}
 

@@ -9,7 +9,7 @@ exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 ---
 # Delivery sending troubleshooting {#delivery-troubleshooting}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 This section lists common issues you may encounter when sending deliveries, and how to troubleshoot them.
 

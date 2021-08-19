@@ -11,7 +11,7 @@ hide: yes
 ---
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >

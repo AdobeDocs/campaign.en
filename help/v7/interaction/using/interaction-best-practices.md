@@ -9,7 +9,7 @@ exl-id: 98413cde-50c9-416c-8316-85837f724c27
 ---
 # Interaction best practices{#interaction-best-practices}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## General recommendations {#general-recommendations}
 

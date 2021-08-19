@@ -9,7 +9,7 @@ exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 ---
 # Configure Campaign Explorer navigation tree{#configuration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 As an expert user, you can add folders in the explorer tree and customize it. 
 

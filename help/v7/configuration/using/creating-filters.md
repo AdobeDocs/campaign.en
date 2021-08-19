@@ -9,7 +9,7 @@ exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 ---
 # Creating filters{#creating-filters}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Just like the out-of-the-box recipient table provided with Adobe Campaign, the new recipient table may receive a batch of predefined filters.
 

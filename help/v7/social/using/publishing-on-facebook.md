@@ -9,7 +9,7 @@ exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
 ---
 # Publishing on Facebook{#publishing-on-facebook}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Once configuration is complete, Social Marketing lets you post publications on the walls of your Facebook pages.
 

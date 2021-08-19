@@ -9,7 +9,7 @@ exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 ---
 # Create and manage operators {#operators}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Get started with Campaign operators  {#about-operators}
 

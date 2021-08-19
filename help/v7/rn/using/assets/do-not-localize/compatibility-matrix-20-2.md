@@ -9,7 +9,7 @@ topic-tags: latest-release-notes
 
 # Compatibility matrix{#compatibility-matrix}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This document lists all systems and components supported for the latest build of **Adobe Campaign Classic (v6.11 and v7)**. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 

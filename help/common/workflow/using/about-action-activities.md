@@ -9,7 +9,7 @@ exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
 ---
 # About action activities{#about-action-activities}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 * **Delivery**: lets you configure a delivery action. Refer to the [Delivery](delivery.md) section.
 * **Delivery control**: lets you start, pause or stop a delivery. Refer to the [Delivery control](delivery-control.md) section.

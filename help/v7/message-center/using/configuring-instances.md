@@ -10,7 +10,7 @@ exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 
 # Configure instances {#creating-a-shared-connection}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 To use the transactional messaging capabilities, you need to configure the control and execution instances. You can use either:
 * [One control instance](#control-instance) associated with one or several execution instances

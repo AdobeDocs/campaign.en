@@ -10,7 +10,7 @@ topic-tags: connectors
 
 # Configure access to Vertica {#configure-fda-vertica}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Use Campaign **Federated Data Access** (FDA) option to process information stored in an external database. Follow the steps below to configure access to [!DNL Vertica].
 
@@ -68,7 +68,7 @@ To configure [!DNL Vertica] on CentOS, follow the steps below:
     Database = VMart
     Servername = # The name of the server where Vertica is installed. Use localhost if Vertica is installed on the same machine.
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     UID = dbadmin
     PWD = <password>
     Port = 5433
@@ -136,7 +136,7 @@ To configure [!DNL Vertica] on CentOS, follow the steps below:
     Database = VMart
     Servername = # The name of the server where Vertica is installed. Use localhost if Vertica is installed on the same machine.
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     UID = dbadmin
     PWD = <password>
     Port = 5433

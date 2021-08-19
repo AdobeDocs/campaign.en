@@ -9,7 +9,7 @@ exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 ---
 # Additional data{#additional-data}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 During a call to the Interaction engine, you can transfer contextual additional information. This data can come from the target data stored in the work table of a workflow (outbound channel) or the call data sent by the website during the call (inbound channel). You can use this additional data in the eligibility rules, in offer personalization, and you can also store it in a proposition table.
 

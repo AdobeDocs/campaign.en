@@ -9,7 +9,7 @@ exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 ---
 # [!DNL Gold Standard] release notes{#gold-standard}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This page lists [!DNL Gold Standard] releases. Learn more about Campaign [!DNL Gold Standard] [in this page](gs-overview.md).
 

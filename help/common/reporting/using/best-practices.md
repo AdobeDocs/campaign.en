@@ -9,7 +9,7 @@ exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 ---
 # Reporting best practices{#best-practices-reporting}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Analyzing needs{#analyzing-needs}
 

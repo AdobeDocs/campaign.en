@@ -9,7 +9,7 @@ exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 ---
 # Data schemas{#data-schemas}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Principles {#principles}
 

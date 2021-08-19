@@ -9,7 +9,7 @@ exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 ---
 # Send the delivery {#configuring-and-sending-the-delivery}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 >[!NOTE]
 >

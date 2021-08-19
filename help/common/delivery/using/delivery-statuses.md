@@ -9,7 +9,7 @@ exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 ---
 # Delivery statuses {#delivery-statuses}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 <!--ajouter intro 
 

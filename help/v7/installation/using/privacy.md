@@ -9,7 +9,7 @@ exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 ---
 # Privacy {#privacy}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Privacy Requests
 
@@ -166,7 +166,7 @@ To protect your pages, follow these steps:
     ```
     # Make changes for all web spiders
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
     User-agent:
     *Disallow: /
     ```

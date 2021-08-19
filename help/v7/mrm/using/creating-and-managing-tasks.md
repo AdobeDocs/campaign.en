@@ -9,7 +9,7 @@ exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 ---
 # Create and manage tasks{#creating-and-managing-tasks}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you create tasks and manage their complete life cycle directly within the application. Program and campaign implementation can be broken down into tasks which are assigned to Adobe Campaign operators or external service providers. This mode of operation lets you create an open collaboration environment that includes all program participants and external participants.
 

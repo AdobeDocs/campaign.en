@@ -9,7 +9,7 @@ exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 ---
 # Filter schemas{#filtering-schemas}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## System filters {#system-filters}
 

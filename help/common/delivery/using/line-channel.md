@@ -9,7 +9,7 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 ---
 # Create LINE deliveries{#line-channel}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 [!DNL LINE] is an application for free instant messaging, voice and video calls, available on every mobile OS and on PC.
 

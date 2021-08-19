@@ -9,7 +9,7 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 ---
 # Inserting Target dynamic content {#inserting-a-dynamic-image}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 In this guide, we will present how to integrate a dynamic offer from Target into an email in Adobe Campaign.
 

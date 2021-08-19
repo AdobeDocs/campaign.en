@@ -9,7 +9,7 @@ exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 ---
 # Generic import samples {#import-operations-samples}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Import from a list of recipients {#example--import-from-a-list-of-recipients}
 

@@ -9,7 +9,7 @@ exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 ---
 # File collector{#file-collector}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **File collector** monitors the arrival of one or more files in a directory and activates its transition for each file received. For each event, a **[!UICONTROL filename]** variable contains the full name of the file received. The collected files are moved to another directory for archiving purposes and to make sure they are only counted once.
 

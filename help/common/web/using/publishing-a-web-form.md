@@ -9,7 +9,7 @@ exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 ---
 # Publishing a web form{#publishing-a-web-form}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Pre-loading the form data {#pre-loading-the-form-data}
 

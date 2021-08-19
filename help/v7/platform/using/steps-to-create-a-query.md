@@ -9,7 +9,7 @@ exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 ---
 # Steps to create a query{#steps-to-create-a-query}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The steps for building a query in Adobe Campaign are as follows:
 

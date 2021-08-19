@@ -9,7 +9,7 @@ exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 ---
 # Environments overview{#environments-overview}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This chapter details how to manage offer environments in Interaction.
 

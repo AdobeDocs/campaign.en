@@ -9,7 +9,7 @@ exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 ---
 # Monitoring guidelines {#monitoring-guidelines}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 

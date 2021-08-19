@@ -9,7 +9,7 @@ exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 ---
 # Importing and exporting audiences{#importing-and-exporting-audiences}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Importing an audience {#importing-an-audience}
 

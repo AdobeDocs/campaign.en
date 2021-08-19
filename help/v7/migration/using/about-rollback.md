@@ -9,7 +9,7 @@ exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
 ---
 # Rollback to the previous version{#about-rollback}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 After a migration, in case of issues, you might need to rollback to the previous version of Campaign.
 

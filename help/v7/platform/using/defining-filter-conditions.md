@@ -9,7 +9,7 @@ exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 ---
 # Define filter conditions{#defining-filter-conditions}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Choose the operator {#choosing-the-operator}
 
@@ -63,14 +63,14 @@ Below is a list of the operators available:
    <td> Returns the results starting with the value entered.<br /> </td> 
    <td> <strong>Account # (@account) starts with '32010'.</strong><br /> </td> 
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Does not start with</span> <br /> </td> 
    <td> Returns the results not starting with the value entered<br /> </td> 
    <td> <strong>Account # (@account) does not start with '20'</strong>.<br /> </td> 
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Contains</span> <br /> </td> 
@@ -157,7 +157,7 @@ This section explains how to prioritize conditions thanks to the blue arrows in 
 
 This example shows you how to use the arrow to delete a parenthesis level. Start from the following filtering condition: **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**.
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Place your cursor on the **[!UICONTROL Gender (@gender) equal to Male]** filtering condition and click the **[!UICONTROL Remove a parenthesis level]** arrow.
 

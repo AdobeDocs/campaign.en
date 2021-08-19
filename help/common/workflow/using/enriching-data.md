@@ -9,7 +9,7 @@ exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 ---
 # Enriching data{#enriching-data}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## About enriching data {#about-enriching-data}
 

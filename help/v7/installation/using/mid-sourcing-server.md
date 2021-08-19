@@ -9,7 +9,7 @@ exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 ---
 # Mid-sourcing server{#mid-sourcing-server}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This section details the installation and configuration of a mid-sourcing server, as well as the deployment of an instance which enables third parties to send messages in **mid-sourcing** mode.
 

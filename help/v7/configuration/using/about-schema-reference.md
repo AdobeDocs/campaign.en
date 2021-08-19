@@ -9,7 +9,7 @@ exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 ---
 # About schema reference{#about-schema-reference}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This chapter describes how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database.
 

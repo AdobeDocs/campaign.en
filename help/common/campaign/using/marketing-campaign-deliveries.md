@@ -9,7 +9,7 @@ exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries.
 

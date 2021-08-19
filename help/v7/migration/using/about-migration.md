@@ -9,7 +9,7 @@ exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 ---
 # Migrating to Campaign Classic{#about-migration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This document details the prerequisites to a migration, the steps for a migration to Adobe Campaign Classic (v7), the additional, necessary and optional settings depending on your configuration.
 

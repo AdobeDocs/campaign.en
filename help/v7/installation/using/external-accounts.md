@@ -9,7 +9,7 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 ---
 # External accounts{#external-accounts}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
 

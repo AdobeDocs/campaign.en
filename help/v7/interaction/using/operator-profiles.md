@@ -9,7 +9,7 @@ exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 ---
 # Operator profiles{#operator-profiles}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 There are two types of operators who use Interaction: offer managers and delivery managers. They each have specific rights that only give them access to some parts of the tree and the platform.
 

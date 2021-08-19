@@ -9,7 +9,7 @@ exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 ---
 # Inbound Emails{#inbound-emails}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **Inbound emails** activity lets you download and process email messages from a POP3 mail server.
 

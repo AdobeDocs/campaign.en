@@ -9,7 +9,7 @@ exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 ---
 # Web tracking mode{#web-tracking-mode}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign lets you select a web tracking mode which defines the way in which tracking logs are processed in the application.
 

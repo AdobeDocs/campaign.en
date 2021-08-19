@@ -9,7 +9,7 @@ exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 ---
 # Get started with import and export jobs {#about-generic-imports-exports}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign Classic provides generic imports and exports. They allow you, for example, to extract a list of customers or prospects who will then become part of a target population, or to supply your database with data from external files.
 

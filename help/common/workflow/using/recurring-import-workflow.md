@@ -9,7 +9,7 @@ exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 ---
 # Setting up a recurring import workflow {#setting-up-a-recurring-import}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Using a workflow template is a best practice if you need to regularly import files with the same structure.
 

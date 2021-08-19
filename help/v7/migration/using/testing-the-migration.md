@@ -9,7 +9,7 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 ---
 # Testing the migration{#testing-the-migration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## General procedure {#general-procedure}
 

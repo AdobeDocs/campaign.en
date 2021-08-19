@@ -9,7 +9,7 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 ---
 # Update data{#updating-data}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Use Campaign to update data linked to a recipient's profile. Updates can be manual or automatic.
 

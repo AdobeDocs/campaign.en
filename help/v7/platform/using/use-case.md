@@ -9,7 +9,7 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 ---
 # Use case{#use-case}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Create a filter on the email format of subscribers {#creating-a-filter-on-the-email-format-of-subscribers}
 

@@ -8,7 +8,7 @@ exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 ---
 # Adobe Campaign configuration updates - March 2021 {#acc-config-updates}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Infrastructure and settings should be regularly updated with the latest builds and product fixes. These fixes are necessary to ensure continuity of service and security. In addition, upgrades will be required to align with third-party changes.
 

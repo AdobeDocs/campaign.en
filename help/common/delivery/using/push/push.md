@@ -8,7 +8,7 @@ level: Beginner
 ---
 # Get started with push notifications
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Mobile app deliveries let you send notifications to iOS and Android systems.
 

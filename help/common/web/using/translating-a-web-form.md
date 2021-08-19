@@ -9,7 +9,7 @@ exl-id: 72959141-ca18-4512-80c7-239efd31f711
 ---
 # Translating a web form{#translating-a-web-form}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 It's possible to localize a Web application into several languages.
 

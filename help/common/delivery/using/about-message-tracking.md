@@ -9,7 +9,7 @@ exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 ---
 # Get started with message tracking {#get-started-tracking}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Use Adobe Campaign to track the messages sent and monitor the behavior of recipients: opening, clicks, subscriptions, unsubscription, etc.
 

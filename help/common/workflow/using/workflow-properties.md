@@ -9,7 +9,7 @@ exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 ---
 # Workflow properties{#workflow-properties}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Execution tab {#execution-tab}
 

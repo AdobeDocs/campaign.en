@@ -9,7 +9,7 @@ exl-id: d133efec-33e1-4711-a90f-e40385059386
 ---
 # Using an analysis report{#processing-a-report}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Saving an analysis report {#saving-an-analysis-report}
 

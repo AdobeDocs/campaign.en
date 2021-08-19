@@ -9,7 +9,7 @@ exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 ---
 # Edit schema{#edit-schema}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Data can be transformed, normalized and, if necessary, enriched in the workflow using the **[!UICONTROL Edit schema]** activity. It is generally used to normalize the data structure: you can rename the output columns or modify their content, by calculating the average values of a field or aggregate for example.
 

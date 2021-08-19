@@ -9,7 +9,7 @@ exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 ---
 # Actions on reports{#actions-on-reports}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 When you are viewing a report, the toolbar lets you carry out a certain number of actions. These are detailed below.
 

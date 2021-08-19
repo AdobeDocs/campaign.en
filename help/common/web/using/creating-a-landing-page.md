@@ -9,7 +9,7 @@ exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 ---
 # Creating a landing page{#creating-a-landing-page}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## About landing pages creation {#about-landing-pages-creation}
 

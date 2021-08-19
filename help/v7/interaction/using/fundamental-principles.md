@@ -9,7 +9,7 @@ exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 ---
 # Fundamental principles{#fundamental-principles}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Deploying environments {#deploying-environments}
 

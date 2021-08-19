@@ -9,7 +9,7 @@ exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 ---
 # Deduplication{#deduplication}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Deduplication deletes duplicates from the results of inbound activities. Deduplication can be performed on the email address, telephone number, or another field.
 

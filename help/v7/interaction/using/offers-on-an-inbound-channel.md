@@ -9,7 +9,7 @@ exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 ---
 # Offers on an inbound channel{#offers-on-an-inbound-channel}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Presenting an offer to an anonymous visitor {#presenting-an-offer-to-an-anonymous-visitor}
 

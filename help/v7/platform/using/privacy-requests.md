@@ -9,7 +9,7 @@ exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 ---
 # Managing privacy requests {#privacy-requests}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 For a general presentation on Privacy Management, refer to [this section](../../platform/using/privacy-management.md).
 

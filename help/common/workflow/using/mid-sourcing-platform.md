@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Mid-sourcing platform{#mid-sourcing-platform}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflow detailed below is installed with the **Mid-Sourcing platform** module by default. For more on this module, refer to this [section](../../../v7/installation/using/mid-sourcing-deployment.md).
 

@@ -9,7 +9,7 @@ exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 ---
 # Creating web tracking tags{#creating-web-tracking-tags}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Each page of the site that you wish to track must be referenced in your Adobe Campaign platform. This referencing can be performed in two ways:
 

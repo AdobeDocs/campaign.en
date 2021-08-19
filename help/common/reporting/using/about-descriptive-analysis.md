@@ -9,7 +9,7 @@ exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 ---
 # About descriptive analysis{#about-descriptive-analysis}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 In order to produce statistics on the data in the database, create descriptive analysis reports using the dedicated wizard and adapt their content and presentation to suit your needs.
 

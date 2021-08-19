@@ -9,7 +9,7 @@ exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 ---
 # Adding additional SQL functions{#adding-additional-sql-functions}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 

@@ -9,7 +9,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 ---
 # Deploying an instance{#deploying-an-instance}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >

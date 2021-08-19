@@ -9,7 +9,7 @@ exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 ---
 # Validate the extraction{#validating}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Global concepts when validating a delivery are presented in [this section](../steps-validating-the-delivery.md).
 

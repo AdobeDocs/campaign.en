@@ -9,7 +9,7 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 ---
 # Email BCC {#email-archiving}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 

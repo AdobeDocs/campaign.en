@@ -9,7 +9,7 @@ exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 ---
 # Exclusion{#exclusion}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 An **Exclusion**-type activity creates a target based on a main target from which one or more other targets are extracted.
 

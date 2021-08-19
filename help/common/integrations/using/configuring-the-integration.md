@@ -8,7 +8,7 @@ exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 ---
 # Configuring the integration{#configuring-the-integration}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Configuring in Adobe Campaign {#configuring-in-adobe-campaign}
 

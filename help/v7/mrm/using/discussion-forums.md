@@ -9,7 +9,7 @@ exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 ---
 # Discussion forums{#discussion-forums}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign operators can use discussion forums to share information. The following elements each have their own forum: plans, programs, campaigns, resources, simulations, stocks. Each operator also has a personal forum. All discussions are public, even on personal forums.
 

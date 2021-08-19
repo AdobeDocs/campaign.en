@@ -9,7 +9,7 @@ exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 ---
 # Create the delivery templates {#step-3--creating-two-delivery-templates}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 We now want to create two delivery templates. Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. For more on this, refer to [this section](about-templates.md).
 

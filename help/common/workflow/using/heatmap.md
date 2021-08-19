@@ -9,7 +9,7 @@ exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 ---
 # Workflow HeatMap {#workflow-heatmap}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is only available to **Campaign Administrators**.
 

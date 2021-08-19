@@ -9,7 +9,7 @@ exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
 ---
 # Configure access to SAP HANA {#configure-access-to-sap-hana}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Use Campaign [Federated Data Access](../../installation/using/about-fda.md) (FDA) option to process information stored in an external databases. Follow the steps below to configure access to SAP HANA.
 

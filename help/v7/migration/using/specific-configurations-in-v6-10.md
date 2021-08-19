@@ -9,7 +9,7 @@ exl-id: 63e515c8-4391-412e-a1ba-2444f47aa7fd
 ---
 # Specific configurations in v6.10{#specific-configurations-in-v6-10}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Certain improvements have been carried out in Adobe Campaign v7 in order to optimize security.
 

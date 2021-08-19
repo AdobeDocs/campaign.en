@@ -9,7 +9,7 @@ exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 ---
 # Content editor interface{#content-editor-interface}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Editing window {#editing-window}
 

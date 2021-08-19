@@ -9,7 +9,7 @@ exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 ---
 # Event description {#event-description}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Transactional messaging data model {#about-transactional-messaging-datamodel}
 

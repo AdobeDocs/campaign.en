@@ -9,7 +9,7 @@ exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 ---
 # Application objects{#application-objects}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Built-in objects should be monitored and preventing them from growing too much is important.
 

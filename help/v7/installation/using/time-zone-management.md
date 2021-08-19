@@ -9,7 +9,7 @@ exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 ---
 # Time zone management{#time-zone-management}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Operating principle {#operating-principle}
 

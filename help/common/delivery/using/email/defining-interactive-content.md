@@ -9,7 +9,7 @@ exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 ---
 # Define interactive content{#defining-interactive-content}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 

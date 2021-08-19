@@ -9,7 +9,7 @@ exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 ---
 # Automate with workflows{#automating-via-workflows}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Content management activity {#content-management-activity}
 

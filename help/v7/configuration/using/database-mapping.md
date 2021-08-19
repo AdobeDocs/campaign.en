@@ -9,7 +9,7 @@ exl-id: 728b509f-2755-48df-8b12-449b7044e317
 ---
 # Database mapping{#database-mapping}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The SQL mapping of our example schema gives the following XML document:
 

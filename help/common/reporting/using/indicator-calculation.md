@@ -9,7 +9,7 @@ exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 ---
 # Indicator calculation {#indicator-calculation}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## User activities {#user-activities-1}
 

@@ -9,7 +9,7 @@ exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 ---
 # Define the audience {#defining-the-target-population}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 For each delivery, you can define several types of target populations:
 

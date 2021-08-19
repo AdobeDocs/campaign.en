@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # How to migrate to Adobe Analytics Connector {#acc-aa-faq}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Starting Campaign Classic v7 21.1.3 release, the Adobe Analytics Data Connector is deprecated. [Learn more](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 

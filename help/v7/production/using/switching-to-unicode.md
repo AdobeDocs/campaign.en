@@ -9,7 +9,7 @@ exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
 ---
 # Switching to Unicode{#switching-to-unicode}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 For an existing **prod** instance in Linux/PostgreSQL, the steps for switching to unicode are as follows:
 

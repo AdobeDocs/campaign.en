@@ -9,7 +9,7 @@ exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 ---
 # Restrict PI view{#restricting-pii-view}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Overview {#overview}
 

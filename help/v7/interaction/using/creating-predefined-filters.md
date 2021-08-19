@@ -9,7 +9,7 @@ exl-id: 399e9468-bf70-425d-af0b-72c29636b513
 ---
 # Creating predefined filters{#creating-predefined-filters}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
  Predefined filters let you create eligibility rules for the target population that can easily be re-used during offer creation. They are specific to each environment and take the offer parameters into account.
 

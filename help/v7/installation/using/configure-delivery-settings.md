@@ -9,7 +9,7 @@ exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 ---
 # Configure delivery settings {#delivery-settings}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The delivery parameters must be configured in the **serverConf.xml** folder.
 

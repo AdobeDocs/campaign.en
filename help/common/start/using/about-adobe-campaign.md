@@ -9,7 +9,7 @@ exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 ---
 # Get Started with Campaign{#about-adobe-campaign-classic}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ![](assets/do-not-localize/v7-only.svg)
 
@@ -27,7 +27,7 @@ Adobe Campaign provides a platform for designing cross-channel customer experien
 
 ### Integrated customer profile {#integrated-customer-profile}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Profiles (customers, prospects, newsletter subscribers, etc.) are centralized in the Adobe Campaign database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.
 

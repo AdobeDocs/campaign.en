@@ -9,7 +9,7 @@ exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 ---
 # Create hypotheses{#creating-hypotheses}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 There are various possibilities for creating/linking hypotheses to a campaign offer or delivery:
 

@@ -9,7 +9,7 @@ exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 ---
 # Failure to connect{#failure-to-connect}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The reasons for a connection problem can be multiple and depend on various contexts.
 

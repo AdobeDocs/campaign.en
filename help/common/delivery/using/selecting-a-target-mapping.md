@@ -9,7 +9,7 @@ exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 ---
 # Change the target mapping{#selecting-a-target-mapping}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 By default, delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. Adobe Campaign offers other target mappings for your deliveries, to be used based on your needs. 
 

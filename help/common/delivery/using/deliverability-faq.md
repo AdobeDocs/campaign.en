@@ -9,7 +9,7 @@ exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 ---
 # Deliverability troubleshooting{#deliverability-faq}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Are you experiencing a deliverability problem? You may find the solution here.
 

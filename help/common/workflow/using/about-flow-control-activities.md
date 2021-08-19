@@ -9,7 +9,7 @@ exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 ---
 # About flow control activities{#about-flow-control-activities}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The following activities are database activities: Their main task is to coordinate the other activities.
 

@@ -9,7 +9,7 @@ exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
 ---
 # Offer engine{#offer-engine}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **[!UICONTROL Offer engine]** activity lets you define a call to the offer engine prior to a delivery.
 

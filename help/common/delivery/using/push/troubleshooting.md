@@ -9,7 +9,7 @@ exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 ---
 # Troubleshooting{#troubleshooting}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 If your mobile device is connected to internet and you are not receiving notifications, check that the FCM/APNs ports are not being blocked by your firewall.
 

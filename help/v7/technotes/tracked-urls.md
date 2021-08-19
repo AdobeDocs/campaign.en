@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # Tracked URLs signature issue {#tracked-urls}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Following recent changes, tracked URLs can fail when URL signature is active in Campaign. Some mailboxes can be more impacted than others, as some companies have specific security tools which can impact links and alter the URL signature mechanism.
 

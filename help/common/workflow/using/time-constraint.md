@@ -9,7 +9,7 @@ exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
 ---
 # Time constraint{#time-constraint}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 A **Time constraint** activity lets you postpone the execution of a task or abandon it.
 

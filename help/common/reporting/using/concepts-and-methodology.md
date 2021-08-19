@@ -9,7 +9,7 @@ exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 ---
 # Best practices for cubes{#concepts-and-methodology}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Data binning {#data-binning}
 

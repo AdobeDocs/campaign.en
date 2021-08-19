@@ -9,7 +9,7 @@ exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 ---
 # Privacy management {#privacy-management}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 

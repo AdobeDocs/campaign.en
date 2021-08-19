@@ -9,7 +9,7 @@ exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 ---
 # Web-server configuration {#web-server-configuration}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 You will find below some of the main best practices related to web-server (Apache/IIS) configuration.
 

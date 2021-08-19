@@ -9,7 +9,7 @@ exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 ---
 # Creating an email delivery{#creating-an-email-delivery}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 To create a new email delivery, follow the steps below:
 

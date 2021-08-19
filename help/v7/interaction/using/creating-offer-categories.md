@@ -9,7 +9,7 @@ exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 ---
 # Creating offer categories{#creating-offer-categories}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The creation of offer categories can only take place in the **[!UICONTROL Design]** environment. They are deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the created/modified offer(s) they contain are approved. By default, the **[!UICONTROL Design]** environment contains a category to receive all offers. Sub-categories can be created to add hierarchy to the catalog offers.
 

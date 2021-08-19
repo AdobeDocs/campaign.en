@@ -9,7 +9,7 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 ---
 # Starting a workflow {#starting-a-workflow}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 A workflow is always started manually. When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](scheduler.md)) or activity scheduling.
 

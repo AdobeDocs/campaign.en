@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Deliveries{#deliveries}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflows detailed below are installed with the **Deliveries** module by default.
 

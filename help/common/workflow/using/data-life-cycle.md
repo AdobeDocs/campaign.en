@@ -9,7 +9,7 @@ exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 ---
 # Data life cycle {#data-life-cycle}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Work table {#work-table}
 

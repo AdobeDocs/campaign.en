@@ -9,7 +9,7 @@ exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 ---
 # Monitoring processes{#monitoring-processes}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The application server and the redirection server (**tracking**) can be monitored manually or automatically.
 

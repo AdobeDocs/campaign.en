@@ -9,7 +9,7 @@ exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 ---
 # Schema reference {#schema-reference}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 When editing a schema, an approval system based on the source schema (xtk:srcSchema) is available. Some errors can also be spotted when updating the database using the "Database structure update..." wizard.
 

@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Social Marketing{#social-marketing}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 >[!AVAILABILITY]
 >

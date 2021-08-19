@@ -9,7 +9,7 @@ exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 ---
 # Sending personalized alerts to operators{#sending-personalized-alerts-to-operators}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 In this example, we want to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
 

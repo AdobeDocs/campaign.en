@@ -9,7 +9,7 @@ exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 ---
 # Using cubes to explore data{#using-cubes-to-explore-data}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Marketing Analytics makes it easier to create reports and to identify and select data from the database via cubes. This enables you to:
 

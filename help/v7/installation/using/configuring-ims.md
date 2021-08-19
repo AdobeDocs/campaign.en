@@ -9,7 +9,7 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 ---
 # Configuring IMS{#configuring-ims}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >

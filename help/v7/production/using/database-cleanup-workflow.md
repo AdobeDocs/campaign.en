@@ -9,7 +9,7 @@ exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 ---
 # Database cleanup workflow{#database-cleanup-workflow}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Introduction {#introduction}
 

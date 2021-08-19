@@ -9,7 +9,7 @@ exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 ---
 # Send, monitor and track SMS deliveries{#sms-properties}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 ## Send SMS {#sending-sms-messages}
 

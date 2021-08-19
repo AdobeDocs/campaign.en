@@ -9,7 +9,7 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 ---
 # Usual commands{#usual-commands}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This section lists the usual commands in Adobe Campaign.
 

@@ -9,7 +9,7 @@ topic-tags: technical-workflows
 
 # Inbox rendering (IR){#inbox-rendering}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The workflow detailed below is installed with the **Inbox rendering (IR)** module by default. For more on Inbox rendering, refer to this [section](../../../common/delivery/using/inbox-rendering.md).
 

@@ -9,7 +9,7 @@ exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 ---
 # Performance and throughput issues{#performance-and-throughput-issues}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 First of all, you should check that you have the latest build installed. This ensures that you have the latest features and bug fixes.
 

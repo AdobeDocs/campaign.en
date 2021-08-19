@@ -9,7 +9,7 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 ---
 # Schema of an existing table{#schema-of-an-existing-table}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Overview {#overview}
 

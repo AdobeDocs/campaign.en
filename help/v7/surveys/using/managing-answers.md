@@ -9,7 +9,7 @@ exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 ---
 # Manage answers{#managing-answers}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Store collected answers {#storing-collected-answers}
 

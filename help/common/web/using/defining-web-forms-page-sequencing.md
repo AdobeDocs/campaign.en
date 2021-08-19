@@ -9,7 +9,7 @@ exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 ---
 # Defining web forms page sequencing{#defining-web-forms-page-sequencing}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The form can contain one or more pages. It is built via a diagram which lets you sequence pages, testing, script execution, page jump and recording steps. Global diagram design mode is the same as for a Campaign workflow.
 

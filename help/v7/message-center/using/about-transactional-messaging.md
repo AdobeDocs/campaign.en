@@ -10,7 +10,7 @@ exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 
 # Get started with transactional messaging {#about-transactional-messaging}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Overview {#overview}
 

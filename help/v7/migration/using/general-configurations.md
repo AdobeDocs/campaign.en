@@ -9,7 +9,7 @@ exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 ---
 # General configurations{#general-configurations}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This section details the configuration to be carried out in Adobe Campaign v7 if you're migrating from a v5.11 or a v6.02.
 

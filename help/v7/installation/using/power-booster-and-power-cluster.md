@@ -9,7 +9,7 @@ exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 ---
 # Power Booster and Power Cluster{#power-booster-and-power-cluster}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Overview {#overview}
 

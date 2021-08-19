@@ -9,7 +9,7 @@ exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 ---
 # Creating the data schema {#creating-the-data-schema}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 To create a schema on an external database:
 

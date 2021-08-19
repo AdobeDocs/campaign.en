@@ -9,7 +9,7 @@ exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 ---
 # Data oriented APIs{#data-oriented-apis}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 Data oriented APIs let you address the entire datamodel.
 

@@ -9,7 +9,7 @@ exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 ---
 # Read list{#read-list}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 Data processed in a workflow can come from lists whereby the data has been prepared or structured beforehand (after a previous segmentation or file upload).
 

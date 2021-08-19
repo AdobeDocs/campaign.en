@@ -9,7 +9,7 @@ exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 ---
 # Configure export jobs {#executing-export-jobs}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.
 

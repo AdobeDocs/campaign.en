@@ -9,7 +9,7 @@ exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 ---
 # Enrichment{#enrichment}
 
-![](assets/do-not-localize/common.svg)
+![](../../assets/common.svg)
 
 The **[!UICONTROL Enrichment]** activity lets you add information to a profile list and links to an existing table (create a new join). Reconciliation criteria with profiles in the database can also be defined.
 

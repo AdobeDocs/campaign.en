@@ -9,7 +9,7 @@ exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 ---
 # Delivery execution {#delivery-execution}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 ## Transactional message sending {#transactional-message-send}
 

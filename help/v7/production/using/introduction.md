@@ -9,7 +9,7 @@ exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 ---
 # Introduction{#introduction}
 
-![](assets/do-not-localize/v7-only.svg)
+![](../../assets/v7-only.svg)
 
 This section presents the procedure to be applied to upgrade Adobe Campaign, client side and server side, and describes the switching to Unicode of an existing instance.
 
