@@ -37,6 +37,13 @@ If needed, you can launch data synchronization manually. To perform this, right-
 
 Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows described above.
 
+Understand which databases Adobe Campaign v8 uses, why data is being replicated, which data is being replicated and how the replication process works.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+
+
+### Data replication policies
+
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 
 In addition to the built-in **Replicate Reference Tables** technical workflow, you can force data replication in your workflows. 
@@ -59,6 +66,8 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
+
+
 
 **Related topics**
 
