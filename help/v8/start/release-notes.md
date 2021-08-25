@@ -46,6 +46,7 @@ _August 27, 2021_
 * Fixed a regression which prevented Vault from being used as a specific code store.
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
 * Fixed an issue with FFDA preventing the proper replication of operator groups and rights.
+* Fixed an issue which could result in sending an incorrect unsubscription link through the delivery. 
 * Fixed an issue in replication management impacting the duration of the postupgrade.
 * Fixed an issue which could prevent the **Hot click** from displaying.
 
