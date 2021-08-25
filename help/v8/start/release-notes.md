@@ -29,7 +29,7 @@ _August 27, 2021_
 
 **Other changes**
 
-* Previously deprecated CRM connectors have been removed from the interface. 
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. 
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the billing workflow to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
@@ -44,12 +44,11 @@ _August 27, 2021_
 * Fixed an error when connecting to Microsoft CRM using web API. The error message has been removed since functionalities were not impacted.
 * Fixed a tracking log deduplication issue when the mid server was set as a relay between tracking and marketing servers. (NEO-36285)
 * Fixed a regression which prevented Vault from being used as a specific code store.
-* Fixed an issue which could prevent the **Hot clicks** report from displaying.
 * Fixed an issue which prevented you from using variables in an **Enrichment** workflow activity when the incoming transition was from an FDA data source.
-* Fixed an issue with the automatic console update. 
-* Fixed an issue with the replication of operator groups and rights.
-* Fixed an issue which could impact postupgrade performance.
+* Fixed an issue with FFDA preventing the proper replication of operator groups and rights.
 * Fixed an issue which could prevent the unsubscription link from workfing in a delivery.
+* Fixed an issue in replication management impacting the duration of the postupgrade.
+* Fixed an issue which could prevent the **Hot click** from displaying.
 
 ## Release 8.1.14 {#release-8-1-14}
 
