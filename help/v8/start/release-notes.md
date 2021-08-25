@@ -23,9 +23,8 @@ _August 27, 2021_
 **Improvements**
 
 * Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330) [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
-* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken. [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html)
 * When installing the client console on Windows, the installer now checks if there is a parent registry node and creates one if it is missing. This prevents potential issues when launching the console. (NEO-34854)
-* The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded. 
+* The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded.
 
 **Other changes**
 
@@ -49,6 +48,7 @@ _August 27, 2021_
 * Fixed an issue which could result in sending an incorrect unsubscription link through the delivery. 
 * Fixed an issue in replication management impacting the duration of the postupgrade.
 * Fixed an issue which could prevent the **Hot click** from displaying.
+* Fixed an issue that could lead to broken URLs in email messages.
 
 ## Release 8.1.14 {#release-8-1-14}
 
