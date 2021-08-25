@@ -22,14 +22,14 @@ _August 27, 2021_
 
 **Improvements**
 
-* Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330)
-* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken.
+* Following its end of life, Flash has been removed from all related Campaign features and components, and replaced with HTML5. The **Gauge** type of chart has been removed. (NEO-30330) [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
+* When designing an email message in text format (**Text content** tab), you can now use delimiters to enclose URLs for tracked links. This improvement ensures that URLs are not broken. [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html)
 * When installing the client console on Windows, the installer now checks if there is a parent registry node and creates one if it is missing. This prevents potential issues when launching the console. (NEO-34854)
 * The tracking signature feature has been improved to prevent errors linked to the way third-party tools (email clients, internet browsers, etc.) handle special characters. URL parameters are now encoded. 
 
 **Other changes**
 
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. 
+* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the billing workflow to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.
