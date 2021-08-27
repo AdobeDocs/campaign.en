@@ -1,13 +1,13 @@
 ---
 cloud: Experience Cloud
-solution: Campaign
 version: v8
+solution: Campaign v8
 product: Adobe Campaign
 feature-set: Campaign
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/campaign.en
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
