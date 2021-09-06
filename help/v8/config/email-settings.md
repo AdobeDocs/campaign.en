@@ -5,6 +5,7 @@ description: Campaign email channel settings
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 ---
 # Campaign email channel settings
 

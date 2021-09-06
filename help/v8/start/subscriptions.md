@@ -5,6 +5,7 @@ description: Learn how to manage subscriptions and unsubscriptions in Campaign v
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 ---
 # Manage subscriptions and unsubscriptions{#optin-optout}
 

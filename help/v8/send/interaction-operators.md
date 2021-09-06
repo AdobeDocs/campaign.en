@@ -5,8 +5,8 @@ description: Create Offer management operators
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 ---
-
 # Operators profiles {#operator-profiles}
 
 Two types of operators can use Campaign Interaction: **Offer managers** and **Delivery managers**. Each of them has specific permissions and restrictions. Learn more about Campaign operators and permissions in [this page](../start/permissions.md).

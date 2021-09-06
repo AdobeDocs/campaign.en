@@ -5,6 +5,7 @@ description: Get started with SMS in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 ---
 # Create and send SMS
 

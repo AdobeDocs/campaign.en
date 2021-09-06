@@ -1,10 +1,11 @@
 ---
 product: Adobe Campaign
 title: Work with Campaign and your CRM
-description: Learn how to work with Campaign and your CRM 
+description: Learn how to work with Campaign and your CRM
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
 ---
 # Connect your CRM with Campaign {#gs-crm}
 
@@ -32,4 +33,3 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../st
 Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity. Build your workflows to automate synchronization between Campaign and your CRM. You can create a workflow which imports the contacts via Microsoft Dynamics, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and then updates the Adobe Campaign database.
 
 ↗️ Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
-

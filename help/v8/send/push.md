@@ -5,6 +5,7 @@ description: Get started with push notification in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 ---
 # Create and send push notifications
 

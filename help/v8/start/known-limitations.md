@@ -6,6 +6,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: yes
+exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 ---
 # Known limitations
 
@@ -21,5 +22,3 @@ For Adobe Campaign v8, the following limitations exist:
 * Subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
 * Duplicates need to be handled manually by end-users. [Learn more](../dev/keys.md)
 * Adobe Campaign v8 does not support extended throughput on API and web applications. In case of specific needs, contact Adobe to get guidance.
-
-

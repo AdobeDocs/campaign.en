@@ -5,6 +5,7 @@ description: Get started with direct mail in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
 ---
 # Create direct mail deliveries
 

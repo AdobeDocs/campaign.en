@@ -2,6 +2,7 @@
 product: Adobe Campaign
 title: Campaign input forms
 description: Learn how to customize input forms
+exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 ---
 # Get Started with input forms{#gs-ac-forms}
 
@@ -670,4 +671,3 @@ The **exprIn** attribute contains the location of the data to be passed as a par
   </soapCall>
 </leave>
 ```
-

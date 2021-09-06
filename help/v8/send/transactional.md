@@ -5,6 +5,7 @@ description: Get started with Transactional messaging
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 ---
 # Get Started with Transactional messaging{#send-transactional-messages}
 

@@ -2,6 +2,7 @@
 product: Adobe Campaign
 title: Restrict PI view
 description: Learn how to restrict PI view
+exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
 ---
 # Restrict PI view{#restricting-pii-view}
 

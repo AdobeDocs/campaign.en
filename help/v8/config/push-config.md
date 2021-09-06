@@ -8,6 +8,7 @@ role: Developer
 level: Experienced
 hide: yes
 hidefromtoc: yes
+exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 ---
 # Integrate Campaign SDKs with your app {#integrate-campaign-sdk}
 

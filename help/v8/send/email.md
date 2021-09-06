@@ -5,6 +5,7 @@ description: Get started with emails in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 ---
 # Design and send emails
 
@@ -105,4 +106,3 @@ You can:
 Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports to confirm messages were correctly sent.
 
 ↗️ [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
-

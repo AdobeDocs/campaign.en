@@ -5,8 +5,8 @@ description: Campaign external accounts
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 ---
-
 # Configure your external accounts
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
@@ -169,4 +169,3 @@ These external accounts can be used to import or export data to Adobe Campaign u
     * **[!UICONTROL Encryption]**: Type of encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
 
     * **[!UICONTROL Access key]**: Learn how to find your **[!UICONTROL Access key]** in [Microsoft documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
-

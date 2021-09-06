@@ -5,6 +5,7 @@ description: Learn how to create pre-defined filters
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 ---
 # Create predefined filters{#creating-predefined-filters}
 
@@ -35,4 +36,3 @@ To create a pre-defined filter, apply the following process:
 1. Click **[!UICONTROL Preview]** to view the result of the filter.
 
    ![](assets/offer_filter_create_006.png)
-

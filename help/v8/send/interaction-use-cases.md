@@ -5,6 +5,7 @@ description: Interaction Use Cases
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4ea77a39-f505-4657-be43-a0e2b79ddcdd
 ---
 # Use cases
 

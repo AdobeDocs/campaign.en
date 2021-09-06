@@ -2,6 +2,7 @@
 product: Adobe Campaign
 title: Work with Campaign schemas
 description: Get started with schemas
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
 ---
 # Work with schemas{#gs-ac-schemas}
 
@@ -244,4 +245,3 @@ For more on this, refer to [this section](update-database-structure.md).
 >[!NOTE]
 >
 >When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** .
-

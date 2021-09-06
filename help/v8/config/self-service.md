@@ -5,6 +5,7 @@ description: Get started with Campaign Control Panel
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 ---
 # Campaign Control Panel
 
@@ -46,4 +47,3 @@ Learn how to manage your Campaign instances settings in the Control Panel.
 * [URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html){target="_blank"}
 * [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
 * [GPG Keys management](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html){target="_blank"}
-

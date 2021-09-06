@@ -5,6 +5,7 @@ description: Campaign Transactional messaging settings
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
 # Transactional messaging settings
 
@@ -69,4 +70,3 @@ Here is an example of an event that contains this information:
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-

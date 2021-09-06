@@ -5,6 +5,7 @@ description: Get started with LINE messaging
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
 ---
 # Create LINE deliveries
 

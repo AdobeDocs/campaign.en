@@ -5,6 +5,7 @@ description: Campaign API staging mechanism
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism
 

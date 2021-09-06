@@ -5,6 +5,7 @@ description: Learn how to create an offer catalog
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 ---
 # Send an offer
 

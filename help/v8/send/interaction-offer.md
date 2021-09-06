@@ -5,6 +5,7 @@ description: Learn how to create an offer
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 ---
 # Create an offer
 

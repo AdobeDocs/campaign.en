@@ -5,6 +5,7 @@ description: Get started with Offer management
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
 ---
 # Interaction and offer management{#interaction-and-offer-management}
 
@@ -79,4 +80,3 @@ Discover offer-specific terms and related guidance before starting.
 * The **Preview** of the offer shows the offer as it is displayed in its folder. It is accessible from the offer settings window or the contact profile.
 * **Predefined filters** are filtering rules can take into account offer parameters (for example, an offer code). They can be reused after offers have been created.
 * An **Offer representation** is an information used by the channel to display the offer. Offer representation may be constructed from the rendering function of the space on which the offer is represented or entered directly into the interface (for example, in the HTML block). An offer may be represented by space.
-

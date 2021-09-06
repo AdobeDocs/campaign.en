@@ -2,6 +2,7 @@
 product: Adobe Campaign
 title: Create a new schema in Campaign
 description: Learn how to create a new schema in Campaign
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
 ---
 # Create a new schema{#create-new-schema}
 
@@ -105,4 +106,3 @@ To do this, you need to create the schema of the table and update the database s
    ![](assets/configuration_structure.png)
 
 1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [this section](update-database-structure.md).
-
