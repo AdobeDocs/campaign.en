@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with profiles
 description: Get started with profiles
 feature: Profiles

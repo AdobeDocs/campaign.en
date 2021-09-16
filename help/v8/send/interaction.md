@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Interaction - Offer management
 description: Get started with Offer management
 feature: Overview

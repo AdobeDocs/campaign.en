@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Extend Campaign schemas
 description: Learn how to extend Campaign schemas
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Send direct LINE messages with Adobe Campaign
 description: Get started with LINE messaging
 feature: Overview

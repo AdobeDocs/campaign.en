@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with Campaign APIs
 description: Get started with Campaign APIs
 feature: Overview

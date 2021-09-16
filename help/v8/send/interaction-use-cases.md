@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Interaction use cases
 description: Interaction Use Cases
 feature: Overview

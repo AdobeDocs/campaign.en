@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Work with Campaign schemas
 description: Get started with schemas
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Work with Campaign and External databases (FDA)
 description: Learn how to work with Campaign and External databases
 feature: Overview

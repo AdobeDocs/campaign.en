@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Customize your instance
 description: Learn how to customize your instance
 feature: Overview

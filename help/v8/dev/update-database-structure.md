@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Update the database structure
 description: Update the database structure
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c

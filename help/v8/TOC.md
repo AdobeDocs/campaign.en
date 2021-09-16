@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 Help Center

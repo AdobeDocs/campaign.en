@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Control Panel
 description: Get started with Campaign Control Panel
 feature: Overview

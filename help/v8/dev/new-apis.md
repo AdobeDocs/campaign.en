@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: New Campaign v8 APIs
 description: New Campaign v8 APIs
 feature: Overview

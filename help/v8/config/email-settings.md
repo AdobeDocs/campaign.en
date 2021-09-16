@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign email channel settings
 description: Campaign email channel settings
 feature: Overview

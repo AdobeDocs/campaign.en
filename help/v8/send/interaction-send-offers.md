@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Interaction Offer catalog
 description: Learn how to create an offer catalog
 feature: Overview

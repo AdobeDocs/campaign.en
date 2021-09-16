@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Work with Campaign and Adobe Analytics
 description: Learn how to integrate Campaign and Analytics
 feature: Overview

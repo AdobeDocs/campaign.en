@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign v8 known limitations
 description: Known limitations
 feature: Overview

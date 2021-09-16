@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Transactional messaging
 description: Get started with Transactional messaging
 feature: Overview

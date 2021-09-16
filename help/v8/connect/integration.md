@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Connect Campaign with your solutions
 description: learn how to connect Campaign with your solutions
 feature: Overview

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with Campaign v8
 description: New to Campaign? Discover how to get started
 feature: Overview

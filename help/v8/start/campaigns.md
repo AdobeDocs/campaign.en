@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns
 feature: Audiences

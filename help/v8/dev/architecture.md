@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with Campaign architecture
 description: Discover environments and deployment basics
 feature: Overview

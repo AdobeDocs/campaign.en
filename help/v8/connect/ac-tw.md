@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Work with Campaign and Twitter
 description: Learn how to work with Campaign and Twitter
 feature: Overview

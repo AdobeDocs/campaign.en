@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with Campaign reports
 description: Get started with Campaign reporting capabilities
 feature: Overview

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Create a new schema in Campaign
 description: Learn how to create a new schema in Campaign
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83

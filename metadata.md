@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 version: v8
 solution: Campaign, Campaign v8
-product: Adobe Campaign
+product: adobe campaign
 feature-set: Campaign
 type: Documentation
 mini-toc-levels: 2

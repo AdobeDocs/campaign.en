@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign web applications and web forms
 description: Get started with web applications and web forms
 feature: Overview

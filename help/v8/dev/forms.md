@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign input forms
 description: Learn how to customize input forms
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Integrate Campaign SDKs with your app
 description: Learn how to integrate Campaign Android and iOS SDKs with your app
 version: v8

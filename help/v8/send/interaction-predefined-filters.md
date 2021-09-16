@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Interaction Offer pre-defined filters
 description: Learn how to create pre-defined filters
 feature: Overview
