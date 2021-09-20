@@ -4,7 +4,6 @@ description: Get started with Campaign reporting capabilities
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 ---
 # Metrics & reports
 
