@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Adobe Target
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 ---
 # Work with Campaign and Adobe Target
 

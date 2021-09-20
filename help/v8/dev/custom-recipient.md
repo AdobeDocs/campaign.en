@@ -4,6 +4,7 @@ description: Learn how to use a custom recipient table
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 ---
 # Use a custom recipient table{#gs-ac-custom-recipient}
 
@@ -22,4 +23,3 @@ This section describes the key points to map existing tables in Adobe Campaign a
 >[!CAUTION]
 >
 >Adobe Campaign customization is reserved to expert users only. It requires expertise in input form and schema design.
-
