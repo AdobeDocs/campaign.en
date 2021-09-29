@@ -97,11 +97,11 @@ Please note that some capabilities are not available in this version of Campaign
 
 >[!CAUTION]
 >
->For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+>* For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
 >
->Migration from an existing Campaign Classic v7 environment is not yet available.
+>* Migration from an existing Campaign Classic v7 environment is not yet available.
 >
->If you are unsure of your deployment model or have any question, please get in touch with your account team.
+>* If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
 ## Unsupported features{#gs-removed}
 
