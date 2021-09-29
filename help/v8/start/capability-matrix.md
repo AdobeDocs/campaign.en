@@ -85,7 +85,7 @@ The **[!UICONTROL Change data source]** activity allows you to change the data s
 
 ## Unavailable features{#gs-unavailable-features}
 
-Please note that some capabilities are not available in this first version, such as:
+Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
 * Distributed Marketing
@@ -93,6 +93,7 @@ Please note that some capabilities are not available in this first version, such
 * Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
+* Twitter channel
 
 >[!CAUTION]
 >
@@ -102,14 +103,18 @@ Please note that some capabilities are not available in this first version, such
 >
 >If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
-## Removed features{#gs-removed}
+## Unsupported features{#gs-removed}
 
-To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer available in Campaign v8.
+To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
 
 * Coupons
 * Web tracking
 * Surveys
-* Social Marketing
+* Social Marketing with Facebook
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
+
+>[!NOTE]
+>
+>Some non-available or unsupported features can still be visible in the user interface.
