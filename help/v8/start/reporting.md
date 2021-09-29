@@ -4,6 +4,7 @@ description: Get started with Campaign reporting capabilities
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 95ed0369-7215-496b-8e11-fe264c436488
 ---
 # Metrics & reports
 
@@ -49,4 +50,3 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
  
 Note that Adobe Campaign reports are optimized and offer better scale capabilities than Campaign Classic v7. Existing limitations on Cubes do not apply.
-
