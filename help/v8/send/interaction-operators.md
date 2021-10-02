@@ -35,7 +35,7 @@ The rights assigned to the Offer manager enable them to carry out the following 
 
   >[!NOTE]
   >
-  >An **Offer manager** can only approve an offer if no reviewer is specified, or if he/she has been declared as the reviewer in the offer template on which the offer was based upon.
+  >**Offer managers** can only approve an offer if no reviewer is specified, or if they been declared as reviewers in the offer template.
 
 ## Create a Delivery manager operator {#delivery-manager}
 
@@ -45,15 +45,15 @@ The rights assigned to the Offer manager enable them to carry out the following 
 
 1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Delivery manager]** group.
 
-The rights assigned to the Delivery manager are/enable them to carry out the following tasks:
+The rights assigned to Delivery managers enable them to carry out the following tasks:
 
 * Display **[!UICONTROL Live]** environments.
 * Display and modify offer categories.
-* Approve offers if s/he is specified as one of its reviewers.
+* Approve offers if they are their reviewers.
 
   >[!NOTE]
   >
-  >A **Delivery manager** can only approve an offer if he/she has been declared as a reviewer during the offer configuration.
+  >**Delivery manager** can only approve an offer if they have been declared as a reviewer in the offer configuration.
 
 ## Permission matrix per Interaction operator {#recap-of-rights-according-to-operator}
 
