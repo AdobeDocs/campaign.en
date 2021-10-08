@@ -36,7 +36,7 @@ To send transactional push notifications, you need to perform the following conf
 
     >[!CAUTION]
     >
-    >Check your licence agreement before installing a new Campaign built-in package.
+    >Check your license agreement before installing a new Campaign built-in package.
 
 1. Replicate the **Mobile application** service and the associated mobile applications on the execution instances.
 

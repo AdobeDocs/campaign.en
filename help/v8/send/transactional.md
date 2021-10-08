@@ -24,7 +24,7 @@ Transactional messages are used to send:
 
 >[!CAUTION]
 >
->Transactional messaging requires a specific licence. Please check your licence agreement.
+>Transactional messaging requires a specific license. Please check your license agreement.
 
 ## Define transactional message templates
 
