@@ -10,7 +10,7 @@ exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 
 Use Adobe Campaign to send personalized SMS messages.
 
-↗️ Learn how to get started with SMS channel in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn how to get started with SMS channel in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ To send to a mobile phone, you need:
 
 * A delivery template in which this external account is referenced.
 
-↗️  Learn how to configure an SMS channel in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target="_blank"}
+![](../assets/do-not-localize/book.png)  Learn how to configure an SMS channel in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages){target="_blank"}
 
 Before starting sending SMS:
 
@@ -39,15 +39,15 @@ In addition, you need to be familiar with the SMS protocol and settings. Walk th
 
    ![](assets/delivery_step_1.png)
 
-   ↗️ For global information on how to create a delivery, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}.
+   ![](../assets/do-not-localize/book.png) For global information on how to create a delivery, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}.
 
 1. Select a delivery template referencing the relevant external account to send SMS deliveries.
 
    ![](assets/sms-template-list.png)
     
-    ↗️ Learn how to create an SMPP external account in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target="_blank"}
+    ![](../assets/do-not-localize/book.png) Learn how to create an SMPP external account in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account){target="_blank"}
 
-    ↗️ Learn how to create a delivery template to deliver to mobiles in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target="_blank"}
+    ![](../assets/do-not-localize/book.png) Learn how to create a delivery template to deliver to mobiles in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template){target="_blank"}
 
 1. Identify your delivery with a label, code, and description.
 
@@ -63,17 +63,17 @@ The key steps to create and design an SMS are detailed in Campaign Classic v7 do
 
 * Create an SMS
 
-    ↗️ [Learn how to create an SMS delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn how to create an SMS delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages){target="_blank"}
 
 * Design the SMS content
 
-    ↗️ [Learn how to define the SMS content](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn how to define the SMS content](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content){target="_blank"}
 
 * Select the audience of your email
 
-   ↗️ [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
-💡 Steps to define an audience are detailed on [this page](../start/audiences.md).
+![](../assets/do-not-localize/glass.png) Steps to define an audience are detailed on [this page](../start/audiences.md).
 
 ## Test your SMS
 
@@ -84,9 +84,9 @@ To view the rendering of the message with its personalization, click **[!UICONTR
 To send a proof, refer to these sections of Campaign Classic v7 documentation:
 
 * Validate a delivery and send proofs
-   ↗️ [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
 * Add seed addresses
-    ↗️ [Learn about seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn about seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
 ## Send and monitor SMS deliveries
 
@@ -94,8 +94,8 @@ The key steps to send and monitor an SMS are detailed in Campaign Classic v7 doc
 
 * Send, monitor and track SMS deliveries
     
-    ↗️ [Learn about the tools to send, monitor and track SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn about the tools to send, monitor and track SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages){target="_blank"}
 
 * Troubleshoot SMS deliveries
     
-    ↗️ [Learn about SMS Troubleshooting](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn about SMS Troubleshooting](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages){target="_blank"}

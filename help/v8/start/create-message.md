@@ -36,28 +36,28 @@ Once your message has been created and its content designed and tested, you can 
 
     ![](assets/send-email.png) 
 
-   ↗️ Learn how to send messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to send messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
 
 * Send messages associated to a [marketing campaign](campaigns.md)
 
    ![](assets/deliveries-in-a-campaign.png) 
 
-   ↗️ Learn how to send messages in the context of a campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to send messages in the context of a campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html){target="_blank"}
 
 * Send messages via a [workflow](../config/workflows.md)
 
     ![](assets/send-in-a-wf.png) 
 
-   ↗️ Learn how to automate email deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to automate email deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html){target="_blank"}
 
 * [Trigger messages](../send/transactional.md) from an event
-   ↗️ [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target="_blank"}
 
 * Schedule your messages
 
    ![](assets/schedule-send.png) 
    
-   ↗️ [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?){target="_blank"}
 
 
 ## Add personalization
@@ -67,33 +67,33 @@ Messages delivered by Adobe Campaign can be personalized in various ways.
 You can:
 
 * Insert dynamic personalization fields. 
-   ↗️ Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html){target="_blank"}
 * Insert predefined personalization blocks. 
-   ↗️ Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html){target="_blank"}
 * Create conditional content. 
-   ↗️ Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}
 
 ## Send transactional messages
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-💡 Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
+![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
 
-💡 Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
+![](../assets/do-not-localize/glass.png) Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-↗️ Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
 ## Delivery and tracking logs
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
-↗️ Learn how to monitor your deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn how to monitor your deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"}
 
 
 **Related topics** in Campaign Classic v7 documentation:
 
-↗️  [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target="_blank"}
+![](../assets/do-not-localize/book.png)  [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target="_blank"}
 
-↗️  [Test and send an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
+![](../assets/do-not-localize/book.png)  [Test and send an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
 
-↗️  [Send proofs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+![](../assets/do-not-localize/book.png)  [Send proofs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}

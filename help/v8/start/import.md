@@ -10,8 +10,9 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 
 Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
 
-💡 Get started with [audiences](audiences.md)
-💡 Understand Campaign [datamodel](../dev/datamodel.md)
+![](../assets/do-not-localize/glass.png) Get started with [audiences](audiences.md)
+
+![](../assets/do-not-localize/glass.png) Understand Campaign [datamodel](../dev/datamodel.md)
 
 ## Import profiles in a workflow
 
@@ -21,11 +22,11 @@ Profile imports are configured in dedicated templates executed through workflows
 
 Learn more in Campaign Classic v7 documentation:
 
-↗️ [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target="_blank"}
 
-↗️ [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target="_blank"}
 
-↗️ [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target="_blank"}
 
 ## Run unitary imports
 
@@ -33,7 +34,7 @@ Create and execute a generic data import job to load contacts in the Cloud datab
 
 ![](assets/new-import.png) 
 
-↗️ Learn how to run unitary import jobs to feed your database in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to run unitary import jobs to feed your database in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.
 
 ## Collect profiles through web apps
 
@@ -41,7 +42,7 @@ Use Campaign to create web forms and collect and manage profile information easi
 
 ![](assets/web-form-page.png) 
 
-↗️ Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}.
 
 **Related topics**
 

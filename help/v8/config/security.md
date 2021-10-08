@@ -101,7 +101,7 @@ Access management is an important part of security hardening. Here are some of t
 * Check that each operator has the appropriate access rights
 * Avoid using the admin operator and avoid having too many operators in the admin group
 
-↗️ Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
 
 ## Coding guidelines
 
@@ -113,4 +113,4 @@ When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always fo
 
 * **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
 
-↗️ Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
