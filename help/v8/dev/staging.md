@@ -1,10 +1,10 @@
 ---
-product: Adobe Campaign
 title: Campaign API staging mechanism
 description: Campaign API staging mechanism
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism
 
@@ -46,7 +46,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
     </srcSchema>
     ```
 
-    💡 Learn more about custom schema creation in [this page](create-schema.md).
+    ![](../assets/do-not-localize/glass.png) Learn more about custom schema creation in [this page](create-schema.md).
 
 1. Save and update the database structure.  [Learn more](update-database-structure.md)
 

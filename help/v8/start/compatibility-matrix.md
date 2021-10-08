@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign v8 compatibility matrix
 description: Learn systems and versions compatible with Campaign v8
 feature: Overview

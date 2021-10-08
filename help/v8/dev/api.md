@@ -1,11 +1,9 @@
 ---
-product: Adobe Campaign
 title: Get started with Campaign APIs
 description: Get started with Campaign APIs
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 ---
 # Get Started with [!DNL Campaign] APIs{#gs-ac-api}
 
@@ -43,13 +41,13 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 
 With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
 
-💡 [API staging mechanism is detailed in this page](staging.md)
+![](../assets/do-not-localize/glass.png) [API staging mechanism is detailed in this page](staging.md)
 
 ## New APIs
 
 New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance.
 
-💡 [New APIs are detailed in this page](new-apis.md)
+![](../assets/do-not-localize/glass.png) [New APIs are detailed in this page](new-apis.md)
 
 **Related topics**
 

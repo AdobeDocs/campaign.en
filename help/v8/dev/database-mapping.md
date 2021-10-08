@@ -1,7 +1,7 @@
 ---
-product: Adobe Campaign
 title: Campaign Database mapping
 description: Campaign Database mapping
+exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
 ---
 # Database mapping{#database-mapping}
 
@@ -250,7 +250,7 @@ For join relations using Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinality 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinality 1-N
 
-💡 For more information on FDA tables, refer to [Federated Data Access](../connect/fda.md).
+![](../assets/do-not-localize/glass.png) For more information on FDA tables, refer to [Federated Data Access](../connect/fda.md).
 
 A link must be declared in the schema containing the foreign key of the table linked via the main element:
 

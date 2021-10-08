@@ -1,7 +1,7 @@
 ---
-product: Adobe Campaign
-title: Key management in Campaign 
+title: Key management in Campaign
 description: Get started with key management
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 ---
 # Key management and unicity {#key-management}
 

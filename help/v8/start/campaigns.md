@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns
 feature: Audiences
@@ -41,7 +40,7 @@ Adobe Campaign lets you create, configure, execute and analyze all marketing cam
 
 ![](assets/calendar.png) 
 
-↗️ Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns){target="_blank"}
+![](../assets/do-not-localize/book.png) Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns){target="_blank"}
 
 
 ## Key steps to start
@@ -52,13 +51,13 @@ Key steps to create a cross-channel marketing campaign are:
 
     Define hierarchy and schedule, set budget, add resources, select operators. 
     
-   ↗️ Learn how to create a marketing plan and configure campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to create a marketing plan and configure campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy){target="_blank"}
 
     All marketing campaigns are based on a template, which stores main settings and capabilities. A built-in template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
-   ↗️ Learn how to work with campaign templates in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to work with campaign templates in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns){target="_blank"}
 
-   ↗️ Discover recurring campaigns and how to configure them in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Discover recurring campaigns and how to configure them in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
 
 1. **Define audiences**
     
@@ -66,7 +65,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-wf.png) 
     
-   ↗️ Learn how to define the audience of your messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to define the audience of your messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns){target="_blank"}
     
 1. **Create deliveries**
 
@@ -74,15 +73,15 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-   ↗️ Learn how to create and start marketing campaign deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to create and start marketing campaign deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries){target="_blank"}
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc.
 
-   ↗️ Learn more about associated documents in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn more about associated documents in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents){target="_blank"}
     
 1. **Set up the approval process**
 
     Adobe Campaign lets you set up collaborative approval processes for the main stages of the marketing campaign. For each campaign you can approve the delivery target, content, and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a web connection. 
 
-   ↗️ Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
 

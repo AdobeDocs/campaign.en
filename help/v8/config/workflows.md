@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Manage and automate processes with Adobe Campaign workflows
 description: Get started with workflows
 feature: Overview
@@ -28,19 +27,19 @@ Learn how to design workflows in these [end-to-end use cases](#end-to-end-uc).
 
 Learn more about workflows user interface and execution in Campaign Classic v7 documentation:
 
-↗️ [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+![](../assets/do-not-localize/book.png) [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
 
-↗️ [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-↗️ [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
 
-↗️ [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target="_blank"}
 
-↗️  [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
+![](../assets/do-not-localize/book.png)  [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
 
 ## Workflow activities {#wf-activities}
 
-↗️ Learn more about the available workflow activities [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn more about the available workflow activities [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target="_blank"}
 
 Workflow activities are grouped by category. The four activity categories are available:
 
@@ -87,18 +86,18 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Design recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
 
-↗️ Learn how to create a recurring campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn how to create a recurring campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
 
 
 ## Leverage trigger events
 
 Use Campaign Transactional messaging to automate messages generated from events triggered from information systems. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. These messages can be sent individually or in batch via email, SMS or push notifications.
 
-💡 Learn more about transactional messaging capabilities in in [this section](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Learn more about transactional messaging capabilities in in [this section](../send/transactional.md).
 
 Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
 
-💡 Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
+![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
 
 
 ## Workflow end-to-end use cases{#end-to-end-uc}

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Connect to Campaign v8
 description: Learn how to connect to Campaign v8
 feature: Audiences

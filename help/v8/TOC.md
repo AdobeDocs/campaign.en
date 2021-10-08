@@ -1,8 +1,7 @@
 ---
-product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
-title: Adobe Campaign v8 Help Center
+title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8
 title: Campaign v8 docs
@@ -60,7 +59,7 @@ title: Campaign v8 docs
   + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
-  + [Mobile app settings](config/push-config.md)
+  + [Integrate Campaign SDKs with your app](config/push-config.md)
   + [External accounts](config/external-accounts.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)

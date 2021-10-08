@@ -1,7 +1,7 @@
 ---
-product: Adobe Campaign
 title: Data model best practices
 description: Learn Campaign data model extension best practices
+exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
 ---
 # Data model best practices{#data-model-best-practices}
 
@@ -11,9 +11,9 @@ Adobe Campaign system is very flexible and can be extended beyond the initial im
 
 For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md) .
 
-💡 Read out [this section](schemas.md) to get started with Campaign schemas. 
+![](../assets/do-not-localize/glass.png) Read out [this section](schemas.md) to get started with Campaign schemas. 
 
-💡 Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
+![](../assets/do-not-localize/glass.png) Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
 
 ## Data model architecture {#data-model-architecture}
 

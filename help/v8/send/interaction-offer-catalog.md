@@ -1,10 +1,10 @@
 ---
-product: Adobe Campaign
 title: Campaign Interaction Offer catalog
 description: Learn how to create an offer catalog
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
 ---
 # Create an offer catalog
 
@@ -63,4 +63,3 @@ To include a fallback category in the recommendations, follow the steps below:
 1. Click **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)
-

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 capability matrix
 description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview
@@ -19,7 +18,7 @@ Key changes:
 
 As a [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
-💡 Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Learn more about [!DNL Campaign] v8 architecture in [this page](../dev/architecture.md).
 
 ## Product configuration changes
 
@@ -70,7 +69,7 @@ Campaign users do not need to be database experts: there is no longer any need f
 
 Campaign users connect through their Adobe ID. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account. 
 
-💡 Learn how to connect to [!DNL Campaign] in [this page](connect.md).
+![](../assets/do-not-localize/glass.png) Learn how to connect to [!DNL Campaign] in [this page](connect.md).
 
 ## Reporting
 
@@ -82,11 +81,11 @@ Campaign v8 offers an additional targeting workflow activity: **[!UICONTROL Chan
 
 The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]** to manage data across different data sources such as FDA, FFDA and local database.
 
-💡 Learn more on the **[!UICONTROL Change data source]** activity in [this page](../config/workflows.md#change-data-source-activity).
+![](../assets/do-not-localize/glass.png) Learn more on the **[!UICONTROL Change data source]** activity in [this page](../config/workflows.md#change-data-source-activity).
 
 ## Unavailable features{#gs-unavailable-features}
 
-Please note that some capabilities are not available in this first version, such as:
+Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
 * Distributed Marketing
@@ -94,23 +93,28 @@ Please note that some capabilities are not available in this first version, such
 * Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
+* Twitter channel
 
 >[!CAUTION]
 >
->For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+>* For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
 >
->Migration from an existing Campaign Classic v7 environment is not yet available.
+>* Migration from an existing Campaign Classic v7 environment is not yet available.
 >
->If you are unsure of your deployment model or have any question, please get in touch with your account team.
+>* If you are unsure of your deployment model or have any question, please get in touch with your account team.
 
-## Removed features{#gs-removed}
+## Unsupported features{#gs-removed}
 
-To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer available in Campaign v8.
+To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
 
 * Coupons
 * Web tracking
 * Surveys
-* Social Marketing
+* Social Marketing with Facebook
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
+
+>[!NOTE]
+>
+>Some non-available or unsupported features can still be visible in the user interface.

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Change your default recipient table
 description: Learn how to use a custom recipient table
 feature: Overview
@@ -24,4 +23,3 @@ This section describes the key points to map existing tables in Adobe Campaign a
 >[!CAUTION]
 >
 >Adobe Campaign customization is reserved to expert users only. It requires expertise in input form and schema design.
-
