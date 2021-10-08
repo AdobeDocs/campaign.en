@@ -28,7 +28,7 @@ Key tracking capabilities available in Campaign are listed below.
 
 You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients.
 
-Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target="_blank"}
+[Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=en#sending-messages){target="_blank"}
 
 **URL tracking**
 
