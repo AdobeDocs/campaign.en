@@ -4,7 +4,6 @@ description: Get started with tracking and monitoring capabilities
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 95ed0369-7215-496b-8e11-fe264c436488
 ---
 # Track and monitor messages{#gs-ac-reports}
 
