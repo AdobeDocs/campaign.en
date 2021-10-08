@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Adobe Experience Manager
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 ---
 # Work with Campaign and Adobe Experience Manager
 

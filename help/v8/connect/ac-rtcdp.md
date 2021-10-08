@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Real-Time Customer Data Platfor
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa
 ---
 # Work with Campaign and Real-Time Customer Data Platform
 

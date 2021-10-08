@@ -6,6 +6,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: yes
 hide: yes
+exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 ---
 # Work with Campaign and Twitter
 
