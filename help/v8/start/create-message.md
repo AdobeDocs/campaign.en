@@ -92,8 +92,8 @@ Monitoring your deliveries after they have been sent is a key step to ensure you
 
 **Related topics** in Campaign Classic v7 documentation:
 
-![](../assets/do-not-localize/book.png)  [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target="_blank"}
+* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png)  [Test and send an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
+* [Test and send an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png)  [Send proofs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+* [Send proofs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
