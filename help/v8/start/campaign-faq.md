@@ -22,7 +22,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     You need to download and install Campaign Client Console to connect to Adobe Campaign.
 
-    💡 [Click here to learn more](connect.md).
+    ![](../assets/do-not-localize/glass.png) [Click here to learn more](connect.md).
 
 1. **Can Campaign v8 be installed on an on-premise or hybrid environment?**
 
@@ -32,9 +32,9 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
-   ↗️ Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
-   ↗️ Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
 1. **How can I make sure my delivery is sent without errors?**
 
@@ -44,7 +44,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
     
 1. **Can I monitor workflow execution?**
 
-   ↗️ Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Understand how to monitor Campaign workflow execution [in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html){target="_blank"}
 
 1. **Which systems and components Campaign v8 is compatible with?**
 

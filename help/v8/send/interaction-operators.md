@@ -4,7 +4,6 @@ description: Create Offer management operators
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 ---
 # Operators profiles {#operator-profiles}
 
@@ -15,9 +14,9 @@ Two types of operators can use Campaign Interaction: **Offer managers** and **De
 
 ## Create an Offer manager operator{#offer-manager}
 
-1. Create a new operator. 
+1. Create an operator. 
 
-   ↗️ Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
 
@@ -31,17 +30,17 @@ The rights assigned to the Offer manager enable them to carry out the following 
 * Configure offer eligibility.
 * Approve offers.
 
- Note that if offers are used in a workflow, the operator needs to be added to the **[!UICONTROL Administrator]** or **[!UICONTROL Offer managers]** operator group to execute the workflow.
+If offers are used in a workflow, the operator must be added to the **[!UICONTROL Administrator]** or **[!UICONTROL Offer managers]** operator group to execute the workflow.
 
   >[!NOTE]
   >
-  >**Offer managers** can only approve an offer if no reviewer is specified, or if they been declared as reviewers in the offer template.
+  >**Offer managers** can only approve an offer if no reviewer is specified, or if they have been declared as reviewers in the offer template.
 
 ## Create a Delivery manager operator {#delivery-manager}
 
-1. Create a new operator.
+1. Create an operator.
   
-   ↗️ Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Delivery manager]** group.
 
@@ -61,8 +60,8 @@ The rights assigned to Delivery managers enable them to carry out the following 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Offer manager (Design env)</strong><br /> </td> 
-   <td> <strong>Offer manager (Live env)</strong><br /> </td> 
+   <td> <strong>Offer manager (Design environment)</strong><br /> </td> 
+   <td> <strong>Offer manager (Live environment)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Tree structure level</strong><br /> </td> 

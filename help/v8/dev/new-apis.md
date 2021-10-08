@@ -207,4 +207,4 @@ Insertion of subscription and unsubscription data relies on the [Staging mechani
 
 **Related topics**
 
-* [Campaign Classic v7 JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
