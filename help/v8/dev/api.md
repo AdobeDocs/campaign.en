@@ -4,7 +4,6 @@ description: Get started with Campaign APIs
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 ---
 # Get Started with [!DNL Campaign] APIs{#gs-ac-api}
 

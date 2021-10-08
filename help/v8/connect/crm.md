@@ -4,7 +4,6 @@ description: Learn how to work with Campaign and your CRM
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
 ---
 # Connect your CRM with Campaign {#gs-crm}
 
