@@ -24,7 +24,7 @@ _October 25, 2021_
 <tbody>
 <tr>
 <td>
-<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction inbound to get PostgreSQL unitary call performance and get a secured platform where offer catalog is not directly available through Marketing database.
+<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through Marketing database.
 </p>
 </td>
 </tr>
@@ -68,6 +68,7 @@ _October 25, 2021_
 * The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
 
 **Patches**
+
 * After a user had removed, in a data schema, the `<autoStg>` attribute from a table definition element, or changed its value from `true` to `false`, the related staging table was not deleted. This issue has been fixed.
 
 
