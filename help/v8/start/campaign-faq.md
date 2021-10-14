@@ -16,7 +16,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
 
-    💬 As a Managed Cloud Services user, your instance is upgraded by Adobe with every new release. 
+    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, your instance is upgraded by Adobe with every new release. 
 
 1. **How can I connect to Campaign v8?**
 
@@ -54,7 +54,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    💬 As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
+    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
 
 1. **As a Campaign Classic v7 user, can I migrate to Campaign v8?**
 

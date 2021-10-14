@@ -18,4 +18,4 @@ This means that you can make the most of both Adobe Experience Manager content e
 
 ![](../assets/do-not-localize/book.png) [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Campaign.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Campaign.

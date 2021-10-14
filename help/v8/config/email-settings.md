@@ -25,7 +25,7 @@ Note that:
 
 * Only successfully sent emails are taken in account, bounces are not.
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to activate Email BCC in Campaign. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to activate Email BCC in Campaign. The BCC email address of your choice must be provided to the Adobe team who will configure it for you.
 
 Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **Email BCC** option. 
 

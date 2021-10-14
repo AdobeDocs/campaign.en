@@ -28,7 +28,7 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 The following technical accounts are used by Adobe Campaign to enable and execute specific processes.
 
-💬 As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
 
 * **Bounce mails (POP3)**
 
@@ -75,7 +75,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
 
-    💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
+    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
 
     * **Adobe Experience Manager**
 
@@ -83,7 +83,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
 
-    💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
+    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
 
 
 ## CRM Connector External Accounts 

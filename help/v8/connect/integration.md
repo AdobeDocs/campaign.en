@@ -16,7 +16,7 @@ Adobe Campaign comes with several connectors that allow you to communicate with 
 
 Modernize your implementation and leverage all Adobe Experience Cloud capabilities.
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
 
 Campaign v8 can connect with:
 

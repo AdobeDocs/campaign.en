@@ -18,7 +18,7 @@ Privacy configuration and hardening is a key element of security optimization. H
 * Make sure that encrypted passwords are restricted
 * Protect the pages that might contain personal information such as mirror pages, web applications, etc.
 
-💬 As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
 
 ## Personalization
 
