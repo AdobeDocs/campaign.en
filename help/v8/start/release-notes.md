@@ -11,6 +11,66 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.2.1 {#release-8-2-1}
+
+_October 25, 2021_
+
+<table>
+<thead>
+<tr>
+<th><strong>Inbound Interaction</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction inbound to get PostgreSQL unitary call performance and get a secured platform where offer catalog is not directly available through Marketing database.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Campaign Optimization</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Optimization is now available in v8. This module lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Unicity Service</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Unicity Service is a new Cloud Database Manager component. It helps users preserve and monitor the integrity of unique key constraints within Cloud Database tables. This allows you to reduce the risk of inserting duplicate keys.
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Improvements**
+
+* Campaign v8 now gives you the ability to send a delivery through a set of a mid-sourcing instances via a simple configuration. On the marketing instance, you only see a single delivery while on the mid-sourcing instances, that delivery gets split up automatically across the entire set of mid-sourcing instances available. This feature is only available with the Snowflake Full FDA package.
+* The Snowflake connector has been improved in terms of performance.
+* In the server configuration file (serverConf.xml), you can now set a wait time, per schema, between updates and commit replications on the fly.
+* For monitoring and testing purposes, the audit logs of the **[!UICONTROL Replicate Staging data]** workflow now include the number of records that have been sent to the FFDA (Full Federated Data Access) database.
+* The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
+
+**Patches**
+* After a user had removed, in a data schema, the `<autoStg>` attribute from a table definition element, or changed its value from `true` to `false`, the related staging table was not deleted. This issue has been fixed.
+
+
 ## Release 8.1.20 {#release-8-1-20}
 
 _September 7, 2021_
