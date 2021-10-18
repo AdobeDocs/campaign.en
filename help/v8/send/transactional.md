@@ -10,7 +10,7 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 
@@ -18,13 +18,13 @@ Transactional messages are used to send:
 * an individual real-time response to a customer action
 * non-promotional content
 
-💡 Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
+![](../assets/do-not-localize/glass.png) Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-💡 Understand transactional messaging architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
 
 >[!CAUTION]
 >
->Transactional messaging requires a specific licence. Please check your licence agreement.
+>Transactional messaging requires a specific license. Please check your license agreement.
 
 ## Define transactional message templates
 
@@ -145,7 +145,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 
 Sending a proof involves the same process as for any delivery.
 
-↗️ Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 

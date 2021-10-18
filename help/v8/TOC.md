@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-title: Adobe Campaign v8 Help Center
+title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8
 title: Campaign v8 docs
@@ -80,6 +80,7 @@ title: Campaign v8 docs
     + [Key management and unicity](dev/keys.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
+    + [Filter schemas](dev/filter-schema.md)
     + [Schema structure](dev/schema-structure.md)
     + [Database mapping](dev/database-mapping.md)
     + [Restrict PI view](dev/restrict-pi-view.md)

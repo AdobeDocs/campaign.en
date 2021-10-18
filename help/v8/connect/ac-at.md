@@ -4,7 +4,7 @@ description: Learn how to work with Campaign and Adobe Target
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
 ---
 # Work with Campaign and Adobe Target
 
@@ -15,7 +15,7 @@ This integration helps you to implement use cases as follows: when a recipient o
 >[!NOTE]
 >The integration only supports static images. The other types of content cannot be personalized.
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
 
 The following types of data can be used by Adobe Target:
 
