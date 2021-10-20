@@ -76,27 +76,26 @@ _October 25, 2021_
 **Patches**
 
 * After a user had removed, in a data schema, the `<autoStg>` attribute from a table definition element, or changed its value from `true` to `false`, the related staging table was not deleted. This issue has been fixed.
-* Fixed an issue that caused error when creating records with a dedicated form due to Id management with FFDA datasource.
-* Fixed an issue that could prevent offers to be inserted into a delivery if the offers are managed by an  enrichment activity in a workflow.
+* Fixed an issue that caused an error when creating records with a dedicated form due to Id management with an FFDA datasource.
+* Fixed an issue that could prevent offers from being inserted into a delivery if the offers were managed by an enrichment activity in a workflow.
 * Fixed an issue that could slow down the import of packages.
 * Fixed an issue that could prevent email deliveries with seed addresses from being sent.
 * Fixed an issue that could prevent propositions from being saved in the offer propositions table.
-* Fixed an issue that caused network timeout issues to be incorrectly logged as script interruption issues instead of network errors. This issue occurred in the case of HTTP requests that are included in JavaScript activities.
-* Fixed an issue that prevented offers to be replicated to the live offer environment on Snowflake.
-* Fixed an issue that ignored the 'autoStg' attribute for non-extended built-in schemas. (maybe too technical?)
+* Fixed an issue that caused network timeout issues to be incorrectly logged as script interruption issues instead of network errors. This issue occurred in the case of HTTP requests that were included in JavaScript activities.
+* Fixed an issue that prevented offers from being replicated to the live offer environment on Snowflake.
+* Fixed an issue that ignored the 'autoStg' attribute for non-extended built-in schemas.
 * Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile.
-* Fixed an issue that caused the datepicker in custom reports to result in script error. (NEO-36345)
+* Fixed an issue that caused the datepicker in custom reports to result in a script error. (NEO-36345)
 * Fixed an issue that caused the system to crash when regenerating configuration in case of bad configuration files.
-* Fixed an issue that prevented the marketing and the control instances to be successfully upgraded.
+* Fixed an issue that prevented the marketing and the control instances from being successfully upgraded.
 * Fixed an issue that could cause the billing workflow to crash on marketing instances.
 * Fixed an issue that could lead to duplicate keys in FFDA Snowflake out-of-the-box tables. (NEO-38583)
-* Fixed an issue that could cause the failure of postupgrades that are related to upgrades to the latest build, thus resulting in downtimes.
-* Fixed an issue which could lead to workflow temporary schemas being lost when using deduplication activities. (NEO-34063)
-* Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract time component.(NEO-31673)
+* Fixed an issue which could lead to workflow temporary schemas being lost when editing two deduplication activities one after the other. (NEO-34063)
+* Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract the time component.(NEO-31673)
 * Fixed an issue which could prevent users from login to the console due to a proxy configuration issue. (NEO-38388)
-* Fixed a regression issue which prevented the Purge folder functionnality from working correctly. (NEO-37459)
-* Fixed an issue that could prevent the preview of mobile deliveries that are attached to a workflow.
-* Fixed an issue which could prevent the Read list workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
+* Fixed a regression issue which prevented the **Purge folder** functionnality from working correctly. (NEO-37459)
+* Fixed an issue that could prevent you from previewing mobile deliveries that were attached to a workflow.
+* Fixed an issue which could prevent the **Read list** workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
 
 ## Release 8.1.20 {#release-8-1-20}
 
