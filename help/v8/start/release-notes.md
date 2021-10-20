@@ -24,7 +24,7 @@ _October 25, 2021_
 <tbody>
 <tr>
 <td>
-<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through the Marketing database.
+<p>Inbound Interaction is now available in v8. This feature allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through the Marketing database.
 </p>
 </td>
 </tr>
