@@ -93,7 +93,7 @@ _October 25, 2021_
 * Fixed an issue which could lead to workflow temporary schemas being lost when editing two deduplication activities one after the other. (NEO-34063)
 * Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract the time component.(NEO-31673)
 * Fixed an issue which could prevent users from login to the console due to a proxy configuration issue. (NEO-38388)
-* Fixed a regression issue which prevented the **Purge folder** functionnality from working correctly. (NEO-37459)
+* Fixed a regression issue which prevented the **Purge folder** functionality from working correctly. (NEO-37459)
 * Fixed an issue that could prevent you from previewing mobile deliveries that were attached to a workflow.
 * Fixed an issue which could prevent the **Read list** workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
 
