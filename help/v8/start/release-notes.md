@@ -24,7 +24,7 @@ _October 25, 2021_
 <tbody>
 <tr>
 <td>
-<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through Marketing database.
+<p>Inbound Interaction is now available in v8. This feature is hosted in Powerbooster mode only. It allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through the Marketing database.
 </p>
 </td>
 </tr>
@@ -66,6 +66,7 @@ _October 25, 2021_
 * In the server configuration file (serverConf.xml), you can now set a wait time, per schema, between updates and commit replications on the fly.
 * For monitoring and testing purposes, the audit logs of the **[!UICONTROL Replicate Staging data]** workflow now include the number of records that have been sent to the FFDA (Full Federated Data Access) database.
 * The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
+* A set of predefined warehouses is now available and can be used to run various queries in parallel such as segmentation, ETL or peaks.
 
 **Patches**
 
