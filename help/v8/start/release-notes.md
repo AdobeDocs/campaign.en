@@ -61,17 +61,42 @@ _October 25, 2021_
 
 **Improvements**
 
-* Campaign v8 now gives you the ability to send a delivery through a set of a mid-sourcing instances via a simple configuration. On the marketing instance, you only see a single delivery while on the mid-sourcing instances, that delivery gets split up automatically across the entire set of mid-sourcing instances available. This feature is only available with the Snowflake Full FDA package.
 * The Snowflake connector has been improved in terms of performance.
 * In the server configuration file (serverConf.xml), you can now set a wait time, per schema, between updates and commit replications on the fly.
 * For monitoring and testing purposes, the audit logs of the **[!UICONTROL Replicate Staging data]** workflow now include the number of records that have been sent to the FFDA (Full Federated Data Access) database.
 * The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
 * A set of predefined warehouses is now available and can be used to run various queries in parallel such as segmentation, ETL or peaks.
 
+**Other changes**
+
+* The **[!UICONTROL Encrypted identifier]** field has been added to the visitor schema (`nms:visitor`). This field is calculated and is to be used for web applications.
+* Fixed an issue that caused the delivery analysis to fail when some IP affinities existed in some mid-sourcing containers but not in all of them. Now the IP affinities are all stored in the database, so that any container can access the affinities present in all the other containers. (NEO-37564)
+* You can now import a package with multiple schemas and navigation tree nodes.
+
 **Patches**
 
 * After a user had removed, in a data schema, the `<autoStg>` attribute from a table definition element, or changed its value from `true` to `false`, the related staging table was not deleted. This issue has been fixed.
-
+* Fixed an issue that caused error when creating records with a dedicated form due to Id management with FFDA datasource.
+* Fixed an issue that could prevent offers to be inserted into a delivery if the offers are managed by an  enrichment activity in a workflow.
+* Fixed an issue that could slow down the import of packages.
+* Fixed an issue that could prevent email deliveries with seed addresses from being sent.
+* Fixed an issue that could prevent propositions from being saved in the offer propositions table.
+* Fixed an issue that caused network timeout issues to be incorrectly logged as script interruption issues instead of network errors. This issue occurred in the case of HTTP requests that are included in JavaScript activities.
+* Fixed an issue that prevented offers to be replicated to the live offer environment on Snowflake.
+* Fixed an issue that ignored the 'autoStg' attribute for non-extended built-in schemas. (maybe too technical?)
+* Fixed an issue that prevented users from selecting the **[!UICONTROL Country/Region]** link when previewing a profile.
+* Fixed an issue that caused the datepicker in custom reports to result in script error. (NEO-36345)
+* Fixed an issue that caused the system to crash when regenerating configuration in case of bad configuration files.
+* Fixed an issue that prevented the marketing and the control instances to be successfully upgraded.
+* Fixed an issue that could cause the billing workflow to crash on marketing instances.
+* Fixed an issue that could lead to duplicate keys in FFDA Snowflake out-of-the-box tables. (NEO-38583)
+* Fixed an issue that could cause the failure of postupgrades that are related to upgrades to the latest build, thus resulting in downtimes.
+* Fixed an issue which could lead to workflow temporary schemas being lost when using deduplication activities. (NEO-34063)
+* Fixed an issue that returned incorrect results when running the Amazon Redshift HoursDiff and MinutesDiff functions while trying to extract time component.(NEO-31673)
+* Fixed an issue which could prevent users from login to the console due to a proxy configuration issue. (NEO-38388)
+* Fixed a regression issue which prevented the Purge folder functionnality from working correctly. (NEO-37459)
+* Fixed an issue that could prevent the preview of mobile deliveries that are attached to a workflow.
+* Fixed an issue which could prevent the Read list workflow activity from working when the list was identified in the database with a negative ID. (NEO-39607)
 
 ## Release 8.1.20 {#release-8-1-20}
 
