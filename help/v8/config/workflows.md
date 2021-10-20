@@ -82,6 +82,28 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. You can now start your workflow.
 
+## Manage virtual warehouses {#warehouse}
+
+After creating your workflow, you can access additional options with the **[!UICONTROL Properties]** button for further configuration.
+
+![](../assets/do-not-localize/book.png) Learn more about **Workflow properties** in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target="_blank"}
+
+From the **[!UICONTROL Execution]** tab of your workflow's **[!UICONTROL Properties]**, you can choose to link your workflow to different warehouses and optimize your workload management. For more information on **Warehouses**, refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+
+![](assets/warehouse.png)
+
+Depending on your workflow's purpose, you can choose between the following three warehouses from the **[!UICONTROL Warehouse]** drop-down:
+
+* **[!UICONTROL Default]** / **[!UICONTROL Campaign]**: set by default when creating a new workflow.
+
+* **[!UICONTROL Import / Export]**: should be set with import or export workflows to optimize your activities' performance.
+
+* **[!UICONTROL Campaign Burst]**: should be set with campaign or deliveries workflows to optimize your deliveries processing time.
+
+>[!NOTE]
+>
+>The **[!UICONTROL System]** warehouse is only set for built-in workflows.
+
 ## Set up recurring campaigns
 
 Design recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
