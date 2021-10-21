@@ -14,10 +14,6 @@ You can create an offer catalog that will interface with your outbound channels 
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
-Watch this video to get started with Campaign Real-time interaction module:
-
->[!VIDEO](https://www.youtube.com/embed/uLiCCeNqT1k)
-
 ![](assets/interaction-cycle.png)
 
 First, a contact occurs between a customer and a company through a communication channel: it can be a website (outbound interaction), an email, SMS, push notification (inbound interactions). [Learn more](#interaction-types)
