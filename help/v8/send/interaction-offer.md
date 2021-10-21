@@ -186,7 +186,7 @@ Campaign lets you control the flow of offer propositions using presentation rule
 
 ## Offer simulation
 
-The Simulation module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
+The **Simulation** module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers and their presentation rules. This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
