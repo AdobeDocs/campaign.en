@@ -53,7 +53,7 @@ The rights assigned to Delivery managers enable them to carry out the following 
 
   >[!NOTE]
   >
-  >**Delivery manager** can only approve an offer if they have been declared as a reviewer in the offer configuration.
+  >**Delivery managers** can only approve an offer if they have been declared as reviewers in the offer configuration.
 
 ## Permission matrix per Interaction operator {#recap-of-rights-according-to-operator}
 

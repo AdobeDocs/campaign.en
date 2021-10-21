@@ -8,7 +8,7 @@ exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 ---
 # Send an offer
 
-In order for an offer to be selected by the offer engine, it has be approved and available in a **Live** environment. [Learn more](interaction-offer.md#approve-offers)
+In order for an offer to be selected by the Offer engine, it has be approved and available in a **Live** environment. [Learn more](interaction-offer.md#approve-offers)
 
 Offer presentation via an outbound communication channel is carried out via direct mail, email, or mobile deliveries. You can also use unitary mode with Transactional messaging (Message Center).
 
@@ -51,10 +51,10 @@ To insert offer propositions into a delivery, follow the steps below:
    ![](assets/offer_delivery_010.png)
 
 
-### Parameters of the offer engine {#parameters-for-calling-offer-engine}
+### Parameters of the Offer engine {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : space of the offer environment which must be selected to activate the offer engine.
-* **[!UICONTROL Category]** : specific folder in which offers are sorted. If no category is specified, all the offers contained in the environment will be taken into account by the offer engine, unless a theme is selected. 
+* **[!UICONTROL Space]** : space of the offer environment which must be selected to activate the Offer engine.
+* **[!UICONTROL Category]** : specific folder in which offers are sorted. If no category is specified, all the offers contained in the environment will be taken into account by the Offer engine, unless a theme is selected. 
 * **[!UICONTROL Themes]** : key words defined upstream in the categories. These act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
 * **[!UICONTROL Number of propositions]** : number of offers returned by the engine that can be inserted into the delivery body. If they are not inserted into the message, the offers will still be generated, but not presented.
 * **[!UICONTROL Exclude non-eligible recipients]** : This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers. The number of eligible propositions may be lower than the requested number of propositions. If this box is checked, recipients who don't have enough propositions will be excluded from the delivery. If you don't select this option, these recipients will not be excluded but they won't have the requested number of propositions.
@@ -80,10 +80,10 @@ For example, you can enrich the data for a recipient query before a delivery.
 
 There are two methods for specifying offer propositions.
 
-* Specifying an offer or an offer engine call.
+* Specifying an offer or an Offer engine call.
 * Referencing a link to an offer.
 
-#### Specify an offer or a call to the offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### Specify an offer or a call to the Offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 After configuring your **Query** activity:
 
@@ -96,11 +96,11 @@ After configuring your **Query** activity:
 1. Specify an identifier as well as a label for the proposition that will be added.
 1. Specify the offer selection. There are two possible options for this:
 
-    * **[!UICONTROL Search for the best offer in a category]** : check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
+    * **[!UICONTROL Search for the best offer in a category]** : check this option and specify the Offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
     
       ![](assets/int_enrichment_offer3.png)
 
-    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
+    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
     
       ![](assets/int_enrichment_offer4.png)
 
@@ -142,7 +142,7 @@ By default, when an **Enrichment** activity is used to deliver offers, their ran
 
 However, you can store this information as follows:
 
-1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. Create a call to the Offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -157,7 +157,7 @@ The delivery automatically stores the ranking and weight of offers. This informa
 
 ### Offer engine {#offer-engine}
 
-The **[!UICONTROL Offer engine]** activity also lets you specify a call to the offer engine prior to the delivery.
+The **[!UICONTROL Offer engine]** activity also lets you specify a call to the Offer engine prior to the delivery.
 
 ![](../assets/do-not-localize/book.png) For more on the **Offer engine** activity, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
@@ -168,7 +168,7 @@ This activity works on the same principle as the **Enrichment** activity with an
 After configuring your **Query** activity:
 
 1. Add and open an **[!UICONTROL Offer engine]** activity.
-1. Complete the various available fields to specify the call to offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
+1. Complete the various available fields to specify the call to Offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
 
    >[!CAUTION]
    >

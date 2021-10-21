@@ -6,13 +6,31 @@ role: Data Engineer
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
 ---
-# Interaction and offer management{#interaction-and-offer-management}
+# Manage real-time interactions
 
-Campaign comes with an **Interaction** module which lets you respond in real time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers. For example, these can be simple communication messages, special offers on one or several products or a service.
+Campaign comes with an **Interaction** module which lets you respond in real-time during an interaction with a given contact (a customer or target) by making them a single or several adapted offers. For example, these can be simple communication messages, special offers on one or several products or a service.
 
 You can create an offer catalog that will interface with your outbound channels (email, direct mail, SMS) to select the best offer to send to a contact in a given context. Best offer selection for a recipient is based on **eligibility rules**. The selection of an offer from a set of relevant offers is determined using priority rules. Offer presentation rules take into account the contact's history and help avoid having them receive the same offer several times.
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
+
+Watch this video to get started with Campaign Real-time interaction module:
+
+>[!VIDEO](https://www.youtube.com/embed/uLiCCeNqT1k)
+
+![](assets/interaction-cycle.png)
+
+First, a contact occurs between a customer and a company through a communication channel: it can be a website (outbound interaction), an email, SMS, push notification (inbound interactions). [Learn more](#interaction-types)
+
+This contact results in a call to the Offer engine. (1)
+
+When the call to the Offer engine happens, one or several offers are selected from the Offer catalog depending on the number of offers settings on the proposition. (2)
+
+Then, eligibility rules are applied: best offers are selected based on the eligibility rules, start and end dates of offers,  profile data, and real-time behaviour of the customer. (3)
+
+The profile proposition history is updated once the selection is made, to avoid duplication of the offers that are presented. (4)
+
+Finally, the best offer is proposed to the target. (5)
 
 ## Get started with offers
 
@@ -27,6 +45,18 @@ Before starting, as a Campaign **Administrator**, make sure you performed the fo
 1. Create typology rules for each environment. [Learn more](interaction-offer.md#offer-presentation)
 1. Create offer spaces for each environment and configure rendering functions. [Learn more](interaction-offer-spaces.md)
   If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
+
+   >[!NOTE]
+   >
+   >If the space is defined by a unitary channel on identified mode, you must specify the advanced parameters for this space.
+
+1. Configure the Offer engine for inbound interactions in order to present and update one or several offers.
+
+   The various integration modes are detailed in [this section](interaction-present-offers.md).
+
+   >[!NOTE]
+   >
+   >When a space is created on the inbound Web channel, a configuration is also necessary on the site on which the offer will be displayed.
 
 ### Create and publish the offer catalog {#managing-the-offer-catalog-}
 
@@ -44,7 +74,7 @@ As a **Delivery manager**  you need to perform the following tasks:
 1. Reference an offer in the campaign or the delivery. [Learn more](interaction-send-offers.md).
 
 
-## Concepts and terminology
+## Glossary
 
 Discover offer-specific terms and related guidance before starting.
 
@@ -53,9 +83,9 @@ Discover offer-specific terms and related guidance before starting.
     * **Design environment**: environment in which offers are created and/or typology rules are defined (rules that will determine the offers to present or not present to a targeted person). The table of individuals that will be targeted by the offers and the table for storing all offer propositions are also defined in this. The **[!UICONTROL Design environment]** node contains offer space sub-folders, pre-defined filters and offer categories. For every **[!UICONTROL Design environment]** there is one corresponding read-only **[!UICONTROL Live environment]**, generated from this same **[!UICONTROL Design environment]**.
     * **Live environment**: environment linked to a **[!UICONTROL Design environment]**. It contains read-only offers whose content and eligibility have been approved via the **[!UICONTROL Design environment]**. They are to be selected to be presented on a Web site or inserted into a message.
 
-* **Offer space**: folder defining the location where the offer is exposed. Defining a space lets you specify the channel used, specify whether or not it can be used in unitary mode (by default: only in batch mode), build the content of the offer using rendering functions, and specify the offer of the offers presented. A space is an interface between the channel and the offer engine.
+* **Offer space**: folder defining the location where the offer is exposed. Defining a space lets you specify the channel used, specify whether or not it can be used in unitary mode (by default: only in batch mode), build the content of the offer using rendering functions, and specify the offer of the offers presented. A space is an interface between the channel and the Offer engine.
 
-  >[!IMPORTANT]
+  >[!CAUTION]
   >
   >An offer space is not a communication channel, it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, we will then have two spaces for the same channel.
   >
@@ -87,7 +117,7 @@ Discover offer-specific terms and related guidance before starting.
       >
       >Non-identified, anonymous contacts are attributed to the visitor targeting dimension.
 
-* **Outbound interaction**: call to the interaction engine from a contact list (used for delivering emails, direct mail, etc.). The same rules and processes are applied to each contact. This type of interaction is generally processed in batch mode.
+* **Outbound interaction**: call to the Offer engine from a contact list (used for delivering emails, direct mail, etc.). The same rules and processes are applied to each contact. This type of interaction is generally processed in batch mode.
 * **Inbound interaction**: interaction following an incoming call generated by the action of a contact on the channel. This type of interaction is generally processed in unitary mode.
 * **Batch mode**: the batch mode lets you select the best offer for a set of contacts. Eligibility/prioritization rules are applied to all of the set's contacts. This mode is generally used for outbound interactions.
 * **Unitary mode**: a single contact is processed at a time. This mode is generally used for inbound interactions and transactional messages.

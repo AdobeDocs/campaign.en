@@ -92,7 +92,7 @@ To create a weight in an offer, apply the following steps:
 
    >[!NOTE]
    >
-   >If a target is eligible for multiple weights for a selected offer, the engine keeps the best (highest) weight. When calling up the offer engine, an offer is selected a maximum of once per contact.
+   >If a target is eligible for multiple weights for a selected offer, the engine keeps the best (highest) weight. When calling up the Offer engine, an offer is selected a maximum of once per contact.
 
 ### Summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
 

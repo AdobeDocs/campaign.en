@@ -43,8 +43,10 @@ title: Campaign v8 docs
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
   + [Transactional messages](send/transactional.md)
-  + Add offers{#interaction}
-    + [Get started with interaction](send/interaction.md)
+  + Manage offers with Campaign Interaction{#interaction}
+    + [Get started with real-time interaction](send/interaction.md)
+    + [Environments and architecture](send/interaction-architecture.md)
+    + [Best practices](send/interaction-best-practices.md)
     + Define settings{#interaction}
       + [Create operators](send/interaction-operators.md)
       + [Create environments](send/interaction-env.md)
@@ -52,7 +54,12 @@ title: Campaign v8 docs
       + [Create offer spaces](send/interaction-offer-spaces.md)
     + [Create an offer catalog](send/interaction-offer-catalog.md)
     + [Create an offer](send/interaction-offer.md)
-    + [Send an offer](send/interaction-send-offers.md)
+    + [Send an offer (outbound)](send/interaction-send-offers.md)
+    + Present an offer (inbound){#inbound}
+      + [Context](send/interaction-present-offers.md)
+      + [Call an offer in a web page](send/interaction-integration.md)
+      + [Manage anonymous interactions](send/anonymous-interactions.md)
+    + [Reports and history](send/interaction-tracking.md)
     + [Use cases](send/interaction-use-cases.md)
 + Configure {#config}
   + [Automate with workflows](config/workflows.md)
