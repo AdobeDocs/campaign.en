@@ -21,7 +21,7 @@ This section presents best practices to manage the **Interaction** module in Ado
 * Below are listed some best practices when working with **eligibility rules**:
 
     * Simplify the rules. Rules complexity impacts performance as it extends the look-up. A complex rule is any rule that has more than five conditions.
-    * To increase performance, rules can be broken out in distinct predefined filters that are shared across multiple offers.
+    * To increase performance, rules can be broken out in distinct pre-defined filters that are shared across multiple offers.
     * Put the most restrictive offer category rules at the highest possible position in the tree. Doing this, they will filter out the most contacts first, reducing the target number and preventing them from being processed by further rules.
     * Put the most expensive rules in terms of time or processing at the bottom of the tree. Doing this, these rules will only be run on the remaining target audience.
     * Start at a specific category to avoid scanning the whole tree.

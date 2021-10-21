@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 ---
-# Create predefined filters{#creating-predefined-filters}
+# Create pre-defined filters{#creating-pre-defined-filters}
 
- Create predefined filters to define eligibility rules for the target population that can easily be re-used during offer creation. They are specific to each environment and take the offer parameters into account.
+ Create pre-defined filters to define eligibility rules for the target population that can easily be re-used during offer creation. They are specific to each environment and take the offer parameters into account.
 
 To create a pre-defined filter, apply the following process:
 

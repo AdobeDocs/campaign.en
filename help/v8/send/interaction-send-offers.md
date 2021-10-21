@@ -100,7 +100,7 @@ After configuring your **Query** activity:
     
       ![](assets/int_enrichment_offer3.png)
 
-    * **[!UICONTROL A predefined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
+    * **[!UICONTROL A pre-defined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
     
       ![](assets/int_enrichment_offer4.png)
 
