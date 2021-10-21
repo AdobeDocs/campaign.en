@@ -66,7 +66,7 @@ _October 25, 2021_
 * In the server configuration file (serverConf.xml), you can now set a wait time, per schema, between updates and commit replications on the fly.
 * For monitoring and testing purposes, the audit logs of the **[!UICONTROL Replicate Staging data]** workflow now include the number of records that have been sent to the FFDA (Full Federated Data Access) database.
 * The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
-* A set of pre-defined warehouses is now available and can be used to run various queries in parallel such as segmentation, ETL or peaks.
+* A set of pre-defined warehouses is now available and can be used to run various queries in parallel such as segmentation, ETL or peaks. [Read more](../../config/workflows.md)
 
 **Other changes**
 
