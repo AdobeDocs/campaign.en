@@ -68,7 +68,7 @@ You can:
 
 * Insert dynamic personalization fields. 
    ![](../assets/do-not-localize/book.png) Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html){target="_blank"}
-* Insert predefined personalization blocks. 
+* Insert pre-defined personalization blocks. 
    ![](../assets/do-not-localize/book.png) Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html){target="_blank"}
 * Create conditional content. 
    ![](../assets/do-not-localize/book.png) Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}

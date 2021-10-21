@@ -130,6 +130,6 @@ Discover offer-specific terms and related guidance before starting.
 * **Offer proposition**: result of the action which consists of presenting one or several offers to a contact in a given space (banner on a website, email or SMS for example). This result is stored in the offer propositions table. However, it is not mandatory to save the propositions.
 * **Simulation**: module which lets you test the offer presentation on the targeted recipients before actually sending the offers.
 * **Preview**: preview of the offer as it is displayed in its folder. It is accessible from the offer settings window or the contact profile.
-* **Predefined filters**: predefined filtering rules can take into account offer parameters (for example, an offer code). They can be reused after offers have been created.
+* **pre-defined filters**: pre-defined filtering rules can take into account offer parameters (for example, an offer code). They can be reused after offers have been created.
 * **Offer representation**: information used by the channel to display the offer. Offer representation may be constructed from the rendering function of the space on which the offer is represented or entered directly into the interface (for example, in the HTML block). An offer may be represented by space.
 * **Changeover process**: an activated process in an identified environment, responsible for directing the call to an anonymous environment if the contact has not been explicitly and/or implicitly identified.

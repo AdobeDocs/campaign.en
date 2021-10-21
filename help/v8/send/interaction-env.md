@@ -29,7 +29,7 @@ By default, Campaign comes with a **[!UICONTROL Design]** environment and a **[!
 
 Delivery managers can only view the **[!UICONTROL Live]** environment and leverage offers to deliver them. Offer managers can view and use the **[!UICONTROL Design]** environment, and view the **[!UICONTROL Live]** environment. [Learn more](interaction-operators.md)
 
-## Create an offer environment for anonymous profiles{#create-an-offer-environment}
+## Create an environment for anonymous interactions{#create-an-offer-environment}
 
 By default, Campaign comes with a built-in environment to target the recipient table (identified offers). To target another table, such as anonymous profiles visiting your website for inbound interactions, you need to update your configuration.
 

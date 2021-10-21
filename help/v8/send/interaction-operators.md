@@ -25,7 +25,7 @@ The rights assigned to the Offer manager enable them to carry out the following 
 
 * Modify **[!UICONTROL Design]** environments.
 * View **[!UICONTROL Live]** environments.
-* Configure administration functions (predefined spaces and filters).
+* Configure administration functions (pre-defined spaces and filters).
 * Create and alter categories.
 * Create offers.
 * Configure offer eligibility.
@@ -90,7 +90,7 @@ The rights assigned to Delivery managers enable them to carry out the following 
    <td> Read<br /> </td> 
   </tr> 
   <tr> 
-   <td> Predefined offer filters<br /> </td> 
+   <td> pre-defined offer filters<br /> </td> 
    <td> Read / Write<br /> </td> 
    <td> Read<br /> </td> 
   </tr> 
@@ -150,7 +150,7 @@ The rights assigned to Delivery managers enable them to carry out the following 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Predefined offer filters<br /> </td> 
+   <td> pre-defined offer filters<br /> </td> 
    <td> Read<br /> </td> 
    <td> Read<br /> </td> 
   </tr> 

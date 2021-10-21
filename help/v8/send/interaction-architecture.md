@@ -11,7 +11,7 @@ level: Beginner
 
 There are two environments for each targeting dimension used when managing offers:
 
-* A **design** environment in which the offer manager takes care of creating and categorizing offers, editing them, and starting the approval process so that they can be used. The rules for each category, the offer spaces on which offers can be presented, and the predefined filters used to define an offer's eligibility are also defined in this environment.
+* A **design** environment in which the offer manager takes care of creating and categorizing offers, editing them, and starting the approval process so that they can be used. The rules for each category, the offer spaces on which offers can be presented, and the pre-defined filters used to define an offer's eligibility are also defined in this environment.
 
   Categories can also be published manually in the online environment.
 
