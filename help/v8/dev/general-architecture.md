@@ -118,6 +118,6 @@ Customers can deploy Adobe Campaign using the predefined database and schemas, a
 
 >[!CAUTION]
 >
->With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your licence agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
+>With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
 >
 >If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.

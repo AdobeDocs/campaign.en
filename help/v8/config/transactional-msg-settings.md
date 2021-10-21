@@ -8,7 +8,7 @@ exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
 # Transactional messaging settings
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 ![](../assets/do-not-localize/glass.png) Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
 
@@ -36,7 +36,7 @@ To send transactional push notifications, you need to perform the following conf
 
     >[!CAUTION]
     >
-    >Check your licence agreement before installing a new Campaign built-in package.
+    >Check your license agreement before installing a new Campaign built-in package.
 
 1. Replicate the **Mobile application** service and the associated mobile applications on the execution instances.
 

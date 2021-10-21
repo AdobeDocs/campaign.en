@@ -14,9 +14,7 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 ## Client Console{#ClientConsoleoperatingsystems}
 
->[!CAUTION]
->
-> The following operating systems and browser are required to use Campaign Client Console.
+The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
 ### Operating systems
 
@@ -27,13 +25,21 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 **Microsoft Internet Explorer** 11
 
+>[!NOTE]
+>
+>Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
+
 ## CRM connectors{#CRMconnectors}
+
+Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../connect/crm.md).
 
 * **Salesforce** connector API version 49
 * **Microsoft Dynamics** connector, Web API: Dynamics 365 On-premise and Online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
- 
+
+External databases compatible with Adobe Campaign Federated Data Access (FDA) module are listed below. [Learn more](../connect/fda.md).
+
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
@@ -41,18 +47,20 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 ## Mobile SDK{#MobileSDK}
 
+You can use Campaign to send [push notifications](../send/push.md) on the operating systems listed below, using the associated mobile SDK.
+
 * **Android** 7.x, 8.x, 9.0 with Campaign Android SDK build 1.1.1.
 * **Apple iOS** 9 - 14 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions.
 
 ## Web access
 
-The following browsers are compatible with Campaign for Web Access.
+The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
 
 * **Internet Explorer** 11
 
-## How to check your Campaign version and build
+## How to check your Campaign version and build{#version}
 
 Access the **Help > About…** menu to check your version.
 

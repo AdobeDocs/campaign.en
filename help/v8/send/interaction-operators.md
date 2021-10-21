@@ -4,6 +4,7 @@ description: Create Offer management operators
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 ---
 # Operators profiles {#operator-profiles}
 
@@ -52,7 +53,7 @@ The rights assigned to Delivery managers enable them to carry out the following 
 
   >[!NOTE]
   >
-  >**Delivery manager** can only approve an offer if they have been declared as a reviewer in the offer configuration.
+  >**Delivery managers** can only approve an offer if they have been declared as reviewers in the offer configuration.
 
 ## Permission matrix per Interaction operator {#recap-of-rights-according-to-operator}
 

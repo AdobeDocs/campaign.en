@@ -70,6 +70,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Related topics**
 
-![](../assets/do-not-localize/book.png) Learn how to get started with worflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn how to get started with workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
 
 ![](../assets/do-not-localize/glass.png) Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)

@@ -10,7 +10,7 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 
@@ -24,7 +24,7 @@ Transactional messages are used to send:
 
 >[!CAUTION]
 >
->Transactional messaging requires a specific licence. Please check your licence agreement.
+>Transactional messaging requires a specific license. Please check your license agreement.
 
 ## Define transactional message templates
 

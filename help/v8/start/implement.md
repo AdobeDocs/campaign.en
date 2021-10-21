@@ -17,7 +17,7 @@ In this section, you will learn how to adjust Adobe Campaign to the requirements
 
 >[!CAUTION]
 >
->With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your licence agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
+>With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
 >
 >If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.
 
@@ -43,7 +43,7 @@ Learn security guidelines and principles with Adobe Campaign in [Campaign Securi
 
 ### Add users and grant permissions
 
-You can manually add users to Cammaign and associate them with groups, aligned with your role hierarchy. Users will then be able to log in and access the data and permissions which are appropriate for them.
+You can manually add users to Campaign and associate them with groups, aligned with your role hierarchy. Users will then be able to log in and access the data and permissions which are appropriate for them.
 
 ![](../assets/do-not-localize/book.png) Learn how to add users to Adobe Campaign in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started){target="_blank"}.
 
@@ -63,7 +63,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
     ![](../assets/do-not-localize/glass.png) [Learn how to import profiles](import.md).
     
-    Audiences are grouped into lists and can be created througinh worflows. They can then be targeted in cross-channel deliveries.
+    Audiences are grouped into lists and can be created through workflows. They can then be targeted in cross-channel deliveries.
 
     ![](../assets/do-not-localize/glass.png) [Learn how to define audiences](audiences.md).
 

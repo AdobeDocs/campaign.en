@@ -27,15 +27,15 @@ Learn how to design workflows in these [end-to-end use cases](#end-to-end-uc).
 
 Learn more about workflows user interface and execution in Campaign Classic v7 documentation:
 
-![](../assets/do-not-localize/book.png) [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [Workflow best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
+* [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target="_blank"}
+* [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png)  [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
+* [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}
 
 ## Workflow activities {#wf-activities}
 
@@ -81,6 +81,28 @@ To use the **[!UICONTROL Change Data Source]** activity:
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
 1. You can now start your workflow.
+
+## Manage virtual warehouses {#warehouse}
+
+After creating your workflow, you can access additional options with the **[!UICONTROL Properties]** button for further configuration.
+
+![](../assets/do-not-localize/book.png) Learn more about **Workflow properties** in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target="_blank"}
+
+From the **[!UICONTROL Execution]** tab of your workflow's **[!UICONTROL Properties]**, you can choose to link your workflow to different warehouses and optimize your workload management. For more information on **Warehouses**, refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+
+![](assets/warehouse.png)
+
+Depending on your workflow's purpose, you can choose between the following three warehouses from the **[!UICONTROL Warehouse]** drop-down:
+
+* **[!UICONTROL Default]** / **[!UICONTROL Campaign]**: set by default when creating a new workflow.
+
+* **[!UICONTROL Import / Export]**: should be set with import or export workflows to optimize your activities' performance.
+
+* **[!UICONTROL Campaign Burst]**: should be set with campaign or deliveries workflows to optimize your deliveries processing time.
+
+>[!NOTE]
+>
+>The **[!UICONTROL System]** warehouse is only set for built-in workflows.
 
 ## Set up recurring campaigns
 

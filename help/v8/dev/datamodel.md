@@ -12,7 +12,7 @@ Adobe Campaign comes with a pre-defined data model. This section gives some deta
 
 The basic structure of the Adobe Campaign data model can be described as follows:
 
-* **Recipient table**: The data model relies on a main table which is by default the Recipient table (nmsRecipient). This table enables to store all the marketing profiles.
+* **Recipient table**: The data model relies on a main table which is by default the Recipient table (nmsRecipient). This table stores all the marketing profiles.
 
     ![](../assets/do-not-localize/glass.png) For more on the Recipient table, see [this section](#ootb-profiles).
 
@@ -54,7 +54,7 @@ It is possible to extend the recipient table, but not to reduce the number of fi
 
 ![](../assets/do-not-localize/glass.png) Learn how to extend an existing schema in [this section](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+![](../assets/do-not-localize/book.png) Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target="_blank"}
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 

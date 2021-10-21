@@ -18,7 +18,6 @@ In Adobe Campaign, **recipients** are the default profiles targeted for sending 
 
 Profiles can be grouped in lists or collected by querying the database.
 
-
 To populate Campaign with profile data, you can:
 
 * [import data files](import.md) from an external data source such as a CRM system
@@ -27,7 +26,6 @@ To populate Campaign with profile data, you can:
 * enter profiles manually using the Client console, as below:
 
 ![](assets/create-profile.png) 
-
 
 ![](../assets/do-not-localize/book.png) Learn how to manage profiles in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target="_blank"}.
 
@@ -71,10 +69,11 @@ You can monitor the number of active profiles used on your instances directly fr
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
+
 **Related topics** in Campaign Classic v7 documentation:
 
-![](../assets/do-not-localize/book.png) [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target="_blank"}
+* [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target="_blank"}
+* [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target="_blank"}
+* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target="_blank"}

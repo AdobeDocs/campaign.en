@@ -44,3 +44,15 @@ By default, Campaign comes with a built-in environment to target the recipient t
    >If the option is already checked, uncheck it then recheck it.
 
 1. Adobe Campaign creates two environments - **[!UICONTROL Design]** and **[!UICONTROL Live]** - with targeting information from the previously enabled target mapping. The environment is preconfigured with the targeting information.
+   
+  If you have activated **[!UICONTROL Visitor]** mapping, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment's **[!UICONTROL General]** tab.
+
+   This option lets you activate anonymous interaction specific functions, particularly when configuring environment offer spaces. You can also configure options that allow you to switch from an "identified" environment to an "anonymous" environment.
+
+   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether this contact is identified or not. For more on this, refer to [Creating offer spaces](interaction-offer-spaces.md).
+
+   ![](assets/offer_env_anonymous_003.png)
+
+>[!NOTE]
+>
+>For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](anonymous-interactions.md).

@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Real-Time Customer Data Platfor
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa
 ---
 # Work with Campaign and Real-Time Customer Data Platform
 
@@ -13,4 +14,4 @@ With **Adobe Experience Platform**, you can share data between Campaign and Adob
 
 ![](../assets/do-not-localize/book.png) Learn how to implement and use RTCDP with Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-💬 As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect RTCDP and Campaign.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect RTCDP and Campaign.

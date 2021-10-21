@@ -22,11 +22,11 @@ Profile imports are configured in dedicated templates executed through workflows
 
 Learn more in Campaign Classic v7 documentation:
 
-![](../assets/do-not-localize/book.png) [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target="_blank"}
+* [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target="_blank"}
+* [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target="_blank"}
+* [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target="_blank"}
 
 ## Run unitary imports
 
