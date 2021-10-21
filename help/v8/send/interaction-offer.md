@@ -44,7 +44,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 ![](assets/offer_eligibility_create_003.png)
 
-If pre-defined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-pre-defined-filters.md)
+If pre-defined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
