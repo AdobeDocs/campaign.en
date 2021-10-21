@@ -23,10 +23,10 @@ An offer is only deployed on the offer spaces selected during the approval proce
 
 ## Inbound and outbound interactions {#interaction-types}
 
-There are two possible types of interactions: 
+The Adobe Campaign Interaction module proposes two types of interactions: 
 
-* **inbound** interactions, initiated by a contact 
-* **outbound** interactions, initiated by a Campaign Delivery manager
+* **inbound** interactions, initiated by a contact. [Learn more](interaction-present-offers.md)
+* **outbound** interactions, initiated by a Campaign Delivery manager. [Learn more](interaction-send-offers.md)
 
 These two types of interactions can be carried out either in **unitary mode** (offer is calculated for a single contact), or in **batch mode** (offer is calculated for a set of contacts). Generally, inbound interactions are carried out in unitary mode and outbound interactions are carried out in batch mode. Nevertheless, there may be certain exceptions, for [transactional messages](transactional.md) for example, whereby the outbound interaction is carried out in unitary mode.
 

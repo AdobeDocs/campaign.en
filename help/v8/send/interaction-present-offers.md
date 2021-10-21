@@ -13,7 +13,7 @@ In order for an offer to be selected by the Offer engine, it has to be approved 
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
-When a contact is inbound, there are two possible outcomes: the user who is browsing pagescan be identified by the website or not. The Offer engine presents different offers depending on whether or not the user is identified.
+In the context of an inbound contact a contact, the user who is browsing the page can be identified by the website or not. The Offer engine presents different offers for identified profiles and for anonymous profiles.
 
 Before being able to present offers on an inbound channel, you must configure the Offer engine call where you would like the offers to be presented. In most cases for an inbound interaction, this is the Web page.
 

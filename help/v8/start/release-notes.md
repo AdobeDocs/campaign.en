@@ -24,8 +24,8 @@ _October 25, 2021_
 <tbody>
 <tr>
 <td>
-<p>Inbound Interaction is now available in v8. This feature allows Interaction Inbound to get PostgreSQL unitary call performance and get a secured platform where the offer catalog is not directly available through the Marketing database.
-</p>
+<p>Real-time interaction management is now available for inboud channels. Use Campaign Inbound Interaction module to present the best offer to your customers as they visit your website or reach out to your call center. This capability comes with Campaign v8 as an option and requires specific configuration on your instance. Reach out to your Adobe representative to have access to the Inbound Interaction module.</p>
+<p>For more information, refer to the <a href="../send/interaction-architecture.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -39,7 +39,8 @@ _October 25, 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign Optimization is now available in v8. This module lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
+<td> <p>Campaign Optimization module is now available. This module lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.</p>
+<p>For more information, refer to the related <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classic v7 documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
