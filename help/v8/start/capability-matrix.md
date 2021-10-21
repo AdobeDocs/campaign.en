@@ -89,8 +89,6 @@ Please note that some capabilities are not available in this version of Campaign
 
 * Marketing Resource Management
 * Distributed Marketing
-* Inbound Offer Management (Interaction module)
-* Campaign Optimization
 * Response Manager
 * Hybrid/On-premise deployment models
 * Twitter channel
