@@ -55,8 +55,8 @@ _October 25, 2021_
 <tbody> 
 <tr> 
 <td> <p>Unicity Service is a new Cloud Database Manager component. It helps users preserve and monitor the integrity of unique key constraints within Cloud Database tables. This allows you to reduce the risk of inserting duplicate keys.
-</td> 
-</tr> 
+<p>As Cloud Database does not enforce unicity constraints, Unicity Service introduces at application level, <b>a set of new guardrails</b> reduce the risk of inserting duplicates when managing the data with Adobe Campaign.</p> 
+<p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p></td> </tr> 
 </tbody> 
 </table>
 
