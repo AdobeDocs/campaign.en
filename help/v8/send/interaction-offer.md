@@ -44,7 +44,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 ![](assets/offer_eligibility_create_003.png)
 
-If predefined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md)
+If pre-defined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -92,7 +92,7 @@ To create a weight in an offer, apply the following steps:
 
    >[!NOTE]
    >
-   >If a target is eligible for multiple weights for a selected offer, the engine keeps the best (highest) weight. When calling up the offer engine, an offer is selected a maximum of once per contact.
+   >If a target is eligible for multiple weights for a selected offer, the engine keeps the best (highest) weight. When calling up the Offer engine, an offer is selected a maximum of once per contact.
 
 ### Summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
 
@@ -186,7 +186,7 @@ Campaign lets you control the flow of offer propositions using presentation rule
 
 ## Offer simulation
 
-The Simulation module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
+The **Simulation** module lets you test the distribution of offers belonging to a category or an environment before sending your proposition to recipients.
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers and their presentation rules. This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 

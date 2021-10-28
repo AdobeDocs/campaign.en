@@ -21,3 +21,4 @@ For Adobe Campaign v8, the following limitations exist:
 * Subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
 * Duplicates need to be handled manually by end-users. [Learn more](../dev/keys.md)
 * Adobe Campaign v8 does not support extended throughput on API and web applications. In case of specific needs, contact Adobe to get guidance.
+* Adobe Campaign Campaign optimization module does not take into account scheduled deliveries in pressure typology rules. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=en#setting-the-period).

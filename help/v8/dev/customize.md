@@ -65,7 +65,7 @@ The out-of-the-box Web applications are stored in the Administration > Configura
 
 ### Access data from dashboards
 
-Campaign lists come with predefined filters to facilitate navigation and data vizualisation. 
+Campaign lists come with pre-defined filters to facilitate navigation and data vizualisation. 
 
 ![](../assets/do-not-localize/book.png) Learn more about filtering options in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
 

@@ -8,7 +8,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 ---
 # Get Started with Adobe Campaign{#gs-ac-v8}
 
-Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real time interaction management and cross channel execution.
+Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
 Use Campaign to:
 

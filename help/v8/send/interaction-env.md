@@ -6,7 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
 ---
-# Live and Design environments{#live-design-environments}
+# Work with environments{#work-with-environments}
+
+## Live and Design environments{#live-design-environments}
 
 Interaction operates with two types of offer environments:
 
@@ -27,9 +29,11 @@ By default, Campaign comes with a **[!UICONTROL Design]** environment and a **[!
 
 Delivery managers can only view the **[!UICONTROL Live]** environment and leverage offers to deliver them. Offer managers can view and use the **[!UICONTROL Design]** environment, and view the **[!UICONTROL Live]** environment. [Learn more](interaction-operators.md)
 
-## Create an offer environment {#creating-an-offer-environment}
+## Create an environment for anonymous interactions{#create-an-offer-environment}
 
-By default, Campaign comes with a built-in environment to target the recipient table (identified offers). To target another table, follow the steps below:
+By default, Campaign comes with a built-in environment to target the recipient table (identified offers). To target another table, such as anonymous profiles visiting your website for inbound interactions, you need to update your configuration.
+
+Follow the steps below:
 
 1. Browse to **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, right-click the target mapping you want to use and select **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 
@@ -44,3 +48,15 @@ By default, Campaign comes with a built-in environment to target the recipient t
    >If the option is already checked, uncheck it then recheck it.
 
 1. Adobe Campaign creates two environments - **[!UICONTROL Design]** and **[!UICONTROL Live]** - with targeting information from the previously enabled target mapping. The environment is preconfigured with the targeting information.
+   
+  If you have activated **[!UICONTROL Visitor]** mapping, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment's **[!UICONTROL General]** tab.
+
+   This option lets you activate anonymous interaction specific functions, particularly when configuring environment offer spaces. You can also configure options that allow you to switch from an "identified" environment to an "anonymous" environment.
+
+   For example, you can link a recipient environment offer space (identified contact) with an offer space that matches a visitor environment (unidentified contact). In this way, different offers will be made available to the contact depending on whether this contact is identified or not. For more on this, refer to [Creating offer spaces](interaction-offer-spaces.md).
+
+   ![](assets/offer_env_anonymous_003.png)
+
+>[!NOTE]
+>
+>For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](anonymous-interactions.md).
