@@ -20,13 +20,6 @@ You can also use Campaign Control Panel to configure your instance settings such
 
 ![](../assets/do-not-localize/book.png) Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en){target="_blank"}.
 
->[!CAUTION]
-> The following capabilities are not yet supported with Campaign v8:
->
->* Sub-domain management
->* Certificate management
->
-
 ## How to access Control Panel?
 
 The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target="_blank"} for more information.
@@ -38,6 +31,19 @@ The Control Panel is available directly from Adobe Experience Cloud. It is acces
 ## SFTP management
 
 In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management){target="_blank"} for more information.
+
+## Subdomains and certificates
+
+Learn how to monitor your subdomains and their certificates.
+
+* [Monitoring your subdomains](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target="_blank"}
+* [Setting up a new subdomain](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target="_blank"}
+* [Monitoring your subdomains’ SSL certificates](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target="_blank"}
+
+## Performance monitoring
+
+Control Panel provides several functionalities to help you monitor your instances and ensure optimal performances. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
+
 
 ## Instance settings
 

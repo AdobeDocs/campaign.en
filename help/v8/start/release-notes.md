@@ -13,7 +13,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 8.2.1 {#release-8-2-1}
 
-_October 25, 2021_
+_October 28, 2021_
 
 <table>
 <thead>
