@@ -4,6 +4,7 @@ description: Learn how to track and measure your offers with Campaign Interactio
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
 ---
 # Real-time interaction history and reporting
 
@@ -45,4 +46,4 @@ Statistics are sorted based on three criteria:
 
   ![](assets/offer_report_perdeliveries.png)
 
-Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report. 
+Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report.
