@@ -20,7 +20,7 @@ _February 2, 2021_
 * Fixed an issue which led the delivery preparation to fail if the maximum number of messages, defined in the typology rule, was reached. (NEO-40062)
 * Fixed an issue during the configuration of the Adobe Analytics connector when the email address contained an "s" character. (NEO-39082)
 * Fixed an issue during postupgrade, which could lead the deliveryMapping table to lose data from a custom delivery mapping. (NEO-40133)
-* Fixed an issue which could lead to recipients receiving the same message multiple times for the same delivery when email address contained a single quote character ('). This character is now escaped. (NEO-41198)
+* Fixed an issue which could lead to recipients receiving the same message multiple times for the same delivery when the email address contained a single quote character ('). This character is now escaped. (NEO-41198)
 * Fixed an ID generation issue when sending proofs with seeds or substitution addresses. (NEO-42670)
 * Fixed an issue which could prevent you from sending proofs using the substitution of address method. (NEO-40417)
 * Fixed an issue which prevented you from installing the LINE package. (NEO-42503)
