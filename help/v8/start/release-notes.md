@@ -11,6 +11,20 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.2.10 {#release-8-2-10}
+
+_February 2, 2021_
+
+**Patches**
+
+* Fixed an issue which led the delivery preparation to fail if the maximum number of messages, defined in the typology rule, was reached. (NEO-40062)
+* Fixed an issue during the configuration of the Adobe Analytics connector when the email address contained an "s" character. (NEO-39082)
+* Fixed an issue during postupgrade, which could lead the deliveryMapping table to lose data from a custom delivery mapping. (NEO-40133)
+* Fixed an issue which could lead to recipients receiving the same message multiple times for the same delivery when the email address contained a single quote character ('). This character is now escaped. (NEO-41198)
+* Fixed an ID generation issue when sending proofs with seeds or substitution addresses. (NEO-42670)
+* Fixed an issue which could prevent you from sending proofs using the substitution of address method. (NEO-40417)
+* Fixed an issue which prevented you from installing the LINE package. (NEO-42503)
+
 ## Release 8.2.8 {#release-8-2-8}
 
 _October 28, 2021_
