@@ -13,7 +13,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 8.2.10 {#release-8-2-10}
 
-_February 2, 2021_
+_February 2, 2022_
 
 **Patches**
 
