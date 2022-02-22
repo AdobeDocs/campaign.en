@@ -29,11 +29,14 @@ Compatible SDK versions are listed in [Campaign Compatibility matrix](../start/c
 
 ![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
 
+<!--
 ### Configure Campaign Extension in Launch
 
 You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
 
 ![](../assets/do-not-localize/book.png) Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}
+
+--> 
 
 ## Configure your app settings in Campaign
 
