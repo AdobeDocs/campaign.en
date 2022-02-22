@@ -19,9 +19,7 @@ To send push notifications in Adobe Campaign, you need to:
 
 ![](../assets/do-not-localize/book.png) Learn how to get started with mobile app in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target="_blank"}
 
-## Integrate with Adobe SDK
-
-### Integrate Campaign SDK 
+## Integrate Campaign SDK 
 
 Campaign SDK facilitates the integration of your mobile application into the Adobe Campaign platform.
 
