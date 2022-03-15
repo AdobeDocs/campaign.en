@@ -208,7 +208,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
 * [Query delivery information](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-delivery-information.html){target="_blank"}
 
-    Learn how to define queries on delivery information to retrieve profile's behaviour.
+    Learn how to define queries on delivery information to retrieve profile's behavior.
 
 * [Compute aggregates](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html){target="_blank"}
 

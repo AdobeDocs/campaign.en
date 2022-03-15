@@ -39,7 +39,7 @@ _October 28, 2021_
 <tr>
 <td>
 <p>Real-time interaction management is now available for inbound channels. Use Campaign Inbound Interaction module to present the best offer to your customers as they visit your website or reach out to your call center. This capability comes with Campaign v8 as an option and requires specific configuration on your instance. Reach out to your Adobe representative to have access to the Inbound Interaction module.</p>
-<p>For more information, refer to the <a href="../send/interaction-architecture.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../interaction/interaction-architecture.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>

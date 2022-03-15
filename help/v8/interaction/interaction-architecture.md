@@ -29,7 +29,7 @@ The Adobe Campaign Interaction module proposes two types of interactions:
 * **inbound** interactions, initiated by a contact. [Learn more](interaction-present-offers.md)
 * **outbound** interactions, initiated by a Campaign Delivery manager. [Learn more](interaction-send-offers.md)
 
-These two types of interactions can be carried out either in **unitary mode** (offer is calculated for a single contact), or in **batch mode** (offer is calculated for a set of contacts). Generally, inbound interactions are carried out in unitary mode and outbound interactions are carried out in batch mode. Nevertheless, there may be certain exceptions, for [transactional messages](transactional.md) for example, whereby the outbound interaction is carried out in unitary mode.
+These two types of interactions can be carried out either in **unitary mode** (offer is calculated for a single contact), or in **batch mode** (offer is calculated for a set of contacts). Generally, inbound interactions are carried out in unitary mode and outbound interactions are carried out in batch mode. Nevertheless, there may be certain exceptions, for [transactional messages](../send/transactional.md) for example, whereby the outbound interaction is carried out in unitary mode.
 
 As soon as an offer can or must be presented (according to the configurations carried out), the Offer engine plays the intermediary role: it automatically calculates the best possible offer for a contact among those available by combining data received about the contact and the different rules that can be applied as specified in the application.
 
