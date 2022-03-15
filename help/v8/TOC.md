@@ -47,7 +47,7 @@ title: Campaign v8 docs
 + Real-time interaction{#interaction}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
-  + [Best practices](seinteractionnd/interaction-best-practices.md)
+  + [Best practices](interaction/interaction-best-practices.md)
   + Define settings{#interaction-settings}
     + [Create operators](interaction/interaction-operators.md)
     + [Create environments](interaction/interaction-env.md)
@@ -57,7 +57,7 @@ title: Campaign v8 docs
   + [Create an offer](interaction/interaction-offer.md)
   + [Send an offer (outbound)](interaction/interaction-send-offers.md)
   + Present an offer (inbound){#inbound}
-    + [Context](seinteractionnd/interaction-present-offers.md)
+    + [Context](interaction/interaction-present-offers.md)
     + [Call an offer in a web page](interaction/interaction-integration.md)
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
