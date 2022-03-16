@@ -53,13 +53,14 @@ Use the FDA Connector (Federated Data Access) to connect Campaign to one or more
 ![](../assets/do-not-localize/glass.png) Learn more in [this page](fda.md)
 
 
-<!-- 
- ## Integrate with social media
+
+## Integrate with social media
 
 Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
 
-* Send messages - Use Adobe Campaign Social Marketing to send messages on Twitter. Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+* Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+* Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
-* Collect new contacts - Adobe Campaign Social Marketing also makes it easy to acquire new contacts via Facebook: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
+![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this page](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->
+![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).

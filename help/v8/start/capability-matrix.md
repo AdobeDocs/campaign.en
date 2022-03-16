@@ -91,7 +91,6 @@ Please note that some capabilities are not available in this version of Campaign
 * Distributed Marketing
 * Response Manager
 * Hybrid/On-premise deployment models
-* Twitter channel
 
 >[!CAUTION]
 >

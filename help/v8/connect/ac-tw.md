@@ -4,8 +4,6 @@ description: Learn how to integrate your Campaign environment with Twitter
 feature: Overview
 role: Data Engineer
 level: Beginner
-hidefromtoc: yes
-hide: yes
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 ---
 # Work with Campaign and Twitter{#tw-ac-ovv}
@@ -65,7 +63,7 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
    ![](assets/social_tw_service.png)
 
    Edit the **Keys and tokens** tab to access your app details.
-   
+
 1. In **Adobe Campaign**, browse to the **[!UICONTROL Profiles and targets]** tab, and select the **[!UICONTROL Services and Subscriptions]** link
 1. Create a new service.
 1. Select the **[!UICONTROL Twitter]** type.
