@@ -59,6 +59,7 @@ _October 28, 2021_
 </tr> 
 </tbody> 
 </table>
+
 <table> 
 <thead>
 <tr> 
@@ -70,6 +71,29 @@ _October 28, 2021_
 <td> <p>Unicity Service is a new Cloud Database Manager component. It helps users preserve and monitor the integrity of unique key constraints within Cloud Database tables. This allows you to reduce the risk of inserting duplicate keys.
 <p>As Cloud Database does not enforce unicity constraints, Unicity Service introduces at application level, <b>a set of new guardrails</b> reduce the risk of inserting duplicates when managing the data with Adobe Campaign.</p> 
 <p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p></td> </tr> 
+</tbody> 
+</table>
+
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter channel availability</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
+<ul> 
+<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+</p></li>
+<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
+</p></li>
+</ul>
+<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
+<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
+</td> 
+</tr> 
 </tbody> 
 </table>
 
@@ -193,28 +217,6 @@ _July 23, 2021_
 </tbody> 
 </table>
 
-
-<table> 
-<thead>
-<tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
-<ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-</p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
-</p></li>
-</ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
 
 **Other improvements**
 
