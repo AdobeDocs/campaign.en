@@ -5,6 +5,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: yes
 hide: yes
+exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 ---
 
 # Post messages on Twitter with Adobe Campaign {#post-tw-messages}

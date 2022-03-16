@@ -4,7 +4,7 @@ description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
+exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 ---
 # [!DNL Campaign Classic] v7 - [!DNL Campaign] v8 capabilities{#gs-matrix}
 
