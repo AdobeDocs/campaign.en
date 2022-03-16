@@ -25,6 +25,14 @@ Get info from:
  https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/publishing-on-facebook-twitter/publishing-on-twitter.html?lang=en#integrating-with-social-media
 
 
+
+#send-direct-messages
+
+#operating-principle
+
+#send-proofs
+
+
 ## Tracking
 
 Get info from:
