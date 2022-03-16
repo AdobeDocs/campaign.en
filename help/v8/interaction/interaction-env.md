@@ -1,6 +1,6 @@
 ---
-title: Campaign Interaction operators
-description: Create Offer management operators
+title: Campaign Interaction environments
+description: Learn how to create environments for Campaign Interaction
 feature: Overview
 role: Data Engineer
 level: Beginner
