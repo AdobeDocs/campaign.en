@@ -17,14 +17,10 @@ Once the integration is configured, you can:
 * Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
 * Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies. This action requires user consent.
 
->[!CAUTION]
->
->Configuration steps to integrate your Twitter account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
->
->You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
 
+Configuration steps to integrate your Twitter account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
 
-## Create a post for Twitter {#publish-on-tw}
+## Create and publish a Twitter post {#publish-on-tw}
 
 Follow the steps below to post a message on your Twitter account:
 
@@ -88,16 +84,7 @@ Follow the steps below to post a message on your Twitter account:
     1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
 
 
-### Configure tracking {#configure-tracking}
-
-In the built-in **[!UICONTROL Tweet]** delivery template, tracking is enabled by default.
-
-Tracking data can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
-
-Tracking configuration is the same as for an email delivery. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
-
-
-## Send direct messages to subscribers {#direct-tw-messages}
+## Send direct messages to followers {#direct-tw-messages}
 
 The **[!UICONTROL Synchronize Twitter accounts]** technical workflow recovers the list of Twitter followers so that you can send them direct messages. [Learn more](../connect/ac-tw.md#synchro-tw-accounts)
 
@@ -111,7 +98,7 @@ To send direct messages to your followers, follow the steps below:
 
 1. Select a type of targeting
 
-    * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all account followers.
+    * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all your followers.
 
     * Select **[!UICONTROL Filter conditions]** to define a query and view its result. This option is the same as for email deliveries. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/creating-queries/defining-filter-conditions.html){target="_blank"}. 
     
@@ -148,3 +135,17 @@ To send direct messages to your followers, follow the steps below:
     1. Select **[!UICONTROL Deliver as soon as possible]** and click the **[!UICONTROL Analyze]** button.
     1. Once the analysis is finished, check the result. 
     1. Click **[!UICONTROL Confirm delivery]**, then click **[!UICONTROL Yes]**.
+
+>[!CAUTION]
+>
+>You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
+
+
+## Access tracking data {#tw-tracking}
+
+In the built-in **[!UICONTROL Tweet]** delivery template, tracking is enabled by default.
+
+Tracking data can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
+
+Tracking configuration is the same as for an email delivery. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
+

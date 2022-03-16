@@ -62,7 +62,7 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
 
 1. Open **Twitter**, and from [the Project and Apps page](https://developer.twitter.com/en/portal/projects-and-apps), select the app created previously. Access the **App Permissions**.
 
-  ![](assets/social_tw_service.png)
+   ![](assets/social_tw_service.png)
 
    Edit the **Keys and tokens** tab to access your app details.
 
