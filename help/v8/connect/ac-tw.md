@@ -28,7 +28,7 @@ To configure Adobe Campaign to post tweets to your Twitter accounts, delegate wr
 
 ## Create a test account on Twitter {#tw-test-account}
 
-In addition to Twitter account, create a private Twitter account which can be used for sending [tweet proofs](../send/twitter.md#send-proofs). To do this, follow the steps below:
+In addition to Twitter account, create a private Twitter account which can be used for sending [tweet proofs](../send/twitter.md#send-tw-proofs). To do this, follow the steps below:
 
 1. Create a new Twitter account.
 1. Access the account  **Settings**.
@@ -56,9 +56,9 @@ Create a Twitter application to enable Adobe Campaign to post tweets to your Twi
 
 ## Create a Twitter service in Campaign {#create-tw-service}
 
-Create a **Twitter** service in Campaigna and delegate write access to Campaign. This new service is used to link your Campaign instance with your Twitter account.
+To link your Campaign instance with your Twitter account, create a **Twitter** service and delegate write access to Campaign. 
 
-To enter settings, you must access to your Adobe Campaign console and an your Twitter account:
+To enter settings, you must access both to your Adobe Campaign console and an your Twitter account:
 
 1. Open **Twitter**, and from [the Project and Apps page](https://developer.twitter.com/en/portal/projects-and-apps), select the app created previously. Access the **App Permissions**.
 
@@ -72,7 +72,7 @@ To enter settings, you must access to your Adobe Campaign console and an your Tw
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default: this option recovers automatically the list of your Twitter followers so that you can [send them direct messages](../send/twitter.md#send-direct-messages). Synchronization is performed by a [dedicated technical workflow](#synchro-tw-accounts). 
+   >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default: this option recovers automatically the list of your Twitter followers so that you can [send them direct messages](../send/twitter.md#direct-tw-messages). Synchronization is performed by a [dedicated technical workflow](#synchro-tw-accounts). 
 
 1. Enter the label and internal name of the service.
 
@@ -84,7 +84,7 @@ To enter settings, you must access to your Adobe Campaign console and an your Tw
     * In the overview of services, select the **Twitter** service which you have just created.
     * Browse the **[!UICONTROL Twitter page]** tab: your Twitter account should be displayed. 
 
-1. By default, followers are saved in the **[!UICONTROL Visitors]** folder. You can select another location from the **[!UICONTROL Visitor folder]** field. [Learn more](../send/twitter.md#operating-principle)
+1. By default, followers are saved in the **[!UICONTROL Visitors]** folder. You can select another location from the **[!UICONTROL Visitor folder]** field. [Learn more](../send/twitter.md#direct-tw-messages)
 
 1. From your Twitter app, copy the content of the **[!UICONTROL Consumer Key (API Key)]** and **[!UICONTROL Consumer Secret (API Secret)]** fields and paste them into the **[!UICONTROL Consumer key]** and **[!UICONTROL Consumer secret]** fields of your Campaign **Twitter** service.
 
@@ -100,16 +100,29 @@ To enter settings, you must access to your Adobe Campaign console and an your Tw
 
 ## Synchronize your Twitter account {#synchro-tw-accounts}
 
-The **[!UICONTROL Twitter account synchronization]** technical workflow synchronizes Twitter accounts in Adobe Campaign.  
+Synchronization between Campaign and Twitter is managed through dedicated technical workflows. These workflows are stored in the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** folder. 
 
-This workflow is accessed via the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** node. By default, this workflow is triggered every Thursday at 7:30AM.
+They are stopped by default: you must start them manualy when you start using the **Social Marketing** module.
 
-You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration. 
+The **[!UICONTROL Twitter account synchronization]** technical workflow synchronizes Twitter accounts in Adobe Campaign. This workflow recovers the list of Twitter followers so that you can send them direct messages. [Learn more](../send/twitter.md#direct-tw-messages)
 
-You can also edit the scheduler to change the workflow triggering frequency. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
+By default, this workflow is triggered every Thursday at 7:30AM. You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration.  You can also edit the scheduler to change the workflow triggering frequency. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
 
 >[!CAUTION]
 >
 >To recover the list of Twitter subscribers, the **[!UICONTROL Twitter account synchronization]** option must be checked for the service linked to the account. [Learn more](#create-tw-service)
 
-You may now post tweets to your Twitter accounts and direct messages to your followers. For more on this, refer to [this page](../send/twitter.md).
+The followers are stored in a specific table: the visitors table. To display the list of Twitter followers, browse to the **[!UICONTROL Profiles and Targets > Visitors]**.
+
+For each follower, Adobe Campaign stores the following information:
+
+* **[!UICONTROL Origin]**: name of the social network (Twitter)
+* **[!UICONTROL External ID]**: user identifier
+* **[!UICONTROL User name]**: account name of the user
+* **[!UICONTROL Full name]**: name of the user
+* **[!UICONTROL Language]**: user language
+* **[!UICONTROL Number of friends]**: number of followers
+* **[!UICONTROL Time zone]**: user time zone
+* **[!UICONTROL Verified]**: this field indicates whether the user has a verified Twitter account
+
+Once this configuration is done, you can post tweets to your Twitter accounts and send direct messages to your followers. [Learn more](../send/twitter.md)
