@@ -1,12 +1,12 @@
 ---
-title: Campaign Interaction Offer catalog
-description: Learn how to create an offer catalog
+title: Send an offer with Campaign Interaction
+description: Learn how to send an offer
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 ---
-# Send an offer
+# Send an offer{#send}
 
 In order for an offer to be selected by the Offer engine, it has be approved and available in a **Live** environment. [Learn more](interaction-offer.md#approve-offers)
 

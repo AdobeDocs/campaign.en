@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Present an offer (inbound interaction)
-description: Learn how to present the best offer using Campaign Interaction module
+title: Add an offer in a web page
+description: Learn how to add an offer in a web page
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 ---
 # Add an offer in a web page{#add-an-offer-in-web}
