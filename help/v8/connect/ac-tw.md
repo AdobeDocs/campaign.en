@@ -76,7 +76,10 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
 
    >[!CAUTION]
    >
-   >The **[!UICONTROL Internal name]** of the service must be the exact same name of your Twitter account. To check your settings, you can:
+   >The **[!UICONTROL Internal name]** of the service must be the exact same name of your Twitter account. 
+   >
+   
+   To check your settings, you can:
 
     * Click the **[!UICONTROL Save]** button.
     * In the overview of services, select the **Twitter** service which you have just created.
