@@ -1,5 +1,5 @@
 ---
-title: Campaign Interaction operators
+title: Operators profiles
 description: Create Offer management operators
 feature: Overview
 role: Data Engineer
