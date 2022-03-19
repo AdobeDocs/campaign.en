@@ -36,7 +36,16 @@ title: Campaign v8 docs
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
-+ Send {#send}
++ Profiles & Audiences {#profiles-and-audiences}
+  + [Get started](audiences/gs-audiences.md)
+  + [View profiles](audiences/view-profiles.md)
+  + [Import profiles](audiences/import-profiles.md)
+  + [Update profiles](audiences/update-profiles.md)
+  + [Create a segment](audiences/create-segment.md)
+  + [Create an audience](audiences/create-audience.md)
+  + [Best practices](audiences/audience-best-practices.md)
+  + [Quarantines](audiences/quarantines.md)
++ Send messages{#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
