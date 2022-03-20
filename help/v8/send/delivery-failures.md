@@ -1,130 +1,241 @@
 ---
-title: Quarantine management in Campaign
-description: Understand quarantine management in Adobe Campaign
+title: Delivery failures in Campaign
+description: Understand possible failures when sending messages with Adobe Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 ---
+# Understand delivery failures{#delivery-failures}
 
-# Quarantines {#quarantine-management}
+Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression. This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is very important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
 
-Adobe Campaign manages a list of quarantined addresses for online channels (email, SMS, push notification). Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers. Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
+If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether or not the email address, phone number or device should be quarantined. See [Bounce mail management](#bounce-mail-qualification).
 
-When their address or phone number is quarantined, recipients are excluded from the target during delivery analysis: you will not be able to send marketing messages, including automated workflow emails, to those contacts. If those quarantined addresses are also present in lists, they will be excluded when sending to those lists. An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable for example.
+Once a message is sent, you can view the delivery status for each profile and the associated failure type and reason in the delivery logs.
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+When an email address is quarantined, or if a profile is on denylist, the recipient is excluded at the delivery preparation step. Excluded messages are listed in the delivery dashboard.
 
-**Quarantine** applies only to an **address** (or phone number, etc.), not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#identifying-quarantined-addresses-for-a-delivery) (for a delivery) or in the [quarantine list](#identifying-quarantined-addresses-for-the-entire-platform) (for the entire platform).
+## Why has the message delivery failed {#delivery-failure-reasons}
 
-On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. [Learn more](view-profiles.md).
+There are two types of error when a message fails. Each error type determines if an address is sent to [quarantines](quarantines.md#quarantine-reason) or not.
+
+
+* **Hard bounces**
+  Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine, which means they wouldn’t be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
+  
+  Here are some common examples of hard bounces: Address doesn’t exist, Account disabled, Bad syntax, Bad domain
+
+
+* **Soft bounces**
+  Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will retry multiple times (with variance depending on use of custom or out-of-box delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). 
+  
+  Some common causes of soft bounces include the following: Mailbox full, Receiving email server down, Sender reputation issues
+
+
+The  **Ignored** type of error is known to be temporary, such as "Out of office", or a technical error, for example if the sender type is "postmaster".
+
+
+
+### Bounce mail qualification {#bounce-mail-qualification}
+
+Rules used by Campaign to qualify delivery failyres are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)
+
+The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages. Momentum determines the bounce type and qualification, and sends back that information to Campaign.
+
+**Asynchronous** bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules.
+
+The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
 
 >[!NOTE]
 >
->When recipients report your message as spam or reply to an SMS message with a keyword such as “STOP”, their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
->
-
-## Why is an email address sent to quarantine {#quarantine-reason}
-
-Adobe Campaign manages quarantine according to the delivery failure type and the reason assigned during error messages qualification (see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification) and [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
-
-* **Ignored error**: ignored errors do not send an address to quarantine.
-* **Hard error**: the corresponding email address is immediately sent to quarantine.
-* **Soft error**: soft errors do not send immediately an address to quarantine, but they increment an error counter.  [Learn more](#soft-errors).
-
-If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
-
->[!NOTE]
->
->Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
-
-In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#identifying-quarantined-addresses-for-the-entire-platform).
-
-### Soft error management {#soft-errors}
-
-As opposed to hard errors, soft errors do not send immediately an address to quarantine, but instead they increment an error counter.
-
-Retries will be performed during the [delivery duration](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). When the error counter reaches the limit threshold, the address goes into quarantine. For more on this, refer to [Retries after a delivery temporary failure](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
-
-The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **Valid** and it is deleted from the list of quarantines by the [Database cleanup](../../production/using/database-cleanup-workflow.md) workflow.
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.
 
 
-## Access quarantined addresses {#access-quarantined-addresses}
+## Retry management {#retries}
 
-Quarantined addresses can be displayed for a specific delivery or for the entire platform.
+If message delivery fails following a temporary error (**Soft** or **Ignored**), Camapign retries sending. These retries can be performed until the end ot the delivery duration. The number and frequency of retries are set up by Momentum, based on the type and severity of the bounce responses coming back from the message's ISP.
 
-### Quarantines for a delivery
+The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.
 
-Quarantine addresses are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard.
+## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
-For each delivery, you can also check the **[!UICONTROL Delivery summary]** report: it shows the number of addresses in quarantine in the delivery target, and displays:
+A message delivery can fail immediately, in that case we qualify this as a synchronous error. If message sending fails or later on, after it has been sent, the error is asynchronous.
 
-* The number of addresses placed in quarantine during the delivery analysis,
-* The number of addresses placed in quarantine following the delivery action.
+These types of errors are managed as follows:
 
-### Non deliverable and bounce addresses
+* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
 
-To view the list of quarantined addresses **for the entire platform**, Campaign Administrators can browse to  **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. This section lists quarantined elements for **email**, **SMS** and **Push notification** channels.  
+* **Asynchronous error**: a bounce mail or a SR is resent later by the receiving server. This error is qualified with a label related to the error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
-![](assets/tech-quarantine.png) 
+  >[!NOTE]
+  >
+  >As a Managed Services user, configuration of the bounce mailbox is performed by Adobe. 
 
-
->[!NOTE]
->
->Number of quarantines increase with time. For example, if the lifetime of an email address is considered to be three years and the recipients table increases by 50% each year, the increase in quarantines can be calculated as follows:
->
->End of Year 1: (1&#42;0.33)/(1+0.5)=22%.
->
->End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
-
-In addition, the **[!UICONTROL Non-deliverables and bounces]** built-in report, available from the **Reports** section of ths home page, displays information about the addresses in quarantine, the types of error encountered, and a failure breakdown by domain. You can filter data for a specific delivery, or customize this report as needed.
-
-Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html)
-
-### Quarantined email address {#quarantined-recipient}
-
-You can look up the status of the email address of any recipient. 
-
-To do this, select the recipient profile and click the **[!UICONTROL Deliveries]** tab. For all deliveries to that recipient, you can find out whether the address failed, was quarantined during analysis, etc. 
-
-For each folder, you can display only the recipients whose email address is in quarantine, with the **[!UICONTROL Quarantined email address]** built-in filter, as below:
-
-![](assets/quarantine-filter.png) 
+  The feedback loop operates like bounce emails: when a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. The addresses of these users are on denylist even though they did not click the unsubscription link. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table. Learn more about feedback loop mechanism in [Adobe Deliverability Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
 
-## Remove a quarantined address {#remove-a-quarantined-address}
 
-Addresses that match specific conditions are automatically deleted from the quarantine list by the **Database cleanup** built-in workflow.
+## Email error types {#email-error-types}
 
-The addresses are automatically removed from the quarantine list in the following cases:
+For the email channel, possible reasons for a delivery failure are listed below. 
 
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
-* Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
+<table> 
+ <tbody> 
+  <tr> 
+   <td> Error label </td> 
+   <td> Error type </td> 
+   <td> Technical Value </td> 
+   <td> Description </td> 
+  </tr> 
+  <tr> 
+   <td> Account disabled </td> 
+   <td> Soft / Hard </td> 
+   <td> 4 </td> 
+   <td> The account linked to the address is not active anymore. When the Internet Access Provider (IAP) detects a lengthy period of inactivity, it can close the user's account. Deliveries to the user's address will then be impossible. If the account is temporarily disabled due to six months of inactivity and can still be activated, the status With errors will be assigned and the account will be tried again until the error counter reaches 5. If the error signals that the account is permanently deactivated, it will directly be set to Quarantine.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Address in quarantine </td> 
+   <td> Hard </td> 
+   <td> 9 </td> 
+   <td> The address was placed in quarantine.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Address not specified </td> 
+   <td> Hard </td> 
+   <td> 7 </td> 
+   <td> No address is given for the recipient.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Bad-quality address </td> 
+   <td> Ignored </td> 
+   <td> 14 </td> 
+   <td> The quality rating for this address is too low.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Denylisted address </td> 
+   <td> Hard </td> 
+   <td> 8 </td> 
+   <td> The address was added to the denylist at the time of sending. This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Control address </td> 
+   <td> Ignored </td> 
+   <td> 127 </td> 
+   <td> The recipient's address is part of the control group.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Double </td> 
+   <td> Ignored </td> 
+   <td> 10 </td> 
+   <td> The address of the recipient was already in this delivery.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Error ignored </td> 
+   <td> Ignored </td> 
+   <td> 25 </td> 
+   <td> The address is on the allowlist. The error is therefore ignored and an email will be sent.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Excluded after arbitration </td> 
+   <td> Ignored </td> 
+   <td> 12 </td> 
+   <td> The recipient was excluded by a 'arbitration' type campaign typology rule.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Excluded by a SQL rule </td> 
+   <td> Ignored </td> 
+   <td> 11 </td> 
+   <td> The recipient was excluded by a 'SQL' type campaign typology rule.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Invalid domain </td> 
+   <td> Soft </td> 
+   <td> 2 </td> 
+   <td> The domain of the email address is incorrect or no longer exists. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Mailbox full </td> 
+   <td> Soft </td> 
+   <td> 5 </td> 
+   <td> The mailbox of this user is full and cannot accept more messages. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.<br /> This type of error is managed by a clean-up process, the address is set to a valid status after 30 days.<br /> Warning: in order for the address to be automatically removed from the list of quarantined addresses, the Database cleanup technical workflow must be started.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Not connected </td> 
+   <td> Ignored </td> 
+   <td> 6 </td> 
+   <td> The recipient's mobile phone is switched off or not connected to the network when the message is sent.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Not defined </td> 
+   <td> Not defined </td> 
+   <td> 0 </td> 
+   <td> The address is in qualification because error have not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. They can then carry out message analysis and qualify this error, via the <span class="uicontrol">Administration</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Non deliverables Management</span> node in the tree structure.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Not eligible for the offers </td> 
+   <td> Ignored </td> 
+   <td> 16 </td> 
+   <td> The recipient was not eligible for the offers in the delivery.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Refused </td> 
+   <td> Soft / Hard </td> 
+   <td> 20 </td> 
+   <td> The address has been placed in quarantine due to a security feedback as a spam report. According to the error, the address will be tried again until the error counter reaches 5, or it will be directly sent to quarantines.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Target limited in size </td> 
+   <td> Ignored </td> 
+   <td> 17 </td> 
+   <td> The maximum delivery size was reached for the recipient.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unqualified address </td> 
+   <td> Ignored </td> 
+   <td> 15 </td> 
+   <td> The postal address has not been qualified.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Unreachable </td> 
+   <td> Soft / Hard </td> 
+   <td> 3 </td> 
+   <td> An error has occurred in the message delivery chain. It could be an incident on the SMTP relay, a domain that is temporarily unreachable, etc. According to the error, the address will be tried again until the error counter reaches 5, or it will be directly sent to quarantines.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> User unknown </td> 
+   <td> Hard </td> 
+   <td> 1 </td> 
+   <td> The address does not exist. No further deliveries will be attempted for this profile.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-Their status then changes to **[!UICONTROL Valid]**.
-
->[!CAUTION]
->
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email. 
-
-You can also manually remove an address from the quarantine list. To remove an address from quarantine, you can:
-
-* Change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
-
-    ![](assets/tech-quarantine-status.png) 
-
-* Change its status to **[!UICONTROL Allowlisted]**: in this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
-
->[!CAUTION]
->
->If you remove an address from quarantine list, you will start again sending to this address again. This can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. If you need assistance, contact Adobe Support.
 
 
-## Push notification quarantines {#push-quarantines}
+## Push notifications error types {#email-error-types}
 
-Certain errors are specific to the Mobile App channel. For example, for certain soft errors, no retries are performed within the same delivery. The specificities for push notification are listed below.
-
-The items put in quarantine are device tokens.
+For the mobile app channel, possible reasons for a delivery failure are listed below. 
 
 ### iOS quarantine {#ios-quarantine}
 
@@ -509,7 +620,7 @@ The specificities for SMS channel are listed below.
 
 **For the Extended generic SMPP connector**
 
-When using the SMPP protocol to send SMS messages, the error management is handled differently. For more information on the Extended generic SMPP connector, refer to [this page](sms-set-up.md#creating-an-smpp-external-account).
+When using the SMPP protocol to send SMS messages, the error management is handled differently.
 
 The SMPP connector retrieves data from the SR (Status Report) message that is returned using regular expressions (regexes) to filter its content. This data is then matched against the information found in the **[!UICONTROL Delivery log qualification]** table (available via the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu).
 
@@ -517,7 +628,7 @@ Before a new type of error is qualified, the failure reason is always set to **R
 
 >[!NOTE]
 >
->The failure types and reasons for failure are the same as for emails. See [Delivery failure types and reasons](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>The failure types and reasons for failure are the same as for emails.
 >
 >Ask your provider for a list of status and error codes in order to set proper failure types and reasons for failure in the Delivery log qualification table.
 
@@ -528,24 +639,22 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * All error messages begin with **SR** to distinguish SMS error codes from email error codes.
-* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
+* The second part (**Generic** in this example) of the error message refers to the name of the SMSC implementation such as defined in the **[!UICONTROL SMSC implementation name]** field of the SMS external account.
 
   Because the same error code may have a different meaning for each provider, this field allows you to know which provider generated the error code. You can then find the error in the relevant provider's documentation.
 
 * The third part (**DELIVRD** in this example) of the error message corresponds to the status code retrieved from the SR using the status extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
-
-  ![](assets/tech_quarant_error_regex.png)
-
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account.
   By default, the regex extracts the **stat:** field as defined by the **Appendix B** section of the **SMPP 3.4 specification**.
 
 * The fourth part (**000** in this example) of the error message corresponds to the error code extracted from the SR using the error code extraction regex defined in the SMS external account.
 
-  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account. See [this page](sms-set-up.md#creating-an-smpp-external-account).
+  This regex is specified in the **[!UICONTROL SMSC specificities]** tab of the external account.
 
   By default, the regex extracts the **err:** field as defined by the **Appendix B** section of the **SMPP 3.4 specification**.
 
-* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails. For more on this, see [Bounce mail qualification](understanding-delivery-failures.md#bounce-mail-qualification).
+* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails.
 
 The Extended generic SMPP connector applies a heuristic to find sensible default values: if the status begins with **DELIV**, it is considered a success because it matches the common statuses **DELIVRD** or **DELIVERED** used by most providers. Any other status leads to a hard failure.
+

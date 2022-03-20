@@ -11,12 +11,18 @@ Browse to **[!UICONTROL Profiles and targets]** to access recipients stored in A
 
 From this page, you can create new recipient, edit an existing recipient and access its profile details.
 
+
+![](assets/profiles-and-targets.png)
+
 For more advanced profile manipulations, access the Campaign tree from the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view. 
 
-![](assets/profiles-and-targets.png)
 
+>[!CAUTION]
+>
+>The built-in Recipient screen is define through a XML schema and its associated form. The XML schema is stored in the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign explorer tree. Only expert users may make changes to these schemas.  
+>
 
 ## Edit a profile{#edit-a-profiles}
 
@@ -30,21 +36,44 @@ For a typical built-in recipient, you can access the following tabs:
 
 * **[!UICONTROL General]**, for all general profile data. In particular, it contains the last name, first name, email address, email format, etc. 
 
-    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such recipient is no longer be targeted on any channel (email, direct mail, etc.). For more on this, refer to [this page](../../delivery/using/understanding-quarantine-management.md).
+    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such recipient is no longer be targeted on any channel (email, direct mail, etc.). For more on this, refer to [this page](../send/quarantines.md).
 
-## Contact information tab {#contact-information-tab}
+* **Contact information**, which contains the direct mail address of the selected profile. 
 
-This screen contains the direct mail address of the selected profile. It looks like this:
+    You can check in this screen the quality index of the address, and how many errors the address contains. This information is used directly by the direct mail provider, based on the number of errors found during previous deliveries, and cannot be changed manually.
 
-![](assets/s_ncs_user_profile_details_tab.png)
+* **Other**, for specific fields which can be personalized and populated depending on your needs. 
 
-This screen shows the quality index of the address, as well as how many errors the address contains. This information is used directly by the mail carrier based on the number of errors found during previous deliveries, and is not modifiable manually.
+    Use the **[!UICONTROL Field properties…]** contextual menu to change the names of the fields and define their format.
 
->[!CAUTION]
->
->The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. Only expert users may make changes to these schemas.  
->
->For further information, refer to [this page](../../configuration/using/about-schema-edition.md).
+    ![](assets/other-tab-field-properties.png)
+
+    Enter the new settings as below:
+
+    ![](assets/change-field-properties.png)
+
+    Check the update in the UI:
+
+    ![](assets/other-tab-updated.png)
+
+
+    >[!CAUTION]
+    >Changes apply to all recipients.
+    >
+
+
+* **Subscriptions**, for all the active subscriptions to services. Use the **History** tab to access details of subscriptions and unsibscriptions for this contact. 
+
+    ![](assets/subscription-tab.png)
+
+    Learn more about Subscriptions [in this section](../start/subscriptions.md).
+
+* **Deliveries**, for all the delivery logs for the selected profile. Use this tab to access the contact's marketing history: labels, dates, and status of all the delivery actions addressed to the profile via all channels.
+
+
+* **Tracking**, for all the tracking logs for the selected profile. This information is used to track profile behavior following deliveries. This tab shows the cumulative total of all URLs tracked in deliveries. The list is configurable, and usually contains: the URL clicked, date and time of click, and the document that contained the URL
+
+    Learn more about Tracking [in this section](../start/tracking.md).
 
 
 ## Active profiles {#active-profiles}

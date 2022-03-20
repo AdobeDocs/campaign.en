@@ -44,7 +44,6 @@ title: Campaign v8 docs
   + [Create a segment](audiences/create-segment.md)
   + [Create an audience](audiences/create-audience.md)
   + [Best practices](audiences/audience-best-practices.md)
-  + [Quarantines](audiences/quarantines.md)
 + Send messages{#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
@@ -53,6 +52,9 @@ title: Campaign v8 docs
   + [Direct mail](send/direct-mail.md)
   + [Social marketing](send/twitter.md)
   + [Transactional messages](send/transactional.md)
+  + Failures, bounces and quarantines{#failures}
+    + [Quarantines](send/quarantines.md)
+    + [Delivery failures](send/delivery-failures.md)
 + Real-time interaction{#interaction}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
