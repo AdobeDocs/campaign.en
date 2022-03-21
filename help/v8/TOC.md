@@ -40,8 +40,7 @@ title: Campaign v8 docs
   + [Get started](audiences/gs-audiences.md)
   + [View profiles](audiences/view-profiles.md)
   + [Import profiles](audiences/import-profiles.md)
-  + [Update profiles](audiences/update-profiles.md)
-  + [Create a segment](audiences/create-segment.md)
+  + [Create a segment](audiences/create-segments.md)
   + [Create an audience](audiences/create-audience.md)
   + [Best practices](audiences/audience-best-practices.md)
 + Send messages{#send}

@@ -64,7 +64,10 @@ To create a list of contacts, follow the steps below:
 
 You can select profiles and add them to a list. To perform this, follow the steps below:
 
-1. From Campaign Explorer, select profiles and right-click. 
+1. From Campaign Explorer, select profiles and right-click.
+   
+   These profiles can be filtered to met specific criteria.
+   
 1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
 
    ![](assets/add-selection-to-a-list.png)
@@ -88,24 +91,44 @@ Once the execution is finished, access the **[!UICONTROL Profiles and Targets > 
 
 ## Create a list with a workflow  {#create-a-list-wf}
 
-You can use the **[!UICONTROL List update]** activity to a population in a list of recipients.
+You can use the **[!UICONTROL List update]** activity to add a population to a list of recipients.
 
-In the example below, you create a list of all the recipient of a specific delivery. .
+In the example below, you create a list of all the recipients between 25 and 40. 
 
-1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
-1. You may select a label for the activity.
-1. Select the **[!UICONTROL Create the list if necessary (Computed name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.
-1. Select the folder where you wish to save the list.
-1. Enter a label for the list. 
+1. Select **[!UICONTROL Profiles and targets]**, and **[!UICONTROL Targeting workflows]**, then create a new workflow from the **[!UICONTROL Create]** button.
+1. Enter a label for this workflow, for example '25-40 contacts', add a description, and click **[!UICONTROL Next]**.
+
+   ![](assets/targeting-wf-sample.png)
+
+1. Insert a **[!UICONTROL Query]** activity to define the target population, and edit the query.
+
+   ![](assets/targeting-wf-edit-query.png)
+
+1. Define the filter conditions, as below:
+
+   ![](assets/targeting-wf-age-filter.png)
+
+   Learn how to create a query in a workflow in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target="_blank"}.
+1. Add a label for this query and save your changes.
+1. Add a **[!UICONTROL List update]** activity, and edit it.
+
    ![](assets/list-update-activity.png)
-1. Leave the **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** option checked to delete recipients that do not match the targeting criteria and to insert the new ones into the list.
+
+1. Enter a label for the activity.
+1. Select the **[!UICONTROL Create the list if necessary (Computed name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.
+1. Select a folder and enter a label for the list. 
+1. Select the **[!UICONTROL Database of the targeting dimension]** to store the table.
+1. Leave the **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** option checked to delete recipients that do not match the targeting criteria, and to insert the new ones into the list.
 1. Also leave the **[!UICONTROL Create or use a list with its own table]** option checked.
 1. Leave the **[!UICONTROL Generate an outbound transition]** option unchecked.
-1. Click **[!UICONTROL Ok]** then start the workflow.
+1. Click **[!UICONTROL Ok]**, and save the workflow.
+1. Start the workflow.
 
-   ![](assets/create-a-list-in-a-wf.png)
+   The list of matching recipients is then created. You can access to this list from the **[!UICONTROL Lists]** entry of the home page.
 
-   The list of matching recipients is then created or updated.
+   ![](assets/access-new-list.png)
+
+   You can make this workflow recurrent by adding a scheduler to the workflow. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## Remove a profile from a list {#remove-a-profile-from-a-list}
 
