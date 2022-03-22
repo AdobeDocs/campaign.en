@@ -1,6 +1,7 @@
 ---
 title: Filter Campaign schemas
 description: Learn how to filter Campaign schemas
+exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 ---
 # Filter schemas{#filter-schemas}
 

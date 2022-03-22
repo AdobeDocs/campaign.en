@@ -50,7 +50,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
 ## Integrate Android SDK
 
-Android SDK is a jar library written in JAVA. It allows Android developers to integrate with Adobe Campaign: register a new device, link the device with a user, track behaviour, and more.
+Android SDK is a jar library written in JAVA. It allows Android developers to integrate with Adobe Campaign: register a new device, link the device with a user, track behavior, and more.
 
 In this section, learn how to use the Android SDK in an Android application implementing [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
 

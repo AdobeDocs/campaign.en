@@ -7,7 +7,7 @@ exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 
 In Campaign v8, the primary key is a Universally Unique IDentifier (UUID), which is a string on characters. To create this UUID, the main element of the schema must contain the **autouuid** and **autopk** attributes set to **true**.
 
-Adobe campaign v8 comes with Snowflake as the core Database. The distributed architecture of the Snowflake database does not provide mechanisms to manage the unicity of a key within a table: end-users are responsible for ensuring consistency of keys within the Adobe Campaign database.
+Adobe Campaign v8 comes with Snowflake as the core Database. The distributed architecture of the Snowflake database does not provide mechanisms to manage the unicity of a key within a table: end-users are responsible for ensuring consistency of keys within the Adobe Campaign database.
 
 Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as **Query**, **Reconciliation**, **Update data**, and more.
 

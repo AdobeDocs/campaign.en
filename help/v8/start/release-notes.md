@@ -5,13 +5,27 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: no
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
 # Latest release{#latest-release}
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
-## Release 8.2.1 {#release-8-2-1}
+## Release 8.2.10 {#release-8-2-10}
+
+_February 2, 2022_
+
+**Patches**
+
+* Fixed an issue which caused the delivery preparation to fail if the maximum number of messages, defined in the typology rule, was reached.
+* Fixed an issue during the configuration of the Adobe Analytics connector when the email address contained an "s" character.
+* Fixed an issue during postupgrade which could cause the deliveryMapping table to lose data from a custom delivery mapping.
+* Fixed an issue which could lead to recipients receiving the same message multiple times for the same delivery when the email address contained a single quote character ('). This character is now escaped. (NEO-41198)
+* Fixed an ID generation issue when sending proofs with seeds or substitution addresses. (NEO-42637)
+* Fixed an issue which could prevent you from sending proofs using the substitution of address method. (NEO-40417)
+* Fixed an issue which prevented you from installing the LINE package. (NEO-42503)
+
+## Release 8.2.8 {#release-8-2-8}
 
 _October 28, 2021_
 
@@ -24,8 +38,8 @@ _October 28, 2021_
 <tbody>
 <tr>
 <td>
-<p>Real-time interaction management is now available for inboud channels. Use Campaign Inbound Interaction module to present the best offer to your customers as they visit your website or reach out to your call center. This capability comes with Campaign v8 as an option and requires specific configuration on your instance. Reach out to your Adobe representative to have access to the Inbound Interaction module.</p>
-<p>For more information, refer to the <a href="../send/interaction-architecture.md">detailed documentation</a>.</p>
+<p>Real-time interaction management is now available for inbound channels. Use Campaign Inbound Interaction module to present the best offer to your customers as they visit your website or reach out to your call center. This capability comes with Campaign v8 as an option and requires specific configuration on your instance. Reach out to your Adobe representative to have access to the Inbound Interaction module.</p>
+<p>For more information, refer to the <a href="../interaction/interaction-architecture.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -60,10 +74,32 @@ _October 28, 2021_
 </tbody> 
 </table>
 
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter channel availability</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
+<ul> 
+<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+</p></li>
+<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
+</p></li>
+</ul>
+<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
+<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
 **Improvements**
 
 * The Snowflake connector has been improved in terms of performance.
-* In the server configuration file (serverConf.xml), you can now set a wait time, per schema, between updates and commit replications on the fly.
 * For monitoring and testing purposes, the audit logs of the **[!UICONTROL Replicate Staging data]** workflow now include the number of records that have been sent to the FFDA (Full Federated Data Access) database.
 * The SQL code activity now allows you to choose in which database the SQL script will be stored: the default data source or a chosen active FDA external account.
 * A set of pre-defined warehouses is now available and can be used to run various queries in parallel such as segmentation, ETL or peaks. [Read more](../config/workflows.md)
@@ -180,6 +216,7 @@ _July 23, 2021_
 </tr> 
 </tbody> 
 </table>
+
 
 **Other improvements**
 

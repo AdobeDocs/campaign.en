@@ -134,7 +134,7 @@ To do this, follow these steps:
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. Specify the parameters for information storage, including the suffix of the extension schemas in order for them to be easily identifiable.
+1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
    ![](assets/wf_new_mapping_define_names.png)
 

@@ -176,7 +176,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
 * [Coordinate data updates](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html){target="_blank"}
 
-    Learn how to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether or not to continue the execution of the workflow and perform the update.
+    Learn how to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether to continue the execution of the workflow and perform the update.
 
 * [Create a summary list](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html){target="_blank"}
 
@@ -208,7 +208,7 @@ In this section, you will find various use cases leveraging Campaign workflows c
 
 * [Query delivery information](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-delivery-information.html){target="_blank"}
 
-    Learn how to define queries on delivery information to retrieve profile's behaviour.
+    Learn how to define queries on delivery information to retrieve profile's behavior.
 
 * [Compute aggregates](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html){target="_blank"}
 

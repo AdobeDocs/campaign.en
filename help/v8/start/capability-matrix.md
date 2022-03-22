@@ -4,7 +4,7 @@ description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
+exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 ---
 # [!DNL Campaign Classic] v7 - [!DNL Campaign] v8 capabilities{#gs-matrix}
 
@@ -59,7 +59,7 @@ Please note that this ID is string-based and not sequential. The primary key is 
 
 In Campaign Classic v7 and earlier versions, the unicity of a key within a schema (i.e. table) is handled at the database engine's level. More generally, Classic Database engines like PostgreSQL, Oracle, or SQL Server include a native mechanism to prevent inserting duplicated rows based on a column or a set of columns via primary keys and/or unique indexes. Duplicated ID do not exist in these versions when proper index and primary keys are set at Database level.
 
-Adobe campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage then enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](../dev/keys.md)
+Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage then enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](../dev/keys.md)
 
 ### Simplified maintenance
 
@@ -91,7 +91,6 @@ Please note that some capabilities are not available in this version of Campaign
 * Distributed Marketing
 * Response Manager
 * Hybrid/On-premise deployment models
-* Twitter channel
 
 >[!CAUTION]
 >

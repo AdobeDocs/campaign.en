@@ -10,7 +10,7 @@ title: Campaign v8 docs
 # Adobe Campaign v8 documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
-+ What's new? {#start}
++ What's new? {#new}
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
   + [Known limitations](start/known-limitations.md)
@@ -36,31 +36,44 @@ title: Campaign v8 docs
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
-+ Send {#send}
++ Profiles & Audiences {#profiles-and-audiences}
+  + [Get started](audiences/gs-audiences.md)
+  + [View profiles](audiences/view-profiles.md)
+  + [Import profiles](audiences/create-profiles.md)
+  + [External profiles](audiences/external-profiles.md)
+  + Create audiences {#create-audiences}
+    + [Create a list of contacts](audiences/create-audiences.md)
+    + [Create and manage filters](audiences/create-filters.md)
+  + [Best practices](audiences/audiences-best-practices.md)
++ Send messages{#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
+  + [Social marketing](send/twitter.md)
   + [Transactional messages](send/transactional.md)
-  + Manage offers with Campaign Interaction{#interaction}
-    + [Get started with real-time interaction](send/interaction.md)
-    + [Environments and architecture](send/interaction-architecture.md)
-    + [Best practices](send/interaction-best-practices.md)
-    + Define settings{#interaction}
-      + [Create operators](send/interaction-operators.md)
-      + [Create environments](send/interaction-env.md)
-      + [Create pre-defined filters](send/interaction-predefined-filters.md)
-      + [Create offer spaces](send/interaction-offer-spaces.md)
-    + [Create an offer catalog](send/interaction-offer-catalog.md)
-    + [Create an offer](send/interaction-offer.md)
-    + [Send an offer (outbound)](send/interaction-send-offers.md)
-    + Present an offer (inbound){#inbound}
-      + [Context](send/interaction-present-offers.md)
-      + [Call an offer in a web page](send/interaction-integration.md)
-      + [Manage anonymous interactions](send/anonymous-interactions.md)
-    + [Reports and history](send/interaction-tracking.md)
-    + [Use cases](send/interaction-use-cases.md)
+  + Failures, bounces and quarantines{#failures}
+    + [Quarantines](send/quarantines.md)
+    + [Delivery failures](send/delivery-failures.md)
++ Real-time interaction{#interaction}
+  + [Get started with real-time interaction](interaction/interaction.md)
+  + [Environments and architecture](interaction/interaction-architecture.md)
+  + [Best practices](interaction/interaction-best-practices.md)
+  + Define settings{#interaction-settings}
+    + [Create operators](interaction/interaction-operators.md)
+    + [Create environments](interaction/interaction-env.md)
+    + [Create pre-defined filters](interaction/interaction-predefined-filters.md)
+    + [Create offer spaces](interaction/interaction-offer-spaces.md)
+  + [Create an offer catalog](interaction/interaction-offer-catalog.md)
+  + [Create an offer](interaction/interaction-offer.md)
+  + [Send an offer (outbound)](interaction/interaction-send-offers.md)
+  + Present an offer (inbound){#inbound}
+    + [Context](interaction/interaction-present-offers.md)
+    + [Call an offer in a web page](interaction/interaction-integration.md)
+    + [Manage anonymous interactions](interaction/anonymous-interactions.md)
+  + [Reports and history](interaction/interaction-tracking.md)
+  + [Use cases](interaction/interaction-use-cases.md)
 + Configure {#config}
   + [Automate with workflows](config/workflows.md)
   + [Manage data](config/replication.md)
