@@ -233,7 +233,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
 
 
 
-## Push notifications error types {#email-error-types}
+## Push notifications error types {#push-error-types}
 
 For the mobile app channel, possible reasons for a delivery failure are listed below. 
 
