@@ -18,7 +18,7 @@ Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UIC
 
 >[!NOTE]
 >
->To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. [Learn more](.#create-a-list-wf).
+>To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. [Learn more](#create-a-list-wf).
 
 <!--
 
