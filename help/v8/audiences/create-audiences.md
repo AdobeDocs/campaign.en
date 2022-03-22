@@ -11,7 +11,7 @@ Use Campaign lists to create and organize your audiences.
 
 A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These list must be based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel#ootb-profiles.md)
+Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These list must be based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles.md)
 
 
 ![](assets/list-dashboard.png)

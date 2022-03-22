@@ -14,7 +14,7 @@ Profiles are contacts stored in Campaign database.
 
 In Adobe Campaign, **recipients** are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-Learn how to import, update and manage profiles and audiences [in this section](../profiles/gs-audiences.md).
+Learn how to import, update and manage profiles and audiences [in this section](../audiences/gs-audiences.md).
 
 
 ## Privacy and consent
