@@ -21,7 +21,7 @@ Filter configuration lets you select data from a list **[!UICONTROL dynamically]
 
 The following types of filter are available in Adobe Campaign:
 
-## Predefined filters{#built-in-filters}
+## Predefined filters{#predefined-filters}
 
 Predefined filters are available from the **Filters** button above each list.
 
@@ -186,6 +186,10 @@ Use and combine **Quick filters** to define filters on specific fields.
 
 Once added, quick filter fields are displayed above the data list, one after the other. They can be deleted independently of each other.
 
+Quick filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
+
+If you need to reuse a filter, create an **advanced filter** and save it. [Learn more](#advanced-filters).
+
 To create a **quick filter**, follow the steps:
 
 1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
@@ -221,9 +225,11 @@ If you need to filer on a field which is not available in the form, it in the co
 
    ![](assets/filter-on-age.png)
 
-## Advanced filters
+## Advanced filters{#advanced-filters}
 
-Combine complex criteria in **Advanced filters**. Use these filters to create a complex query or a combination of queries on your data.
+Combine complex criteria in **Advanced filters**. Use these filters to create a complex query or a combination of queries on your data. These filters can be saved and shared with other Campaign users.
+
+### Create an advanced filter{#create-adv-filters}
 
 To create an **advanced filter**, click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**. 
 
@@ -231,138 +237,97 @@ To create an **advanced filter**, click the **[!UICONTROL Filters]** button and 
 
 You can also right-click the list of data and select **[!UICONTROL Advanced filter...]**.
 
-Define the filtering conditions:
+Define the filtering conditions. In the example below, you will filter on recipients whose Account number does not start with NL, and who live in Paris or Los Angeles.
 
-1. Click the **[!UICONTROL Expression]** column to define the input value.
-1. Click **[!UICONTROL Edit expression]** to select the field to which the filter will be applied.
+1. Click the **[!UICONTROL Edit expression]** icon of the **[!UICONTROL Expression]** column.
 
-   ![](assets/s_user_filter_choose_field.png)
+   ![](assets/edit-exp.png)
 
-1. From the list, select the field on which data will be filtered. Click **[!UICONTROL Finish]** to confirm.
-1. Click the **[!UICONTROL Operator]** column and select the operator to be applied from the drop-down list.
+1. Select the field to filter on.
+1. Select the operator to be applied from the drop-down list.
+
+   ![](assets/select-operator.png)
+
 1. Select an expected value from the **[!UICONTROL Value]** column. You can combine several filters to refine your query. To add a filter condition, click **[!UICONTROL Add]**.
 
-   ![](assets/s_ncs_user_filter_add_button_alone.png)
+   ![](assets/add-an-exp.png)
 
-1. You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.
-1. The default operator between expressions is **And**, but you can change this by clicking the field. You can select an **Or** operator.
+    >[!NOTE]
+    >
+    >You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.
 
-   ![](assets/s_ncs_user_filter_operator.png)
+1. Three operators are available to combine expressions:  **And**, **Or**, **Except**. Click the arrow to switch to **Or**.
 
-1. Click **[!UICONTROL OK]** to confirm filter creation and apply it to the list.
+   ![](assets/select-or-operator.png)
+
+1. Click **[!UICONTROL Ok]** to create the filter and apply it to the current list.
 
 The filter applied is displayed above the list.
 
-![](assets/s_ncs_user_filter_adv_edit.png)
+![](assets/adv-filter-link.png)
 
-To edit or modify this filter, click its label.
+To edit or modify this filter, click its description link in blue, above the list.
 
-To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the right of the filter.
+### Save an advanced filter{#save-adv-filters}
 
-![](assets/s_ncs_user_filter_adv_remove.png)
+You can save an advanced filter as a  [predefined filter](#predefined-filters), so that you can reuse it and share it with the other Campaign users.
 
-You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Save a filter](#saving-a-filter).
+To save an advanced filter, follow the steps below:
 
+1. Click the description of the filter to edit it.
+1. Click the **[!UICONTROL Save as filter]** icon on the upper right section of the window.
 
+   ![](assets/save-as-filter.png)
 
+1. Enter a name for this filter and save it.
 
+   ![](assets/application-filter-save.png)
 
-You can use functions to define the content of the filter. For more on this, refer to [Create an advanced filter with functions](#creating-an-advanced-filter-with-functions).
+The filter is added to the [predefined filters](#predefined-filters). It can be updated from this node.
+
+![](assets/added-to-predefined-filters.png)
 
 >[!NOTE]
 >
->For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+>You can add a shortcut for your filter to activate it from your keyboard. 
 
-* **User filters**
+This filter is also available from the predefined filters of the recipient list.
 
-  An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
+![](assets/access-to-new-predefined-filter.png)
 
-  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Save a filter](#saving-a-filter).
+Once saved, advanced filters are also available when selecting the target population of a message, in the **[!UICONTROL User filters]** section.
 
-## Change the default filter {#altering-the-default-filter}
-
-
-
-## Create a simple filter {#creating-a-simple-filter}
+![](assets/adv-filter-target-type.png)
 
 
-## Create an advanced filter {#creating-an-advanced-filter}
+### Use functions to build advanced filters{#use-functions-adv-filters}
+
+To perform advanced filtering capabilities, use functions to define the content of the filter. The Advanced filter editor leverages all capabilities of Campaign query editor.  
+
+Learn how to build advanced queries in Adobe Campaign Classic v7 documentation. For example:
+
+* Learn how to target on simple recipient attributes in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target="_blank"}.
+* Learn how to filter on recipients not contacted during the last 7 days in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target="_blank"}.
+* Learn how to recover the list of operators can be filtered by Active accounts in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target="_blank"}.
+* Learn how to build a birthday email audience in  [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target="_blank"}.
 
 
+### Advanced parameters for predefined filters {#param-for-data-filters}
 
-### Create an advanced filter with functions {#creating-an-advanced-filter-with-functions}
+Advanced parameters are available for predefined filters. To access them, browse to the **[!UICONTROL Parameters]** tab of the filter.
 
-Advanced filters can use functions; **filters with functions** are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:
+* To display the filter by default for all the lists based on this Document type, select the **[!UICONTROL Default filter for the associated document type]** option.
 
-1. In the field selection window, click **[!UICONTROL Advanced selection]**.
-1. Select the type of formula to be used: aggregate, existing user filter or expression.
+  For example, the **[!UICONTROL By name or login]** filter is applied to operators This option is selected, so the filter is always displayed on all operator lists.
 
-   ![](assets/s_ncs_user_filter_formula_select.png)
+* To make a filter available to all Campaign operators, select the  **[!UICONTROL Filter shared with other operators]** option.
 
-   The following options are available:
+* To define a form to select the filtering criteria, select the  **[!UICONTROL Use parameter entry form]** option. This form must be entered in XML format in the **[!UICONTROL Form]** tab. For example, the built-in predefined filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery to which the filter applies to.
 
-    * **[!UICONTROL Field only]** to select a field. This is the default mode. 
-    * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
-    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Save a filter](#saving-a-filter).
-    * **[!UICONTROL Expression]** to access the expressions editor.
+![](assets/predefined-filters-parameters.png)
 
-      The expression editor lets you define an advanced filter. It looks like this:
+
+* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. 
     
-      ![](assets/s_ncs_user_create_exp_exple01.png)
-
-      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]**. The functions available are detailed in [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
-
-      >[!NOTE]
-      >
-      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
-
-## Save a filter {#saving-a-filter}
-
-Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
-
-You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
-
-These filters can also be accessed directly via the delivery wizard, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
-
-* Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
-
-  ![](assets/s_ncs_user_filter_save.png)
-
-* Create this application filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** (or **[!UICONTROL Profiles and targets > Predefined filters]** for recipients) node of the tree. To do this, right-click the list of filters, and select **[!UICONTROL New...]**. The procedure is the same as for creating advanced filters.
-
-  The **[!UICONTROL Label]** field enables you to name this filter. This name will appear in the combo box of the **[!UICONTROL Filters...]** button. 
-
-  ![](assets/user_filter_apply.png)
-
-You can delete all filters on the current list by right-clicking and selecting **[!UICONTROL No filter]** or via the **[!UICONTROL Filters]** icon located above the list.  
-
-You can combine filters by clicking the **[!UICONTROL Filters]** button and using the **[!UICONTROL And...]** menu.
-
-![](assets/s_ncs_user_filter_combination.png)
-
-## Filter recipients {#filtering-recipients}
-
-Predefined filters (see [Save a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
-
-
-
-## Advanced settings for data filters {#advanced-settings-for-data-filters}
-
-Click the **[!UICONTROL Settings]** tab to access the following options:
-
-* **[!UICONTROL Default filter for the associated document type]**: this option lets you suggest this filter by default in the editor of the lists concerned by the sort.
-
-  For example, the **[!UICONTROL By name or login]** filter is applied to operators. This option is selected, and so the filter is always offered on all operator lists.
-
-* **[!UICONTROL Filter shared with other operators]**: this option lets you make the filter available to all the other operators on the current database.
-* **[!UICONTROL Use parameter entry form]**: this option lets you define the filter field(s) to be displayed above the list when this filter is selected. These fields let you define the filter settings. This form must be entered in XML format via the **[!UICONTROL Form]** button. For example, the preconfigured filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.
-
-  The **[!UICONTROL Preview]** button displays the result of the selected filter.
-
-* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. In particular, you can associate a SQL table with the filter to make it common to all editors that share the table.
-
-  Select the **[!UICONTROL Do not restrict the filter]** option if you want to stop the user from overriding this filter.
-
-  This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery wizard that cannot be overloaded.
-
-  ![](assets/s_ncs_user_filter_advanced_param.png)
+    * You can associate a SQL table with the filter to make it common to all editors that share the table.
+    * To prevent any user from overriding the filter, welect the **[!UICONTROL Do not restrict the filter]** option. For example, this option is active for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters which are available in the delivery wizard. These filters cannot be overloaded.
