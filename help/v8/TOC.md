@@ -43,6 +43,7 @@ title: Campaign v8 docs
     + [Create profiles manually](audiences/create-profiles.md)
     + [Import profiles from a file](audiences/import-profiles.md)
     + [Work with external profiles](audiences/external-profiles.md)
+    + [Collect profile data in web forms](audiences/collect-profiles.md)
   + Create audiences {#create-audiences}
     + [Create a list of contacts](audiences/create-audiences.md)
     + [Create and manage filters](audiences/create-filters.md)
