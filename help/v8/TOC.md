@@ -39,7 +39,7 @@ title: Campaign v8 docs
 + Profiles & Audiences {#profiles-and-audiences}
   + [Get started](audiences/gs-audiences.md)
   + [View profiles](audiences/view-profiles.md)
-  + [Import profiles](audiences/create-profiles.md)
+  + [Create and import profiles](audiences/create-profiles.md)
   + [External profiles](audiences/external-profiles.md)
   + Create audiences {#create-audiences}
     + [Create a list of contacts](audiences/create-audiences.md)
