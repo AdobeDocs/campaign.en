@@ -40,8 +40,9 @@ title: Campaign v8 docs
   + [Get started](audiences/gs-audiences.md)
   + [View profiles](audiences/view-profiles.md)
   + [Import profiles](audiences/import-profiles.md)
-  + [Create a segment](audiences/create-segments.md)
-  + [Create an audience](audiences/create-audience.md)
+  + Create audiences {#create-audiences}
+    + [Create a list of contacts](audiences/create-profiles.md)
+    + [Create and manage filters](audiences/create-filters.md)
   + [Best practices](audiences/audience-best-practices.md)
 + Send messages{#send}
   + [Emails](send/email.md)

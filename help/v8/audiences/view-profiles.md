@@ -9,14 +9,11 @@ level: Beginner
 
 Browse to **[!UICONTROL Profiles and targets]** to access recipients stored in Adobe Campaign database. 
 
-From this page, you can create new recipient, edit an existing recipient and access its profile details.
-
+From this page, you can [create new recipient](create-profiles.md), edit an existing recipient and access its profile details.
 
 ![](assets/profiles-and-targets.png)
 
 For more advanced profile manipulations, access the Campaign tree from the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
-
-By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view. 
 
 
 >[!CAUTION]

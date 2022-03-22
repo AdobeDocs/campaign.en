@@ -5,15 +5,32 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 ---
-# Import profiles{#import-profiles}
+# Create profiles{#create-profiles}
 
-To populate your Campaign database, you can import profiles. 
+To populate your Campaign database, you can import profiles or add them manually. 
 
-Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
+## Create profiles manually{#create-profiles-manually}
 
-You can also perform one-shot imports in Campaign using the Import job capability.
+To create a recipient manually, follow the steps below:
+
+1. Browse to **[!UICONTROL Profiles and targets]** tab and select the **[!UICONTROL Recipients]** category. 
+
+    ![](assets/profiles-and-targets.png)
+
+    By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can also create recipients from this view. 
+
+1. Click the **[!UICONTROL Create button]**.
+1. Enter the profile's data. 
+
+    ![](assets/new-recipient.png)
+
+    Learn more about the recipient built-in form in [this page](view-profiles.md#edit-a-profiles).
+
+1. Click **[!UICONTROL Save]**: the profile is added to Campaign, in the default recipient folder.
 
 ## Import profiles with a workflow {#import-profiles-with-a-wf}
+
+Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
 
 ### Use data from a list: Read list {#data-from-read-list}
 
@@ -29,11 +46,6 @@ A description of the loading data activity can be found in the [Campaign Classic
 
 Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [Campaign Classic v7 documentation]https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/how-to-use-workflow-data.htmll){target="_blank"}.
 
-## Export data {#exporting-data-via-a-workflow}
-
-Workflows can be a useful way to automate some of your export processes or to export precise sets of data after using some of the available data management activities available to transform your data.
-
-Export operations are performed using a **[!UICONTROL Data extraction (file) activity]**. For more on how to configure and use the activity, refer to [this page](../../workflow/using/extraction--file-.md)
 
 ## One-shot imports{#import-jobs}
 
