@@ -44,12 +44,13 @@ To create a list of contacts, follow the steps below:
     ![](assets/new-list.png)
 
 1. Enter the information in the **[!UICONTROL Edit]** tab of the list creation window.
+   
+   ![](assets/list-details.png)
 
     * Enter the list name in the **[!UICONTROL Label]** field and, if necessary, change the internal name.
     * Add a description for this list.
     * You can specify an expiration date: when this date is reached, the list is purged and automatically deleted.
     
-      ![](assets/list-details.png)
 
 1. In the **[!UICONTROL Content]** tab, click **[!UICONTROL Add]** to select the profiles belonging to the list.
 
@@ -141,21 +142,3 @@ To delete a list, browse to it from Campaign Explorer, select it and right-click
 >[!NOTE]
 >
 >When you delete a list, the profiles on the list are not affected but the data in their profile is updated.
-
-## Tutorial videos {#create-list-videos}
-
-### How to create a list of recipients
-
-A list is a static set of recipients that can be targeted in delivery actions or updated during import operations or during workflow execution. A list of recipients is also referred to as audience.
-
-Learn how to create an audience by configuring a list of recipients from the Explorer.
-
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
-
-### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
-
-Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
-
->[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
-
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
