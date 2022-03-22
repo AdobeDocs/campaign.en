@@ -330,4 +330,4 @@ Advanced parameters are available for predefined filters. To access them, browse
 * The **[!UICONTROL Advanced parameters]** link lets you define additional settings. 
     
     * You can associate a SQL table with the filter to make it common to all editors that share the table.
-    * To prevent any user from overriding the filter, welect the **[!UICONTROL Do not restrict the filter]** option. For example, this option is active for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters which are available in the delivery wizard. These filters cannot be overloaded.
+    * To prevent any user from overriding the filter, select the **[!UICONTROL Do not restrict the filter]** option. For example, this option is active for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters which are available in the delivery wizard. These filters cannot be overloaded.

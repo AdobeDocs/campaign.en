@@ -7,9 +7,9 @@ level: Beginner
 ---
 # Understand delivery failures{#delivery-failures}
 
-Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression. This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is very important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
+Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression. This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
 
-If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether or not the email address, phone number or device should be quarantined. See [Bounce mail management](#bounce-mail-qualification).
+If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be quarantined. See [Bounce mail management](#bounce-mail-qualification).
 
 Once a message is sent, you can view the delivery status for each profile and the associated failure type and reason in the delivery logs.
 
@@ -38,7 +38,7 @@ The  **Ignored** type of error is known to be temporary, such as "Out of office"
 
 ### Bounce mail qualification {#bounce-mail-qualification}
 
-Rules used by Campaign to qualify delivery failyres are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
 ![](assets/delivery-log-qualification.png)
 
@@ -74,7 +74,7 @@ Bounce mails can have the following qualification status:
 
 ## Retry management {#retries}
 
-If message delivery fails following a temporary error (**Soft** or **Ignored**), Camapign retries sending. These retries can be performed until the end ot the delivery duration. The number and frequency of retries are set up by Momentum, based on the type and severity of the bounce responses coming back from the message's ISP.
+If message delivery fails following a temporary error (**Soft** or **Ignored**), CAmpaign retries sending. These retries can be performed until the end ot the delivery duration. The number and frequency of retries are set up by Momentum, based on the type and severity of the bounce responses coming back from the message's ISP.
 
 The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.
 
@@ -84,7 +84,7 @@ A message delivery can fail immediately, in that case we qualify this as a synch
 
 These types of errors are managed as follows:
 
-* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether or not the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
+* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
 
 * **Asynchronous error**: a bounce mail or a SR is resent later by the receiving server. This error is qualified with a label related to the error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
@@ -178,7 +178,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
    <td> Mailbox full </td> 
    <td> Soft </td> 
    <td> 5 </td> 
-   <td> The mailbox of this user is full and cannot accept more messages. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.<br /> This type of error is managed by a clean-up process, the address is set to a valid status after 30 days.<br /> Warning: in order for the address to be automatically removed from the list of quarantined addresses, the Database cleanup technical workflow must be started.<br /> </td> 
+   <td> The mailbox of this user is full and cannot accept more messages. This profile will be targeted again until the error count reaches 5. After this, the record will be set to Quarantine status and no retry will follow.<br /> This type of error is managed by a clean-up process, the address is set to a valid status after 30 days.<br /> Warning: for the address to be automatically removed from the list of quarantined addresses, the Database cleanup technical workflow must be started.<br /> </td> 
   </tr> 
   <tr> 
    <td> Not connected </td> 
@@ -190,7 +190,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
    <td> Not defined </td> 
    <td> Not defined </td> 
    <td> 0 </td> 
-   <td> The address is in qualification because error have not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. They can then carry out message analysis and qualify this error, via the <span class="uicontrol">Administration</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Non deliverables Management</span> node in the tree structure.<br /> </td> 
+   <td> The address is in qualification because error has not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. They can then carry out message analysis and qualify this error, via the <span class="uicontrol">Administration</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Non deliverables Management</span> node in the tree structure.<br /> </td> 
   </tr> 
   <tr> 
    <td> Not eligible for the offers </td> 
@@ -332,7 +332,7 @@ Synchronously, if the APNs returns an "unregistered" status for a message, the t
 
 **For Android V1**
 
-For each notification, Adobe Campaign receives the synchronous errors directly from the FCM server. Adobe campaign handles them on the fly and generates hard or soft errors according to the severity of the error and retries can be performed:
+For each notification, Adobe Campaign receives the synchronous errors directly from the FCM server. Adobe Campaign handles them on the fly and generates hard or soft errors according to the severity of the error and retries can be performed:
 
 * Payload length exceeded, connection issue, service availability issue: retry performed, soft error, failure reason is **[!UICONTROL Refused]**.
 * Device quota exceeded: no retry, soft error, failure reason is **[!UICONTROL Refused]**.
