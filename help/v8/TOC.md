@@ -36,7 +36,20 @@ title: Campaign v8 docs
   + [Connect to Campaign](start/connect.md)
   + [Permissions](start/permissions.md)
   + [Control Panel](config/self-service.md)
-+ Send {#send}
++ Profiles & Audiences {#profiles-and-audiences}
+  + [Get started](audiences/gs-audiences.md)
+  + [Access profiles](audiences/view-profiles.md)
+  + Add profiles {#add-profiles}
+    + [Create profiles manually](audiences/create-profiles.md)
+    + [Import profiles from a file](audiences/import-profiles.md)
+    + [Work with external profiles](audiences/external-profiles.md)
+    + [Collect profile data in web forms](audiences/collect-profiles.md)
+  + Create audiences {#create-audiences}
+    + [Create a list of contacts](audiences/create-audiences.md)
+    + [Create and manage filters](audiences/create-filters.md)
+  + [Manage folders and views](audiences/folders-and-views.md)
+  + [Best practices](audiences/audiences-best-practices.md)
++ Send messages{#send}
   + [Emails](send/email.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
@@ -44,6 +57,9 @@ title: Campaign v8 docs
   + [Direct mail](send/direct-mail.md)
   + [Social marketing](send/twitter.md)
   + [Transactional messages](send/transactional.md)
+  + Failures, bounces and quarantines{#failures}
+    + [Quarantines](send/quarantines.md)
+    + [Delivery failures](send/delivery-failures.md)
 + Real-time interaction{#interaction}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
