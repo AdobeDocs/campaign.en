@@ -17,7 +17,7 @@ title: Campaign v8 docs
   + [Classic v7 to v8](start/capability-matrix.md)
 + Start {#start}
   + [Get started](start/get-started.md)
-  + [Profiles & Audiences](start/audiences.md)
+  + [Work with audiences](start/audiences.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
   + [Send messages](start/create-message.md)
