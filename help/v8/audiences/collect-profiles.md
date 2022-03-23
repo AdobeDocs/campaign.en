@@ -4,6 +4,8 @@ description: Learn how to collect and update profiles with web forms
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
 
 # Collect and update profiles with web forms
