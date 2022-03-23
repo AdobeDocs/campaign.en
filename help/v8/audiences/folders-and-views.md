@@ -49,7 +49,7 @@ You can turn any folder to a view, but the folder must be empty. Any data stored
 >
 >To grant access to a view without granting access to its source folder, do not grant read access to the parent node of the source folder.
 
-In the example below, we will create new folders to display only US deliveries, based on their internal name.
+In the example below, we will create a new folder to display only US deliveries, based on their internal name.
 
 1. Create a **[!UICONTROL Deliveries]** folder, and name it **US Deliveries**.
 1. Right-click this folder and select **[!UICONTROL Properties...]**.
@@ -76,7 +76,7 @@ By default, a new folder is added on the top of the hierarchy.
 
 Browse the **Sub-folders** tab of a folder properties to organize its sub-folders.
 
-You can move the folders with the arrows on the right or select the **[!UICONTROL Sort the sub-folders in aphabetical order]** option to sort them automatically.
+You can move the folders with the arrows on the right or select the **[!UICONTROL Sort the sub-folders in alphabetical order]** option to sort them automatically.
 
 ![](assets/sort-folders.png)
 
@@ -117,7 +117,9 @@ The authorizations defined in this window will then be applied to all the sub-fo
 
 ### Grant access to all operators {#grant-access-to-all-operators}
 
-In the **[!UICONTROL Security]** tab, select the **[!UICONTROL System folder]** to allow access to all operators, regardless of their permissions. If this option is cleared, you must explicitly add the operator (or their group) back to the list of authorizations in order for them to have access.
+In the **[!UICONTROL Security]** tab, select the **[!UICONTROL System folder]** to allow access to all operators, regardless of their permissions. 
+
+If this option is cleared, you must explicitly add the operator (or their group) back to the list of authorizations for them to have access.
 
 
 
