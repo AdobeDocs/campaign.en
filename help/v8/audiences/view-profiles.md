@@ -15,6 +15,8 @@ From this page, you can [create new recipient](create-profiles.md), edit an exis
 
 For more advanced profile manipulations, access the Campaign tree from the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
 
+![](assets/recipients-in-explorer.png)
+
 
 >[!CAUTION]
 >
