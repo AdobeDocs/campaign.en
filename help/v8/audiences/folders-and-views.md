@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: Data Engineer
 level: Beginner
 ---
-# Folders and views {#folders-and-views}
+# Manage folders and views {#folders-and-views}
 
 Campaign folders are nodes in the explorer tree. Based on their type, they contain certain types of data.
 

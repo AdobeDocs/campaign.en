@@ -39,7 +39,6 @@ title: Campaign v8 docs
 + Profiles & Audiences {#profiles-and-audiences}
   + [Get started](audiences/gs-audiences.md)
   + [Access profiles](audiences/view-profiles.md)
-  + [Folders and views](audiences/folders-and-views.md)
   + Add profiles {#add-profiles}
     + [Create profiles manually](audiences/create-profiles.md)
     + [Import profiles from a file](audiences/import-profiles.md)
@@ -48,6 +47,7 @@ title: Campaign v8 docs
   + Create audiences {#create-audiences}
     + [Create a list of contacts](audiences/create-audiences.md)
     + [Create and manage filters](audiences/create-filters.md)
+  + [Manage folders and views](audiences/folders-and-views.md)
   + [Best practices](audiences/audiences-best-practices.md)
 + Send messages{#send}
   + [Emails](send/email.md)
