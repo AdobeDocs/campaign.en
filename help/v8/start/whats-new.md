@@ -28,11 +28,15 @@ Key capabilities include:
 
 ![](assets/home-page.png) 
 
-## Manage settings and track usage{#scale}
+## Self-service admin interface{#self-service-admin}
 
-As a product administator, you can manage settings and track usages of each of your Campaign v8 instances with Campaign Control Panel. 
+As a product administator, you can manage settings and track usages of each of your Campaign v8 instances with **Campaign Control Panel**. 
 
-Through an intuitive user interface, administrators can monitor usage of key assets, perform advanced tasks such as IP addresses allow listing, SFTP storage monitoring, key management, and more.
+Through an intuitive user interface, administrators can monitor usage of key assets, perform advanced tasks such as IP addresses allow listing, SFTP storage monitoring, key management, and more. This self-service interface brings you more flexibility and helps you:
+
+* Quickly make changes to settings by yourself without reaching out to Adobe Support
+* Configure settings based on your different business needs at different times
+* Enhance security by controlling access settings on a need-by-need basis
 
 ![](assets/subdomain1.png)
 
