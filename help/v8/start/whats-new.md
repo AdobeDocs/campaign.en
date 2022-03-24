@@ -28,7 +28,17 @@ Key capabilities include:
 
 ![](assets/home-page.png) 
 
-## Scale
+## Manage settings and track usage{#scale}
+
+As a product administator, you can manage settings and track usages of each of your Campaign v8 instances with Campaign Control Panel. 
+
+Through an intuitive user interface, administrators can monitor usage of key assets, perform advanced tasks such as IP addresses allow listing, SFTP storage monitoring, key management, and more.
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [Learn more about Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+
+## Scale{#scale}
 
 Campaign v8 brings end-to-end scale at any step of the process, from targeting to the final reporting:
 
@@ -36,7 +46,7 @@ Campaign v8 brings end-to-end scale at any step of the process, from targeting t
 * Scale the performance of queries for segmentation and targeting but also data ingestion and egress
 * Scale the delivery preparation (from hours to minutes)
 
-## Simplification and performance increase
+## Simplification and performance increase{#simplification-and-perf-increase}
 
 Campaign v8 brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database.
 
