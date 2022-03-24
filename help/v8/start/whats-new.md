@@ -30,7 +30,7 @@ Key capabilities include:
 
 ## Self-service admin interface{#self-service-admin}
 
-As a product administator, you can manage settings and track usages of each of your Campaign v8 instances with **Campaign Control Panel**. 
+As a product administrator, you can manage settings and track usages of each of your Campaign v8 instances with **Campaign Control Panel**. 
 
 Through an intuitive user interface, administrators can monitor usage of key assets, perform advanced tasks such as IP addresses allow listing, SFTP storage monitoring, key management, and more. This self-service interface brings you more flexibility and helps you:
 
