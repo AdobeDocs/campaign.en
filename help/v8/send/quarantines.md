@@ -4,8 +4,8 @@ description: Understand quarantine management in Adobe Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 ---
-
 # Quarantines {#quarantine-management}
 
 Adobe Campaign manages a list of quarantined addresses for online channels (email, SMS, push notification). Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers. Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
@@ -113,4 +113,3 @@ You can also manually remove an address from the quarantine list. To remove an a
 >[!CAUTION]
 >
 >If you remove an address from quarantine list, you will start again sending to this address again. This can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. If you need assistance, contact Adobe Support.
-

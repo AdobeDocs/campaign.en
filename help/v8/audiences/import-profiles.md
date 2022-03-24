@@ -4,6 +4,7 @@ description: Learn how to import contacts in Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 ---
 # Create and update profiles{#create-profiles}
 

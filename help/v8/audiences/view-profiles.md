@@ -4,6 +4,7 @@ description: Learn how to access contact data in Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 ---
 # View existing profiles{#view-profiles}
 
