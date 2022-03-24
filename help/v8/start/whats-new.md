@@ -10,6 +10,8 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 
 Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. By leveraging [[!DNL Snowflake]](https://www.snowflake.com/), a cloud database technology, Adobe Campaign dramatically improves its scale and speed, with the ability to manage a more significant number of customer profiles, as well as much higher delivery rates and transactions per hour. 
 
+## Key capabilities{#key-capabilities}
+
 Key capabilities include:
 
 * **Speed and scale**. Adobe Campaign v8 leverages the Cloud Database Manager, leading to queries performing up to 200x faster, multi-petabyte scale, increased number of messages per hour, with up to 20M/hour or 1M/hour for transactional messages, and manage up to 200M active profiles with the potential to reach 1B.
@@ -28,6 +30,14 @@ Key capabilities include:
 
 ![](assets/home-page.png) 
 
+## Scale{#scale}
+
+Campaign v8 brings end-to-end scale at any step of the process, from targeting to the final reporting:
+
+* Scale the volume of data you can handle (until 8 TB)
+* Scale the performance of queries for segmentation and targeting but also data ingestion and egress
+* Scale the delivery preparation (from hours to minutes)
+
 ## Self-service admin interface{#self-service-admin}
 
 As a product administrator, you can manage settings and track usages of each of your Campaign v8 instances with **Campaign Control Panel**. 
@@ -42,13 +52,7 @@ Through an intuitive user interface, administrators can monitor usage of key ass
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 
-## Scale{#scale}
 
-Campaign v8 brings end-to-end scale at any step of the process, from targeting to the final reporting:
-
-* Scale the volume of data you can handle (until 8 TB)
-* Scale the performance of queries for segmentation and targeting but also data ingestion and egress
-* Scale the delivery preparation (from hours to minutes)
 
 ## Simplification and performance increase{#simplification-and-perf-increase}
 
