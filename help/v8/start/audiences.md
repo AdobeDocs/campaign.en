@@ -1,21 +1,18 @@
 ---
-title: Get started with audiences
-description: Get started with audiences
+title: Work with audiences in Campaign
+description: Work with audiences in Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 ---
-# Get Started with audiences{#gs-ac-audiences}
-
-## Work with profiles{#gs-ac-profiles}
+# Work with audiences in Campaign{#gs-ac-audiences}
 
 Profiles are contacts stored in Campaign database. 
 
 In Adobe Campaign, **recipients** are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
 Learn how to import, update and manage profiles and audiences [in this section](../audiences/gs-audiences.md).
-
 
 ## Privacy and consent
 
@@ -55,7 +52,6 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
-
 
 **Related topics** in Campaign Classic v7 documentation:
 

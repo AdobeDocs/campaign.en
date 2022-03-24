@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 ---
-# Create profiles{#create-profiles}
+# Create profiles manually{#create-profiles-manual}
 
 To populate your Campaign database, you can [import profiles](import-profiles.md) or add them manually as detailed below. 
 

@@ -268,6 +268,7 @@ The filter applied is displayed above the list.
 
 To edit or modify this filter, click its description link in blue, above the list.
 
+
 ### Save an advanced filter{#save-adv-filters}
 
 You can save an advanced filter as a  [predefined filter](#predefined-filters), so that you can reuse it and share it with the other Campaign users.
@@ -291,13 +292,26 @@ The filter is added to the [predefined filters](#predefined-filters). It can be 
 >
 >You can add a shortcut for your filter to activate it from your keyboard. 
 
+
+
 This filter is also available from the predefined filters of the recipient list.
 
 ![](assets/access-to-new-predefined-filter.png)
 
-Once saved, advanced filters are also available when selecting the target population of a message, in the **[!UICONTROL User filters]** section.
+
+
+### Use a filter to define a segment {#filter-as-segment}
+
+You can use and combine filters to create a target population segment.
+
+Once saved, advanced filters are available when selecting the target population of a message, in the **[!UICONTROL User filters]** section.
 
 ![](assets/adv-filter-target-type.png)
+
+
+>[!NOTE]
+>
+>Use the **[!UICONTROL Exclude recipients from this segment]** to target only contacts who do not match the filter criteria.
 
 
 ### Use functions to build advanced filters{#use-functions-adv-filters}
