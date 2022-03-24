@@ -115,3 +115,4 @@ title: Campaign v8 docs
     + [Get started](dev/api.md)
     + [New APIs](dev/new-apis.md)
     + [API staging mechanism](dev/staging.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
