@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 363b53ad-098c-4c34-8026-3185702c0452
 ---
-# Create profiles{#create-profiles}
+# Create profiles manually{#create-profiles-manual}
 
 To populate your Campaign database, you can [import profiles](import-profiles.md) or add them manually as detailed below. 
 
