@@ -7,6 +7,7 @@ level: Beginner
 hide: yes
 hidefromtoc: yes
 ---
+
 # Get started with Adobe Campaign v8 {#gs-with-v8}
 
 With Adobe Campaign, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
@@ -35,7 +36,7 @@ Design, execute, and personalize your marketing across channels, while improving
     
     Limit the number of touches by customer or by channel, reducing the potential for fatigue. You also can set rules to adapt contact frequency on-the-fly, based on individual changes in engagement.  
 
-###  Reporting and analysis tools {#reporting-tools}
+### Reporting and analysis tools {#reporting-tools}
 
 In addition to powerful, out-of-the box reporting templates, Adobe Campaign lets you create custom reports on a delivery, campaign, user, or segment level. Do descriptive analysis, summarize ROI and CLTV, or export data to Adobe Analytics and other solutions for further data visualization and analysis.
 
@@ -55,5 +56,6 @@ Create a standard reporting view for your campaigns and automatically share it w
 Customizable templates
 Use the out of the box report templates to build a new report from scratch, and customize the templates as needed.
 
-## Customer data {#omni-channel-mkt}
+## Customer data {#customer-data}
 
+Content
