@@ -53,7 +53,7 @@ Use the FDA Connector (Federated Data Access) to connect Campaign to one or more
 ![](../assets/do-not-localize/glass.png) Learn more in [this page](fda.md)
 
 
-
+<!--
 ## Integrate with social media
 
 Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
@@ -64,3 +64,4 @@ Use the **Managing social networks (Social Marketing)** option to interact with 
 ![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this page](../connect/ac-tw.md).
 
 ![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
+-->
