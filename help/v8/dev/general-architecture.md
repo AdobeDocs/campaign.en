@@ -17,24 +17,13 @@ The typical Adobe Campaign solution deployment consists of the following compone
 
 * **Database Containers**
 
-  Based on relational database technology, the Adobe Campaign Cloud Database stores all customers information, campaign components, offers and workflows, as well as campaign results in customer database containers.
+  Based on relational database technology, the Adobe Campaign Cloud Database stores all information, campaign components, offers, workflows, and campaign results in database containers.
 
 ## Personalized Client Environment {#client-env}
 
-The application can be accessed in different ways: Rich client, Thin client or API integration.
+The application can be accessed in different ways: Rich client, Thin client, or API integration.
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Campaign presentation layer](../start/ac-components.md).
-
-
-* **Client Console**: The main user interface of the application is a native application (on Windows) that communicates with the Adobe Campaign application server with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration as it only generates HTTP(S) traffic. 
-
-  ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Client Console](../start/connect.md).
-
-* **Web access**: parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, instance monitoring, etc. 
-
-  ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Web Access](../start/connect.md).
-  
-* **Campaign APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol. 
 
 ## Development environment {#dev-env}
 
@@ -60,9 +49,9 @@ It executes the workflow processes defined in the application.
 
 It also handles periodically executed technical workflows, including:
 
-* **Tracking**: Recovering and consolidating tracking logs. It enables you retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
-* **Cleanup**: Database cleaning. Used to purge old records and avoid the database growing exponentially.
-* **Billing**: Automatic sending of an activity report for the platform (database size, number of marketing actions, etc.).
+* **Tracking**: Recovers and consolidates tracking logs, so that you can retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
+* **Cleanup**: Cleans the database, and purges old records and avoid the database growing exponentially.
+* **Billing**: Send an activity report for the platform (size of the database, number of marketing actions, etc.).
 
 **Delivery Server** (nlserver mta)
 
@@ -74,7 +63,7 @@ This process can handle the customization and automatic sending to a third-party
 
 For email, Adobe Campaign automatically handles open and click tracking (transactional tracking at the Web site level is a further possibility). To achieve this, the URLs incorporated in the email messages are rewritten in order to point to this module, which registers the passing of the internet user before redirecting them to the required URL.
 
-To guarantee highest availability, this process is fully independent from the database: the other server processes communicate with it using SOAP calls (HTTP, HTTP(S) and XML) only. Technically, this functionality is implemented in an extension module of a HTTP server (ISAPI extension in IIS, or a DSO Apache module, etc.) and is available in Windows only.
+To guarantee highest availability, this process is fully independent from the database: the other server processes communicate with it using SOAP calls (HTTP, HTTP(S) and XML) only. Technically, this functionality is implemented in an extension module of an HTTP server (ISAPI extension in IIS, or a DSO Apache module, etc.) and is available in Windows only.
 
 Other more technical processes are also available:
 
@@ -112,7 +101,7 @@ This process maintains statistics on the number of connections, the messages sen
 
 The Adobe Campaign Cloud database relies on [!DNL Snowflake] which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.
 
-Customers can deploy Adobe Campaign using the pre-defined database and schemas, and if needed this pre-defined environment can be extended. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
+You can deploy Adobe Campaign using the pre-defined database and schemas, and if needed this pre-defined environment can be extended. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
 
 ![](assets/data-flow-diagram.png) 
 

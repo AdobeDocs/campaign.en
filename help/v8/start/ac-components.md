@@ -4,8 +4,6 @@ description: Understand Campaign processes and components
 feature: Overview
 role: Data Engineer
 level: Beginner
-hide: yes
-hidefromtoc: yes
 ---
 
 # Understand Campaign processes and components {#components-and-processes}
