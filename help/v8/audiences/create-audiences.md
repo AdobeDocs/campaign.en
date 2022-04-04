@@ -11,29 +11,16 @@ Use Campaign lists to create and organize your audiences.
 
 A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These list must be based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles.md)
-
+Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These list are based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles.md)
 
 ![](assets/list-dashboard.png)
 
->[!NOTE]
->
->To create lists containing other types of data, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. [Learn more](#create-a-list-wf).
+You can create a list using the **Update list** activity in a workflow. This activity stores the resulting population into a list. Use it to create a new list or update an existing list. To create lists containing other types of data than the built-in profile table, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. [Learn more](#create-a-list-wf).
 
-<!--
+Watch this video to learn more about Lists management in Adobe Campaign.
 
-Two types of lists are available in Adobe Campaign:
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
-* **[!UICONTROL Group]** type: The **[!UICONTROL Group]** type lists belong to a **static** list of people selected according to specific criteria. The list is like a snapshot of a set of profiles. Please note that it is not updated automatically in the event of profiles being added to the database.
-
-  For more information on how to create a **[!UICONTROL Group]** type list, refer to this [page](#creating-a-profile-list-from-a-group).
-
-* **[!UICONTROL List]** type: The **[!UICONTROL List]** type lists allows you to use workflows to create and manage lists. These will be specific lists resulting from data imports, that can be updated via the dedicated **[!UICONTROL List update]** workflow activity.
-
-  Unlike the **[!UICONTROL Group]** type list, this type list can be automatically updated with a **[!UICONTROL Scheduler]** activity. Note that For an example on how to create **[!UICONTROL List]** type lists, refer to [this page](../../workflow/using/list-update.md).
-
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#create-list-video)
---> 
 
 ## Create a list of contacts {#create-a-list-of-contacts}
 
@@ -92,7 +79,7 @@ Once the execution is finished, access the **[!UICONTROL Profiles and Targets > 
 
 ## Create a list with a workflow  {#create-a-list-wf}
 
-You can use the **[!UICONTROL List update]** activity to add a population to a list of recipients.
+You can use the **[!UICONTROL List update]** activity to create a list or add a population to a list of recipients.
 
 In the example below, you create a list of all the recipients between 25 and 40. 
 
@@ -109,7 +96,8 @@ In the example below, you create a list of all the recipients between 25 and 40.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Learn how to create a query in a workflow in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target="_blank"}.
+   Learn how to create a query in a workflow in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target="_blank"}
+
 1. Add a label for this query and save your changes.
 1. Add a **[!UICONTROL List update]** activity, and edit it.
 
