@@ -17,6 +17,10 @@ title: Campaign v8 docs
   + [Classic v7 to v8](start/capability-matrix.md)
 + Start {#start}
   + [Get started](start/get-started.md)
+  + [Components and processes](start/ac-components.md)
+  + Campaign UI {#ac-ui}
+    + [Discover Campaign interface](start/campaign-ui.md)
+    + [Customize Campaign interface](start/customize-ui.md)
   + [Work with audiences](start/audiences.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)

@@ -61,6 +61,11 @@ Workflows can be used in different contexts, as for example:
 
 Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. 
 
+In addition to powerful, out-of-the box reporting templates, Adobe Campaign lets you create custom reports on a delivery, campaign, user, or segment level. Do descriptive analysis, summarize ROI, or export data to Adobe Analytics and other solutions for further data visualization and analysis.
+
+The campaign reporting feature facilitates the creation of dynamic reports. You can use drag-and-drop variables to customize your reports and to analyze the success of your campaigns. Depending on the complexity of your queries and calculations, the data can be aggregated into a list view or accessed in a format that makes it easy to generate marketing analytics reports.
+
+
 ![](../assets/do-not-localize/glass.png) Learn more about report and tracking capabilities in [this section](reporting.md).
 
 ## Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
@@ -75,45 +80,9 @@ Adobe Campaign offers a set of capabilities to help you implement and optimize t
 
 ![](../assets/do-not-localize/glass.png) Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
 
-## Workspace and customization
-
-Campaign workspace is available through the [Client Console](../dev/general-architecture.md). 
-
-![](assets/home-page.png) 
-
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign Client Console](../start/connect.md).
-
-Campaign workspace can be adapted depending on your needs. 
-
-![](../assets/do-not-localize/book.png)  Learn how to use Campaign workspace in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html){target="_blank"}
-
-![](../assets/do-not-localize/book.png)  Learn how to customize lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html){target="_blank"}
-
-You can also access some capabilities through the web.
-
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign Web Access](../start/connect.md#web-access).
-
-
-## Languages
-
-Campaign v8 user interface is available in the following languages:
-
-* English (UK)
-* English (US)
-* French
-* German
-* Japanese
-
-The language is selected during the installation process.
-
->[!CAUTION]
->
->The language cannot be changed after the instance creation. 
-
-Language affected dates and time formats. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time){target="_blank"}.
-
 **See also**
 
+* [Campaign workspace](campaign-ui.md)
 * [Campaign v8 Compatibility matrix](compatibility-matrix.md)
 * [Connect to Campaign](connect.md)
 * [Frequently Asked Questions](campaign-faq.md)
