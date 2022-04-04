@@ -25,17 +25,6 @@ The application can be accessed in different ways: Rich client, Thin client or A
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Campaign presentation layer](../start/ac-components.md).
 
-
-* **Client Console**: The main user interface of the application is a native application (on Windows) that communicates with the Adobe Campaign application server with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration as it only generates HTTP(S) traffic. 
-
-  ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Client Console](../start/connect.md).
-
-* **Web access**: parts of the application can be accessed via a simple web browser using an HTML user interface, including the reporting module, delivery approval stages, instance monitoring, etc. 
-
-  ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Web Access](../start/connect.md).
-  
-* **Campaign APIs**: In certain cases, the system can be called from external application using the Web Services APIs exposed via the SOAP protocol. 
-
 ## Development environment {#dev-env}
 
 Adobe Campaign is a single platform with different applications to create an open and scalable architecture. The Adobe Campaign platform is written on a flexible application layer and is easily configurable to meet your business needs. The distributed architecture ensures linear system scalability scaling from thousands of messages to millions of messages.
