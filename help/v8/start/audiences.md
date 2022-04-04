@@ -14,25 +14,17 @@ In Adobe Campaign, **recipients** are the default profiles targeted for sending 
 
 Learn how to import, update and manage profiles and audiences [in this section](../audiences/gs-audiences.md).
 
-## Privacy and consent
+## Create lists{#create-lists}
 
-Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
+A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-![](../assets/do-not-localize/book.png) Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
+![](../assets/do-not-localize/glass.png) Learn how to create and manage lists in [this page](../audiences/create-audiences.md).
 
-## Create lists
+## Filter the database{#filter-the-database}
 
-A list is a static set of profiles that can be targeted in delivery actions or updated during import operations or during workflow execution. For example, a population extracted from the database via a query can supply a list.
+Filter configuration lets you select data from a list **[!UICONTROL dynamically]**: when the data is modified, the filtered data is updated. You can create your own filters or use the built-in filters to define a target audience.
 
-![](../assets/do-not-localize/book.png) Learn how to create and manage lists in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target="_blank"}.
-
-## Query the database
-
-Use the **Query** activity in a workflow to query your database, segment data and build complex audiences. 
-
-![](../assets/do-not-localize/book.png) Learn more about Campaign queries in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target="_blank"}.
-
-![](../assets/do-not-localize/book.png) All targeting activities are listed in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target="_blank"}.
+![](../assets/do-not-localize/glass.png) Learn how to create and manage filters in [this page](../audiences/create-filters.md).
 
 ## Create an audience in a workflow
 
@@ -52,6 +44,14 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
+
+
+## Privacy and consent
+
+Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
+
+![](../assets/do-not-localize/book.png) Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
+
 
 **Related topics** in Campaign Classic v7 documentation:
 

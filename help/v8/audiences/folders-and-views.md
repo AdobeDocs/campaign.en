@@ -17,8 +17,18 @@ A view is a specific folder which does not contain any data but displays data th
 >To distinguish views from standard folders, their name is displayed in light blue instead of black.
 >
 
-Note that you can assign permissions to folders to restrict access to certain data. Learn more ---
+Note that you can assign permissions to folders to restrict access to certain data. [Learn more](#restrict-access-to-a-folder)
 
+## Best practices when working with folders
+
+* **Use built-in folders** to make it easier for every person involved in the project to use, maintain and troubleshoot the application. Avoid creating custom folder structures for recipients, lists, deliveries, etc., but use the standard folders such as **Administration**, **Profiles & Targets**, **Campaign management**.
+
+* **Create sub-folders**, for example save your technical workflows under the built-in folder: **[!UICONTROL Administration > Production > Technical Workflows]**, and create sub-folders per workflow type.
+
+* **Define and apply a naming convention**, for example you can name the workflows in alphabetical order, so that they appear sorted in the order of execution, such as:
+
+   A1 – import recipients, starts at 10:00;
+   A2 – import tickets, starts at 11:00.
 
 ## Create a folder{#create-a-folder}
 

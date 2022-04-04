@@ -16,7 +16,7 @@ Before starting, you need to:
 * Get your Campaign server URL 
 * Create your Adobe ID or get your user credentials from your company
 
-## Download and install the Client Console
+## Download and install the Client Console{#download-ac-console}
 
 When using Campaign for the first time, or if you need to upgrade to a newer version, you need to download the Client Console and install it. 
 
@@ -30,7 +30,7 @@ Two options are available:
 >
 >Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that all users are alerted when a new version of the Console is available.  If this option is selected the user will not be informed of new available versions.
 
-## Create your connection
+## Create your connection{#create-your-connection}
 
 Once the Client Console is newly installed, follow the steps below to create the connection to the application server:
 
@@ -54,7 +54,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 >
 >The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. Simply drag and drop each connection into a folder.
 
-## Log on to Adobe Campaign 
+## Log on to Adobe Campaign {#logon-to-ac}
 
 To log on to an existing instance, follow the steps below:
 
@@ -72,7 +72,7 @@ To log on to an existing instance, follow the steps below:
 
    ![](assets/adobeID.png) 
 
-## Grant access to users
+## Grant access to users{#grant-access}
 
 Adobe Campaign lets you define and manage the rights assigned to the various operators. These are a set of rights and restrictions that authorize or deny:
 
