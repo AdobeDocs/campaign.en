@@ -4,8 +4,8 @@ description: Understand Campaign processes and components
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
 ---
-
 # Understand Campaign processes and components {#components-and-processes}
 
 Adobe Campaign is a cross channel marketing solution that automates email, mobile, social and offline campaigns. Adobe Campaign provides a central place to access your customer data and profiles. Use Adobe Campaign to orchestrate consistent experiences to your customers, design, execute, and personalize your marketing across channels, while improving customer experiences on every device and touchpoint. With Adobe Campaign, you can manage multiple data sources, define your audience segments, and plan and execute multi-step, cross-channel campaigns through a drag-and-drop visual workflow interface.

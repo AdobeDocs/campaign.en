@@ -4,8 +4,8 @@ description: Learn how to browse and use Campaign workspace
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 ---
-
 # Discover Campaign user interface
 
 ## Access Campaign UI
