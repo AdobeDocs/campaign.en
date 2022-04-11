@@ -18,9 +18,7 @@ Learn more in Campaign Classic v7 documentation:
 
 This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=en#privacy-management-regulations){target="_blank"}.
 
-The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests.html#sale-of-personal-information-ccpa){target="_blank"}.
-
-![](../assets/do-not-localize/book.png)
+![](../assets/do-not-localize/book.png) The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests.html#sale-of-personal-information-ccpa){target="_blank"}.
 
 ## About Privacy requests {#about-privacy-requests}
 
@@ -130,7 +128,38 @@ The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKe
 * **NamespaceId**: Identity Service Namespace ID of the namespace used
 * **Reconciliation key**: Encoded reconciliation key
 
+### List of tables {#list-of-tables}
+
+From ACC
+
+When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
+
+Here is the list of out-of-the-box tables that are taken into account when performing Privacy requests:
+
+* Recipients (recipient)
+* Recipient delivery log (broadLogRcp)
+* Recipient tracking log (trackingLogRcp)
+* Archived event delivery log (broadLogEventHisto)
+* Recipient list content (rcpGrpRel)
+* Visitor offer proposition (propositionVisitor)
+* Visitors (visitor)
+* Subscription history (subHisto)
+* Subscriptions (subscription)
+* Recipient offer proposition (propositionRcp)
+
+If you created custom tables that have a link to the recipient table (own type), they will also be taken into account. For example, if you have a transaction table linked to the recipient table and a transaction details table linked to the transaction table, they will be both taken into account.
+
+>[!IMPORTANT]
+>
+>If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
+>* Profile deletion via workflows do not process children tables.
+>* You need to handle the deletion for all the children tables.
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+
+<!-->
 ### List of resources {#list-of-resources}
+
+From ACS
 
 When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **Reconciliation** value in all the resources that have a link to the profiles resource (own type).
 
@@ -162,7 +191,7 @@ For this to work, you must select the **[!UICONTROL Deleting the target record i
 
 1. In the **[!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
 
-    ![](assets/privacy-cus-resource-option.png)
+    ![](assets/privacy-cus-resource-option.png)-->
 
 ### Privacy request statuses {#privacy-request-statuses}
 
@@ -172,6 +201,9 @@ Here are the different statuses for Privacy requests:
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: the workflow is processing the request.
 * **[!UICONTROL Delete pending]**: the workflow has identified all the recipient data to delete.
 * **[!UICONTROL Delete in progress]**: the workflow is processing the deletion.
-    <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**: the processing of the request has finished without an error.
 * **[!UICONTROL Error]**: the workflow has encountered an error. The reason is displayed in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
+
+## Opt-out for the Sale of Personal Information (CCPA) {#sale-of-personal-information-ccpa}
+
+Link to v7 doc
