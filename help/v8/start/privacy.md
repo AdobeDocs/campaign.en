@@ -16,41 +16,27 @@ Learn more in Campaign Classic v7 documentation:
 
 * [Getting started with Privacy Management](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target="_blank"}.
 
-This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=en#privacy-management-regulations){target="_blank"}.
+This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"}.<!--move v7 section to a single page in ACC focs)-->
 
 ![](../assets/do-not-localize/book.png) The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests.html#sale-of-personal-information-ccpa){target="_blank"}.
 
 ## About Privacy requests {#about-privacy-requests}
 
-In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests. The **Right to Access** and the **Right to be Forgotten** (delete request) are described in [this section](#right-access-forgotten).
+In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests.
 
 To perform those requests, you must use the **Privacy Core Service** integration. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
 
-![](../assets/do-not-localize/book.png) Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=en#right-access-forgotten){target="_blank"}.
-
-## Right to Access and Right to be Forgotten {#right-access-forgotten}
-
-In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle **Access** and **Delete** requests.
-
-* The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and for what purpose. The Data Controller shall provide a copy of the personal data, free of charge, in an electronic format.
-
-* Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase their personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
+![](../assets/do-not-localize/book.png) Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
 
 ## Implementation steps
 
 Let's see how you can create Access and Delete requests, as well as how Adobe Campaign processes them.
 
-Currently in ACC, privacy requests can only be raised using API or UI presented by instance.
+<!--Currently in ACC, privacy requests can only be raised using API or UI presented by instance.
 This is a problem in v8 because:
 These requests are based on tenantIds. So if a customer is having N instances then he/she needs to raise N requests in order to process the privacy request in all of their environments.
 In case some error occurs while processing privacy request or job gets stuck, then customer is not aware of it as there is no alerting or monitoring around it.
-The Privacy Core Service integration will now allow to solve this issue. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
-
-Before creating Privacy requests, you need to define the namespace you will use. However ACC doesn't support importing Identity Service Namespaces yet. So once you have created a new namespace on Identity namespace service, you need to create manually the namespace from ACC UI using the Administration > Platform > Namespaces menu, with the AEC namespace ID matching the one in Identity namespace.
-
-
-
-<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
+The Privacy Core Service integration will now allow to solve this issue because Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.-->
 
 ### Prerequisites {#prerequesites}
 
@@ -60,13 +46,67 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 
 >[!NOTE]
 >
->For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Personal data and Personas](../../start/using/privacy.md#personal-data).
+>For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#personal-data){target="_blank"}.
 
 ### Namespaces {#namesspaces}
 
-Before creating Privacy requests, define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database. Out-of-the-box, two namespaces are available: email and mobile phone. If you need a different namespace (a profile custom field, for example), follow these steps.
+Before creating Privacy requests, define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database. 
 
-Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) on how to create a namespace.
+<!--ACC-->Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
+
+>[!NOTE]
+>
+>For optimal performance, it is recommended to use out-of-the-box namespaces.
+
+<!--However ACC doesn't support importing Identity Service Namespaces yet. So once you have created a new namespace on Identity namespace service, you need to create manually the namespace from ACC UI using the Administration > Platform > Namespaces menu, with the AEC namespace ID matching the one in Identity namespace.-->
+
+ACC doesnt support importing namespaces directly from Identity namespace, namespace needs to be created manually using UI on all instance before same can be used from Privacy Service
+Once you have created a new namespace on identity namespace service
+[Identity Service API](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}
+You will get:
+
+```
+{
+        "updateTime": 1632903236731,
+        "code": "accCPSTest",
+        "status": "ACTIVE",
+        "description": "test namespace",
+        "id": 10998717,
+        "createTime": 1632903236731,
+        "idType": "Email",
+        "namespaceType": "Custom",
+        "name": "ACC CPS Test",
+        "custom": true
+}
+```
+
+Now create a namespace corresponding to this on all instances :
+Go to Explorer→ Administration→ Platform→ Namespaces
+Click on create button, add details as below and save.
+Please note that AEC namespace ID must match the one in Identity namespace.
+
+Also, if creating requests on privacy UI/API then it may take some time for CPS to send namespaceID along with new custom namespace. ACC, ACS both process requests on basis of namespaceid so if its not present, request wont be handled. On stage I had observed this behavior, may not be applicable on prod.
+
+Notes:
+
+Request will NOT be processed if namespace doesnt exist on instance. Whoever is creating the request should ensure that namespace exists on instance also.
+Standard namespaces email(6) and phone(7) are created by default
+Any other namespaces which are to be used for privacy request processing must be created on the instance with proper details.
+If a custom namespace has been created/ or a new standard namespace is being added to ACC
+then with correct
+AEC Namespace ID
+Target mapping
+Reconciliation key
+namespace must be created on the instance
+
+Corresponds to a custom namespace in the Organization this instance has been provisioned with. AEC Namespace ID must match id in Identity Namespaces.
+
+Else request will not be processed and data will not be deleted/access data generated.
+
+Create different requests for different namespaces. Every namespace should be requested in a different request for single reconciliation value. ACS and ACC both support single namespace per privacy request, so requests should be created with 1 namespace per request, if multiple namespaces are to be considered, create one request per namespace for same reconciliation value.
+If creating requests via UI, only single namespace can be used, but consider this point when making request using CPS API.
+
+<!--ACS - Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) on how to create a namespace.-->
 
 >[!NOTE]
 >
@@ -74,7 +114,7 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 1. Click the Adobe Campaign logo in the top-left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
-    ![](assets/privacy-namespaces.png)
+    ![](assets/xxx.png)
 
 1. In the list of namespaces, click **[!UICONTROL Create]**.
 
@@ -106,28 +146,6 @@ Also refer to this [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 1. Click **[!UICONTROL Create]**. You can now create Privacy requests based on your new namespace. If you use several namespaces, create one Privacy request per namespace.
 
-### Creating a Privacy request {#create-privacy-request}
-
-<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
-
-The Privacy Core Service Integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
-
-Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) documentation to learn how to create Privacy requests from the Privacy Core Service.
-
->[!IMPORTANT]
->
->To submit a request using the custom namespace type, leverage the [JSON method](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target="_blank"} to make the request.
->
->Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"} to submit requests using the standard namespace type.
-
-Each Privacy core service job is split into multiple Privacy requests in Campaign based on how many namespaces are being used, one request corresponding to one namespace. Also, one job can be run on multiple instances. Therefore, multiple files are created for one job. For example, if a request has two namespaces and is running on three instances, then a total of six files are sent. One file per namespace and instance.
-
-The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
-
-* **InstanceName**: Campaign instance name
-* **NamespaceId**: Identity Service Namespace ID of the namespace used
-* **Reconciliation key**: Encoded reconciliation key
-
 ### List of tables {#list-of-tables}
 
 From ACC
@@ -155,43 +173,6 @@ If you created custom tables that have a link to the recipient table (own type),
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
 >* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
-
-<!-->
-### List of resources {#list-of-resources}
-
-From ACS
-
-When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **Reconciliation** value in all the resources that have a link to the profiles resource (own type).
-
-Here is the list of out-of-the-box resources that are taken into account when performing Privacy requests:
-
-* Profiles (recipient)
-* Profile delivery logs (broadLogRcp)
-* Profile tracking logs (trackingLogRcp)
-* Delivery logs (Subscriptions to an application) (broadLogAppSubRcp)
-* Tracking logs (Subscriptions to an application) (trackingLogAppSubRcp)
-* Subscriptions to an application (appSubscriptionRcp)
-* Subscription history of profiles (subHistoRcp)
-* Profile subscriptions (subscriptionRcp)
-* Visitors (visitor)
-
-If you created custom resources that have a link to the profiles resource (own type), they will also be taken into account. For example, if you have a transaction resource linked to the profiles resource and a transaction details resource linked to the transaction resource, they will be both taken into account.
-
-Also refer to [this tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) on how to modify custom resources.
-
-For this to work, you must select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option in the custom resource:
-
-1. Click the Adobe Campaign logo in the top-left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
-
-1. Select a custom resource that has a link to the profiles resource (own type).
-
-1. Click the **[!UICONTROL Links]** section.
-
-1. For each link, click the pencil icon (**[!UICONTROL Edit properties]**).
-
-1. In the **[!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
-
-    ![](assets/privacy-cus-resource-option.png)-->
 
 ### Privacy request statuses {#privacy-request-statuses}
 
