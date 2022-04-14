@@ -1,12 +1,11 @@
 ---
-title: Work with Campaign and your CRM
-description: Learn how to work with Campaign and your CRM
+title: Work with Campaign and Microsoft Dynamics
+description: Learn how to work with Campaign and Microsoft Dynamics
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
 ---
-# Connect your CRM with Campaign {#gs-crm}
+# Work with Campaign and Microsoft Dynamics{#crm-ms-dynamics}
 
 Adobe Campaign provides various CRM connectors for linking your Adobe Campaign platform to your third-party systems. These CRM connectors enable you to synchronize contacts, accounts, purchases, etc. They make for easy integration of your application with various third-party and business applications.
 
@@ -24,9 +23,10 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../st
 
 ## Implementation steps {#crm-implementation-steps}
 
-Learn step-by-step procedure to connect Campaign and Microsoft Dynamics in [this page](ac-ms-dyn.md).
+![](../assets/do-not-localize/book.png) Learn step-by-step procedure to connect Campaign and Microsoft Dynamics in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-Learn step-by-step procedure to connect Campaign and Salesforce.com in [this page](ac-sfdc.md).
+![](../assets/do-not-localize/book.png) Learn step-by-step procedure to connect Campaign and Salesforce in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+
 
 Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity. Build your workflows to automate synchronization between Campaign and your CRM. You can create a workflow which imports the contacts via Microsoft Dynamics, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and then updates the Adobe Campaign database.
 

@@ -98,7 +98,10 @@ title: Campaign v8 docs
   + [Campaign + RTCDP](connect/ac-rtcdp.md)
   + [Campaign + Twitter](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
-  + [Campaign + your CRM](connect/crm.md)
+  + Campaign + your CRM {#ac-crm}
+    + [Get started with CRM connectors](connect/crm.md)
+    + [Work with Campaign and SFDC](connect/ac-sfdc.md)
+    + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)
