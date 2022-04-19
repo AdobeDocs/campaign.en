@@ -64,7 +64,7 @@ To generate the certificate you can use openssl.
 
 For example:
 
- ```
+```
 - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
 ```
 
