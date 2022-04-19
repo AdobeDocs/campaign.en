@@ -102,6 +102,7 @@ title: Campaign v8 docs
     + [Get started with CRM connectors](connect/crm.md)
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
+    + [Synchronize data](connect/crm-data-sync.md)
 + Developer resources {#architecture}
   + [Global principles](dev/general-architecture.md)
   + [Architecture](dev/architecture.md)

@@ -38,22 +38,21 @@ First, you must create the Salesforce external account.
 
 1. Select the **Enable** option to activate the account in Campaign.
 
+>[!NOTE]
+>
+>To approve the setup, you need to log off and back on to the Adobe Campaign console.
+
 ## Select tables to synchronize{#sfdc-create-tables}
 
 You can now configure tables to synchonize.
 
 1. Click the **[!UICONTROL Salesforce CRM configuration wizard...]**.
-
-   >[!NOTE]
-   >
-   >To approve the setup, you need to log off and back on to the Adobe Campaign console.
-
+1. Select the tables to synchronize and start the process.
 1. Check the schema generated in Adobe Campaign in the **[!UICONTROL Administration > Configuration > Data schemas]** node.
 
    Example of a **Salesforce** schema imported in Campaign:
 
    ![](assets/sfdc-schemas.png)
-
 
 ## Synchronize enumerations{#sfdc-enum-sync}
 
@@ -72,6 +71,6 @@ Once the schema is created, you can synchronize enumerations automatically from 
 
 Adobe Campaign and Salesforce.com are now connected. You can set up data synchronization between the two systems. 
 
-To synchronize data between Adobe Campaign data and SFDC, you need to create a workflow and use the **[!UICONTROL CRM connector]** activity.
+To synchronize data between Adobe Campaign data and SFDC, create a workflow and use the **[!UICONTROL CRM connector]** activity.
 
-Learn more about data synchronization [in this page](../../platform/using/crm-data-sync.md).
+Learn more about data synchronization [in this page](crm-data-sync.md).

@@ -12,6 +12,15 @@ Adobe Campaign provides various CRM connectors for linking your Adobe Campaign p
 
 These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
+Key benefits are:
+
+* Consistent messaging between sales & marketing: the Adobe Campaign integration with your CRM gives both systems access to customer insight and email marketing history allowing all messages to the customer to share the same consistent messaging.
+
+* Holistic view of all prospect and customer data: by integrating Adobe Campaign with your CRM, it is possible to share and access email marketing history on each contact from within the CRM system.
+
+* Activate your CRM data on any channel: with contact data synchronized to Adobe Campaign, communications can be sent on any online or offline channel with Campaign including mobile push, in-app, email, or direct mail.
+
+
 >[!NOTE]
 >
 >This feature is available in Adobe Campaign through the **CRM connectors** dedicated package.
