@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Microsoft Dynamics
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 ---
 # Work with Campaign and Microsoft Dynamics 365{#crm-ms-dynamics}
 
