@@ -24,7 +24,7 @@ For each system, these steps need to be performed by an administrator.
 
 ## Configure Microsoft Dynamics 365 {#config-crm-microsoft}
 
-To connect Microsoft Dynamics 365 to work with Adobe Campaign via **Web API**, log on to [Microsoft Azure Directory](https://portal.azure.com) using a **Global administrator** credentials, and follow the steps below:
+To connect Microsoft Dynamics 365 to work with Adobe Campaign via **Web API**, log on to [Microsoft Azure Directory](https://portal.azure.com) using a **Global administrator** credential, and follow the steps below:
 
 1. Get your Dynamics 365 Application (client) ID. [Learn more](#get-client-id-microsoft)
 1. Generate Microsoft Dynamics Certificate key identifier and Key ID. [Learn more](#config-certificate-key-id)
@@ -60,7 +60,7 @@ The **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId
 
 +++ How to generate the public certificate
 
-To generate the certificate you can use openssl.
+To generate the certificate, you can use openssl.
 
 For example:
 
@@ -72,7 +72,7 @@ For example:
 >
 >You can change the number of days, here `-days 365`, in the code sample for a longer certificate validity period.
 
-You then need to encode the certificate in base64. To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
+You must then encode the certificate in base64. To do so, you can use the help of a Base64 encoder or use the command line `base64 -w0 private.key` for Linux.
 
 +++
 
@@ -120,14 +120,8 @@ The App user is the user that the application registered above will use. Any cha
 **Step 3**: Create an application user on Dynamics CRM
 
 1. From [Microsoft Azure](https://portal.azure.com), navigate to **Settings > Security > Users**.
-1. Click on drop down, select **Application users** and click **New**.
-1. Use the same username as the user created on active directory above 
-
-   >[!NOTE]
-   >
-   >Using the same name throws duplicate key error, so until we get a confirmation as whether this step is needed, use a different username and proceed.
-   >
-
+1. Click on drop down, select **Application users**, and click **New**.
+1. Use the same username as the user created on active directory above.
 1. Assign the **Application ID** for [the application you created earlier](#get-client-id-microsoft).
 1. Click on **Manage Roles** and choose the **System administrator** role to the user.
 
@@ -143,7 +137,7 @@ First, you must create the Microsoft Dynamics 365 external account.
     
     ![](assets/ms-dyn-external-account.png)
 
-    1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with **Password Credentials**, you need to provide the following details:
+    1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with **Password Credentials**, provide the following details:
 
         * **Server**: URL of your Microsoft CRM server. To find your Microsoft CRM Server URL, access your Microsoft Dynamics CRM account then click Dynamics 365 and select your app. You can then find your Server URL in the address bar of your browser, e.g. https://myserver.crm.dynamics.com/.
         * **Account**: Account used to sign in to Microsoft CRM.
@@ -151,7 +145,7 @@ First, you must create the Microsoft Dynamics 365 external account.
         * **Client identifier**: Application (client) ID which can be found from Microsoft Azure management portal in the Update your code category, Client ID field.
         * **CRM version**: Choose Dynamics CRM 365 CRM version.
 
-    1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with a **Certificate**, you need to provide the following details:
+    1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with a **Certificate**, provide the following details:
 
         * **Server**: URL of your Microsoft CRM server. To find your Microsoft CRM Server URL, access your Microsoft Dynamics CRM account then click Dynamics 365 and select your app. You can then find your Server URL in the address bar of your browser, e.g. https://myserver.crm.dynamics.com/.
         * **Private key**: Copy/Paste the private key, encoded base64 as explained in [this section](#config-certificate-key-id).
@@ -164,11 +158,11 @@ First, you must create the Microsoft Dynamics 365 external account.
 
 >[!NOTE]
 >
->To approve the setup, you need to log off and back on to the Adobe Campaign console.
+>To approve the setup, log off and back on to the Adobe Campaign console.
 
 ### Select tables to synchronize{#ms-dyn-create-tables}
 
-You can now configure tables to synchonize.
+You can now configure tables to synchronize.
 
 1. Click the **[!UICONTROL Microsoft CRM configuration wizard...]**.
 1. Select the tables to synchronize and start the process.
@@ -176,7 +170,7 @@ You can now configure tables to synchonize.
 
 >[!NOTE]
 >
->You need to make sure to add to the allowlist two URLs: the server URL and `login.microsoftonline.com`. To perform this, contact your Adobe representative.
+>Make sure to add to the allowlist two URLs: the server URL and `login.microsoftonline.com`. To perform this, contact your Adobe representative.
 
 ## Synchronize enumerations{#sfdc-enum-sync}
 

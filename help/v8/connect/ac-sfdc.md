@@ -44,7 +44,7 @@ First, you must create the Salesforce external account.
 
 ## Select tables to synchronize{#sfdc-create-tables}
 
-You can now configure tables to synchonize.
+You can now configure tables to synchronize.
 
 1. Click the **[!UICONTROL Salesforce CRM configuration wizard...]**.
 1. Select the tables to synchronize and start the process.

@@ -62,7 +62,7 @@ To import data via the CRM in Adobe Campaign, you need to create the following t
    >
    >The limitations related to data filtering modes are detailed in [this section](#filtering-data).
 
-1. Use the **[!UICONTROL Use automatic index...]** option to automatically manage incremental object synchronization between your CRM and Adobe Campaign, depending on the date and their last modification.
+1. Select the **[!UICONTROL Use automatic index...]** option to automatically manage incremental object synchronization between your CRM and Adobe Campaign, depending on the date and their last modification.
 
    For more on this, refer to [this section](#variable-management).
 
@@ -122,7 +122,7 @@ The order of the columns in the list is the sorting order:
 
 ### Record identification {#record-identification}
 
-Rather than import elements included (and possibly filtered) in the CRM, you can use a population calculated beforehand in the workflow.
+Rather than import elements included (and possibly filtered) in your CRM, you can use a population calculated beforehand in the workflow.
 
 To do this, select the **[!UICONTROL Use the population calculated upstream]** option and specify the field that contains the remote identifier.
 
@@ -134,7 +134,7 @@ Then select the fields of the inbound population that you want to import, as sho
 
 Export Adobe Campaign data into your CRM to copy its entire contents to your CRM database.
 
-To export data to your the CRM, create the following type of workflow:
+To export data to your CRM, create the following type of workflow:
 
 ![](assets/crm-export-diagram.png)
 
@@ -155,7 +155,7 @@ To export data to your the CRM, create the following type of workflow:
 
    >[!NOTE]
    >
-   >If no match is defined for a field, the values cannot be updated: they are inserted directly into the CRM.
+   >If no match is defined for a field, the values cannot be updated: they are inserted directly into your CRM.
 
    If necessary, change the data format using the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [this section](#data-format).
 
@@ -197,7 +197,7 @@ The **[!UICONTROL Reject]** output transition lets you access the output schema 
 
 ## Import objects deleted in the CRM {#importing-objects-deleted-in-the-crm}
 
-You can import objects deleted in the CRM into Adobe Campaign.
+You can import objects deleted in your CRM into Adobe Campaign.
 
 1. Select an **[!UICONTROL Import objects deleted in the CRM]** operation.
 1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. This object matches with one of the tables created in Adobe Campaign during connector configuration.
