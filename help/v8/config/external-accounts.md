@@ -19,7 +19,7 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 >[!CAUTION]
 >
->A specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
+>In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 >
 >As a Managed Cloud Services user, this external account is configured for your instance by Adobe. It must not be modified.
 
@@ -86,53 +86,19 @@ The following technical accounts are used by Adobe Campaign to enable and execut
     ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
 
 
-## CRM Connector External Accounts 
+## CRM Connector External accounts 
 
 * **Microsoft Dynamics CRM**
 
     The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign.
     
-    ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/crm.md).
-
-    With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
-
-    * **[!UICONTROL Account]**: Account used to sign in to Microsoft CRM.
-
-    * **[!UICONTROL Server]**: URL of your Microsoft CRM server.
-
-    * **[!UICONTROL Client identifier]**: Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
-
-    * **[!UICONTROL CRM version]**: Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
-
-    With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
-
-    * **[!UICONTROL Server]**: URL of your Microsoft CRM server.
-
-    * **[!UICONTROL Private Key (Base64 encoded)]**: Private key encoded to Base64
-
-    * **[!UICONTROL Custom Key identifier]**
-
-    * **[!UICONTROL Key ID]**
-
-    * **[!UICONTROL Client identifier]**: Client ID which can be found from Microsoft Azure management portal in the **[!UICONTROL Update your code]** category, **[!UICONTROL Client ID]** field.
-
-    * **[!UICONTROL CRM version]**: Version of the CRM between **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** or **[!UICONTROL Dynamics CRM 2016]**.
+    ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com**
 
     The **[!UICONTROL Salesforce CRM]** external account allows you to import and export Salesforce data into Adobe Campaign.
 
-    To configure the Salesforce CRM external account to work with Adobe Campaign, you need to provide the following details:
-
-    * **[!UICONTROL Account]**: Account used to sign in to Salesforce CRM.
-
-    * **[!UICONTROL Password]**: Password used to sign in to Salesforce CRM.
-
-    * **[!UICONTROL Client identifier]**: Learn how to find your client identifier in [this page](https://help.salesforce.com/articleView?id=000205876&type=1).
-
-    * **[!UICONTROL Security token]**: Learn how to find your security token in [this page](https://help.salesforce.com/articleView?id=000205876&type=1).
-
-    * **[!UICONTROL API version]**: Select the version of the API. For this external account, you need to configure you Salesforce CRM with the configuration wizard.
+    ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Salesforce.com CRM integration in [this page](../connect/ac-sfdc.md).
 
 ## Transfer Data external accounts
 

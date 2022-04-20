@@ -7,7 +7,7 @@ level: Beginner
 ---
 # [!DNL Campaign] FFDA deployment{#gs-ac-ffda}
 
-By leveraging [[!DNL Snowflake]](https://www.snowflake.com/), a cloud database technology, Adobe Campaign Enterprise (FFDA) deployment dramatically improves its scale and speed, with the ability to manage a more significant number of customer profiles, as well as much higher delivery rates and transactions per hour. 
+By leveraging [[!DNL Snowflake]](https://www.snowflake.com/), a cloud database technology, Adobe Campaign Enterprise Full Federated Access (FFDA) deployment dramatically improves its scale and speed, with the ability to manage a more significant number of customer profiles, as well as much higher delivery rates and transactions per hour. 
 
 Campaign v8 Enterprise (FFDA) brings end-to-end scale at any step of the process, from targeting to the final reporting:
 
