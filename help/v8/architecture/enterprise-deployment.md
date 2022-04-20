@@ -65,4 +65,4 @@ Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically 
 
 **Related topics**
 
-* [Data model best practices](datamodel-best-practices.md)
+* [Data model best practices](../dev/datamodel-best-practices.md)

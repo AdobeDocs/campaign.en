@@ -154,7 +154,7 @@ The **xpath** attribute points to the field in your schema that you wish to inde
 >
 >It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
 
-For more on indexes, refer to the [Indexed fields](../../configuration/using/database-mapping.md#indexed-fields) section.
+For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
 
 
 ## Keys {#keys}
