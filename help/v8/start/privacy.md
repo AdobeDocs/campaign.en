@@ -38,7 +38,7 @@ It is therefore your responsibility as a Data Controller to confirm the identity
 >
 >For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}.
 
-## Namespaces {#namesspaces}
+## Namespaces {#namespaces}
 
 Before creating a Privacy request, you must define the namespace you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
