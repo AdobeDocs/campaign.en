@@ -127,9 +127,41 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
 
+## Index {#index} 
+
+In the context of a **FDA Snowflake deployment**, you need to declare indexes. Indexes are the first elements declared in the main element of the schema.
+
+They can be unique or not, and reference one or more fields.
+
+Examples:
+
+```
+<dbindex name="email" unique="true">
+  <keyfield xpath="@email"/>
+</dbindex>
+```
+
+```
+<dbindex name="lastNameAndZip">
+  <keyfield xpath="@lastName"/>
+  <keyfield xpath="location/@zipCode"/>
+</dbindex>
+```
+
+The **xpath** attribute points to the field in your schema that you wish to index.
+
+>[!IMPORTANT]
+>
+>It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
+
+For more on indexes, refer to the [Indexed fields](../../configuration/using/database-mapping.md#indexed-fields) section.
+
+
 ## Keys {#keys}
 
-Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **@autouuid** and **autopk** attributes set to **true**.
+Every table must have at least one key, and often it is automatically established in the main element of the schema by using the **autopk** attribute set to **true**.
+
+In addition, in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), use the **@autouuid** and set it to **true**.
 
 The primary key can also be defined using the **internal** attribute.
 
@@ -141,7 +173,7 @@ Example:
 </key>
 ```
 
-In this example, instead of letting the **@autouuid** attribute create a default primary key named “id” we are specifying our own “householdId” primary key.
+In this example, instead of letting the **@autopk** or the **@autouuid** attribute create a default primary key named “id” we are specifying our own “householdId” primary key.
 
 >[!CAUTION]
 >

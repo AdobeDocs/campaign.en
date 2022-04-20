@@ -84,7 +84,6 @@ title: Campaign v8 docs
   + [Use cases](interaction/interaction-use-cases.md)
 + Configure {#config}
   + [Automate with workflows](config/workflows.md)
-  + [Manage data](config/replication.md)
   + [Email settings](config/email-settings.md)
   + [Transactional messaging settings](config/transactional-msg-settings.md)
   + [Integrate Campaign SDKs with your app](config/push-config.md)
@@ -103,13 +102,10 @@ title: Campaign v8 docs
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
-+ Developer resources {#architecture}
-  + [Global principles](dev/general-architecture.md)
-  + [Architecture](dev/architecture.md)
-  + [Datamodel](dev/datamodel.md)
++ Developer resources {#developer}
+  + [Campaign datamodel](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
-    + [Key management and unicity](dev/keys.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
     + [Filter schemas](dev/filter-schema.md)
@@ -119,8 +115,14 @@ title: Campaign v8 docs
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
-  + APIs {#api}
-    + [Get started](dev/api.md)
-    + [New APIs](dev/new-apis.md)
-    + [API staging mechanism](dev/staging.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+  + [Campaign APIs](dev/api.md)
++ Architecture & deployment {#architecture}
+  + [Global principles](architecture/general-architecture.md)
+  + [Architecture](architecture/architecture.md)
+  + Enterprise (FFDA) deployment {#ffda}
+    + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
+    + [Key management and unicity](architecture/keys.md)
+    + [New APIs](architecture/new-apis.md)
+    + [API staging mechanism](architecture/staging.md)
+    + [Replication mechanism](architecture/replication.md)
+  + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
