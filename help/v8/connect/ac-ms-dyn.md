@@ -42,7 +42,7 @@ To get the Application (client) ID, you need to register an App in Azure Active 
 
 Once you save, Microsoft Azure Directory assigns a unique **Application (client) ID** to your app. You will need this ID later on in configuring Dynamics 365 in Adobe Campaign.
 
-Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 
 ### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
