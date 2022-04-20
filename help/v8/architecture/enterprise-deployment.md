@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 ---
-# Get Started with [!DNL Campaign] FFDA deployment{#gs-ac-ffda}
+# [!DNL Campaign] FFDA deployment{#gs-ac-ffda}
 
 By leveraging [[!DNL Snowflake]](https://www.snowflake.com/), a cloud database technology, Adobe Campaign Enterprise (FFDA) deployment dramatically improves its scale and speed, with the ability to manage a more significant number of customer profiles, as well as much higher delivery rates and transactions per hour. 
 
