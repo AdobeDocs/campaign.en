@@ -4,6 +4,7 @@ description: Learn how to manage folders and views in Campaign explorer
 feature: Audiences, Profiles, Application Settings
 role: Data Engineer
 level: Beginner
+exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 ---
 # Manage folders and views {#folders-and-views}
 
@@ -130,6 +131,3 @@ The authorizations defined in this window will then be applied to all the sub-fo
 In the **[!UICONTROL Security]** tab, select the **[!UICONTROL System folder]** to allow access to all operators, regardless of their permissions. 
 
 If this option is cleared, you must explicitly add the operator (or their group) back to the list of authorizations for them to have access.
-
-
-

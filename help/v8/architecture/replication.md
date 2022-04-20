@@ -10,12 +10,11 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff
 
 ## Technical workflows{#tech-wf}
 
-Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
+In its Enterprise (FFDA) deployment model, Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
 ![](../assets/do-not-localize/book.png) The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
-
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
@@ -65,7 +64,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
-
 
 
 **Related topics**

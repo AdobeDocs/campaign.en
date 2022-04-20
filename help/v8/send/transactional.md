@@ -20,7 +20,7 @@ Transactional messages are used to send:
 
 ![](../assets/do-not-localize/glass.png) Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../architecture/architecture.md).
 
 >[!CAUTION]
 >

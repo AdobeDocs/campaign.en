@@ -4,6 +4,7 @@ description: Learn how to customize Campaign UI
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
 ---
 # Customize Campaign UI{#customize-ac-ui}
 
@@ -41,4 +42,3 @@ In the fields that express a duration (e.g. validity period of the resources of 
 * **[!UICONTROL mn]** for minutes,
 * **[!UICONTROL h]** for hours,
 * **[!UICONTROL d]** for days.
-

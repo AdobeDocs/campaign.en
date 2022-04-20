@@ -4,6 +4,7 @@ description: Learn how to filter your data and save filters in Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 ---
 # Create and manage filters{#create-filters}
 

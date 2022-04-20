@@ -60,9 +60,9 @@ You can also use a different recipient table to better fit with your business or
 
 ## Campaign tables and Cloud database
 
-For a better understanding of table management in Campaign v8, note that tables are replicated between Campaign and its Snowflake Cloud database.
+For a better understanding of table management in Campaign v8, note that, in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), tables are replicated between Campaign and its Snowflake Cloud database.
 
-![](../assets/do-not-localize/glass.png) Learn more about replication strategy and mechanisms in [this section](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Learn more about replication strategy and mechanisms in [this section](../architecture/replication.md).
 
 **Related topics**
 

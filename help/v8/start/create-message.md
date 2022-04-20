@@ -77,7 +77,7 @@ You can:
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
+![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
 
 ![](../assets/do-not-localize/glass.png) Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 

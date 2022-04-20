@@ -49,7 +49,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
     In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
 
-    ![](../assets/do-not-localize/glass.png) Learn more about Message Center architecture in [this page](../dev/architecture.md#transac-msg-archi).
+    ![](../assets/do-not-localize/glass.png) Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
 
 ## Access to External Systems external accounts 
 

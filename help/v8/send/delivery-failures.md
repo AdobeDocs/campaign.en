@@ -4,6 +4,7 @@ description: Understand possible failures when sending messages with Adobe Campa
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 ---
 # Understand delivery failures{#delivery-failures}
 
@@ -657,4 +658,3 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails.
 
 The Extended generic SMPP connector applies a heuristic to find sensible default values: if the status begins with **DELIV**, it is considered a success because it matches the common statuses **DELIVRD** or **DELIVERED** used by most providers. Any other status leads to a hard failure.
-

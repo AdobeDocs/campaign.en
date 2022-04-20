@@ -4,6 +4,7 @@ description: Learn how to create and manage profiles and audiences in Campaign
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
+exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 ---
 # Get started with profiles and audiences in Campaign{#gs-profiles-and-audiences}
 
