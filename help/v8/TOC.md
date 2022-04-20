@@ -29,6 +29,16 @@ title: Campaign v8 docs
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
   + [FAQ](start/campaign-faq.md)
++ Architecture {#architecture}
+  + [Global principles](architecture/general-architecture.md)
+  + [Architecture](architecture/architecture.md)
+  + Enterprise (FFDA) deployment {#ffda}
+    + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
+    + [Key management and unicity](architecture/keys.md)
+    + [New APIs](architecture/new-apis.md)
+    + [API staging mechanism](architecture/staging.md)
+    + [Replication mechanism](architecture/replication.md)
+  + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
   + [Customize your instance](dev/customize.md)
@@ -116,13 +126,3 @@ title: Campaign v8 docs
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
-+ Architecture & deployment {#architecture}
-  + [Global principles](architecture/general-architecture.md)
-  + [Architecture](architecture/architecture.md)
-  + Enterprise (FFDA) deployment {#ffda}
-    + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
-    + [Key management and unicity](architecture/keys.md)
-    + [New APIs](architecture/new-apis.md)
-    + [API staging mechanism](architecture/staging.md)
-    + [Replication mechanism](architecture/replication.md)
-  + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
