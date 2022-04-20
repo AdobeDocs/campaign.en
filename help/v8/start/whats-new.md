@@ -44,8 +44,7 @@ Key capabilities include:
 
 * **Speed and scale**. Adobe Campaign can now leverage cloud scale database technologies to dramatically improve its scale and speed.
 
-    With its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), Adobe Campaign v8 leverages the Cloud Database Manager, leading to queries performing up to 200x faster, multi-petabyte scale, increased number of messages per hour, with up to 20M/hour or 1M/hour for transactional messages, and manage up to 200M active profiles with the potential to reach 1B.
-
+    [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new offering, Campaign v8 simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. [!DNL Snowflake] is the Campaign Cloud Database, it will bring you speed and endurance: no overload of the system activity peaks. The Cloud database technology does not require specific maintenance to guarantee the level of performance. [Learn more](../architecture/enterprise-deployment.md)
 
 
 >[!CAUTION]
@@ -80,9 +79,3 @@ You can also configure predictive send time optimization and predictive engageme
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Campaign integrations](../connect/integration.md)
 
-
-## Simplification and performances{#ffda}
-
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md) brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. 
-
-With this new offering, Campaign v8 simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. [!DNL Snowflake] is the Campaign Cloud Database, it will bring you speed and endurance: no overload of the system activity peaks. The Cloud database technology does not require specific maintenance to guarantee the level of performance. [Learn more](../architecture/enterprise-deployment.md)
