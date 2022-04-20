@@ -7,51 +7,43 @@ feature: Email
 ---
 # Sending with the Enhanced MTA {#sending-with-enhanced-mta}
 
-The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for improved deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
+The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for optimal deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
 It is implemented to improve scalability, increase delivery throughput and help send more emails faster. This is achieved with new adaptive delivery techniques that alter email sending settings in real-time based on feedback from Internet Service Providers.
 
-### Usage and benefits
+## Usage and benefits
 
 **What is the Enhanced MTA?**
 
-Adobe Campaign can now be upgraded to use a new MTA (Mail Transfer Agent) which runs SparkPost’s commercial email MTA called **Momentum**.
+Adobe Campaign uses a Mail Transfer Agent (MTA) which runs SparkPost’s commercial email MTA called **Momentum**.
 
-Momentum represents innovative, high-performance MTA technology which includes smarter bounce handling and an automated deliverability optimization capability that helps senders achieve and maintain optimal inbox delivery rates. <!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum represents innovative, high-performance MTA technology which includes smarter bounce handling and an automated deliverability optimization capability that helps senders achieve and maintain optimal inbox delivery rates.
 
 **What are the benefits?**
 
-* Adobe Campaign clients using the Enhanced MTA have seen a <!--300%-->massive increase in overall throughput speed, and a <!--90%+-->significant reduction in soft bounces.
-* The Enhanced MTA uses the latest MTA technology to provide you with the optimal throughput speeds for your email delivery.
+* The Enhanced MTA allows a massive increase in overall throughput speed and a significant reduction in soft bounces.
+* It uses the latest MTA technology to provide you with the optimal throughput speeds for your email delivery.
 * By adapting instantly and automatically to the feedback it receives, it also ensures more accurate and intelligent email delivery with real-time delivery data.
 
 ## Enhanced MTA specificities {#enhanced-mta-impacts}
 
 ### New MX rules
 
-The MX management delivery throughput rules are no longer used. The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
-For more on MX configuration, see [this section](../../installation/using/email-deliverability.md#mx-configuration).
+The Enhanced MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
 
 ### Bounce qualification
 
-The bounce qualifications in the Campaign **[!UICONTROL Delivery log qualification]** table are no longer used for **synchronous** delivery failure error messages. The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
+For **synchronous** delivery failure error messages, the Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign.
 
 >[!NOTE]
 >
->The Enhanced MTA qualifies the SMTP bounce and sends that qualification back to Campaign in the form of a bounce code mapped to a Campaign bounce reason and qualification.
+>Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, refer to [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
-For more on bounce qualification, see [this section](understanding-delivery-failures.md#bounce-mail-qualification).
+The Enhanced MTA qualifies the SMTP bounce and sends that qualification back to Campaign in the form of a bounce code mapped to a Campaign bounce reason and qualification.
 
-### Delivery throughput
-
-The Campaign Delivery throughput graph will no longer display the throughput to your email recipients. That graph will now show the throughput speed for the relay of your messages from Campaign over to the Enhanced MTA.
-
-For more on the delivery throughput, see [this section](../../reporting/using/global-reports.md#delivery-throughput).
-
->[!NOTE]
->
->With the [Email Feedback Service](#email-feedback-service) (EFS) capability (currently available as beta), the Campaign Delivery throughput graph is still showing the throughput to your email recipients.
+Learn more on delivery failures in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}
 
 ### Validity period
 
@@ -67,24 +59,6 @@ For more on the validity period, see [this section](steps-sending-the-delivery.m
 
 DKIM (DomainKeys Identified Mail) email authentication signing is done by the Enhanced MTA. DKIM-signing by the native Campaign MTA will be turned off within the Domain management table as part of the Enhanced MTA upgrade.
 For more on DKIM, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-
-### Delivery success reporting
-
-In the **[!UICONTROL Summary]** view of an email delivery [dashboard](delivery-dashboard.md), the **[!UICONTROL Success]** percentage starts out at 100% and then progressively goes down throughout the delivery [validity period](steps-sending-the-delivery.md#defining-validity-period), as the soft and hard bounces get reported back from the Enhanced MTA to Campaign.
-
-Indeed, all messages show as **[!UICONTROL Sent]** in the [sending logs](delivery-dashboard.md#delivery-logs-and-history) as soon as they are successfully relayed from Campaign to the Enhanced MTA. They remain in that status unless or until a [bounce](understanding-delivery-failures.md#delivery-failure-types-and-reasons) for that message is communicated back from the Enhanced MTA to Campaign.
-
-When hard-bouncing messages get reported back from the Enhanced MTA, their status changes from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
-
-When soft-bouncing messages get reported back from the Enhanced MTA, they still show as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is not yet updated. Soft-bouncing messages are then [retried](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) throughout the delivery validity period:
-
-* If a retry is successful before the end of the validity period, the message status remains as **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage remains unchanged.
-
-* Otherwise, the status changes to **[!UICONTROL Failed]** and the **[!UICONTROL Success]** percentage is decreased accordingly.
-
-Consequently, you should wait until the end of the validity period to see the final **[!UICONTROL Success]** percentage, and the final number of actually **[!UICONTROL Sent]** and **[!UICONTROL Failed]** messages.
-
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
 ### Email Feedback Service {#email-feedback-service}
 
@@ -116,12 +90,11 @@ When soft-bouncing messages get reported back from the Enhanced MTA, their log 
   
 >[!NOTE]
 >
->For more on hard and soft bounces, see [this section](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>For more on hard and soft bounces, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#delivery-failure-types-and-reasons){target="_blank"}.
 >
->For more on retries after a delivery temporary failure, see [this section](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>For more on retries after a delivery temporary failure, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#retries-after-a-delivery-temporary-failure){target="_blank"}.
 
-
-The tables below show the changes in KPIs and sending logs statuses introduced by the EFS capability.
+The table below shows the KPIs and sending logs statuses (with the EFS capability).
 
 **With Email Feedback Service**
 
