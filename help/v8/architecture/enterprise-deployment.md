@@ -4,7 +4,6 @@ description: Get started with Campaign FFDA deployment
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 ---
 # Get Started with [!DNL Campaign] FFDA deployment{#gs-ac-ffda}
 
