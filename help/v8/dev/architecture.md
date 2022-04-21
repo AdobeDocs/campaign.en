@@ -45,6 +45,8 @@ According to your Campaign v8 package, you are provisioned with a specific numbe
 
 To ensure better performances, the Routing external account containing the configuration of channels is configured by default with the **Split** option activated.
 
+![](assets/splitted-delivery.png) 
+
 This option allows messages to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
 
 As a Managed Cloud Services user, Adobe configure all your routing external accounts for your channels with the Split option enabled. It is highly recommended to keep this option activated to ensure better thoughputs.
