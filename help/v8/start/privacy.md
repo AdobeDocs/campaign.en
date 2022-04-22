@@ -93,7 +93,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
     The **[!UICONTROL Reconciliation key]** field will be used to identify the Data Subject in the Adobe Campaign database.
 
-1. Select a target mapping (**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**) to specify how the namespace will be reconciled in Adobe Campaign.
+1. Select a target mapping <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)--> to specify how the namespace will be reconciled in Adobe Campaign.
     
     >[!NOTE]
     >
@@ -145,13 +145,13 @@ Here is the list of out-of-the-box tables that are taken into account when perfo
 * Recipient offer proposition (propositionRcp)
 
 If you created custom tables that have a link to the recipient table (own type), they will also be taken into account. For example, if you have a transaction table linked to the recipient table and a transaction details table linked to the transaction table, they will be both taken into account.
-
+<!--
 >[!CAUTION]
 >
 >If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.-->
 
 ## Privacy request statuses {#privacy-request-statuses}
 
