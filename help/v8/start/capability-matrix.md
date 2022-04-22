@@ -61,6 +61,14 @@ In Campaign Classic v7 and earlier versions, the unicity of a key within a schem
 
 Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage then enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](../dev/keys.md)
 
+### Faster delivery execution {#split}
+
+According to your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
+
+To ensure better performances, the Routing external account containing the configuration of channels is configured by default with the **Split** option activated.
+
+This option allows deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. [Learn more](../dev/architecture.md)
+
 ### Simplified maintenance
 
 Campaign users do not need to be database experts: there is no longer any need for complex database maintenance operations or complex table indexing.
