@@ -88,8 +88,6 @@ The **[!UICONTROL Change data source]** activity allows you to change the data s
 Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
-* Distributed Marketing
-* Response Manager
 * Hybrid/On-premise deployment models
 
 >[!CAUTION]
