@@ -107,7 +107,7 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Coupons
 * Web tracking
 * Surveys
-* Social Marketing with Facebook
+* Social Marketing
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
