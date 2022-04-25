@@ -8,7 +8,7 @@ exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 ---
 # Campaign email channel settings
 
-## Email BCC
+## Email BCC {#email-bcc}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
