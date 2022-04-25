@@ -30,7 +30,7 @@ To do this, follow the steps below:
 1. Select the delivery of your choice or duplicate the out-of-the-box **[!UICONTROL Email delivery]** template, then select the duplicated template.
 1. Click the **[!UICONTROL Properties]** button.
 1. Select the **[!UICONTROL Delivery]** tab.
-1. Check the **[!UICONTROL Email BCC]** option.
+1. Check the **[!UICONTROL Email BCC]** option. It is not enabled by default.
 
     ![](assets/email-bcc.png)
 
