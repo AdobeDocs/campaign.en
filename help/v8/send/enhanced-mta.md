@@ -1,5 +1,4 @@
 ---
-product: Campaign
 title: Send with the Enhanced MTA in Adobe Campaign
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA
 feature: Email
@@ -7,7 +6,7 @@ role: Data Engineer
 level: Beginner
 
 ---
-# Sending with the Enhanced MTA {#sending-with-enhanced-mta}
+# Send with the Enhanced MTA {#sending-with-enhanced-mta}
 
 The **Adobe Campaign Enhanced MTA** (Mail Transfer Agent) provides an upgraded sending infrastructure allowing for optimal deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
 
