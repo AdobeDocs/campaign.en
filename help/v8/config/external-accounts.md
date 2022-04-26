@@ -32,7 +32,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 ### Bounce mails {#bounce-mails-external-account}
 
-The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. For more on this external account, refer to this [page](../../workflow/using/inbound-emails.md).
+The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
 ![](../assets/do-not-localize/book.png) Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
 
