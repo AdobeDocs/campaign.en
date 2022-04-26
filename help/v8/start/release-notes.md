@@ -98,9 +98,9 @@ Refer to the [Campaign Compatibility matrix](capability-matrix.md).
 **Patches**
 
 * Fixed an issue which occurred when using seeds and control groups in the same recurring delivery. (NEO-41197)
-* Fixed an issue which led to email sending being blocked for all recipients on FFDA when personalization blocks contained one of the following characters: ', &, <, > or ". These characters are now supported in personalization blocks (example: firstname="Brian O'Neil"). (NEO-43184)
-* Fixed an issue which could lead the tracking workflow to fail when using a custom schema with a target mapping. (NEO-43506)
-* Fixed an issue which could lead the FFDA deployment workflows to fail. (NEO-44561)
+* Fixed an issue which led to email sending being blocked for all recipients on FFDA when personalization blocks contained one of the following characters: `' & < > "`. These characters are now supported in personalization blocks (example: firstname="Brian O'Neil"). (NEO-43184)
+* Fixed an issue which could lead the tracking workflow to fail when using a custom schema as a target mapping. (NEO-43506)
+* Fixed an issue which could lead the FFDA deployment workflows to fail for languages other than English. (NEO-44561)
 
 ## Release 8.2.10 {#release-8-2-10}
 
