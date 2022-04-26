@@ -60,38 +60,91 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 ### Send notifications on iOS {#send-notifications-on-ios}
 
-1. Select the **[!UICONTROL Deliver on iOS]** delivery template and click **[!UICONTROL Continue]**.
+1. Select the **[!UICONTROL Deliver on iOS]** delivery template.
 
-   ![](assets/push-template-ios.png)
+   ![](assets/push_ios_1.png)
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
-   ![](assets/push-ios-select-target.png)
+   ![](assets/push_ios_2.png)
 
 1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, select the service relevant to your mobile application, then select the iOS version of the application.
 
-   ![](assets/push-ios-subscribers.png)
+   ![](assets/push_ios_3.png)
 
-1. Select the notification type: **[!UICONTROL Alert]**, **[!UICONTROL Badge]**, **[!UICONTROL Alert and badge]** or **[!UICONTROL Silent Push]**.
+1. Choose your **[!UICONTROL Notification type]** between **[!UICONTROL General notification (Alert, Sound, Badge)]** or **[!UICONTROL Silent notification]**.
 
-   ![](assets/push-ios-alert.png)
+   ![](assets/push_ios_4.png)
 
-1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification.
+   >[!NOTE]
+   >
+   >The **Silent Push** mode allows a "silent" notification to be sent to a mobile application. The user is not made aware of the notification's arrival. It is transferred directly to the application.
 
-1. Enter the **[!UICONTROL Message]** and the **[!UICONTROL Value of the badge]** based on the chosen notification type.
+1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear in the list of notifications available from the notification center. 
 
-1. You can also define the following elements:
+   This field allows you to define the value of the **title** parameter of the iOS notification payload.
 
-    * The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload).
+1. You can add a **[!UICONTROL Subtitle]**, value of the **subtitle** parameter of the iOS notification payload.
 
-    * In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
+1. Enter the content of the message in the **[!UICONTROL Message content]** section of the wizard.
 
-    * In the **[!UICONTROL Application variables]** field, enter the value of each variable. For example, you can configure a specific application screen to be displayed when the user activates the notification.
+1. From the **[!UICONTROL Sound and Badge]** tab, you can edit the following options:
+
+   * **[!UICONTROL Clean Badge]**: enable this options to refresh the badge value.
+
+   * **[!UICONTROL Value]**: set a number which will be used to display directly on the application icon the number of new unread information.
+
+   * **[!UICONTROL Critical alert mode]**: enable this option to add sound to your notification even the user's phone is set on focus mode or if the iPhone is muted.
+
+   * **[!UICONTROL Name]**: select the sound to be played by the mobile terminal when the notification is received.
+
+   * **[!UICONTROL Volume]**: volume of your sound from 0 to 100.
+
+      >[!NOTE]
+      > 
+      >Sounds must be included in the application and defined when the service is created. 
+      >
+      >Configuration guidelines for iOS are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+
+   ![](assets/push_ios_5.png)
+
+1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
+
+   For more on this, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+
+1. From the **[!UICONTROL Advanced]** tab, you can edit the following general options:
+
+   * **[!UICONTROL Mutable content]**: enable this option to allow the mobile application to download media content.
+
+   * **[!UICONTROL Thread-id]**: identifier used to group related notifications together.
+
+   * **[!UICONTROL Category]**: name of your category ID which will display action buttons. These notifications give the user a faster way to perform different tasks in response to a notification without opening or navigating in the application.
+
+   ![](assets/push_ios_6.png)
+
+1. For time sensitive notification, you can specify the following options:
+
+   * **[!UICONTROL Target content ID]**: identifier used to target which application window to brought forward when the notification is opened.
+
+   * **[!UICONTROL Launch image]**: name of the launch image file to display. If the user chooses to launch your application, the selected image will displayed instead of your application's launch screen.
+
+   * **[!UICONTROL Interruption level]**:
+
+      * **[!UICONTROL Active]**: Set by default, the system presents the notification immediately, lights up the screen, and can play a sound. Notifications do not break through Focus modes.
+
+      * **[!UICONTROL Passive]**: The system adds the notification to the notification list without lighting up the screen or playing a sound. Notifications do not break through Focus modes.
+
+      * **[!UICONTROL Time sensitive]** The system presents the notification immediately, lights up the screen, can play a sound and break through Focus modes. This level does not require a special permission from Apple.
+
+      * **[!UICONTROL Critical]** The system presents the notification immediately, lights up the screen, and bypasses the mute switch or focus modes. Note that this level requires a special permission from Apple.
+
+   * **[!UICONTROL Relevance score]**: set a relevance score from 0 to 100. The system uses this to sort the notifications in the notification summary.
+
+   ![](assets/push_ios_7.png)
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
    ![](assets/push-ios-preview.png)
-
 
 ### Send notifications on Android {#send-notifications-on-android}
 
@@ -105,7 +158,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
 
-   ![](assets/push-ios-subscribers.png)
+   ![](assets/push-android-subscribers.png)
 
 1. Then enter the content for the notification.
 
