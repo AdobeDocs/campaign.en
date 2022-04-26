@@ -11,6 +11,100 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.3.1 {#release-8-3-1}
+
+_April 27, 2022_
+
+**What's new?**
+
+<table>
+<thead>
+<tr>
+<th><strong>Response Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
+<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Distributed Marketing</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
+<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Time Sensitive notifications</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
+<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Core Privacy Service Integration</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
+<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibility updates**
+
+* Campaign v8 SDK now supports Android 12 and iOS 15 for Push Notifications.
+* Campaign v8 is now compatible with Windows 11.
+
+Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix.md).
+
+**Improvements**
+
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign.	
+* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API:
+    * Fixed an issue, during an import triggered by a workflow, which caused the null values of string-type fields to be saved as Null instead of empty values.
+    * Fixed an issue which led to the following error for data import or export using web API calls: "Invalid URI: The URI scheme is too long".
+    * Fixed various issues when importing, from Microsoft Dynamics 365, data containing lookup fields.
+* The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas.
+* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties.	
+* To ensure better performances, a new « Split » option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.
+* For LINE deliveries on mid-sourcing setups, multiple active accounts of the same type can now exist on a mid instance.
+* The number of default connections for the web process has been increased from 50 to 150.
+
+**Patches**
+
+* Fixes an issue which occurred when using seeds and control groups in the same recurring delivery. (NEO-41197)
+* Personalization errors generated for some recipients | WR24667
+* Issue with custom Target Mapping affecting trackingLog and broadLog
+* FFDA Deployment failing, FFDA tables not getting updated
+
 ## Release 8.2.10 {#release-8-2-10}
 
 _February 2, 2022_
