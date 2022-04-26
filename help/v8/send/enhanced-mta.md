@@ -1,6 +1,6 @@
 ---
 product: Campaign
-title: Send with the Enhanced MTA in Adobe Campaign Classic
+title: Send with the Enhanced MTA in Adobe Campaign
 description: Learn about the scope and the specificities of sending emails with the Adobe Campaign Enhanced MTA
 feature: Email
 role: Data Engineer

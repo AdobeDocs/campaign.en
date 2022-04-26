@@ -55,7 +55,9 @@ title: Campaign v8 docs
   + [Manage folders and views](audiences/folders-and-views.md)
   + [Best practices](audiences/audiences-best-practices.md)
 + Send messages{#send}
-  + [Emails](send/email.md)
+  + Emails {#Emails}
+    + [Design and send emails](send/email.md)
+    + [Send with the Enhanced MTA](send/enhanced-mta.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)
