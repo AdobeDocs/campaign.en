@@ -72,7 +72,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -90,7 +90,7 @@ Refer to the [Campaign Compatibility matrix](capability-matrix.md).
 * Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. LINK
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API. NO LINKS
 * The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas. NO LINK
-* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. LINK
+* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)
 * To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients. LINK
 * For LINE deliveries on mid-sourcing setups, multiple active accounts of the same type can now exist on a mid instance. NO LINK
 * The number of default connections for the web process has been increased from 50 to 150. NO LINK
