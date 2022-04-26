@@ -30,26 +30,80 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
 
-* **Bounce mails (POP3)**
+### Bounce mails {#bounce-mails-external-account}
 
+The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
+
+![](../assets/do-not-localize/book.png) Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
+
+![](assets/bounce_external_1.png)
+
+To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external account:
+
+* **[!UICONTROL Server]**
+
+  URL of the POP3 server.
+
+* **[!UICONTROL Port]**
+
+  POP3 connection port number. The default port is 110.
+
+* **[!UICONTROL Account]**
+
+  Name of the user.
+
+* **[!UICONTROL Password]**
+
+  User account password.
+
+* **[!UICONTROL Encryption]**
+
+  Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
     The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-   ![](../assets/do-not-localize/book.png) Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
+* **[!UICONTROL Function]**
 
-* **Routing**
+    Inbound email or SOAP router
 
-    The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
+![](assets/bounce_external_2.png)
 
-    >[!CAUTION]
-    >
-    >The **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) external account **must not** be enabled in Adobe Campaign v8.
-    > 
+>[!IMPORTANT]
+>
+>Before configuring your POP3 external account using Microsoft OAuth 2.0, you first need to register your application in the Azure portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
-* **Execution instance**
+To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL Microsoft OAuth 2.0]** option and fill in the following fields:
 
-    In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
+* **[!UICONTROL Azure tenant]**
 
-    ![](../assets/do-not-localize/glass.png) Learn more about Message Center architecture in [this page](../dev/architecture.md#transac-msg-archi).
+    Azure ID (or Directory (tenant) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+
+* **[!UICONTROL Azure Client ID]**
+
+    Client ID (or Application (client) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+
+* **[!UICONTROL Azure Client secret]**:
+
+    Client secret ID can be found in the **Client secrets** column from the **Certificates & secrets** menu of your application in the Azure portal.
+
+* **[!UICONTROL Azure Redirect URL]**:
+
+    Redirect URL can be found in the **Authentication** menu of your application in the Azure portal.
+
+After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
+
+### Routing{#routing-external-account}
+
+The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
+
+>[!CAUTION]
+>
+>The **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) external account **must not** be enabled in Adobe Campaign v8. 
+
+### Execution instance  {#execution-instance-external-account}
+
+In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
+
+![](../assets/do-not-localize/glass.png) Learn more about Message Center architecture in [this page](../dev/architecture.md#transac-msg-archi).
 
 ## Access to External Systems external accounts 
 
