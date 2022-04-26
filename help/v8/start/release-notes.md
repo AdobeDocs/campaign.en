@@ -27,7 +27,7 @@ _April 27, 2022_
 <tr>
 <td>
 <p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
-<!--<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>-->
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
@@ -42,7 +42,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
-<!--<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>-->
+<p>For more information, refer to the detailed documentation.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -57,7 +57,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
-<!--<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>-->
+<p>For more information, refer to the detailed documentation.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -72,8 +72,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
-<!-->
-<p>For more information, refer to the <a href="xxxx">detailed documentation</a>.</p>-->
+<p>For more information, refer to the detailed documentation.</p>
 </td> 
 </tr> 
 </tbody> 
