@@ -45,7 +45,7 @@ Learn more on delivery failures in [this section](delivery-failures.md).
 
 The validity period setting in your Campaign deliveries will be used by the Enhanced MTA only if set to **3.5 days or less**. If you define a value higher than 3.5 days in Campaign, it will not be taken into account.
 
-<!--For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the Enhanced MTA retry queue and be retried for only up to 3.5 days from when that message reached the Enhanced MTA. In that case, the value set in Campaign will not be used.-->
+For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the Enhanced MTA retry queue and be retried for only up to 3.5 days from when that message reached the Enhanced MTA. In that case, the value set in Campaign will not be used.
 
 Once a message has been in the Enhanced MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
 
@@ -54,6 +54,10 @@ For more on the validity period, see the [Adobe Campaign Classic v7 documentatio
 ### Retries
 
 Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
+
+>[!NOTE]
+>
+>The retry settings in the delivery properties are not used by Campaign.
 
 Learn more on retries in [this section](delivery-failures.md#retries).
 
