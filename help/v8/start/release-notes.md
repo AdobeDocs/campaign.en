@@ -57,7 +57,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="../send/push.md#send-notifications-on-ios">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -87,7 +87,7 @@ Refer to the [Campaign Compatibility matrix](capability-matrix.md).
 
 **Improvements**
 
-* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. LINK
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Read more](../config/external-accounts.md#bounce-mails-external-account)
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API. NO LINKS
 * The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas. NO LINK
 * You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)
