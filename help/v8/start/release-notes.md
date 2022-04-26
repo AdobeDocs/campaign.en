@@ -87,7 +87,7 @@ Refer to the [Campaign Compatibility matrix](../../rn/using/compatibility-matrix
 
 **Improvements**
 
-* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign.	LINK
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. LINK
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API. NO LINKS
 * The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas. NO LINK
 * You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. LINK
