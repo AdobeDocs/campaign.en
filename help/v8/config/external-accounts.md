@@ -67,6 +67,10 @@ To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external acco
 
 ![](assets/bounce_external_2.png)
 
+>[!IMPORTANT]
+>
+>Before configuring your POP3 external account using Microsoft OAuth 2.0, you first need to register your application in the Azure portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+
 To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL Microsoft OAuth 2.0]** option and fill in the following fields:
 
 * **[!UICONTROL Azure tenant]**
