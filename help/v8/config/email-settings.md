@@ -12,17 +12,17 @@ exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
-Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated BCC email address, from where they can be processed and archived using an external system. The .eml files corresponding to the sent emails can be transferred to a remote server, such as an SMTP email server.
+Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated BCC (blind carbon copy) email address, from where they can be processed and archived using an external system. The .eml files corresponding to the sent emails can then be transferred to a remote server, such as an SMTP email server.
 
 >[!CAUTION]
 >
 >For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
-The archiving destination is the BCC (blind carbon copy) email address, invisible to the delivery recipients, that you must specify.
+The archiving destination is the BCC email address of your choice, which will remain invisible to the delivery recipients.
 
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to communicate the BCC email address to be used for archiving.
 
-Once the BCC email address is configured, you must enable the dedicated option at the delivery level.
+Once the BCC email address is defined, you must enable the dedicated option at the delivery level.
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ Once the BCC email address is configured, you must enable the dedicated option a
 
 To do this, follow the steps below:
 
-1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Go to **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]**, or **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Select the delivery of your choice or duplicate the out-of-the-box **[!UICONTROL Email delivery]** template, then select the duplicated template.
 1. Click the **[!UICONTROL Properties]** button.
 1. Select the **[!UICONTROL Delivery]** tab.
@@ -43,17 +43,15 @@ To do this, follow the steps below:
 
 A copy of all sent messages for each delivery based on this template will be sent to the email BCC address which has been configured.
 
-Note the following:
+Note the following specificities and recommendations:
 
-* You can only use **one** BCC email address.
+* You can only use one BCC email address.
 
 * Make sure the BCC address has enough reception capacity to archive all the emails that are sent.
 
-* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+* Email BCC <!--with Enhanced MTA--> delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understand delivery failures](../send/delivery-failures.md).
 
->[!NOTE]
->
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+* If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
