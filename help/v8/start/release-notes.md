@@ -27,7 +27,7 @@ _April 27, 2022_
 <tr>
 <td>
 <p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#response-manager-add-on">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -42,7 +42,7 @@ _April 27, 2022_
 <tbody> 
 <tr> 
 <td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#distributed-marketing-add-on">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
