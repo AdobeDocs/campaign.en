@@ -87,7 +87,7 @@ To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL 
 
 * **[!UICONTROL Azure Redirect URL]**:
 
-    Redirect URL can be found in the **Authentication** menu of your application in the Azure portal.
+    Redirect URL can be found in the **Authentication** menu of your application in the Azure portal. It should end with the following syntax `nl/jsp/oauth.jsp`, e.g. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
 After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
 
