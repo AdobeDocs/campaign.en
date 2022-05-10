@@ -8,7 +8,7 @@ exl-id: dd822f88-b27d-4944-879c-087f68e79825
 ---
 # New Campaign APIs{#gs-new-api}
 
-Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
 
 * Ingestion API: **xtk.session.ingest**
 

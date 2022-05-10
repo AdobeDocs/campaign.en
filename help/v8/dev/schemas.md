@@ -129,7 +129,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Index {#index} 
 
-In the context of a **FDA Snowflake deployment**, you need to declare indexes. Indexes are the first elements declared in the main element of the schema.
+In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
 
 They can be unique or not, and reference one or more fields.
 
