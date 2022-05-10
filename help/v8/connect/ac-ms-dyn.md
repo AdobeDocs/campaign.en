@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Microsoft Dynamics
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 ---
 # Work with Campaign and Microsoft Dynamics 365{#crm-ms-dynamics}
 
@@ -120,7 +121,7 @@ The App user is the user that the application registered above will use. Any cha
 **Step 3**: Create an application user on Dynamics CRM
 
 1. From [Microsoft Azure](https://portal.azure.com), navigate to **Settings > Security > Users**.
-1. Click on drop down, select **Application users**, and click **New**.
+1. Click on drop-down, select **Application users**, and click **New**.
 1. Use the same username as the user created on active directory above.
 1. Assign the **Application ID** for [the application you created earlier](#get-client-id-microsoft).
 1. Click on **Manage Roles** and choose the **System administrator** role to the user.

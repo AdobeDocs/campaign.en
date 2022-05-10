@@ -22,6 +22,7 @@ title: Campaign v8 docs
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
   + [Work with audiences](start/audiences.md)
+  + [Privacy](start/privacy.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
   + [Send messages](start/create-message.md)
@@ -38,7 +39,6 @@ title: Campaign v8 docs
     + [New APIs](architecture/new-apis.md)
     + [API staging mechanism](architecture/staging.md)
     + [Replication mechanism](architecture/replication.md)
-  + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + Implement {#implement}
   + [Implementation steps](start/implement.md)
   + [Customize your instance](dev/customize.md)
@@ -64,7 +64,9 @@ title: Campaign v8 docs
   + [Manage folders and views](audiences/folders-and-views.md)
   + [Best practices](audiences/audiences-best-practices.md)
 + Send messages{#send}
-  + [Emails](send/email.md)
+  + Emails {#emails}
+    + [Design and send emails](send/email.md)
+    + [Send with the Enhanced MTA](send/enhanced-mta.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)
@@ -126,3 +128,5 @@ title: Campaign v8 docs
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
++ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+
