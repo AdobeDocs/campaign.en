@@ -20,7 +20,7 @@ Adobe Campaign itself does not manage archived files. It does enable you to send
 
 The archiving destination is the BCC email address of your choice, which will remain invisible to the delivery recipients.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to communicate the BCC email address to be used for archiving.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to communicate the BCC email address to be used for archiving.
 
 Once the BCC email address is defined, you must enable the dedicated option at the delivery level.
 
