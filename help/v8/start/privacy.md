@@ -30,7 +30,7 @@ To perform those requests, you must use the **Privacy Core Service** integration
 
 ## Prerequisites {#prerequesites}
 
-Adobe Campaign offers Data Controllers tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is the Data Controller's responsibility to handle the relationship with the Data Subject (email, customer care or a web portal).
+Adobe Campaign offers Data Controllers the tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is the Data Controller's responsibility to handle the relationship with the Data Subject (email, customer care or a web portal).
 
 It is therefore your responsibility as a Data Controller to confirm the identity of the Data Subject making the request and to confirm that the data returned to the requester is about the Data Subject.
 
@@ -57,8 +57,6 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 -->
 
 1. Create a namespace on the [Identity Namespace service](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
-
-    <!--To learn more about identity namespaces, see the [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) documentation){target="_blank"}.-->
 
 1. When [listing the identity namespaces](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} available for your organization, you will get the namespace following details, for example:
 
@@ -111,7 +109,7 @@ You can now create Privacy requests based on your new namespace. If you use seve
 
 The Privacy Core Service Integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
 
-Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) documentation to learn how to create Privacy requests from the Privacy Core Service.
+Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en){target="_blank"} documentation to learn how to create Privacy requests from the Privacy Core Service.
 
 >[!CAUTION]
 >
