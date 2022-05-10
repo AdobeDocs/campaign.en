@@ -114,7 +114,7 @@ title: Campaign v8 docs
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
-+ Developer resources {#architecture}
++ Developer resources {#developer}
   + [Campaign datamodel](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
@@ -129,3 +129,4 @@ title: Campaign v8 docs
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+
