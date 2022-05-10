@@ -12,7 +12,7 @@ exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 
 ![](../assets/do-not-localize/glass.png) Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../architecture/architecture.md).
 
 ## Define permissions
 

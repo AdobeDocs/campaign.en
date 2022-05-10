@@ -50,7 +50,7 @@ This section details the elements specific to the delivery of iOS and Android no
 
 >[!CAUTION]
 >
->With Campaign v8, mobile registration is now **asynchronous**. [Learn more](../dev/staging.md)
+>In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), mobile registration is now **asynchronous**. [Learn more](../architecture/staging.md)
 
 To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
 
