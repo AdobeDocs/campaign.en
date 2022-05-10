@@ -11,13 +11,11 @@ level: Beginner
 
 Campaign is made available as individual instances with each instance representing a complete Campaign environment.
 
-Three types of environments available with Campaign Cloud Service:
+Two types of environments available with Campaign Cloud Service:
 
 * **Production environment**: hosts the applications for the business practitioners.
 
-* **Stage environment**: used for various performance and quality tests before changes to the application are pushed to the production environment.
-
-* **Development environment**: allows developers to implement Campaign under the same runtime conditions as the stage and production environments.
+* **Non-production environment**: used for various performance and quality tests before changes to the application are pushed to the production environment.
 
 You can export and import packages from one environment to another.
 
@@ -27,63 +25,21 @@ You can export and import packages from one environment to another.
 
 Two deployment models are available:
 
-* Campaign FDA [!DNL Snowflake] deployment
-* Campaign Enterprise (FFDA) deployment
+* **Campaign FDA [!DNL Snowflake] deployment**
+
+    In its [[!DNL Snowflake] FDA (default) deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+
+* **Campaign Enterprise (FFDA) deployment**
+
+    In its [Enterprise (FFDA) deployment](enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+
+    Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
+
 
 >[!NOTE]
 >
 > Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
 > As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
-
-## Campaign FDA [!DNL Snowflake] deployment{#fda-only-deployment}
-
-In a [!DNL Snowflake] FDA (default) deployment, [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through [Federated Data Access](../connect/fda.md) capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. Learn more about Federated Data Access in [this section](../connect/fda.md).
-
-General communication between servers and processes is carried out according to the following schema:
-
-![](assets/fda-architecture.png) 
-
-PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
-
-## Campaign Enterprise (FFDA) deployment{#mid-sourcing-deployment}
-
-In an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
-
-Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. 
-
-General communication between servers and processes is carried out according to the following schema:
-
-![](assets/architecture.png) 
-
-* The execution and bounce management modules are disabled on the instance.
-* The application is configured to perform message execution on a remote "mid-sourced" server that is driven using SOAP calls (over HTTP or HTTPS).
-
-The [!DNL Snowflake] database on the marketing side is used to:
-
-* Store all customer data: profiles, custom data such as transactions, products, locations, etc.
-* Store all events and behavior data generated or collected by Campaign, such as delivery logs, tracking logs, push registrations, etc.
-* Store all data aggregates of the above.
-* Store a copy (h+1) of reference tables (such as deliveries, enumerations, countries, etc.) which are used in workflows, campaigns and reports.
-* Run all batch processes and workloads
-
-
-The PostgreSQL database on the marketing instance is used to:
-
-* Execute certain workloads, such as low volume APIs.
-* Store all Campaign data, including delivery and campaign settings, workflow and service definitions.
-* Store all built-in reference tables (enumerations, countries, etc.) which are replicated to [!DNL Snowflake].
-    
-    However, you cannot:
-    * create customizations for customer data, for example do not create a household table in PostgreSQL, but only in Snowflake
-    * store any delivery logs, tracking logs, etc. on FFDA targeting dimension.
-    * store large volume of data.
-
-
-The PostgreSQL database on the mid-sourcing instance is used to:
-
-* Execute batch and real-time (RT) deliveries.
-* Send delivery and tracking logs - note that delivery and tracking log IDs are UUIDs and not 32-bit IDs.
-* Collect and store tracking data.
 
 
 ## Message Center architecture{#transac-msg-archi}

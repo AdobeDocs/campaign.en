@@ -18,25 +18,13 @@ Adobe Campaign v8 is available as a **Managed Cloud Service**. The new offering 
 
 As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
-![](../assets/do-not-localize/glass.png) Learn more about [!DNL Campaign] v8 architecture in [this page](../architecture/architecture.md).
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 works with [!DNL Snowflake]. Two deployment models are available:
+Campaign v8 works with [!DNL Snowflake]. Two deployment models are available.
 
-* **Campaign FDA [!DNL Snowflake] deployment**
+![](../assets/do-not-localize/glass.png) Learn more about [!DNL Campaign] v8 architecture in [this page](../architecture/architecture.md).
 
-    In its **[!DNL Snowflake] FDA (default) deployment**, [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
-
-* **Campaign Enterprise (FFDA) deployment**
-
-    In its **[Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md)**, [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
-
-    Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
-
-    As a Campaign Enterprise (FFDA) offering user, expect changes in data management, configuration and product architecture. Learn more in [this section](../architecture/enterprise-deployment.md).
-
-Learn more about Campaign v8 architecture in [this section](../architecture/architecture.md).
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}
 

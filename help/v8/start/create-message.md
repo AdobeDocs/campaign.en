@@ -28,7 +28,7 @@ Adobe Campaign v8 comes with the following delivery channels:
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
 -->
 
-## Choose how to send your messages 
+## Choose how to send your messages{#gs-send-msg}
 
 Once your message has been created and its content designed and tested, you can choose how you want to send it. Campaign offers a set of capabilities to:
 
@@ -60,7 +60,7 @@ Once your message has been created and its content designed and tested, you can 
    ![](../assets/do-not-localize/book.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?){target="_blank"}
 
 
-## Add personalization
+## Add personalization{#personalization}
 
 Messages delivered by Adobe Campaign can be personalized in various ways. 
 
@@ -73,7 +73,7 @@ You can:
 * Create conditional content. 
    ![](../assets/do-not-localize/book.png) Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}
 
-## Send transactional messages
+## Send transactional messages{#gs-transac-messages}
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
@@ -83,7 +83,7 @@ Transactional messaging (Message Center) is the Campaign module designed for man
 
 ![](../assets/do-not-localize/book.png) Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
-## Delivery and tracking logs
+## Delivery and tracking logs{#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 

@@ -33,6 +33,8 @@ title: Campaign v8 docs
 + Architecture {#architecture}
   + [Global principles](architecture/general-architecture.md)
   + [Architecture](architecture/architecture.md)
+  + FDA_Snowflake deployment {#fda}
+    + [What is FDA-Snowflake?](architecture/fda-deployment.md)
   + Enterprise (FFDA) deployment {#ffda}
     + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
     + [Key management and unicity](architecture/keys.md)
