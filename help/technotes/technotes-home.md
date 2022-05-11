@@ -1,7 +1,7 @@
 ---
 keywords: Campaign Classic;home;popular topics
-description: Campaign v8 help center
-title: Adobe Campaign v8 product documentation
+description: Campaign technotes
+title: Adobe Campaign technical articles
 ---
 # Adobe Campaign v8 Documentation {#campaign-documentation}
 

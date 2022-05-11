@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign Technotes
-type: Technotes
+type: Event
 title: Adobe Campaign Technotes
 description: Campaign Technotes
 breadcrumb-title: Campaign technotes
