@@ -14,7 +14,7 @@ Learn more in Campaign Classic v7 documentation:
 
 * [Learn about privacy and consent](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}
 
-* [Getting started with Privacy Management](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target="_blank"}
+* [Getting started with Privacy Management](https://experienceleague-review.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target="_blank"}
 
 This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"}.
 
@@ -44,7 +44,7 @@ Before creating a Privacy request, you must define the namespace you will use. T
 
 >[!NOTE]
 >
->To learn more about identity namespaces, see the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) {target="_blank"}.
+>To learn more about identity namespaces, see the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
 Currently Adobe Campaign does not support importing namespaces from the Identity Namespace service. Once you have created a namespace on the Identity Namespace service, you must create manually the corresponding namespace from the Adobe Campaign interface. To do this, follow the steps below.
 

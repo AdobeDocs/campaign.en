@@ -12,6 +12,10 @@ This document lists all systems and components supported for the latest build of
 
 As specific versions of these 3rd party systems and tools reach end-of-life (EOL), Adobe Campaign will no longer be compatible with those versions, and they will be removed from this compatibility matrix. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
+>[!NOTE]
+>
+>Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
+
 ## Client Console{#ClientConsoleoperatingsystems}
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
@@ -19,15 +23,15 @@ The following operating systems and browser are required to use Campaign Client 
 ### Operating systems
 
 * **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recommended for Japanese instances), 11 
+* **Microsoft Windows** 8, 10, 11 
+
+>[!NOTE]
+>
+>Microsoft Windows 10 is recommended fot Japanese instances.
 
 ### Browser
 
 **Microsoft Internet Explorer** 11
-
->[!NOTE]
->
->Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
 
 ## CRM connectors{#CRMconnectors}
 
