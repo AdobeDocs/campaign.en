@@ -22,7 +22,7 @@ The following operating systems and browser are required to use Campaign Client 
 
 ### Operating systems
 
-* **Microsoft Windows Server** 2016, 2012
+* **Microsoft Windows Server** 2019, 2016, 2012
 * **Microsoft Windows** 8, 10, 11 
 
 >[!NOTE]
@@ -61,8 +61,6 @@ You can use Campaign to send [push notifications](../send/push.md) on the operat
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
-
-* **Internet Explorer** 11
 
 ## How to check your Campaign version and build{#version}
 

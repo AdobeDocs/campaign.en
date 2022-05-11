@@ -13,7 +13,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 8.3.1 {#release-8-3-1}
 
-_XXXXXXXXXX 2022_
+_May 16, 2022_
 
 **What's new?**
 
