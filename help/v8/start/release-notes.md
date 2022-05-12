@@ -11,9 +11,9 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
-## Release 8.3.1 {#release-8-3-1}
+## Release 8.3.7 {#release-8-3-7}
 
-_XXXXXXXXXX 2022_
+_May 16, 2022_
 
 **What's new?**
 
@@ -94,6 +94,7 @@ Refer to the [Campaign Compatibility matrix](capability-matrix.md).
 * To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients. LINK
 * For LINE deliveries on mid-sourcing setups, multiple active accounts of the same type can now exist on a mid instance.
 * The number of default connections for the web process has been increased from 50 to 150. 
+* Campaign comes with a set of new guardrails to prevent insertion of duplicated key in Snowflake database. [Read more](../architecture/keys.md)
 
 **Patches**
 
@@ -161,7 +162,9 @@ _October 28, 2021_
 <tr> 
 <td> <p>Unicity Service is a new Cloud Database Manager component. It helps users preserve and monitor the integrity of unique key constraints within Cloud Database tables. This allows you to reduce the risk of inserting duplicate keys.
 <p>As Cloud Database does not enforce unicity constraints, Unicity Service introduces at application level, <b>a set of new guardrails</b> reduce the risk of inserting duplicates when managing the data with Adobe Campaign.</p> 
-<p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p></td> </tr> 
+<p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p>
+<p>For more information, refer to the <a href="../architecture/keys.md">detailed documentation</a>.</p>
+</td> </tr> 
 </tbody> 
 </table>
 

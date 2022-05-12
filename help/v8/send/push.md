@@ -60,6 +60,10 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 ### Send notifications on iOS {#send-notifications-on-ios}
 
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
 1. Select the **[!UICONTROL Deliver on iOS]** delivery template.
 
    ![](assets/push_ios_1.png)

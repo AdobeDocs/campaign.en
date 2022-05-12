@@ -22,8 +22,8 @@ The following operating systems and browser are required to use Campaign Client 
 
 ### Operating systems
 
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10, 11 
+* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows** 11 (starting Campaign v8.3), 10, 8,
 
 >[!NOTE]
 >
@@ -53,16 +53,14 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 You can use Campaign to send [push notifications](../send/push.md) on the operating systems listed below, using the associated mobile SDK.
 
-* **Android** 7.x, 8.x, 9.0, 12 with Campaign Android SDK build 1.1.1.
-* **Apple iOS** 9 - 15 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions.
+* **Android** 12 (starting Campaign v8.3), 9.0, 8.x, 7.x, with Campaign Android SDK build 1.1.1.
+* **Apple iOS** 9 - 15 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 15 is supported starting Campaign v8.
 
 ## Web access
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
-
-* **Internet Explorer** 11
 
 ## How to check your Campaign version and build{#version}
 

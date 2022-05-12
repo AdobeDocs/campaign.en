@@ -10,6 +10,10 @@ exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 
 ## Email BCC {#email-bcc}
 
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
 Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated BCC (blind carbon copy) email address, from where they can be processed and archived using an external system. The .eml files corresponding to the sent emails can then be transferred to a remote server, such as an SMTP email server.
@@ -55,7 +59,7 @@ Note the following specificities and recommendations:
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**Related topics** in Campaign Classic v7 documentation:
+**Learn more in Campaign Classic v7 documentation**
 
 * [Generate the mirror page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target="_blank"}
 

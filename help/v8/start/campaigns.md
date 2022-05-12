@@ -90,11 +90,19 @@ Key steps to create a cross-channel marketing campaign are:
 
 Adobe Campaign offers a **Distributed Marketing** add-on for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (stores, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL List of campaign packages]**, where campaign templates designed by central entities are offered to local entities.
 
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
 [](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Distributed Marketing capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target="_blank"}
 
 ## Distributed Marketing add-on{#response-manager-add-on} 
 
 Adobe Campaign offers a **Response Management** add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
+
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 [](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Response Manager in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}
 

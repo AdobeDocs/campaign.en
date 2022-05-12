@@ -27,7 +27,7 @@ In addition to these technical workflows, Campaign v8 relies on specific technic
 * **[!UICONTROL Replicate FFDA data immediately]**
     This workflow replicates the XS data for a given external account.
 
-These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** node of Campaign Explorer. **They must not be modified.**
+These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **They must not be modified.**
 
 If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
 

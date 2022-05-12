@@ -18,6 +18,12 @@ Adobe Campaign v8 is available as a **Managed Cloud Service**. The new offering 
 
 As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
 
+>[!NOTE]
+>
+> Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. [Learn more](../architecture/architecture.md)
+>
+> As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
+
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
