@@ -81,17 +81,3 @@ When using explicit reconciliation key, the **Update data** activity automatical
 ### Query a schema with duplicates{#query-with-duplicates}
 
 When a workflow starts running query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
-
-
-## Detect duplicates{#detect-duplicates}
-
-Campaign comes with a new guardrail which removes automatically any duplicated UUID from an audience during delivery preparation. This new mechanism prevents any error from happening while preparing a delivery. 
-
->[!CAUTION]
->
->Duplicated keys is not restricted to UUIDs. It can happen in with IDs, including custom keys created in custom tables.
-
-As a end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated key. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
-
-![](assets/delivery-log-duplicates.png)
-
