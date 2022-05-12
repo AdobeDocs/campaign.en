@@ -36,12 +36,6 @@ Two deployment models are available:
     Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
 
->[!NOTE]
->
-> Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
-> As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
-
-
 ## Message Center architecture{#transac-msg-archi}
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
