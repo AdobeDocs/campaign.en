@@ -35,15 +35,16 @@ This workflow checks all custom and built-in schemas to detect duplicated rows.
 
 If the **[!UICONTROL Unicity alerting]** (ffdaUnicity) workflow detects some duplicate keys, they are added to a specific **Audit Unicity** table, which includes the name of the schema, the type of key, the number of impacted rows, and the date. You can access duplicated keys from the **[!UICONTROL Administration > Audit > Key Unicity]** node. 
 
-When duplicates are detected, the duplicated keys are logged in the new Audit Unicity table including the schema name, the type of key, the number of rows impacted, and the date and time. 
-
 ![](assets/unicity-table.png)
 
-A specific notification is sent to the **[!UICONTROL Workflow Supervisors]** operator group when duplicated keys are detected. The content of this notification and the audience of the alert can be changed in the **Alert** activity of the workflow.
+As a Database Administrator, you can use a SQL activity to remove the duplicates or contact Adobe Customer Care for more guidance.
+
+### Alerting{#unicity-wf-alerting}
+
+A specific notification is sent to the **[!UICONTROL Workflow Supervisors]** operator group when duplicated keys are detected. The content and the audience of this alert can be changed in the **Alert** activity of the **[!UICONTROL Unicity alerting]** workflow.
 
 ![](assets/wf-alert-activity.png)
 
-As a Database Administrator, you can use a SQL activity to remove the duplicates or contact Adobe Customer Care for more guidance.
 
 ## Additional guardrails{#duplicates-guardrails}
 
