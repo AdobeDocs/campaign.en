@@ -1,32 +1,32 @@
 ---
-title: Privacy requests in Campaign
+title: Manage Privacy requests in Campaign
 description: Learn how to manage privacy requests in Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 
 ---
-# Privacy requests in Campaign {#privacy}
+# Manage Privacy requests in Campaign {#privacy}
 
 <!--Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. It is therefore essential that you receive and monitor consent from your recipients.-->
 
-In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests.
-
 >[!NOTE]
 >
->This information applies to GDPR, CCPA, PDPA, and LGPD. For more on these regulations, see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"}.
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+In order to help you facilitate your Privacy readiness, Adobe Campaign allows you to handle Access and Delete requests.
+
+![](../assets/do-not-localize/speech.png) Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
 
 To perform those requests, you must use the **Privacy Core Service** integration. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
 
-![](../assets/do-not-localize/book.png) Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
-
-Adobe Campaign offers Data Controllers the tools to create and process Privacy requests for data stored in Adobe Campaign. However, it is your responsibility as a Data Controller to confirm the identity of the Data Subject making the request and to confirm that the data returned to the requester is about the Data Subject.
+Adobe offers Data Controllers the tools to create and process Privacy requests for data stored in Campaign. However, it is your responsibility as a Data Controller to verify the identity of the Data Subject making the request, and to confirm that the data returned to the requester is about the Data Subject.
 
 >[!NOTE]
 >
 >For more on personal data and on the different entities that manage data (Data Controller, Data Processor and Data Subject), see [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}.
 
-## Namespaces {#namespaces}
+## Define a namespace {#namespaces}
 
 Before creating a Privacy request, you must **define the namespace** you will use. The namespace is the key that will be used to identify the Data Subject in the Adobe Campaign database.
 
@@ -34,7 +34,7 @@ Before creating a Privacy request, you must **define the namespace** you will us
 >
 >To learn more about identity namespaces, see the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
-Currently Adobe Campaign does not support importing namespaces from the Experience Platform Identity Namespace service. Therefore, once you have created a namespace on the Identity Namespace service, you must create manually the corresponding namespace from the Adobe Campaign interface. To do this, follow the steps below.
+Currently Adobe Campaign does not support importing namespaces from the Experience Platform Identity Namespace service. Therefore, once you have created a namespace on the Identity Namespace service, you must create manually the corresponding namespace in the Adobe Campaign interface. To do this, follow the steps below.
 
 <!--v7?
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
@@ -91,7 +91,7 @@ You can now create Privacy requests based on your new namespace. If you use seve
 
 ## Create a Privacy request {#create-privacy-request}
 
-The **Privacy Core Service** integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.
+The **Privacy Core Service** integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Adobe Campaign automatically handles the requests pushed from the Privacy Core Service through a dedicated workflow.
 
 >[!CAUTION]
 >
@@ -99,7 +99,9 @@ The **Privacy Core Service** integration allows you to automate your Privacy req
 
 Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en){target="_blank"} documentation to learn how to create Privacy requests from the Privacy Core Service.
 
-Each Privacy core service job is split into multiple Privacy requests in Campaign based on how many namespaces are being used, one request corresponding to one namespace. Also, one job can be run on multiple instances. Therefore, multiple files are created for one job. For example, if a request has two namespaces and is running on three instances, then a total of six files are sent. One file per namespace and instance.
+Each Privacy core service job is split into multiple Privacy requests in Adobe Campaign based on how many namespaces are being used, one request corresponding to one namespace.
+
+Also, one job can be run on multiple instances. Therefore, multiple files are created for one job. For example, if a request has two namespaces and is running on three instances, then a total of six files are sent. One file per namespace and instance.
 
 The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
@@ -113,7 +115,7 @@ The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKe
 >
 >Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"} to submit requests using the standard namespace type.
 
-### List of tables {#list-of-tables}
+### Tables searched when processing requests {#list-of-tables}
 
 When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
 
@@ -141,7 +143,7 @@ If you created custom tables that have a link to the recipient table (own type),
 
 ### Privacy request statuses {#privacy-request-statuses}
 
-Here are the different statuses for Privacy requests:
+Here are the different statuses for Privacy requests in Adobe Campaign:
 
 * **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: in progress, the workflow has not processed the request yet.
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: the workflow is processing the request.
@@ -150,10 +152,12 @@ Here are the different statuses for Privacy requests:
 * **[!UICONTROL Complete]**: the processing of the request has finished without an error.
 * **[!UICONTROL Error]**: the workflow has encountered an error. The reason is displayed in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
 
-**Learn more in Campaign Classic v7 documentation**
+**Related topics** in Campaign Classic v7 documentation:
 
 * [Privacy and consent](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}
 
 * [Getting started with Privacy Management](https://experienceleague-review.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target="_blank"}.
+* [Regulations on Privacy management](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"} (GDPR, CCPA, PDPA, and LGPD)
+
+* [Opt-out for the Sale of Personal Information](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target="_blank"} (specific to CCPA)

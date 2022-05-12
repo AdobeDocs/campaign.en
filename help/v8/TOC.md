@@ -22,7 +22,7 @@ title: Campaign v8 docs
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
   + [Work with audiences](start/audiences.md)
-  + [Privacy](start/privacy.md)
+  + [Manage Privacy requests](start/privacy.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
   + [Send messages](start/create-message.md)
