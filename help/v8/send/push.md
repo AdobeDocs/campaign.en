@@ -62,7 +62,7 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
 
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 1. Select the **[!UICONTROL Deliver on iOS]** delivery template.
 

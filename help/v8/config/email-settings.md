@@ -12,7 +12,7 @@ exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 

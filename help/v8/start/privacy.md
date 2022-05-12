@@ -152,7 +152,7 @@ Here are the different statuses for Privacy requests in Adobe Campaign:
 
 * [Privacy and consent](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}
 
-* [Getting started with Privacy Management](https://experienceleague-review.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target="_blank"}
+* [Getting started with Privacy Management](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target="_blank"}
 
 * [Regulations on Privacy management](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target="_blank"} (GDPR, CCPA, PDPA, and LGPD)
 
