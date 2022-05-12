@@ -30,6 +30,10 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 ### Bounce mails {#bounce-mails-external-account}
 
+>[!NOTE]
+>
+>The Microsoft Exchange Online OAuth 2.0 authentication for POP3 capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
 ![](../assets/do-not-localize/book.png) Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
