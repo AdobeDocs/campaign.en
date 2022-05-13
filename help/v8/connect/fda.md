@@ -57,7 +57,7 @@ To set up access to an external database with FDA, configuration steps are:
 1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
 -->
 
-Note that with Campaign [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), you cannot create a target mapping from a schema stored in an external database accessed by FDA. Recipients of your deliveries cannot come from the external cloud database.
+Note that with Campaign [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), you cannot create a target mapping from a schema stored in an external database accessed by FDA. As a consequence, recipients of your deliveries cannot come from the external database.
 
 ## External database external account{#fda-external-account}
 
