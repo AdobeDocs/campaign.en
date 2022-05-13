@@ -4,6 +4,7 @@ description: Discover environments and deployment basics
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 ---
 # Get Started with Campaign architecture{#gs-ac-archi}
 

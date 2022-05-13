@@ -4,7 +4,7 @@ description: Learn about the scope and the specificities of sending emails with 
 feature: Email
 role: Data Engineer
 level: Beginner
-
+exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 ---
 # Send with the Enhanced MTA {#sending-with-enhanced-mta}
 
@@ -107,4 +107,3 @@ The table below shows how the KPIs and sending logs statuses are updated at each
 | Soft-bouncing messages get reported back from the Enhanced MTA | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider |
 | Soft-bouncing messages retries are successful | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
 | Soft-bouncing messages retries fail |  No change in **[!UICONTROL Success]** percentage  | Failed |
-
