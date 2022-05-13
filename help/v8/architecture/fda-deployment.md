@@ -4,6 +4,8 @@ description: Get started with Campaign FDA-Snowflake deployment
 feature: Overview
 role: Data Engineer
 level: Beginner
+hide: yes
+hidefromtoc: yes
 ---
 # [!DNL Campaign] FDA [!DNL Snowflake] deployment{#gs-fda-snowflake}
 

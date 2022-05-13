@@ -12,9 +12,9 @@ Use the FDA Connector (Federated Data Access) to connect Campaign to one or more
 
 >[!NOTE]
 >
->Compatible databases for FDA are listed in the [Compatibility matrix](../start/compatibility-matrix.md).
+>* Compatible databases for FDA are listed in the [Compatibility matrix](../start/compatibility-matrix.md).
 >
->In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific external account is available to manage communication between Campaign local database and Snowflake cloud database. This external account is set up for you by Adobe and must not be modified.
+>* In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific external account is available to manage communication between Campaign local database and Snowflake cloud database. This external account is set up for you by Adobe and must not be modified.
 >
 
 Campaign FDA option allows you to extend your data model in a third-party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
