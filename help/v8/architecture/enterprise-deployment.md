@@ -70,6 +70,7 @@ The PostgreSQL database on the mid-sourcing instance is used to:
 * Send delivery and tracking logs - note that delivery and tracking log IDs are UUIDs and not 32-bit IDs.
 * Collect and store tracking data.
 
+
 ## Impacts{#ffda-impacts}
 
 ### [!DNL Campaign] API staging mechanism{#staging-api}
