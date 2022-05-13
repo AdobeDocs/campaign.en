@@ -12,22 +12,26 @@ This document lists all systems and components supported for the latest build of
 
 As specific versions of these 3rd party systems and tools reach end-of-life (EOL), Adobe Campaign will no longer be compatible with those versions, and they will be removed from this compatibility matrix. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
+>[!NOTE]
+>
+>Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
+
 ## Client Console{#ClientConsoleoperatingsystems}
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
 ### Operating systems
 
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recommended for Japanese instances)
+* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows** 11 (starting Campaign v8.3), 10, 8,
+
+>[!NOTE]
+>
+>Microsoft Windows 10 is recommended fot Japanese instances.
 
 ### Browser
 
 **Microsoft Internet Explorer** 11
-
->[!NOTE]
->
->Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
 
 ## CRM connectors{#CRMconnectors}
 
@@ -49,16 +53,14 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 You can use Campaign to send [push notifications](../send/push.md) on the operating systems listed below, using the associated mobile SDK.
 
-* **Android** 7.x, 8.x, 9.0 with Campaign Android SDK build 1.1.1.
-* **Apple iOS** 9 - 14 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions.
+* **Android** 12 (starting Campaign v8.3), 9.0, 8.x, 7.x, with Campaign Android SDK build 1.1.1.
+* **Apple iOS** 9 - 15 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 15 is supported starting Campaign v8.
 
 ## Web access
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
-
-* **Internet Explorer** 11
 
 ## How to check your Campaign version and build{#version}
 

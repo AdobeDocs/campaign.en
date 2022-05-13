@@ -8,13 +8,13 @@ exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism
 
-With Campaign Cloud database, blasting unitary calls is not recommended with regards to performances (latency & concurrency). Batching operation is always preferred. In order to improve performance, ingestion APIs are redirected to the local database.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), blasting unitary calls is not recommended with regards to performances (latency & concurrency). Batching operation is always preferred. In order to improve performance, ingestion APIs are redirected to the local database.
 
 Campaign staging capability is enabled by default on some built-in schemas. We can also enable it on any custom schema. Staging mechanism in a nutshell:
 
 * Data schema structure is duplicated into the local staging table
 * New APIs dedicated for data ingestion flow directly into the local staging table. [Learn more](new-apis.md)
-* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](../config/replication.md)
+* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](replication.md)
 
 Some built-in schemas are Staged by default, such as nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
@@ -46,9 +46,9 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
     </srcSchema>
     ```
 
-    ![](../assets/do-not-localize/glass.png) Learn more about custom schema creation in [this page](create-schema.md).
+    ![](../assets/do-not-localize/glass.png) Learn more about custom schema creation in [this page](../dev/create-schema.md).
 
-1. Save and update the database structure.  [Learn more](update-database-structure.md)
+1. Save and update the database structure.  [Learn more](../dev/update-database-structure.md)
 
 1. Enable the staging mechanism in the schema definition by adding the **autoStg="true"** parameter.
 

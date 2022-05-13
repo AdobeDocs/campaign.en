@@ -12,13 +12,13 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 
-## Cross-channel campaign orchestration
+## Cross-channel campaign orchestration{#cross-channel-orchestration}
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications.
 
 ![](assets/campaign-tab.png) 
 
-### Core concepts
+### Core concepts{#ac-core-concepts}
 
 Before starting implementing marketing campaigns, you need to be familiar with the following concepts:
 
@@ -34,7 +34,7 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 
 * **Periodic campaigns**: a periodic campaign is a campaign created automatically according to the execution schedule of its template.
 
-## Marketing campaign workspace
+## Marketing campaign workspace{#ac-workspace}
 
 Adobe Campaign lets you create, configure, execute and analyze all marketing campaigns from a unified control center.
 
@@ -43,7 +43,7 @@ Adobe Campaign lets you create, configure, execute and analyze all marketing cam
 ![](../assets/do-not-localize/book.png) Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns){target="_blank"}
 
 
-## Key steps to start
+## Key steps to start{#gs-ac-start}
 
 Key steps to create a cross-channel marketing campaign are:
 
@@ -84,4 +84,25 @@ Key steps to create a cross-channel marketing campaign are:
     Adobe Campaign lets you set up collaborative approval processes for the main stages of the marketing campaign. For each campaign you can approve the delivery target, content, and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a web connection. 
 
    ![](../assets/do-not-localize/book.png) Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
+
+
+## Distributed Marketing add-on{#distributed-marketing-add-on}
+
+Adobe Campaign offers a **Distributed Marketing** add-on for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (stores, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL List of campaign packages]**, where campaign templates designed by central entities are offered to local entities.
+
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Distributed Marketing capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target="_blank"}
+
+## Distributed Marketing add-on{#response-manager-add-on} 
+
+Adobe Campaign offers a **Response Management** add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
+
+>[!NOTE]
+>
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Response Manager in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}
 

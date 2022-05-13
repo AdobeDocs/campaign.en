@@ -38,17 +38,6 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 >[!NOTE]
 >You can generate a complete description of your data model. Learn more in [this page](datamodel.md).
 
-## [!DNL Campaign] API staging mechanism
-
-With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
-
-![](../assets/do-not-localize/glass.png) [API staging mechanism is detailed in this page](staging.md)
-
-## New APIs
-
-New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance.
-
-![](../assets/do-not-localize/glass.png) [New APIs are detailed in this page](new-apis.md)
 
 **Related topics**
 

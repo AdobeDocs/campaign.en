@@ -4,40 +4,40 @@ description: Discover environments and deployment basics
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 ---
 # Get Started with Campaign architecture{#gs-ac-archi}
 
-## Environments 
+## Environments {#environments}
 
 Campaign is made available as individual instances with each instance representing a complete Campaign environment.
 
-Three types of environments available with Campaign Cloud Service:
+Two types of environments available with Campaign Cloud Service:
 
 * **Production environment**: hosts the applications for the business practitioners.
 
-* **Stage environment**: used for various performance and quality tests before changes to the application are pushed to the production environment.
-
-* **Development environment**: allows developers to implement Campaign under the same runtime conditions as the stage and production environments.
+* **Non-production environment**: used for various performance and quality tests before changes to the application are pushed to the production environment.
 
 You can export and import packages from one environment to another.
 
 ![](../assets/do-not-localize/book.png) Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
-## Mid-sourcing deployment{#mid-sourcing-deployment}
+## Deployment model{#ac-deployment}
 
-General communication between servers and processes is carried out according to the following schema:
+In its [Enterprise (FFDA) deployment](enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
 
-![](assets/architecture.png) 
+Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-* The execution and bounce management modules are disabled on the instance.
 
-* The application is configured to perform message execution on a remote "mid-sourced" server that is driven using SOAP calls (over HTTP or HTTPS).
 
->[!NOTE]
->
-> Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
-> As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
+<!--Two deployment models are available:
+
+* **Campaign FDA [!DNL Snowflake] deployment**
+
+In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+
+* **Campaign Enterprise (FFDA) deployment**
+
+-->
 
 ## Message Center architecture{#transac-msg-archi}
 

@@ -11,6 +11,98 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.3.7 {#release-8-3-7}
+
+_May 16, 2022_
+
+**What's new?**
+
+<table>
+<thead>
+<tr>
+<th><strong>Response Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#response-manager-add-on">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Distributed Marketing</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#distributed-marketing-add-on">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Time Sensitive notifications</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
+<p>For more information, refer to the <a href="../send/push.md#send-notifications-on-ios">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Core Privacy Service Integration</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
+<p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibility updates**
+
+* Campaign v8 SDK now supports Android 12 and iOS 15 for Push Notifications.
+* Campaign v8 is now compatible with Windows 11.
+
+Refer to the [Campaign Compatibility matrix](capability-matrix.md).
+
+**Improvements**
+
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Read more](../config/external-accounts.md#bounce-mails-external-account)
+* Critical fixes have been applied regarding the Microsoft Dynamics Connector web API. 
+* The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas. 
+* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)
+* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients. LINK
+* For LINE deliveries on mid-sourcing setups, multiple active accounts of the same type can now exist on a mid instance.
+* The number of default connections for the web process has been increased from 50 to 150. 
+* Campaign comes with a set of new guardrails to prevent insertion of duplicated keys in Snowflake database. [Read more](../architecture/keys.md)
+
+**Patches**
+
+* Fixed an issue which occurred when using seeds and control groups in the same recurring delivery. (NEO-41197)
+* Fixed an issue on FFDA which led to email sending being blocked for all récipients belonging to the same deliveryPart during the sending process (up to 256) when personalization blocks contained one of the following characters: `' & < > "`. These characters are now supported in personalization blocks (example: firstname="Brian O'Neil"). (NEO-43184)
+* Fixed an issue which could lead the tracking workflow to fail when using a custom schema as a target mapping. We now ensure that the type of the foreign link to a custom targeting schema is correct when generating broadLog schema via the target mapping wizard. (NEO-43506) 
+* Fixed an issue which could lead the FFDA deployment workflows to fail for languages other than English. (NEO-44561)
+
 ## Release 8.2.10 {#release-8-2-10}
 
 _February 2, 2022_
@@ -70,7 +162,9 @@ _October 28, 2021_
 <tr> 
 <td> <p>Unicity Service is a new Cloud Database Manager component. It helps users preserve and monitor the integrity of unique key constraints within Cloud Database tables. This allows you to reduce the risk of inserting duplicate keys.
 <p>As Cloud Database does not enforce unicity constraints, Unicity Service introduces at application level, <b>a set of new guardrails</b> reduce the risk of inserting duplicates when managing the data with Adobe Campaign.</p> 
-<p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p></td> </tr> 
+<p>Unicity Service initiates a new built-in workflow called <b>ffdaUnicity</b> to monitor unicity constraints and alert when duplicates are detected.</p>
+<p>For more information, refer to the <a href="../architecture/keys.md">detailed documentation</a>.</p>
+</td> </tr> 
 </tbody> 
 </table>
 

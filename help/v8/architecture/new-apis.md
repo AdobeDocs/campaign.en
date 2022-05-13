@@ -8,7 +8,7 @@ exl-id: dd822f88-b27d-4944-879c-087f68e79825
 ---
 # New Campaign APIs{#gs-new-api}
 
-Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
 
 * Ingestion API: **xtk.session.ingest**
 
@@ -202,7 +202,7 @@ As a result, staging table is updated as expected.
 
 Subscription management in Campaign is described in [this page](../start/subscriptions.md).
 
-Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. Subscriber information is temporary stored in staging tables in the local database, and the synchronization workflow sends this data from the local database to the Cloud database. As a consequence, subscription and unsubscription processes are **asynchronous**. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](../config/replication.md#tech-wf)
+Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. Subscriber information is temporary stored in staging tables in the local database, and the synchronization workflow sends this data from the local database to the Cloud database. As a consequence, subscription and unsubscription processes are **asynchronous**. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](replication.md#tech-wf)
 
 
 **Related topics**

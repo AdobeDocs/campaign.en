@@ -10,12 +10,11 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff
 
 ## Technical workflows{#tech-wf}
 
-Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
 ![](../assets/do-not-localize/book.png) The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
-
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
@@ -28,7 +27,7 @@ In addition to these technical workflows, Campaign v8 relies on specific technic
 * **[!UICONTROL Replicate FFDA data immediately]**
     This workflow replicates the XS data for a given external account.
 
-These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** node of Campaign Explorer. **They must not be modified.**
+These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **They must not be modified.**
 
 If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
 
@@ -65,7 +64,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
-
 
 
 **Related topics**
