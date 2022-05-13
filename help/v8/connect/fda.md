@@ -13,6 +13,9 @@ Use the FDA Connector (Federated Data Access) to connect Campaign to one or more
 >[!NOTE]
 >
 >Compatible databases for FDA are listed in the [Compatibility matrix](../start/compatibility-matrix.md).
+>
+>In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific external account is available to manage communication between Campaign local database and Snowflake cloud database. This external account is set up for you by Adobe and must not be modified.
+>
 
 Campaign FDA option allows you to extend your data model in a third-party database. It will automatically detect the structure of the targeted tables and use data from the SQL sources.
 
@@ -50,7 +53,11 @@ To set up access to an external database with FDA, configuration steps are:
 1. As an Adobe Managed Services user, contact Adobe to install the drivers on your Campaign instance. 
 1. Once drivers are installed, set up the external account that correspond to your database on the Adobe Campaign server and test the external account. [Learn more](#fda-external-account)
 1. Create the schema of the external database in Adobe Campaign. This allows you to identify the data structure of the external database. [Learn more](#create-data-schema)
+<!--
 1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
+-->
+
+Note that with Campaign [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), you cannot create a target mapping from a schema stored in an external database accessed by FDA. As a consequence, recipients of your deliveries cannot come from the external database.
 
 ## External database external account{#fda-external-account}
 
@@ -115,6 +122,7 @@ To create the schema of the external database in Adobe Campaign, follow the step
 
 1. Click **[!UICONTROL Save]** to confirm creation.
 
+<!-- 
 ## Define the target mapping{#define-data-mapping}
 
 You can define a mapping on the data in an external table.
@@ -147,7 +155,7 @@ To do this, follow these steps:
    ![](assets/wf_new_mapping_define_extensions.png)
 
    Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
-
+-->
 
 ## Permissions{#fda-permissions}
 

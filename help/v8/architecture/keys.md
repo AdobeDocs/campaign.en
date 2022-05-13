@@ -82,3 +82,11 @@ When using explicit reconciliation key, the **Update data** activity automatical
 ### Query a schema with duplicates{#query-with-duplicates}
 
 When a workflow starts running query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
+
+![](assets/query-with-duplicates.png)
+
+This check is performed in the following workflow activities:
+
+* Query
+* Incremental Query
+* Read list
