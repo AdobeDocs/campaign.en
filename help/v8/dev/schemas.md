@@ -127,6 +127,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
 
+<!--
 ## Index {#index} 
 
 In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
@@ -156,6 +157,7 @@ The **xpath** attribute points to the field in your schema that you wish to inde
 
 For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
 
+-->
 
 ## Keys {#keys}
 

@@ -17,36 +17,6 @@ _May 16, 2022_
 
 **What's new?**
 
-<table>
-<thead>
-<tr>
-<th><strong>Response Manager</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
-<p>For more information, refer to the <a href="../start/campaigns.md#response-manager-add-on">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table> 
-<thead>
-<tr> 
-<th> <strong>Distributed Marketing</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
-<p>For more information, refer to the <a href="../start/campaigns.md#distributed-marketing-add-on">detailed documentation</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
 
 <table> 
 <thead>
@@ -73,6 +43,38 @@ _May 16, 2022_
 <tr> 
 <td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
 <p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Response Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#response-manager-add-on">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Distributed Marketing</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
+<p>For more information, refer to the <a href="../start/campaigns.md#distributed-marketing-add-on">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
