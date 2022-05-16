@@ -27,7 +27,7 @@ The following operating systems and browser are required to use Campaign Client 
 
 >[!NOTE]
 >
->Microsoft Windows 10 is recommended fot Japanese instances.
+>Microsoft Windows 10 is recommended for Japanese instances.
 
 ### Browser
 
