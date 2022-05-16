@@ -29,11 +29,11 @@ This section contains critical information about privacy and security that needs
 
 Adobe Campaign comes with processes and settings that allow you to use Campaign in compliance with applicable data privacy laws and your recipient's preferences. You can manage: 
 
-* **Data acquisition**: Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and manage consent from your recipients. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)
+* **Data acquisition**: Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and manage consent from your recipients. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition){target="_blank"}
 
-* **User consent and data retention**: Learn how to get user consent, set up double opt-in subscription mechanisms, facilitate opt-out and configure data retention in [Campaign Classic privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **User consent and data retention**: Learn how to get user consent, set up double opt-in subscription mechanisms, facilitate opt-out and configure data retention in [Campaign Classic privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent){target="_blank"}
 
-* **Privacy and data protection regulations**: refer to [Campaign Classic privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"} for information about the European Union’s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Campaign.
+* **Privacy and data protection regulations**: refer to [this section](privacy.md) for information about privacy requirements, and how these regulations impact your organization and Adobe Campaign.
 
 ### Security
 
