@@ -2,6 +2,7 @@
 product: campaign
 title: Technote - Adobe Campaign - Apache version security update
 description: Adobe Campaign - Apache version security update
+exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
 ---
 # Adobe Campaign - Apache version security update {#apache-update}
 
