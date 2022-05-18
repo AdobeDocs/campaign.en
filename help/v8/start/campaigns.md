@@ -96,7 +96,7 @@ Adobe Campaign offers a **Distributed Marketing** add-on for implementing cooper
 
 [](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Distributed Marketing capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target="_blank"}
 
-## Distributed Marketing add-on{#response-manager-add-on} 
+## Response Management add-on{#response-manager-add-on} 
 
 Adobe Campaign offers a **Response Management** add-on that lets you measure the success and profitability of marketing campaigns or offer propositions across communication channels: email, mobile, direct mail, etc.
 
