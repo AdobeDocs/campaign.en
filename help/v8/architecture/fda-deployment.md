@@ -6,6 +6,7 @@ role: Data Engineer
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 ---
 # [!DNL Campaign] FDA [!DNL Snowflake] deployment{#gs-fda-snowflake}
 
