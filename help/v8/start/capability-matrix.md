@@ -57,8 +57,6 @@ The **[!UICONTROL Change data source]** activity allows you to change the data s
 Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
-* Distributed Marketing
-* Response Manager
 * Hybrid/On-premise deployment models
 
 >[!CAUTION]
@@ -76,7 +74,7 @@ To align with Campaign v8 new architecture and deployment model, some historic C
 * Coupons
 * Web tracking
 * Surveys
-* Social Marketing with Facebook
+* Social Marketing
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
