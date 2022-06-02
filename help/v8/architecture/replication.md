@@ -4,7 +4,7 @@ description: Technical workflows and data replication
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
+exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 ---
 # Technical workflows and data replication
 
@@ -40,7 +40,7 @@ Understand which databases Adobe Campaign v8 uses, why data is being replicated,
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### Data replication policies
+### Data replication policies{#data-replication-policies}
 
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 

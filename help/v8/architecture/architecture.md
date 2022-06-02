@@ -4,6 +4,7 @@ description: Discover environments and deployment basics
 feature: Overview
 role: Data Engineer
 level: Beginner
+exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 ---
 # Get Started with Campaign architecture{#gs-ac-archi}
 
@@ -11,7 +12,7 @@ level: Beginner
 
 Campaign is made available as individual instances with each instance representing a complete Campaign environment.
 
-Two types of environments available with Campaign Cloud Service:
+Two types of environments are available:
 
 * **Production environment**: hosts the applications for the business practitioners.
 
@@ -19,17 +20,11 @@ Two types of environments available with Campaign Cloud Service:
 
 You can export and import packages from one environment to another.
 
-![](../assets/do-not-localize/book.png) Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+![](../assets/do-not-localize/book.png) Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Deployment model{#ac-deployment}
 
-In its [Enterprise (FFDA) deployment](enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
-
-Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
-
-
-
-<!--Two deployment models are available:
+Two deployment models are available:
 
 * **Campaign FDA [!DNL Snowflake] deployment**
 
@@ -37,7 +32,10 @@ In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaig
 
 * **Campaign Enterprise (FFDA) deployment**
 
--->
+Ic[!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+
+Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
+
 
 ## Message Center architecture{#transac-msg-archi}
 
@@ -72,4 +70,4 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
 * Multiple execution instances
     In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot  be used. A user/password-based authentication is required. 
 
-![](../assets/do-not-localize/book.png) Learn more about Transactional messaging events in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+![](../assets/do-not-localize/book.png) Learn more about Transactional messaging events in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}

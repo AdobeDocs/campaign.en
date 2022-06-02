@@ -42,7 +42,7 @@ A message delivery can fail immediately, in that case we qualify this as a synch
 
 These types of errors are managed as follows:
 
-* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message. The delivery is not allowed to be sent to the profile's server. The Enhanced MTA determines the bounce type and qualifies the error, and sends back that information to Campaign in order to determine whether the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
+* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message. The delivery is not allowed to be sent to the profile's server. The Mail Transfer Agent (MTA) determines the bounce type and qualifies the error, and sends back that information to Campaign in order to determine whether the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
 
 * **Asynchronous error**: a bounce mail or a SR is resent later by the receiving server. This error is qualified with a label related to the error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
@@ -56,9 +56,9 @@ These types of errors are managed as follows:
 
 ![](assets/delivery-log-qualification.png)-->
 
-Currently the way bounce mail qualification is handled in Adobe Campaign depends on the error type:
+The way bounce mail qualification is handled in Adobe Campaign depends on the error type:
 
-* **Synchronous errors**: The Enhanced MTA determines the bounce type and qualification, and sends back that information to Campaign. The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages.
+* **Synchronous errors**: The MTA determines the bounce type and qualification, and sends back that information to Campaign. The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages.
 
 * **Asynchronous errors**: Rules used by Campaign to qualify asynchronous delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, refer to [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
@@ -91,9 +91,22 @@ Bounce mails can have the following qualification status:
 
 If message delivery fails following a temporary error (**Soft** or **Ignored**), Campaign retries sending. These retries can be performed until the end ot the delivery duration.
 
-The number and frequency of retries are set up by the Enhanced MTA, based on the type and severity of the bounce responses coming back from the message's ISP.
+Soft bounce retries and the length of time between them are determined by the MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>The retry settings in the delivery properties are not used by Campaign.
+
+## Validity period
+
+The validity period setting in your Campaign deliveries is limited to **3.5 days or less**. For a delivery, if you define a value higher than 3.5 days in Campaign, it will not be taken into account.
+
+For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the MTA retry queue and be retried for only up to 3.5 days from when that message reached the MTA. In that case, the value set in Campaign will not be used.
+
+Once a message has been in the MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
+
+For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
+
 
 ## Email error types {#email-error-types}
 

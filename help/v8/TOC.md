@@ -68,8 +68,8 @@ title: Campaign v8 docs
   + [Best practices](audiences/audiences-best-practices.md)
 + Send messages{#send}
   + Emails {#emails}
-    + [Design and send emails](send/email.md)
-    + [Send with the Enhanced MTA](send/enhanced-mta.md)
+    + [Design and validate emails](send/email.md)
+    + [Send and monitor emails](send/send.md)
   + [SMS](send/sms.md)
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)

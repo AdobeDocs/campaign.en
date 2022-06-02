@@ -4,7 +4,7 @@ description: Learn how to manage privacy requests in Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
-
+exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 ---
 # Manage Privacy requests in Campaign {#privacy}
 
@@ -148,7 +148,7 @@ Here are the different statuses for Privacy requests in Adobe Campaign:
 * **[!UICONTROL Complete]**: the processing of the request has finished without an error.
 * **[!UICONTROL Error]**: the workflow has encountered an error. The reason is displayed in the list of Privacy requests in the **[!UICONTROL Request status]** column. For example, **[!UICONTROL Error data not found]** means that no recipient data matching the Data Subject's **[!UICONTROL Reconciliation value]** has been found in the database.
 
-**Related topics** in Campaign Classic v7 documentation:
+**Related topics in Campaign Classic v7 documentation:**
 
 * [Privacy and consent](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}
 
