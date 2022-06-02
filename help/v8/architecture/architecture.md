@@ -22,7 +22,7 @@ You can export and import packages from one environment to another.
 
 ![](../assets/do-not-localize/book.png) Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
-## Deployment model{#ac-deployment}
+## Deployment models{#ac-deployment}
 
 Two deployment models are available:
 
