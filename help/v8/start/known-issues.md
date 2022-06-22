@@ -51,11 +51,11 @@ Reference: NEO-45549
 
 
 
-## Data loading (file) activity failed due to a backslash {#issue-2}
+## Change Data Source activity failed due to a backslash {#issue-2}
 
 ### Description{#issue-2-desc}
 
-When injecting data into Snowflake cloud database with a Campaign load activity, the process fails when a backslash character is present in source file. The string is not escaped, and data is not processed correctly on Snowflake.
+When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
 This issue only happens if the backslash characteris at the end of string, for example: `Barker\`.
 
@@ -63,8 +63,9 @@ This issue only happens if the backslash characteris at the end of string, for e
 ### Reproduction steps{#issue-2-repro}
 
 1. Connect to the client console and create a workflow.
-1. Add a **Data loading (file)** activity and configure it.
-1. Select a local file with the characteristics described above.
+1. Add a **Query** activity and configure it.
+1. Select data with the characteristics described above.
+1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
 1. Run the workflow and check the workflow logs to see the error.
 
 
