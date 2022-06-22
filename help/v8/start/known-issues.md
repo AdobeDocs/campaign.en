@@ -107,7 +107,7 @@ The process never ends.
 
 ### Workaround{#issue-3-workaround}
 
-None
+You should use an older client console to be able to upload the file on the server.
 
 ### Internal reference{#issue-3-ref}
 
