@@ -16,7 +16,7 @@ This page lists known issues identified in the **latest Campaign v8 Release**. I
 >
 >Adobe publishes this list of known issues at its own discretion. It is based on the number of customer reports, the severity, and the workaround availability. If an issue you are encountering is not listed, it may not have fit the criteria for publishing in this page.
 
-## Change Data Source activity issue {#issue-1}
+## Change Data Source activity issue #1 {#issue-1}
 
 ### Description{#issue-1-desc}
 
@@ -51,7 +51,7 @@ Reference: NEO-45549
 
 
 
-## Change Data Source activity failed due to a backslash {#issue-2}
+## Change Data Source activity issue #2 {#issue-2}
 
 ### Description{#issue-2-desc}
 
