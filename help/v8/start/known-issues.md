@@ -114,9 +114,9 @@ The process never ends.
 
 The workaround is to use an older client console. You will then be able to upload the file on the server.
 
-As an administrator, you can download Campaign v8.3.1 client console in [Adobe Distribution Service](https://experience.adobe.com/downloads).
+As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Distribution Service](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
 
-Learn how to access Adobe Distribution Service [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
+Learn how to access Adobe Distribution Service [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 Learn how to upgrade your client console [in this page](connect.md)
 
