@@ -16,6 +16,7 @@ This page lists known issues identified in the **latest Campaign v8 Release**. I
 >
 >Adobe publishes this list of known issues at its own discretion. It is based on the number of customer reports, the severity, and the workaround availability. If an issue you are encountering is not listed, it may not have fit the criteria for publishing in this page.
 
+<!--
 ## Change Data Source activity issue #1 {#issue-1}
 
 ### Description{#issue-1-desc}
@@ -48,16 +49,16 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
+-->
 
 
-
-## Change Data Source activity issue #2 {#issue-2}
+## Change Data Source activity issue {#issue-2}
 
 ### Description{#issue-2-desc}
 
 When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
-This issue only happens if the backslash characteris at the end of string, for example: `Barker\`.
+This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
 
 
 ### Reproduction steps{#issue-2-repro}
@@ -79,7 +80,11 @@ Error:
 
 ### Workaround{#issue-2-workaround}
 
+Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
+
+<!--
 As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+-->
 
 ### Internal reference{#issue-2-ref}
 
@@ -107,7 +112,13 @@ The process never ends.
 
 ### Workaround{#issue-3-workaround}
 
-You should use an older client console to be able to upload the file on the server.
+The workaround is to use an older client console. You will then be able to upload the file on the server.
+
+As an administrator, you can download Campaign v8.3.1 client console in [Adobe Distribution Service](https://experience.adobe.com/downloads).
+
+Learn how to access Adobe Distribution Service [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html)
+
+Learn how to upgrade your client console [in this page](connect.md)
 
 ### Internal reference{#issue-3-ref}
 
