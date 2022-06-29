@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 ---
-# New Campaign APIs{#gs-new-api}
+# Specific FFDA Campaign APIs{#gs-new-api}
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two new APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two specific APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
 
 * Ingestion API: **xtk.session.ingest**
 
@@ -24,7 +24,7 @@ A dedicated built-in workflow will synchronize the data in the Cloud Database.
 
 The **xtk.session.ingest** API is dedicated to Data Insert only. No update/delete.
 
-### Insert with no reconciliation
+### Insert with no reconciliation{#insert-no-reconciliation}
 
 **In a workflow**
 
@@ -164,7 +164,6 @@ Once the workflow is executed, the staging table is updated as expected.
 
 **From a SOAP call**
 
-
 1. Get the authentication token. 
 1. Trigger the API. The payload is:
     
@@ -207,4 +206,4 @@ Insertion of subscription and unsubscription data relies on the [Staging mechani
 
 **Related topics**
 
-* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
+* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

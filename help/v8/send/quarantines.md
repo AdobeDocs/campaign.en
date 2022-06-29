@@ -36,7 +36,7 @@ Two types or errors can be captured:
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ To view the list of quarantined addresses **for the entire platform**, Campaign 
 
 In addition, the **[!UICONTROL Non-deliverables and bounces]** built-in report, available from the **Reports** section of ths home page, displays information about the addresses in quarantine, the types of error encountered, and a failure breakdown by domain. You can filter data for a specific delivery, or customize this report as needed.
 
-Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html)
+Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Quarantined email address {#quarantined-recipient}
 

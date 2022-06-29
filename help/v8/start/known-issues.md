@@ -10,7 +10,7 @@ exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 ---
 # Known issues{#known-issues}
 
-This page lists known issues identified in the **latest Campaign v8 Release**. In addition, limitations coming with Campaign v8 are listed [in this page](known-limitations.md).
+This page lists known issues identified in the **latest Campaign v8 Release**. In addition, limitations coming with Campaign v8 are listed [in this page](ac-guardrails.md).
 
 
 >[!NOTE]
