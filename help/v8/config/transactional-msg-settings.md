@@ -1,7 +1,7 @@
 ---
 title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings
-feature: Overview
+feature: Transactional Messaging
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af

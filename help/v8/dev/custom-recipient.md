@@ -1,7 +1,7 @@
 ---
 title: Change your default recipient table
 description: Learn how to use a custom recipient table
-feature: Overview
+feature: Custom Resources, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b

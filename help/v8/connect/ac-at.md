@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Adobe Target
 description: Learn how to work with Campaign and Adobe Target
-feature: Overview
+feature: Target Integration
 role: Data Engineer
 level: Beginner
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67

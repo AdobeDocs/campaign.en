@@ -1,7 +1,7 @@
 ---
 title: Operators profiles
 description: Create Offer management operators
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22

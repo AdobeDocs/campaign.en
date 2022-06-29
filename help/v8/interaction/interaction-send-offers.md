@@ -1,7 +1,7 @@
 ---
 title: Send an offer with Campaign Interaction
 description: Learn how to send an offer
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d

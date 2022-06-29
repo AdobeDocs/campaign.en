@@ -1,7 +1,7 @@
 ---
 title: Campaign Interaction Offer spaces
 description: Learn how to create Offer spaces
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c

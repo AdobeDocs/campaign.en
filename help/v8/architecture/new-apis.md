@@ -1,7 +1,7 @@
 ---
 title: New Campaign v8 APIs
 description: New Campaign v8 APIs
-feature: Overview
+feature: API
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825

@@ -1,7 +1,7 @@
 ---
 title: Get started with messages
 description: Get started with messages
-feature: Overview
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb

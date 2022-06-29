@@ -1,7 +1,7 @@
 ---
 title: Send direct LINE messages with Adobe Campaign
 description: Get started with LINE messaging
-feature: Overview
+feature: Line App
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8

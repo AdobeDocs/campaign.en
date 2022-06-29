@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Real-Time Customer Data Platform
 description: Learn how to work with Campaign and Real-Time Customer Data Platform
-feature: Overview
+feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa

@@ -1,7 +1,7 @@
 ---
 title: Send direct mails with Adobe Campaign
 description: Get started with direct mail in Campaign
-feature: Overview
+feature: Direct Mail
 role: Data Engineer
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
