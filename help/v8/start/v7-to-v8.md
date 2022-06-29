@@ -14,7 +14,7 @@ As a former [!DNL Campaign Classic] v7 user, you should not expect any big disru
 >
 >* For now, Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. [Learn more](#cloud-services)
 >
->* Migration from an existing Campaign Classic v7 environment is not yet available.
+>* Automated migration from an existing Campaign Classic v7 environment is not yet available.
 
 
 ## Managed Cloud Services{#cloud-services}
