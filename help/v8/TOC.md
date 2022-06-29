@@ -14,6 +14,7 @@ title: Campaign v8 docs
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
   + [Known limitations](start/known-limitations.md)
+  + [Known issues](start/known-issues.md)
   + [Classic v7 to v8](start/capability-matrix.md)
 + Start {#start}
   + [Get started](start/get-started.md)
