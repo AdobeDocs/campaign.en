@@ -38,7 +38,7 @@ The following operating systems and browser are required to use Campaign Client 
 Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../connect/crm.md).
 
 * **Salesforce** connector API version 49
-* **Microsoft Dynamics** connector, Web API: Dynamics 365 On-premise and Online
+* **Microsoft Dynamics** connector, Web API: Dynamics 365 on-premise and online
 
 ## Federated Data Access (FDA){#FederatedDataAccessFDA}
 
