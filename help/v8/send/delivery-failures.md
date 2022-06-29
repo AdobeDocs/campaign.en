@@ -56,7 +56,7 @@ These types of errors are managed as follows:
 
 ![](assets/delivery-log-qualification.png)-->
 
-Currently the way bounce mail qualification is handled in Adobe Campaign depends on the error type:
+The way bounce mail qualification is handled in Adobe Campaign depends on the error type:
 
 * **Synchronous errors**: The MTA determines the bounce type and qualification, and sends back that information to Campaign. The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages.
 
