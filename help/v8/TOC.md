@@ -15,7 +15,7 @@ title: Campaign v8 docs
   + [Release notes](start/release-notes.md)
   + [Known limitations](start/known-limitations.md)
   + [Known issues](start/known-issues.md)
-  + [Classic v7 to v8](start/capability-matrix.md)
+  + [Classic v7 to v8](start/v7-to-v8.html)
 + Start {#start}
   + [Get started](start/get-started.md)
   + [Components and processes](start/ac-components.md)
