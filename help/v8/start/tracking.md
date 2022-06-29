@@ -1,7 +1,7 @@
 ---
 title: Get started with tracking and monitoring capabilities
 description: Get started with tracking and monitoring capabilities
-feature: Overview
+feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
