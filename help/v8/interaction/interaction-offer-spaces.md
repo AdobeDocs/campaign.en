@@ -48,7 +48,7 @@ To create a new offer space, follow the steps below:
 
    These functions are used to generate offer representations on an offer space. There are several possible formats: HTML or text.
    
-    **Note** -  XML format is restricted to inbound interactions which are unavailable in this version of the product. [Learn more](../start/capability-matrix.md#gs-unavailable-features)
+    **Note** -  XML format is restricted to inbound interactions which are unavailable in this version of the product. [Learn more](../start/v7-to-v8.html#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
