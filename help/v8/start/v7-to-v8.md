@@ -21,7 +21,7 @@ As a former [!DNL Campaign Classic] v7 user, you should not expect any big disru
 
 Adobe Campaign v8 is available as a **Managed Cloud Service**. 
 
-Adobe Campaign Managed Cloud Services provides a Managed Services platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution. Learn more about Campaign Managed Cloud Services in the [product description page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}..
+Adobe Campaign Managed Cloud Services provides a Managed Services platform for designing cross-channel customer experiences and provides an environment for visual campaign orchestration, real time interaction management and cross channel execution. Learn more about Campaign Managed Cloud Services in the [product description page](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The new offering combines best-in-class services with proactive oversight and timely alerting, focusing on three areas:
 
@@ -29,7 +29,7 @@ The new offering combines best-in-class services with proactive oversight and ti
 * **Service experience** — proactive availability, capacity, and performance monitoring and response to prevent disruptions, resolve incidents faster, and review service regularly for continuous improvement.
 * **Deep Campaign expertise** — high-affinity service from expert Customer Engineering teams to meet functional, technical, or deliverability needs, cut deployment risk, and improve change management.
 
-As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed). Others will come in future releases. [Learn more in this section](#gs-unavailable-features)
+As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed).
 
 >[!NOTE]
 >
