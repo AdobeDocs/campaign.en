@@ -1,7 +1,6 @@
 ---
 title: Work with Campaign and Twitter
 description: Learn how to integrate your Campaign environment with Twitter
-feature: Overview
 role: Data Engineer
 level: Beginner
 hide: yes

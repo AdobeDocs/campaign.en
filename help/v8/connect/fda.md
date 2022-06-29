@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and External databases (FDA)
 description: Learn how to work with Campaign and External databases
-feature: Overview
+feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e

@@ -1,7 +1,7 @@
 ---
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign
-feature: Overview
+feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee

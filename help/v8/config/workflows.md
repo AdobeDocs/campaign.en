@@ -1,7 +1,7 @@
 ---
 title: Manage and automate processes with Adobe Campaign workflows
 description: Get started with workflows
-feature: Overview
+feature: Workflows
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
