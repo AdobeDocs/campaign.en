@@ -115,7 +115,7 @@ Depending on your workflow's purpose, you can choose between the following three
 
 Design recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
 
-Learn how to create a recurring campaign in [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
+Learn how to create a recurring campaign in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
 
 
 ## Leverage trigger events

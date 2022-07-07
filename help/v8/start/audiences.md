@@ -30,7 +30,7 @@ Filter configuration lets you select data from a list **[!UICONTROL dynamically]
 
 Targeting can be created via a combination of queries in a graphical sequence in a workflow. You can create audiences which will be targeted according to your requirements. To display the workflow editor, click the **[!UICONTROL Targeting and workflows]** tab in the campaign dashboard.
 
-![](../assets/do-not-localize/book.png) Learn how to build an audience in a campaign workflow in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target="_blank"}.
+Learn how to build an audience in a campaign workflow in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 
 ## Active profiles{#active-profiles}

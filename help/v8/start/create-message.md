@@ -42,7 +42,7 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/deliveries-in-a-campaign.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to send messages in the context of a campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html){target="_blank"}
+   Learn how to send messages in the context of a campaign in [this section](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
 
 * Send messages via a [workflow](../config/workflows.md)
 

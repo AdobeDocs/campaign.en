@@ -83,7 +83,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
     Leverage Campaign typologies rules to filter, control and monitor delivery sending. For example, fatigue rules control frequency and quantity of messaging to avoid over-solicitation of recipients. Once implemented, typology rules are referenced in deliveries. 
 
-   ![](../assets/do-not-localize/book.png) Learn more about typologies and fatigue management in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns){target="_blank"}
+   Learn more about typologies and fatigue management in [this section](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html).
 
 1. Get familiar with Campaign built-in data model
 
