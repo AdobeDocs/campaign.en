@@ -112,7 +112,7 @@ feature : Overview
        + Query and filter {#designing-queries}
           + [Query the recipient table](workflow/querying-recipient-table.md)
           + [Query delivery information](workflow/query-delivery-info.md)
-          + [Perform aggregate computing](workflow/compute-aggregates.md)
+          + [Compute aggregates](workflow/compute-aggregates.md)
           + [Query using grouping management](workflow/query-grouping-management.md)
           + [Query using a many-to-many-relationship](workflow/query-many-to-many-relationship.md)
           + [Add an enumeration type calculated field](workflow/adding-enumeration-type-calculated-field.md)

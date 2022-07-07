@@ -40,8 +40,7 @@ Adobe Campaign lets you create, configure, execute and analyze all marketing cam
 
 ![](assets/calendar.png) 
 
-![](../assets/do-not-localize/book.png) Discover how to access and implement marketing campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns){target="_blank"}
-
+![](../assets/do-not-localize/book.png) Discover how to access and implement marketing campaigns in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## Key steps to start{#gs-ac-start}
 
@@ -51,13 +50,13 @@ Key steps to create a cross-channel marketing campaign are:
 
     Define hierarchy and schedule, set budget, add resources, select operators. 
     
-   ![](../assets/do-not-localize/book.png) Learn how to create a marketing plan and configure campaigns in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to create a marketing plan and configure campaigns in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
     All marketing campaigns are based on a template, which stores main settings and capabilities. A built-in template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
-   ![](../assets/do-not-localize/book.png) Learn how to work with campaign templates in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns){target="_blank"}
+   Learn how to work with campaign templates in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
-   ![](../assets/do-not-localize/book.png) Discover recurring campaigns and how to configure them in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target="_blank"}
+   Discover recurring campaigns and how to configure them in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html).
 
 1. **Define audiences**
     
@@ -65,7 +64,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-wf.png) 
     
-   ![](../assets/do-not-localize/book.png) Learn how to define the audience of your messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns){target="_blank"}
+    Learn how to define the audience of your messages in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html).
     
 1. **Create deliveries**
 
@@ -73,17 +72,17 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-   ![](../assets/do-not-localize/book.png) Learn how to create and start marketing campaign deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn how to create and start marketing campaign deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc.
 
-   ![](../assets/do-not-localize/book.png) Learn more about associated documents in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Learn more about associated documents in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
     
 1. **Set up the approval process**
 
     Adobe Campaign lets you set up collaborative approval processes for the main stages of the marketing campaign. For each campaign you can approve the delivery target, content, and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a web connection. 
 
-   ![](../assets/do-not-localize/book.png) Learn how to set up and manage approvals in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns){target="_blank"}
+   Learn how to set up and manage approvals in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
 
 
 ## Distributed Marketing add-on{#distributed-marketing-add-on}
@@ -94,7 +93,7 @@ Adobe Campaign offers a **Distributed Marketing** add-on for implementing cooper
 >
 >This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Distributed Marketing capabilities in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target="_blank"}
+Learn how to configure and use Campaign Distributed Marketing capabilities in [this page](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
 
 ## Response Management add-on{#response-manager-add-on} 
 

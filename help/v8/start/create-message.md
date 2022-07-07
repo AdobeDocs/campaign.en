@@ -42,13 +42,13 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/deliveries-in-a-campaign.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to send messages in the context of a campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html){target="_blank"}
+   Learn how to send messages in the context of a campaign in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
 
 * Send messages via a [workflow](../config/workflows.md)
 
     ![](assets/send-in-a-wf.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to automate email deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html){target="_blank"}
+   ![](../assets/do-not-localize/glass.png) Learn how to automate email deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
 
 * [Trigger messages](../send/transactional.md) from an event
    ![](../assets/do-not-localize/book.png) [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target="_blank"}
@@ -57,7 +57,7 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/schedule-send.png) 
    
-   ![](../assets/do-not-localize/book.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?){target="_blank"}
+   ![](../assets/do-not-localize/glass.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
 
 ## Add personalization{#personalization}
