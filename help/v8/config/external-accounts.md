@@ -36,7 +36,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-Learn more about inbound emails in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
+Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
 
 ![](assets/bounce_external_1.png)
 
@@ -160,7 +160,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
 These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity.
 
-Learn more about File transfer in workflows in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+Learn more about File transfer in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP and SFTP**
 
