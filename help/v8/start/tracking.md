@@ -117,7 +117,7 @@ Learn more about the information you can monitor after sending a delivery, under
 
 ### Monitor your workflows
 
-Learn how to monitor workflow execution in  [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target="_blank"}
+Learn how to monitor workflow execution in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### Monitor your instance
 

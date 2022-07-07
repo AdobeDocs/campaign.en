@@ -51,10 +51,10 @@ Adobe Campaign is a powerful tool for collecting and processing large volume of 
 
 ![](../assets/do-not-localize/book.png) Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
 
-**Related topics** in Campaign Classic v7 documentation:
+**Related topics**
 
-* [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target="_blank"}
+* [Design and execute a campaign-specific workflow](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
 
-* [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target="_blank"}
+* [Learn how to select the audience of a campaign](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
-* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target="_blank"}
+* [Get started with workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
