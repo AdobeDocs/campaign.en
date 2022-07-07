@@ -133,4 +133,5 @@ title: Campaign v8 docs
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Automation Guide](automation/home-v8-automation.md)
 
