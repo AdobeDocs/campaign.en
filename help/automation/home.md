@@ -15,7 +15,11 @@ Communicating with your customers through multiple marketing channels can work f
 Adobe Campaign makes it easy for you to get your channels in sync, with a single, easy-to-use interface for campaign orchestration. So, your online channels — like email, web, mobile, and social — match your offline channels, including direct mail, call center, in-store, and so on. It empowers you to give your customers a consistent and contextual experience in both digital and traditional channels. In short, Adobe Campaign makes it simple to deliver content to all the paths your customers may take — on any channel.
 
 
-Visit the guides below and learn how to build automation with Adobe Campaign:
+Visit the guides below and learn how to build automation with Adobe Campaign.
+
+>[!NOTE]
+>Some screens may differ from your environment. 
+>
 
 <table>
 <tr>
