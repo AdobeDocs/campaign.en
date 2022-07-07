@@ -16,17 +16,13 @@ Workflows can be a useful way to automate some of your import processes. Whether
 
 ### Use data from a list: Read list {#data-from-read-list}
 
-Prepare and structure your data in a file to import it with a workflow.
-
-For more on using the read list activity in a workflow, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/read-list.html){target="_blank"}.
+Prepare and structure your data in a file to import it with a workflow. [Learn more](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
 
 ### Load data from a file {#data-from-a-file}
 
-The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign.
+The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign. [Learn more](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html).
 
-A description of the loading data activity can be found in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html){target="_blank"}.
-
-Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [Campaign Classic v7 documentation]https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/how-to-use-workflow-data.htmll){target="_blank"}.
+Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this section](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html).
 
 ## One-shot imports{#import-jobs}
 
