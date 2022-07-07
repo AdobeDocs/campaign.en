@@ -27,11 +27,11 @@ Learn how to design workflows in these [end-to-end use cases](#end-to-end-uc).
 
 Learn more about workflows user interface and execution in these pages:
 
-* [Get started with workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 
-* [Workflow best practices](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
+* [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
-* [Built-in technical workfows](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
+* [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
 
 * [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
@@ -43,10 +43,10 @@ Learn more about the available workflow activities in [this section](https://exp
 
 Workflow activities are grouped by category. The four activity categories are available:
 
-* [Targeting activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, Read list, Enrichment, Union, and more
-* [Flow control activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): Scheduler, Fork, Alert, External signal, and more
-* [Action activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
-* [Event activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): File transfer, Web download and more
+* [Targeting activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, Read list, Enrichment, Union, and more
+* [Flow control activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): Scheduler, Fork, Alert, External signal, and more
+* [Action activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
+* [Event activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): File transfer, Web download and more
 
 ### Change data source activity {#change-data-source-activity}
 
