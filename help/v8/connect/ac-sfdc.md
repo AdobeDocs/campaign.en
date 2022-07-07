@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and SFDC
 description: Learn how to work with Campaign and Salesforce.com
-feature: Overview
+feature: Salesforce Integration
 role: Data Engineer
 level: Beginner
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9

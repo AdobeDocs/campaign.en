@@ -247,7 +247,7 @@ _September 7, 2021_
 
 **Other changes**
 
-* Previously deprecated Microsoft CRM connectors (Office 365 and On-premise deployments) have been removed from the interface. [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
+* Previously deprecated Microsoft CRM connectors (Office 365 and on-premise deployments) have been removed from the interface. [Read more](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 * Following the migration to Tomcat 8, the IIS setup script has been updated to fix IIS integration issues. (NEO-31019)
 * A guardrail has been added to only allow the [billing technical workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html#billing-report) to run on the marketing instance.
 * The data source identification has been improved in the data and schema tabs of the workflow transitions' **View population** window.

@@ -13,9 +13,9 @@ title: Campaign v8 docs
 + What's new? {#new}
   + [Key capabilities](start/whats-new.md)
   + [Release notes](start/release-notes.md)
-  + [Known limitations](start/known-limitations.md)
+  + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
-  + [Classic v7 to v8](start/capability-matrix.md)
+  + [Classic v7 to v8](start/v7-to-v8.md)
 + Start {#start}
   + [Get started](start/get-started.md)
   + [Components and processes](start/ac-components.md)

@@ -1,7 +1,7 @@
 ---
 title: Campaign Control Panel
 description: Get started with Campaign Control Panel
-feature: Overview
+feature: Control Panel
 role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3

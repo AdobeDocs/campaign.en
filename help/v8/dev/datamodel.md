@@ -1,7 +1,7 @@
 ---
 title: Get started with Campaign data model
 description: Get started with Campaign data model
-feature: Overview
+feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896

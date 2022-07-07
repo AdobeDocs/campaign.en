@@ -1,7 +1,7 @@
 ---
 title: Send emails with Adobe Campaign
 description: Get started with emails in Campaign
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64

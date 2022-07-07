@@ -1,7 +1,7 @@
 ---
 title: Get started with Campaign APIs
 description: Get started with Campaign APIs
-feature: Overview
+feature: API
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3

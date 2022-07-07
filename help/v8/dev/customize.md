@@ -1,14 +1,14 @@
 ---
 title: Customize your instance
 description: Learn how to customize your instance
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 ---
 # Customize your instance{#gs-ac-custom}
 
-Learn how to **Customize your Campaign instance**
+Learn how to **Customize your Campaign instance**.
 
 >[!CAUTION]
 >

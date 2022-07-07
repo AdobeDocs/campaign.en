@@ -78,7 +78,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 Adobe Campaign offers a set of capabilities to help you implement and optimize the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package on your configuration. A detailed product description is available here: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
+![](../assets/do-not-localize/glass.png) Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](v7-to-v8.md).
 
 **See also**
 

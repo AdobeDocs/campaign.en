@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Microsoft Dynamics
 description: Learn how to work with Campaign and Microsoft Dynamics
-feature: Overview
+feature: Microsoft CRM Integration
 role: Data Engineer
 level: Beginner
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f

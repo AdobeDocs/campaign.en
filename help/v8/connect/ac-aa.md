@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Adobe Analytics
 description: Learn how to integrate Campaign and Analytics
-feature: Overview
+feature: Analytics Integration
 role: Data Engineer
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d

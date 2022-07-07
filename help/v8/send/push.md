@@ -1,7 +1,7 @@
 ---
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign
-feature: Overview
+feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
@@ -108,13 +108,13 @@ To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **
       > 
       >Sounds must be included in the application and defined when the service is created. 
       >
-      >Configuration guidelines for iOS are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+      >Configuration guidelines for iOS are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
 
    ![](assets/push_ios_5.png)
 
 1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
-   For more on this, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+   For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
 
 1. From the **[!UICONTROL Advanced]** tab, you can edit the following general options:
 
@@ -184,12 +184,12 @@ To send a proof and to send the final delivery, use the same process as email de
    ![](../assets/do-not-localize/book.png) [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
 
 * Confirm and send the delivery
-    ![](../assets/do-not-localize/book.png) [Learn key steps to send a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn key steps to send a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target="_blank"}
 
 After sending messages, you can monitor and track your deliveries. Learn more in Campaign Classic v7 documentation:
 
 * Push notification quarantines
-    ![](../assets/do-not-localize/book.png) [Learn more about push notification quarantines](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn more about push notification quarantines](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target="_blank"}
 
 * Troubleshooting
-    ![](../assets/do-not-localize/book.png) [Learn how to troubleshoot your push notifications](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target="_blank"}
+    ![](../assets/do-not-localize/book.png) [Learn how to troubleshoot your push notifications](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target="_blank"}

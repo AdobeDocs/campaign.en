@@ -1,7 +1,7 @@
 ---
 title: Customize Campaign UI
 description: Learn how to customize Campaign UI
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
