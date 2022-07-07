@@ -30,7 +30,7 @@ Filter configuration lets you select data from a list **[!UICONTROL dynamically]
 
 Targeting can be created via a combination of queries in a graphical sequence in a workflow. You can create audiences which will be targeted according to your requirements. To display the workflow editor, click the **[!UICONTROL Targeting and workflows]** tab in the campaign dashboard.
 
-Learn how to build an audience in a campaign workflow in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+Learn how to build an audience in a campaign workflow in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 
 ## Active profiles{#active-profiles}
@@ -53,8 +53,8 @@ Adobe Campaign is a powerful tool for collecting and processing large volume of 
 
 **Related topics**
 
-* [Design and execute a campaign-specific workflow](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
+* [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
 
-* [Learn how to select the audience of a campaign](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
-* [Get started with workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)

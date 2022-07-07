@@ -70,7 +70,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
    Once the content is ready, click **Save**: it will now be displayed in your list of deliveries, in the **[!UICONTROL Campaigns > Deliveries]** tab. Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
 
 
-Learn hhow to import an email content in this [use case](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+Learn hhow to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
 Learn more in these sections of **Campaign Classic v7 documentation**:
 

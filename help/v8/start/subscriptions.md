@@ -50,7 +50,7 @@ To subscribe (opt-in) a profile to a service, available options are:
 
    ![](assets/wf-subscription.png) 
 
-   Learn more in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
+   Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
     
 To unsubscribe (opt-out) a profile from a service, available options are:
 

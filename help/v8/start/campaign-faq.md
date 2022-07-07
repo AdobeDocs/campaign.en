@@ -44,7 +44,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
     
 1. **Can I monitor workflow execution?**
 
-   Understand how to monitor Campaign workflow execution [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
+   Understand how to monitor Campaign workflow execution [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
 
 1. **Which systems and components Campaign v8 is compatible with?**
 

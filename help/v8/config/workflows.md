@@ -33,13 +33,13 @@ Learn more about workflows user interface and execution in Campaign Classic v7 d
 
 * [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
 
-* [Monitor workflows execution](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+* [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [Build an audience in a marketing campaign workflow](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Build an audience in a marketing campaign workflow](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 ## Workflow activities {#wf-activities}
 
-Learn more about the available workflow activities in [this section](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+Learn more about the available workflow activities in [this section](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
 
 Workflow activities are grouped by category. The four activity categories are available:
 
@@ -49,10 +49,10 @@ Workflow activities are grouped by category. The four activity categories are av
 * [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
 * [Event activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target="_blank"}: File transfer, Web download and more
 =======
-* [Targeting activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, Read list, Enrichment, Union, and more
-* [Flow control activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): Scheduler, Fork, Alert, External signal, and more
-* [Action activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
-* [Event activities](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): File transfer, Web download and more
+* [Targeting activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html): Query, Read list, Enrichment, Union, and more
+* [Flow control activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html): Scheduler, Fork, Alert, External signal, and more
+* [Action activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html): Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
+* [Event activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html): File transfer, Web download and more
 >>>>>>> Stashed changes
 
 ### Change data source activity {#change-data-source-activity}
@@ -73,7 +73,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
     
@@ -81,7 +81,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
@@ -93,7 +93,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 After creating your workflow, you can access additional options with the **[!UICONTROL Properties]** button for further configuration.
 
-Learn more about **Workflow properties** in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
+Learn more about **Workflow properties** in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
 From the **[!UICONTROL Execution]** tab of your workflow's **[!UICONTROL Properties]**, you can choose to link your workflow to different warehouses and optimize your workload management. For more information on **Warehouses**, refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
 
@@ -115,7 +115,7 @@ Depending on your workflow's purpose, you can choose between the following three
 
 Design recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
 
-Learn how to create a recurring campaign in [this page](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
+Learn how to create a recurring campaign in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
 
 
 ## Leverage trigger events
@@ -138,17 +138,17 @@ In this section, you will find various use cases leveraging Campaign workflows c
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
     
-* [Send a birthday email](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+* [Send a birthday email](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
     This use case presents how to plan sending a recurring email to a list of recipients on the day of their birthday.
 
-* [Load delivery content](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+* [Load delivery content](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
     When your delivery content is available in an HTML file located on a remote server, you can easily load this content into Adobe Campaign deliveries.
 
-* [Cross-channel delivery workflow](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+* [Cross-channel delivery workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
     Learn how to build a cross-channel delivery workflow. The objective is to segment an audience from the recipients of your database into different groups and send an email to the first group and a SMS to the other.
 
-* [Email enrichment with custom date fields](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+* [Email enrichment with custom date fields](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
     Learn how to send an email with custom data fields to profiles who celebrate their birthdays this month. The email will include a coupon valid one week before and after their birthday.
 
 And these pages in Campaign v7 documentation: 
@@ -163,54 +163,54 @@ And these pages in Campaign v7 documentation:
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [Send a report to a list](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
+* [Send a report to a list](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)
     Learn how to generate a monthly built-in Tracking indicators report in PDF format and send it to a list of Campaign operators.
 
-* [Supervise your workflows](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+* [Supervise your workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
     Learn how to create a workflow that lets you monitor the status of a set of workflows that are “paused”, “stopped” or “with errors”.
 
-* [Send personalized alerts to operators](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+* [Send personalized alerts to operators](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
     Learn how to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
 
 ### Data management {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Coordinate data updates](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+* [Coordinate data updates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
     Learn how to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether to continue the execution of the workflow and perform the update.
 
-* [Create a summary list](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+* [Create a summary list](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
     Learn how to create a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 
-* [Enrich data](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [Enrich data](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
     Learn how to send personalized deliveries to profiles who took part in the latest competition depending on their score.
 
-* [Use aggregates](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+* [Use aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
     Learn how to identify the last recipients added to the database.
 
-* [Quarterly list update using an incremental query](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+* [Quarterly list update using an incremental query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
     Learn how to use an incremental query to automatically update a recipient list.
 
-* [Set up a recurring import workflow](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+* [Set up a recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
     Learn how to design a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. 
 
 ### Targeting {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Query the recipient table](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+* [Query the recipient table](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
     Learn how to recover the names and emails of recipients whose email domain is “orange.co.uk” and who don’t live in London.
 
-* [Query delivery information](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+* [Query delivery information](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
     Learn how to define queries on delivery information to retrieve profile's behavior.
 
-* [Compute aggregates](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+* [Compute aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
     Learn how to count the number of profiles living in London, according to gender.
     
-* [Query using a many-to-many-relationship](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+* [Query using a many-to-many-relationship](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
     Learn how to find profiles not contacted during the last 7 days. 
 
-* [Call an instance variable in a query](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+* [Call an instance variable in a query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
     Learn how to use an instance variable to compute dynamically the split percentage to apply on a population.
 
 <!--
