@@ -8,7 +8,7 @@ feature : Overview
 # Campaign Automation Guides {#automation}
 
 + [Campaign Automation Guide](home.md)
-+ Automate with workflows {#automating-with-workflows}
++ Automate with workflows {#workflows}
   + Get started with workflows {#introduction}
        + [About workflows](workflow/about-workflows.md)
      + Types of workflows {#wf-type}

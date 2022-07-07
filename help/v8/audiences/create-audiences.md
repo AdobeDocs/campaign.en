@@ -97,7 +97,7 @@ In the example below, you create a list of all the recipients between 25 and 40.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Learn how to create a query in a workflow in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target="_blank"}
+   Learn how to create a query in a workflow in [this section](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. Add a label for this query and save your changes.
 1. Add a **[!UICONTROL List update]** activity, and edit it.
@@ -118,7 +118,7 @@ In the example below, you create a list of all the recipients between 25 and 40.
 
    ![](assets/access-new-list.png)
 
-   You can make this workflow recurrent by adding a scheduler to the workflow. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
+   You can make this workflow recurrent by adding a scheduler to the workflow. [Learn more](https://experienceleague-review.corp.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html).
 
 ## Remove a profile from a list {#remove-a-profile-from-a-list}
 
