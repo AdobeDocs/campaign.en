@@ -10,7 +10,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
-* * **[[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}** - Learn how to build workflows and campaigns
+* **[[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}** - Learn how to build workflows and campaigns
 
 * **[What is [!DNL Adobe Campaign]](start/get-started.md)** - Key capabilities and use cases
 
