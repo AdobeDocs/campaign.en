@@ -20,30 +20,63 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
 >Some screens may differ from your environment. 
 >
 
+
 <table>
 <tr>
-  <td valign="bottom">
-      <img alt="automation" src="assets/add-ons.png"/>
-  </td>
-  <td valign="bottom">
- <div>
- <br>
- <div>Visit the guides below and learn how to build automation with Adobe Campaign:
-</div>
-<br>
-<br>
-    <a href="workflow/about-workflows.md">Workflows</a>
-    </div>
+  <td valign="top">
     <div>
-    <a href="campaigns/set-up-campaigns.md">Campaign automation</a>
+    <b>Workflows</b>
+    </div>
+    <br>
+    <div>
+    <a href="workflow/about-workflows.md">Get started</a>
     </div>
     <br>     
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Campaign Optimization (add on)</a>
+    <a href="workflow/build-a-workflow.md">Create your first workflow</a>
     </div>
+    <br>
     <div>
-    <a href="distributed-marketing/about-distributed-marketing.md">Distributed Marketing (add on)</a>
+    <a href="workflow/workflow-use-cases.md">Use cases</a>
     </div>
     <br>
   </td>
+  <td valign="top">
+    <div>
+    <b>Campaign  automation</b>
+    </div>
+    <br>
+    <div>
+    <a href="campaigns/set-up-campaigns.md">Get started</a>
+    </div>
+    <br>
+    <div>
+    <a href="campaigns/marketing-campaign-create.md">Create your first campaign</a>
+    </div>
+    <br>
+    <div>
+    <a href="campaigns/marketing-campaign-deliveries.md">Send messages in a campaign</a>
+    </div>
+    <br>
+  </td>
+  <td valign="top">
+    <div>
+    <b>Add-ons</b>
+    </div>
+    <br>
+    <div>
+    <a href="distributed-marketing/about-distributed-marketing.md">Distributed marketing</a>
+    </div>
+    <br>
+    <div>
+    <a href="campaign-opt/campaign-typologies.md">Campaign optimization</a>
+    </div>
+    <br>
+    <div>
+    <a href="campaigns/marketing-campaign-deliveries.md">Send messages in a campaign</a>
+    </div>
+    <br>
+  </td>
+</tr>
 </table>
+
