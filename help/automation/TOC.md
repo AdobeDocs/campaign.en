@@ -154,4 +154,4 @@ feature : Overview
   + [Access campaigns](distributed-marketing/accessing-campaigns.md)
   + [Track a campaign](distributed-marketing/tracking-a-campaign.md)
   + [Use cases](distributed-marketing/examples.md)
-  
++ [<< Back to Campaign overview](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)

@@ -3,7 +3,7 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
-breadcrumb-title: Campaign v8
+breadcrumb-title: Campaign overview
 title: Campaign v8 docs
 ---
 

@@ -7,7 +7,6 @@ description : Overview
 ---
 # Adobe Campaign Automation {#automation-home}
 
-
 **[<< Back to Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)**
 
 Communicating with your customers through multiple marketing channels can work for you or against you. When the different channels aren’t working together, there’s only noise and confusion. When they’re synchronized, they combine to give your customers a powerful and complementary experience with your brand.
