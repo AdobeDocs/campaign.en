@@ -72,10 +72,6 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
     <a href="campaign-opt/campaign-typologies.md">Campaign optimization</a>
     </div>
     <br>
-    <div>
-    <a href="campaigns/marketing-campaign-deliveries.md">Send messages in a campaign</a>
-    </div>
-    <br>
   </td>
 </tr>
 </table>
