@@ -3,7 +3,7 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
-breadcrumb-title: Campaign v8
+breadcrumb-title: Campaign overview
 title: Campaign v8 docs
 ---
 
@@ -133,4 +133,4 @@ title: Campaign v8 docs
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-
++ [Campaign Automation Guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html)

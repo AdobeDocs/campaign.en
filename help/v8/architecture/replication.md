@@ -14,7 +14,7 @@ In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), A
 
 These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
 
-![](../assets/do-not-localize/book.png) The full list of technical workflows is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target="_blank"}
+![](../assets/do-not-localize/glass.png) The full list of technical workflows is detailed in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
 In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
 
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Related topics**
 
-![](../assets/do-not-localize/book.png) Learn how to get started with workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target="_blank"}
+* [Learn how to get started with workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 
-![](../assets/do-not-localize/glass.png) Access data retention periods in [this section](../dev/datamodel-best-practices.md#data-retention)
+* [Data retention periods](../dev/datamodel-best-practices.md#data-retention)

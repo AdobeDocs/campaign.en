@@ -36,7 +36,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-![](../assets/do-not-localize/book.png) Learn more about inbound emails in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target="_blank"}
+Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
 
 ![](assets/bounce_external_1.png)
 
@@ -160,7 +160,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
 These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity.
 
-![](../assets/do-not-localize/book.png) Learn more about File transfer in workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target="_blank"}
+Learn more about File transfer in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP and SFTP**
 
@@ -173,13 +173,13 @@ These external accounts can be used to import or export data to Adobe Campaign u
 
     * **[!UICONTROL AWS S3 Account Server]**: URL of your server, filled as follows:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-    * **[!UICONTROL AWS access key ID]**: Learn how to find your AWS access key ID in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
+    * **[!UICONTROL AWS access key ID]**: Learn how to find your AWS access key ID in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-    * **[!UICONTROL Secret access key to AWS]**: Learn how to find your secret access key to AWS in [Amazon documentation](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+    * **[!UICONTROL Secret access key to AWS]**: Learn how to find your secret access key to AWS in [Amazon documentation](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-    * **[!UICONTROL AWS Region]**: Learn more on AWS regions in [Amazon documentation](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+    * **[!UICONTROL AWS Region]**: Learn more on AWS regions in [Amazon documentation](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-    * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode. Learn how to find the access key ID and secret access key in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+    * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode. Learn how to find the access key ID and secret access key in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Azure Blob Storage**
 
@@ -189,4 +189,4 @@ These external accounts can be used to import or export data to Adobe Campaign u
 
     * **[!UICONTROL Encryption]**: Type of encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
 
-    * **[!UICONTROL Access key]**: Learn how to find your **[!UICONTROL Access key]** in [Microsoft documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+    * **[!UICONTROL Access key]**: Learn how to find your **[!UICONTROL Access key]** in [Microsoft documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.

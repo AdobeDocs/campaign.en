@@ -148,7 +148,7 @@ _October 28, 2021_
 <tbody> 
 <tr> 
 <td> <p>Campaign Optimization module is now available. This module lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.</p>
-<p>For more information, refer to the related <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classic v7 documentation</a>.</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=en#campaign-optimization">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 

@@ -50,7 +50,7 @@ To subscribe (opt-in) a profile to a service, available options are:
 
    ![](assets/wf-subscription.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter){target="_blank"}
+   Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
     
 To unsubscribe (opt-out) a profile from a service, available options are:
 

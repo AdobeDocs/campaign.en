@@ -47,5 +47,5 @@ Use Campaign to create web forms and collect and manage profile information easi
 **Related topics**
 
 * [Create audiences](audiences.md)
-* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html){target="_blank"}
-* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html){target="_blank"}
+* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html)
+* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
