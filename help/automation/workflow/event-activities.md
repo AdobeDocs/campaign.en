@@ -3,7 +3,7 @@ product: campaign
 title: Event activities in workflows
 description: List of event activities in workflows
 feature: Workflows, Data Management
-exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
+
 ---
 # Event activities in workflows{#about-event-activities}
 

@@ -3,7 +3,7 @@ product: campaign
 title: Perform aggregate computation
 description: Learn how to perform aggregate computing in queries
 feature: Workflows
-exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
+
 ---
 # Perform aggregate computation {#performing-aggregate-computing}
 

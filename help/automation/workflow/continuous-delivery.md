@@ -3,7 +3,7 @@ product: campaign
 title: Continuous delivery
 description: Continuous delivery
 feature: Workflows, Channels Activity
-exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
+
 ---
 # Continuous delivery{#continuous-delivery}
 

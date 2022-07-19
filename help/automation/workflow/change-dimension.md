@@ -3,7 +3,7 @@ product: campaign
 title: Change dimension in a workflow
 description: Learn how to use the Change dimension activity
 feature: Workflows, Targeting Activity
-exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
+
 ---
 # Change dimension{#change-dimension}
 

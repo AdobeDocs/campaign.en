@@ -3,7 +3,7 @@ product: campaign
 title: Workflow use cases
 description: Learn more on use cases that you can perform using Campaign workflows
 feature: Workflows, Data Management
-exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
+
 ---
 # Workflow use cases {#about-workflow-use-cases}
 
