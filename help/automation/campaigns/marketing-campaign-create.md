@@ -3,6 +3,7 @@ product: campaign
 title: Create marketing campaigns
 description: Learn how to create and execute marketing campaigns
 feature: Campaigns, Cross Channel Orchestration, Programs
+exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 ---
 # Create programs and campaigns{#create-programs-and-campaigns}
 
@@ -200,4 +201,3 @@ You can also use the link contained in the notification messages. For more on th
 This video shows how to create a marketing plan, programs, and campaigns.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
-

@@ -3,6 +3,7 @@ product: campaign
 title: Configure pressure rules
 description: Learn how to configure pressure rules
 feature: Fatigue Management, Typology Rules
+exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 ---
 # Pressure rules{#pressure-rules}
 

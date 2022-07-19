@@ -3,8 +3,8 @@ product: campaign
 title: Create recurring and periodic campaigns
 description: Learn how to create and execute recurring and periodic campaigns
 feature: Campaigns, Cross Channel Orchestration, Programs
+exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
 ---
-
 # Recurring and periodic campaigns {#recurring-and-periodic-campaigns}
 
 A **recurring campaign** is a campaign based on a specific template, whose workflows are configured to be executed according to an associated schedule. The targeting is duplicated on each execution and the various processes and target populations are tracked.  Once configured, recurring campaigns automatically create a new workflow (by duplicating the workflow template) and run it. For example, if you need to send monthly reminder to an audience segment, configure a recurring campaign so that at the beginning of each year, it creates 12 workflows, one for each month. [Learn more](#create-a-recurring-campaign)

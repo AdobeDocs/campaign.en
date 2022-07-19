@@ -3,7 +3,7 @@ product: campaign
 title: Workflow best practices
 description: Learn Campaign Workflow best practices
 feature: Workflows
-
+exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 ---
 # Workflow best practices{#workflow-best-practices}
 

@@ -3,6 +3,7 @@ product: campaign
 title: Configure control rules
 description: Learn how to configure control rules
 feature: Typology Rules
+exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
 ---
 # Control rules{#control-rules}
 

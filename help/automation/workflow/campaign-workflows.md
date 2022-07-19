@@ -3,8 +3,8 @@ product: campaign
 title: Type of workflows
 description: Discover different types of workflows in Campaign
 feature: Workflows
+exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
 ---
-
 # Campaign workflows {#campaign-workflows}
 
 For each campaign, you can create workflows to be executed from the **[!UICONTROL Targeting and workflows]** tab. These workflows are specific to the campaign.

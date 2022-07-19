@@ -3,7 +3,7 @@ product: campaign
 title: Workflow properties
 description: Learn more about Campaign Workflow properties
 feature: Workflows
-
+exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 ---
 # Workflow properties{#workflow-properties}
 

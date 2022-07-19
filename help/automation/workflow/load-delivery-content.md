@@ -3,7 +3,7 @@ product: campaign
 title: Load delivery content
 description: Loading delivery content
 feature: Workflows
-
+exl-id: 08febcbc-1703-4d36-89e1-32c903618084
 ---
 # Load delivery content{#loading-delivery-content}
 

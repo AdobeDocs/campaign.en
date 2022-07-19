@@ -3,7 +3,7 @@ product: campaign
 title: Start a workflow
 description: Learn how to start a workflow and discover workflows actions toolbar and right-click menu
 feature: Workflows
-
+exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 ---
 # Start a workflow {#starting-a-workflow}
 

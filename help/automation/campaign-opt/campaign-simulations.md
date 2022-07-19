@@ -3,6 +3,7 @@ product: campaign
 title: Get started with campaign simulations
 description: Learn how to configure campaign simulations
 feature: Campaigns
+exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 ---
 # Campaign simulations{#campaign-simulations}
 

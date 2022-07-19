@@ -2,6 +2,7 @@
 title: Use workflow data
 description: Learn how to use workflow data
 feature: Workflows, Data Management
+exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 ---
 # Use workflow data{#how-to-use-workflow-data}
 
@@ -132,6 +133,3 @@ The data of the Adobe Campaign database and the existing lists can be updated us
 ### Manage subscriptions {#subscription-management}
 
 To find out about subscribing and unsubscribing recipients to an information service via a workflow, refer to [Subscription Services](subscription-services.md).
-
-
-
