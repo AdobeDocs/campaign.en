@@ -4,8 +4,6 @@ description: Known issues in the latest Campaign release
 feature: Overview
 role: Data Engineer
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 ---
 # Known issues{#known-issues}
