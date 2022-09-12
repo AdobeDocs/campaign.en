@@ -4,8 +4,6 @@ description: Learn how to collect and update profiles with web forms
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 ---
 # Collect and update profiles with web forms
