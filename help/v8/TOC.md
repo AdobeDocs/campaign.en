@@ -78,6 +78,7 @@ title: Campaign v8 docs
   + [Direct mail](send/direct-mail.md)
   + [Social marketing](send/twitter.md)
   + [Transactional messages](send/transactional.md)
+  + [Send time optimization](send/predictive.md)
   + Failures, bounces and quarantines{#failures}
     + [Quarantines](send/quarantines.md)
     + [Delivery failures](send/delivery-failures.md)
