@@ -10,7 +10,7 @@ exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
 
 Use the FDA Connector (Federated Data Access) to connect Campaign to one or more **external databases** and process information stored into them without affecting your Campaign Cloud Database data. You can then access external data without changing the structure of Adobe Campaign data.
 
-![](../assets/do-not-localize/speech.png)   As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+![](../assets/do-not-localize/speech.png)   As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect your external database(s) with Campaign.
 
 
 >[!NOTE]
