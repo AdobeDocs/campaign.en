@@ -11,12 +11,51 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.4.0 {#release-8-4-0}
+
+_September 28, 2022_
+
+**What's new?**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Adobe Campaign integration with Adobe Experience Platform</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>New destination and source connectors are now available to allow seamless integration between Adobe Campaign and Adobe Experience Platform:</p>
+<ul><li>Use Adobe Campaign Managed Cloud Sources connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
+<li>Use Adobe Campaign Managed Cloud Destination connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
+</ul>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Workflow High Availability</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p></p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
 ## Release 8.3.8 {#release-8-3-8}
 
 _May 18, 2022_
 
 **What's new?**
-
 
 <table> 
 <thead>
@@ -47,7 +86,6 @@ _May 18, 2022_
 </tr> 
 </tbody> 
 </table>
-
 
 <table>
 <thead>
