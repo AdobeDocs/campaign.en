@@ -51,6 +51,11 @@ _September 28, 2022_
 </table>
 
 
+**Improvements**
+
+* Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for Adobe Services in the console is now using Microsoft Edge Chromium. Additionally, installation of Microsoft Edge WebView 2 runtime is now required for any client console installation. Read more
+
+
 ## Release 8.3.8 {#release-8-3-8}
 
 _May 18, 2022_
