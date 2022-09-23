@@ -2,7 +2,7 @@
 title: Manage subscriptions and unsubscriptions in Campaign
 description: Learn how to manage subscriptions and unsubscriptions in Campaign v8
 feature: Subscriptions
-role: AUser
+role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 ---

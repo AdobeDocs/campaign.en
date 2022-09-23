@@ -1,7 +1,7 @@
 ---
 title: Campaign security best practices
 description: Get started with Campaign security best practices
-feature: Security, Privacy, PI
+feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac

@@ -1,7 +1,7 @@
 ---
 title: Quarantine management in Campaign
 description: Understand quarantine management in Adobe Campaign
-feature: Profile, Monitoring
+feature: Profiles, Monitoring
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e

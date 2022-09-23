@@ -1,7 +1,7 @@
 ---
 title: Customize your instance
 description: Learn how to customize your instance
-feature: Developer
+role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 ---
