@@ -2,7 +2,7 @@
 title: Get started with Campaign reports
 description: Get started with Campaign reporting capabilities
 feature: Reporting
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488
 ---

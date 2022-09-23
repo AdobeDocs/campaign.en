@@ -2,8 +2,8 @@
 title: Work with target mappings
 description: Learn how to use and create target mappings
 feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+role: User, Developer
+level: Beginner, Intermediate
 ---
 # Work with target mappings{#gs-target-mappings}
 

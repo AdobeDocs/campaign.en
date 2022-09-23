@@ -2,7 +2,7 @@
 title: Get started with marketing campaigns
 description: Get started with marketing campaigns
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 ---

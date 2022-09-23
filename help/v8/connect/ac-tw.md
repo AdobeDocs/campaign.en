@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Twitter
 description: Learn how to integrate your Campaign environment with Twitter
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 ---

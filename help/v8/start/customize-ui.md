@@ -2,8 +2,8 @@
 title: Customize Campaign UI
 description: Learn how to customize Campaign UI
 feature: Application Settings
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
 ---
 # Customize Campaign UI{#customize-ac-ui}

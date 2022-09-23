@@ -2,8 +2,8 @@
 title: Understand Campaign processes and components
 description: Understand Campaign processes and components
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
 ---
 # Understand Campaign processes and components {#components-and-processes}

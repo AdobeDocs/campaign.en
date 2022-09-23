@@ -1,9 +1,9 @@
 ---
 title: Delivery failures in Campaign
 description: Understand possible failures when sending messages with Adobe Campaign
-feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+feature: Profile, Monitoring
+role: User
+level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 ---
 # Understand delivery failures {#delivery-failures}

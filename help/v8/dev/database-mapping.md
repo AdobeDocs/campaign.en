@@ -1,6 +1,8 @@
 ---
 title: Campaign Database mapping
 description: Campaign Database mapping
+role: Developer
+level: Intermediate, Experienced
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
 ---
 # Database mapping{#database-mapping}

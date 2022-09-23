@@ -2,8 +2,8 @@
 title: Campaign v8 guardrails
 description: Campaign v8 guardrails
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: User
+level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 ---
 # Product guardrails{#guardrails}

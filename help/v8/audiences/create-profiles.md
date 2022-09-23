@@ -2,7 +2,7 @@
 title: Create profiles in Campaign
 description: Learn how to add contacts manually to Campaign
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 363b53ad-098c-4c34-8026-3185702c0452
 ---

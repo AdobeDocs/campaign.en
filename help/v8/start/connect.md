@@ -1,8 +1,8 @@
 ---
 title: Connect to Campaign v8
 description: Learn how to connect to Campaign v8
-feature: Audiences
-role: Data Engineer
+feature: Client Console
+role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
