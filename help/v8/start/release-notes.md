@@ -2,8 +2,8 @@
 title: Campaign v8 release notes
 description: Latest Campaign v8 release
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 hidefromtoc: no
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
@@ -11,12 +11,63 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.4.0 {#release-8-4-0}
+
+_September 28, 2022_
+
+**What's new?**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Adobe Campaign integration with Adobe Experience Platform</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>New destination and source connectors are now available to allow seamless integration between Adobe Campaign and Adobe Experience Platform:</p>
+<ul><li>Use Adobe Campaign Managed Cloud Sources connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
+<li>Use Adobe Campaign Managed Cloud Destination connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
+</ul>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter channel availability</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
+<ul> 
+<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+</p></li>
+<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
+</p></li>
+</ul>
+<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
+<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Improvements**
+
+* Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for Adobe Services in the console is now using Microsoft Edge Chromium. Additionally, installation of Microsoft Edge WebView 2 runtime is now required for any client console installation. Read more
+* Workflow availability has been improved to avoid execution errors. 
+
+
+
 ## Release 8.3.8 {#release-8-3-8}
 
 _May 18, 2022_
 
 **What's new?**
-
 
 <table> 
 <thead>
@@ -47,7 +98,6 @@ _May 18, 2022_
 </tr> 
 </tbody> 
 </table>
-
 
 <table>
 <thead>
@@ -170,29 +220,6 @@ _October 28, 2021_
 </tbody> 
 </table>
 
-<!--
-<table> 
-<thead>
-<tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
-<ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-</p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
-</p></li>
-</ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
 
 **Improvements**
 

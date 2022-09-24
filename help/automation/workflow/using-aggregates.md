@@ -3,7 +3,7 @@ product: campaign
 title: Use aggregates
 description: Learn how to use aggregates
 feature: Workflows
-
+exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 ---
 # Use aggregates{#using-aggregates}
 

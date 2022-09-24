@@ -2,8 +2,8 @@
 title: What's new in Campaign v8
 description: Discover key capabilities in Campaign v8
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 ---
 # What's new in Adobe Campaign v8? {#ac-gs-what-is-new}

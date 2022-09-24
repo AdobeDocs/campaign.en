@@ -2,8 +2,8 @@
 title: Transition from Campaign Classic v7 to Campaign v8
 description: Understand differences between Campaign Classic v7 and Campaign v8
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 ---
 # Transition from [!DNL Campaign Classic] v7 to [!DNL Campaign] v8{#gs-matrix}

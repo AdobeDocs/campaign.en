@@ -2,8 +2,8 @@
 title: Manage Privacy requests in Campaign
 description: Learn how to manage privacy requests in Campaign
 feature: Audiences
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 ---
 # Manage Privacy requests in Campaign {#privacy}

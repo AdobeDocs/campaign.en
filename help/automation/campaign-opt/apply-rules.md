@@ -3,7 +3,7 @@ product: campaign
 title: Apply typology rules
 description: Learn how to apply typology rules
 feature: Typology Rules
-
+exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
 ---
 # Apply typology rules{#applying-rules}
 

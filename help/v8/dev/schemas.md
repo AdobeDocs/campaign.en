@@ -1,6 +1,9 @@
 ---
 title: Work with Campaign schemas
 description: Get started with schemas
+feature: Schema Extension
+role: Developer
+level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
 ---
 # Work with schemas{#gs-ac-schemas}

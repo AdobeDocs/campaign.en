@@ -3,7 +3,7 @@ product: campaign
 title: Technical workflows
 description: Learn more about the technical workflows available with Campaign
 feature: Workflows
-
+exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 ---
 # Technical workflows{#about-technical-workflows}
 
@@ -81,4 +81,3 @@ Learn how to monitor technical workflows in this [dedicated section](monitor-tec
 |**Tracking** (tracking|Installed by default|This workflow performs the recovery and consolidation of tracking information. It also assures the recalculation of tracking and delivery statistics, especially those used by Message Center archiving workflows. By default, it is triggered once per hour.|
 |**Update event status** (updateEventsStatus)|Transactional message execution (Message Center - Execution)|This workflow lets you assign a status to an event. Event statuses are as follows:<ul><li>Pending: the event is in a queue. No message template has yet been associated to it.</li><li>Pending delivery: the event is in a queue, a message template has been associated to it and is currently being processed by the delivery.</li><li>Sent: this status is copied from the delivery logs. It means that the delivery has been sent.</li><li>Ignored by the delivery: this status is copied from the delivery logs. It means that the delivery has been ignored.</li><li>Delivery error: this status is copied from the delivery logs. It means that the delivery has failed.</li><li>Event not covered: the event has failed to be associated with a message template. The event will not be reprocessed.</li></ul>|
 |**Update for deliverability** (deliverabilityUpdate)|Installed by default|Once the Deliverability monitoring (Email Deliverability) package is installed, this workflow runs nightly and manages the bounce emails qualification rules, as well as the list of domains and MXs. This requires the HTTPS port to be open on the platform.|
-

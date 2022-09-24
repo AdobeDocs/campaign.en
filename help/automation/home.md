@@ -2,8 +2,9 @@
 keywords: Campaign Automation;home;popular topics
 product: campaign
 title: Adobe Campaign Automation Home
-feature : Overview
-description : Overview
+feature: Overview
+description: Overview
+exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 ---
 # Adobe Campaign Automation {#automation-home}
 
@@ -73,4 +74,3 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
   </td>
 </tr>
 </table>
-

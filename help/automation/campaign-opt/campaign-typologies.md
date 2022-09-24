@@ -3,6 +3,7 @@ product: campaign
 title: Get started with campaign typologies
 description: Learn how to configure and implement campaign typologies
 feature: Typology Rules
+exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 ---
 # Get started with campaign typologies{#about-campaign-typologies}
 
@@ -65,5 +66,3 @@ Fatigue management controls frequency and quantity of messaging to avoid over-so
 This video explains how to implement fatigue management in Adobe Campaign by using filters.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
-
-

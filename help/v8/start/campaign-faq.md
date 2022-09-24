@@ -2,7 +2,7 @@
 title: Campaign v8 Frequently Asked Questions
 description: Discover Campaign common Q&A
 feature: Overview
-role: Data Engineer
+role: Admin, Developer, User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 ---

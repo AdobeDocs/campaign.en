@@ -1,10 +1,8 @@
 ---
 title: Post messages on Twitter with Adobe Campaign
 description: Learn how to use Adobe Campaign Social Marketing module to post messages on Twitter and collect contact data
-role: Data Engineer
-level: Beginner
-hide: yes
-hidefromtoc: yes
+role: User
+level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 ---
 

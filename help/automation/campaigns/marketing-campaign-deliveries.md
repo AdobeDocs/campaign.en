@@ -3,6 +3,7 @@ product: campaign
 title: Marketing campaign deliveries
 description: Learn more about marketing campaign deliveries
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 

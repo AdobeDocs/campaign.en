@@ -2,8 +2,8 @@
 title: Connect Campaign with your solutions
 description: learn how to connect Campaign with your solutions
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 ---
 # Connect Campaign with your solutions{#gs-ac-connectors}

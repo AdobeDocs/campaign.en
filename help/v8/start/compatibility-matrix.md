@@ -2,8 +2,8 @@
 title: Campaign v8 compatibility matrix
 description: Learn systems and versions compatible with Campaign v8
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 ---
 # Campaign v8 compatibility matrix

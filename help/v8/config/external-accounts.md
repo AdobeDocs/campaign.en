@@ -2,8 +2,8 @@
 title: Campaign external accounts
 description: Campaign external accounts
 feature: Application Settings
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 ---
 # Configure your external accounts

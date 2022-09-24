@@ -1,6 +1,9 @@
 ---
 title: General architecture
 description: Learn more about Campaign architecture and components
+feature: Architecture
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 ---
 # General architecture{#general-architecture}

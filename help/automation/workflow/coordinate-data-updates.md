@@ -3,7 +3,7 @@ product: campaign
 title: Coordinate data updates
 description: Coordinate data updates
 feature: Workflows, Data Management
-
+exl-id: 9faf7ee7-07c1-415b-b234-a945994792c7
 ---
 # Coordinate data updates{#coordinating-data-updates}
 

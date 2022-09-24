@@ -3,6 +3,7 @@ product: campaign
 title: Set up and manage the approval process
 description: Learn how to manage approvals of marketing campaigns
 feature: Approvals, Campaigns
+exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
 ---
 # Set up and manage the approval process {#approval-marketing-campaigns}
 

@@ -2,8 +2,8 @@
 title: Implementation guidelines
 description: Learn how to implement Campaign v8
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: User, Admin, Developer
+level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 ---
 # Campaign implementation guidelines

@@ -3,6 +3,7 @@ product: campaign
 title: Configure filtering rules
 description: Learn how to configure filtering rules
 feature: Typology Rules
+exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 ---
 # Filtering rules{#filtering-rules}
 
