@@ -29,6 +29,7 @@ _September 28, 2022_
 <ul><li>Use Adobe Campaign Managed Cloud Sources connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
 <li>Use Adobe Campaign Managed Cloud Destination connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
 </ul>
+<p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -59,8 +60,26 @@ _September 28, 2022_
 **Improvements**
 
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for Adobe Services in the console is now using Microsoft Edge Chromium. Additionally, installation of Microsoft Edge WebView 2 runtime is now required for any client console installation. Read more
-* Workflow availability has been improved to avoid execution errors. 
+* Workflow availability has been improved to avoid execution errors. Read more
+* Privacy requests are now performed in batch for a given privacy namespace. This improvement increases execution time for GDPR/privacy delete requests. Read more
 
+
+**Patches**
+
+* Fixed an issue which impacted the Delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
+* Fixed an issue which could lead deliveries to stay in "Pending" status even if contact date was reached. (NEO-48079)
+* Fixed an issue in workflows which could prevent files from being updated on server when using the Data loading (file) activity. The process stopped at 100% but never ended. (NEO-47269)
+* Fixed an issue during postupgrade on japanese environments. (NEO-46640)
+* Fixed an issue that could occurred if a delivery reached a precise size during MTA process. (NEO-46097)
+* Fixed an issue which prevented tracking logs from returning data related to the recipient’s browser. (NEO-46612)
+* Fixed an issue which led to personalization issues when sending SMS messages using an external delivery mode. (NEO-46415)
+* Fixed an issue which could generate duplicates in tracking logs. (NEO-46409)
+* Fixed an issue which prevented the "ffdaReplicateStagingData" technical workflow from stopping even when an error occurred during its execution. (NEO-46280)
+* Fixed an issue that could occurred if a delivery reached a precise size during MTA process. (NEO-46097)
+* To prevent slowness when sending proof to seed addresses, all consecutive replications of seed members are now grouped to one replication request. (NEO-44844)
+* Fixed an issue which displayed an error when trying to preview a delivery in any Message Center archived event. (NEO-43620)
+* Fixed an issue When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity: the process was failing when a backslash character is present in the data. The source string was not escaped, and data was not processed correctly on Snowflake. This issue only happened if the backslash character is at the end of string, for example: `Barker\`. (NEO-45549)
+* NEO-46485
 
 
 ## Release 8.3.8 {#release-8-3-8}
