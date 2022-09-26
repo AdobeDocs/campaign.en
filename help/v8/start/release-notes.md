@@ -63,6 +63,11 @@ _September 28, 2022_
 * Workflow availability has been improved to avoid execution errors. Read more
 * Privacy requests are now performed in batch for a given privacy namespace. This improvement increases execution time for GDPR/privacy delete requests. Read more
 
+**Compatibility updates**
+
+* Campaign v8 SDK now supports iOS 16 for Push Notifications.
+
+Refer to the [Campaign Compatibility matrix](compatibility-matrix.md).
 
 **Patches**
 
