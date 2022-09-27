@@ -1,7 +1,7 @@
 ---
 title: Work with Campaign and Adobe Experience Platform
 description: Learn how to work with Campaign and Adobe Experience Platform
-feature: xxxx
+feature: Platform Integration
 role: Data Engineer
 level: Beginner
 ---
