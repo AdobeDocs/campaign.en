@@ -60,8 +60,10 @@ _September 28, 2022_
 **Improvements**
 
 * Following the end of life of Microsoft Internet Explorer 11, the HTML rendering engine for Adobe Services in the console is now using Microsoft Edge Chromium. Additionally, installation of Microsoft Edge WebView 2 runtime is now required for any client console installation. Read more
-* Workflow availability has been improved to avoid execution errors. Read more
 * Privacy requests are now performed in batch for a given privacy namespace. This improvement increases execution time for GDPR/privacy delete requests. Read more
+
+* Workflow high availability which allows you to run simultaneous workflows across different containers to prevent the loss of workflow service and avoid related execution errors.
+Note- This new feature will be available for a select set of V8 customers before mass rollout
 
 **Compatibility updates**
 
