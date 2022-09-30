@@ -3,6 +3,7 @@ audience: user
 user-guide-title: Campaign WebUI Guide
 user-guide-description: Campaign WebUI Guide
 feature : Overview
+hide: yes
 ---
 
 # Campaign WebUI Guides {#webui}
