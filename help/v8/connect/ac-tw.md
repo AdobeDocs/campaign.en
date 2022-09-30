@@ -26,7 +26,7 @@ To configure Adobe Campaign to post tweets to your Twitter accounts, delegate wr
 
 ## Twitter developer account {#dev-account}
 
-To start with this integration, you must sign up for a [Twitter developer account](developer.twitter.com){target="_blank"}.
+To start with this integration, you must sign up for a [Twitter developer account](https://developer.twitter.com){target="_blank"}.
 
 Campaign uses the 1.1 version of the Twitter API. To use it, you need to apply for Elevated access via the Developer Portal. Learn more about Twitter Elevated Access [in this page](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
