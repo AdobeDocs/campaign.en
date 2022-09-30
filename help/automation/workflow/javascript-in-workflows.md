@@ -7,8 +7,6 @@ exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 ---
 # Examples of JavaScript code in workflows{#javascript-in-workflows}
 
-
-
 These examples show how you can use JavaScript code in a workflow:
 
 * [Write to the database](#write-example)

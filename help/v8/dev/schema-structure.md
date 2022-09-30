@@ -1,6 +1,9 @@
 ---
 title: Campaign Schema structure
 description: Campaign schema structure
+feature: Schema Extension
+role: Developer
+level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 ---
 # Schema structure{#schema-structure}

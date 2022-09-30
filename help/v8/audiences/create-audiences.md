@@ -2,7 +2,7 @@
 title: Create profile audiences in Campaign
 description: Learn how to create lists and build an audience
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 ---

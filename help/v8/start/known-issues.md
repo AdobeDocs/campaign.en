@@ -50,7 +50,7 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
--->
+
 
 
 ## Change Data Source activity issue {#issue-2}
@@ -83,9 +83,6 @@ Error:
 
 Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
 
-<!--
-As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
--->
 
 ### Internal reference{#issue-2-ref}
 
@@ -124,3 +121,4 @@ Learn how to upgrade your client console [in this page](connect.md)
 ### Internal reference{#issue-3-ref}
 
 Reference: NEO-47269
+-->

@@ -2,7 +2,7 @@
 title: Get started with Campaign v8
 description: New to Campaign? Discover how to get started
 feature: Overview
-role: Data Engineer
+role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 ---

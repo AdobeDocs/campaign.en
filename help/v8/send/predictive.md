@@ -3,7 +3,7 @@ title: Predictive user engagement capabilities
 description: Learn how to use predictive send time and engagement scoring
 feature: Send Time Optimization
 role: User
-level: Intermediate
+level: Beginner
 ---
 # Send-time optimization and predictive engagement scoring{#optimize-message-delivery}
 

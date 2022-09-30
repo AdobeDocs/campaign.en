@@ -2,8 +2,8 @@
 title: Get started with tracking and monitoring capabilities
 description: Get started with tracking and monitoring capabilities
 feature: Monitoring
-role: Data Engineer
-level: Beginner
+role: User
+level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 ---
 # Track and monitor messages{#gs-ac-reports}

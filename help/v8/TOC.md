@@ -76,7 +76,7 @@ title: Campaign v8 docs
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
-  + [Social marketing](send/twitter.md)
+  + [Twitter](send/twitter.md)
   + [Transactional messages](send/transactional.md)
   + [Send time optimization](send/predictive.md)
   + Failures, bounces and quarantines{#failures}
@@ -108,11 +108,11 @@ title: Campaign v8 docs
   + [External accounts](config/external-accounts.md)
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)
+  + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
-  + [Campaign + RTCDP](connect/ac-rtcdp.md)
   + [Campaign + Twitter](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
   + Campaign + your CRM {#ac-crm}

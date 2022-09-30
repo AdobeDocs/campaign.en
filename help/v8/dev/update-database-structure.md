@@ -1,6 +1,8 @@
 ---
 title: Update the database structure
 description: Update the database structure
+role: Developer
+level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
 ---
 # Update the database structure{#updating-the-database-structure}

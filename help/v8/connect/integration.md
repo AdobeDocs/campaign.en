@@ -2,8 +2,8 @@
 title: Connect Campaign with your solutions
 description: learn how to connect Campaign with your solutions
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 ---
 # Connect Campaign with your solutions{#gs-ac-connectors}
@@ -20,7 +20,7 @@ Modernize your implementation and leverage all Adobe Experience Cloud capabiliti
 
 Campaign v8 can connect with:
 
-* [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
+* [Adobe Experience Platform](../connect/ac-aep.md)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en). 
 
     See the End-to-end use case [here](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html).

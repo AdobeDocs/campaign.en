@@ -1,6 +1,9 @@
 ---
 title: Key management in Campaign
 description: Get started with key management
+feature: FFDA
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 ---
 # Key management and unicity {#key-management}

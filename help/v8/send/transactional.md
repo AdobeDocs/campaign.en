@@ -2,8 +2,8 @@
 title: Campaign Transactional messaging
 description: Get started with Transactional messaging
 feature: Transactional Messaging
-role: Data Engineer
-level: Beginner
+role: User
+level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 ---
 # Get Started with Transactional messaging{#send-transactional-messages}

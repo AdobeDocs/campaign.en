@@ -2,7 +2,7 @@
 title: Work with audiences in Campaign
 description: Work with audiences in Campaign
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 ---
