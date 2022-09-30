@@ -15,6 +15,13 @@ Before starting, you need to:
 * Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
 * Get your Campaign server URL 
 * Create your Adobe ID or get your user credentials from your company
+* Install Microsft Edge Webview2 runtime on your system (from Campaign Classic 8.4 build version). [Learn more](#webview)
+
+## Microsoft Edge Webview2 runtime installation {#webview}
+
+From Campaign Classic 8.4 build version, installation of Microsoft Edge Webview 2 runtime is required for any console installation.
+
+Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign Console Installer will prompt you to download it from [Microsoft Developer website](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
 
 ## Download and install the Client Console{#download-ac-console}
 
@@ -71,6 +78,10 @@ To log on to an existing instance, follow the steps below:
 1. You can then sign in to Campaign with [your Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png) 
+
+>[!NOTE]
+>
+>For campaign classic 8.4 build versions, Adobe Campaign client console may ask for proxy credentials two times during proxy authentication. This is due to the fact that Microsoft Edge Webview2 does not save proxy credentials in the cache/password store unlike Internet Explorer.
 
 ## Grant access to users{#grant-access}
 
