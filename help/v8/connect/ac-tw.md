@@ -83,7 +83,7 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
 
    ![](assets/tw-service-in-ac.png)
    
-      >[!NOTE]
+   >[!NOTE]
    >
    >The **[!UICONTROL Synchronize subscriptions]** option is enabled by default: this option recovers automatically the list of your Twitter followers so that you can [send them direct messages](../send/twitter.md#direct-tw-messages). Synchronization is performed by a [dedicated technical workflow](#synchro-tw-accounts). 
 
