@@ -2,7 +2,7 @@
 product: campaign
 title: webUI Topic1
 description: webUI
-
+hide: yes
 ---
 # webUI Concept 2 Topic 1 {#c2t1}
 
