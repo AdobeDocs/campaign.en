@@ -29,7 +29,7 @@ _September 30, 2022_
 <ul><li>Use Adobe Campaign Managed Cloud Sources connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
 <li>Use Adobe Campaign Managed Cloud Destination connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
 </ul>
-<p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../connect/ac-aep.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 
