@@ -76,7 +76,7 @@ title: Campaign v8 docs
   + [Push notifications](send/push.md)
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
-  + [Social marketing](send/twitter.md)
+  + [Twitter](send/twitter.md)
   + [Transactional messages](send/transactional.md)
   + [Send time optimization](send/predictive.md)
   + Failures, bounces and quarantines{#failures}

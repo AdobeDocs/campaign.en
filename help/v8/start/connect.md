@@ -15,7 +15,7 @@ Before starting, you need to:
 * Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
 * Get your Campaign server URL 
 * Create your Adobe ID or get your user credentials from your company
-* Have Microsft Edge Webview2 runtime installed on your system (from Campaign Classic 8.4 build version). [Learn more](#webview)
+* Install Microsft Edge Webview2 runtime on your system (from Campaign Classic 8.4 build version). [Learn more](#webview)
 
 ## Microsoft Edge Webview2 runtime installation {#webview}
 
