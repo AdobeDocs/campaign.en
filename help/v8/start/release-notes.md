@@ -26,8 +26,8 @@ _September 30, 2022_
 <tbody> 
 <tr> 
 <td><p>New destination and source connectors are now available to allow seamless integration between Adobe Campaign and Adobe Experience Platform:</p>
-<ul><li>Use Adobe Campaign Managed Cloud Sources connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
-<li>Use Adobe Campaign Managed Cloud Destination connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
+<ul><li>Use Adobe Campaign Managed Cloud Services destination connector to send Experience Platform segments over to Adobe Campaign for activation,</li>
+<li>Use Adobe Campaign Managed Cloud Service source connector to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.</li>
 </ul>
 <p>For more information, refer to the <a href="../connect/ac-aep.md">detailed documentation</a>.</p>
 </td> 
