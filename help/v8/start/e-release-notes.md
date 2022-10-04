@@ -16,7 +16,7 @@ This page describes improvements and fixes included in the next Campaign v8 rele
 
 >[!CAUTION]
 >
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console}).
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console).
 
 _October 7, 2022_
 
