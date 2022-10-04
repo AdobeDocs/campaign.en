@@ -105,10 +105,10 @@ _October 7, 2022_
 
 * Fixed an issue which impacted the Delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
 * The clean up workflow now also handles custom staging schemas. (NEO-48974)
-* Fixed an issue which could lead deliveries to stay in **Pending** status even if contact date was reached. (NEO-48079, NEO-48251)
+* Fixed an issue which could lead deliveries to stay in **Pending** status even if the contact date was reached. (NEO-48079, NEO-48251)
 * Improved stability when handling invalid XML strings during SOAP calls. (NEO-48027)
 * Fixed an issue which could slow down the delivery analysis, during the exclusion of denylisted recipients step, when targeting large volumes of recipients. (NEO-48019)
-* To prevent slowness when sending proof to seed addresses, all consecutive replications of seed members are now grouped to one replication request. (NEO-44844)
+* To prevent slowness when sending proof to seed addresses, all consecutive replications of seed members are now grouped into one replication request. (NEO-44844)
 * Fixed an issue which led to personalization issues when sending SMS messages using an external delivery mode. (NEO-46415)
 * Fixed an issue which displayed an error when trying to preview a delivery in any Message Center archived event. (NEO-43620)
 * Fixed an issue in workflows which could prevent files from being updated on server when using the **Data loading (file)** activity. The process stopped at 100% but never ended. (NEO-47269)
