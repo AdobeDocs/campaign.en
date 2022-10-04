@@ -12,6 +12,7 @@ title: Campaign v8 docs
 + [Campaign v8 documentation](campaign-home.md)
 + What's new? {#new}
   + [Key capabilities](start/whats-new.md)
+  + [Early release notes](start/e-release-notes.md)
   + [Release notes](start/release-notes.md)
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
