@@ -14,7 +14,7 @@ This page describes improvements and fixes included in the next Campaign v8 rele
 
 >[!CAUTION]
 >
-> This content is subject to changes without prior notice until the release date.
+> This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
 
 ## Release 8.3.9 {#release-8-3-9}
 
