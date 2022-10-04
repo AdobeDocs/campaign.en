@@ -10,13 +10,13 @@ hidefromtoc: yes
 ---
 # Early release notes {#e-new-release}
 
-This page describes improvements and fixes included in the next Campaign v8 release.
+This page describes improvements and fixes included in the next Campaign v8 release. This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
+
+## Release 8.3.9 {#release-8-3-9}
 
 >[!CAUTION]
 >
-> This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
-
-## Release 8.3.9 {#release-8-3-9}
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console).
 
 _October 7, 2022_
 
