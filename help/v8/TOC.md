@@ -24,29 +24,10 @@ title: Campaign v8 docs
     + [Guardrails](start/ac-guardrails.md)
     + [Known issues](start/known-issues.md)
     + [Compatibility matrix](start/compatibility-matrix.md)
-  + [Classic v7 to v8](start/v7-to-v8.md)
+  + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
   + [Create campaigns](start/campaigns.md)
-  + [Manage subscriptions](start/subscriptions.md)
-  + [Manage Privacy requests](start/privacy.md)
-+ Customer Management {#customer}
-  + Profiles & Audiences {#profiles-and-audiences}
-    + [Work with audiences](start/audiences.md)
-    + [Get started](audiences/gs-audiences.md)
-    + [Access profiles](audiences/view-profiles.md)
-    + Add profiles {#add-profiles}
-      + [Create profiles manually](audiences/create-profiles.md)
-      + [Import profiles from a file](audiences/import-profiles.md)
-      + [Work with external profiles](audiences/external-profiles.md)
-      + [Collect profile data in web forms](audiences/collect-profiles.md)
-      + [Work with target mappings](audiences/target-mappings.md)
-    + Create audiences {#create-audiences}
-      + [Create a list of contacts](audiences/create-audiences.md)
-      + [Create and manage filters](audiences/create-filters.md)
-    + [Manage folders and views](audiences/folders-and-views.md)
-    + [Best practices](audiences/audiences-best-practices.md)
-    + [Send messages](start/create-message.md)
   + Send messages{#send}
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
@@ -61,6 +42,27 @@ title: Campaign v8 docs
     + Failures, bounces and quarantines{#failures}
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
++ Customer Management {#customer}
+    + [Work with audiences](start/audiences.md)
+    + [Get started](audiences/gs-audiences.md)
+    + [Access profiles](audiences/view-profiles.md)
+    + Add profiles {#add-profiles}
+      + [Create profiles manually](audiences/create-profiles.md)
+      + [Import profiles from a file](audiences/import-profiles.md)
+      + [Work with external profiles](audiences/external-profiles.md)
+      + [Collect profile data in web forms](audiences/collect-profiles.md)
+      + [Work with target mappings](audiences/target-mappings.md)
+    + Create audiences {#create-audiences}
+      + [Create a list of contacts](audiences/create-audiences.md)
+      + [Create and manage filters](audiences/create-filters.md)
+    + [Manage subscriptions](start/subscriptions.md)
+    + [Manage folders and views](audiences/folders-and-views.md)
+    + [Best practices](audiences/audiences-best-practices.md)
+    + [Send messages](start/create-message.md)
++ Content Management {#content}
++ Privacy and Security Management {#privacy}
+  + [Manage Privacy requests](start/privacy.md)
+  + [Security guidelines](config/security.md)
 + Decision Management {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
@@ -120,7 +122,6 @@ title: Campaign v8 docs
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
-    + [Security guidelines](config/security.md)
     + [Design web apps and forms](dev/webapps.md)
     + [Datamodel best practices](dev/datamodel-best-practices.md)
   + Configuration {#configuration}
