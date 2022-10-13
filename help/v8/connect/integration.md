@@ -21,7 +21,6 @@ Combine Adobe Experience Cloud solutions to modernize your implementation.
 Campaign v8 can connect with:
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Real Time Customer Data Platform](../connect/ac-rtcdp.md)
 * [Adobe Journey Optimizer](../connect/ac-ajo.md)    
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
