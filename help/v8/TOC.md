@@ -17,8 +17,8 @@ title: Campaign v8 docs
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
 + Get Started {#start}
-  + [Key capabilities](start/whats-new.md)
   + [Get started](start/get-started.md)
+  + [Key capabilities](start/whats-new.md)
   + [Components and processes](start/ac-components.md)
   + [Connect to Campaign](start/connect.md)
   + Campaign UI {#ac-ui}
