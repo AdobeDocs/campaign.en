@@ -48,7 +48,7 @@ These types of errors are managed as follows:
 
 >[!NOTE]
 >
->As a Managed Services user, configuration of the bounce mailbox is performed by Adobe.
+>As a Managed Cloud Services user, configuration of the bounce mailbox is performed by Adobe.
 
 ## Bounce mail qualification {#bounce-mail-qualification}
 

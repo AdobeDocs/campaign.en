@@ -6,13 +6,13 @@ description: Adobe Campaign - Apache version security update
 # Adobe Campaign - Apache version security update {#apache-update}
 
 >[!CAUTION]
->This article applies to: Campaign Classic v7 Managed Services customers, Campaign v8 customers and Campaign Standard customers.
+>This article applies to: Campaign Classic v7 Managed Cloud Services customers, Campaign v8 customers and Campaign Standard customers.
 
 Adobe Campaign works with 3rd party tools, and compatibility is updated on a regular basis, in order to implement supported versions only, and benefit from the latest fixes and improvements. 
 
 Adobe Campaign includes Apache Tomcat which acts as the entry point in the application server via HTTP, and is integrated with Apache Web server. The Apache Software Foundation has released Apache HTTP Server 2.4.53. This version addresses vulnerabilities which may allow a remote attacker to take control of an affected system. Learn more in [Apache 2.4.53 annoucement](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
-The Adobe Campaign team will conduct the Apache version security upgrade activity by **June 15, 2022** to mitigate this Apache vulnerability and make your instance environment more secure. This upgrade applies to all Campaign Classic v7 Managed Services customers, Campaign v8 and Campaign Standard customers running on a vulnerable version of Apache HTTP Server. If you are impacted, Adobe already contacted you to inform you about this upgrade.
+The Adobe Campaign team will conduct the Apache version security upgrade activity by **June 15, 2022** to mitigate this Apache vulnerability and make your instance environment more secure. This upgrade applies to all Campaign Classic v7 Managed Cloud Services customers, Campaign v8 and Campaign Standard customers running on a vulnerable version of Apache HTTP Server. If you are impacted, Adobe already contacted you to inform you about this upgrade.
 
 This upgrade is expected to run automatically outside of your normal business hours for you to continue using the Campaign service without any disruption. 
 
