@@ -21,10 +21,7 @@ Modernize your implementation and leverage all Adobe Experience Cloud capabiliti
 Campaign v8 can connect with:
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en). 
-
-    See the End-to-end use case [here](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html).
-    
+* [Adobe Journey Optimizer](../connect/ac-ajo.md)    
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
