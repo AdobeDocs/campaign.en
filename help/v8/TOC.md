@@ -92,8 +92,8 @@ title: Campaign v8 docs
   + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
-  + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
-  + [Campaign + Adobe Journey Optimizer](connect/ac-ajo.md)
+  + [Campaign + Experience Platform](connect/ac-aep.md)
+  + [Campaign + Journey Optimizer](connect/ac-ajo.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
