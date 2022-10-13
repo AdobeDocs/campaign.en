@@ -16,6 +16,7 @@ Once the integration is configured, you can:
 * Post tweets on your Twitter account
 * Collect new contacts by recovering the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies. This action requires user consent.
 
+
 Configuration steps to integrate your Twitter account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
 
 ## Create and publish a Twitter post {#publish-on-tw}
