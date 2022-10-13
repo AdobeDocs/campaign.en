@@ -10,6 +10,12 @@ title: Campaign v8 docs
 # Adobe Campaign v8 documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
++ Releases and latest updates {#releases}
+  + [Early release notes](start/e-release-notes.md)
+  + [Release notes](start/release-notes.md)
+  + [Guardrails](start/ac-guardrails.md)
+  + [Known issues](start/known-issues.md)
+  + [Compatibility matrix](start/compatibility-matrix.md)
 + Get Started {#start}
   + [Key capabilities](start/whats-new.md)
   + [Get started](start/get-started.md)
@@ -18,17 +24,13 @@ title: Campaign v8 docs
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
-  + Releases {#releases}
-    + [Early release notes](start/e-release-notes.md)
-    + [Release notes](start/release-notes.md)
-    + [Guardrails](start/ac-guardrails.md)
-    + [Known issues](start/known-issues.md)
-    + [Compatibility matrix](start/compatibility-matrix.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
-  + [Create campaigns](start/campaigns.md)
+  + [Get started with campaigns](start/campaigns.md)
+  + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
   + Send messages{#send}
+    + [Get started with messages](start/create-message.md)
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
       + [Send and monitor emails](send/send.md)
@@ -58,7 +60,6 @@ title: Campaign v8 docs
     + [Manage subscriptions](start/subscriptions.md)
     + [Manage folders and views](audiences/folders-and-views.md)
     + [Best practices](audiences/audiences-best-practices.md)
-    + [Send messages](start/create-message.md)
 + Content Management {#content}
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
