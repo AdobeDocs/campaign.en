@@ -93,6 +93,7 @@ title: Campaign v8 docs
   + Connect Campaign with other solutions {#connect}
     + [Connect with other solutions](connect/integration.md)
     + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
+    + [Campaign + Adobe Journey Optimizer](connect/ac-ajo.md)
     + [Campaign + Analytics](connect/ac-aa.md)
     + [Campaign + Experience Manager](connect/ac-aem.md)
     + [Campaign + Target](connect/ac-at.md)
