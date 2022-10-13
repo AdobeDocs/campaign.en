@@ -10,79 +10,58 @@ title: Campaign v8 docs
 # Adobe Campaign v8 documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
-+ What's new? {#new}
++ Get Started {#start}
   + [Key capabilities](start/whats-new.md)
-  + [Release notes](start/release-notes.md)
-  + [Guardrails](start/ac-guardrails.md)
-  + [Known issues](start/known-issues.md)
-  + [Classic v7 to v8](start/v7-to-v8.md)
-+ Start {#start}
   + [Get started](start/get-started.md)
   + [Components and processes](start/ac-components.md)
+  + [Connect to Campaign](start/connect.md)
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
-  + [Work with audiences](start/audiences.md)
-  + [Manage Privacy requests](start/privacy.md)
-  + [Import data](start/import.md)
-  + [Create campaigns](start/campaigns.md)
-  + [Send messages](start/create-message.md)
-  + [Manage subscriptions](start/subscriptions.md)
-  + [Track & monitor](start/tracking.md)
-  + [Metrics & reports](start/reporting.md)
+  + Releases {#releases}
+    + [Early release notes](start/e-release-notes.md)
+    + [Release notes](start/release-notes.md)
+    + [Guardrails](start/ac-guardrails.md)
+    + [Known issues](start/known-issues.md)
+    + [Compatibility matrix](start/compatibility-matrix.md)
+  + [Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
-+ Architecture {#architecture}
-  + [Global principles](architecture/general-architecture.md)
-  + [Architecture](architecture/architecture.md)
-  + FDA Snowflake deployment {#fda}
-    + [What is FDA-Snowflake?](architecture/fda-deployment.md)
-  + Enterprise (FFDA) deployment {#ffda}
-    + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
-    + Characteristics {#ffda-characteristics}
-      + [Key management and unicity](architecture/keys.md)
-      + [New APIs](architecture/new-apis.md)
-      + [API staging mechanism](architecture/staging.md)
-      + [Replication mechanism](architecture/replication.md)
-+ Implement {#implement}
-  + [Implementation steps](start/implement.md)
-  + [Customize your instance](dev/customize.md)
-  + [Security guidelines](config/security.md)
-  + [Design web apps and forms](dev/webapps.md)
-  + [Datamodel best practices](dev/datamodel-best-practices.md)
-+ Deploy {#deploy}
-  + [Compatibility matrix](start/compatibility-matrix.md)
-  + [Connect to Campaign](start/connect.md)
-  + [Permissions](start/permissions.md)
-  + [Control Panel](config/self-service.md)
-+ Profiles & Audiences {#profiles-and-audiences}
-  + [Get started](audiences/gs-audiences.md)
-  + [Access profiles](audiences/view-profiles.md)
-  + Add profiles {#add-profiles}
-    + [Create profiles manually](audiences/create-profiles.md)
-    + [Import profiles from a file](audiences/import-profiles.md)
-    + [Work with external profiles](audiences/external-profiles.md)
-    + [Collect profile data in web forms](audiences/collect-profiles.md)
-    + [Work with target mappings](audiences/target-mappings.md)
-  + Create audiences {#create-audiences}
-    + [Create a list of contacts](audiences/create-audiences.md)
-    + [Create and manage filters](audiences/create-filters.md)
-  + [Manage folders and views](audiences/folders-and-views.md)
-  + [Best practices](audiences/audiences-best-practices.md)
-+ Send messages{#send}
-  + Emails {#emails}
-    + [Design and validate emails](send/email.md)
-    + [Send and monitor emails](send/send.md)
-  + [SMS](send/sms.md)
-  + [Push notifications](send/push.md)
-  + [LINE messaging](send/line.md)
-  + [Direct mail](send/direct-mail.md)
-  + [Twitter](send/twitter.md)
-  + [Transactional messages](send/transactional.md)
-  + [Send time optimization](send/predictive.md)
-  + Failures, bounces and quarantines{#failures}
-    + [Quarantines](send/quarantines.md)
-    + [Delivery failures](send/delivery-failures.md)
-+ Real-time interaction{#interaction}
++ Campaign Management {#campaigns}
+  + [Create campaigns](start/campaigns.md)
+  + [Manage subscriptions](start/subscriptions.md)
+  + [Manage Privacy requests](start/privacy.md)
++ Customer Management {#customer}
+  + Profiles & Audiences {#profiles-and-audiences}
+    + [Work with audiences](start/audiences.md)
+    + [Get started](audiences/gs-audiences.md)
+    + [Access profiles](audiences/view-profiles.md)
+    + Add profiles {#add-profiles}
+      + [Create profiles manually](audiences/create-profiles.md)
+      + [Import profiles from a file](audiences/import-profiles.md)
+      + [Work with external profiles](audiences/external-profiles.md)
+      + [Collect profile data in web forms](audiences/collect-profiles.md)
+      + [Work with target mappings](audiences/target-mappings.md)
+    + Create audiences {#create-audiences}
+      + [Create a list of contacts](audiences/create-audiences.md)
+      + [Create and manage filters](audiences/create-filters.md)
+    + [Manage folders and views](audiences/folders-and-views.md)
+    + [Best practices](audiences/audiences-best-practices.md)
+    + [Send messages](start/create-message.md)
+  + Send messages{#send}
+    + Emails {#emails}
+      + [Design and validate emails](send/email.md)
+      + [Send and monitor emails](send/send.md)
+    + [SMS](send/sms.md)
+    + [Push notifications](send/push.md)
+    + [LINE messaging](send/line.md)
+    + [Direct mail](send/direct-mail.md)
+    + [Twitter](send/twitter.md)
+    + [Transactional messages](send/transactional.md)
+    + [Send time optimization](send/predictive.md)
+    + Failures, bounces and quarantines{#failures}
+      + [Quarantines](send/quarantines.md)
+      + [Delivery failures](send/delivery-failures.md)
++ Decision Management {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
   + [Best practices](interaction/interaction-best-practices.md)
@@ -100,39 +79,68 @@ title: Campaign v8 docs
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-+ Configure {#config}
++ Analytics {#analytics}
+  + [Track & monitor](start/tracking.md)
+  + [Metrics & reports](start/reporting.md)
++ Data Management {#data}
+  + Workflows {#workflows}
   + [Automate with workflows](config/workflows.md)
-  + [Email settings](config/email-settings.md)
-  + [Transactional messaging settings](config/transactional-msg-settings.md)
-  + [Integrate Campaign SDKs with your app](config/push-config.md)
-  + [External accounts](config/external-accounts.md)
-+ Connect {#connect}
-  + [Connect with other solutions](connect/integration.md)
-  + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
-  + [Campaign + Analytics](connect/ac-aa.md)
-  + [Campaign + Experience Manager](connect/ac-aem.md)
-  + [Campaign + Target](connect/ac-at.md)
-  + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
-  + [Campaign + Twitter](connect/ac-tw.md)
-  + [Campaign + External database](connect/fda.md)
-  + Campaign + your CRM {#ac-crm}
-    + [Get started with CRM connectors](connect/crm.md)
-    + [Work with Campaign and SFDC](connect/ac-sfdc.md)
-    + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
-    + [Synchronize data](connect/crm-data-sync.md)
-+ Developer resources {#developer}
-  + [Campaign datamodel](dev/datamodel.md)
-  + Schemas & forms {#shemas-forms}
-    + [Work with schemas](dev/schemas.md)
-    + [Create schemas](dev/create-schema.md)
-    + [Extend schemas](dev/extend-schema.md)
-    + [Filter schemas](dev/filter-schema.md)
-    + [Schema structure](dev/schema-structure.md)
-    + [Database mapping](dev/database-mapping.md)
-    + [Restrict PI view](dev/restrict-pi-view.md)
-    + [Use a custom recipient table](dev/custom-recipient.md)
-    + [Update the database](dev/update-database-structure.md)
-    + [Input forms](dev/forms.md)
-  + [Campaign APIs](dev/api.md)
+  + [Import data](start/import.md)
+  + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+  + Connect Campaign with other solutions {#connect}
+    + [Connect with other solutions](connect/integration.md)
+    + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
+    + [Campaign + Analytics](connect/ac-aa.md)
+    + [Campaign + Experience Manager](connect/ac-aem.md)
+    + [Campaign + Target](connect/ac-at.md)
+    + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
+    + [Campaign + Twitter](connect/ac-tw.md)
+    + [Campaign + External database](connect/fda.md)
+    + Campaign + your CRM {#ac-crm}
+      + [Get started with CRM connectors](connect/crm.md)
+      + [Work with Campaign and SFDC](connect/ac-sfdc.md)
+      + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
+      + [Synchronize data](connect/crm-data-sync.md)
++ Administration {#admin}
+  + [Permissions](start/permissions.md)
+  + [Control Panel](config/self-service.md)
++ Architecture and configuration {#config}
+  + Architecture {#architecture}
+    + [Global principles](architecture/general-architecture.md)
+    + [Architecture](architecture/architecture.md)
+    + FDA Snowflake deployment {#fda}
+      + [What is FDA-Snowflake?](architecture/fda-deployment.md)
+    + Enterprise (FFDA) deployment {#ffda}
+      + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
+      + Characteristics {#ffda-characteristics}
+        + [Key management and unicity](architecture/keys.md)
+        + [New APIs](architecture/new-apis.md)
+        + [API staging mechanism](architecture/staging.md)
+        + [Replication mechanism](architecture/replication.md)
+  + Implementation {#implement}
+    + [Implementation steps](start/implement.md)
+    + [Customize your instance](dev/customize.md)
+    + [Security guidelines](config/security.md)
+    + [Design web apps and forms](dev/webapps.md)
+    + [Datamodel best practices](dev/datamodel-best-practices.md)
+  + Configuration {#configuration}
+    + [Email settings](config/email-settings.md)
+    + [Transactional messaging settings](config/transactional-msg-settings.md)
+    + [Integrate Campaign SDKs with your app](config/push-config.md)
+    + [External accounts](config/external-accounts.md)
+  + Developer resources {#developer}
+    + [Campaign datamodel](dev/datamodel.md)
+    + Schemas & forms {#shemas-forms}
+      + [Work with schemas](dev/schemas.md)
+      + [Create schemas](dev/create-schema.md)
+      + [Extend schemas](dev/extend-schema.md)
+      + [Filter schemas](dev/filter-schema.md)
+      + [Schema structure](dev/schema-structure.md)
+      + [Database mapping](dev/database-mapping.md)
+      + [Restrict PI view](dev/restrict-pi-view.md)
+      + [Use a custom recipient table](dev/custom-recipient.md)
+      + [Update the database](dev/update-database-structure.md)
+      + [Input forms](dev/forms.md)
+    + [Campaign APIs](dev/api.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 + [Campaign Automation Guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html)

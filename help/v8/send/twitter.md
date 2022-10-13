@@ -12,9 +12,10 @@ Adobe Campaign comes with a **Social Marketing** module which lets you interact 
 
 Once the integration is configured, you can:
 
-* Send messages on Twitter: Adobe Campaign lets you send direct messages to your followers.
-* Post tweets: use Adobe Campaign to post Tweets on your Twitter account.
-* Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies. This action requires user consent.
+* Send direct messages to your followers
+* Post tweets on your Twitter account
+* Collect new contacts by recovering the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies. This action requires user consent.
+
 
 Configuration steps to integrate your Twitter account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
 
