@@ -44,7 +44,7 @@ title: Campaign v8 docs
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
     + [Send time optimization](send/predictive.md)
-+ Customer Management {#customer}
++ Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
