@@ -17,7 +17,7 @@ title: Campaign v8 docs
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
 + Get Started {#start}
-  + [Get started](start/get-started.md)
+  + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
   + [Components and processes](start/ac-components.md)
   + [Connect to Campaign](start/connect.md)
@@ -40,12 +40,12 @@ title: Campaign v8 docs
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
     + [Transactional messages](send/transactional.md)
-    + [Send time optimization](send/predictive.md)
     + Failures, bounces and quarantines{#failures}
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
+    + [Send time optimization](send/predictive.md)
 + Customer Management {#customer}
-    + [Get started](audiences/gs-audiences.md)
+    + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
     + Add profiles {#add-profiles}
@@ -86,8 +86,7 @@ title: Campaign v8 docs
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
 + Data Management {#data}
-  + Workflows {#workflows}
-  + [Automate with workflows](config/workflows.md)
+  + [Get startdd with workflows](config/workflows.md)
   + [Import data](start/import.md)
   + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}

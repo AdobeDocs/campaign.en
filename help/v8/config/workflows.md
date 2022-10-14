@@ -6,7 +6,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 ---
-# Manage and automate processes
+# Get started with workflows{#gs-with-workflows}
 
 Configure Campaign to leverage powerful marketing campaign automation capabilities.
 
