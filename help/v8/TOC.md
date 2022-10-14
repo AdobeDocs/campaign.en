@@ -61,6 +61,7 @@ title: Campaign v8 docs
     + [Manage folders and views](audiences/folders-and-views.md)
     + [Best practices](audiences/audiences-best-practices.md)
 + Content Management {#content}
+  + [Design web apps and forms](dev/webapps.md)
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
@@ -86,7 +87,7 @@ title: Campaign v8 docs
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
 + Data Management {#data}
-  + [Get startdd with workflows](config/workflows.md)
+  + [Get started with workflows](config/workflows.md)
   + [Import data](start/import.md)
   + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
@@ -123,7 +124,6 @@ title: Campaign v8 docs
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
-    + [Design web apps and forms](dev/webapps.md)
     + [Datamodel best practices](dev/datamodel-best-practices.md)
   + Configuration {#configuration}
     + [Email settings](config/email-settings.md)
