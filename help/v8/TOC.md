@@ -83,7 +83,7 @@ title: Campaign v8 docs
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-+ Analytics {#analytics}
++ Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
   + [Metrics & reports](start/reporting.md)
 + Data Management {#data}
