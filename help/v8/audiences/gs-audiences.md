@@ -16,8 +16,6 @@ A profile is a record in the **nmsRecipient** table or an external table which s
 
 ![](assets/recipients-in-explorer.png) 
 
-
-
 In Adobe Campaign, **recipients** are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
 To populate Adobe Campaign with profile data, you can:
