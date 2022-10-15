@@ -24,6 +24,7 @@ title: Campaign v8 docs
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
+    + [Manage folders and views](audiences/folders-and-views.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -44,6 +45,7 @@ title: Campaign v8 docs
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
     + [Send time optimization](send/predictive.md)
+    + [Manage subscriptions](start/subscriptions.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
@@ -57,8 +59,7 @@ title: Campaign v8 docs
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
       + [Create and manage filters](audiences/create-filters.md)
-    + [Manage subscriptions](start/subscriptions.md)
-    + [Manage folders and views](audiences/folders-and-views.md)
+    + [Share audiences with Aobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
 + Content Management {#content}
   + [Design web apps and forms](dev/webapps.md)
