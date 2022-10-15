@@ -28,3 +28,5 @@ To populate Adobe Campaign with profile data, you can:
 ![](assets/create-profile.png) 
 
 <!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as “external” deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
+
+Once imported, you can create audiences to send your messages. Learn how to create audiences [in this section](create-audiences.md).
