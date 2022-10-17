@@ -87,3 +87,4 @@ Learn how to upgrade your client console [in this page](connect.md)
 #### Internal reference{#issue-3-ref}
 
 Reference: NEO-47269
+
