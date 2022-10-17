@@ -23,9 +23,6 @@ title: Campaign v8 docs
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
-<<<<<<< Updated upstream
-  + [Work with audiences](start/audiences.md)
-=======
     + [Manage folders and views](audiences/folders-and-views.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
@@ -66,7 +63,6 @@ title: Campaign v8 docs
 + Content Management {#content}
   + [Design web apps and forms](dev/webapps.md)
 + Privacy and Security Management {#privacy}
->>>>>>> Stashed changes
   + [Manage Privacy requests](start/privacy.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
@@ -144,17 +140,6 @@ title: Campaign v8 docs
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-<<<<<<< Updated upstream
-+ Configure {#config}
-  + [Automate with workflows](config/workflows.md)
-  + [Email settings](config/email-settings.md)
-  + [Transactional messaging settings](config/transactional-msg-settings.md)
-  + [Integrate Campaign SDKs with your app](config/push-config.md)
-  + [External accounts](config/external-accounts.md)
-+ Connect {#connect}
-  + [Connect with other solutions](connect/integration.md)
-  + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
-=======
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
   + Work with reports{#reports}
@@ -179,7 +164,6 @@ title: Campaign v8 docs
   + [Connect Campaign with other solutions](connect/integration.md)
   + [Campaign + Experience Platform](connect/ac-aep.md)
   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
->>>>>>> Stashed changes
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
