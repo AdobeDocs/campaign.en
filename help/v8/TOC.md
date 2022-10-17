@@ -16,7 +16,7 @@ title: Campaign v8 docs
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
-+ Get Started {#start}
++ Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
   + [Components and processes](start/ac-components.md)
