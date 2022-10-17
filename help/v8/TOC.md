@@ -23,7 +23,50 @@ title: Campaign v8 docs
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
     + [Customize Campaign interface](start/customize-ui.md)
+<<<<<<< Updated upstream
   + [Work with audiences](start/audiences.md)
+=======
+    + [Manage folders and views](audiences/folders-and-views.md)
+  + [From Classic v7 to v8](start/v7-to-v8.md)
+  + [FAQ](start/campaign-faq.md)
++ Campaign Management {#campaigns}
+  + [Get started with campaigns](start/campaigns.md)
+  + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+  + Send messages{#send}
+    + [Get started with messages](start/create-message.md)
+    + Emails {#emails}
+      + [Design and validate emails](send/email.md)
+      + [Send and monitor emails](send/send.md)
+    + [SMS](send/sms.md)
+    + [Push notifications](send/push.md)
+    + [LINE messaging](send/line.md)
+    + [Direct mail](send/direct-mail.md)
+    + [Twitter](send/twitter.md)
+    + [Transactional messages](send/transactional.md)
+    + Failures, bounces and quarantines{#failures}
+      + [Quarantines](send/quarantines.md)
+      + [Delivery failures](send/delivery-failures.md)
+    + [Send time optimization](send/predictive.md)
+    + [Manage subscriptions](start/subscriptions.md)
++ Profile & Audience Management {#audience}
+    + [Get started with profiles and audiences](audiences/gs-audiences.md)
+    + [Work with audiences](start/audiences.md)
+    + [Access profiles](audiences/view-profiles.md)
+    + Add profiles {#add-profiles}
+      + [Create profiles manually](audiences/create-profiles.md)
+      + [Import profiles from a file](audiences/import-profiles.md)
+      + [Work with external profiles](audiences/external-profiles.md)
+      + [Collect profile data in web forms](audiences/collect-profiles.md)
+      + [Work with target mappings](audiences/target-mappings.md)
+    + Create audiences {#create-audiences}
+      + [Create a list of contacts](audiences/create-audiences.md)
+      + [Create and manage filters](audiences/create-filters.md)
+    + [Share audiences with Aobe solutions](audiences/shared-audiences.md)
+    + [Best practices](audiences/audiences-best-practices.md)
++ Content Management {#content}
+  + [Design web apps and forms](dev/webapps.md)
++ Privacy and Security Management {#privacy}
+>>>>>>> Stashed changes
   + [Manage Privacy requests](start/privacy.md)
   + [Import data](start/import.md)
   + [Create campaigns](start/campaigns.md)
@@ -101,6 +144,7 @@ title: Campaign v8 docs
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
+<<<<<<< Updated upstream
 + Configure {#config}
   + [Automate with workflows](config/workflows.md)
   + [Email settings](config/email-settings.md)
@@ -110,6 +154,32 @@ title: Campaign v8 docs
 + Connect {#connect}
   + [Connect with other solutions](connect/integration.md)
   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
+=======
++ Reporting and Analytics {#analytics}
+  + [Track & monitor](start/tracking.md)
+  + Work with reports{#reports}
+    + [Get started with reports](reporting/gs-reporting.md)
+    + Create cubes{#cubes}
+      + [Get started with cubes](reporting/gs-cubes.md)
+      + [Create a cube](reporting/cube-indicators.md)
+      + [Use cubes to create reports](reporting/cube-tables.md)
+      + [Best practices with cubes](reporting/cube-best-practices.md)
+    + Built-in reports{#ac-reports}
+      + [List of built-in reports](reporting/built-in-reports.md)
+      + [Global reports](reporting/global-reports.md)
+      + [Delivery reports](reporting/delivery-reports.md)
+      + [Campaign reports](reporting/campaign-reports.md)
+      + [Built-in metrics calculation](reporting/reporting-metrics.md)
+    + [Custom reports](reporting/custom-reports.md)
++ Data Management {#data}
+  + [Get started with workflows](config/workflows.md)
+  + [Import data](start/import.md)
+  + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
++ Integrations {#connect}
+  + [Connect Campaign with other solutions](connect/integration.md)
+  + [Campaign + Experience Platform](connect/ac-aep.md)
+  + [Campaign + Journey Optimizer](connect/ac-ajo.md)
+>>>>>>> Stashed changes
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)

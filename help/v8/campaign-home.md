@@ -63,7 +63,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 * [Guardrails and limitations](start/ac-guardrails.md)
 * [Architecture](architecture/architecture.md)
-* [Measure and track](start/reporting.md)
+* [Measure and track](reporting/gs-reporting.md)
 * [Connect with other solutions](connect/integration.md)
 * [Campaign v8 FAQ](start/campaign-faq.md)
 * [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
