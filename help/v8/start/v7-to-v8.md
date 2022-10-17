@@ -66,20 +66,21 @@ Adobe Campaign cube reports are optimized and bring better scale capabilities th
 Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
-* Hybrid/On-premise deployment models
+* Coupons
+* Web tracking
+* Surveys
 
 
 ## Unsupported features{#gs-removed}
 
-To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
+Some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
 
-* Coupons
-* Web tracking
-* Surveys
-* Social Marketing
+* Social Marketing with Facebook
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
+* Hybrid/On-premise deployment models
+
 
 >[!NOTE]
 >
