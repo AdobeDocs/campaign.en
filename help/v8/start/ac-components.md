@@ -52,7 +52,7 @@ The reliability of the database is of utmost importance because the majority of 
 
 Campaign logical application layer is easily configurable to meet complex business needs. You can use Campaign as a sigle platform with different applications which combine to create an open and scalable architecture. Each Campaign intance is a collection of processes in the application layer, some of which are shared and some of which are dedicated.
 
-## Campaign Managed Services{#ac-managed-services}
+## Campaign Managed Cloud Services{#ac-managed-services}
 
 Adobe Campaign v8 is deployed as a Managed Service: all components of Adobe Campaign, including the user interface, the execution management engine, and Campaign databases are fully hosted by Adobe, including email execution, mirror pages, tracking server, and externally-facing web components such as unsubscribe page/preference center and landing pages.
 

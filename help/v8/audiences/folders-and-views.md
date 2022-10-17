@@ -19,7 +19,7 @@ A view is a specific folder which does not contain any data but displays data th
 
 Note that you can assign permissions to folders to restrict access to certain data. [Learn more](#restrict-access-to-a-folder)
 
-## Best practices when working with folders
+## Best practices when working with folders{#best-practices-folders}
 
 * **Use built-in folders** to make it easier for every person involved in the project to use, maintain and troubleshoot the application. Avoid creating custom folder structures for recipients, lists, deliveries, etc., but use the standard folders such as **Administration**, **Profiles & Targets**, **Campaign management**.
 
