@@ -22,7 +22,7 @@ To create a report based on an existing cube, follow the steps below:
 
 1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** tab and select the cube you have just created.
 
-   ![](assets/s_advuser_cube_wz_14.png)
+   ![](assets/new-report-based-on-cube.png)
 
 1. Click the **[!UICONTROL Create]** button to confirm: this will take you to the report configuration and viewing page.
 
