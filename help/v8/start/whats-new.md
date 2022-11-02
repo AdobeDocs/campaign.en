@@ -67,7 +67,7 @@ Key capabilities include:
 >
 >* Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
 >
->* Migration from an existing Campaign Classic v7 environment is not yet available.
+>* Automated migration from an existing Campaign Classic v7 environment is not yet available.
 
 
 
