@@ -11,6 +11,14 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.4.2 {#release-8-4-2}
+
+_October 28, 2022_
+
+**Improvements**
+
+* Fixed an issue which prevented the Success delivery indicator from being updated correctly when using Adobe Campaign Enhanced MTA. (NEO-50462)
+
 ## Release 8.4.1 {#release-8-4-1}
 
 _September 30, 2022_
