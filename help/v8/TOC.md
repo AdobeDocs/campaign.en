@@ -92,7 +92,7 @@ title: Campaign v8 docs
       + [Get started with cubes](reporting/gs-cubes.md)
       + [Create a cube](reporting/cube-indicators.md)
       + [Use cubes to create reports](reporting/cube-tables.md)
-      + [Customize your cubes](reporting/cube-best-practices.md)
+      + [Customize your cubes](reporting/customize-cubes.md)
     + Built-in reports{#ac-reports}
       + [List of built-in reports](reporting/built-in-reports.md)
       + [Global reports](reporting/global-reports.md)

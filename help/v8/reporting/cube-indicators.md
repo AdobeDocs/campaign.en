@@ -53,7 +53,7 @@ To create a cube, apply the following steps:
 1. Select the work table. [Learn more](#select-the-work-table).
 1. Define dimensions. [Learn more](#define-dimensions).
 1. Define measures. [Learn more](#build-indicators).
-1. Create aggregates (optional). [Learn more](cube-best-practices.md#calculate-and-use-aggregates).
+1. Create aggregates (optional). [Learn more](customize-cubes.md#calculate-and-use-aggregates).
 
 In the example below, learn how to quickly create a simple cube in a report to export its measures.
 
@@ -85,7 +85,7 @@ To create dimensions, follow the steps below:
 
 1. In this example, we are selecting the recipient **Age**. For this field, you can define binning to group ages and make information reading easier. We recommend using binning when there is a likelihood of several separate values.
 
-  To do this, check the **[!UICONTROL Enable binning]** option. [Learn more](cube-best-practices.md#data-binning).
+  To do this, check the **[!UICONTROL Enable binning]** option. [Learn more](customize-cubes.md#data-binning).
 
 1. Add a **Date** type dimension. Here, we want to display recipient profile creation dates. To do this, click **[!UICONTROL Add]** and select the **[!UICONTROL Creation date]** field in the recipient table.
   You can customize the date display mode. To do this, select the hierarchy to use and the levels to generate:
@@ -104,7 +104,7 @@ To create dimensions, follow the steps below:
 
   Only the values in the enumeration will be displayed. The others will be grouped under the label defined in the **[!UICONTROL Label of the other values]** field.
 
-  For more on this, refer to [this section](cube-best-practices.md#dynamically-manage-bins).
+  For more on this, refer to [this section](customize-cubes.md#dynamically-manage-bins).
 
 ### Build indicators {#build-indicators}
 
@@ -119,7 +119,7 @@ To build indicators, follow the steps below:
 
    ![](assets/cube-new-measure.png)
 
-   Use the **[!UICONTROL Filter the measure data...]** link to select women only. [Learn more](cube-best-practices.md#define-measures).
+   Use the **[!UICONTROL Filter the measure data...]** link to select women only. [Learn more](customize-cubes.md#define-measures).
 
    ![](assets/cube-filter-measure-data.png)
 
