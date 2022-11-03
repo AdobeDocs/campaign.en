@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: Implementation and best practices with cubes
+title: Customize your cubes
 description: Learn best practices when implementing cubes in Adobe Campaign
 feature: Reporting
 ---
-# Implementation and best practices with cubes{#cube-best-practices}
+# Customize your cubes{#cube-custom}
 
 ## Data binning {#data-binning}
 
