@@ -97,8 +97,7 @@ title: Campaign v8 docs
       + [List of built-in reports](reporting/built-in-reports.md)
       + [Global reports](reporting/global-reports.md)
       + [Delivery reports](reporting/delivery-reports.md)
-      + [Campaign reports](reporting/campaign-reports.md)
-      + [Built-in metrics calculation](reporting/reporting-metrics.md)
+      + [Built-in metrics calculation](reporting/metrics-calculation.md)
     + [Custom reports](reporting/custom-reports.md)
 + Data Management {#data}
   + [Get started with workflows](config/workflows.md)
