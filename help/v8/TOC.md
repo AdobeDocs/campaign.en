@@ -86,7 +86,19 @@ title: Campaign v8 docs
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
-  + [Metrics & reports](start/reporting.md)
+  + Work with reports{#reports}
+    + [Get started with reports](reporting/gs-reporting.md)
+    + Create cubes{#cubes}
+      + [Get started with cubes](reporting/gs-cubes.md)
+      + [Create a cube](reporting/cube-indicators.md)
+      + [Use cubes to create reports](reporting/cube-tables.md)
+      + [Best practices with cubes](reporting/cube-best-practices.md)
+    + Built-in reports{#ac-reports}
+      + [List of built-in reports](reporting/built-in-reports.md)
+      + [Global reports](reporting/global-reports.md)
+      + [Delivery reports](reporting/delivery-reports.md)
+      + [Built-in metrics calculation](reporting/metrics-calculation.md)
+    + [Custom reports](reporting/custom-reports.md)
 + Data Management {#data}
   + [Get started with workflows](config/workflows.md)
   + [Import data](start/import.md)
