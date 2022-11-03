@@ -54,7 +54,7 @@ The **[!UICONTROL Add]** buttons on each axis enable you to add dimensions.
 
    These parameters depend on the data type of the selected dimension.
 
-   For instance, for dates, several levels can be available. For more on this, refer to [Display measures](cube-best-practices.md#display-measures).
+   For instance, for dates, several levels can be available. For more on this, refer to [Display measures](customize-cubes.md#display-measures).
 
    In that case, the following options are available:
 
@@ -96,7 +96,7 @@ To add and configure measures, follow the steps below:
 
    ![](assets/cube-pivot-table-config.png)
 
-   You can then choose whether or not to display measure labels. [Learn more](cube-best-practices.md#configure-the-display).
+   You can then choose whether or not to display measure labels. [Learn more](customize-cubes.md#configure-the-display).
 
 1. You can build new measures based on existing ones. To do this, click **[!UICONTROL Create a measure]** and configure it.
 
