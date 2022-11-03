@@ -59,27 +59,28 @@ Campaign users connect through their Adobe ID only. The same Adobe ID is used to
 
 Use the Marketing Analytics module to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition, create reports and build target populations: once identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 
-Adobe Campaign cube reports are optimized and bring better scale capabilities than Campaign Classic v7. Former limitations on Cubes do not apply in Campaign v8.
+With [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), Adobe Campaign cube reports are optimized and bring better scale capabilities than Campaign Classic v7. In that specific deployment model, former limitations on cubes do not apply in Campaign v8.
 
 ## Unavailable features{#gs-unavailable-features}
 
 Please note that some capabilities are not available in this version of Campaign, such as:
 
 * Marketing Resource Management
-* Hybrid/On-premise deployment models
+* Coupons
+* Web tracking
+* Surveys
 
 
 ## Unsupported features{#gs-removed}
 
-To align with Campaign v8 new architecture and deployment model, some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
+Some historic Campaign Classic v7 capabilities are no longer supported with Campaign v8, such as:
 
-* Coupons
-* Web tracking
-* Surveys
-* Social Marketing
+* Social Marketing with Facebook
 * ACS Connector (Prime offering)
 * Integration with LDAP
 * User/Password sign in
+* Hybrid/On-premise deployment models
+
 
 >[!NOTE]
 >
