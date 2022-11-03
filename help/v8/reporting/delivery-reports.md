@@ -3,6 +3,7 @@ title: Adobe Campaign built-in delivery reports
 description: Adobe Campaign built-in delivery reports
 feature: Reporting
 ---
+
 # Delivery reports {#delivery-reports}
 
 You can track the execution of deliveries via various reports accessible from the delivery overview. 
@@ -135,6 +136,7 @@ The central table provides the following information:
 
 This chart shows the breakdown of cumulated clicks per day.
 -->
+
 ## Delivery summary {#delivery-summary}
 
 This report provides all the main information on the delivery. 

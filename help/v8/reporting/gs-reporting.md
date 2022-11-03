@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 ---
 
-## Get Started with reporting{#gs-ac-reports}
+# Get Started with reporting{#gs-ac-reports}
 
 Adobe Campaign provides a set of reporting tools listed in this page.
 
