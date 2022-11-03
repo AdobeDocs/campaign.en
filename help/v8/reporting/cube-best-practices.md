@@ -120,24 +120,14 @@ Aggregates are defined in the relevant tab of each cube.
 To create a new aggregate, apply the following steps:
 
 1. Click the **[!UICONTROL Aggregates]** tab of the cube, then click the **[!UICONTROL Add]** button.
-
-   ![](assets/s_advuser_cube_agregate_02.png)
-
 1. Enter a label for the aggregate, then add the dimensions to be calculated.
-
-   ![](assets/s_advuser_cube_agregate_03.png)
-
 1. Select a dimension and a level. Repeat this process for each dimension and each level.
 1. Click the **[!UICONTROL Workflow]** tab to create the aggregation workflow.
-
-   ![](assets/s_advuser_cube_agregate_04.png)
 
     * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../automation/workflow/scheduler.md).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.
-    
-      ![](assets/s_advuser_cube_agregate_05.png)
 
 ## Define measures {#define-measures}
 
@@ -221,19 +211,13 @@ To do this:
 
 1. Select the dimension which the filter concerns 
 
-   ![](assets/cube_define_filter.png)
-
 1. Select the type of filter and its level of precision.
 
    ![](assets/cube_ceate_filter.png)
 
 1. Once it is created, the filter is displayed above the report.
 
-   ![](assets/cube_filter_zone.png)
-
-   Click the filter to edit it.
-
-   Click the cross to delete it.
+   Click the filter to edit it. Click the cross to delete it.
 
    You can combine as many filters as necessary: they will all be shown in this area.
 

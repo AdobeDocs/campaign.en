@@ -910,8 +910,6 @@ The **Sent** indicator (@sent), accessed via the **Deliveries (nms:delivery) > I
 
 If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Click **[!UICONTROL Next]**, then click **[!UICONTROL Finish]**.
 
-![](assets/s_ncs_user_recalculate_indicators.png)
-
 ## Tracking opens {#tracking-opens-}
 
 In order for Adobe Campaign to detect message opens, the recipient must download the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
