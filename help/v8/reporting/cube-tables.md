@@ -158,7 +158,7 @@ To group a population into a list, follow the steps below:
 
 To create a table and explore the data in a cube, follow the steps below:
 
-1. Create a new report with a single page and insert a pivot table into it. For more on this, refer to [this page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
+1. Create a new report with a single page and insert a pivot table into it. 
 
    ![](assets/cube-insert-in-report.png)
 

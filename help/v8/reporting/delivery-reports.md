@@ -18,19 +18,19 @@ To access reports, follow the steps below:
 
    By default, the following reports are available:
 
-    * **[!UICONTROL Delivery throughput]** : refer to [this section](../../reporting/using/global-reports.md#delivery-throughput).
-    * **[!UICONTROL Sharing to social networks]** : refer to [this section](../../reporting/using/global-reports.md#sharing-to-social-networks).
-    * **[!UICONTROL Statistics on sharing activities]** : refer to [this section](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
-    * **[!UICONTROL Hot clicks]** : refer to [this section](#hot-clicks).
-    * **[!UICONTROL Tracking statistics]** : refer to [this section](#tracking-statistics)
-    * **[!UICONTROL URLs and click streams]** : refer to [this section](#urls-and-click-streams).
-    * **[!UICONTROL Tracking indicators]** : refer to [this section](#tracking-indicators).
-    * **[!UICONTROL Non-deliverables and bounces]** : refer to [this section](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
-    * **[!UICONTROL User activities]** : refer to [this section](../../reporting/using/global-reports.md#user-activities).
-    * **[!UICONTROL Delivery summary]** : refer to [this section](#delivery-summary).
-    * **[!UICONTROL Subscription tracking]** : refer to [this section](../../reporting/using/global-reports.md#subscription-tracking).
-    * **[!UICONTROL Delivery statistics]** : refer to [this section](../../reporting/using/global-reports.md#delivery-statistics).
-    * **[!UICONTROL Breakdown of opens]** : refer to [this section](../../reporting/using/global-reports.md#breakdown-of-opens).
+    * **[!UICONTROL Delivery throughput]** 
+    * **[!UICONTROL Sharing to social networks]**
+    * **[!UICONTROL Statistics on sharing activities]**
+    * **[!UICONTROL Hot clicks]**
+    * **[!UICONTROL Tracking statistics]**
+    * **[!UICONTROL URLs and click streams]**
+    * **[!UICONTROL Tracking indicators]**
+    * **[!UICONTROL Non-deliverables and bounces]**
+    * **[!UICONTROL User activities]**
+    * **[!UICONTROL Delivery summary]**
+    * **[!UICONTROL Subscription tracking]**
+    * **[!UICONTROL Delivery statistics]**
+    * **[!UICONTROL Breakdown of opens]** 
 
 ## Tracking indicators {#tracking-indicators}
 
@@ -56,7 +56,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on tracked URLs are taken into account since emails have to be opened to click on a link.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). Refer to this [page](../../delivery/using/about-delivery-monitoring.md). 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).--> 
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]
@@ -75,7 +75,10 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. For more on this, refer to [this section](../../platform/using/managing-enumerations.md). The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
+>The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
+>
+>Learn how to access and configure your enumerations in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -148,7 +151,7 @@ This report provides all the main information on the delivery.
 This section has two indicators:
 
 * **[!UICONTROL Initial population]** : Total number of recipients targeted by the delivery. 
-* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, on denylist, etc. For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+* **[!UICONTROL Messages rejected by the rule]** : Number of addresses ignored during the analysis when applying typology rules: address missing, quarantined, on denylist, etc. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 

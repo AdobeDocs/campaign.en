@@ -87,8 +87,6 @@ To create dimensions, follow the steps below:
 
   To do this, check the **[!UICONTROL Enable binning]** option. [Learn more](cube-best-practices.md#data-binning).
 
-  ![](assets/cube-binning.png)
-
 1. Add a **Date** type dimension. Here, we want to display recipient profile creation dates. To do this, click **[!UICONTROL Add]** and select the **[!UICONTROL Creation date]** field in the recipient table.
   You can customize the date display mode. To do this, select the hierarchy to use and the levels to generate:
 

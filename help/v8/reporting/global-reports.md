@@ -50,8 +50,6 @@ You can configure the values displayed by changing the timescale: 1-hour view, 3
 
 This report shows the breakdown of opens, clicks and transactions per half-hour, hour or day, in the form of a chart.
 
-![](assets/s_ncs_user_user_report.png)
-
 The following options are available:
 
 * **[!UICONTROL Opens]** : Total number of messages opened. Emails in text format are not taken into account. [Learn more](metrics-calculation.md#tracking-opens-).
@@ -65,8 +63,6 @@ The following options are available:
 This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
 
 The **[!UICONTROL Number of messages processed]** represents the total number of messages processed by the delivery server. This value is lower than the number of messages to be delivered when some deliveries have been stopped or paused (before being processed by the server).
-
-![](assets/errors-report.png)
 
 **[!UICONTROL Breakdown of errors by type]**
 

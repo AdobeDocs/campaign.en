@@ -1,15 +1,14 @@
 ---
 product: campaign
-title: Best practices for cubes
-description: Learn best practices when working with cubes in Adobe Campaign
+title: Implementation and best practices with cubes
+description: Learn best practices when implementing cubes in Adobe Campaign
 feature: Reporting
 ---
-# Best practices for cubes{#cube-best-practices}
-
+# Implementation and best practices with cubes{#cube-best-practices}
 
 ## Data binning {#data-binning}
 
-Binning enables you to simplify data display by grouping values according to criteria. Depending on the information available to you, you can define age groups, group email domains together, restrict to a value enumeration, explicitly restrict the data to display and group all other data in a dedicated line or column, etc.
+Use data binning to simplify data display by grouping values according to criteria. Depending on the information available to you, you can define age groups, group email domains together, restrict to a value enumeration, explicitly restrict the data to display and group all other data in a dedicated line or column, etc.
 
 Overall, three types of binning are available:
 
@@ -19,7 +18,7 @@ Overall, three types of binning are available:
 
 To enable binning, check the appropriate box when creating the dimension.
 
-![](assets/s_advuser_cube_class_00.png)
+![](assets/cube-class.png)
 
 You can either create bins manually or link them to an existing enumeration.
 
@@ -29,23 +28,21 @@ Adobe Campaign also provides an assistant for automatic binning: values can be b
 
 To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
 
-![](assets/s_advuser_cube_class_01.png)
+![](assets/cube-binning.png)
 
 Click the **[!UICONTROL Add]** button to create a new bin and list the values which will be grouped into the bin.
 
-![](assets/s_advuser_cube_class_02.png)
+![](assets/cube-add-new-bin.png)
 
 In the following example, languages are grouped into three categories: English/German/Dutch, French/Italian/Spanish, and Others.
 
-![](assets/s_advuser_cube_class_03.png)
+![](assets/cube-add-new-bin-2.png)
 
 You can use an SQL mask to combine several values into a filter. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Use an SQL mask]** column and enter the SQL filter to be applied in the **[!UICONTROL Value or expression]** column.
 
 In the example below, all email domains that start with **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), or with **ymail** (ymail.com, ymail.eu, etc.) will be grouped under the label **YAHOO!**, as well as addresses with the **rocketmail.com** domain.
 
-![](assets/s_advuser_cube_class_03b.png)
-
-### Dynamically managing bins {#dynamically-manage-bins}
+### Manage bins dynamically {#dynamically-manage-bins}
 
 Values can be managed dynamically via enumerations. This means that only the values contained in the enumeration will be displayed. When the enumeration values change, the content of the Cube is adapted automatically.
 
@@ -54,7 +51,7 @@ To create this type of value binning, apply the following steps:
 1. Create a new dimension and enable binning.
 1. Select the **[!UICONTROL Dynamically link the values to an enumeration]** option and select the matching enumeration.
 
-   ![](assets/s_advuser_cube_class_04.png)
+   ![](assets/cube-link-to-enum.png)
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
@@ -64,25 +61,21 @@ You can group the values into ranges based on a desired interval.
 
 To define ranges manually, click the **[!UICONTROL Add]** button and select **[!UICONTROL Define a range]** :
 
-![](assets/s_advuser_cube_class_05.png)
-
 Then specify the lower and upper limits and click **[!UICONTROL Ok]** to confirm.
 
 ### Generate bins automatically {#generate-bins-automatically}
 
 It's also possible to generate bins automatically. To do this, click the **[!UICONTROL Generate bins...]** link.
 
-![](assets/s_advuser_cube_class_06.png)
-
 You can either:
 
-* Recover the most frequently used values
+* **[!UICONTROL Recover the most frequently used values]**
 
-  In the following example, the 4 most frequently used values will be displayed, while the others will be counted and grouped in the 'Others' category.
+  If you generate 4 bins, the 4 most frequently used values will be displayed, while the others will be counted and grouped in the 'Others' category.
 
-* Generate bins in the form of slots
+* **[!UICONTROL Generate bins in the form of slots]**
 
-  In the following example, Adobe Campaign automatically creates 4 same-sized value slots to display the values in the database.
+  For the same sample, Adobe Campaign automatically creates 4 same-sized value slots to display the values in the database.
 
 In this case, the filter selected in the fact schema is ignored.
 
@@ -100,8 +93,6 @@ It is built using following template:
 
 To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. Choose the **[!UICONTROL Enable binning]** option then **[!UICONTROL Dynamically link the values to an enumeration]**. Then select the **Domains** enumeration as shown above. All values that have no specified alias will be regrouped under the **Others** label.
 
-![](assets/nmx_add_dimension.png)
-
 Next, create a report based on this Cube to display the values.
 
 You only need to modify the enumeration to update the related report. For example, create the **Adobe** value and add the **adobe.com** alias and the report is automatically updated with the Adobe value at the enumeration level.
@@ -112,7 +103,7 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 You can create other enumerations reserved for binning and use them in other Cubes: all alias values will be regrouped in the bins specified in the first enumeration tab.
 
-## Calculate and use aggregates {#calculate-and-use-aggregates}
+## Aggregates in cubes {#calculate-and-use-aggregates}
 
 The largest data volumes can be calculated in aggregates.
 
@@ -120,7 +111,7 @@ Aggregates are useful when manipulating large volumes of data. They are updated 
 
 Aggregates are defined in the relevant tab of each cube.
 
-![](assets/s_advuser_cube_agregate_01.png)
+![](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -141,7 +132,7 @@ To create a new aggregate, apply the following steps:
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../workflow/using/scheduler.md).
+    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../automation/workflow/scheduler.md).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.
@@ -162,7 +153,7 @@ To define a new measure, apply the following steps:
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../automation/workflow/query.md).
 
 1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
 
@@ -170,7 +161,7 @@ To define a new measure, apply the following steps:
 
 1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
 
-## Display measures {#display-measures}
+## Customize measures {#display-measures}
 
 You can configure the display of measures in the table depending on your needs:
 
@@ -214,7 +205,7 @@ To do this, click the **[!UICONTROL Show the report properties]** icon and enabl
 
 ![](assets/cube_share_option.png)
 
-Specify the category which the report belongs to as well as its relevance. For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence**and **Defining the filtering options** sections.
+Specify the category which the report belongs to as well as its relevance. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
 To confirm these changes, you need to save the report.
 
