@@ -152,23 +152,21 @@ To create a new aggregate, apply the following steps:
 
 The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. You can calculate sums, averages, deviations, etc.
 
-You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [Displaying measures](#displaying-measures).
+You can create as many measures as necessary: then select the measure that you want to show or hide in the table. For more on this, refer to [this section](#displaying-measures).
 
 To define a new measure, apply the following steps:
 
 1. Click the **[!UICONTROL Add]** button above the list of measures and select the type of measure and the formula to be calculated.
 
-   ![](assets/s_advuser_cube_create_a_measure.png)
+   ![](assets/cube-create-a-measure.png)
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
    The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
-   ![](assets/s_advuser_cube_create_a_measure_01.png)
-
 1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
 
-   ![](assets/s_advuser_cube_create_a_measure_02.png)
+   ![](assets/cube-create-measure-2.png)
 
 1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
 
@@ -176,9 +174,9 @@ To define a new measure, apply the following steps:
 
 You can configure the display of measures in the table depending on your needs:
 
-* the display sequence of measures (refer to [Display sequence](#display-sequence)),
-* the information to show/hide in the report (refer to [Configure the display](#configuring-the-display)) 
-* which measures to display: percentage, total, number of decimals, etc. (refer to [Change the type of measure displayed](#changing-the-type-of-measure-displayed)).
+* the display sequence of measures. [Learn more](#display-sequence)
+* the information to show/hide in the report. [Learn more](#configuring-the-display)
+* which measures to display: percentage, total, number of decimals, etc. [Learn more](#changing-the-type-of-measure-displayed)
 
 ### Display sequence {#display-sequence}
 
@@ -186,7 +184,7 @@ The measures calculated in the cube are configured via the **[!UICONTROL Measure
 
 Move the lines around to change the display sequence. In the following example, French data is moved to the bottom of the list: this means it will be displayed in the last column.
 
-![](assets/s_advuser_cube_in_report_config_04.png)
+![](assets/cube-in-report-settings.png)
 
 ### Configure the display {#configuring-the-display}
 
@@ -196,17 +194,17 @@ The configuration of measures, lines and columns can be carried out individually
 
   You can choose whether or not to display the labels of measures as well as configure their layout (lines or columns).
 
-![](assets/s_advuser_cube_in_report_config_05.png)
+![](assets/cube-pivot-table-config-details.png)
 
 The color options let you highlight important values for easy reading.
 
-![](assets/s_advuser_cube_in_report_config_06.png)
+![](assets/cube-pivot-table-color.png)
 
 ### Change the type of measure displayed {#changing-the-type-of-measure-displayed}
 
 Within each measure, you can define the unit and formatting to be applied.
 
-![](assets/s_advuser_cube_in_report_config_07.png)
+![](assets/cube-pivot-table-config-units.png)
 
 ## Share your report {#share-a-report}
 
@@ -220,8 +218,6 @@ Specify the category which the report belongs to as well as its relevance. For m
 
 To confirm these changes, you need to save the report.
 
-![](assets/cube_share_confirm.png)
-
 ## Create filters {#create-filters}
 
 It is possible to create filters for viewing a section of the data.
@@ -230,19 +226,19 @@ To do this:
 
 1. Click the **[!UICONTROL Add a filter]** icon.
 
-   ![](assets/neolap_add_filter.png)
+   ![](assets/cube_add_filter.png)
 
 1. Select the dimension which the filter concerns 
 
-   ![](assets/neolap_define_filter.png)
+   ![](assets/cube_define_filter.png)
 
 1. Select the type of filter and its level of precision.
 
-   ![](assets/neolap_ceate_filter.png)
+   ![](assets/cube_ceate_filter.png)
 
 1. Once it is created, the filter is displayed above the report.
 
-   ![](assets/neolap_filter_zone.png)
+   ![](assets/cube_filter_zone.png)
 
    Click the filter to edit it.
 
@@ -250,7 +246,7 @@ To do this:
 
    You can combine as many filters as necessary: they will all be shown in this area.
 
-   ![](assets/neolap_multiple_filters.png)
+   ![](assets/cube_multiple_filters.png)
 
 Each time a filter is modified (add, remover, alter), the report has to be recalculated.
 
@@ -258,8 +254,8 @@ Filters can also be created based on a selection. To do this, select your source
 
 To select a line, column or cell, left-click on it. To deselect, click again.
 
-![](assets/neolap_create_filter_from_selection.png)
+![](assets/cube_create_filter_from_selection.png)
 
 The filter is applied automatically and added to the filter zone above the report.
 
-![](assets/neolap_create_filter_display.png)
+![](assets/cube_create_filter_display.png)

@@ -11,9 +11,6 @@ To access reports, follow the steps below:
 
 1. Browse to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Delivery]** link to display the list of deliveries.
 1. Click the name of the delivery which reports you want to access. 
-
-   ![](assets/detailed-report.png)
-
 1. Select the **[!UICONTROL Summary]** tab and click the **[!UICONTROL Reports]** link to access the reports specific to the delivery.
 
    ![](assets/detailed-report-2.png)
@@ -172,13 +169,10 @@ This report shows the message content (HTML and/or text) with, on each link, the
 >
 >If your delivery contains offers (Interaction), a box appears in the part above the report displaying the percentage of clicks on the offers.
 
-![](assets/user-click-report.png)
 
 ## Tracking statistics {#tracking-statistics}
 
 This report provides statistics on opens, clicks and transactions.
-
-![](assets/user-stat-report.png)
 
 It lets you track the marketing impact of the delivery. You can configure how values are displayed by changing the timescale (1-hour, 3-hour, or 24-hour view, etc.). Click **[!UICONTROL Refresh]** to confirm your selection.
 
@@ -195,11 +189,8 @@ This report provides a table of values and a Pareto chart which display the time
 
 You can display cumulated reports on deliveries. To do this, select the deliveries to be compared to obtain the list of reports for these deliveries.
 
-![](assets/report-comparison.png)
-
 To select non-adjacent deliveries from the list, hold down the CTRL key while making your selection.
 
-To select deliveries saved in a different folder click **[!UICONTROL Display sub-levels]** (accessible via the toolbar). They will then be displayed in the same list.
+To select deliveries saved in a different folder click the **[!UICONTROL Display sub-levels]** icon, accessible in the toolbar. They will then be displayed in the same list.
 
-![](assets/display-content-of-sub-folder.png)
 

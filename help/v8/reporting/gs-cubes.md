@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 ---
-# Get started with marketing analytics {#gs-cube}
+# Get started with Campaign analytics reports {#gs-cube}
 
 Adobe Campaign comes with an intuitive data exploration tool to create dynamic reports.
 
