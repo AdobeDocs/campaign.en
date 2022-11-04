@@ -15,11 +15,6 @@ You can extend the database exploration and analysis capacities while making it 
 
 Cubes are used for generating certain built-in reports, including [delivery reports](delivery-reports.md) (delivery tracking, clicks, opens, etc.). 
 
->[!CAUTION]
->
->In a [[!DNL Snowflake] FDA (default) deployment](../architecture/fda-deployment.md), reports based on cubes may only be used for data volumes under 5 million fact lines.
-
-
 Once they have been created and configured, cubes are used in report query boxes and Web applications. They can be used and manipulated within pivot tables.
 
 Use the Campaign Marketing Analytics module to:
