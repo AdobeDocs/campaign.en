@@ -13,6 +13,13 @@ Use marketing analytics capatilities to analyze and measure data, calculate stat
     
 You can extend the database exploration and analysis capacities while making it easier for final users to configure reports and tables: all they need to do is select an existing (fully configured) cube when creating their report or table to process calculations, measures and statistics.
 
+Cubes are used for generating certain built-in reports, including [delivery reports](delivery-reports.md) (delivery tracking, clicks, opens, etc.). 
+
+>[!CAUTION]
+>
+>In a [[!DNL Snowflake] FDA (default) deployment](../architecture/fda-deployment.md), reports based on cubes may only be used for data volumes under 5 million fact lines.
+
+
 Once they have been created and configured, cubes are used in report query boxes and Web applications. They can be used and manipulated within pivot tables.
 
 Use the Campaign Marketing Analytics module to:
