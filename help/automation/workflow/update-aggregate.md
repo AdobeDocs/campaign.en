@@ -3,21 +3,23 @@ product: campaign
 title: Update aggregate
 description: Learn more about the Update aggregate workflow activity
 feature: Workflows
-
+role: Data Engineer
+level: Beginner
 ---
 # Update aggregate{#update-aggregate}
 
-Aggregates are defined at cube level for reporting purposes. A **[!UICONTROL Workflow]** tab is available when configuring an aggregate.
+Aggregates defined in [cubes](../../v8/reporting/gs-cubes.md) for reporting purposes can be updated with a specific activity. A **[!UICONTROL Workflow]** tab is available when configuring the aggregate.
 
-For more information on cubes and using aggregates in Adobe Campaign, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target="_blank"}.
+Learn more about cubes and aggregates in [this section](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
+To update an aggregate, edit the **[!UICONTROL Update aggregate]** activity and select the cube and aggregate to update.
 
-To update an aggregate, edit the **[!UICONTROL Update aggregate]** activity and select the Cube and aggregate to update. 
+You can configure a **Full update** or a **Partial update**.
 
-You can perform a **Full update** or a**Partial update**.
+![](assets/update-aggregate-details.png)
 
-By default, a full update is executed out during each calculation. To enable a partial update, select the relevant option and define the update conditions.
+By default, a full update is executed out during each calculation. To enable a partial update, select the option and define the update conditions.
 
-**Good practice**: a **[!UICONTROL Scheduler]** activity can be used to specify the frequency of calculation updates.
+![](assets/update-aggregate-partial.png)
 
-![](assets/scheduler-and-cube-aggregate.png)
+A good practice is to add a **[!UICONTROL Scheduler]** activity to set up the frequency of calculation updates.

@@ -171,12 +171,6 @@ The section below provides best practices to optimize the queries running on Ado
   A common mistake is: `iBlacklist='3'` where `iBlacklist` is a numeric field, and `3` signifies a text value.
   
   Make sure you know what the execution plan of your query will be. Avoid full table scans, especially for real-time queries or near real-time queries running every minute.
-  
-  For more on this, depending on your Campaign version, refer to these sections:
-  
-  ! 
-  
-  ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### Functions {#functions}
 

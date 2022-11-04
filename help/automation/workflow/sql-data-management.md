@@ -7,24 +7,15 @@ feature: Workflows
 ---
 # SQL Data Management{#sql-data-management}
 
-
-
 The **SQL Data Management** activity lets you write your own SQL scripts to create and populate work tables.
 
 ## Prerequisites {#prerequisites}
 
 Before configuring the activity, make sure the following prerequisites are fulfilled:
 
-* The activity is available for remote data sources only. The ** .
-
-     For more on this, depending on your Campaign version, refer to these sections:
-   
-    ! 
-
-    ![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
-
+* The activity is available for remote data sources only. 
 * The Outbound schema must exist in the database and be linked to an FDA database.
-* The operator executing the workflow must have the ** .
+
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 

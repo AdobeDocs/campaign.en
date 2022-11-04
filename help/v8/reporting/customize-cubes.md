@@ -3,6 +3,8 @@ product: campaign
 title: Customize your cubes
 description: Learn best practices when implementing cubes in Adobe Campaign
 feature: Reporting
+role: Data Engineer
+level: Beginner
 ---
 # Customize your cubes{#cube-custom}
 
