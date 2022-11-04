@@ -10,7 +10,6 @@ level: Beginner
 
 Adobe Campaign provides a set of reporting tools listed in this page.
 
-
 * **Cubes**
 
     Adobe Campaign comes with an intuitive data exploration tool to create dynamic reports.
