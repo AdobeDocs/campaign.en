@@ -32,6 +32,7 @@ title: Campaign v8 docs
   + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
   + Send messages{#send}
     + [Get started with messages](start/create-message.md)
+    + [Work with delivery templates](send/create-templates.md)
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
       + [Send and monitor emails](send/send.md)
