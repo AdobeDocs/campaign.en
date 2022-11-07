@@ -126,4 +126,4 @@ To build this workflow, follow the steps below:
     * **[!UICONTROL Action to perform]**: select **[!UICONTROL Prepare and start]**. 
     * Un-check the **[!UICONTROL Generate an outbound transition]** and **[!UICONTROL Process errors]** options.
 
-1. Save your changes and start the workflow.
+1. Save your changes and start the workflow. The message is sent to the list of recipient every first monday of the month, with the attached report.
