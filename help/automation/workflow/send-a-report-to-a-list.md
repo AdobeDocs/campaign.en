@@ -3,8 +3,8 @@ product: campaign
 title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
 feature: Workflows
-
 ---
+
 # Send a report to a list{#send-a-report-to-a-list}
 
 This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
