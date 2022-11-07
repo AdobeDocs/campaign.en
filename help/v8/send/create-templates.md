@@ -23,7 +23,7 @@ A template can systematically include:
 
 To create a delivery template, you can duplicate a built-in template, convert an existing delivery into a template or create a delivery template from scratch.
 
-## Copy an existing template{#copy-an-existing-template}
+## Duplicate an existing template{#copy-an-existing-template}
 
 Campaign comes with a set of built-in templates for each channel: email, push, SMS, direct mail, and more.
 
