@@ -61,9 +61,7 @@ To convert a delivery to a template, follow the steps below:
 
    ![](assets/template-select-folders.png)
 
-For more information on the configuration mode, refer to [Linking the template to a delivery](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery).
-
-## Create a new template {#creating-a-new-template}
+## Create a new template {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -105,7 +103,7 @@ To do this, select the template to be executed and right-click. Select **[!UICON
 
 You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-![](assets/s_ncs_user_template_execute_menu.png)
+![](assets/execute-delivery-template.png)
 
 Enter the delivery parameters and click **[!UICONTROL Send]**.
 
