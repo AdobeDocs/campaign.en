@@ -93,6 +93,7 @@ To build this workflow, follow the steps below:
    ![](assets/use_case_report_10.png)
 
    Enter the following code in the edit zone:
+   
    ```sql
    var reportName = "indicators";
    var path = "/tmp/indicators.pdf";
