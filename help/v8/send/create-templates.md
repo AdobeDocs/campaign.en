@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 ---
-# Work with delivery template{#creating-a-delivery-template}
+# Work with delivery template{#work-with-delivery-template}
 
 Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
@@ -21,9 +21,12 @@ A template can systematically include:
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
+
+## Create a template{#create-a-delivery-template}
+
 To create a delivery template, you can duplicate a built-in template, convert an existing delivery into a template or create a delivery template from scratch.
 
-## Duplicate an existing template{#copy-an-existing-template}
+### Duplicate an existing template{#copy-an-existing-template}
 
 Campaign comes with a set of built-in templates for each channel: email, push, SMS, direct mail, and more.
 
@@ -45,7 +48,7 @@ The template is added to the list of delivery templates. You can now select it w
 
 ![](assets/select-the-new-template.png)
 
-## Convert an existing delivery to a template {#convert-an-existing-delivery}
+### Convert an existing delivery to a template {#convert-an-existing-delivery}
 
 A delivery can be converted to a template for new repeated delivery actions. 
 
@@ -61,7 +64,7 @@ To convert a delivery to a template, follow the steps below:
 
    ![](assets/template-select-folders.png)
 
-## Create a new template {#create-a-new-template}
+### Create a new template {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -81,7 +84,9 @@ To configure a delivery template from scratch, follow the steps below:
 1. Click **Save**. Your template is now ready to be used in a delivery.
 
 
-## Create a delivery from a template{#create-a-delivery-from-a-template}
+## Use templates{#use-a-delivery-template}
+
+### Create a delivery from a template{#create-a-delivery-from-a-template}
 
 To create a delivery based on an existing template, select the template from the list of available delivery templates.
 
