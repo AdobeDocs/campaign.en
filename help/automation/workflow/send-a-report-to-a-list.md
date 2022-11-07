@@ -61,7 +61,7 @@ To create the delivery template, follow the steps below:
 
     * Select the **[!UICONTROL Advanced]** tab and check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. In the text zone, enter the name of the attachment in the final delivery.
     
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## Step 3: Create the workflow {#step-3--creating-the-workflow}
 
@@ -93,7 +93,7 @@ To build this workflow, follow the steps below:
    ![](assets/use_case_report_10.png)
 
    Enter the following code in the edit zone:
-   
+
    ```sql
    var reportName = "indicators";
    var path = "/tmp/indicators.pdf";
