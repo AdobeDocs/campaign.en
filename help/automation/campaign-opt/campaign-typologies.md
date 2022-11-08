@@ -19,6 +19,8 @@ exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 
 By default, Campaign comes with built-in typologies and typology rules. 
 
+A typology is a set of verification rules applied on all messages during delivery analysis.
+
 A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
 Built-in typology rules and typologies are available in the **[!UICONTROL Administration > Campaign management > Typology management]** node of Campaign Explorer.
@@ -27,17 +29,23 @@ For each typology, the **[!UICONTROL Rules]** tab lets you add, delete or view t
 
 ![](assets/campaign_opt_rules_tab.png)
 
-The **Default typology** (defaultTypology) rule validate message subject, URLs, message size, unsubscription links, and more.
+Once they have been created, typology rules are grouped in campaign **typologies** which are referenced in deliveries. [Learn more](#apply-typologies).
 
-In addition, you can create **Filtering** rules which let you exclude part of the target based on criteria. [Learn more](filtering-rules.md).
 
-The Campaign Optimization add-on provides three additional types of **typology rules**:
+Campaign comes with a set of default **Filtering** and **Control** rules:
+
+* **Filtering** rules are used to exclude part of the target based on criteria. [Learn more](filtering-rules.md).
+* **Control** rules let you check the validity of messages before they are sent. [Learn more](control-rules.md).
+
+The Campaign Optimization add-on provides two additional types of **typology rules**:
 
 * **Pressure** rules which let you control marketing fatigue. [Learn more](pressure-rules.md).
 * **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#controlling-capacity).
-* **Control** rules which let you check the validity of messages before they are sent. [Learn more](control-rules.md).
 
-Once they have been created, typology rules are grouped in campaign **typologies** which are referenced in deliveries. [Learn more](#apply-typologies).
+
+>[!NOTE]
+>
+>If you are using the **Interaction** module to manage offers, you can also create **Offer presentation** typology rules to control the flow of offer propositions using presentation rules. [Learn more](../../v8/interaction/interaction-offer.md#offer-presentation).
 
 
 ## Key steps to create and use typologies {#apply-typologies}
@@ -46,10 +54,11 @@ To create and use a typology to your deliveries, follow the steps below:
 
 1. Create typology rules and create a typology to reference them into it.
    Detailed steps are listed in the following section:
-   * [Pressure rules](pressure-rules.md)
+
    * [Filtering rules](filtering-rules.md)
-   * [Capacity rules](consistency-rules.md)
    * [Control rules](control-rules.md)
+   * [Pressure rules](pressure-rules.md)
+   * [Capacity rules](consistency-rules.md)
 
 1. Configure your delivery to use the typology you created. [Learn more](apply-rules.md#apply-a-typology-to-a-delivery).
 1. Test and control the behavior through campaign simulations. [Learn more](campaign-simulations.md).
