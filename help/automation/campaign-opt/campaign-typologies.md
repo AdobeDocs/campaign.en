@@ -7,7 +7,7 @@ exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 ---
 # Get started with campaign typologies{#about-campaign-typologies}
 
-Campaign Optimization is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
+**Campaign Optimization** is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
 
@@ -17,14 +17,7 @@ Campaign Optimization is the Adobe Campaign module which lets you control, filte
 
 ## Typology rules and typologies {#typology-rules}
 
-With Adobe Campaign you can design and apply four types of **typology rules**:
-
-* **Filtering** rules which let you exclude part of the target based on criteria. [Learn more](filtering-rules.md).
-* **Pressure** rules which let you control marketing fatigue. [Learn more](pressure-rules.md).
-* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#controlling-capacity).
-* **Control** rules which let you check the validity of messages before they are sent. [Learn more](control-rules.md).
-
-Once they have been created, typology rules are grouped in campaign **typologies** which are referenced in deliveries. [Learn more](#apply-typologies).
+By default, Campaign comes with built-in typologies and typology rules. 
 
 A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
@@ -34,9 +27,22 @@ For each typology, the **[!UICONTROL Rules]** tab lets you add, delete or view t
 
 ![](assets/campaign_opt_rules_tab.png)
 
-## Key steps to apply typologies {#apply-typologies}
+The **Default typology** (defaultTypology) rule validate message subject, URLs, message size, unsubscription links, and more.
 
-Key steps to create and apply a typology to your deliveries are listed below:
+In addition, you can create **Filtering** rules which let you exclude part of the target based on criteria. [Learn more](filtering-rules.md).
+
+The Campaign Optimization add-on provides three additional types of **typology rules**:
+
+* **Pressure** rules which let you control marketing fatigue. [Learn more](pressure-rules.md).
+* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#controlling-capacity).
+* **Control** rules which let you check the validity of messages before they are sent. [Learn more](control-rules.md).
+
+Once they have been created, typology rules are grouped in campaign **typologies** which are referenced in deliveries. [Learn more](#apply-typologies).
+
+
+## Key steps to create and use typologies {#apply-typologies}
+
+To create and use a typology to your deliveries, follow the steps below:
 
 1. Create typology rules and create a typology to reference them into it.
    Detailed steps are listed in the following section:
@@ -58,11 +64,11 @@ Sample use cases on pressure typology rules are available in [this page](pressur
 
 This video explains how to implement fatigue management in Adobe Campaign by leveraging typology rules.
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### Set up fatigue management using predefined filters
 
 Fatigue management controls frequency and quantity of messaging to avoid over-solicitation of recipients. If you do not have the campaign optimization module in your campaign instance, you may configure a predefined filter that will filter the target population by the number of messages received
 This video explains how to implement fatigue management in Adobe Campaign by using filters.
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)
