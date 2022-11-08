@@ -140,10 +140,10 @@ feature : Overview
   + [Providers, stocks and budgets](campaigns/providers--stocks-and-budgets.md)
 + Campaign optimization (add-on){#campaign-optimization}
   + [Get started with campaign typologies](campaign-opt/campaign-typologies.md)
+  + [Filtering rules](campaign-opt/filtering-rules.md)
+  + [Control rules](campaign-opt/control-rules.md)
   + [Pressure rules](campaign-opt/pressure-rules.md)
   + [Consistency rules](campaign-opt/consistency-rules.md)
-  + [Control rules](campaign-opt/control-rules.md)
-  + [Filtering rules](campaign-opt/filtering-rules.md)
   + [Apply rules](campaign-opt/apply-rules.md)
   + [Campaign simulations](campaign-opt/campaign-simulations.md)
 + Distributed marketing (add-on) {#distributed-marketing}
