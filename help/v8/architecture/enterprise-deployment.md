@@ -111,7 +111,7 @@ Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically 
 
 ### Feature availability {#feature-availability}
 
-Some capabilities are not available in the context of an Enterprise (FFDA) deployment] of Campaign, such as:
+Some capabilities are not available in the context of an Enterprise (FFDA) deployment of Campaign, such as:
 
 * Marketing Resource Management
 * Coupons
