@@ -63,13 +63,12 @@ With Adobe Campaign v8, cube reports are optimized and bring better scale capabi
 
 ## Unavailable features{#gs-unavailable-features}
 
-Please note that some capabilities are not available in this version of Campaign, such as:
+Please note that some capabilities are not available in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md) of Campaign, such as:
 
 * Marketing Resource Management
 * Coupons
 * Web tracking
 * Surveys
-
 
 ## Unsupported features{#gs-removed}
 
