@@ -71,7 +71,6 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
     <a href="campaign-opt/campaign-typologies.md">Campaign optimization</a>
     </div>
     <br>
-    <br>
     <div>
     <a href="mrm/about-marketing-resource-management.md">Marketing Resource Management (MRM)</a>
     </div>
