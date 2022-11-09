@@ -15,7 +15,7 @@ All the tasks are grouped in a list accessible via the **Campaigns** tab. For mo
 
 They can be displayed in the schedule of the program to which they belong.
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## Access tasks {#accessing-tasks}
 
@@ -23,83 +23,87 @@ They can be displayed in the schedule of the program to which they belong.
 
 The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** tab.
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-You can view all tasks of the connected operator there.
+You can view all tasks of the current operator.
 
 For more on this, refer to [Execution status of a task](#execution-status-of-a-task) and [Progress status of a task](#progress-status-of-a-task).
 
 ### Filter tasks {#filtering-tasks}
 
-When you display this view, it is automatically filtered in order to display only **[!UICONTROL operator tasks]**. You can also filter the tasks using the fields in the upper section of the window.
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+When you display this view, it is automatically filtered in order to display only the **current operator tasks**. You can also filter the tasks using the fields in the upper section of the window.
 
 ### Edit tasks {#editing-tasks}
 
 Click on a task to edit it.
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## Create a new task {#creating-a-new-task}
 
-To create a task, click the **[!UICONTROL Tasks]** link in the **[!UICONTROL Campaigns]** tab and select **[!UICONTROL Create]**.
+To create a task, follow the steps below:
 
-![](assets/s_ncs_user_task_create_new.png)
+1. Browse to the **[!UICONTROL Tasks]** link in the **[!UICONTROL Campaigns]** tab and click **[!UICONTROL Create]**.
 
-Enter at least the name of the task and select the campaign which is it linked to. You must also specify the start and end dates. These three pieces of information are mandatory.
+   ![](assets/create-a-task-from-dashboard.png)
 
-Click **[!UICONTROL Save]** to create the task.
+1. Enter the name of the task and select the campaign which is it linked to. 
+1. Set the start and end dates.
+1. Click **[!UICONTROL Save]** to create the task.
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 You can also create a task via the dashboard of a campaign: in this case, it is automatically linked to the campaign which it was created from.
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-After a task is created, it is added to the campaign schedule and the list of tasks. To edit a task, select it from the schedule or click its name in the task overview, and click the **[!UICONTROL Open]** link.
+After a task is created, it is added to the campaign schedule, the campaign dashboard, and the list of tasks. To edit a task, click its name from the list of tasks, or select it from the schedule or the campaign dashboard, and click **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+Once created, you can configure the task by defining:
 
-To configure it, you must indicate:
+* The manager and participants. [Learn more](#manager-and-participants)
+* The creation schedule. [Learn more](#execution-schedule)
+* The costs committed. [Learn more](#expenses-and-revenues)
 
-* The manager and participants: refer to [Manager and participants](#manager-and-participants).
-* The creation schedule: refer to [Execution schedule](#execution-schedule).
-* The costs committed: refer to [Expenses and revenues](#expenses-and-revenues).
+You can also add [reviewers](#reviewers) and [reference documents](#documents-referenced).
 
-It is also possible to ad reviewers (refer to [Reviewers](#reviewers)) and referenced documents (refer to [Documents referenced](#documents-referenced)).
-
-Task life cycle is presented in [Life cycle](#life-cycle).
+Task life cycle is presented in [this section](#life-cycle).
 
 ### Manager and participants {#manager-and-participants}
 
-Only the operator in charge of a task is authorized to close it.
+By default, the task is assigned to the operator who created it. This operator is notified when an action is required for that task.
 
-By default, when an Adobe Campaign operator creates a task, it is assigned to them automatically. To select a different operator, use the **[!UICONTROL Assigned to]** field. 
+You can select a different operator from the **[!UICONTROL Assigned to]** drop-down list. 
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >Operator management is detailed in [this section](../../v8/start/permissions.md).
+>
+>Only the operator in charge of a task is allowed to close it.
 
-You may specify the operators involved in carrying out the task. These operators aren't authorized to close the task. They may only approve the task assigned to them.
+You may specify more operators involved in carrying out the task. These operators are not allowed to close the task: they may only approve the task assigned to them.
 
-They are selected using the **[!UICONTROL Resources]** icon in the task toolbar. Click **[!UICONTROL Add]** and select the concerned operators.
+To add task operators, follow the steps below:
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. Click the **[!UICONTROL Resources]** icon in the task toolbar. 
 
-Click **[!UICONTROL Ok]** and then input the usage rate: this represents the load assigned to the operator for the duration of task execution. This rate is an indication only and is expressed as a percentage.
+   ![](assets/add-task-resources.png)
 
-For example, for a task whose execution schedule is set at 10 days, an operator whose usage rate is 50% will be mobilized on this task for half of their working time for the 10 days.
+1. Click **[!UICONTROL Add]** and select the concerned operators.   
+1. Enter the usage rate: this represents the workload assigned to the operator for the duration of task execution. This rate is an indication only and is expressed as a percentage.
 
-For each operator, you can enter a scheduled workload and an actual workload. These durations are also for information purposes only.
+   ![](assets/define-operator-task-workload.png)
 
-It's possible to configure a reminder, which will be sent automatically to all operators involved in the task before its end date.
+   For example, for a task whose execution schedule is set at 10 days, an operator whose usage rate is 50% will be mobilized on this task for half of their working time for the 10 days.
 
-You can view the Adobe Campaign operator profile via the **[!UICONTROL Edit link]** icon.
+   For each operator, you can enter a scheduled workload and an actual workload. These durations are also for information purposes only.
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. You can configure a reminder from the **[!UICONTROL Add a reminder...]** link. An email notification will be sent to all operators involved in the task before its end date.
+
+   ![](assets/task-op-add-a-reminder.png)
+
 
 The operator dashboard lets you check their workload (other tasks in progress).
 
