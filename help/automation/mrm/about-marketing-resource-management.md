@@ -3,7 +3,6 @@ product: campaign
 title: Get Started marketing resource management
 description: Discover marketing resource management
 role: Admin, Developer, User
-level: Beginner, Intermediate, Experiencedcontent-type: reference
 ---
 # Get started with Marketing Resource Management{#gs-mrm}
 
