@@ -146,8 +146,14 @@ feature : Overview
   + [Consistency rules](campaign-opt/consistency-rules.md)
   + [Apply rules](campaign-opt/apply-rules.md)
   + [Campaign simulations](campaign-opt/campaign-simulations.md)
++ Marketing Resource Management {#mrm}
+  + [Get started with marketing resource management (MRM)](mrm/about-marketing-resource-management.md)
+  + [Create and manage tasks](mrm/creating-and-managing-tasks.md)
+  + [Control costs](mrm/controlling-costs.md)
+  + [Manage marketing resources](mrm/managing-marketing-resources.md)
+  + [Discussion forums](mrm/discussion-forums.md)
 + Distributed marketing (add-on) {#distributed-marketing}
-  + [About distributed marketing](distributed-marketing/about-distributed-marketing.md)
+  + [Get started with distributed marketing](distributed-marketing/about-distributed-marketing.md)
   + [Create a local campaign](distributed-marketing/creating-a-local-campaign.md)
   + [Create a collaborative campaign](distributed-marketing/creating-a-collaborative-campaign.md)
   + [Publish the campaign package](distributed-marketing/publishing-the-campaign-package.md)
