@@ -2,8 +2,7 @@
 product: campaign
 title: Create a filter
 description: Learn how to create a filter when performing queries
-feature: Query Editor
-feature: Workflows
+feature: Query Editor, Workflows
 
 ---
 # Create a filter {#creating-a-filter}
