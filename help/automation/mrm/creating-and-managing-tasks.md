@@ -2,6 +2,7 @@
 product: campaign
 title: Creating and managing tasks
 description: Creating and managing tasks
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 ---
 # Create and manage tasks{#creating-and-managing-tasks}
 

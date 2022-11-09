@@ -2,6 +2,7 @@
 product: campaign
 title: Discussion forums
 description: Learn how to use Campaign discussion forums
+exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 ---
 # Discussion forums{#discussion-forums}
 

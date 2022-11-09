@@ -3,6 +3,7 @@ product: campaign
 title: Get Started marketing resource management
 description: Discover marketing resource management
 role: Admin, Developer, User
+exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 ---
 # Get started with Marketing Resource Management{#gs-mrm}
 
