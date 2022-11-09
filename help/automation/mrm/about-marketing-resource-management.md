@@ -17,6 +17,10 @@ Thus, in the context of the programs and sub-programs of marketing plans, tasks 
 
 Finally, budget management capability is extended to targets and expense lines management and extended built-in reports. You can then monitor and measure the productivity and performance of all marketing activities.
 
+>[!AVAILABILITY]
+>
+>Marketing Resource Management (MRM) is not available in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md) of Campaign.
+
 ## Concepts and terminology {#core-concepts}
 
 In the context of Adobe Campaign Marketing Resource Management, the following concepts and terms are specific:
