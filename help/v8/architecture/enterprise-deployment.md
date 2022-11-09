@@ -109,6 +109,16 @@ In Campaign Classic v7 and earlier versions, the unicity of a key within a schem
 
 Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage then enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](keys.md)
 
+### Feature availability {#feature-availability}
+
+Some capabilities are not available in the context of an Enterprise (FFDA) deployment] of Campaign, such as:
+
+* Marketing Resource Management
+* Coupons
+* Web tracking
+* Surveys
+
+
 **Related topics**
 
 * [Data model best practices](../dev/datamodel-best-practices.md)
