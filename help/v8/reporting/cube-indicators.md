@@ -4,8 +4,8 @@ description: Learn how to create cubes
 feature: Reporting
 role: Data Engineer
 level: Beginner
+exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
 ---
-
 # Create a cube{#create-a-cube}
 
 ## Cube workspace {#cube-workspace}

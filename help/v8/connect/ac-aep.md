@@ -4,6 +4,7 @@ description: Learn how to work with Campaign and Adobe Experience Platform
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
+exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 ---
 # Work with Campaign and Adobe Experience Platform
 

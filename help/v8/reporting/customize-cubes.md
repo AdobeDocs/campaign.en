@@ -5,6 +5,7 @@ description: Learn best practices when implementing cubes in Adobe Campaign
 feature: Reporting
 role: Data Engineer
 level: Beginner
+exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
 ---
 # Customize your cubes{#cube-custom}
 

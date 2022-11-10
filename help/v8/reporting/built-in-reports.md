@@ -2,6 +2,7 @@
 title: Adobe Campaign built-in reports
 description: Built-in reports
 feature: Reporting
+exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 ---
 # Adobe Campaign built-in reports{#ootb-reports}
 

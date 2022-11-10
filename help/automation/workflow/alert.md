@@ -3,7 +3,7 @@ product: campaign
 title: Alert
 description: Alert
 feature: Workflows
-
+exl-id: 8fb36117-b126-470a-9c94-eb5c0a4aca1a
 ---
 # Alert{#alert}
 

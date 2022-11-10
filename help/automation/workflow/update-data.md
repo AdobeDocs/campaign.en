@@ -3,7 +3,7 @@ product: campaign
 title: Update data
 description: Learn more about the Update data workflow activity
 feature: Workflows, Targeting Activity, Data Management
-
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 ---
 # Update data{#update-data}
 

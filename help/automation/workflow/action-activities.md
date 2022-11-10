@@ -3,7 +3,7 @@ product: campaign
 title: Action activities in workflows
 description: About action activities
 feature: Workflows, Data Management
-
+exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
 ---
 # Action activities in workflows{#about-action-activities}
 
@@ -21,4 +21,4 @@ feature: Workflows, Data Management
 * **[Recurring delivery](recurring-delivery.md)**: lets you configure a delivery template occurrence within a campaign.
 * **[SQL code and JavaScript code](sql-code-and-javascript-code.md)**: executes the SQL script or JavaScript specified in the activity. 
 * **[SQL Data Management](sql-data-management.md)**: lets you write your own SQL queries to create and populate work tables.
-* **[Update aggregate](update-aggregate.md)**: lets you select the aggregate update mode (full or partial). 
+* **[Update aggregate](update-aggregate.md)**: lets you select the aggregate update mode (full or partial).

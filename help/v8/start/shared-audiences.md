@@ -6,6 +6,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
 ---
 # Share audiences with Adobe Experience Cloud solutions{#shared-audiences}
 

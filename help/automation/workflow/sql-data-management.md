@@ -3,7 +3,7 @@ product: campaign
 title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity
 feature: Workflows
-
+exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 ---
 # SQL Data Management{#sql-data-management}
 

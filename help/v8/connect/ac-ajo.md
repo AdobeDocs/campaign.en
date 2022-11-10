@@ -1,8 +1,9 @@
 ---
-title: Work with Adobe Campaign and Adobe Journey Optimizer 
+title: Work with Adobe Campaign and Adobe Journey Optimizer
 description: Learn how to work with Campaign and Journey Optimizer
 role: Admin, User
 level: Beginner, Intermediate
+exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 ---
 # Work with Campaign and Adobe Journey Optimizer
 
@@ -18,4 +19,3 @@ Basic steps are to create a transactional message template in Campaign, and then
 
 
 ![](../assets/do-not-localize/book.png) [Learn more in Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=en){target="_blank"}.
-

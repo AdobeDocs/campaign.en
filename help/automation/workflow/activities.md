@@ -3,7 +3,7 @@ product: campaign
 title: About workflow activities
 description: About activities
 feature: Workflows, Data Management
-
+exl-id: 636f9ad0-9576-421e-ad8b-62d6602ee26a
 ---
 # Workflow activities{#wf-activities}
 

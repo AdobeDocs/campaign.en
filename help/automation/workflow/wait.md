@@ -3,7 +3,7 @@ product: campaign
 title: Wait
 description: Learn more about the Wait workflow activity
 feature: Workflows
-
+exl-id: a9bcb214-5c87-4b26-804a-22b868905022
 ---
 # Wait{#wait}
 

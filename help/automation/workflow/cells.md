@@ -3,7 +3,7 @@ product: campaign
 title: Cells
 description: Cells
 feature: Workflows, Targeting Activity
-
+exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
 ---
 # Cells{#cells}
 

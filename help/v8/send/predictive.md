@@ -4,6 +4,7 @@ description: Learn how to use predictive send time and engagement scoring
 feature: Send Time Optimization
 role: User
 level: Beginner
+exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 ---
 # Send-time optimization and predictive engagement scoring{#optimize-message-delivery}
 

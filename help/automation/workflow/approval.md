@@ -3,7 +3,7 @@ product: campaign
 title: Approval
 description: Approval
 feature: Workflows, Approvals
-
+exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
 ---
 # Approval{#approval}
 

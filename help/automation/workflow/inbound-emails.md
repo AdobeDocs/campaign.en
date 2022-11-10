@@ -3,7 +3,7 @@ product: campaign
 title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity
 feature: Workflows, Channels Activity
-
+exl-id: 6cc2c415-1886-4f31-8020-dbaf97a3cc43
 ---
 # Inbound Emails{#inbound-emails}
 

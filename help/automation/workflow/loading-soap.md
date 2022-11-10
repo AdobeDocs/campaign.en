@@ -3,7 +3,7 @@ product: campaign
 title: Loading (SOAP)
 description: Loading (SOAP)
 feature: Workflows
-
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
 ---
 # Loading (SOAP){#loading-soap}
 

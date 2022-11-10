@@ -3,7 +3,7 @@ product: campaign
 title: Send personalized alerts to operators
 description: Learn how to send personalized alerts to operators
 feature: Workflows
-
+exl-id: 41a009f6-d1e9-40c9-8494-3bbb4bd3d134
 ---
 # Send personalized alerts to operators{#sending-personalized-alerts-to-operators}
 

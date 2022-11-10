@@ -2,8 +2,8 @@
 title: Adobe Campaign built-in delivery reports
 description: Adobe Campaign built-in delivery reports
 feature: Reporting
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 ---
-
 # Delivery reports {#delivery-reports}
 
 You can track the execution of deliveries via various reports accessible from the delivery overview. 
@@ -197,5 +197,3 @@ You can display cumulated reports on deliveries. To do this, select the deliveri
 To select non-adjacent deliveries from the list, hold down the CTRL key while making your selection.
 
 To select deliveries saved in a different folder click the **[!UICONTROL Display sub-levels]** icon, accessible in the toolbar. They will then be displayed in the same list.
-
-

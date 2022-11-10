@@ -4,8 +4,8 @@ description: Measure the success of your campaigns and analyze user behaviour
 feature: Reporting
 role: Data Engineer
 level: Beginner
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 ---
-
 # Get Started with reporting{#gs-ac-reports}
 
 Adobe Campaign provides a set of reporting tools listed in this page.

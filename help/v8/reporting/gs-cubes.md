@@ -4,6 +4,7 @@ description: Learn how to create cubes
 feature: Reporting
 role: Data Engineer
 level: Beginner
+exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
 ---
 # Get started with Campaign analytics reports {#gs-cube}
 
