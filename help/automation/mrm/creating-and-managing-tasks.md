@@ -104,36 +104,42 @@ To add task operators, follow the steps below:
 
    ![](assets/task-op-add-a-reminder.png)
 
+1. You can also send a notification before the task starts. To set this up, select the date in the **[!UICONTROL Initial notification]** field.
+1. When the end date is reached and the task is not closed, a notification can be sent to the assignee or group of assignees selected in the **[!UICONTROL Assignee]** drop down list.
+
 
 The operator dashboard lets you check their workload (other tasks in progress).
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### Reviewers {#reviewers}
+### Task approval {#reviewers}
 
-In addition to the participants, you can define operators who will review the task once it has been closed by the person in charge of it. To do this, click the **[!UICONTROL Enable task approval]** option in the lower left-hand section of the **[!UICONTROL Resources]** window. This can be an individual operator, a group of operators or a list of operators. 
+In addition to the participants, you can define operators who will review the task once it has been closed. 
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+To do this, click the **[!UICONTROL Enable task approval]** option in the lower section of the **[!UICONTROL Resources]** window. This can be an individual operator, a group of operators or a list of operators. 
 
 To specify a list of operators, click the **[!UICONTROL Edit...]** link to the right of the first reviewer and add as many operators as necessary, as shown below:
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-You can define an approval schedule for the task in the lower section of the reviewer configuration window. By default, reviewers have three days starting from the submission date to approve the task. It's possible to configure a reminder, which will be sent to the concerned operators automatically before the approval deadline.
+You can define an approval schedule for the task in the lower section of the configuration window. By default, reviewers have three days starting from the submission date to approve the task. You can also add a reminder, which will be sent to the concerned operators automatically before the approval deadline.
 
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
-
-The person in charge of the task can assign themselves the task of approving it, even if other operators have already been assigned to do this. If no reviewer has been defined, the notifications will be sent to the person in charge of the task. All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve the task. However, they won't receive notifications.
+The person in charge of the task can assign themselves the task of approving it, even if other operators have already been assigned to do this. If no reviewer has been defined, the notifications will be sent to the person in charge of the task. All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve the task. However, they do not receive notifications.
 
 ### Documents referenced {#documents-referenced}
 
-You can add [documents and marketing resources](managing-marketing-resources.md) to a task. To do so, open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
+You can add [documents and marketing resources](managing-marketing-resources.md) to a task. 
 
-Click **[!UICONTROL Add]** and select the document to be added to your task. Apply the same process for marketing resources. 
+To perform this:
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. Open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
 
-Referenced documents will appear in the notifications sent to the operators involved in the task, as well as on the task dashboard.
+   ![](assets/add-documents-to-a-task.png)
+
+1. Click **[!UICONTROL Add]** and select the document to be added to your task. Apply the same process for marketing resources. 
+
+
+Referenced documents are added to the notifications sent to the operators involved in the task. They are also added on the task dashboard.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
