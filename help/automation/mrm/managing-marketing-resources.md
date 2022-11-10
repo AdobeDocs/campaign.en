@@ -6,78 +6,72 @@ exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
 ---
 # Manage marketing resources{#managing-marketing-resources}
 
-Adobe Campaign lets you manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a brochure, a visual aid, or any other communication medium involving several operators.
+Use Adobe Campaign to manage and track the marketing resources involved in the campaign life cycle. These marketing resources can be a whitepaper, a data file, a logo, or any other asset related to a campaign.
 
-For each marketing resource managed via Adobe Campaign, you can track its status and history at any time and view the current version.
+For each marketing resource managed via Adobe Campaign, you can track its status and history at any time, and view the current version.
 
-## Adding a marketing resource {#adding-a-marketing-resource}
+By default, marketing resources are stored in the **[!UICONTROL MRM > Marketing resources]** folder of Campaign explorer.
 
-Marketing resources are accessed via the **[!UICONTROL Campaigns]** tab.
+## Add a marketing resource {#adding-a-marketing-resource}
 
-To add a resource, click the **[!UICONTROL Create]** button.
+To add a marketing resource, follow the steps below:
 
-![](assets/s_ncs_user_mkg_resource_add.png)
+1. Browse to the **[!UICONTROL Campaigns]** tab, and select **[!UICONTROL Marketing resouces]**.
 
-To make a resource available on the Adobe Campaign server, you must add the desired resource by dragging and dropping it in the middle area of the editor. You can also click the **[!UICONTROL Upload file to server...]** link.
+1. Click the **[!UICONTROL Create]** button.
+  ![](assets/add-a-mkt-resource.png)
+1. Drag and drop the file it in the Marketing resource window to upload it to Campaign server. You can also use the **[!UICONTROL Upload file to server...]** link.
+  ![](assets/mkt-resource-creation.png) 
 
-![](assets/s_ncs_user_mkg_resource_file.png)
+When upload is complete, the resource is added to the list of available resources. 
 
-A confirmation message lets you launch the upload.
+## Manage marketing resources {#manage-marketing-resources}
 
-When upload is complete, the resource is added to the list of available resources. It is accessible to Adobe Campaign operators. They can view it (via the **[!UICONTROL Preview]** tab), make a copy to modify it, or update the file on the server (using the **[!UICONTROL Edit]** tab).
+Once uploaded, the marketing resource is available to all Adobe Campaign operators. They can view it, make a copy to modify it, or update the file on the server.
 
-![](assets/s_ncs_user_mkg_resource_extract.png)
+![](assets/open-a-marketing-resource.png)
 
-Click the **[!UICONTROL General]** tab to select the operators or groups of operators in charge of monitoring, tracking and approving this resource. Selecting the reviewer is done via the **[!UICONTROL Advanced parameters]** link.
+Use the **[!UICONTROL Assigned to]** drop-down list in the **[!UICONTROL Edit]** tab to select the operator who is responsible for the resource.
 
-* The operator to whom the resource is assigned is responsible for tracking it.
-* The approving operator is responsible for approving the marketing resource. They will be notified when the resource validation process is launched.
+![](assets/assign-a-mkt-resource.png)
 
-  If no reviewer is selected, the resource **[!UICONTROL cannot be]** subject to approval.
+You can also select the operators or groups of operators in charge of the resource validation and resource publication. To access these options, click the  **[!UICONTROL Advanced parameters]** link.
 
-* If necessary, you can also specify a proofreader.
+These operators are notified by email when the resource validation process is launched.
 
-You can specify an (indicative) availability date for the resource. Beyond this date, it will appear with **[!UICONTROL Late]** status.
+If no reviewer is selected, the resource **[!UICONTROL cannot be]** subject to approval.
 
-## Collaborative work on resources {#collaborative-work-on-resources}
-
-You can modify and update a marketing resource and, if necessary, inform other Adobe Campaign operators of this. You can:
-
-* Download the resource locally in order to modify it.
-* Update the file on the server and make it accessible to other operators.
-* Lock a resource in order to prohibit its modification by other operators.
+Use the **[!UICONTROL Audit]** tab to add a proof reader and define an availability date for the resource. Beyond this date, it will appear with **[!UICONTROL Late]** status. 
 
 >[!NOTE]
 >
 >The **[!UICONTROL History]** tab contains the download and update log for the resource. The **[!UICONTROL Details]** button lets you view the selected version.
+>
+>The **[!UICONTROL Audit]** tab lets you monitor any actions carried out on the resource: approvals, approval refusals, related comments, or publications.
 
 ### Locking/unlocking a resource {#locking-unlocking-a-resource}
 
 Once created, resources are available in the marketing resource dashboard, and operators can edit and modify them.
 
-When an operator wishes to work on a resource, it is preferable to lock it before starting work, to prevent other operators from modifying it at the same time. The resource is then reserved; it remains accessible, but cannot be published or updated on the server by another operator.
+When an operator starts working on a resource, best practice is to lock it, to prevent other operators from modifying it at the same time. The resource is then reserved: it remains accessible, but cannot be published or updated on the server by another operator. 
+
+A marketing resource can only be locked if it has not been approved.
+
+To lock a resource, you must click the **[!UICONTROL Lock]** button in the resource dashboard.
+
+![](assets/lock-a-resource.png)
+
+
+When the resource has been updated, click the **[!UICONTROL Lock]** button in the resource dashboard to make available to all operators again.
 
 A special message notifies any operators who try to access it:
 
-![](assets/s_ncs_user_mkg_resource_locked.png)
+![](assets/mkt-resource-locked.png)
 
-The **[!UICONTROL Tracking]** tab indicates the name of the operator who locked the resource and the planned update date.
+The **[!UICONTROL Tracking]** tab indicates the name of the operator who locked the resource.
 
-![](assets/s_ncs_user_mkg_resource_locked_date.png)
+![](assets/mkt-resource-audit-tab.png)
 
-To lock a resource, you must click the resource followed by the **[!UICONTROL Lock]** button in the resource dashboard.
-
-![](assets/s_ncs_user_mkg_resource_lock.png)
-
-You can indicate the planned return date in the **[!UICONTROL Tracking]** tab of the resource.
-
-![](assets/s_ncs_user_mkg_resource_lock_date.png)
-
-This information lets you inform other Adobe Campaign operators of the date on which the resource will be unlocked.
-
-When the resource has been updated, it is automatically unlocked and made available to all operators again.
-
-If necessary, you can also unlock it manually from the dashboard.
 
 >[!NOTE]
 >
@@ -85,130 +79,99 @@ If necessary, you can also unlock it manually from the dashboard.
 
 ### Discussion forums {#discussion-forums}
 
-For each resource, the **[!UICONTROL Forum]** tab lets participants exchange information.
+For each resource, the **[!UICONTROL Forum]** tab lets participants share information.
 
-[Discussion forums](discussion-forums.md) explains how discussion forums operate in Adobe Campaign.
+![](assets/mkt-resource-forum.png)
 
-## Life cycle of a marketing resource {#life-cycle-of-a-marketing-resource}
-
-When the resource is created, Adobe Campaign operators are appointed to design, proofread, approve and publish the resource. A duration can be determined for these campaigns.
-
-The **[!UICONTROL Tracking]** tab lets you monitor any actions carried out on the resource: approvals, approval refusals, related comments, or publications.
-
-The **[!UICONTROL History]** tab displays file transfers carried out for this resource.
+Learn more in the [Discussion forums](discussion-forums.md) section.
 
 ### Approval process {#approval-process}
 
 The expected availability date is displayed in the resource details, if it was specified in the **[!UICONTROL Tracking]** tab. Once this date is reached, you can execute the approval process using the **[!UICONTROL Submit for approval]** button in the resource dashboard. The resource status then changes to **[!UICONTROL Approval in progress]**.
 
-A resource can be approved via the **[!UICONTROL Approve resource]** button on its dashboard.
+To approve a resource, click the **[!UICONTROL Approve the resource]** button on its dashboard.
 
-![](assets/s_ncs_user_task_valid_date.png)
+![](assets/mkt-resouce-approve.png)
 
 Authorized operators can then accept or reject approval. This action is possible either: via the email message sent (by clicking the link in the notification message) or via the console (by clicking the **[!UICONTROL Approve]** ) button.
 
 The approval window lets you enter a comment.
 
-![](assets/s_ncs_user_mkg_resource_valid_ok.png)
+![](assets/mkt-resource-approval-confirmation.png)
 
-The **[!UICONTROL Tracking]** tab enables all operators to track the various stages of the approval process.
-
-![](assets/s_ncs_user_mkg_resource_log.png)
+Browse to the **[!UICONTROL Tracking]** tab to check approvals.
 
 >[!NOTE]
 >
 >In addition to the reviewer specified for each marketing resource, operators with administrator rights and the resource manager are authorized to approve a marketing resource.
 
-### Publishing a resource {#publishing-a-resource}
+### Publish a resource {#publishing-a-resource}
 
 When approved, the marketing resource must be published. The publication process must be subject to specific implementation according to company requirements. This means that resources can be published on an extranet or any other server, specific information can be sent to an external service provider, etc.
 
 To publish a resource, click the **[!UICONTROL Publish]** button in the editing zone of the marketing resource dashboard.
 
-![](assets/s_ncs_user_mkg_resource_available.png)
+![](assets/mkt-resource-publish.png)
 
 You can also automate the publishing of a resource via a workflow.
 
 Publishing a resource means making it available for use (by another task, for instance). Publication as such varies depending on the nature of your resource: for a flyer, publishing can mean sending the file to a printer, for a web agency, it can mean publishing it to a website, etc.
 
-In order for Adobe Campaign to publish, you need to create an adequate workflow and link it to the resource. To do this, open the **[!UICONTROL Advanced settings]** box of the resource, then select the desired workflow in the **[!UICONTROL Post-processing]** field.
+In order for Adobe Campaign to publish, you need to create an adequate workflow and link it to the resource. To do this, open the **[!UICONTROL Advanced settings...]** box of the resource, then select the desired workflow in the **[!UICONTROL Post-processing]** field.
 
-![](assets/mrm_asset_postprocessing_workflow.png)
+![](assets/mkt-resource-post-processing-wf.png)
 
-The workflow will be executed:
+The workflow is executed:
 
 * When the reviewer clicks the **[!UICONTROL Publish resource]** link (or, if no reviewer was defined, the person in charge of the resource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](creating-and-managing-tasks.md#marketing-resource-creation-task))
+* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task. [Learn more](creating-and-managing-tasks.md#marketing-resource-creation-task))
 
-If a workflow isn't started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
+If a workflow is not started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. This status does not take into account possible errors in the publishing process. Check the status of your workflow to make sure it has executed properly.
 
-## Linking a resource to a campaign {#linking-a-resource-to-a-campaign}
+## Link a resource to a campaign {#linking-a-resource-to-a-campaign}
 
-### Referencing a marketing resource {#referencing-a-marketing-resource}
+### Reference a marketing resource {#referencing-a-marketing-resource}
 
-Marketing resources can be associated with campaigns, provided that this feature was selected in the campaign template.
+Marketing resources can be associated with campaigns, provided that this feature was selected in the [campaign template](../campaigns/marketing-campaign-templates.md).
 
->[!NOTE]
->
->For details on how to create and configure campaign templates, refer to [Campaign templates](../campaigns/marketing-campaign-templates.md)
+Browse to the **[!UICONTROL Edit > Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 
-Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
-
-![](assets/s_ncs_user_mkg_resource_ref.png)
+![](assets/link-a-mkt-resource-to-a-campaign.png)
 
 You can filter resources by status, nature or type, or apply a personalized filter.
 
-![](assets/s_ncs_user_mkg_resource_ref_filter.png)
+Use the **[!UICONTROL Details]** button to edit and preview the resource.
 
-Click **[!UICONTROL OK]** to add the resource to the list of marketing resources referenced for this campaign.
-
-The **[!UICONTROL Details]** button lets you edit and view it.
-
-The resources added are displayed in the dashboard. They can also be edited there.
-
-### Adding a marketing resource to a delivery outline {#adding-a-marketing-resource-to-a-delivery-outline}
+### Add a marketing resource to a delivery outline {#adding-a-marketing-resource-to-a-delivery-outline}
 
 Marketing resources can be associated with deliveries via delivery outlines.
 
-![](assets/s_ncs_user_mkg_resource_in_compo.png)
+Learn more about delivery outlines in [this section](../campaigns/marketing-campaign-deliveries.md).
 
->[!NOTE]
->
->For more information on delivery outlines, refer to [Associating and structuring resources linked via a delivery outline](../campaigns/marketing-campaign-deliveries.md).
+To do this, right click on a delivery outline and select **New > Resource**.
+
+![](assets/mkt-resource-add-in-del-outline.png)
+
+Enter the name of the asset and select it from the **Marketing resource** drop-down list.
+
+![](assets/mkt-resource-select-in-del-outline.png)
+
 
 ## Stock management {#stock-management}
 
 You can associate a marketing resource with one or more stocks in order to manage your supplies and to display a warning on the dashboard in the event of insufficient stock.
 
->[!NOTE]
->
->For more information on stock management in Adobe Campaign, refer to [Stock management](../campaigns/providers--stocks-and-budgets.md#stock-management).
 
-To associate a marketing resource with a stock, edit the stock map and edit or create a stock. Add a stock line and select the corresponding marketing resource.
+To associate a marketing resource with a stock, follow the steps below:
 
-![](assets/s_ncs_user_task_in_a_stock.png)
+1. Edit a stock or create a new stock. Learn more about stocks in [this section](../campaigns/providers--stocks-and-budgets.md#stock-management).
 
-If necessary, you can edit the selected resource via the **[!UICONTROL Edit the link]** icon (magnifying glass) located to the right of the resource once it has been selected.
+1. Add a stock line, and select the corresponding marketing resource.
 
-Specify the initial stock and the alert stock, and then save.
+    ![](assets/mkt-resource-in-a-stock-line.png)
 
-The stock is indicated in the resource details.
+    You can edit the selected resource via the **[!UICONTROL Edit the link]** icon located to the right of the resource once it has been selected.
 
-![](assets/s_ncs_user_task_with_a_stock.png)
+1. Specify the initial stock and the alert stock, and then save.
 
-When the stock is insufficient, a warning is sent to the concerned operators.
-
-## Advanced functions {#advanced-functions}
-
-The marketing resources dashboard lets you carry out the usual types of operations: add, edit, lock/unlock, approve, publish. You can create other types of marketing resources and access advanced functionality via the Adobe Campaign tree. To do this, click **[!UICONTROL Explorer]** in the Adobe Campaign home page.
-
-By default, marketing resources are stored in the **[!UICONTROL MRM > Marketing resources]** node of the tree.
-
-![](assets/s_ncs_user_mkg_resource_create_from_list.png)
-
-You can add the following resources from this view:
-
-* File 
-* HTML 
-* Text
-* URL
+The stock is indicated in the marketing resource **Stocks** tab.

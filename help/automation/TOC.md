@@ -146,8 +146,8 @@ feature : Overview
   + [Consistency rules](campaign-opt/consistency-rules.md)
   + [Apply rules](campaign-opt/apply-rules.md)
   + [Campaign simulations](campaign-opt/campaign-simulations.md)
-+ Marketing Resource Management {#mrm}
-  + [Get started with marketing resource management (MRM)](mrm/about-marketing-resource-management.md)
++ Marketing Resource Management{#mrm}
+  + [Get started with marketing resource management](mrm/about-marketing-resource-management.md)
   + [Create and manage tasks](mrm/creating-and-managing-tasks.md)
   + [Control costs](mrm/controlling-costs.md)
   + [Manage marketing resources](mrm/managing-marketing-resources.md)
