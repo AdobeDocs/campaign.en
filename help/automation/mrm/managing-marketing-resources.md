@@ -36,9 +36,6 @@ Use the **[!UICONTROL Assigned to]** drop-down list in the **[!UICONTROL Edit]**
 
 You can also select the operators or groups of operators in charge of the resource validation and resource publication. To access these options, click the  **[!UICONTROL Advanced parameters]** link.
 
-![](assets/mkt-resource-advanced-parameters.png)
-
-
 These operators are notified by email when the resource validation process is launched.
 
 If no reviewer is selected, the resource **[!UICONTROL cannot be]** subject to approval.
