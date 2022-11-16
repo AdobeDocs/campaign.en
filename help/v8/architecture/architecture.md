@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign architecture
-description: Discover environments and deployment basics
+description: Discover environments and deployment basics, including how to report on a campaign environment.
 feature: Overview
 role: Data Engineer
 level: Beginner

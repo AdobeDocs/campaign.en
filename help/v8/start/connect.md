@@ -1,6 +1,6 @@
 ---
 title: Connect to Campaign v8
-description: Learn how to connect to Campaign v8
+description: Learn how to connect to Adobe Campaign v8 and install the console on your machine for easier access. 
 feature: Client Console
 role: User
 level: Beginner

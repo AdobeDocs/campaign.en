@@ -1,6 +1,6 @@
 ---
 title: What's new in Campaign v8
-description: Discover key capabilities in Campaign v8
+description: Discover key capabilities in Adobe Campaign v8, what's new, and what you can expect from the latest release.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 ---
 # What's new in Adobe Campaign v8? {#ac-gs-what-is-new}
 
-Adobe Campaign v8 is designed for cross-channel marketers who need the best-in-class cloud solution for cross-channel campaign management with enterprise scale. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt’s and much more.
+Adobe Campaign v8 is designed for cross-channel marketers who need the best-in-class cloud solution for cross-channel campaign management with enterprise scale. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
 
 Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. 
 

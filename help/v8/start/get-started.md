@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign v8
-description: New to Campaign? Discover how to get started
+description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface. 
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
