@@ -8,6 +8,20 @@ exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 ---
 # Get started with permissions{#gs-permissions}
 
+Adobe Campaign lets you define and manage the rights assigned to users. These are a set of rights and restrictions that authorize or deny:
+
+* Access to certain functionalities (via the named rights),
+* Access to certain records,
+* Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).
+
+The permissions apply to user profiles or groups.
+
+There are two types of permissions you can grant to a user:
+
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Learn how to create and manage groups in  [this section](manage-permissions.md#work-with-product-profiles).
+
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this section](manage-permissions.md#named-rights).
+
 In Adobe Campaign, users are **operators** and **operator groups** represent user roles.
 
 An operator is an Adobe Campaign user who has permissions to log in and perform actions. By default, operators are stored in the **[!UICONTROL Administration > Access management > Operators]** node.
