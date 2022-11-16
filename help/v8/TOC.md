@@ -120,7 +120,9 @@ title: Campaign v8 docs
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
 + Administration {#admin}
-  + [Permissions](start/permissions.md)
+  + Users and permissions {#permissions}
+    + [Get started with permissions](start/gs-permissions.md)
+    + [Manage permissions](start/manage-permissions.md)
   + [Control Panel](config/self-service.md)
 + Architecture and configuration {#config}
   + Architecture {#architecture}

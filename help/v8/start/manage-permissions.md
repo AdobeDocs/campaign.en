@@ -13,7 +13,7 @@ As a product administrator, you can add users and grant access to Campaign.
 
 To add a user, follow the steps below:
 
-1. In the [Admin Console](https://adminconsole.adobe.com/enterprise) home page, select **Add Users**.
+1. In the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} home page, select **Add Users**.
 
     ![](assets/add-a-user.png)
 
@@ -133,7 +133,7 @@ For example to create a 'reviewers' product profile, follow the steps below:
     ![](assets/new-op-group.png)
 1. Define the associated permissions by selecting names rights. [Learn more](#named-rights)
 1. Save the new group.
-1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise).
+1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. From the **Product and services** section of the home page, open Campaign product.
 1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [here](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
 
@@ -141,20 +141,34 @@ For example to create a 'reviewers' product profile, follow the steps below:
     
 1. Save your changes.
 
-You can now add users to this new group.
+You can now add users to this new product profile, as explained in [this section](#add-users).
+
+Best practice is to assign product profiles to user groups. Managing permissions by user is not a sustainable model.
 
 ## Work with user groups{#user-groups}
+
+You can use the Admin Console to create user groups and assign users to them. 
+
+A user group is a collection of different users that have to be given a shared set of permissions. Learn how to create user groups in [this section](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
+
+You can assign product profiles to user groups. So, all the users in that group to receive the same set of product permissions.
 
 
 ## Named rights{#named-rights}
 
-Adobe Campaign comes with a set of named rights that let you define the permissions assigned to operators and groups of operators. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** folder of Campaign explorer.
+Adobe Campaign comes with a set of named rights that let you define the permissions assigned to users and groups of users. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** folder of Campaign explorer.
 
-Default operator groups and named rights allow users to access certain folders in the navigation hierarchy, and grant read, write, and delete permissions.
+Named Rights grant permissions to:
 
+* Perform operations
+    For example, the **Analyze** button in the Delivery editor is activated for members of the **Delivery Operator** group who have the **Prepare Delivery** Named Right
 
+* Access to folders
+    Membership of Operator Groups can grant or restrict access rights to folders, by changing the security settings on folders. [Learn more](../audiences/folders-and-views.md#restrict-access-to-a-folder). 
+    
+    For example it can impact: **Write access** to create new entities (such as deliveries, profiles, etc.), **Read access** to use entities, **Delete access** to delete entities.
 
-Named rights are:
+Default named rights in Adobe Campaign are:
 
 * **[!UICONTROL ADMINISTRATION]**: Operators with the **[!UICONTROL ADMINISTRATION]** right has full access on the instance. Admin users can execute/create/edit/delete any object such as workflow, delivery, scripts, etc.
 

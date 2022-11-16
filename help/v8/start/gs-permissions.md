@@ -22,7 +22,7 @@ The Adobe Admin Console is a central location for managing the Adobe entitlement
 
 Use the Admin Console to add users, create and assign product profiles (which are groups of operator roles).
 
-Learn how to add users in [this page](manage-permissions.md).
+Learn how to add users in [this page](manage-permissions.md#add-users).
 
 ## Built-in product profiles{#ootb-product-profiles}
 
@@ -31,19 +31,12 @@ Product Profiles are groups of products and services that you can assign to user
 In the Admin Console, each Adobe Experience Cloud product profiles for Campaign is associated to an operator group in Campaign UI.
 
 
-Learn how to create and assign product profiles in [this page](manage-permissions.md).
+Learn how to create and assign product profiles in [this page](manage-permissions.md#create-a-product-profile).
 
 ## Named rights{#named-rights}
 
 As a member of a product profile (i.e operator group), a user has rights to perform operations, called 'Named Rights', and has read and/or write access to data. An operator can be a member of multiple operator groups: rights and access permissions are additive.
 
-Named Rights grant permissions to:
-
-* Perform operations
-    For example, the **Analyze** button in the Delivery editor is activated for members of the **Delivery Operator** group who have the **Prepare Delivery** Named Right
-
-* Access to folders
-    Membership of Operator Groups can grant or restrict access rights to folders, by changing the security settings on folders. [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target="_blank"}. For example it can impact: **Write access** to create new entities (such as deliveries, profiles, etc.), **Read access** to use entities, **Delete access** to delete entities.
 
 
 <!--
