@@ -2,6 +2,7 @@
 keywords: Campaign Classic;home;popular topics
 description: Campaign technotes
 title: Adobe Campaign technical articles
+exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 ---
 # Adobe Campaign v8 Documentation {#campaign-documentation}
 

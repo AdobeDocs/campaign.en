@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 ---
 # Operators profiles {#operator-profiles}
 
-Two types of operators can use Campaign Interaction: **Offer managers** and **Delivery managers**. Each of them has specific permissions and restrictions. Learn more about Campaign operators and permissions in [this page](../start/permissions.md).
+Two types of operators can use Campaign Interaction: **Offer managers** and **Delivery managers**. Each of them has specific permissions and restrictions. Learn more about Campaign operators and permissions in [this page](../start/gs-permissions.md).
 
 * The **[!UICONTROL Offer manager]** creates and maintains offers.
 * The **[!UICONTROL Delivery manager]** approves and uses offers

@@ -140,14 +140,20 @@ feature : Overview
   + [Providers, stocks and budgets](campaigns/providers--stocks-and-budgets.md)
 + Campaign optimization (add-on){#campaign-optimization}
   + [Get started with campaign typologies](campaign-opt/campaign-typologies.md)
+  + [Filtering rules](campaign-opt/filtering-rules.md)
+  + [Control rules](campaign-opt/control-rules.md)
   + [Pressure rules](campaign-opt/pressure-rules.md)
   + [Consistency rules](campaign-opt/consistency-rules.md)
-  + [Control rules](campaign-opt/control-rules.md)
-  + [Filtering rules](campaign-opt/filtering-rules.md)
   + [Apply rules](campaign-opt/apply-rules.md)
   + [Campaign simulations](campaign-opt/campaign-simulations.md)
++ Marketing Resource Management (add-on){#mrm}
+  + [Get started with marketing resource management](mrm/about-marketing-resource-management.md)
+  + [Create and manage tasks](mrm/creating-and-managing-tasks.md)
+  + [Control costs](mrm/controlling-costs.md)
+  + [Manage marketing resources](mrm/managing-marketing-resources.md)
+  + [Discussion forums](mrm/discussion-forums.md)
 + Distributed marketing (add-on) {#distributed-marketing}
-  + [About distributed marketing](distributed-marketing/about-distributed-marketing.md)
+  + [Get started with distributed marketing](distributed-marketing/about-distributed-marketing.md)
   + [Create a local campaign](distributed-marketing/creating-a-local-campaign.md)
   + [Create a collaborative campaign](distributed-marketing/creating-a-collaborative-campaign.md)
   + [Publish the campaign package](distributed-marketing/publishing-the-campaign-package.md)

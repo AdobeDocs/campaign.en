@@ -16,7 +16,7 @@ title: Campaign v8 docs
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
-+ Get Started {#start}
++ Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
   + [Components and processes](start/ac-components.md)
@@ -32,6 +32,7 @@ title: Campaign v8 docs
   + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
   + Send messages{#send}
     + [Get started with messages](start/create-message.md)
+    + [Work with delivery templates](send/create-templates.md)
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
       + [Send and monitor emails](send/send.md)
@@ -86,7 +87,19 @@ title: Campaign v8 docs
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
-  + [Metrics & reports](start/reporting.md)
+  + Work with reports{#reports}
+    + [Get started with reports](reporting/gs-reporting.md)
+    + Create cubes{#cubes}
+      + [Get started with cubes](reporting/gs-cubes.md)
+      + [Create a cube](reporting/cube-indicators.md)
+      + [Use cubes to create reports](reporting/cube-tables.md)
+      + [Customize your cubes](reporting/customize-cubes.md)
+    + Built-in reports{#ac-reports}
+      + [List of built-in reports](reporting/built-in-reports.md)
+      + [Global reports](reporting/global-reports.md)
+      + [Delivery reports](reporting/delivery-reports.md)
+      + [Built-in metrics calculation](reporting/metrics-calculation.md)
+    + [Custom reports](reporting/custom-reports.md)
 + Data Management {#data}
   + [Get started with workflows](config/workflows.md)
   + [Import data](start/import.md)
@@ -107,7 +120,9 @@ title: Campaign v8 docs
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
 + Administration {#admin}
-  + [Permissions](start/permissions.md)
+  + Users and permissions {#permissions}
+    + [Get started with permissions](start/gs-permissions.md)
+    + [Manage permissions](start/manage-permissions.md)
   + [Control Panel](config/self-service.md)
 + Architecture and configuration {#config}
   + Architecture {#architecture}

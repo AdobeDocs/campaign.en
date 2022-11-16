@@ -66,7 +66,7 @@ In addition to powerful, out-of-the box reporting templates, Adobe Campaign lets
 The campaign reporting feature facilitates the creation of dynamic reports. You can use drag-and-drop variables to customize your reports and to analyze the success of your campaigns. Depending on the complexity of your queries and calculations, the data can be aggregated into a list view or accessed in a format that makes it easy to generate marketing analytics reports.
 
 
-![](../assets/do-not-localize/glass.png) Learn more about report and tracking capabilities in [this section](reporting.md).
+![](../assets/do-not-localize/glass.png) Learn more about report and tracking capabilities in [this section](../reporting/gs-reporting.md).
 
 ## Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 

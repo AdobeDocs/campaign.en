@@ -7,8 +7,6 @@ exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}
 
-
-
 This use case presents an example involving a cross-channel delivery workflow. The general concept of cross-channel deliveries is presented in [this section](cross-channel-deliveries.md).
 
 The objective is to segment an audience from the recipients of your database into different groups with the aim of sending an email to a group and an SMS message to another group.
@@ -25,7 +23,7 @@ The main implementation steps for this use case are as follows:
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Step 1: Targeting the audience {#step-1--targeting-the-audience}
+## Step 1: Build the audience {#step-1--build-the-audience}
 
 To define your target, create a query to identify the recipients.
 
@@ -38,9 +36,9 @@ To define your target, create a query to identify the recipients.
 
 1. Save your changes.
 
-## Step 2: Creating an email including an offer {#step-2--creating-an-email-including-an-offer}
+## Step 2: Create an email including an offer {#step-2--create-an-email-including-an-offer}
 
-1. Create an ** .
+1. Create an email delivery.
 1. Design the message and insert a link including an offer into the content.
 
    ![](assets/wkf_cross-channel_1.png)
@@ -59,7 +57,7 @@ To define your target, create a query to identify the recipients.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Step 3: Segmenting the resulting audience {#step-3--segmenting-the-resulting-audience}
+## Step 3: Segment the resulting audience {#step-3--segment-the-resulting-audience}
 
 Once your target is identified and your first delivery created, you need to segment the target into different populations using filtering conditions.
 
@@ -95,7 +93,7 @@ Once your target is identified and your first delivery created, you need to segm
 
 1. Click **[!UICONTROL Finish]** to save your changes.
 
-## Step 4: Finalizing the workflow {#step-4--finalizing-the-workflow}
+## Step 4: Finalize the workflow {#step-4--finalize-the-workflow}
 
 1. Add the relevant activities to your workflow after the three subsets resulting from the **[!UICONTROL Split]** activity:
 

@@ -4,6 +4,7 @@ description: Learn how to use and create target mappings
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
 ---
 # Work with target mappings{#gs-target-mappings}
 
@@ -59,4 +60,3 @@ Adobe Campaign target mapping creation wizard helps you create all schemas requi
    ![](assets/wf_new_mapping_define_extensions.png)
 
    Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
-

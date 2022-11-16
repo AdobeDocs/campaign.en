@@ -3,7 +3,7 @@ product: campaign
 title: Event activities in workflows
 description: List of event activities in workflows
 feature: Workflows, Data Management
-
+exl-id: 0e8ab370-06bc-431e-a685-310ac54a1246
 ---
 # Event activities in workflows{#about-event-activities}
 
@@ -16,6 +16,4 @@ These activities are not available in [campaign-specific workflows](campaign-wor
 * **[File transfer](file-transfer.md)**: transfers a file onto a server. 
 * **[Inbound Emails](inbound-emails.md)**: recovers and processes emails.
 * **[Inbound SMS](inbound-sms.md)**: recovers and processes SMS.
-* **[Web download](web-download.md)**: downloads a file from the web. 
-
-
+* **[Web download](web-download.md)**: downloads a file from the web.

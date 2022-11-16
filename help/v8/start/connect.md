@@ -91,7 +91,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 * Access to certain elements,
 * Create, modify and/or delete elements (delivery, contacts, campaigns, groups, etc.).
 
-Learn more about users and how to define their permissions in [this section](permissions.md).
+Learn more about users and how to define their permissions in [this section](gs-permissions.md).
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users.
 

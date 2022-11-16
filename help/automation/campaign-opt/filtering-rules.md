@@ -7,7 +7,7 @@ exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 ---
 # Filtering rules{#filtering-rules}
 
-Filtering rules let you define the messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
+Use filtering rules to select messages to exclude based on criteria defined in a query. These rules are linked to a targeting dimension.
 
 Filtering rules can be linked to other types of rules (control, pressure, etc.) in typologies, or grouped in a dedicated **Filtering** typology. [Learn more](#create-and-use-a-filtering-typology).
 
@@ -17,11 +17,12 @@ For example, you can filter your newsletter subscribers to prevent communication
 
 To define this filter, apply the following steps:
 
-1. Create a **[!UICONTROL Filtering]** typology rule applicable to all communication channels.
+1. Browse to the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** folder of Campaign exporer and click the **New** icon to create a typology rule.
+1. Create a **[!UICONTROL Filtering]** typology rule applicable to all channels.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Change the default targeting dimension and select the subscriptions (**nms:subscription**).
+1. From the **Filter** tab cange the default targeting dimension to **Subscriptions** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -29,11 +30,15 @@ To define this filter, apply the following steps:
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. Link this rule to a campaign typology and save it.
+1. Filter on the recipient age and save the filtering condition.
+
+   ![](assets/campaign_opt_create_filter_03b.png)
+
+1. From the **Typologies** tab, link this rule to a campaign typology and save it.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-When this rule is used in a delivery, underage subscribers are excluded automatically. A specific message indicates rule application:
+When this rule is used in a delivery, underage subscribers are excluded automatically. A specific message indicates when the rule is applied:
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -41,9 +46,11 @@ When this rule is used in a delivery, underage subscribers are excluded automati
 
 You can restrict the application field of the filtering rule based on the linked delivery or delivery outline.
 
-To do this, go to the **[!UICONTROL General]** tab of the typology rule, select the type of restriction to apply and create the filter, as shown below:
-
+To do this, go to the **[!UICONTROL General]** tab of the typology rule, select the type of restriction to apply and create the filter.
+<!--
 ![](assets/campaign_opt_create_filter_06.png)
+-->
+
 
 In this case, even if the rule is linked to all deliveries, it will only be applied to those which match the criteria of the defined filter.
 

@@ -3,7 +3,7 @@ product: campaign
 title: Union
 description: Learn more about the Union workflow activity
 feature: Workflows, Targeting Activity
-
+exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
 ---
 # Union{#union}
 

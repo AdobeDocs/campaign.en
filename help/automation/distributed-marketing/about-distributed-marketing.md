@@ -7,8 +7,6 @@ exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 ---
 # Get started with distributed marketing{#about-distributed-marketing}
 
-
-
 Adobe Campaign offers a **Distributed Marketing** application for implementing cooperative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
 
 The central entity provides campaigns that local entities may use. Campaigns are materialized by packages representing either local or collaborative campaigns. To use a campaign, the local entity must order it and the order must be approved.

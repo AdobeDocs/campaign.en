@@ -7,8 +7,6 @@ exl-id: 08febcbc-1703-4d36-89e1-32c903618084
 ---
 # Load delivery content{#loading-delivery-content}
 
-
-
 If your delivery content is available in an HTML file located on Amazon S3, FTP or SFTP servers, you can easily load this content into Adobe Campaign deliveries.
 
 To do this:
@@ -46,6 +44,3 @@ To do this:
 
 1. Save and execute the workflow. A new delivery with the loaded content is created under **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
->[!NOTE]
->
->Best practices and troubleshooting on SFTP server usage are detailed  .

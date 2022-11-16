@@ -3,7 +3,7 @@ product: campaign
 title: External signal
 description: Learn more about the External signal workflow activity
 feature: Workflows
-
+exl-id: 45cb95ec-77bf-4bab-895f-b94f6ce660fd
 ---
 # External signal{#external-signal}
 

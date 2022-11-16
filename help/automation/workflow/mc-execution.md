@@ -7,15 +7,7 @@ feature: Workflows
 
 # Message Center (Execution){#message-center-execution}
 
-
-
 The workflows detailed below are installed with the **Message Center - Execution** add-on by default. 
-
-For more on this, depending on your Campaign version, refer to these sections:
-  
-! 
-  
-![](assets/do-not-localize/v8.png)[  Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 
 <table> 
  <tbody> 

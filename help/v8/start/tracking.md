@@ -103,7 +103,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 
 The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. 
 
-[Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target="_blank"}
+[Learn more](../reporting/metrics-calculation.md)
 
 ## Monitoring guidelines
 

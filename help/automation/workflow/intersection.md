@@ -3,7 +3,7 @@ product: campaign
 title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
-
+exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
 ---
 # Intersection{#intersection}
 

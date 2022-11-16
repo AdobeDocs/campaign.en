@@ -3,7 +3,7 @@ product: campaign
 title: Split
 description: Learn more about the Split workflow activity
 feature: Workflows, Targeting Activity
-
+exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 ---
 # Split{#split}
 

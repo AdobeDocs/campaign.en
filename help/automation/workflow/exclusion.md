@@ -3,7 +3,7 @@ product: campaign
 title: Exclusion
 description: Learn more about the Exclusion workflow activity
 feature: Workflows, Targeting Activity
-
+exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
 ---
 # Exclusion{#exclusion}
 

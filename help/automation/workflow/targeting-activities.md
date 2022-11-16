@@ -3,6 +3,7 @@ product: campaign
 title: About targeting activities
 description: About targeting activities
 feature: Workflows, Audiences, Targeting Activity
+exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
 ---
 # Targeting activities in workflows{#about-targeting-activities}
 
@@ -28,4 +29,3 @@ These activities let you build one or more targets by defining sets and splittin
 * **[Subscription Services](subscription-services.md)**: lets manage target subscriptions and unsubscriptions to an information service.
 * **[Union](union.md)**: lets you group the result of several activities into a single target.
 * **[Update data](update-data.md)**: lets you massively update the data in the database.
-

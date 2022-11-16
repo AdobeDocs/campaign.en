@@ -119,7 +119,7 @@ You can customize many different Campaign areas and capabilities. Most of our cu
 
     In addition to built-in reports, Adobe Campaign lets you generate reports in various contexts and to meet different needs. Principles of use and implementation modes are detailed in this document.
 
-    ![](../assets/do-not-localize/glass.png) Learn more about reporting capabilities in Campaign in [this page](reporting.md).
+    ![](../assets/do-not-localize/glass.png) Learn more about reporting capabilities in Campaign in [this page](../reporting/gs-reporting.md).
 
 
 ## Set up campaign automation

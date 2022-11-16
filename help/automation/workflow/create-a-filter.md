@@ -2,9 +2,8 @@
 product: campaign
 title: Create a filter
 description: Learn how to create a filter when performing queries
-feature: Query Editor
-feature: Workflows
-
+feature: Query Editor, Workflows
+exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 ---
 # Create a filter {#creating-a-filter}
 
