@@ -1,6 +1,6 @@
 ---
 title: Manage subscriptions and unsubscriptions in Campaign
-description: Learn how to manage subscriptions and unsubscriptions in Campaign v8
+description: Learn how to manage subscriptions and unsubscriptions in Campaign v8.
 feature: Subscriptions
 role: User
 level: Beginner

@@ -1,6 +1,6 @@
 ---
 title: Connect Campaign with your solutions
-description: learn how to connect Campaign with your solutions
+description: Learn how to connect your Adobe Campaign instance with Experience Cloud solutions. 
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate

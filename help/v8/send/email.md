@@ -1,6 +1,6 @@
 ---
 title: Send emails with Adobe Campaign
-description: Get started with emails in Campaign
+description: Get started with emails in Adobe Campaign. Send personalized emails to a target population.
 feature: Email
 role: User
 level: Beginner
