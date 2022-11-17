@@ -30,10 +30,7 @@ To add a user, follow the steps below:
 
 Learn more about user creation in the Admin Console in [this page](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-When new users log on to Campaign, they are added to the Campaign operators list.
-
-Campaign operators are stored in the **[!UICONTROL Administration > Access management > Operators]** folder of Campaign explorer.
-
+When new users log on to Campaign, they are added to the Campaign operators list in the client console. Campaign operators are stored in the **[!UICONTROL Administration > Access management > Operators]** folder of Campaign explorer.
 
 ## Work with product profiles{#product-profiles}
 
@@ -55,13 +52,37 @@ campaign - test - delivery
 
 You can use default product profiles or create new ones.
 
-### Default product profiles{#ootb-productprofiles}
+### Create a product profile{#create-product-profile}
 
-Adobe Campaign comes with built-in product profiles (or operator groups) which are defined when Adobe enables your environment. 
+To add a new product profile to Adobe, you must first create it in Campaign client console, and then create it in the Admin Console.
+
+For example to create a 'reviewers' product profile, follow the steps below:
+
+1. Connect to Campaign, open the Explorer, and browse to **[!UICONTROL Administration > Access management > Operator groups]**.
+1. Click **[!UICONTROL New]**, and define the name of the operator group and set its internal name.
+    ![](assets/new-op-group.png)
+1. Define the associated permissions by selecting names rights. [Learn more](#named-rights)
+1. Save the new group.
+1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
+1. From the **Product and services** section of the home page, open Campaign product.
+1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [here](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
+
+    ![](assets/new-product-profile-ui.png)
+    
+1. Save your changes.
+
+You can now add users to this new product profile, as explained in [this section](#add-users).
+
+Best practice is to assign product profiles to user groups. Managing permissions by user is not a sustainable model.
+
+
+### Default product profiles and operator groups {#ootb-productprofiles}
+
+Adobe Campaign comes with built-in **product profiles** which are defined when Adobe enables your environment. 
 
 ![](assets/ootb-product-profiles.png)
 
-The default operator groups and their named rights are:
+These product profiles match with Campaign **operator groups**. The default operator groups and their [named rights](#use-named-rights) are listed below:
 
 1. **[!UICONTROL Administrator]** (admin)
 
@@ -139,28 +160,6 @@ The default operator groups and their named rights are:
     Offer manager permission matrix per environment is available in [this page](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
 
-### Create a product profile{#create-product-profile}
-
-To add a new product profile to Adobe, you must first create it in Campaign client console, and then create it in the Admin Console.
-
-For example to create a 'reviewers' product profile, follow the steps below:
-
-1. Connect to Campaign, open the Explorer, and browse to **[!UICONTROL Administration > Access management > Operator groups]**.
-1. Click **[!UICONTROL New]**, and define the name of the operator group and set its internal name.
-    ![](assets/new-op-group.png)
-1. Define the associated permissions by selecting names rights. [Learn more](#named-rights)
-1. Save the new group.
-1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
-1. From the **Product and services** section of the home page, open Campaign product.
-1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [here](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
-
-    ![](assets/new-product-profile-ui.png)
-    
-1. Save your changes.
-
-You can now add users to this new product profile, as explained in [this section](#add-users).
-
-Best practice is to assign product profiles to user groups. Managing permissions by user is not a sustainable model.
 
 ## Work with user groups{#user-groups}
 
@@ -170,7 +169,7 @@ A user group is a collection of different users that have to be given a shared s
 
 You can assign product profiles to user groups. So, all the users in that group to receive the same set of product permissions.
 
-## Named rights{#named-rights}
+## Named rights{#use-named-rights}
 
 Adobe Campaign comes with a set of named rights that let you define the permissions assigned to users and groups of users. These rights can be edited from the **[!UICONTROL Administration > Access management > Named rights]** folder of Campaign explorer.
 
