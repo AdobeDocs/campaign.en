@@ -1,6 +1,6 @@
 ---
 title: Get started with permissions in Campaign v8
-description: Learn how to define permissions in Campaign v8
+description: Learn steps to define permissions in Campaign v8
 feature: Permissions
 role: User, Admin
 level: Beginner
@@ -12,11 +12,9 @@ Adobe Campaign lets you define and manage the rights assigned to users. These ar
 
 * Access to certain functionalities (via the named rights),
 * Access to certain records,
-* Creation, modification and/or deletion of records (actions, contacts, campaigns, groups, etc.).
+* Create, modify and/or delete records (actions, contacts, campaigns, groups, etc.).
 
-The permissions apply to user profiles or groups.
-
-There are two types of permissions you can grant to a user:
+The permissions apply to user profiles or groups. There are two types of permissions you can grant:
 
 * You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Learn how to create and manage groups in  [this section](manage-permissions.md#work-with-product-profiles).
 
@@ -24,7 +22,7 @@ There are two types of permissions you can grant to a user:
 
 In Adobe Campaign, users are **operators** and **operator groups** represent user roles.
 
-An operator is an Adobe Campaign user who has permissions to log in and perform actions. By default, operators are stored in the **[!UICONTROL Administration > Access management > Operators]** node.
+An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are created in the Admin Console. 
 
 As a Campaign v8 user, you connect to Adobe Campaign with your Adobe ID.
 
@@ -63,11 +61,3 @@ Operators are linked to a security zone from its profile in the console, accessi
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe sets the security zones for you. For more information, [contact Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 -->
-
-**Learn more in Campaign Classic v7 documentation**
-
-* [Built-in Named Rights](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target="_blank"}
-
-* [Built-in Operator Groups](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target="_blank"}
-
-* [Steps to set up permissions](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html){target="_blank"}

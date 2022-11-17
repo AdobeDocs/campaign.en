@@ -15,35 +15,15 @@ Two types of operators can use Campaign Interaction: **Offer managers** and **De
 
 ## Create an Offer manager operator{#offer-manager}
 
-1. Create an operator. 
+1. Create an operator. [Learn more](../start/manage-permissions.md#add-users)
+1. Browse to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
 
-   ![](../assets/do-not-localize/book.png) Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
-
-1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
-
-The rights assigned to the Offer manager enable them to carry out the following tasks:
-
-* Modify **[!UICONTROL Design]** environments.
-* View **[!UICONTROL Live]** environments.
-* Configure administration functions (pre-defined spaces and filters).
-* Create and alter categories.
-* Create offers.
-* Configure offer eligibility.
-* Approve offers.
-
-If offers are used in a workflow, the operator must be added to the **[!UICONTROL Administrator]** or **[!UICONTROL Offer managers]** operator group to execute the workflow.
-
-  >[!NOTE]
-  >
-  >**Offer managers** can only approve an offer if no reviewer is specified, or if they have been declared as reviewers in the offer template.
+Permissions associated to Offer managers are described [here](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Create a Delivery manager operator {#delivery-manager}
 
-1. Create an operator.
-  
-   ![](../assets/do-not-localize/book.png) Steps to create an operator in Campaign are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
-
-1. Go to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Delivery manager]** group.
+1. Create an operator. [Learn more](../start/manage-permissions.md#add-users)
+1. Browse to the **[!UICONTROL Groups and named rights]** tab, click **[!UICONTROL Add]** and select the **[!UICONTROL Delivery manager]** group.
 
 The rights assigned to Delivery managers enable them to carry out the following tasks:
 

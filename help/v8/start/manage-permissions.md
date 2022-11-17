@@ -61,11 +61,11 @@ Adobe Campaign comes with built-in product profiles (or operator groups) which a
 
 ![](assets/ootb-product-profiles.png)
 
-The default operator groups are:
+The default operator groups and their named rights are:
 
 1. **[!UICONTROL Administrator]** (admin)
 
-   The operators in this group have full access to the instance. Administrators are users who can access the most technical parts of the interface. They hold the **[!UICONTROL Administration]** role and make sure that the platform is all set up.
+   The operators in this group have full access to the instance. Administrators are users who can access the most technical parts of the user interface.
 
    This group contains the following named right:
 
@@ -95,31 +95,48 @@ The default operator groups are:
 
 1. **[!UICONTROL Content contributors]** (content)
 
-   The operators in this group can access the Content folders, within the framework of **[!UICONTROL Content management]** (optional Adobe Campaign module). This group does not grant any additional rights.
+   Users in this group can access the Content folders, in the context of the **[!UICONTROL Content management]** add-on. This group does not grant any additional permissions.
 
 1. **[!UICONTROL Access to reports]** (report)
 
-   This group is reserved for external operators, to access the delivery reports via a Web access.
+   This group is reserved for external operators, to access the delivery reports via a [Web access](../start/campaign-ui.md#web-browser).
 
 1. **[!UICONTROL Workflow execution]** (workflow)
 
-   This group lets you assign operators the right to manage workflows which are unrelated to campaigns.
+   The **[!UICONTROL Workflow execution]** group lets you control the execution and approval of targeting workflows: the WORKFLOW named right is mapped to this group's operators. It is required for all actions on workflows, in addition to access rights to the data files. By default, the **[!UICONTROL Workflow execution]** group has read-only access to standard targeting workflow files and workflow templates. Operators in this group also have read and write access to the pending approvals file.
 
 1. **[!UICONTROL Workflow supervisors]** (workflowSupervisor)
 
-   The operators in this group receive an email notification in case of alerts concerning campaign workflows.
+   Users in this group manage workflow approvals and receive an email notification in case of alerts concerning campaign workflows.
 
 1. **Local / Central management** (central / local)
 
-   These groups let you use **[!UICONTROL Distributed marketing]** (optional Adobe Campaign module).
+   Users in this group can use **[!UICONTROL Distributed marketing]** add-on.
 
 1. **[!UICONTROL Offer managers]** (offer)
 
-   The operators in this group can create and maintain offers. [Learn more](../interaction/interaction-operators.md).
+   The operators in this group can create and maintain offers when using the Interaction add-on. [Learn more](../interaction/interaction-operators.md).
+
    This group contains the following named rights:
 
     * **[!UICONTROL INSERT FOLDERS]**: Right to insert folders into the Adobe Campaign tree (provided you have editing rights for the concerned branches),
     * **[!UICONTROL EDIT FOLDERS]**: Right to alter folder properties such as internal name, label, associated image, sub folder order, etc.
+
+    Permissions assigned to Offer managers enable them to carry out the following tasks:
+
+    * Modify **[!UICONTROL Design]** environments.
+    * View **[!UICONTROL Live]** environments.
+    * Configure administration functions (pre-defined spaces and filters).
+    * Create and update categories.
+    * Create offers.
+    * Configure offer eligibility.
+    * Approve offers.
+
+    >[!NOTE]
+    >
+    >**Offer managers** can only approve an offer if no reviewer is specified, or if they have been set as reviewers in the offer template.
+
+    Offer manager permission matrix per environment is available in [this page](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
 
 ### Create a product profile{#create-product-profile}
@@ -152,7 +169,6 @@ You can use the Admin Console to create user groups and assign users to them.
 A user group is a collection of different users that have to be given a shared set of permissions. Learn how to create user groups in [this section](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 You can assign product profiles to user groups. So, all the users in that group to receive the same set of product permissions.
-
 
 ## Named rights{#named-rights}
 
@@ -206,10 +222,21 @@ Default named rights in Adobe Campaign are:
 
 * **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables. [Learn more](../../automation/workflow/sql-data-management.md).
 
-* **[!UICONTROL WORKFLOW]**: Right to execute workflows. Without this right, users cannot start, stop or restart workflows.
+* **[!UICONTROL WORKFLOW]**: This named right is specific to workflows: it lets you create, start and stop workflows. Reading rights on the workflow file are required for the named right to be applicable. For targeting workflows, the reading right on the **[!UICONTROL Profiles and Targets]** folder is necessary.
+
 
 * **[!UICONTROL WEBAPP]**: Right to use web applications.
 
 >[!NOTE]
 >
 >This list can differ depending on the add-ons installed on your environment.
+
+
+
+## Additional resources{#additional-res}
+
+* [Manage permissions for workflows](../../automation/workflow/managing-rights.md)
+* [Manage permissions for distributed marketing](../../automation/distributed-marketing/about-distributed-marketing.md#operators)
+* [Manage permissions for the interaction module](../interaction/interaction-operators.md)
+* [Filter access to schemas](../dev/filter-schema.md)
+* [Restrict PI view](../dev/restrict-pi-view.md)
