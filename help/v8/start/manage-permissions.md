@@ -54,15 +54,20 @@ You can use default product profiles or create new ones.
 
 ### Create a product profile{#create-product-profile}
 
-To add a new product profile to Adobe, you must first create it in Campaign client console, and then create it in the Admin Console.
+To add a new product profile to Adobe, you must first create it in Campaign client console, and then add it in the Admin Console.
 
-For example to create a 'reviewers' product profile, follow the steps below:
+For example to create a 'reviewers' product profile, follow the steps below.
+
+#### Create the operator group in Campaign{#create-op-group}
 
 1. Connect to Campaign, open the Explorer, and browse to **[!UICONTROL Administration > Access management > Operator groups]**.
-1. Click **[!UICONTROL New]**, and define the name of the operator group and set its internal name.
+1. Click **[!UICONTROL New]**, and define the name of the operator group and set its internal name ('reviewers').
     ![](assets/new-op-group.png)
-1. Define the associated permissions by selecting names rights. [Learn more](#named-rights)
-1. Save the new group.
+1. Define the associated permissions by selecting named rights. Named rights are detailed in [this section](#use-named-rights)
+1. Save the new operator group.
+
+#### Create the product profile in the Admin Console{#create-profile-in-admin-console}
+
 1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. From the **Product and services** section of the home page, open Campaign product.
 1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [here](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
