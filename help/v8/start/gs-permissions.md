@@ -14,19 +14,18 @@ Adobe Campaign lets you define and manage the rights assigned to users. These ar
 * Access to certain data
 * Create, modify and/or delete records, such as actions, contacts, campaigns, groups, etc.
 
-In Adobe Campaign, users are **operators** and **operator groups** represent user roles. An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are created in the Admin Console. The permissions apply to user profiles or groups of users. There are two types of permissions you can grant:
+In Adobe Campaign, users are **operators** and **operator groups** represent user roles. An operator is an Adobe Campaign user who has permissions to log in and perform actions. Users are created in the Admin Console. The permissions apply to user profiles or groups of users. There are two types of permissions you can grant:
 
 * You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. 
 * You can assign named rights directly to users, in some cases to overload the rights allocated via groups.
 
-
 ## Key steps to grant permissions{#key-steps-permissions}
 
-As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through the Adobe Admin Console and Campaign Client Console. 
+As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through Adobe Admin Console and Campaign client console. 
 
 Key steps are:
 
-* **Step 1**: Define your operator groups and assign them permissions in Campaign client console. 
+* **Step 1**: Define your operator groups and assign them permissions in Campaign client console. [Learn more](manage-permissions.md#create-product-profile).
     Note that you can also use built-in operator groups to start with. These default groups, and their permissions, are listed in [this section](manage-permissions.md#ootb-productprofiles).
 * **Step 2**: Create product profiles in the Admin Console which match with those groups. [Learn more](manage-permissions.md#create-product-profile).
     You can use built-in product profiles to start with. [Learn more](manage-permissions.md#ootb-productprofiles).
