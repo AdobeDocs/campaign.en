@@ -20,6 +20,18 @@ In Adobe Campaign, users are **operators** and **operator groups** represent use
 * You can assign named rights directly to users, in some cases to overload the rights allocated via groups.
 
 
+## Key steps to grant permissions{#key-steps-permissions}
+
+As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through the Adobe Admin Console and Campaign Client Console. 
+
+Key steps are:
+
+* **Step 1**: Define your operator groups and assign them permissions in Campaign client console. 
+    Note that you can also use built-in operator groups to start with. These default groups, and their permissions, are listed in [this section](manage-permissions.md#ootb-productprofiles).
+* **Step 2**: Create product profiles in the Admin Console which match with those groups. [Learn more](manage-permissions.md#create-product-profile).
+    You can use built-in product profiles to start with. [Learn more](manage-permissions.md#ootb-productprofiles).
+* **Step 3**: Create users in the Admin Console, and assign them to a product profile. [Learn more](manage-permissions.md#add-users).
+
 ## About the Admin Console{#gs-admin-console}
 
 The Adobe Admin Console is a central location for managing the Adobe entitlements across your organization. It is accessible to product administrators only.
@@ -41,15 +53,3 @@ Learn how to create and assign product profiles in [this page](manage-permission
 As a member of a product profile (i.e operator group), a user has rights to perform operations, called 'Named Rights', and has read and/or write access to data. An operator can be a member of multiple operator groups: rights and access permissions are additive.
 
 Learn more about named rights in [this section](manage-permissions.md#use-named-rights).
-
-## Key steps to grant permissions{#key-steps-permissions}
-
-As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through the Adobe Admin Console and Campaign Client Console. 
-
-Key steps are:
-
-* Step 1: Define your operator groups and assign them permissions in Campaign client console. 
-    Note that you can also use built-in operator groups to start with. These default groups, and their permissions, are listed in [this section](manage-permissions.md#ootb-productprofiles)
-* Step 2: Create product profiles in the Admin Console which match with those groups. [Learn more](manage-permissions.md#create-product-profile)
-    You can use built-in product profiles to start with. [Learn more](manage-permissions.md#ootb-productprofiles)
-* Step 3: Create users in the Admin Console, and assign them to a product profile. [Learn more](manage-permissions.md#add-users)
