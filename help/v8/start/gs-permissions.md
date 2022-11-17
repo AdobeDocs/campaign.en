@@ -10,23 +10,15 @@ exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 
 Adobe Campaign lets you define and manage the rights assigned to users. These are a set of rights and restrictions that authorize or deny:
 
-* Access to certain functionalities (via the named rights),
-* Access to certain records,
-* Create, modify and/or delete records (actions, contacts, campaigns, groups, etc.).
+* Access to certain functionalities, via the named rights
+* Access to certain data
+* Create, modify and/or delete records, such as actions, contacts, campaigns, groups, etc.
 
-The permissions apply to user profiles or groups. There are two types of permissions you can grant:
+In Adobe Campaign, users are **operators** and **operator groups** represent user roles. An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are created in the Admin Console. The permissions apply to user profiles or groups of users. There are two types of permissions you can grant:
 
-* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Learn how to create and manage groups in  [this section](manage-permissions.md#work-with-product-profiles).
+* You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. 
+* You can assign named rights directly to users, in some cases to overload the rights allocated via groups.
 
-* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this section](manage-permissions.md#named-rights).
-
-In Adobe Campaign, users are **operators** and **operator groups** represent user roles.
-
-An operator is an Adobe Campaign user who has permissions to log in and perform actions. Operators are created in the Admin Console. 
-
-As a Campaign v8 user, you connect to Adobe Campaign with your Adobe ID.
-
-As a product administrator, you can grant permissions to the users of your organization.  Permissions are granted through the Adobe Admin Console and Campaign Client Console. 
 
 ## About the Admin Console{#gs-admin-console}
 
@@ -36,28 +28,28 @@ Use the Admin Console to add users, create and assign product profiles (which ar
 
 Learn how to add users in [this page](manage-permissions.md#add-users).
 
-## Built-in product profiles{#ootb-product-profiles}
+## About product profiles{#ootb-product-profiles}
 
 Product Profiles are groups of products and services that you can assign to users. In Adobe Experience Cloud, permissions are based on a product’s profile, not on the user. However, you can delegate administrative rights to specific users.
 
-In the Admin Console, each Adobe Experience Cloud product profiles for Campaign is associated to an operator group in Campaign UI.
-
+In the Admin Console, each Adobe Experience Cloud **product profile** for Campaign is associated to an **operator group** in Campaign client console.
 
 Learn how to create and assign product profiles in [this page](manage-permissions.md#create-a-product-profile).
 
-## Named rights{#named-rights}
+## Campaign named rights{#named-rights}
 
 As a member of a product profile (i.e operator group), a user has rights to perform operations, called 'Named Rights', and has read and/or write access to data. An operator can be a member of multiple operator groups: rights and access permissions are additive.
 
+Learn more about named rights in [this section](manage-permissions.md#use-named-rights).
 
+## Key steps to grant permissions{#key-steps-permissions}
 
-<!--
-## Security zones
+As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through the Adobe Admin Console and Campaign Client Console. 
 
-Each operator needs to be linked to a zone to log on to an instance and the operator IP must be included in the addresses or address sets defined in the security zone. Security zone configuration is carried out in the configuration file of the Adobe Campaign server.
+Key steps are:
 
-Operators are linked to a security zone from its profile in the console, accessible in the **[!UICONTROL Administration > Access management > Operators]** node.
-
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe sets the security zones for you. For more information, [contact Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
-
--->
+* Step 1: Define your operator groups and assign them permissions in Campaign client console. 
+    Note that you can also use built-in operator groups to start with. These default groups, and their permissions, are listed in [this section](manage-permissions.md#ootb-productprofiles)
+* Step 2: Create product profiles in the Admin Console which match with those groups. [Learn more](manage-permissions.md#create-product-profile)
+    You can use built-in product profiles to start with. [Learn more](manage-permissions.md#ootb-productprofiles)
+* Step 3: Create users in the Admin Console, and assign them to a product profile. [Learn more](manage-permissions.md#add-users)
