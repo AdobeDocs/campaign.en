@@ -11,6 +11,8 @@ level: Beginner
 
 Use permissions on folders to organize and control access to Campaign data.
 
+Folder management is detailed in [this page](../audiences/folders-and-views.md).
+
 To edit permissions on a specific Campaign folder, follow the steps below:
 
 1. Right-click on the folder and select **[!UICONTROL Properties...]**.
