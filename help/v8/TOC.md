@@ -123,6 +123,7 @@ title: Campaign v8 docs
   + Users and permissions {#permissions}
     + [Get started with permissions](start/gs-permissions.md)
     + [Manage permissions](start/manage-permissions.md)
+    + [Folder permissions](start/folder-permissions.md)
   + [Control Panel](config/self-service.md)
 + Architecture and configuration {#config}
   + Architecture {#architecture}
