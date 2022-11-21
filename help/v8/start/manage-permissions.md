@@ -1,11 +1,11 @@
 ---
 title: Grant permissions to Campaign v8
-description: Learn how to grant permissions to Campaign v8
+description: Learn how to grant permissions to Campaign v8 users
 feature: Permissions
 role: User, Admin
 level: Beginner
 ---
-# Manage permissions{#manage-permissions}
+# Manage user permissions{#manage-permissions}
 
 ## Add users {#add-users}
 
