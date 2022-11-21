@@ -164,8 +164,6 @@ These product profiles match with Campaign **operator groups**. The default oper
 
     Offer manager permission matrix per environment is available in [this page](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
-
-
 ## Work with user groups{#user-groups}
 
 You can use the Admin Console to create user groups and assign users to them. 
@@ -184,7 +182,7 @@ Named Rights grant permissions to:
     For example, the **Analyze** button in the Delivery editor is activated for members of the **Delivery Operator** group who have the **Prepare Delivery** Named Right
 
 * Access to folders
-    Membership of Operator Groups can grant or restrict access rights to folders, by changing the security settings on folders. [Learn more](../audiences/folders-and-views.md#restrict-access-to-a-folder). 
+    Membership of Operator Groups can grant or restrict access rights to folders, by changing the security settings on folders. [Learn more](folder-permissions.md#restrict-access-to-a-folder). 
     
     For example it can impact: **Write access** to create new entities (such as deliveries, profiles, etc.), **Read access** to use entities, **Delete access** to delete entities.
 
