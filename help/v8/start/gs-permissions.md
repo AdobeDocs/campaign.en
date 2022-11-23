@@ -23,7 +23,7 @@ In Adobe Campaign, users are **operators** and **operator groups** represent use
 
 ## Key steps to grant permissions{#key-steps-permissions}
 
-As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through Adobe Admin Console and Campaign client console. 
+As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through Adobe Admin Console and Campaign client console. Users log on to Adobe Campaign with their Adobe ID. Learn how to connect to Adobe Campaign in [this page](connect.md).
 
 Key steps are:
 
