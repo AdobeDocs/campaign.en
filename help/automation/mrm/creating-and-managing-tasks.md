@@ -80,7 +80,7 @@ You can select a different operator from the **[!UICONTROL Assigned to]** drop-d
 
 >[!NOTE]
 >
->Operator management is detailed in [this section](../../v8/start/permissions.md).
+>Operator management is detailed in [this section](../../v8/start/gs-permissions.md).
 >
 >Only the operator in charge of a task is allowed to close it.
 

@@ -20,7 +20,8 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 >[!CAUTION]
 >
 >In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
-></br>As a Managed Cloud Services user, this external account is configured for your instance by Adobe. It must not be modified.
+>
+>As a Managed Cloud Services user, external accounts are configured for your instance by Adobe and must not be modified.
 
 ## Campaign-specific external accounts
 
@@ -111,35 +112,37 @@ In the context of transactional messaging, the execution instances is linked to 
 
 * **External database (FDA)**
 
-    Use the **External database** type external account to connect to external an database via FDA. 
+    The **External database** type external account is used to connect to external an database via Federated Data Access (FDA). 
 
     External databases compatible with Adobe Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md)
 
     ![](../assets/do-not-localize/glass.png) Learn more about Federated Data Access (FDA) option in [this section](../connect/fda.md).
 
+* **Twitter**
+
+    The **Twitter** type external account is used to connect Campaign to your twitter account, to post messages on your behalf.
+
+    ![](../assets/do-not-localize/glass.png) Learn more about Twitter integration in [this section](../connect/ac-tw.md).
+
 ## Adobe Solution Integration external accounts
 
 * **Adobe Experience Cloud**
 
-    The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe IMS to connect to the Adobe Campaign console using an Adobe ID.
+    The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe Identity Management Service (IMS) to connect to the Adobe Campaign.
 
     ![](../assets/do-not-localize/glass.png) Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
 
 * **Web Analytics**
 
-    Use the **[!UICONTROL Web Analytics (Adobe Analytics)]** external account to configure data transfer from Adobe Analytics to Adobe Campaign. 
+    The **[!UICONTROL Web Analytics (Adobe Analytics)]** external account is used to configure data transfer from Adobe Analytics to Adobe Campaign. 
 
     ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
 
-    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Analytics with Campaign.
-
-    * **Adobe Experience Manager**
+* **Adobe Experience Manager**
 
     The **[!UICONTROL AEM]** external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
     ![](../assets/do-not-localize/glass.png) Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
-
-    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Adobe Campaign.
 
 
 ## CRM Connector External accounts 
