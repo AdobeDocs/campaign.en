@@ -14,4 +14,5 @@ title: Campaign Technotes
 + Upgrades{#tn-new}
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
+  + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
