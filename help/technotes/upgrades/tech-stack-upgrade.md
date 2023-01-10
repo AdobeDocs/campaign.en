@@ -47,4 +47,4 @@ If your database system for Campaign is PostgreSQL, to benefit from latest Postg
 
 **How to update?**
 
-* As a Managed Cloud Services customer, Adobe will contact you and upgrade your database system from PostgreSQL 11 to PostgreSQL 14.
+As a Managed Cloud Services customer, Adobe will contact you and upgrade your database system from PostgreSQL 11 to PostgreSQL 14.
