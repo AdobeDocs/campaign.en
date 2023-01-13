@@ -97,7 +97,7 @@ For each campaign, the following capabilities are available:
 * Reference documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. [Learn more](marketing-campaign-deliveries.md#manage-associated-documents). 
 * Define costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. [Learn more](providers--stocks-and-budgets.md#defining-cost-categories).
 * Define objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Manage seed addresses and control groups. [Learn more](marketing-campaign-deliveries.md#defining-a-control-group)).
+* Manage seed addresses and control groups. [Learn more](marketing-campaign-deliveries.md#defining-a-control-group).
 * Manage approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. [Learn more](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]

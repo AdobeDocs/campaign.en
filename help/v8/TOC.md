@@ -29,7 +29,7 @@ title: Campaign v8 docs
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
-  + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+  + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
   + Send messages{#send}
     + [Get started with messages](start/create-message.md)
     + [Work with delivery templates](send/create-templates.md)
@@ -161,5 +161,5 @@ title: Campaign v8 docs
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-+ [Campaign Automation Guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign Control Panel >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Campaign Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
