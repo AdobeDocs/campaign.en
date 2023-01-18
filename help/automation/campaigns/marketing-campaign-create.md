@@ -69,7 +69,7 @@ In the campaign creation window, select the campaign template and add a name and
 
 Click **[!UICONTROL OK]** to create the campaign. It is added to the program schedule, and to the list of campaigns.
 
-You can then edit the campaign you have just created and define its parameters. To open and configure this campaign, ypu can:
+You can then edit the campaign you have just created and define its parameters. To open and configure this campaign, you can:
 
 1. Browse the campaign calendar and select the campaign you want to display, then click the **[!UICONTROL Open]** link.
 1. Browse the **[!UICONTROL Schedule]** tab of the program, select the campaign and open it.

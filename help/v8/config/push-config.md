@@ -15,7 +15,7 @@ Android and iOS supported versions, and Campaign SDKs compatible versions for Ca
 
 >[!NOTE]
 >
->As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Declare integration settings {#declaring-integration-settings}
