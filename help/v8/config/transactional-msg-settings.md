@@ -1,9 +1,9 @@
 ---
 title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Transactional Messaging
+role: Admin, Developer
+level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
 # Transactional messaging settings
@@ -12,7 +12,7 @@ exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 
 ![](../assets/do-not-localize/glass.png) Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../architecture/architecture.md).
 
 ## Define permissions
 

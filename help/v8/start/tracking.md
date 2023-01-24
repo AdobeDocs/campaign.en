@@ -1,9 +1,9 @@
 ---
 title: Get started with tracking and monitoring capabilities
 description: Get started with tracking and monitoring capabilities
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Monitoring
+role: User
+level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 ---
 # Track and monitor messages{#gs-ac-reports}
@@ -103,7 +103,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 
 The different tables give you the list of indicators used in the different reports and their calculation formula depending on the delivery type. 
 
-[Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target="_blank"}
+[Learn more](../reporting/metrics-calculation.md)
 
 ## Monitoring guidelines
 
@@ -117,7 +117,7 @@ Learn more about the information you can monitor after sending a delivery, under
 
 ### Monitor your workflows
 
-Learn how to monitor workflow execution in  [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target="_blank"}
+Learn how to monitor workflow execution in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### Monitor your instance
 

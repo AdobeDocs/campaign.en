@@ -10,13 +10,15 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
+* **[[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}** - Learn how to build workflows and campaigns
+
 * **[What is [!DNL Adobe Campaign]](start/get-started.md)** - Key capabilities and use cases
 
 * **[What's new in v8](start/whats-new.md)** - Discover Campaign v8 capabilities
 
 * **[Implementation guidelines](start/implement.md)**  - Learn how to start your implementation
 
-* **[From v7 to v8](start/capability-matrix.md)** - Transitioning from Campaign Classic v7 to v8? Learn key differences
+* **[From v7 to v8](start/v7-to-v8.md)** - Transitioning from Campaign Classic v7 to v8? Learn key differences
 
 * **[Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}** - Perform key administrator tasks on your own with Campaign Control Panel
 
@@ -59,9 +61,9 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## More resources
 
-* [Known limitations](start/known-limitations.md)
-* [Architecture](dev/architecture.md)
-* [Measure and track](start/reporting.md)
+* [Guardrails and limitations](start/ac-guardrails.md)
+* [Architecture](architecture/architecture.md)
+* [Measure and track](reporting/gs-reporting.md)
 * [Connect with other solutions](connect/integration.md)
 * [Campaign v8 FAQ](start/campaign-faq.md)
 * [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}

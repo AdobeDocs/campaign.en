@@ -1,14 +1,16 @@
 ---
 title: Delivery failures in Campaign
 description: Understand possible failures when sending messages with Adobe Campaign
-feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+feature: Profiles, Monitoring
+role: User
+level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 ---
-# Understand delivery failures{#delivery-failures}
+# Understand delivery failures {#delivery-failures}
 
-Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression. This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
+Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression.
+
+This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
 
 If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be quarantined. See [Bounce mail management](#bounce-mail-qualification).
 
@@ -18,36 +20,49 @@ When an email address is quarantined, or if a profile is on denylist, the recipi
 
 ## Why has the message delivery failed {#delivery-failure-reasons}
 
-There are two types of error when a message fails. Each error type determines if an address is sent to [quarantines](quarantines.md#quarantine-reason) or not.
-
+There are two types of error when a message fails. Each delivery failure type determines if an address is sent to [quarantine](quarantines.md#quarantine-reason) or not.
 
 * **Hard bounces**
-  Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine, which means they wouldn’t be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
+  Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine list, which means they wouldn’t be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
   
   Here are some common examples of hard bounces: Address doesn’t exist, Account disabled, Bad syntax, Bad domain
 
-
 * **Soft bounces**
-  Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will retry multiple times (with variance depending on use of custom or out-of-box delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). 
+  Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will [retry](#retries) multiple times (with variance depending on use of custom or out-of-box delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). 
   
   Some common causes of soft bounces include the following: Mailbox full, Receiving email server down, Sender reputation issues
 
-
 The  **Ignored** type of error is known to be temporary, such as "Out of office", or a technical error, for example if the sender type is "postmaster".
 
+The feedback loop operates like bounce emails: when a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. The addresses of these users are denylisted even though they did not click the unsubscription link. Addresses are added to the (**NmsAddress**) quarantine table and not to the (**NmsRecipient**) recipient table with the **[!UICONTROL Denylisted]** status. Learn more about feedback loop mechanism in the [Adobe Deliverability Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
+## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
-### Bounce mail qualification {#bounce-mail-qualification}
+A message delivery can fail immediately, in that case we qualify this as a synchronous error. If message sending fails or later on, after it has been sent, the error is asynchronous.
 
-Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+These types of errors are managed as follows:
 
-![](assets/delivery-log-qualification.png)
+* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message. The delivery is not allowed to be sent to the profile's server. The Mail Transfer Agent (MTA) determines the bounce type and qualifies the error, and sends back that information to Campaign in order to determine whether the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
 
-The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages. Momentum determines the bounce type and qualification, and sends back that information to Campaign.
+* **Asynchronous error**: a bounce mail or a SR is resent later by the receiving server. This error is qualified with a label related to the error. Asynchronous errors can occur up until one week after a delivery has been sent.
 
-**Asynchronous** bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules.
+>[!NOTE]
+>
+>As a Managed Cloud Services user, configuration of the bounce mailbox is performed by Adobe.
 
-The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+## Bounce mail qualification {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+The way bounce mail qualification is handled in Adobe Campaign depends on the error type:
+
+* **Synchronous errors**: The MTA determines the bounce type and qualification, and sends back that information to Campaign. The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages.
+
+* **Asynchronous errors**: Rules used by Campaign to qualify asynchronous delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, refer to [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
 ![](assets/delivery-log-first-txt.png)
 
@@ -67,34 +82,30 @@ Bounce mails can have the following qualification status:
 
 ![](assets/delivery-log-status.png)
 
-
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
 ## Retry management {#retries}
 
-If message delivery fails following a temporary error (**Soft** or **Ignored**), CAmpaign retries sending. These retries can be performed until the end ot the delivery duration. The number and frequency of retries are set up by Momentum, based on the type and severity of the bounce responses coming back from the message's ISP.
+If message delivery fails following a temporary error (**Soft** or **Ignored**), Campaign retries sending. These retries can be performed until the end ot the delivery duration.
 
-The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.
+Soft bounce retries and the length of time between them are determined by the MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
 
-## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
+>[!NOTE]
+>
+>The retry settings in the delivery properties are not used by Campaign.
 
-A message delivery can fail immediately, in that case we qualify this as a synchronous error. If message sending fails or later on, after it has been sent, the error is asynchronous.
+## Validity period
 
-These types of errors are managed as follows:
+The validity period setting in your Campaign deliveries is limited to **3.5 days or less**. For a delivery, if you define a value higher than 3.5 days in Campaign, it will not be taken into account.
 
-* **Synchronous error**: the remote server contacted by the Adobe Campaign delivery server immediately returns an error message, the delivery is not allowed to be sent to the profile's server. Adobe Campaign qualifies each error in order to determine whether the email addresses concerned should be quarantined. See [Bounce mail qualification](#bounce-mail-qualification). 
+For example, if the validity period is set to the default value of 5 days in Campaign, soft-bouncing messages will go into the MTA retry queue and be retried for only up to 3.5 days from when that message reached the MTA. In that case, the value set in Campaign will not be used.
 
-* **Asynchronous error**: a bounce mail or a SR is resent later by the receiving server. This error is qualified with a label related to the error. Asynchronous errors can occur up until one week after a delivery has been sent.
+Once a message has been in the MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
 
-  >[!NOTE]
-  >
-  >As a Managed Services user, configuration of the bounce mailbox is performed by Adobe. 
-
-  The feedback loop operates like bounce emails: when a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. The addresses of these users are on denylist even though they did not click the unsubscription link. Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table. Learn more about feedback loop mechanism in [Adobe Deliverability Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
-
+For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Email error types {#email-error-types}

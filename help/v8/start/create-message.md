@@ -1,8 +1,8 @@
 ---
 title: Get started with messages
 description: Get started with messages
-feature: Overview
-role: Data Engineer
+feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
@@ -28,7 +28,7 @@ Adobe Campaign v8 comes with the following delivery channels:
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
 -->
 
-## Choose how to send your messages 
+## Choose how to send your messages{#gs-send-msg}
 
 Once your message has been created and its content designed and tested, you can choose how you want to send it. Campaign offers a set of capabilities to:
 
@@ -42,13 +42,13 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/deliveries-in-a-campaign.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to send messages in the context of a campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html){target="_blank"}
+   Learn how to send messages in the context of a campaign in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
 
 * Send messages via a [workflow](../config/workflows.md)
 
     ![](assets/send-in-a-wf.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to automate email deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html){target="_blank"}
+   ![](../assets/do-not-localize/glass.png) Learn how to automate email deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
 
 * [Trigger messages](../send/transactional.md) from an event
    ![](../assets/do-not-localize/book.png) [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target="_blank"}
@@ -57,10 +57,10 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/schedule-send.png) 
    
-   ![](../assets/do-not-localize/book.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?){target="_blank"}
+   ![](../assets/do-not-localize/glass.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
 
-## Add personalization
+## Add personalization{#personalization}
 
 Messages delivered by Adobe Campaign can be personalized in various ways. 
 
@@ -73,17 +73,17 @@ You can:
 * Create conditional content. 
    ![](../assets/do-not-localize/book.png) Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}
 
-## Send transactional messages
+## Send transactional messages{#gs-transac-messages}
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../dev/architecture.md#transac-msg-archi)
+![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
 
 ![](../assets/do-not-localize/glass.png) Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
 ![](../assets/do-not-localize/book.png) Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
-## Delivery and tracking logs
+## Delivery and tracking logs{#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 

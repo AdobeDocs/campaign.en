@@ -1,8 +1,8 @@
 ---
 title: Get started with Campaign v8
-description: New to Campaign? Discover how to get started
+description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface. 
 feature: Overview
-role: Data Engineer
+role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 ---
@@ -66,7 +66,7 @@ In addition to powerful, out-of-the box reporting templates, Adobe Campaign lets
 The campaign reporting feature facilitates the creation of dynamic reports. You can use drag-and-drop variables to customize your reports and to analyze the success of your campaigns. Depending on the complexity of your queries and calculations, the data can be aggregated into a list view or accessed in a format that makes it easy to generate marketing analytics reports.
 
 
-![](../assets/do-not-localize/glass.png) Learn more about report and tracking capabilities in [this section](reporting.md).
+![](../assets/do-not-localize/glass.png) Learn more about report and tracking capabilities in [this section](../reporting/gs-reporting.md).
 
 ## Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
 
@@ -78,7 +78,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 Adobe Campaign offers a set of capabilities to help you implement and optimize the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package on your configuration. A detailed product description is available here: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](capability-matrix.md).
+![](../assets/do-not-localize/glass.png) Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](v7-to-v8.md).
 
 **See also**
 

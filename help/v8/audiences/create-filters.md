@@ -2,7 +2,7 @@
 title: Create filters in Adobe Campaign
 description: Learn how to filter your data and save filters in Campaign
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 ---
@@ -319,12 +319,12 @@ Once saved, advanced filters are available when selecting the target population 
 
 To perform advanced filtering capabilities, use functions to define the content of the filter. The Advanced filter editor leverages all capabilities of Campaign query editor.  
 
-Learn how to build advanced queries in Adobe Campaign Classic v7 documentation. For example:
+Learn how to build advanced queries in these end-to-end samples:
 
-* Learn how to target on simple recipient attributes in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target="_blank"}.
-* Learn how to filter on recipients not contacted during the last 7 days in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target="_blank"}.
-* Learn how to recover the list of operators can be filtered by Active accounts in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target="_blank"}.
-* Learn how to build a birthday email audience in  [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target="_blank"}.
+* Learn how to target on simple recipient attributes in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+* Learn how to filter on recipients not contacted during the last 7 days in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
+* Learn how to recover the list of operators can be filtered by Active accounts in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
+* Learn how to build a birthday email audience in  [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
 
 
 ### Advanced parameters for predefined filters {#param-for-data-filters}

@@ -2,7 +2,7 @@
 title: Get started with profiles
 description: Get started with profiles
 feature: Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 ---
@@ -47,5 +47,5 @@ Use Campaign to create web forms and collect and manage profile information easi
 **Related topics**
 
 * [Create audiences](audiences.md)
-* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html){target="_blank"}
-* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html){target="_blank"}
+* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html)
+* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)

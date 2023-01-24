@@ -1,9 +1,9 @@
 ---
 title: Get started with Campaign APIs
 description: Get started with Campaign APIs
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: API
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 ---
 # Get Started with [!DNL Campaign] APIs{#gs-ac-api}
@@ -15,10 +15,10 @@ exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 
 You can use JavaScript APIs to write in Campaign cloud database or read from the database:
 
-* Business-specific APIs that let you act on each object: deliveries, workflows, subscriptions, and so on. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
-* Generic data access APIs for querying the data model data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
+* Business-specific APIs that let you act on each object: deliveries, workflows, subscriptions, and so on. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* Generic data access APIs for querying the data model data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
 
-Campaign v8 works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.
+Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md),  Campaign works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.
 
 >[!CAUTION]
 >
@@ -38,17 +38,6 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 >[!NOTE]
 >You can generate a complete description of your data model. Learn more in [this page](datamodel.md).
 
-## [!DNL Campaign] API staging mechanism
-
-With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
-
-![](../assets/do-not-localize/glass.png) [API staging mechanism is detailed in this page](staging.md)
-
-## New APIs
-
-New APIs are available to manage data synchronization between [!DNL Campaign] local database and Cloud database. A new mechanism has also been introduced to handle API calls at the local database level to avoid latency and increase the overall performance.
-
-![](../assets/do-not-localize/glass.png) [New APIs are detailed in this page](new-apis.md)
 
 **Related topics**
 

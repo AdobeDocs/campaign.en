@@ -1,9 +1,9 @@
 ---
 title: Work with Campaign and Adobe Experience Cloud triggers
 description: Learn how to work with Campaign and Adobe Experience Cloud triggers
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Triggers
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
 ---
 # Work with Campaign and Experience Cloud Triggers

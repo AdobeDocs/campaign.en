@@ -1,9 +1,9 @@
 ---
 title: Work with Campaign and Microsoft Dynamics
 description: Learn how to work with Campaign and Microsoft Dynamics
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Microsoft CRM Integration
+role: Admin, User
+level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 ---
 # Work with Campaign and Microsoft Dynamics 365{#crm-ms-dynamics}
@@ -43,7 +43,7 @@ To get the Application (client) ID, you need to register an App in Azure Active 
 
 Once you save, Microsoft Azure Directory assigns a unique **Application (client) ID** to your app. You will need this ID later on in configuring Dynamics 365 in Adobe Campaign.
 
-Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 
 ### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
@@ -121,7 +121,7 @@ The App user is the user that the application registered above will use. Any cha
 **Step 3**: Create an application user on Dynamics CRM
 
 1. From [Microsoft Azure](https://portal.azure.com), navigate to **Settings > Security > Users**.
-1. Click on drop down, select **Application users**, and click **New**.
+1. Click on drop-down, select **Application users**, and click **New**.
 1. Use the same username as the user created on active directory above.
 1. Assign the **Application ID** for [the application you created earlier](#get-client-id-microsoft).
 1. Click on **Manage Roles** and choose the **System administrator** role to the user.

@@ -1,7 +1,7 @@
 ---
 title: Send an offer with Campaign Interaction
 description: Learn how to send an offer
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
@@ -70,9 +70,7 @@ Several workflow activities allow you to define the way offers are presented:
 
 ### Enrichment {#enrichment}
 
-The **Enrichment** activity lets you add offers or links to offers for delivery recipients.
-
-![](../assets/do-not-localize/book.png) For more on the Enrichment activity, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+The **Enrichment** activity lets you add offers or links to offers for delivery recipients.[Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
 
 For example, you can enrich the data for a recipient query before a delivery.
 
@@ -159,7 +157,7 @@ The delivery automatically stores the ranking and weight of offers. This informa
 
 The **[!UICONTROL Offer engine]** activity also lets you specify a call to the Offer engine prior to the delivery.
 
-![](../assets/do-not-localize/book.png) For more on the **Offer engine** activity, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+For more on the **Offer engine** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
 This activity works on the same principle as the **Enrichment** activity with an engine call, by enriching the inbound population data with an offer calculated by the engine, before a delivery.
 
@@ -182,7 +180,7 @@ After configuring your **Query** activity:
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
 
-![](../assets/do-not-localize/book.png) For more on the **Offer by cell** activity, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+For more on the **Offer by cell** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
 
 To do this, use the following process:
 

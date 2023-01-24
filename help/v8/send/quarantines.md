@@ -1,44 +1,42 @@
 ---
 title: Quarantine management in Campaign
 description: Understand quarantine management in Adobe Campaign
-feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+feature: Profiles, Monitoring
+role: User, Developer
+level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 ---
-# Quarantines {#quarantine-management}
+# Quarantine {#quarantine-management}
 
 Adobe Campaign manages a list of quarantined addresses for online channels (email, SMS, push notification). Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers. Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
-When their address or phone number is quarantined, recipients are excluded from the target during delivery analysis: you will not be able to send marketing messages, including automated workflow emails, to those contacts. If those quarantined addresses are also present in lists, they will be excluded when sending to those lists. An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable for example.
+When their address or phone number is quarantined, recipients are excluded from the target during delivery analysis: you will not be able to send marketing messages, including automated workflow emails, to those contacts. If those quarantined addresses are also present in lists, they will be excluded when sending to those lists. An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable.
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
 **Quarantine** applies only to an **address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#delivery-quarantines) (for a delivery) or in the [quarantine list](#non-deliverable-bounces) (for the entire platform).
 
-On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md).
+On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
 >When recipients report your message as spam or reply to an SMS message with a keyword such as “STOP”, their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
->
-> For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.
->
+
+<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## Why is an email, phone or device sent to quarantine {#quarantine-reason}
 
-Adobe Campaign manages quarantine according to the type of delivery failure and its reason. These are assigned during error messages qualification. Learn more about delivery failure management [in this page](delivery-failures.md).
+Adobe Campaign manages quarantine according to the type of delivery failure and its reason. These are assigned during error messages qualification. Learn more about delivery failure management [on this page](delivery-failures.md).
 
 Two types or errors can be captured:
 
 * **Hard error**: the email address, phone number or device is immediately sent to quarantine.
-* **Soft error**: soft errors increment an error counter, and might quarantine an email, phone number or device token. Campaign performes [retries](delivery-failures.md#retries).: when the error counter reaches the limit threshold, the address, phone number or device token is quarantined. [Learn more](delivery-failures.md#retries).
-
+* **Soft error**: soft errors increment an error counter, and might quarantine an email, phone number or device token. Campaign performs [retries](delivery-failures.md#retries): when the error counter reaches the limit threshold, the address, phone number or device token is quarantined. [Learn more](delivery-failures.md#retries).
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ To view the list of quarantined addresses **for the entire platform**, Campaign 
 
 In addition, the **[!UICONTROL Non-deliverables and bounces]** built-in report, available from the **Reports** section of ths home page, displays information about the addresses in quarantine, the types of error encountered, and a failure breakdown by domain. You can filter data for a specific delivery, or customize this report as needed.
 
-Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html)
+Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Quarantined email address {#quarantined-recipient}
 

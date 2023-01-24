@@ -1,16 +1,16 @@
 ---
 title: Campaign Transactional messaging
 description: Get started with Transactional messaging
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Transactional Messaging
+role: User
+level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 ---
 # Get Started with Transactional messaging{#send-transactional-messages}
 
-Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These messages are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance.
+Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These notifications are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 
@@ -20,13 +20,56 @@ Transactional messages are used to send:
 
 ![](../assets/do-not-localize/glass.png) Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture on [this page](../architecture/architecture.md#transac-msg-archi).
+
+## Transactional messaging operating principle {#transactional-messaging-operating-principle}
+
+The Adobe Campaign Transactional messaging module integrates into an information system which returns events to be changed into personalized transactional messages. These messages can be sent individually or in batches via email, SMS or push notifications.
+
+For example, imagine you are a company with a website where your customers can buy products.
+
+Adobe Campaign allows you to send a notification email to customers who have added products to their cart. When one of them leaves your website without going through with their purchases (external event which triggers a Campaign event), a cart abandonment email is automatically sent to them (transactional message delivery).
+
+The main steps for putting this into place are detailed below:
+
+1. [Create an event type](#create-event-types).
+1. [Create and design the message template](#create-message-template). You must link an event to your message during this step.
+1. [Test the message](#test-message-template).
+1. [Publish the message template](#publish-message-template).
+
+Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}, and the delivery is sent to the targeted recipients.
+
+## Create event types {#create-event-types}
+
+To make sure each event can be changed into a personalized message, you first need to create **event types**.
+
+When [creating a message template](#create-message-template), you will select the type of event that matches the message you want to send.
 
 >[!CAUTION]
 >
->Transactional messaging requires a specific license. Please check your license agreement.
+>You must create event types before being able to use them in message templates.
 
-## Define transactional message templates
+To create event types that will be processed by Adobe Campaign, follow the steps below:
+
+1. Go to the **[!UICONTROL Administration > Platform > Enumerations]** folder of the tree.
+
+1. Select **[!UICONTROL Event type]** from the list.
+
+1. Click **[!UICONTROL Add]** to create an enumeration value. This can be an order confirmation, password change, order delivery change, etc.
+
+   ![](assets/messagecenter_eventtype_enum_001.png)
+
+   >[!CAUTION]
+   >
+   >Each event type must match a value in the **[!UICONTROL Event type]** enumeration.
+
+1. Once the itemized list values have been created, log off and back on to your instance for the creation to be effective.
+
+>[!NOTE]
+>
+>Learn more on itemized lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+
+## Define a transactional message template {#create-message-template}
 
 Each event can trigger a a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target.
 
@@ -44,21 +87,19 @@ To create a message template, follow the steps below:
    ![](assets/messagecenter_create_model_002.png)
 
 1. Change its label if necessary.
-1. Select the type of event that matches the message you want to send.
+1. Select the type of event that matches the message you want to send. Event types destined to be processed by Adobe Campaign must be created beforehand. [Learn more](#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Event types destined to be processed by Adobe Campaign must be created on the control instance by Adobe.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
    >An event type should never be linked to more than one template.
 
-1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body. See [Create the message content](#create-message-content).
+1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body.
 
 ### Create the content{#create-message-content}
 
-The definition of the transactional message content is the same as for all deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. For more on this, refer to [this section](../start/create-message.md).
+The definition of the transactional message content is the same as for all deliveries in Adobe Campaign. For instance, for an email delivery, you can create content in HTML or text format, add attachments or personalize the delivery object. [Learn more](../start/create-message.md).
 
 >[!CAUTION]
 >
@@ -72,7 +113,7 @@ Once you have defined your message content, you can integrate event information 
 ![](assets/messagecenter_create_content.png)
 
 * All the personalization fields are coming from the payload.
-* It is possible to reference one or several personalization blocks in a transactional message. The block content will be added to the delivery content during the publication to the execution instance.
+* It is possible to reference one or several personalization blocks in a transactional message. <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
 To insert personalization tags into the body of an email message, apply the following steps:
 
@@ -85,6 +126,8 @@ To insert personalization tags into the body of an email message, apply the foll
 1. Fill in the tag using the following syntax: **element name**.@**attribute name** as shown below.
 
    ![](assets/messagecenter_create_custo_2.png)
+
+## Test the transactional message template {#test-message-template}
 
 ### Add seed addresses{#add-seeds}
 
@@ -112,11 +155,15 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
 Once the addresses are created, you can access their preview and personalization.
 
+<!--
+
 ### Add personalization data{#personalization-data}
 
 You can add data in the message template to test transactional message personalization. This will allow you to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various desktop, web or mobile clients.
 
-The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed by Message Center. However, the XML structure must be identical to that of the event stored in the execution instance, as shown below. 
+The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed by Message Center.
+
+However, the XML structure must be identical to that of the event stored in the execution instance, as shown below. 
 
 ![](assets/messagecenter_create_custo_4.png)
 
@@ -126,6 +173,7 @@ This information enables you to personalize message content using personalizatio
 1. In the event content, enter the test information in XML format.
 
    ![](assets/messagecenter_create_custo_3.png)
+-->
 
 ### Preview your transactional message{#transactional-message-preview}
 
@@ -145,7 +193,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 
 Sending a proof involves the same process as for any delivery.
 
-![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 
@@ -168,42 +216,43 @@ Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
 ![](assets/messagecenter_send_proof_003.png)
 
-### Publish the template
+## Publish the template {#publish-message-template}
 
-When the message template created on the control instance is complete, you can publish it. This process will also publish it on all execution instances.
+When the message template created<!-- on the control instance--> is complete, you can publish it, which will allow you to send messages linked to real-time and batch events.
 
->[!NOTE]
->
->When publishing transactional message templates, typology rules are also automatically published on the execution instances.
+<!--This process will also publish it on all execution instances.
 
-Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.
+NOTE: When publishing transactional message templates, typology rules are also automatically published on the execution instances.
+
+Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.-->
 
 >[!CAUTION]
 >
 >Whenever you make any changes to a template, make sure you publish it again for these changes to be effective during transactional message delivery.
 
-1. On the control instance, go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
-1. Select the template you want to publish on your execution instances.
+1. Go to the **[!UICONTROL Message Center > Transactional message templates]** folder of the tree.
+1. Select the template you want to publish<!--on your execution instances-->.
 1. Click **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_template.png)
 
-Once publication is complete, both message templates to be applied to batch and real-time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
+Once publication is complete, both message templates to be applied to batch and real-time type events are created in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
 
 ![](assets/messagecenter_deployed_model.png)
 
-Once a template is published, if the corresponding event is triggered, the execution instance will receive the event, link it to the transactional template and send the corresponding transactional message to each recipient.
+Once a template is published, if the corresponding event is triggered, Adobe Campaign<!--execution instance--> will receive the event, link it to the transactional template and send the corresponding transactional message to each recipient.
 
+<!--
 >[!NOTE]
 >
 >If you replace an existing field of the transactional message template, such as the sender address, with an empty value, the corresponding field on the execution instance(s) will not be updated once the transactional message is published again. It will still contain the previous value.
 >
 >However, if you add a non-empty value, the corresponding field will be updated as usual after the next publication.
+-->
 
+## Unpublish a template
 
-### Unpublish a template
-
-Once a message template is published on the execution instances, it can be unpublished.
+Once a message template is published <!--on the execution instances-->, it can be unpublished.
 
 * Indeed, a published template can still be called if the corresponding event is triggered: if you are no longer using a message template, it is recommended to unpublish it. This is to avoid sending an unwanted transactional message by mistake.
 
@@ -213,7 +262,7 @@ Once a message template is published on the execution instances, it can be unpub
 
 To unpublish a transactional message template, follow the steps below.
 
-1. On the control instance, browse to the **[!UICONTROL Message Center > Transactional message templates]** folder.
+1. Browse to the **[!UICONTROL Message Center > Transactional message templates]** folder.
 1. Select the template to unpublish.
 1. Click **[!UICONTROL Unpublish]**.
 1. Click **[!UICONTROL Start]**.
@@ -224,10 +273,10 @@ The transactional message template status changes back from **[!UICONTROL Publis
 
 Once unpublication is complete:
 
-* Both message templates (applied to batch and real-time type events) are deleted from each execution instance.
+* Both message templates (applied to batch and real-time type events) are deleted<!-- from each execution instance-->.
 
     They no longer appear in the **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]** folder.
 
-* Once a template is unpublished, you can delete it from the control instance.
+* Once a template is unpublished, you can delete it<!-- from the control instance-->.
 
     To do so, select it from the list and click the **[!UICONTROL Delete]** button on top right of the screen.

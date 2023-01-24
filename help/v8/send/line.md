@@ -1,7 +1,7 @@
 ---
 title: Send direct LINE messages with Adobe Campaign
 description: Get started with LINE messaging
-feature: Overview
+feature: Line App
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
@@ -13,4 +13,4 @@ LINE is an application for free instant messaging, voice and video calls, availa
 
 ![](../assets/do-not-localize/book.png) Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) Refer to this [end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) in Campaign Classic v7 documentation to create and send your first LINE delivery.
+![](../assets/do-not-localize/book.png) Refer to this [end-to-end sample](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} in Campaign Classic v7 documentation to create and send your first LINE delivery.

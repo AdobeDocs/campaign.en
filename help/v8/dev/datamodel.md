@@ -1,7 +1,7 @@
 ---
 title: Get started with Campaign data model
-description: Get started with Campaign data model
-feature: Overview
+description: Get started with the Campaign data model and leverage data from your sources to benefit your communications and marketing outputs.
+feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
@@ -34,8 +34,8 @@ When starting with Adobe Campaign, you need to assess the default data model to 
 
 You can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#ootb-profiles). If needed, you can extend it with two mechanisms:
 
-* [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
-* [Create a new table](create-schema.md), for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table.
+* [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new "Loyalty" field to the Recipient table.
+* [Create a new table](create-schema.md), for example a "Purchase" table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
 ![](../assets/do-not-localize/glass.png) Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
 
@@ -60,9 +60,9 @@ You can also use a different recipient table to better fit with your business or
 
 ## Campaign tables and Cloud database
 
-For a better understanding of table management in Campaign v8, note that tables are replicated between Campaign and its Snowflake Cloud database.
+For a better understanding of table management in Campaign v8, note that, in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), tables are replicated between Campaign and its Snowflake Cloud database.
 
-![](../assets/do-not-localize/glass.png) Learn more about replication strategy and mechanisms in [this section](../config/replication.md).
+![](../assets/do-not-localize/glass.png) Learn more about replication strategy and mechanisms in [this section](../architecture/replication.md).
 
 **Related topics**
 

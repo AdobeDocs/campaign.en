@@ -1,6 +1,9 @@
 ---
 title: Campaign security best practices
 description: Get started with Campaign security best practices
+feature: Privacy, PI
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 ---
 # Campaign security best practices {#ac-security}
@@ -19,6 +22,30 @@ Privacy configuration and hardening is a key element of security optimization. H
 * Protect the pages that might contain personal information such as mirror pages, web applications, etc.
 
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
+
+
+## Access management
+
+Access management is an important part of security hardening. Here are some of the main best practices:
+
+* Create enough security groups
+* Check that each operator has the appropriate access rights
+* Avoid using the admin operator and avoid having too many operators in the admin group
+
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+
+## Coding guidelines
+
+When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
+
+* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
+
+* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
+
+* **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
+
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
+
 
 ## Personalization
 

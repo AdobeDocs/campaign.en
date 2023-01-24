@@ -1,7 +1,7 @@
 ---
 title: Campaign Interaction Offer catalog
 description: Learn how to create an offer catalog
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8

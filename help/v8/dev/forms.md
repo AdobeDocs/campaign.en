@@ -1,6 +1,9 @@
 ---
 title: Campaign input forms
 description: Learn how to customize input forms
+feature: Web Forms
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 ---
 # Get Started with input forms{#gs-ac-forms}
@@ -78,7 +81,7 @@ The edit control automatically adapts to the corresponding data type and uses th
 
 By default, each field is displayed on a single line and occupies all available space depending on the type of data.
 
-![](../assets/do-not-localize/book.png) All form attributes are listed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html).
+![](../assets/do-not-localize/book.png) All form attributes are listed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Formatting {#formatting}
 

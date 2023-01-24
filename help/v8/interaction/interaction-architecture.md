@@ -1,7 +1,7 @@
 ---
 title: Understand Campaign Interaction architecture
 description: Campaign Interaction Architecture basics
-feature: Overview
+feature: Interaction
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
@@ -37,7 +37,7 @@ As soon as an offer can or must be presented (according to the configurations ca
 
 ## Distributed architecture
 
-To be able to support scalability and provide 24/7 service on the inbound channel, the **Interaction** module is implemented in a distributed architecture. This type of architecture is already used with [Message Center](../dev/architecture.md#transac-msg-archi) and is made up of several instances:
+To be able to support scalability and provide 24/7 service on the inbound channel, the **Interaction** module is implemented in a distributed architecture. This type of architecture is already used with [Message Center](../architecture/architecture.md#transac-msg-archi) and is made up of several instances:
 
 * one or several control instances dedicated to the outbound channel and containing the marketing and environment design base
 * one or several execution instances dedicated to inbound channel

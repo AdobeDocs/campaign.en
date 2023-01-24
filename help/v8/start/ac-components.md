@@ -2,8 +2,8 @@
 title: Understand Campaign processes and components
 description: Understand Campaign processes and components
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
 ---
 # Understand Campaign processes and components {#components-and-processes}
@@ -52,7 +52,7 @@ The reliability of the database is of utmost importance because the majority of 
 
 Campaign logical application layer is easily configurable to meet complex business needs. You can use Campaign as a sigle platform with different applications which combine to create an open and scalable architecture. Each Campaign intance is a collection of processes in the application layer, some of which are shared and some of which are dedicated.
 
-## Campaign Managed Services{#ac-managed-services}
+## Campaign Managed Cloud Services{#ac-managed-services}
 
 Adobe Campaign v8 is deployed as a Managed Service: all components of Adobe Campaign, including the user interface, the execution management engine, and Campaign databases are fully hosted by Adobe, including email execution, mirror pages, tracking server, and externally-facing web components such as unsubscribe page/preference center and landing pages.
 
@@ -70,4 +70,4 @@ The overall communication between Campaign processes are described in the follow
 
 The user connects to the Campaign application server using the HTTP. All the data and information is managed in the Campaign database. If a Campaign developer performs any configuration changes, it is captured in the database. If a marketer creates a new campaign, all the information and data related to this new campaign is also managed in the database. When a marketer executes a campaign, email deliveries are sent to profiles from the Campaign server through the SMTP server. As profiles interact with email deliveries, such as opening the email, that tracking data is sent back to the tracking server.
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign processes](../dev/general-architecture.md#dev-env).
+![](../assets/do-not-localize/glass.png) [Learn more about Campaign processes](../architecture/general-architecture.md#dev-env).

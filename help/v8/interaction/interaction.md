@@ -1,7 +1,7 @@
 ---
 title: Campaign Interaction - Offer management
 description: Get started with Offer management
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
