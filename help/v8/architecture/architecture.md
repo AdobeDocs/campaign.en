@@ -40,13 +40,13 @@ Two deployment models are available:
 
 >[AVAILABILITY]
 >
->This feature is available to customers xxxx.
+>This feature is available to customers with multiple MID instances configurations only.
 
 Depending on your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
 
 To ensure better performances, you can allow deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
 
-To activate this feature, open the routing external account containing the configuration of channels. In the **[!UICONTROL Mid-sourcing]** tab, select **[!UICONTROL Split]** as the **[!UICONTROL Multiple mid-sourcing routing mode]**.
+To activate this feature, open the routing external account containing the configuration of your channels. In the **[!UICONTROL Mid-sourcing]** tab, select **[!UICONTROL Split]** as the **[!UICONTROL Multiple mid-sourcing routing mode]**.
 
 ![](assets/splitted-delivery.png) 
 
