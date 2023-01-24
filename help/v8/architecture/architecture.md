@@ -36,18 +36,23 @@ Two deployment models are available:
 
     Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-
 ### Split delivery execution {#split}
 
-According to your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
+>[AVAILABILITY]
+>
+>This feature is available to customers xxxx.
 
-To ensure better performances, the Routing external account containing the configuration of channels is configured by default with the **Split** option activated.
+Depending on your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
+
+To ensure better performances, you can allow deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
+
+To activate this feature, open the routing external account containing the configuration of channels. In the **[!UICONTROL Mid-sourcing]** tab, select **[!UICONTROL Split]** as the **[!UICONTROL Multiple mid-sourcing routing mode]**.
 
 ![](assets/splitted-delivery.png) 
 
-This option allows deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
-
-As a Managed Cloud Services user, Adobe configure all your routing external accounts for your channels with the Split option enabled. It is highly recommended to keep this option activated to ensure better thoughputs.
+>[!NOTE]
+>
+>By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / [**[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
 ## Message Center architecture{#transac-msg-archi}
 
