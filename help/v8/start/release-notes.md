@@ -15,7 +15,7 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 >[!CAUTION]
 >
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console).
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console). 
 
 _January 27, 2023_
 
