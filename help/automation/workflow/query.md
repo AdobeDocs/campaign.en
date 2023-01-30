@@ -36,15 +36,13 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
 1. Define the populations using the wizard. The fields to be entered can differ according to the type of target. You can preview the targeted population with your current criteria using the **[!UICONTROL Preview]** tab.
 
-   For more on creating and using filters or queries, refer to this  .
-
    ![](assets/query-sample.png)
 
 1. If you have selected **[!UICONTROL Filtering conditions]** at step 1 or using the **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** option, then you will have to manually add filtering criteria later on.
 
    You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](query-grouping-management.md).
 
-   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT. You can then preview the ** .
+   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT.
 
    Save your filter if you wish to re-use it later.
 
@@ -176,8 +174,6 @@ The section below provides best practices to optimize the queries running on Ado
 
 * Beware of functions like `Lower(...)`. When the Lower function is used, the Index is not used.
 * Check queries using the "like" instruction or the "upper" or "lower" instructions carefully. Apply "Upper" on the user input, not on the database field.
-
-  For more on functions, refer to  .
 
 ### Filtering dimensions {#filtering-dimensions}
 

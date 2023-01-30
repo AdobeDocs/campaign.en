@@ -44,4 +44,4 @@ For this configuration, the following information was added to the workflow form
                 </container>
 ```
 
-Input form personalization in Adobe Campaign is reserved for expert users. For more on this, refer to this  .
+Input form personalization in Adobe Campaign is reserved for expert users. 

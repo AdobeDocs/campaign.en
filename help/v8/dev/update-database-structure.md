@@ -7,7 +7,7 @@ exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
 ---
 # Update the database structure{#updating-the-database-structure}
 
-To apply the modifications made to the schemas, launch the Database update wizard. This assistant is accessible via **[!UICONTROL Tools > Advanced > Update database structure]** . It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
+To apply the modifications made to the schemas, launch the Database update wizard. This assistant is accessible via **[!UICONTROL Tools > Advanced > Update database structure]**. It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
 
 ![](assets/schema_update.png)
 

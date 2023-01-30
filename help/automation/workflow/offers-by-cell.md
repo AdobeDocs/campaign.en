@@ -11,7 +11,7 @@ exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
 
 The **[!UICONTROL Offers by cell]** activity lets you distribute the inbound population (from a query for example) into several segments and to specify an offer to present for each of these segments.
 
-This activity can only be used with **Interaction**. For more information, refer to this  .
+This activity can only be used with **Interaction**. Learn more about Offer management in [this section](../../v8/interaction/interaction.md).
 
 To do this:
 

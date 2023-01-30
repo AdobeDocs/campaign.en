@@ -21,7 +21,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 ## Actions toolbar {#actions-toolbar}
 
-The toolbar buttons are detailed in this  . The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+The **[!UICONTROL Actions]** button of the toolbar lets you access to additional execution options on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -47,8 +47,6 @@ The toolbar buttons are detailed in this  . The **[!UICONTROL Actions]** button 
 
   This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.
 
-  The ** .
-
 * **[!UICONTROL Purge history]**
 
   This action lets you purge the workflow history. For more on this, refer to [Purging the logs](monitor-workflow-execution.md#purging-the-logs).
@@ -72,8 +70,6 @@ The toolbar buttons are detailed in this  . The **[!UICONTROL Actions]** button 
 * **[!UICONTROL Save as template]**
 
   This action creates a new workflow template based on the selected workflow. You need to specify the folder where it will be saved (in the **[!UICONTROL Folder]** field).
-
-  The ** .
 
 ## Right-click menu {#right-click-menu}
 
@@ -103,4 +99,3 @@ The following options are available in the right-click menu:
 >
 >You can select a group of activities and apply one of these commands to them.
 
-The right-click menu is also detailed in this  .

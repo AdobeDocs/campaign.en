@@ -7,10 +7,7 @@ feature: Workflows, Deliverability
 
 # Deliverability monitoring (Email Deliverability){#email-deliverability}
 
-
-
-The workflow detailed below is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **Deliverability monitoring (Email Deliverability)** package is installed, this workflow runs nightly. For more on Deliverability monitoring, refer to this  .
-
+The workflow detailed below is installed by default on all instances and lets you initialize the list of bounce mail qualification rules, the list of domains and the list of MXs. Once the **Deliverability monitoring (Email Deliverability)** package is installed, this workflow runs nightly. 
 <table> 
  <tbody> 
   <tr> 
