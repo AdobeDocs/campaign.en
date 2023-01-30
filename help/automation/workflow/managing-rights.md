@@ -15,7 +15,7 @@ Generally speaking, operators acting on workflows need to access the files conta
 
 They must also be mapped to the named rights that coincide with the actions performed by workflows which they will affect (recipient import, file access, fusion, SQL script execution, etc.).
 
-For more on managing operators and permissions, refer to [this section](../../v8/start/permissions.md).
+For more on managing operators and permissions, refer to [this section](../../v8/start/gs-permissions.md).
 
 ## Operator groups {#operator-groups-wf}
 
