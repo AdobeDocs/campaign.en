@@ -150,7 +150,7 @@ Save your campaign template. You can now use it from the **[!UICONTROL Campaign 
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [this page](marketing-campaign-templates.md).
+>Campaign templates and their general configuration are detailed in [this page](../campaigns/marketing-campaign-templates.md).
 
 ## Creating the campaign package {#creating-the-campaign-package}
 
