@@ -26,7 +26,7 @@ You can create other technical workflows in the **[!UICONTROL Administration > P
 
 The activities offered are the same as for targeting workflows. [Learn more](targeting-workflows.md)
 
-The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your license agreement. Built-in packages are detailed in  .
+The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your license agreement. 
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
@@ -49,7 +49,7 @@ Learn how to monitor technical workflows in this [dedicated section](monitor-tec
 |**Collect data for HeatMap service** (collectDataHeatMapService)|Installed by default|This workflow retrieves data required by the HeatMap service.|
 |**Collect privacy requests** (collectPrivacyRequests)|Privacy Data Protection Regulation|This workflow generates the recipient's data stored in Adobe Campaign and makes it available for download in the privacy request's screen.|
 |**Cost calculation** (budgetMgt)|Installed by default|This workflow starts the calculation of expense and cost lines on the budgets, plans, programs, campaigns, deliveries and tasks.|
-|**Database cleanup** (cleanup)|Installed by default|This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default. For more information, refer to  .|
+|**Database cleanup** (cleanup)|Installed by default|This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default.|
 |**Delete blocked LINE users** (deleteBlockedLineUsersV2)|LINE channel|This workflow ensures that the LINE V2 users' data is deleted after they have blocked the LINE official account for 180 days.|
 |**Delete privacy requests data** (deletePrivacyRequestsData)|Privacy Data Protection Regulation|This workflow deletes the recipient's data stored in Adobe Campaign.|
 |**Delivery indicators** (deliveryIndicators)|Mid-sourcing platform|This workflow updates delivery tracking indicators for a delivery. This workflow is triggered every hour by default.|
@@ -67,7 +67,7 @@ Learn how to monitor technical workflows in this [dedicated section](monitor-tec
 |**MessageCenter full aggregate calculation** (agg_messageCenter_full)|Transactional message control (Message Center - Control)|This workflow updates the Full aggregate for the Message center cube. It is triggered every day at 3am by default. This aggregate captures the following dimensions: Channel, Date, Status and Event type. The Message center cube is then used to generate reports based on events. You can learn more about cubes in  |
 |**Mid-sourcing (delivery counters)** (defaultMidSourcingDlv)|Transfer to Mid-sourcing|This workflow collects count information for deliveries on the mid-sourcing server. Count information includes general delivery indicators such as number of deliveries sent, etc. Tracking information such as opens are not included. It is triggered every ten minutes by default.|
 |**Mid-sourcing (delivery logs)** (defaultMidSourcingLog)|Transfer to Mid-sourcing|This workflow collects delivery logs on the mid-sourcing server. It is triggered every hour by default.|
-|**NMAC opt-out management** (mobileAppOptOutMgt)|Mobile App Channel (Push)|This workflow updates notification unsubscriptions on mobile devices. It is triggered every 6 hours between 1am and midnight. For more details, refer to  .|
+|**NMAC opt-out management** (mobileAppOptOutMgt)|Mobile App Channel (Push)|This workflow updates notification unsubscriptions on mobile devices. It is triggered every 6 hours between 1am and midnight.|
 |**Offer notification** (offerMgt)|Installed by default|This workflow deploys approved offers onto the online environment, as well as every category contained in the offer catalog.|
 |**Paused workflows cleanup** (cleanupPausedWorkflows)|Installed by default|This workflow analyzes paused workflows that have severity set to normal and triggers warnings and notifications when they have been paused for too long. After a month, paused technical workflows are stopped unconditionally. By default, it is triggered every Monday at 5 am. For more information, refer to [Handling of paused workflows](monitor-workflow-execution.md#handling-of-paused-workflows).|
 |**Privacy request cleanup** (cleanupPrivacyRequests)|Privacy Data Protection Regulation|This workflow erases the access request files that are older than 90 days.|

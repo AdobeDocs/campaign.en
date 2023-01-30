@@ -72,7 +72,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Update a record
 
-Use the `_update` operation.  .
+Use the `_update` operation. 
 
 Specify this information as XML attributes:
 

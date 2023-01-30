@@ -5,13 +5,9 @@ description: Manage time zones
 feature: Workflows
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
 ---
-# Managing time zones{#managing-time-zones}
-
-
+# Manage time zones{#managing-time-zones}
 
 Adobe Campaign lets you manage time-lags between various countries concerned by the same instance. The applied configuration is configured during instance creation.
-
-For more on configuring time zones in Adobe Campaign, refer to  .
 
 In a workflow, you can adapt activity execution schedules and link a specific time zone to an activity or to the entire workflow. This configuration can be useful when importing the file, or within the framework of delivery scheduling.
 

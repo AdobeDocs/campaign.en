@@ -63,7 +63,7 @@ There are four types of web interfaces available:
 
   >[!NOTE]
   >
-  >The web application used in this example is an example. You must create a specific web app to be able to use a form. Refer to  .
+  >The web application used in this example is an example. You must create a specific web app to be able to use a form.
 
   ![](assets/mkt_distr_7.png)
 
@@ -150,7 +150,7 @@ Save your campaign template. You can now use it from the **[!UICONTROL Campaign 
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in  .
+>Campaign templates and their general configuration are detailed in [this page](../campaigns/marketing-campaign-templates.md).
 
 ## Creating the campaign package {#creating-the-campaign-package}
 
@@ -230,10 +230,6 @@ To order a campaign:
 1. Click **[!UICONTROL Order campaign]** in the notification message, or the corresponding button in Adobe Campaign.
 
    Enter your ID and password to order the campaign. The interface is made up of a set of pages defined in a web application.
-
-   >[!NOTE]
-   >
-   >Web applications are detailed in  .
 
 1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
 

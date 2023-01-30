@@ -12,7 +12,7 @@ This document outlines key recommendations while designing your Adobe Campaign d
 
 Adobe Campaign system is very flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
 
-For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md) .
+For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md).
 
 ![](../assets/do-not-localize/glass.png) Read out [this section](schemas.md) to get started with Campaign schemas. 
 

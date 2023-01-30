@@ -8,9 +8,7 @@ topic-tags: technical-workflows
 
 # Campaign{#campaign}
 
-
-
-The workflows detailed below are installed with the **Campaign** module by default. For more on this module, refer to this  .
+The workflows detailed below are installed with the **Campaign** module by default. 
 
 >[!CAUTION]
 >

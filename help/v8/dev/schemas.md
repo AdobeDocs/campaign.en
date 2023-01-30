@@ -280,4 +280,4 @@ For more on this, refer to [this section](update-database-structure.md).
 
 >[!NOTE]
 >
->When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** .
+>When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]**.

@@ -31,8 +31,6 @@ To create this example, apply the following steps:
 
 1. In the **[!UICONTROL Data to extract]** window, select the **[!UICONTROL Email domain]** and **[!UICONTROL Primary key]** fields. Run a count on the **[!UICONTROL Primary key]** field.
 
-   For more on primary key counts, refer to  .
-
 1. Check the **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** box.
 
    ![](assets/query_editor_nveau_29.png)

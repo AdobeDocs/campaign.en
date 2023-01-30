@@ -21,8 +21,6 @@ In operations, all stages that require approval are based on the same principle.
 
 ![](assets/validation-1-in-op.png)
 
-Approval examples can be found in  .
-
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 
 >[!NOTE]
@@ -31,9 +29,7 @@ An operator can respond in one of two ways: validating using the Web page linked
 
 ## Approvals by email {#sending-emails}
 
-It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond
-
-Operator management is detailed in this  .
+It is possible to receive an approval message containing a link to a Web page via which it is possible to respond. For the targeted operator to receive an approval email, the operator email address must be complete. If this is not the case, the operator must use the console to respond.
 
 Approval emails are sent continuously. The default delivery template is **[!UICONTROL notifyAssignee]**: It is saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder. This scenario can be customized and it is also recommended to make a copy and to change templates for each activity.
 

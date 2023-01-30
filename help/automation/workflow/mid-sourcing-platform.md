@@ -9,7 +9,7 @@ feature: Workflows
 
 
 
-The workflow detailed below is installed with the **Mid-Sourcing platform** module by default. For more on this module, refer to this  .
+The workflow detailed below is installed with the **Mid-Sourcing platform** module by default.
 
 <table> 
  <tbody> 

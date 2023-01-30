@@ -8,14 +8,11 @@ exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 # Distributed Marketing samples{#distributed-marketing-samples}
 
 
-
 ## Create a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
 The **By form** type web interface involves using a **web application**. Depending on its configuration, this web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
 
 >[!NOTE]
->
->APIs are detailed in a dedicated document.  .
 >
 >The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated web application.
 

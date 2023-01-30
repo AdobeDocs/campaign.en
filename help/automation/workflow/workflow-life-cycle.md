@@ -33,6 +33,4 @@ The characters **574 -Ok** displayed above the transition following the **Delive
 
 The workflow is started and is waiting for an operator belonging to the group specified in the **Approval** activity to make a decision. The operators belonging to the group and who have an email address or mobile telephone number are notified.
 
-Operator management is detailed in this  .
-
 For more on how to monitor you workflows, refer to [this section](monitor-workflow-execution.md).

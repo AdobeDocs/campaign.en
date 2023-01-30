@@ -7,15 +7,11 @@ exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 ---
 # Monitor workflow execution {#monitoring-workflow-execution}
 
-
-
 This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](workflow-supervision.md#supervising-workflows).
 
-Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. For more on this, refer to  .
-
-Additional ways of monitoring the different Campaign processes are presented in  .
+Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. Learn more about Audit trail in  [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target="_blank"}.
 
 ## Displaying progress {#displaying-progress}
 
@@ -133,8 +129,6 @@ In this case, the error task is aborted. This mode is particularly suited to wor
 >
 >You can apply this configuration individually for each activity. To do this, edit activity properties and select the error management mode in the **[!UICONTROL Advanced]** tab.
 
-For more on workflows' execution troubleshooting, refer to  .
-
 ## Processing errors {#processing-errors}
 
 Concerning activities, the **[!UICONTROL Process errors]** option displays a specific transition which will be enabled if an error is generated. In this case, the workflow does not go into error mode and execution continues.
@@ -224,9 +218,9 @@ A use case is presented in this section: [Coordinating data updates](coordinate-
 
 ## Database maintenance {#database-maintenance}
 
-Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained. For more about database maintenance, refer to this   .
+Workflows use a lot of work tables that consume space and end up slowing down the entire platform if not maintained.
 
-The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention. Refer to  .
+The **Database cleanup** workflow accessible via the **Administration > Production > Technical workflows** node, lets you delete obsolete data to avoid exponential growth of the database. The workflow is triggered automatically without user intervention.
 
 You can also create specific technical workflows to purge unnecessary data consuming space. Refer to   and this [section](#purging-the-logs).
 
@@ -261,7 +255,7 @@ To do this:
 
 1. Right-click on the folder where you want to add the view.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
-1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is.For more on how to configure views, refer to  .
+1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is. For more on how to configure views, refer to [this page](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
 
