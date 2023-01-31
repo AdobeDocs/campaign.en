@@ -31,9 +31,9 @@ The following operating systems and browser are required to use Campaign Client 
 
 ### Web browser{#web-browsers}
 
-* Microsoft Edge
+* **Microsoft Edge**
 
-* Microsoft Edge WebView2 runtime, latest version. Download it from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
+* **Microsoft Edge WebView2**, latest version. Download it from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM connectors{#CRMconnectors}
 
