@@ -55,7 +55,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 You can use Campaign to send [push notifications](../send/push.md) on the operating systems listed below, using the associated mobile SDK.
 
-* **Android** 12 (starting Campaign v8.3), 9.0, 8.x, 7.x, with Campaign Android SDK build 1.1.1.
+* **Android** 12, 9.0, 8.x, 7.x, with Campaign Android SDK build 1.1.1.
 * **Apple iOS** 9 - 16 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 16 is supported starting Campaign v8.4.
 
 
