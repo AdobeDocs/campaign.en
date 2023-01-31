@@ -1,6 +1,6 @@
 ---
 title: Campaign v8 compatibility matrix
-description: Learn systems and versions compatible with Campaign v8
+description: Discover systems and versions compatible with Campaign v8
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
@@ -20,37 +20,20 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
-### Operating systems
+### Operating systems{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (starting Campaign v8.3), 10, 8
+* **Microsoft Windows** 11, 10, 8
 
 >[!NOTE]
 >
 >Microsoft Windows 10 is recommended for Japanese instances.
 
-### Browser
+### Web browser{#web-browsers}
 
-**Microsoft Edge** 
+* Microsoft Edge
 
-### Microsoft WebView2 runtime
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 runtime
-</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Download from Microsoft Developer website</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* Microsoft Edge WebView2 runtime, latest version. Download it from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM connectors{#CRMconnectors}
 
@@ -76,7 +59,7 @@ You can use Campaign to send [push notifications](../send/push.md) on the operat
 * **Apple iOS** 9 - 16 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 16 is supported starting Campaign v8.4.
 
 
-## Web access
+## Web access{#web-access}
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
