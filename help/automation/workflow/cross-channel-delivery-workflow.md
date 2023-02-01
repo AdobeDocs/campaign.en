@@ -27,7 +27,7 @@ The main implementation steps for this use case are as follows:
 
 To define your target, create a query to identify the recipients.
 
-1. Create a campaign. For more on this, refer to  .
+1. Create a campaign. Learn more in [this page](../campaigns/marketing-campaign-create.md).
 1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. For more on using this activity, refer to [this section](query.md).
 1. Define the recipients who will receive your deliveries. For example, select 'Gold' members as the target dimension.
 1. Add filtering conditions to your query. In this example, select recipients who have an email address and a mobile number.
@@ -43,7 +43,7 @@ To define your target, create a query to identify the recipients.
 
    ![](assets/wkf_cross-channel_1.png)
 
-   For more on integrating an offer into the body of a message, refer to  .
+   For more on integrating an offer into the body of a message, refer to [this page](../../v8/send/email.md).
 
 1. Save your changes.
 1. Right-click the **[!UICONTROL Email delivery]** activity to open it.
@@ -101,11 +101,8 @@ Once your target is identified and your first delivery created, you need to segm
     * Add a **[!UICONTROL Mobile delivery]** activity to send an SMS message to the second subset.
     * Add a **[!UICONTROL List update]** activity to add the corresponding recipients to the database.
 
-1. Double-click the delivery activities in your workflow to edit them. For more on creating an email and an SMS, refer to  .
+1. Double-click the delivery activities in your workflow to edit them. 
 1. Double-click the **[!UICONTROL List update]** activity and select the **[!UICONTROL Generate an outbound transition]** option.
-
-   You can then export the resulting recipients from Adobe Campaign to the Adobe Experience Cloud. For example, you can use the audience in Adobe Target by adding an ** .
-
 1. Click the **Start** button in the action bar to execute the workflow.
 
 The population targeted by the **Query** activity will be segmented to receive an email or an SMS delivery according to the recipients' behaviors. The remaining population will be added to the database using the **[!UICONTROL List update]** activity.

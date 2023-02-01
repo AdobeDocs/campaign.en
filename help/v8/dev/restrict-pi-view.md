@@ -14,7 +14,7 @@ If you need marketing users to be able to access data records but do not want th
 
 ## Implementation {#implementation}
 
-A specific attribute that can be applied to any element or attribute has been added to the schemas, it complements the existing attribute **[!UICONTROL visibleIf]** . This attribute is: **[!UICONTROL accessibleIf]** . When containing an XTK expression related to the current user context, it can leverage **[!UICONTROL HasNamedRight]** or **[!UICONTROL $(login)]** , for instance.
+A specific attribute that can be applied to any element or attribute has been added to the schemas, it complements the existing attribute **[!UICONTROL visibleIf]**. This attribute is: **[!UICONTROL accessibleIf]**. When containing an XTK expression related to the current user context, it can leverage **[!UICONTROL HasNamedRight]** or **[!UICONTROL $(login)]**, for instance.
 
 You can find a sample of a recipient schema extension that shows this usage below:
 
@@ -34,7 +34,7 @@ You can find a sample of a recipient schema extension that shows this usage belo
 The main properties are:
 
 * **[!UICONTROL visibleIf]** : hides the fields from the metadata, hence they cannot be accessed within a schema view, or column selection, or an expression builder. But this does not hide any data, if the field name is manually entered in an expression the value will show up.
-* **[!UICONTROL accessibleIf]** : hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expresion as **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** : hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expresion as **[!UICONTROL accessibleIf]**.
 
 Here are the consequences of using this attribute in Campaign:
 

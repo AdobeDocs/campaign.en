@@ -23,7 +23,7 @@ To do this:
 
 1. Configure the delivery template.
 
-The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this  .
+The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. 
 
 For an example of this activity being used, refer to this [section](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 

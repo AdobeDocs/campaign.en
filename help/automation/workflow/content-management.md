@@ -7,8 +7,6 @@ exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
 ---
 # Content Management{#content-management}
 
-
-
 A **Content management** activity lets you create and manipulate a content and generate files based on this content. This content can then be delivered via a 'Delivery' activity.
 
 >[!CAUTION]
@@ -22,8 +20,6 @@ The properties of the activity are divided into three steps:
 * **Action**: the resulting content can be saved or generated.
 
   ![](assets/content_mgmt_edit.png)
-
-  For more on configuring and using content management in Adobe Campaign, refer to this  .
 
 1. **Content**
 
@@ -92,7 +88,3 @@ Identifier of the content to be used if the **[!UICONTROL Specified in the trans
 * filename
 
   Full name of the generated file if the selected action is **[!UICONTROL Generate]**.
-
-## Examples {#examples}
-
-Examples are provided in this  .

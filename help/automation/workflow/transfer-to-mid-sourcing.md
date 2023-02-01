@@ -7,9 +7,7 @@ feature: Workflows
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}
 
-
-
-The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default. For more on this module, refer to  .
+The workflows detailed below are installed with the **Transfer to Mid-Sourcing** module by default.
 
 <table> 
  <tbody> 

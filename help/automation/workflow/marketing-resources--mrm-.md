@@ -9,9 +9,7 @@ hidefromtoc: yes
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
 
-
-
-The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. For more on this module, refer to this  .
+The workflows detailed below are installed with the **Marketing resources (MRM)** module by default.
 
 <table> 
  <tbody> 

@@ -3,23 +3,15 @@ product: campaign
 title: Task
 description: Learn more about the Task workflow activity
 feature: Workflows
-hide: yes
-hidefromtoc: yes
 
 ---
 # Task{#task}
-
-
-
->[!AVAILABILITY]
->
->:warning: This capability is only available in Campaign Classic v7.  
 
 In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two scenarios: the first if the task is completed and a second if the task is not completed (if it is manually marked as incomplete or if it expires).
 
 ![](assets/mrm_task_in_workflow.png)
 
-How to configure and operate a task is detailed in  .
+
 
 ![](assets/wkf_task_activity.png)
 
