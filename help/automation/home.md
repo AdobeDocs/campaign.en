@@ -20,7 +20,7 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
 >Some screens may differ from your environment.
 
 <table>
-<tr>
+<tr style="border: 0;">
   <td valign="top">
     <div><img src="assets/do-not-localize/workflow.jpeg">
     <b>Workflows</b>
