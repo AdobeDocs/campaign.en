@@ -106,8 +106,16 @@ You can also manually remove an address from the quarantine list. To remove an a
 
     ![](assets/tech-quarantine-status.png) 
 
-* Change its status to **[!UICONTROL Allowlisted]**: in this case, the address remains on the quarantine list, but it will be systematically targeted, even if an error is encountered.
+You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage during which emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient.
 
->[!CAUTION]
->
->If you remove an address from quarantine list, you will start again sending to this address again. This can have severe impacts on your deliverability and IP reputation, which could eventually lead to your IP address or sending domain being blocked. Proceed with extra care when considering removing any address from quarantine. If you need assistance, contact Adobe Support.
+To perform this, create a workflow and add a query on your quarantine table to filter out all impacted recipients so they can be removed from the quarantine list, and included in future Campaign email deliveries. 
+
+Below are the recommended guidelines for this query:
+
+* **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+* **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
+* **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
+* **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM
+
+Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow,. You can also just delete them from the quarantine table.
+
