@@ -41,7 +41,7 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campaign  automation</b>
+    <b>Campaign orchestration</b>
     </div>
     <br>
     <div>
