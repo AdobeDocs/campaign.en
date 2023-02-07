@@ -16,14 +16,13 @@ Adobe Campaign makes it easy for you to get your channels in sync, with a single
 Visit the guides below and learn how to build automation with Adobe Campaign.
 
 >[!NOTE]
->Some screens may differ from your environment. 
 >
-
+>Some screens may differ from your environment.
 
 <table>
-<tr>
+<tr style="border: 0;">
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/workflow.jpeg">
     <b>Workflows</b>
     </div>
     <br>
@@ -41,7 +40,7 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/campaign.jpeg">
     <b>Campaign  automation</b>
     </div>
     <br>
@@ -59,7 +58,7 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/add-on.jpeg">
     <b>Add-ons</b>
     </div>
     <br>
