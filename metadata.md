@@ -5,6 +5,7 @@ solution: Campaign, Campaign v8
 product: adobe campaign
 feature-set: Campaign
 type: Documentation
+git-repo: https://github.com/AdobeDocs/campaign.en
 mini-toc-levels: 2
 index: yes
 ---
