@@ -48,36 +48,36 @@ By default, the external accounts for all channels use an **[!UICONTROL Alternat
 
 To ensure better performances both in terms of speed and scale, you can allow deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
 
-To do this, additional external accounts listed below are created on provisioning for each channel with the **[!UICONTROL Split]** routing mode selected:
+To do this, additional external accounts with the **[!UICONTROL Split]** routing mode are created on provisioning for each channel:
 
-* Split Delivery - Email
-* Split Delivery - SMS
-* Split Delivery - iOS
-* Split Delivery - Android
+* Split Delivery - Email (splitDeliveryEmail)
+* Split Delivery - SMS (splitDeliverySMS)
+* Split Delivery - iOS (splitDeliveryIOS)
+* Split Delivery - Android (splitDeliveryAndroid)
 
 ![](assets/splitted-delivery.png) 
 
 >[!IMPORTANT]
 >
->The Split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels, reach out to Customer Care to have the option enabled on the external accounts.
+>The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out to Customer Care to have the option enabled.
 >
 >By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / [**[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
-In order to make these external accounts as the default external accounts for sending out deliveries across channels, you need to change the routing in the delivery template for all channels to the newly created Split Accounts of SplitEmail, SplitSMS, SplitIOS, SplitAndroid:
+In order to make split external accounts as the default account for sending out deliveries, you need to change the routing provider in your delivery templates. To do this, follow these steps:
 
-1. Access the Delivery templates and open the template for the desired channel.
+1. Navigate to the **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** folder and open the desired delivery template. In this example, we want to edit the email delivery template.
 
     ![](assets/split-default-list.png) 
 
-1. Click the **[!UICONTROL Properties]** button and change the routing provider to the split delivery external account corresponding to your channel.
+1. Click the **[!UICONTROL Properties]** button and change the routing provider to the corresponding split delivery external account.
 
     ![](assets/split-default-delivery.png) 
 
 1. Save your changes. All deliveries sent using the template will now be using the split routing mode by default.
 
-In addition, you can change the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name given to the split account.
+<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
 
-![](assets/split-default-options.png) 
+![](assets/split-default-options.png) -->
 
 ## Message Center architecture{#transac-msg-archi}
 
