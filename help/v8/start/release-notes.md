@@ -11,6 +11,23 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.4.4 {#release-8-4-4}
+
+>[!CAUTION]
+>
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console). 
+
+_March 8, 2023_
+
+**Security enhancement**
+
+* To improve security, Tomcat has been updated from version 8.5.81 to 8.5.85. (NEO-50530)
+
+**Patches**
+
+* Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
+* Fixed an issue during replication which could lead to a web server crash. (NEO-53670)
+
 ## Release 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
