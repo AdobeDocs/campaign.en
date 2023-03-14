@@ -38,7 +38,7 @@ Two deployment models are available:
 
 ### Split delivery execution {#split}
 
->[AVAILABILITY]
+>[!AVAILABILITY]
 >
 >This feature is available to customers with multiple MID instances configurations only.
 
@@ -61,7 +61,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 >
 >The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out to Customer Care to have the option enabled.
 >
->By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / [**[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
+>By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
 In order to make split external accounts as the default account for sending out deliveries, you need to change the routing provider in your delivery templates. To do this, follow these steps:
 
