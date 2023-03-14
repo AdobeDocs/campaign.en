@@ -36,7 +36,7 @@ Two deployment models are available:
 
     Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-### Split delivery execution {#split}
+## Split delivery execution {#split}
 
 >[!AVAILABILITY]
 >
