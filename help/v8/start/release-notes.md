@@ -62,4 +62,6 @@ _January 27, 2023_
 * Fixed an issue cause could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)
 
 
-**Client Console upgrade is mandatory for this release** - Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
+>[!CAUTION]
+>
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
