@@ -13,10 +13,6 @@ This page lists new capabilities, improvements and fixes coming with the **lates
 
 ## Release 8.4.4 {#release-8-4-4}
 
->[!CAUTION]
->
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console). 
-
 _March 8, 2023_
 
 **Security enhancement**
@@ -28,11 +24,14 @@ _March 8, 2023_
 * Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
 * Fixed an issue during replication which could lead to a web server crash. (NEO-53670)
 
-## Release 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#download-ac-console). 
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
+
+
+## Release 8.4.3 {#release-8-4-3}
+
 
 _January 27, 2023_
 
@@ -61,3 +60,6 @@ _January 27, 2023_
 * The management of tracking URLs has been improved in workflows with multiple deliveries to improve performance. (NEO-50894) <!--OKKKK-->
 * Fixed an issue which could cause the replication of schemas that uses Xtkfolder to fail. (NEO-46787) <!--OKKKK-->
 * Fixed an issue cause could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)
+
+
+**Client Console upgrade is mandatory for this release** - Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
