@@ -13,7 +13,7 @@ You can use Campaign SDKs for iOS and Android to facilitate the integration of y
 
 >[!NOTE]
 >
->You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in Adobe Launch. [Learn more in Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. [Learn more in Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 
 Android and iOS supported versions, and Campaign SDKs compatible versions for Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
