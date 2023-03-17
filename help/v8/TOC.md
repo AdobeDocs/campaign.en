@@ -38,6 +38,7 @@ title: Campaign v8 docs
     + [Work with delivery templates](send/create-templates.md)
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
+      + [Link to the mirror page](send/mirror-page.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
     + [Push notifications](send/push.md)

@@ -16,7 +16,7 @@ A template can systematically include:
 * Typologies
 * Sender and reply-to addresses
 * Basic personalization blocks
-* Links to mirror pages and unsubscription links
+* Links to [mirror pages](../send/mirror-page.md) and unsubscription links
 * Content, company logo, or signature
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
@@ -80,7 +80,7 @@ To configure a delivery template from scratch, follow the steps below:
 1. From the **Properties** button, adapt the settings.
 1. In the **General** tab, confirm or change the locations selected in the **Execution folder**, **Folder**, and **Routing** drop-down menus.
 1. Complete the **Email parameters** category with your email subject and targeted population.
-1. Add your **HTML content** to personalize your template, you can display a mirror page link and an unsubscription link.
+1. Add your **HTML content** to personalize your template, you can display a [mirror page link](../send/mirror-page.md) and an unsubscription link.
 1. Select the **Preview** tab. In the **Test personalization** drop-down menu, select **Recipient** to preview your template as the chosen profile.
 1. Click **Save**. Your template is now ready to be used in a delivery.
 
@@ -136,4 +136,4 @@ This video explains how to deploy an ad-hoc email delivery template and it expla
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

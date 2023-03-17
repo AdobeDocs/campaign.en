@@ -63,7 +63,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
    * Add a mirror page
 
-      To allow your recipients to view your delivery content in a web browser, add a link to the mirror page of your message.
+      To allow your recipients to view your delivery content in a web browser, add a link to the[ mirror page](../send/mirror-page.md) of your message.
 
       Place the cursor where you want to insert this link, and click the last icon in the toolbar, then click **[!UICONTROL Include]** and select **[!UICONTROL link to mirror page]**.
 

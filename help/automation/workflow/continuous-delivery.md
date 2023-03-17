@@ -58,4 +58,4 @@ This video shows how to configure a continuous delivery with an incremental quer
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
