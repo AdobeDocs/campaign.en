@@ -11,17 +11,15 @@ exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 
 You can use Campaign SDKs for iOS and Android to facilitate the integration of your mobile application into the Adobe Campaign platform.
 
+Android and iOS supported versions, and Campaign SDKs compatible versions for Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
+
+As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+
 >[!NOTE]
 >
 >You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. [Learn more in Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
-
-Android and iOS supported versions, and Campaign SDKs compatible versions for Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
-
->[!NOTE]
->
->As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
 
 ## Declare integration settings {#declaring-integration-settings}
 
