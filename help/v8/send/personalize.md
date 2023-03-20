@@ -7,49 +7,40 @@ level: Beginner
 ---
 # Personalize content {#personalize-content}
 
-To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. You can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
+To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, personalization capabilities  to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
 
-With Adobe Campaign, display different types of content customized for each recipient using a single [email template](create-templates.md). In your transactional emails, such as purchase confirmation or cart abandonment emails, include product listings information for each individual within a single email template.
-
-You can:
-
-* Insert dynamic personalization fields. [Learn more](personalization-fields.md).
-* Insert predefined personalization blocks. [Learn more](personalization-blocks.md).
-* Create conditional content. [Learn more](conditional-content.md).
-* Personalize the message format. [Learn more](defining-the-email-content.md#message-content).
-* Insert personalized offers in your message content
-
->[!CAUTION]
->
->The following variables are internal variables that can be used for personalization but must not be modified: **delivery**, **message**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposition**.
+Adobe Campaign simplifies personalization: you can display different types of content customized for each recipient using a single [email template](create-templates.md). In your transactional messages, such as purchase confirmation or cart abandonment emails, include product listings information for each individual within a single email template.
 
 
-## Advanced settings
+## Personalization strategies {#personalization-strategy}
 
-### Optimize personalization {#optimize-personalization}
+Use Campaign to create dynamic content and send personalized messages. Personalization capabilities can be combined to improve your messages and create a custom user experience.
 
-You can optimize personalization using a dedicated option: **[!UICONTROL Prepare the personalization data with a workflow]**, available in the **[!UICONTROL Analysis]** tab of the delivery properties. 
+You can personalize the message content by:
 
-During the delivery analysis, this option automatically creates and executes a workflow that stores all of the data linked to the target in a temporary table, including data from tables linked in FDA.
+* Inserting dynamic **personalization fields**
 
-Checking this option can highly improve the delivery analysis performance when a lot of data are being processed, especially if the personalization data come from an external table through FDA. [Learn more](../connect/fda.md).
+    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages. [Learn more](personalization-fields.md).
 
-To use this option, follow the steps below:
+    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
+    
+* Inserting pre-defined **content blocks**
+    
+    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor. [Learn more](personalization-blocks.md).
 
-1. Create a campaign. 
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. 
-1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. 
-1. Go to the **[!UICONTROL Analysis]** tab of the **[!UICONTROL Delivery properties]** and select the **[!UICONTROL Prepare the personalization data with a workflow]** option.
-1. Configure the delivery and start the workflow to launch the analysis.
+* Create **conditional content**
 
-Once the analysis is done, the personalization data are stored in a temporary table through a temporary technical workflow that is created on the fly during the analysis.
+    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditional-content.md).
 
-This workflow is not visible in the Adobe Campaign interface. It is only meant to be a technical means to quickly store and handle personalization data.
-
-Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** and select the **[!UICONTROL Variables]** tab. There you can see the name of the temporary table that you may use to make an SQL call in order to display the IDs that it contains.
+<!--* Add **personalized offers**
+    
+    Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
+-->
 
 
-### Set a timeout for personalization {#timing-out-personalization}
+## Guardrails and recommendations{#perso-guardrails}
+
+### Personalization time out{#perso-timeout}
 
 To improve delivery protection, you can set a time-out period for the personalization phase.
 
@@ -60,3 +51,16 @@ During preview or sending, if the personalization phase exceeds the maximum time
 The default value is 5 seconds.
 
 If you set this option to 0, there will be no time limit for the personalization phase.
+
+
+### Internal  variables{#internal-variables}
+
+The following variables are internal variables that can be used for personalization but must not be modified: **delivery**, **message**, **dataSource**, **targetData**, **provider**, **coupon**, **couponValue**, **proposition**.
+
+
+## Tutorial video {#personalization-video}
+
+Understand the different types of dynamic content and learn how create and apply personalization blocks and conditional statements to a delivery.
+
+
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

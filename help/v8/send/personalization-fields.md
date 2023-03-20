@@ -12,21 +12,13 @@ Use personalization fields to deliver personalized content on a one-to-one basis
 
 A personalization field is a single data field reference used when personalizing a delivery for a specific recipient. The actual data value is inserted during the delivery analysis phase.
 
-## Data sources {#data-sources}
-
-Personalization fields can come from two types of data source, according to the delivery mode selected:
-
-* Adobe Campaign database data source. 
-    This is the most common case, with for example 'recipient personalization fields'. These are all the fields defined in the recipients table, whether standard fields (typically: last name, first name, address, city, date of birth, etc.) or user defined fields.
-* External data source. 
-    These are all the fields defined in the columns of the file presented as input during a delivery using the data found in an external file.
-
+![message personalization sample](assets/perso-name-sample.png)
 
 ## Syntax
 
-A personalization tag always uses the following syntax: **<%=table.field%>**.
+A personalization tag always uses the following syntax: `<%=table.field%>`.
 
-For example, the personalization field with the **<%= recipient.LastName %>** syntax is used to insert the name of the recipient, stored in the recipient table.
+For example, to insert the name of the recipient, stored in the recipient table, the personalization field uses the `<%= recipient.lastName %>` syntax.
 
 >[!CAUTION]
 >
@@ -34,37 +26,37 @@ For example, the personalization field with the **<%= recipient.LastName %>** sy
 
 ## Insert a personalization field {#insert-a-personalization-field}
 
-To insert personalization fields, click the drop-down icon that is accessible from any header, subject, or message body editing field.
+To insert personalization fields, click the drop-down icon that is accessible from any header, subject, or message body field.
 
-![](assets/s_ncs_user_add_custom_field.png)
+![insert a personalization field](assets/perso-field-insert.png)
 
-After the selection of a data source (recipient fields or file field), this insertion takes the form of a command that will be interpreted by Adobe Campaign and replaced by the value of the field for a given recipient. The physical replacement can then be viewed in the **[!UICONTROL Preview]** tab.
+The personalization fields are inserted, and ready to be interpreted by Adobe Campaign: during message preparation, the fields are replaced by their value for a given recipient. 
 
-## Personalization fields example {#personalization-fields-example}
+![personalization fields in an email](assets/perso-fields-in-msg.png)
 
-We create an email in which we will first insert the name of the recipient and then add the profile creation date in the body of the message. To do this:
+This replacement can then be tested in the **[!UICONTROL Preview]** tab. 
 
-1. Create a new delivery or open an existing email type delivery.
-1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
-1. Enter " **[!UICONTROL Special offer for]** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]**.
+<!--Learn more about message preview in [this page]().-->
 
-    ![](assets/s_ncs_user_insert_custom_field.png)
+## Use case: personalize email subject {#personalization-fields-uc}
 
+In the use case below, learn how to personalize an email subject and body with recipient data:
+
+1. Create a new delivery or open an existing email delivery.
+1. Browse to the **[!UICONTROL Subject]** link to edit the subject of the message.
+1. Enter " **Special offer for** " and use the button in the toolbar to insert a personalization field. Select **[!UICONTROL Recipients>Title]**.
 1. Repeat the operation to insert the name of the recipient. Insert spaces between all the personalization fields.
 1. Click **[!UICONTROL OK]** to validate.
 1. Insert the personalization in the message body. To do this, click in the message content and click the field insertion button.
 1. Select **[!UICONTROL Recipient>Other...]**.
-
-   ![](assets/s_ncs_user_insert_custom_field_b.png)
-
 1. Select the field with the information to display and click **[!UICONTROL OK]**.
-
-   ![](assets/s_ncs_user_insert_custom_field_c.png)
-
 1. Click the **[!UICONTROL Preview]** tab to view the personalization result. You must select a recipient to display that recipient's message.
 
-   ![](assets/s_ncs_user_insert_custom_field_d.png)
 
-   >[!NOTE]
-   >
-   >When a delivery is part of a workflow, you can use the data from the temporary workflow table. This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to [this section](../../workflow/using/data-life-cycle.md#target-data).
+
+## Tutorial video {#personalization-field-video}
+
+Learn how to add a personalization field to the subject line and the content of an email delivery in the following video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+

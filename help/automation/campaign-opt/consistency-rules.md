@@ -21,7 +21,7 @@ In the following example, we create a typology rule for a phone loyalty campaign
 
 To design a new capacity rule, follow the steps below:
 
-1. Under the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** node, click **[!UICONTROL New]**.
+1. Under the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** folder, click **[!UICONTROL New]**.
 1. Select a **[!UICONTROL Capacity]** rule type.
 
    ![](assets/campaign_opt_create_capacity_01.png)

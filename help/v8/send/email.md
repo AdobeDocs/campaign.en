@@ -42,7 +42,6 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
 1. **Personalize your message**
 
-
    * Add the first and last names of your recipients
 
       To insert the first and last names of the targeted profiles in the content of the message, place the cursor where you want to insert them, and click the last icon in the toolbar, then click **[!UICONTROL Include]** and select **[!UICONTROL Greetings]**.

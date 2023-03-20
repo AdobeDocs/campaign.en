@@ -53,6 +53,7 @@ title: Campaign v8 docs
     + [Manage subscriptions](start/subscriptions.md)
   + Personalize content {#personalize}
     + [Get started with personalization](send/personalize.md)
+    + [Personalization data](send/personalization-data.md)
     + [Add personalization fields](send/personalization-fields.md)
     + [Use personalization blocks](send/personalization-blocks.md)
     + [Create conditions](send/conditions.md)

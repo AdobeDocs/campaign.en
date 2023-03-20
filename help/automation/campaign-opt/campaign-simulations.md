@@ -191,7 +191,7 @@ The **[!UICONTROL Calculations]** tab lets you define reporting axes on the targ
 >[!NOTE]
 >
 >We recommend defining calculation axes in the simulation templates rather than individually for each simulation.  
->Simulation templates are saved in the **[!UICONTROL Resources > Templates > Simulation templates]** node of the Adobe Campaign tree.
+>Simulation templates are saved in the **[!UICONTROL Resources > Templates > Simulation templates]** folder of Campaign explorer.
 
 **Example:**
 

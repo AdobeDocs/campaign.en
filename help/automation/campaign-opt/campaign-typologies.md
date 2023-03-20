@@ -23,7 +23,7 @@ A typology is a set of verification rules applied on all messages during deliver
 
 A campaign typology can contain several typology rules, but a delivery can only reference one typology.
 
-Built-in typology rules and typologies are available in the **[!UICONTROL Administration > Campaign management > Typology management]** node of Campaign Explorer.
+Built-in typology rules and typologies are available in the **[!UICONTROL Administration > Campaign management > Typology management]** folder of Campaign explorer.
 
 For each typology, the **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
 

@@ -28,7 +28,7 @@ The following steps must be applied to implement budget management using MRM:
 
 To create a budget, follow the steps below:
 
-1. Browse to the **[!UICONTROL Campaign management > Budgets]** node of Campaign explorer.
+1. Browse to the **[!UICONTROL Campaign management > Budgets]** folder of Campaign explorer.
 1. Click the **[!UICONTROL New]** icon, name and save the budget.
 1. Enter the initial amount: indicate the allocated amount in the relevant field. The other amounts are entered automatically. [Learn more](#calculating-amounts).
 1. Define the validity period by entering the start and end dates. This information is indicative only.
