@@ -51,7 +51,7 @@ The target data is purged as the workflow is executed. Only the last work table 
 
 ### Leverage target data {#target-data}
 
-The data stored in the workflow temporary work table is available for personalization tasks. Data can be used in the personalization fields.
+The data stored in the workflow temporary work table is available for personalization tasks. Data can be used in the [personalization fields](../../v8/send/personalization-fields.md).
 
 This lets you use data collected via a list in a delivery for example. To do this, use the following syntax:
 

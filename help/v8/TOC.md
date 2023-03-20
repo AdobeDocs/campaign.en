@@ -51,6 +51,12 @@ title: Campaign v8 docs
       + [Delivery failures](send/delivery-failures.md)
     + [Send time optimization](send/predictive.md)
     + [Manage subscriptions](start/subscriptions.md)
+  + Personalize content {#personalize}
+    + [Get started with personalization](send/personalize.md)
+    + [Personalization data](send/personalization-data.md)
+    + [Add personalization fields](send/personalization-fields.md)
+    + [Use personalization blocks](send/personalization-blocks.md)
+    + [Create conditions](send/conditions.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)

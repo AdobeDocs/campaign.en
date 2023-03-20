@@ -118,7 +118,7 @@ To send direct messages to your followers, follow the steps below:
 
    ![](assets/tw-dm-content.png)
 
-    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [this section](../start/create-message.md#personalization).
+    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [this section](../send/personalize.md).
 
 1. Preview your message
 

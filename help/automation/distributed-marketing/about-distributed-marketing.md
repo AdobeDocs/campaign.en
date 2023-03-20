@@ -97,7 +97,7 @@ Local operators must belong to the **[!UICONTROL Local management]** operator gr
 
 ### Organizational entities {#organizational-entities}
 
-To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** node and click the **[!UICONTROL New]** icon above the list of entities.
+To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** folder and click the **[!UICONTROL New]** icon above the list of entities.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 

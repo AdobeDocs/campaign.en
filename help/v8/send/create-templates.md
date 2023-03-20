@@ -11,11 +11,11 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 
 Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
 
-A template can systematically include:
+A template can include:
 
 * Typologies
 * Sender and reply-to addresses
-* Basic personalization blocks
+* Basic [personalization blocks](../send/personalization-blocks.md)
 * Links to [mirror pages](../send/mirror-page.md) and unsubscription links
 * Content, company logo, or signature
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.

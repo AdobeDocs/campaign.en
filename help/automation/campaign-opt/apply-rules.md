@@ -13,7 +13,7 @@ In order to apply the typology rules you created, you need to associate it to a 
 
 1. Create a campaign typology.
 
-   Typologies are accessed via the **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** node. 
+   Typologies are accessed via the **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** folder of Campaign explorer. 
 
 1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rules to apply with this typology.
 

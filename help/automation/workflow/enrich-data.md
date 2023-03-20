@@ -36,17 +36,17 @@ To set up this use case, we created the following targeting workflow:
 To create the workflow, apply the following steps:
 
 1. Two **[!UICONTROL Query]** activities and one **[!UICONTROL Intersection]** activity are added to target new subscribers who entered last the competition. 
-1. The **[!UICONTROL Enrichment]** activity enables us to add data stored in the **[!UICONTROL Competition results]** table. The **[!UICONTROL Score]** field which our delivery personalization will take place on is added to the work table of the workflow. 
-1. The **[!UICONTROL Split]** type activity enables us to create recipient subsets based on scores.
-1. For each subset, a **[!UICONTROL Delivery]** type activity is added.
+1. The **[!UICONTROL Enrichment]** activity is used to add data stored in the **[!UICONTROL Competition results]** table. The **[!UICONTROL Score]** field which our delivery personalization will happen is added to the work table of the workflow. 
+1. The **[!UICONTROL Split]** type activity is used to create recipient subsets based on scores.
+1. For each subset, a **[!UICONTROL Delivery]** activity is added.
 
 ## Step 1: Targeting {#step-1--targeting}
 
-The first query enables us to target recipients who were added to the database within the last six months.
+The first query is used to target recipients who were added to the database within the last six months.
 
 ![](assets/uc1_enrich_4.png)
 
-The second query enables us to target the recipients who took part in the last competition.
+The second query is used to target the recipients who took part in the last competition.
 
 ![](assets/uc1_enrich_5.png)
 
@@ -54,7 +54,7 @@ An **[!UICONTROL Intersection]** type activity is then added to target the recip
 
 ## Step 2: Enrichment {#step-2--enrichment}
 
-In this example, we want to personalize deliveries according to the **[!UICONTROL Score]** field stored in the **[!UICONTROL Competition results]** table. This table has a 1-n type relationship with the recipients table. The **[!UICONTROL Enrichment]** activity enables us to add data from a table linked to the filtering dimension to the work table of the workflow.
+In this example, learn how to personalize deliveries according to the **[!UICONTROL Score]** field stored in the **[!UICONTROL Competition results]** table. This table has a 1-n type relationship with the recipients table. The **[!UICONTROL Enrichment]** activity is used to add data from a table linked to the filtering dimension to the work table of the workflow.
 
 1. In the editing screen of the enrichment activity, select **[!UICONTROL Add data]**, then **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]**.
 

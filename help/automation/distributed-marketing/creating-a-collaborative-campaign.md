@@ -13,7 +13,7 @@ The central entity creates collaborative campaigns from **Distributed Marketing*
 
 ## Create a collaborative campaign {#creating-a-collaborative-campaign}
 
-To configure a collaborative campaign, click the **[!UICONTROL Campaign management > Campaigns]** node, then the **[!UICONTROL New]** icon.
+To configure a collaborative campaign, click the **[!UICONTROL Campaign management > Campaigns]** folder, then the **[!UICONTROL New]** icon.
 
 >[!NOTE]
 >
