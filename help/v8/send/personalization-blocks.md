@@ -1,12 +1,12 @@
 ---
-title: Personalization blocks
+title: Use personalization blocks
 description: Learn how to use built-in personalization blocks in your message content
 feature: Personalization
 role: User
 level: Beginner
 ---
 
-# Personalization blocks{#personalization-blocks}
+# Use personalization blocks{#personalization-blocks}
 
 Personalization blocks are dynamic content which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
 

@@ -1,12 +1,12 @@
 ---
-title: Personalization fields
+title: Add personalization fields
 description: Learn how to insert personalization data in your message content
 feature: Personalization
 role: User
 level: Beginner
 ---
 
-# Personalization fields{#personalization-fields}
+# Add personalization fields{#personalization-fields}
 
 Use personalization fields to deliver personalized content on a one-to-one basis, based on the rules you set for each recipient.
 
