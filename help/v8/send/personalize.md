@@ -1,11 +1,11 @@
 ---
-title: Personalize content
+title: Get started with personalization
 description: Learn how to personalize message content
 feature: Personalization
 role: User
 level: Beginner
 ---
-# Personalize content {#personalize-content}
+# Get started with personalization {#personalize-content}
 
 To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, personalization capabilities  to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
 

@@ -9,7 +9,9 @@ exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
 
 ## Apply a typology to a delivery {#apply-a-typology-to-a-delivery}
 
-In order to apply the typology rules you created, you need to associate it to a typology and then reference this typology in your delivery. To do this:
+To apply the typology rules you created, associate it to a typology, and then reference this typology in your delivery. 
+
+To do this, follow the steps below:
 
 1. Create a campaign typology.
 
@@ -20,8 +22,8 @@ In order to apply the typology rules you created, you need to associate it to a 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Save the typology: is it added to the list of existing typologies.
-1. Open the delivery you want to apply the rules to.
-1. Open the delivery properties and access the **[!UICONTROL Typology]** tab.
+1. Open the delivery that you want to apply the rules to.
+1. Browse to the delivery properties and open the **[!UICONTROL Typology]** tab.
 1. Select the typology in the drop-down list.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -50,7 +52,7 @@ Then use the query editor to define filtering conditions. In the following examp
 
 Arbitrations are re-executed automatically every night via the database cleansing workflow. However, values can be saved beyond this period.
 
-Indeed, some calculations use values which do not change on a daily basis. It would therefore be irrelevant to re-calculate data every day and overload the database for nothing. For example, if a process enriches the marketing database with customer propensity scores and purchase information on a weekly basis, the data based on these values doesn't need to be re-calculated every day.
+Indeed, some calculations use values which do not change daily. It would therefore be irrelevant to re-calculate data every day and overload the database for nothing. For example, if a process enriches the marketing database with customer propensity scores and purchase information on a weekly basis, the data based on these values doesn't need to be re-calculated every day.
 
 To do this, the **[!UICONTROL Frequency]** field of the **[!UICONTROL General]** tab lets you define a maximum period during which targeting is saved. By default, the value **0** indicates that calculation remain valid until the next execution of daily re-arbitration.
 
@@ -76,7 +78,7 @@ In standard operation mode, the rules are applied in the following sequence:
 1. Pressure rules.
 1. Capacity rules.
 1. Control rules, if they are applied at the end of targeting.
-1. Control rules, if they are applied at the start of personalization. If users rules (filtering / pressure / capacitive) have expired and need recalculating, they will be applied during this step.
+1. Control rules, if they are applied at the start of personalization. If users rules (filtering / pressure / capacitive) have expired and need recalculating, they are applied during this step.
 1. Control rules, if they apply at the end of personalization.
 
 >[!NOTE]
@@ -85,11 +87,11 @@ In standard operation mode, the rules are applied in the following sequence:
 
 You can adapt the execution sequence of rules which have the same type using the appropriate field in the **[!UICONTROL General]** tab of the rule. When several rules are executed during the same message processing phase, you can configure their execution sequence in the **[!UICONTROL Execution sequence]** field.
 
-For example, a pressure rule with an execution order of 20 will be executed before a pressure rule with an execution order of 30.
+For example, a pressure rule with an execution order of 20 is executed before a pressure rule with an execution order of 30.
 
 ### Control rules {#control-rules}
 
-For **[!UICONTROL Control]** rules, you can decide at which point of the delivery life cycle the rule will be applied (before or after targeting, at the start of personalization, at the end of the analysis). Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
+For **[!UICONTROL Control]** rules, you can decide at which point of the delivery life cycle the rule is applied:  before or after targeting, at the start of personalization, at the end of the analysis. Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
