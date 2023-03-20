@@ -26,7 +26,7 @@ In Adobe Campaign, you can insert a link to the mirror page in the email content
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+For more on custom content blocks insertion, refer to [Personalization blocks](personalization-blocks.md).
 
 ## Mirror page generation{#mirror-page-generation}
 

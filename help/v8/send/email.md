@@ -52,6 +52,8 @@ In the following sample, you will learn steps to design an email delivery in Ado
    
       ![](assets/perso-check.png)
 
+      Learn more about personalization options in [this section](personalize.md).
+
    * Insert a tracked link
 
       To take delivery recipients to an external address via an image or a text, select it and click the **[!UICONTROL Add a link]** icon in the toolbar.
