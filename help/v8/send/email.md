@@ -87,9 +87,7 @@ Learn more in these sections of **Campaign Classic v7 documentation**:
 
 ## Test and validate your emails
 
-Campaign offers several ways to test and validate your emails before sending them to your audiences.
-
-![](../assets/do-not-localize/book.png) [Apply best practices listed in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target="_blank"}
+Campaign offers several ways to test and validate your emails before sending them to your audiences. Learn how to preview and test your email content in [this page](../send/preview-and-proof.md).
 
 You can:
 
@@ -97,6 +95,5 @@ You can:
 * Send proofs
 * Add seed addresses
 * Use control groups
-* Check email rendering
 
 ![](../assets/do-not-localize/book.png) [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
