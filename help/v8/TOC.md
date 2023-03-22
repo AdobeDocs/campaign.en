@@ -58,7 +58,7 @@ title: Campaign v8 docs
       + [Use personalization blocks](send/personalization-blocks.md)
       + [Create conditions](send/conditions.md)
     + Validate your delivery {#validate}
-      + [Preview and email proofs](send/preview-and-proof.md)
+      + [Preview and proofs](send/preview-and-proof.md)
       + [Delivery analysis](send/delivery-analysis.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
