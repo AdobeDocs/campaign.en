@@ -60,7 +60,16 @@ Note the following specificities and recommendations:
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**Learn more in Campaign Classic v7 documentation**
+**Learn more**
+
+In these sections:
+
+* [Use email delivery templates](../send/create-templates.md)
+
+* [Understand delivery failures](../send/delivery-failures.md)
+
+
+And  in Campaign Classic v7 documentation:
 
 * [Select email format](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target="_blank"}
 
@@ -68,6 +77,3 @@ Note the following specificities and recommendations:
 
 * [Set the bounce email address](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target="_blank"}
 
-* [Use email delivery templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
-
-* [Understand delivery failures](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}
