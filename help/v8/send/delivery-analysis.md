@@ -9,7 +9,7 @@ level: Beginner
 
 The analysis is the delivery preparation step. It can be started once your target audience is defined, and the message content is ready and tested. During delivery analysis, the target population is calculated and the delivery content is prepared. Once it is complete, the delivery is ready to be sent.
 
-### Start the analysis {#start-the-analysis}
+## Start the analysis {#start-the-analysis}
 
 To prepare the the delivery, make sure the delivery content and target have been defined, and follow the steps below:
 
@@ -59,7 +59,7 @@ When the analysis finishes, the upper section of the window indicates if the del
 1. After checking the result of the analysis,  click **[!UICONTROL Confirm delivery]** to send the message to the main target. 
 
 
-### Analysis settings {#analysis-settings}
+## Analysis settings {#analysis-settings}
 
 Browse to the **[!UICONTROL Analysis]** tab of the delivery properties to define settings for the message preparation during the analysis phase.
 
