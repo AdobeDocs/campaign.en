@@ -8,9 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 ---
 # Design and send emails
 
-Email deliveries let you send personalized emails to the target population. 
-
-![](../assets/do-not-localize/book.png) Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target="_blank"}
+Email deliveries let you send personalized emails to the target population. [Learn more](../send/send.md).
 
 ## Create your first email delivery
 
@@ -73,17 +71,12 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
 Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
-Learn more in these sections of **Campaign Classic v7 documentation**:
+Learn more in the following sections:
 
-* Design an email in Campaign
-   ![](../assets/do-not-localize/book.png) [Learn how to design an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target="_blank"}
-* Create and use an email template
-   ![](../assets/do-not-localize/book.png) [Learn more about email templates](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}
-* Select the audience of your email
-   ![](../assets/do-not-localize/book.png) [Learn how to define the target population](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
-* Validate a delivery and send proofs
-   ![](../assets/do-not-localize/book.png) [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
-* Add [seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+* [Design an email in Campaign](../send/email.md)
+* [Create and use an email template](../send/create-templates.md)
+* [Select the audience of your email](../audiences/gs-audiences.md)
+* [Validate a delivery and send proofs](../send/preview-and-proof.md)
 
 ## Test and validate your emails
 
@@ -94,6 +87,5 @@ You can:
 * Check delivery analysis logs
 * Send proofs
 * Add seed addresses
-* Use control groups
 
-![](../assets/do-not-localize/book.png) [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+[Learn more](../send/delivery-analysis.md)

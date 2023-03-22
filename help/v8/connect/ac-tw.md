@@ -108,7 +108,7 @@ They are stopped by default: you must start them manualy when you start using th
 
 The **[!UICONTROL Synchronization of Twitter accounts]** technical workflow synchronizes Twitter accounts in Adobe Campaign. This workflow recovers the list of Twitter followers so that you can send them direct messages. [Learn more](../send/twitter.md#direct-tw-messages)
 
-By default, this workflow is triggered every Thursday at 7:30AM. You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration.  You can also edit the scheduler to change the workflow triggering frequency. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
+By default, this workflow is triggered every Thursday at 7:30AM. You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration.  You can also edit the scheduler to change the workflow triggering frequency. Learn more in [this page](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >

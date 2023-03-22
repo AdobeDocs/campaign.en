@@ -30,9 +30,8 @@ Access management is an important part of security hardening. Here are some of t
 
 * Create enough security groups
 * Check that each operator has the appropriate access rights
-* Avoid using the admin operator and avoid having too many operators in the admin group
 
-![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+Learn more about permissions in [this section](../start/gs-permissions.md)
 
 ## Coding guidelines
 
@@ -126,9 +125,8 @@ Access management is an important part of security hardening. Here are some of t
 
 * Create enough security groups
 * Check that each operator has the appropriate access rights
-* Avoid using the admin operator and avoid having too many operators in the admin group
 
-![](../assets/do-not-localize/book.png) Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
+Learn more about permissions in [in this section](../start/gs-permissions.md).
 
 ## Coding guidelines
 

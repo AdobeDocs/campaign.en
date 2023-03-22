@@ -16,17 +16,10 @@ Campaign helps you add contacts to the Cloud database. You can load a file, sche
 
 ## Import profiles in a workflow
 
-Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html){target="_blank"}.
+Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [this section](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png) 
 
-Learn more in Campaign Classic v7 documentation:
-
-* [Get started with imports and exports](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html){target="_blank"}
-
-* [Import and export best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html){target="_blank"}
-
-* [Configure and execute an import](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html){target="_blank"}
 
 ## Run unitary imports
 
@@ -47,5 +40,5 @@ Use Campaign to create web forms and collect and manage profile information easi
 **Related topics**
 
 * [Create audiences](audiences.md)
-* [Deduplicate profiles](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html)
-* [Enrich profile data](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [Deduplicate profiles](../../automation/workflow/deduplication-merge.md)
+* [Enrich profile data](../../automation/workflow/enrich-data.md)
