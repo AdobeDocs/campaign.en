@@ -41,13 +41,13 @@ To prepare the the delivery, make sure the delivery content and target have been
    >
    >When running, the analysis freezes the delivery (or proof). Any change to the delivery (or proof) must be followed by another analysis before becoming applicable.
 
-When the analysis finishes, the upper section of the window indicates if the delivery preparation is complete or if any errors occurred. All the validation steps, warnings and errors are listed. Colored icons show the message type:
+    When the analysis finishes, the upper section of the window indicates if the delivery preparation is complete or if any errors occurred. All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* A blue icon indicates an informative message.
-* A yellow icon indicates a non-critical processing error.
-* A red icon indicates a critical error that prevents sending the delivery.
+    * A blue icon indicates an informative message.
+    * A yellow icon indicates a non-critical processing error.
+    * A red icon indicates a critical error that prevents sending the delivery.
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
 1. Click **[!UICONTROL Close]** to correct the errors if any. After making the changes, restart the analysis clicking **[!UICONTROL Analyze]**.
 
