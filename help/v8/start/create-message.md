@@ -36,7 +36,7 @@ Once your message has been created and its content designed and tested, you can 
 
     ![](assets/send-email.png) 
 
-   ![](../assets/do-not-localize/book.png) Learn how to send messages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
+   Learn how to send messages in [this section](../send/send.md)
 
 * Send messages associated to a [marketing campaign](campaigns.md)
 
@@ -48,30 +48,26 @@ Once your message has been created and its content designed and tested, you can 
 
     ![](assets/send-in-a-wf.png) 
 
-   ![](../assets/do-not-localize/glass.png) Learn how to automate email deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
+   Learn how to automate email deliveries in [this page](../../automation/workflow/delivery.md)
 
 * [Trigger messages](../send/transactional.md) from an event
-   ![](../assets/do-not-localize/book.png) [Use case: learn how to send a transactional email with an attachment](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target="_blank"}
 
 * Schedule your messages
 
    ![](assets/schedule-send.png) 
    
-   ![](../assets/do-not-localize/glass.png) [Use case: learn how schedule and send a birthday email](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+   [Use case: learn how schedule and send a birthday email](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## Add personalization{#personalization}
 
-Messages delivered by Adobe Campaign can be personalized in various ways. 
+Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../send/personalize.md)
 
 You can:
 
-* Insert dynamic personalization fields. 
-   ![](../assets/do-not-localize/book.png) Learn how to use personalization fields in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html){target="_blank"}
-* Insert pre-defined personalization blocks. 
-   ![](../assets/do-not-localize/book.png) Learn what is a personalization block and how to use it in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html){target="_blank"}
-* Create conditional content. 
-   ![](../assets/do-not-localize/book.png) Learn how to insert conditional content in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html){target="_blank"}
+* Insert dynamic personalization fields. [Learn more](../send/personalization-fields.md)
+* Insert pre-defined personalization blocks. [Learn more](../send/personalization-blocks.md)
+* Create conditional content. [Learn more](../send/conditions.md)
 
 ## Send transactional messages{#gs-transac-messages}
 
@@ -89,11 +85,3 @@ Monitoring your deliveries after they have been sent is a key step to ensure you
 
 ![](../assets/do-not-localize/book.png) Learn how to monitor your deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"}
 
-
-**Related topics** in Campaign Classic v7 documentation:
-
-* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html){target="_blank"}
-
-* [Test and send an email](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target="_blank"}
-
-* [Send proofs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}

@@ -9,16 +9,9 @@ exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 
 # Send and monitor your emails
 
-When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
-
-![](../assets/do-not-localize/book.png) [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target="_blank"}
+When the delivery is configured and ready to be sent, make sure you have run the delivery analysis. [Learn more](delivery-analysis.md)
 
 Once done, confirm the delivery to launch the delivery of messages.
-
-You can also: 
-
-* schedule the delivery to later by using [the postpone the delivery option](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target="_blank"},
-* send into several batches using [multiple waves](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 Track the execution of the delivery from the **Delivery** tab, accessible via the detail of this delivery or via the list of deliveries.
 
@@ -53,7 +46,7 @@ The MTA qualifies the SMTP bounce and sends that qualification back to Campaign 
 
 >[!NOTE]
 >
->Currently **asynchronous** bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, refer to [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>Currently **asynchronous** bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. 
 
 Learn more on delivery failures in [this section](delivery-failures.md).
 
