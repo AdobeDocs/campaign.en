@@ -31,7 +31,7 @@ Access management is an important part of security hardening. Here are some of t
 * Create enough security groups
 * Check that each operator has the appropriate access rights
 
-Learn more about permissions in [this section](../start/permissions.md)
+Learn more about permissions in [this section](../start/gs-permissions.md)
 
 ## Coding guidelines
 
@@ -126,7 +126,7 @@ Access management is an important part of security hardening. Here are some of t
 * Create enough security groups
 * Check that each operator has the appropriate access rights
 
-Learn more about permissions in [in this section](../start/permissions.md).
+Learn more about permissions in [in this section](../start/gs-permissions.md).
 
 ## Coding guidelines
 
