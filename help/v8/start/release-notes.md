@@ -11,6 +11,23 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
 
+## Release 8.4.5 {#release-8-4-5}
+
+_April 3, 2023_
+
+**Patches**
+
+* Fixed an issue which could lead to a duplicate key constraint error if several approval workflows were set to the same schedule. (NEO-48968)
+* Fixed a regression issue introduced by NEO-54474 (8.4.4) which led the style attribute of the body tag to be changed when uploading an image in the Digital Content Editor (DCE). (NEO-57697) 
+* Fixed an issue which could lead to an error when exporting data using a CRM connector if the temporary table had a primary key defined as long instead of uuid. (NEO-54153)
+* Fixed a regression issue introduced in 8.4.1 which could lead to errors in package export, FDA over HTTP and reporting. (NEO-57731)
+* Fixed a regression issue introduced in 8.3.8 which could prevent the delivery status from being correctly updated for deliveries with negative IDs. (NEO-54675)
+* Fixed an issue with boolean fields when importing data using the Big Query connector (NEO-49181)
+
+>[!CAUTION]
+>
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
+
 ## Release 8.4.4 {#release-8-4-4}
 
 _March 8, 2023_
