@@ -71,7 +71,7 @@ To create an app for iOS devices, follow these steps:
 
    Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
 
-   If you are using Campaign SDK, learn more in[this page](integrating-campaign-sdk-into-the-mobile-application.md). 
+   If you are using Campaign SDK, learn more in[this page](../config/push-config.md). 
    
    
    If you are using Adobe Experience Platform SDK (Data Collection), learn more in [this page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
@@ -114,7 +114,7 @@ To create an app for Android devices, follow these steps:
 
    Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
 
-   If you are using Campaign SDK, learn more in [this page](integrating-campaign-sdk-into-the-mobile-application.md). 
+   If you are using Campaign SDK, learn more in [this page](../config/push-config.md). 
    
    If you are using Adobe Experience Platform SDK (Data Collection), learn more in [this page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
    
