@@ -28,7 +28,7 @@ Learn how to integrate Campaign Android and iOS SDKs with your app in [this page
 
 Before sending push notifications, you must define your iOS and Android apps settings in Adobe Campaign.
 
-Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android app(s) to send on iOS and Android devices.
+Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android apps to send on iOS and Android devices.
 
 To create a service to send push notifications, follow the steps below:
 
@@ -69,7 +69,7 @@ To create an app for iOS devices, follow these steps:
 
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
 
-   Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
+   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
 
    If you are using Campaign SDK, learn more in[this page](../config/push-config.md). 
    
@@ -112,7 +112,7 @@ To create an app for Android devices, follow these steps:
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
 
-   Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
+   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
 
    If you are using Campaign SDK, learn more in [this page](../config/push-config.md). 
    
