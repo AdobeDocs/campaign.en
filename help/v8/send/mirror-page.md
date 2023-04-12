@@ -4,6 +4,7 @@ description: Learn how to add and manage the link to the mirror page
 feature: Email
 role: User
 level: Beginner
+exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
 ---
 # Link to the mirror page{#mirror-page}
 
@@ -58,4 +59,3 @@ To access this mirror page:
     ![](assets/mirror-page-display.png){width="800" align="left"}
 
     The mirror page displays in a dedicated screen, with personalization data for the selected recipient.
-

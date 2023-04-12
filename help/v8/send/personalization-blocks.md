@@ -4,8 +4,8 @@ description: Learn how to use built-in personalization blocks in your message co
 feature: Personalization
 role: User
 level: Beginner
+exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 ---
-
 # Use personalization blocks{#personalization-blocks}
 
 Personalization blocks are dynamic content which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
@@ -74,5 +74,3 @@ Once saved, the new personalization block is available in the delivery editor.
 Learn how to create dynamic content blocks and how to use them to personalize the content of your email delivery in the following video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
-
-
