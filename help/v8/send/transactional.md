@@ -18,9 +18,9 @@ Transactional messages are used to send:
 * an individual real-time response to a customer action
 * non-promotional content
 
-![](../assets/do-not-localize/glass.png) Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
+Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture on [this page](../architecture/architecture.md#transac-msg-archi).
+Understand transactional messaging architecture on [this page](../architecture/architecture.md#transac-msg-archi).
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
