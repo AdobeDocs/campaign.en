@@ -51,7 +51,7 @@ title: Campaign v8 docs
       + Event management {#event}
        + [Collect and process events](send/event-processing.md)
        + [Understand event description](send/event-description.md)
-       + [Send messages](send/delivery-execution.md)
+      + [Send and monitor messages](send/delivery-execution.md)
     + Failures, bounces and quarantines{#failures}
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)

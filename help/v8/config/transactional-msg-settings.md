@@ -8,11 +8,11 @@ exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
 # Transactional messaging settings
 
+Transactional messaging (Message Center) is a Campaign module designed for managing triggered messages. Learn more about Transactional messaging in [this section](../send/transactional.md).
+
+Understand transactional messaging architecture in [this page](../architecture/architecture.md#transac-msg-archi).
+
 ![](../assets/do-not-localize/speech.png) As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
-
-![](../assets/do-not-localize/glass.png) Transactional messaging capabilities are detailed in [this section](../send/transactional.md).
-
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture in [this page](../architecture/architecture.md#transac-msg-archi).
 
 ## Define permissions
 
@@ -20,15 +20,11 @@ To create new users for Message Center execution instances hosted on Adobe Cloud
 
 ## Schema extensions 
 
-All schema extensions made on the schemas used by **Message Center technical workflows** on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
-
-![](../assets/do-not-localize/book.png) Learn more about Message center technical workflows in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+All schema extensions made on the schemas used by [Message Center technical workflows](#technical-workflows) on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 
 ## Send transactional push notifications
 
-When combined with Mobile app channel module, transactional messaging enables you to push transactional messages through notifications on mobile devices.
-
-![](../assets/do-not-localize/book.png) The Mobile app channel is detailed in [this section](../send/push.md).
+When combined with [Mobile app channel module](../send/push.md), transactional messaging enables you to push transactional messages through notifications on mobile devices.
 
 To send transactional push notifications, you need to perform the following configurations:
 
@@ -40,14 +36,14 @@ To send transactional push notifications, you need to perform the following conf
 
 1. Replicate the **Mobile application** service and the associated mobile applications on the execution instances.
 
-In order for Campaign to send transactional push notifications, the event must contain the following elements:
+In addition, the event must contain the following elements:
 
-* The mobile device ID: **registrationId** for Android and **deviceToken** for iOS. This ID represents the "address" that the notification will be sent to.
+* The mobile device ID: **registrationId** for Android and **deviceToken** for iOS. This ID represents the "address" that the notification is sent to.
 * The link to the mobile application or integration key (**uuid**) which lets you retrieve connection information specific to the application.
 * The channel to which the notification will be sent (**wishedChannel**): 41 for iOS and 42 for Android.
-* Other data to leverage for personalization.
+* Any other personalization data.
 
-Here is an example of an event that contains this information:
+Below is an example of an event configuration to send transactional push notifications:
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -70,14 +66,7 @@ Here is an example of an event that contains this information:
 </SOAP-ENV:Envelope>
 ```
 
-## Monitor thresholds {#monitor-thresholds}
 
-You can configure the warning thresholds (orange) and alert thresholds (red) of the indicators that appear in the **Message Center service level** and **Message Center processing time** reports.
-
-To do this, follow the steps below:
-
-1. Open the deployment wizard on the **execution instance**, and browse to the **[!UICONTROL Message Center]** page.
-1. Use the arrows to change the thresholds.
 
 
 ## Purge events {#purge-events}
