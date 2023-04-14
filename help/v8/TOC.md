@@ -45,7 +45,13 @@ title: Campaign v8 docs
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
-    + [Transactional messages](send/transactional.md)
+    + Transactional messages {#real-time}
+      + [Get started with transactional messages](send/transactional.md)
+      + [Create and publish your template](send/transactional-template.md)
+      + Event management {#event}
+       + [Collect and process events](send/event-processing.md)
+       + [Understand event description](send/event-description.md)
+       + [Send messages](send/delivery-execution.md)
     + Failures, bounces and quarantines{#failures}
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
