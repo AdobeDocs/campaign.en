@@ -4,6 +4,7 @@ description: Learn how to create and publish your template for Transactional mes
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
+exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 ---
 # Create and publish your template for Transactional messaging{#template-transactional-messages}
 
