@@ -6,6 +6,7 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 ---
+
 # Configure your external accounts
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
@@ -28,73 +29,53 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 The following technical accounts are used by Adobe Campaign to enable and execute specific processes.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe configure all Campaign-specific external accounts for you.
-
 ### Bounce mails {#bounce-mails-external-account}
 
 >[!NOTE]
 >
->The Microsoft Exchange Online OAuth 2.0 authentication for POP3 capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>The Microsoft Exchange Online OAuth 2.0 authentication for POP3 capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
 
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
+Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
 
 ![](assets/bounce_external_1.png)
 
 To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external account:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL of the POP3 server.
 
-  URL of the POP3 server.
+* **[!UICONTROL Port]** - POP3 connection port number. The default port is 110.
 
-* **[!UICONTROL Port]**
+* **[!UICONTROL Account]** -  Name of the user.
 
-  POP3 connection port number. The default port is 110.
+* **[!UICONTROL Password]** - User account password.
 
-* **[!UICONTROL Account]**
-
-  Name of the user.
-
-* **[!UICONTROL Password]**
-
-  User account password.
-
-* **[!UICONTROL Encryption]**
-
-  Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
+* **[!UICONTROL Encryption]** - Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
+    
     The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-* **[!UICONTROL Function]**
-
-    Inbound email or SOAP router
+* **[!UICONTROL Function]** - Inbound email or SOAP router
 
 ![](assets/bounce_external_2.png)
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >Before configuring your POP3 external account using Microsoft OAuth 2.0, you first need to register your application in the Azure portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 >
 
 To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL Microsoft OAuth 2.0]** option and fill in the following fields:
 
-* **[!UICONTROL Azure tenant]**
+* **[!UICONTROL Azure tenant]** - Azure ID (or Directory (tenant) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
 
-    Azure ID (or Directory (tenant) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+* **[!UICONTROL Azure Client ID]** - Client ID (or Application (client) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
 
-* **[!UICONTROL Azure Client ID]**
+* **[!UICONTROL Azure Client secret]** - Client secret ID can be found in the **Client secrets** column from the **Certificates & secrets** menu of your application in the Azure portal.
 
-    Client ID (or Application (client) ID) can be found in the **Essentials** drop-down of your application overview in the Azure portal.
+* **[!UICONTROL Azure Redirect URL]** - Redirect URL can be found in the **Authentication** menu of your application in the Azure portal. It should end with the following syntax `nl/jsp/oauth.jsp`, e.g. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-* **[!UICONTROL Azure Client secret]**:
-
-    Client secret ID can be found in the **Client secrets** column from the **Certificates & secrets** menu of your application in the Azure portal.
-
-* **[!UICONTROL Azure Redirect URL]**:
-
-    Redirect URL can be found in the **Authentication** menu of your application in the Azure portal. It should end with the following syntax `nl/jsp/oauth.jsp`, e.g. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
-
-After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
+  After entering your different credentials, you can click **[!UICONTROL Setup the connection]** to finish your external account configuration.
 
 ### Routing {#routing}
 
@@ -103,12 +84,11 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 >[!CAUTION]
 >
 >The **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) external account **must not** be enabled in Adobe Campaign v8.
+>
 
 ### Execution instance {#execution-instance}
 
-In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance.
-
-![](../assets/do-not-localize/glass.png) Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
+In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
 
 ## Access to External Systems external accounts 
 
@@ -135,18 +115,15 @@ In the context of transactional messaging, the execution instances is linked to 
 
 ## Transfer Data external accounts
 
-These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about File transfer in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about **File transfer** in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 
-* **FTP and SFTP**
-
-    The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
+* **FTP and SFTP** - The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
+    
     To do so, specify in this external account the address and credentials used to establish the connection to the SFTP or FTP server.
 
-* **Amazon Simple Storage Service (S3)**
+* **Amazon Simple Storage Service (S3)** - The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
 
-    The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
-
-    * **[!UICONTROL AWS S3 Account Server]**: URL of your server, filled as follows:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+    * **[!UICONTROL AWS S3 Account Server]**: URL of your server, filled as follows:   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
     * **[!UICONTROL AWS access key ID]**: Learn how to find your AWS access key ID in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
@@ -156,9 +133,7 @@ These external accounts can be used to import or export data to Adobe Campaign u
 
     * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode. Learn how to find the access key ID and secret access key in [Amazon documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-* **Azure Blob Storage**
-
-    The **Azure** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. To configure the **Azure** external account to work with Adobe Campaign, you need to provide the following details:
+* **Azure Blob Storage** - The **Azure** external account can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. To configure the **Azure** external account to work with Adobe Campaign, you need to provide the following details:
 
     * **[!UICONTROL Server]**:  URL of your Azure Blob storage server.
 
