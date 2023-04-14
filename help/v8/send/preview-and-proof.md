@@ -4,6 +4,7 @@ description: Learn how to validate your delivery before sending
 feature: Personalization
 role: User
 level: Beginner
+exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 ---
 # Preview and test your email {#preview-test}
 

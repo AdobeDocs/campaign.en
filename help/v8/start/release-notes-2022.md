@@ -4,6 +4,7 @@ description: List of features and improvemens coming with 2022 Campaign v8 relea
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
+exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 ---
 # 2022 release notes{#2022-rn}
 

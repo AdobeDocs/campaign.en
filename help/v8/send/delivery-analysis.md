@@ -1,9 +1,10 @@
 ---
 title: Delivery analysis
-description: Learn how to prepare and check your delivery 
+description: Learn how to prepare and check your delivery
 feature: Personalization
 role: User
 level: Beginner
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
 ---
 # Delivery analysis {#analyze-delivery}
 
@@ -84,5 +85,3 @@ This tab gives access to the following options:
 * **[!UICONTROL Start job in a detached process]** : this option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
 * **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the `<%=` tag.
-
-

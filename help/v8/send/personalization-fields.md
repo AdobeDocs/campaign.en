@@ -4,8 +4,8 @@ description: Learn how to insert personalization data in your message content
 feature: Personalization
 role: User
 level: Beginner
+exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 ---
-
 # Add personalization fields{#personalization-fields}
 
 Use personalization fields to deliver personalized content on a one-to-one basis, based on the rules you set for each recipient.
@@ -59,4 +59,3 @@ In the use case below, learn how to personalize an email subject and body with r
 Learn how to add a personalization field to the subject line and the content of an email delivery in the following video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
-

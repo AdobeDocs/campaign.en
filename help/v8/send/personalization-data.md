@@ -4,8 +4,8 @@ description: Learn what sources can be used for personalization
 feature: Personalization
 role: User
 level: Beginner
+exl-id: 711256e2-ab77-404a-b052-6793a85da193
 ---
-
 # Personalization data sources{#personalization-data}
 
 Personalization data can be retrieved from various types of sources: Campaign database data source, External file data source, or External database data source.
@@ -65,7 +65,3 @@ Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** an
 When a delivery is created in the context of a workflow, you can use the data from the temporary workflow table. The data stored in the workflow temporary work table is available for personalization tasks. Data can be used in the personalization fields.
 
 This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to  [this section](../../automation/workflow/use-workflow-data.md#target-data).
-
-
-
-

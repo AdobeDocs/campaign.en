@@ -1,11 +1,11 @@
 ---
 title: Conditional content
-description: Learn how to create conditional content 
+description: Learn how to create conditional content
 feature: Personalization
 role: User
 level: Beginner
+exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
 ---
-
 # Create conditional content{#conditional-content}
 
 By configuring conditional content fields, you can create advanced personalization. Complete text blocks and/or images are replaced when a particular condition is satisfied.
@@ -81,4 +81,3 @@ In the example below, learn how to create a multilingual email. Content displays
 Learn how to add conditional content to a delivery on the example of a multilingual newsletter.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
-
