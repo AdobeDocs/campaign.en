@@ -18,11 +18,12 @@ To send push notifications in Adobe Campaign, you need to:
 
 ## Integrate the SDK {#push-sdk}
 
-You can use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+To send push notifications with Adobe Campaign, you must configure the Adobe Campaign extension in the Data Collection UI of the Adobe Experience Platform Mobile SDK.
 
-You can also integrate Campaign SDK to facilitate the integration of your mobile application into the Adobe Campaign platform. Compatible SDK versions are listed in [Campaign Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
+The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. 
 
-Learn how to integrate Campaign Android and iOS SDKs with your app in [this page](../config/push-config.md)
+[Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+
 
 ## Configure your app settings in Campaign{#push-config}
 
@@ -69,12 +70,9 @@ To create an app for iOS devices, follow these steps:
 
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
 
-   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
-
-   If you are using Campaign SDK, learn more in[this page](../config/push-config.md). 
+   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK.    
    
-   
-   If you are using Adobe Experience Platform SDK (Data Collection), learn more in [this page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Learn more in [the Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
    
 
     >[!NOTE]
@@ -113,10 +111,8 @@ To create an app for Android devices, follow these steps:
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
 
    Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
-
-   If you are using Campaign SDK, learn more in [this page](../config/push-config.md). 
    
-   If you are using Adobe Experience Platform SDK (Data Collection), learn more in [this page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Learn more in [the Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
    
 
     >[!NOTE]
