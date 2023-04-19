@@ -4,8 +4,8 @@ description: Learn how transactional messaging events are managed in Adobe Campa
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
+exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
 ---
-
 # Understand event description {#about-event-desc}
 
 ## Transactional messaging data model {#about-mc-datamodel}
@@ -220,4 +220,3 @@ However, if the event fails to be processed, the method returns an error message
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-

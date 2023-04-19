@@ -4,8 +4,8 @@ description: Learn how to send and monitor transactional messages
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
+exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 ---
-
 # Send and monitor transactional messages {#delivery-execution}
 
 ## Send messages{#send-transactional-msg}
@@ -104,4 +104,3 @@ To do this, follow the steps below:
 1. Use the arrows to change the thresholds.
 
     ![](assets/mc-thresholds.png)
-
