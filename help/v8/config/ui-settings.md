@@ -83,7 +83,7 @@ You can also convert an existing enumeration value into an alias. To perform thi
     ![Create a new alias](assets/define-new-alias.png)
 
 
->[!CAUTION]
+>[!NOTE]
 >
 >You can track the occurrences of an alias in the **[!UICONTROL Hits]** column in the **[!UICONTROL Alias]** sub-tab. It can display the number of times this value was entered.  [Learn more](#calculate-entry-occurrences).
 
