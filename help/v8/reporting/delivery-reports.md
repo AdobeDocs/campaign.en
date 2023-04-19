@@ -77,7 +77,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 >
 >The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
 >
->Learn how to access and configure your enumerations in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Learn how to access and configure your enumerations in [this page](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**

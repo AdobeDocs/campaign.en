@@ -31,8 +31,7 @@ For each enumeration, values are displayed in a drop-down list from which the us
 
 For **Open** enumerations, the user can also enter the first characters in the value, and possible values are displayed.
 
-Learn how to access and configure your enumerations in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
-
+Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
 
 ## Default units {#default-units}
 

@@ -161,10 +161,11 @@ title: Campaign v8 docs
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
     + [Datamodel best practices](dev/datamodel-best-practices.md)
-  + Configuration {#configuration}
+  + Settings and configuration {#configuration}
+    + [User interface settings](config/ui-settings.md)
     + [Email settings](config/email-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
-    + [Integrate Campaign SDKs with your app](config/push-config.md)
+    + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
   + [Campaign datamodel](dev/datamodel.md)
