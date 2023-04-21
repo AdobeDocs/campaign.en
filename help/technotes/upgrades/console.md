@@ -47,11 +47,11 @@ Make sure your computer processor supports the installation of a 64-bit operatin
 
 **WINDOWS 10 AND WINDOWS 8.1**
 
-1. Select the Start button, then select **Settings** > **System** > **About**.
-1. At the right, under **Device specifications**, see **System type**.
+1. Click the **Start** button, then select **Settings** > **System** > **About**.
+1. Under **Device specifications**, see **System type**.
 
 **WINDOWS 7**
-1. Select the **Start** button, right-click **Computer**, and then select **Properties**.
+1. Select the **Start** button, right-click **Computer** and select **Properties**.
 1. Under **System**, see the system type.
 
 For more information, see [32-bit and 64-bit Windows: Frequently asked questions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
