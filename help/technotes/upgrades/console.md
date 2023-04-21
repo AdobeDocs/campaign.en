@@ -7,11 +7,7 @@ hidefromtoc: yes
 ---
 # End of support on 32-bit operating systems | Adobe Campaign v8 {#console-eol}
 
-<!--
-The 32-bit version of Campaign v8 Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits.
--->
-
-Starting 8.5 release, Campaign v8 will no longer support 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
+The 32-bit version of the Client Console will be deprecated in 8.5 release. Starting 8.6 release, Campaign v8 will no longer support 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
 
 ## End of support
 
