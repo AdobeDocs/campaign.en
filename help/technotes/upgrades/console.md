@@ -4,6 +4,7 @@ title: Client console 32-bit deprecation
 description: Client console 32-bit deprecation
 hide: yes
 hidefromtoc: yes
+exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
 ---
 # End of support on 32-bit operating systems | Adobe Campaign v8 {#console-eol}
 
