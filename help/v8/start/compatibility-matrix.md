@@ -20,6 +20,10 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
+>[!NOTE]
+>
+>Please note that the 32-bit version of the Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+
 ### Operating systems{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
