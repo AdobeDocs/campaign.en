@@ -21,7 +21,7 @@ To take advantage of the latest features and improved security, Adobe recommends
 
 +++Is the 64-bit version of Campaign v8 Client Console compatible with 32-bit computers?
 
-No. The 64-bit version of Campaign v8 Client Console only supports 64-bit computers only.
+No. The 64-bit version of Campaign v8 Client Console supports 64-bit computers only.
 
 +++
 
@@ -33,13 +33,15 @@ Yes. Starting 8.6 release, Campaign v8 Client Console will no longer be availabl
 
 +++What versions of Campaign v8 will no longer support 32-bit operating systems?
 
-Starting 8.5, all Campaign v8 releases will no longer support 32-bit operating systems.
+Starting 8.6, all Campaign v8 releases will no longer support 32-bit operating systems.
 
 +++
 
 +++How do I upgrade from Windows (32-bit) to Windows (64-bit) operating system?
 
 Make sure your computer processor supports the installation of a 64-bit operating system. Upgrading from the 32-bit version to the 64-bit version of Windows requires you to reformat your hard disk, install the 64-bit version of Windows, and then reinstall everything else you had on your device. For more information, see [32-bit and 64-bit Windows: Frequently asked questions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+
++++
 
 +++ How do I check if I am on a 32-bit computer or 64-bit?
 
