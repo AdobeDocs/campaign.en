@@ -5,11 +5,207 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
 ---
 # Campaign user interface settings {#ui-settings}
 
-## Enumerations {#enumerations}
+## Default units {#default-units}
+
+In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following **units**:
+
+* **[!UICONTROL s]** for seconds
+* **[!UICONTROL mn]** for minutes
+* **[!UICONTROL h]** for hours
+* **[!UICONTROL d]** for days
+
+## Customize lists{#customize-lists}
+
+In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
+
+In addition, you can create and save filters.  Learn more about filters in [this page](../audiences/create-filters.md).
+
+### Number of records {#number-of-records}
+
+By default, Adobe Campaign loads the first 200 records of a list. This means that the display does not necessarily show all the records of the table you are viewing. You can run a count of the number of records in the list and load more records.
+
+In the lower right-hand part of the list screen, a **counter** shows how many records have been loaded and the total number of records in the database (after applying any filters):
+
+![Display total number of records in a list](assets/number-of-records.png)
+
+If a question mark appears instead of the number on the right, such as `240/?`, click the counter to launch the calculation.
+
+To load and display additional records click **[!UICONTROL Continue loading]**. By default, 200 records are loaded. To change the default number of records to load, use the **[!UICONTROL Configure list]** icon in the bottom right-hand corner of the list. In the list configuration window, click **[!UICONTROL Advanced parameters]** (bottom left) and change the number of lines to retrieve.
+
+To load all the records, right-click the list and select **[!UICONTROL Load all]**.
+
+>[!CAUTION]
+>
+>When a list contains a high volume of records, full loading can take some time.
+>
+
+### Add and remove columns {#add-columns}
+
+For each list, the built-in column configuration can be adapted to display more information or hide unused columns.
+
+When data is visible in the detail of a record, right-click the field and select **[!UICONTROL Add in the list]**.
+
+![Add a field in the list](assets/add-in-the-list.png)
+
+The column is added to the right of the existing columns.
+
+![Add a field column](assets/add-a-column.png)
+
+
+You can also use the list configuration screen to add and remove columns:
+
+1. Click **[!UICONTROL Configure list]** icon below the list.
+1. Double-click the fields to be added in the **[!UICONTROL Available fields]** list: they are added to the **[!UICONTROL Output columns]** list. 
+
+    ![List configuration screen](assets/list-config-screen.png)
+
+
+   >[!NOTE]
+   >
+   >By default, advanced fields are not displayed. To display them, click **Display advanced fields** below and to the right of the list of available fields.
+   >
+   >The labels are displayed by table and then in alphabetical order.
+   >
+   >Use the **Search** field to run a search in the available fields. For further information, refer to [this section](#sorting-a-list).
+   >
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
+   >
+   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
+
+1. Use the up/down arrows to modify the **display order**.
+
+   ![](assets/s_ncs_user_columns_order_down.png)
+
+
+1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
+
+
+1. Use the **[!UICONTROL Distribution of values]** icon to view the repartition of values for the selected field in the current folder.
+
+   ![](assets/s_ncs_user_configurelist_values.png)
+
+
+### Create a new column {#create-a-new-column}
+
+You can create new columns to display additional fields in the list. To do this:
+
+1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
+1. Click **[!UICONTROL Add]** to display a new field in the list.
+
+### Remove a column {#remove-a-column}
+
+You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
+
+![](assets/s_ncs_user_configure_list.png)
+
+In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
+
+![](assets/s_ncs_user_removecolumn_icon.png)
+
+Repeat for each column to be masked. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
+
+### Adjust column width {#adjust-column-width}
+
+When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.
+
+### Display data in sub-folders {#display-sub-folders-records}
+
+Lists can display:
+
+* Either the records contained in the selected folder only,
+* Or the records in the selected folder AND its sub-folders.
+
+To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
+
+![](assets/s_ncs_user_display_children_icon.png)
+
+## Save a list configuration {#saving-a-list-configuration}
+
+The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.
+
+By default, the defined display parameters apply to all lists with the corresponding folder type. Thus, when you modify how the list of recipients is displayed from a folder, this configuration will be applied to all the other recipient folders.
+
+It is, however, possible to save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied.
+
+For example, for a delivery folder, it is possible to configure the following display:
+
+![](assets/s_ncs_user_folder_save_config_1.png)
+
+To save this list configuration so that it can be reused, follow the steps below:
+
+1. Right click the folder containing the displayed data.
+1. Select **[!UICONTROL Properties]**.
+1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
+
+   ![](assets/s_ncs_user_folder_save_config_2.png)
+
+1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
+
+You can then apply this configuration to another **Delivery** folder:
+
+![](assets/s_ncs_user_folder_save_config_3.png)
+
+Click **[!UICONTROL Save]** in the folder properties window. The list display is modified to match the specified configuration:
+
+![](assets/s_ncs_user_folder_save_config_5.png)
+
+## Export a list {#exporting-a-list}
+
+To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
+
+The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).
+
+>[!CAUTION]
+>
+>Elements from a list must not be exported using the Copy/Paste function.
+
+## Sort a list {#sorting-a-list}
+
+Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
+
+Click the column header to apply an ascending or descending sort, or to cancel data sorting. Active sort status and sorting order are indicated by a blue arrow before the column label. A red dash before the column label means that the sort is applied to data indexed from the database. This sorting method is used to optimize sort jobs.
+
+You can also configure sorting or combine sort criteria. To do this, follow the steps below:
+
+1. **[!UICONTROL Configure list]** below and to the right of the list. 
+
+   ![](assets/s_ncs_user_configure_list.png)
+
+1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
+1. Select the fields to sort and the sort direction (ascending or descending).
+
+   ![](assets/s_ncs_user_configurelist_sort.png)
+
+1. Sort priority is defined by the order of the sort columns. To change the priority, use the appropriate icons to change the order of the columns.
+
+   ![](assets/s_ncs_user_configurelist_move.png)
+
+   Sort priority does not affect the display of the columns in the list.
+
+1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
+
+### Searching elements {#running-a-search}
+
+You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
+
+>[!NOTE]
+>
+>You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
+
+
+
+
+
+## Customize Campaign Explorer{#customize-explorer}
+
+You can add folders to Campaign Explorer, create views and assign permissions.
+
+Learn how to manage folders and views in [this page](../audiences/folders-and-views.md)
+
+## Work with enumerations {#enumerations}
 
 An enumeration (also known as 'itemized list') is a list of values suggested by the system to populate fields. Use enumerations to standardize the values of these fields, help with data input or use within queries.
 
