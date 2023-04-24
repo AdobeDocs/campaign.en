@@ -100,7 +100,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
 ## Adobe Solution Integration external accounts
 
-* **Adobe Experience Cloud** - The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe Identity Management Service (IMS) to connect to the Adobe Campaign. Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#connect-ims).
+* **Adobe Experience Cloud** - The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe Identity Management Service (IMS) to connect to the Adobe Campaign. Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#logon-to-ac).
 
 * **Web Analytics** - The **[!UICONTROL Web Analytics (Adobe Analytics)]** external account is used to configure data transfer from Adobe Analytics to Adobe Campaign. Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
 

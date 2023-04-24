@@ -77,7 +77,7 @@ To log on to an instance, follow the steps below:
 
 1. Click **[!UICONTROL Ok]**.
 
-You can then sign in to Campaign with [your Adobe ID](#connect-ims).
+You can then sign in to Campaign with your Adobe ID.
 
 ![](assets/adobeID.png) 
 
