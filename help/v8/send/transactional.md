@@ -37,7 +37,7 @@ The main steps for putting this into place are detailed below:
 1. [Test the message](#test-message-template).
 1. [Publish the message template](#publish-message-template).
 
-Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}, and the delivery is sent to the targeted recipients.
+Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](../send/event-description.md), and the delivery is sent to the targeted recipients.
 
 ## Create event types {#create-event-types}
 
@@ -190,9 +190,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
 You can test message delivery by sending a proof to a previously created seed address.
 
-Sending a proof involves the same process as for any delivery.
-
-![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+Sending a proof involves the same process as for any delivery. Learn more about proofs in [this section](../send/preview-and-proof.md).
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 

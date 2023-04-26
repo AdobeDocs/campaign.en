@@ -12,8 +12,6 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign.
 
-Learn key steps to create a delivery in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html).
-
 Adobe Campaign v8 comes with the following delivery channels:
 
 * **Email channel**: email deliveries let you send personalized emails to the target population. Learn more in [this page](../send/email.md).
@@ -73,11 +71,10 @@ You can:
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-![](../assets/do-not-localize/glass.png) Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
+Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
 
-![](../assets/do-not-localize/glass.png) Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
+Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) Discover this capability in a end-to-end use case in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html){target="_blank"}
 
 ## Delivery and tracking logs{#gs-tracking-logs}
 

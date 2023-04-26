@@ -16,7 +16,6 @@ Once configuration is done, data synchronization between systems is carried out 
 >
 >Supported SFDC versions are detailed in Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
-
 Follow the steps below to configure a dedicated external account to import and export Salesforce data into Adobe Campaign. 
 
 ## Create the connection{#new-sfdc-external-account}
@@ -67,8 +66,7 @@ Once the schema is created, you can synchronize enumerations automatically from 
 
 1. Click **[!UICONTROL Next]** and then **[!UICONTROL Start]** to start importing the enumerations.
 
-1. Browse the **[!UICONTROL Administration > Platform > Enumerations]** node to check imported values.
-
+1. Browse the **[!UICONTROL Administration > Platform > Enumerations]** node to check imported values. Learn more about enumerations in [this page](../config/ui-settings.md#enumerations).
 
 Adobe Campaign and Salesforce.com are now connected. You can set up data synchronization between the two systems. 
 

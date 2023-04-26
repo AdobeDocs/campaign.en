@@ -40,7 +40,7 @@ You can connect your Adobe Campaign platform to your **CRM third-party systems**
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from your CRM system to Adobe Campaign, and share campaign data back from Adobe Campaign to your CRM system.
 CRM connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
-![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
+Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
 
 ## Connect third-parties with Federated Data Access{#gs-fda}
 
@@ -58,6 +58,6 @@ You can:
 * Post tweets on your Twitter account
 * Collect new contacts
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Twitter integration in [this page](../connect/ac-tw.md).
+Learn how to set up and use Twitter integration in [this page](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
+Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
