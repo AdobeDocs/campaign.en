@@ -26,7 +26,6 @@ title: Campaign v8 docs
   + [Connect to Campaign](start/connect.md)
   + Campaign UI {#ac-ui}
     + [Discover Campaign interface](start/campaign-ui.md)
-    + [Customize Campaign interface](start/customize-ui.md)
     + [Manage folders and views](audiences/folders-and-views.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
