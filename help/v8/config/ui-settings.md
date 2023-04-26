@@ -10,14 +10,20 @@ level: Beginner, Intermediate, Experienced
 
 ## Default units {#default-units}
 
-In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following **units**:
+In Adobe Campaign, for fields which express a duration (e.g. validity period of the resources, approval deadline for a task, etc.), values can be expressed in the following **units**:
 
 * **[!UICONTROL s]** for seconds
 * **[!UICONTROL mn]** for minutes
 * **[!UICONTROL h]** for hours
 * **[!UICONTROL d]** for days
 
-## Customize lists{#customize-lists}
+## Customize Campaign Explorer{#customize-explorer}
+
+You can add folders to Campaign Explorer, create views and assign permissions.
+
+Learn how to manage folders and views in [this page](../audiences/folders-and-views.md)
+
+## Manage and customize lists{#customize-lists}
 
 In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
@@ -54,10 +60,9 @@ The column is added to the right of the existing columns.
 
 ![Add a field column](assets/add-a-column.png)
 
-
 You can also use the list configuration screen to add and remove columns:
 
-1. Click **[!UICONTROL Configure list]** icon below the list.
+1. From a list of records, click **[!UICONTROL Configure list]** icon on the lower right section.
 1. Double-click the fields to be added in the **[!UICONTROL Available fields]** list: they are added to the **[!UICONTROL Output columns]** list. 
 
     ![List configuration screen](assets/list-config-screen.png)
@@ -65,104 +70,70 @@ You can also use the list configuration screen to add and remove columns:
 
    >[!NOTE]
    >
-   >By default, advanced fields are not displayed. To display them, click **Display advanced fields** below and to the right of the list of available fields.
+   >By default, advanced fields are not displayed. To display them, click the **Display advanced fields** icon, on the lower right section of the list of available fields.
    >
-   >The labels are displayed by table and then in alphabetical order.
+   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields.
    >
-   >Use the **Search** field to run a search in the available fields. For further information, refer to [this section](#sorting-a-list).
-   >
-   >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
-   >
-   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
 
 1. Use the up/down arrows to modify the **display order**.
 
-   ![](assets/s_ncs_user_columns_order_down.png)
-
-
 1. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
 
+If you need to remove a column, select it and click the **Trash** icon.
 
-1. Use the **[!UICONTROL Distribution of values]** icon to view the repartition of values for the selected field in the current folder.
+You can use the **[!UICONTROL Distribution of values]** icon to view the repartition of values for the selected field in the current folder.
 
-   ![](assets/s_ncs_user_configurelist_values.png)
+![](assets/value-distribution.png)
 
 
 ### Create a new column {#create-a-new-column}
 
-You can create new columns to display additional fields in the list. To do this:
+You can create new columns to display additional fields in the list. 
 
-1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
-1. Click **[!UICONTROL Add]** to display a new field in the list.
+To create a column, follow these steps:
 
-### Remove a column {#remove-a-column}
+1. From a list of records, click **[!UICONTROL Configure list]** icon on the lower right section.
+1. Click the **[!UICONTROL Add]** icon to display a new field in the list.
+1. Configure the field to add in the column.
 
-You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
-
-![](assets/s_ncs_user_configure_list.png)
-
-In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
-
-![](assets/s_ncs_user_removecolumn_icon.png)
-
-Repeat for each column to be masked. Click **[!UICONTROL OK]** to confirm the configuration and display the result.
-
-### Adjust column width {#adjust-column-width}
-
-When a list is active, i.e. at least one line is selected, you can use F9 to adjust the width of the columns so that all the columns can be displayed on screen.
 
 ### Display data in sub-folders {#display-sub-folders-records}
 
 Lists can display:
 
-* Either the records contained in the selected folder only,
-* Or the records in the selected folder AND its sub-folders.
+* All records contained in the selected folder (default)
+* All records contained in the selected folder and its sub-folders
 
-To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
+To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the Campaign toolbar.
 
-![](assets/s_ncs_user_display_children_icon.png)
+### Save a list configuration {#saving-a-list-configuration}
 
-## Save a list configuration {#saving-a-list-configuration}
+The list configurations are defined locally for each user. When the local cache is cleared, local configurations are disabled.
 
-The list configurations are defined locally at the workstation level. When the local cache is cleared, local configurations are disabled.
+By default, setting parameters apply to all lists with the corresponding folder type. When you modify how the list of recipients is displayed from a folder, this configuration is applied to all the other recipient folders.
 
-By default, the defined display parameters apply to all lists with the corresponding folder type. Thus, when you modify how the list of recipients is displayed from a folder, this configuration will be applied to all the other recipient folders.
+You can save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied.
 
-It is, however, possible to save more than one configuration to be applied to different folders of the same type. The configuration is saved with the properties of the folder containing the data and can be reapplied.
+To save a list configuration so that it can be reused, follow the steps below:
 
-For example, for a delivery folder, it is possible to configure the following display:
-
-![](assets/s_ncs_user_folder_save_config_1.png)
-
-To save this list configuration so that it can be reused, follow the steps below:
-
-1. Right click the folder containing the displayed data.
+1. From the Explorer, right click the folder containing the displayed data.
 1. Select **[!UICONTROL Properties]**.
 1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
-
-   ![](assets/s_ncs_user_folder_save_config_2.png)
-
 1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
-You can then apply this configuration to another **Delivery** folder:
+You can then apply this configuration any another folder of the same type. Learn more about folders in [this page](../audiences/folders-and-views.md).
 
-![](assets/s_ncs_user_folder_save_config_3.png)
-
-Click **[!UICONTROL Save]** in the folder properties window. The list display is modified to match the specified configuration:
-
-![](assets/s_ncs_user_folder_save_config_5.png)
-
-## Export a list {#exporting-a-list}
+### Export a list {#exporting-a-list}
 
 To export data from a list, you must use an export wizard. To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
-The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).
+<!--The use of the import and export functions is explained in [Generic imports and exports](../../platform/using/about-generic-imports-exports.md).-->
 
 >[!CAUTION]
 >
 >Elements from a list must not be exported using the Copy/Paste function.
 
-## Sort a list {#sorting-a-list}
+### Sort a list {#sorting-a-list}
 
 Lists can contain a large amount of data. You can sort these data or apply simple or advanced filters. Sorting lets you display data in ascending or descending order. Filters let you define and combine criteria to display selected data only.
 
@@ -171,39 +142,16 @@ Click the column header to apply an ascending or descending sort, or to cancel d
 You can also configure sorting or combine sort criteria. To do this, follow the steps below:
 
 1. **[!UICONTROL Configure list]** below and to the right of the list. 
-
-   ![](assets/s_ncs_user_configure_list.png)
-
 1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
 1. Select the fields to sort and the sort direction (ascending or descending).
-
-   ![](assets/s_ncs_user_configurelist_sort.png)
-
 1. Sort priority is defined by the order of the sort columns. To change the priority, use the appropriate icons to change the order of the columns.
-
-   ![](assets/s_ncs_user_configurelist_move.png)
 
    Sort priority does not affect the display of the columns in the list.
 
 1. Click **[!UICONTROL Ok]** to confirm this configuration and display the result in the list.
 
-### Searching elements {#running-a-search}
-
-You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. Press **Enter** on the keyboard or browse the list. The fields that match your search will have bold labels.
-
->[!NOTE]
->
->You can create filters to display only some of the data in a list. [Learn more](../../platform/using/creating-filters.md).
 
 
-
-
-
-## Customize Campaign Explorer{#customize-explorer}
-
-You can add folders to Campaign Explorer, create views and assign permissions.
-
-Learn how to manage folders and views in [this page](../audiences/folders-and-views.md)
 
 ## Work with enumerations {#enumerations}
 
