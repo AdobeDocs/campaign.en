@@ -68,7 +68,6 @@ Below is an example of an event configuration to send transactional push notific
 
 
 
-
 ## Purge events {#purge-events}
 
 You can adapt the deployment wizard settings to configure how long the data is to be stored in the database.

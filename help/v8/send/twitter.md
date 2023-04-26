@@ -132,9 +132,7 @@ To send direct messages to your followers, follow the steps below:
 
 1. Send a proof
 
-    Before sending your message, make sure to validate it by sending a proof to a test account: you can then get an exact rendering of the message on a private Twitter account and check content and personalization. 
-
-    ![](../assets/do-not-localize/book.png) [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+    Before sending your message, make sure to validate it by [sending a proof to a test account](../send/preview-and-proof.md): you can then get an exact rendering of the message on a private Twitter account and check content and personalization. 
 
 1. Send the direct message
 

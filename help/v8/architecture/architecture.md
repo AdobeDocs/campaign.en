@@ -112,4 +112,4 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
 * Multiple execution instances
     In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot  be used. A user/password-based authentication is required. 
 
-![](../assets/do-not-localize/book.png) Learn more about Transactional messaging events in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}
+Learn more about Transactional messaging events in [this page](../send/event-processing.md).

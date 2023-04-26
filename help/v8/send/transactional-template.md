@@ -130,7 +130,7 @@ You can test message delivery by sending a proof to a previously created seed ad
 
 Sending a proof involves the same process as for any delivery.
 
-![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+Learn more about proofs in [this section](../send/preview-and-proof.md#proofs-send).
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 

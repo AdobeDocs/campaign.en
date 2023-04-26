@@ -10,11 +10,11 @@ exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 
 The Adobe Campaign Managed Cloud Service Destination and Source connectors allow seamless integration between Adobe Campaign and Adobe Experience Platform.
 
-* Use **Adobe Campaign Managed Cloud Services** Destination connection to send Experience Platform segments over to Adobe Campaign for activation,
+* Use **Adobe Campaign Managed Cloud Services Destination** connection to send Experience Platform segments over to Adobe Campaign for activation
 
     ![](assets/aep-destination.png)
 
-* Use **Adobe Campaign Managed Cloud Services** Source connection to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform.
+* Use **Adobe Campaign Managed Cloud Services Source** connection to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform
 
     ![](assets/aep-logs.png)
 
@@ -26,7 +26,7 @@ The steps to configure this integration in Adobe Experience Platform are as foll
 
     [Learn how to create an Adobe Campaign Managed Cloud Services destination connection](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. Configure a new Adobe Campaign Managed Cloud Services Source connection to ingest Campaign events into Adobe Experient Platform.
+1. Configure a new Adobe Campaign Managed Cloud Services Source connection to ingest Campaign events into Adobe Experience Platform.
 
     Provide details on the Campaign instance and the schema to use, select a dataset where data should be ingested, then configure the fields to retrieve.
 
