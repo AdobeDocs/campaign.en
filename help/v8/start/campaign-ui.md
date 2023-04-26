@@ -68,10 +68,9 @@ This workspace lets you access the Explorer tree to browse all features and opti
 
 The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions.
 
-The upper section shows the list of records in the current folder. These lists are fully customizable. [Learn more](customize-ui.md)
+The upper section shows the list of records in the current folder. These lists are fully customizable. [Learn more](../config/ui-settings.md)
 
 The lower section shows the details of the selected record.
-
 
 ## Languages{#languages}
 
@@ -90,7 +89,6 @@ The language is selected during the installation process.
 >The language cannot be changed after the instance creation. 
 
 Language affects dates and time formats. 
-
 
 Main differences between US English and UK English are: 
 
