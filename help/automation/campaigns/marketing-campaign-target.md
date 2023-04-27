@@ -231,10 +231,10 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 This configuration is equivalent to a **[!UICONTROL Split]** activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. 
 
 
-#### Tutorial video {#create-email-video}
+### Tutorial video {#create-email-video}
 
-This video explains how to create a campaign and an email in Adobe Campaign.
+This video explains how to add a control group to a campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
