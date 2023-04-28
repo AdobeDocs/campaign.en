@@ -5,7 +5,6 @@ type: Event
 title: Adobe Campaign Technotes
 description: Campaign Technotes
 breadcrumb-title: Campaign technotes
-title: Campaign Technotes
 ---
 
 # Adobe Campaign Technotes {#technotes-ac}
