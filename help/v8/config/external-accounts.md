@@ -20,7 +20,7 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 
 >[!CAUTION]
 >
->>* As a Managed Cloud Services user, external accounts are configured for your instance by Adobe and must not be modified.
+>* As a Managed Cloud Services user, external accounts are configured for your instance by Adobe and must not be modified.
 >
 >* In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 >
@@ -53,7 +53,7 @@ To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external acco
 * **[!UICONTROL Password]** - User account password.
 
 * **[!UICONTROL Encryption]** - Type of chosen encryption between **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** or **[!UICONTROL POP3S]**.
-    
+
     The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
 * **[!UICONTROL Function]** - Inbound email or SOAP router
@@ -118,7 +118,7 @@ In the context of transactional messaging, the execution instances is linked to 
 These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about **File transfer** in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 
 * **FTP and SFTP** - The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
-    
+
     To do so, specify in this external account the address and credentials used to establish the connection to the SFTP or FTP server.
 
 * **Amazon Simple Storage Service (S3)** - The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
