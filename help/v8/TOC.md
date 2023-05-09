@@ -161,6 +161,7 @@ breadcrumb-title: Campaign overview
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
     + [Email settings](config/email-settings.md)
+    + [Push settings](config/push-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)

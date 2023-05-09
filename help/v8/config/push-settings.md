@@ -24,35 +24,25 @@ Before creating a mobile application, you first need to make sure that you have 
 
 >[!CAUTION]
 >
->Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Campaign** administrator. Learn more about **Tags** permissions in [this documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Campaign** administrator. 
 
 To assign **Property** and **Company** rights, follow the steps below:
 
 1. Access the **[!DNL Admin Console]**.
-
 1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
-
-    ![](assets/push_product_1.png)
-
 1. Select an existing **[!UICONTROL Product Profile]** or create a new one with the **[!UICONTROL New profile]** button. Learn how to create a new **[!UICONTROL New profile]** in the [Admin console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
-
-1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Property rights]**.
-
-    ![](assets/push_product_2.png)
-
+1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Property Rights]**.
 1. Click **[!UICONTROL Add all]**. This will add the following right to your product profile:
     * **[!UICONTROL Approve]**
     * **[!UICONTROL Develop]**
+    * **[!UICONTROL Edit Property]**
     * **[!UICONTROL Manage Environments]**
     * **[!UICONTROL Manage Extensions]**
     * **[!UICONTROL Publish]**
 
-    These permissions are required to install and publish the Adobe Campaign extension and publish the app property in Adobe Experience Platform Mobile SDK.
+    These permissions are required to install and publish the Adobe Campaign extension, and publish the app property in **Adobe Experience Platform Mobile SDK**.
 
 1. Then, select **[!UICONTROL Company rights]** in the left-hand menu.
-
-    ![](assets/push_product_4.png)
-
 1. Add the following rights:
 
     * **[!UICONTROL Manage App Configurations]**
@@ -60,29 +50,19 @@ To assign **Property** and **Company** rights, follow the steps below:
 
     These permissions are required for the mobile app developer to set up push credentials in **Adobe Experience Platform Data Collection**.
 
-    ![](assets/push_product_5.png)
-
 1. Click **[!UICONTROL Save]**.
 
 To assign this **[!UICONTROL Product profile]** to users, follow the steps below:
 
 1. Access the **[!DNL Admin Console]**.
-
 1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
-
 1. Select your previously configured **[!UICONTROL Product profile]**.
-
 1. From the **[!UICONTROL Users]** tab, click **[!UICONTROL Add user]**.
-
-    ![](assets/push_product_6.png)
-
 1. Type in your user's name or email address and select the user. Then, click **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
    >If the user was not previously created in the Admin console, refer to the [Add users documentation](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
-
-    ![](assets/push_product_7.png)
 
 ### Configure your app {#configure-app}
 
@@ -106,19 +86,15 @@ After granting the correct user permissions, you now need to add your mobile app
 
 The mobile app push credential registration is required to authorize Adobe to send push notifications on your behalf. Refer to the steps detailed below:
 
-1. From [!DNL Adobe Experience Platform Data Collection], select the **[!UICONTROL App Surfaces]** tab in the left-hand panel.
+1. From [!DNL Adobe Experience Platform Data Collection], browse to **[!UICONTROL App Surfaces]** in the left rail.
 
 1. Click **[!UICONTROL Create App Surface]** to create a new configuration.
-
-    ![](assets/add-app-config.png)
 
 1. Enter a **[!UICONTROL Name]** for the configuration.
 
 1. From **[!UICONTROL Mobile Application Configuration]**, select the Operational system:
 
     * **For iOS**
-
-        ![](assets/add-app-config-ios.png)
 
         1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
         
@@ -132,8 +108,6 @@ The mobile app push credential registration is required to authorize Adobe to se
 
     * **For Android**
 
-        ![](assets/add-app-config-android.png)
-
         1. Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
 
         1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
@@ -144,12 +118,11 @@ The mobile app push credential registration is required to authorize Adobe to se
 1. Click **[!UICONTROL Save]** to create your app configuration.
 
 
-## Step 2: Set up a mobile property in Adobe Experience Platform Data Collection {#launch-property}
+## Step 2: Set up a mobile tag property in Adobe Experience Platform Data Collection {#launch-property}
 
 Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
 
-For further details and procedures on how to set up a **[!UICONTROL Platform Launch property]**, refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
-
+For further details and procedures on how to set up a **mobile property** , refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
@@ -158,15 +131,28 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html){target="_blank"}.
+Learn more about [!DNL Adobe Experience Platform Data Collection] tags in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
+
+Once created, open the new tag property and create a library. To do this:
+
+1. Browse to **Publishing Flow** in the left navigation and select **Add Library**. 
+1. Enter the name of the library and select the environment.
+1. Select **Add All Changed Resources**, and **Save and Build to development**.
+1. Finally, set this library as your working library from the **Select a working library** button.
 
 
 ## Step 3: Configure Adobe Campaign Extension in your mobile property {#configure-extension}
 
 The **Adobe Campaign Classic extension** for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
 
-Learn how to setup Journey Optimizer extension in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
+This extension is pre-installed on your environment and must be configured. To configure the extension for your mobile tag property, follow these steps:
 
+1. Open the tag property you created before.
+1. From the left navigation, browse to **Extensions**, and open the **Catalog** tab. Use the search field to find the **Adobe Campaign Classic** extension.
+1. From the Campaign Classic card, click the **Install** button.
+1. Enter settings as described in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
+
+You can now add Campaign to your app, as detailed in  [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
 ## Step 4: Configure your mobile services in Campaign{#push-service}
 
