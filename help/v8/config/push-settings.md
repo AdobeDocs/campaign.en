@@ -21,7 +21,7 @@ To set up your app with Adobe Experience Platform Mobile SDKs, follow these step
 1. Set up a [mobile tag property](#launch-property) in Adobe Experience Platform Data Collection.
 1. Get the Adobe Experience Platform Mobile SDK as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. (optional) Enable logging and lifecycle metrics, as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation.
+1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
 1. Install and configure [Adobe Campaign Extension](#configure-extension) in your mobile property.
 1. Configure your iOS and Android mobile services in Adobe Campaign as detailed [in this page](../send/push.md#push-config).
