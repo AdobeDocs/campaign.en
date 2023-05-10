@@ -126,13 +126,14 @@ The mobile app push credential registration is required to authorize Adobe to se
 ## Set up a mobile tag property in Adobe Experience Platform Data Collection {#launch-property}
 
 Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs. You will typically create a mobile property for each mobile application you want to manage. Learn how to create and configure a mobile property in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
-
+<!--
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
 * **[!UICONTROL Mobile Core]** (installed automatically)
 * **[!UICONTROL Profile]** (installed automatically)
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
+-->
 
 Learn more about [!DNL Adobe Experience Platform Data Collection] tags in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
@@ -146,9 +147,9 @@ Once created, open the new tag property and create a library. To do this:
 
 ## Configure Adobe Campaign Extension in your mobile property {#configure-extension}
 
-The **Adobe Campaign Classic extension** for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services.
+The **Adobe Campaign Classic extension** for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services. 
 
-This extension is pre-installed on your environment and must be configured. To configure the extension for your mobile tag property, follow these steps:
+This extension, which applies to both Campaign Classic v7 and Campaign v8, is pre-installed on your environment and must be configured. To configure the extension for your mobile tag property, follow these steps:
 
 1. Open the tag property you created before.
 1. From the left navigation, browse to **Extensions**, and open the **Catalog** tab. Use the search field to find the **Adobe Campaign Classic** extension.
