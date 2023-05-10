@@ -17,16 +17,15 @@ Adobe Experience Platform Mobile SDK provides client-side integration APIs for y
 
 To set up your app with Adobe Experience Platform Mobile SDKs, follow these steps:
 
-1. Check [prerequisites](#before-starting)
-1. Set up a [mobile tag property](#launch-property) in Adobe Experience Platform Data Collection
-1. Get the Adobe Experience Platform Mobile SDK as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
-1. (optional) Enable logging and lifecycle metrics, as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
-1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation
+1. Check [prerequisites](#before-starting).
+1. Set up a [mobile tag property](#launch-property) in Adobe Experience Platform Data Collection.
+1. Get the Adobe Experience Platform Mobile SDK as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. (optional) Enable logging and lifecycle metrics, as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation.
 1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
-1. Install and configure [Adobe Campaign Extension](#configure-extension) in your mobile property
+1. Install and configure [Adobe Campaign Extension](#configure-extension) in your mobile property.
 1. Configure your iOS and Android mobile services in Adobe Campaign as detailed [in this page](../send/push.md#push-config).
 
-By the end of this, you should have also created and configured a mobile property in [!DNL Adobe Experience Platform Data Collection]. You will typically create a mobile property for each mobile application you want to manage. Learn how to create and configure a mobile property in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 ## Prerequisites {#before-starting}
 
@@ -126,9 +125,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Set up a mobile tag property in Adobe Experience Platform Data Collection {#launch-property}
 
-Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs attributes such as Session Timeouts, the [!DNL Adobe Experience Platform] sandbox to be targeted and the **[!UICONTROL Adobe Experience Platform Datasets]** to be used for mobile SDK to send data to.
-
-For further details and procedures on how to set up a **mobile property** , refer to the steps detailed in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Setting up a mobile property allows the mobile app developer or marketer to configure the mobile SDKs. You will typically create a mobile property for each mobile application you want to manage. Learn how to create and configure a mobile property in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
