@@ -27,7 +27,7 @@ Two table extension modes are available:
 
 * Through the interface, by using the **New field** assistant
 
-    Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic){target="_blank"}
+    Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
 * Programmatically, by extending the schema. Learn how to extend an existing schema in [this section](../dev/extend-schema.md).
 
@@ -37,9 +37,9 @@ To add an entirely new type of data that does not exist out-of-the-box in Adobe 
 
 **Related topics**
 
-![](../assets/do-not-localize/book.png) Example of schema edition in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) Example of schema edition in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Use Case: link a field to an existing reference table in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link){target="_blank"}
+![](../assets/do-not-localize/book.png) Use Case: link a field to an existing reference table in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## Modify the input forms
@@ -54,7 +54,7 @@ The Adobe Campaign interface uses many Web applications to access, manage, and i
 
 The built-in Web applications are stored in the **Administration > Configuration > Web applications** folder of the Explorer.
 
-Learn how to create an overview page in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application){target="_blank"}
+Learn how to create an overview page in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application){target="_blank"}
 
 
 ## Customize lists and create filters {#gs-lists-and-filters}

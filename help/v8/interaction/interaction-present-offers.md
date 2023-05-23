@@ -12,7 +12,7 @@ Offers can be presented on various offer spaces using [an inbound or outbound ch
 
 In order for an offer to be selected by the Offer engine, it has to be approved and be available in a live environment.
 
-![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)
 
 In the context of an inbound contact a contact, the user who is browsing the page can be identified by the website or not. The Offer engine presents different offers for identified profiles and for anonymous profiles.
 

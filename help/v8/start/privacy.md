@@ -89,7 +89,7 @@ You can now create Privacy requests based on your new namespace. If you use seve
 
 The **[!DNL Adobe Experience Platform Privacy Service]** integration allows you to automate your Privacy requests in a multi-solution context through a single JSON API call. Adobe Campaign automatically handles the requests pushed from the Privacy Service through a dedicated workflow.
 
-Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en){target="_blank"} documentation to learn how to create Privacy requests from the Privacy Core Service.
+Refer to the [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} documentation to learn how to create Privacy requests from the Privacy Core Service.
 
 Each **[!DNL Privacy Service]**  job is split into multiple Privacy requests in Adobe Campaign based on how many namespaces are being used, one request corresponding to one namespace.
 
@@ -103,9 +103,9 @@ The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKe
 
 >[!CAUTION]
 >
->To submit a request using the custom namespace type, leverage the [JSON method](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target="_blank"} to make the request.
+>To submit a request using the custom namespace type, leverage the [JSON method](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} to make the request.
 >
->Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target="_blank"} to submit requests using the standard namespace type.
+>Only use the [Privacy user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} to submit requests using the standard namespace type.
 
 ### Tables searched when processing requests {#list-of-tables}
 

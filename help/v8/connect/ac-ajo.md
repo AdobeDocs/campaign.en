@@ -18,4 +18,4 @@ Basic steps are to create a transactional message template in Campaign, and then
 ![](../assets/do-not-localize/book.png) [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.
 
 
-![](../assets/do-not-localize/book.png) [Learn more in Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=en){target="_blank"}.
+![](../assets/do-not-localize/book.png) [Learn more in Journey Optimizer documentation](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html){target="_blank"}.

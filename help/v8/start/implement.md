@@ -32,11 +32,11 @@ Adobe Campaign comes with processes and settings that allow you to use Campaign 
 
 * **Data acquisition**: Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and manage consent from your recipients. 
     
-    Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition){target="_blank"}
+    Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition){target="_blank"}
 
 * **User consent and data retention**: you must get user consent, set up double opt-in subscription mechanisms, facilitate opt-out and configure data retention.
     
-    Learn more in [Campaign Classic v7 privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent){target="_blank"}
+    Learn more in [Campaign Classic v7 privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}
 
 * **Privacy and data protection regulations**: refer to [this section](privacy.md) for information about privacy requirements, and how these regulations impact your organization and Adobe Campaign.
 

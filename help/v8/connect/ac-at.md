@@ -68,7 +68,7 @@ You can then define the image parameters:
 * The **[!UICONTROL Landing Page]** lets you redirect the default image to a default landing page. This URL applies only when the default image is displayed in the final email. It is optional.
 * The **[!UICONTROL Additional decision parameters]**  defines the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox. In our example, we added the Country field.
 
-If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=en#administer).
+If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
 
 ![](assets/target_13.png)
 
@@ -88,7 +88,7 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
    ![](assets/target_6.png)
 
-1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences).
+1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences).
 
 ### Create audiences {#audiences-target}
 
