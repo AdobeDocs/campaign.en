@@ -1,10 +1,10 @@
 ---
 title: Get started with Campaign v8
-description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface. 
+description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
+exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 ---
 # Get Started with Adobe Campaign{#gs-ac-v8}
 
