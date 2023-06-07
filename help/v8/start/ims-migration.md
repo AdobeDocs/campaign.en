@@ -12,7 +12,7 @@ Starting Campaign v8.5, the authentication process to Campaign v8 is being impro
 
 Campaign regular users already connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). As part of the effort to reinforce security and authentication process, Adobe Campaign Client application now calls Campaign APIs directly using the IMS technical account token. 
 
-Learn more about the new server to server authentication process [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 This change is applicable starting Campaign v8.5, and will be **mandatory** starting Campaign v8.6. 
 
@@ -40,7 +40,7 @@ Once you have access to your Campaign project, you can add services including AP
 
 ### Step 2 - Add an API to your project using Server to Server authentication{#ims-migration-step-2}
 
-Once your project is created in the Adobe Developer Console, add an API that uses Server to Server authentication. Learn how to set up the OAuth Server-to-Server credential in [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Once your project is created in the Adobe Developer Console, add an API that uses Server to Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.
 
