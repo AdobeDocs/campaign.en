@@ -49,7 +49,7 @@ When the API has been successfully connected, you can access the newly generated
 You can now add your Campaign product profile to the project, as detailed below:
 
 1. Open the Adobe Campaign API.
-1. Click the **Edit Product Profiles** button
+1. Click the **Edit product profiles** button
 
     ![](assets/do-not-localize/ims-edit-api.png)
 
