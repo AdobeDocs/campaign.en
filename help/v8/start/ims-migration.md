@@ -169,7 +169,7 @@ Once the migration process is achieved and validated, the Soap Calls are updated
             <urn:sessiontoken>SESSION_TOKEN</urn:sessiontoken>
             <urn:domEvent>
                 <!--You may enter ANY elements at this point-->
-                <rtEvent type="melon" email="dchavan@adobe.com"/>
+                <rtEvent type="type" email="name@domain.com"/>
             </urn:domEvent>
         </urn:PushEvent>
     </soapenv:Body>
@@ -193,7 +193,7 @@ Once the migration process is achieved and validated, the Soap Calls are updated
             <urn:sessiontoken></urn:sessiontoken>
             <urn:domEvent>
                 <!--You may enter ANY elements at this point-->
-                <rtEvent type="melon" email="dchavan@adobe.com"/>
+                <rtEvent type="type" email="name@domain.com"/>
             </urn:domEvent>
         </urn:PushEvent>
     </soapenv:Body>
