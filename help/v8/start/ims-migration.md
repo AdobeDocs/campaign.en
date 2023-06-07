@@ -10,11 +10,11 @@ Starting Campaign v8.5, the auhentication process to Campaign v8 is being improv
 
 ## What changed?{#ims-changes}
 
-Campaign regular users already connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). As part of the effort to reinforce security and authentication process, Adobe Campaign  Client application now calls Campaign APIs directly using the IMS technical account token. 
+Campaign regular users already connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). As part of the effort to reinforce security and authentication process, Adobe Campaign Client application now calls Campaign APIs directly using the IMS technical account token. 
 
 Learn more about the new server to server authentication process in [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
-This change is applicable starting Campaign v8.5, and will be mandatory starting Campaign v8.6. 
+This change is applicable starting Campaign v8.5, and will be **mandatory** starting Campaign v8.6. 
 
 
 ## Am I impacted?{#ims-imacts}
@@ -29,11 +29,11 @@ Before intiating the migration, you must reach out to your Adobe representative 
 
 ### Step 1 - Create a project in Adobe Developer Console{#ims-migration-step-1}
 
-Integrations are now created as part of a **Project** within Adobe Developer Console. You must create a project for your Campaign environment. Learn more about Projects in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}. 
+Integrations are created as part of a **Project** within Adobe Developer Console. Learn more about Projects in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}. 
 
-Steps to create a project are detailed [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+As a Campaign v8 user, you should already have a project in the Adobe Developer Console. If not, you must create a project. Steps to create a project are detailed [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Once you have created a project, you can add services including APIs, Adobe Campaign, and I/O Management API. You must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
+Once you have access to your Campaign project, you can add services including APIs, Adobe Campaign, and I/O Management API. For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
