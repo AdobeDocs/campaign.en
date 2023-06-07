@@ -153,7 +153,7 @@ When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, t
 
 ## Use the web interface {#use-the-web-interface-}
 
-You can access the Adobe Campaign console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
+You can access the Adobe Campaign Client Console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
 
 1. Log on as usual via https://`<your instance>:<port>/view/home`.
 1. Use the menus to access the overviews.

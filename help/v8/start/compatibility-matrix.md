@@ -70,7 +70,7 @@ Access the **Help > About…** menu to check your version.
 
 You access the following information:
 
-* The **version** number of your Client console and Application server. In the sample above, the version is 8.1.5 for both the Client console and the Application server.
+* The **version** number of your Client Console and Application server. In the sample above, the version is 8.1.5 for both the Client Console and the Application server.
 * The SHA number, between parenthesis.
 * A link to contact Adobe Customer Care.
 * Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.

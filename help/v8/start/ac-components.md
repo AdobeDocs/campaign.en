@@ -54,7 +54,7 @@ Campaign Web server controls the access to Campaign Web processes. Javascript is
 
 ![](assets/ac-processes.png) 
 
-Campaign Client console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
+Campaign Client Console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
 
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

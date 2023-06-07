@@ -459,7 +459,7 @@ Below are the stages of a complete task life cycle for which the person in charg
 1. After completing the section assigned to them, participants can approve the task, either:
 
     * via the notification email.
-    * via the console or the web interface, in the task dashboard.
+    * via the Client Console or the web interface, in the task dashboard.
     
       ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -473,7 +473,7 @@ Below are the stages of a complete task life cycle for which the person in charg
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Once the person in charge of the task decides that it is finished, they can close it, using either the link in the notification email sent when the task was started, the console, or the interface.
+1. Once the person in charge of the task decides that it is finished, they can close it, using either the link in the notification email sent when the task was started, the Client Console, or the interface.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -483,7 +483,7 @@ Below are the stages of a complete task life cycle for which the person in charg
 
 1. The task status changes to **[!UICONTROL To approve]**, and a notification is sent to the reviewer.
 
-   They approve the task via the notification email, the console or the web interface.
+   They approve the task via the notification email, the Clietn Console or the web interface.
 
    They can act via the campaign dashboard:
 

@@ -62,7 +62,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1. **How can I download Campaign?**
 
-    You can get the installation program and the client console from Adobe Download Center.
+    You can get the installation program and the Client Console from Adobe Download Center.
     
     As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} to download Adobe Campaign.
     

@@ -289,9 +289,9 @@ When a campaign is ordered by a local entity, its reviewers are notified by emai
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Approving via the Adobe Campaign console {#approving-via-the-adobe-campaign-console}
+#### Approve via the Client Console {#approving-via-the-adobe-campaign-console}
 
-The order may also be approved via the console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
+The order may also be approved via the Client Console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -315,7 +315,7 @@ The operator in charge of approval can reject an order or campaign package.
 
 If the reviewer rejects an order, the relevant notification is automatically sent to the local entities concerned: it displays the comment entered by the operator that rejected the approval.
 
-Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign console, local entities are informed of this rejection.
+Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign Client Console, local entities are informed of this rejection.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

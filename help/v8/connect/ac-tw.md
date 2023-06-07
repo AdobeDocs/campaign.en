@@ -67,7 +67,7 @@ To link your Campaign instance with your Twitter account, create a **Twitter** s
 >Each **Twitter** service must also be created by Adobe on your MID instance. Contact your Adobe representative to have your environment configured.
 >
 
-To enter settings, you must access both to your Adobe Campaign console and an your Twitter app permissions.
+To enter settings, you must access both to your Adobe Campaign Client Console and an your Twitter app permissions.
 
 1. In **Adobe Campaign**, browse to the **[!UICONTROL Profiles and targets]** tab, and select the **[!UICONTROL Services and Subscriptions]** link
 1. Create a new service.
@@ -91,7 +91,7 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
 
 1. From your Twitter app, copy the content of the **Access Token** and **Access Token Secret** fields and paste them into the **[!UICONTROL Access token]** and **[!UICONTROL Access token secret]** fields of your Campaign **Twitter** service.
 
-1. In Campaign client console, click **[!UICONTROL Save]**. You have now delegated write access to Adobe Campaign.
+1. In Campaign Client Console, click **[!UICONTROL Save]**. You have now delegated write access to Adobe Campaign.
 
 To check your settings, you can:
 

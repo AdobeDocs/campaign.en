@@ -56,9 +56,9 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.
 
-### Step 4 - Update the technical operator in the Client console {#ims-migration-step-4}
+### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
 
-Last step is to update the technical operator in Adobe Campaign Client console. 
+Last step is to update the technical operator in Adobe Campaign Client Console. 
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ Last step is to update the technical operator in Adobe Campaign Client console.
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used fir APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

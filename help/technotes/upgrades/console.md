@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Client console 32-bit deprecation
-description: Client console 32-bit deprecation
+title: Client Console 32-bit deprecation
+description: Client Console 32-bit deprecation
 hide: yes
 hidefromtoc: yes
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53

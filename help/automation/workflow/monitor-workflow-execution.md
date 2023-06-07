@@ -115,7 +115,7 @@ Notification example:
 
 ![](assets/wf-notification_error-msg.png)
 
-The link lets you access the Adobe Campaign console in Web mode and work on the error workflow once you have logged on.
+The link lets you access the Adobe Campaign Client Console in Web mode and work on the error workflow once you have logged on.
 
 ![](assets/wf-notification_error-console.png)
 
