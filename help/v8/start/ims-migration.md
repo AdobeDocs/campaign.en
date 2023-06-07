@@ -62,7 +62,7 @@ Last step is to update the technical operator in Adobe Campaign Client console.
 
 >[!CAUTION]
 >
->After updating the authentication type for the technical operator, all API integrations with this technical operator will stop working
+>After updating the authentication type for the technical operator, all API integrations with this technical operator will stop working. You must [update your API integrations](#ims-migration-step-6). 
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
@@ -83,7 +83,6 @@ To update the technical operator authentication mode to IMS, follow these steps:
     ```
 
 1. Save your changes.
-
 
 You can also update the technical operator programmatically, using SQL scripts or Campaign APIs. These modes help you automate the steps which update operator's name with associated Technical account email address and/or authentication type. 
 
@@ -142,8 +141,12 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 To try out the connection, follow the steps detailed in the [Adobe Developer Console credentials guide](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} for generating an access token and copy the Sample cURL command provided.
 
-For further more details about API integration steps, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### Step 6 - Update the third-party API integrations {#ims-migration-step-6}
+
+You must update the API integrations with your third-party systems. 
+
+For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Soap calls samples{#ims-migration-samples}
