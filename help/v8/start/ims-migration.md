@@ -6,13 +6,13 @@ hidefromtoc: yes
 ---
 # Migration of tech users to Technical account on Developer console {#migrate-tech-users-to-ims}
 
-Starting Campaign v8.5, the auhentication process to Campaign v8 is being improved. Technical operators must use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. A technical operator is a Campaign user profile which has been explicitly created for API integration. This article details the steps required to migrate a technical operator to technical account on Adobe Developer console.
+Starting Campaign v8.5, the authentication process to Campaign v8 is being improved. Technical operators must use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. A technical operator is a Campaign user profile which has been explicitly created for API integration. This article details the steps required to migrate a technical operator to technical account on Adobe Developer console.
 
 ## What changed?{#ims-changes}
 
 Campaign regular users already connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). As part of the effort to reinforce security and authentication process, Adobe Campaign Client application now calls Campaign APIs directly using the IMS technical account token. 
 
-Learn more about the new server to server authentication process in [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Learn more about the new server to server authentication process [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 This change is applicable starting Campaign v8.5, and will be **mandatory** starting Campaign v8.6. 
 
@@ -25,7 +25,7 @@ If you are using Campaign APIs, you need to migrate your technical operator to A
 
 ### Prerequisites{#ims-migration-prerequisites}
 
-Before intiating the migration, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
+Before starting the migration process, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
 
 ### Step 1 - Create a project in Adobe Developer Console{#ims-migration-step-1}
 
@@ -46,7 +46,7 @@ When the API has been successfully connected, you can access the newly generated
 
 ### Step 3 - Add the product profile to the project{#ims-migration-step-3}
 
-You can now add your Campaign product profile to the project. To perform this, follow these steps:
+You can now add your Campaign product profile to the project, as detailed below:
 
 1. Open the Adobe Campaign API.
 1. Click the **Edit Product Profiles** button
