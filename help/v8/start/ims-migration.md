@@ -17,7 +17,7 @@ Learn more about the new server to server authentication process [in Adobe Devel
 This change is applicable starting Campaign v8.5, and will be **mandatory** starting Campaign v8.6. 
 
 
-## Am I impacted?{#ims-imacts}
+## Are you impacted?{#ims-impacts}
 
 If you are using Campaign APIs, you need to migrate your technical operator(s) to Adobe Developer Console as detailed below.
 
