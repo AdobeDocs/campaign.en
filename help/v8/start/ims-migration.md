@@ -4,7 +4,7 @@ description: Migration of tech users to Technical account on Developer console
 hide: yes
 hidefromtoc: yes
 ---
-# Migration of tech users to Technical account on Developer console {#migrate-tech-users-to-ims}
+# Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
 Starting Campaign v8.5, the authentication process to Campaign v8 is being improved. Technical operators must use [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} to connect to Campaign. A technical operator is a Campaign user profile which has been explicitly created for API integration. This article details the steps required to migrate a technical operator to technical account on Adobe Developer console.
 
