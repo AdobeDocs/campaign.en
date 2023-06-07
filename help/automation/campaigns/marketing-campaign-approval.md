@@ -218,13 +218,13 @@ For example, once delivery analysis has been executed:
 
 1. Select **[!UICONTROL Approve targeting]**.
 
-  ![](assets/target-validation-from-Client Console.png)
+  ![](assets/target-validation-from-console.png)
 
 1. In the popup window, check the information to be approved.
 1. Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if necessary. This comment will be displayed in the validation logs.
 1. Confirm your choice with the **[!UICONTROL Target approval]** button.
 
-  ![](assets/confirm-validation-from-Client Console.png)
+  ![](assets/confirm-validation-from-console.png)
 
 
 If a process has already been approved by another operator, the approval link is not available.
