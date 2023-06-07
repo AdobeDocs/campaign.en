@@ -85,7 +85,7 @@ To update the technical operator authentication mode to IMS, follow these steps:
 1. Save your changes.
 
 
-You can also update the technical operator programmatically, using SQL scripts or Campaign APIs. These modes help you to automates the steps which update operator's name with associated Technical account email address and/or authentication type. 
+You can also update the technical operator programmatically, using SQL scripts or Campaign APIs. These modes help you automate the steps which update operator's name with associated Technical account email address and/or authentication type. 
 
 * Use the following **SQL Script** to replace operator's name with associated email:
 
