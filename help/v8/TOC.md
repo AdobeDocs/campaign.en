@@ -19,7 +19,7 @@ breadcrumb-title: Campaign overview
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
   + Technotes{#technotes}
-    + [Migrate users to Developer Console](start/ims-migration.md)
+    + [Migrate technical operator to Developer Console](start/ims-migration.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
