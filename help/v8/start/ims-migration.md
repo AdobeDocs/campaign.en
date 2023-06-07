@@ -27,7 +27,7 @@ If you are using Campaign APIs, you need to migrate your technical operator to A
 
 Before starting the migration process, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
 
-### Step 1 - Create a project in Adobe Developer Console{#ims-migration-step-1}
+### Step 1 - Create/update your Campaign project in Adobe Developer Console{#ims-migration-step-1}
 
 Integrations are created as part of a **Project** within Adobe Developer Console. Learn more about Projects in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}. 
 
