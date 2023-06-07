@@ -19,7 +19,7 @@ This change is applicable starting Campaign v8.5, and will be **mandatory** star
 
 ## Am I impacted?{#ims-imacts}
 
-If you are using Campaign APIs, you need to migrate your technical operator to Adobe Developer Console as detailed below.
+If you are using Campaign APIs, you need to migrate your technical operator(s) to Adobe Developer Console as detailed below.
 
 ## How to migrate?{#ims-migration-procedure}
 
