@@ -74,6 +74,7 @@ breadcrumb-title: Campaign overview
       + [Work with external profiles](audiences/external-profiles.md)
       + [Collect profile data in web forms](audiences/collect-profiles.md)
       + [Work with target mappings](audiences/target-mappings.md)
+      + [Create test profiles](audiences/test-profiles.md)
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
       + [Create and manage filters](audiences/create-filters.md)

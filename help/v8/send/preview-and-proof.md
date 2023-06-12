@@ -58,7 +58,7 @@ The type of proof target is selected from the **[!UICONTROL Targeting mode]** dr
     >
     >Seed addresses do not belong to the default recipient table (nms:recipient), they are created in a separate table. If you extend the recipients table with new data, you have to extend the seed addresses table as well with the same data. 
     
-    Learn more about seed addresses in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+    Learn more about seed addresses in [this section](../audiences/test-profiles.md).
 
 * Use the **[!UICONTROL Specific target and Seed addresses]** option to combine seed addresses and specific email addresses. The related configurations are then defined in two separate sub-tabs.
 

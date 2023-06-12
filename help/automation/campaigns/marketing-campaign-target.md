@@ -11,8 +11,7 @@ In a marketing campaign, for each delivery, you can define:
 
 * The target audience. You can send messages to a [list of recipient](#send-to-a-group) or build an [audience in a workflow](#build-the-main-target-in-a-workflow)
 * A control group. You can [add a control group](#add-a-control-group) to monitor recipients behavior after message delivery
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* Seed addresses - Learn more in [this section](../../v8/audiences/test-profiles.md).-->
 
 Some of this information can be inherited from the [campaign template](marketing-campaign-templates.md#campaign-templates).
 
