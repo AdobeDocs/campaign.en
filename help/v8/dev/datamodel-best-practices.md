@@ -131,7 +131,7 @@ By default, Adobe Campaign will create a link using the primary key of the exter
 
 When you design a link, make sure that the target record is unique when a 1-1 relationship has been declared. Otherwise the join may return multiple records when only one is expected. This results in errors during delivery preparation when "the query returns more rows than expected". Set the link name to the same name as the target schema.
 
-Define a link with a cardinality (1-N) in the schema on the (1) side. For example, the relation Recipient (1) – (N) Transaction should be defined in the transaction schema.
+Define a link with a cardinality (1-N) in the schema on the (N) side. For example, the relation Recipient (1) – (N) Transaction should be defined in the transaction schema.
 
 Note that a reverse cardinality of a link is (N) by default. It is possible to define a link (1-1) by adding the attribute revCardinality='single' to the link definition.
 
