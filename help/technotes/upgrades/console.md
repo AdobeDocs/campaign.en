@@ -20,6 +20,12 @@ To take advantage of the latest features and improved security, Adobe recommends
 
 ## Frequently Asked Questions
 
++++How do I upgrade from Campaign v8 32 bits to Campaign v8 64 bits?
+
+The upgrade is seamless. You just need to install your new version via the setup like a regular upgrade. 
+ 
++++
+
 +++Is the 64-bit version of Campaign v8 Client Console compatible with 32-bit computers?
 
 No. The 64-bit version of Campaign v8 Client Console supports 64-bit computers only.
