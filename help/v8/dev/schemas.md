@@ -192,9 +192,9 @@ Attributes allow you to define the fields which make up your data object. You ca
 
 ![](assets/schemaextension_2.png)
 
-The full list of attributes is available in the `<attribute>` element section in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+The full list of attributes is available in the `<attribute>` element section in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-![](../assets/do-not-localize/book.png) For more information on each attribute, refer to the Attribute description in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+![](../assets/do-not-localize/book.png) For more information on each attribute, refer to the Attribute description in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
 
 ### Examples {#examples}
 
@@ -280,4 +280,4 @@ For more on this, refer to [this section](update-database-structure.md).
 
 >[!NOTE]
 >
->When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]** .
+>When modifications do not impact the database structure, you just need to regenerate schemas. To do this, select the schema(s) to update, right click and choose **[!UICONTROL Actions > Regenerate selected schemas...]**.

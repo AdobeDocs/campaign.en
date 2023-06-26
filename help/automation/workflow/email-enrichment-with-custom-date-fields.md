@@ -101,7 +101,7 @@ You can now start designing your email delivery with the custom date fields crea
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Click ![](assets/uc_enrichment_16.png) . Select **[!UICONTROL Target extension]** then the previously created custom validity dates with the **[!UICONTROL Enrichment]** activity to add your extension to the formatDate expression.
+1. Click ![](assets/uc_enrichment_16.png). Select **[!UICONTROL Target extension]** then the previously created custom validity dates with the **[!UICONTROL Enrichment]** activity to add your extension to the formatDate expression.
 
    ![](assets/uc_enrichment_19.png)
 

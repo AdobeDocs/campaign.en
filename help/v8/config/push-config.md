@@ -5,18 +5,23 @@ version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
+hide: yes
+hidefromtoc: yes
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 ---
 # Integrate Campaign SDKs with your app {#integrate-campaign-sdk}
 
-Use Campaign SDKs for iOS and Android to facilitate the integration of your mobile application into the Adobe Campaign platform.
+You can use Campaign SDKs for iOS and Android to facilitate the integration of your mobile application into the Adobe Campaign platform.
 
-Android and iOS supported versions, and Campaign SDKs compatible versions for Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md#MobileSDK) .
+Android and iOS supported versions, and Campaign SDKs compatible versions for Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md#MobileSDK).
+
+As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
 
 >[!NOTE]
 >
->As a Campaign administrator, you can download Campaign SDKs from the [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html). For more information, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
+>You can also use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign extension in the Data Collection UI. [Learn more in Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>
 
 ## Declare integration settings {#declaring-integration-settings}
 
@@ -26,7 +31,7 @@ To integrate Campaign SDK into the mobile application, the functional administra
 
   >[!NOTE]
   >
-  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. Refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+  >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application.
 
 * **A tracking URL**: that matches the address of the Adobe Campaign tracking server.
 * **A marketing URL**: to enable the collection of subscriptions.
@@ -785,9 +790,8 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
 ## Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service. 
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign Client Console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service. 
 
-![](../assets/do-not-localize/book.png) Learn more in **Campaign Classic v7 documentation** on mobile app: [Configuration steps for iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}. 
 
 Below is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.
 

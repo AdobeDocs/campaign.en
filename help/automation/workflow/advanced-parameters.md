@@ -43,8 +43,6 @@ These options are generally selected in the cart by right-clicking the activity.
 
 You can choose to force the execution of a workflow or workflow activity on a specific machine. To do this, you must define one or more propensities at the level of the workflow or the concerned activity.
 
-High availability workflow configuration is detailed in this  .
-
 
 ## Max. execution period {#max--execution-period}
 

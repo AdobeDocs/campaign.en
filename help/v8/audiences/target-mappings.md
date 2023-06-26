@@ -8,7 +8,9 @@ exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
 ---
 # Work with target mappings{#gs-target-mappings}
 
-By default, delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. 
+By default, email and SMS delivery templates target **[!UICONTROL Recipients]**. Their target mapping therefore uses the fields of the **nms:recipient** table. 
+
+For Push notifications, the default target mapping is **Subscriber applications (nms:appSubscriptionRcp)**, which is linked to the recipients table.
 
 You can use other target mappings for your deliveries, or create a new target mapping.
 

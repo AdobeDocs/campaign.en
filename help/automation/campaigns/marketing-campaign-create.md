@@ -69,7 +69,7 @@ In the campaign creation window, select the campaign template and add a name and
 
 Click **[!UICONTROL OK]** to create the campaign. It is added to the program schedule, and to the list of campaigns.
 
-You can then edit the campaign you have just created and define its parameters. To open and configure this campaign, ypu can:
+You can then edit the campaign you have just created and define its parameters. To open and configure this campaign, you can:
 
 1. Browse the campaign calendar and select the campaign you want to display, then click the **[!UICONTROL Open]** link.
 1. Browse the **[!UICONTROL Schedule]** tab of the program, select the campaign and open it.
@@ -97,7 +97,7 @@ For each campaign, the following capabilities are available:
 * Reference documents and resources: you can associate documents with the campaign (brief, report, images, etc.). All document formats are supported. [Learn more](marketing-campaign-deliveries.md#manage-associated-documents). 
 * Define costs: for each campaign, Adobe Campaign lets you define cost entries and cost calculation structures which can be used when creating the marketing campaign. For example: printing costs, use of an external agency, room rental, etc. [Learn more](providers--stocks-and-budgets.md#defining-cost-categories).
 * Define objectives: you can define quantifiable objectives for a campaign, e.g. number of subscribers, business volume, etc. This information is later used in campaign reports.
-* Manage seed addresses and control groups. [Learn more](marketing-campaign-deliveries.md#defining-a-control-group)).
+* Manage seed addresses and control groups. [Learn more](marketing-campaign-deliveries.md#defining-a-control-group).
 * Manage approvals: you can select the treatments to be approved and, if necessary, select the reviewing operators or groups of operators. [Learn more](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
@@ -153,7 +153,7 @@ When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, t
 
 ## Use the web interface {#use-the-web-interface-}
 
-You can access the Adobe Campaign console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
+You can access the Adobe Campaign Client Console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. This access does not enable record creation. Depending on operator rights, you may view and/or act on the data in the database. For example, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
 
 1. Log on as usual via https://`<your instance>:<port>/view/home`.
 1. Use the menus to access the overviews.

@@ -1,6 +1,6 @@
 ---
 title: Get started with Campaign data model
-description: Get started with Campaign data model
+description: Get started with the Campaign data model and leverage data from your sources to benefit your communications and marketing outputs.
 feature: Data Model
 role: Data Engineer
 level: Beginner
@@ -34,8 +34,8 @@ When starting with Adobe Campaign, you need to assess the default data model to 
 
 You can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#ootb-profiles). If needed, you can extend it with two mechanisms:
 
-* [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new “Loyalty” field to the Recipient table.
-* [Create a new table](create-schema.md), for example a “Purchase” table listing all the purchases made by each profile of the database, and link it to the Recipient table.
+* [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new "Loyalty" field to the Recipient table.
+* [Create a new table](create-schema.md), for example a "Purchase" table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
 ![](../assets/do-not-localize/glass.png) Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
 
@@ -54,7 +54,7 @@ It is possible to extend the recipient table, but not to reduce the number of fi
 
 ![](../assets/do-not-localize/glass.png) Learn how to extend an existing schema in [this section](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table){target="_blank"}
+![](../assets/do-not-localize/book.png) Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 

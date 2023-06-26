@@ -51,7 +51,7 @@ Confirming the delivery is restricted to Administrators, and to the operator or 
 
 ![](assets/select-delivery-reviewers.png)
 
-However, you can also allow the campaign owner to confirm the send, even if specific reviewers were defined in the delivery or campaign properties. To do this, as an Administrator, create the **NmsCampaign_Activate_OwnerConfirmation** option and set it to **1**. The options are managed from the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node in the Adobe Campaign explorer.
+However, you can also allow the campaign owner to confirm the send, even if specific reviewers were defined in the delivery or campaign properties. To do this, as an Administrator, create the **NmsCampaign_Activate_OwnerConfirmation** option and set it to **1**. The options are managed from the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** folder of Campaign explorer.
 
 
 ### Start a direct mail delivery {#start-an-offline-delivery}

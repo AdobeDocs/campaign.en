@@ -4,7 +4,6 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 breadcrumb-title: Campaign overview
-title: Campaign v8 docs
 ---
 
 # Adobe Campaign v8 documentation {#campaign-v8}
@@ -13,40 +12,58 @@ title: Campaign v8 docs
 + Releases and latest updates {#releases}
   + [Early release notes](start/e-release-notes.md)
   + [Release notes](start/release-notes.md)
+  + Previous release notes {#previous-rn}
+    + [2022](start/release-notes-2022.md)
+    + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
+  + Technotes{#technotes}
+    + [Migrate technical operator to Developer Console](start/ims-migration.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
   + [Components and processes](start/ac-components.md)
   + [Connect to Campaign](start/connect.md)
-  + Campaign UI {#ac-ui}
-    + [Discover Campaign interface](start/campaign-ui.md)
-    + [Customize Campaign interface](start/customize-ui.md)
-    + [Manage folders and views](audiences/folders-and-views.md)
+  + [Campaign interface](start/campaign-ui.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
-  + [Campaign orchestration Documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
+  + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
   + Send messages{#send}
     + [Get started with messages](start/create-message.md)
     + [Work with delivery templates](send/create-templates.md)
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
+      + [Link to the mirror page](send/mirror-page.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
     + [Push notifications](send/push.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
-    + [Transactional messages](send/transactional.md)
+    + Transactional messages {#real-time}
+      + [Get started with transactional messages](send/transactional.md)
+      + [Create and publish your template](send/transactional-template.md)
+      + Event management {#event}
+       + [Collect and process events](send/event-processing.md)
+       + [Understand event description](send/event-description.md)
+      + [Send and monitor messages](send/delivery-execution.md)
     + Failures, bounces and quarantines{#failures}
       + [Quarantines](send/quarantines.md)
       + [Delivery failures](send/delivery-failures.md)
     + [Send time optimization](send/predictive.md)
     + [Manage subscriptions](start/subscriptions.md)
+    + Personalize content {#personalize}
+      + [Get started with personalization](send/personalize.md)
+      + [Personalization data](send/personalization-data.md)
+      + [Add personalization fields](send/personalization-fields.md)
+      + [Use personalization blocks](send/personalization-blocks.md)
+      + [Create conditions](send/conditions.md)
+    + Validate your delivery {#validate}
+      + [Preview and proofs](send/preview-and-proof.md)
+      + [Delivery analysis](send/delivery-analysis.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
@@ -57,6 +74,7 @@ title: Campaign v8 docs
       + [Work with external profiles](audiences/external-profiles.md)
       + [Collect profile data in web forms](audiences/collect-profiles.md)
       + [Work with target mappings](audiences/target-mappings.md)
+      + [Create test profiles](audiences/test-profiles.md)
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
       + [Create and manage filters](audiences/create-filters.md)
@@ -142,10 +160,13 @@ title: Campaign v8 docs
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
     + [Datamodel best practices](dev/datamodel-best-practices.md)
-  + Configuration {#configuration}
+  + Settings and configuration {#configuration}
+    + [User interface settings](config/ui-settings.md)
+    + [Manage folders and views](audiences/folders-and-views.md)
     + [Email settings](config/email-settings.md)
+    + [Push settings](config/push-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
-    + [Integrate Campaign SDKs with your app](config/push-config.md)
+    + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
   + [Campaign datamodel](dev/datamodel.md)
@@ -161,5 +182,5 @@ title: Campaign v8 docs
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-+ [Campaign Automation Guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign Control Panel >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Campaign Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)

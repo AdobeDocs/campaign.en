@@ -13,7 +13,7 @@ Adobe Campaign lets you define service providers who will be involved in the job
 
 Each service provider is saved in a file with contact details, service templates, and related jobs.
 
-Service providers are configured in the **[!UICONTROL Administration > Campaign management]** node of the tree.
+Service providers are configured in the **[!UICONTROL Administration > Campaign management]** folder of Campaign explorer.
 
 The jobs carried out during deliveries are performed by service providers, particularly for direct mail and mobile channels. These service providers can, for example, be involved in printing or distributing messages. These jobs involve configurations and costs which are specific to each service provider. The configuration of service providers involves four stages:
 
@@ -123,7 +123,7 @@ You can associate information on the processes associated with the service provi
 
 * The **[!UICONTROL Notification email]** section lets you specify the template to notify service providers after files have been sent. Select the template used to create the alert message and the group of recipients.
 
-  By default, delivery templates for notification messages are saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** node, which is accessible from the general view.
+  By default, delivery templates for notification messages are saved in the **[!UICONTROL Administration > Campaign management > Technical delivery templates]** folder, which is accessible from the general view.
 
 * The **[!UICONTROL Post-processing]** section lets you select the workflow to launch after the delivery has been approved. If a workflow template is entered, a workflow instance will automatically be created and then launched as soon as approval takes effect. This workflow can send the extraction file to an external service provider for processing, for example.
 

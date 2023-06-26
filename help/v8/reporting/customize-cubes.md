@@ -58,6 +58,8 @@ To create this type of value binning, apply the following steps:
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
+Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
+
 ### Create value ranges {#create-value-ranges}
 
 You can group the values into ranges based on a desired interval.
@@ -105,6 +107,8 @@ You only need to modify the enumeration to update the related report. For exampl
 The **[!UICONTROL Domains]** enumeration is used to generate built-in reports that display the list of domains. To adapt the content of these reports, you can edit this list.
 
 You can create other enumerations reserved for binning and use them in other Cubes: all alias values will be regrouped in the bins specified in the first enumeration tab.
+
+Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
 
 ## Aggregates in cubes {#calculate-and-use-aggregates}
 

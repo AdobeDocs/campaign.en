@@ -4,7 +4,7 @@ description: Get started with campaigns
 feature: Audiences
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 ---
 # Get Started with campaigns{#gs-ac-campaigns}
 
@@ -82,7 +82,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     Adobe Campaign lets you set up collaborative approval processes for the main stages of the marketing campaign. For each campaign you can approve the delivery target, content, and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a web connection. 
 
-   Learn how to set up and manage approvals in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
+   Learn how to set up and manage approvals in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
 
 
 ## Distributed Marketing add-on{#distributed-marketing-add-on}
@@ -104,4 +104,3 @@ Adobe Campaign offers a **Response Management** add-on that lets you measure the
 >This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 [](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Response Manager in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}
-

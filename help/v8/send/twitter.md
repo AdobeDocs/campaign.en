@@ -118,7 +118,7 @@ To send direct messages to your followers, follow the steps below:
 
    ![](assets/tw-dm-content.png)
 
-    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [this section](../start/create-message.md#personalization).
+    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [this section](../send/personalize.md).
 
 1. Preview your message
 
@@ -132,9 +132,7 @@ To send direct messages to your followers, follow the steps below:
 
 1. Send a proof
 
-    Before sending your message, make sure to validate it by sending a proof to a test account: you can then get an exact rendering of the message on a private Twitter account and check content and personalization. 
-
-    ![](../assets/do-not-localize/book.png) [Learn key steps to validate a delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target="_blank"}
+    Before sending your message, make sure to validate it by [sending a proof to a test account](../send/preview-and-proof.md): you can then get an exact rendering of the message on a private Twitter account and check content and personalization. 
 
 1. Send the direct message
 
@@ -145,7 +143,7 @@ To send direct messages to your followers, follow the steps below:
 
 >[!CAUTION]
 >
->You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
+>You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Access tracking data {#tw-tracking}

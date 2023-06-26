@@ -1,6 +1,6 @@
 ---
 title: Connect Campaign with your solutions
-description: learn how to connect Campaign with your solutions
+description: Learn how to connect your Adobe Campaign instance with Experience Cloud solutions. 
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
@@ -29,9 +29,9 @@ Campaign v8 can connect with:
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
-![](../assets/do-not-localize/book.png) Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## Integrate with your CRM Connector{#gs-crm-connectors}
 
@@ -40,7 +40,7 @@ You can connect your Adobe Campaign platform to your **CRM third-party systems**
 Activate your CRM data on cross-channel communication: learn how to pass on contacts from your CRM system to Adobe Campaign, and share campaign data back from Adobe Campaign to your CRM system.
 CRM connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
 
-![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
+Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com in [this page](crm.md)
 
 ## Connect third-parties with Federated Data Access{#gs-fda}
 
@@ -58,6 +58,6 @@ You can:
 * Post tweets on your Twitter account
 * Collect new contacts
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Twitter integration in [this page](../connect/ac-tw.md).
+Learn how to set up and use Twitter integration in [this page](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
+Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).

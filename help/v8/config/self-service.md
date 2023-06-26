@@ -18,7 +18,7 @@ Key benefits:
 
 You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and retrieve information about your instance.
 
-![](../assets/do-not-localize/book.png) Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en){target="_blank"}.
+![](../assets/do-not-localize/book.png) Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}.
 
 ## How to access Control Panel?
 
@@ -26,11 +26,11 @@ The Control Panel is available directly from Adobe Experience Cloud. It is acces
 
 ## Control Panel FAQ
 
-[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target="_blank"} to access Campaign Control Panel FAQ.
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} to access Campaign Control Panel FAQ.
 
 ## SFTP management
 
-In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management){target="_blank"} for more information.
+In the Control Panel, you can interact with all SFTP servers that are connected to Campaign instances that you have access to. You can monitor their storage capacity, manage IP addresses on the allow list, and public SSH keys. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management){target="_blank"} for more information.
 
 ## Subdomains and certificates
 

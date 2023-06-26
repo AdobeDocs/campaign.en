@@ -161,7 +161,7 @@ When you create a campaign template, you need to enter the following information
 * Enter the **label** of the template: the label is mandatory and is the default label for all campaigns based on this template.
 * Select the campaign **nature** from the drop-down list. The values available in this list are those saved in the **[!UICONTROL natureOp]** enumeration.
 
-Learn how to access and configure your enumerations in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+Learn how to access and configure your enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
 
 
 * Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed in [this section](recurring-periodic-campaigns.md).

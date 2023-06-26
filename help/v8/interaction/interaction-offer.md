@@ -176,13 +176,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 You can now approve and activate the offer to make it available in the **Live** environment.
 
-![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)
 
 ## Manage offer presentation{#offer-presentation}
 
 Campaign lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Campaign Interaction, are **typology rules**. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment.
 
-![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+![](../assets/do-not-localize/book.png) For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers)
 
 ## Offer simulation
 
@@ -190,4 +190,4 @@ The **Simulation** module lets you test the distribution of offers belonging to 
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers and their presentation rules. This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
-![](../assets/do-not-localize/book.png) For more on Offer simulation, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+![](../assets/do-not-localize/book.png) For more on Offer simulation, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html)

@@ -8,14 +8,11 @@ exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 # Distributed Marketing samples{#distributed-marketing-samples}
 
 
-
 ## Create a local campaign (by form) {#creating-a-local-campaign--by-form-}
 
 The **By form** type web interface involves using a **web application**. Depending on its configuration, this web application can contain any type of defined personalized elements. For example, you can suggest links to evaluate the target, the budget, the content, etc. via dedicated APIs.
 
 >[!NOTE]
->
->APIs are detailed in a dedicated document.  .
 >
 >The Web application used in this example is not a Web app that comes out-of-the-box with Adobe Campaign. To use a form in a campaign, you must create the dedicated web application.
 
@@ -112,7 +109,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 #### Create a data distribution activity {#creating-a-data-distribution-activity}
 
-1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** node.
+1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** folder of Campaign explorer.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -136,7 +133,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 #### Create a collaborative campaign {#creating-a-collaborative-campaign}
 
-1. From the **[!UICONTROL Campaign management > Campaign]** node, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
+1. From the **[!UICONTROL Campaign management > Campaign]** folder of Campaign explorer, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In the **[!UICONTROL Targeting and workflows]** tab, create a workflow for your campaign. This must contain a **Split** activity in which the **[!UICONTROL Record count limitation]** is defined by the **[!UICONTROL Data distribution]** activity.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

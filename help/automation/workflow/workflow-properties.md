@@ -33,8 +33,6 @@ This section is only displayed in campaign workflows.
 
   If your installation includes several workflow servers, use this field to choose the machine which the workflow will be executed on. If the value defined in this field doesn't exist on any server, the workflow will remain pending.
 
-  Refer to this  .
-
 * **[!UICONTROL History in days]**
 
   The work tables of the database keep a history of executions (tasks, events, log). Here you can define the number of days to be archived for this workflow: the cleanup process will delete the oldest archives once a day. If the value in this field is zero, the archive will never be deleted.
@@ -72,6 +70,6 @@ This section is only displayed in campaign workflows.
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign console via the Web so that the recipient can work on the issue once they are logged on.
+  The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign Client Console via the Web so that the recipient can work on the issue once they are logged on.
 
   To create a personalized template, go to **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

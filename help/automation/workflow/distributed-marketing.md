@@ -9,7 +9,7 @@ feature: Workflows, Data Management, Distributed Marketing
 
 
 
-The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to this  .
+The workflow detailed below is installed with the **Distributed Marketing** module by default. For more on this module, refer to [this section](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

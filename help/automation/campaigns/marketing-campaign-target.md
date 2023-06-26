@@ -11,8 +11,7 @@ In a marketing campaign, for each delivery, you can define:
 
 * The target audience. You can send messages to a [list of recipient](#send-to-a-group) or build an [audience in a workflow](#build-the-main-target-in-a-workflow)
 * A control group. You can [add a control group](#add-a-control-group) to monitor recipients behavior after message delivery
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* Seed addresses - Learn more in [this section](../../v8/audiences/test-profiles.md).-->
 
 Some of this information can be inherited from the [campaign template](marketing-campaign-templates.md#campaign-templates).
 
@@ -231,10 +230,10 @@ Click **[!UICONTROL Next]** to define the sorting order (if necessary) and selec
 This configuration is equivalent to a **[!UICONTROL Split]** activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. 
 
 
-#### Tutorial video {#create-email-video}
+### Tutorial video {#create-email-video}
 
-This video explains how to create a campaign and an email in Adobe Campaign.
+This video explains how to add a control group to a campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

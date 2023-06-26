@@ -24,23 +24,15 @@ You can access to Adobe Campaign though a Rich client, a Thin client or API inte
 
 * Rich client
 
-    Campaign Rich client is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP.
-    
-    Campaign Client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign Client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. 
-    
-    ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Client Console](../start/connect.md).
+    Campaign Rich client is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. [Learn more about Campaign Client Console](../start/connect.md).
 
 * Thin client
     
-    Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.
-
-    ![](../assets/do-not-localize/glass.png) [Learn more about Campaign Web Access](../start/connect.md).
+    Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  [Learn more about Campaign Web Access](../start/connect.md).
 
 * External applications with APIs
     
-    In certain cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol.
-
-    ![](../assets/do-not-localize/glass.png) [Learn more about Campaign APIs](../dev/api.md).
+    In certain cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. [Learn more about Campaign APIs](../dev/api.md).
 
 ### Persistence layer{#persistance-layer}
 
@@ -62,7 +54,7 @@ Campaign Web server controls the access to Campaign Web processes. Javascript is
 
 ![](assets/ac-processes.png) 
 
-Campaign Client console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
+Campaign Client Console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
 
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

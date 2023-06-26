@@ -66,12 +66,11 @@ Browse Campaign Explorer to access all the Adobe Campaign capabilities and setti
 
 This workspace lets you access the Explorer tree to browse all features and options.
 
-The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions.
+* The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions. You can add and customize folders as explained in [this page](../audiences/folders-and-views.md).
 
-The upper section shows the list of records in the current folder. These lists are fully customizable. [Learn more](customize-ui.md)
+* The upper section shows the list of records in the current folder. These lists are fully customizable. [Learn more](../config/ui-settings.md)
 
-The lower section shows the details of the selected record.
-
+* The lower section shows the details of the selected record. 
 
 ## Languages{#languages}
 
@@ -90,7 +89,6 @@ The language is selected during the installation process.
 >The language cannot be changed after the instance creation. 
 
 Language affects dates and time formats. 
-
 
 Main differences between US English and UK English are: 
 

@@ -18,9 +18,9 @@ Transactional messages are used to send:
 * an individual real-time response to a customer action
 * non-promotional content
 
-![](../assets/do-not-localize/glass.png) Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
+Transactional messaging settings are detailed in [this section](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Understand transactional messaging architecture on [this page](../architecture/architecture.md#transac-msg-archi).
+Understand transactional messaging architecture on [this page](../architecture/architecture.md#transac-msg-archi).
 
 ## Transactional messaging operating principle {#transactional-messaging-operating-principle}
 
@@ -37,7 +37,7 @@ The main steps for putting this into place are detailed below:
 1. [Test the message](#test-message-template).
 1. [Publish the message template](#publish-message-template).
 
-Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}, and the delivery is sent to the targeted recipients.
+Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](../send/event-description.md), and the delivery is sent to the targeted recipients.
 
 ## Create event types {#create-event-types}
 
@@ -51,10 +51,8 @@ When [creating a message template](#create-message-template), you will select th
 
 To create event types that will be processed by Adobe Campaign, follow the steps below:
 
-1. Go to the **[!UICONTROL Administration > Platform > Enumerations]** folder of the tree.
-
-1. Select **[!UICONTROL Event type]** from the list.
-
+1. Browse to the **[!UICONTROL Administration > Platform > Enumerations]** folder of Campaign explorer.
+1. Select the **[!UICONTROL Event type]** enumeration from the list.
 1. Click **[!UICONTROL Add]** to create an enumeration value. This can be an order confirmation, password change, order delivery change, etc.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -67,7 +65,8 @@ To create event types that will be processed by Adobe Campaign, follow the steps
 
 >[!NOTE]
 >
->Learn more on itemized lists in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
+
 
 ## Define a transactional message template {#create-message-template}
 
@@ -191,9 +190,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
 You can test message delivery by sending a proof to a previously created seed address.
 
-Sending a proof involves the same process as for any delivery.
-
-![](../assets/do-not-localize/book.png) Learn more about proofs in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+Sending a proof involves the same process as for any delivery. Learn more about proofs in [this section](../send/preview-and-proof.md).
 
 However, to send a proof of a transactional message, you need to carry out the following operations:
 

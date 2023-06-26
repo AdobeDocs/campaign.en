@@ -67,7 +67,7 @@ To link your Campaign instance with your Twitter account, create a **Twitter** s
 >Each **Twitter** service must also be created by Adobe on your MID instance. Contact your Adobe representative to have your environment configured.
 >
 
-To enter settings, you must access both to your Adobe Campaign console and an your Twitter app permissions.
+To enter settings, you must access both to your Adobe Campaign Client Console and an your Twitter app permissions.
 
 1. In **Adobe Campaign**, browse to the **[!UICONTROL Profiles and targets]** tab, and select the **[!UICONTROL Services and Subscriptions]** link
 1. Create a new service.
@@ -91,7 +91,7 @@ To enter settings, you must access both to your Adobe Campaign console and an yo
 
 1. From your Twitter app, copy the content of the **Access Token** and **Access Token Secret** fields and paste them into the **[!UICONTROL Access token]** and **[!UICONTROL Access token secret]** fields of your Campaign **Twitter** service.
 
-1. In Campaign client console, click **[!UICONTROL Save]**. You have now delegated write access to Adobe Campaign.
+1. In Campaign Client Console, click **[!UICONTROL Save]**. You have now delegated write access to Adobe Campaign.
 
 To check your settings, you can:
 
@@ -108,7 +108,7 @@ They are stopped by default: you must start them manualy when you start using th
 
 The **[!UICONTROL Synchronization of Twitter accounts]** technical workflow synchronizes Twitter accounts in Adobe Campaign. This workflow recovers the list of Twitter followers so that you can send them direct messages. [Learn more](../send/twitter.md#direct-tw-messages)
 
-By default, this workflow is triggered every Thursday at 7:30AM. You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration.  You can also edit the scheduler to change the workflow triggering frequency. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
+By default, this workflow is triggered every Thursday at 7:30AM. You can use the **[!UICONTROL Execute pending task(s) now]** option to start the workflow at any time as you are implementing this integration.  You can also edit the scheduler to change the workflow triggering frequency. Learn more in [this page](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >

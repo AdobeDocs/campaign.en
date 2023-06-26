@@ -23,7 +23,7 @@ To do this:
 
 1. Configure the delivery template.
 
-The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. For more on this, refer to this  .
+The configuration process for this activity is similar to that of creating a delivery template in terms of the options available. 
 
 For an example of this activity being used, refer to this [section](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
@@ -47,4 +47,4 @@ This video explains how to configure a recurring delivery and a scheduler activi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

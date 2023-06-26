@@ -56,7 +56,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 * **[!UICONTROL Distinct opens for the population reached]** : Estimation of the number of targeted recipients having opened a message at least once. Clicks on tracked URLs are taken into account since emails have to be opened to click on a link.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimation of the total number of opens by targeted recipients. 
 * **[!UICONTROL Clicks on opt-out link]** : Number of clicks on the unsubscription link.
-* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the mirror page. In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs). <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).--> 
+* **[!UICONTROL Clicks on the mirror page link]** : Number of clicks on the link to the [mirror page](../send/mirror-page.md). In order to be taken into account, the link must be defined as such in the delivery wizard (tracked URLs).
 * **[!UICONTROL Estimation of forwards]** : Estimation of the number of emails forwarded by the targeted recipients. This value is calculated by subtracting the number of distinct people and the number of distinct recipients who clicked in the email.
 
   >[!NOTE]
@@ -77,7 +77,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 >
 >The domain names displayed in this report are defined in the itemized list used at cube level. To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. The **[!UICONTROL Others]** category includes domain names that don't belong to any value of the itemized list.
 >
->Learn how to access and configure your enumerations in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Learn how to access and configure your enumerations in [this page](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**

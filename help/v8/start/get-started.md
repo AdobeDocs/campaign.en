@@ -1,10 +1,10 @@
 ---
 title: Get started with Campaign v8
-description: New to Campaign? Discover how to get started
+description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
+exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 ---
 # Get Started with Adobe Campaign{#gs-ac-v8}
 
@@ -34,7 +34,7 @@ Adobe Campaign has powerful, user-friendly segmentation and targeting features t
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. 
 
-![](../assets/do-not-localize/glass.png) Learn more about segmentation, audience creation and personalization in [this section](audiences.md).
+![](../assets/do-not-localize/glass.png) Learn more about segmentation and audience creation in [this section](audiences.md).
 
 ## Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 

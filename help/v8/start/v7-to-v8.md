@@ -1,6 +1,6 @@
 ---
 title: Transition from Campaign Classic v7 to Campaign v8
-description: Understand differences between Campaign Classic v7 and Campaign v8
+description: Learn about the differences between Campaign Classic v7 and Campaign v8.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced

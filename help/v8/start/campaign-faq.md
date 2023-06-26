@@ -1,10 +1,10 @@
 ---
 title: Campaign v8 Frequently Asked Questions
-description: Discover Campaign common Q&A
+description: Get answers to common Adobe Campaign questions.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
+exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 ---
 # Frequently Asked Questions{#faq}
 
@@ -30,7 +30,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1. **How to improve email deliverability?**
 
-    Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
+    Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
    ![](../assets/do-not-localize/book.png) Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
@@ -62,7 +62,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1. **How can I download Campaign?**
 
-    You can get the installation program and the client console from Adobe Download Center.
+    You can get the installation program and the Client Console from Adobe Download Center.
     
     As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} to download Adobe Campaign.
     
@@ -79,4 +79,4 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}. 
 
-    This system requires individual accounts for each user, with correct permissions. If you find that you can’t log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+    This system requires individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}

@@ -4,6 +4,7 @@ description: Learn how to grant permissions to Campaign v8 users
 feature: Permissions
 role: User, Admin
 level: Beginner
+exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 ---
 # Manage user permissions{#manage-permissions}
 
@@ -30,7 +31,7 @@ To add a user, follow the steps below:
 
 Learn more about user creation in the Admin Console in [this page](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-When new users log on to Campaign, they are added to the Campaign operators list in the client console. Campaign operators are stored in the **[!UICONTROL Administration > Access management > Operators]** folder of Campaign explorer.
+When new users [log on to Campaign](connect.md) with their Adobe ID, they are added to the Campaign operators list in the Client Console. Campaign operators are stored in the **[!UICONTROL Administration > Access management > Operators]** folder of Campaign explorer.
 
 ## Work with product profiles{#product-profiles}
 
@@ -54,7 +55,7 @@ You can use default product profiles or create new ones.
 
 ### Create a product profile{#create-product-profile}
 
-To add a new product profile to Adobe, you must first create it in Campaign client console, and then add it in the Admin Console.
+To add a new product profile to Adobe, you must first create it in Campaign Client Console, and then add it in the Admin Console.
 
 For example to create a 'reviewers' product profile, follow the steps below.
 

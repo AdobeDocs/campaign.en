@@ -30,7 +30,7 @@ This issue only happens if the backslash character is at the end of string, for 
 
 #### Reproduction steps{#issue-2-repro}
 
-1. Connect to the client console and create a workflow.
+1. Connect to the Client Console and create a workflow.
 1. Add a **Query** activity and configure it.
 1. Select data with the characteristics described above.
 1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
@@ -63,7 +63,7 @@ When uploading a file on Campaign server with a **Data loading (file)** activity
 
 #### Reproduction steps{#issue-3-repro}
 
-1. Connect to the client console and create a workflow.
+1. Connect to the Client Console and create a workflow.
 1. Add a **Data loading (file)** activity and configure it.
 1. Select the **Upload on server** option.
 1. Select the file on your local machine,
@@ -76,13 +76,13 @@ The process never ends.
 
 #### Workaround{#issue-3-workaround}
 
-The workaround is to use an older client console. You will then be able to upload the file on the server.
+The workaround is to use an older Client Console. You will then be able to upload the file on the server.
 
-As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+As a Campaign administrator, you can download Campaign v8.3.1 Client Console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
 
 Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
-Learn how to upgrade your client console [in this page](connect.md)
+Learn how to upgrade your Client Console [in this page](connect.md)
 
 #### Internal reference{#issue-3-ref}
 

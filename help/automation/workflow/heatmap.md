@@ -7,11 +7,7 @@ exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 ---
 # Workflow HeatMap {#workflow-heatmap}
 
-
-
 Campaign Workflow HeatMap consists in a color-coded graphical representation of all the workflows that are currently running. It is only available to **Campaign Administrators**.
-
-Discover additional ways to monitor Campaign processes in  .
 
 ## Get started with the Workflow HeatMap {#about-the-workflow-heatmap}
 
@@ -47,8 +43,7 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
    By default, the page shows the workflow activity for the current day. You can change it and select any day in the past.
 
    >[!NOTE]
-   >
-   >Only the workflows that have not been deleted by the ** .  
+   > 
    >By default, the Workflow HeatMap time zone is the one defined for the current administrator user. For example, you may want to change it if you are not in the same area as the marketing users you are working with.
 
 1. Click the **[!UICONTROL Filters]** button.
@@ -147,7 +142,7 @@ In this case, many users are complaining about workflow performance. You need to
 
 1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflows]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 1. Set the **[!UICONTROL Min duration]** filter to 5 minutes.
-1. Set the **[!UICONTROL Workflow type]** filter to **[!UICONTROL Marketing]** .
+1. Set the **[!UICONTROL Workflow type]** filter to **[!UICONTROL Marketing]**.
 1. From the HeatMap grid, observe the following:
 
    ![](assets/wkf_monitoring_without.png)

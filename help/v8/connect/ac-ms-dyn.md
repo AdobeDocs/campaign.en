@@ -159,7 +159,7 @@ First, you must create the Microsoft Dynamics 365 external account.
 
 >[!NOTE]
 >
->To approve the setup, log off and back on to the Adobe Campaign console.
+>To approve the setup, log off and back on to the Adobe Campaign Client Console.
 
 ### Select tables to synchronize{#ms-dyn-create-tables}
 

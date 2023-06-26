@@ -9,7 +9,7 @@ feature: Workflows, Inbox Rendering
 
 
 
-The workflow detailed below is installed with the **Inbox rendering (IR)** module by default. For more on Inbox rendering, refer to this  .
+The workflow detailed below is installed with the **Inbox rendering (IR)** module by default.
 
 <table> 
  <tbody> 

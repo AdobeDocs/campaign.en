@@ -7,11 +7,7 @@ exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
 ---
 # Monitor technical workflows {#monitoring-technical-workflows}
 
-
-
 Technical workflows need to be monitored, and actions need to be taken when they fail.
-
-Additional ways of monitoring the different Campaign processes are presented in  .
 
 ## Instance monitoring dashboard {#instance-monitoring-dashboard}
 
@@ -35,8 +31,7 @@ To better understand what each technical workflow is supposed to do, refer to th
 
 For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. Check that the ** ..
-1. Look at the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
+Check the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
 
 For **[!UICONTROL Tracking workflow (‘tracking’)]**:
 

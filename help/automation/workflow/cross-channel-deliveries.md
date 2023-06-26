@@ -32,14 +32,14 @@ In the example below, learn how to create a workflow to send an email or an SMS 
 1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
 1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
 
-   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow. For more on this, refer to this  .
+   Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow.
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
 1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
 
-   Select a service for each of the operating systems. For more on service creation, refer to this  .
+   Select a service for each of the operating systems. 
 
    ![](assets/cross_channel_delivery_4.png)
 

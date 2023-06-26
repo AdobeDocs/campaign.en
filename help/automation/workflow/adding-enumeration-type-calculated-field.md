@@ -10,8 +10,6 @@ exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
 
-
-
 Here we want to create a query with an **[!UICONTROL Enumerations]** type calculated field. This field will generate an additional column in the data preview window. This column will specify the numeric values returned as a result for each recipient (0, 1 and 2). A gender will be assigned to each value in the new column: "Male" for "1", "Female" for "2" or "Not indicated" if the value equals "0".
 
 * Which table needs to be selected?

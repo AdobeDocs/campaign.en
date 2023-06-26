@@ -15,11 +15,11 @@ You will find below additional guardrails and limitations when using [!DNL Adobe
 Guardrails and limitations identify capabilities, architecture, or processes that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 
 * Adobe Campaign v8 is not available for on-premise/hybrid deployments - only released as an Adobe Managed Cloud Service
-* Existing customers cannot migrate from an existing Adobe Campaign environment to Adobe Campaign v8
+* No automatic migration to Adobe Campaign v8 is available for existing customers
 * In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), no bi-directional data replication is provided: replication happens only from the Campaign local database to the Cloud database
 * Capabilities listed [in this section](v7-to-v8.md#gs-unavailable-features) are not available in the current Campaign v8 build
 * Some non-available or removed features are still visible in the user interface
 * In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../architecture/replication.md#tech-wf)
 * Duplicates need to be handled manually by end-users. [Learn more](../architecture/keys.md)
 * Adobe Campaign v8 does not support extended throughput on API and web applications - in case of specific needs, contact Adobe to get guidance
-* Adobe Campaign Campaign Optimization module does not take into account scheduled deliveries in pressure typology rules. Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html).
+* Adobe Campaign Campaign Optimization module does not take into account scheduled deliveries in pressure typology rules. Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html)

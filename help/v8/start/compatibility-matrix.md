@@ -1,10 +1,10 @@
 ---
 title: Campaign v8 compatibility matrix
-description: Learn systems and versions compatible with Campaign v8
+description: Discover systems and versions compatible with Campaign v8
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
-exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
+exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 ---
 # Campaign v8 compatibility matrix
 
@@ -20,37 +20,20 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
-### Operating systems
-
-* **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (starting Campaign v8.3), 10, 8
-
 >[!NOTE]
 >
->Microsoft Windows 10 is recommended for Japanese instances.
+>Please note that the 32-bit version of the Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
-### Browser
+### Operating systems{#op-systems}
 
-**Microsoft Edge** 
+* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows** 11, 10, 8
 
-### Microsoft WebView2 runtime
+### Web browser{#web-browsers}
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 runtime
-</p>
-</td>
-<td>
-<p>Latest version</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download">Download from Microsoft Developer website</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Microsoft Edge**
+
+* **Microsoft Edge WebView2**, latest version. Download it from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
 ## CRM connectors{#CRMconnectors}
 
@@ -70,13 +53,10 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 ## Mobile SDK{#MobileSDK}
 
-You can use Campaign to send [push notifications](../send/push.md) on the operating systems listed below, using the associated mobile SDK.
-
-* **Android** 12 (starting Campaign v8.3), 9.0, 8.x, 7.x, with Campaign Android SDK build 1.1.1.
-* **Apple iOS** 9 - 16 with Campaign iOS SDK build 1.0.26, compatible with 32 and 64-bit versions. iOS 16 is supported starting Campaign v8.4.
+To send [push notifications](../send/push.md) with Campaign, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign Classic extension in the Data Collection UI. 
 
 
-## Web access
+## Web access{#web-access}
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
@@ -90,7 +70,7 @@ Access the **Help > About…** menu to check your version.
 
 You access the following information:
 
-* The **version** number of your Client console and Application server. In the sample above, the version is 8.1.5 for both the Client console and the Application server.
+* The **version** number of your Client Console and Application server. In the sample above, the version is 8.1.5 for both the Client Console and the Application server.
 * The SHA number, between parenthesis.
 * A link to contact Adobe Customer Care.
 * Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.

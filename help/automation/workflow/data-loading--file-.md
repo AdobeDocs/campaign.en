@@ -27,8 +27,6 @@ You can define a pre-process to be executed during file import, for example so a
 
    ![](assets/preprocessing-dataloading.png)
 
-For more on this, refer to this section:  .
-
 ## Defining the file format {#defining-the-file-format}
 
 When you load a file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.
@@ -105,7 +103,7 @@ The following example lets you collect a file on the server every day, load its 
     * the first column contains a code that coincides with the event: purchase (more or less than 3,000 euro), no purchase or refund on one or more purchases.
     * the four following columns contain the client's first name, last name, email and account number.
 
-   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign. For more on this, refer to this  .
+   The format configuration of the file to be loaded coincides with that defined during a data import in Adobe Campaign.
 
 1. In the split activity, specify the subsets to create, according to the **Event** column value.
 

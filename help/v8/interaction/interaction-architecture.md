@@ -78,7 +78,7 @@ The **Interaction** package is installed on all instances (control and execution
 
 >[!NOTE]
 >
->When installing the package, the **long** type fields of the **nms:proposition** table such as the proposition ID, become **int64** type fields. This type of data is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>When installing the package, the **long** type fields of the **nms:proposition** table such as the proposition ID, become **int64** type fields. This type of data is detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 The data retention duration is configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment wizard). On execution instances, this period must correspond to the historical depth necessary for typology rules (sliding period) and eligibility rules to be calculated.
 
