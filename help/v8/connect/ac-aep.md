@@ -21,6 +21,9 @@ The main steps to send Adobe Experience Platform audiences to Adobe Campaign and
 
     1. Access the Adobe Experience Platform Destinations catalog and create a new **[!UICONTROL Adobe Campaign Managed Cloud Services]** connection.
     1. Provide details on the Campaign instance to use and choose **[!UICONTROL Audience sync]** as the sync type.
+
+        ![](assets/aep-audience-sync.png){width="800" align="center"}
+
     1. Select the segments to send over to Adobe Campain.
     1. Configure the attributes that you want to export in the audience. 
     1. Once the flow has been configured, the selected audiences will be available for activation into Adobe Campaign.
@@ -49,6 +52,9 @@ The main steps to sync Adobe Experience Platform profile attributes with Adobe C
 
 1. Access the Adobe Experience Platform Destinations catalog and create a new **[!UICONTROL Adobe Campaign Managed Cloud Services]** connection.
 1. Provide details on the Campaign instance to use and choose **[!UICONTROL Profile sync (Update only)]** as the sync type.
+
+    ![](assets/aep-profile-sync.png){width="800" align="center"}
+
 1. Select the segments targeting the profiles to update into Adobe Campaign database.
 1. Configure the profile attributes that you want to update into Adobe Campaign. 
 1. Once the flow has been configured, the selected profile attributes will be synced with Adobe Campaign and updated for all the profiles targeted by the segments configured in the destination.
