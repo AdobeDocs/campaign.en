@@ -22,7 +22,7 @@ The following operating systems and browser are required to use Campaign Client 
 
 >[!NOTE]
 >
->Please note that the 32-bit version of the Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+>Please note that the 32-bit version of the Client Console is deprecated starting 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 
 ### Operating systems{#op-systems}
 
