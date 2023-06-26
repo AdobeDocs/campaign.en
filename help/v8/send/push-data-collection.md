@@ -91,7 +91,7 @@ To create a service to send push notifications, follow the steps below:
 
    ![](assets/push-config-5.png)
 
-### Create a mobile application {#create-sapp}
+### Create a mobile application {#create-app}
 
 >[!BEGINTABS]
 
@@ -218,7 +218,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 1. You now need to publish the configuration from the Publishing flow menu. [Learn more](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-## Add Campaign Classic to your mobile app {#push-config}
+## Add Campaign Classic to your mobile app
 
 The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. 
 
