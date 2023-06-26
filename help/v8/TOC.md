@@ -39,7 +39,9 @@ breadcrumb-title: Campaign overview
       + [Link to the mirror page](send/mirror-page.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
-    + [Push notifications](send/push.md)
+    + Emails {#push-notification}
+      + [Push notifications](send/push.md)
+      + [Configure your push notifications with Data Collection](send/push-data-collection.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
