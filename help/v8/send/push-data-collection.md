@@ -5,21 +5,25 @@ feature: Push
 role: Data Engineer
 level: Beginner
 ---
-# Configure your push notifications with Data Collection {#push-data-collection}
+# Configure your push notifications with Data Collection {#push-notifications-config}
  
 To send push notifications in Adobe Campaign, you need to:
 
-1. Create an App surface in Adobe Experience Platform Data Collection.
+1. [Create an App surface in Adobe Experience Platform Data Collection.](#create-app-surface)
 
-1. Create a Mobile application-type information service for your mobile application, and add the iOS and Android versions of the application to that service.
+1. [Configure your application settings in Adobe Campaign.](#push-config-campaign)
 
-1. Create and configure a mobile property in Adobe Experience Platform Data Collection.
+1. [Create and configure a mobile property in Adobe Experience Platform Data Collection.]( #create-mobile-property)
 
-1. Integrate the SDK in Mobile App.
+1. [Add Campaign Classic to your mobile application](#campaign-mobile-ap)
 
-1. Create a delivery for both iOS and Android. 
+1. [Create a delivery for both iOS and Android.](##push-create)
 
-## Create an App surface in Adobe Experience Platform Data Collection
+>[!NOTE]
+>
+> Legacy FCM and APNS p12 are not supported with Data Collection. 
+
+## Create an App surface in Adobe Experience Platform Data Collection {#create-app-surface}
 
 You need to add your mobile application push credentials in [!DNL Adobe Experience Platform Data Collection]. 
 
@@ -67,7 +71,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
 
-## Configure your app settings in Adobe Campaign{#push-config}
+## Configure your application settings in Adobe Campaign{#push-config-campaign}
 
 ### Create a service {#create-service}
 
@@ -91,7 +95,9 @@ To create a service to send push notifications, follow the steps below:
 
    ![](assets/push-config-5.png)
 
-### Create a mobile application {#create-app}
+### Create a mobile application {#create-sapp}
+
+After creating your service, you now need to define the mobile applications that will use this service.
 
 >[!BEGINTABS]
 
@@ -185,7 +191,7 @@ Below are the FCM payload names to further personalize your push notification:
 | data message  | N/A  | validate_only  |
 | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
-## Configure a mobile property in Adobe Experience Platform Data Collection
+## Configure a mobile property in Adobe Experience Platform Data Collection {#create-mobile-property}
 
 1. From Data Collection homepage, access the Tags menu.
 
@@ -205,20 +211,22 @@ Below are the FCM payload names to further personalize your push notification:
 
    ![](assets/push-config-15.png)
 
-1. Install the Adobe Campaign Classic extension. [Learn more on Campaign extension](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
+1. Install the **[!DNL Adobe Campaign Classic]** extension. [Learn more on Campaign extension](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
    ![](assets/push-config-16.png)
 
 1. Fill in your instance details:
 
-   * Registration or tracking endpoint URLs can be found in the Tools > Advanced > Deployment wizard menu in Campaign.
-   * Integration keys can be found in the mobile app configured in this section.
+   * **[!UICONTROL Registration endpoint]** or **[!UICONTROL Tracking endpoint]** URLs can be found in the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** menu in Campaign.
+   * **[!UICONTROL Integration keys]** can be found in the mobile app configured in [this section](#create-app).
 
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
-1. You now need to publish the configuration from the Publishing flow menu. [Learn more](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+1. You now need to publish the configuration from the **[!UICONTROL Publishing flow]** menu. [Learn more](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-## Add Campaign Classic to your mobile app
+Your mobile property will now be automatically sync with the **[!UICONTROL Sync Mobile apps from AEP Launch]** technical workflow. [Learn more](../../automation/workflow/technical-workflows.md#list-technical-workflows)
+
+## Add Campaign Classic to your mobile application {#campaign-mobile-app}
 
 The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. 
 
