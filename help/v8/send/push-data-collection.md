@@ -13,7 +13,7 @@ To send push notifications in Adobe Campaign, you need to:
 
 1. [Configure your application settings in Adobe Campaign.](#push-config-campaign)
 
-1. [Create and configure a mobile property in Adobe Experience Platform Data Collection.]( #create-mobile-property)
+1. [Create and configure a mobile property in Adobe Experience Platform Data Collection.](#create-mobile-property)
 
 1. [Add Campaign Classic to your mobile application](#campaign-mobile-ap)
 
