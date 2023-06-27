@@ -71,6 +71,11 @@ To update this operator, follow these steps:
 1. Save your changes.
 
 
+>[!CAUTION]
+>
+>The new technical operator must have made at least one API call to be added to Campaign Client Console.
+>
+
 <!--
 
 >[!CAUTION]
@@ -162,6 +167,11 @@ You must update the API integrations with your third-party systems.
 
 For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+
+### Step 7 - Remove the old technical operator {#ims-migration-step-7}
+
+
+After the migration of all API/custom code integration with Technical account user. You can delete the old technical operator from Campaign client console. 
 
 ### Soap calls samples{#ims-migration-samples}
 
