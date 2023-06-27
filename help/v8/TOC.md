@@ -41,7 +41,7 @@ breadcrumb-title: Campaign overview
     + [SMS](send/sms.md)
     + Push notifications {#push}
       + [Create and send push notifications](send/push.md)
-      + [Configure push notification channel](config/push-settings.md)
+      + [Configure push notification channel](send/push-settings.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
