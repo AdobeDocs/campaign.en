@@ -58,8 +58,10 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
 
-You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator. This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
 
+This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
+
+You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator.
 To update this operator, follow these steps:
 
 1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
