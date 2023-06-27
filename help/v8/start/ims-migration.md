@@ -58,8 +58,10 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
 
-You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator. This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
 
+This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
+
+You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator.
 To update this operator, follow these steps:
 
 1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
@@ -68,6 +70,11 @@ To update this operator, follow these steps:
 1. Apply the same permissions to the newly created technical operator. This operator's email is the **Technical Account Email** value copied earlier.
 1. Save your changes.
 
+
+>[!CAUTION]
+>
+>The new technical operator must have made at least one API call to be added to Campaign Client Console.
+>
 
 <!--
 
@@ -160,6 +167,11 @@ You must update the API integrations with your third-party systems.
 
 For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+
+### Step 7 - Remove the old technical operator {#ims-migration-step-7}
+
+
+After the migration of all API/custom code integration with Technical account user. You can delete the old technical operator from Campaign client console. 
 
 ### Soap calls samples{#ims-migration-samples}
 
