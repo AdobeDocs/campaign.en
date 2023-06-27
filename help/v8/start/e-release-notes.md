@@ -43,7 +43,7 @@ _June 30, 2023_
 * Starting Campaign v8.5, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign.
 * You can now leverage Destination and Source connections to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database
 * Delivery preparation has been optimized.
-* A new key-based authentication option has been added for SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access.
+* A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access.
 
 **Security enhancements**
 
@@ -53,7 +53,7 @@ _June 30, 2023_
 **Patches**
 
 * Fixed an issue which could lead to special characters in the HTML content of a delivery being incorrectly encoded in several browsers. (NEO-60081)
-* Fixed an issue which could prevent you from to saving a report on a Campaign v8 Enterprise (FFDA) deployment. (NEO-56836)
+* Fixed an issue which could prevent you from saving a report on a Campaign v8 Enterprise (FFDA) deployment. (NEO-56836)
 * Fixed an issue when inserting or updating data into a custom FFDA schema via an Update Data workflow activity. (NEO-54708)
 * Fixed an issue which prevented the database cleanup workflow from removing addresses in the nms:address table on FFDA. (NEO-54460)
 * Fixed an issue with the billing workflow which could fail with a "Compilation memory exhausted" error. (NEO-51137)
