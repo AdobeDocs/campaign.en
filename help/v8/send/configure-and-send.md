@@ -85,7 +85,7 @@ The two examples below are the most common use cases for using multiple waves.
 
   To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, and so on.
 
-  ![](assets/s_ncs_user_wizard_waves_ramp-up.png)
+  ![](assets/delivery-waves-ex-ramp-up.png)
 
 * **Campaigns involving a call center**
 
@@ -95,5 +95,5 @@ The two examples below are the most common use cases for using multiple waves.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 
-  ![](assets/s_ncs_user_wizard_waves_call_center.png)
+  ![](assets/delivery-waves-ex-call-center.png)
 
