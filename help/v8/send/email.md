@@ -62,30 +62,36 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
    * Add a mirror page
 
-      To allow your recipients to view your delivery content in a web browser, add a link to the [mirror page](../send/mirror-page.md) of your message.
+      To allow your recipients to view your delivery content in a web browser, add a link to the [mirror page](mirror-page.md) of your message.
 
       Place the cursor where you want to insert this link, and click the last icon in the toolbar, then click **[!UICONTROL Include]** and select **[!UICONTROL link to mirror page]**.
+      
+      Learn more about managing the mirror page in [this section](mirror-page.md#link-to-mirror-page).
 
-   Once the content is ready, click **Save**: it will now be displayed in your list of deliveries, in the **[!UICONTROL Campaigns > Deliveries]** tab. Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
+1. You can define additional parameters for your email such as sending a copy of your messages to a BBC address, changing the message format, setting a specific encoding, etc. Learn more in [this section](email-parameters.md).
+
+1. Once the content is ready, click **Save**: it will now be displayed in your list of deliveries, in the **[!UICONTROL Campaigns > Deliveries]** tab.
+
+Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
 
 
 Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
 Learn more in the following sections:
 
-* [Design an email in Campaign](../send/email.md)
+* [Design an email in Campaign]()
 * [Create and use an email template](../send/create-templates.md)
 * [Select the audience of your email](../audiences/gs-audiences.md)
-* [Validate a delivery and send proofs](../send/preview-and-proof.md)
+* [Validate a delivery and send proofs](preview-and-proof.md)
+* [Configure and send the delivery](configure-and-send.md)
 
 ## Test and validate your emails
 
-Campaign offers several ways to test and validate your emails before sending them to your audiences. Learn how to preview and test your email content in [this page](../send/preview-and-proof.md).
+Campaign offers several ways to test and validate your emails before sending them to your audiences. Learn how to preview and test your email content in [this section](../send/preview-and-proof.md).
 
 You can:
 
-* Check delivery analysis logs
-* Send proofs
-* Add seed addresses
+* [Send proofs](preview-and-proof.md)
+* [Add seed addresses](../audiences/test-profiles.md)
+* [Check delivery analysis logs](delivery-analysis.md)
 
-[Learn more](../send/delivery-analysis.md)

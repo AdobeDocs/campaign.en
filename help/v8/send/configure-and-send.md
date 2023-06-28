@@ -32,7 +32,7 @@ Before sending the delivery, you can define the sending parameters in the delive
   >
   >* Learn more about SMTP server configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
-* **[!UICONTROL Email BCC]**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target. [Learn more](xxx).
+* **[!UICONTROL Email BCC]**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target. [Learn more](email-parameters.md).
 
 ## Send using multiple waves {#sending-using-multiple-waves}
 
