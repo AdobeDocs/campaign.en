@@ -54,7 +54,7 @@ Note the following specificities and recommendations:
 
 * Make sure the BCC address has enough reception capacity to archive all the emails that are sent.
 
-* Email BCC <!--with Enhanced MTA--> delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understand delivery failures](../send/delivery-failures.md).
+* Email BCC <!--with Enhanced MTA--> delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understand delivery failures](delivery-failures.md).
 
 * If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
@@ -64,7 +64,7 @@ Note the following specificities and recommendations:
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
-![](assets/s_ncs_user_wizard_email_param.png)
+![](assets/email-message-format.png)
 
 Select the format of the email in the lower section of the window:
 
@@ -78,7 +78,7 @@ Select the format of the email in the lower section of the window:
 
   >[!IMPORTANT]
   >
-  >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
+  >This option includes both versions of the document. It therefore reduces the delivery throughput, because the message size is greater.
 
 * **[!UICONTROL Send all messages in text format]**
 
@@ -86,7 +86,7 @@ Select the format of the email in the lower section of the window:
 
 >[!NOTE]
 >
->For more on defining the email content, see [this section](defining-the-email-content.md).
+>For more on defining the email content, see [this section](xxx).
 
 ## Generate mirror page {#generating-mirror-page}
 
@@ -104,15 +104,15 @@ For example, you want to send an email containing Japanese characters. To make s
 
 To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
 
-![](assets/email-smtp-bounce.png)
+![](assets/email-smtp-encoding.png)
 
 ## Manage bounce emails {#managing-bounce-emails}
 
 The **[!UICONTROL SMTP]** tab of the delivery properties lets you also configure the management of bounce mails.
 
-* By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
+* **[!UICONTROL Errors-to-address]**: By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
 
-* You can also define another address to which the unprocessed bounced emails are forwarded in order to investigate the reasons for bouncing when they could not be automatically qualified by the application.
+* **[!UICONTROL Bounce address]**: You can also define another address to which the unprocessed bounced emails are forwarded. This address allows to investigate the reasons for bouncing when emails could not be automatically qualified by the application.
 
 Each of these fields can be personalized using the dedicated icon. Learn more on personalization fields in [this section](personalization-fields.md).
 
@@ -133,4 +133,6 @@ Values are encoded automatically if necessary.
 >Adding a script for inserting additional SMTP headers is reserved for advanced users.
 >
 >The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
+
+![](assets/email-smtp-headers.png)
 
