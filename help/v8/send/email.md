@@ -46,7 +46,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
       ![](assets/include-greetings.png)
 
-      Browse to the Preview tab to check personalization by selecting a recipient.
+      Browse to the preview tab to check personalization by selecting a recipient.
    
       ![](assets/perso-check.png)
 
