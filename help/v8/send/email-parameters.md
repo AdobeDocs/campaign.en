@@ -88,12 +88,6 @@ Select the format of the email in the lower section of the window:
 >
 >For more on defining the email content, see [this section](xxx).
 
-## Generate mirror page {#generating-mirror-page}
-
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
-
-Learn how to insert a link to the mirror page in [this section](mirror-page.md).
-
 ## Set character encoding {#character-encoding}
 
 In the **[!UICONTROL SMTP]** tab of the delivery parameters, the **[!UICONTROL Character encoding]** section allows you to set a specific encoding.
@@ -136,3 +130,9 @@ Values are encoded automatically if necessary.
 
 ![](assets/email-smtp-headers.png)
 
+<!--
+## Generate mirror page {#generating-mirror-page}
+
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
+
+Learn how to insert a link to the mirror page in [this section](mirror-page.md).-->
