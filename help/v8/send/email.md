@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 ---
 # Design and send emails
 
-Email deliveries let you send personalized emails to the target population. [Learn more](../send/send.md).
+Email deliveries let you send personalized emails to the target population. [Learn more](../send/send.md)
 
 ## Create your first email delivery
 
