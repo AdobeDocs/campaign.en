@@ -20,14 +20,14 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
->[!NOTE]
->
->Please note that the 32-bit version of the Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
-
 ### Operating systems{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
 * **Microsoft Windows** 11, 10, 8
+
+>[!NOTE]
+>
+>Please note that the 32-bit version of the Client Console is deprecated starting 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 
 ### Web browser{#web-browsers}
 
@@ -46,7 +46,8 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 
 External databases compatible with Adobe Campaign Federated Data Access (FDA) module are listed below. [Learn more](../connect/fda.md).
 
-* **Amazon Redshift**
+* **[!DNL Amazon Redshift]**
+* **[!DNL Azure Synapse]**, starting Campaign v8.5
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

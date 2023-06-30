@@ -18,8 +18,6 @@ breadcrumb-title: Campaign overview
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
-  + Technotes{#technotes}
-    + [Migrate technical operator to Developer Console](start/ims-migration.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
@@ -42,6 +40,7 @@ breadcrumb-title: Campaign overview
     + Push notifications {#push}
       + [Create and send push notifications](send/push.md)
       + [Configure push notification channel](send/push-settings.md)
+      + [Configure your push notifications with Data Collection](send/push-data-collection.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)

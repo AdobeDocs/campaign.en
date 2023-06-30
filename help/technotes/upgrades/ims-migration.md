@@ -1,8 +1,6 @@
 ---
-title: Migration of tech users to Technical account on Developer console
-description: Migration of tech users to Technical account on Developer console
-hide: yes
-hidefromtoc: yes
+title: Migration of technical users to Adobe Developer console
+description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
@@ -40,7 +38,7 @@ Once you have access to your Campaign project, you can add services including AP
 
 ### Step 2 - Add an API to your project using Server to Server authentication{#ims-migration-step-2}
 
-Once your project is created in the Adobe Developer Console, add an API that uses Server to Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.
 
@@ -58,7 +56,25 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
 
-Last step is to update the technical operator in Adobe Campaign Client Console. 
+
+This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
+
+You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator.
+To update this operator, follow these steps:
+
+1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. Access the existing technical operator used for APIs.
+1. Browse to the folder permissions, and check rights.
+1. Apply the same permissions to the newly created technical operator. This operator's email is the **Technical Account Email** value copied earlier.
+1. Save your changes.
+
+
+>[!CAUTION]
+>
+>The new technical operator must have made at least one API call to be added to Campaign Client Console.
+>
+
+<!--
 
 >[!CAUTION]
 >
@@ -67,7 +83,7 @@ Last step is to update the technical operator in Adobe Campaign Client Console.
 To update the technical operator authentication mode to IMS, follow these steps:
 
 1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
-1. Edit the existing technical operator used fir APIs.
+1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.
 1. Update the authentication mode to `ims`, as follows:
@@ -136,6 +152,7 @@ You can also update the technical operator programmatically, using SQL scripts o
         </soap:Body>
     </soap:Envelope>
     ```
+-->
 
 ### Step 5 -Validate your configuration {#ims-migration-step-5}
 
@@ -148,6 +165,11 @@ You must update the API integrations with your third-party systems.
 
 For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+
+### Step 7 - Remove the old technical operator {#ims-migration-step-7}
+
+
+After the migration of all API/custom code integration with Technical account user. You can delete the old technical operator from Campaign client console. 
 
 ### Soap calls samples{#ims-migration-samples}
 

@@ -4,12 +4,72 @@ description: Latest Campaign v8 release
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
-hidefromtoc: no
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
 # Latest release{#latest-release}
 
-This page lists new capabilities, improvements and fixes coming with the **latest Campaign v8 Release**.
+Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. Adobe strongly recommends all customers to upgrade to the latest version.
+
+As a Managed Cloud Services user, your instance is upgraded by Adobe with every new release. Adobe will contact you and upgrade your environments. Campaign Client Console **must be upgraded to the same version** as Campaign servers. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
+
+In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+
+## Release 8.5 {#release-8-5}
+
+_June 30, 2023_
+
+**What's new?**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Enhanced Push notification service</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>Campaign 8.5 is introducing our latest Push notification service on v8, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
+<p>For more information, refer to the <a href="../send/push-data-collection.md">detailed documentation</a>.</p>
+
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Compatibility updates**
+
+* The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
+* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+**Improvements**
+
+* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
+* You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
+* Delivery preparation has been optimized.
+* A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access. Learn more in [this section](../config/external-accounts.md).
+
+**Security enhancements**
+
+* Starting Campaign v8.5, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
+* You can no longer create operators from Campaign Client Console. The user interface has been updated accordingly. You must now use Adobe Admin Console. [Learn more](../start/gs-permissions.md).
+* Several third-party tools have been updated to optimize security.
+
+**Patches**
+
+* Fixed an issue which could lead to special characters in the HTML content of a delivery being incorrectly encoded in several browsers. (NEO-60081)
+* Fixed an issue which could prevent you from saving a report on a Campaign v8 Enterprise (FFDA) deployment. (NEO-56836)
+* Fixed an issue when inserting or updating data into a custom FFDA schema via an Update Data workflow activity. (NEO-54708)
+* Fixed an issue which prevented the database cleanup workflow from removing addresses in the nms:address table on FFDA. (NEO-54460)
+* Fixed an issue with the billing workflow which could fail with a "Compilation memory exhausted" error. (NEO-51137)
+* Fixed an issue which could prevent the GPG decryption from working correctly in the Data loading (file) workflow activity. (NEO-50257)
+* Fixed an issue which prevented the `JSPContext.sqlExecWithOneParam` function from working. (NEO-50066)
+* Fixed an issue which led to delivery failures when using non-printable characters in personalization fields. (NEO-48588)
+* Fixed an issue which could cause delivery errors when inserting Adobe Target dynamic images. (NEO-62689)
+* Fixed an issue to prevent browsers from adding extra spaces when using conditional content in a delivery. (NEO-62132)
+* Fixed an issue which caused a popup window to open when clicking on an image in the email content editor. (NEO-60752)
+* Fixed an issue which could lead to an error and prevent you from scrolling when editing the content of a delivery. (NEO-61364)
+* Adobe Analytics connector now exports the metrics with the correct channel type. It was previously always set as 'email' channel. (NEO-26340)
+
 
 ## Release 8.4.5 {#release-8-4-5}
 
@@ -24,9 +84,6 @@ _April 3, 2023_
 * Fixed a regression issue introduced in 8.3.8 which could prevent the delivery status from being correctly updated for deliveries with negative IDs. (NEO-54675)
 * Fixed an issue with boolean fields when importing data using the Big Query connector (NEO-49181)
 
->[!CAUTION]
->
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
 
 ## Release 8.4.4 {#release-8-4-4}
 
@@ -40,11 +97,6 @@ _March 8, 2023_
 
 * Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
 * Fixed an issue during replication which could lead to a web server crash. (NEO-53670)
-
-
->[!CAUTION]
->
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
 
 
 ## Release 8.4.3 {#release-8-4-3}
@@ -79,6 +131,3 @@ _January 27, 2023_
 * Fixed an issue cause could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)
 
 
->[!CAUTION]
->
-> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console). 
