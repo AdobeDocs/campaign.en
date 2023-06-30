@@ -10,7 +10,7 @@ exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 
 The Adobe Campaign Managed Cloud Service Destination and Source connectors allow seamless integration between Adobe Campaign and Adobe Experience Platform. With this integration, you can:
 
-* Send Adobe Experience Platform audiences over to Adobe Campaign, and send back delivery and tracking logs into Adobe Experience Platfor mfor analysis purpose,
+* Send Adobe Experience Platform audiences over to Adobe Campaign, and send back delivery and tracking logs into Adobe Experience Platform for analysis purpose,
 * Bring Adobe Experience Platform profile attributes into Adobe Campaign and have a sync process in place so that they can be updated on a regular basis.
 
 ## Send Adobe Experience Platform audiences to Campaign {#audiences}
