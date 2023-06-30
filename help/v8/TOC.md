@@ -39,7 +39,9 @@ breadcrumb-title: Campaign overview
       + [Link to the mirror page](send/mirror-page.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
-    + [Push notifications](send/push.md)
+    + Push notifications {#push}
+      + [Create and send push notifications](send/push.md)
+      + [Configure push notification channel](send/push-settings.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
@@ -164,7 +166,6 @@ breadcrumb-title: Campaign overview
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
     + [Email settings](config/email-settings.md)
-    + [Push settings](config/push-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
