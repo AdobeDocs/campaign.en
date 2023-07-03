@@ -84,9 +84,10 @@ Select the format of the email in the lower section of the window:
 
   The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.
 
+<!--
 >[!NOTE]
 >
->For more on defining the email content, see [this section](xxx).
+>For more on defining the email content, see [this section]().-->
 
 ## Set character encoding {#character-encoding}
 

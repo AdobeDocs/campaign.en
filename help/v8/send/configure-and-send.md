@@ -63,13 +63,13 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
       ![](assets/delivery-waves-calendar.png)
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
    >[!IMPORTANT]
    >
    >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
    >
-   >You must also allow enough time for retries when configuring the last waves. See [this section](xxx).
+   >You must also allow enough time for retries when configuring the last waves. <!--See [this section]().-->
 
 1. To monitor your sends, go to the delivery logs. See [this page](send.md)<!--ref TBC-->.
 
