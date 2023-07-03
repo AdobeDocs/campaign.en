@@ -74,12 +74,11 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
 Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
 
-
 Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
 Learn more in the following sections:
 
-* [Design an email in Campaign]()
+<!--[Design an email in Campaign]-->
 * [Create and use an email template](../send/create-templates.md)
 * [Select the audience of your email](../audiences/gs-audiences.md)
 * [Validate a delivery and send proofs](preview-and-proof.md)
