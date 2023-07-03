@@ -97,6 +97,7 @@ The two examples below are the most common use cases for using multiple waves.
 
   ![](assets/delivery-waves-ex-call-center.png)
 
+<!--
 ## Adjust delivery failure management {#delivery-failure-management}
 
 ### Configure retries {#configure-retries}
@@ -145,9 +146,9 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
-* [Monitoring a delivery](../../delivery/using/about-delivery-monitoring.md)
-* [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md)
-* [About message tracking](../../delivery/using/about-message-tracking.md)
+* [Monitoring a delivery](send.md)
+* [Understanding delivery failures](delivery-failures.md)
+* [About message tracking]
 
 ## Schedule the delivery sending {#schedule-delivery-sending}
 
@@ -157,7 +158,7 @@ You can defer the delivery of messages in order to schedule the delivery or to m
 
 1. Specify a start date in the **[!UICONTROL Contact date]** field.
 
-  ![](assets/send-schedule-contact-date.png)
+  ![](assets/)
 
 1. You can then start the delivery analysis, then confirm the delivery sending. However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
 
@@ -165,7 +166,7 @@ You can defer the delivery of messages in order to schedule the delivery or to m
   >
   >Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
 
-  ![](assets/send-scheduled-date.png)
+  ![](assets/)
 
 In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
 
@@ -190,3 +191,5 @@ Dates and times are expressed in the time zone of the current operator. The **[!
 For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone:
 
 ![](assets/send-schedule-time-zone.png)
+
+-->
