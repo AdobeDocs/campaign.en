@@ -35,6 +35,7 @@ breadcrumb-title: Campaign overview
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
       + [Link to the mirror page](send/mirror-page.md)
+      + [Define additional email parameters](send/email-parameters.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
     + Push notifications {#push}
@@ -65,6 +66,7 @@ breadcrumb-title: Campaign overview
     + Validate your delivery {#validate}
       + [Preview and proofs](send/preview-and-proof.md)
       + [Delivery analysis](send/delivery-analysis.md)
+    + [Configure and send the delivery](send/configure-and-send.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
