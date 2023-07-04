@@ -8,11 +8,13 @@ badge: label="Limited availability" type="Informative"
 ---
 # Revised push notification configuration {#push-notifications-config}
 
+Campaign v8.5 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. 
+
 >[!AVAILABILITY]
 >
-> This feature is exclusively accessible to new customers starting from release 8.5 and progressively rolled out to a set of selected customers. If your environment was provisioned prior to June 2023, you must follow the procedures detailed [in this page](push-settings.md).
+> This feature is exclusively accessible to new customers starting from Campaign v8.5 and progressively rolled out to a set of selected customers. If your environment was provisioned prior to June 2023, this page does not apply to you, and you must follow the procedures detailed [in this page](push-settings.md).
 
-To send push notifications in Adobe Campaign, you need to:
+In the context of this updated implementation, to send push notifications in Adobe Campaign, follow these steps:
 
 1. [Create an App surface in Adobe Experience Platform Data Collection](#create-app-surface)
 

@@ -28,7 +28,7 @@ _June 30, 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign 8.5 is introducing our latest Push notification service on v8, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
+<td><p>Campaign v8.5 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
 <p>For more information, refer to the <a href="../send/push-data-collection.md">detailed documentation</a>.</p>
 
 </td> 

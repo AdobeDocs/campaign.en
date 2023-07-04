@@ -7,7 +7,7 @@ role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
 ---
-# AEP SDK + Campaign: configure push notification channel {#push-notification-configuration}
+# Configure push notification channel {#push-notification-configuration}
 
 Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform.
 
