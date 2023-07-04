@@ -108,7 +108,7 @@ To do this, follow the steps below.
     * To send the delivery immediately, select [**Deliver as soon as possible**].
     * To schedule the sending to a later date, select **[!UICONTROL Postpone the delivery]**. [Learn more](#schedule-delivery-sending)
 
-1. Click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. Click **[!UICONTROL Analyze]**. For more on this, see [this section](delivery-analysis.md).
 
     ![](assets/delivery-send-analyze.png)
 
