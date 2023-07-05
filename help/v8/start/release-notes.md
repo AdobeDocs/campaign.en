@@ -14,7 +14,7 @@ As a Managed Cloud Services user, your instance is upgraded by Adobe with every 
 
 In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
-## Release 8.5 {#release-8-5}
+## Release 8.5.1 {#release-8-5}
 
 _June 30, 2023_
 
@@ -28,7 +28,7 @@ _June 30, 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
+<td><p>Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
 <p>For more information, refer to the <a href="../send/push-data-collection.md">detailed documentation</a>.</p>
 
 </td> 
@@ -50,7 +50,7 @@ _June 30, 2023_
 
 **Security enhancements**
 
-* Starting Campaign v8.5, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
+* Starting Campaign v8.5.1, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
 * You can no longer create operators from Campaign Client Console. The user interface has been updated accordingly. You must now use Adobe Admin Console. [Learn more](../start/gs-permissions.md).
 * Several third-party tools have been updated to optimize security.
 
