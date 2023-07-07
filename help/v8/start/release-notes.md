@@ -101,7 +101,7 @@ _June 30, 2023_
 <p>
 </td>  
 </tr></table>
--->
+
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -121,7 +121,7 @@ _June 30, 2023_
 <p>
 </td>
 </tr></table>
-
+-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -129,16 +129,14 @@ _June 30, 2023_
 <p>
 </td>
 <td>
-<div><p>Push Notifications 
-<div>for Google Android</p>
+<div><p>Push Notifications for Android</p>
 <div><p style="text-align:center">up to <strong>x5</strong> faster</p>
 <div><p>from 4M/hour to <strong>20M/hour</strong></p>
 </div>
 <p>
 </td>
 <td>
-<div><p>Push Notifications
-<div>for Apple iOS</p>
+<div><p>Push Notifications for iOS</p>
 <div><p style="text-align:center">up to <strong>x2.2</strong> faster</p>
 <div><p>from 9M/hour to <strong>20M/hour</strong></p>
 </div>
