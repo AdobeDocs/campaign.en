@@ -135,8 +135,11 @@ _June 30, 2023_
 </tr></table>
 
 
-
+* The new Push notification service brings significant increased throughput. 
 * SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
+
+**General improvements**
+
 * You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
 * Delivery preparation has been optimized.
 * A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access. Learn more in [this section](../config/external-accounts.md).
