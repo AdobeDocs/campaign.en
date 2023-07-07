@@ -136,13 +136,13 @@ _June 30, 2023_
 </td>
 <td>
 <div><p>Push Notifications - iOS</p>
-<div><p style="text-align:center">up to <strong>2.2x</strong> faster</p>
+<div><p>up to <strong>2.2x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>SMS throughtput</p>
-<div><p style="text-align:center">up to <strong>5x</strong> faster</p>
+<div><p>up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
