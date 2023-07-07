@@ -46,22 +46,22 @@ _June 30, 2023_
 <p>
 </td>
 <td>
-<div><h2>up to <strong>x5</strong> faster</h2>
-<div><h4>for Google Android Push Notifications</h4>
+<div><h1>up to <strong>x5</strong> faster</h2>
+<div><h3>for Google Android Push Notifications</h4>
 <div><p>from 4M/hour to 20M/hour</p>
 </div>
 <p>
 </td>
 <td>
-<div><h2>up to <strong>x2.2</strong> faster</h2>
-<div><h4>for Apple iOS Push Notifications</h4>
+<div><h1>up to <strong>x2.2</strong> faster</h2>
+<div><h3>for Apple iOS Push Notifications</h4>
 <div><p>from 9M/hour to 20M/hour</p>
 </div>
 <p>
 </td>
 <td>
-<div><h2>up to <strong>x5</strong> faster</h2>
-<div><h4>for SMS throughtput</h4>
+<div><h1>up to <strong>x5</strong> faster</h2>
+<div><h3>for SMS throughtput</h4>
 <div><p>from 9M/hour (Sending) and 60K/hour (Feedback updates) to 20M/hour (global)</p>
 </div>
 <p>
