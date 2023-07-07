@@ -123,25 +123,25 @@ _June 30, 2023_
 </tr></table>
 -->
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
 <img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
 <p>
 </td>
 <td>
-<div><p>Push Notifications for Android</p>
+<div><p>Push Notifications - Android</p>
 <div><p>up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
-<div><p>Push Notifications for iOS</p>
+<div><p>Push Notifications - iOS</p>
 <div><p style="text-align:center">up to <strong>2.2x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
-<div><p>SMS throughtput
+<div><p>SMS throughtput</p>
 <div><p style="text-align:center">up to <strong>5x</strong> faster</p>
 </div>
 <p>
