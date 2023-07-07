@@ -81,6 +81,30 @@ _June 30, 2023_
 
 
 
+
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="Throughput improvements" src="../start/assets/do-not-localize/2x.png">
+<p>
+</td>
+<td align="bottom">
+<div><p> </p>
+<div><p> </p>
+<div><p> </p>
+<div><p> </p>
+<div>up to <strong>x2.2</strong> faster
+<div>for Apple iOS Push Notifications
+<div><p>from 9M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+</tr></table>
+
+
+
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
