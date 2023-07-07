@@ -55,7 +55,7 @@ _June 30, 2023_
 </div>
 <p>
 </td>
-<td>
+<td align="center">
 <p>Up to</p>
 <img alt="x2.2" src="../start/assets/do-not-localize/2x.png">
 </a>
