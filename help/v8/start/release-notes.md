@@ -36,12 +36,10 @@ _June 30, 2023_
 </tbody> 
 </table>
 
-**Compatibility updates**
-
-* The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
-* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 **Improvements**
+
+
+
 
 * SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
 * You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
@@ -53,6 +51,13 @@ _June 30, 2023_
 * Starting Campaign v8.5.1, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
 * You can no longer create operators from Campaign Client Console. The user interface has been updated accordingly. You must now use Adobe Admin Console. [Learn more](../start/gs-permissions.md).
 * Several third-party tools have been updated to optimize security.
+
+**Compatibility updates**
+
+* The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
+* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+
 
 **Patches**
 
