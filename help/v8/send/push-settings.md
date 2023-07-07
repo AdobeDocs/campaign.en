@@ -5,11 +5,9 @@ version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
-hide: yes
-hidefromtoc: yes
 exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
 ---
-# AEP SDK + Campaign: configure push notification channel {#push-notification-configuration}
+# Configure push notification channel {#push-notification-configuration}
 
 Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform.
 
@@ -22,10 +20,9 @@ To set up your app with Adobe Experience Platform Mobile SDKs, follow these step
 1. Get the Adobe Experience Platform Mobile SDK as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. (optional) Enable logging and lifecycle metrics, as detailed [in this page](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
 1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
-1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
+1. Configure your iOS and Android mobile services in Adobe Campaign as detailed [in this page](#push-service).
 1. Install and configure [Adobe Campaign Extension](#configure-extension) in your mobile property.
-1. Configure your iOS and Android mobile services in Adobe Campaign as detailed [in this page](../send/push.md#push-config).
-
+1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
 
 ## Prerequisites {#before-starting}
 
@@ -144,6 +141,129 @@ Once created, open the new tag property and create a library. To do this:
 1. Select **Add All Changed Resources**, and **Save and Build to development**.
 1. Finally, set this library as your working library from the **Select a working library** button.
 
+## Configure your mobile services in Campaign {#push-service}
+
+Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create two services (one for iOS devices, one for Android devices) to be able to send push notifications from **[!DNL Adobe Campaign]**.
+
+Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android apps to send on iOS and Android devices.
+
+To create a service to send push notifications, follow the steps below:
+
+1. Browse to **[!UICONTROL Profiles and Targets > Services and Subscriptions]** tab, and click **[!UICONTROL Create]**.
+
+   ![](assets/new-service-push.png){width="800" align="left"}
+
+1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**, and select a **[!UICONTROL Mobile application]** type.
+
+   >[!NOTE]
+   >
+   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. Learn more about target mappings in [this page](../audiences/target-mappings.md).
+
+1. Then use the **[!UICONTROL Add]** icon on the right to define the mobile applications that use this service.
+
+>[!BEGINTABS]
+
+>[!TAB iOS]
+
+To create an app for iOS devices, follow these steps:
+
+1. Select **[!UICONTROL Create an iOS application]** and click **[!UICONTROL Next]**.
+
+   ![](assets/new-ios-app.png){width="600" align="left"}
+
+1. Enter the name of your app in the **[!UICONTROL Label]** field.
+1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
+
+   In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notification and then provides the application with the image to display within the notification.
+
+   ![](assets/ios-app-parameters.png){width="600" align="left"}
+
+1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
+
+1. Browse to the **[!UICONTROL Sounds]** tab to define a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
+
+1. Click **[!UICONTROL Next]** to start configuring the development application.
+
+1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
+
+   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK.    
+   
+   Learn more in [the Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   
+
+    >[!NOTE]
+    >
+    > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
+    >
+    > You cannot use the same certificate for the development version (sandbox) and the production version of the application.
+
+1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+
+1. Select the **[!UICONTROL Authentication mode]**. Two modes are available:
+
+   * (Recommended) **[!UICONTROL Token-based authentication]**: Fill in the APNs connection settings **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** and **[!UICONTROL Bundle Id]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key...]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   
+   * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
+
+   You can change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
+
+1. Use the **[!UICONTROL Test the connection]** button to validate your configuration.
+
+1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above.
+
+1. Click **[!UICONTROL Finish]**.
+
+Your iOS application is now ready to be used in Campaign.
+
+>[!TAB Android]
+
+To create an app for Android devices, follow these steps:
+
+1. Select **[!UICONTROL Create an Android application]** and click **[!UICONTROL Next]**.
+
+   ![](assets/new-android-app.png){width="600" align="left"}
+
+1. Enter the name of your app in the **[!UICONTROL Label]** field.
+1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.
+
+   Make sure that the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 
+   
+   Learn more in [the Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   
+
+    >[!NOTE]
+    >
+    > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
+    >
+
+1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Select **HTTP v1** in  **[!UICONTROL API version]** drop-down list. 
+1. Click **[!UICONTROL Load project json file to extract project details...]** link to load your JSON key file. For more information on how to extract your JSON file, refer to [Google Firebase documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+   You can also enter manually the following details:
+      * **[!UICONTROL Project Id]**
+      * **[!UICONTROL Private Key]**
+      * **[!UICONTROL Client Email]**
+
+1. Use the **[!UICONTROL Test the connection]** button to validate your configuration.
+
+   >[!CAUTION]
+   >
+   >The **[!UICONTROL Test connection]** button does not check if the MID server has access to the FCM server.
+
+1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
+
+1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. Your Android application is now ready to be used in Campaign.
+
+Below are the FCM payload names to further personalize your push notification:
+
+| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
+|:-:|:-:|:-:|
+| data message  | N/A  | validate_only  |
+| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+
+>[!ENDTABS]
 
 ## Configure Adobe Campaign Extension in your mobile property {#configure-extension}
 
@@ -157,9 +277,3 @@ This extension, which applies to both Campaign Classic v7 and Campaign v8, is pr
 1. Enter settings as described in [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
 
 You can now add Campaign to your app, as detailed in  [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
-
-## Configure your mobile services in Campaign{#push-service}
-
-Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create two services (one for iOS devices, one for Android devices) to be able to send push notifications from **[!DNL Adobe Campaign]**.
-
-Learn how to create and configure a service for iOS and Android push notifications in [this section](../send/push.md#push-config).

@@ -1,8 +1,6 @@
 ---
-title: Migration of tech users to Technical account on Developer console
-description: Migration of tech users to Technical account on Developer console
-hide: yes
-hidefromtoc: yes
+title: Migration of technical users to Adobe Developer console
+description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 

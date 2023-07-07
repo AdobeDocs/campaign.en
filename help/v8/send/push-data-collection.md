@@ -4,20 +4,29 @@ description: Get started with push notification in Campaign
 feature: Push
 role: Data Engineer
 level: Beginner
+badge: label="Limited availability" type="Informative"
 ---
-# Configure your push notifications with Data Collection {#push-notifications-config}
- 
-To send push notifications in Adobe Campaign, you need to:
+# Revised push notification configuration {#push-notifications-config}
 
-1. [Create an App surface in Adobe Experience Platform Data Collection.](#create-app-surface)
+Campaign v8.5 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. 
 
-1. [Configure your application settings in Adobe Campaign.](#push-config-campaign)
+>[!AVAILABILITY]
+>
+> This feature is exclusively accessible to new customers starting from Campaign v8.5 and progressively rolled out to a set of selected customers. If your environment was provisioned prior to June 2023, this page does not apply to you, and you must follow the procedures detailed [in this page](push-settings.md).
 
-1. [Create and configure a mobile property in Adobe Experience Platform Data Collection.](#create-mobile-property)
+In the context of this updated implementation, to send push notifications in Adobe Campaign, follow these steps:
+
+1. [Create an App surface in Adobe Experience Platform Data Collection](#create-app-surface)
+
+1. [Configure your application settings in Adobe Campaign](#push-config-campaign)
+
+1. [Create and configure a mobile property in Adobe Experience Platform Data Collection](#create-mobile-property)
+
+1. [Add Adobe Adobe Experience Platform Assurance extension](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recommended)
 
 1. [Add Campaign Classic to your mobile application](#campaign-mobile-ap)
 
-1. [Create a delivery for both iOS and Android.](##push-create)
+1. [Create a delivery for both iOS and Android](##push-create)
 
 >[!NOTE]
 >
@@ -45,17 +54,17 @@ The mobile app push credential registration is required to authorize Adobe to se
 
         1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. 
         
-         The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
+            The app Bundle ID can be found in the **General** tab of the primary target in **XCode** of your Apple developer account.
         
-        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
+        1. Switch on **[!UICONTROL Push Credentials]** to add your credentials.
         
         1. Drag and drop your .p8 Apple Push Notification Authentication Key file. 
         
-            This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
+            This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page of your Apple developer account.
 
         1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. 
         
-         It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
+            It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
         
         1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
 
@@ -65,7 +74,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
         1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
 
-        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
+        1. Switch **[!UICONTROL Push Credentials]** to add your credentials.
 
         1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -109,7 +118,7 @@ To create an app for iOS devices, follow these steps:
 
    ![](assets/push-config-6.png)
 
-1. From the Launch app configurations list, select the App surface previously created in this section. Click **[!UICONTROL Next]**.
+1. From the **[!UICONTROL Launch app configurations list]** window, select the App surface previously created in this section. Click **[!UICONTROL Next]**.
 
    ![](assets/push-config-7.png)
 
@@ -156,7 +165,7 @@ To create an app for Android devices, follow these steps:
 
       ![](assets/push-config-10.png)
 
-1. From the Launch app configurations list, select the App surface created in this section and click **[!UICONTROL Next]**.
+1. From the **[!UICONTROL Launch app configurations list]** window, select the App surface created in this section and click **[!UICONTROL Next]**.
 
    ![](assets/push-config-11.png)
 
@@ -220,11 +229,13 @@ Below are the FCM payload names to further personalize your push notification:
    * **[!UICONTROL Registration endpoint]** or **[!UICONTROL Tracking endpoint]** URLs can be found in the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** menu in Campaign.
    * **[!UICONTROL Integration keys]** can be found in the mobile app configured in [this section](#create-app).
 
+   ![](assets/push-config-17.png)
+
 1. Click **[!UICONTROL Save]**.
 
 1. You now need to publish the configuration from the **[!UICONTROL Publishing flow]** menu. [Learn more](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-Your mobile property will now be automatically sync with the **[!UICONTROL Sync Mobile apps from AEP Launch]** technical workflow. [Learn more](../../automation/workflow/technical-workflows.md#list-technical-workflows)
+Your mobile property will now be automatically sync with the **[!UICONTROL Adobe Experience Platform Data Collection]** technical workflow. [Learn more](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
 ## Add Campaign Classic to your mobile application {#campaign-mobile-app}
 

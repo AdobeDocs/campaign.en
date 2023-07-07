@@ -2,6 +2,8 @@
 product: campaign
 title: Campaign web components and version 100 in Chrome Firefox, and Edge browsers
 description: Campaign web components and version 100 in Chrome, Firefox, and Edge browsers
+hide: yes
+hidefromtoc: yes
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}

@@ -81,11 +81,6 @@ To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL 
 
 The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
 
->[!CAUTION]
->
->The **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) external account **must not** be enabled in Adobe Campaign v8.
->
-
 ### Execution instance {#execution-instance}
 
 In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
@@ -120,6 +115,10 @@ These external accounts can be used to import or export data to Adobe Campaign u
 * **FTP and SFTP** - The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
 
     To do so, specify in this external account the address and credentials used to establish the connection to the SFTP or FTP server.
+
+    >[!NOTE]
+    >
+    >Starting from release 8.5, you can now securely authenticate using a private key when configuring your SFTP external account. [Learn more on key management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
 
 * **Amazon Simple Storage Service (S3)** - The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
 
