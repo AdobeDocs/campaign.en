@@ -40,7 +40,7 @@ _June 30, 2023_
 
 
 
-
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <div>
@@ -82,7 +82,6 @@ _June 30, 2023_
 
 
 
-
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <img alt="Throughput improvements" src="../start/assets/do-not-localize/2x.png">
@@ -93,14 +92,16 @@ _June 30, 2023_
 <div><p> </p>
 <div><p> </p>
 <div><p> </p>
-<div><p font-size="14">up to <strong>x2.2</strong> faster</p>
-<div>for Apple iOS Push Notifications
+<div><p>Push Notifications
+<div><strong>x2.2</strong> faster</p>
+<div>for Apple iOS </p>
+<div>
 <div><p>from 9M/hour to 20M/hour</p>
 </div>
 <p>
-</td>
+</td>  
 </tr></table>
-
+-->
 
 
 
@@ -111,23 +112,23 @@ _June 30, 2023_
 <p>
 </td>
 <td>
+<div><p>Push Notifications for Google Android</p>
 <div><p font-size="14">up to <strong>x5</strong> faster</p>
-<div>for Google Android Push Notifications
-<div><p>from 4M/hour to 20M/hour</p>
+<div><p>from 4M/hour to <strong>20M/hour</strong></p>
 </div>
 <p>
 </td>
 <td>
+<div><p>Push Notifications for Apple iOS</p>
 <div><p font-size="14">up to <strong>x2.2</strong> faster</p>
-<div>for Apple iOS Push Notifications
-<div><p>from 9M/hour to 20M/hour</p>
+<div><p>from 9M/hour to <strong>20M/hour</strong></p>
 </div>
 <p>
 </td>
 <td>
+<div><p> SMS throughtput - sending and feedback</p>
 <div><p font-size="14">up to <strong>x5</strong> faster</p>
-<div>for SMS throughtput
-<div><p>from 9M/hour (Sending) and 60K/hour (Feedback updates) to 20M/hour (global)</p>
+<div><p>from 9M/hour (sending) and 60K/hour (feedback updates) to <strong>20M/hour</strong> (global)</p>
 </div>
 <p>
 </td>
