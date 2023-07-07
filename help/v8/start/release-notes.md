@@ -36,8 +36,78 @@ _June 30, 2023_
 </tbody> 
 </table>
 
-**Improvements**
+**Improvements on mobile channels**
 
+
+
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<div>
+<p>Up to</p>
+<img alt="x5" src="../start/assets/do-not-localize/5x.png">
+</a>
+<div><strong>faster</strong>
+<p>to send Google Android Push Notifications</strong>
+<div>
+<p></p>
+<div><p>from 4M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+<td>
+<p>Up to</p>
+<img alt="x2.2" src="../start/assets/do-not-localize/2x.png">
+</a>
+<div>
+<div><strong>faster</strong>
+<p>to send Apple iOS Push Notifications</strong>
+<p></p>
+<div><p>from 9M/hour to 20M/hour</p>
+</div>
+<div>
+<td>
+<p>Up to</p>
+<img alt="x5" src="../start/assets/do-not-localize/5x.png">
+</a>
+<div><strong>faster</strong>
+<p>to send SMS and get feedback</strong>
+<div>
+<p></p>
+<div><p>from 9M/hour (sending) and 60K/hour (feedback updates) to 20M/hour (global)</p>
+</div>
+</td>
+</tr></table>
+
+
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>up to <strong>x5</strong> faster
+<div>for Google Android Push Notifications
+<div><p>from 4M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+<td>
+<div>up to <strong>x2.2</strong> faster
+<div>for Apple iOS Push Notifications
+<div><p>from 9M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+<td>
+<div>up to <strong>x5</strong> faster
+<div>for SMS throughtput
+<div><p>from 9M/hour (Sending) and 60K/hour (Feedback updates) to 20M/hour (global)</p>
+</div>
+<p>
+</td>
+</tr></table>
 
 
 
