@@ -130,31 +130,27 @@ _June 30, 2023_
 </td>
 <td>
 <div><p>Push Notifications for Android</p>
-<div><p style="text-align:center">up to <strong>x5</strong> faster</p>
-<div><p>from 4M/hour to <strong>20M/hour</strong></p>
+<div><p>up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>Push Notifications for iOS</p>
-<div><p style="text-align:center">up to <strong>x2.2</strong> faster</p>
-<div><p>from 9M/hour to <strong>20M/hour</strong></p>
+<div><p style="text-align:center">up to <strong>2.2x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>SMS throughtput
-<div> Sending and feedback</p>
-<div><p style="text-align:center">up to <strong>x5</strong> faster</p>
-<div><p>from 9M/hour to <strong>20M/hour</strong></p>
+<div><p style="text-align:center">up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 </tr></table>
 
 
-* The new Push notification service brings significant increased throughput. 
-* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
+* The new Push notification service brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
+* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
 
 **General improvements**
 
