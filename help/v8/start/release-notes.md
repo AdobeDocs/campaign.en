@@ -125,7 +125,7 @@ _June 30, 2023_
 <p>
 </td>
 <td>
-<div>up to <strong>x5</strong> faster
+<div><p font-size="14">up to <strong>x5</strong> faster</p>
 <div>for SMS throughtput
 <div><p>from 9M/hour (Sending) and 60K/hour (Feedback updates) to 20M/hour (global)</p>
 </div>
