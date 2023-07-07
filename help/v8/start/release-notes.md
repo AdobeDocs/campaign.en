@@ -40,6 +40,35 @@ _June 30, 2023_
 
 
 
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div><h2>up to <strong>x5</strong> faster</h2>
+<div><h4>for Google Android Push Notifications</h4>
+<div><p>from 4M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+<td>
+<div><h2>up to <strong>x2.2</strong> faster</h2>
+<div><h4>for Apple iOS Push Notifications</h4>
+<div><p>from 9M/hour to 20M/hour</p>
+</div>
+<p>
+</td>
+<td>
+<div><h2>up to <strong>x5</strong> faster</h2>
+<div><h4>for SMS throughtput</h4>
+<div><p>from 9M/hour (Sending) and 60K/hour (Feedback updates) to 20M/hour (global)</p>
+</div>
+<p>
+</td>
+</tr></table>
+
+
 
 * SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
 * You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
