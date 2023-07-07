@@ -93,7 +93,7 @@ _June 30, 2023_
 <div><p> </p>
 <div><p> </p>
 <div><p> </p>
-<div>up to <strong>x2.2</strong> faster
+<div><p font-size="14">up to <strong>x2.2</strong> faster</p>
 <div>for Apple iOS Push Notifications
 <div><p>from 9M/hour to 20M/hour</p>
 </div>
@@ -111,14 +111,14 @@ _June 30, 2023_
 <p>
 </td>
 <td>
-<div>up to <strong>x5</strong> faster
+<div><p font-size="14">up to <strong>x5</strong> faster</p>
 <div>for Google Android Push Notifications
 <div><p>from 4M/hour to 20M/hour</p>
 </div>
 <p>
 </td>
 <td>
-<div>up to <strong>x2.2</strong> faster
+<div><p font-size="14">up to <strong>x2.2</strong> faster</p>
 <div>for Apple iOS Push Notifications
 <div><p>from 9M/hour to 20M/hour</p>
 </div>
