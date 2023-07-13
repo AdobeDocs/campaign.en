@@ -38,8 +38,6 @@ _June 30, 2023_
 
 **Improvements on mobile channels**
 
-
-
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -150,7 +148,7 @@ _June 30, 2023_
 
 
 * The new Push notification service brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
-* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
+* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication (Limited Availability). Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
 
 **General improvements**
 
