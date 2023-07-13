@@ -24,7 +24,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Campaign and
 
         ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-    1. Select the segments to send over to Adobe Campain.
+    1. Select the segments to send over to Adobe Campaign.
     1. Configure the attributes that you want to export in the audience. 
     1. Once the flow has been configured, the selected audiences will be available for activation into Adobe Campaign.
 
@@ -46,7 +46,7 @@ For example, let's say you are capturing opt-in and opt-out values in Adobe Expe
 
 >[!NOTE]
 >
->Profile attributes sync is available for profiles that are already present in Adobe Campain database.
+>Profile attributes sync is available for profiles that are already present in Adobe Campaign database.
 
 The main steps to sync Adobe Experience Platform profile attributes with Adobe Campaign are as follows:
 
