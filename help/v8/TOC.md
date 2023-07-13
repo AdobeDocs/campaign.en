@@ -18,8 +18,6 @@ breadcrumb-title: Campaign overview
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
-  + Technotes{#technotes}
-    + [Migrate technical operator to Developer Console](start/ims-migration.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
@@ -37,11 +35,13 @@ breadcrumb-title: Campaign overview
     + Emails {#emails}
       + [Design and validate emails](send/email.md)
       + [Link to the mirror page](send/mirror-page.md)
+      + [Define additional email parameters](send/email-parameters.md)
       + [Send and monitor emails](send/send.md)
     + [SMS](send/sms.md)
     + Push notifications {#push}
       + [Create and send push notifications](send/push.md)
       + [Configure push notification channel](send/push-settings.md)
+      + [Configure your push notifications with Data Collection](send/push-data-collection.md)
     + [LINE messaging](send/line.md)
     + [Direct mail](send/direct-mail.md)
     + [Twitter](send/twitter.md)
@@ -66,6 +66,7 @@ breadcrumb-title: Campaign overview
     + Validate your delivery {#validate}
       + [Preview and proofs](send/preview-and-proof.md)
       + [Delivery analysis](send/delivery-analysis.md)
+    + [Configure and send the delivery](send/configure-and-send.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)

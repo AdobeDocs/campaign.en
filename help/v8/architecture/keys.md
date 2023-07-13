@@ -69,19 +69,6 @@ In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), y
 
 ![](assets/update-data-no-internal-key.png)
 
-When using explicit reconciliation key, the **Update data** activity automatically ensures unicity of the destination schema based on this key by:
-
-1. Deduplicating incoming data (from transition) 
-1. Deduplicating data with destination table (merge) 
-
-
-![](assets/update-data-deduplicate.png)
-
->[!CAUTION]
->
->This guardrail only applies with option **[!UICONTROL Using reconciliation keys]**.
-
-
 ### Query a schema with duplicates{#query-with-duplicates}
 
 When a workflow starts running query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.

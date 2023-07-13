@@ -94,6 +94,8 @@ As a Managed Cloud Services user, Adobe deploys the Client Console for you. When
 >[!CAUTION]
 >
 >Adobe recommends leaving the option **[!UICONTROL No longer ask this question]** unselected to make sure that you are alerted when a new version of the Console is available. If this option is selected, the user is not informed that a Console upgrade is required.
+>
+
 
 
 ## Grant access to users{#grant-access}

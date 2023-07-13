@@ -12,7 +12,7 @@ exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 
 This page describes improvements and fixes included in the next Campaign v8 release. This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
 
-## Release 8.5 {#release-8-5}
+## Release 8.5.1 {#release-8-5}
 
 _June 30, 2023_
 
@@ -26,7 +26,7 @@ _June 30, 2023_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign 8.5 is introducing our latest Push notification service on v8, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
+<td><p>Campaign 8.5.1 is introducing our latest Push notification service on v8, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
 </td> 
 </tr> 
 </tbody> 
@@ -40,7 +40,7 @@ _June 30, 2023_
 **Improvements**
 
 * SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
-* Starting Campaign v8.5, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign.
+* Starting Campaign v8.5.1, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign.
 * You can now leverage Destination and Source connections to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database
 * Delivery preparation has been optimized.
 * A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access.
