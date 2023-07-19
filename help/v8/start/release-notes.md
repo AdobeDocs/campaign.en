@@ -25,6 +25,7 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
 
 For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
+
 **Mobile channel increased throughputs**
 
 * The new Push notification service announced above brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
