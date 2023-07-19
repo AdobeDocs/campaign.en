@@ -48,12 +48,6 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 </ul></div>
 <p></p>
 </td>
-<td>
-<div><p></p>
-<div><p></p>
-</div>
-<p>
-</td>
 </tr></table>
 
 
