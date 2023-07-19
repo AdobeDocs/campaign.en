@@ -42,10 +42,12 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 <div>
 <p>Comparing to Adobe Campaign v8.4.5, the following max throughput performances have been measured in Campaign v8.5.1 by Adobe testing teams, in lab conditions:</p>
 <ul>
-<li>Up to <strong>5x</strong> faster Push Notifications for Android</li>
-<li>Up to <strong>2.2x</strong> faster Push Notifications for iOS</li>
-<li>Up to <strong>5x</strong> increased SMS throughput</li>
+<li>Push Notifications (Android): up to <strong>5x</strong> faster </li>
+<li>Push Notifications (iOS): up to <strong>2.2x</strong> faster</li>
+<li>SMS throughput: up to <strong>5x</strong> faster</li>
 </ul></div>
+<td>
+</td>
 <p></p>
 </td>
 </tr></table>
