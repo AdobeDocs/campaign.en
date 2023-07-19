@@ -32,7 +32,6 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 
 * SMS throughput has also been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
 
-Comparing to Adobe Campaign v8.4.5, the following max throughput performances have been measured in Campaign v8.5.1 by Adobe testing teams, in lab conditions:
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
@@ -41,11 +40,13 @@ Comparing to Adobe Campaign v8.4.5, the following max throughput performances ha
 </td>
 <td>
 <div>
-<p>🚀  up to <strong>5x</strong> faster for Push Notifications for Android/<p>
-<p>🚀  up to <strong>2.2x</strong> faster for Push Notifications for iOS</p>
-<p>🚀  up to <strong>5x</strong> increased SMS throughput</p>
+<p>Comparing to Adobe Campaign v8.4.5, the following max throughput performances have been measured in Campaign v8.5.1 by Adobe testing teams, in lab conditions:</p>
+<ul>
+<li>Up to <strong>5x</strong> faster Push Notifications for Android</li>
+<li>Up to <strong>2.2x</strong> faster Push Notifications for iOS</li>
+<li>Up to <strong>5x</strong> increased SMS throughput</li>
 </ul></div>
-<p>
+<p></p>
 </td>
 <td>
 <div><p></p>
