@@ -40,19 +40,19 @@ Comparing to Adobe Campaign v8.4.5, the following max throughput performances ha
 </td>
 <td>
 <div><p>Push Notifications - Android</p>
-<div><p>up to <strong>5x</strong> faster</p>
+<div><p>🚀 up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>Push Notifications - iOS</p>
-<div><p>up to <strong>2.2x</strong> faster</p>
+<div><p>🚀 up to <strong>2.2x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>SMS throughtput</p>
-<div><p>up to <strong>5x</strong> faster</p>
+<div><p>🚀 up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
