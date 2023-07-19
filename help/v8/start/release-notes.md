@@ -54,12 +54,6 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 </div>
 <p>
 </td>
-<td>
-<div><p></p>
-<div><p></p>
-</div>
-<p>
-</td>
 </tr></table>
 
 
