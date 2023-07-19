@@ -18,108 +18,21 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 _June 30, 2023_
 
-**What's new?**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>Enhanced Push notification service</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
-<p>For more information, refer to the <a href="../send/push-data-collection.md">detailed documentation</a>.</p>
+**Enhanced Push notification service**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).
 
-**Improvements on mobile channels**
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<div>
-<p>Up to</p>
-<img alt="x5" src="../start/assets/do-not-localize/5x.png">
-</a>
-<div><strong>faster</strong>
-<p>to send Google Android Push Notifications</strong>
-<div>
-<p></p>
-<div><p>from 4M/hour to 20M/hour</p>
-</div>
-<p>
-</td>
-<td align="center">
-<p>Up to</p>
-<img alt="x2.2" src="../start/assets/do-not-localize/2x.png">
-</a>
-<div>
-<div><strong>faster</strong>
-<p>to send Apple iOS Push Notifications</strong>
-<p></p>
-<div><p>from 9M/hour to 20M/hour</p>
-</div>
-<div>
-<td>
-<p>Up to</p>
-<img alt="x5" src="../start/assets/do-not-localize/5x.png">
-</a>
-<div><strong>faster</strong>
-<p>to send SMS and get feedback</strong>
-<div>
-<p></p>
-<div><p>from 9M/hour (sending) and 60K/hour (feedback updates) to 20M/hour (global)</p>
-</div>
-</td>
-</tr></table>
+For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
 
+**Mobile channel increased throughputs**
 
+* The new Push notification service announced above brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<img alt="Throughput improvements" src="../start/assets/do-not-localize/2x.png">
-<p>
-</td>
-<td align="bottom">
-<div><p> </p>
-<div><p> </p>
-<div><p> </p>
-<div><p> </p>
-<div><p>Push Notifications
-<div><strong>x2.2</strong> faster</p>
-<div>for Apple iOS </p>
-<div>
-<div><p>from 9M/hour to 20M/hour</p>
-</div>
-<p>
-</td>  
-</tr></table>
+* SMS throughput has also been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
 
-
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
-<p>
-</td>
-<td>
-<div><p><strong>Push Notifications</strong> </p>
-<div><ul><li>Up to <strong>x5</strong> faster for Google Android.
-<p>From 4M/hour to <strong>20M/hour</strong></p>
-<li>Up to <strong>x2.2</strong> faster for Apple iOS
-<p>From 9M/hour to <strong>20M/hour</strong></p></ul>
-<p><strong>SMS throughtput</strong>: up to <strong>x5</strong> faster. 
-<p>From 9M/hour (sending) and 60K/hour (feedback updates) to <strong>20M/hour</strong> (global)</p>
-</div>
-<p>
-</td>
-</tr></table>
--->
+Comparing to Adobe Campaign v8.4.5, the following max throughput performances have been measured in Campaign v8.5.1 by Adobe testing teams, in lab conditions:
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
@@ -128,27 +41,24 @@ _June 30, 2023_
 </td>
 <td>
 <div><p>Push Notifications - Android</p>
-<div><p>up to <strong>5x</strong> faster</p>
+<div><p>🚀 up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>Push Notifications - iOS</p>
-<div><p>up to <strong>2.2x</strong> faster</p>
+<div><p>🚀 up to <strong>2.2x</strong> faster</p>
 </div>
 <p>
 </td>
 <td>
 <div><p>SMS throughtput</p>
-<div><p>up to <strong>5x</strong> faster</p>
+<div><p>🚀 up to <strong>5x</strong> faster</p>
 </div>
 <p>
 </td>
 </tr></table>
 
-
-* The new Push notification service brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
-* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication (Limited Availability). Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
 
 **General improvements**
 
@@ -166,7 +76,6 @@ _June 30, 2023_
 
 * The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **Patches**
