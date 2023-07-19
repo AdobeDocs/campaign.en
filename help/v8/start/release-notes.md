@@ -184,6 +184,7 @@ _June 30, 2023_
 * Fixed an issue which caused a popup window to open when clicking on an image in the email content editor. (NEO-60752)
 * Fixed an issue which could lead to an error and prevent you from scrolling when editing the content of a delivery. (NEO-61364)
 * Adobe Analytics connector now exports the metrics with the correct channel type. It was previously always set as 'email' channel. (NEO-26340)
+* Fixed an issue which could lead to errors when using the Big Query connector with datetime fields. (NEO-49768)
 
 
 ## Release 8.4.5 {#release-8-4-5}
