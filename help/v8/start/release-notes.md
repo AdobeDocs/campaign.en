@@ -28,9 +28,9 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 
 **Mobile channel increased throughputs**
 
-* The new Push notification service announced above brings significant increased throughput. For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.
+* The new Push notification service announced above brings significant increased throughput. <!--For Google Android, throughput increased from 4M/hr in v8.4 to 20M/hr in v8.5. For Apple iOS, throughput increased from 9M/hr in v8.4 to 20M/hr in v8.5.-->
 
-* SMS throughput has also been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.
+* SMS throughput has also been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication. <!--Throughput increased from 9M/hr (sending) and 60K/hr (feedback updates) in v8.4 to 20M/hr (including feedbacks) in v8.5.-->
 
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
