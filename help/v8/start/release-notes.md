@@ -43,7 +43,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
-<img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
+<br/><img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
 <p>
 </td>
 <td>
