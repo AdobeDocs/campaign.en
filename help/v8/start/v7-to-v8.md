@@ -37,6 +37,7 @@ As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign C
 >
 > As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
 
+The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
