@@ -51,7 +51,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    >[!NOTE]
    >
-   >Scheduled deliveries are not taken into account.
+   >In the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md) of Campaign, sheduled deliveries are not taken into account.
 
 1. Define the method for calculating the highest number of messages.
 
