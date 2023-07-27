@@ -25,7 +25,7 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
 
 For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
-<br/><br/>
+<br/>
 
 **Mobile channel increased throughputs**
 
