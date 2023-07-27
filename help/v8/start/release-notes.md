@@ -18,32 +18,57 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 _June 30, 2023_
 
-**What's new?**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>Enhanced Push notification service</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
-<p>For more information, refer to the <a href="../send/push-data-collection.md">detailed documentation</a>.</p>
+**Enhanced Push notification service**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).
 
-**Improvements**
+For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
 
+**Mobile channel increased throughputs**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5). </p>
+<ul>
+<li>Push Notifications (Android): up to <strong>5x</strong> faster </li>
+<li>Push Notifications (iOS): up to <strong>2.2x</strong> faster</li>
+</ul>
+<p>SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+<ul>
+<li>SMS throughput: up to <strong>5x</strong> faster</li>
+</ul>
+<p><em>These max throughput performances have been measured by Adobe testing teams, in lab conditions.</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
+**General improvements**
+
 * You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
-* Delivery preparation has been optimized.
+* Delivery preparation has been optimized, across all channels.
 * A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access. Learn more in [this section](../config/external-accounts.md).
 
 **Security enhancements**
@@ -56,7 +81,6 @@ _June 30, 2023_
 
 * The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **Patches**

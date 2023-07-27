@@ -63,15 +63,6 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 </div>
 <p>
 </td>
-<td>
-<a href="../automation/workflow/about-workflows.md">
-<img alt="Create campaigns" src="start/assets/do-not-localize/workflow.jpeg">
-</a>
-<div>
-<a href="../automation/workflow/about-workflows.md"><strong>Create workflows</strong></a>
-</div>
-<p>
-</td>
 </tr></table>
 
 
