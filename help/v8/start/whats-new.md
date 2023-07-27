@@ -26,7 +26,7 @@ Adobe Campaign makes it easy for you to get your channels in sync, with a single
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Campaign workflows](../config/workflows.md)
 
-## Personalized email marketing {#perso-email-mkt}
+### Personalized email marketing {#perso-email-mkt}
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
 
