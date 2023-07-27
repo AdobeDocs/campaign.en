@@ -28,7 +28,7 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 
 **Mobile channel increased throughputs**
 
-<!-->
+<!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
 
 * Push Notifications (Android): up to **5x** faster
