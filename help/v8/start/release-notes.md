@@ -25,7 +25,6 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
 
 For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
-<br/>
 
 **Mobile channel increased throughputs**
 
@@ -42,7 +41,7 @@ SMS throughput has undergone substantial enhancements through a series of optimi
 These max throughput performances have been measured by Adobe testing teams, in lab conditions.
 -->
 
-<table style="table-layout:auto"><tr style="border: 0;">
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
 <br/><img alt="Throughput improvements" src="../start/assets/do-not-localize/improvements.jpeg">
 <p>
