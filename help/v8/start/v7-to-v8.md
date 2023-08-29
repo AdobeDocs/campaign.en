@@ -31,12 +31,11 @@ The new offering combines best-in-class services with proactive oversight and ti
 
 As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed).
 
+Campaign v8 relies on a **hybrid architecture**. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly. [Learn more](../architecture/architecture.md).
+
 >[!NOTE]
 >
-> Campaign v8 relies on a hybrid architecture. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. [Learn more](../architecture/architecture.md)
->
-> As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
-
+>The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 

@@ -37,6 +37,9 @@ In the following sample, you will learn steps to design an email delivery in Ado
    
    ![](assets/paste-content.png)
 
+   >[!NOTE]
+   >
+   >To avoid performance issues, images included in emails cannot exceed 100 KB.
 
 1. **Personalize your message**
 

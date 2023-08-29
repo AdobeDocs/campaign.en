@@ -22,7 +22,9 @@ Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deplo
 
 >[!CAUTION]
 >
->[!DNL Adobe Campaign] v8 comes with a limit on the throughput (TPS) of our API layer. Breaking the limit leads to standard HTTP error (429). As a Managed Cloud Services user, you can contact Adobe to adapt the throttling for each API.
+>* Starting Campaign v8.5.1, the authentication process to Campaign v8 changed. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
+>
+>* [!DNL Adobe Campaign] v8 comes with a limit on the throughput (TPS) of our API layer. Breaking the limit leads to standard HTTP error (429). As a Managed Cloud Services user, you can contact Adobe to adapt the throttling for each API.
 > 
 
 ## Prerequisites

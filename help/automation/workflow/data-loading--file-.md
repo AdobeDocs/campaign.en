@@ -27,6 +27,10 @@ You can define a pre-process to be executed during file import, for example so a
 
    ![](assets/preprocessing-dataloading.png)
 
+>[!IMPORTANT]
+>
+>You cannot uncompress zipped files larger than 4Gb.
+
 ## Defining the file format {#defining-the-file-format}
 
 When you load a file, the column format is automatically detected with the default parameters for each data type. You can modify these default parameters in order to specify the particular processes to apply to your data, particularly when there is an error or an empty value.
