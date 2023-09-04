@@ -63,9 +63,9 @@ The main steps to add an HTTP API source connector for Adobe Campaign are as fol
 
     ![](assets/ac-lp-schema.png)
 
-## Add XTK options in Adobe Campaign {#xtk}
+## Add options in Adobe Campaign {#xtk}
 
-Once the connection of Adobe Campaign to Adobe Experience Platform has been configured, you need to add specific options into Adobe Campaign. This can be performed either from the Campaign console itself, or from a Script activity in your landing pages workflow.
+Once the connection of Adobe Campaign to Adobe Experience Platform has been configured, you need to add specific options into Adobe Campaign. This can be performed either from the Campaign console itself, or from a **[!UICONTROL JavaScript code]** activity in your landing pages workflow.
 
 +++Configure options from the console
 
@@ -76,15 +76,17 @@ Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **
 * IMS_ORG_ID = ORGANIZATION ID
 * IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
 
+![](assets/ac-lp-xtk.png)
+
 >[!NOTE]
 >
 >Make sure you are using the cryptString() function to encrypt your data.
 
 +++
 
-+++Configure options at the landing pages workflow execution
++++Configure options at landing pages workflow execution
 
-To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL Script]** activity into your workflow with the code below:
+To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity into your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code).
 
     ```
     loadLibrary("xtk:shared/nl.js");
@@ -107,9 +109,11 @@ At workflow execution, the options are automatically created in the Campaign con
 
 ## Create a javascript code in Adobe Campaign {#javascript}
 
-To allow data sync between landing pages and Adobe Experience Platform, you need to asdd custom Javascript codes into Adobe Campaign which will be executed at server end.
+To allow data sync between landing pages and Adobe Experience Platform, you need to add custom Javascript codes into Adobe Campaign which will be executed at server end.
 
-To do this, follow navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL JavaScript codes]** menu and copy paste the below given snippet to a new java script code. 
+To do this, navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL JavaScript codes]** menu and copy paste the below given snippet to a new java script code. 
+
+![](assets/ac-lp-script.png)
 
 >[!NOTE]
 >
@@ -186,15 +190,19 @@ return accessToken;
 
 +++
 
-## Add the created javascript code into your landing pages {#script}
+## Leverage the javascript code into your landing pages {#script}
 
-Once the javascript codes have been created into Adobe Campaign, you can leverage them into your landing pages using a **[!UICONTROL Script]** activities that you need to add into your workfow.
+Once the javascript codes have been created into Adobe Campaign, you can leverage them into your landing pages by adding **[!UICONTROL JavaScript code]** activities into your workfow. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code)
 
-Make sure you modify the payload accordingly depending on what you want to retrieve and modify.
+![](assets/ac-lp-wkf.png)
 
-if use the update script only, if profile doesn't exist in AEP, willl create the profile with the attributes. If do no ant to create the profile, use the load profile from AEP scrit: will check and ignore the update if doesn't exist.
+>[!CAUTION]
+>
+>Make sure you modify the payload accordingly depending on what you want to retrieve and modify.
+>
+>If you add a profile update script in your workflow alone, without the script that fetches data from Adobe Experience PLatform, the proczess will crete any profile that doesn't zexist on Adobe Expeirence Platform. If you want to update existing profiles only, make sure you add a script activity with the Load profile script.
 
-+++ Load profile from AEP
++++ Load profile from Adobe Experience Platform script
 
 ```
 // Script code to read profile from AEP.
@@ -232,7 +240,7 @@ else if(response.code == 200){
 
 +++
 
-+++ Update Adobe Experience Platfrom profile attributes
++++ Update Adobe Experience Platform profiles script
 
 ```
 // Script code to update profile in AEP and ACC.
