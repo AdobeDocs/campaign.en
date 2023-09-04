@@ -14,11 +14,14 @@ The integration between Adobe Campaign and Adobe Experience Platform allows you 
 
 The main steps to set up this integration are as follows:
 
-1. [Set up an OAuth connection](#oauth)
-1. [Create an HTTP API Source connection](#source)
-1. [Add authentication options in Adobe Campaign](#xtk)
-1. [Add JavaScript codes in Adobe Campaign](#JavaScript)
-1. [Configure the landing pages workflow](#script-activity)
+<table>
+<tr>
+<td><img src="../assets/do-not-localize/icon-connection.svg" width="60px"><p><a href="#oauth">Set up an OAuth connection</a></p></td>
+<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">Create an HTTP API Source connection</a></p></td>
+<td><img src="../assets/do-not-localize/icon-options.svg" width="60px"><p><a href="#xtk">Add authentication options in Campaign</a></p></td>
+<td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">Add JavaScript codes in Campaign</a></p></td>
+<td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">Configure the landing page workflow</a></p></td>
+</table>
 
 ## Set up an Oauth connection {#oauth}
 
@@ -111,7 +114,7 @@ At workflow execution, the options are automatically created in the Campaign con
 
 Now that authentication options are configure into Camapign, you need to create custom JavaScript codes to allow data sync between Campaign and Adobe Experience Platform from your landing page.
 
-## Add options at workflow execution {#JavaScript}
+## Add options at workflow execution {#javacript}
 
 To allow data synchronization between landing pages and Adobe Experience Platform, custom JavaScript codes must be added to Adobe Campaign. Follow these steps:
 
@@ -197,7 +200,7 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
 
 Now that the custom JavaScript codes are created into Adobe Campaign, you can configure the workflow containing your landing page to use these JavaScript codes for data synchronization.
 
-## Leverage the JavaScript codes into your landing page {#script}
+## Configure the landing page workflow {#script}
 
 With the JavaScript codes added to Adobe Campaign, you can leverage them into your landing page workflow using **[!UICONTROL JavaScript code]** activities:
 
