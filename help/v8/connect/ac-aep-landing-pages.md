@@ -69,7 +69,7 @@ Once the connection of Adobe Campaign to Adobe Experience Platform has been conf
 
 +++Configure options from the console
 
-Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UIONTROL Options]**  menu and add the following options with the corresponding values from Adobe Developer Console:
+Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**  menu and add the following options with the corresponding values from Adobe Developer Console:
 
 * IMS_CLIENT_ID = cryptString(CLIENT ID)
 * IMS_CLIENT_SECRET = cryptString(CLIENT SECRET)
