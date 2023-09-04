@@ -41,7 +41,7 @@ Once the OAuth-server-to-server connection is created, copy the following detail
 
 The HTTP API source connector allows you to stream your data to Adobe Experience Platform, including any non-XDM-compliant data that you can map to an XDM-compliant dataset.
 
-Detailed information on how to create an HTTP API source connection is available in [Adobe Experience Platform sources documentation]().
+Detailed information on how to create an HTTP API source connection is available in Adobe Experience Platform sources documentation.
 
 Once the Connection is created, copy the Inlet URL and sample schema payload from the connection.
 
@@ -67,13 +67,9 @@ xtk option can be set from scripty activity with the logic to call this function
 
 Add custom Javascript code into Adobe Campaign to allow data sync between landing pages and Adobe Experience Platform.
 
-To do this, navigate to Administration→ Configuration→JavaScript codes under cus namespace then add the javascript code below. This set of code would be executing at server end.
+To do this, navigate to Administration→ Configuration→JavaScript codes under cus namespace. Copy below given snippet and paste to new java script code. This set of code would be executing at server end.
 
-* Add JS code for AEP profile update API calls
-
-Copy below given snippet and paste to new java script code.
-
-+++Javascript code
++++ Add JS code for AEP profile update API calls
 
 ```
 // API implementation to update profile in AEP
@@ -116,31 +112,33 @@ logInfo("Access token generated successfully");
 return accessToken;
 }
 ```
+
 +++
 
-* If you want to fetch profile from AEP before loading web page, add below given method in above java script codes file. 
++++ Fetch profile from AEP before loading web page
 
-    Make sure to update body payload copied from platform UI.
+```
+// API implementation to read profile from AEP
+function getProfileInfo(email)
+{
+var accessToken = getAccessToken();
+var request = new HttpClientRequest(('https://platform-stage.adobe.io/data/core/ups/access/entities?schema.name=_xdm.context.profile&entityId=' + email + '&entityIdNS=email&fields=identities,consents.marketing'));
+request.method = 'GET';
+request.header["Content-Type"] = "application/json";
+request.header["sandbox-name"] = "prod";
+request.header["x-gw-ims-org-id"] = getOption('IMS_ORG_ID');
+request.header["x-api-key"] = getOption('IMS_CLIENT_API_KEY');
+request.header["Authorization"] = "Bearer " + accessToken;
+request.execute();
+return request.response;
+}
+```
 
-    +++Javascript code
++++
 
-    ```
-    // API implementation to read profile from AEP
-    function getProfileInfo(email)
-    {
-    var accessToken = getAccessToken();
-    var request = new HttpClientRequest(('https://platform-stage.adobe.io/data/core/ups/access/entities?schema.name=_xdm.context.profile&entityId=' + email + '&entityIdNS=email&fields=identities,consents.marketing'));
-    request.method = 'GET';
-    request.header["Content-Type"] = "application/json";
-    request.header["sandbox-name"] = "prod";
-    request.header["x-gw-ims-org-id"] = getOption('IMS_ORG_ID');
-    request.header["x-api-key"] = getOption('IMS_CLIENT_API_KEY');
-    request.header["Authorization"] = "Bearer " + accessToken;
-    request.execute();
-    return request.response;
-    }
-    ```
-    +++
+>[!CAUTION]
+>
+>Make sure to update body payload copied from platform UI.
 
 ## Add the created javascript code into your landing pages {#script}
 
@@ -148,6 +146,7 @@ Once the javascript codes have been created into Adobe Campaign, you can leverag
 
 +++ Load profile from AEP
 
+```
 // Script code to read profile from AEP.
 
 logInfo("Loading profile from AEP");
@@ -179,11 +178,13 @@ else if(response.code == 200){
     }
   } 
 }
+```
 
 +++
 
 +++ Update Adobe Experience Platfrom profile attributes
 
+```
 // Script code to update profile in AEP and ACC.
 
 logInfo("Executing script to update AEP profile.");
@@ -249,5 +250,6 @@ else {
   xtk.session.Write(recipient);
   logInfo("ACC Profile Updated successfully");
 }
+```
 
 +++
