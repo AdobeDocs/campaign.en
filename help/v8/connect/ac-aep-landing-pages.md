@@ -1,91 +1,99 @@
 ---
-title: Work with Campaign and Adobe Experience Platform
-description: Learn how to work with Campaign and Adobe Experience Platform
+title: Campaign landing pages & profile attributes
+description: Learn how to sync Adobe Campaign landing pages & Adobe Experience Platform profile attributes
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
 ---
 # Update Adobe Experience Platform profiles from Adobe Campaign landing pages
 
->[!IMPORTANT]
->
->Advanced users
+The integration between Adobe Campaign and Adobe Experience Platform allows you to synchronize data seamlessly between your Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
 
-Adobe Experience Platform **[!UICONTROL HTTP API]** Source connectors allows seamless integration between Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
-
-* Fetch Adobe Experience Platform profile attributes to display updated information in Adobe Campaign landing pages,
+* Retrieve Adobe Experience Platform profile attributes to display updated information in Adobe Campaign landing pages,
 * Send back updated profile attributes to Adobe Experience Platform to update the corresponding attributes based on what has been filled and submitted in the landing pages.
 
-The main steps to setup this integration are as follows:
+The main steps to set up this integration are as follows:
 
-1. [Setup an OAuth connection](#oauth)
-1. [Create an HTTP API Sources connection](#source)
-1. [Add XTK options in Adobe Campaign](#xtk)
-1. [Add javascript codes in Adobe Campaign](#javascript)
-1. [Call javascript code into your landing pages](#script-activity)
+<table>
+<tr>
+<td><img src="../assets/do-not-localize/icon-connection.svg" width="60px"><p><a href="#oauth">Set up an OAuth connection</a></p></td>
+<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">Create an HTTP API Source connection</a></p></td>
+<td><img src="../assets/do-not-localize/icon-options.svg" width="60px"><p><a href="#xtk">Add authentication options in Campaign</a></p></td>
+<td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">Add JavaScript codes in Campaign</a></p></td>
+<td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">Configure the landing page workflow</a></p></td>
+</table>
 
-## Setup an Oauth connection {#oauth}
+## Set up an Oauth connection {#oauth}
 
 Adobe Cloud Platform APIs use the OAuth 2.0 protocol for authentication and authorization. To connect Adobe Experience Platform to Adobe Campaign using API calls, you need to generate an access token using the OAuth Integration created in Adobe Developer Console.
 
-To do this, access Adobe Developer Console and create a new Adobe API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/)
+To do this, follow these steps:
 
-![](assets/ac-lp-oauth.png)
+1. Access the Adobe Developer Console.
+1. Create a new API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
+1. Once the connection is created, navigate to the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
 
-Once the OAuth-server-to-server connection has been created, access the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
+    * CLIENT ID
+    * CLIENT SECRET
+    * ORGANIZATION ID
 
-* CLIENT ID
-* CLIENT SECRET
-* ORGANIZATION ID
+    ![](assets/ac-lp-oauth.png){width="70%"}
 
-## Create an HTTP API Sources connection {#source}
+Now that your Oauth connection is configured, create and configure a new **[!UICONTROL HTTP API]** Source connection to link Adobe Campaign with Adobe Experience Platform.
 
-The **[!UICONTROL HTTP API]** source connector allows you to stream your data to Adobe Experience Platform using APIs. 
+## Create an HTTP API Source connection {#source}
 
-The main steps to add an HTTP API source connector for Adobe Campaign are as follows. 
+With the OAuth connection in place, the next step is to create an **[!UICONTROL HTTP API]** Source connection in Adobe Experience Platform. This connection allows you to stream data to Adobe Experience Platform using APIs. Follow these steps:
 
 1. Navigate to Adobe Experience Platform **[!UICONTROL Sources]**, search for the **[!UICONTROL HTTP API]** source then click **[!UICONTROL Add data]**.
 
-    ![](assets/ac-lp-source.png)
+    ![](assets/ac-lp-source.png){width="70%"}
 
 1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
 
-    At **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to use the access token generated previously using OAuth integration.
+    At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated prevearlier through the OAuth integration.
 
-    ![](assets/ac-lp-source-authentication.png)
+    ![](assets/ac-lp-source-authentication.png){width="70%"}
 
-1. Once the connection has been configured, the streaming endpoint displays, which is required to ingest data into Adobe Experience Platform. 
+1. Once the source connection is configured, the streaming endpoint displays. This endpoint is required to ingest data into Adobe Experience Platform. 
 
-    ![](assets/ac-lp-endpoint.png)
+    ![](assets/ac-lp-endpoint.png){width="70%"}
 
-    You can also access a sample of the format in which the data is ingested into Adobe Experience Platform. To do this, , open the newly created dataflow from the **[!UICONTROL Dataflows]** tab.
+    You can also access a sample of the data format ingested into Adobe Experience Platform by opening the newly created dataflow from the **[!UICONTROL Dataflows]** tab.
 
-    ![](assets/ac-lp-schema.png)
+    ![](assets/ac-lp-schema.png){width="70%"}
 
-## Add options in Adobe Campaign {#xtk}
+Now that the HTTP API Source connection is set up, you need to add specific options into Adobe Campaign to enable the connection to Adobe Experience Platform.
 
-Once the connection of Adobe Campaign to Adobe Experience Platform has been configured, you need to add specific options into Adobe Campaign. This can be performed either from the Campaign console itself, or from a **[!UICONTROL JavaScript code]** activity in your landing pages workflow.
+## Add authentication options in Adobe Campaign {#xtk}
 
-+++Configure options from the console
+Once the HTTP API Source connection is configured, you need to add specific options into Adobe Campaign to enable the connection with Adobe Experience Platform. This can be done either in the Campaign Administration menu, or when executing your landing page workfow by adding a specific **[!UICONTROL JavaScript code]** activity.
 
-Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**  menu and add the following options with the corresponding values from Adobe Developer Console:
+Browse the tabs below to discover the two methods:
 
-* IMS_CLIENT_ID = cryptString(CLIENT ID)
-* IMS_CLIENT_SECRET = cryptString(CLIENT SECRET)
-* IMS_ORG_ID = ORGANIZATION ID
-* IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
+>[!BEGINTABS]
 
-![](assets/ac-lp-xtk.png)
+>[!TAB Add options from the Administration menu]
 
->[!NOTE]
->
->Make sure you are using the cryptString() function to encrypt your data.
+1. Navigate to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**  menu.
+1. Add the following options with the corresponding values from Adobe Developer Console:
 
-+++
+    * IMS_CLIENT_ID = cryptString(CLIENT ID)
+    * IMS_CLIENT_SECRET = cryptString(CLIENT SECRET)
+    * IMS_ORG_ID = ORGANIZATION ID
+    * IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
 
-+++Configure options at landing pages workflow execution
+    ![](assets/ac-lp-xtk.png){width="70%"}
 
-To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity into your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code).
+    >[!NOTE]
+    >
+    >The cryptString() function is used to encrypt your authentication data.
+
+>[!TAB Add options using a JavaScript code activity]
+
+To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity to your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+
+At workflow execution, the options are automatically created in the Campaign console with the provided values.
 
     ```
     loadLibrary("xtk:shared/nl.js");
@@ -102,211 +110,222 @@ To configure these options automatically at the execution of your landing pages 
     }
     ```
 
-At workflow execution, the options are automatically created in the Campaign console with the provided values.
+>[!ENDTABS]
 
-+++
+Now that authentication options are configure into Camapign, you need to create custom JavaScript codes to allow data sync between Campaign and Adobe Experience Platform from your landing page.
 
-## Create a javascript code in Adobe Campaign {#javascript}
+## Add options at workflow execution {#javacript}
 
-To allow data sync between landing pages and Adobe Experience Platform, you need to add custom Javascript codes into Adobe Campaign which will be executed at server end.
+To allow data synchronization between landing pages and Adobe Experience Platform, custom JavaScript codes must be added to Adobe Campaign. Follow these steps:
 
-To do this, navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL JavaScript codes]** menu and copy paste the below given snippet to a new java script code. 
+1. Navigate to the **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** menu.
+1. Create new JavaScript codes and copy paste the below snippets.
 
-![](assets/ac-lp-script.png)
+    >[!NOTE]
+    >
+    >Access token and authentication data are automatically retrieved from the options set up previously.
 
->[!NOTE]
->
->Access token and authentication data are automatically retrieved from the options set up previously.
+    +++  Script 1 - Load profile attributes from Experience Platform
 
-+++ Retrieve profile from Adobe Experience Platform before loading web page
+    This code checks if the profile exists in Adobe Experience Platform before loading the landing page. It retrieves the profile attributes and displays them in the corresponding fields of the landing page.
 
-This code checks if the profile exists in Adobe Experience Platform before loading the landing page. It fetches the profiles' data and display them in the landing page corresponding fields.
+    ```
+    // API implementation to read profile from AEP
+    function getProfileInfo(email)
+    {
+    var accessToken = getAccessToken();
+    var request = new HttpClientRequest(('https://platform-stage.adobe.io/data/core/ups/access/entities?schema.name=_xdm.context.profile&entityId=' + email + '&entityIdNS=email&fields=identities,consents.marketing'));
+    request.method = 'GET';
+    request.header["Content-Type"] = "application/json";
+    request.header["sandbox-name"] = "prod";
+    request.header["x-gw-ims-org-id"] = getOption('IMS_ORG_ID');
+    request.header["x-api-key"] = getOption('IMS_CLIENT_API_KEY');
+    request.header["Authorization"] = "Bearer " + accessToken;
+    request.execute();
+    return request.response;
+    }
+    ```
 
-```
-// API implementation to read profile from AEP
-function getProfileInfo(email)
-{
-var accessToken = getAccessToken();
-var request = new HttpClientRequest(('https://platform-stage.adobe.io/data/core/ups/access/entities?schema.name=_xdm.context.profile&entityId=' + email + '&entityIdNS=email&fields=identities,consents.marketing'));
-request.method = 'GET';
-request.header["Content-Type"] = "application/json";
-request.header["sandbox-name"] = "prod";
-request.header["x-gw-ims-org-id"] = getOption('IMS_ORG_ID');
-request.header["x-api-key"] = getOption('IMS_CLIENT_API_KEY');
-request.header["Authorization"] = "Bearer " + accessToken;
-request.execute();
-return request.response;
-}
-```
+    +++
 
-+++
+    +++ Script 2 - Update Experience Platform profile attributes
 
-+++ Adobe Experience Platform profile update
+    This code updates profile attributes in Adobe Experience Platform with the values submitted in the landing page.
 
-This code updates profile attributes in Adobe Experience Platform based on what is submitted using the landing page.
+    ```
+    // API implementation to update profile in AEP
+    loadLibrary("xtk:shared/nl.js");
+    loadLibrary("xtk:shared/xtk.js");
+    loadLibrary("xtk:shared/json2.js");
+    loadLibrary("xtk:common.js");
 
-```
-// API implementation to update profile in AEP
-loadLibrary("xtk:shared/nl.js");
-loadLibrary("xtk:shared/xtk.js");
-loadLibrary("xtk:shared/json2.js");
-loadLibrary("xtk:common.js");
-
-function updateProfileInAEP(profileUpdatePayload)
-{
-var accessToken = getAccessToken();
-var request = new HttpClientRequest('https://dcs-stg.adobedc.net/collection/64a300b84d61c0bcea4f0cd4ecaaa224a19477026d14f7e08b5408ffaf5e6162?syncValidation=false');
-request.method = 'POST';
-request.header["Content-Type"] = "application/json";
-request.header["sandbox-name"] = "prod";
-request.header["Authorization"] = "Bearer " + accessToken;
-var body = '{"header":{"schemaRef":{"id":"https://ns.adobe.com/campdev/schemas/35d8e567772e1a1093ed6cf9e41d2c1fec22eeb3a89583e1","contentType":"application/vnd.adobe.xed-full+json;version=1.0"},"imsOrgId":"A1F66F0D5C47D1950A494133@AdobeOrg","datasetId":"63c7fa2a20cce11b98cccb41","source":{"name":"testHTTPSourcesVinay - 03/06/2023 5:43 PM"}},"body":{"xdmMeta":{"schemaRef":{"id":"https://ns.adobe.com/campdev/schemas/35d8e567772e1a1093ed6cf9e41d2c1fec22eeb3a89583e1","contentType":"application/vnd.adobe.xed-full+json;version=1.0"}},"xdmEntity":' + profileUpdatePayload +'}}';
-request.body = body;
-request.execute();
-return request.response;
-}
+    function updateProfileInAEP(profileUpdatePayload)
+    {
+    var accessToken = getAccessToken();
+    var request = new HttpClientRequest('https://dcs-stg.adobedc.net/collection/64a300b84d61c0bcea4f0cd4ecaaa224a19477026d14f7e08b5408ffaf5e6162?syncValidation=false');
+    request.method = 'POST';
+    request.header["Content-Type"] = "application/json";
+    request.header["sandbox-name"] = "prod";
+    request.header["Authorization"] = "Bearer " + accessToken;
+    var body = '{"header":{"schemaRef":{"id":"https://ns.adobe.com/campdev/schemas/35d8e567772e1a1093ed6cf9e41d2c1fec22eeb3a89583e1","contentType":"application/vnd.adobe.xed-full+json;version=1.0"},"imsOrgId":"A1F66F0D5C47D1950A494133@AdobeOrg","datasetId":"63c7fa2a20cce11b98cccb41","source":{"name":"testHTTPSourcesVinay - 03/06/2023 5:43 PM"}},"body":{"xdmMeta":{"schemaRef":{"id":"https://ns.adobe.com/campdev/schemas/35d8e567772e1a1093ed6cf9e41d2c1fec22eeb3a89583e1","contentType":"application/vnd.adobe.xed-full+json;version=1.0"}},"xdmEntity":' + profileUpdatePayload +'}}';
+    request.body = body;
+    request.execute();
+    return request.response;
+    }
 
 
-// Get Access token from OAuth-Server-to-server API call
-function getAccessToken() {
-var clientId = decryptString(getOption('IMS_CLIENT_ID'));
-var clientSecret = decryptString(getOption('IMS_CLIENT_SECRET'));
-var request = new HttpClientRequest(('https://ims-na1-stg1.adobelogin.com/ims/token/v2?grant_type=client_credentials' + '&client_id=' + clientId + '&client_secret=' + clientSecret + '&scope=openid,session,AdobeID,read_organizations,additional_info.projectedProductContext'));
-request.method = 'POST';
-request.execute();
-var response = request.response;
-if(response.code != 200){
-  logError('GetAccessToken failed,', response.code, response.body);
-  return;
-}
-var body = ''+response.body;
-var parsedResponse = JSON.parse(body);
-var accessToken = parsedResponse.access_token;
-logInfo("Access token generated successfully");
-return accessToken;
-}
-```
+    // Get Access token from OAuth-Server-to-server API call
+    function getAccessToken() {
+    var clientId = decryptString(getOption('IMS_CLIENT_ID'));
+    var clientSecret = decryptString(getOption('IMS_CLIENT_SECRET'));
+    var request = new HttpClientRequest(('https://ims-na1-stg1.adobelogin.com/ims/token/v2?grant_type=client_credentials' + '&client_id=' + clientId + '&client_secret=' + clientSecret + '&scope=openid,session,AdobeID,read_organizations,additional_info.projectedProductContext'));
+    request.method = 'POST';
+    request.execute();
+    var response = request.response;
+    if(response.code != 200){
+    logError('GetAccessToken failed,', response.code, response.body);
+    return;
+    }
+    var body = ''+response.body;
+    var parsedResponse = JSON.parse(body);
+    var accessToken = parsedResponse.access_token;
+    logInfo("Access token generated successfully");
+    return accessToken;
+    }
+    ```
 
-+++
+    +++
 
-## Leverage the javascript code into your landing pages {#script}
+    ![](assets/ac-lp-script.png){width="70%"}
 
-Once the javascript codes have been created into Adobe Campaign, you can leverage them into your landing pages by adding **[!UICONTROL JavaScript code]** activities into your workfow. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code)
+Now that the custom JavaScript codes are created into Adobe Campaign, you can configure the workflow containing your landing page to use these JavaScript codes for data synchronization.
 
-![](assets/ac-lp-wkf.png)
+## Configure the landing page workflow {#script}
+
+With the JavaScript codes added to Adobe Campaign, you can leverage them into your landing page workflow using **[!UICONTROL JavaScript code]** activities:
+
+* To load data from Experience Platform before loading the landing page, add a **[!UICONTROL JavaScript code]** activity before the landing page activity and copy paste Script 1.
+
+    +++ Script 1 - Load profile attributes from Experience Platform
+
+    ```
+    // Script code to read profile from AEP.
+
+    logInfo("Loading profile from AEP");
+    loadLibrary("cus:aepAPI");
+    var recipient=ctx.recipient;
+    var email = recipient.@email;
+    var response = getProfileInfo(email);
+    ctx.isAEPProfileExists = 1;
+
+    if(response.code == 404){
+    ctx.isAEPProfileExists = 0
+    logInfo("Profile with email" + email + " not found in AEP, ignoring the update activity");
+    }
+    else if(response.code == 200){
+    var body = ''+response.body;
+    var parsedResponse = JSON.parse(body);
+    for (var key in parsedResponse) {
+        var value =  parsedResponse[key];
+        var marketing = value.entity.consents.marketing;
+        logInfo("User Consent Details : " + JSON.stringify(marketing));   
+        if(marketing.hasOwnProperty('email')&&marketing.email.hasOwnProperty('val')&&marketing.email.val=='n'){
+        ctx.recipient.@blackListEmail = 1;
+        }
+        if(marketing.hasOwnProperty('sms')&&marketing.sms.hasOwnProperty('val')&&marketing.sms.val=='n'){
+        ctx.recipient.@blackListMobile = 1;
+        }
+        if(marketing.hasOwnProperty('push')&&marketing.push.hasOwnProperty('val')&&marketing.push.val=='n'){
+        ctx.recipient.@blackListPostalMail = 1;
+        }
+    } 
+    }
+    ```
+
+    +++
+    
+* To update Experience Platform profile attributes with the data submitted in the landing page, add a **[!UICONTROL JavaScript code]** activity after the landing page activity and copy paste Script 2.
+
+    +++ Script 2 - Update Experience Platform profile attributes
+
+    ```
+    // Script code to update profile in AEP and ACC.
+
+    logInfo("Executing script to update AEP profile.");
+
+    // Loading aepAPI library JS code
+    loadLibrary("cus:aepAPI");
+
+    var recipient=ctx.recipient
+
+    // Update profile only if it exists in AEP
+    if(ctx.isAEPProfileExists==1){
+    
+    var email = recipient.@email
+    logInfo(email);
+    logInfo(recipient.@blackListEmail);
+    logInfo(recipient.@blackListMobile);
+    logInfo(recipient.@blackListPostalMail);
+
+    var optOutPayload = new Array();
+
+    if(recipient.@blackListEmail==1){
+        optOutPayload.push('"email":{"val":"n"}');
+    }
+    else
+        optOutPayload.push('"email":{"val":"y"}');
+
+    if(recipient.@blackListMobile==1){
+        optOutPayload.push('"sms":{"val":"n"}');
+    }
+    else
+        optOutPayload.push('"sms":{"val":"y"}');
+
+    if(recipient.@blackListPostalMail==1){
+        optOutPayload.push('"push":{"val":"n"}');
+    }
+    else
+        optOutPayload.push('"push":{"val":"y"}');
+
+    var profileUpdatePayload = '{'+ '"personalEmail":{"address":' + '\"' + email + '\"' + '},' +'"consents":{"marketing":{' + optOutPayload.toString() + '}}}';
+
+    var response = updateProfileInAEP(profileUpdatePayload);
+    if(response.code == 200){
+    var body = '' + response.body;
+    logInfo("AEP Profile Updated successfully, Response " + body);
+    // Update ACC profile 
+    recipient.@xtkschema = "nms:recipient";
+    recipient.@_operation = "update";
+    recipient.@_key="@id";
+    xtk.session.Write(recipient);
+    logInfo("ACC Profile Updated successfully");
+    }
+    else{
+        logError('Server Error: ', response.code, response.body);
+    } 
+    }
+    else {
+    logInfo("Ignoring AEP profile update as profile doesn't exists.");
+    
+    // Update ACC profile   
+    recipient.@xtkschema = "nms:recipient";
+    recipient.@_operation = "update";
+    recipient.@_key="@id";  
+    xtk.session.Write(recipient);
+    logInfo("ACC Profile Updated successfully");
+    }
+    ```
+
+    +++
 
 >[!CAUTION]
 >
->Make sure you modify the payload accordingly depending on what you want to retrieve and modify.
+>Ensure that you customize the payload in each script based on your specific needs.
 >
->If you add a profile update script in your workflow alone, without the script that fetches data from Adobe Experience PLatform, the proczess will crete any profile that doesn't zexist on Adobe Expeirence Platform. If you want to update existing profiles only, make sure you add a script activity with the Load profile script.
+>If you do not add any script before the landing page activity, no profile existence check will be performed in Adobe Experience Platform. When the landing page is submitted and the profile doesn't exist, it will be created in Adobe Experience Platform with the attributes from the landing page.
 
-+++ Load profile from Adobe Experience Platform script
+Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
 
-```
-// Script code to read profile from AEP.
+Here is the sample workflow using the JavaScript code activities before and after a landing page: 
 
-logInfo("Loading profile from AEP");
-loadLibrary("cus:aepAPI");
-var recipient=ctx.recipient;
-var email = recipient.@email;
-var response = getProfileInfo(email);
-ctx.isAEPProfileExists = 1;
-
-if(response.code == 404){
-  ctx.isAEPProfileExists = 0
-  logInfo("Profile with email" + email + " not found in AEP, ignoring the update activity");
-}
-else if(response.code == 200){
-  var body = ''+response.body;
-  var parsedResponse = JSON.parse(body);
-  for (var key in parsedResponse) {
-    var value =  parsedResponse[key];
-    var marketing = value.entity.consents.marketing;
-    logInfo("User Consent Details : " + JSON.stringify(marketing));   
-    if(marketing.hasOwnProperty('email')&&marketing.email.hasOwnProperty('val')&&marketing.email.val=='n'){
-      ctx.recipient.@blackListEmail = 1;
-    }
-    if(marketing.hasOwnProperty('sms')&&marketing.sms.hasOwnProperty('val')&&marketing.sms.val=='n'){
-      ctx.recipient.@blackListMobile = 1;
-    }
-    if(marketing.hasOwnProperty('push')&&marketing.push.hasOwnProperty('val')&&marketing.push.val=='n'){
-      ctx.recipient.@blackListPostalMail = 1;
-    }
-  } 
-}
-```
-
-+++
-
-+++ Update Adobe Experience Platform profiles script
-
-```
-// Script code to update profile in AEP and ACC.
-
-logInfo("Executing script to update AEP profile.");
-
-// Loading aepAPI library JS code
-loadLibrary("cus:aepAPI");
-
-var recipient=ctx.recipient
-
-// Update profile only if it exists in AEP
-if(ctx.isAEPProfileExists==1){
-  
-  var email = recipient.@email
-  logInfo(email);
-  logInfo(recipient.@blackListEmail);
-  logInfo(recipient.@blackListMobile);
-  logInfo(recipient.@blackListPostalMail);
-
-  var optOutPayload = new Array();
-
-  if(recipient.@blackListEmail==1){
-    optOutPayload.push('"email":{"val":"n"}');
-  }
-  else
-    optOutPayload.push('"email":{"val":"y"}');
-
-  if(recipient.@blackListMobile==1){
-    optOutPayload.push('"sms":{"val":"n"}');
-  }
-  else
-    optOutPayload.push('"sms":{"val":"y"}');
-
-  if(recipient.@blackListPostalMail==1){
-    optOutPayload.push('"push":{"val":"n"}');
-  }
-  else
-    optOutPayload.push('"push":{"val":"y"}');
-
-  var profileUpdatePayload = '{'+ '"personalEmail":{"address":' + '\"' + email + '\"' + '},' +'"consents":{"marketing":{' + optOutPayload.toString() + '}}}';
-
-  var response = updateProfileInAEP(profileUpdatePayload);
-  if(response.code == 200){
-  var body = '' + response.body;
-  logInfo("AEP Profile Updated successfully, Response " + body);
-  // Update ACC profile 
-  recipient.@xtkschema = "nms:recipient";
-  recipient.@_operation = "update";
-  recipient.@_key="@id";
-  xtk.session.Write(recipient);
-  logInfo("ACC Profile Updated successfully");
-  }
-  else{
-    logError('Server Error: ', response.code, response.body);
-  } 
-}
-else {
-  logInfo("Ignoring AEP profile update as profile doesn't exists.");
-  
-  // Update ACC profile   
-  recipient.@xtkschema = "nms:recipient";
-  recipient.@_operation = "update";
-  recipient.@_key="@id";  
-  xtk.session.Write(recipient);
-  logInfo("ACC Profile Updated successfully");
-}
-```
-
-+++
+![](assets/ac-lp-wkf.png){width="70%"}
