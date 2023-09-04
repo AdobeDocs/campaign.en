@@ -30,11 +30,11 @@ To do this, follow these steps:
 1. Create a new API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. Once the connection is created, navigate to the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
 
-* CLIENT ID
-* CLIENT SECRET
-* ORGANIZATION ID
+    * CLIENT ID
+    * CLIENT SECRET
+    * ORGANIZATION ID
 
-![](assets/ac-lp-oauth.png){width="70%"}
+    ![](assets/ac-lp-oauth.png){width="70%"}
 
 Now that your Oauth connection is configured, create and configure a new **[!UICONTROL HTTP API]** Source connection to link Adobe Campaign with Adobe Experience Platform.
 
@@ -193,7 +193,7 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
 
     +++
 
-![](assets/ac-lp-script.png){width="70%"}
+    ![](assets/ac-lp-script.png){width="70%"}
 
 Now that the custom JavaScript codes are created into Adobe Campaign, you can configure the workflow containing your landing page to use these JavaScript codes for data synchronization.
 
@@ -313,14 +313,16 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
     }
     ```
 
-+++
-
-Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
-
-![](assets/ac-lp-wkf.png){width="70%"}
+    +++
 
 >[!CAUTION]
 >
 >Ensure that you customize the payload in each script based on your specific needs.
 >
 >If you do not add any script before the landing page activity, no profile existence check will be performed in Adobe Experience Platform. When the landing page is submitted and the profile doesn't exist, it will be created in Adobe Experience Platform with the attributes from the landing page.
+
+Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+
+Here is the sample workflow using the JavaScript code activities before and after a landing page: 
+
+![](assets/ac-lp-wkf.png){width="70%"}
