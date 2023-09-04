@@ -11,7 +11,7 @@ level: Beginner
 >
 >Advanced users
 
-Adobe Experience Platform **[!UICONTROL HTTP API]** Source connectors allows seamless integration between Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
+The Adobe Experience Platform **[!UICONTROL HTTP API]** Source connection allows seamless integration between Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
 
 * Fetch Adobe Experience Platform profile attributes to display updated information in Adobe Campaign landing pages,
 * Send back updated profile attributes to Adobe Experience Platform to update the corresponding attributes based on what has been filled and submitted in the landing pages.
@@ -21,28 +21,28 @@ The main steps to setup this integration are as follows:
 1. [Setup an OAuth connection](#oauth)
 1. [Create an HTTP API Sources connection](#source)
 1. [Add XTK options in Adobe Campaign](#xtk)
-1. [Add javascript codes in Adobe Campaign](#javascript)
-1. [Call javascript code into your landing pages](#script-activity)
+1. [Add JavaScript codes in Adobe Campaign](#JavaScript)
+1. [Configure the landing pages workflow](#script-activity)
 
 ## Setup an Oauth connection {#oauth}
 
 Adobe Cloud Platform APIs use the OAuth 2.0 protocol for authentication and authorization. To connect Adobe Experience Platform to Adobe Campaign using API calls, you need to generate an access token using the OAuth Integration created in Adobe Developer Console.
 
-To do this, access Adobe Developer Console and create a new Adobe API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/)
+To do this, access the Adobe Developer Console and create a new API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 
-![](assets/ac-lp-oauth.png)
-
-Once the OAuth-server-to-server connection has been created, access the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
+Once the connection has been created, access the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
 
 * CLIENT ID
 * CLIENT SECRET
 * ORGANIZATION ID
 
-## Create an HTTP API Sources connection {#source}
+![](assets/ac-lp-oauth.png)
 
-The **[!UICONTROL HTTP API]** source connector allows you to stream your data to Adobe Experience Platform using APIs. 
+## Create an HTTP API Source connection {#source}
 
-The main steps to add an HTTP API source connector for Adobe Campaign are as follows. 
+Once the Oauth connection has been set up, you need to create an **[!UICONTROL HTTP API]** Source connection in Adobe Experience Platform, which allows you to stream your data to Adobe Experience Platform using APIs. 
+
+The main steps to add an HTTP API source connection for Adobe Campaign are as follows:
 
 1. Navigate to Adobe Experience Platform **[!UICONTROL Sources]**, search for the **[!UICONTROL HTTP API]** source then click **[!UICONTROL Add data]**.
 
@@ -50,11 +50,11 @@ The main steps to add an HTTP API source connector for Adobe Campaign are as fol
 
 1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
 
-    At **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to use the access token generated previously using OAuth integration.
+    At **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated previously using the OAuth integration.
 
     ![](assets/ac-lp-source-authentication.png)
 
-1. Once the connection has been configured, the streaming endpoint displays, which is required to ingest data into Adobe Experience Platform. 
+1. Once the source connection has been configured, the streaming endpoint displays, which is required to ingest data into Adobe Experience Platform. 
 
     ![](assets/ac-lp-endpoint.png)
 
@@ -64,11 +64,15 @@ The main steps to add an HTTP API source connector for Adobe Campaign are as fol
 
 ## Add options in Adobe Campaign {#xtk}
 
-Once the connection of Adobe Campaign to Adobe Experience Platform has been configured, you need to add specific options into Adobe Campaign. This can be performed either from the Campaign console itself, or from a **[!UICONTROL JavaScript code]** activity in your landing pages workflow.
+Once the HTTP API Source connection has been configured, you need to add specific options into Adobe Campaign to allow the connection with Adobe Experience Platform.
 
-+++Configure options from the console
+This can be performed either from the Campaign console itself, or by adding a **[!UICONTROL JavaScript code]** activity to the workflow containing your landing page.
 
-Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**  menu and add the following options with the corresponding values from Adobe Developer Console:
+>[!BEGINTABS]
+
+>[!TAB Add options from the Campaign console]
+
+Navigate to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**  menu and add the following options with the corresponding values from Adobe Developer Console:
 
 * IMS_CLIENT_ID = cryptString(CLIENT ID)
 * IMS_CLIENT_SECRET = cryptString(CLIENT SECRET)
@@ -79,13 +83,13 @@ Navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **
 
 >[!NOTE]
 >
->Make sure you are using the cryptString() function to encrypt your data.
+>The cryptString() function is used to encrypt your authentication data.
 
-+++
+>[!TAB Add options using a JavaScript code activity]
 
-+++Configure options at landing pages workflow execution
+To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity into your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
 
-To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity into your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code).
+At workflow execution, the options are automatically created in the Campaign console with the provided values.
 
     ```
     loadLibrary("xtk:shared/nl.js");
@@ -102,25 +106,19 @@ To configure these options automatically at the execution of your landing pages 
     }
     ```
 
-At workflow execution, the options are automatically created in the Campaign console with the provided values.
+>[!ENDTABS]
 
-+++
+## Add JavaScript codes in Adobe Campaign {#JavaScript}
 
-## Create a javascript code in Adobe Campaign {#javascript}
-
-To allow data sync between landing pages and Adobe Experience Platform, you need to add custom Javascript codes into Adobe Campaign which will be executed at server end.
-
-To do this, navigate to the **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL JavaScript codes]** menu and copy paste the below given snippet to a new java script code. 
-
-![](assets/ac-lp-script.png)
+To allow data sync between landing pages and Adobe Experience Platform, you need to add custom JavaScript codes into Adobe Campaign which will be executed at server end. To do this, navigate to the **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** menu and copy paste the below given snippet to a new java script code. 
 
 >[!NOTE]
 >
 >Access token and authentication data are automatically retrieved from the options set up previously.
 
-+++ Retrieve profile from Adobe Experience Platform before loading web page
++++  Script 1 - Load profile attributes from Experience Platform
 
-This code checks if the profile exists in Adobe Experience Platform before loading the landing page. It fetches the profiles' data and display them in the landing page corresponding fields.
+This code checks if the profile exists in Adobe Experience Platform before loading the landing page. It then retrieves the profile attributes and display them in the landing page corresponding fields.
 
 ```
 // API implementation to read profile from AEP
@@ -141,9 +139,9 @@ return request.response;
 
 +++
 
-+++ Adobe Experience Platform profile update
++++ Script 2 - Update Experience Platform profile attributes
 
-This code updates profile attributes in Adobe Experience Platform based on what is submitted using the landing page.
+This code updates profile attributes in Adobe Experience Platform with the values from the submitted landing page.
 
 ```
 // API implementation to update profile in AEP
@@ -189,19 +187,26 @@ return accessToken;
 
 +++
 
-## Leverage the javascript code into your landing pages {#script}
+![](assets/ac-lp-script.png)
 
-Once the javascript codes have been created into Adobe Campaign, you can leverage them into your landing pages by adding **[!UICONTROL JavaScript code]** activities into your workfow. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html#javascript-code)
+## Leverage the JavaScript code into your landing pages {#script}
+
+Once the JavaScript codes have been added into Adobe Campaign, you can leverage them into your landing page workflow using **[!UICONTROL JavaScript code]** activities:
+
+* Add a **[!UICONTROL JavaScript code]** activity and copy paste the Script 1 snippet before the landing page to load data from Experience Platform
+* Add a **[!UICONTROL JavaScript code]** activity and copy paste the Script 2 snippet after the landing page to update Experience Platform with the data submitted in the landing pages.
 
 ![](assets/ac-lp-wkf.png)
 
+Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+
 >[!CAUTION]
 >
->Make sure you modify the payload accordingly depending on what you want to retrieve and modify.
+>For each script, make sure you modify the payload accordingly depending on what you want to retrieve and modify.
 >
->If you add a profile update script in your workflow alone, without the script that fetches data from Adobe Experience PLatform, the proczess will crete any profile that doesn't zexist on Adobe Expeirence Platform. If you want to update existing profiles only, make sure you add a script activity with the Load profile script.
+>If you only add Script 2 to your workflow, the process will create any profile that doesn't zexist on Adobe Expeirence Platform. If you want to update existing profiles only, make sure you add a script activity with the Load profile script.
 
-+++ Load profile from Adobe Experience Platform script
++++ Script 1 - Load profile attributes from Experience Platform
 
 ```
 // Script code to read profile from AEP.
@@ -239,7 +244,7 @@ else if(response.code == 200){
 
 +++
 
-+++ Update Adobe Experience Platform profiles script
++++ Script 2 - Update Experience Platform profile attributes
 
 ```
 // Script code to update profile in AEP and ACC.
