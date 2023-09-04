@@ -128,8 +128,8 @@ breadcrumb-title: Campaign overview
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
-    + [Sync Experience Platform audiences & profile attributes](connect/ac-aep.md)
-    + [Update Experience Platform profiles from landing pages](connect/ac-aep-landing-pages.md)
+    + [Audiences & profile attributes](connect/ac-aep.md)
+    + [Campaign landing pages & profile attributes](connect/ac-aep-landing-pages.md)
   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
