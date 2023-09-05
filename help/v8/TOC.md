@@ -29,44 +29,43 @@ breadcrumb-title: Campaign overview
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
-  + Send messages{#send}
-    + [Get started with messages](start/create-message.md)
-    + [Work with delivery templates](send/create-templates.md)
-    + Emails {#emails}
-      + [Design and validate emails](send/email.md)
-      + [Link to the mirror page](send/mirror-page.md)
-      + [Define additional email parameters](send/email-parameters.md)
-      + [Send and monitor emails](send/send.md)
-    + [SMS](send/sms.md)
-    + Push notifications {#push}
-      + [Create and send push notifications](send/push.md)
-      + [Configure push notification channel](send/push-settings.md)
-      + [Configure your push notifications with Data Collection](send/push-data-collection.md)
-    + [LINE messaging](send/line.md)
-    + [Direct mail](send/direct-mail.md)
-    + [Twitter](send/twitter.md)
-    + Transactional messages {#real-time}
-      + [Get started with transactional messages](send/transactional.md)
-      + [Create and publish your template](send/transactional-template.md)
-      + Event management {#event}
-       + [Collect and process events](send/event-processing.md)
-       + [Understand event description](send/event-description.md)
-      + [Send and monitor messages](send/delivery-execution.md)
-    + Failures, bounces and quarantines{#failures}
-      + [Quarantines](send/quarantines.md)
-      + [Delivery failures](send/delivery-failures.md)
-    + [Send time optimization](send/predictive.md)
-    + [Manage subscriptions](start/subscriptions.md)
-    + Personalize content {#personalize}
-      + [Get started with personalization](send/personalize.md)
-      + [Personalization data](send/personalization-data.md)
-      + [Add personalization fields](send/personalization-fields.md)
-      + [Use personalization blocks](send/personalization-blocks.md)
-      + [Create conditions](send/conditions.md)
-    + Validate your delivery {#validate}
-      + [Preview and proofs](send/preview-and-proof.md)
-      + [Delivery analysis](send/delivery-analysis.md)
++ Send messages{#send}
+  + [Get started with messages](start/create-message.md)
+  + Emails {#emails}
+    + [Design and validate emails](send/email.md)
+    + [Link to the mirror page](send/mirror-page.md)
+    + [Define additional email parameters](send/email-parameters.md)
+    + [Send and monitor emails](send/send.md)
+  + [SMS](send/sms.md)
+  + Push notifications {#push}
+    + [Create and send push notifications](send/push.md)
+    + [Configure push notification channel](send/push-settings.md)
+    + [Configure your push notifications with Data Collection](send/push-data-collection.md)
+  + [LINE messaging](send/line.md)
+  + [Direct mail](send/direct-mail.md)
+  + [Twitter](send/twitter.md)
+  + Personalize content {#personalize}
+    + [Get started with personalization](send/personalize.md)
+    + [Personalization data](send/personalization-data.md)
+    + [Add personalization fields](send/personalization-fields.md)
+    + [Use personalization blocks](send/personalization-blocks.md)
+    + [Create conditions](send/conditions.md)
+   + Validate & send your delivery {#validate}
+    + [Preview and proofs](send/preview-and-proof.md)
+    + [Delivery analysis](send/delivery-analysis.md)
     + [Configure and send the delivery](send/configure-and-send.md)
+    + [Send time optimization](send/predictive.md)
+  + Failures, bounces and quarantines{#failures}
+    + [Quarantines](send/quarantines.md)
+    + [Delivery failures](send/delivery-failures.md)
+  + [Work with delivery templates](send/create-templates.md)
+  + Transactional messages {#real-time}
+    + [Get started with transactional messages](send/transactional.md)
+    + [Create and publish your template](send/transactional-template.md)
+    + Event management {#event}
+      + [Collect and process events](send/event-processing.md)
+      + [Understand event description](send/event-description.md)
+      + [Send and monitor messages](send/delivery-execution.md)
 + Profile & Audience Management {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
@@ -81,8 +80,9 @@ breadcrumb-title: Campaign overview
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
       + [Create and manage filters](audiences/create-filters.md)
-    + [Share audiences with Aobe solutions](start/shared-audiences.md)
+      + [Share audiences with Adobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
+    + [Manage subscriptions](start/subscriptions.md)
 + Content Management {#content}
   + [Design web apps and forms](dev/webapps.md)
 + Privacy and Security Management {#privacy}
