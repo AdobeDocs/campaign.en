@@ -69,7 +69,7 @@ Once full IMS migration is complete, Adobe will apply the restrictions which wil
 
 For new customers - new native user creation is not permitted from the beginning.
 
-As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn more in [this documentation](../../v8/start/permissions.md).
+As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn more in [this documentation](../../v8/start/gs-permissions.md).
 
 ### How to add emails for current native users? {#ims-migration-id}
 
