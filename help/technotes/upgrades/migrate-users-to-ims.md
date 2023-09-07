@@ -44,7 +44,7 @@ Key steps for this migration are listed below:
 You can now plan technical users migration to IMS according to [this technote](ims-migration.md), and confirm to your Adobe Transition Manager once done.
 Adobe will then mark the migration as complete, and turn ON the flags to block new native user creation and native user login.
 
-## Frequently Asked Questions? {#ims-migration-faq}
+## Frequently Asked Questions {#ims-migration-faq}
 
 ### When can you start the migration? {#ims-migration-start}
 
@@ -52,7 +52,7 @@ A prerequisite for the migration to Adobe Identity Management System (IMS) is to
 
 You can start IMS migration on your stage environment, once it is upgraded to Campaign v8.5.2, and accordingly plan for production environment.
 
-### What happens after 8.5.2 build upgrade? {#ims-migration-after-upgrade}
+### What happens after build upgrade to Campaign v8.5.2? {#ims-migration-after-upgrade}
 
 After your environments have been upgraded to Campaign v8.5.2, you can perform Adobe Identity Management System (IMS) migration. 
 
@@ -84,3 +84,20 @@ As a Campaign Administrator, you must add email IDs to all native users from the
 ### How to log in to Campaign via IMS? {#ims-migration-log}
 
 Learn how to connect to Campaign with your Adobe ID in [this section](../../v8/start/connect.md).
+
+### Will there be a downtime during this migration? {#ims-migration-downtime}
+
+To finalize the migration (migrate users and product profiles), Adobe requires one hour window with no downtime to any of your instances (workflows, etc).
+
+During this timeframe, all Campaign users need to log off, and log back with their Adobe ID once the migration to IMS is finalized.
+
+
+### What happens to users that are logged in during IMS user migration? {#ims-migration-log-off}
+
+Adobe strongly recommends all users should be logged off during the migration window.
+
+### Users in my organization are already using IMS, do I still need to perform IMS Migration?
+
+There are 2 aspects in this migration: Non technical "human" users migration and Technical users migration (used in APIs in your custom code).
+
+If all your users (Campaign operators) are on IMS you do not need to perform this migration. However, you still need to migrate Technical users you might have used in custom code. Learn more in [this page](ims-migration.md).
