@@ -11,6 +11,7 @@ breadcrumb-title: Campaign technotes
 
 + [Campaign technotes](technotes-home.md)
 + Upgrades{#tn-new}
+  + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operator to Developer Console](upgrades/ims-migration.md)
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
