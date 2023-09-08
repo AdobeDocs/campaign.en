@@ -112,7 +112,7 @@ At workflow execution, the options are automatically created in the Campaign con
 
 >[!ENDTABS]
 
-Now that authentication options are configure into Camapign, you need to create custom JavaScript codes to allow data sync between Campaign and Adobe Experience Platform from your landing page.
+Now that authentication options are configured into Campaign, you need to create custom JavaScript codes to allow data sync between Campaign and Adobe Experience Platform from your landing page.
 
 ## Add options at workflow execution {#javacript}
 
@@ -124,6 +124,8 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
     >[!NOTE]
     >
     >Access token and authentication data are automatically retrieved from the options set up previously.
+
+    ![](assets/ac-lp-script.png){width="70%"}
 
     +++  Script 1 - Load profile attributes from Experience Platform
 
@@ -195,8 +197,6 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
     ```
 
     +++
-
-    ![](assets/ac-lp-script.png){width="70%"}
 
 Now that the custom JavaScript codes are created into Adobe Campaign, you can configure the workflow containing your landing page to use these JavaScript codes for data synchronization.
 
@@ -324,8 +324,6 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
 >
 >If you do not add any script before the landing page activity, no profile existence check will be performed in Adobe Experience Platform. When the landing page is submitted and the profile doesn't exist, it will be created in Adobe Experience Platform with the attributes from the landing page.
 
-Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
-
 Here is a sample workflow using the JavaScript code activities before and after a landing page: 
 
 ![](assets/ac-lp-wkf.png){width="70%"}
@@ -335,3 +333,9 @@ Here is an example of a landing page and a JavaScript code activity configured t
 ![](assets/ac-lp-example.png){width="70%"}
 
 ![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+
+### More information
+
+* [Configure a JavaScript code activity](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
+* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [Manage subscriptions and unsubscriptions](../start/subscriptions.md)
