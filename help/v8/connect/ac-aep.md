@@ -1,6 +1,6 @@
 ---
-title: Work with Campaign and Adobe Experience Platform
-description: Learn how to work with Campaign and Adobe Experience Platform
+title: Audiences & profile attributes
+description: Learn how to sync Adobe Experience Platform audiences and prpofile attributes with Campaign
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
