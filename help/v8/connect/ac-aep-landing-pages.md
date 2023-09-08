@@ -326,6 +326,12 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
 
 Detailed information on how to configure a JavaScript code activity are available in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
 
-Here is the sample workflow using the JavaScript code activities before and after a landing page: 
+Here is a sample workflow using the JavaScript code activities before and after a landing page: 
 
 ![](assets/ac-lp-wkf.png){width="70%"}
+
+Here is an example of a landing page and a JavaScript code activity configured to update profile attributes in Adobe Experience Platform:
+
+![](assets/ac-lp-example.png){width="70%"}
+
+![](assets/ac-lp-code.png){width="70%"}
