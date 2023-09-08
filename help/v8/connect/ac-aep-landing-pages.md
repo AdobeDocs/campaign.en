@@ -334,4 +334,4 @@ Here is an example of a landing page and a JavaScript code activity configured t
 
 ![](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%"}
+![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
