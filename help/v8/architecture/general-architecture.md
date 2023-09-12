@@ -72,6 +72,7 @@ Other more technical processes are also available:
 
 * **Statistics server** (nlserver stat) - This process maintains statistics on the number of connections, the messages sent for each mail server which messages are sent to, as well as their limitations (highest number of simultaneous connections, messages per hour/ and or connection). It also lets you federate several instances or machines if they share the same public IP addresses.
 
+
 ## Database containers {#db-containers}
 
 The Adobe Campaign Cloud database relies on [!DNL Snowflake] which contains the functional data (profiles, subscriptions, content, etc.), the technical data (delivery jobs and logs, tracking logs, etc.) and the work data (purchases, leads) for the solution, and all Adobe Campaign components communicate with the database in order to perform their specific tasks.
@@ -86,3 +87,9 @@ You can deploy Adobe Campaign using the pre-defined database and schemas, and if
 >With **Campaign Managed Cloud Services**, your environment and initial configuration have been set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas or reports. 
 >
 >If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.
+
+## Database storage {#db-storage}
+
+Total storage allowance is split between the main database and the Snowflake warehouse. Where data is stored should be determined at implementation or upgrade time, depending on customer-specific use-cases.
+
+Learn how to monitor your database usage in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
