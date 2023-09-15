@@ -53,7 +53,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-<p><stong>Mobile channel increased throughputs</strong></p>
+<p><strong>Mobile channel increased throughputs</strong></p>
 <p>The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5). </p>
 <ul>
 <li>Push Notifications (Android): up to <strong>5x</strong> faster </li>
