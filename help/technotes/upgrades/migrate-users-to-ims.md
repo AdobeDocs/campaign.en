@@ -96,23 +96,23 @@ To perform a bulk update of your native operators, follow these steps:
 
 1. Create a workflow to import updated data, with a **Data loading (file)** activity and an **Update data** activity in the workflow.
 
-    ![](assets/update-operators-wf.png) 
+    ![](assets/update-operators-wf.png){width="70%"}
 
 1. Edit the **Data loading (file)** activity and define the settings to load the updated CSV file, as per the sample below.
 
-    ![](assets/data-loading-activity.png) 
+    ![](assets/data-loading-activity.png){width="70%"}
 
     Learn more about the **Data loading (file)** activity in [this page](../../automation/workflow/data-loading--file-.md)
 
 1. Edit the **Update data** activity and define the settings as per the sample below. Note that the **Updated dimension** has been changed to `Operators (xtk)`.
 
-    ![](assets/update-data-activity.png) 
+    ![](assets/update-data-activity.png){width="70%"}
 
     Learn more about the **Update data** activity in [this page](../../automation/workflow/update-data.md)
 
 1. Run the workflow and check results. The email address has been added to the operator's profile.
 
-    ![](assets/updated-operator.png)  
+    ![](assets/updated-operator.png){width="70%"}
     
 +++
 
