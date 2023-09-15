@@ -22,8 +22,8 @@ The following operating systems and browser are required to use Campaign Client 
 
 ### Operating systems{#op-systems}
 
-* **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11, 10, 8
+* **Microsoft Windows Server** 2019, 2016
+* **Microsoft Windows** 11, 10
 
 >[!NOTE]
 >
