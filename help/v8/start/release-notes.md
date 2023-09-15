@@ -32,7 +32,6 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
 For more information, refer to the [detailed documentation](../send/push-data-collection.md).
 
 
-**Mobile channel increased throughputs**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -54,7 +53,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-
+<p><stong>Mobile channel increased throughputs</strong></p>
 <p>The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5). </p>
 <ul>
 <li>Push Notifications (Android): up to <strong>5x</strong> faster </li>
@@ -79,8 +78,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **Security enhancements**
 
-* Starting Campaign v8.5.1, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
-* You can no longer create operators from Campaign Client Console. The user interface has been updated accordingly. You must now use Adobe Admin Console. [Learn more](../start/gs-permissions.md).
+* With Campaign v8.5.1, the authentication process to Campaign v8 has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
+* Starting the upcoming v8.6, you will no longer be allowed to create operators from Campaign Client Console. If you are using the login/password native authentication, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
 * Several third-party tools have been updated to optimize security.
 
 **Compatibility updates**
