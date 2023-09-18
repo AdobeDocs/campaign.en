@@ -25,7 +25,7 @@ The production environments migration is scheduled to begin in **January 2024**.
 
 As a Campaign customer, you will receive additional notification as the migration waves are scheduled. Notifications will be sent at least seven days in advance of the migration.
 
-## What is the impact?{#aws-impact}
+## What is the impact?{#impact}
 
 This move will be transparent to customers: 
 
