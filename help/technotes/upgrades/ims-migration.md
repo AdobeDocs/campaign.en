@@ -184,7 +184,7 @@ After the migration of all API/custom code integration with Technical account us
 
 Once the migration process is achieved and validated, the Soap Calls are updated as below:
 
-* Before the migratio: there was no support for Technical account access token.
+* Before the migration: there was no support for Technical account access token.
 
     ```sql
     POST /nl/jsp/soaprouter.jsp HTTP/1.1
