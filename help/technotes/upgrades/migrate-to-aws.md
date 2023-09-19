@@ -15,7 +15,11 @@ This move will ensure high availability, optimal throughput, and the ability to 
 
 ## Are you impacted?{#aws-impact}
 
-As a v8 customer, or a v7 hosted, hybrid, or Managed Services Campaign customer, you are impacted.
+This change affects:
+
+* Campaign Classic v7 hosted and hybrid customers
+* Campaign Managed Services customers
+* All Campaign v8 customers
 
 ## When will this migration happen?{#aws-timeline}
 
@@ -23,21 +27,43 @@ The development and staging environments migration will take place in **October 
 
 The production environments migration is scheduled to begin in **January 2024**. More details will be provided as the date approaches. 
 
-As a Campaign customer, you will receive additional notification as the migration waves are scheduled. Notifications will be sent at least seven days in advance of the migration.
+As a Campaign customer, you will receive additional notification as the migration waves are scheduled. Notifications will be sent at least 7 days in advance of the migration for Stage environments, and at least 30 days in advance of the migration for Production environments.
 
 ## What is the impact?{#impact}
 
 This move will be transparent to customers: 
 
-* Sending IPs and Campaign build version will remain the same as they were prior to the move. 
+* The migration is expected to take between 30min - 60min
 
-* During the migration window Campaign instances will be unable to send mail. No other Campaign function will be affected. 
-
-* Any mail queued for delivery before the maintenance window must be resent. 
-
->[!NOTE]
->
->For any questions about this migration, reach out to your Adobe Representative or contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+* Campaign instances will be unable to send mail during the migration window. No other Campaign function will be affected.
 
  
+## Frequently Asked Questions {#aws-faq}
+
+* **Why is this a mandatory upgrade?**
+
+    The new Campaign sending infrastructure hosted by Adobe Web Services (AWS) brings better quality and reliability for our customers. It also provides a strong and modern infrastructure to ensure better availability and optimal throughput.
+
+* **Which customers are targeted for this migration?**
+
+    All the Campaign v8 customers and Campaign Classic v7 hybrid, hosted, and Campaign Managed Services will have their environments migrated.
+
+* **What is the expected downtime?**
+
+    The expected downtime is between 30 and 60 minutes.  
+
+* **Are there any actions required by the customer for migration?** 
+    
+    No actions is required since the migration will run automatically by Adobe. 
+
+* **What validations need to be run by the customers?** 
+    
+    No specific testing is needed for this security upgrade. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+
+
+* **Can I request a change in Date/Time to the scheduled security upgrade slot?** 
+    
+    Since this is a mandatory migration, we strongly recommend you adapt to the existing schedule.  
+
+
+For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
