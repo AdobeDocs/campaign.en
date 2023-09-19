@@ -54,7 +54,7 @@ This move will be transparent to customers:
 
 * **Are there any actions required by the customer for migration?** 
     
-    No actions is required since the migration will run automatically by Adobe. 
+    No actions is required since the migration will be ran automatically by Adobe. 
 
 * **What validations need to be run by the customers?** 
     
