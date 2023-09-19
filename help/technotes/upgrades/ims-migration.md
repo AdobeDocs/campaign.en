@@ -21,6 +21,16 @@ If you are using Campaign APIs, you need to migrate your technical operator(s) t
 
 ## How to migrate?{#ims-migration-procedure}
 
+Each technical operator should have at least one technical account.
+
+Key steps are:
+
+1. First create the technical account corresponding to technical operator. For example, suppose the newly created technical account (TA1) for technical operator (TO1). 
+1. Execute the steps detailed below on the technical account TA1 
+    [Step 4](#ims-migration-step-4) is optional and only required if the technical operator has specific folder permissions. 
+1. Migrate all the Campaign API integration implementation to the newly created technical account TA1. 
+1. Once all the customer facing API/Integration start fully functional on TA1, replace the technical operator TO1 with technical account TA1.
+
 ### Prerequisites{#ims-migration-prerequisites}
 
 Before starting the migration process, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
@@ -55,7 +65,6 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.
 
 ### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
-
 
 This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
 
@@ -175,7 +184,7 @@ After the migration of all API/custom code integration with Technical account us
 
 Once the migration process is achieved and validated, the Soap Calls are updated as below:
 
-* Before the migration
+* Before the migratio: there was no support for Technical account access token.
 
     ```sql
     POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -198,7 +207,7 @@ Once the migration process is achieved and validated, the Soap Calls are updated
     </soapenv:Envelope>
     ```
 
-* After the migration
+* After the migration: there is support for Technical account access token. The access token is expected to be supplied in `Authorization` header as Bearer token. Usage of session token should be ignored here, as shown in the below soap call sample.
 
     ```sql
     POST /nl/jsp/soaprouter.jsp HTTP/1.1
