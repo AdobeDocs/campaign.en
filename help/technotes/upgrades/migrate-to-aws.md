@@ -20,6 +20,7 @@ This change affects:
 * Campaign Classic v7 hosted and hybrid customers
 * Campaign Managed Services customers
 * All Campaign v8 customers
+* Campaign Standard customers
 
 ## When will this migration happen?{#aws-timeline}
 
@@ -42,11 +43,13 @@ This move will be transparent to customers:
 
 * **Why is this a mandatory upgrade?**
 
-    The new Campaign sending infrastructure hosted by Adobe Web Services (AWS) brings better quality and reliability for our customers. It also provides a strong and modern infrastructure to ensure better availability and optimal throughput.
+    Adobe plans to decommission the legacy Data Center, Adobe Campaign instances running there must be transferred to the new reference Data Center, Amazon Web Services (AWS).
+
+    The Adobe Managed Services cloud is hosted on Amazon Web Services (AWS), a modern, secure, and optimized environment. [Learn more about Amazon Web Services](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **Which customers are targeted for this migration?**
 
-    All the Campaign v8 customers and Campaign Classic v7 hybrid, hosted, and Campaign Managed Services will have their environments migrated.
+    All the Campaign v8 customers and Campaign Classic v7 hybrid, hosted, and Campaign Managed Services will have their environments migrated. Campaign Standard customers are also impacted.
 
 * **What is the expected downtime?**
 
@@ -58,7 +61,7 @@ This move will be transparent to customers:
 
 * **What validations need to be run by the customers?** 
     
-    No specific testing is needed for this migration. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+    No specific testing is needed for this migration. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Can I request a change in Date/Time to the scheduled security upgrade slot?** 
@@ -66,4 +69,4 @@ This move will be transparent to customers:
     Since this is a mandatory migration, we strongly recommend you adapt to the existing schedule.  
 
 
-For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
