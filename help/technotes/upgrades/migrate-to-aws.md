@@ -34,7 +34,7 @@ As a Campaign customer, you will receive additional notification as the migratio
 
 This move will be transparent to customers: 
 
-* The migration is expected to take between 30min - 60min
+* The length of each migration wave may vary depending on the number of impacted Campaign instances. When a migration wave is scheduled, the notification will include the expected duration.
 
 * Campaign instances will be unable to send mail during the migration window. No other Campaign function will be affected.
 
@@ -53,7 +53,7 @@ This move will be transparent to customers:
 
 * **What is the expected downtime?**
 
-    The expected downtime is between 30 and 60 minutes.  
+    The migration is expected to take between 30min - 60min, but the length of each migration wave may vary depending on the number of impacted Campaign instances. When a migration wave is scheduled, the notification will include the expected duration.
 
 * **Are there any actions required by the customer for migration?** 
     
@@ -66,7 +66,6 @@ This move will be transparent to customers:
 
 * **Can I request a change in Date/Time to the scheduled security upgrade slot?** 
     
-    Since this is a mandatory migration, we strongly recommend you adapt to the existing schedule.  
-
+    Since this is a mandatory migration, we cannot accommodate modifications to the existing schedule.
 
 For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
