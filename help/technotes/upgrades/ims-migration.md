@@ -33,15 +33,15 @@ Key steps are:
 
 ### Prerequisites{#ims-migration-prerequisites}
 
-Before starting the migration process, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
+Before starting the migration process, you must reach out to your Adobe Transition Manager so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
 
 ### Step 1 - Create/update your Campaign project in Adobe Developer Console{#ims-migration-step-1}
 
 Integrations are created as part of a **Project** within Adobe Developer Console. Learn more about Projects in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}. 
 
-As a Campaign v8 user, you should already have a project in the Adobe Developer Console. If not, you must create a project. Steps to create a project are detailed [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+You can use any project previously created by you or you can create a new project. The steps to create a project are detailed in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Once you have access to your Campaign project, you can add services including APIs, Adobe Campaign, and I/O Management API. For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
+For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
