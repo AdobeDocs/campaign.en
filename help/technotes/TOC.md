@@ -14,6 +14,7 @@ breadcrumb-title: Campaign technotes
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operator to Developer Console](upgrades/ims-migration.md)
   + [Campaign sending infrastructure migration to AWS](upgrades/migrate-to-aws.md)
+  + [Campaign Email Sending Infrastructure Upgrade](upgrades/migration-to-aws.md)
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
