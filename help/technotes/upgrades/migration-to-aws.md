@@ -18,7 +18,6 @@ This change affects:
 * Adobe Campaign Classic Managed Services customers 
 * Adobe Campaign Managed Cloud Services customers 
 * Adobe Campaign Standard On-demand customers 
-* Adobe Campaign Cloud Messaging On-demand customers 
 
 ## When will this migration happen?{#aws-timeline}
 
