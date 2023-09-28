@@ -19,9 +19,9 @@ This change affects:
 * Adobe Campaign Managed Cloud Services customers 
 * Adobe Campaign Standard On-demand customers 
 
-## When will this migration happen?{#aws-timeline}
+## When will this upgrade happen?{#aws-timeline}
 
-The development and staging environments migration are expected to take place in **October of 2023**. 
+The development and staging environments upgrades are expected to take place in **October of 2023**. 
 
 We are planning to schedule production environment upgrades starting in **January of 2024**.  
 
@@ -39,7 +39,7 @@ As a Campaign customer, you will receive additional notification regarding the p
 
     Yes. As a Campaign customer, your email sending functionality requires the use of an email sending infrastructure.   
 
-* **Which customers are targeted for this migration?**
+* **Which customers are targeted for this upgrade?**
 
     All Campaign customers referenced above will have their environments upgraded. 
 
@@ -47,7 +47,7 @@ As a Campaign customer, you will receive additional notification regarding the p
 
     The length of each upgrade wave may vary depending on the number of impacted Campaign instances. When a production upgrade wave is scheduled, the notification will include an estimated duration. 
 
-* **Are there any actions required by the customer for migration?** 
+* **Are there any actions required by the customer for upgrade?** 
     
     No action is required. Adobe will manage the upgrade process, which will run automatically. 
 
