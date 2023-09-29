@@ -1,8 +1,6 @@
 ---
 title: Campaign Email Sending Infrastructure Upgrade 
 description: Campaign Email Sending Infrastructure Upgrade 
-hide: yes
-hidefromtoc: yes
 ---
 
 # Campaign Email Sending Infrastructure Upgrade {#migrate-infra-to-aws}
