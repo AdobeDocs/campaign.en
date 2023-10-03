@@ -5,7 +5,7 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
+exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
 ---
 # Campaign user interface settings {#ui-settings}
 

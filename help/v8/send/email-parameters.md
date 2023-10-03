@@ -4,6 +4,7 @@ description: Learn about options and settings that are specific to email deliver
 feature: Email
 role: User
 level: Beginner, Intermediate, Experienced
+exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
 ---
 # Email parameters {#email-parameters}
 

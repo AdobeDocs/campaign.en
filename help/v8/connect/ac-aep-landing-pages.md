@@ -4,6 +4,7 @@ description: Learn how to sync Adobe Campaign landing pages & Adobe Experience P
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
+exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
 ---
 # Update Adobe Experience Platform profiles from Adobe Campaign landing pages
 

@@ -1,6 +1,7 @@
 ---
 title: Migration of technical users to Adobe Developer console
 description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
+exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
