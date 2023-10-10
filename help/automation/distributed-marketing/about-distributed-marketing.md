@@ -3,6 +3,7 @@ product: campaign
 title: Get started with distributed marketing
 description: Get started with distributed marketing
 feature: Distributed Marketing
+role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 ---
 # Get started with distributed marketing{#about-distributed-marketing}

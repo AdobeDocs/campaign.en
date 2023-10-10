@@ -3,6 +3,7 @@ product: campaign
 title: Content Management
 description: Content Management
 feature: Workflows, Data Management
+role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
 ---
 # Content Management{#content-management}

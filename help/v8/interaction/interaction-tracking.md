@@ -2,7 +2,7 @@
 title: Real-time interaction history and reporting
 description: Learn how to track and measure your offers with Campaign Interaction
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
 ---

@@ -3,6 +3,7 @@ product: campaign
 title: Marketing campaign templates
 description: Marketing campaign templates
 feature: Campaigns, Templates
+role: User
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 ---
 # Create and configure campaign templates {#campaign-templates}

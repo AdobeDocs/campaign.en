@@ -2,7 +2,7 @@
 title: Work with Campaign Interaction environments
 description: Learn how to create environments for Campaign Interaction
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
 ---

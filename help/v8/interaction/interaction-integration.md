@@ -2,6 +2,7 @@
 product: campaign
 title: Add an offer in a web page
 description: Learn how to add an offer in a web page
+role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 ---
 # Add an offer in a web page{#add-an-offer-in-web}

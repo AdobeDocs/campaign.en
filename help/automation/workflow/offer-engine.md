@@ -3,6 +3,7 @@ product: campaign
 title: Offer engine
 description: Offer engine
 feature: Workflows, Interaction
+role: UserA, Admin
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
 ---
 # Offer engine{#offer-engine}

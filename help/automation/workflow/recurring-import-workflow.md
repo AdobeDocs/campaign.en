@@ -3,6 +3,7 @@ product: campaign
 title: Set up a recurring import
 description: Learn how to configure a workflow template for recurring imports.
 feature: Workflows, Data Management
+role: User, Data engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
 ---
 # Set up a recurring import workflow {#setting-up-a-recurring-import}

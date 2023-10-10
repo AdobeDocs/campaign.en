@@ -3,6 +3,7 @@ product: campaign
 title: Data loading (RDBMS)
 description: Learn more about Data loading (RDBMS) workflow activity
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
 ---
 # Data loading (RDBMS){#data-loading-rdbms}

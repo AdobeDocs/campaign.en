@@ -3,6 +3,7 @@ product: campaign
 title: Local approval
 description: Local approval
 feature: Workflows
+role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
 ---
 # Local approval{#local-approval}

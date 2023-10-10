@@ -3,6 +3,7 @@ product: campaign
 title: Get started with marketing campaigns
 description: Learn how to start with marketing campaigns
 feature: Campaigns, Cross Channel Orchestration, Programs
+role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
 ---
 # Get started with marketing campaigns {#gs-marketing-campaigns}

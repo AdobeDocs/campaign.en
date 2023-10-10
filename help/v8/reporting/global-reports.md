@@ -2,6 +2,7 @@
 title: Adobe Campaign global reports
 description: Learn how to access and use global reports
 feature: Reporting, Monitoring
+role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 ---
 # Global reports {#global-reports}

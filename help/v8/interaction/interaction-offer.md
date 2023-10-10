@@ -2,7 +2,7 @@
 title: Campaign Interaction Offer
 description: Learn how to create an offer
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 ---

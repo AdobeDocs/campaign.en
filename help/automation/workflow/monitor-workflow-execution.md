@@ -3,6 +3,7 @@ product: campaign
 title: Monitor workflow execution
 description: Monitor workflow execution
 feature: Workflows
+role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 ---
 # Monitor workflow execution {#monitoring-workflow-execution}

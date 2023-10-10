@@ -3,6 +3,7 @@ product: campaign
 title: Inbox rendering technical workflow
 description: This section describes the technical workflow installed with the Inbox rendering package
 feature: Workflows, Inbox Rendering
+role: User, Admin
 ---
 
 # Inbox rendering (IR){#inbox-rendering}

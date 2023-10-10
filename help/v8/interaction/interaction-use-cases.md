@@ -2,7 +2,7 @@
 title: Campaign Interaction use cases
 description: Interaction Use Cases
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 4ea77a39-f505-4657-be43-a0e2b79ddcdd
 ---

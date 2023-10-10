@@ -3,6 +3,7 @@ product: campaign
 title: Query using grouping management
 description: Learn how to perform queries using grouping management
 feature: Query Editor
+role: User, Data engineer
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
 ---
 # Query using grouping management {#querying-using-grouping-management}

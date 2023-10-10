@@ -3,6 +3,7 @@ product: campaign
 title: Data loading (file)
 description: Learn more about the Data loading (file) workflow activity
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 ---
 # Data loading (file){#data-loading-file}

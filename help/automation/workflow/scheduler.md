@@ -3,6 +3,7 @@ product: campaign
 title: Scheduler
 description: Learn more about the Scheduler workflow activity
 feature: Workflows
+role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
 ---
 # Scheduler {#scheduler}

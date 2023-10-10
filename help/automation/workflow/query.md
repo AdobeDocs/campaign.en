@@ -3,6 +3,7 @@ product: campaign
 title: Query
 description: Learn more about the Query workflow activity
 feature: Workflows, Targeting Activity, Query Editor
+role: User, Data engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 ---
 # Query{#query}

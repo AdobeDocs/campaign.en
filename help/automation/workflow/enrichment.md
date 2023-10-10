@@ -3,6 +3,7 @@ product: campaign
 title: Enrichment
 description: Learn more about the Enrichment workflow activity
 feature: Workflows, Enrichment Activity, Targeting Activity
+role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
 ---
 # Enrichment{#enrichment}

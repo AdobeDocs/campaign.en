@@ -28,7 +28,7 @@ The basic structure of the Adobe Campaign data model can be described as follows
 
 >[!NOTE]
 >
->To access the description of each table, go to Admin > Configuration > Data schemas, select a resource from the list and click the **Documentation** tab.
+>To access the description of each table, browse to **Administration > Configuration > Data schemas**, select a resource from the list, and click the **Documentation** tab.
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 

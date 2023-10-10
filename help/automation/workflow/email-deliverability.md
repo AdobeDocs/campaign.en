@@ -3,6 +3,7 @@ product: campaign
 title: Email Deliverability
 description: Learn more about the Email Deliverability package
 feature: Workflows, Deliverability
+role: User
 ---
 
 # Deliverability monitoring (Email Deliverability){#email-deliverability}

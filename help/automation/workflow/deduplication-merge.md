@@ -2,6 +2,7 @@
 title: Use the Deduplication activity's Merge functionality
 description: Learn how to use the Deduplication activity's Merge functionality
 feature: Workflows, Data Management
+role: User
 exl-id: ee201cfd-a351-41d8-a5ad-2f2e538dc643
 ---
 # Use the Deduplication activity's Merge functionality {#deduplication-merge}

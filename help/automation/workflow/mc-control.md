@@ -3,6 +3,7 @@ product: campaign
 title: Message Center (Control)
 description: Message Center (Control)
 feature: Workflows
+role: User
 ---
 
 # Message Center (Control){#message-center-control}

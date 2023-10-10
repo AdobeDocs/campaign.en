@@ -3,6 +3,7 @@ product: campaign
 title: Create recurring and periodic campaigns
 description: Learn how to create and execute recurring and periodic campaigns
 feature: Campaigns, Cross Channel Orchestration, Programs
+role: User
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
 ---
 # Recurring and periodic campaigns {#recurring-and-periodic-campaigns}

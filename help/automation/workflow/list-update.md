@@ -3,6 +3,7 @@ product: campaign
 title: List update
 description: List update
 feature: Workflows, Targeting Activity
+role: User
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
 ---
 # List update{#list-update}

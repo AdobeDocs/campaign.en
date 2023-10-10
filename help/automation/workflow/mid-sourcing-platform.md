@@ -3,6 +3,7 @@ product: campaign
 title: Mid-sourcing platform
 description: Mid-sourcing platform
 feature: Workflows
+role: User
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}
