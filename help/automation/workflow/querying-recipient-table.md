@@ -3,7 +3,7 @@ product: campaign
 title: Query the recipient table
 description: Learn how to query the recipient table
 feature: Query Editor
-role: User, Data engineer
+role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
 ---
 # Query the recipient table {#querying-recipient-table}
