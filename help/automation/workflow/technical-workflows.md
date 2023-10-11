@@ -3,6 +3,7 @@ product: campaign
 title: Technical workflows
 description: Learn more about the technical workflows available with Campaign
 feature: Workflows
+role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 ---
 # Technical workflows{#about-technical-workflows}
@@ -76,7 +77,7 @@ Learn how to monitor technical workflows in this [dedicated section](monitor-tec
 |**Proposition synchronization** (propositionSynch)|Control of offer engine with execution instance|This workflow synchronizes propositions between the marketing instance and the execution instance used for interactions.|
 |**Recovery of web events** (webAnalyticsGetWebEvents)|Web Analytics connectors|Every hour, this workflow downloads segments on internet user behavior on a given site, puts them into the Adobe Campaign database and launches the re-marketing workflow.|
 |**Reporting aggregates** (reportingAggregates)|Delivery|This workflow updates aggregates used in reports. It is triggered every day at 2am by default.|
-|**Sending of indicators and campaign attributes** (webAnalyticsSendMetrics)|Web Analytics connectors|This workflow lets you send email campaign indicators from Adobe Campaign to Adobe Experience Cloud Suite via the Adobe® Analytics connector. The indicators concerned are as follows: Sent (iSent), Total count of opens (iTotalRecipientOpen), Total number of recipients who clicked (iTotalRecipientClick), Errors (iError), Opt-Out (opt-out) (iOptOut).|
+|**Sending of indicators and campaign attributes** (webAnalyticsSendMetrics)|Web Analytics connectors|This workflow lets you send email campaign indicators from Adobe Campaign to Adobe Experience Cloud Suite via the Adobe&reg; Analytics connector. The indicators concerned are as follows: Sent (iSent), Total count of opens (iTotalRecipientOpen), Total number of recipients who clicked (iTotalRecipientClick), Errors (iError), Opt-Out (opt-out) (iOptOut).|
 |**Stock: Orders and alerts** (stockMgt)|Installed by default|This workflow launches stock calculation on the order lines and manages warning alerts thresholds.|
 |**Sync Mobile apps from Adobe Experience Platform Data Collection** (syncWithLaunch)|Installed by default, starting v8.5|This workflow will automatically sync mobile properties to Adobe Campaign from Data collection.|
 |**Tracking** (tracking)|Installed by default|This workflow performs the recovery and consolidation of tracking information. It also assures the recalculation of tracking and delivery statistics, especially those used by Message Center archiving workflows. By default, it is triggered once per hour.|
