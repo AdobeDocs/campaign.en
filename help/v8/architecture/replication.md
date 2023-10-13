@@ -6,9 +6,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 ---
-# Technical workflows and data replication
+# Technical workflows and data replication {#wf-data-replication}
 
-## Technical workflows{#tech-wf}
+## Technical workflows {#tech-wf}
 
 In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
 
@@ -31,7 +31,7 @@ These technical workflows are available from the **[!UICONTROL Administration > 
 
 If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
 
-## Data replication{#data-replication}
+## Data replication {#data-replication}
 
 Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows described above.
 
@@ -40,7 +40,7 @@ Understand which databases Adobe Campaign v8 uses, why data is being replicated,
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### Data replication policies{#data-replication-policies}
+### Data replication policies {#data-replication-policies}
 
 Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 

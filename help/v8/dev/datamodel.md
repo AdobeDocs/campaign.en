@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 ---
-# Get started with Campaign data model{#gs-ac-datamodel}
+# Get started with Campaign data model {#gs-ac-datamodel}
 
 Adobe Campaign comes with a pre-defined data model. This section gives some details on the built-in tables of the Adobe Campaign data model and their interaction. Adobe Campaign relies on a Cloud database containing tables that are linked together.
 

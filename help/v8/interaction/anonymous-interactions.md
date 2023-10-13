@@ -2,10 +2,11 @@
 product: campaign
 title: Present offers to anonymous profiles (inbound interaction)
 description: Learn how to present offers to anonymous profiles
+feature: Interaction, Offers
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 ---
-# Anonymous interactions{#anonymous-interactions}
+# Anonymous interactions {#anonymous-interactions}
 
 ## Environment for anonymous interactions {#environment-for-anonymous-interactions}
 

@@ -19,7 +19,7 @@ You can set up:
 * Automatic report sending
 * Triggered events
 
-## Design and use workflows{#gs-ac-wf}
+## Design and use workflows {#gs-ac-wf}
 
 Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery.
 
@@ -160,7 +160,7 @@ And these pages in Campaign v7 documentation:
     Learn how to generate a monthly built-in Tracking indicators report in PDF format and send it to a list of Campaign operators.
 
 * [Supervise your workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
-    Learn how to create a workflow that lets you monitor the status of a set of workflows that are “paused”, “stopped” or “with errors”.
+    Learn how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors".
 
 * [Send personalized alerts to operators](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
     Learn how to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
@@ -192,7 +192,7 @@ And these pages in Campaign v7 documentation:
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Query the recipient table](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
-    Learn how to recover the names and emails of recipients whose email domain is “orange.co.uk” and who don’t live in London.
+    Learn how to recover the names and emails of recipients whose email domain is "orange.co.uk" and who don't live in London.
 
 * [Query delivery information](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
     Learn how to define queries on delivery information to retrieve profile's behavior.

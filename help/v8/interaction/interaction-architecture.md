@@ -1,7 +1,7 @@
 ---
 title: Understand Campaign Interaction architecture
 description: Campaign Interaction Architecture basics
-feature: Interaction
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8

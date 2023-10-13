@@ -2,10 +2,11 @@
 product: campaign
 title: Adobe Campaign Interaction best practices
 description: Best practice approach to manage the Interaction module in Adobe Campaign
+feature: Interaction, Offers
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 ---
-# Interaction best practices{#interaction-best-practices}
+# Interaction best practices {#interaction-best-practices}
 
 ## General recommendations {#general-recommendations}
 

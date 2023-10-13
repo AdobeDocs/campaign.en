@@ -1,7 +1,7 @@
 ---
 title: Restrict PI view
 description: Learn how to restrict PI view
-feature: PI, Privacy
+feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232

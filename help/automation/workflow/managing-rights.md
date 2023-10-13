@@ -2,7 +2,7 @@
 product: campaign
 title: Manage workflow permissions
 description: Learn how to manage workflow permissions
-feature: Workflows
+feature: Workflows, Permissions
 role: Admin
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
 ---

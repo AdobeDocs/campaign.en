@@ -1,18 +1,18 @@
 ---
 title: Campaign input forms
 description: Learn how to customize input forms
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 ---
-# Get Started with input forms{#gs-ac-forms}
+# Get Started with input forms {#gs-ac-forms}
 
 When you create or extend a schema, you need to create or modify the associated input forms to make those changes visible to end-users.
 
 An input form lets you edit an instance associated with a data schema from the Adobe Campaign Client Console. The form is identified by its name and namespace.
 
-The identification key of a form is a string made up of the namespace and the name separated by a colon, for example: “cus:contact”.
+The identification key of a form is a string made up of the namespace and the name separated by a colon, for example: "cus:contact".
 
 ## Edit input forms
 

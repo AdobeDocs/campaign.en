@@ -2,6 +2,7 @@
 product: campaign
 title: Present an offer (inbound interaction)
 description: Learn how to present the best offer using Campaign Interaction module
+feature: Interaction, Offers
 role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
 ---

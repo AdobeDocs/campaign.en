@@ -2,10 +2,11 @@
 title: Work with Campaign and Twitter
 description: Learn how to integrate your Campaign environment with Twitter
 role: User, Admin
+feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 ---
-# Work with Campaign and Twitter{#tw-ac-ovv}
+# Work with Campaign and Twitter {#tw-ac-ovv}
 
 The **Managing social networks (Social Marketing)** module lets you interact with your customers via Twitter. Use this capability to:
 

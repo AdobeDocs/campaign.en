@@ -2,6 +2,7 @@
 product: campaign
 title: Manage marketing resources
 description: Learn how to manage marketing resources
+feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
 ---

@@ -3,6 +3,8 @@ product: campaign
 title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity
 feature: Workflows
+Role: User
+Level: Experienced 
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 ---
 # SQL Data Management{#sql-data-management}
@@ -41,7 +43,7 @@ Before configuring the activity, make sure the following prerequisites are fulfi
    The activity lets you use the following variables in the script:
 
     * **activity.tableName**: SQL name of the outbound work table.
-    * **task.incomingTransitionByName(‘name’).tableName**: SQL name of the work table carried by the incoming transition to use (the transition is identified by its name).
+    * **task.incomingTransitionByName('name').tableName**: SQL name of the work table carried by the incoming transition to use (the transition is identified by its name).
 
       >[!NOTE]
       >

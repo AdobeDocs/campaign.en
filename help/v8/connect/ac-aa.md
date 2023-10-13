@@ -6,7 +6,7 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 ---
-# Work with Campaign and Adobe Analytics
+# Work with Campaign and Adobe Analytics {#ac-aa}
 
 You can configure Adobe Analytics to integrate Campaign and Analytics.
 

@@ -1,7 +1,7 @@
 ---
 title: Create test profiles in Campaign
 description: Learn how to create and manage test profiles in Adobe Campaign
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1

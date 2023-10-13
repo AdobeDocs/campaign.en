@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 ---
-# Adobe Campaign built-in reports{#ootb-reports}
+# Adobe Campaign built-in reports {#ootb-reports}
 
 This page provides the list of Adobe Campaign built-in reports, their content and their context. Adobe Campaign provides a range of built-in reports, accessible with the Client Console or an internet browser.
 

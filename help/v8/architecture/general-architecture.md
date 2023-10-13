@@ -1,7 +1,7 @@
 ---
 title: General architecture
 description: Learn more about Adobe Campaign architecture and components. Find out more about personalizing your Client Console and environment. 
-feature: Architecture
+feature: Architecture, Deployment
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e

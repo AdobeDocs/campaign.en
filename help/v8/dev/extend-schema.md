@@ -1,7 +1,7 @@
 ---
 title: Extend Campaign schemas
 description: Learn how to extend Campaign schemas
-feature: Schema Extension
+feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921

@@ -2,7 +2,7 @@
 product: campaign
 title: Use the local approval activity
 description: Learn how to use the local approval activity
-feature: Workflows
+feature: Workflows, Approvals
 role: User
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
 ---

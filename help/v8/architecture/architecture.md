@@ -1,7 +1,7 @@
 ---
 title: Get started with Campaign architecture
 description: Discover environments and deployment basics, including how to report on a campaign environment.
-feature: Overview
+feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
