@@ -27,7 +27,7 @@ Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deplo
 >* [!DNL Adobe Campaign] v8 comes with a limit on the throughput (TPS) of our API layer. Breaking the limit leads to standard HTTP error (429). As a Managed Cloud Services user, you can contact Adobe to adapt the throttling for each API.
 > 
 
-## Prerequisites {ac-api-prerequisites}
+## Prerequisites {#ac-api-prerequisites}
 
 Before using [!DNL Adobe Campaign] APIs, you need to be familliar with the following topics:
 
