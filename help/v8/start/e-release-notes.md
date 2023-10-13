@@ -1,7 +1,7 @@
 ---
 title: Early Campaign v8 release notes
 description: Early Campaign v8 release
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: yes

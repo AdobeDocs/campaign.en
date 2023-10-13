@@ -1,7 +1,7 @@
 ---
 title: Get started with Campaign v8
 description: New to Adobe Campaign? Find documentation on how to get your software up and running and where to begin with the interface.
-feature: Overview
+feature: Overview, Cross Channel Orchestration
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d

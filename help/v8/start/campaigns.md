@@ -1,7 +1,7 @@
 ---
 title: Get started with campaigns
 description: Get started with campaigns
-feature: Audiences
+feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66

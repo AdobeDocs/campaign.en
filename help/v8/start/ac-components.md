@@ -1,7 +1,7 @@
 ---
 title: Understand Campaign processes and components
 description: Understand Campaign processes and components
-feature: Overview
+feature: Overview, Architecture, Configuration
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0

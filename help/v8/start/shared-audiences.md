@@ -1,7 +1,7 @@
 ---
 title: Share audiences with Adobe Experience Cloud solutions
 description: Learn how to share audiences with Adobe Experience Cloud solutions
-feature: Subscriptions
+feature: Audiences
 role: User
 level: Beginner
 hide: yes
@@ -30,7 +30,7 @@ This integration supports two types of Adobe Experience Cloud IDs:
     >
     > Declared ID data source can now also be used with People core service integration.
     >
-    >If you are using the People core service integration and want to add the Audience Manager integration, you will need the help of an Adobe Audience Manager consultant’s to avoid losing all of the ID syncs collected when transitioning to using this Declared ID data source in an Adobe Audience Manager context.
+    >If you are using the People core service integration and want to add the Audience Manager integration, you will need the help of an Adobe Audience Manager consultant's to avoid losing all of the ID syncs collected when transitioning to using this Declared ID data source in an Adobe Audience Manager context.
 
 See:
 

@@ -1,7 +1,7 @@
 ---
 title: Campaign v8 2021 release notes
 description: List of features and improvemens coming with 2021 Campaign v8 releases
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
