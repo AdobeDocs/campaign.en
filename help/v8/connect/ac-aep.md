@@ -1,7 +1,7 @@
 ---
 title: Audiences & profile attributes
 description: Learn how to sync Adobe Experience Platform audiences and prpofile attributes with Campaign
-feature: Platform Integration
+feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
