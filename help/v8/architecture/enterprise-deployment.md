@@ -2,8 +2,8 @@
 title: Get started with Campaign FFDA deployment
 description: Get started with Campaign FFDA deployment
 feature: Architecture, FFDA, Deployment
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: Admin, Developer
+level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 ---
 # [!DNL Campaign] FFDA deployment {#gs-ac-ffda}

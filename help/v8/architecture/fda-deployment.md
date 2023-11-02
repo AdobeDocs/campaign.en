@@ -2,7 +2,7 @@
 title: Get started with Campaign FDA-Snowflake deployment
 description: Get started with Campaign FDA-Snowflake deployment
 feature: Architecture, Federated Data Access, Deployment
-role: Admin, Developer, User
+role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 ---

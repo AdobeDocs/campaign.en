@@ -2,7 +2,7 @@
 title: Discover Campaign worspace
 description: Learn how to browse and use Campaign workspace
 feature: Overview
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 ---

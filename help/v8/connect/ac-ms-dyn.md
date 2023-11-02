@@ -3,7 +3,7 @@ title: Work with Campaign and Microsoft Dynamics
 description: Learn how to work with Campaign and Microsoft Dynamics
 feature: Microsoft CRM Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 ---
 # Work with Campaign and Microsoft Dynamics 365{#crm-ms-dynamics}
@@ -47,7 +47,7 @@ Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/
 
 ### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
-To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, you must upload a certificate. Certificates can be used as secrets to prove the application’s identity when requesting a token. Also can be referred to as public keys.
+To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, you must upload a certificate. Certificates can be used as secrets to prove the application's identity when requesting a token. Also can be referred to as public keys.
 
 Follow the steps below:
 

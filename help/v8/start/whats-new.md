@@ -2,8 +2,8 @@
 title: What's new in Campaign v8
 description: Discover key capabilities in Adobe Campaign v8, what's new, and what you can expect from the latest release.
 feature: Overview, Release Notes
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 ---
 # What's new in Adobe Campaign v8? {#ac-gs-what-is-new}

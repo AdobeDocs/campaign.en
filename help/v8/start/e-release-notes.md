@@ -2,8 +2,8 @@
 title: Early Campaign v8 release notes
 description: Early Campaign v8 release
 feature: Release Notes
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 hide: yes
 hidefromtoc: yes
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9

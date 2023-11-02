@@ -3,7 +3,7 @@ title: New Campaign v8 APIs
 description: New Campaign v8 APIs
 feature: Architecture, API, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 ---
 # Specific FFDA Campaign APIs{#gs-new-api}

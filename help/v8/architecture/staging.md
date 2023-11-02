@@ -3,7 +3,7 @@ title: Campaign API staging mechanism
 description: Campaign API staging mechanism
 feature: Configuration, API, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism

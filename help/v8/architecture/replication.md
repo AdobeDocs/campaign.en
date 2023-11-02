@@ -3,7 +3,7 @@ title: Technical workflows and data replication
 description: Technical workflows and data replication
 feature: Workflows, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 ---
 # Technical workflows and data replication {#wf-data-replication}

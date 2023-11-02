@@ -3,7 +3,7 @@ title: CRM Connectors data synchronization
 description: Manage data between Campaign and your CRM
 feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
 ---
 # Synchronize data between Campaign and your CRM {#data-synchronization}

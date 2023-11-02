@@ -2,8 +2,8 @@
 title: Campaign v8 release notes
 description: Latest Campaign v8 release
 feature: Release Notes
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
 # Latest release{#latest-release}

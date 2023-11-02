@@ -3,7 +3,7 @@ title: Campaign v8 compatibility matrix
 description: Discover systems and versions compatible with Campaign v8
 feature: Release Notes
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 ---
 # Campaign v8 compatibility matrix

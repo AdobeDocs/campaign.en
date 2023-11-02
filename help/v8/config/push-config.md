@@ -4,7 +4,7 @@ description: Learn how to integrate Campaign Android and iOS SDKs with your app
 version: v8
 feature: Push
 role: Admin, Developer
-level: Intermediate, Experienced
+level: Intermediate
 hide: yes
 hidefromtoc: yes
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac

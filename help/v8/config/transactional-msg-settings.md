@@ -3,7 +3,7 @@ title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings
 feature: Transactional Messaging
 role: Admin, Developer
-level: Intermediate, Experienced
+level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
 # Transactional messaging settings {#mc-settings}

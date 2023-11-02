@@ -4,7 +4,7 @@ description: Learn how to customize Campaign interface settings
 version: v8
 feature: Application Settings
 role: Admin, Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
 ---
 # Campaign user interface settings {#ui-settings}

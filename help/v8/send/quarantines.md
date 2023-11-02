@@ -2,8 +2,8 @@
 title: Quarantine management in Campaign
 description: Understand quarantine management in Adobe Campaign
 feature: Profiles, Monitoring
-role: User, Developer
-level: Beginner, Intermediate
+role: User, Data Engineer
+level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 ---
 # Quarantine {#quarantine-management}
@@ -16,11 +16,11 @@ When their address or phone number is quarantined, recipients are excluded from 
 
 **Quarantine** applies only to an **address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#delivery-quarantines) (for a delivery) or in the [quarantine list](#non-deliverable-bounces) (for the entire platform).
 
-On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile’s **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
+On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
->When recipients report your message as spam or reply to an SMS message with a keyword such as “STOP”, their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
+>When recipients report your message as spam or reply to an SMS message with a keyword such as "STOP", their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
 
 <!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
@@ -112,7 +112,7 @@ To perform this, create a workflow and add a query on your quarantine table to f
 
 Below are the recommended guidelines for this query:
 
-* **Error text (quarantine text)** contains “Momen_Code10_InvalidRecipient”
+* **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
 * **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
 * **Update status (@lastModified)** on or after MM/DD/YYYY HH:MM:SS AM
 * **Update status (@lastModified)** on or before MM/DD/YYYY HH:MM:SS PM

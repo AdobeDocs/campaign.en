@@ -3,7 +3,7 @@ title: Work with Campaign and your CRM
 description: Learn how to work with Campaign and your CRM
 feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
 ---
 # Connect your CRM with Campaign {#gs-crm}
