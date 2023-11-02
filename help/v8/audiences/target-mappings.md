@@ -26,6 +26,8 @@ Adobe Campaign comes with the following built-in target mappings:
 |  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
 |  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |
 |  External file  | Deliver via a file that contains all information needed for delivery  | No linked schema, no target entered  |
+|  Subscriber applications  | Deliver to recipients who are subscribed to an application | nms:appSubscriptionRcp  |
+
 
 ## Create a target mapping {#new-mapping}
 

@@ -8,8 +8,6 @@ exl-id: 8510e879-2862-491f-bc52-ca8f56105932
 ---
 # Data extraction (file){#extraction-file}
 
-
-
 You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
 
 >[!CAUTION]
