@@ -53,11 +53,9 @@ So you can anticipate the change, here are the general steps that will be needed
 
 ### Marketing server
 
-Configuration changes can be done by the customer/partner.
+Configuration changes can be performed by the customer/partner.
 
-The Firebase Admin SDK service's account JSON file is needed to have the mobile application moved to HTTPv1.
-
-For more information on how to extract your JSON file, please refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+1. First, you need to extract your JSON file. The Firebase Admin SDK service's account JSON file is needed to have the mobile application moved to HTTPv1. Refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
 1. Navigate to your list of **Services and Subsriptions**.
 
@@ -75,7 +73,7 @@ There are no changes required.
 
 ### Real-time execution server
 
-You need to contact Adobe Campaign support so that they implement the same migration procedure as for the marketing server. 
+You need to contact Adobe Campaign support for this. The migration procedure is the same as for the marketing server. 
 
 ### Android OS and Android Mobile Application
 
