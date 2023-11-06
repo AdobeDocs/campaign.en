@@ -37,15 +37,13 @@ These APIs are currently integrated with Adobe Campaign Classic to send Push Not
 
 * **Contact Us**: If you have any immediate concerns or questions, please don't hesitate to reach out to our support team.
 
-## Next Steps
+## Impletentation steps 
 
 In the coming weeks, we will be sharing more details about the transition plan for Legacy FCM APIs, including timelines and action items. Rest assured, our primary goal is to make this transition as seamless as possible for you and your team.
 
 We appreciate your business and thank you for your understanding as we adapt to these changes. Your success is our top priority, and we're committed to supporting you every step of the way.
 
-## Impletentation steps 
-
-Follow these steps to migrate your push configuration from HTTP (Legacy) to FCM HTTPv1 API.
+So you can anticipate the change, here are the general steps that will be needed to migrate your push configuration from HTTP (Legacy) to FCM HTTPv1 API.
 
 ### Build upgrade
 
