@@ -37,7 +37,7 @@ These APIs are currently integrated with Adobe Campaign Classic to send Push Not
 
 * **Contact Us**: If you have any immediate concerns or questions, please don't hesitate to reach out to our support team.
 
-## Impletentation steps 
+## Implementation steps 
 
 In the coming weeks, we will be sharing more details about the transition plan for Legacy FCM APIs, including timelines and action items. Rest assured, our primary goal is to make this transition as seamless as possible for you and your team.
 
@@ -57,7 +57,7 @@ Configuration changes can be performed by the customer/partner.
 
 1. First, you need to extract your JSON file. The Firebase Admin SDK service's account JSON file is needed to have the mobile application moved to HTTPv1. Refer to this [page](https://firebase.google.com/docs/admin/setup#initialize-sdk).
 
-1. Navigate to your list of **Services and Subsriptions**.
+1. Navigate to your list of **Services and Subscriptions**.
 
 1. Locate all mobile applications using the HTTP (legacy) API version.
 
