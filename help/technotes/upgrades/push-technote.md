@@ -43,11 +43,8 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 To migrate your environment to HTTP v1, follow these steps on your Marketing and Real-Time execution servers:
 
 1. Browse to your list of **Services and Subscriptions**.
-
 1. Locate all mobile applications using the **HTTP (legacy)** API version.
-
 1. For each of these mobile applications, set the **API version** to **HTTP v1**.
-
 1. Click the **[!UICONTROL Load project json file to extract project details...]** link to load directly your JSON key file.
 
    You can also enter manually the following details:
@@ -58,9 +55,7 @@ To migrate your environment to HTTP v1, follow these steps on your Marketing and
    ![](assets/android-http-v1-config.png)
 
 1. Click **[!UICONTROL Test the connection]** to check that your configuration is correct and that the marketing server has access to the FCM. Note that for Mid-Sourcing deployments, the **[!UICONTROL Test connection]** button cannot check if the server has access to the Android Firebase Cloud Messaging (FCM) service.
-
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device. 
-
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. 
 
 Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
