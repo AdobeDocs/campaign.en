@@ -3,6 +3,7 @@ product: campaign
 title: Create a local campaign
 description: Create a local campaign
 feature: Distributed Marketing
+role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 ---
 # Create a local campaign{#creating-a-local-campaign}

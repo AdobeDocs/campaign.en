@@ -3,6 +3,7 @@ product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)
 feature: Workflows
+role: User
 ---
 
 # Message Center (Execution){#message-center-execution}

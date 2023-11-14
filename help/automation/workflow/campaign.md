@@ -3,6 +3,7 @@ product: campaign
 title: Campaign
 description: Campaign
 feature: Workflows
+role: User, Admin
 topic-tags: technical-workflows
 ---
 

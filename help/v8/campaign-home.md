@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 ---
 # Adobe Campaign v8 Documentation {#campaign-documentation}
 
-![](assets/banner-documentationv8.png) 
+<!--![](assets/banner-documentationv8.png) -->
 
 ## What's New
 

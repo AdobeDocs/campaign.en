@@ -3,6 +3,7 @@ product: campaign
 title: Accessing campaigns
 description: Accessing campaigns
 feature: Distributed Marketing
+role: User
 exl-id: 2edbb1d6-122c-418a-8893-4f683f804544
 ---
 # Access campaigns{#accessing-campaigns}

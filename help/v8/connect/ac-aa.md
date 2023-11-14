@@ -3,10 +3,10 @@ title: Work with Campaign and Adobe Analytics
 description: Learn how to integrate Campaign and Analytics
 feature: Analytics Integration, Reporting
 role: Admin, User
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 ---
-# Work with Campaign and Adobe Analytics
+# Work with Campaign and Adobe Analytics {#ac-aa}
 
 You can configure Adobe Analytics to integrate Campaign and Analytics.
 

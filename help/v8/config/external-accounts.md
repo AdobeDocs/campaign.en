@@ -1,13 +1,13 @@
 ---
 title: Campaign external accounts
 description: Campaign external accounts
-feature: Application Settings
+feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 ---
 
-# Configure your external accounts
+# Configure your external accounts {#config-external-accounts}
 
 Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems, you can create new external accounts.
 
@@ -25,7 +25,7 @@ You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: 
 >* In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), a specific **[!UICONTROL Full FDA]** (ffda) external account manages connection between Campaign local database and Cloud database ([!DNL Snowflake]).
 >
 
-## Campaign-specific external accounts
+## Campaign-specific external accounts {#ac-external-accounts}
 
 The following technical accounts are used by Adobe Campaign to enable and execute specific processes.
 
@@ -85,7 +85,7 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 
 In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
 
-## Access to External Systems external accounts 
+## Access to External Systems external accounts {#external-syst-external-accounts}
 
 * **External database (FDA)** - The **External database** type external account is used to connect to external an database via Federated Data Access (FDA). Learn more about Federated Data Access (FDA) option in [this section](../connect/fda.md).
 
@@ -93,7 +93,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
 * **Twitter** - The **Twitter** type external account is used to connect Campaign to your twitter account, to post messages on your behalf. Learn more about Twitter integration in [this section](../connect/ac-tw.md).
 
-## Adobe Solution Integration external accounts
+## Adobe Solution Integration external accounts {#adobe-integration-external-accounts}
 
 * **Adobe Experience Cloud** - The **[!UICONTROL Adobe Experience Cloud]** external account is used implement Adobe Identity Management Service (IMS) to connect to the Adobe Campaign. Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#logon-to-ac).
 
@@ -102,13 +102,13 @@ In the context of transactional messaging, the execution instances is linked to 
 * **Adobe Experience Manager** - The **[!UICONTROL AEM]** external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager. Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aem.md).
 
 
-## CRM Connector External accounts 
+## CRM Connector external accounts {#crm-external-accounts}
 
 * **Microsoft Dynamics CRM** -  The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign. Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com** - The **[!UICONTROL Salesforce CRM]** external account allows you to import and export Salesforce data into Adobe Campaign. Learn more about Adobe Campaign - Salesforce.com CRM integration in [this page](../connect/ac-sfdc.md).
 
-## Transfer Data external accounts
+## Transfer Data external accounts {#transfer-data-external-accounts}
 
 These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about **File transfer** in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 

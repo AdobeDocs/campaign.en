@@ -3,6 +3,7 @@ product: campaign
 title: Monitor technical workflows
 description: Monitor technical workflows
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
 ---
 # Monitor technical workflows {#monitoring-technical-workflows}
@@ -29,15 +30,15 @@ Depending on the technical workflow, follow the steps detailed below to ensure t
 
 To better understand what each technical workflow is supposed to do, refer to this [section](technical-workflows.md).
 
-For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+For **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
 Check the journal to verify that the elapsed time is relatively constant over time and does not interfere with other workflows.
 
-For **[!UICONTROL Tracking workflow (‘tracking’)]**:
+For **[!UICONTROL Tracking workflow ('tracking')]**:
 
 Check that the Tracking workflow runs as scheduled (every hour by default), and that the journal does not highlight recurrent errors. For more on this, refer to this [section](delivery.md).
 
-For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+For **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
 1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day.
 1. Verify in the journal that rules are being updated regularly.
@@ -57,7 +58,7 @@ An alert should be generated and sent to the correct group in case of problem.
 
 Make sure that each operator has a valid email address.
 
-Any workflow that should be running in order to keep the platform working, such as daily data imports, should be declared as “Production” (checkbox) and appear in bold.
+Any workflow that should be running in order to keep the platform working, such as daily data imports, should be declared as "Production" (checkbox) and appear in bold.
 
 ## Workflow maintenance list {#workflow-maintenance-list}
 

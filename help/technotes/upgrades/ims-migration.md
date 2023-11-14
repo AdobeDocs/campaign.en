@@ -1,6 +1,7 @@
 ---
 title: Migration of technical users to Adobe Developer console
 description: Learn how to migrate Campaign technical operators to Technical account on Adobe Developer console
+exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 ---
 # Migration of Campaign technical operators to Adobe Developer Console {#migrate-tech-users-to-ims}
 
@@ -21,17 +22,27 @@ If you are using Campaign APIs, you need to migrate your technical operator(s) t
 
 ## How to migrate?{#ims-migration-procedure}
 
+Each technical operator should have at least one technical account.
+
+Key steps are:
+
+1. First create the technical account corresponding to technical operator. For example, suppose the newly created technical account (TA1) for technical operator (TO1). 
+1. Execute the steps detailed below on the technical account TA1 
+    [Step 4](#ims-migration-step-4) is optional and only required if the technical operator has specific folder permissions. 
+1. Migrate all the Campaign API integration implementation to the newly created technical account TA1. 
+1. Once all the customer facing API/Integration start fully functional on TA1, replace the technical operator TO1 with technical account TA1.
+
 ### Prerequisites{#ims-migration-prerequisites}
 
-Before starting the migration process, you must reach out to your Adobe representative so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
+Before starting the migration process, you must reach out to your Adobe Transition Manager so that Adobe technical teams can migrate your existing Operator groups and Named rights to Adobe Identity Management System (IMS).
 
 ### Step 1 - Create/update your Campaign project in Adobe Developer Console{#ims-migration-step-1}
 
 Integrations are created as part of a **Project** within Adobe Developer Console. Learn more about Projects in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}. 
 
-As a Campaign v8 user, you should already have a project in the Adobe Developer Console. If not, you must create a project. Steps to create a project are detailed [in Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+You can use any project previously created by you or you can create a new project. The steps to create a project are detailed in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Once you have access to your Campaign project, you can add services including APIs, Adobe Campaign, and I/O Management API. For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
+For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
@@ -55,7 +66,6 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.
 
 ### Step 4 - Update the technical operator in the Client Console {#ims-migration-step-4}
-
 
 This step is only required if specific folder permissions or named rights have been defined for this operator (not via the operator's group).
 
@@ -175,7 +185,7 @@ After the migration of all API/custom code integration with Technical account us
 
 Once the migration process is achieved and validated, the Soap Calls are updated as below:
 
-* Before the migration
+* Before the migration: there was no support for Technical account access token.
 
     ```sql
     POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -198,7 +208,7 @@ Once the migration process is achieved and validated, the Soap Calls are updated
     </soapenv:Envelope>
     ```
 
-* After the migration
+* After the migration: there is support for Technical account access token. The access token is expected to be supplied in `Authorization` header as Bearer token. Usage of session token should be ignored here, as shown in the below soap call sample.
 
     ```sql
     POST /nl/jsp/soaprouter.jsp HTTP/1.1

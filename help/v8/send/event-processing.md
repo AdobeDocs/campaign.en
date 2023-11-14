@@ -3,7 +3,7 @@ title: Collect and process events
 description: Learn how Campaign Transactional messaging collects and processes events
 feature: Transactional Messaging
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 ---
 # Event processing {#event-processing}

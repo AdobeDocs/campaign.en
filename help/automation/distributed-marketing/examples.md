@@ -3,6 +3,7 @@ product: campaign
 title: Distributed Marketing samples
 description: Distributed Marketing samples
 feature: Distributed Marketing
+role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 ---
 # Distributed Marketing samples{#distributed-marketing-samples}

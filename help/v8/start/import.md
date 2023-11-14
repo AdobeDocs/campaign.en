@@ -1,7 +1,7 @@
 ---
 title: Get started with profiles
 description: Get started with profiles
-feature: Profiles
+feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a

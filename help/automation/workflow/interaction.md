@@ -3,6 +3,7 @@ product: campaign
 title: Interaction
 description: Interaction
 feature: Workflows, Interaction
+role: User, Admin
 ---
 
 # Interaction{#interaction}

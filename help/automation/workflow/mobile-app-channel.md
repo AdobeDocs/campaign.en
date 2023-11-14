@@ -3,6 +3,7 @@ product: campaign
 title: Mobile App Channel
 description: Mobile App Channel
 feature: Workflows
+role: User
 ---
 
 # Mobile App Channel{#mobile-app-channel}

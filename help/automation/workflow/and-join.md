@@ -3,6 +3,7 @@ product: campaign
 title: AND-join
 description: AND-join
 feature: Workflows
+role: User
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
 ---
 # AND-join{#and-join}

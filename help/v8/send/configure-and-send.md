@@ -4,7 +4,7 @@ description: Learn how to configure emails in Adobe Campaign.
 feature: Email
 role: User
 level: Beginner
-
+exl-id: 36033255-1e75-41c1-9816-126777f7330a
 ---
 # Configure and send the delivery {#configure-delivery}
 
@@ -199,4 +199,4 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 * **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
   The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
---> 
+-->

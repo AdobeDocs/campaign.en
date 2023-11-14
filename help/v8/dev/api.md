@@ -3,10 +3,10 @@ title: Get started with Campaign APIs
 description: Get started with Campaign APIs
 feature: API
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 ---
-# Get Started with [!DNL Campaign] APIs{#gs-ac-api}
+# Get Started with [!DNL Campaign] APIs {#gs-ac-api}
 
 [!DNL Adobe Campaign] comes with a set of Javascript functions which you can use:
 
@@ -27,7 +27,7 @@ Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deplo
 >* [!DNL Adobe Campaign] v8 comes with a limit on the throughput (TPS) of our API layer. Breaking the limit leads to standard HTTP error (429). As a Managed Cloud Services user, you can contact Adobe to adapt the throttling for each API.
 > 
 
-## Prerequisites
+## Prerequisites {#ac-api-prerequisites}
 
 Before using [!DNL Adobe Campaign] APIs, you need to be familliar with the following topics:
 

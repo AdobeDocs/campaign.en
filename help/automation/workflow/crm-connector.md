@@ -2,6 +2,7 @@
 title: CRM Connector activity
 description: Learn more about the CRM Connector and configure data synchronization
 feature: Workflows, Data Management
+role: User
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
 ---
 # CRM Connector{#crm-connector}

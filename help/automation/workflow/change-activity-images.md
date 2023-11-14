@@ -3,6 +3,7 @@ product: campaign
 title: Change activity images
 description: Learn how to change the activity image
 feature: Workflows
+role: Admin
 exl-id: f5580401-3305-4915-88a2-3400a32aa7aa
 ---
 # Change activity images{#change-activity-images}

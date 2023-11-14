@@ -13,8 +13,11 @@ breadcrumb-title: Campaign technotes
 + Upgrades{#tn-new}
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operator to Developer Console](upgrades/ims-migration.md)
+  + [Campaign sending infrastructure migration to AWS](upgrades/migrate-to-aws.md)
+  + [Campaign Email Sending Infrastructure Upgrade](upgrades/upgrade-to-aws.md)
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + [Client Console 32-bit deprecation](upgrades/console.md)  
+  + [Push Notification Channel upcoming changes](upgrades/push-technote.md)  
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)

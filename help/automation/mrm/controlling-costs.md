@@ -2,6 +2,8 @@
 product: campaign
 title: Control costs
 description: Learn how to control costs
+feature: Campaigns, Resource Management
+role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 ---
 # Control costs{#controlling-costs}

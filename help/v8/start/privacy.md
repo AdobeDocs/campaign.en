@@ -1,14 +1,14 @@
 ---
 title: Manage Privacy requests in Campaign
 description: Learn how to manage privacy requests in Campaign
-feature: Audiences
+feature: Privacy
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 ---
 # Manage Privacy requests in Campaign {#privacy}
 
-Depending on the nature of your business and the jurisdictions it operates under, your data operations may be subject to legal privacy regulations. These regulations often give your customers the right to request access to the data you collect from them, and the right to request the deletion of that stored data. These customer requests for their personal data are referred to as “Privacy requests” throughout the documentation.
+Depending on the nature of your business and the jurisdictions it operates under, your data operations may be subject to legal privacy regulations. These regulations often give your customers the right to request access to the data you collect from them, and the right to request the deletion of that stored data. These customer requests for their personal data are referred to as "Privacy requests" throughout the documentation.
 
 Adobe offers Data Controllers the tools to create and process Privacy requests for data stored in Campaign. However, it is your responsibility as a Data Controller to verify the identity of the Data Subject making the request, and to confirm that the data returned to the requester is about the Data Subject. Learn more on personal data and the different entities that manage data in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}.
 

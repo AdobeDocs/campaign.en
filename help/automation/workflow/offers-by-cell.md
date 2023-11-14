@@ -3,6 +3,7 @@ product: campaign
 title: Offers by cell
 description: Offers by cell
 feature: Workflows, Targeting Activity, Interaction
+role: User
 exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
 ---
 # Offers by cell{#offers-by-cell}

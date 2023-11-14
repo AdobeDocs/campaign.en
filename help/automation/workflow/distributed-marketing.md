@@ -3,6 +3,7 @@ product: campaign
 title: Distributed Marketing
 description: Learn more about the Distributed Marketing package
 feature: Workflows, Data Management, Distributed Marketing
+role: User, Admin
 ---
 
 # Distributed Marketing{#distributed-marketing}

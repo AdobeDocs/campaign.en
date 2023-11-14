@@ -3,6 +3,7 @@ product: campaign
 title: Deliveries
 description: Learn more about default Deliveries workflows
 feature: Workflows
+role: User, Admin
 ---
 
 # Deliveries{#deliveries}

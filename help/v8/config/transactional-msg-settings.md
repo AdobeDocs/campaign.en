@@ -3,10 +3,10 @@ title: Campaign Transactional messaging settings
 description: Campaign Transactional messaging settings
 feature: Transactional Messaging
 role: Admin, Developer
-level: Intermediate, Experienced
+level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 ---
-# Transactional messaging settings
+# Transactional messaging settings {#mc-settings}
 
 Transactional messaging (Message Center) is a Campaign module designed for managing triggered messages. Learn more about Transactional messaging in [this section](../send/transactional.md).
 
@@ -14,15 +14,15 @@ Understand transactional messaging architecture in [this page](../architecture/a
 
 ![](../assets/do-not-localize/speech.png) As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
-## Define permissions
+## Define permissions {#mc-permissions}
 
-To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access ‘Real time events’ (nmsRtEvent) folders.
+To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.
 
-## Schema extensions 
+## Schema extensions  {#mc-schema-ext}
 
 All schema extensions made on the schemas used by [Message Center technical workflows](#technical-workflows) on either control or execution instances need to be duplicated on the other instances used by Adobe Campaign transactional messaging module.
 
-## Send transactional push notifications
+## Send transactional push notifications {#mc-transactional-push}
 
 When combined with [Mobile app channel module](../send/push.md), transactional messaging enables you to push transactional messages through notifications on mobile devices.
 
@@ -53,7 +53,7 @@ Below is an example of an event configuration to send transactional push notific
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -65,8 +65,6 @@ Below is an example of an event configuration to send transactional push notific
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
-
 
 ## Purge events {#purge-events}
 

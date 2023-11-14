@@ -2,7 +2,8 @@
 product: campaign
 title: LINE Channel
 description: LINE Channel
-feature: Workflows
+feature: Workflows, Line App
+role: User
 ---
 
 # LINE Channel{#line-channel}

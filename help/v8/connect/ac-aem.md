@@ -3,10 +3,10 @@ title: Work with Campaign and Adobe Experience Manager
 description: Learn how to work with Campaign and Adobe Experience Manager
 feature: Experience Manager Integration
 role: Admin, User
-level: Beginner, Intermediate
+level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 ---
-# Work with Campaign and Adobe Experience Manager
+# Work with Campaign and Adobe Experience Manager {#ac-aem}
 
 Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 

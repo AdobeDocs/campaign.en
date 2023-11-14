@@ -1,9 +1,9 @@
 ---
 title: Campaign API staging mechanism
 description: Campaign API staging mechanism
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism
@@ -27,7 +27,7 @@ Campaign Classic v7 APIs are still available but cannot benefit from this new St
 >* Staging only applies for schemas stored on Cloud Database. Do not enable staging on replicated schemas. Do not enable Staging on local schemas. Do not enable Staging on a Staged schema
 >
 
-## Implementation steps{#implement-staging}
+## Implementation steps {#implement-staging}
 
 To implement Campaign staging mechanism on a specific table, follow the steps below:
 

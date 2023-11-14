@@ -3,6 +3,8 @@ product: campaign
 title: Use cubes to create reports on data
 description: Learn how to use cubes to create reports
 feature: Reporting
+role: User, Data Engineer
+level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
 ---
 # Use cubes to explore data{#use-cubes-to-create-reports}

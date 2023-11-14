@@ -1,9 +1,9 @@
 ---
 title: Campaign v8 guardrails
 description: Campaign v8 guardrails
-feature: Overview
+feature: Configuration
 role: User
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 ---
 # Product guardrails{#guardrails}

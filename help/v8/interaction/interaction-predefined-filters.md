@@ -2,7 +2,7 @@
 title: Campaign Interaction Offer pre-defined filters
 description: Learn how to create pre-defined filters
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 ---

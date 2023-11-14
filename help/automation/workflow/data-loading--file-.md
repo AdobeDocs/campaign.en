@@ -3,6 +3,7 @@ product: campaign
 title: Data loading (file)
 description: Learn more about the Data loading (file) workflow activity
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 ---
 # Data loading (file){#data-loading-file}
@@ -44,6 +45,10 @@ You can then modify the general formatting of the file as well as the formatting
 The general file formatting allows you to define the way in which the columns will be recognized (file encoding, separators used, etc.).
 
 The column formatting allows you to define the value processing of each column:
+
+>[!NOTE]
+>
+>You can add as many columns as desired. The maximum length of values in each column is determined by the chose data type.
 
 * **[!UICONTROL Ignore column]**: does not process this column during data loading.
 * **[!UICONTROL Data type]**: specifies the type of data expected for each column.

@@ -3,6 +3,7 @@ product: campaign
 title: File transfer
 description: Learn more about the File transfer workflow activity
 feature: Workflows, Data Management
+role: User
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 ---
 # File transfer{#file-transfer}

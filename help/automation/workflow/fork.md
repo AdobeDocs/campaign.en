@@ -3,6 +3,7 @@ product: campaign
 title: Fork
 description: Learn more about the Fork workflow activity
 feature: Workflows
+role: User
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
 ---
 # Fork{#fork}

@@ -3,6 +3,7 @@ product: campaign
 title: Flow control activities in workflows
 description: List of flow control activities
 feature: Workflows
+role: User
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
 ---
 # Flow control activities in workflows{#about-flow-control-activities}

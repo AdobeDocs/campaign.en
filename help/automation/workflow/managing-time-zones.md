@@ -2,7 +2,8 @@
 product: campaign
 title: Manage time zones
 description: Manage time zones
-feature: Workflows
+feature: Workflows, Configuration
+role: User, Admin
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
 ---
 # Manage time zones{#managing-time-zones}

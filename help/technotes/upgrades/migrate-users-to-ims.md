@@ -1,6 +1,7 @@
 ---
 title: Migrate Campaign operators to Adobe Identity Management System (IMS)
 description: Learn how to migrate Campaign operators to Adobe Identity Management System (IMS)
+exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
 ---
 # Migrate Campaign operators to Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
@@ -146,4 +147,3 @@ Once this migration is done, you must contact your Adobe Transition Manager so t
 * [Access and permissions in Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Adobe Campaign v8 release notes](../../v8/start/release-notes.md)
 * [What is Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
-

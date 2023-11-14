@@ -2,7 +2,7 @@
 title: Campaign v8 Frequently Asked Questions
 description: Get answers to common Adobe Campaign questions.
 feature: Overview
-role: Admin, Developer, User
+role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 ---
