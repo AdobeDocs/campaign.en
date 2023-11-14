@@ -42,7 +42,7 @@ Understand which databases Adobe Campaign v8 uses, why data is being replicated,
 
 ### Data replication policies {#data-replication-policies}
 
-Replication policies are based on the size of the tables. Some tables will be replicated in real-time, some others will be replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
+Replication policies are based on the size of the tables. Some tables are replicated in real-time, some others are replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
 
 In addition to the built-in **Replicate Reference Tables** technical workflow, you can force data replication in your workflows. 
 
