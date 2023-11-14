@@ -58,4 +58,4 @@ As a Campaign customer, you will receive additional notification regarding the p
     
     No. We are unable to accommodate any requested modifications to the existing schedule since this will likely disrupt the assigned upgrade event for another customer. 
     
-For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..

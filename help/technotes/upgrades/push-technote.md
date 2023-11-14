@@ -7,15 +7,13 @@ hidefromtoc: yes
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
-This page describes the upcoming Changes to Push Notification Channel via Firebase Cloud Messaging in Adobe Campaign Classic.
+There are important changes to the Firebase Cloud Messaging (FCM) service that may impact your Adobe Campaign Classic implementation.
 
-Where are important changes to the Firebase Cloud Messaging (FCM) service that may impact your Adobe Campaign Classic implementation.
-
-As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued in June 2024 (Firebase Cloud Messaging HTTP protocol: https://firebase.google.com/docs/cloud-messaging/http-server-ref)
+As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued in June 2024 ([Firebase Cloud Messaging HTTP protocol](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
 
 These APIs are currently integrated with Adobe Campaign Classic to send Push Notification Messages. We understand that many of our customers, like you, rely on these services for your marketing campaigns and communication needs and especially for Android devices.
 
-## How Does This Impact You?
+## Are you impacted?
 
 * **HTTP (Legacy) API Users**: If any of your active push notification campaigns utilize the HTTP (legacy) API, your setup will be directly impacted by this change. We strongly encourage you to review your current configurations and prepare for the migration to the newer APIs.
 
@@ -29,7 +27,7 @@ These APIs are currently integrated with Adobe Campaign Classic to send Push Not
 
 * **Support**: Our Customer Support Team will be available to assist you throughout this transition. We may also host webinars and enablement sessions to cover the technical aspects and best practices for the transition.
 
-## How Does This Impact You?
+## What do we expect from you?
 
 * **Stay Informed**: Keep an eye on your inbox for further communications from us, including the detailed transition plan.
 
@@ -47,7 +45,7 @@ So you can anticipate the change, here are the general steps that will be needed
 
 ### Build upgrade
 
-* Campaign Classic: the support of HTTPv1 has been added in AC7 20.3.1 release. If you're using a previous version, you must first upgrade to the latest Campaign Classic build.
+* Campaign Classic: the support of HTTPv1 has been added in 20.3.1 release. If you're using a previous version, you must first upgrade to the latest Campaign Classic build.
 
 * Campaign v8: HTTPv1 is supported by all Campaign v8 releases. No upgrade needed.
 
