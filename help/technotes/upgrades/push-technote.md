@@ -63,7 +63,7 @@ To migrate your environment to HTTP v1, follow these steps on your Marketing and
 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. 
 
-Below are the FCM payload names to further personalize your push notification:
+Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
 
 | Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
 |:-:|:-:|:-:|
@@ -73,7 +73,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 >[!NOTE]
 >
->The switch to HTTP v1 API is applied to all new deliveries. Deliveries in retry, in progress, and in use still use the HTTP (legacy) API.
+>Once these changes are applied in all your server, all new Push notification deliveries to Android devices use the HTTP v1 API. Existing push deliveries in retry, in progress, and in use, still use the HTTP (legacy) API.
 
 ### What is the impact for my Android apps? {#fcm-apps}
 
@@ -83,13 +83,14 @@ However, with HTTP v1, you can further personalize your push notification with *
 
 ![](assets/android-push-additional-options.png)
 
+You can:
 
-   * Use the **[!UICONTROL Ticker]** field to set the ticker text of your notification.
-   * Use the **[!UICONTROL Image]** field to set the image's URL to be displayed in your notification.
-   * Use the **[!UICONTROL Notification Count]** field to set the number of new unread information to display directly on the application icon.
-   * Set the **[!UICONTROL Sticky]** option to false so that the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
-   * Set the **[!UICONTROL Notification Priority]** level of your notification to default, minimum, low or high. 
-   * Set the **[!UICONTROL Visibility]** level of your notification to public, private or secret. 
+* Use the **[!UICONTROL Ticker]** field to set the ticker text of your notification.
+* Use the **[!UICONTROL Image]** field to set the image's URL to be displayed in your notification.
+* Use the **[!UICONTROL Notification Count]** field to set the number of new unread information to display directly on the application icon.
+* Set the **[!UICONTROL Sticky]** option to false so that the notification is automatically dismissed when the user clicks it. If set to true, the notification is still displayed even when the user clicks it.
+* Set the **[!UICONTROL Notification Priority]** level of your notification to default, minimum, low or high. 
+* Set the **[!UICONTROL Visibility]** level of your notification to public, private or secret. 
 
-   For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
