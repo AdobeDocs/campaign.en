@@ -38,7 +38,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * For Hybrid, Hosted and Managed Services deployments, contact Adobe to update your Real-Time (RT) execution server. 
 
-### Migration procedure {#fcm-migration-procedure}
+### Migration procedure {#fcm-migration-steps}
 
 To migrate your environment to HTTP v1, follow these steps on your Marketing and Real-Time execution servers:
 
@@ -75,10 +75,9 @@ Below are the FCM payload names to further personalize your push notification:
 >
 >The switch to HTTP v1 API is applied to all new deliveries. Deliveries in retry, in progress, and in use still use the HTTP (legacy) API.
 
-### Android OS and Android Mobile Application
+### What is the impact for my Android apps? {#fcm-apps}
 
 There are no specific changes required to the Android Mobile applications' code and the notification behavior should not change.
-
 
 However, with HTTP v1, you can further personalize your push notification with **[!UICONTROL HTTPV1 additional options]**.
 
