@@ -60,9 +60,10 @@ To create a new project, click **Create new project** from the main screen in th
 
 You can use the **Edit project** button to rename this project. 
 
-From the newly created project screen, add in the API's needed to be able to use this project as a Technical Account for your API calls to Adobe Campaign.
 
 ### Step 2 - Add APIs to your project{#ims-migration-step-2}
+
+From the newly created project screen, add in the API's needed to be able to use this project as a Technical Account for your API calls to Adobe Campaign.
 
 To add APIs to your project, follow these steps:
 
