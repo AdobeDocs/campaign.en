@@ -13,32 +13,32 @@ A technical operator is a Campaign user profile which has been explicitly create
 
 ## Are you impacted?{#ims-impacts}
 
-All Campaign customers that are making API calls from a system external to Campaign into either their Campaign Marketing Instance or the Real Time Message Center instance will need to migrate the technical operator(s) to technical account(s) through the Adobe Developer Console as detailed below.
+If you are making API calls from a system external to Campaign into either their Campaign Marketing instance or the Real Time Message Center instance, you must migrate the technical operator(s) to technical account(s) through the Adobe Developer Console as detailed below.
 
 This change is applicable starting Campaign v8.5. 
 
 
 ## Migration process {#ims-migration-procedure}
 
-Following the below steps you will be able to create technical account(s) within the Adobe Developer Console and then use those newly created accounts to be able to change the authentication methods for all of your external systems making API calls in Adobe Campaign.
+Follow the below steps to create technical account(s) within the Adobe Developer Console, and then use those newly created accounts to be able to change the authentication methods for all of your external systems making API calls in Adobe Campaign.
 
 An overview of the steps are:
 
-* Creation of a project within the Adobe Developer Console
+* Creating a project within the Adobe Developer Console
 * Assigning the appropriate API's to the newly created project
 * Granting the needed Campaign Product Profiles to the project
-* Updating your customer side API's to use the newly created technical account credentials
-* Remove the legacy technical operators from the Campaign instance
+* Updating your APIs to use the newly created technical account credentials
+* Remove the legacy technical operators from your Campaign instance
 
 ### Prerequisites for the migration{#ims-migration-prerequisites}
 
-To be able to create the technical accounts that will be used to replace the technical operators the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-For API calls into the Message Center instance(s) a product profile should have been created during the upgrade to Campaign v8.5 or during provisioning of the instance. This product profile will be named:
+For API calls into the Message Center instance(s), a product profile should have been created during the upgrade to Campaign v8.5 or during provisioning of the instance. This product profile is named:
 
 `campaign - <your campaign instance> - messagecenter`
 
-If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing Instance you will want to create that product profile within the Admin Console.
+If you have already been using IMS based authentication for user access to Campaign then the product profiles needed for the API calls should already exist within the Admin Console. If you use a custom operator group within Campaign for the API calls to the Marketing instance, you must create that product profile within the Admin Console.
 
 For other cases, you must reach out to your Adobe Transition Manager so that Adobe technical teams can migrate your existing Operator groups and Named rights to the Product Profiles within the Admin Console.
 
@@ -61,7 +61,7 @@ To create a new project, click **Create new project** from the main screen in th
 You can use the **Edit project** button to rename this project. 
 
 
-### Step 2 - Add APIs to your project{#ims-migration-step-2}
+### Step 2 - Add APIs to your project {#ims-migration-step-2}
 
 From the newly created project screen, add in the API's needed to be able to use this project as a Technical Account for your API calls to Adobe Campaign.
 
@@ -105,7 +105,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
 
-### Step 5 - Add the I/O Management API to your Project {#ims-migration-step-5}
+### Step 5 - Add the I/O management API to your project {#ims-migration-step-5}
 
 
 From the project screen, click the **[!UICONTROL + Add to Project]** and choose **[!UICONTROL API]** in the upper left of the screen to be able to add the I/O Management API to this project.
@@ -125,7 +125,7 @@ In the **Configure API** screen, the OAuth Server-to-Server authentication is al
 This takes you back to the Project screen within the I/O Management API of the newly created project. Click on the project name in the breadcrumbs at the top of the screen to be taken back to the main Project Details page.
 
 
-### Step 6 - Verify the project setup{#ims-migration-step-6}
+### Step 6 - Verify the project setup {#ims-migration-step-6}
 
 Review your project to ensure it looks similar to the below with the **I/O Management API** and **Adobe Campaign API** visible in the Products and Services section and **OAuth Server-to-Server** in the Credentials section.
 
@@ -197,16 +197,13 @@ Once the migration process is achieved and validated, the Soap Calls are updated
 
 
 
-
-
-
-### Step 9 -(optional) Update the Technical Account operator within the Campaign Client Console {#ims-migration-step-9}
+### Step 9 - (optional) Update the technical account operator within the Campaign Client Console {#ims-migration-step-9}
 
 This step is optional and only available within the Marketing Instance(s), not within any Message Center instance. If specific folder permissions or named rights have been defined for the Technical Operator not via the assigned Operator Group(s). You would now need to update the newly created Technical Account user in the Admin Console to grant the folder permissions or named rights required.
 
 Note that the Technical Account user will NOT exist in Adobe Campaign until at least one API call is made to the Campaign Instance, at which time IMS will create the user within Campaign. If you are unable to locate the technical users within Campaign, ensure you have been able to successfully send an API call as outlined [in Step 7](#ims-migration-step-7).
 
-1. To apply the changes needed for the new Technical Account User you will locate them within the Campaign Client Console by email address. This email address was created during the Project Creation and Authentication steps above. 
+1. To apply the changes needed for the new Technical Account User, locate them within the Campaign Client Console by email address. This email address was created during the Project Creation and Authentication steps above. 
 
     You can locate this email address by clicking on the **OAuth Server-to-Server** heading in the **Credentials** section of the Project.
 
@@ -232,7 +229,7 @@ Note that the Technical Account user will NOT exist in Adobe Campaign until at l
 >The new technical operator must have made at least one API call to be added to Campaign Client Console.
 >
 
-### Step 10 - Remove the Old Technical Operator from Adobe Campaign {#ims-migration-step-10}
+### Step 10 - Remove the old technical operator from Adobe Campaign {#ims-migration-step-10}
 
 Once you have migrated all of the third-party systems to use the new Technical Account with IMS Authentication you can delete the old technical operator from the Campaign Client Console. 
 
