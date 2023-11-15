@@ -2,6 +2,11 @@
 product: campaign
 title: Push Notification Channel upcoming changes
 description: Push Notification Channel upcoming changes
+feature: Push
+role: Admin
+level: Experienced
+badge-v7: label="v7" type="Informative" tooltip="Also applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Applies to Campaign v8"
 hide: yes
 hidefromtoc: yes
 ---
