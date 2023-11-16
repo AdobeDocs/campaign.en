@@ -112,7 +112,7 @@ From the project screen, click the **[!UICONTROL + Add to Project]** and choose 
 
 ![](assets/do-not-localize/ims-updates-04.png) 
 
-In the **Add an API** screen, scroll down to find the **I/O Management API** card. Select it by clicking the checkbox that appears when you hoover over the card. Then click **Next** at the bottom of the screen.
+In the **Add an API** screen, scroll down to find the **I/O Management API** card. Select it by clicking the checkbox that appears when you hover over the card. Then click **Next** at the bottom of the screen.
 
 ![](assets/do-not-localize/ims-updates-05.png) 
 
