@@ -12,8 +12,8 @@ breadcrumb-title: Campaign technotes
 + [Campaign technotes](technotes-home.md)
 + Upgrades{#tn-new}
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
-  + [Migrate technical operator to Developer Console](upgrades/ims-migration.md)
-  + [Migrate technical operator to Developer Console](upgrades/ims-migration-updated.md)
+  + [Migrate technical operators to Developer Console](upgrades/ims-migration.md)
+  + [Migrate technical operator to Developer Console](upgrades/ims-migration-old.md)
   + [Campaign sending infrastructure migration to AWS](upgrades/migrate-to-aws.md)
   + [Campaign Email Sending Infrastructure Upgrade](upgrades/upgrade-to-aws.md)
   + [Upgrade Apache version](upgrades/apache.md)
