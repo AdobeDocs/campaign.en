@@ -124,7 +124,7 @@ Once you have created one or more seed addresses and the message body, you can p
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Send a proof
+### Send a proof {#send-proof}
 
 You can test message delivery by sending a proof to a previously created seed address.
 
@@ -153,7 +153,7 @@ Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### Transition from [!DNL Campaign Classic] v7
+#### Transition from [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 If you are [transitioning from Campaign Classic v7](../start/v7-to-v8.md), all deliveries go through the mid-sourcing server.
 
