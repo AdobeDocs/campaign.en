@@ -41,7 +41,7 @@ The definition of the transactional message content is the same as for all deliv
 >[!CAUTION]
 >
 >Images included in the message must be publicly accessible. Adobe Campaign does not provide any image upload mechanism for transactional messages.  
->Unlike in JSSP or webApp, `<%=` doesn’t have any default escaping.
+>Unlike in JSSP or webApp, `<%=` doesn't have any default escaping.
 >
 >You have to escape each data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
 
@@ -152,6 +152,18 @@ To send the proof:
 Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### Transition from [!DNL Campaign Classic] v7
+
+If you are [transitioning from Campaign Classic v7](../start/v7-to-v8.md), all deliveries go through the mid-sourcing server.
+
+However, when creating a transactional message template, the routing needed for the template to be successfully used is **internal email delivery**. This routing prevents you from sending proofs.
+
+Consequently, to send a proof for you transactional message template, you must change the routing from internal email delivery to the **mid-sourcing routing account**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+Once the proofs have been sent, you must change the routing back to internal email delivery prior to publishing the transactional message template.
 
 ## Publish the template {#publish-message-template}
 
