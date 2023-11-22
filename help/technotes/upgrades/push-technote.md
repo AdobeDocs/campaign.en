@@ -9,6 +9,7 @@ badge-v7: label="v7" type="Informative" tooltip="Also applies to Campaign Classi
 badge-v8: label="v8" type="Positive" tooltip="Applies to Campaign v8"
 hide: yes
 hidefromtoc: yes
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 ---
 # Push Notification Channel upcoming changes {#push-upgrade}
 
@@ -96,4 +97,3 @@ You can:
 * Set the **[!UICONTROL Visibility]** level of your notification to public, private or secret. 
 
 For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
