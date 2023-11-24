@@ -10,7 +10,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
-Get a glimpse of the newest enhancements in Journey Optimizer! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](using/rn/release-notes.md).
+Get a glimpse of the newest enhancements in Journey Optimizer! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md).
 
 >[!BEGINTABS]
 
