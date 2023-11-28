@@ -32,7 +32,7 @@ Two deployment models are available:
 
     >[!NOTE]
     >
-    >In this deployment model, [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Technical Account Manager.
+    >In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Technical Account Manager.
     >
 
 * **Campaign Enterprise (FFDA) deployment**
