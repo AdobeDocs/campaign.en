@@ -12,7 +12,7 @@ Campaign Control Panel helps you increase efficiency in your work as a product a
 
 Key benefits:
 
-* Quickly make changes to settings by yourself without reaching out to Customer Care.
+* Quickly make changes to settings by yourself without reaching out to Adobe.
 * Configure settings based on your different business needs at different times.
 * Enhance security by controlling access settings on a need-by-need basis.
 

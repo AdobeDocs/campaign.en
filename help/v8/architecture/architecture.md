@@ -32,7 +32,7 @@ Two deployment models are available:
 
     >[!NOTE]
     >
-    >In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Technical Account Manager.
+    >In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Transition Manager.
     >
 
 * **Campaign Enterprise (FFDA) deployment**
@@ -64,7 +64,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 
 >[!IMPORTANT]
 >
->The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out to Customer Care to have the option enabled.
+>The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out your Adobe Transition Manager to have the option enabled.
 >
 >By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
