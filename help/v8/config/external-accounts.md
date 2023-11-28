@@ -91,7 +91,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
     External databases compatible with Adobe Campaign v8 are listed in the [Compatibility matrix](../start/compatibility-matrix.md)
 
-* **Twitter** - The **Twitter** type external account is used to connect Campaign to your twitter account, to post messages on your behalf. Learn more about Twitter integration in [this section](../connect/ac-tw.md).
+* **X (formerly known as Twitter)** - The **Twitter** type external account is used to connect Campaign to your X account, to post messages on your behalf. Learn more about X integration in [this section](../connect/ac-tw.md).
 
 ## Adobe Solution Integration external accounts {#adobe-integration-external-accounts}
 

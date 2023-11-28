@@ -43,7 +43,7 @@ breadcrumb-title: Campaign overview
     + [Configure your push notifications with Data Collection](send/push-data-collection.md)
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
-  + [Twitter](send/twitter.md)
+  + [X (Twitter)](send/twitter.md)
   + Personalize content {#personalize}
     + [Get started with personalization](send/personalize.md)
     + [Personalization data](send/personalization-data.md)
@@ -135,7 +135,7 @@ breadcrumb-title: Campaign overview
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
-  + [Campaign + Twitter](connect/ac-tw.md)
+  + [Campaign + X (Twitter)](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
   + Campaign + your CRM {#ac-crm}
     + [Get started with CRM connectors](connect/crm.md)
