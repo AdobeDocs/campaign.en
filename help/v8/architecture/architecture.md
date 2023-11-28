@@ -26,9 +26,14 @@ You can export and import packages from one environment to another.
 
 Two deployment models are available:
 
-* **Campaign FDA [!DNL Snowflake] deployment**
+* **Campaign FDA deployment**
 
-    In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+    In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend then your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+
+    >[!NOTE]
+    >
+    >In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Technical Account Manager.
+    >
 
 * **Campaign Enterprise (FFDA) deployment**
 

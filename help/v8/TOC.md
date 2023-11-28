@@ -149,11 +149,10 @@ breadcrumb-title: Campaign overview
     + [Add permissions on folders](start/folder-permissions.md)
   + [Control Panel](config/self-service.md)
 + Architecture and configuration {#config}
-  + Architecture {#architecture}
+  + Campaign v8 architecture {#architecture}
     + [Global principles](architecture/general-architecture.md)
-    + [Architecture](architecture/architecture.md)
-    + FDA Snowflake deployment {#fda}
-      + [What is FDA-Snowflake?](architecture/fda-deployment.md)
+    + [Architecture models](architecture/architecture.md)
+    + [Campaign FDA deployment](architecture/fda-deployment.md)
     + Enterprise (FFDA) deployment {#ffda}
       + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
       + Characteristics {#ffda-characteristics}
