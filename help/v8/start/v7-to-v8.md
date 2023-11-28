@@ -41,9 +41,7 @@ Campaign v8 relies on a **hybrid architecture**. If you are transitioning from C
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 works with [!DNL Snowflake]. 
-
-In its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+In its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You only need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
