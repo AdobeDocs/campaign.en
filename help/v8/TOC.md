@@ -155,11 +155,10 @@ breadcrumb-title: Campaign overview
     + [Campaign FDA deployment](architecture/fda-deployment.md)
     + Enterprise (FFDA) deployment {#ffda}
       + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
-      + Characteristics {#ffda-characteristics}
-        + [Key management and unicity](architecture/keys.md)
-        + [New APIs](architecture/new-apis.md)
-        + [API staging mechanism](architecture/staging.md)
-        + [Replication mechanism](architecture/replication.md)
+      + [Key management and unicity](architecture/keys.md)
+      + [New APIs](architecture/new-apis.md)
+      + [API staging mechanism](architecture/staging.md)
+      + [Replication mechanism](architecture/replication.md)
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
