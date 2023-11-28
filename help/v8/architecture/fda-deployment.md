@@ -10,6 +10,11 @@ exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 
 In its Campaign FDA (default) deployment, [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through [Federated Data Access](../connect/fda.md) capability: you can then access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. 
 
+>[!NOTE]
+>
+>In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Transition Manager.
+>
+
 ## Benefits{#fda-benefits}
 
 This deployment model comes with the following benefits:
