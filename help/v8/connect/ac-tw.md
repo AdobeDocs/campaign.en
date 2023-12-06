@@ -135,6 +135,6 @@ In addition to X account, create a private X account which can be used for sendi
 1. Access the account  **Settings**.
 1. Browse to **Privacy & Safety** and **Audience and Tagging** and check the **Protect your posts** option. Your posts and other account information are only visible to people who follow you.
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 Configure your X app and Campaign service to work with this test account, as described above.

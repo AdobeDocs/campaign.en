@@ -16,7 +16,7 @@ Learn more about Campaign key capabilities in [this page](../start/get-started.m
 
 Adobe Campaign components and global architecture are described below. 
 
-![](assets/ac-components.png) 
+![](assets/do-not-localize//ac-components.png) 
 
 ### Presentation layer{#presentation-layer}
 
@@ -52,13 +52,13 @@ Adobe Campaign v8 is deployed as a Managed Service: all components of Adobe Camp
 
 Campaign Web server controls the access to Campaign Web processes. Javascript is the server-side language used for core product features and customization. Tomcat is the back-end engine and is embedded in the Campaign product as part of the Web process. Javascript is used for example in JSP or JSSP pages to render dynamic content.
 
-![](assets/ac-processes.png) 
+![](assets/do-not-localize/ac-processes.png) 
 
 Campaign Client Console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
 
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/ac-standalone.png) 
+![](assets/do-not-localize//ac-standalone.png) 
 
 The user connects to the Campaign application server using the HTTP. All the data and information is managed in the Campaign database. If a Campaign developer performs any configuration changes, it is captured in the database. If a marketer creates a new campaign, all the information and data related to this new campaign is also managed in the database. When a marketer executes a campaign, email deliveries are sent to profiles from the Campaign server through the SMTP server. As profiles interact with email deliveries, such as opening the email, that tracking data is sent back to the tracking server.
 
