@@ -33,7 +33,7 @@ An overview of the steps are:
 
 ### Prerequisites for the migration{#ims-migration-prerequisites}
 
-To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 For API calls into the Message Center instance(s), a product profile should have been created during the upgrade to Campaign v8.5 or during provisioning of the instance. This product profile is named:
 

@@ -42,7 +42,7 @@ To test your web pages with Mozilla Firefox 100, you can simulate the upcoming u
 1. Search for `general.useragent.override`.
 1. Select 'String' and then click on the plus (+) sign.
     
-    ![](assets/force-user-agent-firefox.png) 
+    ![](assets/do-not-localize/force-user-agent-firefox.png) 
 
 1. Enter the following text in the field: 
 
@@ -62,7 +62,7 @@ To test the Google Chrome 100 user agent on your own web apps, you can enable th
 1. Open Chrome, enter `chrome://flags` in the address bar, and press enter.
 1. Search `Force major version to 100 in User-Agent` in the search field, and enable it as shown below.
 
-    ![](assets/force-user-agent-chrome.png) 
+    ![](assets/do-not-localize/force-user-agent-chrome.png) 
 
 1. Restart the browser.
 1. Close the `chrome://flags` tab.
@@ -77,7 +77,7 @@ Starting with v97, site owners can emulate this version by enabling the experime
 1. Open Microsoft Edge, enter `edge://flags` in the address bar, and press enter.
 1. Search for `force-major-version-to-100` field, and enable it as shown below.
     
-    ![](assets/force-user-agent-edge.png) 
+    ![](assets/do-not-localize/force-user-agent-edge.png) 
 
 1. Restart the browser.
 1. Close the `edge://flags` tab.
