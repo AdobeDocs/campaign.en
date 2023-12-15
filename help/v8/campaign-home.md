@@ -12,24 +12,17 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 product and docume
 
 >[!BEGINTABS]
 
+>[!TAB Push channel upcoming changes] 
+
+Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB Enhanced Push notification service]
 
 Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).
 
 [![image](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
-
->[!TAB Mobile channel increased throughputs] 
-
-The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
-
-* Push Notifications (Android): up to **5x** faster
-* Push Notifications (iOS): up to **2.2x** faster
-
-SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.
-
-* SMS throughput: up to <strong>5x</strong> faster</li>
-
-These max throughput performances have been measured by Adobe testing teams, in lab conditions.
 
 >[!ENDTABS]
 
