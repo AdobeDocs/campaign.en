@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Learn the newest enhancements in Adobe Campaign v8 product and documentation.
+user-guide-description: Product documentation for Adobe Campaign v8.
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8 Documentation
