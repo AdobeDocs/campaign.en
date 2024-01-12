@@ -22,7 +22,7 @@ To define this filter, apply the following steps:
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. From the **Filter** tab cange the default targeting dimension to **Subscriptions** (**nms:subscription**).
+1. From the **Filter** tab change the default targeting dimension to **Subscriptions** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
