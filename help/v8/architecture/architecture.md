@@ -31,7 +31,7 @@ Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **C
 In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend then your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
 
 
-![](assets/P1-P3-architecture.png) 
+![](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), [
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-![](assets/P4-architecture.png) 
+![](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## Split delivery execution {#split}
