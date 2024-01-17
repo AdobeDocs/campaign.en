@@ -21,7 +21,7 @@ Before beginning to send push notifications with Adobe Campaign, you need to ens
 
 This section details the elements specific to the delivery of iOS and Android notifications.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), mobile registration is now **asynchronous**. [Learn more](../architecture/staging.md)
 

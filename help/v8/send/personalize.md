@@ -10,7 +10,7 @@ exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
 
 To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, personalization capabilities  to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
 
-Adobe Campaign simplifies personalization: you can display different types of content customized for each recipient using a single [email template](create-templates.md). In your transactional messages, such as purchase confirmation or cart abandonment emails, include product listings information for each individual within a single email template.
+Adobe Campaign simplifies personalization: you can display different types of content customized for each recipient using a single [message template](create-templates.md). In your transactional messages, such as purchase confirmation or cart abandonment emails, include product listings information for each individual within a single email template.
 
 
 ## Personalization strategies {#personalization-strategy}

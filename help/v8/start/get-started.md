@@ -10,6 +10,8 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
+Adobe Campaign v8 is the next-gen campaigning tool built for traditional marketing channels such as email and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
+
 Use Campaign to:
 
 * **Drive** personalization and engagement through a single accessible view of the customer
