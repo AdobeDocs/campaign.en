@@ -22,9 +22,9 @@ Steps to generate the file are:
 
     The recipient profiles must contain at least their names and postal addresses.
 
-    Postal addresses are calculated fields. An address can contain up to six lines by default: the first contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city. 
-    
-    An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty.
+    Postal addresses are calculated fields. An address can contain up to six lines by default: the first contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city. The definition of the default calculated postalAddress field can be reviewed in the nms:recipient schema.
+
+    An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries. 
 
     ![](../assets/do-not-localize/book.png) Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
