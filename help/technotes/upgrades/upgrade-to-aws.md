@@ -19,11 +19,9 @@ This change affects:
 
 ## When will this upgrade happen?{#aws-timeline}
 
-The development and staging environments upgrades are expected to take place in **October of 2023**. 
+The development and staging environments upgrades started in **October 2023**. 
 
-We are planning to schedule production environment upgrades starting in **January of 2024**.  
-
-As a Campaign customer, you will receive additional notification regarding the production upgrade at least thirty (30) days in advance. 
+Production environment upgrades started in **January 2024**.
 
 ## What to expect?{#impact}
 
