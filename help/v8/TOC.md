@@ -11,6 +11,7 @@ breadcrumb-title: Campaign v8 Documentation
 
 + [Campaign v8 documentation](campaign-home.md)
 + Releases and latest updates {#releases}
+  + [Documentation updates](start/documentation-updates.md)
   + [Early release notes](start/e-release-notes.md)
   + [Release notes](start/release-notes.md)
   + Previous release notes {#previous-rn}
