@@ -22,7 +22,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (console) product 
 
 Experience the new Adobe Campaign User Interface. More modern, intuitive and dynamic!
 
-[![image](assets/do-not-localize/learn-more-button.svg)]()
+[![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-web-ui.md)
 
 
 >[!TAB Push channel upcoming changes] 

@@ -16,6 +16,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Early release notes](start/e-release-notes.md)
   + [Release notes](start/release-notes.md)
   + Previous release notes {#previous-rn}
+    + [2023](start/release-notes-2023.md)
     + [2022](start/release-notes-2022.md)
     + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
@@ -24,6 +25,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
+  + [New Web user interface](start/campaign-web-ui.md)
   + [Components and processes](start/ac-components.md)
   + [Connect to Campaign](start/connect.md)
   + [Campaign interface](start/campaign-ui.md)
