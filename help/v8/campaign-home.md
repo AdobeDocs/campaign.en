@@ -8,9 +8,22 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
-Get a glimpse of the newest enhancements in Adobe Campaign v8 product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates](start/documentation-updates.md) page.
+Get a glimpse of the newest enhancements in Adobe Campaign v8 (console) product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates](start/documentation-updates.md) page.
 
 >[!BEGINTABS]
+
+>[!TAB Campaign v8.6 release is live]
+
+
+[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
+
+>[!TAB New Campaign Web User Interface] 
+
+Experience the new Adobe Campaign User Interface. More modern, intuitive and dynamic!
+
+[![image](assets/do-not-localize/learn-more-button.svg)]()
+
 
 >[!TAB Push channel upcoming changes] 
 
@@ -18,11 +31,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
->[!TAB Enhanced Push notification service]
 
-Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).
-
-[![image](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
 >[!ENDTABS]
 
