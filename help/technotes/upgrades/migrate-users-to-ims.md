@@ -106,6 +106,24 @@ If all your users (Campaign operators) are on IMS you do not need to perform thi
 
 Once this migration is done, you must contact your Adobe Transition Manager so that Adobe finalizes the migration.
 
+### How to view your Operators' authentication type?
+
+Learn how to view your Operators' authentication type in Campaign:
+
+1. From the **Explorer**, access **Administration** `>` **Access Management** `>` **Operators**.
+
+1. Right-click the header row and select the **Configure list** menu.
+
+    ![](assets/ims_2.png)
+
+1. Add **Account Disabled** and **Authentication Type** as **Output columns**.
+
+    ![](assets/ims_1.png)
+
+You can now see the list of your **Operators** and their **Authentication Type**.
+
+![](assets/ims_3.png)
+
 ## Useful links {#ims-useful-links}
 
 * [Migration of technical users to Adobe Developer console](ims-migration.md)
