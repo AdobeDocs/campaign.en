@@ -18,6 +18,16 @@ Learn how to install and configure Campaign Client Console in [this section](../
 
 You can also use a web browser to access Campaign. In this context, only a sub-set of Campaign capabilities are available. [Learn more](#web-browser)
 
+## Access Campaign Web User Interface {#web-ui-access}
+
+Campaign Campaign Web User Interface is available through the [Client Console](../architecture/general-architecture.md) homepage.
+
+[Learn more about Campaign Web User Interface](campaign-web-ui.md)
+
+![](assets/web-ui.png) 
+
+If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
+
 ## Browse the UI{#ui-browse}
 
 Once you are connected to Campaign, you access the home page. Browse the links to access capabilities. The set of capabilities available in the UI depend on your options and permissions.
