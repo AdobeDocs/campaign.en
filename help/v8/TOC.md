@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Product documentation for Adobe Campaign v8.
+user-guide-description: Product documentation for Adobe Campaign v8 (client console).
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 hidefromtoc: yes
