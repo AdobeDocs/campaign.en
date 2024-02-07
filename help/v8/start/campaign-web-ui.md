@@ -15,5 +15,7 @@ As a Campaign v8 client console user, starting v8.6.1 release, you now have acce
 
 Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
-When working in Campaign web UI with components created or modified in Campaign client console, guardrails and limitations apply. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/start/guardrails.html){target="_blank"}.
+When working in Campaign web User Interface with components created or modified in Campaign client console, guardrails and limitations apply. Some Campaign client console capabilities are not available in the Campaign Web User Interface.
+
+They are detailed in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/start/guardrails.html){target="_blank"}.
 

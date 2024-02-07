@@ -154,7 +154,7 @@ If you are using other Adobe solutions, you can connect them to your Campaign en
 * Campaign - Analytics Data connectors
 
 
-You can also use Single Sign-On (SSO) to connect to Campaign. Learn more in [this page](connect.md).
+You can only use Single Sign-On (SSO) to connect to Campaign. Learn more in [this page](connect.md).
 
 ![](../assets/do-not-localize/glass.png) Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](../connect/integration.md).
 

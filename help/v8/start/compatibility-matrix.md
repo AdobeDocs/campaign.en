@@ -56,6 +56,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 To send [push notifications](../send/push.md) with Campaign, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign Classic extension in the Data Collection UI. 
 
+Compatible versions for iOS and Android are detailed in the [Adobe Developer documentation](https://developer.adobe.com/client-sdks/home/)
 
 ## Web access{#web-access}
 
