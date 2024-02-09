@@ -1,7 +1,7 @@
 ---
 title: Connect to Campaign v8
 description: Learn how to connect to Adobe Campaign v8 and install the console on your machine for easier access. 
-feature: client console
+feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
