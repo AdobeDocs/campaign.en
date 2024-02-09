@@ -10,7 +10,7 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 
 In this section, learn how to adjust Adobe Campaign to the requirements of your company. Use the following guidelines to structure and organize your implementation. 
 
-1. **Define settings**: grant access, share the Client Console, configure channels (email, push, sms). [Learn more](#implementation-ac-settings)
+1. **Define settings**: grant access, share the client console, configure channels (email, push, sms). [Learn more](#implementation-ac-settings)
 1. **Prepare your environment**: import profiles, create audiences, design workflow and campaign templates, create typology rules. [Learn more](#implementation-prepare-your-env)
 1. **Customize your instance**: create new data fields, add tables/schemas. [Learn more](#implementation-custom-your-instance)
 1. **Automate your processes**: configure Adobe Campaign automation capabilities. [Learn more](#implementation-automation)
@@ -52,11 +52,11 @@ You can manually add users to Campaign and associate them with groups, aligned w
 
 ![](../assets/do-not-localize/glass.png) Learn how to add users to Adobe Campaign in [this section](../start/gs-permissions.md).
 
-### Install Campaign Client Console{#implementation-install-console}
+### Install Campaign client console{#implementation-install-console}
 
-The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign Client Console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. 
+The main user interface of the application is a rich client, in other words, a native application (Windows) that communicates with the Adobe Campaign application server solely with standard internet protocols (SOAP, HTTP, etc.). Adobe Campaign client console provides great user-friendliness for productivity, uses very little bandwidth (through the use of a local cache) and is designed for easy deployment. This Console can be deployed from an internet browser, can be updated automatically and does not require any specific network configuration because it only generates HTTP(S) traffic. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign Client Console](connect.md).
+![](../assets/do-not-localize/glass.png) [Learn more about Campaign client console](connect.md).
 
 ## Prepare your environment{#implementation-prepare-your-env}
 

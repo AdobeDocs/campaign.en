@@ -1,6 +1,6 @@
 ---
 title: General architecture
-description: Learn more about Adobe Campaign architecture and components. Find out more about personalizing your Client Console and environment. 
+description: Learn more about Adobe Campaign architecture and components. Find out more about personalizing your client console and environment. 
 feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner

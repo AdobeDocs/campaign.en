@@ -60,12 +60,12 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 **Security enhancements**
 
 * With Campaign v8.5.1, the authentication process to Campaign v8 has been improved and secured. Technical operators must now use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
-* Starting the upcoming v8.6, you will no longer be allowed to create operators from Campaign Client Console. If you are using the login/password native authentication, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
+* Starting the upcoming v8.6, you will no longer be allowed to create operators from Campaign client console. If you are using the login/password native authentication, you must migrate your operators to Adobe Identity Management System (IMS). Learn how to migrate your operators in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
 * Several third-party tools have been updated to optimize security.
 
 **Compatibility updates**
 
-* The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
+* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 

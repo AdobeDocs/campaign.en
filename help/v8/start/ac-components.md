@@ -24,7 +24,7 @@ You can access to Adobe Campaign though a Rich client, a Thin client or API inte
 
 * Rich client
 
-    Campaign Rich client is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. [Learn more about Campaign Client Console](../start/connect.md).
+    Campaign Rich client is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. [Learn more about Campaign client console](../start/connect.md).
 
 * Thin client
     
@@ -54,7 +54,7 @@ Campaign Web server controls the access to Campaign Web processes. Javascript is
 
 ![](assets/do-not-localize/ac-processes.png) 
 
-Campaign Client Console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
+Campaign client console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access to the database using SQL.
 
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

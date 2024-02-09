@@ -1,5 +1,5 @@
 ---
-title: Campaign Web User Interface and Campaign Client Console
+title: Campaign Web User Interface and Campaign client console
 description: Discover the new Campaign Web User interface
 feature: Overview
 role: User

@@ -10,9 +10,9 @@ exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 
 ## Access Campaign UI{#ui-access}
 
-Campaign workspace is available through the [Client Console](../architecture/general-architecture.md).
+Campaign workspace is available through the [client console](../architecture/general-architecture.md).
 
-Learn how to install and configure Campaign Client Console in [this section](../start/connect.md).
+Learn how to install and configure Campaign client console in [this section](../start/connect.md).
 
 ![](assets/home-page.png) 
 
@@ -20,7 +20,7 @@ You can also use a web browser to access Campaign. In this context, only a sub-s
 
 ## Access Campaign Web User Interface {#web-ui-access}
 
-Campaign Campaign Web User Interface is available through the [Client Console](../architecture/general-architecture.md) homepage.
+Campaign Campaign Web User Interface is available through the [client console](../architecture/general-architecture.md) homepage.
 
 [Learn more about Campaign Web User Interface](campaign-web-ui.md)
 

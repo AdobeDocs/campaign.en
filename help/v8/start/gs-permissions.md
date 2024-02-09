@@ -23,11 +23,11 @@ In Adobe Campaign, users are **operators** and **operator groups** represent use
 
 ## Key steps to grant permissions{#key-steps-permissions}
 
-As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn how to connect to Adobe Campaign in [this page](connect.md).
+As a product administrator, you can grant permissions to the users of your organization. Permissions are granted through Adobe Admin Console and Campaign client console. Users log on to Adobe Campaign with their Adobe ID. Learn how to connect to Adobe Campaign in [this page](connect.md).
 
 Key steps are:
 
-* **Step 1**: Define your operator groups and assign them permissions in Campaign Client Console. [Learn more](manage-permissions.md#create-product-profile).
+* **Step 1**: Define your operator groups and assign them permissions in Campaign client console. [Learn more](manage-permissions.md#create-product-profile).
     Note that you can also use built-in operator groups to start with. These default groups, and their permissions, are listed in [this section](manage-permissions.md#ootb-productprofiles).
 * **Step 2**: Create product profiles in Adobe Admin Console which match with those groups. [Learn more](manage-permissions.md#create-product-profile).
     You can use built-in product profiles to start with. [Learn more](manage-permissions.md#ootb-productprofiles).
@@ -46,7 +46,7 @@ Learn how to add users in [this page](manage-permissions.md#add-users).
 
 Product profiles are groups of products and services that you can assign to users. In Adobe Experience Cloud, permissions are based on a product’s profile, not on the user. However, you can delegate administrative rights to specific users.
 
-In the Admin Console, each Adobe Experience Cloud **product profile** for Campaign is associated to an **operator group** in Campaign Client Console.
+In the Admin Console, each Adobe Experience Cloud **product profile** for Campaign is associated to an **operator group** in Campaign client console.
 
 Learn how to create and assign product profiles in [this page](manage-permissions.md#create-a-product-profile).
 

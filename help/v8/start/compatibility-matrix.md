@@ -14,11 +14,11 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 >[!NOTE]
 >
->Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
+>Adobe Campaign Server and client console must be on the same version. [Learn how to check your version](#version).
 
-## Client Console{#ClientConsoleoperatingsystems}
+## client console{#ClientConsoleoperatingsystems}
 
-The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
+The following operating systems and browser are required to use Campaign client console. [Learn more](connect.md).
 
 ### Operating systems{#op-systems}
 
@@ -27,7 +27,7 @@ The following operating systems and browser are required to use Campaign Client 
 
 >[!NOTE]
 >
->Please note that the 32-bit version of the Client Console is deprecated starting 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
+>Please note that the 32-bit version of the client console is deprecated starting 8.5 release. Starting 8.6, the client console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 
 ### Web browser{#web-browsers}
 
@@ -72,7 +72,7 @@ Access the **Help > About…** menu to check your version.
 
 You access the following information:
 
-* The **version** number of your Client Console and Application server. In the sample above, the version is 8.1.5 for both the Client Console and the Application server.
+* The **version** number of your client console and Application server. In the sample above, the version is 8.1.5 for both the client console and the Application server.
 * The SHA number, between parenthesis.
 * A link to contact Adobe Customer Care.
 * Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
