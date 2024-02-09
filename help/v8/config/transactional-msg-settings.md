@@ -16,7 +16,7 @@ Understand transactional messaging architecture in [this page](../architecture/a
 
 ## Define permissions {#mc-permissions}
 
-To create new users for Message Center execution instances hosted on Adobe Cloud, you need to contact Adobe Customer Care. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.
+To create new users for Message Center execution instances hosted on Adobe Cloud, contact your Adobe Transition Manager. Message Center users are specific operators that require dedicated permissions to access 'Real time events' (nmsRtEvent) folders.
 
 ## Schema extensions  {#mc-schema-ext}
 

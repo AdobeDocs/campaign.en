@@ -50,14 +50,14 @@ Use the FDA Connector (Federated Data Access) to connect Campaign to one or more
 
 ## Work with social media{#gs-social}
 
-Use Adobe Campaign to interact with customers and prospects via Twitter. 
+Use Adobe Campaign to interact with customers and prospects via X (formerly known as Twitter). 
 
 You can:
 
 * Send direct messages to your followers
-* Post tweets on your Twitter account
+* Post on your X account
 * Collect new contacts
 
-Learn how to set up and use Twitter integration in [this page](../connect/ac-tw.md).
+Learn how to set up and use X integration in [this page](../connect/ac-tw.md).
 
-Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
+Learn how to create X posts and send direct messages to your followers in [this page](../send/twitter.md).

@@ -45,20 +45,20 @@ _September 30, 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
+<th> <strong>X (formerly known as Twitter) channel availability</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
+<td> <p>The <a href="../send/twitter.md">X social channel</a> is now available with Campaign v8. You can:</p>
 <ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+<li><p>Send messages on X (formerly known as Twitter): Adobe Campaign lets you post messages directly to your X account. You can also send direct messages to all your followers.
 </p></li>
 <li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
 </p></li>
 </ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
+<p>Learn how to connect Campaign and X in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
+<p>Learn how to create posts and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
 </td> 
 </tr> 
 </tbody> 

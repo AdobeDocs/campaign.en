@@ -20,7 +20,7 @@ In this section, learn how to adjust Adobe Campaign to the requirements of your 
 >
 >With **Campaign Managed Cloud Services**, your environment and initial configuration is set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas, or reports. 
 >
->If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact **Adobe Customer Care**.
+>If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact your **Adobe Transition Manager**.
 
 ## Before starting{#before-starting}
 

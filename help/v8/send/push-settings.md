@@ -9,9 +9,13 @@ exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 ---
 # Configure push notification channel {#push-notification-configuration}
 
-Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform.
+To send push notifications with Adobe Campaign, you must first configure your environment and app as detailed in this page. In Adobe Campaign, the channel for sending push notitications is the mobile app channel.
 
-Adobe Experience Platform Mobile SDK provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. 
+>[!CAUTION]
+>
+>Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. [Learn more](../../technotes/upgrades/push-technote.md).
+
+Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. Adobe Experience Platform Mobile SDK provides client-side integration APIs for your mobiles via Android and iOS compatible SDKs. 
 
 To set up your app with Adobe Experience Platform Mobile SDKs, follow these steps:
 

@@ -1,14 +1,19 @@
 ---
-title: Get started with Campaign FDA-Snowflake deployment
-description: Get started with Campaign FDA-Snowflake deployment
+title: Get started with Campaign FDA deployment
+description: Get started with Campaign FDA deployment
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 ---
-# [!DNL Campaign] FDA [!DNL Snowflake] deployment{#gs-fda-snowflake}
+# [!DNL Campaign] FDA deployment{#gs-fda}
 
-In a [!DNL Snowflake] FDA (default) deployment, [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through [Federated Data Access](../connect/fda.md) capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. 
+In its Campaign FDA (default) deployment, [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through [Federated Data Access](../connect/fda.md) capability: you can then access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. 
+
+>[!NOTE]
+>
+>In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Transition Manager.
+>
 
 ## Benefits{#fda-benefits}
 
@@ -31,4 +36,4 @@ General communication between servers and processes is carried out according to 
 
 ![](assets/fda-architecture.png) 
 
-PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+PostgreSQL is the primary database, and Snowflake can be used as the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.

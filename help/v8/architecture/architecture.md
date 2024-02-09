@@ -22,19 +22,30 @@ You can export and import packages from one environment to another.
 
 ![](../assets/do-not-localize/book.png) Learn more about packages in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
-## Deployment models{#ac-deployment}
+## Deployment models {#ac-deployment}
 
-Two deployment models are available:
+Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA) deployment** (P4).
 
-* **Campaign FDA [!DNL Snowflake] deployment**
+### Campaign FDA deployment {#ac-deployment-fda}
 
-    In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend then your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
 
-* **Campaign Enterprise (FFDA) deployment**
 
-    In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+![](assets/P1-P3-architecture.png){zoomable="yes"}
 
-    Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
+>[!NOTE]
+>
+>In this deployment model, the [!DNL Snowflake] secondary database is available upon request only. To have your deployment updated with [!DNL Snowflake], contact your Adobe Transition Manager.
+>
+
+### Campaign Enterprise (FFDA) deployment {#ac-deployment-ffda}
+
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+
+Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
+
+![](assets/P4-architecture.png){zoomable="yes"}
+
 
 ## Split delivery execution {#split}
 
@@ -59,7 +70,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 
 >[!IMPORTANT]
 >
->The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out to Customer Care to have the option enabled.
+>The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out your Adobe Transition Manager to have the option enabled.
 >
 >By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 

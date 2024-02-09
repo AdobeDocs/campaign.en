@@ -12,11 +12,16 @@ Mobile app deliveries let you send notifications to iOS and Android devices.
 
 Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. [Learn more on push configuration.](push-settings.md)
 
+>[!CAUTION]
+>
+>Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. [Learn more](../../technotes/upgrades/push-technote.md).
+
+
 ## Create your first push notification{#push-create}
 
 This section details the elements specific to the delivery of iOS and Android notifications.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), mobile registration is now **asynchronous**. [Learn more](../architecture/staging.md)
 
