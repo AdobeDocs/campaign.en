@@ -25,10 +25,9 @@ breadcrumb-title: Campaign v8 Documentation
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
-  + [New Web user interface](start/campaign-web-ui.md)
-  + [Components and processes](start/ac-components.md)
+  + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
-  + [Campaign interface](start/campaign-ui.md)
+  + [Components and processes](start/ac-components.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}

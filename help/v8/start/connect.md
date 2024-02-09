@@ -1,16 +1,14 @@
 ---
-title: Connect to Campaign v8
-description: Learn how to connect to Adobe Campaign v8 and install the console on your machine for easier access. 
+title: Connect to Campaign with the client console
+description: Learn how to install Campaign client console on your machine and connect to Adobe Campaign
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
-# Connect to Adobe Campaign v8{#gs-ac-connect}
+# Connect to Campaign with the client console{#gs-ac-connect}
 
-To start working with Campaign, you must install and configure the client console.
-
-The client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. 
+To connect to Campaign with the client console, you must first install and configure it.
 
 Before starting, you need to:
 

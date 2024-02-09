@@ -18,21 +18,7 @@ Adobe Campaign components and global architecture are described below.
 
 ![](assets/do-not-localize//ac-components.png) 
 
-### Presentation layer{#presentation-layer}
 
-You can access to Adobe Campaign though a Rich client, a Thin client or API integration.
-
-* Rich client
-
-    Campaign Rich client is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. [Learn more about Campaign client console](../start/connect.md).
-
-* Thin client
-    
-    Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  [Learn more about Campaign Web Access](../start/connect.md).
-
-* External applications with APIs
-    
-    In certain cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. [Learn more about Campaign APIs](../dev/api.md).
 
 ### Persistence layer{#persistance-layer}
 

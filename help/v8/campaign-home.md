@@ -22,7 +22,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (console) product 
 
 Experience the new Adobe Campaign User Interface. More modern, intuitive and dynamic!
 
-[![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-web-ui.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
 
 
 >[!TAB Push channel upcoming changes] 
@@ -105,5 +105,5 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 ## Additional resources
 
-[Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+[Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 
