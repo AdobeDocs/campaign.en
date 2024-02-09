@@ -27,7 +27,7 @@ You can access to Adobe Campaign via its client console or its Web user interfac
 
     If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
 
-    [Learn more about Campaign Web User Interface](campaign-web-ui.md)
+    [Learn more about Campaign Web User Interface](#campaign-web-user-interface).
 
 * **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  [Learn more about Campaign Web Access](../start/connect.md#web-access).
 

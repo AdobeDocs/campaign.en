@@ -157,7 +157,7 @@ When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, t
 
 >[!AVAILABILITY]
 >
->Starting Campaign v8.6, Campaign is available in a Web user interface. Most of marketing actions can be performed from this new interface. [Learn more](../../v8/start/campaign-web-ui.md).
+>Starting Campaign v8.6, Campaign is available in a Web user interface. Most of marketing actions can be performed from this new interface. [Learn more](../../v8/start/campaign-ui.md#discover-the-user-interface).
 
 You can access some of the Adobe Campaign client console screens via an internet browser to view all campaigns and deliveries as well as reports and information on the profiles in your database. You cannot create components from this web access but, depending on access rights, you may view and/or act on the data in the database. Typically, you can approve campaign contents and targeting, re-start or stop a delivery, etc.
 
