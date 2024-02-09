@@ -34,7 +34,7 @@ _June 30, 2023_
 
 **Compatibility updates**
 
-* The 32-bit version of the Client Console is now deprecated. Starting 8.6, the Client Console will only be available in 64-bits. The upgrade to the 64-bit version of the Client Console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account.
 
 **Improvements**
@@ -47,7 +47,7 @@ _June 30, 2023_
 
 **Security enhancements**
 
-* You can no longer create operators from the Client Console. You now need to use the Admin Console. [Learn more](../start/gs-permissions.md).
+* You can no longer create operators from the client console. You now need to use the Admin Console. [Learn more](../start/gs-permissions.md).
 * Several third-party tools have been updated to optimize security.
 
 **Patches**

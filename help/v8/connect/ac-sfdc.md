@@ -40,7 +40,7 @@ First, you must create the Salesforce external account.
 
 >[!NOTE]
 >
->To approve the setup, you need to log off and back on to the Adobe Campaign Client Console.
+>To approve the setup, you need to log off and back on to the Adobe Campaign client console.
 
 ## Select tables to synchronize{#sfdc-create-tables}
 

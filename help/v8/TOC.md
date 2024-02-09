@@ -1,9 +1,10 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Product documentation for Adobe Campaign v8.
+user-guide-description: Product documentation for Adobe Campaign v8 (client console).
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
+hidefromtoc: yes
 breadcrumb-title: Campaign v8 Documentation
 ---
 
@@ -15,6 +16,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Early release notes](start/e-release-notes.md)
   + [Release notes](start/release-notes.md)
   + Previous release notes {#previous-rn}
+    + [2023](start/release-notes-2023.md)
     + [2022](start/release-notes-2022.md)
     + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
@@ -23,9 +25,9 @@ breadcrumb-title: Campaign v8 Documentation
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
-  + [Components and processes](start/ac-components.md)
+  + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
-  + [Campaign interface](start/campaign-ui.md)
+  + [Components and processes](start/ac-components.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
