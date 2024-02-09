@@ -15,7 +15,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (console) product 
 >[!TAB Campaign v8.6 release is live]
 
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
 
 >[!TAB New Campaign Web User Interface] 
