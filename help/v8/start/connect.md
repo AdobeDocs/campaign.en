@@ -8,6 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
 # Connect to Campaign with the client console{#gs-ac-connect}
 
+
 To connect to Campaign with the client console, you must first install and configure it.
 
 Before starting, you need to:
@@ -16,6 +17,12 @@ Before starting, you need to:
 * Get your Campaign server URL 
 * Create your Adobe ID, or get your user credentials from your company
 * Install Microsft Edge Webview2 runtime on your system. [Learn more](#webview)
+
+
+>[!NOTE]
+>
+>You can also connect to Campaign Web user interface using a web browser. Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
 
 ## Install the client console{#download-ac-console}
 
