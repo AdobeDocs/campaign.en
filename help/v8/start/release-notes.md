@@ -29,7 +29,6 @@ _Feb 14, 2024_
 
 * You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the Integration with the Adobe Experience Cloud package is installed on your Adobe Campaign instance.
 
-<br/>
 
 ### General improvements {#improvements-8-6-1}
 
@@ -42,9 +41,6 @@ _Feb 14, 2024_
 
 * Starting June 1st, 2024, Yahoo! and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. Adobe Campaign now supports this option. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
 
-
-
-### Compatibility updates {#compatibility-8-6-1}
 
 ### Fixes {#fixes-8-6-1}
 
