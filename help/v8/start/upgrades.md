@@ -17,7 +17,7 @@ These upgrades can be:
 * Minor upgrades, from a minor version to another,  for example from v8.5 to v8.6
 * Patch upgrades, fom a patch version to another, for example from v8.5.1, v8.5.2
 
-Detailed information about each new version is available in the [Release notes](latest-release.md).
+Detailed information about each new version is available in the [Release notes](release-notes.md).
 
 To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all servers that are running on the same client configuration. In addition, except mentioned otherwise in the [Release notes](latest-release.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
 
