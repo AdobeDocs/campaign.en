@@ -26,7 +26,11 @@ As a Campaign Managed Services customer, when a new Campaign version is availabl
 Note that, as a customer, you must ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
 
-## How to check your Campaign version {#version}
+
+## Frequently Asked Questions {#upgrades-faq}
+
+
+### How to check my Campaign version? {#version}
 
 To check your Campaign version, access the **Help > About…** menu from the client console.
 
@@ -38,9 +42,6 @@ You access the following information:
 * The SHA number, between parenthesis.
 * A link to contact Adobe Customer Care.
 * Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
-
-
-## Frequently Asked Questions {#upgrades-faq}
 
 ### How can I be informed of the release of a new version? {#upgrades-0}
 
