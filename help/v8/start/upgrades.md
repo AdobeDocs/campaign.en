@@ -13,22 +13,22 @@ Adobe Campaign periodically releases product versions which improve the performa
 
 These upgrades can be:
 
-* Major upgrades, from a major version to another, for example from v7 to v8
-* Minor upgrades, from a minor version to another,  for example from v8.5 to v8.6
-* Patch upgrades, fom a patch version to another, for example from v8.5.1, v8.5.2
+* **Major upgrades**, from a major version to another, for example from v7 to v8.
+* **Minor upgrades**, from a minor version to another,  for example from v8.5 to v8.6.
+* **Patch upgrade**s, fom a patch version to another, for example from v8.5.1, v8.5.2.
 
 Detailed information about each new version is available in the [Release notes](release-notes.md).
 
-To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all servers that are running on the same client configuration. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
+To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
 
-As a Campaign Managed Services customer, when a new version is available, your infrastructure is upgraded by Adobe without any further action.
+As a Campaign Managed Services customer, when a new Campaign version is available, your infrastructure is upgraded by Adobe without any further action.
 
-In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+Note that, as a customer, you must ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
 
 ## How to check your Campaign version {#version}
 
-Access the **Help > About…** menu to check your version.
+To check your Campaign version, access the **Help > About…** menu from the client console.
 
 ![](assets/ac-version.png)
 
