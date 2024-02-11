@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 ---
-# Release updates {#upgrades}
+# Versions and upgrades {#upgrades}
 
-## Versions and recommendations {#versions}
+## Campaign versions {#versions}
 
 Adobe Campaign periodically releases product versions which improve the performance, security, logic, and usability of your Campaign infrastructure. 
 
