@@ -15,7 +15,7 @@ These upgrades can be:
 
 * **Major upgrades**, from a major version to another, for example from v7 to v8.
 * **Minor upgrades**, from a minor version to another,  for example from v8.5 to v8.6.
-* **Patch upgrade**s, fom a patch version to another, for example from v8.5.1 to v8.5.2.
+* **Patch upgrades**, fom a patch version to another, for example from v8.5.1 to v8.5.2.
 
 Detailed information about each new version is available in the [Release notes](release-notes.md).
 
