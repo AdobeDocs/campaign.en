@@ -78,14 +78,12 @@ For a typical built-in recipient, you can access the following tabs:
 
 ## Active profiles {#active-profiles}
 
-Active profiles are the profiles that are counted for billing purposes.
+An active profile is a profile that customer has attempted to communicate with during the past 12 months via any Channel. Licence metrics are based on active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Billing only concerns profiles that are **active**. A profile is considered active if the profile has been targeted or communicated with in the past 12 months via any channel.
-
-A profile that has been targeted by several deliveries is counted only once.
-
-Active profiles count is available for **Marketing instances** only. It is not available for Execution instances, meaning MID (mid sourcing) and RT (Message Center / Real-time messaging) instances.
-
->[!NOTE]
+>[!CAUTION]
 >
->You can also monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>* A profile that has been targeted by several deliveries is counted only once. 
+>
+>* Profiles targeted in the context of Social marketing on X (formerly known as Twitter) are not taken into account as active profiles.
+
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
