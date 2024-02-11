@@ -19,7 +19,7 @@ These upgrades can be:
 
 Detailed information about each new version is available in the [Release notes](release-notes.md).
 
-To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all servers that are running on the same client configuration. In addition, except mentioned otherwise in the [Release notes](latest-release.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
+To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all servers that are running on the same client configuration. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
 
 As a Campaign Managed Services customer, when a new version is available, your infrastructure is upgraded by Adobe without any further action.
 
