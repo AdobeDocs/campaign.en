@@ -13,9 +13,9 @@ Adobe Campaign periodically releases product versions which improve the performa
 
 These upgrades can be:
 
-* **Major upgrades**, from a major version to another, for example from v7 to v8.
-* **Minor upgrades**, from a minor version to another,  for example from v8.5 to v8.6.
-* **Patch upgrades**, fom a patch version to another, for example from v8.5.1 to v8.5.2.
+* **Major upgrades**, from a major version to another, for example from v7 to v8. These upgrades bring new capabilities, improvements, compatibility and security updates, and fixes.
+* **Minor upgrades**, from a minor version to another, for example from v8.5 to v8.6. These upgrades bring improvements, compatibility and security updates, and fixes.
+* **Patch upgrades**, fom a patch version to another, for example from v8.5.1 to v8.5.2. These upgrades bring security updates and fixes.
 
 Detailed information about each new version is available in the [Release notes](release-notes.md).
 
@@ -26,9 +26,7 @@ As a Campaign Managed Services customer, when a new Campaign version is availabl
 Note that, as a customer, you must ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
 
-
 ## Frequently Asked Questions {#upgrades-faq}
-
 
 ### How to check my Campaign version? {#version}
 

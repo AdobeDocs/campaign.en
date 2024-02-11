@@ -69,7 +69,7 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
-**Patches**
+**Fixes**
 
 * Fixed an issue which could lead to special characters in the HTML content of a delivery being incorrectly encoded in several browsers. (NEO-60081)
 * Fixed an issue which could prevent you from saving a report on a Campaign v8 Enterprise (FFDA) deployment. (NEO-56836)
@@ -91,7 +91,7 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 
 _April 3, 2023_
 
-**Patches**
+**Fixes**
 
 * Fixed an issue which could lead to a duplicate key constraint error if several approval workflows were set to the same schedule. (NEO-48968)
 * Fixed a regression issue introduced by NEO-54474 (8.4.4) which led the style attribute of the body tag to be changed when uploading an image in the Digital Content Editor (DCE). (NEO-57697) 
@@ -109,7 +109,7 @@ _March 8, 2023_
 
 * To improve security, Tomcat has been updated from version 8.5.81 to 8.5.85. (NEO-50530)
 
-**Patches**
+**Fixes**
 
 * Fixed an issue which could prevent you from scrolling in the **Edit** tab of the Digital Content Editor (DCE). (NEO-54474)
 * Fixed an issue during replication which could lead to a web server crash. (NEO-53670)
@@ -120,7 +120,7 @@ _March 8, 2023_
 
 _January 27, 2023_
 
-**Improvements**
+**Fixes**
 
 * Fixed a delivery indicator synchronization issue between the marketing server and the mid-sourcing server. (NEO-50724) <!--OKKKK-->
 * Fixed an issue which could lead to an error when exporting a workflow. (NEO-50555) <!--OKKKK-->

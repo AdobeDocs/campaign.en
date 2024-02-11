@@ -35,7 +35,7 @@ The following operating systems and browser are required to use Campaign client 
 
 * **Microsoft Edge WebView2**, latest version. Download it from [Microsoft Developer site](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}.
 
-## CRM connectors{#CRMconnectors}
+## CRM connectors {#CRMconnectors}
 
 Customer Relationship Management (CRM) systems compatible with Adobe Campaign are listed below. [Learn more](../connect/crm.md).
 
@@ -52,7 +52,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-## Mobile SDK{#MobileSDK}
+## Mobile SDK {#MobileSDK}
 
 To send [push notifications](../send/push.md) with Campaign, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign Classic extension in the Data Collection UI. 
 
