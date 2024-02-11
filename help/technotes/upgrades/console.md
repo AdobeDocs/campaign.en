@@ -8,7 +8,7 @@ exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
 
 The 32-bit version of the client console is deprecated in 8.5 release. A new 64-bit version of the client console is available for a seamless upgrade.
 
-Starting 8.6 release, Campaign v8 will stop supporting 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
+Starting 8.6 release, Campaign stops supporting 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
 
 You are only impacted by this change if you have the 32-bit version of Windows 8 or 10.
 

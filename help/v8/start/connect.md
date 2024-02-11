@@ -8,7 +8,6 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
 # Connect to Campaign with the client console{#gs-ac-connect}
 
-
 To connect to Campaign with the client console, you must first install and configure it.
 
 Before starting, you need to:

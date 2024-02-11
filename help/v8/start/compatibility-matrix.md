@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 ---
-# Campaign v8 compatibility matrix
+# Campaign v8 compatibility matrix {#compat-matrix}
 
 This document lists all systems and components supported for the latest build of **Adobe Campaign v8**. Unless mentioned otherwise, all minor releases are supported. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
@@ -14,9 +14,9 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 
 >[!NOTE]
 >
->Adobe Campaign Server and client console must be on the same version. [Learn how to check your version](#version).
+>Adobe Campaign server and Campaign client console must be on the same version. [Learn how to check your version](upgrades.md#version).
 
-## client console{#ClientConsoleoperatingsystems}
+## Client console {#ClientConsoleoperatingsystems}
 
 The following operating systems and browser are required to use Campaign client console. [Learn more](connect.md).
 
@@ -27,9 +27,9 @@ The following operating systems and browser are required to use Campaign client 
 
 >[!NOTE]
 >
->Please note that the 32-bit version of the client console is deprecated starting 8.5 release. Starting 8.6, the client console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
+>Please note that the 32-bit version of the client console is deprecated since 8.5 release. Starting 8.6, the client console is only available in 64-bits. For more information on how to upgrade your system, refer to this [technote](../../technotes/upgrades/console.md).
 
-### Web browser{#web-browsers}
+### Web browser {#web-browsers}
 
 * **Microsoft Edge**
 
@@ -58,21 +58,18 @@ To send [push notifications](../send/push.md) with Campaign, use the Adobe Exper
 
 Compatible versions for iOS and Android are detailed in the [Adobe Developer documentation](https://developer.adobe.com/client-sdks/home/)
 
-## Web access{#web-access}
+## Web access {#web-access}
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (latest versions)
 
-## How to check your Campaign version and build{#version}
 
-Access the **Help > About…** menu to check your version.
+## Additional resources {#support}
 
-![](assets/ac-version.png)
+* [Campaign Release updates](upgrades.md)
+* [Check your Campaign version](upgrades.md#version)
+* [Install Campaign client console](connect.md)
+* [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
 
-You access the following information:
-
-* The **version** number of your client console and Application server. In the sample above, the version is 8.1.5 for both the client console and the Application server.
-* The SHA number, between parenthesis.
-* A link to contact Adobe Customer Care.
-* Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
+To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"}.
