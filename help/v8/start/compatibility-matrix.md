@@ -16,11 +16,11 @@ As specific versions of these 3rd party systems and tools reach end-of-life (EOL
 >
 >Adobe Campaign Server and Client Console must be on the same version. [Learn how to check your version](#version).
 
-## Client Console{#ClientConsoleoperatingsystems}
+## Client Console {#ClientConsoleoperatingsystems}
 
 The following operating systems and browser are required to use Campaign Client Console. [Learn more](connect.md).
 
-### Operating systems{#op-systems}
+### Operating systems {#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016
 * **Microsoft Windows** 11, 10
@@ -29,7 +29,7 @@ The following operating systems and browser are required to use Campaign Client 
 >
 >Please note that the 32-bit version of the Client Console is deprecated starting 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
 
-### Web browser{#web-browsers}
+### Web browser {#web-browsers}
 
 * **Microsoft Edge**
 
@@ -52,12 +52,12 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-## Mobile SDK{#MobileSDK}
+## Mobile SDK {#MobileSDK}
 
 To send [push notifications](../send/push.md) with Campaign, use the Adobe Experience Platform Mobile SDK by configuring the Adobe Campaign Classic extension in the Data Collection UI. 
 
 
-## Web access{#web-access}
+## Web access {#web-access}
 
 The following browsers are compatible with Campaign for [Web Access](connect.md#web-access).
 
