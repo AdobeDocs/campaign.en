@@ -39,6 +39,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)
+    + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
   + [SMS](send/sms.md)
@@ -171,7 +172,6 @@ breadcrumb-title: Campaign v8 Documentation
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
-    + [Email settings](config/email-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
