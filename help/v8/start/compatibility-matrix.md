@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 ---
 # Campaign v8 compatibility matrix {#compat-matrix}
 
-This document lists all systems and components supported for the latest build of **Adobe Campaign v8**. Unless mentioned otherwise, all minor releases are supported. Products and versions that are not part of this list are not compatible with Adobe Campaign.
+This document lists all systems and components supported for the latest build of **Adobe Campaign v8** client console. Unless mentioned otherwise, all minor releases are supported. Products and versions that are not part of this list are not compatible with Adobe Campaign.
 
 As specific versions of these 3rd party systems and tools reach end-of-life (EOL), Adobe Campaign will no longer be compatible with those versions, and they will be removed from this compatibility matrix. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.
 
