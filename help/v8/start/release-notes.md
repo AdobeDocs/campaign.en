@@ -27,8 +27,7 @@ _Feb 14, 2024_
 
 * Adobe Campaign v8 now integrates with **Adobe Experience Manager as a Cloud Service**, with authoring exclusively available via the Adobe Campaign Web User Interface. [Learn more](../connect/ac-aem.md)
 
-* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the Integration with the Adobe Experience Cloud package is installed on your Adobe Campaign instance.
-
+* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the Integration with the Adobe Experience Cloud package is installed on your Adobe Campaign instance.[Learn more](../connect/ac-aem.md)
 
 ### General improvements {#improvements-8-6-1}
 
