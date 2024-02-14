@@ -74,12 +74,30 @@ Your newsletter is now ready and synchronized in Adobe Campaign.
 
 1. Select the AEM delivery previously created in [!DNL Adobe Experience Manager] and confirm by clicking **[!UICONTROL Ok]**.
 
-1. You can directly insert assets from your [!DNL Adobe Experience Manager Assets] or [!DNL Adobe Experience Manager Assets Library] while editing an email in Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
-
-   To use your **Adobe Experience Manager Assets library**, access the **[!UICONTROL Properties]** of your AEM delivery and select the **[!UICONTROL Advanced]** tab. Enable the **[!UICONTROL Use above AEM instance as shared asset library]** option.
-
-   ![](assets/aem_authoring_9.png)
-
 1. Ensure to click the **[!UICONTROL Refresh content]** button whenever modifications are made to your AEM delivery.
 
 Your email is now ready to be send to your audience.
+
+## Import assets from Adobe Experience Manager Assets library {#assets-library}
+
+You can also directly insert assets from your [!DNL Adobe Experience Manager Assets Library] while editing an email or a landing page in Adobe Campaign. This functionality is detailed in [Adobe Experience Manager Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. Upload your assets in your **Adobe Experience Manager Assets Library**. [Lear more](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. In Adobe Campaign, create a new delivery by browsing to the **Campaigns** tab, click **Deliveries** and click the **Create** button above the list of existing deliveries.
+
+1. Select a **Delivery template**, then name your delivery.
+
+1. Define and personalize the message content. [Learn more](../send/email.md)
+
+1. To use your **Adobe Experience Manager Assets library**, access the **[!UICONTROL Properties]** of your AEM delivery and select the **[!UICONTROL Advanced]** tab. Enable the **[!UICONTROL Use above AEM instance as shared asset library]** option.
+
+   ![](assets/aem_authoring_9.png)
+
+1. From the **Image** icon, access the **[!UICONTROL Select a shared asset]** menu.
+
+   ![](assets/aem_authoring_10.png)
+
+1. From the selection window, select an image from your **Adobe Experience Manager Assets library**, then confirm.
+
+Your email delivery is ready. You can now specify the target audience, confirm the delivery, and proceed with sending it.
