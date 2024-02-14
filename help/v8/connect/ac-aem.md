@@ -14,7 +14,7 @@ Integration between Adobe Campaign and Adobe Experience Manager allows you to ma
 
 ![](../assets/do-not-localize/book.png) [Learn more about Adobe Experience Manager in this document](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-## Authoring with Adobe Experience Manager {#integrating-with-aem}
+## Import content from Adobe Experience Manager {#integrating-with-aem}
 
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Campaign.
 
@@ -74,7 +74,13 @@ Your newsletter is now ready and synchronized in Adobe Campaign.
 
 1. Select the AEM delivery previously created in [!DNL Adobe Experience Manager] and confirm by clicking **[!UICONTROL Ok]**.
 
+   ![](assets/aem_authoring_11.png)
+
 1. Ensure to click the **[!UICONTROL Refresh content]** button whenever modifications are made to your AEM delivery.
+
+   ![](assets/aem_authoring_12.png)
+
+1. To remove linkage between Experience Manager and Campaign, click **[!UICONTROL Desynchronize]**.
 
 Your email is now ready to be send to your audience.
 
@@ -82,22 +88,42 @@ Your email is now ready to be send to your audience.
 
 You can also directly insert assets from your [!DNL Adobe Experience Manager Assets Library] while editing an email or a landing page in Adobe Campaign. This functionality is detailed in [Adobe Experience Manager Assets documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
 
-1. Upload your assets in your **Adobe Experience Manager Assets Library**. [Lear more](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+**From Adobe Experience Manager:**
+
+1. Navigate to your [!DNL Adobe Experience Manager] author instance and click Adobe Experience at the upper left corner of the page. Choose **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** from the menu.
+
+   ![](assets/aem_assets_1.png)
+
+1. Click **Create** then **Files** to import your asset to your **Adobe Experience Manager Assets Library**. [Learn more](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+   ![](assets/aem_assets_2.png)
+
+1. Rename your asset if needed and select **Upload**.
+
+Your asset is now uploaded to your **Adobe Experience Manager Assets Library**.
+
+**From Adobe Campaign:**
 
 1. In Adobe Campaign, create a new delivery by browsing to the **Campaigns** tab, click **Deliveries** and click the **Create** button above the list of existing deliveries.
+
+   ![](assets/aem_assets_3.png)
 
 1. Select a **Delivery template**, then name your delivery.
 
 1. Define and personalize the message content. [Learn more](../send/email.md)
 
-1. To use your **Adobe Experience Manager Assets library**, access the **[!UICONTROL Properties]** of your AEM delivery and select the **[!UICONTROL Advanced]** tab. Enable the **[!UICONTROL Use above AEM instance as shared asset library]** option.
+1. To use your **Adobe Experience Manager Assets library**, access the **[!UICONTROL Properties]** of your AEM delivery and select the **[!UICONTROL Advanced]** tab. 
+
+   Choose your **AEM account** and enable the **[!UICONTROL Use above AEM instance as shared asset library]** option.
 
    ![](assets/aem_authoring_9.png)
 
 1. From the **Image** icon, access the **[!UICONTROL Select a shared asset]** menu.
 
-   ![](assets/aem_authoring_10.png)
+   ![](assets/aem_assets_4.png)
 
-1. From the selection window, select an image from your **Adobe Experience Manager Assets library**, then confirm.
+1. From the selection window, select an image from your **Adobe Experience Manager Assets library**, then **Select**.
 
-Your email delivery is ready. You can now specify the target audience, confirm the delivery, and proceed with sending it.
+   ![](assets/aem_assets_5.png)
+
+Your asset is now uploaded to your email delivery. You can now specify the target audience, confirm the delivery, and proceed with sending it. 
