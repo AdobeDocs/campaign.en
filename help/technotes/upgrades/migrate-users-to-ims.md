@@ -70,7 +70,7 @@ Once full IMS migration is complete, Adobe will apply the restrictions which wil
 
 For new customers - new native user creation is not permitted from the beginning.
 
-As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign Client Console. Users log on to Adobe Campaign with their Adobe ID. Learn more in [this documentation](../../v8/start/gs-permissions.md).
+As a Campaign Administrator, you can grant permissions to the users of your organization through Adobe Admin Console and Campaign client console. Users log on to Adobe Campaign with their Adobe ID. Learn more in [this documentation](../../v8/start/gs-permissions.md).
 
 ### How to add emails for current native users? {#ims-migration-id}
 
@@ -81,7 +81,41 @@ As a Campaign Administrator, you must add email IDs to all native users from the
 1. Enter the email of the operator in the **Contact points** section of the operator form.
 1. Save your changes.
 
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
+As a workflow supervisor, or a Campaign administrator, ou can also perform a bulk update of your operators with a workflow.  
+
++++Key steps to update your operators with a workflow
+
+To perform a bulk update of your native operators, follow these steps:
+
+1. Create a workflow to extract in a CSV file all your operators which are connecting to Campaign with the native authentication mode. Use a **Query** activity and a **Data extraction (file)** activity to create the CSV file. For each operator, based on their profile data, you can export the following columns: `Name, Label`.
+
+    Learn more about the **Query** activity in [this page](../../automation/workflow/query.md)
+    
+    Learn more about the **Data extraction (file)** activity in [this page](../../automation/workflow/extraction--file-.md)
+
+1. Update the CSV file with a new column containing the emails of your operators.
+
+1. Create a workflow to import updated data, with a **Data loading (file)** activity and an **Update data** activity in the workflow.
+
+    ![](assets/update-operators-wf.png){width="70%"}
+
+1. Edit the **Data loading (file)** activity and define the settings to load the updated CSV file, as per the sample below.
+
+    ![](assets/data-loading-activity.png){width="70%"}
+
+    Learn more about the **Data loading (file)** activity in [this page](../../automation/workflow/data-loading--file-.md)
+
+1. Edit the **Update data** activity and define the settings as per the sample below. Note that the **Updated dimension** has been changed to `Operators (xtk)`.
+
+    ![](assets/update-data-activity.png){width="70%"}
+
+    Learn more about the **Update data** activity in [this page](../../automation/workflow/update-data.md)
+
+1. Run the workflow and check results. The email address has been added to the operator's profile.
+
+    ![](assets/updated-operator.png){width="70%"}
+    
++++
 
 
 ### How to log in to Campaign via IMS? {#ims-migration-log}

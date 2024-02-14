@@ -179,13 +179,13 @@ The **`<elements>`** and **`<attributes>`** elemtns of the data schema can be en
   
   ```
 
-  The label can be seen from the Adobe Campaign Client Console input form:
+  The label can be seen from the Adobe Campaign client console input form:
 
   ![](assets/schema_label.png)
 
 * The **desc** property lets you enter a long description.
 
-  The description can be seen from the input form in the status bar of the Adobe Campaign Client Console main window.
+  The description can be seen from the input form in the status bar of the Adobe Campaign client console main window.
 
   >[!NOTE]
   >
@@ -213,7 +213,7 @@ The value must be an expression compliant with XPath language. For more on this,
 
   >[!NOTE]
   >
-  >In the Adobe Campaign Client Console, the **[!UICONTROL Administration>Counters]** node is used to manage counters.
+  >In the Adobe Campaign client console, the **[!UICONTROL Administration>Counters]** node is used to manage counters.
 
 To link a default value to a field, you can use the `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -237,7 +237,7 @@ These values are shown in a drop-down list from the input form:
 
 >[!NOTE]
 >
->In the Adobe Campaign Client Console, the **[!UICONTROL Administration > Enumerations]** node is used to manage enumerations.
+>In the Adobe Campaign client console, the **[!UICONTROL Administration > Enumerations]** node is used to manage enumerations.
 
 #### Set enumeration {#set-enumeration}
 
@@ -364,7 +364,7 @@ It is also possible to define complex expressions, such as the following arithme
 
 High-level functions have been added to the expressions in order to enrich the potential of this language.
 
-You can access the list of available functions via any expression editor in the Adobe Campaign Client Console:
+You can access the list of available functions via any expression editor in the Adobe Campaign client console:
 
 ![](assets/schema_function.png)
 

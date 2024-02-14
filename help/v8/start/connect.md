@@ -1,16 +1,14 @@
 ---
-title: Connect to Campaign v8
-description: Learn how to connect to Adobe Campaign v8 and install the console on your machine for easier access. 
+title: Connect to Campaign with the client console
+description: Learn how to install Campaign client console on your machine and connect to Adobe Campaign
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 ---
-# Connect to Adobe Campaign v8{#gs-ac-connect}
+# Connect to Campaign with the client console{#gs-ac-connect}
 
-To start working with Campaign, you must install and configure the Client Console.
-
-The Client Console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign Client Console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign Client Console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. 
+To connect to Campaign with the client console, you must first install and configure it.
 
 Before starting, you need to:
 
@@ -19,31 +17,37 @@ Before starting, you need to:
 * Create your Adobe ID, or get your user credentials from your company
 * Install Microsft Edge Webview2 runtime on your system. [Learn more](#webview)
 
-## Install the Client Console{#download-ac-console}
+
+>[!NOTE]
+>
+>You can also connect to Campaign Web user interface using a web browser. Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+
+## Install the client console{#download-ac-console}
 
 ### Microsoft Edge Webview2 runtime {#webview}
 
-From Campaign Classic 8.4 build version, installation of Microsoft Edge Webview 2 runtime is required for any Client Console installation.
+From Campaign Classic 8.4 build version, installation of Microsoft Edge Webview 2 runtime is required for any client console installation.
 
-Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign Client Console installation program will prompt you to download it from [Microsoft Developer website](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}. Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
+Web View is installed by default as part of Windows 11 operating system. If it is not already present on your system, Campaign client console installation program will prompt you to download it from [Microsoft Developer website](http://www.adobe.com/go/acc-ms-webview2-runtime-download){target="_blank"}. Note that the download link does not work on the Internet Explorer 11 browser as Microsoft has deprecated its support. Make sure you use a different browser to access the link.
 
 ### Download the Console{#install-ac-console}
 
-When using Campaign for the first time you need to download the Client Console and install it. 
+When using Campaign for the first time you need to download the client console and install it. 
 
-Two options are available to download the Client Console:
+Two options are available to download the client console:
 
 1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
 
-1. As a end-user, your Campaign administrator deploys the Client Console for you, and makes it available through a dedicated URL.
+1. As a end-user, your Campaign administrator deploys the client console for you, and makes it available through a dedicated URL.
 
-Once the Client Console installation program is downloaded, install it on your local machine.
+Once the client console installation program is downloaded, install it on your local machine.
 
-Note that you cannot change the Client Console language once it is installed.
+Note that you cannot change the client console language once it is installed.
 
 ## Create your connection{#create-your-connection}
 
-Once the Client Console is installed, follow the steps below to create the connection to the application server:
+Once the client console is installed, follow the steps below to create the connection to the application server:
 
 1. Start the Console and browse the link in the right-hand corner to access the connection configuration screen.
 
@@ -85,11 +89,11 @@ You can then sign in to Campaign with your Adobe ID.
 >
 >As Microsoft Edge Webview2 does not save proxy credentials, the Console may ask you to authenticate twice at your first connection.
 
-## Upgrade your Client Console{#upgrade-ac-console}
+## Upgrade your client console{#upgrade-ac-console}
 
-When your system is upgraded to a newer release, you must update your Client Console to that same version. This is a best practice, and for some releases this upgrade is mandatory. In that case, it is mentioned in the [Release Notes](release-notes.md).
+When your system is upgraded to a newer release, you must update your client console to that same version. This is a best practice, and for some releases this upgrade is mandatory. In that case, it is mentioned in the [Release Notes](release-notes.md).
 
-As a Managed Cloud Services user, Adobe deploys the Client Console for you. When you connect to your upgraded environment, you are prompted to download the latest Client Console version in a pop-up window. You must accept this upgrade, and update the Client Console as requested.
+As a Managed Cloud Services user, Adobe deploys the client console for you. When you connect to your upgraded environment, you are prompted to download the latest client console version in a pop-up window. You must accept this upgrade, and update the client console as requested.
 
 >[!CAUTION]
 >

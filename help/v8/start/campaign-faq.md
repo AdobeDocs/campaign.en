@@ -20,7 +20,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1. **How can I connect to Campaign v8?**
 
-    You need to download and install Campaign Client Console to connect to Adobe Campaign.
+    You need to download and install Campaign client console to connect to Adobe Campaign.
 
     ![](../assets/do-not-localize/glass.png) [Click here to learn more](connect.md).
 
@@ -62,7 +62,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
 1. **How can I download Campaign?**
 
-    You can get the installation program and the Client Console from Adobe Download Center.
+    You can get the installation program and the client console from Adobe Download Center.
     
     As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target="_blank"} to download Adobe Campaign.
     

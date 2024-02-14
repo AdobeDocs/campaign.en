@@ -21,16 +21,22 @@ _Feb 14, 2024_
 
 * Starting this release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
 
-
-* Adobe Campaign v8 now integrates with **Adobe Experience Manager as a Cloud Service**, with authoring exclusively available via the Adobe Campaign Web User Interface.
-
-* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the **Integration with the Adobe Experience Cloud** package is installed on your Adobe Campaign instance.
+* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
 
 ### General improvements {#improvements-8-6-1}
 
 * Campaign v8.6 brings improved throughput for **email deliveries tracking indicators**. With our optimized processes, tracking ingestion and compute time is reduced, and you can check your delivery key indicators much faster.
 
+* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account.
+
+* Adobe Campaign v8 now integrates with **Adobe Experience Manager as a Cloud Service**, with authoring exclusively available via the Adobe Campaign Web User Interface.
+
+* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the **Integration with the Adobe Experience Cloud** package is installed on your Adobe Campaign instance.
+
+* You can no longer create operators from the client console. You now need to use the Admin Console. [Learn more](../start/gs-permissions.md).
+
+* Several third-party tools have been updated to optimize security.
 
 ### Deliverability updates {#deliverability-8-6-1}
 

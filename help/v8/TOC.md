@@ -1,9 +1,10 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Product documentation for Adobe Campaign v8.
+user-guide-description: Product documentation for Adobe Campaign v8 (client console).
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
+hidefromtoc: yes
 breadcrumb-title: Campaign v8 Documentation
 ---
 
@@ -13,8 +14,10 @@ breadcrumb-title: Campaign v8 Documentation
 + Releases and latest updates {#releases}
   + [Documentation updates](start/documentation-updates.md)
   + [Early release notes](start/e-release-notes.md)
+  + [Version and upgrades](start/upgrades.md)
   + [Release notes](start/release-notes.md)
   + Previous release notes {#previous-rn}
+    + [2023](start/release-notes-2023.md)
     + [2022](start/release-notes-2022.md)
     + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
@@ -23,9 +26,9 @@ breadcrumb-title: Campaign v8 Documentation
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
-  + [Components and processes](start/ac-components.md)
+  + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
-  + [Campaign interface](start/campaign-ui.md)
+  + [Components and processes](start/ac-components.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -36,6 +39,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)
+    + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
   + [SMS](send/sms.md)
@@ -168,7 +172,6 @@ breadcrumb-title: Campaign v8 Documentation
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
-    + [Email settings](config/email-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)

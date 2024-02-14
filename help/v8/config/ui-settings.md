@@ -26,7 +26,7 @@ Learn how to manage folders and views in [this page](../audiences/folders-and-vi
 
 ## Manage and customize lists{#customize-lists}
 
-In Campaign Client Console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
+In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
 In addition, you can create and save filters.  Learn more about filters in [this page](../audiences/create-filters.md).
 
@@ -207,7 +207,7 @@ To create an alias, follow these steps:
     
 1. Save your changes. The replacement of values is performed by the **Alias cleansing** workflow which is executed every night. Refer to [Run data cleansing](#running-data-cleansing).
 
-For all fields based on this enumeration, when a user enters the value **Adob** in a "company" field (in the Adobe Campaign Client Console, in a web form), it will automatically be replaced by the value **Adobe**.
+For all fields based on this enumeration, when a user enters the value **Adob** in a "company" field (in the Adobe Campaign client console, in a web form), it will automatically be replaced by the value **Adobe**.
 
 #### Convert a wrong value to an alias{#convert-to-alias}
 

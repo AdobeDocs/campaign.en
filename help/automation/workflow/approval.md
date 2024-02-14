@@ -36,7 +36,7 @@ In the event of multiple approvals, transitions corresponding to the choice of e
 
 This activity does not block processing, and the workflow can perform other tasks while waiting for a reply.
 
-An operator can approve the tasks assigned to that operator from the Client Console. An operator with administrator rights can view and delete the tasks assigned to any operator, but cannot reply to them.
+An operator can approve the tasks assigned to that operator from the client console. An operator with administrator rights can view and delete the tasks assigned to any operator, but cannot reply to them.
 
 Modifying the title or message body of the activity does not affect the current tasks, but, on the other hand, modifying the possible choices directly affects the current tasks, which automatically inherit the new list of choices.
 

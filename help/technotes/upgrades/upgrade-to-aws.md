@@ -21,7 +21,7 @@ This change affects:
 
 The development and staging environments upgrades started in **October 2023**. 
 
-THe production environments upgrades started in **January 2024**.
+The production environments upgrades started in **January 2024**.
 
 ## What to expect?{#impact}
 

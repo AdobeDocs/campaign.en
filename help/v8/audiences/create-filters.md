@@ -187,7 +187,7 @@ Use and combine **Quick filters** to define filters on specific fields.
 
 Once added, quick filter fields are displayed above the data list, one after the other. They can be deleted independently of each other.
 
-Quick filters are specific to each operator and are re-initialized each time the operator clears the cache of their Client Console.
+Quick filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
 
 If you need to reuse a filter, create an **advanced filter** and save it. [Learn more](#advanced-filters).
 
