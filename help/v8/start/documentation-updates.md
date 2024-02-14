@@ -4,6 +4,7 @@ description: Learn about latest updates in Campaign v8 documentation
 feature: Release Notes
 role: User
 level: Beginner
+hidefromtoc: yes
 ---
 
 # Documentation updates {#latest-updates}
