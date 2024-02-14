@@ -12,55 +12,40 @@ exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 
 This page describes improvements and fixes included in the next Campaign v8 release. This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
 
-## Release 8.5.1 {#release-8-5}
+## Release 8.6.1 {#release-8-6-1}
 
-_June 30, 2023_
+_Feb 14, 2024_
 
-**What's new?**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>Enhanced Push notification service</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign 8.5.1 is introducing our latest Push notification service on v8, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
+### New features {#new-8-6-1}
 
-**Compatibility updates**
+* Starting this release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
 
 * The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+
+
+### General improvements {#improvements-8-6-1}
+
+* Campaign v8.6 brings improved throughput for **email deliveries tracking indicators**. With our optimized processes, tracking ingestion and compute time is reduced, and you can check your delivery key indicators much faster.
+
 * You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account.
 
-**Improvements**
+* Adobe Campaign v8 now integrates with **Adobe Experience Manager as a Cloud Service**, with authoring exclusively available via the Adobe Campaign Web User Interface.
 
-* SMS throughput has been significantly enhanced by implementing a range of optimizations, resulting in improved speed and efficiency for SMS communication.
-* Starting Campaign v8.5.1, the authentication process to Campaign v8 has been improved. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign.
-* You can now leverage Destination and Source connections to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database
-* Delivery preparation has been optimized.
-* A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access.
-
-**Security enhancements**
+* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the **Integration with the Adobe Experience Cloud** package is installed on your Adobe Campaign instance.
 
 * You can no longer create operators from the client console. You now need to use the Admin Console. [Learn more](../start/gs-permissions.md).
+
 * Several third-party tools have been updated to optimize security.
 
-**Patches**
+### Deliverability updates {#deliverability-8-6-1}
 
-* Fixed an issue which could lead to special characters in the HTML content of a delivery being incorrectly encoded in several browsers. (NEO-60081)
-* Fixed an issue which could prevent you from saving a report on a Campaign v8 Enterprise (FFDA) deployment. (NEO-56836)
-* Fixed an issue when inserting or updating data into a custom FFDA schema via an Update Data workflow activity. (NEO-54708)
-* Fixed an issue which prevented the database cleanup workflow from removing addresses in the nms:address table on FFDA. (NEO-54460)
-* Fixed an issue with the billing workflow which could fail with a "Compilation memory exhausted" error. (NEO-51137)
-* Fixed an issue which could prevent the GPG decryption from working correctly in the Data loading (file) workflow activity. (NEO-50257)
-* Fixed an issue which prevented the `JSPContext.sqlExecWithOneParam` function from working. (NEO-50066)
-* Fixed an issue which led to delivery failures when using non-printable characters in personalization fields. (NEO-48588)
-* Fixed an issue which could cause delivery errors when inserting Adobe Target dynamic images. (NEO-62689)
-* Fixed an issue to prevent browsers from adding extra spaces when using conditional content in a delivery. (NEO-62132)
-* Fixed an issue which caused a popup window to open when clicking on an image in the email content editor. (NEO-60752)
-* Fixed an issue which could lead to an error and prevent you from scrolling when editing the content of a delivery. (NEO-61364)
+* By February 2024, any company sending more than 5,000 email messages through Google or Yahoo! will have to start using an authentication technology known as Domain-based Message Authentication Reporting and Conformance (DMARC). Make sure to have DMARC record set up for all the subdomains that you are using with Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"}
+
+* Starting June 1st, 2024, Google and Yahoo! will be requiring senders to comply with One-Click List-Unsubscribe. Adobe Campaign now supports this option. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+
+
+### Fixes {#fixes-8-6-1}
+
+The following issues are fixed in this release:
+NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059, NEO-58637, NEO-55197, NEO-52542, NEO-50488, NEO-47789
