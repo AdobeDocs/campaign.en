@@ -106,4 +106,4 @@ The file extraction launches two processes: budget calculation and stock calcula
 
   >[!NOTE]
   >
-  >Learn more about budgets [in this section](providers--stocks-and-budgets.md).
+  >Learn more about budgets [in this section](providers-stocks-and-budgets.md).

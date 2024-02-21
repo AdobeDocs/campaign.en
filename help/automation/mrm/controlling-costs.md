@@ -20,7 +20,7 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Define the budget. [Learn more](#creating-a-budget).
 
-1. Define the cost calculation method: cost structures are defined for the service providers. [Learn more](../campaigns/providers--stocks-and-budgets.md).
+1. Define the cost calculation method: cost structures are defined for the service providers. [Learn more](../campaigns/providers-stocks-and-budgets.md).
 
 1. Define campaign costs (deliveries/tasks) : the costs incurred by the deliveries and tasks are input individually or globally for the campaign template. [Learn more](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
@@ -138,7 +138,7 @@ According to the cost categories selected, the corresponding cost structures are
 
 >[!NOTE]
 >
->Cost categories and structures are presented in [this page](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Cost categories and structures are presented in [this page](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Cost commitment, calculation and charging {#cost-commitment--calculation-and-charging}
 
@@ -201,7 +201,7 @@ We are going to create a campaign with:
 
 #### Step 2 - Configure the service provider and define the cost structures {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [this section](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
+1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [this section](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
 
    For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
 

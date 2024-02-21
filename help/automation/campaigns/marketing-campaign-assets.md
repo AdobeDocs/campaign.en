@@ -114,4 +114,4 @@ In the following example, the label, estimated cost, and description of the outl
 
 ![](assets/campaign-export-template.png)
 
-The export model must be associated with the service provider selected for the delivery concerned. See [this  section](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+The export model must be associated with the service provider selected for the delivery concerned. See [this  section](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

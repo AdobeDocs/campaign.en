@@ -43,7 +43,7 @@ Key steps to create and execute a marketing campaign in Adobe Campaign are liste
     Track your campaigns from the dashboard, check delivery statuses and execution from Campaign UI. [Learn more](marketing-campaign-monitoring.md).
 
 1. **Track budgets, stocks and associated costs**. 
-    Use Adobe Campaign to control budget allocation, manage your suppliers, stocks and costs. [Learn more](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
+    Use Adobe Campaign to control budget allocation, manage your suppliers, stocks and costs. [Learn more](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
 When these steps have been completed, you can [start the deliveries](marketing-campaign-deliveries.md#start-a-delivery), check the data, processes and information relating to the deliveries and, if necessary, [manage the associated documents](marketing-campaign-deliveries.md#manage-associated-documents). You can also [track and monitor the execution](marketing-campaign-monitoring.md) of your campaigns and deliveries.
 
