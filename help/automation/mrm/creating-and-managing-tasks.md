@@ -184,7 +184,7 @@ By default, the budget charged is the budget of the campaign to which the task i
 
 >[!NOTE]
 >
->For more information about expenses and budgets, refer to [this section](../campaigns/providers--stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>For more information about expenses and budgets, refer to [this section](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
 
 In this window, you can also define the objectives to be reached. Objectives are expressed in terms of forecast revenue for the task.
 

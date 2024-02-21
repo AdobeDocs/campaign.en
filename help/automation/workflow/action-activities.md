@@ -11,11 +11,11 @@ exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
 * **[Content Management](content-management.md)**: lets you create or customize content.
 * **[Continuous delivery](continuous-delivery.md)**: lets you start a delivery from the scenario specified in the activity.
 * **[Cross-channel deliveries](cross-channel-deliveries.md)** (campaign workflows only): lets you configure a delivery on the corresponding channel: Email, Push, Mobile, Direct mail.
-* **[Data loading (file)](data-loading--rdbms-.md)**: lets you access an external data source to use its data.
-* **[Data loading (RDBMS)](data-loading--rdbms-.md)**: lets you access an external database to get data.
+* **[Data loading (file)](data-loading-rdbms.md)**: lets you access an external data source to use its data.
+* **[Data loading (RDBMS)](data-loading-rdbms.md)**: lets you access an external database to get data.
 * **[Delivery](delivery.md)**: lets you configure a delivery action.
 * **[Delivery control](delivery-control.md)**: lets you start, pause or stop a delivery.
-* **[Extraction (file)](extraction--file-.md)**: lets you extract data from a table in a file.
+* **[Extraction (file)](extraction-file.md)**: lets you extract data from a table in a file.
 * **[Loading (SOAP)](loading-soap.md)**: allows you to collect data via an SOAP call.
 * **[Local approval](local-approval.md)**: lets you perform approvals and targeting notifications within a distributed marketing context (optional module). 
 * **[Nlserver module](nlserver-module.md)**: starts an nlserver module with its arguments.

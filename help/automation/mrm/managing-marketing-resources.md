@@ -166,7 +166,7 @@ You can associate a marketing resource with one or more stocks in order to manag
 
 To associate a marketing resource with a stock, follow the steps below:
 
-1. Edit a stock or create a new stock. Learn more about stocks in [this section](../campaigns/providers--stocks-and-budgets.md#stock-management).
+1. Edit a stock or create a new stock. Learn more about stocks in [this section](../campaigns/providers-stocks-and-budgets.md#stock-management).
 
 1. Add a stock line, and select the corresponding marketing resource.
 
