@@ -74,16 +74,3 @@ For a typical built-in recipient, you can access the following tabs:
 * **Tracking**, for all the tracking logs for the selected profile. This information is used to track profile behavior following deliveries. This tab shows the cumulative total of all URLs tracked in deliveries. The list is configurable, and usually contains: the URL clicked, date and time of click, and the document that contained the URL
 
     Learn more about Tracking [in this section](../start/tracking.md).
-
-
-## Active profiles {#active-profiles}
-
-An active profile is a profile that customer has attempted to communicate with during the past 12 months via any Channel. Licence metrics are based on active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* A profile that has been targeted by several deliveries is counted only once. 
->
->* Profiles targeted in the context of Social marketing on X (formerly known as Twitter) are not taken into account as active profiles.
-
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.

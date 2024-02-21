@@ -33,17 +33,17 @@ Targeting can be created via a combination of queries in a graphical sequence in
 Learn how to build an audience in a campaign workflow in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 
-## Active profiles{#active-profiles}
+## Active profiles {#active-profiles}
 
-According to your contract, each of your Campaign instances is provisioned with a specific number of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles.
+An active profile is a profile that customer has attempted to communicate with during the past 12 months via any Channel. Licence metrics are based on active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**Profile** means a record of information (e.g.: a record in the [Recipient table](../dev/datamodel.md) or an external table containing a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel) representing an end-customer, prospect, or lead. Profiles are considered active if they have been targeted or communicated within the past 12 months via any channel.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* A profile that has been targeted by several deliveries is counted only once. 
+>
+>* Profiles targeted in the context of Social marketing on X (Twitter) are not taken into account as active profiles.
 
 ## Privacy and consent{#privacy-and-consent}
 
