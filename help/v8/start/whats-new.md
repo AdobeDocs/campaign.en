@@ -16,8 +16,6 @@ Adobe Campaign v8 brings significant infrastructure, security, deliverability, a
 
 ## Key capabilities{#key-capabilities}
 
-Key capabilities are listed below.
-
 ### Central workflow management{#central-wf-mgt}
 
 Improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. 
@@ -69,6 +67,9 @@ Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive o
 The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
 
 [Download this whitepaper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) to learn more about the business value of Adobe Campaign Managed Cloud Services.
+
+[!BADGE Download PDF]{url="assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf" newtab=true tooltip="Download the whitepaper (PDF)"}
+
 
 >[!NOTE]
 >
