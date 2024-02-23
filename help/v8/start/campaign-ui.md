@@ -17,17 +17,7 @@ You can access to Adobe Campaign via its client console or its Web user interfac
 
     Learn how to install and configure Campaign client console in [this section](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
-    
-    Campaign Campaign Web User Interface is available through the client console home page.
-
-    ![](assets/web-ui.png) 
-
-    >[!NOTE]
-    >
-    >If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
 
 * **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
@@ -36,9 +26,15 @@ You can access to Adobe Campaign via its client console or its Web user interfac
 
 ## Work with the client console {#ui-access}
 
-Campaign client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.  [Learn more about Campaign client console](../start/connect.md).
+Campaign client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.  [Learn more about Campaign client console](../start/connect.md). You can switch to the Campaign Web user interface from the dedicated card in the client console home page.
 
-![](assets/home-page.png) 
+![](assets/web-ui.png) 
+
+
+>[!NOTE]
+>
+>If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
+
 
 You can also use a web browser to access Campaign. In this context, only a sub-set of Campaign capabilities are available. [Learn more](#web-browser)
 
