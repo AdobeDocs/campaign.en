@@ -66,7 +66,7 @@ Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive o
 
 The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
 
-[!BADGE PDF]{type=Informative} [Read out this whitepaper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} to learn more about the business value of Adobe Campaign Managed Cloud Services.
+[!BADGE PDF]{type=Informative} [Read out this whitepaper](https://experienceleague.adobe.com/docs/campaign/assets/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} to learn more about the business value of Adobe Campaign Managed Cloud Services.
 
 Note that the new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
