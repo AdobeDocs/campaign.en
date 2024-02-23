@@ -66,14 +66,17 @@ Adobe Campaign v8 is available as a Managed Cloud Service, providing proactive o
 
 The managed services approach enables marketers to take advantage of the operational scale and economics of cloud infrastructure without the need for heavy support from internal IT resources. Adobe consulting and implementation teams work with you to assess your marketing plans, existing practices, data requirements, and messaging volume, and then they recommend the most appropriate service, support, and deliverability packages. The Adobe Campaign Managed Cloud Services team can then monitor and report on campaign performance, brand reputation, customer experience metrics, and more.
 
-[Download this whitepaper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) to learn more about the business value of Adobe Campaign Managed Cloud Services.
+[!BADGE PDF]{type=Informative} [Read out this whitepaper](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) to learn more about the business value of Adobe Campaign Managed Cloud Services.
 
-[!BADGE Download PDF]{url="assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf" newtab=true tooltip="Download the whitepaper (PDF)"}
+Note that the new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
+>* Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+>
+>* Automated migration from an existing Campaign Classic v7 environment is not yet available.
+
 
 ### Speed and scale {#speed-scale}
 
@@ -82,12 +85,6 @@ Adobe Campaign can now leverage cloud scale database technologies to dramaticall
 [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new offering, Campaign v8 simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. [!DNL Snowflake] is the Campaign Cloud Database, it brings you speed and endurance: no overload of the system activity peaks. The Cloud database technology does not require specific maintenance to guarantee the level of performance. 
 
 ![](../assets/do-not-localize/glass.png) [Learn more about Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md)
-
->[!CAUTION]
->
->* Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
->
->* Automated migration from an existing Campaign Classic v7 environment is not yet available.
 
 
 ## Self-service admin interface{#self-service-admin}
