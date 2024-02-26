@@ -140,7 +140,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
-  + [Campaign + Workfront](connect/ac-workfont.md)
+  + [Campaign + Workfront](connect/ac-workfront.md)
   + [Campaign + X (Twitter)](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
   + Campaign + your CRM {#ac-crm}
