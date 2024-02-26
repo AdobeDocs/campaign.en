@@ -15,6 +15,8 @@ This page lists all the latest updates in [!DNL Campaign] v8 (console) documenta
 
 * All new features, changes and improvements coming with [!DNL Campaign] v8.6 release have been detailed in the documentation. [Read more](release-notes.md)
 * Campaign v8 version management and upgrade mechanism are now detailed in a dedicated page. [Read more](upgrades.md)
+* Added a page about Adobe Campaign + Adobe Workfront integration. [Read more](../connect/ac-workfront.md)
+
 
 
 ## January 2024 {#jan-2024}
