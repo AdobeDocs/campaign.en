@@ -2,7 +2,6 @@
 title: Work with Adobe Campaign and Adobe Workfront
 description: Learn how to work with Campaign and Adobe Workfront
 role: Admin, User
-feature: Adobe Workfront Integration
 level: Beginner
 ---
 # Work with Campaign and Adobe Workfront
