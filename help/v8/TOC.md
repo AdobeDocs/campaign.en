@@ -184,6 +184,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Filter schemas](dev/filter-schema.md)
     + [Schema structure](dev/schema-structure.md)
     + [Database mapping](dev/database-mapping.md)
+    + [Key managements](dev/database-keys.md)
+    + [Link management](dev/database-links.md)
     + [Restrict PI view](dev/restrict-pi-view.md)
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
