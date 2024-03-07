@@ -4,8 +4,8 @@ description: Understand link management in Adobe Campaign schemas
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
+exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
 ---
-
 # Link management {#links--relation-between-tables}
 
 A link describes the association between one table and another.

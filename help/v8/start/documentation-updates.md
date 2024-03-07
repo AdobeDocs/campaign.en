@@ -5,8 +5,8 @@ feature: Release Notes
 role: User
 level: Beginner
 hidefromtoc: yes
+exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 ---
-
 # Documentation updates {#latest-updates}
 
 This page lists all the latest updates in [!DNL Campaign] v8 (console) documentation.

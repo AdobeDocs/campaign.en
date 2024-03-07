@@ -4,8 +4,8 @@ description: Understand key management in Adobe Campaign schemas
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
 ---
-
 # Key management {#management-of-keys}
 
 Each table associated with a data schema must have at least one key for identifying a record in a table.
@@ -136,4 +136,3 @@ In addition to the definition of the key, a numeric field called "id" has been a
 >[!CAUTION]
 >
 >A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated.
-
