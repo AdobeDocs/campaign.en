@@ -11,7 +11,7 @@ feature: Workflows
 
 >[!AVAILABILITY]
 >
->:warning: This capability is only available in Campaign Classic v7.  
+>`:warning:` This capability is only available in Campaign Classic v7.  
 
 The workflows detailed below are installed with the **Social Marketing** module by default.
 
