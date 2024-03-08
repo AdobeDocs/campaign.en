@@ -8,7 +8,7 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 ---
 # 2023 release notes {#2023-rn}
 
-This page lists new capabilities, improvements and fixes coming with **2022 Campaign v8 Releases**.
+This page lists new capabilities, improvements and fixes coming with **2023 Campaign v8 Releases**.
 
 ## Release 8.5.2 {#release-8-5-2}
 
