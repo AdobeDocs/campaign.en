@@ -4,6 +4,7 @@ description: List of features and improvemens coming with 2023 Campaign v8 relea
 feature: Release Notes
 role: User
 level: Beginner
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 ---
 # 2023 release notes {#2023-rn}
 
@@ -145,5 +146,3 @@ _January 27, 2023_
 * The management of tracking URLs has been improved in workflows with multiple deliveries to improve performance. (NEO-50894) <!--OKKKK-->
 * Fixed an issue which could cause the replication of schemas that uses Xtkfolder to fail. (NEO-46787) <!--OKKKK-->
 * Fixed an issue cause could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)
-
-

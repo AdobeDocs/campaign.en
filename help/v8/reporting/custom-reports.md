@@ -3,7 +3,7 @@ title: Key steps to create a custom report
 description: Learn key steps to create a custom report
 feature: Reporting
 role: User, Data Engineer
-exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
+exl-id: 39ab5cd9-cc84-430b-a8b3-691e377851fa
 ---
 # Key steps to create a custom report{#key-steps-to-create-a-report}
 

@@ -4,6 +4,7 @@ description: Learn more about Campaign versions and upgrades
 feature: Release Notes
 role: User
 level: Beginner
+exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 ---
 # Versions and upgrades {#upgrades}
 
@@ -75,8 +76,3 @@ Typically, upgrading to the latest version brings:
 As a v8 customer, if your account has been identified as needing to upgrade to a new version, Adobe directly notifies you. 
 
 The Adobe team is here to lead and guide your organization through this journey. A team of dedicated Customer Care Representativess, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
-
-
-
-
-

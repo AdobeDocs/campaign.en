@@ -4,6 +4,7 @@ description: Learn how to browse and use Campaign user interface
 feature: Overview
 role: User
 level: Beginner
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 ---
 # Discover the user interface {#ui-client-console}
 
