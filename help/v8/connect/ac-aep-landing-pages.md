@@ -36,7 +36,7 @@ To do this, follow these steps:
 
     * `CLIENT ID`
     * `CLIENT SECRET`
-    * `ORGANIZATION ID
+    * `ORGANIZATION ID`
 
     ![](assets/ac-lp-oauth.png){width="70%"}
 
