@@ -18,15 +18,15 @@ Combine Adobe Experience Cloud solutions to modernize your implementation.
 
 ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
 
-Campaign v8 can connect with:
+Campaign v8 can connect with the following Adobe solutions. Browse the links to learn more about use cases, configuration, and guidelines:
 
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](../connect/ac-ajo.md)    
-* [Adobe Target](../connect/ac-at.md)
-* [Adobe Workfront](../connect/ac-workfront.md)
+* Adobe Analytics.[Learn more](../connect/ac-aa.md)
+* Adobe Experience Cloud triggers. [Learn more](../connect/ac-triggers.md)
+* Adobe Experience Manager. [Learn more](../connect/ac-aem.md)
+* Adobe Experience Platform. [Learn more](../connect/ac-aep.md)
+* Adobe Journey Optimizer. [Learn more](../connect/ac-ajo.md)    
+* Adobe Target. [Learn more](../connect/ac-at.md)
+* Adobe Workfront. [Learn more](../connect/ac-workfront.md)
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
