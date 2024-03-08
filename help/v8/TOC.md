@@ -133,8 +133,8 @@ breadcrumb-title: Campaign v8 Documentation
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
-    + [Audiences & profile attributes](connect/ac-aep.md)
-    + [Campaign landing pages & profile attributes](connect/ac-aep-landing-pages.md)
+    + [Share and sync audiences and profile attributes](connect/ac-aep.md)
+    + [Update AEP profiles from Campaign landing pages](connect/ac-aep-landing-pages.md)
   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)

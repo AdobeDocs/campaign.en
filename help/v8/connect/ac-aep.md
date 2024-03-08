@@ -1,12 +1,12 @@
 ---
-title: Audiences & profile attributes
-description: Learn how to sync Adobe Experience Platform audiences and prpofile attributes with Campaign
+title: Share and sync audiences and profile attributes with Adobe Experience Platform
+description: Learn how to sync Adobe Experience Platform audiences and profile attributes with Campaign
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 ---
-# Work with Campaign and Adobe Experience Platform
+# Share and sync audiences with Adobe Experience Platform {#gs-ac-aep}
 
 The Adobe Campaign Managed Cloud Service Destination and Source connectors allow seamless integration between Adobe Campaign and Adobe Experience Platform. With this integration, you can:
 
