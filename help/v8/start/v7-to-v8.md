@@ -34,7 +34,7 @@ As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign C
 >The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
 
-## Hybrid architectyre {#hybrid-archi}
+## Hybrid architecture {#hybrid-archi}
 
 Campaign v8 relies on a **hybrid architecture**. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
 
