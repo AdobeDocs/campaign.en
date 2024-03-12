@@ -100,7 +100,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     ![](assets/rich_push_carousel_1.png)
 
-1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../personalization/personalize.md)
+1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
