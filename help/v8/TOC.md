@@ -41,6 +41,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [SMS](send/sms.md)
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
+    + [Design an Android rich push delivery](send/rich-push.md)
     + [Configure push notification channel](send/push-settings.md)
     + [Configure your push notifications with Data Collection](send/push-data-collection.md)
   + [LINE messaging](send/line.md)
