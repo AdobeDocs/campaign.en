@@ -14,8 +14,6 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
-![](assets/rich_push.png){zoomable="yes"}
-
 ## Define the content of the notification {#push-message}
 
 Once your push delivery is created, you can define its content. Three templates are available:
