@@ -121,7 +121,7 @@ Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web in
 
 Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
-### web access {#web-access} 
+### Web access {#web-access} 
 
 Certain parts of the application can be accessed via a web browser using an HTML user interface: reporting, delivery approval, instance monitoring, and more. 
 
