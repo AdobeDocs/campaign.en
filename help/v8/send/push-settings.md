@@ -207,9 +207,7 @@ To create an app for iOS devices, follow these steps:
 
    * (Recommended) **[!UICONTROL Token-based authentication]**: Fill in the APNs connection settings **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** and **[!UICONTROL Bundle Id]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key...]**. For more on **[!UICONTROL Token-based authentication]**, refer to [Apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
    
-   * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer.
-
-   You can change your authentication mode later on in the **[!UICONTROL Certificate]** tab of your mobile application.
+   * **[!UICONTROL Certificate-based authentication]**: Click **[!UICONTROL Enter the certificate...]**  then select your p12 key and enter the password that was provided by the mobile application developer. Note that this certificate comes with an expiration date and must be renewed on a yearly basis. To avoid a disruption in service for your users, update your certificates before they expire. Certificates are valid for a year and you must update them to continue communicating with APNs.
 
 1. Use the **[!UICONTROL Test the connection]** button to validate your configuration.
 
