@@ -9,7 +9,7 @@ badge-v7: label="v7" type="Informative" tooltip="Also applies to Campaign Classi
 badge-v8: label="v8" type="Positive" tooltip="Applies to Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 ---
-# Push Notification Channel upcoming changes {#push-upgrade}
+# Push Notification Channel changes {#push-upgrade}
 
 You can use Campaign to send push notifications on iOs and Android devices. To perform this, Campaign relies on mobile application subscription services. 
 
