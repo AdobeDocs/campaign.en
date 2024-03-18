@@ -130,7 +130,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 ![](assets/filter-services-ios.png)
 
 
-* If any of your active push notification service uses the **Certificate-based authentication** mode, your current implementations should be reviewed and moved to a **Token-based authentication** mode as described below.
+* If any of your active push notification service uses the **Certificate-based authentication** mode (.p12), your current implementations should be reviewed and moved to a **Token-based authentication** mode (.p8) as described below.
 
 * If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.
 
@@ -151,9 +151,9 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 To move your iOS mobile applications to the Token-based authentication mode, follow these steps:
 
 1. Browse to your list of **Services and Subscriptions**.
-1. List all mobile applications using the **Certificate-based authentication** mode.
+1. List all mobile applications using the **Certificate-based authentication** mode (.p12).
 1. Edit each of these mobile applications, and browse to the **Certificate/Private key** tab.
-1. From the **Authentication Mode** drop-down, select **Token-based authentication**.
+1. From the **Authentication Mode** drop-down, select **Token-based authentication** mode (.p8).
 1. Fill in the APNs connection settings **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** and **[!UICONTROL Bundle Id]** then select your p8 certificate by clicking **[!UICONTROL Enter the private key...]**. 
 
    ![](assets/token-based-certif.png)
