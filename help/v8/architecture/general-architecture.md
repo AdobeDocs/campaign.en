@@ -26,7 +26,7 @@ The typical Adobe Campaign solution deployment consists of the following compone
 
 The application can be accessed in different ways: Web user interface, client console (rich client), web access (thin client), or API integration.
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign user interface](../start/campaign-ui.md).
+[Learn more about Campaign user interface](../start/campaign-ui.md).
 
 ## Development environment {#dev-env}
 

@@ -26,7 +26,7 @@ From the delivery dashboard, you can check the processed messages and delivery a
 >Delivery statuses are not displayed in real-time. Learn more about Email Feedback Service [in this section](#email-feedback-service).
 
 
-![](../assets/do-not-localize/book.png) [Learn more about delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+[Learn more about delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campaign MTA {#mta}
 

@@ -13,4 +13,4 @@ Speed up campaign delivery by pairing Campaign with Adobe Workfront. Make it eas
 Steps to configure this integration are detailed in Adobe Workfront documentation.
 
 
-![](../assets/do-not-localize/book.png) [Adobe Campaign modules in Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.
+[Adobe Campaign modules in Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.

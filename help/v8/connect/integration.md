@@ -30,9 +30,9 @@ Campaign v8 can connect with the following Adobe solutions. Browse the links to 
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
-![](../assets/do-not-localize/book.png) Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## Integrate with your CRM Connector{#gs-crm-connectors}
 
@@ -47,7 +47,7 @@ Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com i
 
 Use the FDA Connector (Federated Data Access) to connect Campaign to one or more **external databases** and process information stored into them without affecting your Campaign Cloud Database data.
 
-![](../assets/do-not-localize/glass.png) Learn more in [this page](fda.md)
+Learn more in [this page](fda.md)
 
 ## Work with social media{#gs-social}
 

@@ -18,13 +18,13 @@ Learn how to import, update and manage profiles and audiences [in this section](
 
 A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-![](../assets/do-not-localize/glass.png) Learn how to create and manage lists in [this page](../audiences/create-audiences.md).
+Learn how to create and manage lists in [this page](../audiences/create-audiences.md).
 
 ## Filter the database{#filter-the-database}
 
 Filter configuration lets you select data from a list **[!UICONTROL dynamically]**: when the data is modified, the filtered data is updated. You can create your own filters or use the built-in filters to define a target audience.
 
-![](../assets/do-not-localize/glass.png) Learn how to create and manage filters in [this page](../audiences/create-filters.md).
+Learn how to create and manage filters in [this page](../audiences/create-filters.md).
 
 ## Create an audience in a workflow
 
@@ -49,7 +49,7 @@ You can monitor the number of active profiles on your instance directly from Cam
 
 Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-![](../assets/do-not-localize/book.png) Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
+Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
 
 **Related topics**
 

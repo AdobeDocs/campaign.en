@@ -21,8 +21,8 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 1. **How can I connect to Campaign v8?**
 
     You need to download and install Campaign client console to connect to Adobe Campaign.
-
-    ![](../assets/do-not-localize/glass.png) [Click here to learn more](connect.md).
+    
+    [Click here to learn more](connect.md).
 
     Starting Campaign v8.6 release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
 
@@ -37,9 +37,9 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
-   ![](../assets/do-not-localize/book.png) Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
+    Refer to this guide to learn [Delivrability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+   Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
 1. **How can I make sure my delivery is sent without errors?**
 

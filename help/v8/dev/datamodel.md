@@ -37,7 +37,7 @@ You can use the default Recipient table with the out-of-the-box fields, such as 
 * [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new "Loyalty" field to the Recipient table.
 * [Create a new table](create-schema.md), for example a "Purchase" table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
-![](../assets/do-not-localize/glass.png) Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
+Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
 
 ## Built-in profile table {#ootb-profiles}
 
@@ -52,9 +52,9 @@ The benefits of using the standard recipient table are:
 
 It is possible to extend the recipient table, but not to reduce the number of fields or links in the table.
 
-![](../assets/do-not-localize/glass.png) Learn how to extend an existing schema in [this section](extend-schema.md).
+Learn how to extend an existing schema in [this section](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
 
@@ -62,9 +62,9 @@ You can also use a different recipient table to better fit with your business or
 
 For a better understanding of table management in Campaign v8, note that, in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), tables are replicated between Campaign and its Snowflake Cloud database.
 
-![](../assets/do-not-localize/glass.png) Learn more about replication strategy and mechanisms in [this section](../architecture/replication.md).
+Learn more about replication strategy and mechanisms in [this section](../architecture/replication.md).
 
 **Related topics**
 
-![](../assets/do-not-localize/glass.png) Discover how to import profiles in [this section](../start/import.md)
-![](../assets/do-not-localize/glass.png) Learn more about Campaign audiences in [this section](../start/audiences.md)
+Discover how to import profiles in [this section](../start/import.md)
+Learn more about Campaign audiences in [this section](../start/audiences.md)

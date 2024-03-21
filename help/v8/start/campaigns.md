@@ -40,7 +40,7 @@ Adobe Campaign lets you create, configure, execute and analyze all marketing cam
 
 ![](assets/calendar.png) 
 
-![](../assets/do-not-localize/book.png) Discover how to access and implement marketing campaigns in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
+Discover how to access and implement marketing campaigns in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## Key steps to start{#gs-ac-start}
 
@@ -50,7 +50,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     Define hierarchy and schedule, set budget, add resources, select operators. 
     
-   ![](../assets/do-not-localize/book.png) Learn how to create a marketing plan and configure campaigns in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
+   Learn how to create a marketing plan and configure campaigns in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
     All marketing campaigns are based on a template, which stores main settings and capabilities. A built-in template is supplied in order to create a campaign for which no specific configuration has been defined. You can create and configure your campaign templates and then create campaigns from these templates.
 
@@ -72,11 +72,11 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-   ![](../assets/do-not-localize/book.png) Learn how to create and start marketing campaign deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
+   Learn how to create and start marketing campaign deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc.
 
-   ![](../assets/do-not-localize/book.png) Learn more about associated documents in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
+   Learn more about associated documents in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
     
 1. **Set up the approval process**
 

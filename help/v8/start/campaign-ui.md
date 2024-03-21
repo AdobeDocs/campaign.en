@@ -78,7 +78,7 @@ You can also access a subset of Campaign capabilities through the a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
+[Learn more about Campaign web access](../start/connect.md#web-access).-->
 
 ### Access Campaign Explorer {#ac-explorer-ui}
 

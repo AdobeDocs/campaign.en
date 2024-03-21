@@ -18,7 +18,7 @@ Key benefits:
 
 You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and retrieve information about your instance.
 
-![](../assets/do-not-localize/book.png) Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}.
+Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}.
 
 ## How to access Control Panel? {#ac-control-panel-access}
 
