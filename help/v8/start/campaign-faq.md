@@ -24,9 +24,14 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     ![](../assets/do-not-localize/glass.png) [Click here to learn more](connect.md).
 
+    Starting Campaign v8.6 release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
+
+    Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
+
+    Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Can Campaign v8 be installed on an on-premise or hybrid environment?**
 
-    For now, Campaign v8 is only available in Managed Cloud Services, fully hosted by Adobe.
+    Campaign v8 is only available in Managed Cloud Services, fully hosted by Adobe.
 
 1. **How to improve email deliverability?**
 
@@ -54,11 +59,15 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
     
-    ![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
+    ![](../assets/do-not-localize/speech.png) As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
 
 1. **As a Campaign Classic v7 user, can I migrate to Campaign v8?**
 
-    For now, Campaign v8 is only available for new implementations.
+    Automated migration from an existing Campaign Classic v7 environment is not yet available. 
+
+    Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+
+   ![](../assets/do-not-localize/speech.png) For more information about the migration process, reach out to your Adobe representative.
 
 1. **How can I download Campaign?**
 
