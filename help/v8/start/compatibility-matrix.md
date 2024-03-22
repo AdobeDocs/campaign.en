@@ -74,6 +74,6 @@ The following browsers are compatible with Campaign for Web Access. Learn more a
 * [Campaign Release updates](upgrades.md)
 * [Check your Campaign version](upgrades.md#version)
 * [Install Campaign client console](connect.md)
-* [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.
+* [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}
 
 To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"}.

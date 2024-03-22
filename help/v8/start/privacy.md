@@ -15,7 +15,7 @@ Adobe offers Data Controllers the tools to create and process Privacy requests f
 
 To manage Privacy request in Campaign, you must first [define a namespace](#namespaces). You are then able to create and manage Privacy requests. To perform privacy requests, use the **Adobe Privacy Service** integration. Privacy requests pushed from the Privacy Service to all Adobe Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow. [Learn more](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
+Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]

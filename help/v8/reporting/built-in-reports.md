@@ -19,7 +19,7 @@ You can access built-in reports from the Campaign home page, the dedicated repor
 
 A list of key reports is available on the home page and lets you access delivery data quickly. This list can be changed to suit your needs. You can also learn how to add your own reports to the **[!UICONTROL Reports]** tab. 
 
-For more information about these custom configurations, refer to this [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+For more information about these custom configurations, refer to this [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html){target="_blank"}.
 
 
 ## Access built-in reports {#access-ootb-reports}

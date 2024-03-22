@@ -40,7 +40,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     ![](assets/desc-analysis-report.png)
 
-    Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+    Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 * **Custom reports** 
 

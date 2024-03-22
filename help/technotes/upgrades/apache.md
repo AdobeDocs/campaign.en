@@ -17,7 +17,7 @@ The Adobe Campaign team will conduct the Apache version security upgrade activit
 
 This upgrade is expected to run automatically outside of your normal business hours for you to continue using the Campaign service without any disruption. 
 
-Your non-production instance(s) will be upgraded by our teams first before we upgrade your production instance(s). Since this is an automatic upgrade process owned by Adobe, there is no action required from your side. However, if you experience any issues, please contact [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).   
+Your non-production instance(s) will be upgraded by our teams first before we upgrade your production instance(s). Since this is an automatic upgrade process owned by Adobe, there is no action required from your side. However, if you experience any issues, please contact [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 >[!NOTE]
@@ -45,7 +45,7 @@ Your non-production instance(s) will be upgraded by our teams first before we up
 
 * **What validations need to be run by the customers?** 
     
-    No specific testing is needed for this security upgrade. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+    No specific testing is needed for this security upgrade. In case any issue is observed, please reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **Can I request a change in Date/Time to the scheduled security upgrade slot?** 
@@ -53,4 +53,4 @@ Your non-production instance(s) will be upgraded by our teams first before we up
     Since this is a security fix, we strongly recommend you adapt to the existing schedule.  
 
 
-For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+For any other question, you can reach out to [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

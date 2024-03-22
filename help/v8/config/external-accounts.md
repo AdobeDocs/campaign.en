@@ -38,7 +38,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
 
-Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
+Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -110,7 +110,7 @@ In the context of transactional messaging, the execution instances is linked to 
 
 ## Transfer Data external accounts {#transfer-data-external-accounts}
 
-These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about **File transfer** in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
+These external accounts can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Learn more about **File transfer** in workflows in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP and SFTP** - The **FTP** external account lets you configure and test access to a server outside of Adobe Campaign. To set up connections with external systems such as SFTP or FTP servers 898 used for file transfers, you can create your own external accounts.
 
@@ -118,7 +118,7 @@ These external accounts can be used to import or export data to Adobe Campaign u
 
     >[!NOTE]
     >
-    >Starting from release 8.5, you can now securely authenticate using a private key when configuring your SFTP external account. [Learn more on key management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
+    >Starting from release 8.5, you can now securely authenticate using a private key when configuring your SFTP external account. [Learn more on key management](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service (S3)** - The **AWS S3** connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. As you are setting up this new external account, you need to provide the following details:
 

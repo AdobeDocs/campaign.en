@@ -50,7 +50,7 @@ With the OAuth connection in place, the next step is to create an **[!UICONTROL 
 
     ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
     At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated prevearlier through the OAuth integration.
 
@@ -92,7 +92,7 @@ Browse the tabs below to discover the two methods:
 
 >[!TAB Add options using a JavaScript code activity]
 
-To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity to your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity to your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 At workflow execution, the options are automatically created in the Campaign console with the provided values.
 
@@ -338,5 +338,5 @@ Here is an example of a landing page and a JavaScript code activity configured t
 ### More information
 
 * [Configure a JavaScript code activity](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Manage subscriptions and unsubscriptions](../start/subscriptions.md)

@@ -21,7 +21,10 @@ Privacy configuration and hardening is a key element of security optimization. H
 * Make sure that encrypted passwords are restricted
 * Protect the pages that might contain personal information such as mirror pages, web applications, etc.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
+
+>[!NOTE]
+>
+>As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
 
 
 ## Access management
@@ -43,7 +46,7 @@ When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always fo
 
 * **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
 
-Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalization
@@ -138,4 +141,4 @@ When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always fo
 
 * **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
 
-Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.

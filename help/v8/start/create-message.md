@@ -40,7 +40,7 @@ Once your message has been created and its content designed and tested, you can 
 
    ![](assets/deliveries-in-a-campaign.png) 
 
-   Learn how to send messages in the context of a campaign in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
+   Learn how to send messages in the context of a campaign in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}
 
 * Send messages via a [workflow](../config/workflows.md)
 

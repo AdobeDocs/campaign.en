@@ -21,7 +21,7 @@ _Feb 14, 2024_
 
 * Starting this release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
 
-* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
+* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html){target="_blank"}.
 
 
 ### General improvements {#improvements-8-6-1}

@@ -33,7 +33,7 @@ To subscribe (opt-in) a profile to a service, available options are:
 
 * Import recipients and subscribe them automatically to an information service. To do this, select the service concerned in the last step of the import wizard. 
 
-   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * Use a web form so that recipients can subscribe to a service. 
 
@@ -43,14 +43,14 @@ To subscribe (opt-in) a profile to a service, available options are:
 
    ![](assets/web-app.png) 
 
-   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Create a targeting workflow and using a **[!UICONTROL Subscription service]** activity. 
 
    ![](assets/wf-subscription.png) 
 
-   Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
+   Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
     
 To unsubscribe (opt-out) a profile from a service, available options are:
 
@@ -65,7 +65,7 @@ To unsubscribe (opt-out) a profile from a service, available options are:
 * Specify a duration limit of the information service: recipients will be unsubscribed automatically when the period of validity has expired. This period is specified in the Edit tab of the service properties. It is expressed in days.
 * Set up an unsubscription workflow for a population.
 
-Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}
+Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]

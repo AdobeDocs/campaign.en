@@ -77,7 +77,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
 Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
 
-Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 Learn more in the following sections:
 

@@ -13,9 +13,9 @@ Connect Campaign and Target to include an offer from Adobe Target in an Adobe Ca
 This integration helps you to implement use cases as follows: when a recipient opens an email sent via Adobe Campaign, a call to Adobe Target allows you to display a dynamic version of the content. This dynamic version is computed depending on the rules specified beforehand when creating the email.
 
 >[!NOTE]
->The integration only supports static images. The other types of content cannot be personalized.
-
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+>* The integration only supports static images. The other types of content cannot be personalized.
+>
+>* As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
 
 The following types of data can be used by Adobe Target:
 
@@ -68,7 +68,7 @@ You can then define the image parameters:
 * The **[!UICONTROL Landing Page]** lets you redirect the default image to a default landing page. This URL applies only when the default image is displayed in the final email. It is optional.
 * The **[!UICONTROL Additional decision parameters]**  defines the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox. In our example, we added the Country field.
 
-If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [this page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [Adobe Target documentation](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
 ![](assets/target_13.png)
 
@@ -88,7 +88,7 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
    ![](assets/target_6.png)
 
-1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [page](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences).
+1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [Adobe Target documentation](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
 ### Create audiences {#audiences-target}
 
