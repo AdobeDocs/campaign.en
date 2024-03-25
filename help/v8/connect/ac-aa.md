@@ -118,7 +118,7 @@ Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion
 
 For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} page.
 
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree and click **[!UICONTROL New]**.
+1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign explorer tree and click **[!UICONTROL New]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -238,6 +238,25 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
 
 1. You can now send your delivery and access your report for it in Adobe Analytics.
 
+
+## Create a re-marketing campaign {#create-a-re-marketing-campaign}
+
+To prepare your re-marketing campaign, simply create delivery templates to be used for re-marketing type campaigns. Then configure your re-marketing campaign and link it to a segment. Each segment must have a different re-marketing campaign.
+
+Re-marketing campaigns are started automatically once Adobe Campaign has finished recovering the segments analyzing the behavior of people targeted by the initial campaign. In case of cart abandonment or product viewing without a purchase, a delivery is sent to the concerned recipients in order for their site browsing to finalize their purchase.
+
+Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns.
+
+1. From the **[!UICONTROL Explorer]**, go to the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** folder of the Adobe Campaign tree.
+1. Duplicate the **[!UICONTROL Email delivery (re-marketing)]** template or the re-marketing template examples offered by Adobe Campaign.
+1. Personalize the template to suit your needs and save it.
+1. Create a new campaign and select the **[!UICONTROL Re-marketing campaign]** template from the drop-down list.
+1. Click the **[!UICONTROL Configure...]** link to specify the segment and delivery template linked to the campaign.
+1. Select the Analytics e[xternal account](#external-account-ac), and the concerned segment.
+1. Select the delivery template to be used for this re-marketing campaign, then click **[!UICONTROL Finish]** to close the window.
+1. Click **[!UICONTROL OK]** to close the campaign window.
+
+The **[!UICONTROL Re-marketing efficiency]** report is accessed via the global reports page. It lets you view the number of contacts converted (i.e. having purchased something) in relation to the number of cart abandonments following the Adobe Campaign re-marketing campaign. The conversion rate is calculated per week, month or since the start of synchronization between Adobe Campaign and Adobe Analytics.
 
 **Related topics**
 
