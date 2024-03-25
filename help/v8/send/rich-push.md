@@ -7,6 +7,7 @@ role: User
 level: Beginner
 hide: yes
 hidefromtoc: yes
+exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 ---
 # Design an Android rich push delivery {#rich-push}
 
