@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Design a rich push notification delivery
-description: Learn how to design a rich push notification delivery with Adobe Campaign Web
+description: Learn how to design an Android rich push notification delivery with Adobe Campaign Web
 feature: Push
 role: User
 level: Beginner
