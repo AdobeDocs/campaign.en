@@ -41,8 +41,6 @@ To configure data extraction, apply the following steps:
 
 You can define a post-process to be executing during the data extraction, allowing you to zip or to encrypt the files. To do this, the desired command must be added in the **[!UICONTROL Script]** tab of the activity.
 
-For more on this, refer to this section: [Zipping or encrypting a file](use-workflow-data.md#zipping-or-encrypting-a-file).
-
 ![](assets/postprocessing_dataextraction.png)
 
 ## List of aggregate functions {#list-of-aggregate-functions}
