@@ -1,7 +1,7 @@
 ---
 title: Enhanced security add-on
-description: Get started with Campaign Enhanced security add-on
-feature: 
+description: Get started with the Campaign Enhanced security add-on
+feature: Configuration
 role: Developer
 level: Experienced
 
