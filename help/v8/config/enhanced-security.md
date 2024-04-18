@@ -38,35 +38,33 @@ To enable this feature, follow the steps below:
 
 ## Secure VPN tunneling {#secure-vpn-tunneling}
 
-Secure VPN Tunneling provides a secure access for data in transit over a private network from your premises to the [!DNL Adobe Campaign] instance.
+Secure Virtual Private Network (VPN) Tunneling is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
+
+<!--As it connects two networks together, it is a site-to-site VPN.-->
+
+To ensure high availability (HA), it uses two tunnels to avoid any outage in case an issue happens on one tunnel
 
 Three use cases are supported:
 
 * FDA over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
 
-    >[!CAUTION]
-    >
-    >For FDA over VPB, only on-premise databases are supported. [Learn more](#vpn-callouts)
-
-* Instance login over VPN from thick client
+* Instance login over VPN from a thick client
 
 * Instance SFTP access over VPN
 
-This is a site-to-site VPN only. To ensure continuous availability, there are two tunnels to avoid any outage in case an issue happens on one tunnel.
-
->[!NOTE]
+>[!CAUTION]
 >
->Only AWS-supported VPN devices are supported.<!--Richa to provide more information?-->
+>Only on-premise databases and AWS-compliant VPN devices are supported. [Learn more](#vpn-callouts)
 
-To ensure proper use of this feature, you must:
+To ensure proper use of this feature, follow the guidelines below:
 
 * Set up your side VPN based on the Adobe-side VPN configuration.
 
-* Keep both the tunnels up for High Availability.
+* Keep both tunnels up for HA.
 
 * Monitor your side tunnel.
 
-* Be the initiator of the tunnel, and be aligned to reinitiate the connection if the tunnel goes down.
+* You must be the initiator of the tunnel, and be aligned to reinitiate the connection if the tunnel goes down.
 
 * Set up a retry mechanism at your end in case connection failures happen.
 
@@ -85,6 +83,11 @@ We will be auditing change logs too
 * Make sure all of your use cases are valid.
 
 * At this stage, communication with Adobe must be performed manually via email.
+
+* Adobe will be monitoring your instance availability and proceed with alerting if the key is not available.
+
+* Adobe will be monitoring the VPN tunnels and proceed with alerting in case any issue arise.
+
 
 Encryption is done at account level, not database level
 Not through Control Panel (maybe for v2)
@@ -115,7 +118,7 @@ Customer needs to reach out through a ticket
 
 ### VPN {#vpn-callouts}
 
-* For the FDA over VPN use case, only on-premise databases are currently supported. The list is as follows<!--Richa to check the list with PM-->:
+* Currently only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
 
     * MySQL
     * Netezza 
@@ -126,7 +129,8 @@ Customer needs to reach out through a ticket
     * Teradata 
     * Hadoop via HiveSQL
 
+* Only AWS-compliant VPN devices are supported. A list of compatible devices is available on [this page](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
 
-Done after provisioning and before go live
-Customer needs to configure his side VPN based on Adobe side VPN configuration
-VPN connectivity with new UI is out of scope
+* VPN connectivity to third parties or external vendors is not supported.
+
+* Adobe-managed additional VPNs to private Cloud databases are not included.
