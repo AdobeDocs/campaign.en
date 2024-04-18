@@ -18,7 +18,7 @@ This add-on currently includes two ecosystem features:
 
 ## Secure CMK integration {#secure-cmk-integration}
 
-Secure Customer-Managed Key (CMK) Integration allows you to encrypt your instance and your data using your own key through your AWS account<!--instead of Adobe-owned keys-->. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
+**Secure Customer-Managed Key (CMK) integration** allows you to encrypt your instance and your data using your own key through your AWS account<!--instead of Adobe-owned keys-->. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
 
 >[!CAUTION]
 >
@@ -38,7 +38,7 @@ To enable this feature, follow the steps below:
 
 ## Secure VPN tunneling {#secure-vpn-tunneling}
 
-Secure Virtual Private Network (VPN) Tunneling is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
+**Secure Virtual Private Network (VPN) tunneling** is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
@@ -68,35 +68,21 @@ To ensure proper use of this feature, follow the guidelines below:
 
 * Set up a retry mechanism at your end in case connection failures happen.
 
-## Customer onboarding and enablement {#onboarding-and-enablement}
+## Guardrails {#callouts}
 
-Goal = assist customer to setup CMK and VPN
-Customer needs to set up AWS key to share information with us
-We want to monitor the key > customer needs to have AWS bridge for us to monitor CMK
-Customer needs to set up VPN on his side based on Adobe VPN configuration
-On-call enablement
-MSIO enablement
-We will be auditing change logs too
+Some guardrails and limitations relating to the Enhanced security features are listed below.
 
-## Callouts / Guardrails / Prerequisites {#callouts}
+* Make sure all of your Secure CMK integration / Secure VPN tunneling use cases are valid.
 
-* Make sure all of your use cases are valid.
+* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.
 
-* At this stage, communication with Adobe must be performed manually via email.
+* Adobe will be monitoring:
 
-* Adobe will be monitoring your instance availability and proceed with alerting if the key is not available.
+    * Your instance availability, and proceed with alerting if the key is not available.
 
-* Adobe will be monitoring the VPN tunnels and proceed with alerting in case any issue arise.
+    * The VPN tunnels, and proceed with alerting in case any issue arise.
 
-
-Encryption is done at account level, not database level
-Not through Control Panel (maybe for v2)
-Customer needs to reach out through a ticket
-    * Collaborative process > transition managers to help on that > manual communication via email
-    * No CMK or VPN at initial provisioning It will be done post provisioning (before go live)
-
-
-### CMK {#cmk-callouts}
+### Secure CMK integration guardrails {#cmk-callouts}
 
 * Adobe does not provide an AWS account. You must have your own AWS account and set it up to generate and share your key with Adobe.
 
@@ -110,15 +96,15 @@ Customer needs to reach out through a ticket
 
 * In case you revoke, disable or delete the key, your encrypted resources and instance become inaccessible until you revert the corresponding action.
 
->[!CAUTION]
->
->If you disable the key and do not revert this action within 7 days, your database can only be recovered from backup.
->
->If you delete the key and do not revert this action within 30 days, then all your data is permanently delete and will be lost.​
+    >[!CAUTION]
+    >
+    >If you disable the key and do not revert this action within 7 days, your database can only be recovered from backup.
+    >
+    >If you delete the key and do not revert this action within 30 days, then all your data is permanently deleted and will be lost.​
 
-### VPN {#vpn-callouts}
+### Secure VPN tunneling guardrails {#vpn-callouts}
 
-* Currently only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
+* Currently, only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
 
     * MySQL
     * Netezza 
