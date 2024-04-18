@@ -18,7 +18,7 @@ This add-on currently includes two ecosystem features:
 
 ## Secure CMK integration {#secure-cmk-integration}
 
-Secure Customer-Managed Key (CMK) Integration allows you to encrypt your instance and your data using your own encryption keys in your AWS account - instead of Adobe-owned keys.
+Secure Customer-Managed Key (CMK) Integration allows you to encrypt your instance and your data using your own encryption keys in your AWS account<!--instead of Adobe-owned keys-->.
 
 Making you responsible for generating and managing your keys, this capacity enables you to have more control over them.
 
