@@ -18,11 +18,11 @@ This add-on currently includes two ecosystem features:
 
 ## Secure CMK integration {#secure-cmk-integration}
 
-Secure Customer-Managed Key (CMK) Integration allows you to encrypt your instance and your data using your own encryption keys in your AWS account<!--instead of Adobe-owned keys-->.
+Secure Customer-Managed Key (CMK) Integration allows you to encrypt your instance and your data using your own key through your AWS account<!--instead of Adobe-owned keys-->. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
 
-Making you responsible for generating and managing your keys, this capacity enables you to have more control over them.
-
-You can also revoke a key. However, in that case, you must be aware of the impacts. [Learn more](#cmk-callouts)
+>[!CAUTION]
+>
+>In case you revoke a key, you must be aware of the impacts. [Learn more](#cmk-callouts)
 
 To enable this feature, follow the steps below:
 
@@ -38,14 +38,37 @@ To enable this feature, follow the steps below:
 
 ## Secure VPN tunneling {#secure-vpn-tunneling}
 
-Goal = Provide secure access over private network from customer premise to Campaign instance
-3 use cases:
-    * FDA over VPN
-    * Instance login over VPN from thick client
-    * Instance SFTP access over VPN
-Customer can access on-prem database over VPN (only on-prem DB supported)
-Job provided by Adobe to configure VPN automatically - customer cannot do it in a self-serving manner.
-There will be 2 tunnels in case issue on one tunnel > monitoring and alerting on those VPN tunnels
+Secure VPN Tunneling provides a secure access for data in transit over a private network from your premises to the [!DNL Adobe Campaign] instance.
+
+Three use cases are supported:
+
+* FDA over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+
+    >[!CAUTION]
+    >
+    >For FDA over VPB, only on-premise databases are supported. [Learn more](#vpn-callouts)
+
+* Instance login over VPN from thick client
+
+* Instance SFTP access over VPN
+
+This is a site-to-site VPN only. To ensure continuous availability, there are two tunnels to avoid any outage in case an issue happens on one tunnel.
+
+>[!NOTE]
+>
+>Only AWS-supported VPN devices are supported.<!--Richa to provide more information?-->
+
+To ensure proper use of this feature, you must:
+
+* Set up your side VPN based on the Adobe-side VPN configuration.
+
+* Keep both the tunnels up for High Availability.
+
+* Monitor your side tunnel.
+
+* Be the initiator of the tunnel, and be aligned to reinitiate the connection if the tunnel goes down.
+
+* Set up a retry mechanism at your end in case connection failures happen.
 
 ## Customer onboarding and enablement {#onboarding-and-enablement}
 
@@ -91,6 +114,18 @@ Customer needs to reach out through a ticket
 >If you delete the key and do not revert this action within 30 days, then all your data is permanently delete and will be lost.​
 
 ### VPN {#vpn-callouts}
+
+* For the FDA over VPN use case, only on-premise databases are currently supported. The list is as follows<!--Richa to check the list with PM-->:
+
+    * MySQL
+    * Netezza 
+    * Oracle 
+    * SAP HANA 
+    * SQL Server 
+    * Sybase 
+    * Teradata 
+    * Hadoop via HiveSQL
+
 
 Done after provisioning and before go live
 Customer needs to configure his side VPN based on Adobe side VPN configuration
