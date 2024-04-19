@@ -10,9 +10,31 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. Adobe strongly recommends all customers to upgrade to the latest version. Learn more about Campaign versions and recommendations [in this page](upgrades.md).
 
-As a Managed Cloud Services user, your instance is upgraded by Adobe with every new version. Adobe will contact you and upgrade your environments. Campaign client console **must be upgraded to the same version** as Campaign servers. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
+As a Managed Cloud Services user, your instance is upgraded by Adobe with every new version. Adobe will contact you and upgrade your environments. Campaign client console **must be upgraded to the same version** as Campaign servers. Learn how to upgrade your client console in this [page](../start/connect.md#upgrade-ac-console). 
 
-In addition, as a customer, ensure that you are using the latest supported version of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+
+## Release 8.7.1 {#release-8-7-1}
+
+_April 30, 2024_
+
+### New features {#new-8-7-1}
+
+* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+
+* **Design - Visual Content Fragment**: TBD
+
+* **API - Rest APIs for ACS users**: TBD
+
+<!--
+* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
+-->
+
+* **Rich Push Notification templates**: With Campaign 8.7, you can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content.	
+
+### General improvements {#improvements-8-7-1}
+
+* **Workflow - Split Activity - Support Skipping Empty Transition**: The "Do not activate the transition if the population is empty" option in the Split activity allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
 
 
 ## Release 8.6.2 {#release-8-6-2}
