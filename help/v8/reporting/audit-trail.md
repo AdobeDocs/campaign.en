@@ -42,7 +42,7 @@ Audit Trail consists of four components:
 
 * **Delivery audit trail** allows you to check the activities and last modifications done to your deliveries. 
 
-  For more information on deliveries, refer to this [page](../msg/gs-deliveries.md).
+  For more information on deliveries, refer to this [page](../send/email.md).
 
 * **External Account** allows you to check modifications made to external accounts, used by technical processes such as technical workflows or campaign workflows.
 
