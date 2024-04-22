@@ -36,6 +36,18 @@ _April 30, 2024_
 
 * **Workflow - Split Activity - Support Skipping Empty Transition**: The "Do not activate the transition if the population is empty" option in the Split activity allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
 
+* **Workflow - Extract file activity (post-processing zip)**: TBD
+
+* **Landing pages - Storing additional data on submission**: TBD
+
+* **Branding + Landing Pages**: TBD
+
+* **Landing Page - Option to call different services on a user action**: When adding a link to an email content, you can now select a landing page. If the landing page is linked to multiple services, you can also select a service (only one service can be selected). When the users submit the form, they are automatically subscribed to that service.
+
+* **Landing Pages - Support conditional content**: TBD
+
+* **Migration to OAuth authentication**: This impacts all customers with new and existing ACC Adobe I/O projects.
+
 ### Fixes {#fixes-8-7-1}
 
 The following issues are fixed in this release:
