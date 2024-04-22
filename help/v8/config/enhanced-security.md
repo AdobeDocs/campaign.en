@@ -28,7 +28,7 @@ To enable this feature, follow the steps below:
 
 1. Make sure you have an [AWS](https://aws.amazon.com/){target="_blank"} account.
 
-1. Generate a key using the AWS Key Management Service (KMS). [Learn how](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
+1. Generate a key with auto-rotation on using the AWS Key Management Service (KMS). [Learn how](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
 
 1. Apply the policy provided to you by Adobe into your AWS account, in order to grant access to your resources. [Learn more](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"} <!--link TBC-->
 
@@ -72,9 +72,11 @@ To ensure proper use of this feature, follow the guidelines below:
 
 Some guardrails and limitations relating to the Enhanced security features are listed below.
 
-* Make sure all of your Secure CMK integration / Secure VPN tunneling use cases are valid.
+* Make sure all of your Secure CMK integration / Secure VPN tunneling use cases are working.
 
-* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.
+<!--* Adobe shall reach out to you or your technical team if any issue is found on your side.
+
+* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.-->
 
 * Adobe will be monitoring:
 
