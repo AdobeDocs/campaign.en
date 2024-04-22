@@ -36,6 +36,10 @@ _April 30, 2024_
 
 * **Workflow - Split Activity - Support Skipping Empty Transition**: The "Do not activate the transition if the population is empty" option in the Split activity allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
 
+### Fixes {#fixes-8-7-1}
+
+The following issues are fixed in this release:
+NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
 
 ## Release 8.6.2 {#release-8-6-2}
 
