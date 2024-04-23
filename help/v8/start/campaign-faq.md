@@ -31,6 +31,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
     Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
 
     Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+    
 1. **Can Campaign v8 be installed on an on-premise or hybrid environment?**
 
     Campaign v8 is only available in Managed Cloud Services, fully hosted by Adobe.

@@ -18,35 +18,26 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 _April 30, 2024_
 
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability**. It is restricted to customers migrating f**rom Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
 ### New features {#new-8-7-1}
 
-* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand’s identity. This includes the brand logo, the domain of the landing pages’ access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+* **Rich Push Notification templates**: With Campaign 8.7, you can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content
 
-* **Design - Visual Content Fragment**: TBD
+The following capabilities are restricted to customers migrating from Campaign Standard only:
 
-* **API - Rest APIs for ACS users**: TBD
+* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+
+* **API - Rest APIs for ACS users**
+
+* **Dynamic reporting** 
 
 <!--
 * **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
 -->
 
-* **Rich Push Notification templates**: With Campaign 8.7, you can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content.	
-
-### General improvements {#improvements-8-7-1}
-
-* **Workflow - Split Activity - Support Skipping Empty Transition**: The "Do not activate the transition if the population is empty" option in the Split activity allows you to choose whether the workflow should transition to the next activity when the segment result is empty.
-
-* **Workflow - Extract file activity (post-processing zip)**: TBD
-
-* **Landing pages - Storing additional data on submission**: TBD
-
-* **Branding + Landing Pages**: TBD
-
-* **Landing Page - Option to call different services on a user action**: When adding a link to an email content, you can now select a landing page. If the landing page is linked to multiple services, you can also select a service (only one service can be selected). When the users submit the form, they are automatically subscribed to that service.
-
-* **Landing Pages - Support conditional content**: TBD
-
-* **Migration to OAuth authentication**: This impacts all customers with new and existing ACC Adobe I/O projects.
 
 ### Fixes {#fixes-8-7-1}
 
