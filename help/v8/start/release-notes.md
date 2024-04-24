@@ -38,7 +38,7 @@ _April 30, 2024_
 * **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
 -->
 
-### Compabtibility updates {#comp-8-7-1}
+### Compatibility updates {#comp-8-7-1}
 
 Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more about FDA [in this page](../connect/fda.md).
 
