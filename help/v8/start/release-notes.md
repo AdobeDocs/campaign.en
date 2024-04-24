@@ -20,24 +20,27 @@ _April 30, 2024_
 
 >[!AVAILABILITY]
 >
->This release is in **Limited Availability**. It is restricted to customers migrating f**rom Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 
 ### New features {#new-8-7-1}
 
-* **Rich Push Notification templates**: With Campaign 8.7, you can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content
+* **Rich Push Notification templates** - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content.
 
-The following capabilities are restricted to customers migrating from Campaign Standard only:
+<!--The following capabilities are restricted to customers migrating from Campaign Standard only:-->
 
-* **Branding**: Technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can now create these brands and link them to messages or landing pages. This configuration is managed in templates.
+* **Branding** -  As a Campaign Stardard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
 
-* **API - Rest APIs for ACS users**
+* **API - Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. 
 
-* **Dynamic reporting** 
+* **Dynamic Reporting** - As a Campaign Stardard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
 
 <!--
 * **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
 -->
 
+## Compabtibility updates {#comp-8-7-1}
+
+Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more about FDA [in this page](../connect/fda.md).
 
 ### Fixes {#fixes-8-7-1}
 
