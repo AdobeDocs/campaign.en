@@ -12,7 +12,9 @@ You can configure Adobe Analytics to integrate Campaign and Analytics.
 
 This integration allows Adobe Campaign and Adobe Analytics to interact through the **Web Analytics connectors** add-on. This integration sends indicators and attributes of email campaigns delivered by Adobe Campaign to Adobe Analytics.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
+>[!NOTE]
+>
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
 
 Using Adobe Analytics Connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). The Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to Analytics.
 
@@ -47,7 +49,7 @@ To create your **[!UICONTROL Report suite]** in [!DNL Adobe Analytics], follow t
 
 1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -77,7 +79,7 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
 
 1. Click **[!UICONTROL Add new]** to create the identifiers required for measuring the impact of the email campaign, i.e. the internal campaign name (cid) and the iNmsBroadlog (bid) table ID.
 
-   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools).
+   To learn how to edit **[!UICONTROL Conversion variables]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}.
    
    ![](assets/analytics_connnector_6.png)
 
@@ -100,7 +102,7 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   To learn how to configure **[!UICONTROL Success events]**, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   To learn how to configure **[!UICONTROL Success events]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -114,9 +116,9 @@ You now need to configure your **[!UICONTROL Web Analytics]** external account i
 
 Note that if one of your **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** or **[!UICONTROL Success events]** is not visible when configuring your external account, this means that you are missing a permission for this newly created component in the **[!UICONTROL Product profile]** associated to the user. 
 
-For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) page.
+For more information on this, refer to the [Product profiles for Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} page.
 
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign tree and click **[!UICONTROL New]**.
+1. Browse to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** folder of the Adobe Campaign explorer tree and click **[!UICONTROL New]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -174,7 +176,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
-    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days_ after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
+    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days) after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
     * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
 
 >[!NOTE]
@@ -236,6 +238,25 @@ In order for the Adobe Experience Cloud to be able to track activity on the site
 
 1. You can now send your delivery and access your report for it in Adobe Analytics.
 
+
+## Create a re-marketing campaign {#create-a-re-marketing-campaign}
+
+To prepare your re-marketing campaign, simply create delivery templates to be used for re-marketing type campaigns. Then configure your re-marketing campaign and link it to a segment. Each segment must have a different re-marketing campaign.
+
+Re-marketing campaigns are started automatically once Adobe Campaign has finished recovering the segments analyzing the behavior of people targeted by the initial campaign. In case of cart abandonment or product viewing without a purchase, a delivery is sent to the concerned recipients in order for their site browsing to finalize their purchase.
+
+Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns.
+
+1. From the **[!UICONTROL Explorer]**, go to the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** folder of the Adobe Campaign tree.
+1. Duplicate the **[!UICONTROL Email delivery (re-marketing)]** template or the re-marketing template examples offered by Adobe Campaign.
+1. Personalize the template to suit your needs and save it.
+1. Create a new campaign and select the **[!UICONTROL Re-marketing campaign]** template from the drop-down list.
+1. Click the **[!UICONTROL Configure...]** link to specify the segment and delivery template linked to the campaign.
+1. Select the Analytics e[xternal account](#external-account-ac), and the concerned segment.
+1. Select the delivery template to be used for this re-marketing campaign, then click **[!UICONTROL Finish]** to close the window.
+1. Click **[!UICONTROL OK]** to close the campaign window.
+
+The **[!UICONTROL Re-marketing efficiency]** report is accessed via the global reports page. It lets you view the number of contacts converted (i.e. having purchased something) in relation to the number of cart abandonments following the Adobe Campaign re-marketing campaign. The conversion rate is calculated per week, month or since the start of synchronization between Adobe Campaign and Adobe Analytics.
 
 **Related topics**
 

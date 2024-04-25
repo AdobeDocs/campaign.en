@@ -16,22 +16,26 @@ Adobe Campaign comes with several connectors that allow you to communicate with 
 
 Combine Adobe Experience Cloud solutions to modernize your implementation. 
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+Campaign v8 can connect with the following Adobe solutions. Browse the links to learn more about use cases, configuration, and guidelines:
 
-Campaign v8 can connect with:
-
-* [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](../connect/ac-ajo.md)    
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Cloud triggers](../connect/ac-triggers.md)
-* [Adobe Target](../connect/ac-at.md)
+* Adobe Analytics.[Learn more](../connect/ac-aa.md)
+* Adobe Experience Cloud triggers. [Learn more](../connect/ac-triggers.md)
+* Adobe Experience Manager. [Learn more](../connect/ac-aem.md)
+* Adobe Experience Platform. [Learn more](../connect/ac-aep.md)
+* Adobe Journey Optimizer. [Learn more](../connect/ac-ajo.md)    
+* Adobe Target. [Learn more](../connect/ac-at.md)
+* Adobe Workfront. [Learn more](../connect/ac-workfront.md)
 
 You can also combine your **audiences** and **assets** across Experience Cloud solutions with Asset sharing and Audience sharing capabilities.
 
-![](../assets/do-not-localize/book.png) Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Learn more about **Audience sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+Learn more about **Asset sharing** between Campaign and Experience Cloud solutions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+
+>[!NOTE]
+>
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+
 
 ## Integrate with your CRM Connector{#gs-crm-connectors}
 
@@ -46,7 +50,7 @@ Learn how to integrate Campaign with Microsoft Dynamics 365 and Salesforce.com i
 
 Use the FDA Connector (Federated Data Access) to connect Campaign to one or more **external databases** and process information stored into them without affecting your Campaign Cloud Database data.
 
-![](../assets/do-not-localize/glass.png) Learn more in [this page](fda.md)
+Learn more in [this page](fda.md)
 
 ## Work with social media{#gs-social}
 

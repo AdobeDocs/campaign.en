@@ -15,7 +15,7 @@ These examples show how you can use JavaScript code in a workflow:
 * [Trigger a workflow, using a static SOAP method](#trigger-example)
 * [Interact with the database, using a non-static SOAP method](#interact-example)
 
-[Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html) about static and non-static SOAP methods.
+[Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"} about static and non-static SOAP methods.
 
 In these examples, the ECMAScript for XML (E4X) extension is used. With this extension, you can combine JavaScript calls and XML primitives in the same script.
 
@@ -93,7 +93,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Delete a record
 
-Use the `DeleteCollection` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html). 
+Use the `DeleteCollection` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}.
 
 Specify this information:
 
@@ -267,7 +267,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-The loop includes a local recipient variable. For each recipient that is returned in the collection of recipients, the recipient's email is printed out. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html) about the `logInfo` function.
+The loop includes a local recipient variable. For each recipient that is returned in the collection of recipients, the recipient's email is printed out. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"} about the `logInfo` function.
 
 #### Results of a `getIfExists` operation
 
@@ -353,7 +353,7 @@ You can trigger workflows programmatically, for example, in technical workflows 
 
 Workflow triggering works through the use of events. You can use these features for events:
 
-* To post an event, you can use the static `PostEvent` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
+* To post an event, you can use the static `PostEvent` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}.
 * To receive an event, you can use the **[!UICONTROL External signal]** activity. [Learn more](external-signal.md).
 
 You can trigger workflows in different ways:
@@ -420,10 +420,10 @@ Follow these steps:
 
 1. Define the query:
 
-   * Retrieve an entity by using the `create` method on the corresponding schema—for example, the `xtk:workflow` schema. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html).
+   * Retrieve an entity by using the `create` method on the corresponding schema—for example, the `xtk:workflow` schema. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}.
    * Use the `queryDef` method to issue an SQL query.
 
-1. Run the query using the `ExecuteQuery` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html).
+1. Run the query using the `ExecuteQuery` method. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}.
 
    Use the `for each` loop to retrieve the results.
 
@@ -605,11 +605,11 @@ This video shows an example of use of a non-static API method in a workflow:
 
 ### API documentation
 
-* [Samples of SOAP calls](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
+* [Samples of SOAP calls](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}
 * Methods:
-  * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
-  * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
-  * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
-  * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
-  * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html)
-* [logInfo function](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)
+  * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html){target="_blank"}
+  * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html){target="_blank"}
+  * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html){target="_blank"}
+* [logInfo function](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html){target="_blank"}

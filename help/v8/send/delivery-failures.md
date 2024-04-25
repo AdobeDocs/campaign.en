@@ -10,7 +10,7 @@ exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 
 Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression.
 
-This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
+This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is important. "Delivered" versus "bounced" is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.
 
 If a message cannot be sent to a profile, the remote server automatically sends an error message to Adobe Campaign. This error is qualified to determine whether the email address, phone number or device should be quarantined. See [Bounce mail management](#bounce-mail-qualification).
 
@@ -23,9 +23,9 @@ When an email address is quarantined, or if a profile is on denylist, the recipi
 There are two types of error when a message fails. Each delivery failure type determines if an address is sent to [quarantine](quarantines.md#quarantine-reason) or not.
 
 * **Hard bounces**
-  Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine list, which means they wouldn’t be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
+  Hard bounces are permanent failures generated after an ISP determines a mailing attempt to a subscriber address as not deliverable. Within Adobe Campaign, hard bounces that are categorized as undeliverable are added to the quarantine list, which means they wouldn't be reattempted. There are some cases where a hard bounce would be ignored if the cause of the failure is unknown.
   
-  Here are some common examples of hard bounces: Address doesn’t exist, Account disabled, Bad syntax, Bad domain
+  Here are some common examples of hard bounces: Address doesn't exist, Account disabled, Bad syntax, Bad domain
 
 * **Soft bounces**
   Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will [retry](#retries) multiple times (with variance depending on use of custom or out-of-box delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). 
@@ -34,7 +34,7 @@ There are two types of error when a message fails. Each delivery failure type de
 
 The  **Ignored** type of error is known to be temporary, such as "Out of office", or a technical error, for example if the sender type is "postmaster".
 
-The feedback loop operates like bounce emails: when a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. The addresses of these users are denylisted even though they did not click the unsubscription link. Addresses are added to the (**NmsAddress**) quarantine table and not to the (**NmsRecipient**) recipient table with the **[!UICONTROL Denylisted]** status. Learn more about feedback loop mechanism in the [Adobe Deliverability Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+The feedback loop operates like bounce emails: when a user qualifies an email as spam, you can configure email rules in Adobe Campaign to block all deliveries to this user. The addresses of these users are denylisted even though they did not click the unsubscription link. Addresses are added to the (**NmsAddress**) quarantine table and not to the (**NmsRecipient**) recipient table with the **[!UICONTROL Denylisted]** status. Learn more about feedback loop mechanism in the [Adobe Deliverability Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
 
@@ -91,7 +91,7 @@ Bounce mails can have the following qualification status:
 
 If message delivery fails following a temporary error (**Soft** or **Ignored**), Campaign retries sending. These retries can be performed until the end ot the delivery duration.
 
-Soft bounce retries and the length of time between them are determined by the MTA based on the type and severity of the bounce responses coming back from the message’s email domain.
+Soft bounce retries and the length of time between them are determined by the MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
 >[!NOTE]
 >

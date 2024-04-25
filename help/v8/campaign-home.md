@@ -8,9 +8,23 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 
 ## What's New
 
-Get a glimpse of the newest enhancements in Adobe Campaign v8 product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates](start/documentation-updates.md) page.
+Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates](start/documentation-updates.md) page.
 
 >[!BEGINTABS]
+
+>[!TAB Campaign v8.6 release is live]
+
+The latest version of Adobe Campaign is now live. Read out the release notes for more details.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+
+
+>[!TAB New Campaign Web User Interface] 
+
+Experience the new Adobe Campaign User Interface. More modern, intuitive and dynamic!
+
+[![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
+
 
 >[!TAB Push channel upcoming changes] 
 
@@ -18,11 +32,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
->[!TAB Enhanced Push notification service]
 
-Campaign v8.5.1 is introducing our latest Push notification service, powered by a robust framework built on a modern cutting-edge technology. This service is designed to unlock new levels of scalability, ensuring that your notifications can reach a larger audience with seamless efficiency. With our enhanced infrastructure and optimized processes, you can expect higher scale and reliability, empowering you to engage and connect with your Mobile App users like never before. This capability is only available for a selected group of customers (Limited Availability).
-
-[![image](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
 >[!ENDTABS]
 
@@ -36,7 +46,7 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
     </td>
     <td>
     <a href="start/connect.md"><img src="assets/do-not-localize/start-connect.jpeg"></a>
-    <div><strong>Connect to Campaign v8</strong><br/>Learn how to connect to Adobe Campaign v8 and kickstart your campaign management journey by installing and configuring the Client Console.</div><br/>
+    <div><strong>Connect to Campaign v8</strong><br/>Learn how to connect to Adobe Campaign v8 and kickstart your campaign management journey by installing and configuring the client console.</div><br/>
     </td>
     <td>
     <a href="start/create-message.md"><img src="assets/do-not-localize/start-send.jpeg"></a>
@@ -96,5 +106,5 @@ Campaign v8.5.1 is introducing our latest Push notification service, powered by 
 
 ## Additional resources
 
-[Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
+[Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 

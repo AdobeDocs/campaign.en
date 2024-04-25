@@ -1,30 +1,51 @@
 ---
-title: Discover Campaign worspace
-description: Learn how to browse and use Campaign workspace
+title: Discover Campaign user interface
+description: Learn how to browse and use Campaign user interface
 feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 ---
-# Discover Campaign user interface
+# Discover the user interface {#ui-client-console}
 
-## Access Campaign UI{#ui-access}
+You can access to Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 
-Campaign workspace is available through the [Client Console](../architecture/general-architecture.md).
+>[!CAUTION]
+>
+>This documentation is focused on Campaign Client console usage. If you are using the Campaign Web user interface, refer to [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
-Learn how to install and configure Campaign Client Console in [this section](../start/connect.md).
+* **Client console** - Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. [Learn more](#ui-access)
 
-![](assets/home-page.png) 
+    Learn how to install and configure Campaign client console in [this section](../start/connect.md).
+
+* **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
+
+* **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
+
+* **APIs** - To address more use cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. Learn more about Campaign APIs [in this page](../dev/api.md).
+
+
+## Work with the client console {#ui-access}
+
+Campaign client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.  [Learn more about Campaign client console](../start/connect.md). You can switch to the Campaign Web user interface from the dedicated card in the client console home page.
+
+![](assets/web-ui.png) 
+
+
+>[!NOTE]
+>
+>If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
+
 
 You can also use a web browser to access Campaign. In this context, only a sub-set of Campaign capabilities are available. [Learn more](#web-browser)
 
-## Browse the UI{#ui-browse}
+### Browse the interface {#ui-browse}
 
-Once you are connected to Campaign, you access the home page. Browse the links to access capabilities. The set of capabilities available in the UI depend on your options and permissions.
+Once you are connected to Campaign client console, you access the home page. Browse the links to access capabilities. The set of capabilities available in the interface depend on your options and permissions.
 
-From the central section of the home page, use links to access Campaign help materials, community and the support website.
+From the central section of the home page, use links to access Campaign help materials, community and the support website. Use the central cards to browse the new Campaign Web user interface, and Campaign Control panel.
 
-Use the tabs in the upper section to browse Campaign key capabilities:
+Browse the tabs in the upper section to access Campaign key capabilities:
 
 ![](assets/overview-home.png)
 
@@ -42,7 +63,7 @@ When you select an element in the screen, it is loaded in a new tab so that you 
 
 ![](assets/new-tab.png)
 
-## Create an element {#create-an-element}
+### Create an element {#create-an-element}
 
 Use shortcuts in the **[!UICONTROL Create]** section on the left of the screen to add new elements. You can also use the **[!UICONTROL Create]** button above the list to add new elements to the current list.
 
@@ -50,15 +71,16 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 
 ![](assets/new-recipient.png)
 
+<!--
 ## Use a web browser {#web-browser}
 
 You can also access a subset of Campaign capabilities through the a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).
+[Learn more about Campaign web access](../start/connect.md#web-access).-->
 
-## Access Campaign Explorer {#ac-explorer-ui}
+### Access Campaign Explorer {#ac-explorer-ui}
 
 Browse Campaign Explorer to access all the Adobe Campaign capabilities and settings. 
 
@@ -72,21 +94,37 @@ This workspace lets you access the Explorer tree to browse all features and opti
 
 * The lower section shows the details of the selected record. 
 
-## Languages{#languages}
 
-Campaign v8 user interface is available in the following languages:
+## Campaign Web user interface {#ac-web-ui}
 
-* English (UK)
-* English (US)
-* French
-* German
-* Japanese
+As a Campaign v8 client console user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
 
-The language is selected during the installation process.
+![Adobe Campaign Web User Interface Home Page](assets/ac-web-home.png)
 
->[!CAUTION]
->
->The language cannot be changed after the instance creation. 
+Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+Additional and advanced capabilities, configuration and settings are only available in the client console. Learn more about capabilities available in both user interfaces [in Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+
+
+## Supported languages {#languages}
+
+Languages supported depend on the user interface. 
+
+* For Campaign v8 client console interface, supported languages are:
+
+    * English (UK)
+    * English (US)
+    * French
+    * German
+    * Japanese
+
+
+    >[!CAUTION]
+    >
+    >The language is selected during the installation process, and cannot be changed afterwards. 
+
+* For Campaign Web user interface supported languages, [refer to this page](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+
 
 Language affects dates and time formats. 
 

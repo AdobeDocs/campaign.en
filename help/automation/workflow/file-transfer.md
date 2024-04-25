@@ -9,7 +9,7 @@ exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 # File transfer{#file-transfer}
 
 The **File transfer** activity lets you receive or send files, test for file presence, or list files on a server. The protocol used is either Azure Blob Storage, Amazon Simple Storage Service (S3), FTP or SFTP.
-With S3, Azure Blob Storage or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+With S3, Azure Blob Storage or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to this [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 ## Properties {#properties}
 

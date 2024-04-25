@@ -50,7 +50,7 @@ This data is contained in a "Purchases.txt" text file.
 
    The **File collector** activity lets you collect and send files from and to the Adobe Campaign server.
 
-   The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data. For more on this activity, refer to [this page](data-loading--file-.md).
+   The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data. For more on this activity, refer to [this page](data-loading-file.md).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 

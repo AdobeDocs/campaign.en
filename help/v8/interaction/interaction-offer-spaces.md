@@ -150,4 +150,4 @@ If a recipient is not eligible for any offers, this is shown in the preview.
 
 The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel. 
 
-![](../assets/do-not-localize/book.png)  For more on this, refer to this sample in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+ For more on this, refer to this sample in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

@@ -10,7 +10,9 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 
 Transactional messaging (Message Center) is a Campaign module designed for managing trigger messages. These notifications are generated from events triggered from information systems, and can be: invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement, website account creation, etc.
 
-![](../assets/do-not-localize/speech.png)  As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to configure Campaign Transactional messaging in your environment.
+>[!NOTE]
+>
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 
@@ -103,7 +105,7 @@ The definition of the transactional message content is the same as for all deliv
 >[!CAUTION]
 >
 >Images included in the message must be publicly accessible. Adobe Campaign does not provide any image upload mechanism for transactional messages.  
->Unlike in JSSP or webApp, `<%=` doesn’t have any default escaping.
+>Unlike in JSSP or webApp, `<%=` doesn't have any default escaping.
 >
 >You have to escape each data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
 

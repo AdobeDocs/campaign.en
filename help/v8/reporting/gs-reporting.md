@@ -40,10 +40,10 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     ![](assets/desc-analysis-report.png)
 
-    ![](../assets/do-not-localize/book.png) Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
+    Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 * **Custom reports** 
 
     Use Adobe Campaign to create reports on the data in the database. Once these have been created, make them accessible in the appropriate contexts.
 
-    ![](../assets/do-not-localize/book.png) Steps to create a report are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Personalized report creation is reserved to advanced users.
+    Steps to create a report are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. Personalized report creation is reserved to advanced users.

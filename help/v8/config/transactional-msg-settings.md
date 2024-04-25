@@ -12,7 +12,10 @@ Transactional messaging (Message Center) is a Campaign module designed for manag
 
 Understand transactional messaging architecture in [this page](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+
+>[!NOTE]
+>
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 ## Define permissions {#mc-permissions}
 
@@ -45,7 +48,7 @@ In addition, the event must contain the following elements:
 
 Below is an example of an event configuration to send transactional push notifications:
 
-```
+```xml
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
      <urn:PushEvent>

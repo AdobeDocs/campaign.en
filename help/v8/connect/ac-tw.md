@@ -14,7 +14,10 @@ The **Managing social networks (Social Marketing)** module lets you interact wit
 
 * Collect new contacts - Adobe Campaign Social Marketing also makes it easy to acquire new contacts: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
-![](../assets/do-not-localize/speech.png) As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with X. The  **Managing social networks (Social Marketing)** add-on must be installed on your environment, through the dedicated package, and the Twitter External Account must be configured.
+
+>[!NOTE]
+>
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with X. The  **Managing social networks (Social Marketing)** add-on must be installed on your environment, through the dedicated package, and the Twitter External Account must be configured.
 
 
 To configure Adobe Campaign to post tweets to your X accounts, delegate write access to Adobe Campaign for these accounts. To do this, you must:
@@ -36,7 +39,7 @@ Campaign uses the 1.1 version of the X API. To use it, you need to apply for Ele
 Once you have been approved with Elevated access, create a X application to enable Adobe Campaign to create posts on your X account. To do this, follow the steps below:
 
 1. Log on to your X account.
-1. Connect to [X developer portal](https://developer.twitter.com/en/apps).
+1. Connect to [X developer portal](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Select **Create an App**.
 1. Let X assistant guide you through the process.
 1. To allow Adobe Campaign to create posts on your account, edit to the **App permissions** from the User authentication set up section of your app. Select **Read, Write, and Direct Messages**. 

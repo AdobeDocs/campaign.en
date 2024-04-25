@@ -62,4 +62,4 @@ The overall communication between Campaign processes are described in the follow
 
 The user connects to the Campaign application server using the HTTP. All the data and information is managed in the Campaign database. If a Campaign developer performs any configuration changes, it is captured in the database. If a marketer creates a new campaign, all the information and data related to this new campaign is also managed in the database. When a marketer executes a campaign, email deliveries are sent to profiles from the Campaign server through the SMTP server. As profiles interact with email deliveries, such as opening the email, that tracking data is sent back to the tracking server.
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign processes](../architecture/general-architecture.md#dev-env).
+[Learn more about Campaign processes](../architecture/general-architecture.md#dev-env).

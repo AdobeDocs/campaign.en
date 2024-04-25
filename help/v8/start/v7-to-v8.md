@@ -31,13 +31,21 @@ The new offering combines best-in-class services with proactive oversight and ti
 
 As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed).
 
-Campaign v8 relies on a **hybrid architecture**. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. As a consequence, internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly.
-
-![](../assets/do-not-localize/glass.png) Learn more about sending transactional message proofs when transitioning from v7 on [this page](../send/transactional-template.md#transition-from-v7).
-
->[!NOTE]
->
 >The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
+
+
+## Hybrid architecture {#hybrid-archi}
+
+Campaign v8 relies on a **hybrid architecture**. If you are transitioning from Campaign Classic v7, note that all deliveries go through the mid-sourcing server. 
+
+As a consequence:
+
+* Internal routing is **not possible** in Campaign v8, and the external account has been disabled accordingly,
+* Status of the deliveries is not instantly updated - A technical process runs on the Marketing instance which will update the delivery statuses in a timely manner.
+
+
+Learn more about sending transactional message proofs when transitioning from v7 on [this page](../send/transactional-template.md#transition-from-v7).
+
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
@@ -45,14 +53,14 @@ In its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md),
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You only need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-![](../assets/do-not-localize/glass.png) Learn more about [!DNL Campaign] v8 architecture in [this page](../architecture/architecture.md).
+Learn more about [!DNL Campaign] v8 architecture in [this page](../architecture/architecture.md).
 
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}
 
 Campaign users connect through their Adobe ID only. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account, for all Adobe Experience Cloud solutions. 
 
-![](../assets/do-not-localize/glass.png) Learn how to connect to [!DNL Campaign] in [this page](connect.md).
+Learn how to connect to [!DNL Campaign] in [this page](connect.md).
 
 ## Analyze data with cubes{#adobe-reporting}
 

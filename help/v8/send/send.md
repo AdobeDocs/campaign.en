@@ -7,7 +7,7 @@ level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 ---
 
-# Send and monitor your emails
+# Send and monitor your emails  {#send-and-monitor-emails}
 
 When the delivery is configured and ready to be sent, make sure you have run the delivery analysis. [Learn more](delivery-analysis.md)
 
@@ -15,12 +15,18 @@ Once done, confirm the delivery to launch the delivery of messages.
 
 Track the execution of the delivery from the **Delivery** tab, accessible via the detail of this delivery or via the list of deliveries.
 
-## Monitor your emails
+## Monitor your emails {#email-monitoring}
 
-Once sent, check your delivery status in the Delivery Dashboard and access delivery logs and reports to confirm messages were correctly sent.
+Once sent, check your delivery status in the **Delivery Dashboard** and access delivery logs and reports to confirm messages were correctly sent.
 
-![](../assets/do-not-localize/book.png) [Learn more in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+From the delivery dashboard, you can check the processed messages and delivery audit logs. You can also control the status of the messages in the delivery logs.
 
+>[!NOTE]
+>
+>Delivery statuses are not displayed in real-time. Learn more about Email Feedback Service [in this section](#email-feedback-service).
+
+
+[Learn more about delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -30,7 +36,7 @@ Available for all Campaign v8 customers, it guarantees scalability, a high deliv
 
 ### Benefits
 
-Adobe Campaign uses a Mail Transfer Agent (MTA) which runs SparkPost’s commercial email MTA called **Momentum**.
+Adobe Campaign uses a Mail Transfer Agent (MTA) which runs SparkPost's commercial email MTA called **Momentum**.
 
 Momentum represents innovative, high-performance MTA technology which includes smarter bounce handling and an automated deliverability optimization capability that helps senders achieve and maintain optimal inbox delivery rates.
 
@@ -55,7 +61,7 @@ Learn more on delivery failures in [this section](delivery-failures.md).
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
-The MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you’re sending emails.
+The MTA has its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you're sending emails.
 
 ### DKIM-signing
 
@@ -67,11 +73,9 @@ Lern more on DKIM in the [Adobe Deliverability Best Practice Guide](https://expe
 
 ## Email Feedback Service {#email-feedback-service}
 
-With the Email Feedback Service (EFS) capability, the status of each email is accurately reported, because feedback is captured directly from the MTA.
+Campaign Email Feedback Service (EFS) reports the status of each email delivery send with Adobe Campaign.
 
-Once the delivery has started, there is no change in the **[!UICONTROL Success]** percentage when the message is successfully relayed from Campaign to the MTA.
-
-The delivery logs show the **[!UICONTROL Taken into account by the service provider]** status for each targeted address.
+Once the delivery has started, there is no change in the **[!UICONTROL Success]** percentage when the message is successfully relayed from Campaign to the MTA. The delivery logs show the **[!UICONTROL Taken into account by the service provider]** status for each targeted address.
 
 When the message is actually delivered to the targeted profiles and once this information is reported back in real time from the MTA, the delivery logs show the **[!UICONTROL Sent]** status for each address that successfully received the message. The **[!UICONTROL Success]** percentage is increased accordingly with each successful delivery.
 
@@ -89,7 +93,7 @@ When soft-bouncing messages get reported back from the MTA, their log status re
 >
 >For more on retries after a delivery temporary failure, see [this section](delivery-failures.md#retries).
 
-The table below shows how the KPIs and sending logs statuses are updated at each step of the sending process with the EFS capability.
+The table below shows how the KPIs and sending logs statuses are updated at each step of the sending process.
 
 | Step in the sending process  | KPI summary | Sending logs status |
 |--- |--- |--- |

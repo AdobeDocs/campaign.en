@@ -1,14 +1,14 @@
 ---
-title: Campaign landing pages & profile attributes
+title: Update Adobe Experience Platform profiles from Adobe Campaign landing pages
 description: Learn how to sync Adobe Campaign landing pages & Adobe Experience Platform profile attributes
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
 ---
-# Update Adobe Experience Platform profiles from Adobe Campaign landing pages
+# Update Adobe Experience Platform profiles from Adobe Campaign landing pages {#ac-aep-lp}
 
-The integration between Adobe Campaign and Adobe Experience Platform allows you to synchronize data seamlessly between your Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
+The integration between Adobe Campaign and Adobe Experience Platform allows you to synchronize profile data seamlessly between your Adobe Campaign landing pages and Adobe Experience Platform. With this integration, you can:
 
 * Retrieve Adobe Experience Platform profile attributes to display updated information in Adobe Campaign landing pages,
 * Send back updated profile attributes to Adobe Experience Platform to update the corresponding attributes based on what has been filled and submitted in the landing pages.
@@ -34,9 +34,9 @@ To do this, follow these steps:
 1. Create a new API connection using the Adobe Experience Platform API product. Detailed steps on how to obtain an OAuth 2.0 access token are available in the [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. Once the connection is created, navigate to the **[!UICONTROL OAuth Server-to-Server]** menu and copy the details below, which are required in Campaign for authentication:
 
-    * CLIENT ID
-    * CLIENT SECRET
-    * ORGANIZATION ID
+    * `CLIENT ID`
+    * `CLIENT SECRET`
+    * `ORGANIZATION ID`
 
     ![](assets/ac-lp-oauth.png){width="70%"}
 
@@ -50,7 +50,7 @@ With the OAuth connection in place, the next step is to create an **[!UICONTROL 
 
     ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
     At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated prevearlier through the OAuth integration.
 
@@ -92,11 +92,11 @@ Browse the tabs below to discover the two methods:
 
 >[!TAB Add options using a JavaScript code activity]
 
-To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity to your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+To configure these options automatically at the execution of your landing pages workflow, add a **[!UICONTROL JavaScript code]** activity to your workflow with the code below. [Learn how to configure a JavaScript code activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 At workflow execution, the options are automatically created in the Campaign console with the provided values.
 
-    ```
+    ```javascript
     loadLibrary("xtk:shared/nl.js");
     loadLibrary("xtk:shared/xtk.js");
     loadLibrary("xtk:shared/json2.js");
@@ -132,7 +132,7 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
 
     This code checks if the profile exists in Adobe Experience Platform before loading the landing page. It retrieves the profile attributes and displays them in the corresponding fields of the landing page.
 
-    ```
+    ```javascript
     // API implementation to read profile from AEP
     function getProfileInfo(email)
     {
@@ -155,7 +155,7 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
 
     This code updates profile attributes in Adobe Experience Platform with the values submitted in the landing page.
 
-    ```
+    ```javascript
     // API implementation to update profile in AEP
     loadLibrary("xtk:shared/nl.js");
     loadLibrary("xtk:shared/xtk.js");
@@ -209,7 +209,7 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
 
     +++ Script 1 - Load profile attributes from Experience Platform
 
-    ```
+    ```javascript
     // Script code to read profile from AEP.
 
     logInfo("Loading profile from AEP");
@@ -249,7 +249,7 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
 
     +++ Script 2 - Update Experience Platform profile attributes
 
-    ```
+    ```javascript
     // Script code to update profile in AEP and ACC.
 
     logInfo("Executing script to update AEP profile.");
@@ -338,5 +338,5 @@ Here is an example of a landing page and a JavaScript code activity configured t
 ### More information
 
 * [Configure a JavaScript code activity](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [Manage subscriptions and unsubscriptions](../start/subscriptions.md)

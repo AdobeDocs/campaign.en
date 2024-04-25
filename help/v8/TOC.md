@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Product documentation for Adobe Campaign v8.
+user-guide-description: Product documentation for Adobe Campaign v8 (client console).
 title: Adobe Campaign v8 Documentation
 description: Campaign v8 documentation
 breadcrumb-title: Campaign v8 Documentation
@@ -10,22 +10,24 @@ breadcrumb-title: Campaign v8 Documentation
 # Adobe Campaign v8 Documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
-+ Releases and latest updates {#releases}
-  + [Documentation updates](start/documentation-updates.md)
++ Releases notes {#releases}
   + [Early release notes](start/e-release-notes.md)
-  + [Release notes](start/release-notes.md)
+  + [Versions and upgrades](start/upgrades.md)
+  + [Latest release](start/release-notes.md)
   + Previous release notes {#previous-rn}
-    + [2022](start/release-notes-2022.md)
-    + [2021](start/release-notes-2021.md)
+    + [2023 releases](start/release-notes-2023.md)
+    + [2022 releases](start/release-notes-2022.md)
+    + [2021 releases](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
+  + [Documentation updates](start/documentation-updates.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
-  + [Components and processes](start/ac-components.md)
+  + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
-  + [Campaign interface](start/campaign-ui.md)
+  + [Components and processes](start/ac-components.md)
   + [From Classic v7 to v8](start/v7-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -36,6 +38,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)
+    + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
   + [SMS](send/sms.md)
@@ -91,7 +94,6 @@ breadcrumb-title: Campaign v8 Documentation
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
-  + [Enhanced security](config/enhanced-security.md)
 + Decision Management {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
@@ -112,7 +114,6 @@ breadcrumb-title: Campaign v8 Documentation
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
-  + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)
     + Create cubes{#cubes}
@@ -133,13 +134,14 @@ breadcrumb-title: Campaign v8 Documentation
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
-    + [Audiences & profile attributes](connect/ac-aep.md)
-    + [Campaign landing pages & profile attributes](connect/ac-aep-landing-pages.md)
+    + [Share and sync audiences and profile attributes](connect/ac-aep.md)
+    + [Update AEP profiles from Campaign landing pages](connect/ac-aep-landing-pages.md)
   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
   + [Campaign + Analytics](connect/ac-aa.md)
   + [Campaign + Experience Manager](connect/ac-aem.md)
   + [Campaign + Target](connect/ac-at.md)
   + [Campaign + Experience Cloud triggers](connect/ac-triggers.md)
+  + [Campaign + Workfront](connect/ac-workfront.md)
   + [Campaign + X (Twitter)](connect/ac-tw.md)
   + [Campaign + External database](connect/fda.md)
   + Campaign + your CRM {#ac-crm}
@@ -171,7 +173,6 @@ breadcrumb-title: Campaign v8 Documentation
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
-    + [Email settings](config/email-settings.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
@@ -184,6 +185,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Filter schemas](dev/filter-schema.md)
     + [Schema structure](dev/schema-structure.md)
     + [Database mapping](dev/database-mapping.md)
+    + [Key managements](dev/database-keys.md)
+    + [Link management](dev/database-links.md)
     + [Restrict PI view](dev/restrict-pi-view.md)
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
