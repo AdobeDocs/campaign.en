@@ -48,7 +48,7 @@ Reminders can be sent out either on a given date and/or **x** days after the sub
 
 Once it is defined and the package has been submitted for approval, the execution schedule is displayed in the **[!UICONTROL Audit]** tab. It shows the processing deadline calculated based on previous configuration, as well as the dates of all configured reminders.
 
-## Approve via the client console {#approving-via-the-adobe-campaign-console}
+## Approve via the Client Console {#approving-via-the-adobe-campaign-console}
 
 If no reviewer has been specified or if none of the notified operators have approved the package, the **[!UICONTROL Approve the package]** button lets you proceed directly to the approval from the campaign package **[!UICONTROL Dashboard]** or from the packages overview.
 

@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: client console 32-bit deprecation
-description: client console 32-bit deprecation
+title: Client Console 32-bit deprecation
+description: Client Console 32-bit deprecation
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
 ---
 # End of support on 32-bit operating systems {#console-eol}
 
-The 32-bit version of the client console is deprecated in 8.5 release. A new 64-bit version of the client console is available for a seamless upgrade.
+The 32-bit version of the Client Console is deprecated in 8.5 release. A new 64-bit version of the client console is available for a seamless upgrade.
 
-Starting 8.6 release, Campaign stops supporting 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
+Starting 8.6 release, Campaign v8 will stop supporting 32-bit operating systems, including product and security updates. Adobe strongly recommends that you keep your security updates current.
 
 You are only impacted by this change if you have the 32-bit version of Windows 8 or 10.
 
@@ -28,15 +28,15 @@ The upgrade is seamless. You just need to install your new version via the setup
  
 +++
 
-+++Is the 64-bit version of Campaign v8 client console compatible with 32-bit computers?
++++Is the 64-bit version of Campaign v8 Client Console compatible with 32-bit computers?
 
-No. The 64-bit version of Campaign v8 client console supports 64-bit computers only.
+No. The 64-bit version of Campaign v8 Client Console supports 64-bit computers only.
 
 +++
 
-+++Is there a plan to stop new Campaign v8 32-bit client console installations?
++++Is there a plan to stop new Campaign v8 32-bit Client Console installations?
 
-Yes. Starting 8.6 release, Campaign v8 client console will no longer be available in 32-bits. Only the 64-bit version will be available.
+Yes. Starting 8.6 release, Campaign v8 Client Console will no longer be available in 32-bits. Only the 64-bit version will be available.
 
 +++
 

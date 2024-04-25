@@ -70,6 +70,6 @@ This section is only displayed in campaign workflows.
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign client console via the Web so that the recipient can work on the issue once they are logged on.
+  The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign Client Console via the Web so that the recipient can work on the issue once they are logged on.
 
   To create a personalized template, go to **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

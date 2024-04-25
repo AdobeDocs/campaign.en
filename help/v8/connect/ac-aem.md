@@ -8,7 +8,7 @@ exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 ---
 # Work with Campaign and Adobe Experience Manager {#ac-aem}
 
-Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager. You have the option to either import your **Adobe Experience Manager** content into Campaign or connect your **Adobe Experience Manager as a Cloud service** account, allowing you to edit your content directly within the Web interface.
+Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
 [Discover how to edit your Adobe Experience Manager as Cloud Service content within Campaign Web Interface](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
 

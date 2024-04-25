@@ -19,6 +19,6 @@ breadcrumb-title: Campaign technotes
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
-  + [client console 32-bit deprecation](upgrades/console.md)  
+  + [Client Console 32-bit deprecation](upgrades/console.md)  
   + [Push Notification Channel upcoming changes](upgrades/push-technote.md)  
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)

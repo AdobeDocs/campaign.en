@@ -84,7 +84,7 @@ If a list of reviewers is defined, a job is approved when one reviewer has appro
 
 ## Review and approve deliveries {#review-and-approve-deliveries}
 
-For each campaign you can approve the delivery target, [delivery content](#approving-content) and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the client console or via a web browser. [Learn more](#approving-processes).
+For each campaign you can approve the delivery target, [delivery content](#approving-content) and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the Client Console or via a web connection. [Learn more](#approving-processes).
 
 For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. [Learn more](#approve-an-extraction-file).
 
@@ -97,7 +97,7 @@ When these validation phases are complete, the delivery can be launched. [Learn 
 
 ### Steps to approve a delivery {#approving-processes}
 
-The steps requiring approval appear on the campaign dashboard (via the client console or a web browser). They also appear in the delivery tracking table and on the delivery dashboard.
+The stages requiring approval appear on the campaign dashboard (via the Client Console or the web interface). They also appear in the delivery tracking table and on the delivery dashboard.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -159,7 +159,7 @@ It is possible to configure a content approval cycle. To do this, select the **[
 
     * via the notification email: the notification email contains a link to the proofs already sent, and possibly to a rendering of the message for the various webmails if the **Deliverability** add-on is enabled for this instance.
 
-    * via the client console or a web browser, delivery tracking, the delivery dashboard or the campaign dashboard. This campaign dashboard lets you view the list of proofs that have been sent, by clicking the **[!UICONTROL Inbox rendering...]** link. To view their content, click the **[!UICONTROL Detail]** icon to the right of the list.
+    * via the Client Console or web interface, delivery tracking, the delivery dashboard or the campaign dashboard. This campaign dashboard lets you view the list of proofs that have been sent, by clicking the **[!UICONTROL Inbox rendering...]** link. To view their content, click the **[!UICONTROL Detail]** icon to the right of the list.
 
 1. A notification email is sent to the person responsible for the campaign informing them of whether the content has been approved or not. The person responsible for the campaign can re-start the content approval cycle at any time. To do this, click the link on the **[!UICONTROL Content status]** line of the campaign dashboard (at delivery level), then click **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -171,7 +171,7 @@ This option lets you define someone in charge of content editing, such as a webm
 
 1. The person responsible for content editing will receive an email telling them that the content is available. 
 
-1. They can then log on to the client console, open the delivery and edit it using a simplified wizard to change the subject, HTML and text content, and send proofs.
+1. They can then log on to the Client Console, open the delivery and edit it using a simplified wizard to change the subject, HTML and text content, and send proofs.
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ This option lets you define someone in charge of content editing, such as a webm
 
    To do this, they can use:
 
-    * the **[!UICONTROL Available content]** link in the Adobe Campaign client console.
+    * the **[!UICONTROL Available content]** link in the Adobe Campaign Client Console.
     * the link in the notification message.
       The operator can add a comment before submitting the content to the person in charge of the campaign.
       The notification message lets the reviewer approve or reject the content.
@@ -193,7 +193,7 @@ This option lets you define an external operator in charge of approving delivery
 1. The external content manager receives a notification email telling them that the content has been approved and requesting external approval.
 1. The notification email contains links to the proofs sent, which lets you view delivery rendering, and a button for approving or rejecting the delivery content.
 
-  These links are only available if one or more proofs have been sent. Otherwise, delivery rendering is only available via the client console or a web browser.
+  These links are only available if one or more proofs have been sent. Otherwise, delivery rendering is only available via the Client Console or the web interface.
 
 ### Approve an extraction file {#approve-an-extraction-file}
 
@@ -213,7 +213,7 @@ Jobs can be approved in the campaign dashboard, in delivery tracking tab, the de
 
 ### Approve in the dashboard {#approval-via-the-dashboard}
 
-To approve a job via the client console or using a web browser, click the appropriate link on the campaign dashboard.
+To approve a job via the Client Console or the web interface, click the appropriate link on the campaign dashboard.
 
 For example, once delivery analysis has been executed:
 
@@ -301,7 +301,7 @@ The content of notification emails can be personalized. See [Notification conten
 
 ### Enable/Disable Notification {#enabling-disabling-notification}
 
-By default, notification messages are sent if the approval of the related job is enabled in the campaign template, the campaign, or the delivery. Notifications can, however, be disabled in order to authorize approvals from the client console only.
+By default, notification messages are sent if the approval of the related job is enabled in the campaign template, the campaign, or the delivery. Notifications can, however, be disabled in order to authorize approvals from the Client Console only.
 
 To do this, edit the approval window of the campaign or campaign template ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** tab) and select **[!UICONTROL Do not enable notification sending]**.
 

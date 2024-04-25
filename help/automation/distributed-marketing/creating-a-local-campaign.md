@@ -40,17 +40,17 @@ In the campaign window, click the **[!UICONTROL Edit]** tab, then click the **[!
 
 ![](assets/mkt_distr_4.png)
 
-### Type of interface {#web-interface}
+### Web interface {#web-interface}
 
-In the **Distributed marketing** tab, you can choose the type of interface and specify the default values and parameters to be entered when a local entity places an order.
+In the **Distributed marketing** tab, you can choose the type of Web interface and specify the default values and parameters to be entered when a local entity places an order.
 
-The interface corresponds to a form to be filled in by the local entity when ordering the campaign.
+The web interface corresponds to a form to be filled in by the local entity when ordering the campaign.
 
-Select the type of interface to be applied to the campaigns created from the template:
+Select the type of web interface to be applied to the campaigns created from the template:
 
 ![](assets/mkt_distr_1.png)
 
-There are four types of interfaces available:
+There are four types of web interfaces available:
 
 * **[!UICONTROL By brief]** : local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.
 
@@ -290,9 +290,9 @@ When a campaign is ordered by a local entity, its reviewers are notified by emai
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Approve via the client console {#approving-via-the-adobe-campaign-console}
+#### Approve via the Client Console {#approving-via-the-adobe-campaign-console}
 
-The order may also be approved via the client console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
+The order may also be approved via the Client Console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -316,7 +316,7 @@ The operator in charge of approval can reject an order or campaign package.
 
 If the reviewer rejects an order, the relevant notification is automatically sent to the local entities concerned: it displays the comment entered by the operator that rejected the approval.
 
-Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign client console, local entities are informed of this rejection.
+Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign Client Console, local entities are informed of this rejection.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
