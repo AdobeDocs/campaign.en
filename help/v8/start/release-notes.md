@@ -14,6 +14,50 @@ As a Managed Cloud Services user, your instance is upgraded by Adobe with every 
 
 In addition, as a customer, ensure that you are using the latest supported version of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
+# Latest release{#latest-release}
+
+Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. Adobe strongly recommends all customers to upgrade to the latest version. 
+
+As a Managed Cloud Services user, your instance is upgraded by Adobe with every new version. Adobe will contact you and upgrade your environments. Campaign client console **must be upgraded to the same version** as Campaign servers. Learn how to upgrade your client console in this [page](../start/connect.md#upgrade-ac-console). 
+
+In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+
+## Release 8.7.1 {#release-8-7-1}
+
+_April 30, 2024_
+
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+
+### New features {#new-8-7-1}
+
+* **Rich Push Notification templates** - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content.
+
+<!--The following capabilities are restricted to customers migrating from Campaign Standard only:-->
+
+* **Branding** -  As a Campaign Stardard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates.
+
+* **API - Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. 
+
+* **Dynamic Reporting** - As a Campaign Stardard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks.
+
+<!--
+* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
+-->
+
+### Compatibility updates {#comp-8-7-1}
+
+Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more about FDA [in this page](../connect/fda.md).
+
+### Fixes {#fixes-8-7-1}
+
+The following issues are fixed in this release:
+NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
+
+
+
+
 
 ## Release 8.6.2 {#release-8-6-2}
 
