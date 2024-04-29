@@ -6,8 +6,8 @@ role: Developer
 level: Experienced
 hide: yes
 hidefromtoc: yes
+exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 ---
-
 # Enhanced security add-on {#enhanced-security}
 
 To make your network connection more secure and provide improved security for your resources, [!DNL Adobe Campaign] offers a new **Enhanced security** add-on.
