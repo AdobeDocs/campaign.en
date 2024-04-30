@@ -42,6 +42,10 @@ _April 30, 2024_
 
 Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more about FDA [in this page](../connect/fda.md).
 
+### General improvements {#improvements-8-7-1}
+
+In Campaign tables, a new flag allows you to handle modifications to the lastModified, created, and createdBy-id attributes. When the flag is on, the values provided by users to these attributes will be ignored. Only server time and ID from the user context will be used. When the flag is off, user-provided values for these attributes will be used. The ignoreTimestampsID flag is located in the serverConf.xml under the "shared" node.
+
 ### Fixes {#fixes-8-7-1}
 
 The following issues are fixed in this release:
