@@ -114,6 +114,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
+  + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)
     + Create cubes{#cubes}

@@ -125,4 +125,4 @@ Instance monitoring guidelines are available in [Campaign Classic v7 documentati
 
 Use the Audit trail self-service interface to monitor changes made within your instance. Audit trail captures, in real-time, a comprehensive list of actions and events occurring within your Adobe Campaign instance. You can access a history of data to help answer questions such as: what happened to your workflows, and who last updated them or what did your users do in the instance.
 
-Learn more about Audit trail in  [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+Learn more about Audit trail in this [page](../reporting/audit-trail.md){target="_blank"}
