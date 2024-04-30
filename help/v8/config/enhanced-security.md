@@ -12,43 +12,47 @@ hidefromtoc: yes
 
 To make your network connection more secure and provide improved security for your resources, [!DNL Adobe Campaign] offers a new **Enhanced security** add-on.
 
-This add-on currently includes two ecosystem features:
+This add-on includes two ecosystem features:
 
 * [Secure CMK integration](#secure-cmk-integration)
 
 * [Secure VPN tunneling](#secure-vpn-tunneling)
 
+These features are detailed below.
+
 ## Secure CMK integration {#secure-cmk-integration}
 
-**Secure Customer-Managed Key (CMK) integration** allows you to encrypt your instance and your data using your own key through your AWS account<!--instead of Adobe-owned keys-->. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
+The **Secure Customer-Managed Key (CMK) integration** allows you to encrypt your instance and your data using your own key through your Amazon Web Services (AWS) account.
+
+Customer managed keys are Key Management Service (KMS) keys in your AWS account that you create, own, and manage. You have full control over these KMS keys, and use them to encrypt and decrypt data. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
 
 >[!CAUTION]
 >
 >In case you revoke a key, you must be aware of the impacts. [Learn more](#cmk-callouts)
 
-To enable this feature, follow the steps below:
+To enable the CMK integration with Campaign, follow the steps below:
 
-1. Make sure you have an [AWS](https://aws.amazon.com/){target="_blank"} account.
+1. Connect to your [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} account.
 
-1. Generate a key with auto-rotation on using the AWS Key Management Service (KMS). [Learn how](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
+1. Generate a key with auto-rotation on using the AWS Key Management Service (KMS). [Learn how](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. Apply the policy provided to you by Adobe into your AWS account, in order to grant access to your resources. [Learn more](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"} <!--link TBC-->
+1. Apply the policy provided to you by Adobe into your AWS account, in order to grant access to your resources. [Learn more](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Share your Amazon Resource Name (key ARN) with [!DNL Adobe Campaign]. To do this, contact your Adobe representative. <!--or Adobe transition manager?-->
+1. Share your [Amazon Resource Name (key ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} with [!DNL Adobe Campaign]. To do this, contact your Adobe representative. <!--or Adobe transition manager?-->
 
-1. Create and test the Amazon EventBridge rules to enable the monitoring of your keys by Adobe.​ [Learn more](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Create and test the Amazon EventBridge rules to enable the monitoring of your keys by Adobe.​ [Learn more](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 ## Secure VPN tunneling {#secure-vpn-tunneling}
 
-**Secure Virtual Private Network (VPN) tunneling** is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
+The **Secure Virtual Private Network (VPN) tunneling** is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
-To ensure high availability (HA), it uses two tunnels to avoid any outage in case an issue happens on one tunnel
+To ensure High Availability (HA), it uses two tunnels to avoid any outage in case an issue happens on one tunnel.
 
 Three use cases are supported:
 
-* FDA over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Federated Data Access (FDA) over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
 
 * Instance login over VPN from a thick client
 
@@ -62,7 +66,7 @@ To ensure proper use of this feature, follow the guidelines below:
 
 * Set up your side VPN based on the Adobe-side VPN configuration.
 
-* Keep both tunnels up for HA.
+* Keep both tunnels up for High Availability.
 
 * Monitor your side tunnel.
 
