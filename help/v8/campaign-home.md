@@ -14,7 +14,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) p
 
 >[!TAB Campaign v8.7 release is live]
 
-The latest version of Adobe Campaign is now live. It is released in Limited Availability (LA). Read out the release notes for more details.
+The latest version of Adobe Campaign is now live. It is released in **Limited Availability** (LA). Read out the release notes for more details.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
