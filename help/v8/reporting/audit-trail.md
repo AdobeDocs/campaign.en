@@ -69,6 +69,7 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 To access your instance's **[!UICONTROL Audit trail]**:
 
 1. Access the **[!UICONTROL Explorer]** menu of your instance.
+
 1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit]** then **[!UICONTROL Audit Trail]**.
 
    ![](assets/audit-trail-1.png)
