@@ -16,7 +16,7 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 ## Release 8.7.1 {#release-8-7-1}
 
-_April 30, 2024_
+_May 2, 2024_
 
 >[!AVAILABILITY]
 >
