@@ -21,6 +21,8 @@ _April 30, 2024_
 >[!AVAILABILITY]
 >
 >This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>Refer to the following documentation pages: [Campaign Standard transition to Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) and [Features for Campaign Standard users](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 ### New features {#new-8-7-1}
 
