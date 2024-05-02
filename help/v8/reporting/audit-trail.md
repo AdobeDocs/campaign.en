@@ -3,6 +3,7 @@ product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
+exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 ---
 # Audit trail{#audit-trail}
 
