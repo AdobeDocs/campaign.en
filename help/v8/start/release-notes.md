@@ -42,8 +42,7 @@ Databricks is now supported as an external database with Adobe Campaign Federate
 
 ### General improvements {#improvements-8-7-1}
 
-* Several tables have been changed from  32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html). 
-
+* Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html). 
 
 * In Campaign tables, a new flag allows you to handle modifications to the lastModified, created, and createdBy-id attributes. When the flag is on, the values provided by users to these attributes are ignored. Only server time and ID from the user context are used. When the flag is off, user-provided values for these attributes are used. The ignoreTimestampsID flag is located in the serverConf.xml under the "shared" node.
 
