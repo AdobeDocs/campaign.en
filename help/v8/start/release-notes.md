@@ -40,7 +40,7 @@ _May 2, 2024_
 
 ### Compatibility updates {#comp-8-7-1}
 
-Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more about FDA [in this page](../connect/fda.md).
+Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more [in this page](compatibility-matrix.md#FederatedDataAccessFDA).
 
 ### General improvements {#improvements-8-7-1}
 
