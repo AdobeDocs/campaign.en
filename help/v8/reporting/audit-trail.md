@@ -40,7 +40,7 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 
 * **Delivery audit trail** allows you to check the activities and last modifications done to your deliveries. 
 
-  For more information on deliveries, refer to this [page](../msg/gs-deliveries.md).
+  For more information on deliveries, refer to this [page](../start/create-message.md).
 
 * **External Account** allows you to check modifications made to external accounts, used by technical processes such as technical workflows or campaign workflows.
 
@@ -69,6 +69,7 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 To access your instance's **[!UICONTROL Audit trail]**:
 
 1. Access the **[!UICONTROL Explorer]** menu of your instance.
+
 1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit]** then **[!UICONTROL Audit Trail]**.
 
    ![](assets/audit-trail-1.png)

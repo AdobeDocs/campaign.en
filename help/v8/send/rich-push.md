@@ -5,11 +5,13 @@ description: Learn how to design an Android rich push notification delivery with
 feature: Push
 role: User
 level: Beginner
-hide: yes
-hidefromtoc: yes
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 ---
 # Design an Android rich push delivery {#rich-push}
+
+>[!AVAILABILITY]
+>
+>This feature is in **Limited Availability** (LA).
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
