@@ -139,7 +139,7 @@ To try out the connection, follow the steps detailed in the [Adobe Developer C
 
 ### Step 8 - Update the third-party API Integrations {#ims-migration-step-8}
 
-You must now update off of the API Integrations making calls into Adobe Campaign to use the newly created Technical Account. 
+You must now update all of the API Integrations making calls into Adobe Campaign to use the newly created Technical Account. 
 
 For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
