@@ -7,7 +7,7 @@ description: Campaign v8 documentation
 breadcrumb-title: Campaign v8 Documentation
 ---
 
-# Adobe Campaign v8 Documentation {#campaign-v8}
+# Adobe Campaign v8 (console) Documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
 + Releases notes {#releases}
