@@ -1,5 +1,5 @@
 ---
-title: Enhanced security add-on
+title: Campaign Enhanced security add-on
 description: Get started with the Campaign Enhanced security add-on
 feature: Configuration
 role: Developer
@@ -8,7 +8,7 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Enhanced security add-on {#enhanced-security}
+# Campaign Enhanced Security add-on {#enhanced-security}
 
 To make your network connection more secure and provide improved security for your resources, [!DNL Adobe Campaign] offers a new **Enhanced security** add-on.
 
