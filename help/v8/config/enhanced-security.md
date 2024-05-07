@@ -15,13 +15,21 @@ To make your network connection more secure and provide improved security for yo
 
 This add-on includes two ecosystem features:
 
-* [Secure CMK integration](#secure-cmk-integration)
+* [Secure Customer-Managed Key (CMK) integration](#secure-cmk-integration)
 
-* [Secure VPN tunneling](#secure-vpn-tunneling)
+* [Secure Virtual Private Network (VPN) tunneling](#secure-vpn-tunneling)
 
 These features are detailed below.
 
-## Secure CMK integration {#secure-cmk-integration}
+Some guardrails and limitations relating to the Enhanced security features are listed in this page. In addition, you must make sure all of your Secure CMK integration / Secure VPN tunneling use cases are working. 
+
+Once these capabilities are implemented, Adobe monitors:
+
+* Your instance availability, and proceed with alerting if the key is not available.
+
+* The VPN tunnels, and proceed with alerting in case any issue arise.
+
+## Secure Secure Customer-Managed Key integration {#secure-cmk-integration}
 
 The **Secure Customer-Managed Key (CMK) integration** allows you to encrypt your instance and your data using your own key through your Amazon Web Services (AWS) account.
 
@@ -43,7 +51,30 @@ To enable the CMK integration with Campaign, follow the steps below:
 
 1. Create and test the Amazon EventBridge rules to enable the monitoring of your keys by Adobe.​ [Learn more](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
-## Secure VPN tunneling {#secure-vpn-tunneling}
+
+### Guardrails and limitations {#cmk-callouts}
+
+The following guardrails and limitations apply to the CMK integration with Adobe Campaign v8:
+
+* Adobe does not provide an [Amazon Web Services (AWS)](https://aws.amazon.com/){target="_blank"} account. You must have your own AWS account and set it up to generate and share your key with Adobe.
+
+* Only [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) keys are supported. No customer-generated keys outside KMS can be used.​
+
+* Downtime is expected during the first-time setup. ​The downtime duration depends on the size of your database.
+
+* As a customer, you own and maintain the key. You must reach out to Adobe in case of any change to your key.​
+
+* You can audit your key using [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} and revoke it if needed.​
+
+* In case you revoke, disable or delete the key, your encrypted resources and instance become inaccessible until you revert the corresponding action.
+
+    >[!CAUTION]
+    >
+    >If you disable the key and do not revert this action within 7 days, your database can only be recovered from backup.
+    >
+    >If you delete the key and do not revert this action within 30 days, then all your data is permanently deleted and will be lost.​
+
+## Secure Virtual Private Network tunneling {#secure-vpn-tunneling}
 
 The **Secure Virtual Private Network (VPN) tunneling** is a site-to-site VPN that provides secure access for your data in transit over a private network, from your premises to the [!DNL Adobe Campaign] instance.
 
@@ -75,53 +106,20 @@ To ensure proper use of this feature, follow the guidelines below:
 
 * Set up a retry mechanism at your end in case connection failures happen.
 
-## Guardrails {#callouts}
 
-Some guardrails and limitations relating to the Enhanced security features are listed below.
+### Guardrails and limitations {#vpn-callouts}
 
-* Make sure all of your Secure CMK integration / Secure VPN tunneling use cases are working.
-
-<!--* Adobe shall reach out to you or your technical team if any issue is found on your side.
-
-* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.-->
-
-* Adobe will be monitoring:
-
-    * Your instance availability, and proceed with alerting if the key is not available.
-
-    * The VPN tunnels, and proceed with alerting in case any issue arise.
-
-### Secure CMK integration guardrails {#cmk-callouts}
-
-* Adobe does not provide an AWS account. You must have your own AWS account and set it up to generate and share your key with Adobe.
-
-* Only [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) keys are supported. No customer-generated keys outside KMS can be used.​
-
-* Some downtime will be involved for the first-time setup. ​The downtime duration will depend on the size of your database.
-
-* As you own and maintain the key, you must reach out to Adobe in case of any change to your key.​
-
-* You can audit your key using [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} and revoke it if needed.​
-
-* In case you revoke, disable or delete the key, your encrypted resources and instance become inaccessible until you revert the corresponding action.
-
-    >[!CAUTION]
-    >
-    >If you disable the key and do not revert this action within 7 days, your database can only be recovered from backup.
-    >
-    >If you delete the key and do not revert this action within 30 days, then all your data is permanently deleted and will be lost.​
-
-### Secure VPN tunneling guardrails {#vpn-callouts}
+The following guardrails and limitations apply to the VPN tunneling integration with Adobe Campaign v8:
 
 * Currently, only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
 
     * MySQL
-    * Netezza 
-    * Oracle 
-    * SAP HANA 
-    * SQL Server 
-    * Sybase 
-    * Teradata 
+    * Netezza
+    * Oracle
+    * SAP HANA
+    * SQL Server
+    * Sybase
+    * Teradata
     * Hadoop via HiveSQL
 
 * Only AWS-compliant VPN devices are supported. A list of compatible devices is available on [this page](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
