@@ -94,7 +94,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
-  + [Enhanced security](config/enhanced-security.md)
+  + [Enhanced security add-on](config/enhanced-security.md)
 + Decision Management {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
