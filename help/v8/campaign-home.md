@@ -4,7 +4,7 @@ description: Campaign v8 help center
 title: Adobe Campaign v8 product documentation
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 ---
-# Adobe Campaign v8 Documentation {#campaign-documentation}
+# Adobe Campaign v8 (console) Documentation {#campaign-documentation}
 
 ## What's New
 
@@ -12,9 +12,9 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) p
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.6 release is live]
+>[!TAB Campaign v8.7 release is live]
 
-The latest version of Adobe Campaign is now live. Read out the release notes for more details.
+The latest version of Adobe Campaign is now live. It is released in **Limited Availability** (LA). Read out the release notes for more details.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 

@@ -47,6 +47,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, starting Campaign v8.5
+* **[!DNL Databricks]**, starting Campaign v8.7
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

@@ -6,6 +6,7 @@ role: Developer
 level: Experienced
 hide: yes
 hidefromtoc: yes
+exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 ---
 
 # Campaign Enhanced Security add-on {#enhanced-security}
