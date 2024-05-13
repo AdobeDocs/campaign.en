@@ -12,6 +12,10 @@ Use the **[!UICONTROL Change dimension]** activity to change the targeting dimen
 
 You can also use this activity to define the additional columns of the new target, and define data deduplication criteria.
 
+>[!IMPORTANT]
+>
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROOL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+
 To configure the **[!UICONTROL Change dimension]** activity, apply the following steps:
 
 1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
