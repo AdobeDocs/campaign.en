@@ -20,7 +20,7 @@ Note that when using the **[!UICONTROL Change Data Source]** activity, you need 
 
 >[!IMPORTANT]
 >
->Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROOL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
 
 To use the **[!UICONTROL Change Data Source]** activity, you must:
 
