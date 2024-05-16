@@ -4,7 +4,7 @@ description: Transition from Campaign Standard to Campaign v8
 feature: Overview
 role: User
 level: Beginner
-
+exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
 ---
 # Transition from [!DNL Campaign Standard] to [!DNL Campaign] v8 {#acs-to-acv8}
 
@@ -13,4 +13,3 @@ As a Campaign Standard user transitioning to Campaign v8, you can now benefit fr
 As a Campaign v8 user, you now have access to both the new Campaign web user interface and the v8 client console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation.
 
 Learn more about the new Campaign web user interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
-
