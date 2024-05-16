@@ -46,7 +46,7 @@ Databricks is now supported as an external database with Adobe Campaign Federate
 
 * Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html). 
 
-* In Campaign tables, a new flag allows you to handle modifications to the lastModified, created, and createdBy-id attributes. When the flag is on, the values provided by users to these attributes are ignored. Only server time and ID from the user context are used. When the flag is off, user-provided values for these attributes are used. The ignoreTimestampsID flag is located in the serverConf.xml under the "shared" node.
+* In Campaign tables, the following attributes are now populated by default by the server date and time: lastModified, created, createdBy-id. Values provided by users in API calls are ignored. This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.
 
 ### Fixes {#fixes-8-7-1}
 
