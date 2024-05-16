@@ -28,7 +28,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
   + [Components and processes](start/ac-components.md)
-  + [From Classic v7 to v8](start/v7-to-v8.md)
+  + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
