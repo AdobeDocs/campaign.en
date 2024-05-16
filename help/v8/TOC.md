@@ -195,5 +195,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
   + [Campaign APIs](dev/api.md)
-+ [Campaign Control Panel >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-+ [Campaign Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign Control Panel >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
++ [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
+
