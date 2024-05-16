@@ -14,6 +14,3 @@ As a Campaign v8 user, you now have access to both the new Campaign Web interfac
 
 Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
-
-
-
