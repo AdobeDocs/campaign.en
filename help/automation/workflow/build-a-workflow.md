@@ -127,9 +127,7 @@ In addition to the usual workflow properties, the template properties allow you 
 
 You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
 
->[!CAUTION]
->
->Copy-paste is available in workflows but we recommend you to use **Duplicate**. Once an activity copied, its whole configuration is kept. For delivery activities (Email, SMS, Push Notification...), the delivery object attached to the activity is also copied which can lead to crash.
+Adobe recommends to duplicate a workflow rather than performing a copy/paste of activities. When an activity is copied, all its settings is kept. For channel activities, the delivery object associated to the activity is also copied, which can lead to major issues.
 
 1. Right-click on a workflow.
 1. Click **Duplicate**.

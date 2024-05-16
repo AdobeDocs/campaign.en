@@ -31,7 +31,7 @@ Once these capabilities are implemented, Adobe monitors:
 
 ## Secure Secure Customer-Managed Key integration {#secure-cmk-integration}
 
-The **Secure Customer-Managed Key (CMK) integration** allows you to encrypt your instance and your data using your own key through your Amazon Web Services (AWS) account.
+The **Secure Customer-Managed Key (CMK) integration** allows you to encrypt data at rest using your own key through your Amazon Web Services (AWS) account.
 
 Customer managed keys are Key Management Service (KMS) keys in your AWS account that you create, own, and manage. You have full control over these KMS keys, and use them to encrypt and decrypt data. By making you responsible for generating and managing encryption keys, this capacity enables you to have more control over them, including revoking a key.
 
