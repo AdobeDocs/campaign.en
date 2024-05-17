@@ -10,6 +10,19 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 
 This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**.
 
+## Release 8.5.3 {#release-8-5-3}
+
+_May_ X, 2024_
+
+### Important change {#change-8-5-3}
+
+Adobe is deprecating the Service Account (JWT) credentials in favor of the OAuth Server-to-Server credentials. If you have projects on the Developer Console that use the Service Account (JWT) credential, you need to migrate them to the OAuth Server-to-Server credential. Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
+(NEO-49645)
+
+### Fixes {#fixes-8-5-3}
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+
 ## Release 8.5.2 {#release-8-5-2}
 
 _Aug 2, 2023_
