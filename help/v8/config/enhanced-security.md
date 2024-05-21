@@ -4,8 +4,6 @@ description: Get started with the Campaign Enhanced security add-on
 feature: Configuration
 role: Developer
 level: Experienced
-hide: yes
-hidefromtoc: yes
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 ---
 
@@ -84,7 +82,7 @@ To ensure High Availability (HA), it uses two tunnels to avoid any outage in cas
 
 Three use cases are supported:
 
-* Federated Data Access (FDA) over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Federated Data Access (FDA) over VPN, to access your on-premise database from the Campaign instance over VPN
 
 * Instance login over VPN from a thick client
 
@@ -111,7 +109,7 @@ To ensure proper use of this feature, follow the guidelines below:
 
 The following guardrails and limitations apply to the VPN tunneling integration with Adobe Campaign v8:
 
-* Currently, only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
+* Only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
 
     * MySQL
     * Netezza
