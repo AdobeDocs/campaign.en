@@ -40,13 +40,18 @@ _May 2, 2024_
 
 ### Compatibility updates {#comp-8-7-1}
 
-Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more [in this page](compatibility-matrix.md#FederatedDataAccessFDA).
+* Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more [in this page](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+ 
+    If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. In addition, the Developer Console will continue to support the creation of new Service Account (JWT) credentials until **June 3, 2024**. A new Service Account (JWT) credential cannot be created or added to a project after this date.
+
 
 ### General improvements {#improvements-8-7-1}
 
 * Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html){target="_blank"}
 
-* In Campaign tables, the following attributes are now populated by default by the server date and time: `lastModified` and `created`. Values provided by users in API calls are ignored. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* In Campaign tables, the following attributes are now populated by default by the server date and time: `lastModified` and `created`. The `createdBy-id attribute value is now populated with the current login ID by default. Values provided by users in API calls are ignored. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### Fixes {#fixes-8-7-1}
 
