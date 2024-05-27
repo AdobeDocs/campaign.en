@@ -8,8 +8,6 @@ exl-id: 58574983-86c7-46f5-b41b-bae90171048d
 ---
 # Delivery{#delivery}
 
-
-
 A **Delivery**-type activity lets you create a delivery action. It can be constructed using input elements.
 
 To configure it, edit the activity and enter the delivery options.
