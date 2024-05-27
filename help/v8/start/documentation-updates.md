@@ -15,6 +15,7 @@ This page lists all the latest updates in [!DNL Campaign] v8 (console) documenta
 ## May 2024 {#may-2024}
 
 * The list of channels and types of deliveries are now listed in [this page](create-message.md).
+* The delivery settings and wave management sections have been reorganized and improved. [Read more](../send/configure-and-send.md).
 * A note has been added to specify that **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row and need to have an **[!UICONTROL Enrichement]** activity in between them. Read more in the [Change Dimension](../../automation/workflow/change-dimension.md) and [Change Data source](../../automation/workflow/change-data-source.md) sections.
 
 ## Febuary 2024 {#feb-2024}
