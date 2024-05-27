@@ -8,31 +8,35 @@ exl-id: 36033255-1e75-41c1-9816-126777f7330a
 ---
 # Configure and send the delivery {#configure-delivery}
 
+Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery [priority](#delivery-priority), set up [waves](#sending-using-multiple-waves), and test your delivery sending. Once this configuration is done, you can confirm the sending as described in [this section](#confirm-delivery). Messages are then sent immediately, or based on the delivery [schedule](#schedule-delivery-sending).
+
 ## Set additional parameters {#delivery-additional-parameters}
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**: use this option to change the sending order for your deliveries by setting their priority level, from **[!UICONTROL Very low]** to **[!UICONTROL Very high]** (the default value being **[!UICONTROL Normal]**). 
+### Delivery priority {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**: use this option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+Use the **[!UICONTROL Delivery priority]** option to change the sending order for your deliveries by setting their priority level, from **[!UICONTROL Very low]** to **[!UICONTROL Very high]** (the default value being **[!UICONTROL Normal]**). 
 
-  >[!IMPORTANT]
-  >
-  >When the delivery is created by duplicating an existing one, this parameter is reset.
+### Batch quantity
 
-* **[!UICONTROL Send using multiple waves]**: use this option to send your messages in batches rather than to your whole audience at once. [Learn more](#sending-using-multiple-waves).
+Use the  **[!UICONTROL Message batch quantity]** option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
-* **[!UICONTROL Test SMTP delivery]**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+>[!IMPORTANT]
+>
+>When the delivery is created by duplicating an existing one, this parameter is reset.
 
-  >[!NOTE]
-  >
-  >* This option must not be set in mid-sourcing. 
-  >
-  >* Learn more about SMTP server configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### Test your delivery sending
 
-* **[!UICONTROL Email BCC]**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target. [Learn more](email-parameters.md).
+Use the  **[!UICONTROL Test SMTP delivery]** option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+>[!NOTE]  
+>
+>* This option must not be set in mid-sourcing. 
+>
+>* Learn more about SMTP server configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Send using multiple waves {#sending-using-multiple-waves}
 
