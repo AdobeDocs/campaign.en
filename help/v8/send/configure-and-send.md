@@ -42,6 +42,8 @@ Use the  **[!UICONTROL Test SMTP delivery]** option to test sending via SMTP. Th
 
 To balance the load, you can divide deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery.
 
+### Enable waves {#enable-waves}
+
 To define waves, follow these steps:
 
 1. Open the delivery properties and browse to the **[!UICONTROL Delivery]** tab.
@@ -49,38 +51,44 @@ To define waves, follow these steps:
 
    ![](assets/delivery-define-waves.png)
 
+### Configure waves {#config-waves}
 
-1. Configure waves as detailed below.
+>[!NOTE]
+>
+>You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+   
+You can either define the size of each waves, or add them to a calendar.
 
-   >[!NOTE]
-   >
-   >You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+* **Define the size for each wave**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
 
-  You can either define:
+  In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
 
-    * **The size for each wave**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+  ![](assets/delivery-waves-size.png)
 
-      In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
+* **Define a calendar for sending each wave**.  For example, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-      ![](assets/delivery-waves-size.png)
+  In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
-    * **A calendar for sending each wave**.  For example, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
+  ![](assets/delivery-waves-calendar.png)
 
-      In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
+### Wave scheduling check {#check-waves}
 
-      ![](assets/delivery-waves-calendar.png)
+A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+>[!IMPORTANT]
+>
+>Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
+>
+>You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
 
-   >[!IMPORTANT]
-   >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
-   >
-   >You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
+### Monitor waves {#monitor-waves}
 
 To monitor your sends, browse to the delivery logs. See [this page](send.md)
 
 You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+
+
+### Waves samples {#samples-waves}
 
 The two examples below are the most common use cases for using multiple waves.
 
