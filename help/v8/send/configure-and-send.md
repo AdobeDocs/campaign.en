@@ -38,28 +38,31 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 To balance the load, you can divide deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery.
 
->[!NOTE]
->
->You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+To define waves, follow these steps:
 
-1. Open the delivery properties window and click the **[!UICONTROL Delivery]** tab.
-1. Select the **[!UICONTROL Send using multiple waves]** option and click the **[!UICONTROL Define waves...]** link.
+1. Open the delivery properties and browse to the **[!UICONTROL Delivery]** tab.
+1. Enable the **[!UICONTROL Send using multiple waves]** option, and click the **[!UICONTROL Define waves...]** link.
 
    ![](assets/delivery-define-waves.png)
 
-1. To configure waves, you can either:
 
-    * Define the size for each wave. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+1. Configure waves as detailed below.
+
+   >[!NOTE]
+   >
+   >You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+
+  You can either define:
+
+    * **The size for each wave**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
 
       In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
 
       ![](assets/delivery-waves-size.png)
 
-    * Define a calendar for sending each wave.
+    * **A calendar for sending each wave**.  For example, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
       In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
-
-      In the example below, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
       ![](assets/delivery-waves-calendar.png)
 
@@ -67,13 +70,13 @@ To balance the load, you can divide deliveries into several batches. Configure t
 
    >[!IMPORTANT]
    >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
+   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
    >
-   >You must also allow enough time for retries when configuring the last waves. <!--See [this section]().-->
+   >You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
 
-1. To monitor your sends, go to the delivery logs. See [this page](send.md)<!--ref TBC-->.
+To monitor your sends, browse to the delivery logs. See [this page](send.md)
 
-   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
 The two examples below are the most common use cases for using multiple waves.
 
@@ -87,11 +90,11 @@ The two examples below are the most common use cases for using multiple waves.
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **Campaigns involving a call center**
+* **Campaigns with a call center**
 
-  When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
+  When managing a loyalty campaign by phone, your organization has a limited capacity to process the number of calls to contact subscribers.
 
-  Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
+  Using waves, you can restrict the number of messages to 20 per day, for example, considering the daily processing capacity of a call center.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 

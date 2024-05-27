@@ -97,7 +97,7 @@ Soft bounce retries and the length of time between them are determined by the MT
 >
 >The retry settings in the delivery properties are not used by Campaign.
 
-## Validity period
+## Validity period {#valid-period}
 
 The validity period setting in your Campaign deliveries is limited to **3.5 days or less**. For a delivery, if you define a value higher than 3.5 days in Campaign, it will not be taken into account.
 

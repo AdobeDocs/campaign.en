@@ -6,7 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
-# Get Started with messages{#gs-ac-audiences}
+# Get Started with messages {#gs-ac-audiences}
+
+## Delivery channels {#gs-ac-channels}
 
 With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
 
@@ -29,7 +31,7 @@ Adobe Campaign v8 comes with the following delivery channels:
    >
    >The number of available channels depends on your contract. Please check your license agreement.
 
-## Choose your channel{#gs-channel}
+## Choose your channel {#gs-channel}
 
 ### Email channel {#gs-channel-email}
 

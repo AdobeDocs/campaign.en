@@ -13,11 +13,11 @@ Adobe Campaign guarantees consistent communications thanks to a set of rules con
 
 ## Control capacity {#control-capacity}
 
-Before delivering messages, you need to make sure your organization has the capacity to process the delivery (physical infrastructure), the responses which the delivery may generate (inbound messages), and the number of calls to be made to contact subscribers (call center processing capacity), for example.
+Before delivering messages, you need to make sure your organization has the capacity (physical infrastructure) to process the delivery, the responses which the delivery may generate (inbound messages), and the number of calls to be made to contact subscribers (call center processing capacity), for example.
 
-To do this, you need to create **[!UICONTROL Capacity]** typology rules.
+To do this, create **[!UICONTROL Capacity]** typology rules.
 
-In the following example, we create a typology rule for a phone loyalty campaign. We restrict the number of messages to 20 per day, i.e. the daily processing capacity of a call center. Once the rule applied to two deliveries, we can monitor consumption through logs.
+In the following example, we create a typology rule for a loyalty campaign by phone. We restrict the number of messages to 20 per day, i.e. the daily processing capacity of a call center. Once the rule applied to two deliveries, we can monitor consumption through logs.
 
 To design a new capacity rule, follow the steps below:
 

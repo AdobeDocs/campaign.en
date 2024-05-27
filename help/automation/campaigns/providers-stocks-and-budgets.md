@@ -142,7 +142,7 @@ When a service is selected, the cost categories corresponding to the type of del
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* For delivery on mobile channels or telephone, the same selection mode applies.
+* For delivery on mobile channels, the same selection mode applies.
 * For an email delivery, the service is selected from the **[!UICONTROL Advanced]** tab in the delivery properties, as in the following example:
 
   ![](assets/supplier-email-delivery-select.png)
