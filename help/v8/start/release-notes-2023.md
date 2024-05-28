@@ -10,6 +10,7 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 
 This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**.
 
+
 ## Release 8.5.2 {#release-8-5-2}
 
 _Aug 2, 2023_

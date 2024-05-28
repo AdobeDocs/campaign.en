@@ -14,6 +14,21 @@ As a Managed Cloud Services user, your instance is upgraded by Adobe with every 
 
 In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
+## Release 8.5.3 {#release-8-5-3}
+
+_May 28, 2024_
+
+### Migrating from Service Account (JWT) credential to OAuth Server-to-Server credential  {#change-8-5-3}
+
+* Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+ 
+    If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. In addition, the Developer Console will continue to support the creation of new Service Account (JWT) credentials until **June 3, 2024**. A new Service Account (JWT) credential cannot be created or added to a project after this date.
+
+
+### Fixes {#fixes-8-5-3}
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+
 ## Release 8.7.1 {#release-8-7-1}
 
 _May 2, 2024_
