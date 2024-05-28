@@ -18,9 +18,11 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 _May 28, 2024_
 
-### Important change {#change-8-5-3}
+### Migrating from Service Account (JWT) credential to OAuth Server-to-Server credential  {#change-8-5-3}
 
-Adobe is deprecating the Service Account (JWT) credentials in favor of the OAuth Server-to-Server credentials. If you have projects on the Developer Console that use the Service Account (JWT) credential, you need to migrate them to the OAuth Server-to-Server credential. Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
+* Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
+ 
+    If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. In addition, the Developer Console will continue to support the creation of new Service Account (JWT) credentials until **June 3, 2024**. A new Service Account (JWT) credential cannot be created or added to a project after this date.
 
 
 ### Fixes {#fixes-8-5-3}
