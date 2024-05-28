@@ -13,8 +13,8 @@ breadcrumb-title: Campaign v8 Documentation
 + Releases notes {#releases}
   + [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
-  + [Latest release](start/release-notes.md)
-  + Previous release notes {#previous-rn}
+  + [Latest releases](start/release-notes.md)
+  + Previous releases {#previous-rn}
     + [2024](start/release-notes-2024.md)
     + [2023](start/release-notes-2023.md)
     + [2022](start/release-notes-2022.md)
