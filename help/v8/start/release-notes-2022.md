@@ -2,8 +2,6 @@
 title: Campaign v8 2022 release notes
 description: List of features and improvemens coming with 2022 Campaign v8 releases
 feature: Release Notes
-role: User
-level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 ---
 # 2022 release notes{#2022-rn}

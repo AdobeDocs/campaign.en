@@ -15,9 +15,10 @@ breadcrumb-title: Campaign v8 Documentation
   + [Versions and upgrades](start/upgrades.md)
   + [Latest release](start/release-notes.md)
   + Previous release notes {#previous-rn}
-    + [2023 releases](start/release-notes-2023.md)
-    + [2022 releases](start/release-notes-2022.md)
-    + [2021 releases](start/release-notes-2021.md)
+    + [2024](start/release-notes-2024.md)
+    + [2023](start/release-notes-2023.md)
+    + [2022](start/release-notes-2022.md)
+    + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
