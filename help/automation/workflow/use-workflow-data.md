@@ -36,9 +36,9 @@ To do this, select the relevant menu:
 
 * **[!UICONTROL Analyze target...]**
 
-  This menu lets you access the descriptive analysis wizard which lets you produce statistics and reports on the transition data.
+  Use this menu to access the descriptive analysis wizard which lets you generate statistics and reports on the transition data.
 
-  For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  Learn how to use the descriptive analysis wizard in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 The target data is purged as the workflow is executed. Only the last work table is accessible. You can configure the workflow so that all work tables remain accessible: check the **[!UICONTROL Keep the result of interim populations between two executions]** option in the workflow properties.
 

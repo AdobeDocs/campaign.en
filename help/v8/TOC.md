@@ -195,6 +195,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
+  + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
 + [Campaign Control Panel >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
 + [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
