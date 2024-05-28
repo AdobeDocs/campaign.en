@@ -18,7 +18,7 @@ In addition, as a customer, ensure that you are using the latest supported versi
 
 _May 28, 2024_
 
-### Migrating from Service Account (JWT) credential to OAuth Server-to-Server credential  {#change-8-5-3}
+### Migration to OAuth Server-to-Server credential {#change-8-5-3}
 
 * Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
  
