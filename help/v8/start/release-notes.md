@@ -14,6 +14,19 @@ As a Managed Cloud Services user, your instance is upgraded by Adobe with every 
 
 In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
+## Release 8.5.3 {#release-8-5-3}
+
+_May 28, 2024_
+
+### Important change {#change-8-5-3}
+
+Adobe is deprecating the Service Account (JWT) credentials in favor of the OAuth Server-to-Server credentials. If you have projects on the Developer Console that use the Service Account (JWT) credential, you need to migrate them to the OAuth Server-to-Server credential. Existing Service Account (JWT) credentials will continue to work until January 27, 2025.
+
+
+### Fixes {#fixes-8-5-3}
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+
 ## Release 8.7.1 {#release-8-7-1}
 
 _May 2, 2024_
