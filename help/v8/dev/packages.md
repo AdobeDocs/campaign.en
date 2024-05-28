@@ -248,7 +248,7 @@ To export a package from a package definition, follow the steps below:
 1. Check the name and the location of the exported file.
 1. Click the **[!UICONTROL Start]** button to launch the export.
 
-## Import packages {#importing-packages}
+## Import packages {#import-packages}
 
 The package import assistant is accessible via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the client console.
 
