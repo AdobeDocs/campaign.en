@@ -187,13 +187,6 @@ Finally, the `@pkgStatus` attribute enables you to define the export rules for t
 
 Package definitions let you create a package structure in which you add entities that will be exported later on in a single package. You will then be able to import this package and all the added entities into another Campaign instance.
 
-**Related topics:**
-
-* [Create a package definition](#create-a-package-definition)
-* [Add entities to a package definition](#add-entities-to-a-package-definition)
-* [Configure package definitions generation](#configure-package-definitions-generation)
-* [Export packages from a package definition](#export-packages-from-a-package-definition)
-
 ### Create a package definition {#create-a-package-definition}
 
 Package definitions can be accessed from the **[!UICONTROL Administration > Configuration > Package management > Package definitions]** menu.
