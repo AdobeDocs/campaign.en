@@ -93,7 +93,7 @@ To export a set of objects in a data package, follow these steps:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](../../platform/using/about-queries-in-campaign.md).
+   >The query editor is presented in [this section](../../automation/workflow/query.md).
 
 1. Click **[!UICONTROL Next]** and select the sort order of exported data.
 
