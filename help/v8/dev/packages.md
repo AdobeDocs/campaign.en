@@ -87,7 +87,7 @@ To export a set of objects in a data package, follow these steps:
    >
    >If you export an **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** or **[!UICONTROL Plan]** type folder, don't ever select the **xtk:folder** as you may lose some data. Select the entity that corresponds with the folder: **nms:offerCategory** for offer categories, **nms:offerEnv** for offer environments, **nms:program** for programs, and **nms:plan** for plans.
 
-    The dependency mechanism controls the entity export sequence. For more on this, refer to [Managing dependencies](#managing-dependencies).
+    The dependency mechanism controls the entity export sequence. For more on this, refer to [Managing dependencies](#manage-dependencies).
 
 1. Click **[!UICONTROL Next]** and define the filter query on the type of document to be extracted. You must configure the filtering clause for data extraction.
 
