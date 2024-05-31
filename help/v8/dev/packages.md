@@ -4,6 +4,7 @@ description: Working with data packages
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
+exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 ---
 # Work with data packages{#data-packages}
 
@@ -346,4 +347,3 @@ Best practice is also to enter the date of the update.
 >[!IMPORTANT]
 >
 >The description field can only contain up to 2.000 characters.
-

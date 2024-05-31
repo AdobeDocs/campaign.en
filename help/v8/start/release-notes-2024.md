@@ -2,6 +2,7 @@
 title: Campaign v8 (console) 2023 release notes
 description: List of features and improvemens coming with 2023 Campaign v8 releases
 feature: Release Notes
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 ---
 # 2024 release notes {#2024-rn}
 
