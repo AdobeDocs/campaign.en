@@ -26,6 +26,14 @@ The following issues are fixed in this release:
 
 NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
 
+
+## May updates {#may-updates}
+
+The following change has been released in May and is now available to Campaign v8 users:
+
+* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
+
+
 ## Release 8.7.1 {#release-8-7-1}
 
 _May 2, 2024_
@@ -46,7 +54,7 @@ _May 2, 2024_
 
 * **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
+
 
 
 ### Compatibility updates {#comp-8-7-1}
