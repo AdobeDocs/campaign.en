@@ -1,5 +1,5 @@
 ---
-title: Grant and restrice permissions on Campaign folders
+title: Grant and restrict permissions on Campaign folders
 description: Learn how to grant or restrict permissions on folders
 feature: Permissions
 role: User, Admin
