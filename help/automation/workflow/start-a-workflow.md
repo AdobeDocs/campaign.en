@@ -57,6 +57,16 @@ The **[!UICONTROL Actions]** button of the toolbar lets you access to additional
 
   This action stops then restarts the workflow. In most cases, it makes it possible to restart faster. It is also useful to automate restarting when stopping takes a certain amount of time: this is because the 'Stop' command is not available when the workflow is being stopped.
 
+  Note that the **Restart** action does not clear the workflow instance variables compared to **Execution**, **Stop**, and **Start** actions (the instance variables clearing happening upon Start action). When restarting a workflow, instance variables are still available for use with preserved values. To clear them, you can either:
+  * Perform **Stop** and **Start** actions.
+  * Add below javascript code at the end of your workflow execution:
+
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
+
 * **[!UICONTROL Purge history]**
 
   This action lets you purge the workflow history. For more on this, refer to [Purging the logs](monitor-workflow-execution.md#purging-the-logs).

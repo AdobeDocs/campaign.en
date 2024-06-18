@@ -11,6 +11,9 @@ exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 
 This page lists all the latest updates in [!DNL Campaign] v8 (console) documentation.
 
+## June 2024 {#june-2024}
+
+A note has been added to specify how to clear instance variables when restarting workflows. [Read more](../../automation/workflow/start-a-workflow.md)
 
 ## May 2024 {#may-2024}
 
