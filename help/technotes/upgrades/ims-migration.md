@@ -145,9 +145,13 @@ For further more details about API integration steps, including a sample code fo
 
 Below are sample SOAP calls showing the before and after migration calls for the third party systems.
 
+When using Adobe Identity Management System (IMS) authentication, to generate a WSDL file, you should add the `Authorization: Bearer <IMS_Technical_Token_Token>` in the postman call:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 Once the migration process is achieved and validated, the Soap Calls are updated as below:
-
-
 
 * Before the migration: there was no support for Technical account access token.
 
@@ -195,8 +199,6 @@ Once the migration process is achieved and validated, the Soap Calls are updated
     </soapenv:Body>
     </soapenv:Envelope>
     ```
-
-
 
 ### Step 9 - (optional) Update the technical account operator within the Campaign client console {#ims-migration-step-9}
 
