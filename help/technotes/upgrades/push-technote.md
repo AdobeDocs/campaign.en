@@ -21,7 +21,7 @@ In addition, Adobe highly recommends to move to the token-based connection to AP
 
 ### What changed? {#fcm-changes}
 
-As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **June 20, 2024**. Learn more about Firebase Cloud Messaging HTTP protocol in [Google Firebase documentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **July 22, 2024**. Learn more about Firebase Cloud Messaging HTTP protocol in [Google Firebase documentation](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7 and Adobe Campaign v8 already support the latest APIs to send push notification messages. However, some old implementations still rely on the legacy APIs. These implementations must be updated.
 
