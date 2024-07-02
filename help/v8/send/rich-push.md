@@ -28,7 +28,7 @@ Browse the tabs below to learn how to compose your message for each templates.
 
 >[!BEGINTABS]
 
->[!TAB Default template]
+>[!TAB Default]
 
 1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
 
@@ -46,7 +46,7 @@ Browse the tabs below to learn how to compose your message for each templates.
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
->[!TAB Basic template]
+>[!TAB Basic]
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Basic]**.
 
@@ -88,7 +88,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
->[!TAB Carousel template]
+>[!TAB Carousel]
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Carousel]**.
 
