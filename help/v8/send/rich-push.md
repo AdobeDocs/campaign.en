@@ -123,6 +123,114 @@ Once you have defined your message content, you can use test subscribers to prev
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
+>[!TAB Icon buttons]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Input box]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Product catalog]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Product rating]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Timer]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
+>[!TAB Zero bezel]
+
+1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
+
+    ![](assets/rich_push_default.png)
+
+1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
+
+    ![](assets/rich_push_default_2.png)
+
+1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
+
+1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_default_3.png)
+
+Once you have defined your message content, you can use test subscribers to preview and test the message.
+
 >[!ENDTABS]
 
 ## Push notification advanced settings {#push-advanced}
