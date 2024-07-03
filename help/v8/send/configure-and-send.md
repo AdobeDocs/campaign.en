@@ -20,7 +20,7 @@ Before sending the delivery, you can define the sending parameters in the delive
 
 Use the **[!UICONTROL Delivery priority]** option to change the sending order for your deliveries by setting their priority level, from **[!UICONTROL Very low]** to **[!UICONTROL Very high]** (the default value being **[!UICONTROL Normal]**). 
 
-### Batch quantity
+### Batch quantity {#delivery-batch-quantity}
 
 Use the  **[!UICONTROL Message batch quantity]** option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
