@@ -71,12 +71,12 @@ To move your environment to HTTP v1, follow these steps:
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device. 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. 
 
-Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
+   Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
 
-| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
-|:-:|:-:|:-:|
-| data message  | N/A  | validate_only  |
-| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+   | Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
+   |:-:|:-:|:-:|
+   | data message  | N/A  | validate_only  |
+   | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
 1. Once transition HTTP v1 is done, you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the **Message Batch quantity** to **256**. Apply this change to all Android delivery templates used for your Android deliveries, and to all your existing Android deliveries.
 
