@@ -93,6 +93,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage subscriptions](start/subscriptions.md)
 + Content Management {#content}
   + [Design web apps and forms](dev/webapps.md)
++ Automation and workflows {#automation}
+  + [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
@@ -197,7 +199,6 @@ breadcrumb-title: Campaign v8 Documentation
     + [Input forms](dev/forms.md)
   + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
-+ [Campaign Control Panel >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
-+ [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campaign technotes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 

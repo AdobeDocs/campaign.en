@@ -2,6 +2,8 @@
 product: campaign
 title: client console 32-bit deprecation
 description: client console 32-bit deprecation
+hide: yes
+hidefromtoc: yes
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
 ---
 # End of support on 32-bit operating systems {#console-eol}

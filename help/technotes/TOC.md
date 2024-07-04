@@ -20,5 +20,5 @@ breadcrumb-title: Campaign technotes
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + [client console 32-bit deprecation](upgrades/console.md)  
-  + [Push Notification Channel upcoming changes](upgrades/push-technote.md)  
+  + [Push Notification Channel changes](upgrades/push-technote.md)  
 + [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
