@@ -21,4 +21,4 @@ breadcrumb-title: Campaign technotes
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + [client console 32-bit deprecation](upgrades/console.md)  
-+ [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
