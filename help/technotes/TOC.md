@@ -11,6 +11,7 @@ breadcrumb-title: Campaign technotes
 
 + [Campaign technotes](technotes-home.md)
 + Upgrades{#tn-new}
+  + [Push Notification Channel changes](upgrades/push-technote.md)  
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operators to Developer Console](upgrades/ims-migration.md)
   + [Migrate technical operator to Developer Console](upgrades/ims-migration-old.md)
@@ -20,5 +21,4 @@ breadcrumb-title: Campaign technotes
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + [client console 32-bit deprecation](upgrades/console.md)  
-  + [Push Notification Channel changes](upgrades/push-technote.md)  
-+ [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
