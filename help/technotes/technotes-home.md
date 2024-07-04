@@ -17,14 +17,14 @@ Find latest Campaign technotes in this section. These technotes apply to Campaig
 Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 
 
-[![image](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
+[![image](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
 >[!TAB Identity Management System (IMS)]
 
 Starting Campaign v8.6, the authentication process to Campaign v8 is being improved. All operators will use Adobe Identity Management System (IMS) only to connect to Campaign
 
-[![image](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
 
