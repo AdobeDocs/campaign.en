@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 
 >[!IMPORTANT]
 >
->This documentation is for Campaign v8.7.2 and later.
-For older versions, please [go to this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>This documentation is for Adobe Campaign v8.7.2 and later.
+For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 In a standalone instance, sending a SMS delivery requires : 
 
