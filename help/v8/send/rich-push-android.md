@@ -9,6 +9,10 @@ exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 ---
 # Design an Android rich push delivery {#rich-push}
 
+>[!IMPORTANT]
+>
+>Before designing a Rich Push Notification, you first need to configure your connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
+
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Data message]** is handled by the client app. These messages are sent directly to the mobile application, which generates and displays an Android notification on the device. Data messages contain only your custom application variables.
