@@ -266,8 +266,6 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_carousel_3.png)
-
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
 >[!TAB Timer]
