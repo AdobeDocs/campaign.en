@@ -141,7 +141,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. In the **[!UICONTROL Color options]** menu, enter hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
-    ![](assets/rich_push_ios_basic_4.png)
+    ![](assets/rich_push_ios_timer_4.png)
 
 1. From the **[!UICONTROL Timer]** tab, set your **[!UICONTROL Timer duration]** in seconds or the **[!UICONTROL Timer end timestamp]** to a specific epoch timestamp.
 
