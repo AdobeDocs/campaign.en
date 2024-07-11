@@ -21,6 +21,10 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 ## Define the content of the notification {#push-message}
 
+>[!IMPORTANT]
+>
+>Before designing a Rich Push Notification, you first need to configure your connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
+
 Once your push delivery is created, you can define its content. Three templates are available:
 
 * **Default Template** allows you to send notifications with a simple icon and an accompanying image.
