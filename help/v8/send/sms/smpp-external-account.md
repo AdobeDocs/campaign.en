@@ -25,6 +25,8 @@ The network equipment on the SMS service provider side is often called the SMSC.
 
 ## Connection settings {#smpp-connection-settings}
 
+![](assets/smpp_connection_settings.png){zoomable="yes"}
+
 Here are the parameters and their role needed to set up the connection : 
 
 * **SMSC implementation name** : sets the name of the SMSC implementation. It should be set to the name of your provider. The role of this field is described in the SMPP error management section.
@@ -64,7 +66,9 @@ When enabled, extra logs will be output to the log file. This is very useful for
 
 ## SMPP channel settings {#smpp-channel-settings}
 
-### Allow character transliteration
+![](assets/smpp_channel_settings.png){zoomable="yes"}
+
+### Authorize character transliteration
 
 Transliteration is the process of finding equivalent characters to missing ones. For example, the French "ê" (e with circumflex accent) character is missing from GSM encoding, but it can be replaced by "e" without impairing readability too much.
 
@@ -91,6 +95,8 @@ They are transmitted as-is in source_addr_ton, source_addr_npi, dest_addr_ton an
 This field is transmitted as-is in the service_type field of the SUBMIT_SM PDU. Set this to whatever the provider needs.
 
 ## Throughput and delays {#smpp-delays}
+
+![](assets/smpp_throughput.png){zoomable="yes"}
 
 These settings control all the timing aspects of the SMPP channel. Some providers require very precise control of the message rate, window and retry timings, so these settings should be set to values that match the capacity of the provider and the conditions indicated in their contract.
 
@@ -164,6 +170,8 @@ This means that the MTA will try to encode the message in GSM, if it succeeds it
 If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will set data_coding to 8.
 
 ## SMSC specificities {#smsc-specificities}
+
+![](assets/smsc_specificities.png){zoomable="yes"}
 
 ### Activate message_payload
 
@@ -311,6 +319,8 @@ If enabled, all connections to the SMSC will be encrypted using TLS.
 
 
 ## Incoming traffic {#incoming-traffic}
+
+![](assets/incoming_traffic.png){zoomable="yes"}
 
 ### Optional SMPP parameters (TLV) in MO
 

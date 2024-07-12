@@ -35,18 +35,12 @@ Here are the steps to create your SMPP external account :
 
 ![](assets/sms_extaccount_new.png){zoomable="yes"}
 
-1. In the **[!UICONTROL Mobile]** tab, select **[!UICONTROL Extended generic SMPP]** from the **[!UICONTROL Connector]** drop-down list.
+1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
+The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
 
 ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-1. In the **[!UICONTROL Connection settings]** tab, complete the form with informations received from the SMPP provider. 
-You can define the number of connections to the provider per MTA child. By default, it is set to 1.
-Check the **[!UICONTROL Send messages througgh a dedicated process]** box, you will be able to choose the connection mode between *Transmitter + receiver* and *Transceiver*
+To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
 
-![](assets/sms_connection_settings.png){zoomable="yes"}
-
-The **[!UICONTROL Enable verbose SMPP traces in the log file]** checkbox will allow you to have the SMPP traffic in the log files. This option will help you during troubleshootings.
-
-![](assets/sms_verbose.png){zoomable="yes"}
 
 ## Configure the delivery template {#sms-delivery-template}
