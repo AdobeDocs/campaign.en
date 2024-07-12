@@ -44,3 +44,22 @@ To set up the connection, you need to fill the tabs of this form. For details, [
 
 
 ## Configure the delivery template {#sms-delivery-template}
+
+To facilitate the creation of your SMS delivery, createn a SMS delivery template where your SMPP external account is referenced.
+
+In **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, right click on the existing Mobile delivery template, and choose **[!UICONTROL Duplicate]**.
+
+![](assets/sms_template_duplicate.png){zoomable="yes"}
+
+Change the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your template to easily recognize it, and click on **[!UICONTROL Properties]** button.
+
+![](assets/sms_template_name.png){zoomable="yes"}
+
+In the **[!UICONTROL General]** tab, in **[!UICONTROL Routing]**, select your SMPP external account. 
+
+![](assets/sms_template_routing.png){zoomable="yes"}
+
+In the **[!UICONTROL SMS]** tab, you can add optionnal parameters to your template, like your campaign ID for example.
+
+![](assets/sms_template_properties.png){zoomable="yes"}
+
