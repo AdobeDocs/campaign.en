@@ -29,7 +29,7 @@ Please rotate all your credentials saved in the external accounts.
 
 For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: interaction1, interaction2, etc ) operators, any of the approach below can followed: 
 
-1. Adobe can change the credentials for such operators and share it with you. Note that this approach might require a downtime as it requires infrastructure update. 
+1. Adobe can change the credentials for such operators and share it with you. Note that this approach might require a downtime as it requires infrastructure update.
 
 1. Adobe can create **new** operators corresponding to each existing operators and share them with you. Adobe will delete all occurrences of old operators after you switched to these new operators. 
 
@@ -39,10 +39,10 @@ For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: int
 
 For rotation of the mobile services related Private keys and Certificate, refer to the links below. 
 
-* For Android, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending[…]e-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* For Android, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
     Browse to the **Create the Android mobile application > Configure the API version** section.
 
-* For iOS, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending[…]igure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* For iOS, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
     Browse to the **Create iOS mobile app->Authentication mode** section. 
 
 ## GPG Keys 
