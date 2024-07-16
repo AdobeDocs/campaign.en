@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # Customer credentials rotation {#ac-customer-credentials}
 
-Credential rotation is a security procedure which is not owned by Adobe. As a customer, you are responsible for replacing your credentials with a new set periodically to mitigate the risk of compromise. 
+As a customer, you are responsible for replacing your credentials with a new set periodically to mitigate the risk of compromise. 
 
 ## Adobe Campaign options credentials
 
