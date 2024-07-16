@@ -27,9 +27,9 @@ Please rotate all your credentials saved in the external accounts.
 
 ![](assets/technote-1.png)
 
-For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: interaction1, interaction2, etc ) operators, any of the approach below can followed: 
+For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: interaction1, interaction2, etc ) operators, any of the two approach below can followed: 
 
-1. Adobe can change the credentials for such operators and share it with you. Note that this approach might require a downtime as it requires infrastructure update.
+1. Adobe can change the credentials for such operators and share it with you. Note that all the integrations using these operators will stop working until the credentials for these operators get updated on your side.
 
 1. Adobe can create **new** operators corresponding to each existing operators and share them with you. Adobe will delete all occurrences of old operators after you switched to these new operators. 
 
