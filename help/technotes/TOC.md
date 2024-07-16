@@ -20,5 +20,7 @@ breadcrumb-title: Campaign technotes
   + [Upgrade Apache version](upgrades/apache.md)
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
-  + [client console 32-bit deprecation](upgrades/console.md)  
+  + [client console 32-bit deprecation](upgrades/console.md)
+  + Security {#security}
+    + [Customer credentials rotation](security/customer-credential-rotation.md)
 + [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

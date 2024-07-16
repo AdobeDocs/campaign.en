@@ -1,0 +1,57 @@
+---
+product: campaign
+title: Technote - Customer credentials rotation
+description: Adobe Campaign Customer credentials rotation
+hide: yes
+hidefromtoc: yes
+---
+# Customer credentials rotation {#ac-customer-credentials}
+
+Credential rotation is a security procedure which is not owned by Adobe. As a customer, you are responsible for replacing your credentials with a new set periodically to mitigate the risk of compromise. 
+
+## Adobe Campaign options credentials
+
+From Adobe Campaign Explorer, the **Administration > Platform > Options** node allows you to make amendments to Adobe Campaign options. Some customers have stored some credentials here. Please make sure to rotate your secrets credentials.
+
+![](assets/technote-2.png)
+
+## External Account credentials
+
+The **Administration > Platform > External Accounts** node allows you to make amendments to Adobe Campaign external accounts. 
+
+Please rotate all your credentials saved in the external accounts.  
+
+>[!CAUTION]
+>
+>**Do not** modify the Adobe managed credentials. Any External accounts having `adobe` related server should not be modified.
+
+For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: interaction1, interaction2, etc ) operators, any of the approach below can followed: 
+
+1. Adobe can change the password for such operators and share it with you. Note that this approach might require a downtime as it requires infrastructure update. 
+
+1. Adobe can create **new** operators corresponding to each existing operators and share them with you. Adobe will delete all occurrences of old operators after you switched to these new operators. 
+
+![](assets/technote-1.png)
+
+
+## Mobile Services Private Key/Certificate 
+
+For rotation of the mobile services related Private keys and Certificate, refer to the links below. 
+
+* For Android, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending[…]e-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+    Browse to the **Create the Android mobile application > Configure the API version** section.
+
+* For iOS, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending[…]igure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+    Browse to the **Create iOS mobile app->Authentication mode** section. 
+
+## GPG Keys 
+
+For the rotation of GPG keys, the following steps need to be followed: 
+
+1. Decrypt the existing data using the existing key. [Learn more](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+
+1. Create a new GPG key pair. Learn more about GPG key management in [this documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+
+1. Replace existing GPG key usage in all workflows with the newly created key. 
+
+1. Delete the existing GPG key. 
