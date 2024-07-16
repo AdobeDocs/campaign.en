@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Technote - Customer credentials rotation
-description: Adobe Campaign Customer credentials rotation
+title: Technical Note - Credential Rotation Guide
+description: Adobe Campaign Technical Note - Credential Rotation Guide
 hide: yes
 hidefromtoc: yes
 ---
-# Customer credentials rotation {#ac-customer-credentials}
+# Technical Note: Credential Rotation Guide {#ac-customer-credentials}
 
 As a customer, you are responsible for replacing your credentials with a new set periodically to mitigate the risk of compromise. 
 
