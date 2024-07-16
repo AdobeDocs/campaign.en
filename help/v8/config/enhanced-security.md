@@ -90,7 +90,7 @@ Three use cases are supported:
 
 >[!CAUTION]
 >
->Only on-premise databases and AWS-compliant VPN devices are supported. [Learn more](#vpn-callouts)
+>Only on-premise databases and AWS-compliant VPN devices are supported. [Learn more](#vpn-databases)
 
 To ensure proper use of this feature, follow the guidelines below:
 
@@ -104,24 +104,23 @@ To ensure proper use of this feature, follow the guidelines below:
 
 * Set up a retry mechanism at your end in case connection failures happen.
 
+### Supported databases and devices {#vpn-databases}
 
-### Guardrails and limitations {#vpn-callouts}
+The following on-premise databases are supported:
 
-The following guardrails and limitations apply to the VPN tunneling integration with Adobe Campaign v8:
+* MySQL
+* Netezza
+* Oracle
+* SAP HANA
+* SQL Server
+* Sybase
+* Teradata
+* Hadoop via HiveSQL
 
-* Only on-premise databases are supported, such as<!--Richa to check the list with PM-->:
+Only AWS-compliant VPN devices are supported. A list of compatible devices is available on [this page](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}.
 
-    * MySQL
-    * Netezza
-    * Oracle
-    * SAP HANA
-    * SQL Server
-    * Sybase
-    * Teradata
-    * Hadoop via HiveSQL
-
-* Only AWS-compliant VPN devices are supported. A list of compatible devices is available on [this page](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
-
-* VPN connectivity to third parties or external vendors is not supported.
-
-* Adobe-managed additional VPNs to private Cloud databases are not included.
+>[!NOTE]
+>
+>* VPN connectivity to third parties or external vendors is not supported.
+>
+>* Adobe-managed additional VPNs to private Cloud databases are not included.
