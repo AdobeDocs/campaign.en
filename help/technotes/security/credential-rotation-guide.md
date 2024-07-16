@@ -9,13 +9,13 @@ hidefromtoc: yes
 
 As a customer, you are responsible for replacing your credentials with a new set periodically to mitigate the risk of compromise. 
 
-## Adobe Campaign options credentials
+## Adobe Campaign Options credentials {#ac-options-credentials}
 
 From Adobe Campaign Explorer, the **Administration > Platform > Options** node allows you to make amendments to Adobe Campaign options. If you have stored some credentials here, please make sure to rotate them.
 
 ![](assets/technote-2.png)
 
-## External Account credentials
+## External Account credentials {#ac-accounts-credentials}
 
 The **Administration > Platform > External Accounts** node allows you to make amendments to Adobe Campaign external accounts. 
 
@@ -34,8 +34,7 @@ For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: int
 1. Adobe can create **new** operators corresponding to each existing operators and share them with you. Adobe will delete all occurrences of old operators after you switched to these new operators. 
 
 
-
-## Mobile Services Private Key/Certificate 
+## Mobile Services Private Key/Certificate  {#ac-key-credentials}
 
 For rotation of the mobile services related Private keys and Certificate, refer to the links below. 
 
@@ -45,7 +44,7 @@ For rotation of the mobile services related Private keys and Certificate, refer 
 * For iOS, refer to [this documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
     Browse to the **Create iOS mobile app->Authentication mode** section. 
 
-## GPG Keys 
+## GPG Keys {#ac-gpg-credentials}
 
 For the rotation of GPG keys, the following steps need to be followed: 
 
@@ -55,4 +54,4 @@ For the rotation of GPG keys, the following steps need to be followed:
 
 1. Replace existing GPG key usage in all workflows with the newly created key. 
 
-1. Delete the existing GPG key. 
+1. Delete the existing GPG key.
