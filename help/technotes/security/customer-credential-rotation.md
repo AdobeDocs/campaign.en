@@ -25,13 +25,14 @@ Please rotate all your credentials saved in the external accounts.
 >
 >**Do not** modify the Adobe managed credentials. Any External accounts having `adobe` related server should not be modified.
 
+![](assets/technote-1.png)
+
 For the specific technical `mc*` (ex: mc1, mc2, etc) and `Interaction*` (ex: interaction1, interaction2, etc ) operators, any of the approach below can followed: 
 
 1. Adobe can change the password for such operators and share it with you. Note that this approach might require a downtime as it requires infrastructure update. 
 
 1. Adobe can create **new** operators corresponding to each existing operators and share them with you. Adobe will delete all occurrences of old operators after you switched to these new operators. 
 
-![](assets/technote-1.png)
 
 
 ## Mobile Services Private Key/Certificate 
