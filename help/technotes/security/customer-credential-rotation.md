@@ -11,7 +11,7 @@ Credential rotation is a security procedure which is not owned by Adobe. As a cu
 
 ## Adobe Campaign options credentials
 
-From Adobe Campaign Explorer, the **Administration > Platform > Options** node allows you to make amendments to Adobe Campaign options. Some customers have stored some credentials here. Please make sure to rotate your secrets credentials.
+From Adobe Campaign Explorer, the **Administration > Platform > Options** node allows you to make amendments to Adobe Campaign options. If you have stored some credentials here, please make sure to rotate them.
 
 ![](assets/technote-2.png)
 
