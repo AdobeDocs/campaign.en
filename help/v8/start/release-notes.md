@@ -65,7 +65,7 @@ _May 2, 2024_
 
 Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. Adobe will perform the JWT to OAuth migration for your outbound integrations, such as Campaign-Analytics integration or Experience Cloud Triggers integration.
  
-If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**. In addition, the Developer Console will continue to support the creation of new Service Account (JWT) credentials until **June 3, 2024**. A new Service Account (JWT) credential cannot be created or added to a project after this date.
+If you have implemented inbound integrations with Campaign, you must migrate your Technical Account as detailed in [this documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Existing Service Account (JWT) credentials will continue to work until **January 27, 2025**.
 
 
 ### General improvements {#improvements-8-7-1}
@@ -74,7 +74,11 @@ If you have implemented inbound integrations with Campaign, you must migrate you
 
 * In Campaign tables, the following attributes are now populated by default by the server date and time: `lastModified` and `created`. The `createdBy-id` attribute value is now populated with the current login ID by default. Values provided by users in API calls are ignored. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
+* To increase security over all communication between applications, mTLS is now supported for external API calls.
+
+
 ### Fixes {#fixes-8-7-1}
 
 The following issues are fixed in this release:
+
 NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
