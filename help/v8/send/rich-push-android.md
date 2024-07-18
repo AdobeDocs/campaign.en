@@ -19,6 +19,8 @@ With Firebase Cloud Messaging, you can choose between two types of messages:
 
 * The **[!UICONTROL Notification message]**, handled automatically by the FCM SDK. FCM automatically displays the message on your users' devices on behalf of the client app. Notification messages contain a predefined set of parameters and options but can still be further personalized with custom application variables.
 
+If the scroll bar is disabled on your interface, access **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL Options]**, and set the **[!UICONTROL XtkUseScrollBar]** option to 1.
+
 ## Define the content of an Android notification {#push-message}
 
 Once your push delivery is created, you can define its content using one of the following templates:
