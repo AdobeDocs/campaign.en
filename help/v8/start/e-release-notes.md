@@ -54,7 +54,7 @@ _July 30, 2024_
 
 * To increase security over all communication between applications, mTLS is now supported for external API calls.
 
-### Fixes {#fixes-8-7-2}
+### Fixes {#fixes-8-6-3}
 
 The following issues are fixed in this release:
 
