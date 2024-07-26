@@ -59,7 +59,8 @@ In the **[!UICONTROL General]** tab, in **[!UICONTROL Routing]**, select your SM
 
 ![](assets/sms_template_routing.png){zoomable="yes"}
 
-In the **[!UICONTROL SMS]** tab, you can add optionnal parameters to your template, like your campaign ID for example.
+In the **[!UICONTROL SMS]** tab, you can add optional parameters to your template.
 
 ![](assets/sms_template_properties.png){zoomable="yes"}
 
+[Learn more about this SMS tab configuration](sms-delivery-settings.md).

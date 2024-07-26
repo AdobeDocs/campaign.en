@@ -45,11 +45,12 @@ The total number of connections can be computed using this formula:
     
     With default values, this setting directly sets the number of connections.
 
-    >[!NOTE]
-    >
-    >In **transceiver mode**, this is the total number of connections.
-    In **transmitter+receiver mode**, this defines the number of transmitter+receiver pairs (one pair = one transmitter + one receiver). 
-    There is no way to change the balance between transmitters and receivers.
+>[!NOTE]
+>
+>In **transceiver mode**, this is the total number of connections.
+In **transmitter+receiver mode**, this defines the number of transmitter+receiver pairs (one pair = one transmitter + one receiver). 
+There is no way to change the balance between transmitters and receivers.
+
 * **Send messages through a dedicated process** :
 For Adobe Campaign v8.7.2 and later, this option should be always enabled. It has many impacts on how messages are processed.
 * **SMPP connection mode** :
