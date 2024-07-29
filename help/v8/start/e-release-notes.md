@@ -12,6 +12,7 @@ exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 
 This page describes improvements and fixes included in the next Campaign v8 release. **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
+<!--
 ## Release 8.7.2 {#release-8-7-2}
 
 _July 30, 2024_
@@ -37,6 +38,7 @@ _July 30, 2024_
 The following issues are fixed in this release:
 
 NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-73602, NEO-72915, NEO-78134, NEO-77000, NEO-77002, NEO-76955, NEO-76864, NEO-76926, NEO-76495, NEO-77168, NEO-41058, NEO-75581, NEO-74647, NEO-74585, NEO-74586, NEO-74831, NEO-77319, NEO-78607.
+-->
 
 ## Release 8.6.3 {#release-8-6-3}
 
