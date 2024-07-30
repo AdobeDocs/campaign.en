@@ -13,7 +13,6 @@ As a Managed Cloud Services user, your instance is upgraded by Adobe with every 
 In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
 
-
 ## Release 8.6.3 {#release-8-6-3}
 
 _July 30, 2024_
