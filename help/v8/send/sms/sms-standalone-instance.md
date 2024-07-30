@@ -45,7 +45,7 @@ To set up the connection, you need to fill the tabs of this form. For details, [
 
 ## Configure the delivery template {#sms-delivery-template}
 
-To facilitate the creation of your SMS delivery, createn a SMS delivery template where your SMPP external account is referenced.
+To facilitate the creation of your SMS delivery, create a SMS delivery template where your SMPP external account is referenced.
 
 In **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**, right click on the existing Mobile delivery template, and choose **[!UICONTROL Duplicate]**.
 

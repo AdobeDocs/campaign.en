@@ -44,6 +44,12 @@ breadcrumb-title: Campaign v8 Documentation
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
   + [SMS](send/sms.md)
+  + Emails {#sms}
+    + Configure SMS channel {#smschannel}
+      + [Standalone instance](send/sms/sms-standalone-instance.md)  
+    + Create an SMS delivery {#smsdelivery}    
+    + Validate and send SMS {#smssend}      
+    + Monitor and track SMS {#smsmonitor}   
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
     + [Design an Android rich push delivery](send/rich-push.md)
