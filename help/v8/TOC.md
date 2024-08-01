@@ -43,8 +43,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
-  + [SMS](send/sms.md)
   + Emails {#sms}
+    + [Get started with SMS](send/sms.md)
     + Configure SMS channel {#smschannel}
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
     + Create an SMS delivery {#smsdelivery}    

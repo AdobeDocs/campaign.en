@@ -13,12 +13,6 @@ level: Intermediate
 >This documentation is for Adobe Campaign v8.7.2 and later.
 For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol).
 
-The simplicity and ease of use of SMS make it a very valuable communication channel in addition to its robustness and unrivaled compatibility over billions of terminals. 
-
-There are 2 main ways to send an SMS:
-
-* Send it manually from a phone. That is the usual way you use to communicate directly between people.
-* Send it from the internet. That is the way Adobe Campaign uses to send messages. For that, you need a SMS service provider that makes a bridge from the internet to the mobile network.
 
 ## SMS types
 
