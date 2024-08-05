@@ -1,12 +1,12 @@
 ---
-title: SMPP external account parameters
+title: SMPP external account settings
 description: Learn how to configure the SMPP external account
 feature: SMS
 role: User
 level: Intermediate
 ---
 
-# SMPP external account parameters {#smpp-external-account}
+# SMPP external account settings {#smpp-external-account}
 
 Adobe Campaign uses the SMPP protocol to send SMS to a service provider.
 

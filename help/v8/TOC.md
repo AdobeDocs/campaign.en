@@ -43,13 +43,24 @@ breadcrumb-title: Campaign v8 Documentation
     + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
-  + Emails {#sms}
-    + [Get started with SMS](send/sms.md)
-    + Configure SMS channel {#smschannel}
+  + SMS {#sms}
+    + [Get started with SMS](send/sms/sms.md)
+    + Configure SMS channel
+      + [SMPP external account settings](send/sms/smpp-external-account.md)  
+      + [SMS channel characteristics](send/sms/sms-channel.md)
+      + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
-    + Create an SMS delivery {#smsdelivery}    
-    + Validate and send SMS {#smssend}      
-    + Monitor and track SMS {#smsmonitor}   
+      + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.com) 
+      + [SMPP connector in delivery properties](send/sms/smpp-connector-delivery.md) 
+    + Create a SMS
+      + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
+      + [Define the content](send/sms/sms-content.md)
+      + [Select the audience](send/sms/sms-audience.md)
+    + Validate and send SMS
+      + [Send SMS proofs](send/sms/sms-proofs.md)   
+      + [Send to the audience](send/sms/sms-send.md) 
+    + [Monitor and track SMS](send/sms/sms-monitor.md)
+    + [Process inbound messages](send/sms/sms-inbound.md) 
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
     + [Design an Android rich push delivery](send/rich-push.md)
