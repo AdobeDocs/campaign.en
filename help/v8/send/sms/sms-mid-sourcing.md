@@ -49,13 +49,13 @@ Note that the Name (login) is to be later used to name your SMPP external accoun
 
 ![](assets/smsoperator_mid.png){zoomable="yes"}
 
-2. In **[!UICONTROL Groups and named rights]** part, click on **[!UICONTROL Add]** button.
+1. In **[!UICONTROL Groups and named rights]** part, click on **[!UICONTROL Add]** button.
 On the new window opened, choose **[!UICONTROL Named rights]** in the **[!UICONTROL Folder]** list, and select **[!UICONTROL ADMINISTRATION]** in the right list.
 Click on **[!UICONTROL Ok]** button.
 
 ![](assets/smsoperator_rights.png){zoomable="yes"}
 
-3. Click on **[!UICONTROL Save]** button to finalize the creation of your SMS operator. 
+1. Click on **[!UICONTROL Save]** button to finalize the creation of your SMS operator. 
 
 ![](assets/smsoperator_save.png){zoomable="yes"}
 
@@ -90,7 +90,7 @@ Confirm the connection by clicking on **[!UICONTROL Test the connection]** butto
 
 >[!IMPORTANT]
 >
->Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the SMS troubleshooting page.
+>Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Refer to the [SMS troubleshooting page](smpp-connection.md#sms-troubleshooting).
 
 The goal is now to establish your SMPP external account on the Mid-server.
 
@@ -99,6 +99,7 @@ To do this, follow the steps below :
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** of the Mid-server, click the **[!UICONTROL New]** icon
 
 1. Set up the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your external account. 
+
 >[!WARNING]
 >
 >When assigning an Internal name, make sure to follow the specified naming convention:

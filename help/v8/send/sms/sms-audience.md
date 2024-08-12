@@ -36,14 +36,14 @@ To use a target type, select it and click **[!UICONTROL Next]** button.
 
 Here are the target types offered by default:
 
-- **[!UICONTROL Filtering conditions]** : lets you define a query and display the result.
-- **[!UICONTROL A list of recipients]** : lets you select a list that you prepared containing your audience
-- **[!UICONTROL A recipient]** : lets you select directly a recipient in the table.
-- **[!UICONTROL Recipients included in a folder]** : lets you select a folder in the explorer navigation tree
-- **[!UICONTROL Recipients of a delivery]** : lets you select the audience of a previous delivery
-- **[!UICONTROL Recipients of deliveries belonging to a folder]** : lets you select the audience of all the deliveries in a given folder
-- **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
-- **[!UICONTROL User filters]** : lets you use the predefined filters.
+* **[!UICONTROL Filtering conditions]** : lets you define a query and display the result.
+* **[!UICONTROL A list of recipients]** : lets you select a list that you prepared containing your audience
+* **[!UICONTROL A recipient]** : lets you select directly a recipient in the table.
+* **[!UICONTROL Recipients included in a folder]** : lets you select a folder in the explorer navigation tree
+* **[!UICONTROL Recipients of a delivery]** : lets you select the audience of a previous delivery
+* **[!UICONTROL Recipients of deliveries belonging to a folder]** : lets you select the audience of all the deliveries in a given folder
+* **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
+* **[!UICONTROL User filters]** : lets you use the predefined filters.
 
 The option **[!UICONTROL Exclude recipients from this segment]** lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
 

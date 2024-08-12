@@ -38,8 +38,6 @@ An SMS carries more information than text. Here a list of what you can expect to
 * A validity date, after which no network equipment is allowed to retry (not always present or respected).
 * A data_coding field, which indicates the encoding of the text.
 
-## SMS character transliteration {#sms-character}
-
 ## SMS text encoding {#sms-text-encoding}
 
 >[!IMPORTANT]
@@ -48,7 +46,7 @@ An SMS carries more information than text. Here a list of what you can expect to
 
 The first rule is **always contact the SMPP provider in case of encoding problems**. Only they, have precise knowledge of the encoding they support and special rules that may apply due to limitations in their technical platform. Make them check what you send them and what they send back to you, it is the only path to a successful and stable interconnection.
 
-SMS messages use a special 7 bits encoding, often called the GSM7 encoding. 
+SMS messages use a special 7 bits encoding, often called the GSM7 encoding.  Wikipedia has [a good article about it (GSM 03.38 in English)](https://en.wikipedia.org/wiki/GSM_03.38).
 
 In the SMPP protocol, GSM7 text will be expanded to 8 bits per character for easier troubleshooting. The SMSC will pack it into 7 bits per character before it is sent to the mobile. This means that the short_message field of the SMS may be up to 160 bytes long in the SMPP frame whereas it is limited to 140 bytes when sent on the mobile network (the most significant bit is simply discarded).
 
@@ -70,8 +68,6 @@ The maximum size of a message depends on its encoding. This table sums up all th
 | GSM7 | 0 | 160 | 152 | GSM7 basic character set + extension (extended characters take 2 characters) | 
 | Latin-1 | 3 | 140| 134 | ISO-8859-1 | 
 | UCS-2 UTF-16 | 8 | 70 | 67 | Unicode (varies from phone to phone) | 
-
-## Automatic reply {#automatic-reply}
 
 ## Multipart SMS (long SMS) {#multipart-sms}
 

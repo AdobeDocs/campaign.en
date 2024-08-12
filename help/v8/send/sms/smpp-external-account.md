@@ -77,7 +77,7 @@ When this box is unchecked, text encoding will fail if it cannot encode the stri
 
 When this box is checked, text encoding will try to convert the string to an approximate version instead of failing. If some characters have no equivalent in the target encoding, text encoding will fail.
 
-See the Define a specific mapping of encodings setting for a more general explanation of the encoding process.
+See the [Define a specific mapping of encodings setting](#mapping-encodings) for a more general explanation of the encoding process.
 
 ### Source number
 
@@ -149,7 +149,7 @@ enquire_link is a special kind of PDU sent to keep the connection alive. This pe
 
 ## Mapping of encodings {#mapping-encodings}
 
-Please see the SMS text encoding section below for details about text encoding.
+Please see the [SMS text encoding section](sms-channel.md#sms-text-encoding) for details about text encoding.
 
 This setting allows to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value. The MTA will try to encode using the first encoding in the list; if it fails, it tries to use the next encoding on the list, etc... If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the SUBMIT_SM PDU with the encoded text and the data_coding field set with the value specified in the table.
 

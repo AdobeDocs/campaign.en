@@ -19,7 +19,7 @@ An SMS account can only be linked to a single external account to ensure that st
 
 * **Unsubscription** : recipients who wish to stop receiving SMS deliveries can return a message containing the word STOP. If your provider allows it under the terms of the contract, you can retrieve messages via the **[!UICONTROL Inbound SMS]** workflow activity and then create a query to enable the **[!UICONTROL No longer contact this recipient]** option for the recipients concerned.
 
-Learn more about the [Inbound SMS activity](../../../automation/workflow/inbound-sms.md)
+Learn more about the [Inbound SMS activity](../../../automation/workflow/inbound-sms.md).
 
 # InSMS schema
 
@@ -60,7 +60,7 @@ If the operator in use is not NetSize, these fields are considered empty.
 
 # Automatic reply {#automatic-reply}
 
-When setting up an extended generic SMPP connector, you can configure automatic replies.
+When setting up an extended generic [SMPP connector](smpp-external-account.md), you can configure automatic replies.
 
 When a subscriber replies to an SMS message which was sent to them via Adobe Campaign and their message contains a keyword such as "STOP", you can configure messages which are automatically sent back to them in the **[!UICONTROL Automatic reply sent to the MO]** section.
 
@@ -72,15 +72,15 @@ For each keyword, specify a short code, which is a number that is usually used t
 
 You can also link an action to your automatic response: **[!UICONTROL Send to quarantine]** or **[!UICONTROL Remove from quarantine]**. For example, if a recipient sends the keyword "STOP", they will automatically receive an unsubscription confirmation and are sent to quarantine.
 
-![](assets/extended_smpp_reply.png)
+![](assets/sms_reply.png)
 
 If you link the **[!UICONTROL Remove from quarantine]** action to an automatic response, the recipients sending the corresponding keyword are automatically removed from quarantine.
 
-Recipients are listed in the **[!UICONTROL Non deliverables and addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu.
+Recipients in quarantine are listed in the **[!UICONTROL Non deliverables and addresses]** table available through the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** menu.
 
 * To send the same reply no matter what the short code, leave the **[!UICONTROL Short code]** column empty.
 * To send the same reply no matter what the keyword, leave the **[!UICONTROL Keyword]** column empty.
-* To carry out an action without sending a response, leave the **[!UICONTROL Response]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
+* To carry out an action without sending a response, leave the **[!UICONTROL Reply]** column empty. For example, this allows you to remove from quarantine a user who replies with a message other than "STOP".
 
 If you have multiple external accounts using the Extended generic SMPP connector with the same provider account, the following issue may happen: when sending a reply to a short code, it may be received on any of your external account connections. Consequently, the automatic reply that is sent could not be the expected message.
 To avoid this, apply one of the following solutions, depending on the provider you are using:
@@ -88,11 +88,11 @@ To avoid this, apply one of the following solutions, depending on the provider y
 * Create one provider account for each external account.
 * Use the **[!UICONTROL System type]** field from the **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** tab to distinguish each short code. Ask your provider a different value for each account.
 
-   ![](assets/extended_smpp_system-type.png)
+   ![](assets/sms_system_type.png)
 
-The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [Create an SMPP external account](#creating-an-smpp-external-account) section.
+The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [SMPP external account documentation](smpp-external-account.md).
 
-# Manage automatic replies (American regulation) {#managing-automatic-replies--american-regulation-}
+## Automatic reply with American regulation
 
 When subscribers reply to an SMS message that was sent to them via Adobe Campaign, and they use a keyword such as STOP, HELP, or YES, it is necessary, in the US market, to configure messages that are automatically returned.
 
@@ -102,7 +102,7 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Create an SMPP external account](sms-set-up.md#creating-an-smpp-external-account) section.
+>The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Create an SMPP external account](smpp-external-account.md) section.
 >
 >It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
 
@@ -149,7 +149,7 @@ The sender name for this type of message is a short code usually used to send de
 
 >[!IMPORTANT]
 >
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard. [Learn more](delivery-dashboard.md).
+>These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard.
 >
->These messages are not taken into account in the commercial pressure rules. [Learn more](../../campaign-opt/using/pressure-rules.md).
+>These messages are not taken into account in the commercial pressure rules. [Learn more](../../../automation/campaign-opt/pressure-rules.md).
 

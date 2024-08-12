@@ -60,12 +60,8 @@ After the creation of your delivery :
 
 * **Monitor and track SMS** 
 
-The key steps to send and monitor an SMS are detailed in Campaign Classic v7 documentation:
+After the send, [learn how to monitor and track your SMS](sms/sms-monitor.md).
 
-* Send, monitor and track SMS deliveries
+* **Process inbound message** 
     
-    [Learn about the tools to send, monitor and track SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
-
-* Troubleshoot SMS deliveries
-    
-    [Learn about SMS Troubleshooting](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}
+Understand what is the [process for inbound messages](sms/sms-inbound.md).

@@ -18,11 +18,11 @@ You can send a proof for your SMS delivery to validate it :
 
 You have multiple modes to send a proof :
 
-- **[!UICONTROL Definition of a specific proof target]** : lets you query with filters the addresses in the database as the proof target
-- **[!UICONTROL Substitution of the address]** : lets you enter your test addresses and use the target recipient data to validate the content. The substitution addresses can be entered manually or selected from the drop-down list. The associated enumeration is **[!UICONTROL Substitution address (rcpAddress)]**.
+* **[!UICONTROL Definition of a specific proof target]** : lets you query with filters the addresses in the database as the proof target
+* **[!UICONTROL Substitution of the address]** : lets you enter your test addresses and use the target recipient data to validate the content. The substitution addresses can be entered manually or selected from the drop-down list. The associated enumeration is **[!UICONTROL Substitution address (rcpAddress)]**.
 By default, substitution is performed randomly, but you can select a specific recipient from the main target, via the **[!UICONTROL Detail]** icon.
-- **[!UICONTROL Seed addresses]** : lets you access to seed addresses to be proof target. These addresses can be imported from a file or entered manually.
-- **[!UICONTROL Specific target and Seed addresses]** : lets you combine seed addresses and addresses from recipient.
+* **[!UICONTROL Seed addresses]** : lets you access to seed addresses to be proof target. These addresses can be imported from a file or entered manually.
+* **[!UICONTROL Specific target and Seed addresses]** : lets you combine seed addresses and addresses from recipient.
 
 1. After choosing your **[!UICONTROL Targeting mode]**, add your proof addresses according to it
 
