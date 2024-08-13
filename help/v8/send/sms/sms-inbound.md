@@ -21,7 +21,7 @@ An SMS account can only be linked to a single external account to ensure that st
 
 Learn more about the [Inbound SMS activity](../../../automation/workflow/inbound-sms.md).
 
-# InSMS schema
+# InSMS schema {#insms}
 
 The **[!UICONTROL InSMS schema]** contains information relevant to incoming SMS. A description of these fields is available via the desc attribute.
 
@@ -91,65 +91,4 @@ To avoid this, apply one of the following solutions, depending on the provider y
    ![](assets/sms_system_type.png)
 
 The steps for setting up an external account using the Extended generic SMPP connector are detailed in the [SMPP external account documentation](smpp-external-account.md).
-
-## Automatic reply with American regulation
-
-When subscribers reply to an SMS message that was sent to them via Adobe Campaign, and they use a keyword such as STOP, HELP, or YES, it is necessary, in the US market, to configure messages that are automatically returned.
-
-For example, if recipients send the keyword STOP, they automatically receive a confirmation message stating that they have been unsubscribed.
-
-The sender name for this type of message is a short code usually used to send deliveries.
-
->[!IMPORTANT]
->
->The following detailed procedure is only valid for SMPP connectors, except for the extended generic SMPP connector. For more on this, refer to the [Create an SMPP external account](smpp-external-account.md) section.
->
->It makes up part of the certification process carried out by American operators for marketing campaigns in the US. These replies to subscriber SMS messages containing the keyword must be sent back to the subscriber immediately after receiving a message from them.
-
-1. Create this type of XML file:
-
-   ```
-   <autoreply>
-     <shortcode name="12345">
-       <reply keyword="STOP" text="You will not receive SMS anymore" />
-       <reply keyword="HELP" text="Powered by Adobe Campaign" />
-     </shortcode>
-     <shortcode name="43115">
-       <reply keyword="STOP" text="Vous ne recevrez plus de SMS" />
-       <reply keyword="HELP" text="Service rendu par Adobe Campaign" />
-     </shortcode>
-     <shortcode name="*">
-       <reply keyword="ADOBE" text="This text is replied when you send ADOBE to any short code" />
-     </shortcode>
-   </autoreply>
-   ```
-
-1. For the **name** attribute of the **`<shortcode>`** tag, specify the short code that will be displayed in the place of the message sender name.
-
-   In each **`<reply>`** tag, enter the **keyword** attribute with a keyword and the **text** attribute with the message that you would like to send for this keyword.
-
-   >[!NOTE]
-   >
-   >Each keyword must be written in capital letters.
-
-   If you want to send the same message for several keywords, duplicate the corresponding line.
-
-   For example:
-
-   ```
-   <reply keyword="STOP" text="You will not receive SMS anymore" />
-   <reply keyword="QUIT" text="You will not receive SMS anymore" />
-   ```
-
-1. Once completed, save this file under the name **smsAutoReply.xml**.
-
-   Note that the name of the file is case sensitive in Linux.
-
-1. Copy this file into the **conf** directory in Adobe Campaign, at the same place as the Web server.
-
->[!IMPORTANT]
->
->These kinds of automatic messages do not keep a history. Therefore they do not appear in the delivery dashboard.
->
->These messages are not taken into account in the commercial pressure rules. [Learn more](../../../automation/campaign-opt/pressure-rules.md).
 

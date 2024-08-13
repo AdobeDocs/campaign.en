@@ -318,7 +318,6 @@ If enabled, all connections to the SMSC will be encrypted using TLS.
 * **Skip the hostname verification**: Check the remote TLS certificate, but do not check if the remote host name matches. Decreases security slightly.
 * **Skip the certificate verification**: Do not check the TLS certificate at all. The connection is still encrypted, but it is vulnerable to man-in-the-middle attacks. Decreases security a lot.
 
-
 ## Incoming traffic {#incoming-traffic}
 
 ![](assets/incoming_traffic.png){zoomable="yes"}

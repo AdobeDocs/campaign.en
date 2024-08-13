@@ -50,7 +50,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
-      + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.com) 
+      + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
       + [SMPP connector in delivery properties](send/sms/smpp-connector-delivery.md) 
     + Create a SMS
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
@@ -75,7 +75,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Add personalization fields](send/personalization-fields.md)
     + [Use personalization blocks](send/personalization-blocks.md)
     + [Create conditions](send/conditions.md)
-   + Validate & send your delivery {#validate}
+  + Validate & send your delivery {#validate}
     + [Preview and proofs](send/preview-and-proof.md)
     + [Delivery analysis](send/delivery-analysis.md)
     + [Configure and send the delivery](send/configure-and-send.md)
