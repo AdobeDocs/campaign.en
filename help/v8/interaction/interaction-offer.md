@@ -110,10 +110,10 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
 
 1. Define the various parameters of the offer content.
 
-    * **[!UICONTROL Title]** : Specify the title that you would like to make appear in your offer. Warning: this is not referring to the offer's label, which is defined in the **[!UICONTROL General]** tab.
-    * **[!UICONTROL Destination URL]** : specify your offer's URL. It must start with "http://" or "https://".
-    * **[!UICONTROL Image URL]** : specify a URL or an access path to the image of your offer.
-    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as followed:
+    * **[!UICONTROL Title]**: Specify the title that you would like to make appear in your offer. Warning: this is not referring to the offer's label, which is defined in the **[!UICONTROL General]** tab.
+    * **[!UICONTROL Destination URL]**: specify your offer's URL. It must start with "http://" or "https://".
+    * **[!UICONTROL Image URL]**: specify a URL or an access path to the image of your offer.
+    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as followed:
 
    ```
       <div> 

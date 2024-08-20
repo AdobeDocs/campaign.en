@@ -368,10 +368,10 @@ A notification task can have the following statuses:
 
 During creation, the following elements must be entered in the task:
 
-* **[!UICONTROL Assigned to]** : the operator or the group of operators who will receive the email. If you re-assign the task once the email has been sent, the email will not be sent to the new operator (for this to happen, you need to re-initialize the task and change its start date).
+* **[!UICONTROL Assigned to]**: the operator or the group of operators who will receive the email. If you re-assign the task once the email has been sent, the email will not be sent to the new operator (for this to happen, you need to re-initialize the task and change its start date).
 * **Task start date**: date which the notification email will be sent on. This date must take place in the future at the time of recording of the task.
 * **Task end date**: date on which the task status changes to **[!UICONTROL Finished]**. By default, the end date is identical to the start date. However, assigning a duration to the task lets you symbolize the amount of time which the operator has to act in the schedule, if necessary.
-* **[!UICONTROL Description]** : the text entered here will appear in the body of the notification email.
+* **[!UICONTROL Description]**: the text entered here will appear in the body of the notification email.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 

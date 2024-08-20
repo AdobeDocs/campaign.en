@@ -52,11 +52,11 @@ Select the type of web interface to be applied to the campaigns created from the
 
 There are four types of web interfaces available:
 
-* **[!UICONTROL By brief]** : local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.
+* **[!UICONTROL By brief]**: local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : local entity has access to a web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this web form.
+* **[!UICONTROL By form]**: local entity has access to a web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this web form.
 
   ![](assets/mkt_distr_8.png)
 
@@ -68,8 +68,8 @@ There are four types of web interfaces available:
 
   ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : local entity has access to campaign parameters in its extranet (not Adobe Campaign). These parameters are identical to those of a **local campaign (by form)**.
-* **[!UICONTROL Pre-set]** : local entity orders campaign using the default form, without localizing it.
+* **[!UICONTROL By external form]**: local entity has access to campaign parameters in its extranet (not Adobe Campaign). These parameters are identical to those of a **local campaign (by form)**.
+* **[!UICONTROL Pre-set]**: local entity orders campaign using the default form, without localizing it.
 
   ![](assets/mkt_distr_5.png)
 
