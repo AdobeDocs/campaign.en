@@ -16,7 +16,7 @@ For older versions, please read the [Campaign Classic v7 documentation](https://
 Sending SMS deliveries with a mid-sourcing infrastructure requires : 
 
 1. An SMS Operator on the Mid-server. [Learn how to create it here](#sms-operator-mid)
-1. An SMS external account on the Marketing server that will use the operaor created before. [Learn how to create it here](#sms-external-account)
+1. An SMS external account on the Marketing server that will use the operator created before. [Learn how to create it here](#sms-external-account)
 1. An SMPP external account on the Mid server, specifying the Channel and Mid-sourcing Delivery mode. [Learn how to create it here](#smpp-external-account-mid)
 1. A delivery template that references the external account to streamline the sending process. [Learn how to create it here](#sms-delivery-template)
 
