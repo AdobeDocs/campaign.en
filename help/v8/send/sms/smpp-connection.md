@@ -129,7 +129,7 @@ Once all checks are complete, the last action to do is to disable verbose SMPP t
 
 ### General troubleshooting procedure
 
-The SMS connector involves 3 entities : the SMPP provider, Adobe and you. 
+The SMS connector involves 3 entities: the SMPP provider, Adobe and you. 
 The main SMS expert is the SMPP provider, so they should be involved for all SMS traffic-related issues (connection issues, lost messages, encoding problems, country-specific rules, ...).
 
 #### Enable dedicated process
@@ -198,9 +198,9 @@ It is recommended to keep in touch with the provider, they often communicate maj
 
 #### Issues with unstable connections {#unstable-connections}
 
-**How to diagnose unstable connections :**
+**How to diagnose unstable connections:**
 
-A connection is considered unstable if any of these things happen :
+A connection is considered unstable if any of these things happen:
 
 * The connection lasts for less than 1 hour.
 * Restarting the SMS process will "fix" things temporarily. It probably means that an unstable connection triggers throttling, restarting the SMS process clears throttling, then it happens again until the root cause is found.
@@ -208,7 +208,7 @@ A connection is considered unstable if any of these things happen :
 * *enquire_link* times out, either on the Campaign side or on the provider side. You may or may not see ENQUIRE_LINK_RESP with a non-zero error code in that case.
 * There are a lot of BIND PDUs. There should not be more than a few during a day (it depends on the number of connections). More than 1 BIND PDU per hour and per connection should be alerting.
 
-**How to fix connection stability problems :**
+**How to fix connection stability problems:**
 
 * Unstable connections are rarely the root cause, it's often the result of another problem triggering a disconnect in a way or another. Finding the root cause is the priority.
 * Enable verbose SMPP traces. You will need them to see what's happening when the connection restarts.

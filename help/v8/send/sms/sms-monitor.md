@@ -36,7 +36,7 @@ The **[!UICONTROL Tracking]** tab is about the tracking. Below the example of an
 
 ![](assets/sms_trackinglogs.png){zoomable="yes"}
 
-And last, the **[!UICONTROL Audit]** tab with all the details during the launch of the delivery :
+And last, the **[!UICONTROL Audit]** tab with all the details during the launch of the delivery:
 
 ![](assets/sms_audit.png){zoomable="yes"}
 

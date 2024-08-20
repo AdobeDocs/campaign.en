@@ -10,8 +10,9 @@ level: Beginner, Intermediate
 
 >[!IMPORTANT]
 >
->This documentation is for Adobe Campaign v8.7.2 and later.
-For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>This applies to Adobe Campaign v8.7.2 and later.
+>
+>For older versions, refer to the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 ## SMS connector data flow
 
@@ -31,39 +32,39 @@ For each active SMPP account, the SMPP connector tries to keep connections activ
 
 ### Data flow while sending messages
 
-- The SMS process selects active deliveries by scanning nms:delivery. A delivery is active if :
-    - Its state implies that messages can be sent
-    - Its validity period is not expired
-    - It is actually a delivery (e.g. it is not a template, it is not deleted)
-    - The SMPP connector could open at least one connection for the external account linked to the delivery
-- For each delivery, the SMS process loads delivery parts. If the delivery part was partially sent, the SMS process checks which messages were already sent by checking the broad log.
-- The SMS process expands the template with personalization data from the delivery part.
-- The SMPP connector generates a MT (SUBMIT_SM PDU) matching the content and other settings.
-- The SMPP connector sends the MT through a transmitter (or transceiver) connection.
-- The provider returns an ID for this MT. It is inserted into nms:providerMsgId.
-- The SMS process updates the broad log to the sent status.
-- In case of final error, the SMS process updates the broad log accordingly, and may create a new kind of error in nms:broadLogMsg.
+* The SMS process selects active deliveries by scanning nms:delivery. A delivery is active if:
+    * Its state implies that messages can be sent
+    * Its validity period is not expired
+    * It is actually a delivery (e.g. it is not a template, it is not deleted)
+    * The SMPP connector could open at least one connection for the external account linked to the delivery
+* For each delivery, the SMS process loads delivery parts. If the delivery part was partially sent, the SMS process checks which messages were already sent by checking the broad log.
+* The SMS process expands the template with personalization data from the delivery part.
+* The SMPP connector generates a MT (SUBMIT_SM PDU) matching the content and other settings.
+* The SMPP connector sends the MT through a transmitter (or transceiver) connection.
+* The provider returns an ID for this MT. It is inserted into nms:providerMsgId.
+* The SMS process updates the broad log to the sent status.
+* In case of final error, the SMS process updates the broad log accordingly, and may create a new kind of error in nms:broadLogMsg.
 
 ### Data flow while receiving SR
 
-- The SMPP connector receives and decodes the SR (DELIVER_SM PDU). It uses regexes defined in the external account to get message id and status.
-- Message id and status are inserted into nms:providerMsgStatus
-- After being inserted, the SMPP connector replies with a DELIVER_SM_RESP PDU.
-- If anything went wrong during the process, the SMPP connector sends a negative DELIVER_SM_RESP PDU and logs a message.
+* The SMPP connector receives and decodes the SR (DELIVER_SM PDU). It uses regexes defined in the external account to get message id and status.
+* Message id and status are inserted into nms:providerMsgStatus
+* After being inserted, the SMPP connector replies with a DELIVER_SM_RESP PDU.
+* If anything went wrong during the process, the SMPP connector sends a negative DELIVER_SM_RESP PDU and logs a message.
 
 ### Data flow while receiving a MO
 
-- The SMPP connector receives and decodes the MO (DELIVER_SM PDU).
-- The keyword is extracted from the message. If it matches any declared keyword, corresponding actions are executed. It may write to nms:address to update quarantine.
-- If custom TLV are declared, they are decoded according to their respective settings.
-- The fully decoded and processed MO is inserted into the nms:inSms table.
-- The SMPP connector replies with a DELIVER_SM_RESP PDU. If any error was detected, an error code will be returned to the provider.
+* The SMPP connector receives and decodes the MO (DELIVER_SM PDU).
+* The keyword is extracted from the message. If it matches any declared keyword, corresponding actions are executed. It may write to nms:address to update quarantine.
+* If custom TLV are declared, they are decoded according to their respective settings.
+* The fully decoded and processed MO is inserted into the nms:inSms table.
+* The SMPP connector replies with a DELIVER_SM_RESP PDU. If any error was detected, an error code will be returned to the provider.
 
 ### Data flow while reconciling MT and SR
 
-- The SR reconciliation component periodically reads nms:providerMsgId and nms:providerMsgStatus. Data from both tables is joined.
-- For all messages that have an entry in both tables, the matching nms:broadLog entry is updated.
-- The nms:broadLogMsg table may be updated in the process if a new kind of error is detected, or to update counters for errors that were not manually qualified.
+* The SR reconciliation component periodically reads nms:providerMsgId and nms:providerMsgStatus. Data from both tables is joined.
+* For all messages that have an entry in both tables, the matching nms:broadLog entry is updated.
+* The nms:broadLogMsg table may be updated in the process if a new kind of error is detected, or to update counters for errors that were not manually qualified.
 
 ## Matching MT, SR and broadlog entries
 
@@ -73,30 +74,30 @@ Here is a diagram describing the whole process:
 
 **Phase 1**
 
-- The message is scanned, formatted then transmitted to the SMPP connector.
-- The SMPP connector formats it as a SUBMIT_SM MT PDU.
-- The MT is sent to the SMPP provider.
-- The provider replies with SUBMIT_SM_RESP. SUBMIT_SM and SUBMIT_SM_RESP are matched by their sequence_number.
-- SUBMIT_SM_RESP provides an id coming from the provider. This id is inserted along with the broad log id into the nms:providerMsgId table.
+* The message is scanned, formatted then transmitted to the SMPP connector.
+* The SMPP connector formats it as a SUBMIT_SM MT PDU.
+* The MT is sent to the SMPP provider.
+* The provider replies with SUBMIT_SM_RESP. SUBMIT_SM and SUBMIT_SM_RESP are matched by their sequence_number.
+* SUBMIT_SM_RESP provides an id coming from the provider. This id is inserted along with the broad log id into the nms:providerMsgId table.
 
 **Phase 2**
 
-- The provider sends a DELIVER_SM SR PDU.
-- The SR is parsed to extract provider id, status and error code. This step uses extraction regexes.
-- The provider id and its corresponding status are inserted into nms:providerMsgStatus.
-- When all data is safely inserted into the database, the SMPP connector replies with DELIVER_SM_RESP. DELIVER_SM and DELIVER_SM_RESP are matched by their sequence_number.
+* The provider sends a DELIVER_SM SR PDU.
+* The SR is parsed to extract provider id, status and error code. This step uses extraction regexes.
+* The provider id and its corresponding status are inserted into nms:providerMsgStatus.
+* When all data is safely inserted into the database, the SMPP connector replies with DELIVER_SM_RESP. DELIVER_SM and DELIVER_SM_RESP are matched by their sequence_number.
 
 **Phase 3**
 
-- The SR reconciliation component of the SMS process scans both nms:providerMsgId and nms:providerMsgStatus tables periodically.
-- If any row has matching provider ids in both tables, the 2 entries are joined together. This allows matching the broad log id (stored in providerMsgId) with the status (stored in providerMsgStatus)
-- The broad log is updated with the corresponding status.
+* The SR reconciliation component of the SMS process scans both nms:providerMsgId and nms:providerMsgStatus tables periodically.
+* If any row has matching provider ids in both tables, the 2 entries are joined together. This allows matching the broad log id (stored in providerMsgId) with the status (stored in providerMsgStatus)
+* The broad log is updated with the corresponding status.
 
 ## Affinities and the dedicated process connector
 
 Affinities are ignored by the dedicated process connector, it just runs inside the SMS process.
 
-# serverConf options {#serverconf-options}
+## serverConf options {#serverconf-options}
 
 Some settings can be tuned in serverConf.xml. Like any other settings in this file, it should be specified in the config-instance.xml file. All settings are in the < mta2 > element.
 

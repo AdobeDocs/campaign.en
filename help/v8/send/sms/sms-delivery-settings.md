@@ -11,10 +11,11 @@ level: Beginner, Intermediate
 >[!IMPORTANT]
 >
 >This documentation is for Adobe Campaign v8.7.2 and later.
-For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>
+>For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
-The technical settings needed for a SMS delivery are : 
-- The routing : [the SMPP external account](smpp-external-account.md#smpp-connection-settings)
+The technical settings needed for a SMS delivery are: 
+- The routing: [the SMPP external account](smpp-external-account.md#smpp-connection-settings)
 - [The **[!UICONTROL SMS]** tab](#sms-tab)
 
 You can set up all of these in a delivery template in order to avoid to do the settings for each SMS delivery creation.
@@ -38,7 +39,8 @@ If this field is left empty, the value of the Source number field defined in the
 >[!NOTE]
 >
 >Using this feature is discouraged. Optional SMPP parameters provide a much more flexible implementation.
-Both features cannot be used at the same time.
+>
+>Both features cannot be used at the same time.
 
 In combination with the matching external account setting, allows sending one optional parameter with each MT. This field defines the value part of the TLV.
 
@@ -87,7 +89,7 @@ When using binary formats, special values '' (empty string), 'null' and 'undefin
 
 ## Create a SMS delivery {#sms-delivery}
 
-To create a new SMS delivery, follow the steps below : 
+To create a new SMS delivery, follow the steps below: 
 
 1. Create a new delivery, for example from the Delivery Dashboard, or in your Delivery folder in **[!UICONTROL Explorer]**. 
 By default, it will be labeled "Email delivery"

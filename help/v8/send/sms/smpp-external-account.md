@@ -27,15 +27,15 @@ The network equipment on the SMS service provider side is often called the SMSC.
 
 ![](assets/smpp_connection_settings.png){zoomable="yes"}
 
-Here are the parameters and their role needed to set up the connection : 
+Here are the parameters and their role needed to set up the connection: 
 
-* **SMSC implementation name** : sets the name of the SMSC implementation. It should be set to the name of your provider. The role of this field is described in the SMPP error management section.
-* **Server** : The DNS name or IP address of the server to connect to.
-* **Port** : The TCP port to connect to.
-* **Account** : The login of the connection. Passed in the system_id field of the BIND PDU.
-* **Password** : Password of the SMPP connection. Passed in the password field of the BIND PDU.
-* **System type** : Value passed in the system_type field of the BIND PDU. Some providers need a specific value here.
-* **Number of MTA child connections** : This defines how many connections are opened per sending thread.
+* **SMSC implementation name**: sets the name of the SMSC implementation. It should be set to the name of your provider. The role of this field is described in the SMPP error management section.
+* **Server**: The DNS name or IP address of the server to connect to.
+* **Port**: The TCP port to connect to.
+* **Account**: The login of the connection. Passed in the system_id field of the BIND PDU.
+* **Password**: Password of the SMPP connection. Passed in the password field of the BIND PDU.
+* **System type**: Value passed in the system_type field of the BIND PDU. Some providers need a specific value here.
+* **Number of MTA child connections**: This defines how many connections are opened per sending thread.
 The total number of connections can be computed using this formula:
 *Total connections = Number of SMS processes * number of sending threads * number of MTA child connections*
 
@@ -45,19 +45,18 @@ The total number of connections can be computed using this formula:
     
     With default values, this setting directly sets the number of connections.
 
->[!NOTE]
->
->In **transceiver mode**, this is the total number of connections.
+In **transceiver mode**, this is the total number of connections.
+
 In **transmitter+receiver mode**, this defines the number of transmitter+receiver pairs (one pair = one transmitter + one receiver). 
 There is no way to change the balance between transmitters and receivers.
 
-* **Send messages through a dedicated process** :
+* **Send messages through a dedicated process**:
 For Adobe Campaign v8.7.2 and later, this option should be always enabled. It has many impacts on how messages are processed.
-* **SMPP connection mode** :
+* **SMPP connection mode**:
 Set the connection in transceiver mode or in separated transmitter+receiver mode. 
     * Transmitter+receiver (or TX+RX): two separate TCP connections are used for transmitting and receiving messages.
     * Transceiver (or TRX): a single TCP connection is used for transmitting and receiving messages.
-* **Use different parameters for receiver** :
+* **Use different parameters for receiver**:
 Available only in transmitter+receiver mode.
 When the box is unchecked, the same settings are used for transmitter and receiver. When the box is checked, standard settings will apply only to the transmitter, while receiver settings will apply only to the receiver.
 * **Receiver server, port, account, password, system type**

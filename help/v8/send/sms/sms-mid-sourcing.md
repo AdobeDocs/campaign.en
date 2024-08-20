@@ -11,9 +11,10 @@ level: Beginner, Intermediate
 >[!IMPORTANT]
 >
 >This documentation is for Adobe Campaign v8.7.2 and later.
-For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>
+>For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
-Sending SMS deliveries with a mid-sourcing infrastructure requires : 
+Sending SMS deliveries with a mid-sourcing infrastructure requires: 
 
 1. An SMS Operator on the Mid-server. [Learn how to create it here](#sms-operator-mid)
 1. An SMS external account on the Marketing server that will use the operator created before. [Learn how to create it here](#sms-external-account)
@@ -24,26 +25,27 @@ Sending SMS deliveries with a mid-sourcing infrastructure requires :
 
 First, you need to create an SMS operator on the Mid-server, that will be used by the SMS external account on the Marketing server.
 
-To create you SMS operator, follow the steps below : 
+To create you SMS operator, follow the steps below: 
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**, click on the **[!UICONTROL New]** and fill in the form in the new window opened. 
 
-**[!UICONTROL Name (login)]** and **[!UICONTROL Label]** are mandatory.
-Password is not mandatory but highly recommended for the security.
+    * **[!UICONTROL Name (login)]** and **[!UICONTROL Label]** are mandatory.
+    * Password is not mandatory but highly recommended for the security.
 
-Note that the Name (login) is to be later used to name your SMPP external account in the Mid-server.
+    Note that the Name (login) is to be later used to name your SMPP external account in the Mid-server.
 
-![](assets/smsoperator_mid.png){zoomable="yes"}
+    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. In **[!UICONTROL Groups and named rights]** part, click on **[!UICONTROL Add]** button.
 On the new window opened, choose **[!UICONTROL Named rights]** in the **[!UICONTROL Folder]** list, and select **[!UICONTROL ADMINISTRATION]** in the right list.
-Click on **[!UICONTROL Ok]** button.
 
-![](assets/smsoperator_rights.png){zoomable="yes"}
+1. Click on **[!UICONTROL Ok]** button.
+
+    ![](assets/smsoperator_rights.png){zoomable="yes"}
 
 1. Click on **[!UICONTROL Save]** button to finalize the creation of your SMS operator. 
 
-![](assets/smsoperator_save.png){zoomable="yes"}
+    ![](assets/smsoperator_save.png){zoomable="yes"}
 
 You can see it in the operators list now.
 
@@ -66,7 +68,8 @@ In a mid infrastructure, you need to create a SMS external account on the Market
     ![](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mid-sourcing]** tab, fill in the form with the mid-sourcing server URL and the SMS operator created previously on the mid server.
-Confirm the connection by clicking on **[!UICONTROL Test the connection]** button.
+
+    Confirm the connection by clicking on **[!UICONTROL Test the connection]** button.
 
     ![](assets/midtab_smsextaccount.png){zoomable="yes"}
 
@@ -80,7 +83,7 @@ Confirm the connection by clicking on **[!UICONTROL Test the connection]** butto
 
 The goal is now to establish your SMPP external account on the Mid-server.
 
-To do this, follow the steps below : 
+To do this, follow the steps below: 
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** of the Mid-server, click the **[!UICONTROL New]** icon
 
@@ -95,10 +98,11 @@ Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Ena
 ![](assets/mid_extaccount.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
-The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
+    
+    The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
 
-![](assets/sms_extaccount_connector.png){zoomable="yes"}
-
+    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
+    
 To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
 
 ## Configure the delivery template {#sms-delivery-template}

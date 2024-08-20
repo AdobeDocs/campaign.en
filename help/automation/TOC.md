@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Campaign Automation Guide
 user-guide-description: Campaign Automation Guide
-feature : Overview
+feature: Overview
 ---
 
 # Campaign Automation Guides {#automation}

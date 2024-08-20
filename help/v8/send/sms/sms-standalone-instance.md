@@ -11,9 +11,10 @@ level: Beginner, Intermediate
 >[!IMPORTANT]
 >
 >This documentation is for Adobe Campaign v8.7.2 and later.
-For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>
+>For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
-In a standalone instance, sending a SMS delivery requires : 
+In a standalone instance, sending a SMS delivery requires: 
 
 1. An **external account** specifying a connector and the type of message, [learn more here](#external-account)
 
@@ -25,7 +26,7 @@ In a standalone instance, sending a SMS delivery requires :
 >
 >Using the same account and password for multiple external SMS accounts can result in conflicts and overlap between the accounts. Learn more on [SMS troubleshooting page](smpp-connection.md#sms-troubleshooting). 
 
-Here are the steps to create your SMPP external account : 
+Here are the steps to create your SMPP external account: 
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**, click the **[!UICONTROL New]** icon
 

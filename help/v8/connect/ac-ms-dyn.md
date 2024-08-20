@@ -196,7 +196,7 @@ For Microsoft Dynamics 365 supported/unsupported attribute types are listed belo
 
 | Attribute  type                                                                   | Supported |
 | --------------------------------------------------------------------------------- | --------- |
-| Basic types : boolean, datetime, decimal, float, double, integer, bigint , string | Yes       |
+| Basic types: boolean, datetime, decimal, float, double, integer, bigint , string | Yes       |
 | Money (as double)                                                                 | Yes       |
 | memo, entityname , primarykey, uniqueidentifier (as strings)                      | Yes       |
 | Status, picklist (we store the possible values in enumerations), state (string)   | Yes       |
