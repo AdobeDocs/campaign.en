@@ -91,8 +91,8 @@ To do this, follow the steps below:
 
 >[!WARNING]
 >
->When assigning an Internal name, make sure to follow the specified naming convention:
-*SMS Operator Name_Internal Name of the Marketing SMS external account* 
+>When assigning an Internal name, make sure to follow the specified naming convention: `SMS Operator Name_Internal Name of the Marketing SMS external account`.
+>
 
 Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Bulk delivery]** for the delivery mode.
 ![](assets/mid_extaccount.png){zoomable="yes"}
@@ -102,7 +102,7 @@ Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Ena
     The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
 
     ![](assets/sms_extaccount_connector.png){zoomable="yes"}
-    
+
 To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
 
 ## Configure the delivery template {#sms-delivery-template}
