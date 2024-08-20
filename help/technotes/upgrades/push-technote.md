@@ -21,7 +21,7 @@ In addition, Adobe highly recommends to move to the token-based connection to AP
 
 ### What changed? {#fcm-changes}
 
-As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **June 20, 2024**. Learn more about Firebase Cloud Messaging HTTP protocol in [Google Firebase documentation](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+As part of Google's continual effort to improve its services, the legacy FCM APIs will be discontinued on **July 22, 2024**. Learn more about Firebase Cloud Messaging HTTP protocol in [Google Firebase documentation](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7 and Adobe Campaign v8 already support the latest APIs to send push notification messages. However, some old implementations still rely on the legacy APIs. These implementations must be updated.
 
@@ -71,12 +71,14 @@ To move your environment to HTTP v1, follow these steps:
 1. As an option, you can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device. 
 1. Click **[!UICONTROL Finish]** then **[!UICONTROL Save]**. 
 
-Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
+   Below are the FCM payload names to further personalize your push notification. These options are detailed [here](#fcm-apps).
 
-| Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
-|:-:|:-:|:-:|
-| data message  | N/A  | validate_only  |
-| notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+   | Message type | Configurable message element (FCM payload name) |  Configurable options (FCM payload name) |
+   |:-:|:-:|:-:|
+   | data message  | N/A  | validate_only  |
+   | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+1. Once transition HTTP v1 is done, you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the [Message Batch quantity](../../v8/send/configure-and-send.md#delivery-batch-quantity) to **256**. Apply this change to all delivery templates used for your Android deliveries, and to all your existing Android deliveries.
 
 
 >[!NOTE]
@@ -101,7 +103,6 @@ You can:
 * Set the **[!UICONTROL Visibility]** level of your notification to public, private or secret. 
 
 For more on the **[!UICONTROL HTTP v1 additional options]** and how to fill these fields, refer to [FCM documentation](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 

@@ -139,15 +139,19 @@ To try out the connection, follow the steps detailed in the [Adobe Developer C
 
 ### Step 8 - Update the third-party API Integrations {#ims-migration-step-8}
 
-You must now update off of the API Integrations making calls into Adobe Campaign to use the newly created Technical Account. 
+You must now update all of the API Integrations making calls into Adobe Campaign to use the newly created Technical Account. 
 
 For further more details about API integration steps, including a sample code for smooth integration, refer to [Adobe Developer Console authentication documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Below are sample SOAP calls showing the before and after migration calls for the third party systems.
 
+When using Adobe Identity Management System (IMS) authentication, to generate a WSDL file, you should add the `Authorization: Bearer <IMS_Technical_Token_Token>` in the postman call:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 Once the migration process is achieved and validated, the Soap Calls are updated as below:
-
-
 
 * Before the migration: there was no support for Technical account access token.
 
@@ -196,15 +200,13 @@ Once the migration process is achieved and validated, the Soap Calls are updated
     </soapenv:Envelope>
     ```
 
-
-
-### Step 9 - (optional) Update the technical account operator within the Campaign Client Console {#ims-migration-step-9}
+### Step 9 - (optional) Update the technical account operator within the Campaign client console {#ims-migration-step-9}
 
 This step is optional and only available within the Marketing Instance(s), not within any Message Center instance. If specific folder permissions or named rights have been defined for the Technical Operator not via the assigned Operator Group(s). You would now need to update the newly created Technical Account user in the Admin Console to grant the folder permissions or named rights required.
 
 Note that the Technical Account user will NOT exist in Adobe Campaign until at least one API call is made to the Campaign Instance, at which time IMS will create the user within Campaign. If you are unable to locate the technical users within Campaign, ensure you have been able to successfully send an API call as outlined [in Step 7](#ims-migration-step-7).
 
-1. To apply the changes needed for the new Technical Account User, locate them within the Campaign Client Console by email address. This email address was created during the Project Creation and Authentication steps above. 
+1. To apply the changes needed for the new Technical Account User, locate them within the Campaign client console by email address. This email address was created during the Project Creation and Authentication steps above. 
 
     You can locate this email address by clicking on the **OAuth Server-to-Server** heading in the **Credentials** section of the Project.
 
@@ -214,11 +216,11 @@ Note that the Technical Account user will NOT exist in Adobe Campaign until at l
 
     ![](assets/do-not-localize/ims-updates-08.png) 
 
-1. You now need to update the newly created technical operator in Adobe Campaign Client Console. You must apply the existing technical operator folder permissions to the new technical operator.
+1. You now need to update the newly created technical operator in Adobe Campaign client console. You must apply the existing technical operator folder permissions to the new technical operator.
 
     To update this operator, follow these steps:
 
-    1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+    1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
     1. Access the existing technical operator used for APIs.
     1. Browse to the folder permissions, and check rights.
     1. Apply the same permissions to the newly created technical operator. This operator's email is the **Technical Account Email** value copied earlier.
@@ -227,11 +229,11 @@ Note that the Technical Account user will NOT exist in Adobe Campaign until at l
 
 >[!CAUTION]
 >
->The new technical operator must have made at least one API call to be added to Campaign Client Console.
+>The new technical operator must have made at least one API call to be added to Campaign client console.
 >
 
 ### Step 10 - Remove the old technical operator from Adobe Campaign {#ims-migration-step-10}
 
-Once you have migrated all of the third-party systems to use the new Technical Account with IMS Authentication you can delete the old technical operator from the Campaign Client Console. 
+Once you have migrated all of the third-party systems to use the new Technical Account with IMS Authentication you can delete the old technical operator from the Campaign client console. 
 
-You do this by logging into the Campaign Client Console, navigating to **Administration > Access Management > Operators** and locating the old Technical Users and deleting them.
+You do this by logging into the Campaign client console, navigating to **Administration > Access Management > Operators** and locating the old Technical Users and deleting them.

@@ -12,7 +12,7 @@ This section presents information on how to monitor your workflows' execution.
 
 A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](workflow-supervision.md#supervising-workflows).
 
-Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. Learn more about Audit trail in  [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
+Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. Learn more about Audit trail in this [page](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## Displaying progress {#displaying-progress}
 

@@ -790,7 +790,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
 ## Variables {#variables}
 
-The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign Client Console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service. 
+The variables let you define mobile application behavior after receiving a notification. These variables must be defined in the mobile application code and in the Adobe Campaign client console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application. 
 
 
 Below is an example of a code that allows a mobile application to collect any added variables in a notification. In our example, we are using the "VAR" variable.

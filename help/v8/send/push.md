@@ -10,14 +10,13 @@ exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 
 Mobile app deliveries let you send notifications to iOS and Android devices.
 
-Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. [Learn more on push configuration.](push-settings.md)
+Before beginning to send push notifications with Adobe Campaign, you need to ensure configurations and integrations are in place on the mobile app and for tags in Adobe Experience Platform. [Learn more about push configuration.](push-settings.md).
 
 >[!CAUTION]
 >
->Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. [Learn more](../../technotes/upgrades/push-technote.md).
+>Some important changes to the Android Firebase Cloud Messaging (FCM) service are being released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action. [Learn more](../../technotes/upgrades/push-technote.md).
 
-
-## Create your first push notification{#push-create}
+## Create your first push notification {#push-create}
 
 This section details the elements specific to the delivery of iOS and Android notifications.
 
@@ -25,9 +24,13 @@ This section details the elements specific to the delivery of iOS and Android no
 >
 >In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), mobile registration is now **asynchronous**. [Learn more](../architecture/staging.md)
 
+
 To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
 
 ![](assets/delivery_step_1.png)
+
+
+By default, Adobe Campaign comes with two delivery templates: one for iOS, one for Android. You can duplicate them to define your own settings. Steps to configure a push delivery based on these templates are detailed below.
 
 >[!BEGINTABS]
 
@@ -126,6 +129,11 @@ To send notifications on Android devices, follow these steps:
 1. Select the **[!UICONTROL Deliver on Android (android)]** delivery template.
 
     ![](assets/push-template-android.png)
+    
+     >[!NOTE]
+     > 
+     >With the latest FCM APIs (HTTP v1), you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the [Message Batch quantity](../../v8/send/configure-and-send.md#delivery-batch-quantity) to **256**. Apply this change to all delivery templates used for your Android deliveries, and to all your existing Android deliveries.
+
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
@@ -149,7 +157,8 @@ To send notifications on Android devices, follow these steps:
 
 >[!ENDTABS]
 
-## Test, send and monitor your push notifications
+
+## Test, send and monitor your push notifications {#push-test}
 
 To send a proof and to send the final delivery, use the same process as for other deliveries. 
 

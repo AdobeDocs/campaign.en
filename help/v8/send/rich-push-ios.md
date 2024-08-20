@@ -8,6 +8,10 @@ level: Beginner
 ---
 # Design an iOS rich push delivery {#rich-push}
 
+>[!IMPORTANT]
+>
+>Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) for the detailed procedure.
+
 ## Define the content of an iOS notification {#push-message}
 
 Once your push delivery is created, you can define its content using one of the following templates:
@@ -98,9 +102,9 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
-1. For further customization, explore the **[!UICONTROL Advanced options]** available for your push notifications. [Learn more](#push-advanced)
-
     ![](assets/rich_push_ios_carousel_4.png)
+
+1. For further customization, explore the **[!UICONTROL Advanced options]** available for your push notifications. [Learn more](#push-advanced)
 
 1. In the **[!UICONTROL Color options]** menu, enter hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 

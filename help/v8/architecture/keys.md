@@ -8,7 +8,7 @@ exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 ---
 # Key management and unicity {#key-management}
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), the primary key is a Universally Unique IDentifier (UUID), which is a string on characters. To create this UUID, the main element of the schema must contain the **autouuid** and **autopk** attributes set to **true**.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), the primary key is a Universally Unique IDentifier (UUID), which is a string of characters. To create this UUID, the main element of the schema must contain the **autouuid** and **autopk** attributes set to **true**.
 
 Adobe Campaign v8 uses [!DNL Snowflake] as the core Database. The distributed architecture of the [!DNL Snowflake] database does not provide mechanism to ensure the unicity of a key within a table: end-users are responsible for key consistency within the Adobe Campaign database.
 

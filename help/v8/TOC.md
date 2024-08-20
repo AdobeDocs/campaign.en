@@ -7,17 +7,18 @@ description: Campaign v8 documentation
 breadcrumb-title: Campaign v8 Documentation
 ---
 
-# Adobe Campaign v8 Documentation {#campaign-v8}
+# Adobe Campaign v8 (console) Documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
 + Releases notes {#releases}
   + [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
-  + [Latest release](start/release-notes.md)
-  + Previous release notes {#previous-rn}
-    + [2023 releases](start/release-notes-2023.md)
-    + [2022 releases](start/release-notes-2022.md)
-    + [2021 releases](start/release-notes-2021.md)
+  + [Latest releases](start/release-notes.md)
+  + Previous releases {#previous-rn}
+    + [2024](start/release-notes-2024.md)
+    + [2023](start/release-notes-2023.md)
+    + [2022](start/release-notes-2022.md)
+    + [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
@@ -28,7 +29,8 @@ breadcrumb-title: Campaign v8 Documentation
   + [Discover the user interface](start/campaign-ui.md)
   + [Connect to Campaign](start/connect.md)
   + [Components and processes](start/ac-components.md)
-  + [From Classic v7 to v8](start/v7-to-v8.md)
+  + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
+  + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [FAQ](start/campaign-faq.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
@@ -93,9 +95,12 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage subscriptions](start/subscriptions.md)
 + Content Management {#content}
   + [Design web apps and forms](dev/webapps.md)
++ Automation and workflows {#automation}
+  + [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
+  + [Enhanced security add-on](config/enhanced-security.md)
 + Decision Management {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
@@ -116,6 +121,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting and Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
+  + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)
     + Create cubes{#cubes}
@@ -193,6 +199,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Use a custom recipient table](dev/custom-recipient.md)
     + [Update the database](dev/update-database-structure.md)
     + [Input forms](dev/forms.md)
+  + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
-+ [Campaign Control Panel >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
-+ [Campaign Automation Guide >](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign technotes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
+

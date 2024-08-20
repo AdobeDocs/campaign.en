@@ -8,72 +8,87 @@ exl-id: 36033255-1e75-41c1-9816-126777f7330a
 ---
 # Configure and send the delivery {#configure-delivery}
 
+Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery [priority](#delivery-priority), set up [waves](#sending-using-multiple-waves), and test your delivery sending. Once this configuration is done, you can confirm the sending as described in [this section](#confirm-delivery). Messages are then sent immediately, or based on the delivery [schedule](#schedule-delivery-sending).
+
 ## Set additional parameters {#delivery-additional-parameters}
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**: use this option to change the sending order for your deliveries by setting their priority level, from **[!UICONTROL Very low]** to **[!UICONTROL Very high]** (the default value being **[!UICONTROL Normal]**). 
+### Delivery priority {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**: use this option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+Use the **[!UICONTROL Delivery priority]** option to change the sending order for your deliveries by setting their priority level, from **[!UICONTROL Very low]** to **[!UICONTROL Very high]** (the default value being **[!UICONTROL Normal]**). 
 
-  >[!IMPORTANT]
-  >
-  >When the delivery is created by duplicating an existing one, this parameter is reset.
+### Batch quantity {#delivery-batch-quantity}
 
-* **[!UICONTROL Send using multiple waves]**: use this option to send your messages in batches rather than to your whole audience at once. [Learn more](#sending-using-multiple-waves).
+Use the  **[!UICONTROL Message batch quantity]** option to define the number of messages grouped within the same XML delivery package. If the parameter is set to 0, the messages are automatically grouped. The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
 
-* **[!UICONTROL Test SMTP delivery]**: use this option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+>[!IMPORTANT]
+>
+>When the delivery is created by duplicating an existing one, this parameter is reset.
 
-  >[!NOTE]
-  >
-  >* This option must not be set in mid-sourcing. 
-  >
-  >* Learn more about SMTP server configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### Test your delivery sending
 
-* **[!UICONTROL Email BCC]**: use this option to store emails on an external system through BCC by simply adding a BCC email address to your message target. [Learn more](email-parameters.md).
+Use the  **[!UICONTROL Test SMTP delivery]** option to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+>[!NOTE]  
+>
+>* This option must not be set in mid-sourcing. 
+>
+>* Learn more about SMTP server configuration in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Send using multiple waves {#sending-using-multiple-waves}
 
 To balance the load, you can divide deliveries into several batches. Configure the number of batches and their proportion with respect to the entire delivery.
 
->[!NOTE]
->
->You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+### Enable waves {#enable-waves}
 
-1. Open the delivery properties window and click the **[!UICONTROL Delivery]** tab.
-1. Select the **[!UICONTROL Send using multiple waves]** option and click the **[!UICONTROL Define waves...]** link.
+To define waves, follow these steps:
+
+1. Open the delivery properties and browse to the **[!UICONTROL Delivery]** tab.
+1. Enable the **[!UICONTROL Send using multiple waves]** option, and click the **[!UICONTROL Define waves...]** link.
 
    ![](assets/delivery-define-waves.png)
 
-1. To configure waves, you can either:
+### Configure waves {#config-waves}
 
-    * Define the size for each wave. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+>[!NOTE]
+>
+>You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
+   
+You can either define the size of each waves, or add them to a calendar.
 
-      In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
+* **Define the size for each wave**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
 
-      ![](assets/delivery-waves-size.png)
+  In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
 
-    * Define a calendar for sending each wave.
+  ![](assets/delivery-waves-size.png)
 
-      In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
+* **Define a calendar for sending each wave**.  For example, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
-      In the example below, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
+  In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
-      ![](assets/delivery-waves-calendar.png)
+  ![](assets/delivery-waves-calendar.png)
 
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+### Wave scheduling check {#check-waves}
 
-   >[!IMPORTANT]
-   >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent.  
-   >
-   >You must also allow enough time for retries when configuring the last waves. <!--See [this section]().-->
+A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
-1. To monitor your sends, go to the delivery logs. See [this page](send.md)<!--ref TBC-->.
+>[!IMPORTANT]
+>
+>Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
+>
+>You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
 
-   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+### Monitor waves {#monitor-waves}
+
+To monitor your sends, browse to the delivery logs. See [this page](send.md)
+
+You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+
+
+### Waves samples {#samples-waves}
 
 The two examples below are the most common use cases for using multiple waves.
 
@@ -87,11 +102,11 @@ The two examples below are the most common use cases for using multiple waves.
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **Campaigns involving a call center**
+* **Campaigns with a call center**
 
-  When managing a telephone loyalty campaign, your organization has a limited capacity to process the number of calls to contact subscribers.
+  When managing a loyalty campaign by phone, your organization has a limited capacity to process the number of calls to contact subscribers.
 
-  Using waves, you can restrict the number of messages to 20 per day, which is the daily processing capacity of a call center.
+  Using waves, you can restrict the number of messages to 20 per day, for example, considering the daily processing capacity of a call center.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 

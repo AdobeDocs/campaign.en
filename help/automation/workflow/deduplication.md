@@ -10,7 +10,7 @@ exl-id: f79a979d-bd1d-4a86-8844-563886692941
 
 
 
-Deduplication deletes duplicates from the results of inbound activities. Deduplication can be performed on the email address, telephone number, or another field.
+Deduplication deletes duplicates from the results of inbound activities. Deduplication can be performed on the email address, phone number, or another field.
 
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. For example, the records below could be considered duplicate as they have the same email address and same mobile and/or home phone.
 

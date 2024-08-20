@@ -11,7 +11,7 @@ exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 
 >[!IMPORTANT]
 >
->Before designing a Rich Push Notification, you first need to configure your connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
+>Before designing a Rich Push Notification, you first need to configure your V2 connector. Refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) for the detailed procedure.
 
 With Firebase Cloud Messaging, you can choose between two types of messages:
 
@@ -159,7 +159,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Under the **[!UICONTROL Icon image buttons]**, click **[!UICONTROL Add image]**. Then, enter the **Image URL**, **Link type**, and **Link URI**.
 
-    Ensure you include a minimum of three buttons and a maximum of five buttons.
+    Ensure you include a minimum of three images and a maximum of five buttons.
 
     ![](assets/rich_push_icon_3.png)
 
@@ -271,6 +271,8 @@ Once you have defined your message content, you can use test subscribers to prev
     ![](assets/rich_push_rating_4.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
+
+    ![](assets/rich_push_carousel_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 

@@ -18,6 +18,10 @@ Use a **[!UICONTROL Change Data Source]** activity to use a different data sourc
 
 Note that when using the **[!UICONTROL Change Data Source]** activity, you need to switch back to the Cloud database to continue the workflow execution.
 
+>[!IMPORTANT]
+>
+>Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+
 To use the **[!UICONTROL Change Data Source]** activity, you must:
 
 1. Create a workflow.

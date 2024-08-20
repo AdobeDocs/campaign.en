@@ -3,25 +3,24 @@ product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
+exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 ---
 # Audit trail{#audit-trail}
 
-The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a granular record of all modifications made to your instance. Functioning as a real-time log, it captures a detailed list of actions and events as they occur. 
+The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a granular record of all modifications made to important entities within your instance, typically those that significantly impact a smooth operation of the instance. Functioning as a real-time log, it captures a detailed list of actions and events as they occur. 
 
 >[!NOTE]
 >
 >Adobe Campaign is not auditing changes made within user rights, templates, personalization or campaigns.  
 >Audit trail can only be managed by administrators of the instance.
 
-Audit Trail consists of four components:
-
 +++ Learn more on Audit Trail available entities
 
-* **Schema audit trail**: allows you to explore who made changes to your schemas and when these modifications occurred.
+* **Schema audit trail**: allows you to explore the changes made to your schemas, as well as identify who made these modifications and when they occurred.
 
   For detailed information on schemas, refer to [page](../dev/schemas.md).
 
-* **Workflow audit trail** tracks all activities related to your workflows, including:
+* **Workflow audit trail** tracks all actions related to your workflows, including:
 
     * Start
     * Pause
@@ -42,13 +41,13 @@ Audit Trail consists of four components:
 
 * **Delivery audit trail** allows you to check the activities and last modifications done to your deliveries. 
 
-  For more information on deliveries, refer to this [page](../send/email.md).
+  For more information on deliveries, refer to this [page](../start/create-message.md).
 
 * **External Account** allows you to check modifications made to external accounts, used by technical processes such as technical workflows or campaign workflows.
 
   For more information on external account, refer to this [page](../config/external-accounts.md).
 
-* **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mapping. 
+* **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mappings. 
 
   For more information on delivery mapping, refer to this [page](../audiences/target-mappings.md).
 
@@ -71,11 +70,12 @@ Audit Trail consists of four components:
 To access your instance's **[!UICONTROL Audit trail]**:
 
 1. Access the **[!UICONTROL Explorer]** menu of your instance.
+
 1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit]** then **[!UICONTROL Audit Trail]**.
 
    ![](assets/audit-trail-1.png)
 
-1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Adobe Campaign will audit the create, edit and delete actions for workflows, options and schemas.
+1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Adobe Campaign will audit the create, edit and delete actions for your different entities.
 
    Select one of the entities to learn more about the last modifications.
 
@@ -91,7 +91,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 >[!NOTE]
 >
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]**.
+>By default, retention period is set to 180 days for **[!UICONTROL Audit logs]**. This value can be modified in the deployment wizard.
 
 ## Enable/disable Audit trail {#enable-disable-audit-trail}
 

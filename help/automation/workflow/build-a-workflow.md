@@ -127,9 +127,7 @@ In addition to the usual workflow properties, the template properties allow you 
 
 You can duplicate different types of workflows. Once duplicated, modifications of the workflow are not carried over to the copy of the workflow.
 
->[!CAUTION]
->
->Copy-paste is available in workflows but we recommend you to use **Duplicate**. Once an activity copied, its whole configuration is kept. For delivery activities (Email, SMS, Push Notification...), the delivery object attached to the activity is also copied which can lead to crash.
+Adobe recommends to duplicate a workflow rather than performing a copy/paste of activities. When an activity is copied, all its settings is kept. For channel activities, the delivery object associated to the activity is also copied, which can lead to major issues.
 
 1. Right-click on a workflow.
 1. Click **Duplicate**.
@@ -139,31 +137,3 @@ You can duplicate different types of workflows. Once duplicated, modifications o
 1. In the workflow window, change the workflow label.
 1. Click **Save**.
 
-The duplicate feature is not directly available in the view of a campaign.
-
-Yet, you can create a view to display all the workflows on your instance. In this view, you can duplicate workflows using **Duplicate to**.
-
-**Create a view**
-
-1. In **Explorer**, go to the folder you need to create your view in.
-1. Right-click and go to **Add a new folder** > **Process**, select **Workflows**.
-
-    ![](assets/add-new-folder-workflows.png)
-
-The new folder **Workflows** is created.
-
-1. Right-click and select **Properties**.
-1. In the **Restriction** tab, enable the **This folder is a view** option and click **Save**.
-
-    ![](assets/folder-is-a-view.png)
-
-The folder is now populated with all the workflows of your instance.
-
-**Duplicate a campaign workflow**
-
-1. Select a campaign workflow in the workflow view.
-1. Right-click **Duplicate to**.
-1. Change its label.
-1. Click **Save**.
-
-You can see your duplicated workflow in the workflow view.

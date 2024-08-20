@@ -11,11 +11,13 @@ A **Split**-type activity lets you split a target into several subsets. The targ
 
 This activity does not trigger a union of inbound populations. If several transitions land in one split activity, we recommend inserting a **[!UICONTROL Union]** activity in front of it.
 
-For an example of the split activity being used, refer to [this section](targeting-workflows.md#create-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>Split operations cannot be performed for tables that have different sources. For this purpose, you need to add an **Enrichment** activity before the **Split** activity.
 
-An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](cross-channel-delivery-workflow.md).
-
-An example showing how to use an instance variable in a Split activity is available in [this section](javascript-scripts-and-templates.md).
+* For an example of the split activity being used, refer to [this section](targeting-workflows.md#create-subsets-using-the-split-activity).
+* An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](cross-channel-delivery-workflow.md).
+* An example showing how to use an instance variable in a Split activity is available in [this section](javascript-scripts-and-templates.md).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 

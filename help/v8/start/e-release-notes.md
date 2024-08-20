@@ -10,42 +10,56 @@ exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 ---
 # Early release notes {#e-new-release}
 
-This page describes improvements and fixes included in the next Campaign v8 release. This content is subject to changes without prior notice until the release date. The official release notes are available in this [page](../start/release-notes.md).
+This page describes improvements and fixes included in the next Campaign v8 release. **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the [release notes](release-notes.md), at the release date.
 
-## Release 8.6.1 {#release-8-6-1}
+<!--
+## Release 8.7.2 {#release-8-7-2}
 
-_Feb 14, 2024_
-
-
-### New features {#new-8-6-1}
-
-* Starting this release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
-
-* The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html){target="_blank"}.
+_July 30, 2024_
 
 
-### General improvements {#improvements-8-6-1}
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
 
-* Campaign v8.6 brings improved throughput for **email deliveries tracking indicators**. With our optimized processes, tracking ingestion and compute time is reduced, and you can check your delivery key indicators much faster.
+### New features {#new-8-7-2}
 
-* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account.
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector.
 
-* Adobe Campaign v8 now integrates with **Adobe Experience Manager as a Cloud Service**, with authoring exclusively available via the Adobe Campaign Web User Interface.
+* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
 
-* You can now use your **Adobe Experience Manager Assets library** alongside your Experience Cloud Assets even if the **Integration with the Adobe Experience Cloud** package is installed on your Adobe Campaign instance.
-
-* You can no longer create operators from the client console. You now need to use the Admin Console. [Learn more](../start/gs-permissions.md).
-
-* Several third-party tools have been updated to optimize security.
-
-### Deliverability updates {#deliverability-8-6-1}
-
-* By February 2024, any company sending more than 5,000 email messages through Google or Yahoo! will have to start using an authentication technology known as Domain-based Message Authentication Reporting and Conformance (DMARC). Make sure to have DMARC record set up for all the subdomains that you are using with Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"}
-
-* Starting June 1st, 2024, Google and Yahoo! will be requiring senders to comply with One-Click List-Unsubscribe. Adobe Campaign now supports this option. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+* **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
 
 
-### Fixes {#fixes-8-6-1}
+### Fixes {#fixes-8-7-2}
 
 The following issues are fixed in this release:
-NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059, NEO-58637, NEO-55197, NEO-52542, NEO-50488, NEO-47789
+
+NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-73602, NEO-72915, NEO-78134, NEO-77000, NEO-77002, NEO-76955, NEO-76864, NEO-76926, NEO-76495, NEO-77168, NEO-41058, NEO-75581, NEO-74647, NEO-74585, NEO-74586, NEO-74831, NEO-77319, NEO-78607.
+-->
+
+## Release 8.6.3 {#release-8-6-3}
+
+_July 30, 2024_
+
+### New features {#new-8-6-3}
+
+* **Rich Push Notification** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+
+* Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](release-notes.md#change-8-7-1)
+
+### General improvements {#improvements-8-6-3}
+
+* To increase security over all communication between applications, mTLS is now supported for external API calls.
+
+### Fixes {#fixes-8-6-3}
+
+The following issues are fixed in this release:
+
+NEO-77014, NEO-76958, NEO-76097, NEO-75898, NEO-72504, NEO-70263, NEO-67620, NEO-63197, NEO-58596, NEO-56832.
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
