@@ -61,7 +61,3 @@ After the creation of your delivery :
 * **Monitor and track SMS** 
 
 After the send, [learn how to monitor and track your SMS](sms/sms-monitor.md).
-
-* **Process inbound message** 
-    
-Understand what is the [process for inbound messages](sms/sms-inbound.md).

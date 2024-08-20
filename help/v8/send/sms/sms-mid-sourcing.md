@@ -8,35 +8,21 @@ level: Beginner, Intermediate
 
 # SMS in a mid-sourcing infrastructure {#sms-mid}
 
+>[!IMPORTANT]
+>
+>This documentation is for Adobe Campaign v8.7.2 and later.
+For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+
 Sending SMS deliveries with a mid-sourcing infrastructure requires : 
 
-1. An SMS Operator used for the SMS external account created on the Marketing server. [Learn how to create it here](#sms-operator-mid)
-1. An SMS external account on the Marketing server, specifying the Channel and Mid-sourcing Delivery mode.[Learn how to create it here](#sms-operator-mid)
-On the **Marketing server** : 
-* An external account specifying the channel and the delivery mode
-* A delivery template that references the external account to streamline the sending process.
-
-On the **Mid-server** :
-
-* An external account detailing the connector and message type.
-
-To send to a mobile phone with mid-servers, you need:
-
-
-
-
-
-An external account on the Mid-server, detailing the connector and message type.
-
-A delivery template that references the external account to streamline the sending process.
+1. An SMS Operator on the Mid-server. [Learn how to create it here](#sms-operator-mid)
+1. An SMS external account on the Marketing server that will use the operaor created before. [Learn how to create it here](#sms-external-account)
+1. An SMPP external account on the Mid server, specifying the Channel and Mid-sourcing Delivery mode. [Learn how to create it here](#smpp-external-account-mid)
+1. A delivery template that references the external account to streamline the sending process. [Learn how to create it here](#sms-delivery-template)
 
 ## Create the SMS operator on the Mid-server {#sms-operator-mid}
 
 First, you need to create an SMS operator on the Mid-server, that will be used by the SMS external account on the Marketing server.
-
->[!IMPORTANT]
->
->Each SMS connector requires a unique SMS operator
 
 To create you SMS operator, follow the steps below : 
 
@@ -65,7 +51,7 @@ You can see it in the operators list now.
 
 ## Create an SMS external account on the Marketing server {#sms-external-account}
 
-In a mid infrastructure, you need to create a SMS external account on the Marketing serve as below
+In a mid infrastructure, you need to create a SMS external account on the Marketing server as below
 
 >[!IMPORTANT]
 >

@@ -153,7 +153,7 @@ Please see the [SMS text encoding section](sms-channel.md#sms-text-encoding) for
 
 This setting allows to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value. The MTA will try to encode using the first encoding in the list; if it fails, it tries to use the next encoding on the list, etc... If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the SUBMIT_SM PDU with the encoded text and the data_coding field set with the value specified in the table.
 
-The order of items in the table is important: encodings are tries from top to bottom. You should put the cheapest or most recommended encoding at the top of the list, then followed by more and more expensive (or less desirable) encodings.
+The order of items in the table is important: encodings are tried from top to bottom. You should put the cheapest or most recommended encoding at the top of the list, then followed by more and more expensive (or less desirable) encodings.
 
 Note that UCS-2 will never fail as it can encode all characters supported in Campaign. Please note that the maximum length of an UCS-2 SMS is much smaller (70 characters only).
 
@@ -202,7 +202,7 @@ Sent as-is in the address_range field of the BIND PDU. This value should be set 
 
 ### Invalid ID acknowledge count
 
-Limits the number of "Messsage ID invalid" DELIVER_SM_RESP that can be sent for a single SR. **This should be only used for troubleshooting purpose as a workaround** and set to 0 in normal conditions.
+Limits the number of "Message ID invalid" DELIVER_SM_RESP that can be sent for a single SR. **This should be only used for troubleshooting purpose as a workaround** and set to 0 in normal conditions.
 
 Detailed explanation: say you set this setting to 2:
 

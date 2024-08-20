@@ -8,6 +8,11 @@ level: Beginner, Intermediate
 
 # SMPP connector description {#smpp-connector-desc}
 
+>[!IMPORTANT]
+>
+>This documentation is for Adobe Campaign v8.7.2 and later.
+For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+
 ## SMS connector data flow
 
 This section describes how the SMS process handles data.

@@ -60,7 +60,6 @@ breadcrumb-title: Campaign v8 Documentation
       + [Send SMS proofs](send/sms/sms-proofs.md)   
       + [Send to the audience](send/sms/sms-send.md) 
     + [Monitor and track SMS](send/sms/sms-monitor.md)
-    + [Process inbound messages](send/sms/sms-inbound.md) 
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
     + [Design an Android rich push delivery](send/rich-push.md)
