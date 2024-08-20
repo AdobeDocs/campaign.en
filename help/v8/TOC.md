@@ -45,18 +45,18 @@ breadcrumb-title: Campaign v8 Documentation
     + [Send and monitor emails](send/send.md)
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
-    + Configure SMS channel
+    + Configure SMS channel {#config-sms}
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
       + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
       + [SMPP connector in delivery properties](send/sms/smpp-connector-delivery.md) 
-    + Create a SMS
+    + Create a SMS  {#create-sms}
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [Define the content](send/sms/sms-content.md)
       + [Select the audience](send/sms/sms-audience.md)
-    + Validate and send SMS
+    + Validate and send SMS {#validate-sms}
       + [Send SMS proofs](send/sms/sms-proofs.md)   
       + [Send to the audience](send/sms/sms-send.md) 
     + [Monitor and track SMS](send/sms/sms-monitor.md)
