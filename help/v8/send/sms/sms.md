@@ -33,32 +33,32 @@ You can see in this documentation the steps to configure, send and monitor an SM
 
 First, you need to configure the SMS channel. 
 
-The steps depend on the platform: either you have [a standalone instance](sms/sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms/sms-mid-sourcing.md).
+The steps depend on the platform: either you have [a standalone instance](sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms-mid-sourcing.md).
 
-For this configuration, you need to understand the [SMPP external account parameters](sms/smpp-external-account.md) and the [SMS channel characteristics](sms/sms-channel.md).
+For this configuration, you need to understand the [SMPP external account parameters](smpp-external-account.md) and the [SMS channel characteristics](sms/sms-channel.md).
 
-After this set up, check your [SMPP connection and know how to troubleshoot it if needed](sms/smpp-connection.md).
+After this set up, check your [SMPP connection and know how to troubleshoot it if needed](smpp-connection.md).
 
 * **Create your first SMS delivery**
 
 To begin the configuration of your SMS delivery: 
 
-1. Create your delivery, and fill in the [SMS delivery settings](sms/sms-delivery-settings.md),
+1. Create your delivery, and fill in the [SMS delivery settings](sms-delivery-settings.md),
 
-1. [Define the content](sms/sms-content.md) of your delivery,
+1. [Define the content](sms-content.md) of your delivery,
 
-1. [Select the audience](sms/sms-audience.md).
+1. [Select the audience](sms-audience.md).
 
-Steps to define an audience are detailed on [this page](../start/audiences.md).
+Steps to define an audience are detailed on [this page](../../audiences/create-audiences.md).
 
 * **Validate and send SMS** 
 
 After the creation of your delivery:
 
-1. [Send proofs](sms/sms-proofs.md) to validate the rendering and the content,
+1. [Send proofs](sms-proofs.md) to validate the rendering and the content,
 
-1. Then, [send to the final audience](sms/sms-send.md).
+1. Then, [send to the final audience](sms-send.md).
 
 * **Monitor and track SMS** 
 
-After the send, [learn how to monitor and track your SMS](sms/sms-monitor.md).
+After the send, [learn how to monitor and track your SMS](sms-monitor.md).
