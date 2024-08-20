@@ -35,7 +35,7 @@ First, you need to configure the SMS channel.
 
 The steps depend on the platform: either you have [a standalone instance](sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms-mid-sourcing.md).
 
-For this configuration, you need to understand the [SMPP external account parameters](smpp-external-account.md) and the [SMS channel characteristics](sms/sms-channel.md).
+For this configuration, you need to understand the [SMPP external account parameters](smpp-external-account.md) and the [SMS channel characteristics](sms-channel.md).
 
 After this set up, check your [SMPP connection and know how to troubleshoot it if needed](smpp-connection.md).
 
