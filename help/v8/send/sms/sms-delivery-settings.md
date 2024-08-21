@@ -24,7 +24,7 @@ You can set up all of these in a delivery template in order to avoid to do the s
 
 ![](assets/send_settings.png){zoomable="yes"}
 
-Here are the information you need to fill this form. Each field is explained below.
+Here are the information you need to fill this form. Each field is explained below:
 
 - **[!UICONTROL Sender address]**
 
