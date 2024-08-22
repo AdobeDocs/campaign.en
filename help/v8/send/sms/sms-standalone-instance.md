@@ -39,9 +39,9 @@ Here are the steps to create your SMPP external account:
 1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
 The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
 
-![](assets/sms_extaccount_connector.png){zoomable="yes"}
+    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
+    To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
 
 
 ## Configure the delivery template {#sms-delivery-template}
