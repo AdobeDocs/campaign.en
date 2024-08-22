@@ -89,13 +89,13 @@ To do this, follow the steps below:
 
 1. Set up the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your external account. 
 
->[!WARNING]
->
->When assigning an Internal name, make sure to follow the specified naming convention: `SMS Operator Name_Internal Name of the Marketing SMS external account`.
->
+    >[!WARNING]
+    >
+    >When assigning an Internal name, make sure to follow the specified naming convention: `SMS Operator Name_Internal Name of the Marketing SMS external account`.
+    >
 
-Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Bulk delivery]** for the delivery mode.
-![](assets/mid_extaccount.png){zoomable="yes"}
+    Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Bulk delivery]** for the delivery mode.
+    ![](assets/mid_extaccount.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
     

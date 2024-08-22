@@ -16,19 +16,19 @@ To configure the content of your SMS delivery:
 
 1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization block (for example adding the greetings). You can click on the personalization button to add these:
 
-![](assets/sms_perso.png){zoomable="yes"}
+    ![](assets/sms_perso.png){zoomable="yes"}
 
-After clicking on **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, you will have the personalization like this:
+    After clicking on **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, you will have the personalization like this:
 
-![](assets/sms_perso_recipient.png){zoomable="yes"}
+    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
 1. You can preview you delivery by going in the **[!UICONTROL Preview]** tab and by clicking on **[!UICONTROL Test personalization]** drop-down list, and by choosing a recipient in the **[!UICONTROL Recipient]** table.
 
-![](assets/sms_preview.png){zoomable="yes"}
+    ![](assets/sms_preview.png){zoomable="yes"}
 
-You will have the preview of your SMS with the personalization:
+    You will have the preview of your SMS with the personalization:
 
-![](assets/sms_preview_phone.png){zoomable="yes"}
+    ![](assets/sms_preview_phone.png){zoomable="yes"}
 
 >[!NOTE]
 >

@@ -30,11 +30,11 @@ Here are the steps to create your SMPP external account:
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**, click the **[!UICONTROL New]** icon
 
-![](assets/sms_extaccount.png){zoomable="yes"}
+    ![](assets/sms_extaccount.png){zoomable="yes"}
 
 1. Set up the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your external account. Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Bulk delivery]** for the delivery mode.
 
-![](assets/sms_extaccount_new.png){zoomable="yes"}
+    ![](assets/sms_extaccount_new.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
 The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.

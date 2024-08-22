@@ -22,7 +22,7 @@ Before going live, be sure your SMPP setup is Ok with the list of checks below.
 >
 >Enable verbose SMPP traces during checks, it will help you and the support team to understand the troubleshoutings.
 
-### 1. Check for external account conflicts
+### Check for external account conflicts
 
 Check that you don't have leftover SMS external accounts. Delete the test accounts in order to eliminate potential conflicts.
 
@@ -32,7 +32,7 @@ If you need to have multiple accounts on the same Campaign instance that connect
 
 Check that all enabled SMS external accounts have the dedicated process setting enabled. You cannot mix between the 2 kinds of accounts (with and without dedicated process) on the same instance.
 
-### 1. **Do a real-world test** {#real-test}
+### Do a real-world test {#real-test}
 
 Try sending a few SMS on different mobiles.
 
@@ -61,13 +61,14 @@ The minimum number of messages to send could be calculated like this:
 *Max MT throughput * Total number of transmitter/transceiver connections * 5*
 
 After the delivery is finished, check the following things:
+
 * Check that all messages were sent (not necessarily received)
 * There must be absolutely zero PDU with command_status not 0x00000000, unless this is explicitely stated by the provider as normal operation
 * Connections must stay absolutely stable (no BIND PDU) during the whole delivery process.
 * Check that all messages have a SR and that it was correctly processed (see [Check that SR are properly processed](#real-test)). If a small percentage has errors, check that these were actual SR returning errors, not errors during sending or processing on the Campaign side.
 * If you are unsure about performance, check that latency is reasonable, especially between a PDU and its corresponding RESP, having more than 500ms latency can be a problem for high throughput. Use that latency to check the sending window formula (see the Sending window setting for more details)
 
-### 1. **Check PDUs** {#pdu}
+### Check PDUs {#pdu}
 
 Check that PDUs are properly formatted.
 
@@ -113,7 +114,7 @@ With the *DELIVER_SM_RESP PDU*:
 * Check that it was sent quickly after receiving the DELIVER_SM PDU (typically less than 1 second).
 * Check that it was successful (command_status = 0).
 
-### 1. **Live test with the provider**
+### Live test with the provider
 
 A best practice before going live is to do a live test with the provider, with both sides looking at logs during the execution.
 
@@ -121,7 +122,7 @@ A best practice before going live is to do a live test with the provider, with b
 >
 >This step is strongly recommended when connecting to a provider that was never connected to Campaign before.
 
-### 1. **Disable verbose SMPP traces**
+### Disable verbose SMPP traces
 
 Once all checks are complete, the last action to do is to disable verbose SMPP traces so it doesn't generate too many logs.
 
