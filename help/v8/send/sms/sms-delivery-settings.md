@@ -100,9 +100,9 @@ By default, it will be labeled "Email delivery"
 1. Rename your delivery in the **[!UICONTROL Label]** field and add information in **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery
 1. Click on **[!UICONTROL Continue]** button.
 Now, you have all the settings of your template in your delivery.
-1. You can check in the **[!UICONTROL Properties]** button that all is set up as needed
-[Learn more about SMS tab](#sms-tab)
-
+1. You can check in the **[!UICONTROL Properties]** button that all is set up as needed.
+  [Learn more about SMS tab](#sms-tab)
+  
   ![](assets/sms_settings.png){zoomable="yes"}
 
-You can now configure your [SMS content](sms-content.md).
+  You can now configure your [SMS content](sms-content.md).
