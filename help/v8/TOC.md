@@ -51,7 +51,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
-      + [SMPP connector in delivery properties](send/sms/smpp-connector-delivery.md) 
+      + [SMPP connector description](send/sms/smpp-connector-delivery.md) 
     + Create a SMS  {#create-sms}
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [Define the content](send/sms/sms-content.md)
