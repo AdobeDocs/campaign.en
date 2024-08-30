@@ -15,7 +15,7 @@ This page describes improvements and fixes included in the next Campaign v8 rele
 
 ## Release 8.7.2 {#release-8-7-2}
 
-_July 30, 2024_
+_Sept 3, 2024_
 
 >[!AVAILABILITY]
 >
