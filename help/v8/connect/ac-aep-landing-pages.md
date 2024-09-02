@@ -229,7 +229,7 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
     for (var key in parsedResponse) {
         var value =  parsedResponse[key];
         var marketing = value.entity.consents.marketing;
-        logInfo("User Consent Details : " + JSON.stringify(marketing));   
+        logInfo("User Consent Details: " + JSON.stringify(marketing));   
         if(marketing.hasOwnProperty('email')&&marketing.email.hasOwnProperty('val')&&marketing.email.val=='n'){
         ctx.recipient.@blackListEmail = 1;
         }

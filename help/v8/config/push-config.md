@@ -671,7 +671,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
     // define the protocol for the registerDeviceStatus delegate
     @protocol Neolane_SDKDelegate <NSObject>
     @optional
-    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
+    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
     @end
     @interface Neolane_SDK: NSObject {
     } 
@@ -726,7 +726,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
 
         @class LandingPageViewController;
 
-        @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
+        @interface AppDelegate: UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
             CLLocationManager *locationManager;
             NSString *userKey;
             NSString *mktServerUrl;
@@ -748,7 +748,7 @@ Learn how to implement FCM in your application in [Google Documentation](https:/
         #import "RootViewController.h"
         ...
         ...
-        - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
+        - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason
         {
             NSLog(@"registerStatus: %lu",status);
 

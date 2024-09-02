@@ -53,12 +53,12 @@ To insert offer propositions into a delivery, follow the steps below:
 
 ### Parameters of the Offer engine {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : space of the offer environment which must be selected to activate the Offer engine.
-* **[!UICONTROL Category]** : specific folder in which offers are sorted. If no category is specified, all the offers contained in the environment will be taken into account by the Offer engine, unless a theme is selected. 
-* **[!UICONTROL Themes]** : key words defined upstream in the categories. These act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
-* **[!UICONTROL Number of propositions]** : number of offers returned by the engine that can be inserted into the delivery body. If they are not inserted into the message, the offers will still be generated, but not presented.
-* **[!UICONTROL Exclude non-eligible recipients]** : This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers. The number of eligible propositions may be lower than the requested number of propositions. If this box is checked, recipients who don't have enough propositions will be excluded from the delivery. If you don't select this option, these recipients will not be excluded but they won't have the requested number of propositions.
-* **[!UICONTROL Do not display anything if no offer is selected]** : this option lets you choose how the message will be processed in case one of the propositions does not exist. When this box is checked, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition. If the box isn't checked, the message itself is cancelled during sending and recipients will no longer receive any messages.
+* **[!UICONTROL Space]**: space of the offer environment which must be selected to activate the Offer engine.
+* **[!UICONTROL Category]**: specific folder in which offers are sorted. If no category is specified, all the offers contained in the environment will be taken into account by the Offer engine, unless a theme is selected. 
+* **[!UICONTROL Themes]**: key words defined upstream in the categories. These act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
+* **[!UICONTROL Number of propositions]**: number of offers returned by the engine that can be inserted into the delivery body. If they are not inserted into the message, the offers will still be generated, but not presented.
+* **[!UICONTROL Exclude non-eligible recipients]**: This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers. The number of eligible propositions may be lower than the requested number of propositions. If this box is checked, recipients who don't have enough propositions will be excluded from the delivery. If you don't select this option, these recipients will not be excluded but they won't have the requested number of propositions.
+* **[!UICONTROL Do not display anything if no offer is selected]**: this option lets you choose how the message will be processed in case one of the propositions does not exist. When this box is checked, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition. If the box isn't checked, the message itself is cancelled during sending and recipients will no longer receive any messages.
 
 ## Send offers in workflows{#offer-via-wf}
 
@@ -94,11 +94,11 @@ After configuring your **Query** activity:
 1. Specify an identifier as well as a label for the proposition that will be added.
 1. Specify the offer selection. There are two possible options for this:
 
-    * **[!UICONTROL Search for the best offer in a category]** : check this option and specify the Offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
+    * **[!UICONTROL Search for the best offer in a category]**: check this option and specify the Offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
     
       ![](assets/int_enrichment_offer3.png)
 
-    * **[!UICONTROL A pre-defined offer]** : check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
+    * **[!UICONTROL A pre-defined offer]**: check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
     
       ![](assets/int_enrichment_offer4.png)
 

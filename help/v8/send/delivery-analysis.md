@@ -68,9 +68,9 @@ Browse to the **[!UICONTROL Analysis]** tab of the delivery properties to define
 
 This tab gives access to the following options:
 
-* **[!UICONTROL Label and code of the delivery]** : the options in this section are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Compute the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
+* **[!UICONTROL Label and code of the delivery]**: the options in this section are used to calculate the values of these fields during the delivery analysis phase. The **[!UICONTROL Compute the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
 
-* **[!UICONTROL Approval mode]** : this field lets you define manual or automatic delivery once analysis is complete. 
+* **[!UICONTROL Approval mode]**: this field lets you define manual or automatic delivery once analysis is complete. 
 
     If warnings are generated during the analysis (e.g., if certain characters are accentuated in the subject of the delivery, etc.), you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
@@ -82,6 +82,6 @@ This tab gives access to the following options:
     * **[!UICONTROL Semi-automatic]**: Sending begins automatically if the analysis phase generates no warning messages.
     * **[!UICONTROL Automatic]**: Sending begins automatically at the end of the analysis phase irrespective of its result.
 
-* **[!UICONTROL Start job in a detached process]** : this option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : this option adds the SQL query logs to the delivery journal during the analysis phase.
-* **[!UICONTROL Ignore personalization scripts during sending]** : this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the `<%=` tag.
+* **[!UICONTROL Start job in a detached process]**: this option lets you start the delivery analysis in a separate process. The analysis function uses the Adobe Campaign application server process (web nlserver) by default. By selecting this option, you ensure that the analysis will be completed even in the event of application server failure.
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: this option adds the SQL query logs to the delivery journal during the analysis phase.
+* **[!UICONTROL Ignore personalization scripts during sending]**: this option lets you bypass the interpretation of JavaScript directives found in HTML content. They will be displayed as is in the delivered contents. These directives are introduced with the `<%=` tag.

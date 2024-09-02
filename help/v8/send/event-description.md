@@ -192,7 +192,7 @@ However, if the event fails to be processed, the method returns an error message
         <SOAP-ENV:Fault>
            <faultcode>SOAP-ENV:Client</faultcode>
            <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
-           <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
+           <detail xsi:type="xsd:string"><![CDATA[(16:8): Expected end of tag 'rtevent'
   Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
      <soapenv:Header/>
      <soapenv:Body>

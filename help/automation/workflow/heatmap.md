@@ -63,10 +63,10 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
    >
    >The **[!UICONTROL Min duration]** filter is applied. If you cannot find a specific workflow, reset the minimum duration to 0 so that all workflows are displayed in the list.
 
-1. You can also filter on the **[!UICONTROL Workflow type]** :
+1. You can also filter on the **[!UICONTROL Workflow type]**:
 
-    * **[!UICONTROL Technical]** : Only [built-in technical workflows](technical-workflows.md) and [data management workflows](targeting-workflows.md#data-management) are displayed.
-    * **[!UICONTROL Marketing]** : Only workflows linked to a marketing campaign, known as [campaign workflows](campaign-workflows.md), are displayed.
+    * **[!UICONTROL Technical]**: Only [built-in technical workflows](technical-workflows.md) and [data management workflows](targeting-workflows.md#data-management) are displayed.
+    * **[!UICONTROL Marketing]**: Only workflows linked to a marketing campaign, known as [campaign workflows](campaign-workflows.md), are displayed.
 
 1. To search a specific workflow by name, you can also use the **[!UICONTROL Workflow name filter]** field.
 

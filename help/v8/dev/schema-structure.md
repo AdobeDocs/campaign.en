@@ -217,9 +217,9 @@ The value must be an expression compliant with XPath language. For more on this,
 
 To link a default value to a field, you can use the `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` : allows you to pre-fill the field with a default value when creating entities. The value will not be a default SQL value. 
+`<default>`: allows you to pre-fill the field with a default value when creating entities. The value will not be a default SQL value. 
 
-`<sqldefault>` : allows you have an added value when creating a field. This value appears as an SQL result. During a schema update, only the new records will be impacted by this value.
+`<sqldefault>`: allows you have an added value when creating a field. This value appears as an SQL result. During a schema update, only the new records will be impacted by this value.
 
 ### Enumerations {#enumerations}
 

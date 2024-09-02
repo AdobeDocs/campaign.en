@@ -49,7 +49,7 @@ For more on the different types of deliveries, refer to [this section](#types-of
 
 ### Mobile channel {#gs-channel-sms}
 
-Adobe Campaign allows you to deliver [SMS](../send/sms.md) and [LINE](../send/line.md) messages on mobiles.
+Adobe Campaign allows you to deliver [SMS](../send/sms/sms.md) and [LINE](../send/line.md) messages on mobiles.
 
 For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 

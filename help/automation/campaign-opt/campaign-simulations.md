@@ -147,9 +147,9 @@ To analyze the result of a simulation, edit its reports: they show exclusions an
 
 The following reports are provided by default:
 
-* **[!UICONTROL Detail of simulation exclusions]** : this report provides a detailed chart of exclusion causes for all concerned deliveries.
-* **[!UICONTROL Simulation summary]** : this report shows the populations excluded from the simulation throughout the various deliveries. 
-* **[!UICONTROL Summary of exclusions linked to the simulation]** : this report shows a chart of exclusions caused by the simulation along with the applied typology rule and a chart showing the exclusion ratio per rule.
+* **[!UICONTROL Detail of simulation exclusions]**: this report provides a detailed chart of exclusion causes for all concerned deliveries.
+* **[!UICONTROL Simulation summary]**: this report shows the populations excluded from the simulation throughout the various deliveries. 
+* **[!UICONTROL Summary of exclusions linked to the simulation]**: this report shows a chart of exclusions caused by the simulation along with the applied typology rule and a chart showing the exclusion ratio per rule.
 
 <!--
 >[!NOTE]
