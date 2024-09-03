@@ -70,9 +70,9 @@ To create a collaborative campaign (by target approval), the **[!UICONTROL Colla
 
 The campaign workflow must integrate **Local approval** type activity. The activity parameters are as follows:
 
-* **[!UICONTROL Action to perform]** : Target approval notification.
-* **[!UICONTROL Distribution context]** : Explicit.
-* **[!UICONTROL Data distribution]** : Local entity distribution.
+* **[!UICONTROL Action to perform]**: Target approval notification.
+* **[!UICONTROL Distribution context]**: Explicit.
+* **[!UICONTROL Data distribution]**: Local entity distribution.
 
 **Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]**, click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]**. For more information on data distribution, 
 

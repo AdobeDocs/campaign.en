@@ -95,7 +95,7 @@ Each **[!DNL Privacy Service]**  job is split into multiple Privacy requests in 
 
 Also, one job can be run on multiple instances. Therefore, multiple files are created for one job. For example, if a request has two namespaces and is running on three instances, then a total of six files are sent. One file per namespace and instance.
 
-The pattern for a file name is : `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
+The pattern for a file name is: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
 * **InstanceName**: Campaign instance name
 * **NamespaceId**: Identity Service Namespace ID of the namespace used

@@ -112,8 +112,8 @@ Discover offer-specific terms and related guidance before starting.
 * **Arbitrage**: selecting offers to display on an environment (eligible offers). The arbitrage principle ranks offers by priority according to the criteria defined in the categories, offers, and context offers.
 * **Contact**: a contact from an inbound interaction. During engine call processing, the contact is associated to a targeting dimension. There are two types of contacts:
 
-    * **[!UICONTROL Identified contact]** : a contact that has voluntarily been identified on the channel. In outbound interactions, the contact is automatically identified.
-    * **[!UICONTROL Anonymous contact]** : a contact that has not voluntarily subscribed through the channel but can be implicitly identified through a cookie. This terminology is only used for incoming interactions.
+    * **[!UICONTROL Identified contact]**: a contact that has voluntarily been identified on the channel. In outbound interactions, the contact is automatically identified.
+    * **[!UICONTROL Anonymous contact]**: a contact that has not voluntarily subscribed through the channel but can be implicitly identified through a cookie. This terminology is only used for incoming interactions.
 
       >[!NOTE]
       >
@@ -125,9 +125,9 @@ Discover offer-specific terms and related guidance before starting.
 * **Unitary mode**: a single contact is processed at a time. This mode is usually applied for inbound interactions and transactional messages.
 * **Identification mode**: refers to the status of a contact:
 
-    * **[!UICONTROL explicit]** : contacts are identified by their login onto the channel interface.
-    * **[!UICONTROL implicit]** : contact are identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
-    * **[!UICONTROL anonymous]** : contacts cannot be identified.
+    * **[!UICONTROL explicit]**: contacts are identified by their login onto the channel interface.
+    * **[!UICONTROL implicit]**: contact are identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
+    * **[!UICONTROL anonymous]**: contacts cannot be identified.
 
 * **Eligible offer**: offer meeting the constraints defined upstream that can be consistently offered to a target.
 * **Presentation rules**: typology rules referenced in the offer environment, which let you exclude some offers by taking the proposition history into account.

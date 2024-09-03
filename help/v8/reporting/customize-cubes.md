@@ -64,7 +64,7 @@ Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enum
 
 You can group the values into ranges based on a desired interval.
 
-To define ranges manually, click the **[!UICONTROL Add]** button and select **[!UICONTROL Define a range]** :
+To define ranges manually, click the **[!UICONTROL Add]** button and select **[!UICONTROL Define a range]**:
 
 Then specify the lower and upper limits and click **[!UICONTROL Ok]** to confirm.
 

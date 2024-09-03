@@ -22,7 +22,7 @@ The following steps must be applied to implement budget management using MRM:
 
 1. Define the cost calculation method: cost structures are defined for the service providers. [Learn more](../campaigns/providers-stocks-and-budgets.md).
 
-1. Define campaign costs (deliveries/tasks) : the costs incurred by the deliveries and tasks are input individually or globally for the campaign template. [Learn more](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
+1. Define campaign costs (deliveries/tasks): the costs incurred by the deliveries and tasks are input individually or globally for the campaign template. [Learn more](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
 1. Consolidate: according to the progress status of the tasks, deliveries and campaign, the costs will be calculated and passed on to the corresponding budget. When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. The calculated cost of the program is then entered automatically with the costs calculated on the campaign. [Learn more](#cost-commitment--calculation-and-charging).
 
