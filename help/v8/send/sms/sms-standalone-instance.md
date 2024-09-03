@@ -3,6 +3,8 @@ title: SMS in a standalone instance
 description: Learn how to configure a SMS delivery in a standalone instance
 feature: SMS
 role: User
+hide: yes
+hidefromtoc: yes
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
 ---
