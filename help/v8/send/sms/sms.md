@@ -4,9 +4,10 @@ description: Get started with SMS in Campaign
 feature: SMS
 role: User, Data Engineer
 level: Beginner
+badge: label="Limited Availability" type="Informative"
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 ---
-# Get started with SMS
+# Get started with SMS {#gs-sms-channel}
 
 Use Adobe Campaign to send personalized SMS messages.
 

@@ -4,6 +4,7 @@ description: About the settings of SMPP connector in deliveries
 feature: SMS
 role: User
 level: Beginner, Intermediate
+badge: label="Limited Availability" type="Informative"
 ---
 
 # SMPP connector description {#smpp-connector-desc}
@@ -12,9 +13,9 @@ level: Beginner, Intermediate
 >
 >This applies to Adobe Campaign v8.7.2 and later.
 >
->For older versions, refer to the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>For older versions, refer to the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
-## SMS connector data flow
+## SMS connector data flow {#sms-data-flow}
 
 This section describes how the SMS process handles data.
 
@@ -24,15 +25,15 @@ Here is a high level block diagram that summarizes how the SMS process interacts
 
 The SMS process hosts 2 important components: the SMPP connector itself that handles communication with the SMPP provider, and a background task for SR reconciliation.
 
-### Data flow for SMPP accounts
+### Data flow for SMPP accounts {#sms-data-flow-smpp-accounts}
 
 The SMS process polls nms:extAccount and spawns new connections in its SMPP connector, passing settings of each account. Polling frequency can be adjusted in serverConf, in the *configRefreshMillis* setting.
 
 For each active SMPP account, the SMPP connector tries to keep connections active all the time. It reconnects if the connection is lost.
 
-### Data flow while sending messages
+### Data flow while sending messages {#sms-data-flow-sending-msg}
 
-* The SMS process selects active deliveries by scanning nms:delivery. A delivery is active if:
+* The SMS process selects active deliveries by scanning nms:delivery. A delivery is active when:
     * Its state implies that messages can be sent
     * Its validity period is not expired
     * It is actually a delivery (e.g. it is not a template, it is not deleted)
@@ -45,14 +46,14 @@ For each active SMPP account, the SMPP connector tries to keep connections activ
 * The SMS process updates the broad log to the sent status.
 * In case of final error, the SMS process updates the broad log accordingly, and may create a new kind of error in nms:broadLogMsg.
 
-### Data flow while receiving SR
+### Data flow while receiving SR {#sms-data-flow-sr}
 
 * The SMPP connector receives and decodes the SR (DELIVER_SM PDU). It uses regexes defined in the external account to get message id and status.
 * Message id and status are inserted into nms:providerMsgStatus
 * After being inserted, the SMPP connector replies with a DELIVER_SM_RESP PDU.
 * If anything went wrong during the process, the SMPP connector sends a negative DELIVER_SM_RESP PDU and logs a message.
 
-### Data flow while receiving a MO
+### Data flow while receiving a MO {#sms-data-flow-mo}
 
 * The SMPP connector receives and decodes the MO (DELIVER_SM PDU).
 * The keyword is extracted from the message. If it matches any declared keyword, corresponding actions are executed. It may write to nms:address to update quarantine.
@@ -60,13 +61,13 @@ For each active SMPP account, the SMPP connector tries to keep connections activ
 * The fully decoded and processed MO is inserted into the nms:inSms table.
 * The SMPP connector replies with a DELIVER_SM_RESP PDU. If any error was detected, an error code will be returned to the provider.
 
-### Data flow while reconciling MT and SR
+### Data flow while reconciling MT and SR {#sms-reconciling-mt-sr}
 
 * The SR reconciliation component periodically reads nms:providerMsgId and nms:providerMsgStatus. Data from both tables is joined.
 * For all messages that have an entry in both tables, the matching nms:broadLog entry is updated.
 * The nms:broadLogMsg table may be updated in the process if a new kind of error is detected, or to update counters for errors that were not manually qualified.
 
-## Matching MT, SR and broadlog entries
+## Matching MT, SR and broadlog entries {#sms-matching-entries}
 
 Here is a diagram describing the whole process:
 
@@ -93,11 +94,11 @@ Here is a diagram describing the whole process:
 * If any row has matching provider ids in both tables, the 2 entries are joined together. This allows matching the broad log id (stored in providerMsgId) with the status (stored in providerMsgStatus)
 * The broad log is updated with the corresponding status.
 
-## Affinities and the dedicated process connector
+## Affinities and the dedicated process connector {#sms-affinities}
 
 Affinities are ignored by the dedicated process connector, it just runs inside the SMS process.
 
-## serverConf options {#serverconf-options}
+## serverConf options {#sms-serverconf-options}
 
 Some settings can be tuned in serverConf.xml. Like any other settings in this file, it should be specified in the config-instance.xml file. All settings are in the < mta2 > element.
 

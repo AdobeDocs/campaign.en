@@ -32,10 +32,10 @@ To configure the content of your SMS delivery:
 
 >[!NOTE]
 >
->SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to [SMS character transliteration ](smpp-external-account.md#smpp-channel-settings) section.
+>* SMS messages are limited to a length of 160 characters if the Latin-1 (ISO-8859-1) code page is used. If the message is written in Unicode, it must not exceed 70 characters. Certain special characters can affect message length. For more information on message length, refer to [SMS character transliteration ](smpp-external-account.md#smpp-channel-settings) section.
 >
->When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.
+>* When personalization fields or conditional content fields are present, the size of the message varies from one recipient to the other. The length of the message must be evaluated when personalization has been carried out.
 >
->When you launch the analysis, the length of messages is checked and a warning is displayed in the event of overflow.
+>*When you launch the analysis, the length of messages is checked and a warning is displayed in the event of overflow.
 
 After creating the content of your delivery, you can [select your audience](sms-audience.md).

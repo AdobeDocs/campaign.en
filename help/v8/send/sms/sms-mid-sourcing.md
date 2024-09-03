@@ -4,6 +4,7 @@ description: Learn how to configure a SMS delivery in a mid-sourcing infrastruct
 feature: SMS
 role: User
 level: Beginner, Intermediate
+badge: label="Limited Availability" type="Informative"
 ---
 
 # SMS in a mid-sourcing infrastructure {#sms-mid}

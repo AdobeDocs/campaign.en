@@ -4,6 +4,7 @@ description: Learn how to configure a SMS delivery in a standalone instance
 feature: SMS
 role: User
 level: Beginner, Intermediate
+badge: label="Limited Availability" type="Informative"
 ---
 
 # SMS in a standalone instance {#sms-standalone}
