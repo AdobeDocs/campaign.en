@@ -133,7 +133,7 @@ Once all checks are complete, the last action to do is to disable verbose SMPP t
 
 ## SMS Troubleshooting {#sms-troubleshooting}
 
-### General troubleshooting procedure {#sms-troubleshooting}
+### General troubleshooting procedure {#sms-general-troubleshooting}
 
 The SMS connector involves 3 entities: the SMPP provider, Adobe and you. 
 The main SMS expert is the SMPP provider, so they should be involved for all SMS traffic-related issues (connection issues, lost messages, encoding problems, country-specific rules, ...).
