@@ -9,6 +9,29 @@ exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**.
 
 
+
+## Release 8.5.3 {#release-8-5-3}
+
+_May 28, 2024_
+
+### Migration to OAuth Server-to-Server credential {#change-8-5-3}
+
+Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](#change-8-7-1)
+
+### Fixes {#fixes-8-5-3}
+
+The following issues are fixed in this release:
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+
+
+## May updates {#may-updates}
+
+The following change has been released in May and is now available to Campaign v8 users:
+
+* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
+
+
 ## Release 8.7.1 {#release-8-7-1}
 
 _May 2, 2024_
