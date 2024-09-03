@@ -32,9 +32,9 @@ You can see in this documentation the steps to configure, send and monitor an SM
 
 * **Configure SMS channel**
 
-First, you need to configure the SMS channel. 
+First, you need to configure the SMS channel on your [mid-sourcing infrastructure](sms-mid-sourcing.md). 
 
-The steps depend on the platform: either you have [a standalone instance](sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms-mid-sourcing.md).
+<!--The steps depend on the platform: either you have [a standalone instance](sms-standalone-instance.md) or you are in [a mid-sourcing infrastructure](sms-mid-sourcing.md).-->
 
 For this configuration, you need to understand the [SMPP external account parameters](smpp-external-account.md) and the [SMS channel characteristics](sms-channel.md).
 

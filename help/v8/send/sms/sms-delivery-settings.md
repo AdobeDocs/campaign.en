@@ -96,13 +96,13 @@ To create a new SMS delivery, follow the steps below:
 
 1. Create a new delivery, for example from the Delivery Dashboard, or in your Delivery folder in **[!UICONTROL Explorer]**.  By default, it will be labeled "Email delivery".
 
-1. Select the delivery template you created for your SMS sendings.
+1. Select the delivery template you created for your SMS sendings. [Learn more here](sms-mid-sourcing.md#sms-delivery-template).
 
-  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-  * For mid-sourcing infrastructure, [learn more here](sms-mid-sourcing.md#sms-delivery-template).
-    
     ![](assets/sms_create.png){zoomable="yes"}
 
+<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
+* For mid-sourcing infrastructure, --> 
+  
 1. Rename your delivery in the **[!UICONTROL Label]** field and add information in **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery.
 
 1. Click on **[!UICONTROL Continue]** button. Now, you have all the settings of your template in your delivery.
