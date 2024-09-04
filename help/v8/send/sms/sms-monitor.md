@@ -4,6 +4,7 @@ description: About the monitoring and tracking of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+badge: label="Limited Availability" type="Informative"
 ---
 
 # Monitor and track a SMS

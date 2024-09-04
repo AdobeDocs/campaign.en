@@ -4,6 +4,7 @@ description: Learn how to setup the content of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+badge: label="Limited Availability" type="Informative"
 ---
 
 # SMS content {#sms-content}
