@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 ---
-
 # SMS in a mid-sourcing infrastructure {#sms-mid}
 
 >[!IMPORTANT]

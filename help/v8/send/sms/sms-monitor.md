@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
 ---
-
 # Monitor and track a SMS
 
 It is important to monitor you SMS delivery, in order to be sure that your marketing campaigns are efficient.
@@ -46,4 +46,3 @@ And last, the **[!UICONTROL Audit]** tab with all the details during the launch 
 The failure types and reasons for failure for SMS are the same as for emails.
 
 Learn more about [delivery failures](../delivery-failures.md) and specifically about [SMS quarantines](../delivery-failures.md#sms-quarantines).
-

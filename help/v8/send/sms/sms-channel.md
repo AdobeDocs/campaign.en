@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
 ---
-
 # SMS channel characteristics {#sms-channel}
 
 >[!IMPORTANT]

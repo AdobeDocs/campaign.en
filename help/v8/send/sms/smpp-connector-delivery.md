@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 ---
-
 # SMPP connector description {#smpp-connector-desc}
 
 >[!IMPORTANT]

@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
 ---
-
 # SMS delivery settings {#sms-settings}
 
 >[!IMPORTANT]

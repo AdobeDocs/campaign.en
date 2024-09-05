@@ -5,8 +5,8 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
 ---
-
 # Send a proof of an SMS delivery {#sms-proof}
 
 Adobe highly recommends setting up a delivery validation cycle. Make sure your content is approved before sending it to your audience.

@@ -7,8 +7,8 @@ hide: yes
 hidefromtoc: yes
 level: Beginner, Intermediate
 badge: label="Limited Availability" type="Informative"
+exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
 ---
-
 # SMS in a standalone instance {#sms-standalone}
 
 >[!IMPORTANT]
