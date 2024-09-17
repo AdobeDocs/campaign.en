@@ -95,7 +95,7 @@ You can also update existing deliveries and delivery templates created before th
 
 * For on-premise environments, download the `fcm-httpv1-migration.js` script, and run it as detailed below.
 
-   Download [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip)
+   Download [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)
 
    >[!CAUTION]
    >
