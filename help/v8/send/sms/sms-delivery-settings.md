@@ -49,8 +49,8 @@ Here are the information you need to fill this form. Each field is explained bel
 
 * **[!UICONTROL Transmission mode]**
 
-This field indicates the kind of SMS you wish to transfer: normal or flash messages, storing on the mobile or the SIM card. This setting is transmitted in the dest_addr_subunit optional field in the SUBMIT_SM PDU.
-
+  This field indicates the kind of SMS you wish to transfer: normal or flash messages, storing on the mobile or the SIM card. This setting is transmitted in the dest_addr_subunit optional field in the SUBMIT_SM PDU.
+  
   * **Flash** sets the value to 1. It sends a flash message that pops up on the mobile and is not stored in memory.
   * **Normal** sets the value to 0. It sends a normal message.
   * **Save on mobile** sets the value to 2. It tells the phone to store the SMS in internal memory.
