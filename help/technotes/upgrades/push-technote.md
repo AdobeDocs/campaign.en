@@ -50,6 +50,8 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * As a Campaign Classic v7 on-premise user, you must upgrade both the Marketing and Real-Time execution servers. The Mid-Sourcing server is not impacted.
 
+* As a Campaign Classic v7 on-premise or hybrid user, check that your Android routing external account is configured with `androidPushConnectorV2.js`. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+
 #### Transition procedure {#fcm-transition-steps}
 
 To move your environment to HTTP v1, follow these steps:
@@ -78,12 +80,73 @@ To move your environment to HTTP v1, follow these steps:
    | data message  | N/A  | validate_only  |
    | notification message |  title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
-1. Once transition HTTP v1 is done, you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the [Message Batch quantity](../../v8/send/configure-and-send.md#delivery-batch-quantity) to **256**. Apply this change to all delivery templates used for your Android deliveries, and to all your existing Android deliveries.
-
 
 >[!NOTE]
 >
->Once these changes are applied in all your server, all new Push notification deliveries to Android devices use the HTTP v1 API. Existing push deliveries in retry, in progress, and in use, still use the HTTP (legacy) API.
+>Once these changes are applied in all your server, all **new** Push notification deliveries to Android devices use the HTTP v1 API. Existing push deliveries in retry, in progress, and in use, still use the HTTP (legacy) API. Learn how to update them in the section below.
+
+### Update existing templates {#fcm-transition-update}
+
+Once transition HTTP v1 is done, you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the [Message Batch quantity](../../v8/send/configure-and-send.md#delivery-batch-quantity) to **256**. Apply this change to all delivery templates used for your Android deliveries, and to all your existing Android deliveries.
+
+You can also update existing deliveries and delivery templates created before the upgrade to a version supporting HTTP v1. To perform this:
+
+* As a Managed Cloud Services or Hosted customer, contact Adobe to update your existing Android delivery templates.
+
+* For on-premise environments, download and run the `fcm-httpv1-migration.js` script as detailed below.
+
+   Download [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+
+   >[!CAUTION]
+   >
+   >The script must be executed on your Marketing, Mid-Sourcing and Real-Time environments. 
+
+
+   +++Steps to update existing deliveries and templates
+
+   To patch all deliveries and deliveries templates created before the upgrade to a version supporting HTTP v1, follow these steps:
+
+   1. Export your existing deliveries and delivery templates in a package to be able to restore them in case of an unexpected problem occured during the patching.
+   1. Run the following command in Posgresql:
+
+      ```sql
+      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+      ```
+      
+   1. By default the script is in `dryrun` mode, you can launch it in that mode to check if some delivery needs to be patched.
+
+      Command
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+      ```
+
+      Output
+
+      ```sql
+      ...
+      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      ...
+      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+      HH:MM:SS >   - Y had androidCheckParams formula patched.
+      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+      ```
+
+      >[!NOTE]
+      >
+      >The `not patchable` deliveries need to be updated manually. Their ID can be found in the log.
+
+   1. Run the script in execution mode the following way to update deliveries:
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+      ```
+
+   +++
 
 ### What is the impact for my Android apps? {#fcm-apps}
 
