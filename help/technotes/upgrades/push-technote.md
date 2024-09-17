@@ -85,7 +85,7 @@ To move your environment to HTTP v1, follow these steps:
 >
 >Once these changes are applied in all your server, all **new** Push notification deliveries to Android devices use the HTTP v1 API. Existing push deliveries in retry, in progress, and in use, still use the HTTP (legacy) API. Learn how to update them in the section below.
 
-### Update existing templates {#fcm-transition-update}
+#### Update existing templates {#fcm-transition-update}
 
 Once transition HTTP v1 is done, you must update your **delivery templates** for Android push notifications to increase the number of batch messages. To do this, browse to your Android delivery template's properties and, in the **Delivery** tab, set the [Message Batch quantity](../../v8/send/configure-and-send.md#delivery-batch-quantity) to **256**. Apply this change to all delivery templates used for your Android deliveries, and to all your existing Android deliveries.
 
@@ -93,16 +93,16 @@ You can also update existing deliveries and delivery templates created before th
 
 * As a Managed Cloud Services or Hosted customer, contact Adobe to update your existing Android delivery templates.
 
-* For on-premise environments, download and run the `fcm-httpv1-migration.js` script as detailed below.
+* For on-premise environments, download the `fcm-httpv1-migration.js` script, and run it as detailed below.
 
-   Download [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+   Download [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip)
 
    >[!CAUTION]
    >
    >The script must be executed on your Marketing, Mid-Sourcing and Real-Time environments. 
 
 
-   +++Steps to update existing deliveries and templates
+   +++Steps to update existing deliveries and templates (on-premise only)
 
    To patch all deliveries and deliveries templates created before the upgrade to a version supporting HTTP v1, follow these steps:
 
