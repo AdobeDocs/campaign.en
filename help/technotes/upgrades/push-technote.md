@@ -42,15 +42,19 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### Prerequisites {#fcm-transition-prerequisites}
 
-* For Campaign Classic v7, the support of HTTP v1 has been added in 20.3.1 release. If your environment is running on an older version, a prerequisite for the transition to HTTP v1 is to upgrade your environment to the [latest Campaign Classic build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. For Campaign v8, HTTP v1 is supported by all releases, and no upgrade is needed.
-
 * The Android Firebase Admin SDK service's account JSON file is needed to have the mobile application moved to HTTP v1. Learn how to get this file in [Google Firebase documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* For Hybrid, Hosted and Managed Services deployments, in addition to the transition procedure below, contact Adobe to update your Real-Time (RT) execution server. The Mid-Sourcing server is not impacted.
+* For Campaign Classic v7, the support of HTTP v1 has been added in 20.3.1 release. If your environment is running on an older version, a prerequisite for the transition to HTTP v1 is to upgrade your environment to the [latest Campaign Classic build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. For Campaign v8, HTTP v1 is supported by all releases, and no upgrade is needed.
 
-* As a Campaign Classic v7 on-premise user, you must upgrade both the Marketing and Real-Time execution servers. The Mid-Sourcing server is not impacted.
+* As a Campaign Classic v7 on-premise user, you must upgrade both the Marketing and Real-Time execution servers.
 
-* As a Campaign Classic v7 on-premise or hybrid user, check that your Android routing external account is configured with `androidPushConnectorV2.js`. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+* For Hybrid, Hosted and Managed Cloud Services deployments, in addition to the transition procedure below, contact Adobe to update your Real-Time (RT) execution server.
+
+* About the Android routing external account:
+
+   * As a Campaign Classic v7 on-premise or hybrid user, check that your Android routing external account is configured with `androidPushConnectorV2.js`. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+
+   * For Hybrid, Hosted and Managed Cloud Services deployments, you must also connect with Adobe Customer Care team to validate that the `androidPushConnectorV2.js (nms)` connector is selected in Android routing external account of your Mid sourcing server.
 
 #### Transition procedure {#fcm-transition-steps}
 
@@ -99,7 +103,7 @@ You can also update existing deliveries and delivery templates created before th
 
    >[!CAUTION]
    >
-   >The script must be executed on your Marketing, Mid-Sourcing and Real-Time environments. 
+   >The script must be executed on your Marketing instance. 
 
 
    +++Steps to update existing deliveries and templates (on-premise only)
