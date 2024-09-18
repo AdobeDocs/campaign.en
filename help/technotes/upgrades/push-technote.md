@@ -97,13 +97,13 @@ You can also update existing deliveries and delivery templates created before th
 
 * As a Managed Cloud Services or Hosted customer, contact Adobe to update your existing Android delivery templates.
 
-* For on-premise environments, download the `fcm-httpv1-migration.js` script, and run it as detailed below.
-
-   Download [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)
+* For on-premise environments, download the `fcm-httpv1-migration.js` script, and run it as detailed below. 
+   
+   Download [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip).
 
    >[!CAUTION]
    >
-   >The script must be executed on your Marketing instance. 
+   >The script must be executed on your on-premise Marketing instance.
 
 
    +++Steps to update existing deliveries and templates (on-premise only)
