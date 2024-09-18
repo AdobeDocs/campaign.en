@@ -193,7 +193,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
-    + [Datamodel best practices](dev/datamodel-best-practices.md)
+    + [Data model best practices](dev/datamodel-best-practices.md)
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
@@ -201,7 +201,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
-  + [Campaign datamodel](dev/datamodel.md)
+  + [Campaign data model](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
     + [Create schemas](dev/create-schema.md)

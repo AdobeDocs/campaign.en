@@ -37,7 +37,7 @@ You can use the default Recipient table with the out-of-the-box fields, such as 
 * [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new "Loyalty" field to the Recipient table.
 * [Create a new table](create-schema.md), for example a "Purchase" table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
-Discover best practices when working with Campaign datamodel in [this section](datamodel-best-practices.md).
+Discover best practices when working with Campaign data model in [this section](datamodel-best-practices.md).
 
 ## Built-in profile table {#ootb-profiles}
 

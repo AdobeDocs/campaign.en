@@ -35,7 +35,7 @@ Before using [!DNL Adobe Campaign] APIs, you need to be familliar with the follo
 
 * JavaScript
 * SOAP protocol
-* [!DNL Adobe Campaign] datamodel
+* [!DNL Adobe Campaign] data model
 
 In order to use APIs and interact with [!DNL Adobe Campaign], you also must be familiar with your data model.  
 

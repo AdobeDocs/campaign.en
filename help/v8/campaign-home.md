@@ -99,7 +99,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Developer resources</strong><br/><a href="dev/datamodel.md">Campaign v8 datamodel</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
+      <strong>Developer resources</strong><br/><a href="dev/datamodel.md">Campaign v8 data model</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
     </td>
   </tr>
 </table> 
