@@ -49,7 +49,7 @@ A specific notification is sent to the **[!UICONTROL Workflow Supervisors]** ope
 ![](assets/wf-alert-activity.png)
 
 
-## Additional guardrails{#duplicates-guardrails}
+## Additional guardrails {#duplicates-guardrails}
 
 Campaign comes with a set of new guardrails to prevent insertion of duplicated key in [!DNL Snowflake] database. 
 
@@ -57,19 +57,19 @@ Campaign comes with a set of new guardrails to prevent insertion of duplicated k
 >
 >These guardrails are available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-### Delivery preparation{#remove-duplicates-delivery-preparation}
+### Delivery preparation {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign removes automatically any duplicated UUID from an audience during delivery preparation. This mechanism prevents any error from happening while preparing a delivery. As an end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated key. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/exclusion-duplicates-log.png)
 
-### Update data in a workflow{#duplicates-update-data}
+### Update data in a workflow {#duplicates-update-data}
 
 In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), you cannot select an internal key (UUID) as field to update data in a workflow. 
 
 ![](assets/update-data-no-internal-key.png)
 
-### Query a schema with duplicates{#query-with-duplicates}
+### Query a schema with duplicates {#query-with-duplicates}
 
 When a workflow starts running query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
 
@@ -80,3 +80,8 @@ This check is performed in the following workflow activities:
 * Query
 * Incremental Query
 * Read list
+
+
+>[!NOTE]
+>
+>If your are transitioning from another Campaign version, it is imperative to remove duplicates, troubleshoot and sanitize data to avoid impacting your transition.

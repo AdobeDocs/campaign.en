@@ -76,7 +76,7 @@ The PostgreSQL database on the mid-sourcing instance is used to:
 
 ### [!DNL Campaign] API staging mechanism{#staging-api}
 
-With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). Batch operation is always preferred. In order to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
+With [!DNL Campaign] Cloud database, blast unitary calls are not recommended due to performance (latency & concurrency). BUnless you are sending extremely sending volume, batch operation must be used to guarantee optimal performances of APIs, Campaign keeps handling API calls at the local database level.
 
 [API staging mechanism is detailed in this page](staging.md)
 
