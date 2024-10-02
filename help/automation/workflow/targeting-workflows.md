@@ -100,7 +100,7 @@ In **[!UICONTROL Union]** or **[!UICONTROL Intersection]** type activities, you 
 
 ![](assets/use-common-add-data-only.png)
 
-### Reconciliate with additional data {#reconciliation-with-additional-data}
+### Reconcile with additional data {#reconciliation-with-additional-data}
 
 During the data reconciliation phases (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. activities), you can select the columns to be used for data reconciliation from the additional columns. To do this, configure a reconciliation on a selection of columns and specify the main set. Then select the columns in the lower column of the window, as shown in the following example:
 
