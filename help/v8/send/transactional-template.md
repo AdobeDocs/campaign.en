@@ -8,7 +8,7 @@ exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 ---
 # Create and publish your template for Transactional messaging{#template-transactional-messages}
 
-Each event can trigger a a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target.
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. You can also use templates to test the message preview and send proofs using seed addresses before delivering to the final target.
 
 ## Create the template{#create-message-template}
 
