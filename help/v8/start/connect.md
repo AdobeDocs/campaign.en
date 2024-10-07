@@ -55,7 +55,7 @@ Once the client console is installed, follow the steps below to create the conne
 
 1. Specify a connection to your Adobe Campaign application server via a URL. Use either a DNS or an alias of the machine, or your IP address.
 
-   For example, you can use the [`https://<machine>.<domain>.com`](https://myserver.adobe.com) type URL.
+   For example, you can use the `https://<machine>.<domain>.com` type URL.
 
 1. Check the option **[!UICONTROL Connect with an Adobe ID]**.
 

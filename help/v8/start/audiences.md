@@ -58,7 +58,7 @@ Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentat
 
 **Related topics**
 
-* [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
+* [Design and execute a campaign-specific workflow](../../automation/workflow/campaign-workflows.md){target="_blank"}
 
 * [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
 

@@ -102,7 +102,7 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   To learn how to configure **[!UICONTROL Success events]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   To learn how to configure **[!UICONTROL Success events]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 
