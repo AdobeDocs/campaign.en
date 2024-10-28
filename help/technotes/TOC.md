@@ -21,6 +21,7 @@ breadcrumb-title: Campaign technotes
   + [Internet browsers](upgrades/browsers.md)
   + [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + [client console 32-bit deprecation](upgrades/console.md)
+  + [User access management from Campaign Standard to Campaign V8](upgrades/user-management-acs.md)
   + Security {#security}
     + [Customer credentials rotation](security/credential-rotation-guide.md)
 + [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
