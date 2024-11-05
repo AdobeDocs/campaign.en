@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 ---
-# Work with delivery template{#work-with-delivery-template}
+# Work with delivery template {#work-with-delivery-template}
 
-Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
+Each delivery is created based on a template. Built-in templates are available for each channel. You can customize them to apply the same settings to a set of deliveries. 
 
-A template can include:
+A template includes:
 
-* Typologies
+* Typology rules
 * Sender and reply-to addresses
 * Basic [personalization blocks](../send/personalization-blocks.md)
 * Links to [mirror pages](../send/mirror-page.md) and unsubscription links
@@ -22,10 +22,9 @@ A template can include:
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
+## Create a template {#create-a-delivery-template}
 
-## Create a template{#create-a-delivery-template}
-
-To create a delivery template, you can duplicate a built-in template, convert an existing delivery into a template or create a delivery template from scratch.
+To create a delivery template, you can duplicate a built-in template or convert an existing delivery into a template. You can also create a delivery template from scratch, but this is not recommended. These methods are detailed below.
 
 ### Duplicate an existing template{#copy-an-existing-template}
 
@@ -85,9 +84,9 @@ To configure a delivery template from scratch, follow the steps below:
 1. Click **Save**. Your template is now ready to be used in a delivery.
 
 
-## Use templates{#use-a-delivery-template}
+## Use templates {#use-a-delivery-template}
 
-### Create a delivery from a template{#create-a-delivery-from-a-template}
+### Create a delivery from a template {#create-a-delivery-from-a-template}
 
 To create a delivery based on an existing template, select the template from the list of available delivery templates.
 

@@ -4,7 +4,6 @@ description: Learn how to setup the content of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
 ---
 # SMS content {#sms-content}

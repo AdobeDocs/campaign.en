@@ -1,171 +1,197 @@
 ---
-title: Get started with messages
-description: Get started with messages
+title: Create your first delivery
+description: Create your first delivery
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
-# Get Started with messages {#gs-ac-audiences}
+# Create your first delivery {#create-a-msg}
 
-## Delivery channels {#gs-ac-channels}
+In this page, you will learn how to create a one-shot single delivery. You can create other types of deliveries to address your use cases. Learn more about the different types of deliveries and how to create them in [this page](gs-message.md).
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
+The key steps when creating a one-shot delivery are:
 
-Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports. The main functional access point is the delivery assistant. This access point leads to multiple capabilities covered by Adobe Campaign.
+1. **Create a new delivery**. [Read more](#create-the-delivery)
 
-Adobe Campaign v8 comes with the following delivery channels:
+1. **Define the delivery content**. [Read more](#content-of-the-delivery)
 
-* **Email channel**: email deliveries let you send personalized emails to the target population. [Learn more](#gs-channel-email)
+1. **Select the target population**. [Read more](#target-population)
 
-* **Mobile channels**: deliveries on mobile channels let you send personalized messages on mobile devices to the target population. [Learn more](#gs-channel-sms)
-
-* **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android devices. [Learn more](#gs-channel-push)
-
-* **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. [Learn more](#gs-channel-direct)
-
-
-   Other channels are described on [this section](#other-channels).
-
-   >[!NOTE]
-   >
-   >The number of available channels depends on your contract. Please check your license agreement.
-
-## Choose your channel {#gs-channel}
-
-### Email channel {#gs-channel-email}
-
-The [Email channel](../send/direct-mail.md) is one of the core channels in Adobe Campaign, allowing you to schedule and send personalized emails to specific targets.
-
-You can send different types of emails:
-
-* Single-send emails: emails that you can send once to a defined target. They are usually used to promote a specific content that would be prepared and sent only once (newsletter, promotional email, etc.).
-* Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../automation/workflow/recurring-delivery.md).
-* Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../send/transactional.md).
-
-To learn about delivery usage and recommendations, consult Adobe Campaign Classic [Delivery best practices](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html#sending-messages){target="_blank"}
-
-For more on the different types of deliveries, refer to [this section](#types-of-deliveries).
-
-### Mobile channel {#gs-channel-sms}
-
-Adobe Campaign allows you to deliver [SMS](../send/sms/sms.md) and [LINE](../send/line.md) messages on mobiles.
-
-For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
-
-For LINE messages, you can send text or images and links.
-
-To deliver SMS or LINE messages to a mobile phone you need:
-
-* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel. 
-* An SMS or LINE delivery template that is correctly linked to this external account.
-
-
-### Push notification channel {#gs-channel-push}
-
-You can use Adobe Campaign to send personalized and segmented [push notifications](../send/push.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent with Adobe Campaign. You can also design and send rich notifications with images or videos to Android devices.
-
-### Direct mail channel {#gs-channel-direct}
-
-[Direct mail](../send/direct-mail.md) is an offline channel that allows you to create, personalize and generate an external file to share with your direct mail providers. Use this channel to orchestrate online and offline channels in your customer journeys.
-
-When you prepare a direct mail delivery, Adobe Campaign generates a file including all the targeted profiles and the chosen contact information (postal address for example). You can then send this file to your direct mail provider who will take care of the actual sending.
-
-
-### Other channels {#other-channels}
-
-Adobe Campaign also comes with a Telephone delivery template, which is used to create external deliveries. Using this channel implies you implement dedicated methodologies to process output files. Configuration steps are the same as for [Direct mail channel](../send/direct-mail.md).
+You can then prepare, test, send and monitor your messages. 
 
 >[!NOTE]
 >
->The Telephone channel is not a built-in channel. Its implementation requires Adobe Consulting or an Adobe Partner to be engaged. Please reach out to your Adobe representative for more information.
+>The steps described in this section assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](steps-defining-the-target-population.md#selecting-external-recipients)).
 
-The 'Other' type deliveries use a specific technical template which does not execute a process: this lets them manage marketing actions executed outside of the Adobe Campaign platform.
+## Create the delivery {#create-the-delivery}
 
-This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type, and campaign workflow activity, just like any other communication channel available in Adobe Campaign. This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
+To create a delivery,follow these steps:
 
-## Choose the type of delivery {#types-of-deliveries}
+1. Click **[!UICONTROL Create]** above the list of deliveries. When you create a new delivery, you must select the delivery channel. To do this, select the appropriate delivery template from the drop-down list in the **[!UICONTROL Delivery template]** field. 
 
-There are three types of delivery objects in Campaign:
+   ![](../send/assets/select-the-new-template.png)
 
-### Single delivery {#single-delivery}
+   A built-in template is provided for each channel you have installed: direct mail, email, telephone, mobile channel (SMS), X (Twitter), etc. The channels available in the list depend on your license agreement.
 
-A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
+   You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](about-templates.md).
 
-Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../automation/workflow/delivery.md) activity. 
+1. Enter a name for the delivery in the **[!UICONTROL Label]** field.
 
-Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../automation/workflow/cross-channel-deliveries.md).
+   (optional) A delivery code can also be assigned to the delivery. The name of the delivery and its code are visible in the list of deliveries but not exposed to the recipients.
 
-### Recurring delivery {#recurring-delivery}
+1. (optional) Add a description in the **[!UICONTROL Description]** field.
+1. (optional) Select the delivery nature in the relevant field. This information is useful for delivery tracking: you can filter based on this criterion in the delivery list or build queries using this selection criterion.
+1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
 
-A **recurring delivery** is available in the context of a workflow. It lets you create a new delivery each time the activity is executed. This avoids you having to create a new delivery for recurring tasks. As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
+## Define the delivery content {#content-of-the-delivery}
 
-Recurring deliveries are created within workflows via the [Recurring delivery activity](../../automation/workflow/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../automation/workflow/send-a-birthday-email.md).
+The delivery content is ready to be configured. Delivery content definition is specific to each channel. For more on this, refer to the dedicated section:
 
-### Continuous delivery {#continuous-delivery}
-
-A **continuous delivery** is available in the context of a workflow. It lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
-
-If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
-
-As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
-
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../automation/workflow/continuous-delivery.md).
+* [Define the email content](../send/email.md)
+* [Define the SMS content](../send/sms/sms-content.md)
+* [Define the direct mail content](../send/direct-mail.md)
+* [Degine the push notification content](../send/push.md)
 
 
-## Choose how to send your messages{#gs-send-msg}
+## Define the target audience {#target-population}
 
-Once your message has been created and its content designed and tested, you can choose how you want to send it. Campaign offers a set of capabilities to:
+For each delivery, you can define several types of target audiences:
 
-* Send messages manually to the main target
+* **Main audience**: profiles who receive messages. [Learn more](#select-the-main-target)
+* **Proof target**: profiles who receive proof messages. A proof is a specific message that allows you to test a message before sending it to the main target. [Learn more](#select-the-proof-target)
 
-    ![](assets/send-email.png) 
+In addition, in the context of a marketing campaign, you can add:
 
-   Learn how to send messages in [this section](../send/send.md)
+* **Seed addresses**: recipients who are out of the delivery target but receive the delivery. [Learn more](../audiences/test-profiles.md)
+* **Control groups**: population which does not receive the delivery, used to track behavior and campaign impact. [Learn more](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
-* Send messages associated to a [marketing campaign](campaigns.md)
+### Select the main recipients of the delivery {#select-the-main-target}
 
-   ![](assets/deliveries-in-a-campaign.png) 
+In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an [external file](steps-defining-the-target-population.md#selecting-external-recipients).
 
-   Learn how to send messages in the context of a campaign in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}
+To select the recipients of a delivery, follow the steps below:
 
-* Send messages via a [workflow](../config/workflows.md)
+1. In the delivery editor, select **[!UICONTROL To]**.
+1. If the recipients are stored in the database, choose the first option.
 
-    ![](assets/send-in-a-wf.png) 
+   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
 
-   Learn how to automate email deliveries in [this page](../../automation/workflow/delivery.md)
+1. Select the [target mapping](../audiences/target-mappings.md) in the **[!UICONTROL Target mapping]** drop-down list.
+1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
-* [Trigger messages](../send/transactional.md) from an event
+   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
 
-   Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
+   Select a type of filter and click **[!UICONTROL Next]** to define the conditions. You can display the filtered recipients from the **[!UICONTROL Preview]** tab. Depending on the type of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
 
-   Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
+   The following target types are available:
 
-   Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
+    * **[!UICONTROL Filtering conditions]**: use this option to define a query and display the result. Learn how to design a query in [this section](../../automation/workflow/query.md).
+    * **[!UICONTROL A list of recipients]**: use this option to target a list of profiles. Learn more about lists in [this section](../audiences/create-audiences.md).
+    * **[!UICONTROL A recipient]**: use this option to select a specific profile in the database.
+    * **[!UICONTROL Recipients included in a folder]**: use this option to target all the profiles contained in a specific folder.
+    * **[!UICONTROL Recipients of a delivery]**: use this option to build the target from the recipients of a delivery. You must then select the delivery in the list:
 
-* Schedule your messages
+      ![](assets/target-recipient-delivery.png)
 
-   ![](assets/schedule-send.png) 
-   
-   Learn how to schedule the sending of your deliveries in [this page](../send/configure-and-send.md)
+    * **[!UICONTROL Delivery recipients belonging to a folder]**: use this option to build the target from the recipients deliveries included in a specific folder.
+    
+      ![](assets/target-delivery-folder.png)
+      
+      You can filter the behavior of recipients by selecting from the drop-down list:
+      
+      ![](assets/target-filter-behavior.png)
 
-   See also this [Use Case: learn how schedule and send a birthday email](../../automation/workflow/send-a-birthday-email.md)
+      >[!NOTE]
+      >
+      >The **[!UICONTROL Include sub-folders]** option also lets you target the deliveries contained in folders located in the tree structure below the selected node.
+
+    * **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
+
+      ![](assets/target-service.png)
+
+    * **[!UICONTROL User filters]**: this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../audiences/create-filters.md#default-filters).
+    * The **[!UICONTROL Exclude recipients from this segment]** option lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
+
+1. Enter a name for this targeting in the **[!UICONTROL Label]** field. By default, the label is the label of the first targeting criterion. When combining filtering criteria, it is recommended to use an explicit name.
+1. Click **[!UICONTROL Finish]** to validate the targeting options.
+
+   The targeting criteria defined are summarized in the central section of the main target configuration tab. Click a criterion to view its contents (configuration and preview). To delete a criterion, click the cross located after its label.
+
+   ![](assets/target-remove-criterion.png)
+
+#### Select external recipients {#selecting-external-recipients}
+
+You can send messages to profiles who are not stored in the database, but in an external file. For example, to send a delivery to recipients imported from a text file, follow these steps:
+
+1. Click the **[!UICONTROL To]** link to select the recipients of your delivery.
+1. Select the **[!UICONTROL Defined in an external file]** option.
+1. Select the file containing the recipients.
+1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
+
+   For more information on data import, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+
+1. Click **[!UICONTROL Finish]** and configure your delivery as a standard delivery.
+
+>[!CAUTION]
+>
+>When defining the content of the message for email delivery, do not include the link to the mirror page: it cannot be generated in this delivery mode.
+
+#### Define exclusion settings {#define-exclusion-settings}
+
+When defining the target of a delivery, the **[!UICONTROL Exclusions]** tab is used to limit the number of messages. Default parameters are recommended, but you can adapt settings depending on your needs. However, these options should only be changed by an expert user to avoid any misusage and errors.
+
+You can choose to exclude addresses that have reached a certain number of consecutive errors, or whose quality rating is below a threshold specified in this window. You can also choose whether or not to authorize non-qualified addresses for which no data has been returned.
+
+Click the **[!UICONTROL Edit...]** link to modify the default configuration.
+
+![](assets/target-exclusion-settings.png)
+
+The following options are available:
+
+* **[!UICONTROL Exclude duplicate addresses during delivery]**: this option is active by defaultand removes duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database. The value of the option can be configured for each delivery template.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing.
+* **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [this section](understanding-quarantine-management.md).
+* **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the target audience exceeds the number of messages indicated, a random selection is applied to the target. To send all messages, keep this value to '0'.
+* **[!UICONTROL Keep duplicate records (same identifier)]**: this option allows sending multiple deliveries to recipients who satisfy several targeting criteria.
+
+### Select the recipients of proof messages {#select-the-proof-target}
+
+For email deliveries, you can send proofs to validate your message content. Sending proofs enables you to check the opt-out link, mirror page and any other links, validate the message, verify that images are displayed, detect possible errors, etc. You may also want to check your design and rendering on different devices.
+
+A proof is a specific message that allows you to test a message before sending it to the main audience. Recipients of the proof are in charge of approving the message: rendering, content, personalization settings, configuration.
+
+For more on proof recipients and sending, refer to [this section](../send/preview-and-proof.md#send-proofs).
+
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
 
 
-## Add personalization{#personalization}
+#### Tutorial video {#seeds-and-proofs-video}
 
-Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../send/personalize.md)
+In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
-You can:
-
-* Insert dynamic personalization fields. [Learn more](../send/personalization-fields.md)
-* Insert pre-defined personalization blocks. [Learn more](../send/personalization-blocks.md)
-* Create conditional content. [Learn more](../send/conditions.md)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 
-## Delivery and tracking logs{#gs-tracking-logs}
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
-Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+## Prepare and validate your delivery {#validate-the-delivery}
 
-Learn how to monitor your deliveries in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target="_blank"}
+When a delivery has been created and configured, you must validate it before sending it to the main target.
 
+To do this:
+
+1. **Analyze the delivery**: this step lets you prepare the messages to deliver. [Learn more](../send/delivery-analysis.md).
+
+1. **Send proofs**: this step lets you control content, URLs, personalization, etc. [Learn more](../send/preview-and-proof.md).
+
+>[!IMPORTANT]
+>
+>The two steps above MUST BE executed after each modification on the message content.
+
+
+## Configure and send the delivery {#configuring-and-sending-the-delivery}
+
+Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery priority, set up sending waves, confugure the retry settings, and test your delivery sending. Once this configuration is done, you can confirm the sending. Messages are then sent immediately, or based on the delivery schedule.
+
+Learn how to configure your delivery settings in [this page](../send/configure-and-send.md).

@@ -4,7 +4,6 @@ description: Learn how to configure the SMPP external account
 feature: SMS
 role: User
 level: Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 ---
 # SMPP external account settings {#smpp-external-account}

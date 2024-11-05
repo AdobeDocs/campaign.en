@@ -36,7 +36,8 @@ breadcrumb-title: Campaign v8 Documentation
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Send messages{#send}
-  + [Get started with messages](start/create-message.md)
+  + [Get started with messages](start/gs-message.md)
+  + [Create your first delivery](start/create-message.md)
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)

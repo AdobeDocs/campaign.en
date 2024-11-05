@@ -8,7 +8,7 @@ exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 
-Orchestrate your cross channel deliveries in your campaigns: streamline your communications with Adobe Campaign through personalised emails, SMS, push notifications and in-app messages. You can use rich media like videos, emojis or GIFs and integrate them directly. 
+Orchestrate your cross channel deliveries in your campaigns: streamline your communications with Adobe Campaign through personalised emails, SMS, push notifications and in-app messages. You can use rich media like videos, emojis or GIFs, and integrate them directly. 
 
 Deliveries can be created via the campaign dashboard, a campaign workflow or directly via the overview of deliveries. When created from a campaign, deliveries will be linked to this campaign and consolidated at the campaign level.
 
@@ -16,7 +16,7 @@ Deliveries can be created via the campaign dashboard, a campaign workflow or dir
 
 You have two ways to add deliveries to your marketing campaigns:
 
-*  From the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
+* From the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
 
   ![](assets/campaign_op_add_delivery.png)
 

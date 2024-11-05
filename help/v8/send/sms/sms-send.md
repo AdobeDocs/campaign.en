@@ -4,7 +4,6 @@ description: Learn how to send an SMS delivery to an audience
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
 ---
 # Send your SMS delivery to the audience {#sms-send-audience}

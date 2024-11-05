@@ -4,7 +4,6 @@ description: Learn how to send proofs of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
 ---
 # Send a proof of an SMS delivery {#sms-proof}

@@ -4,7 +4,6 @@ description: Learn how to setup the audience of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: e0603a4d-cde1-4199-a164-bf0c992ba937
 ---
 # Select the audience of your SMS delivery {#sms-audience}

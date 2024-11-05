@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 ---
-# Get Started with campaigns{#gs-ac-campaigns}
+# Get Started with campaigns {#gs-ac-campaigns}
 
 Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
 
@@ -72,11 +72,9 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-   Learn how to create and start marketing campaign deliveries in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}.
+    Learn how to create and start marketing campaign deliveries in [this page](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-    You can associate various documents with a campaign: report, photo, web page, diagram, etc.
-
-   Learn more about associated documents in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html){target="_blank"}.
+    You can associate various documents with a campaign: report, photo, web page, diagram, etc. Learn more about associated documents in [this page](../../automation/campaigns/marketing-campaign-assets.md).
     
 1. **Set up the approval process**
 
