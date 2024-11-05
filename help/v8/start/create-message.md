@@ -22,7 +22,7 @@ You can then prepare, test, send and monitor your messages.
 
 >[!NOTE]
 >
->The steps described in this section assume that all target recipients and their profiles are stored in the database, except in the case of external delivery (see [Selecting external recipients](steps-defining-the-target-population.md#selecting-external-recipients)).
+>The steps described in this section assume that all target recipients and their profiles are stored in the database, except in the case of external delivery. See [Selecting external recipients](#selecting-external-recipients).
 
 ## Create the delivery {#create-the-delivery}
 
@@ -34,7 +34,7 @@ To create a delivery,follow these steps:
 
    A built-in template is provided for each channel you have installed: direct mail, email, telephone, mobile channel (SMS), X (Twitter), etc. The channels available in the list depend on your license agreement.
 
-   You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](about-templates.md).
+   You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](../send/create-templates.md).
 
 1. Enter a name for the delivery in the **[!UICONTROL Label]** field.
 
@@ -68,7 +68,7 @@ In addition, in the context of a marketing campaign, you can add:
 
 ### Select the main recipients of the delivery {#select-the-main-target}
 
-In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an [external file](steps-defining-the-target-population.md#selecting-external-recipients).
+In most cases, the main target is extracted from Adobe Campaign database (default mode). However, recipients can also be stored in an [external file](#selecting-external-recipients).
 
 To select the recipients of a delivery, follow the steps below:
 
@@ -151,7 +151,7 @@ The following options are available:
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: this option is active by defaultand removes duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database. The value of the option can be configured for each delivery template.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing.
-* **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [this section](understanding-quarantine-management.md).
+* **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [this section](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the target audience exceeds the number of messages indicated, a random selection is applied to the target. To send all messages, keep this value to '0'.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: this option allows sending multiple deliveries to recipients who satisfy several targeting criteria.
 
