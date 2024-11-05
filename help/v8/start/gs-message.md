@@ -11,7 +11,7 @@ With Adobe Campaign, you can send cross-channel campaigns including emails, SMS,
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
 
-## Create a delivery {#gs-ac-delivery}
+## Use cases {#gs-ac-delivery}
 
 To send messages, you must create a delivery. The delivery creation mode depends on your use case.
 
@@ -141,7 +141,7 @@ As an example, if you run this type of activity once a month, you will end up wi
 
 Continuous deliveries are created within workflows via the [Continuous delivery activity](../../automation/workflow/continuous-delivery.md).
 
-## Add personalization{#personalization}
+## Add personalization {#personalization}
 
 Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../send/personalize.md)
 
@@ -152,7 +152,7 @@ You can:
 * Create conditional content. [Learn more](../send/conditions.md)
 
 
-## Delivery and tracking logs{#gs-tracking-logs}
+## Send and track {#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
