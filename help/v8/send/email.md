@@ -10,6 +10,8 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 
 Email deliveries let you send personalized emails to the target population. [Learn more](../send/send.md)
 
+Learn key steps to create and configure a delivery in [this page](../start/create-message.md).
+
 ## Create your first email delivery
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.

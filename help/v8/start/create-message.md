@@ -163,7 +163,7 @@ A proof is a specific message that allows you to test a message before sending i
 
 For more on proof recipients and sending, refer to [this section](../send/preview-and-proof.md#send-proofs).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
+![](../send/assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
 
 
 #### Tutorial video {#seeds-and-proofs-video}
