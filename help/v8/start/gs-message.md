@@ -19,31 +19,21 @@ To send messages, you must create a delivery. The delivery creation mode depends
 >
 >When creating a delivery, you must select a template. Default templates are available for each channel. Learn more about delivery templates in [this page](../send/create-templates.md).
 
-### One-shot messages {#msg-single}
+1. One-shot messages - You can send one-shot messages to an audience. Learn how to send your first message in [this section](create-message.md).
 
-You can send one-shot messages manually to the main target. Learn how to send your first message in [this section](create-message.md)
+    ![](assets/send-email.png)
 
-![](assets/send-email.png)
+1. Messages in a marketing campaign - You can send messages in the context of a [marketing campaign](campaigns.md), define an approval process, send and track them in a consolidated dashboard. Learn how in [this section](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-### Messages in a marketing campaign {#msg-campaign}
+    ![](assets/deliveries-in-a-campaign.png) 
 
-You can send messages in the context of a [marketing campaign](campaigns.md), define an approval process, send and track them in a consolidated dashboard. Learn how in [this section](../../automation/campaigns/marketing-campaign-deliveries.md)
+1. Messages in a workflow - You can send messages via a [workflow](../config/workflows.md) and automate your deliveries. Learn how in [this page](../../automation/workflow/delivery.md).
 
-![](assets/deliveries-in-a-campaign.png) 
+    ![](assets/send-in-a-wf.png) 
 
-### Messages in a workflow {#msg-wf}
+1. Triggered messages - You can [Trigger messages](../send/transactional.md) from an event. Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
 
-You can send messages via a [workflow](../config/workflows.md) and automate your deliveries. Learn how in [this page](../../automation/workflow/delivery.md)
-
-![](assets/send-in-a-wf.png) 
-
-### Triggered messages {#msg-trigger}
-
-You can [Trigger messages](../send/transactional.md) from an event. Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages.  Learn more about transactional messages capability in [this section](../architecture/architecture.md#transac-msg-archi)
-
-Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
-
-## Choose your channel {#gs-channel}
+## Communication channel {#gs-channel}
 
 Adobe Campaign v8 comes with the following delivery channels:
 
@@ -54,7 +44,6 @@ Adobe Campaign v8 comes with the following delivery channels:
 * **Mobile application channel**: mobile app deliveries let you send notifications to iOS and Android devices. [Learn more](#gs-channel-push)
 
 * **Direct mail channel**: direct mail deliveries let you generate an extraction file which contains data on the target population. [Learn more](#gs-channel-direct)
-
 
    Other channels are described on [this section](#other-channels).
 
@@ -113,7 +102,7 @@ The 'Other' type deliveries use a specific technical template which does not exe
 
 This channel has no specific mechanism. It is a generic channel that has its own external account routing option, delivery template type, and campaign workflow activity, just like any other communication channel available in Adobe Campaign. This channel is designed for descriptive purposes only, for example to define deliveries for which you want to keep a trace of the target of a campaign performed in a tool other than Adobe Campaign.
 
-## Choose the type of delivery {#types-of-deliveries}
+## Types of delivery {#types-of-deliveries}
 
 There are three types of delivery objects in Campaign:
 
@@ -141,7 +130,7 @@ As an example, if you run this type of activity once a month, you will end up wi
 
 Continuous deliveries are created within workflows via the [Continuous delivery activity](../../automation/workflow/continuous-delivery.md).
 
-## Add personalization {#personalization}
+## Personalization capabilities {#personalization}
 
 Messages delivered by Adobe Campaign can be personalized in various ways. [Learn more about personalization capabilities](../send/personalize.md)
 
@@ -152,7 +141,7 @@ You can:
 * Create conditional content. [Learn more](../send/conditions.md)
 
 
-## Send and track {#gs-tracking-logs}
+## Tracking and monitoring {#gs-tracking-logs}
 
 Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
