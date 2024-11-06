@@ -19,7 +19,6 @@ To deliver SMS to mobile devices with Adobe Campaign, you need:
 
 
 >[!NOTE]
-
 >
 >You can also use Adobe Campaign to send [LINE](../../send/line.md) messages, with text and/or images and links.
 
