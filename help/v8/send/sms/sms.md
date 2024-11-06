@@ -8,13 +8,13 @@ exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 ---
 # Get started with SMS {#gs-sms-channel}
 
-Adobe Campaign allows you to deliver personalized [SMS](../send/sms/sms.md) on mobiles.
+Adobe Campaign allows you to deliver personalized SMS on mobiles.
 
 For SMS messages, you can create, modify, and personalize messages in text format only. You can also preview your SMS messages before they are sent.
 
 >[!NOTE]
 >
->You can also use Adobe Campaign to send [LINE](../send/line.md) messages, with text and/or images and links.
+>You can also use Adobe Campaign to send [LINE](../../send/line.md) messages, with text and/or images and links.
 
 To deliver SMS to a mobile phone with Adobe Campaign, you need:
 
