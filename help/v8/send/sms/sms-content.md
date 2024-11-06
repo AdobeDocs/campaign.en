@@ -1,32 +1,34 @@
 ---
-title: SMS define the content
-description: Learn how to setup the content of an SMS delivery
+title: Define and personalize the SMS content
+description: Learn how to define and personalize the content of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
 ---
-# SMS content {#sms-content}
+# Define the SMS content {#sms-content}
 
 To configure the content of your SMS delivery:
 
-1. Enter the content of your message in the **[!UICONTROL Text content]** wizard
+1. Enter the content of your message in the **[!UICONTROL Text content]** tab.
     
     ![](assets/sms_content.png){zoomable="yes"}
 
-1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization block (for example adding the greetings). You can click on the personalization button to add these:
+1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization block (for example adding the greetings). Click on the personalization button to add these:
 
     ![](assets/sms_perso.png){zoomable="yes"}
 
-    After clicking on **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, you will have the personalization like this:
+    For example, after clicking on **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, the SMS content is updated with the personalization field, as below:
 
     ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. You can preview you delivery by going in the **[!UICONTROL Preview]** tab and by clicking on **[!UICONTROL Test personalization]** drop-down list, and by choosing a recipient in the **[!UICONTROL Recipient]** table.
+    Learn more about personalization in Adobe Campaign in [this section](../personalize.md).
+
+1. You can preview you delivery content from the **[!UICONTROL Preview]** tab. To check your personalization settings, click on the **[!UICONTROL Test personalization]** drop-down list, and select a recipient.
 
     ![](assets/sms_preview.png){zoomable="yes"}
 
-    You will have the preview of your SMS with the personalization:
+    You can check the preview of your SMS with the personalization:
 
     ![](assets/sms_preview_phone.png){zoomable="yes"}
 
