@@ -34,7 +34,7 @@ To deliver SMS to mobile devices with Adobe Campaign, you need:
 </td>
 <td>
 <a href="sms-content.md">
-<img alt="SMS Content" src="../../assets/do-not-localize/sms.jpg">
+<img alt="SMS content" src="../../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
 <a href="sms-content.md"><strong>Define your SMS content</strong></a>
@@ -42,7 +42,7 @@ To deliver SMS to mobile devices with Adobe Campaign, you need:
 <p></td>
 <td>
 <a href="sms-audience.md">
-<img alt="Audience" src="../../assets/do-not-localize/sms-opt-out.jpg">
+<img alt="SMS audience" src="../../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
 <a href="sms-audience.md"><strong>Select the audience</strong></a>
@@ -51,7 +51,7 @@ To deliver SMS to mobile devices with Adobe Campaign, you need:
 </td>
 <td>
 <a href="smpp-external-account.md">
-<img alt="Configuration" src="../../assets/do-not-localize/sms-config.jpg">
+<img alt="SMS configuration" src="../../assets/do-not-localize/sms-config.jpg">
 </a>
 <div>
 <a href="smpp-external-account.md"><strong>Configure SMS channel</strong></a>
