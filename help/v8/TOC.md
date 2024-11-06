@@ -47,6 +47,7 @@ breadcrumb-title: Campaign v8 Documentation
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
     + Configure SMS channel {#config-sms}
+      + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
       + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
@@ -54,7 +55,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
       + [SMPP connector description](send/sms/smpp-connector-delivery.md) 
     + Create a SMS  {#create-sms}
-      + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
+      + [Create a SMS delivery](send/sms/create-sms.md)   
       + [Define the content](send/sms/sms-content.md)
       + [Select the audience](send/sms/sms-audience.md)
     + Validate and send SMS {#validate-sms}

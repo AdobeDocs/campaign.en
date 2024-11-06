@@ -17,13 +17,12 @@ exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
 
 The technical settings needed for a SMS delivery are:
 
-* The routing: [the SMPP external account](smpp-external-account.md#smpp-connection-settings)
-
-* [The **[!UICONTROL SMS]** tab](#sms-tab)
+* The SMPP external account for the message routing. [Learn more](smpp-external-account.md#smpp-connection-settings)
+* Configure the SMS tab. [Learn how](#sms-tab)
 
 You can set up all of these in a delivery template in order to avoid to do the settings for each SMS delivery creation.
 
-## Configure **[!UICONTROL SMS]** tab {#sms-tab}
+## Configure the SMS tab {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -91,25 +90,3 @@ Here are the information you need to fill this form. Each field is explained bel
   >
   >Binary formats are always encoded into big-endian form.
 
-## Create a SMS delivery {#sms-delivery}
-
-To create a new SMS delivery, follow the steps below: 
-
-1. Create a new delivery, for example from the Delivery Dashboard, or in your Delivery folder in **[!UICONTROL Explorer]**.  By default, it will be labeled "Email delivery".
-
-1. Select the delivery template you created for your SMS sendings. [Learn more here](sms-mid-sourcing.md#sms-delivery-template).
-
-    ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, --> 
-  
-1. Rename your delivery in the **[!UICONTROL Label]** field and add information in **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery.
-
-1. Click on **[!UICONTROL Continue]** button. Now, you have all the settings of your template in your delivery.
-
-1. You can check in the **[!UICONTROL Properties]** button that all is set up as needed. [Learn more about SMS tab](#sms-tab)
-  
-  ![](assets/sms_settings.png){zoomable="yes"}
-
-  You can now configure your [SMS content](sms-content.md).
