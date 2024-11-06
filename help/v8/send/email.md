@@ -12,7 +12,7 @@ Email deliveries let you send personalized emails to the target population. [Lea
 
 Learn key steps to create and configure a delivery in [this page](../start/create-message.md).
 
-## Create your first email delivery
+## Create an email delivery
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
 
