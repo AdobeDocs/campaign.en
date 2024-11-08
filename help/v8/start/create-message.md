@@ -170,15 +170,12 @@ A proof is a specific message that allows you to test a message before sending i
 
 For more on proof recipients and sending, refer to [this section](../send/preview-and-proof.md#send-proofs).
 
-![](../send/assets/do-not-localize/how-to-video.png) [Discover this feature in video](#seeds-and-proofs-video)
-
 
 #### Tutorial video {#seeds-and-proofs-video}
 
 In this video you will learn how to add seeds and proofs to an existing email and how to send it.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
@@ -194,7 +191,7 @@ To do this:
 
 >[!IMPORTANT]
 >
->The two steps above MUST BE executed after each modification on the message content.
+>The two steps above **must be** executed after each modification on the message content.
 
 
 ## Configure and send the delivery {#configuring-and-sending-the-delivery}
