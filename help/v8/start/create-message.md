@@ -18,7 +18,7 @@ The key steps when creating a one-shot delivery are:
 
 1. **Select the target population**. [Read more](#target-population)
 
-You can then prepare, test, send and monitor your messages. 
+You can then prepare, test, send, and monitor your messages with Adobe Campaign. 
 
 >[!NOTE]
 >
@@ -26,15 +26,16 @@ You can then prepare, test, send and monitor your messages.
 
 ## Create the delivery {#create-the-delivery}
 
-To create a delivery,follow these steps:
+To create a delivery, follow these steps:
 
-1. Click **[!UICONTROL Create]** above the list of deliveries. When you create a new delivery, you must select the delivery channel. To do this, select the appropriate delivery template from the drop-down list in the **[!UICONTROL Delivery template]** field. 
+1. Browse to the list of deliveries and click **[!UICONTROL Create]**. 
+1. Select the delivery channel. To do this, choose the appropriate delivery template from the drop-down list. 
 
    ![](../send/assets/select-the-new-template.png)
 
-   A built-in template is provided for each channel you have installed: direct mail, email, telephone, mobile channel (SMS), X (Twitter), etc. The channels available in the list depend on your license agreement.
+   A built-in template is provided for each channel you have installed: email, telephone, mobile channels (push / SMS), direct mail, X (Twitter), etc. The channels available in the list depend on your license agreement.
 
-   You can create new delivery templates in order to pre-configure specific parameters to suit your needs. For further information about templates, refer to [this section](../send/create-templates.md).
+   You can create new delivery templates in order to pre-configure specific parameters to suit your needs.  [Learn more](../send/create-templates.md).
 
 1. Enter a name for the delivery in the **[!UICONTROL Label]** field.
 
@@ -42,7 +43,7 @@ To create a delivery,follow these steps:
 
 1. (optional) Add a description in the **[!UICONTROL Description]** field.
 1. (optional) Select the delivery nature in the relevant field. This information is useful for delivery tracking: you can filter based on this criterion in the delivery list or build queries using this selection criterion.
-1. Click **[!UICONTROL Continue]** to confirm this information and display the message configuration window.
+1. Click **[!UICONTROL Continue]** to display the message content window.
 
 ## Define the delivery content {#content-of-the-delivery}
 
@@ -120,7 +121,7 @@ To select the recipients of a delivery, follow the steps below:
 
    ![](assets/target-remove-criterion.png)
 
-#### Select external recipients {#selecting-external-recipients}
+### Select external recipients {#selecting-external-recipients}
 
 You can send messages to profiles who are not stored in the database, but in an external file. For example, to send a delivery to recipients imported from a text file, follow these steps:
 
@@ -135,25 +136,31 @@ You can send messages to profiles who are not stored in the database, but in an 
 
 >[!CAUTION]
 >
->When defining the content of the message for email delivery, do not include the link to the mirror page: it cannot be generated in this delivery mode.
+>When defining the content of the message for email delivery to external recipients, do not include the link to the mirror page: it cannot be generated in this delivery mode.
 
-#### Define exclusion settings {#define-exclusion-settings}
+### Exclusion settings {#define-exclusion-settings}
 
-When defining the target of a delivery, the **[!UICONTROL Exclusions]** tab is used to limit the number of messages. Default parameters are recommended, but you can adapt settings depending on your needs. However, these options should only be changed by an expert user to avoid any misusage and errors.
+When defining the [audience of a delivery](#target-population), the **[!UICONTROL Exclusions]** tab is used to limit the number of messages. Default parameters are recommended, but you can adapt settings depending on your needs. However, these options should only be changed by an expert user to avoid any misusage and errors.
 
-You can choose to exclude addresses that have reached a certain number of consecutive errors, or whose quality rating is below a threshold specified in this window. You can also choose whether or not to authorize non-qualified addresses for which no data has been returned.
+>[!CAUTION]
+>
+>As an expert user, for specific use cases, you can change these settings, but Adobe recommends to keep the default configuration.
 
-Click the **[!UICONTROL Edit...]** link to modify the default configuration.
+You can exclude addresses that have reached a certain number of consecutive errors, or whose quality rating is below a threshold specified in this window. You can also choose whether or not to authorize non-qualified addresses for which no data has been returned.
+
+To modify the default configuration, click the **[!UICONTROL Edit...]** link.
 
 ![](assets/target-exclusion-settings.png)
 
-The following options are available:
++++ See available options
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**: this option is active by defaultand removes duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database. The value of the option can be configured for each delivery template.
+* **[!UICONTROL Exclude duplicate addresses during delivery]**: this option is active by default and removes duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database. The value of the option can be configured for each delivery template.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing.
 * **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [this section](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the target audience exceeds the number of messages indicated, a random selection is applied to the target. To send all messages, keep this value to '0'.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: this option allows sending multiple deliveries to recipients who satisfy several targeting criteria.
++++
+
 
 ### Select the recipients of proof messages {#select-the-proof-target}
 
