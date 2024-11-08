@@ -38,6 +38,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Send messages{#send}
   + [Get started with messages](start/gs-message.md)
   + [Create your first delivery](start/create-message.md)
+  + [Delivery best practices](start/delivery-best-practices.md)
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)

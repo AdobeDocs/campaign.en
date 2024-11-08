@@ -31,7 +31,7 @@ You can personalize the message content by:
 
 * Create **conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditions.md).
+    Configure conditional content to add dynamic personalization based on the recipient's profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditions.md).
 
 <!--* Add **personalized offers**
     
@@ -41,13 +41,13 @@ You can personalize the message content by:
 
 ## Guardrails and recommendations{#perso-guardrails}
 
-### Personalization time out{#perso-timeout}
+### Personalization time out {#perso-timeout}
 
 To improve delivery protection, you can set a time-out period for the personalization phase.
 
 In the **[!UICONTROL Delivery]** tab of the **[!UICONTROL Delivery properties]**, select a maximum value in seconds for the **[!UICONTROL Maximum personalization run time]** option.
 
-During preview or sending, if the personalization phase exceeds the maximum time that you set in this field, the process will be aborted with an error message and the delivery will fail.
+During preview or sending, if the personalization phase exceeds the maximum time that you set in this field, the process is aborted with an error message and the delivery fails.
 
 The default value is 5 seconds.
 

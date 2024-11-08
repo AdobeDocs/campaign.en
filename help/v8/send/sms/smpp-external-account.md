@@ -65,7 +65,7 @@ When enabled, extra logs will be output to the log file. This is very useful for
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
-### Authorize character transliteration
+### Authorize character transliteration {#smpp-transliteration}
 
 Transliteration is the process of finding equivalent characters to missing ones. For example, the French "ê" (e with circumflex accent) character is missing from GSM encoding, but it can be replaced by "e" without impairing readability too much.
 
