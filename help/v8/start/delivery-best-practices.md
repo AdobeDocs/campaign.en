@@ -111,7 +111,7 @@ For more on personalization blocks, refer to the [this section](../send/personal
 
 You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](../send/personalization-data.md#optimize-personalization)
 
-### Build optimized content {#optimize-content}
+### Build optimized content {#build-optimized-content}
 
 When building your emails, keep the general best practices below in mind:
 
