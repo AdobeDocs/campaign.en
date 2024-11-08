@@ -145,7 +145,7 @@ The unsubscription link is essential. It must be visible and valid, and the form
 
 **Tip**: Because human error is always possible, check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line, and that the `No longer contact this recipient `field is changed to `Yes`.
 
-Learn how to insert an opt-out link [in this section](personalization-blocks.md#personalization-blocks-example).
+Learn how to insert an opt-out link [in this section](../send/personalization-blocks.md).
 
 ### Email size
 
@@ -322,7 +322,7 @@ You can define a full validation process, involving Adobe Campaign operators and
 
 #### Use waves
 
-You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. Learn more [in this section](../send/configure-and-send.mdsending-using-multiple-waves).
+You can progressively increase the volume sent using waves. This will avoid your messages being marked as spam or when you want to restrict the number of messages per day. Using waves you can divide deliveries into several batches instead of sending high volumes of messages at the same time. Learn more [in this section](../send/configure-and-send.md#sending-using-multiple-waves).
 
 #### Prioritize messages
 
