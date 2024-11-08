@@ -4,8 +4,8 @@ description: Learn how to create a SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
 ---
-
 # Create your first SMS delivery {#sms-delivery}
 
 To create a new SMS delivery, follow the steps below: 
@@ -44,5 +44,3 @@ After the creation of your delivery, you can:
 ## Monitor and track SMS {#sms-monitor}
 
 After the send, [learn how to monitor and track your SMS](sms-monitor.md).
-
-
