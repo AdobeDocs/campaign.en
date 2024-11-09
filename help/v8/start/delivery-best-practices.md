@@ -4,6 +4,7 @@ description: Learn best practices when designing and sending deliveries with Ado
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 ---
 # Delivery best practices {#delivery-best-practices}
 
@@ -407,4 +408,3 @@ Message tracking is enabled by default. To configure URLs, select the Display UR
 
 
 [Learn more about tracking capabilities in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
-
