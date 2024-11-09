@@ -38,7 +38,7 @@ Learn more how to start a new platform in the [Adobe Deliverability Best Practic
 Technical recommendations are listed in [this section](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
-**Tips**
++++ **Read out few best practices**
 
 * If you have a list of invalid addresses, Adobe recommends importing it to the quarantine table, through **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
@@ -46,6 +46,9 @@ Technical recommendations are listed in [this section](https://experienceleague.
     Adobe Campaign manages erroneous addresses according to the type of error returned. [Learn more about quarantines](../send/quarantines.md)
 
 * Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
+
++++
+
 
 
 ### Double opt-in mechanism {#double-opt-in}
@@ -68,6 +71,8 @@ Make sure to apply the following guidelines:
 * A badly formed address may result in it being rejected by the receiving server. You must make sure a correct address is given.
 * The address must explicitly identify the sender. The domain must be owned by and registered to the sender.
 * Adobe recommends creating email accounts that correspond to the addresses specified for deliveries and replies. Check with your messaging system administrator.
+
++++ **Cnfigure addresses in Campaign UI**
 
 To configure addresses in Campaign interface, follow the steps below:
 
@@ -113,7 +118,9 @@ You can prepare personalization data in a workflow to improve delivery preparati
 
 ### Build optimized content {#build-optimized-content}
 
-When building your emails, keep the general best practices below in mind:
+When building your emails, apply the general best practices for email content.
+
++++ **Read out few best practices**
 
 * Keep design simple
 
@@ -125,15 +132,24 @@ When building your emails, keep the general best practices below in mind:
 
 * Encode special characters
 
++++
+
+
 ### Subject line
 
-Work on the [subject line](../send/personalization-fields.md#personalization-fields-uc) to improve open rates:
+Work on the email [subject line](../send/personalization-fields.md#personalization-fields-uc) to improve open rates.
+
+
++++ **Read out few best practices**
+
 
 * Avoid subjects that are too long. Use 50 characters maximum
 
 * Avoid using repetitively words like "free" or "offer", that could be considered as spam
 
 * Avoid capital letters, and special characters like "!", "£", "&euro;", "$"
+
++++
 
 ### Mirror page
 
@@ -143,15 +159,20 @@ Always include a mirror page link. Preferred position is a the top of the email.
 
 The unsubscription link is essential. It must be visible and valid, and the form must be functional. By default, when the message is analyzed, a built-in **[!UICONTROL Unsubscription link approval]** [typology rule](../../automation/campaign-opt/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
 
-**Tip**: Because human error is always possible, check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line, and that the `No longer contact this recipient `field is changed to `Yes`.
-
 Learn how to insert an opt-out link [in this section](../send/personalization-blocks.md).
+
++++ **Apply this best practice**
+
+Because human error is always possible, check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line, and that the `No longer contact this recipient `field is changed to `Yes`.
+
++++
 
 ### Email size
 
 To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**. To check the message size, browse the **[!UICONTROL Preview]** tab and choose a test profile. Once generated, the message size is displayed in the top right corner.
 
-To keep your email under the limit, consider the following:
+
++++ **Read out few best practices**
 
 * Remove redundant or unused styles
 
@@ -161,19 +182,22 @@ To keep your email under the limit, consider the following:
 
 Make sure to test any changes before the final sending.
 
++++
+
+
 ### SMS length
 
 By default, the number of characters in an SMS meets the GSM (Global System for Mobile Communications) standards. SMS messages using GSM encoding are limited to 160 characters, or 153 characters per SMS for messages sent in multiple parts.
 
 Transliteration consists of replacing one character of an SMS by another when that character is not taken into account by the GSM standard. Note that inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. You can authorize character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**. 
 
-**Tips**
++++ **Read out few best practices**
 
 * To keep all of the characters in your SMS messages as they are, to not alter proper names for example, do not enable transliteration.
 
-* However, if your SMS messages contain a lot of characters that are not taken into account by the GSM standard, enable transliteration to limit the costs of sending your messages.
+* However, if your SMS messages contain a lot of characters that are not taken into account by the GSM standard, enable transliteration to limit the costs of sending your messages. Learn more [in this section](../send/sms/smpp-external-account.md#smpp-transliteration).
 
-Learn more [in this section](../send/sms/smpp-external-account.md#smpp-transliteration).
++++
 
 ### Avoid attachments
 
@@ -379,7 +403,7 @@ From Campaign delivery dashboard, you can check the processed messages and deliv
 
 To better know the behavior of your recipients, you can track how they react to a delivery: reception, opening, clicks on links, unsubscriptions, etc. In Campaign, this information is displayed in the **Tracking** tab of the recipients targeted by the delivery and in the Tracking tab of the delivery.
 
-**Tip**: Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery assistant. For each URL of the message, you can choose whether to activate tracking.
+Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery assistant. For each URL of the message, you can choose whether to activate tracking.
 
 
 [Learn more about tracking capabilities in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
