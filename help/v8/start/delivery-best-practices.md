@@ -60,11 +60,11 @@ To avoid sending messages to invalid addresses, limit improper communications an
 
 Delivery templates allow for increased efficiency by providing ready-made scenarios for most common types of activities. With templates, marketers can deploy new campaigns with minimal customization in a shorter amount of time. [Learn more about delivery templates](../send/create-templates.md).
 
-### Branding
+### Subdomains and branding {#subdomains-and-branding}
 
 When you manage several brands in Adobe Campaign, Adobe recommends having one sub-domain per brand. For example, a bank can have several sub-domains corresponding to each of its regional agencies. If a bank owns the bluebank.com domain, its sub-domains can be @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Having one delivery template per sub-domain enables you to always use the right pre-configured parameters for each of your brand, which avoids errors and saves you time. Learn more about subdomain branding in the [Campaign Control Panel documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
-### Configure addresses
+### Configure addresses {#configure-addresses}
 
 Make sure to apply the following guidelines: 
 
@@ -73,7 +73,7 @@ Make sure to apply the following guidelines:
 * The address must explicitly identify the sender. The domain must be owned by and registered to the sender.
 * Adobe recommends creating email accounts that correspond to the addresses specified for deliveries and replies. Check with your messaging system administrator.
 
-+++ **Cnfigure addresses in Campaign UI**
++++ **Steps to configure addresses in Campaign UI**
 
 To configure addresses in Campaign interface, follow the steps below:
 
@@ -85,15 +85,15 @@ To configure addresses in Campaign interface, follow the steps below:
 
 1. In the **[!UICONTROL Reply address text]** fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.
 
-### Set up a control group
+### Set up a control group {#set-up-control-group}
 
 Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups [this section](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
-### Use typologies to apply filters or control rules
+### Use typologies to apply filters or control rules {#create-typologies}
 
 A typology contains checking rules that are applied during the analysis phase, before sending any message.
 
-In the **[!UICONTROL Typology]** tab of the template's properties, change the default typology according to your needs.
+In the **[!UICONTROL Typology]** tab of the template's properties, you can select a custom typology if needed.
 
 For example, to better control the outbound traffic, you can define which IP addresses can be used by defining one affinity per sub-domain and creating one typology per affinity. The affinities are defined in the instance's configuration file. Contact your Adobe Campaign administrator.
 
@@ -105,17 +105,20 @@ For more on typologies, refer to [this section](../../automation/campaign-opt/ca
 
 To personalize your messages, you can use recipients' data stored in the database, or collected through tracking, landing pages, subscriptions, etc. Personalization basics are presented in [this section](../send/personalize.md).
 
-Make sure your message content is properly designed to avoid any errors, which can be related to personalization. An Adobe Campaign personalization tag always has the following form: `<%=table.field%>`. The incorrect use of parameters in personalization blocks can be an issue. For example, variables in JavaScript should be used as follows:
++++ **Read out few best practices**
 
-``
-<%
-var brand = "xxx"
-%>
-``
+* Check your personalization settings - Make sure your message content is properly designed to avoid any errors, which can be related to personalization. An Adobe Campaign personalization tag always has the following form: `<%=table.field%>`. The incorrect use of parameters in personalization blocks can be an issue. For example, variables in JavaScript should be used as follows:
 
-For more on personalization blocks, refer to the [this section](../send/personalization-blocks.md).
+    ``
+    <%
+    var brand = "xxx"
+    %>
+    ``
 
-You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](../send/personalization-data.md#optimize-personalization)
+    For more on personalization blocks, refer to the [this section](../send/personalization-blocks.md).
+
+* Prepare personalization data - You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](../send/personalization-data.md#optimize-personalization)
++++
 
 ### Build optimized content {#build-optimized-content}
 
@@ -136,7 +139,7 @@ When building your emails, apply the general best practices for email content.
 +++
 
 
-### Subject line
+### Subject line  {#subject-line-check}
 
 Work on the email [subject line](../send/personalization-fields.md#personalization-fields-uc) to improve open rates.
 
@@ -148,15 +151,17 @@ Work on the email [subject line](../send/personalization-fields.md#personalizati
 
 * Avoid using repetitively words like "free" or "offer", that could be considered as spam
 
-* Avoid capital letters, and special characters like "!", "£", "&euro;", "$"
+* Avoid capital letters
+
+* Do not use special characters like "!", "£", "&euro;", "$"
 
 +++
 
-### Mirror page
+### Mirror page {#mirror-page-check}
 
 Always include a mirror page link. Preferred position is a the top of the email. Learn more about the mirror page in [this page](../send/mirror-page.md) 
 
-### Unsubscription link
+### Unsubscription link {#unsub-link-check}
 
 The unsubscription link is essential. It must be visible and valid, and the form must be functional. By default, when the message is analyzed, a built-in **[!UICONTROL Unsubscription link approval]** [typology rule](../../automation/campaign-opt/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
 
@@ -168,7 +173,7 @@ Because human error is always possible, check that the opt-out link works correc
 
 +++
 
-### Email size
+### Email size {#email-size-check}
 
 To avoid performance or deliverability issues, the recommended maximum size of an email is about **35KB**. To check the message size, browse the **[!UICONTROL Preview]** tab and choose a test profile. Once generated, the message size is displayed in the top right corner.
 
@@ -186,17 +191,18 @@ Make sure to test any changes before the final sending.
 +++
 
 
-### SMS length
+### SMS length {#sms-length-check}
 
 By default, the number of characters in an SMS meets the GSM (Global System for Mobile Communications) standards. SMS messages using GSM encoding are limited to 160 characters, or 153 characters per SMS for messages sent in multiple parts.
 
-Transliteration consists of replacing one character of an SMS by another when that character is not taken into account by the GSM standard. Note that inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. You can authorize character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**. 
 
 +++ **Read out few best practices**
 
 * To keep all of the characters in your SMS messages as they are, to not alter proper names for example, do not enable transliteration.
 
 * However, if your SMS messages contain a lot of characters that are not taken into account by the GSM standard, enable transliteration to limit the costs of sending your messages. Learn more [in this section](../send/sms/smpp-external-account.md#smpp-transliteration).
+
+* You can apply SMS transliteration, which consists in replacing one character of an SMS by another when that character is not taken into account by the GSM standard. Note that inserting personalization fields into the content of your SMS message may introduce characters that are not taken into account by the GSM encoding. As a Campaign Administrator, you can enable character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**. [Learn more](../send/sms/smpp-external-account.md#smpp-transliteration)
 
 +++
 
@@ -215,26 +221,28 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
-
 ## Manage images {#manage-images}
 
 Here are some specific guidelines for optimizing images for your email marketing campaign.
 
-### Prevent images blocking
+### Prevent images blocking {#image-blocking}
 
-Some email clients block images by default, and some users change their settings to block images for saving on data usage. Therefore, if images are not downloaded, the whole message can be lost. To avoid this:
+Some email clients block images by default, and users may change their settings to block images for saving on data usage.  herefore, if images are not downloaded, the whole message can be lost.
 
-* Balance your content with image and text. Avoid entirely image-based emails.
++++ To avoid this, you can apply these best practices
+
+* Avoid entirely image-based emails. Balance your content with image and text.
 
 * If text must be contained in an image, use alt and title text to make sure your message gets across. Style your alt/title text to improve its appearance.
 
 * Avoid the use of background images as they are not supported by some email clients.
++++
 
-### Make images responsive
+### Make images responsive {#responsive-images}
 
-Try to make images responsive and resizable. Note that this can have a cost impact as it takes longer to build.
+Try to make images responsive and resizable to make them visible in all contexts and devices. Note that this can have a cost impact as it takes longer to build.
 
-### Use absolute image references
+### Use absolute image references {#absolute-images}
 
 To be accessible from the outside, the images used in emails and public resources linked to campaigns must be present on an externally accessible server.
     
