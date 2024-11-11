@@ -1,14 +1,14 @@
 ---
 title: Delivery best practices
 description: Learn best practices when designing and sending deliveries with Adobe Campaign
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 ---
 # Delivery best practices {#delivery-best-practices}
 
-Read out best practices with Campaign delivery capabilities. 
+Read out the following best practices with Campaign delivery capabilities. 
 
 ## Optimize delivery {#optimize-delivery}
 
