@@ -24,7 +24,7 @@ A template can include partial or full configuration settings, such as:
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
-In Adobe Campaign, you can work with two types of templates:
+Delivery templates are stored in the **[!UICONTROL Resources > Templates > Delivery templates]** folder of the Explorer. In Adobe Campaign, you can work with two types of templates:
 
 1. Adobe Campaign **built-in** delivery templates - Built-in templates are available for each channel. They MUST NOT be modified nor deleted. They include a basic configuration for each delivery channel. As an Administrator, you can set default values, or restrict certain functions to end users, such as modifying the tracking parameters, sender email addresses, and more. Built-in templates appear in bold in the list of templates.
 
@@ -115,18 +115,19 @@ Select the delivery template to be used, and click **[!UICONTROL Ok]**.
 
 ### Execute a template {#execute-a-template}
 
-You can launch the execution of a template directly from the template list without creating a delivery first. 
+You can launch the execution of a template directly from the template list without creating a delivery first. The delivery template may be executed manually, as detailed below, or triggered by an event (executed at a set time, when a file is available in the server, etc.), as explained in [this section](../../automation/workflow/deliveries.md). 
 
-To do this, select the template to be executed and right-click. Select **[!UICONTROL Actions>Execute the delivery template...]**.
+To execute a template manually, follow these steps:
 
-You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
+1. Select the template to be executed and right-click. Select **[!UICONTROL Actions>Execute the delivery template...]**.
 
-![](assets/execute-delivery-template.png)
+    You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-Enter the delivery parameters and click **[!UICONTROL Send]**.
+    ![](assets/execute-delivery-template.png)
+
+1. Enter the delivery parameters and click **[!UICONTROL Send]**.
 
 This action generates a delivery in the folder associated to the template. The name of this delivery is the name of the delivery template from which it was created.
-
 
 ## Tutorial videos {#delivery-template-video}
 
