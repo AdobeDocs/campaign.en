@@ -9,11 +9,13 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 ---
 # Work with delivery template {#work-with-delivery-template}
 
-Each delivery is created based on a template. Built-in templates are available for each channel. You can customize them to apply the same settings to a set of deliveries. 
+## Get started with delivery templates
 
-A template includes:
+Each delivery is created based on a template. A template is a configuration which can be reused to facilitate and standardize your implementation. You can use a built-in or a custom template. 
 
-* Typology rules
+A template can include partial or full configuration settings, such as:
+
+* [Typology rules](../../automation/campaign-opt/campaign-typologies.md)
 * Sender and reply-to addresses
 * Basic [personalization blocks](../send/personalization-blocks.md)
 * Links to [mirror pages](../send/mirror-page.md) and unsubscription links
@@ -21,6 +23,17 @@ A template includes:
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
+
+In Adobe Campaign, you can work with two types of templates:
+
+1. Adobe Campaign **built-in** delivery templates - Built-in templates are available for each channel. They MUST NOT be modified nor deleted. They include a basic configuration for each delivery channel. As an Administrator, you can set default values, or restrict certain functions to end users, such as modifying the tracking parameters, sender email addresses, and more. Built-in templates appear in bold in the list of templates.
+
+1. **Custom** delivery templates - As an Adobe Campaign Administrator, you can create new delivery templates. Best practice is to duplicate and update a built-in template rather than creating a template from scratch. For example, you can configure an email delivery template, and when users create a delivery from this template, they only need to enter the text or HTML content. All other settings are already defined. 
+
+>[!NOTE]
+>
+>The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. Other templates are not visible in this context. For more on this, refer to [Select a target mapping](../audiences/target-mappings.md) and [Services and subscriptions](../start/subscriptions.md).
+
 
 ## Create a template {#create-a-delivery-template}
 
