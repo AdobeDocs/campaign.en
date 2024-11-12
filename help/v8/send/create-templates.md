@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 ---
-# Work with delivery template {#work-with-delivery-template}
+# Work with delivery templates {#work-with-delivery-template}
 
 ## Get started with delivery templates
 
