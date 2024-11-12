@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 ---
 # Design and send emails
 
-Email deliveries let you send personalized emails to the target population. [Learn more](../send/send.md)
+With Adobe Campaign, create email deliveries to send personalized emails to the target population. [Learn more](../send/send.md)
 
 Learn key steps to create and configure a delivery in [this page](../start/create-message.md).
 
@@ -79,15 +79,16 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
 Your first email delivery is ready. You now need to define the audience, validate the delivery and send it.
 
-Learn how to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Learn how to create a workflow to import an email content in this [use case](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
-Learn more in the following sections:
-
-<!--[Design an email in Campaign]-->
-* [Create and use an email template](../send/create-templates.md)
-* [Select the audience of your email](../audiences/gs-audiences.md)
-* [Validate a delivery and send proofs](preview-and-proof.md)
-* [Configure and send the delivery](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [Create a delivert](../start/create-message.md)
+>* [Create and use an email template](create-templates.md)
+>* [Select the audience of your email](../audiences/gs-audiences.md)
+>* [Validate a delivery and send proofs](preview-and-proof.md)
+>* [Configure and send the delivery](configure-and-send.md)
+>* [Delivery best practices](../start/delivery-best-practices.md)
 
 ## Test and validate your emails
 
