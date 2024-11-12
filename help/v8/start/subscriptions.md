@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 ---
-# Manage subscriptions and unsubscriptions{#optin-optout}
+# Manage subscriptions and unsubscriptions {#optin-optout}
 
 Use Adobe Campaign to create and monitor your information services such as newsletters and to manage the subscriptions/unsubscriptions to these services. Several services can be defined in parallel, for example: specialist newsletters for certain product categories, themes or areas of a web site, subscriptions to various types of alert messages and real-time notifications.
 

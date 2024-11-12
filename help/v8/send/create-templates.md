@@ -32,7 +32,7 @@ Delivery templates are stored in the **[!UICONTROL Resources > Templates > Deliv
 
 >[!NOTE]
 >
->The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. Other templates are not visible in this context. For more on this, refer to [Select a target mapping](../audiences/target-mappings.md) and [Services and subscriptions](../start/subscriptions.md).
+>The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. Other templates are not visible in this context. For more on this, refer to [Work witth target mappings](../audiences/target-mappings.md) and [Manage subscriptions and unsubscriptions](../start/subscriptions.md).
 
 
 ## Create a template {#create-a-delivery-template}
