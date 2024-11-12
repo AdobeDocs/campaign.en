@@ -115,7 +115,7 @@ Select the delivery template to be used, and click **[!UICONTROL Ok]**.
 
 ### Execute a template {#execute-a-template}
 
-You can launch the execution of a template directly from the template list without creating a delivery first. The delivery template may be executed manually, as detailed below, or triggered by an event (executed at a set time, when a file is available in the server, etc.), as explained in [this section](../../automation/workflow/deliveries.md). 
+You can launch the execution of a template directly from the template list without creating a delivery first. The delivery template may be executed manually, as detailed below, or triggered by an event (executed at a set time, when a file is available in the server, etc.), as explained in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery). 
 
 To execute a template manually, follow these steps:
 
