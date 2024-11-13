@@ -8,7 +8,7 @@ exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
 # Create your first delivery {#create-a-msg}
 
-In this page, you will learn how to create a one-shot single delivery. You can create other types of deliveries to address your use cases. Learn more about the different types of deliveries and how to create them in [this page](gs-message.md).
+In this page, learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. Learn more about the different types of deliveries and how to create them in [this page](gs-message.md).
 
 The key steps when creating a one-shot delivery are:
 
