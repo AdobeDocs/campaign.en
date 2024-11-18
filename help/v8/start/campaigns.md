@@ -1,12 +1,12 @@
 ---
-title: Get started with campaigns
+title: Get Started with Campaigns
 description: Get started with campaigns
 feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 ---
-# Get Started with campaigns {#gs-ac-campaigns}
+# Get started with campaigns {#gs-ac-campaigns}
 
 Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
 
