@@ -13,7 +13,8 @@ This page lists all the latest updates in [!DNL Campaign] v8 (console) documenta
 
 ## November 2024 {#october-2024}
 
-The **ffdaUnsuscribe** workflow has been added to the list of technical workflows.[Read more](../../automation/workflow/technical-workflows.md) 
+* The **ffdaUnsuscribe** workflow has been added to the list of technical workflows. [Read more](../../automation/workflow/technical-workflows.md)
+* The page about Campaign versions and upgrades has been improved. [Read more](upgrades.md)
 
 ## June 2024 {#june-2024}
 

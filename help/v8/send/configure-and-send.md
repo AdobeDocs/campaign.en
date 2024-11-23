@@ -120,7 +120,7 @@ To do this, follow the steps below.
 
 1. Click **[!UICONTROL Send]**, select the desired action.
 
-    * To send the delivery immediately, select [**Deliver as soon as possible**].
+    * To send the delivery immediately, select **[!UICONTROL Deliver as soon as possible]**.
     * To schedule the sending to a later date, select **[!UICONTROL Postpone the delivery]**. [Learn more](#schedule-delivery-sending)
 
 1. Click **[!UICONTROL Analyze]**. For more on this, see [this section](delivery-analysis.md).

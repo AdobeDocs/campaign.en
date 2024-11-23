@@ -13,11 +13,11 @@ This article details the steps required to migrate a technical operator to techn
 
 ## What changed?{#move-to-ims-changes}
 
-With Campaign v8, all regular users should already connect to the Adobe Campaign client console using their Adobe ID, through Adobe Identity Management System (IMS). However, with some older configurations, user/password connections were still available. **This will no longer be permitted starting Campaign v8.6.**
+With Campaign v8, all regular users should already connect to the Adobe Campaign client console using their Adobe ID, through Adobe Identity Management System (IMS). However, with some older configurations, user/password connections were still available. **This is no longer permitted starting Campaign v8.6.**
 
 In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. Migration for technical operators is detailed in a dedicated article, available in [this page](ims-migration.md).
 
-This change is applicable starting Campaign v8.5.2, and will be **mandatory** starting Campaign v8.6. 
+This change is applicable starting Campaign v8.5.2, and is **mandatory** starting Campaign v8.6. 
 
 ## Are you impacted?{#migrate-ims-impacts}
 

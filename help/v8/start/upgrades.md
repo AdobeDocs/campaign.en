@@ -8,6 +8,12 @@ exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 ---
 # Versions and upgrades {#upgrades}
 
+Adobe Campaign is regularly updated. This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. Adobe strongly recommends all customers to upgrade to the latest version.
+
+As a Managed Cloud Services user, your instance is upgraded by Adobe with every new version. Your Adobe representative contacts you to upgrade your environments. Campaign client console **must be upgraded to the same version** as Campaign servers. Learn how to upgrade your client console in [this page](../start/connect.md#upgrade-ac-console).
+
+In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
+
 ## Campaign versions {#versions}
 
 Adobe Campaign periodically releases product versions which improve the performance, security, logic, and usability of your Campaign infrastructure. 
@@ -22,10 +28,12 @@ Detailed information about each new version is available in the [Release notes](
 
 To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console). 
 
+
+## Campaign upgrades {#ac-upgrades}
+
 As a Campaign Managed Services customer, when a new Campaign version is available, your infrastructure is upgraded by Adobe without any further action.
 
 Note that, as a customer, you must ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
-
 
 ## Frequently Asked Questions {#upgrades-faq}
 
@@ -44,14 +52,14 @@ You access the following information:
 
 ### How can I be informed of the release of a new version? {#upgrades-0}
 
-New versions and which changes they bring are listed in the [Release Notes](release-notes.md). Once a new version is available, Adobe will contact you and upgrade your environments.
+New versions and which changes they bring are listed in the [Release Notes](release-notes.md). Once a new version is available, your Adobe representative contacts you and upgrade your environments.
 
-To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"}.
+To be informed of new Experience Cloud solution releases and their content, subscribe to the [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} communication.
 
 You can also visit [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} to be informed about release updates.
 
 
-### Why does my organization need this upgrade? {#upgrades-1}
+### Why does my organization need an upgrade? {#upgrades-1}
 
 Upgrading your infrastructure to the latest version ensures that your account is secure from vulnerabilities, as well as using updated performance technology. 
 
@@ -71,8 +79,8 @@ Typically, upgrading to the latest version brings:
     Over time, the Adobe Campaign team identifies ways to improve the stability and performance of the product, as well as fix known issues. Upgrading brings your instance up-to-date with these improvements and eliminates common challenges seen by organizations that are experiencing rapid growth and/or complexity within their Campaign instances.Improvements across the technology stack powering Campaign are felt across both marketing and IT teams of your organization.
 
 
-### What is the process and timeline for this upgrade? {#upgrades-2}
+### What is the process and timeline for an upgrade? {#upgrades-2}
 
 As a v8 customer, if your account has been identified as needing to upgrade to a new version, Adobe directly notifies you. 
 
-The Adobe team is here to lead and guide your organization through this journey. A team of dedicated Customer Care Representativess, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
+The Adobe team is here to lead and guide your organization through this journey. A team of dedicated Customer Care Representatives, Product Managers, Engineers and TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.

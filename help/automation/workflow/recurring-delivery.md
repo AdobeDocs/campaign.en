@@ -34,7 +34,7 @@ A **recurring delivery** will create a new delivery instance each time it execut
 
 ![Recurring Delivery](assets/delivery_recurring.jpg)
 
-If you want to stop a recurring delivery from running, you should completely cancel the campaign or stop the workflow executing it. Stopping the delivery from the Campaign dashboard will only stop the delivery occurence: the next instances of the recurring delivery will continue being created at each workflow execution.
+If you want to stop a recurring delivery from running, you should completely cancel the campaign or stop the workflow executing it. Stopping the delivery from the Campaign dashboard only stops the delivery occurence: the next instances of the recurring delivery will continue being created at each workflow execution.
 
 >[!NOTE]
 >

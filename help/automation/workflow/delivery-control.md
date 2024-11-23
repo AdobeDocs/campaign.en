@@ -8,8 +8,6 @@ exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
 ---
 # Delivery control{#delivery-control}
 
-
-
 A **Delivery control**-type action lets you start, pause, or stop a delivery.
 
 This can be the delivery specified in the transition, a delivery selected explicitly, or a delivery calculated by a script. For more on this, refer to [Delivery](delivery.md).
@@ -32,4 +30,4 @@ The following options are available:
 
 * deliveryId
 
-Delivery identifier, if the selected action is **[!UICONTROL Specified in the transition]**.
+  Delivery identifier, if the selected action is **[!UICONTROL Specified in the transition]**.
