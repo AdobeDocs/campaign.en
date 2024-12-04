@@ -8,39 +8,32 @@ exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 ---
 # Technical workflows{#about-technical-workflows}
 
-Adobe Campaign comes with a set of built-in technical workflows. They manage operations and jobs scheduled for periodic execution on the server. They let you carry out maintenance on the database, forward tracking information on deliveries, or set up provisional processes on deliveries. Technical workflows are configured via the **[!UICONTROL Administration > Production > Technical workflows]** node.
-
-![](assets/navtree.png)
-
-Native templates are available for creating technical workflows. They can be configured to suit your needs.
-
-The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
-
-![](assets/campaign-processes-wf.png)
-
-
->[!NOTE]
->
->The list of technical workflows installed with each module is available in a [dedicated section](technical-workflows.md).
-
-You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. However, this process is reserved for expert users.
-
-The activities offered are the same as for targeting workflows. [Learn more](targeting-workflows.md)
-
-The workflows detailed in this section are installed with the different Adobe Campaign built-in packages. These packages, and related technical workflows, depend on your license agreement. 
+Adobe Campaign comes with a set of built-in technical workflows. They control operations and jobs scheduled for periodic execution on the server. Technical workflows execute maintenance operations on your Campaign database, manage tracking data on deliveries, and also set up provisional processes on deliveries. 
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-Note that technical workflows can only be started and modified by operators with Administration permissions.
+![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->Technical workflows related to the Message Center add-on are available by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
+>* The list of technical workflows installed with each module is available in a [this section](#list-technical-workflows).
+>
+>* Technical workflows related to the Message Center add-on are stored by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
-Learn how to monitor technical workflows in this [dedicated section](monitor-technical-workflows.md).
+The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
 
+![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
+
+
+## Manage and create technical workflows {#manage-tech-workflows}
+
+Campaign technical workflows can only be started and modified by operators with **Administration** permissions. Learn how to monitor technical workflows in this [dedicated section](monitor-technical-workflows.md).
+
+You can create custom technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. Native templates are available for creating technical workflows. They can be configured to suit your needs. However, this process is reserved for expert users. The activities available in technical workflows are the same as for targeting workflows. [Learn more](targeting-workflows.md).
 
 ## List of technical workflows {#list-technical-workflows}
+
+The workflows detailed in this page are installed with the Adobe Campaign built-in packages. These packages, and associated technical workflows, depend on your license agreement and add-ons. 
 
 |Technical workflow|Package|Description|
 |------|--------|-----------|
@@ -53,12 +46,12 @@ Learn how to monitor technical workflows in this [dedicated section](monitor-tec
 |**Database cleanup** (cleanup)|Installed by default|This workflow is the database maintenance workflow: it makes different calculations from the statistics and processes, and deletes obsolete data from the database according to the defined configuration in the deployment assistant. It is triggered every day at 4am by default.|
 |**Delete blocked LINE users** (deleteBlockedLineUsersV2)|LINE channel|This workflow ensures that the LINE V2 users' data is deleted after they have blocked the LINE official account for 180 days.|
 |**Delete privacy requests data** (deletePrivacyRequestsData)|Privacy Data Protection Regulation|This workflow deletes the recipient's data stored in Adobe Campaign.|
-|**Delivery indicators** (deliveryIndicators)|Mid-sourcing platform|This workflow updates delivery tracking indicators for a delivery. This workflow is triggered every hour by default.|
+|**Delivery indicators** (deliveryIndicators)|Installed by default|This workflow updates delivery tracking indicators for a delivery. This workflow is triggered every hour by default.|
 |**Distributed marketing processes** (centralLocalMgt)|Central/local Marketing (Distributed Marketing)|This workflow starts processing related to using the distributed marketing module. It launches the creation of local campaigns and manages notifications related to orders and campaign package availability.|
 |**Event purge** (webAnalyticsPurgeWebEvents)|Web Analytics connectors|This workflow lets you delete every event from the database field according to the period configured in the Lifespan field.|
 |**Export audiences to the Adobe Experience Cloud** (exportSharedAudience)|Integration with Adobe Experience Cloud|This workflow exports audiences as shared audiences/segments. These audiences can be used in the different Adobe Experience Cloud solutions that you use.|
 |**ffdaUnsuscribe**|Installed by default|This workflow handles unsubscribes received back as bounce mails (through usage of `<mailto>` List-Unsubscribe method). It runs daily, every 1h, only on marketing instances with an Enterprise (FFDA) deployment.<br/><br/>The workflow checks broadlogs from a certain time range (last processing time and current time) that are marked as unsubscription bounces by the inMail module (mark set in iFlags column of NmsBroadLog table) and processes an unsubscription depending on whether the service of the broadlog is set or not:<ul><li>If the serviceId is 0 (not defined), the recipient will be denylisted.</li><li>If the serviceId is not 0 (linked to an existing service), the recipient will be unsubscribed from that service.</li></ul><br/>Note: This workflow only handles bounce unsubscribes; unsubscribes done via opt-out link and One-Click unsubscribtion (URL method) are handled separately outside of this workflow.|
-|**Forecasting** (forecasting)|Delivery|This workflow analyzes deliveries saved in the provisional calendar (creates provisional logs). It is triggered every day at 1am by default.|
+|**Forecasting** (forecasting)|Installed by default|This workflow analyzes deliveries saved in the provisional calendar (creates provisional logs). It is triggered every day at 1am by default.|
 |**Full aggregate calculation (propositionrcp cube)** (agg_nmspropositionrcp_full)|Offer engine (interaction)|This workflow updates the Full aggregate for the Offer proposition cube. It is triggered every day at 6am by default. This aggregate captures the following dimensions: Channel, Delivery, Marketing Offer and Date. The Offer proposition cube is then used to generate reports based on offers. Learn more about cubes in  [this section](../../v8/reporting/gs-cubes.md).|
 |**Identification of converted contacts** (webAnalyticsFindConverted)|Web Analytics connectors|This workflow indexes site visitors that have completed their purchase after a re-marketing campaign. The data recovered by this workflow can be accessed in the Re-marketing efficiency report (Refer to this page).|
 |**Import audiences from the Adobe Experience Cloud** (importSharedAudience)|Integration with Adobe Experience Cloud|This workflow allows you to import audiences/segments from different Adobe Experience Cloud solutions into Adobe Campaign.|
