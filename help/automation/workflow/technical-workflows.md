@@ -12,7 +12,7 @@ Adobe Campaign comes with a set of built-in technical workflows. They control op
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -22,8 +22,7 @@ By default, technical workflows are available in a sub-folder of the following n
 
 The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## Manage and create technical workflows {#manage-tech-workflows}
 
@@ -31,7 +30,7 @@ Campaign technical workflows can only be started and modified by operators with 
 
 You can create custom technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. Native templates are available for creating technical workflows. They can be configured to suit your needs. However, this process is reserved for expert users. The activities available in technical workflows are the same as for targeting workflows. [Learn more](targeting-workflows.md).
 
-## List of technical workflows {#list-technical-workflows}
+## Built-in technical workflows {#list-technical-workflows}
 
 The workflows detailed in this page are installed with the Adobe Campaign built-in packages. These packages, and associated technical workflows, depend on your license agreement and add-ons. 
 
