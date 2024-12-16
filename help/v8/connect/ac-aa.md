@@ -138,6 +138,10 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. From the **[!UICONTROL eVars]** category, map the two **[!UICONTROL Conversion variables]** configured in [!DNL Adobe Analytics].
 
+   >[!NOTE]
+   >
+   >The Campaign ID and Broadload ID fields are collected via JavaScript on the landing page or through processing rules. [Learn more on processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+
    ![](assets/analytics_connnector_11.png)
 
 1. From the **[!UICONTROL Events]** category, map the ten **[!UICONTROL Success events]** configured in [!DNL Adobe Analytics].
