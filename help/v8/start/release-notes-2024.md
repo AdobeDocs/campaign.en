@@ -9,27 +9,30 @@ exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**.
 
 
+## Release 8.7.2 {#release-8-7-2}
 
-## Release 8.5.3 {#release-8-5-3}
+_Sept 3, 2024_
 
-_May 28, 2024_
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
-### Migration to OAuth Server-to-Server credential {#change-8-5-3}
+### New features {#new-8-7-2}
 
-Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](#change-8-7-1)
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
 
-### Fixes {#fixes-8-5-3}
+* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+
+* **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
+
+### Fixes {#fixes-8-7-2}
 
 The following issues are fixed in this release:
 
-NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-77795, NEO-78843, NEO-79328.
 
-
-## May updates {#may-updates}
-
-The following change has been released in May and is now available to Campaign v8 users:
-
-* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
 
 
 ## Release 8.7.1 {#release-8-7-1}
@@ -77,6 +80,38 @@ The following issues are fixed in this release:
 NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
 
 
+
+## Release 8.6.3 {#release-8-6-3}
+
+_July 30, 2024_
+
+### New features {#new-8-6-3}
+
+* **Rich Push Notification** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+
+* Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](release-notes-2024.md#change-8-7-1)
+
+### General improvements {#improvements-8-6-3}
+
+* To increase security over all communication between applications, mTLS is now supported for external API calls.
+
+### Fixes {#fixes-8-6-3}
+
+The following issues are fixed in this release:
+
+NEO-79328, NEO-78843, NEO-77795, NEO-77014, NEO-76958, NEO-76097, NEO-75898, NEO-72504, NEO-70263, NEO-67620, NEO-63197, NEO-58596, NEO-56832.
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
+
+## May '24 updates {#may-updates}
+
+The following change has been released in May and is now available to Campaign v8 users:
+
+* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
+
 ## Release 8.6.2 {#release-8-6-2}
 
 _Feb 23, 2024_
@@ -117,3 +152,19 @@ _Feb 14, 2024_
 The following issues are fixed in this release:
 
 NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059, NEO-58637, NEO-55197, NEO-52542, NEO-50488, NEO-47789
+
+
+
+## Release 8.5.3 {#release-8-5-3}
+
+_May 28, 2024_
+
+### Migration to OAuth Server-to-Server credential {#change-8-5-3}
+
+Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](#change-8-7-1)
+
+### Fixes {#fixes-8-5-3}
+
+The following issues are fixed in this release:
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
