@@ -4,22 +4,19 @@ description: Learn how to configure the SMPP external account
 feature: SMS
 role: User
 level: Intermediate
+exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 ---
-
 # SMPP external account settings {#smpp-external-account}
 
 Adobe Campaign uses the SMPP protocol to send SMS to a service provider.
-
->[!IMPORTANT]
->
->Adobe Campaign supports the SMPP protocol version 3.4.
-
 
 The SMS connector in Adobe Campaign provides many options to adapt its behavior in order to be compatible with most SMPP providers, who tend to deviate a bit from the official specification.
 
 >[!IMPORTANT]
 >
->Setting up a connection to a new provider may require some technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
+>* Adobe Campaign supports the SMPP protocol version 3.4.
+>
+>* Setting up a connection to a new provider may require some technical skills, knowledge of TCP, binary, hexadecimal representation and text encodings. It will also require active cooperation with the provider.
 
 The network equipment on the SMS service provider side is often called the SMSC.
 
@@ -68,7 +65,7 @@ When enabled, extra logs will be output to the log file. This is very useful for
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
-### Authorize character transliteration
+### Authorize character transliteration {#smpp-transliteration}
 
 Transliteration is the process of finding equivalent characters to missing ones. For example, the French "ê" (e with circumflex accent) character is missing from GSM encoding, but it can be replaced by "e" without impairing readability too much.
 

@@ -12,4 +12,11 @@ As a Campaign Standard user transitioning to Campaign v8, you can now benefit fr
 
 As a Campaign v8 user, you now have access to both the new Campaign web user interface and the v8 client console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation.
 
-Learn more about the new Campaign web user interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+**Useful links for you to start with:**
+
+* Learn key differences and how to get started in [this Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}.
+
+* Learn more about the new Campaign web user interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.
+

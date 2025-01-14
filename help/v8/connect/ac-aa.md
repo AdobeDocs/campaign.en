@@ -102,7 +102,7 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   To learn how to configure **[!UICONTROL Success events]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)
+   To learn how to configure **[!UICONTROL Success events]**, refer to this [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -137,6 +137,10 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 
 1. From the **[!UICONTROL eVars]** category, map the two **[!UICONTROL Conversion variables]** configured in [!DNL Adobe Analytics].
+
+   >[!NOTE]
+   >
+   >The Campaign ID and Broadload ID fields are collected via JavaScript on the landing page or through processing rules. [Learn more on processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 

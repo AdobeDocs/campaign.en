@@ -12,7 +12,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) p
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.7 release is live]
+>[!TAB Campaign v8.7.2 release is live]
 
 The latest version of Adobe Campaign is now live. It is released in **Limited Availability** (LA). Read out the release notes for more details.
 
@@ -99,7 +99,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Developer resources</strong><br/><a href="dev/datamodel.md">Campaign v8 datamodel</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
+      <strong>Developer resources</strong><br/><a href="dev/datamodel.md">Campaign v8 data model</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
     </td>
   </tr>
 </table> 

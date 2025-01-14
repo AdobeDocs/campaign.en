@@ -35,7 +35,6 @@ Learn how to build an audience in a campaign workflow in [this page](https://exp
 
 ## Active profiles {#active-profiles}
 
-
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
 According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
@@ -49,17 +48,9 @@ The following guardrails and limitations apply:
 * Profiles targeted in the context of Social marketing on X (Twitter) are not taken into account as active profiles.
 * The count is based on the recipient primary key. As a consequence, if a profile is present in two different recipient tables, it can be counted twice as an active profile.
 
-
 ## Privacy and consent{#privacy-and-consent}
 
 Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
 Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
 
-**Related topics**
-
-* [Design and execute a campaign-specific workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
-
-* [Learn how to select the audience of a campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}
-
-* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}

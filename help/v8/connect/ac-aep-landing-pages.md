@@ -96,20 +96,20 @@ To configure these options automatically at the execution of your landing pages 
 
 At workflow execution, the options are automatically created in the Campaign console with the provided values.
 
-    ```javascript
-    loadLibrary("xtk:shared/nl.js");
-    loadLibrary("xtk:shared/xtk.js");
-    loadLibrary("xtk:shared/json2.js");
-    loadLibrary("xtk:common.js");
+```javascript
+loadLibrary("xtk:shared/nl.js");
+loadLibrary("xtk:shared/xtk.js");
+loadLibrary("xtk:shared/json2.js");
+loadLibrary("xtk:common.js");
 
-    function setAuthCredentials()
-    {
-    setOption("IMS_CLIENT_ID", cryptString('CLIENT ID'));
-    setOption("IMS_CLIENT_SECRET", cryptString('CLIENT SECRET'));
-    setOption("IMS_ORG_ID", cryptString('ORGANIZATION ID'));
-    setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
-    }
-    ```
+function setAuthCredentials()
+{
+setOption("IMS_CLIENT_ID", cryptString('CLIENT ID'));
+setOption("IMS_CLIENT_SECRET", cryptString('CLIENT SECRET'));
+setOption("IMS_ORG_ID", cryptString('ORGANIZATION ID'));
+setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
+}
+```
 
 >[!ENDTABS]
 
@@ -244,7 +244,7 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
     ```
 
     +++
-    
+
 * To update Experience Platform profile attributes with the data submitted in the landing page, add a **[!UICONTROL JavaScript code]** activity after the landing page activity and copy paste Script 2.
 
     +++ Script 2 - Update Experience Platform profile attributes

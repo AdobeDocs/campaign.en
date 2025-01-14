@@ -94,7 +94,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
     Adobe Campaign comes with a pre-defined data model. To implement and customize your environment, you need to be familiar with the built-in tables of the Adobe Campaign data model and how they relate to each other.
 
-    [Learn more about Campaign datamodel](../dev/datamodel.md).
+    [Learn more about Campaign data model](../dev/datamodel.md).
 
 ## Customize your instance{#implementation-custom-your-instance}
 
@@ -104,7 +104,7 @@ You can customize many different Campaign areas and capabilities. Most of our cu
 
     Adobe Campaign comes with common schemas to identify data such as: recipients, delivery logs, subscriptions, and more. 
     
-    Refer to this section to learn more about [Campaign built-in datamodel](../dev/datamodel.md).
+    Refer to this section to learn more about [Campaign built-in data model](../dev/datamodel.md).
     
     You can extend existing schemas or create new schemas from scratch. Learn more in [this page](../dev/customize.md).
     

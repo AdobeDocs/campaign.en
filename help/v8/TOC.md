@@ -36,7 +36,9 @@ breadcrumb-title: Campaign v8 Documentation
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Send messages{#send}
-  + [Get started with messages](start/create-message.md)
+  + [Get started with messages](start/gs-message.md)
+  + [Create your first delivery](start/create-message.md)
+  + [Delivery best practices](start/delivery-best-practices.md)
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
     + [Link to the mirror page](send/mirror-page.md)
@@ -46,6 +48,7 @@ breadcrumb-title: Campaign v8 Documentation
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
     + Configure SMS channel {#config-sms}
+      + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
       + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
@@ -53,7 +56,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
       + [SMPP connector description](send/sms/smpp-connector-delivery.md) 
     + Create a SMS  {#create-sms}
-      + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
+      + [Create a SMS delivery](send/sms/create-sms.md)   
       + [Define the content](send/sms/sms-content.md)
       + [Select the audience](send/sms/sms-audience.md)
     + Validate and send SMS {#validate-sms}
@@ -193,7 +196,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
-    + [Datamodel best practices](dev/datamodel-best-practices.md)
+    + [Data model best practices](dev/datamodel-best-practices.md)
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
@@ -201,7 +204,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
-  + [Campaign datamodel](dev/datamodel.md)
+  + [Campaign data model](dev/datamodel.md)
   + Schemas & forms {#shemas-forms}
     + [Work with schemas](dev/schemas.md)
     + [Create schemas](dev/create-schema.md)

@@ -26,8 +26,6 @@ Seed addresses are added to the target of deliveries by being imported or by bei
 >
 >An example of how to extend the seed addresses table is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 
-
-
 ## Create seed addresses 
 
 Seed addresses are not managed via standard profiles and targets, but in a dedicated node of the Adobe Campaign explorer: **[!UICONTROL Resources > Campaign management > Seed addresses]**. You can create sub-folders to organize the seed addresses.

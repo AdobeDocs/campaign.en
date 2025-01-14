@@ -4,8 +4,9 @@ description: Learn how to validate a SMPP connection
 feature: SMS
 role: User
 level: Intermediate
+badge: label="Limited Availability" type="Informative"
+exl-id: eda6934a-e48a-4932-8c88-588f661005d6
 ---
-
 # Validating a SMPP connection {#validate-smpp-connection}
 
 Here are some checks to do be sure your SMPP connection is OK.
@@ -22,7 +23,7 @@ Before going live, be sure your SMPP setup is Ok with the list of checks below.
 >
 >Enable verbose SMPP traces during checks, it will help you and the support team to understand the troubleshoutings.
 
-### Check for external account conflicts
+### Check for external account conflicts {#sms-external-accounts-check}
 
 Check that you don't have leftover SMS external accounts. Delete the test accounts in order to eliminate potential conflicts.
 
@@ -37,14 +38,17 @@ Check that all enabled SMS external accounts have the dedicated process setting 
 Try sending a few SMS on different mobiles.
 
 **Send SMS with all kinds of characters**
+
 If you need to send SMS with non-GSM or non-ASCII characters, try sending some messages with the most diverse characters as possible. If you set up a custom character mapping table, send at least one SMS for all possible data_coding values.
 
 **Check that SR are properly processed**
+
 The SMS should be marked as received in the delivery log. The delivery log should be successful and look like this: "*SR yourProvider stat=DELIVRD err=000|#MESSAGE#*".
 
 Check that you properly set the "*SMSC Implementation name*" field: the delivery log must never contain "*SR Generic*" on production environments.
 
 **Check that MO are processed**
+
 Send a few SMS for all automatic reply keywords and check that the reply is quick (no more than a few seconds).
 
 Check that MOs are inserted into the *nms:inSms* database. If you have custom TLVs, make sure they are also inserted correctly and properly formatted.
@@ -52,6 +56,7 @@ Check that MOs are inserted into the *nms:inSms* database. If you have custom TL
 Check in the log that Campaign replies with a successful *DELIVER_SM_RESP (command_status=0)*.
 
 **Do a load test**
+
 This is especially important if you send a lot of messages or if you use real-time messaging.
 
 Do a test that will load the connection at 100% for at least 5 seconds. You will have to send real messages if the provider doesn't have a way to connect to a fake account for tests. A way to achieve that is to monitor closely the first big enough delivery with verbose SMPP messages enabled.
@@ -114,7 +119,7 @@ With the *DELIVER_SM_RESP PDU*:
 * Check that it was sent quickly after receiving the DELIVER_SM PDU (typically less than 1 second).
 * Check that it was successful (command_status = 0).
 
-### Live test with the provider
+### Live test with the provider {#sms-live-test}
 
 A best practice before going live is to do a live test with the provider, with both sides looking at logs during the execution.
 
@@ -122,18 +127,18 @@ A best practice before going live is to do a live test with the provider, with b
 >
 >This step is strongly recommended when connecting to a provider that was never connected to Campaign before.
 
-### Disable verbose SMPP traces
+### Disable verbose SMPP traces {#sms-disable-smpp}
 
 Once all checks are complete, the last action to do is to disable verbose SMPP traces so it doesn't generate too many logs.
 
 ## SMS Troubleshooting {#sms-troubleshooting}
 
-### General troubleshooting procedure
+### General troubleshooting procedure {#sms-general-troubleshooting}
 
 The SMS connector involves 3 entities: the SMPP provider, Adobe and you. 
 The main SMS expert is the SMPP provider, so they should be involved for all SMS traffic-related issues (connection issues, lost messages, encoding problems, country-specific rules, ...).
 
-#### Enable dedicated process
+#### Enable dedicated process {#sms-dedicated-process}
 
 >[!IMPORTANT]
 >
@@ -141,7 +146,7 @@ The main SMS expert is the SMPP provider, so they should be involved for all SMS
 
 If you have issues with the older (MTA-based) connector (dedicated process disabled), you should consider migrating to the dedicated process connector. It performs much better, is more stable, and provides much better feedback in its logs.
 
-#### Conflict between different external accounts
+#### Conflict between different external accounts {#sms-conflict-external-accounts}
 
 If the instance has multiple SMS external accounts, check that problems are not caused by a conflict between accounts.
 
@@ -153,9 +158,11 @@ To isolate the external account causing problems:
 1. If the problem does not appear with that single account, disable it and restart to step 2 on the next account. Once you checked every accounts individually, there are 2 possible scenarios:
 
 **The problem appeared on one or several accounts**
+
 In this case, you can apply other troubleshooting procedures on each account individually. It is best to disable other accounts while diagnosing an account, in order to reduce network traffic and the amount of logs.
 
 **The problem did not appear when only one account is active at any time**
+
 You have a conflict between accounts. Adobe Campaign treats accounts individually, but the provider may treat them as a single account.
 
 *You are using different login/password combinations between all your accounts*
@@ -170,7 +177,7 @@ See the [Information in each kind of PDU](#pdu) section above to know what field
 
 Adobe Campaign supports handling multiple short codes on the same external account just fine, so often just using a single account for all traffic will work fine.
 
-#### An external account stopped working
+#### An external account stopped working {#sms-external-account-not-working}
 
 In general, SMPP connections tend to be very stable over time, and once they are configured correctly they should continue working.
 
@@ -182,13 +189,13 @@ If none of these checks lead to a root cause, contact the provider. Sometimes, w
 
 It is recommended to keep in touch with the provider, they often communicate major changes in advance.
 
-#### Issue with mid-sourcing (hosted)
+#### Issue with mid-sourcing (hosted)  {#sms-issue-hosted}
 
 * If the problem happens on a mid-sourcing environment, make sure that the delivery and broadlogs are properly created and updated on the mid-sourcing server. If that is not the case, the issue is not an SMS issue.
 * Make sure that the mid operator name is stricly in lower case otherwise the delivery will remain in pending status.
 * If everything works on the mid server and SMS are properly sent, but the marketing instance is not properly updated, then you have a mid synchronization issue.
 
-#### Issue when connecting to the provider
+#### Issue when connecting to the provider {#sms-issue-connection}
 
 * If the BIND PDU returns a non-zero *command_status* code (meaning there is an error), or if there is no BIND_RESP PDU, ask the provider why this happens.
 * Check that the network is properly configured so the TCP connection can be made to the provider.
@@ -230,7 +237,7 @@ A connection is considered unstable if any of these things happen:
 * If all these steps work, you can be confident that the problem is on the provider side. They will have to do troubleshooting on their platform.
 * If it works but throughput is inconsistent, try adjusting the sending window and lowering the MT throughput. You will need to work with the provider to adjust that. Campaign can send messages very quickly so performance problems may arise on the provider's equipment.
 
-#### MT are duplicated (the same SMS is sent multiple times in a row):
+#### MT are duplicated (the same SMS is sent multiple times in a row)
 
 Duplicates are often caused by retries. It's normal to have duplicates when retrying messages, so you should concentrate your efforts on eliminating the root cause of retries.
 
@@ -242,7 +249,7 @@ Mitigating the amount of duplicates when there is a retry:
 
 * Lower the *sending window*. The sending window should be big enough to cover for SUBMIT_SM_RESP latency, but not too big. Its value represents the maximum number of messages that can be duplicated if an error happens while the window is full.
 
-#### Issue when processing SR (delivery receipts):
+#### Issue when processing SR (delivery receipts)
 
 * You will need SMPP traces enabled to do any kind of SR troubleshooting.
 * Check that the DELIVER_SM PDU is coming from the provider and that it is well formed.
@@ -261,7 +268,7 @@ If SR processing is slow, try qualifying the most common status messages in the 
 
 If only some SR are received but not all, check that no other system connect to your provider's account, such as a test system. SR can be routed on any connection, so some of them may be routed to this other system. The provider might help you finding where is this other system connecting to the account.
 
-#### Issue when processing MO (and quarantine/auto reply):
+#### Issue when processing MO (and quarantine/auto reply)
 
 * Enable SMPP traces during tests. If you don't enable TLS, it's always better to do a network capture when troubleshooting MO to check that PDUs contain the correct information and are properly formatted.
 * When capturing network traffic or analyzing SMPP traces, be sure to capture the whole conversation with the MO and its reply MT (if a reply is configured).
@@ -270,12 +277,12 @@ If only some SR are received but not all, check that no other system connect to 
 * If automatic replies are enabled, check that the SUBMIT_SM has been sent to the provider. If not, it's guaranteed to find an error message in the SMS process logs.
 * If the SUBMIT_SM MT PDU containing the reply is found in the traces but the SMS does not arrive to the mobile phone, you will have to contact the provider for assistance on troubleshooting because the problem is probably on their side.
 
-#### Issue during delivery preparation not excluding quarantined recipients (quarantined by the auto reply feature):
+#### Issue during delivery preparation not excluding quarantined recipients (quarantined by the auto reply feature)
 
 * Check that the phone number format is exactly the same in the quarantine table and in the delivery log. If it's not, see the "Send full phone number" setting above if you are having issues with the plus prefix of the international phone number format.
 * Check short codes: Exclusions happen if the short code of the recipient is either the same as defined in the external account or if it's empty (empty = any shortcode). If only one short code is used for the whole Campaign instance, it's easier to leave all "short code" fields empty.
 
-#### Encoding issues
+#### Encoding issues  {#sms-encoding-issues}
 
 Encoding issues are frequent in SMS. Here are a few basic steps.
 
@@ -307,7 +314,7 @@ You will need the debug output of the connector in order to see exactly what byt
 
 Don't hesitate to send different kinds of special characters when testing. For example, GSM7 encoding has extended characters that are very distinct in their hexadecimal form, so they are easy to spot because they don't appear in any other encoding.
 
-#### Performance issues
+#### Performance issues {#sms-performance-issues}
 
 >[!NOTE]
 >
@@ -343,7 +350,7 @@ Whenever you seek assistance on a SMS issue (whether it's opening a support tick
 * Try to reproduce the problem on a test environment. If you are unsure about a setting, try it on the test environment and check the result with the SMPP traces. It's usually better to report problems replicated on test environments than directly reporting problems on production environments.
 * Include any change or tweaks made on the platform: even a small change can have huge impacts. Also, include any change that the provider may have done on their side.
 
-#### When is a network capture useful ?
+#### When is a network capture useful?
 
 A network capture is not always needed. Very often, verbose SMPP messages are enough. Here are some guidelines that will help you determine if a network capture is worth the effort:
 
@@ -355,7 +362,7 @@ A network capture is not always needed. Very often, verbose SMPP messages are en
 
 In all other situations, try to analyze verbose SMPP messages first and request a network capture only if it's clear that information is missing in the verbose logs.
 
-#### When is a network capture useless ?
+#### When is a network capture useless?
 
 In some cases, capturing network traffic is useless or just a waste of time. Here are the most common situations:
 

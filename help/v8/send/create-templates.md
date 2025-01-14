@@ -7,13 +7,15 @@ role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 ---
-# Work with delivery template{#work-with-delivery-template}
+# Work with delivery templates {#work-with-delivery-template}
 
-Use delivery templates to standardize the creative look and feel, in order to be quicker in executing and launching campaigns.
+## Get started with delivery templates
 
-A template can include:
+Each delivery is created based on a template. A template is a configuration which can be reused to facilitate and standardize your implementation. You can use a built-in or a custom template. 
 
-* Typologies
+A template can include partial or full configuration settings, such as:
+
+* [Typology rules](../../automation/campaign-opt/campaign-typologies.md)
 * Sender and reply-to addresses
 * Basic [personalization blocks](../send/personalization-blocks.md)
 * Links to [mirror pages](../send/mirror-page.md) and unsubscription links
@@ -22,10 +24,20 @@ A template can include:
 
 ![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
+Delivery templates are stored in the **[!UICONTROL Resources > Templates > Delivery templates]** folder of the Explorer. In Adobe Campaign, you can work with two types of templates:
 
-## Create a template{#create-a-delivery-template}
+1. Adobe Campaign **built-in** delivery templates - Built-in templates are available for each channel. They MUST NOT be modified nor deleted. They include a basic configuration for each delivery channel. As an Administrator, you can set default values, or restrict certain functions to end users, such as modifying the tracking parameters, sender email addresses, and more. Built-in templates appear in bold in the list of templates.
 
-To create a delivery template, you can duplicate a built-in template, convert an existing delivery into a template or create a delivery template from scratch.
+1. **Custom** delivery templates - As an Adobe Campaign Administrator, you can create new delivery templates. Best practice is to duplicate and update a built-in template rather than creating a template from scratch. For example, you can configure an email delivery template, and when users create a delivery from this template, they only need to enter the text or HTML content. All other settings are already defined. 
+
+>[!NOTE]
+>
+>The available templates depend on your access rights, on your instance configuration, and on the context. For instance, when you create an information service, you can link a delivery template for confirmation messages: you may then only access the templates whose target mapping is the subscription mapping. Other templates are not visible in this context. For more on this, refer to [Work witth target mappings](../audiences/target-mappings.md) and [Manage subscriptions and unsubscriptions](../start/subscriptions.md).
+
+
+## Create a template {#create-a-delivery-template}
+
+To create a delivery template, you can duplicate a built-in template or convert an existing delivery into a template. You can also create a delivery template from scratch, but this is not recommended. These methods are detailed below.
 
 ### Duplicate an existing template{#copy-an-existing-template}
 
@@ -85,9 +97,9 @@ To configure a delivery template from scratch, follow the steps below:
 1. Click **Save**. Your template is now ready to be used in a delivery.
 
 
-## Use templates{#use-a-delivery-template}
+## Use templates {#use-a-delivery-template}
 
-### Create a delivery from a template{#create-a-delivery-from-a-template}
+### Create a delivery from a template {#create-a-delivery-from-a-template}
 
 To create a delivery based on an existing template, select the template from the list of available delivery templates.
 
@@ -103,18 +115,19 @@ Select the delivery template to be used, and click **[!UICONTROL Ok]**.
 
 ### Execute a template {#execute-a-template}
 
-You can launch the execution of a template directly from the template list without creating a delivery first. 
+You can launch the execution of a template directly from the template list without creating a delivery first. The delivery template may be executed manually, as detailed below, or triggered by an event (executed at a set time, when a file is available in the server, etc.), as explained in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery). 
 
-To do this, select the template to be executed and right-click. Select **[!UICONTROL Actions>Execute the delivery template...]**.
+To execute a template manually, follow these steps:
 
-You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
+1. Select the template to be executed and right-click. Select **[!UICONTROL Actions>Execute the delivery template...]**.
 
-![](assets/execute-delivery-template.png)
+    You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-Enter the delivery parameters and click **[!UICONTROL Send]**.
+    ![](assets/execute-delivery-template.png)
+
+1. Enter the delivery parameters and click **[!UICONTROL Send]**.
 
 This action generates a delivery in the folder associated to the template. The name of this delivery is the name of the delivery template from which it was created.
-
 
 ## Tutorial videos {#delivery-template-video}
 

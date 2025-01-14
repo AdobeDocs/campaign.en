@@ -8,7 +8,7 @@ exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 ---
 # Campaign API staging mechanism
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), blasting unitary calls is not recommended with regards to performances (latency & concurrency). Batching operation is always preferred. In order to improve performance, ingestion APIs are redirected to the local database.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), blasting unitary calls is not recommended with regards to performances (latency & concurrency). Unless you are sending extremely low volume, batch operation **must** be used. In order to improve performance, ingestion APIs are redirected to the local database.
 
 Campaign staging capability is enabled by default on some built-in schemas. We can also enable it on any custom schema. Staging mechanism in a nutshell:
 

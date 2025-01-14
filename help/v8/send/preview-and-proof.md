@@ -10,7 +10,7 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 
 Once your message content has been defined, you can use test profiles to preview and test it. If you inserted [personalized content](personalize.md), you can check how this content is displayed in the message, using test profile data. In addition, to detect possible errors in the message content or personalization settings, send proofs to test profiles. A proof should be sent each time a change is made, to validate the latest content. 
 
-## Content preview{#preview-content}
+## Content preview {#preview-content}
 
 Before sending proofs, a best practice is to check the message content in the preview section of the delivery window. 
 
@@ -62,7 +62,7 @@ The type of proof target is selected from the **[!UICONTROL Targeting mode]** dr
 
 * Use the **[!UICONTROL Specific target and Seed addresses]** option to combine seed addresses and specific email addresses. The related configurations are then defined in two separate sub-tabs.
 
-### Send a proof{#proofs-send}
+### Send a proof {#proofs-send}
 
 To send message proofs, follow the steps below:
 
@@ -82,7 +82,7 @@ It is recommended to send proofs after each modification to the message content.
 >
 >In the proof sent, the link to the mirror page is not active. It is only activated in the final messages.
 
-### Proof properties{#proofs-properties}
+### Proof properties {#proofs-properties}
 
 Proof properties are set in the **[!UICONTROL Advanced]** tab of the delivery properties windows. Browse to the **[!UICONTROL Proof properties...]** link to define the parameters and the label of the proofs. You can choose to keep:
 

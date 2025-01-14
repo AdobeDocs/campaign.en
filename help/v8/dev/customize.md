@@ -32,7 +32,7 @@ Two table extension modes are available:
 
 * Programmatically, by extending the schema. Learn how to extend an existing schema in [this section](../dev/extend-schema.md).
 
-You can also create new tables in the Campaign database and extend the built-in datamodel.
+You can also create new tables in the Campaign database and extend the built-in data model.
 
 To add an entirely new type of data that does not exist out-of-the-box in Adobe Campaign (a table of contracts for example) you can create a custom schema directly. For more on this, refer to [this example](../dev/create-schema.md#example--creating-a-contract-table).
 

@@ -4,8 +4,9 @@ description: Learn the characteristics of SMS channel
 feature: SMS
 role: User
 level: Intermediate
+badge: label="Limited Availability" type="Informative"
+exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
 ---
-
 # SMS channel characteristics {#sms-channel}
 
 >[!IMPORTANT]
@@ -15,7 +16,7 @@ level: Intermediate
 >For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol).
 
 
-## SMS types
+## SMS types {#sms-types}
 
 When sending SMS through an SMS provider, you will encounter 3 different kinds of SMS:
 
@@ -27,7 +28,7 @@ You need to distinguish between acknowledgments (RESP PDU, part of the SMPP prot
 
 Both acknowledgements and SR can trigger errors, distinguishing between the two will help troubleshooting.
 
-### Information carried by an SMS
+### Information carried by an SMS  {#sms-info}
 
 An SMS carries more information than text. Here a list of what you can expect to find in an SMS:
 
