@@ -17,6 +17,8 @@ _Jan 15, 2025_
 
 * Campaign v8.6.4 allows native authentication mode, restricted to existing users already connecting to Campaign with a native name/password authentication. As a reminder, to ensure a higher security level, Adobe strongly recommends you to move to Adobe Identity Management System (IMS) and connect to Campaign using your Adobe ID. IMS is also a prerequisites the access to Campaign Web User Interface. Note that if you are using your Adobe ID to connect to Campaign, you must not move back to the native authentication mode. Learn how to move to Adobe IMS in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
 * Campaign application stability has been improved during delivery analysis in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md).
+* This release comes with improved and strengthened FFDA architecture mechanisms, including key management, staging, and data replication.
+
 
 ### Security improvements {#security-8-6-4}
 
@@ -30,4 +32,4 @@ _Jan 15, 2025_
 
 The following issues are fixed in this release:
 
-NEO-77452, NEO-81127, NEO-81209, NEO-80243, NEO-80314, NEO-81223, NEO-81287, NEO-81290, NEO-81520, NEO-81566, NEO-81704, NEO-83096, NEO-83081.
+NEO-77452, NEO-81127, NEO-81209, NEO-80243, NEO-80314, NEO-81223, NEO-81287, NEO-81290, NEO-81312, NEO-81512, NEO-81520, NEO-81566, NEO-81704, NEO-83096, NEO-83081.
