@@ -15,9 +15,10 @@ _Jan 15, 2025_
 
 ### General improvements {#improvements-8-6-4}
 
-* Campaign v8.6.4 allows native authentication mode, restricted to existing users already connecting to Campaign with a native name/password authentication. As a reminder, to ensure a higher security level, Adobe strongly recommends you to move to Adobe Identity Management System (IMS) and connect to Campaign using your Adobe ID. IMS is also a prerequisites the access to Campaign Web User Interface. Note that if you are using your Adobe ID to connect to Campaign, you must not move back to the native authentication mode. Learn how to move to Adobe IMS in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
 * Campaign application stability has been improved during delivery analysis in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md).
 * This release comes with improved and strengthened FFDA architecture mechanisms, including key management, staging, and data replication.
+* Campaign v8.6.4 allows native authentication mode, restricted to existing users already connecting to Campaign with a native name/password authentication. 
+    As a reminder, to ensure a higher security level, Adobe strongly recommends you to use Adobe Identity Management System (IMS) and connect to Campaign using your Adobe ID. IMS is also a prerequisite to access to [Campaign Web User Interface](../start/campaign-ui.md#campaign-web-user-interface). Note that if you are using your Adobe ID to connect to Campaign, you must not move back to the native authentication mode. Learn how to move to Adobe IMS in [this technote](../../technotes/upgrades/migrate-users-to-ims.md).
 
 
 ### Security improvements {#security-8-6-4}
