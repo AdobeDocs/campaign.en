@@ -8,6 +8,18 @@ exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 
 This page lists new capabilities, improvements and fixes coming with **2022 Campaign v8 Releases**.
 
+>[!BEGINSHADEBOX]
+
+**In this page**
+
+* Campaign v8.4 - [Release 8.4.1](#release-8-4-1) | [Release 8.4.2](#release-8-4-2)
+* Campaign v8.3 - [Release 8.3.8](#release-8-3-8) | [Release 8.3.9](#release-8-3-9)
+* Campaign v8.2 - [Release 8.2.10](#release-8-2-10)
+
+>[!ENDSHADEBOX]
+
+
+
 ## Release 8.4.2 {#release-8-4-2}
 
 _October 28, 2022_
