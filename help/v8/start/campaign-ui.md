@@ -101,6 +101,10 @@ As a Campaign v8 client console user, starting v8.6.1 release, you now have acce
 
 ![Adobe Campaign Web User Interface Home Page](assets/ac-web-home.png)
 
+>[!AVAILABILITY]
+>Campaign Web user interface is only available to users connecting to Adobe Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+>
+
 Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
 Additional and advanced capabilities, configuration and settings are only available in the client console. Learn more about capabilities available in both user interfaces [in Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
