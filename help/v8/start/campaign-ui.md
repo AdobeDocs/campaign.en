@@ -19,6 +19,11 @@ You can access to Adobe Campaign via its client console or its Web user interfac
     Learn how to install and configure Campaign client console in [this section](../start/connect.md).
 
 * **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
+    
+    >[!AVAILABILITY]
+    >
+    >Campaign Web user interface is only available to users connecting to Adobe Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+    >
 
 * **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
@@ -102,6 +107,7 @@ As a Campaign v8 client console user, starting v8.6.1 release, you now have acce
 ![Adobe Campaign Web User Interface Home Page](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
+>
 >Campaign Web user interface is only available to users connecting to Adobe Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 >
 

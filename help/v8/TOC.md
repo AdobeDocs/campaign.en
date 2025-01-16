@@ -113,6 +113,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)
 + Content Management {#content}
+  + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
 + Automation and workflows {#automation}
   + [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
