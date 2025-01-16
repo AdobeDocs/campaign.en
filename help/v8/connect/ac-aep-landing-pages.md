@@ -115,7 +115,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 Now that authentication options are configured into Campaign, you need to create custom JavaScript codes to allow data sync between Campaign and Adobe Experience Platform from your landing page.
 
-## Add options at workflow execution {#javacript}
+## Add options at workflow execution {#javascript}
 
 To allow data synchronization between landing pages and Adobe Experience Platform, custom JavaScript codes must be added to Adobe Campaign. Follow these steps:
 
