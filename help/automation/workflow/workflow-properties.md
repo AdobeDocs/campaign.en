@@ -7,8 +7,6 @@ exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 ---
 # Workflow properties{#workflow-properties}
 
-
-
 ## Execution tab {#execution-tab}
 
 The **[!UICONTROL Execution]** tab of the **[!UICONTROL Properties]** window in a workflow is broken down into 3 sections:
@@ -21,7 +19,7 @@ This section is only displayed in campaign workflows.
 
 * **[!UICONTROL Priority]**
 
-  The workflow engine processes the workflows to be executed based on the priority criterion defined in this field. For instance, all workflows with an **[!UICONTROL Average]** priority will be executed before those with a **[!UICONTROL Low]** priority.
+  The workflow engine processes the workflows to be executed based on the priority criterion defined in this field. For instance, all workflows with an **[!UICONTROL Average]** priority will be executed before those with a **[!UICONTROL Low]** priority. 
 
 * **[!UICONTROL Schedule execution for a time of low activity]**
 
@@ -48,6 +46,16 @@ This section is only displayed in campaign workflows.
 * **[!UICONTROL Execute in the engine]**
 
   This option may only be used for de-bugging and never in production. When it is enabled, the workflow takes priority and all other workflows are stopped until this one is finished.
+
+* **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
+
+  This option forces workflows to automatically restart after an error occurs. When enabled, the restart will check every 30 seconds the status of the workflow and restart it when needed. To adjust the 30 seconds interval, you can create the `XtkWorkflow_WatchdogTimerTimeout` technical option and use an integer data type to specify the desired delay.
+
+  >[!NOTE]
+  >
+  >This option is aimed at advanced users and should be enabled for **technical workflows** only.
+  >
+  >It is enabled by default for the centralized replication workflows available with the `fullFdaMkt`package.
 
 ### Error management {#error-management}
 
