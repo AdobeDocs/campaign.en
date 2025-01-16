@@ -49,7 +49,7 @@ This section is only displayed in campaign workflows.
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 
-  This option forces workflows to automatically restart after an error occurs. When enabled, the restart will happen every 30 seconds by default. To adjust this interval, you can create the `XtkWorkflow_WatchdogTimerTimeout` technical option and use an integer data type to specify the desired delay.
+  This option forces workflows to automatically restart after an error occurs. When enabled, the restart will check every 30 seconds the status of the workflow and restart it when needed. To adjust the 30 seconds interval, you can create the `XtkWorkflow_WatchdogTimerTimeout` technical option and use an integer data type to specify the desired delay.
 
   >[!NOTE]
   >
