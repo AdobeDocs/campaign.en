@@ -4,6 +4,7 @@ description: Get started with landing pages
 feature: Landing Pages
 role: User, Developer
 level: Beginner
+exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 ---
 # Create and manage landing pages {#ac-gs-lp}
 
