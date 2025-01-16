@@ -6,10 +6,12 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
 # Latest releases {#latest-release}
 
-This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest release**.  Other releases are listed in [this page](release-notes-2024.md). 
+This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest release**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). 
 
-Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). 
 
+>[!AVAILABILITY]
+>A higher build, released in 2024, is already available in Limited availability. See [this page](release-notes-2024.md).
+>
 
 ## Release 8.6.4 {#release-8-6-4}
 
