@@ -16,6 +16,11 @@ exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 ## About email BCC {#gs-bcc}
 
 You can configure Adobe Campaign to keep a copy of emails sent from your platform. This option allow you to send messages a dedicated BCC (Blind Carbon Copy) email address, from where they can be processed and archived using an external system.
+
+>[!CAUTION]
+>
+>For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
+
 Adobe Campaign itself does not manage archived files. The .eml files corresponding to the sent emails can then be transferred to a remote server, such as an SMTP email server.
 
 The archiving destination is the BCC email address of your choice, which will remain invisible to the delivery recipients. Once the BCC email address is defined, you must enable the dedicated option at the [delivery template](create-templates.md) level. 
@@ -23,11 +28,6 @@ The archiving destination is the BCC email address of your choice, which will re
 >[!NOTE]
 >
 >As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to communicate the BCC email address to be used for archiving.
-
->[!CAUTION]
->
->For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
-
 
 ## Enable email BCC {#enable-bcc}
 
