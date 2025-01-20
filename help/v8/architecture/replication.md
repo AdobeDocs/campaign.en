@@ -36,11 +36,11 @@ Replication policies define how much data is replicated from a PostgreSQL table.
 
 Campaign v8 relies on specific technical workflows to manage scheduled data replication. These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **They must not be modified.**
 
-Technical workflows execute processes or jobs, scheduled on a regular basis on the server. These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more. The full list of technical workflows is detailed in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
+Technical workflows execute processes or jobs, scheduled on a regular basis on the server. The full list of technical workflows is detailed in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
-Technical workflows ensuring data replication are:
+Technical workflows ensuring data replication are as follows:
 
-* **[!UICONTROL Replicate Reference tables]**: Performs automatic replication of built-in tables that need to be present on Campaign local database (Postgres) and Cloud database ([!DNL Snowflake]). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated. The order of the tables in the array below is the order used by the replication workflow.
+* **[!UICONTROL Replicate Reference tables]**: Performs automatic replication of built-in tables that need to be present on Campaign local database (Postgres) and Cloud database ([!DNL Snowflake]). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated.
 * **[!UICONTROL Replicate Staging data]**: Replicates staging data for unitary calls. It is scheduled to execute every hour, daily.
 * **[!UICONTROL Deploy FFDA immediately]** : Performs an immediate deployment to the Cloud database.
 * **[!UICONTROL Replicate FFDA data immediately]**: Replicates the XS data for a given external account.
@@ -69,6 +69,7 @@ In addition to the built-in **Replicate Reference Tables** technical workflow, y
 
 +++
 
+<br/>
 
 >[!NOTE]
 >
