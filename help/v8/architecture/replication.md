@@ -79,12 +79,14 @@ APIs enable replication of both custom and out-of-the-box data from PostgreSQL t
 
 Example:
 
+```
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">
         <srcSchema name="hm:recipientLookupFolder"/>
     </params>
 );
+```
 
 ## Replication queues
 
