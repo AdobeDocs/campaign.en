@@ -1,5 +1,5 @@
 ---
-title: Technical workflows and data replication
+title: Data replication
 description: Technical workflows and data replication
 feature: Workflows, FFDA
 role: Developer
@@ -26,7 +26,7 @@ Data replication can occur in different modes depending on the use case.
 
 ## Replication Policies
 
-Replication policies define how much data is replicated from a PostgreSQL table. These policies depend on the size of the table and the specific use case. Some tables will have incremental updates when others will be replicated. There are three main types of replication policies:
+Replication policies define how much data is replicated from a PostgreSQL table. These policies depend on the size of the table and the specific use case. Some tables will have incremental updates when others will be entirely replicated. There are three main types of replication policies:
 
 * **XS**: This policy is used for tables with relatively small sizes. The entire table is replicated in one shot. Incremental replication avoids repeatedly replicating the same data by using a timestamp pointer to replicate only recent changes.
 * **SingleRow**: This policy replicates only one row at a time. It is typically used for on-the-fly replication involving current Campaign objects and related objects.
@@ -69,6 +69,7 @@ In addition to the built-in **Replicate Reference Tables** technical workflow, y
 
 +++
 
+
 >[!NOTE]
 >
 >On-the-fly replication is handled by specific technical threads rather than workflows. Configuration for this mode is managed in the serverConf.xml file. You can configure the serverConf.xml to match specific use cases, such as requesting that XS tables are incrementally replicated rather than entirely. For more information, contact your Adobe representative.
@@ -105,4 +106,4 @@ This video presents the key concepts of which databases Adobe Campaign v8 uses, 
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Additional Campaign v8 Client Console tutorials are available [here](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)).
+Additional Campaign v8 Client Console tutorials are available [here](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).
