@@ -11,6 +11,10 @@ exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 
 This page lists all the latest updates in [!DNL Campaign] v8 (console) documentation.
 
+## January 2025 {#january-2025}
+
+The page on data replication for FFDA deployments has been reorganized and enriched with new information. [Read more](../architecture/replication.md)
+
 ## November 2024 {#october-2024}
 
 * The **ffdaUnsuscribe** workflow has been added to the list of technical workflows. [Read more](../../automation/workflow/technical-workflows.md)
