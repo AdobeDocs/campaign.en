@@ -1,73 +1,114 @@
 ---
-title: Technical workflows and data replication
+title: Data replication
 description: Technical workflows and data replication
 feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 ---
-# Technical workflows and data replication {#wf-data-replication}
 
-## Technical workflows {#tech-wf}
+# Data replication {#wf-data-replication}
+ 
+## Principle
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Adobe Campaign comes with a set of built-in technical workflows. Technical workflows execute processes or jobs, scheduled on a regular basis on the server.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), data replication ensures that the two databases, Campaign local database (PostgreSQL) and Cloud database ([!DNL Snowflake]), are operational in parallel and remain synchronized in real-time.
 
-These workflows perform maintenance operations on the database, leverage the tracking information in the delivery logs, create recurring campaigns, and more.
+The Cloud database ([!DNL Snowflake]) is optimized for handling large data batches, such as updating 1 million addresses. Meanwhile, the Campaign local database (PostgreSQL) is better suited for individual or small-volume operations, like updating a single seed address. Synchronization occurs automatically and transparently in the background, ensuring data in Campaign local database (PostgreSQL) is duplicated in the Cloud database ([!DNL Snowflake]) in real-time, keeping both databases synchronized. Data synchronization involves schemas and tables, and data.
 
-The full list of technical workflows is detailed in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
+➡️ [Discover how data replication works in video](#video) 
 
-In addition to these technical workflows, Campaign v8 relies on specific technical workflows to manage [data replication](#data-replication).
+## Replication modes {#modes}
 
-* **[!UICONTROL Replicate Reference tables]**
-    This workflow performs automatic replication of built-in tables that need to be present on Campaign local database (Postgres) and Cloud database ([!DNL Snowflake]). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated. The order of the tables in the array below is the order used by the replication workflow.
-* **[!UICONTROL Replicate Staging data]**
-    This workflow replicates staging data for unitary calls. It is scheduled to execute every hour, daily.
-* **[!UICONTROL Deploy FFDA immediately]**  
-    This workflow performs an immediate deployment to the Cloud database.
-* **[!UICONTROL Replicate FFDA data immediately]**
-    This workflow replicates the XS data for a given external account.
+Data replication can occur in different modes depending on the use case. 
 
-These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **They must not be modified.**
+* **On-the-fly replication** handles cases where real-time duplication is essential. It relies on specific technical threads to replicate data immediately for use cases like creating a diffusion or updating a seed address.
+* **Scheduled replication** is used when immediate synchronization is not required. Scheduled replication uses specific [technical workflows](#workflows) that run every hour to synchronize data, such as typology rules. 
 
-If needed, you can launch data synchronization manually. To perform this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
+## Replication Policies
 
-## Data replication {#data-replication}
+Replication policies define how much data is replicated from a Campaign local database (PostgreSQL) table. These policies depend on the size of the table and the specific use case. Some tables will have incremental updates when others will be entirely replicated. There are three main types of replication policies:
 
-Some built-in tables are replicated from Campaign local database to [!DNL Snowflake] Cloud database through dedicated workflows described above.
+* **XS**: This policy is used for tables with relatively small sizes. The entire table is replicated in one shot. Incremental replication avoids repeatedly replicating the same data by using a timestamp pointer to replicate only recent changes.
+* **SingleRow**: This policy replicates only one row at a time. It is typically used for on-the-fly replication involving current Campaign objects and related objects.
+* **SomeRows**: This policy is designed for replicating a limited subset of data using query definitions or filters. It is used for larger tables where selective replication is necessary.
 
-Understand which databases Adobe Campaign v8 uses, why data is being replicated, which data is being replicated and how the replication process works.
+## Replication Workflows {#workflows}
+
+Campaign v8 relies on specific technical workflows to manage scheduled data replication. These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **They must not be modified.**
+
+Technical workflows execute processes or jobs, scheduled on a regular basis on the server. The full list of technical workflows is detailed in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
+
+Technical workflows ensuring data replication are as follows:
+
+|Technical workflow|Description|
+|------|-----------|
+|**[!UICONTROL Replicate Reference tables]** (ffdaReplicateReferenceTables)|Performs automatic replication of built-in tables that need to be present on Campaign local database (PostgreSQL) and Cloud database ([!DNL Snowflake]). It is scheduled to execute every hour, daily. If **lastModified** field exists, replication happens incrementally, otherwise the whole table is replicated.|
+|**[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData)|Replicates staging data for unitary calls. It is scheduled to execute every hour, daily.|
+|**[!UICONTROL Deploy FFDA immediately]** (ffdaDeploy)|Performs an immediate deployment to the Cloud database.|
+|**[!UICONTROL Replicate FFDA data immediately]** (ffdaReplicate)|Replicates the XS data for a given external account.|
+
+If needed, you can launch data synchronization manually. To do this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
+
+In addition to the built-in **Replicate Reference tables** technical workflow, you can force data replication in your workflows using one of these methods
+
++++How to force data replication
+
+* Add a specific **Javascript code** activity with the following code:
+
+    ```
+    nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
+    ```
+
+    ![](assets/jscode.png)
+
+* Add a specific **nlmodule** activity with the following command:
+
+    ```
+    nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
+    ```
+
+    ![](assets/nlmodule.png)
+
++++
+
+<br/>
+
+>[!NOTE]
+>
+>On-the-fly replication is handled by specific technical threads rather than workflows. Configuration for this mode is managed in the serverConf.xml file. You can configure the serverConf.xml to match specific use cases, such as requesting that XS tables are incrementally replicated rather than entirely. For more information, contact your Adobe representative.
+
+## APIs
+
+APIs enable replication of both custom and out-of-the-box data from Campaign local database (PostgreSQL) to Cloud database ([!DNL Snowflake]). These APIs allow you to bypass predefined workflows and customize replication for specific requirements, such as replicating custom tables.
+
+Example:
+
+```
+var dataSource = "nms:extAccount:ffda";
+var xml = xtk.builder.CopyXxlData(
+    <params dataSource={dataSource} policy="xs">
+        <srcSchema name="cus:recipient"/>
+    </params>
+);
+```
+
+## Replication queues
+
+When high volumes of replication requests occur simultaneously, performance issues may arise in the Cloud database ([!DNL Snowflake]) due to table-level locks during MERGE operations. To mitigate this, centralized replication workflows group requests into queues.
+
+Each queue is handled by a technical workflow, which manages replication for a specific table, executing pending requests as a single MERGE operation. These workflows are triggered every 20 seconds to process new replication requests:
+
+|Technical workflow|Description|
+|------|-----------|
+|**Replicate nmsDelivery queue** (ffdaReplicateQueueDelivery)|Queue for the `nms:delivery` table.|
+|**Replicate nmsDlvExclusion queue** (ffdaReplicateQueueDlvExclusion)|Queue for the `nms:dlvExclusion` table.|
+|**Replicate nmsDlvMidRemoteIdRel queue** (ffdaReplicateQueueDlvMidRemoteIdRel)|Queue for the `nms:dlvRemoteIdRel` table.|
+|**Replicate nmsTrackingUrl queue** (ffdaReplicateQueueTrackingUrl)<br/>**Replicate nmsTrackingUrl queue in concurrency** (ffdaReplicateQueueTrackingUrl_2)|Queues in concurrency for the `nms:trackingUrl` table, utilizing two workflows to improve efficiency by processing requests based on different priorities.|
+
+## Tutorial {#video}
+
+This video presents the key concepts of which databases Adobe Campaign v8 uses, why data is being replicated, which data is being replicated and how the replication process works.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-
-### Data replication policies {#data-replication-policies}
-
-Replication policies are based on the size of the tables. Some tables are replicated in real-time, some others are replicated on hourly basis. Some tables will have incremental updates when others will be replaced.
-
-In addition to the built-in **Replicate Reference Tables** technical workflow, you can force data replication in your workflows. 
-
-You can:
-
-* add a specific **Javascript code** activity with the following code:
-
-```
-nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
-```
-
-![](assets/jscode.png)
-
-
-* add a specific **nlmodule** activity with the following command:
-
-```
-nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
-```
-
-![](assets/nlmodule.png)
-
-
-**Related topics**
-
-* [Learn how to get started with workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"}
-
-* [Data retention periods](../dev/datamodel-best-practices.md#data-retention)
+Additional Campaign v8 Client Console tutorials are available [here](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).
