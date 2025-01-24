@@ -24,7 +24,7 @@ You can add folders to Campaign Explorer, create views and assign permissions.
 
 Learn how to manage folders and views in [this page](../audiences/folders-and-views.md)
 
-## Manage and customize lists{#customize-lists}
+## Manage and customize lists {#customize-lists}
 
 In Campaign client console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 

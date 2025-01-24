@@ -8,7 +8,9 @@ exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 ---
 # Create and manage landing pages {#ac-gs-lp}
 
-[Adobe Campaign v8 web user interface](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) comes with a reimagined user experience for landing pages. Campaign allows you to create, design, and share landing pages. Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. As a Campaign v8 user, you have access to this new user interface to perform tasks, and simplify your experience as you are using Adobe Campaign. Learn more about 
+Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
+
+To create landing pages, browse to the [web user interface](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign comes with a reimagined user experience for landing pages, available in the web user interface only.
 
 
 >[!AVAILABILITY]
