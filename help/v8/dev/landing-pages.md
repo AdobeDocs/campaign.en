@@ -8,10 +8,9 @@ exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 ---
 # Create and manage landing pages {#ac-gs-lp}
 
-Landing pages enable you to direct your users to online forms where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
+A landing page is a dedicated web page designed with a specific marketing goal. Visitors typically arrive at a landing page after clicking on a link in an email, social media post, or search engine result. Unlike general website pages, landing pages focus on driving a single, well-defined action, such as making a purchase, subscribing / unsubscribing to a service, or downloading a resource. With Adobe Campaign, create landing pages to direct your users to an online form where they can update their data, opt-in/out from receiving your communications, or subscribe to a specific service such as a newsletter. 
 
 To create landing pages, browse to the [web user interface](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign comes with a reimagined user experience for landing pages, available in the web user interface only.
-
 
 >[!AVAILABILITY]
 >
