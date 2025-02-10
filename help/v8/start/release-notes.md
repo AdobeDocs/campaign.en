@@ -4,7 +4,7 @@ description: Latest Campaign v8 release
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 ---
-# Latest releases {#latest-release}
+# Latest release {#latest-release}
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
