@@ -12,6 +12,7 @@ This page lists new capabilities, improvements, and fixes coming with **2025 Cam
 **In this page**
 
 * Campaign v8.6 - [Release 8.6.4](#release-8-6-4)
+* Campaign v8.7 - [Release 8.7.2](#release-8-7-2) 
 
 >[!ENDSHADEBOX]
 

@@ -8,6 +8,11 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+>[!NOTE]
+>
+>Other **2025 releases** for Campaign v8.6 and v8.7 are listed in [this page](release-notes-2025.md).
+>
+
 ## Release 8.7.3 {#release-8-7-3}
 
 _Feb 5, 2025_
