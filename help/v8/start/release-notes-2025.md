@@ -2,6 +2,7 @@
 title: Campaign v8 (console) 2025 release notes
 description: List of features and improvemens coming with 2025 Campaign v8 releases
 feature: Release Notes
+exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 ---
 # 2025 release notes {#2025-rn}
 
