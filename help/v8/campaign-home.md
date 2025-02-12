@@ -16,7 +16,7 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) p
 
 The latest version of Adobe Campaign is now live. Read out the release notes for more details.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md#release-8-6-4)
 
 
 >[!TAB New Campaign Web User Interface] 
