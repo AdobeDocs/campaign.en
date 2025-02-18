@@ -10,6 +10,11 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 
 With Adobe Campaign, create email deliveries to send personalized emails to the target population. [Learn more](../send/send.md)
 
+>[!NOTE]
+>
+>To create captivating and individually tailored emails, browse to the [web user interface](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign comes with the Email Designer, an intuitive drag and drop interface allowing you to design and refine all content for every email.
+
+
 Learn key steps to create and configure a delivery in [this page](../start/create-message.md).
 
 ## Create an email delivery
