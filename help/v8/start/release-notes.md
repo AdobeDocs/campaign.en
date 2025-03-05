@@ -20,7 +20,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.7.3 {#release-8-7-3}
 
-_Feb 5, 2025_
+_Feb 14, 2025_
 
 >[!AVAILABILITY]
 >
