@@ -69,7 +69,6 @@ Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experie
 
    * The new connector is based on the ODBC interface which aligns with our most recent FDA connectors. This ensures long term support.
    * It also introduces a new data loading mechanism using s3 buckets, significantly improving performance.
-   * Redshift Spectrum support has been added.
 
    The legacy connector can still be used. If you want to try out the new one, please reach out to your Adobe representative.
 
