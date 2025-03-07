@@ -45,7 +45,7 @@ Customer Relationship Management (CRM) systems compatible with Adobe Campaign ar
 
 External databases compatible with Adobe Campaign Federated Data Access (FDA) module are listed below. Learn more about FDA [in this page](../connect/fda.md).
 
-* **[!DNL Amazon Redshift]** ODBC connector, starting Campaign v8.6.4
+* **[!DNL Amazon Redshift]** ODBC connector, starting Campaign v8.6.4 / v8.7.1
 * **[!DNL Amazon Redshift]** legacy connector
 * **[!DNL Azure Synapse]**, starting Campaign v8.5
 * **[!DNL Databricks]**, starting Campaign v8.6.4 / v8.7
