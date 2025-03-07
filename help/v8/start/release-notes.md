@@ -65,7 +65,7 @@ Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experie
 
 The following FDA connectors have been added. Refer to this [page](compatibility-matrix.md#FederatedDataAccessFDA).
 
-* Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more [in this page](compatibility-matrix.md#FederatedDataAccessFDA).
+* Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA).
 
 * A new Amazon Redshift FDA ODBC connector is now available. It offers improved connectivity, easier maintenance and enhanced compatibility. This new version brings the following improvements:
 
