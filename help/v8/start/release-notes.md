@@ -20,7 +20,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.7.3 {#release-8-7-3}
 
-_Feb 5, 2025_
+_Feb 14, 2025_
 
 >[!AVAILABILITY]
 >
@@ -63,7 +63,16 @@ Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experie
 
 ### Compatibility updates {#comp-8-6-4}
 
-Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA). Learn more [in this page](compatibility-matrix.md#FederatedDataAccessFDA).
+The following FDA connectors have been added. Refer to this [page](compatibility-matrix.md#FederatedDataAccessFDA).
+
+* Databricks is now supported as an external database with Adobe Campaign Federated Data Access (FDA).
+
+* A new Amazon Redshift FDA ODBC connector is now available. It offers improved connectivity, easier maintenance and enhanced compatibility. This new version brings the following improvements:
+
+   * The new connector is based on the ODBC interface which aligns with our most recent FDA connectors. This ensures long term support.
+   * It also introduces a new data loading mechanism using s3 buckets, significantly improving performance.
+
+   The legacy connector can still be used. If you want to try out the new one, please reach out to your Adobe representative.
 
 ### Fixes {#fixes-8-6-4}
 
