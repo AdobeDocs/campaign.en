@@ -68,7 +68,7 @@ To link your Campaign instance with your X account, create a **Twitter** service
 >
 >Create one **Twitter** service per X account. As a consequence, you must create another test service to send proofs to your [test account](#tw-test-account).
 >
->Each **Twitter** service must also be created by Adobe on your MID instance. Contact your Adobe representative to have your environment configured.
+>Each **Twitter** service must also be created by Adobe on your mid-sourcing (MID) instance. Contact your Adobe representative to have your environment configured.
 >
 
 To enter settings, you must access both to your Adobe Campaign client console and an your X app permissions.

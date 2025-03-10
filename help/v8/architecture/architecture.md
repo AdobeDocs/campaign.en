@@ -51,11 +51,11 @@ Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFD
 
 >[!AVAILABILITY]
 >
->This feature is available to customers with multiple MID instances configurations only.
+>This feature is available to customers with multiple mid-sourcing (MID) instances configurations only.
 
 Depending on your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
 
-By default, the external accounts for all channels use an **[!UICONTROL Alternate]** routing mode, meaning that one delivery is sent from each mid instance at a time in an alternating way.
+By default, the external accounts for all channels use an **[!UICONTROL Alternate]** routing mode, meaning that one delivery is sent from each mid-sourcing (MID) instance at a time in an alternating way.
 
 To ensure better performances both in terms of speed and scale, you can allow deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
 
@@ -72,7 +72,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 >
 >The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out your Adobe Transition Manager to have the option enabled.
 >
->By default, the threshold size value to split a delivery among multiple mids is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
+>By default, the threshold size value to split a delivery among multiple mid-sourcing (MID) instances is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
 In order to make split external accounts as the default account for sending out deliveries, you need to change the routing provider in your delivery templates. To do this, follow these steps:
 

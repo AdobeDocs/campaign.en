@@ -251,7 +251,7 @@ To create an app for Android devices, follow these steps:
 
    >[!CAUTION]
    >
-   >The **[!UICONTROL Test connection]** button does not check if the MID server has access to the FCM server.
+   >The **[!UICONTROL Test connection]** button does not check if the mid-sourcing (MID) server has access to the FCM server.
 
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]** if needed. These are fully customizable and a part of the message payload sent to the mobile device.
 

@@ -81,6 +81,8 @@ To configure a POP3 external using Microsoft OAuth 2.0, check the **[!UICONTROL 
 
 The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
 
+Learn more about external account management and delivery execution in [this section](../architecture/architecture.md#split).
+
 ### Execution instance {#execution-instance}
 
 In the context of transactional messaging, the execution instances is linked to the control instance and connect them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).

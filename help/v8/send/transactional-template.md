@@ -155,7 +155,7 @@ Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
 #### Transition from [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-If you are [transitioning from Campaign Classic v7](../start/v7-to-v8.md), all deliveries go through the mid-sourcing server.
+If you are [transitioning from Campaign Classic v7](../start/v7-to-v8.md), all deliveries go through the mid-sourcing (MID) server.
 
 However, when creating a transactional message template, the routing needed for the template to be successfully used is **internal email delivery**. This routing prevents you from sending proofs.
 
