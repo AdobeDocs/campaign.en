@@ -44,7 +44,7 @@ Learn how to add users in [this page](manage-permissions.md#add-users).
 
 ## About product profiles{#ootb-product-profiles}
 
-Product profiles are groups of products and services that you can assign to users. In Adobe Experience Cloud, permissions are based on a product’s profile, not on the user. However, you can delegate administrative rights to specific users.
+Product profiles are groups of products and services that you can assign to users. In Adobe Experience Cloud, permissions are based on a product's profile, not on the user. However, you can delegate administrative rights to specific users.
 
 In the Admin Console, each Adobe Experience Cloud **product profile** for Campaign is associated to an **operator group** in Campaign client console.
 
