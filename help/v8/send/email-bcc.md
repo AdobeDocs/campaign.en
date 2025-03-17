@@ -36,7 +36,7 @@ To enable BCC for a specific [delivery template](create-templates.md), follow th
 1. From Campaign explorer, browse to the delivery templates folder. By default, delivery templates are stored into the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** folder. 
 1. Edit the delivery template to update with BCC.
 1. Click the **[!UICONTROL Properties]** button.
-1. From the **[!UICONTROL Delivery]** tab, check the **[!UICONTROL Email BCC]** option.
+1. From the **[!UICONTROL Delivery]** tab, check the **[!UICONTROL Email BCC with enhanced Momentum]** option.
 
     ![](assets/email-bcc.png)
 
