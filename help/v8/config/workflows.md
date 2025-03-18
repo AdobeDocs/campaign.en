@@ -19,6 +19,11 @@ You can set up:
 * Automatic report sending
 * Triggered events
 
+>[!NOTE]
+>
+>Adobe Campaign Web UI comes with a reimagined canvas for workflows, allowing to create more dynamic and personalized customer journeys. To learn more about Workflows for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+
+
 ## Design and use workflows {#gs-ac-wf}
 
 Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery.
