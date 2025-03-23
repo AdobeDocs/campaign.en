@@ -1,7 +1,6 @@
 ---
 title: Integrate AEP SDK and Campaign
 description: Learn how to integrate Adobe Experience Platform mobile SDK with your app
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate

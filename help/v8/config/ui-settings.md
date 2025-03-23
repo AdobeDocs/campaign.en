@@ -1,7 +1,6 @@
 ---
 title: Campaign interface settings
 description: Learn how to customize Campaign interface settings
-version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner
