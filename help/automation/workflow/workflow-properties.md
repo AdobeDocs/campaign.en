@@ -53,9 +53,11 @@ This section is only displayed in campaign workflows.
 
   >[!NOTE]
   >
-  >This option is aimed at advanced users and should be enabled for **technical workflows** only.
+  >* This option is available starting v8.6.4.
   >
-  >It is enabled by default for the centralized replication workflows available with the `fullFdaMkt`package.
+  >* This option is aimed at advanced users and should be enabled for **technical workflows** only.
+  >
+  >* This option is enabled by default for the centralized replication workflows available context of an [Enterprise (FFDA) deployment](enterprise-deployment.md). [Learn more](../../v8/architecture/replication.md)
 
 ### Error management {#error-management}
 
