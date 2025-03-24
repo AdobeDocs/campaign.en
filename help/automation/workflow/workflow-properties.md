@@ -57,7 +57,7 @@ This section is only displayed in campaign workflows.
   >
   >* This option is aimed at advanced users and should be enabled for **technical workflows** only.
   >
-  >* This option is enabled by default for the centralized replication workflows available context of an [Enterprise (FFDA) deployment](enterprise-deployment.md). [Learn more](../../v8/architecture/replication.md)
+  >* This option is enabled by default for the centralized replication workflows available context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md). [Learn more](../../v8/architecture/replication.md)
 
 ### Error management {#error-management}
 
