@@ -27,7 +27,7 @@ Once these capabilities are implemented, Adobe monitors:
 
 * The VPN tunnels, and proceed with alerting in case any issue arise.
 
-## Secure Secure Customer-Managed Key integration {#secure-cmk-integration}
+## Secure Customer-Managed Key integration {#secure-cmk-integration}
 
 The **Secure Customer-Managed Key (CMK) integration** allows you to encrypt data at rest using your own key through your Amazon Web Services (AWS) account.
 
