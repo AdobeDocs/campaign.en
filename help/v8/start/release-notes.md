@@ -12,11 +12,33 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 **In this page**
 
-* Campaign v8.6 - [Release 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [Release 8.7.3](#release-8-7-3) 
+* [Release 8.7.4](#release-8-7-4)
+* [Release 8.7.3](#release-8-7-3) 
+* [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## Release 8.7.4 {#release-8-7-4}
+
+_April 10, 2025_
+
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+
+### New features {#features-8-7-4}
+
+* **SMS REST API support** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
+
+* **Multilingual deliveries** - Starting Campaign Web User interface April release, you will be able to send multiple email deliveries in different languages, and access the related dynamic reports. This capability will only be available in Adobe Campaign Web User Interface at the end of April, and require a server update to Campaign v8.7.4.
+
+### Fixes {#fixes-8-7-4}
+
+The following issues are fixed in this release:
+
+NEO-80245, NEO-83559
 
 ## Release 8.7.3 {#release-8-7-3}
 
