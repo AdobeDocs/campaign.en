@@ -8,6 +8,28 @@ exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 
 This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. Latest releases are listed in [this page](release-notes.md).
 
+## Release 8.7.3 {#release-8-7-3}
+
+_Feb 14, 2025_
+
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
+>
+>As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+
+### New features {#features-8-7-3}
+
+* **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+
+* **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+
+### Fixes {#fixes-8-7-3}
+
+The following issues are fixed in this release:
+
+NEO-79373, NEO-81908, NEO-83081
+
 ## Release 8.7.2 {#release-8-7-2}
 
 _Sept 3, 2024_
