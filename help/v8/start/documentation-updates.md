@@ -11,6 +11,10 @@ exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 
 This page lists all the latest updates in [!DNL Campaign] v8 (console) documentation.
 
+## April 2025 {#april-2025}
+
+Added a best practice to restart the workflow after changing the scheduled time of the **[!UICONTROL Scheduler]** activity to ensure it executes according to the updated schedule. [Read more](../../automation/workflow/scheduler.md)
+
 ## January 2025 {#january-2025}
 
 The page on data replication for FFDA deployments has been reorganized and enriched with new information. [Read more](../architecture/replication.md)

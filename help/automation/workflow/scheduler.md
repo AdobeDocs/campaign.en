@@ -16,15 +16,15 @@ The **[!UICONTROL Scheduler]** activity should be considered as a scheduled star
 
 ## Best practices {#best-practices}
 
-* Do not schedule a workflow to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
+**Restart workflow after changing scheduler timing** - When changing the scheduled time of the **[!UICONTROL Scheduler]** activity, it is important to restart the workflow. This ensures that the workflow will execute at the updated times. Without restarting, the workflow will continue to execute according to the old schedule.
 
-* Never use more than one **[!UICONTROL Scheduler]** activity per branch in a workflow. See [Using activities](workflow-best-practices.md#using-activities).
+**Limit Scheduler frequency** - Avoid scheduling workflows to run more frequently than every 15 minutes. Running them more often can degrade system performance and result in database congestion.
 
-* Using a scheduler activity may lead to have several executions of a workflow running at the same time. For instance, you can have a scheduler triggering the workflow execution every hour, but sometimes the execution of the whole workflow takes more than an hour.
+**Use one Scheduler per branch** - Each branch of your workflow should only have one **[!UICONTROL Scheduler]** activity. For more information on best practices for using activities in workflows, refer to the [Workflow best practices page](workflow-best-practices.md#using-activities).
 
-   You may want to skip the execution if the workflow is already running. For more on how to prevent simultaneous executions of a workflow, refer to [this page](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**Prevent workflow concurrent executions** - If a workflow is triggered by a scheduler, be mindful that multiple instances of the workflow could be running at the same time. For example, if a scheduler triggers the workflow every hour, but the workflow execution takes more than an hour, you could end up with overlapping executions.To avoid this, consider setting up checks to prevent multiple simultaneous executions. [Learn how to prevent simultaneous multiple workflow executions](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
-* Note that the transition can be activated several hours later if the workflow was executing a long-term task, such as an import, or if the wfserver module was stopped for a time. In this case, it may be necessary to restrict the execution of the task activated by the scheduler to a certain time range.
+**Account for delayed transitions** - Transitions triggered by the scheduler might be delayed if the workflow is executing long-running tasks (like imports), or if the wfserver module has been stopped temporarily. To mitigate this, restrict the activation times of the scheduler to ensure tasks run within a defined time window.
 
 ## Configuring the Scheduler activity {#configuring-scheduler-activity}
 

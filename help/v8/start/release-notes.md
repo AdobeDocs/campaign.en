@@ -12,15 +12,15 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 **In this page**
 
-* Campaign v8.6 - [Release 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [Release 8.7.3](#release-8-7-3) 
+* [Release 8.7.4](#release-8-7-4)
+* [Release 8.7.3](#release-8-7-3) 
+* [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## Release 8.7.4 {#release-8-7-4}
 
-## Release 8.7.3 {#release-8-7-3}
-
-_Feb 14, 2025_
+_April 10, 2025_
 
 >[!AVAILABILITY]
 >
@@ -28,18 +28,17 @@ _Feb 14, 2025_
 >
 >As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
-### New features {#features-8-7-3}
+### New features {#features-8-7-4}
 
-* **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **SMS REST API support** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
 
-* **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **Multilingual deliveries** - Starting Campaign Web User interface April release, you will be able to send multiple email deliveries in different languages, and access the related dynamic reports. This capability will only be available in Adobe Campaign Web User Interface at the end of April, and require a server update to Campaign v8.7.4.
 
-### Fixes {#fixes-8-7-3}
+### Fixes {#fixes-8-7-4}
 
 The following issues are fixed in this release:
 
-NEO-79373, NEO-81908, NEO-83081.
-
+NEO-80245, NEO-83559
 
 ## Release 8.6.4 {#release-8-6-4}
 
