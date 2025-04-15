@@ -4,7 +4,7 @@ title: SQL code and JavaScript code
 description: Learn more about SQL and JavaScript codes workflow activities
 feature: Workflows
 Role: User
-Level: Experienced 
+level: Experienced 
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
