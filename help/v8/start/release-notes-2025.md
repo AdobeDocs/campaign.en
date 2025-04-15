@@ -8,6 +8,16 @@ exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 
 This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. Latest releases are listed in [this page](release-notes.md).
 
+>[!BEGINSHADEBOX]
+
+**In this page**
+
+* Campaign v8.7 - [Release 8.7.2](#release-8-7-2) | [Release 8.7.3](#release-8-7-3)
+
+
+>[!ENDSHADEBOX]
+
+
 ## Release 8.7.3 {#release-8-7-3}
 
 _Feb 14, 2025_
