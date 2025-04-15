@@ -17,7 +17,7 @@ For more information on query samples, refer to this [this section](querying-rec
 
 >[!NOTE]
 >
->Adobe Campaign Web UI features a powerful query modeler that simplifies the process of filtering databases to select specific targets based on various criteria, allowing you to create and manage your query more easily. To learn more about the Query modeler for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+>Adobe Campaign Web UI features a powerful query modeler that simplifies the process of filtering databases to select specific targets based on various criteria, allowing you to create and manage your query more easily. To learn more about the Query modeler for Web UI, please refer to the [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
