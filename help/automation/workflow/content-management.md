@@ -14,6 +14,10 @@ A **Content management** activity lets you create and manipulate a content and g
 >
 >Content management is an optional Adobe Campaign module. Please check your license agreement.
 
+>[!NOTE]
+>
+>Adobe Campaign Web User Interface allows you to use Content fragments for your content. It allows marketing users to prebuild multiple custom content blocks, thanks toreusable component that can be referenced in one or more messages and allows you to quickly assemble message contents in an improved design process. To learn more about Content fragments, please refer to the [Adobe Campaign Web UI documentation.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+
 The properties of the activity are divided into three steps:
 
 * **Content selection**: the content can have been created previously or can be created via the activity.
