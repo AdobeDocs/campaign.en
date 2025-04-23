@@ -4,6 +4,7 @@ title: Marketing campaign target audience
 description: Learn how to define the audience of your marketing campaigns
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 ---
 # Select the audience of your campaigns {#marketing-campaign-deliveries}

@@ -4,6 +4,7 @@ title: Marketing campaign assets, documents and delivery outlines
 description: Learn more about marketing campaign documents and delivery outlines
 feature: Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
 ---
 # Manage assets and documents {#manage-assets-documents}

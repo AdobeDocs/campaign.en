@@ -4,6 +4,7 @@ title: Providers, stocks and budgets
 description: Providers, stocks and budgets
 feature: Budget Management, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 ---
 # Providers, stocks and budgets{#providers-stocks-and-budgets}

@@ -4,6 +4,7 @@ title: Create marketing campaigns
 description: Learn how to create and execute marketing campaigns
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 ---
 # Create programs and campaigns{#create-programs-and-campaigns}

@@ -4,6 +4,7 @@ title: Monitoring marketing campaigns
 description: Monitoring marketing campaigns
 feature: Campaigns, Monitoring
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
 ---
 # Monitor marketing campaigns {#monitor-marketing-campaigns}
