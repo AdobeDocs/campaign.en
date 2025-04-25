@@ -20,7 +20,7 @@ The upper section of the configuration window for this activity lets you define 
 
 >[!CAUTION]
 >
->Only "flat" structure files are supported (e.g. CSV, TXT, etc.). Using the XML format is not recommended.
+>Only "flat" structure files are supported (e.g. CSV, TXT, etc.). Using the XML format is not recommended. With the client console, you can load files up to a maximum size of 150MB. In the Web User Interface, the Load file activity has a limit of 50MB. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

@@ -31,6 +31,10 @@ Otherwise, the recipient will be **[!UICONTROL Excluded by arbitration]**. [Lear
 
 To set up arbitration between campaigns using Adobe Campaign, start by creating campaign typologies and defining linked typology rules (**Pressure** rules).
 
+>[!NOTE]
+>
+>For a pressure rule to be applied correctly, the targeting dimension of the rule needs to match the targeting dimension of the delivery mapping.
+
 To create and configure a **[!UICONTROL Pressure]** typology rule, apply the following steps:
 
 1. In the list of campaign typology rules, select the **[!UICONTROL New]** icon above the list.
