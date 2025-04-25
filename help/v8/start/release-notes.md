@@ -12,10 +12,37 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 **In this page**
 
+* [Release 8.6.5](#release-8-6-4)
 * [Release 8.7.4](#release-8-7-4)
 * [Release 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
+
+## Release 8.6.5 {#release-8-6-5}
+
+_April 25, 2025_
+
+>[!AVAILABILITY]
+>
+>This release is in **Limited Availability** (LA).
+
+### New features {#features-8-6-5}
+
+**New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
+
+### General improvements {#improvements-8-6-5}
+
+* The global performance of the application has been improved, in the context of an Enterprise (FFDA) deployment, including delivery proof sending and database cleanup.
+
+* To increase security over all communication between applications, mTLS is now supported for external API calls.
+
+* Mail Transfer Agent (MTA) - Fixed orphan MTA child to be stuck on **[!UICONTROL Start pending]** status.
+
+### Fixes {#fixes-8-6-5}
+
+The following issues are also fixed in this release:
+
+NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 
 ## Release 8.7.4 {#release-8-7-4}
 
