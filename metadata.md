@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-version: Campaign v8, Campaign v8 Client Console
+version: Campaign v8 Client Console
 solution: Campaign, Campaign v8, Campaign v8 Client Console
 product: adobe campaign
 feature-set: Campaign
