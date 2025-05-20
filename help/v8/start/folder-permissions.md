@@ -25,6 +25,12 @@ To edit permissions on a specific Campaign folder, follow the steps below:
 * To **forbid a group or an operator**, click **[!UICONTROL Delete]** and select the group or operator to remove authorization for this folder.
 * To **select the rights assigned to a group or an operator**, select the group or operator, select the access rights you want to grant, and unselect the others.
 
+>[!NOTE]
+>
+>You should not be able to create an object for which you do not have at least one folder with writing rights.
+>
+>You do not need to be an admin to create fragments, but you must have writing rights on at least one "Content visual fragment" folder. Otherwise, you won't be able to create a visual fragment.
+
 ## Propagate permissions {#propagate-permissions}
 
 To propagate authorizations and access rights, select the **[!UICONTROL Propagate]** option in the folder properties.

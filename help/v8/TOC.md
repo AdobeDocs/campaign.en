@@ -74,6 +74,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [LINE messaging](send/line.md)
   + [Direct mail](send/direct-mail.md)
   + [X (Twitter)](send/twitter.md)
+  + [Custom external channel](send/custom-channel.md)
   + Personalize content {#personalize}
     + [Get started with personalization](send/personalize.md)
     + [Personalization data](send/personalization-data.md)
