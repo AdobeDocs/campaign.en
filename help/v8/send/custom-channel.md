@@ -5,7 +5,7 @@ role: User
 level: Beginner, Intermediate
 ---
 
-# Get started with custom external channels {#gs-custom-channel}
+# Get started with custom external channels {#gs-custom-channel} 
 
 Adobe Campaign allows you to create custom external channels integrated with third-parties. You can then orchestrate and execute deliveries based these channels. 
 
