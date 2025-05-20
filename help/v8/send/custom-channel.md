@@ -3,8 +3,8 @@ title: Get started with custom external channels
 description: Learn how to create and send custom external channel deliveries with Adobe Campaign Web
 role: User
 level: Beginner, Intermediate
+exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
 ---
-
 # Get started with custom external channels {#gs-custom-channel} 
 
 Adobe Campaign allows you to create custom external channels integrated with third-parties. You can then orchestrate and execute deliveries based these channels. 
@@ -63,5 +63,3 @@ Now, let's create the new template associated to the new channel.
     ![](assets/cus-template.png){zoomable="yes"}
 
 The new channel is now available. You can create and execute deliveries based on this channel.
-
-
