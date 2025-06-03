@@ -76,13 +76,13 @@ In case of a delivery feedback report, the following fields must be entered:
 
 This example shows how to set up an approval process for a workflow delivery. For more information about creating delivery workflows, refer to the [Example: delivery workflow](delivery.md#example--delivery-workflow) section.
 
-An operator can approve a delivery in one of two ways: using the Web page linked in the email message, or via the client console.
+An operator can approve a delivery in one of two ways: using the Web page linked in the email message, or via the Client Console.
 
 * Web approval
 
   The email sent to operators of the Administrator group lets you approve the delivery target. The message uses the defined text and the JavaScript expression is replaced by the calculated value (in this case, '574')
 
-  To approve the delivery, click the relevant link and log on to the Adobe Campaign client console.
+  To approve the delivery, click the relevant link and log on to the Adobe Campaign Client Console.
 
   ![](assets/new-workflow-valid-webaccess.png)
 
@@ -90,7 +90,7 @@ An operator can approve a delivery in one of two ways: using the Web page linked
 
   ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* Approval via the client console
+* Approval via the Client Console
 
   In the tree structure, the **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** node contains the list of tasks to be approved by the operator currently connected. The list should display one line. Double-click this line to respond. The following window is displayed:
 

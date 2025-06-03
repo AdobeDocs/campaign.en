@@ -95,7 +95,7 @@ To approve a resource, click the **[!UICONTROL Approve the resource]** button on
 
 ![](assets/mkt-resouce-approve.png)
 
-Authorized operators can then accept or reject approval. This action is possible either: via the email message sent (by clicking the link in the notification message) or via the client console (by clicking the **[!UICONTROL Approve]** ) button.
+Authorized operators can then accept or reject approval. This action is possible either: via the email message sent (by clicking the link in the notification message) or via the Client Console (by clicking the **[!UICONTROL Approve]** ) button.
 
 The approval window lets you enter a comment.
 
