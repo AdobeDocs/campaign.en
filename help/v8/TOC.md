@@ -42,10 +42,14 @@ breadcrumb-title: Campaign v8 Documentation
   + [Delivery best practices](start/delivery-best-practices.md)
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
+    + [Define the email content](send/defining-the-email-content.md)
+    + [Define interactive content](send/defining-interactive-content.md)
     + [Link to the mirror page](send/mirror-page.md)
     + [Add a BCC address](send/email-bcc.md)
     + [Define additional email parameters](send/email-parameters.md)
     + [Send and monitor emails](send/send.md)
+    + [Send emails on Japanese mobiles](send/sending-emails-on-japanese-mobiles.md)
+    + [Attach files to an email](send/attaching-files.md)
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
     + Configure SMS channel {#config-sms}

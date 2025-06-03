@@ -5,6 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
+version: Campaign v8, Campaign Classic v7
 ---
 # Manage folders and views {#folders-and-views}
 

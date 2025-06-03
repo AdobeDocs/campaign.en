@@ -4,6 +4,7 @@ description: Create your first delivery
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 ---
 # Create your first delivery {#create-a-msg}
@@ -52,7 +53,7 @@ The delivery content is ready to be configured. Delivery content definition is s
 * [Define the email content](../send/email.md)
 * [Define the SMS content](../send/sms/sms-content.md)
 * [Define the direct mail content](../send/direct-mail.md)
-* [Degine the push notification content](../send/push.md)
+* [Define the push notification content](../send/push.md)
 
 
 ## Define the target audience {#target-population}

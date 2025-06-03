@@ -5,6 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
+version: Campaign v8, Campaign Classic v7
 ---
 # View existing profiles{#view-profiles}
 

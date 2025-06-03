@@ -4,6 +4,7 @@ description: Learn how to add and manage the link to the mirror page
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
 ---
 # Link to the mirror page {#mirror-page}

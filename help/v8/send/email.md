@@ -4,6 +4,7 @@ description: Get started with emails in Adobe Campaign. Send personalized emails
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 ---
 # Design and send emails
@@ -88,7 +89,7 @@ Learn how to create a workflow to import an email content in this [use case](htt
 
 >[!MORELIKETHIS]
 >
->* [Create a delivert](../start/create-message.md)
+>* [Create a delivery](../start/create-message.md)
 >* [Create and use an email template](create-templates.md)
 >* [Select the audience of your email](../audiences/gs-audiences.md)
 >* [Validate a delivery and send proofs](preview-and-proof.md)

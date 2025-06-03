@@ -5,6 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
+version: Campaign v8, Campaign Classic v7
 ---
 # Manage folder permissions{#manage-folder-permissions}
 

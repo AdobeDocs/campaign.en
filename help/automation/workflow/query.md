@@ -5,6 +5,7 @@ description: Learn more about the Query workflow activity
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
+version: Campaign v8, Campaign Classic v7
 ---
 # Query{#query}
 

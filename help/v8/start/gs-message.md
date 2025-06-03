@@ -4,6 +4,7 @@ description: Get started with messages
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
 ---
 # Get Started with messages {#gs-ac-msg}

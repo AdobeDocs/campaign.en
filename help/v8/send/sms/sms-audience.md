@@ -4,6 +4,7 @@ description: Learn how to setup the audience of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: e0603a4d-cde1-4199-a164-bf0c992ba937
 ---
 # Select the audience of your SMS delivery {#sms-audience}

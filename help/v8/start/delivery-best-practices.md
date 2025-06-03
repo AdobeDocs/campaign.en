@@ -4,6 +4,7 @@ description: Learn best practices when designing and sending deliveries with Ado
 feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 ---
 # Delivery best practices {#delivery-best-practices}

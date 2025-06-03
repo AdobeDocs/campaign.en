@@ -5,6 +5,7 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
+version: Campaign v8, Campaign Classic v7
 ---
 # Get Started with Adobe Campaign{#gs-ac-v8}
 

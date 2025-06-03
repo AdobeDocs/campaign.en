@@ -4,6 +4,7 @@ description: Learn how to activate email BCC in Adobe Campaign
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 ---
 # Send a copy of your messages to a BCC address {#bcc}

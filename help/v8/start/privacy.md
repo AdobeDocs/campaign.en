@@ -5,6 +5,7 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
+version: Campaign v8, Campaign Classic v7
 ---
 # Manage Privacy requests in Campaign {#privacy}
 

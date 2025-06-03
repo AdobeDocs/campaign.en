@@ -4,6 +4,7 @@ description: Learn how to create a SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
 ---
 # Create your first SMS delivery {#sms-delivery}

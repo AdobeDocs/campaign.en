@@ -5,6 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
+version: Campaign v8, Campaign Classic v7
 ---
 # Get started with profiles and audiences{#gs-profiles-and-audiences}
 
@@ -29,6 +30,6 @@ To populate Adobe Campaign with profile data, you can:
 
 ![](assets/create-profile.png) 
 
-<!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as “external” deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
+<!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as "external" deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
 Once imported, you can create audiences to send your messages. Learn how to create audiences [in this section](create-audiences.md).

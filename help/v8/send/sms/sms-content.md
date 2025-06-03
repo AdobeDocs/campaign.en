@@ -4,6 +4,7 @@ description: Learn how to define and personalize the content of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
 ---
 # Define the SMS content {#sms-content}

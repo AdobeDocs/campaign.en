@@ -5,6 +5,7 @@ feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
+version: Campaign v8, Campaign Classic v7
 ---
 # Work with data packages{#data-packages}
 

@@ -4,6 +4,7 @@ description: About the monitoring and tracking of an SMS delivery
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
 ---
 # Monitor and track a SMS
