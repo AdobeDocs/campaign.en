@@ -5,6 +5,7 @@ description: Learn how to configure, design and send emails that will be read on
 feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
 ---
 # Send emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 

@@ -5,6 +5,7 @@ description: Attaching files
 feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: 27d13642-2971-466b-818d-39328c198b14
 ---
 # Attach files to an email{#attaching-files}
 

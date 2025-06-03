@@ -5,6 +5,7 @@ description: Learn how to define the email content when using Adobe Campaign
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
 ---
 # Define the email content {#defining-the-email-content}
 

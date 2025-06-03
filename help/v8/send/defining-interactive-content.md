@@ -5,6 +5,7 @@ description: Learn how to define interactive and dynamic email content with AMP 
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
 ---
 # Define interactive content{#defining-interactive-content}
 
