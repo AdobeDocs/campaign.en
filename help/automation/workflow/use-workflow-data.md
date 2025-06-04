@@ -2,6 +2,7 @@
 title: Use workflow data
 description: Learn how to use workflow data
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 ---
 # Use workflow data{#how-to-use-workflow-data}

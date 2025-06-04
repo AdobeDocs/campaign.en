@@ -4,6 +4,7 @@ title: Add an Enumeration type calculated field
 description: Learn how to add an Enumeration type calculated field
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}

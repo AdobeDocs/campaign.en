@@ -5,6 +5,7 @@ description: Learn how to start a workflow and discover workflows actions toolba
 feature: Workflows
 level: Beginner
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 ---
 # Start, pause, stop a workflow {#starting-a-workflow}

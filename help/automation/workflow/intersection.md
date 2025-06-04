@@ -4,6 +4,7 @@ title: Intersection
 description: Intersection
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
 ---
 # Intersection{#intersection}

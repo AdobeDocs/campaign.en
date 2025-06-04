@@ -4,6 +4,7 @@ title: Querying delivery information
 description: Learn how to query delivery information
 feature: Query Editor
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
 ---
 # Query delivery information {#querying-delivery-information}

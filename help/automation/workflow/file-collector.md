@@ -4,6 +4,7 @@ title: File collector
 description: Learn more about the File collector workflow activity
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
 ---
 # File collector{#file-collector}

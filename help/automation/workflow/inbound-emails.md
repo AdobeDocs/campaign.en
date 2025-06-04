@@ -4,6 +4,7 @@ title: Inbound Emails
 description: Learn more about the Inbound Emails workflow activity
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cc2c415-1886-4f31-8020-dbaf97a3cc43
 ---
 # Inbound Emails{#inbound-emails}

@@ -4,6 +4,7 @@ title: Delivery control
 description: Learn more about the Delivery control workflow activity
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
 ---
 # Delivery control{#delivery-control}

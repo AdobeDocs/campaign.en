@@ -4,6 +4,7 @@ title: Delivery
 description: Learn more about the Delivery-type workflow activity
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
 ---
 # Delivery{#delivery}

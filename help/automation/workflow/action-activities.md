@@ -4,6 +4,7 @@ title: Action activities in workflows
 description: About action activities
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
 ---
 # Action activities in workflows{#about-action-activities}

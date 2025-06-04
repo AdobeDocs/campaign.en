@@ -4,6 +4,7 @@ title: Cross-channel deliveries
 description: Learn more about cross-channel deliveries
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
 ---
 # Cross-channel deliveries{#cross-channel-deliveries}

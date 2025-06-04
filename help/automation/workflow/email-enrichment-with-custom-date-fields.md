@@ -4,6 +4,7 @@ title: Email enrichment with custom date fields
 description: Learn how to enrich emails with custom date fields
 feature: Workflows
 role: User, Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
 ---
 # Email enrichment with custom date fields{#email-enrichment-with-custom-date-fields}

@@ -4,6 +4,7 @@ title: Interaction
 description: Interaction
 feature: Workflows, Interaction
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Interaction{#interaction}

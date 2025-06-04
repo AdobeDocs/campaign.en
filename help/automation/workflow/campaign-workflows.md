@@ -4,6 +4,7 @@ title: Type of workflows
 description: Discover different types of workflows in Campaign
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
 ---
 # Campaign workflows {#campaign-workflows}

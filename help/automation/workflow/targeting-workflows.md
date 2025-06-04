@@ -2,6 +2,7 @@
 title: Create a targeting workflows
 description: Learn how to create target audiences in a workflow
 feature: Query Editor, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
 ---
 # Create a targeting workflow{#target-data}

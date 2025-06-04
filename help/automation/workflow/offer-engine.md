@@ -4,6 +4,7 @@ title: Offer engine
 description: Offer engine
 feature: Workflows, Interaction
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
 ---
 # Offer engine{#offer-engine}

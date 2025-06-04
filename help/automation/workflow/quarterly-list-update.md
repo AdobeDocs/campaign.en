@@ -4,6 +4,7 @@ title: Quarterly list update using an incremental query
 description: In this use case, an incremental query is used to automatically update a recipient list.
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}

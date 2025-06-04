@@ -4,6 +4,7 @@ title: Read list
 description: Learn more about the Read list workflow activity
 feature: Workflows, Targeting Activity
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
 ---
 # Read list{#read-list}

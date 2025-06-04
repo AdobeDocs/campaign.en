@@ -4,6 +4,7 @@ title: Incremental query
 description: Learn more about the Incremental query workflow activity
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 3e9f92c3-080f-441b-a15a-2ec9d056d1f9
 ---
 # Incremental query{#incremental-query}

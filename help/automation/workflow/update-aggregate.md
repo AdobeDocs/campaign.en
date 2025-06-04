@@ -5,6 +5,7 @@ description: Learn more about the Update aggregate workflow activity
 feature: Workflows
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 9a213522-bacf-44f9-98a6-caaaf037a0f9
 ---
 # Update aggregate{#update-aggregate}

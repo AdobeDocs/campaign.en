@@ -3,6 +3,7 @@ product: campaign
 title: Workflow life cycle
 description: Learn more about the life cycle of a workflow
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
 ---
 # Workflow life cycle {#workflow-life-cycle}

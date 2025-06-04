@@ -3,6 +3,7 @@ product: campaign
 title: Subscription Services
 description: Learn more about the Subscription Services workflow activity
 feature: Workflows, Targeting Activity, Subscription Services Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
 ---
 # Subscription Services{#subscription-services}

@@ -5,6 +5,7 @@ description: Learn more about SQL and JavaScript codes workflow activities
 feature: Workflows
 Role: User
 level: Experienced 
+version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}

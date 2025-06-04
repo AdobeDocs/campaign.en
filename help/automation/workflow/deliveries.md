@@ -4,6 +4,7 @@ title: Deliveries
 description: Learn more about default Deliveries workflows
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Deliveries{#deliveries}

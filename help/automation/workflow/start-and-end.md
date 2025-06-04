@@ -3,6 +3,7 @@ product: campaign
 title: Start and end
 description: Learn more about Start and End workflow activities
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 1de622bc-967b-403b-86e0-2ad32cb432e3
 ---
 # Start and end{#start-and-end}

@@ -4,6 +4,7 @@ title: Alert
 description: Alert
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8fb36117-b126-470a-9c94-eb5c0a4aca1a
 ---
 # Alert{#alert}

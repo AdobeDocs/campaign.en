@@ -4,6 +4,7 @@ title: Cross-channel delivery workflow
 description: Learn more about cross-channel delivery workflows
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 ---
 # Cross-channel delivery workflow{#cross-channel-delivery-workflow}

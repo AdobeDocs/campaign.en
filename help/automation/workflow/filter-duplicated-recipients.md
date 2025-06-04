@@ -4,6 +4,7 @@ title: Filter duplicated recipients
 description: Learn how to filter duplicated recipients
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: cfa1f45c-e1ac-4055-996c-6e8d041889bb
 ---
 # Filter duplicated recipients {#filtering-duplicated-recipients}

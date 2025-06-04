@@ -4,6 +4,7 @@ title: Define approvals
 description: Approvals enable operators to make decisions governing a workflow or to confirm its continued execution
 feature: Approvals
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
 ---
 # Define approvals {#defining-approvals}

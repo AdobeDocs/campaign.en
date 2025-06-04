@@ -4,6 +4,7 @@ title: Technical workflows
 description: Learn more about the technical workflows available with Campaign
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 ---
 # Technical workflows{#about-technical-workflows}

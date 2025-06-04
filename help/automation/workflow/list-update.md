@@ -4,6 +4,7 @@ title: List update
 description: List update
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
 ---
 # List update{#list-update}

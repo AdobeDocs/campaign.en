@@ -4,6 +4,7 @@ title: Monitor technical workflows
 description: Monitor technical workflows
 feature: Workflows
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
 ---
 # Monitor technical workflows {#monitoring-technical-workflows}

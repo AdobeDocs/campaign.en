@@ -4,6 +4,7 @@ title: LINE Channel
 description: LINE Channel
 feature: Workflows, Line App
 role: User
+version: Campaign v8, Campaign Classic v7
 ---
 
 # LINE Channel{#line-channel}

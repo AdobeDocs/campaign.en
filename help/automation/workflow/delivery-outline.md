@@ -4,6 +4,7 @@ title: Delivery outline
 description: Learn more about the Delivery outline workflow activity
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
 ---
 # Delivery outline{#delivery-outline}

@@ -4,6 +4,7 @@ title: Campaign Workflow HeatMap
 description: Monitor your workflows with Workflow HeatMap
 feature: Workflows, Heatmap
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 ---
 # Workflow HeatMap {#workflow-heatmap}

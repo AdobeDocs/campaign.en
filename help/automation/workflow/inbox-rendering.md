@@ -4,6 +4,7 @@ title: Inbox rendering technical workflow
 description: This section describes the technical workflow installed with the Inbox rendering package
 feature: Workflows, Inbox Rendering
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Inbox rendering (IR){#inbox-rendering}

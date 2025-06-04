@@ -4,6 +4,7 @@ title: Campaign
 description: Campaign
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 ---
 

@@ -4,6 +4,7 @@ title: Create a summary list
 description: Create a summary list
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
 ---
 # Create a summary list{#creating-a-summary-list}

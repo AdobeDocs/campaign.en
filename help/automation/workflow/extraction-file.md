@@ -4,6 +4,7 @@ title: Data extraction (file)
 description: Learn more about the Data extraction (file) workflow activity
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
 ---
 # Data extraction (file){#extraction-file}

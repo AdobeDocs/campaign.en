@@ -4,6 +4,7 @@ title: Advanced parameters
 description: Advanced parameters
 feature: Workflows, Data Management
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
 ---
 # Advanced parameters{#advanced-parameters}

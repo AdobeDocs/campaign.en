@@ -3,6 +3,7 @@ product: campaign
 title: Time constraint
 description: Learn more about the Time constraint workflow activity
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 0a922827-456d-425c-be04-d9efbb152c92
 ---
 # Time constraint{#time-constraint}

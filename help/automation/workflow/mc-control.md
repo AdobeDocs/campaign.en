@@ -4,6 +4,7 @@ title: Message Center (Control)
 description: Message Center (Control)
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Message Center (Control){#message-center-control}

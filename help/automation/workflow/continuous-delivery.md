@@ -4,6 +4,7 @@ title: Continuous delivery
 description: Continuous delivery
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 ---
 # Continuous delivery{#continuous-delivery}

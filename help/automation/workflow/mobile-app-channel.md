@@ -4,6 +4,7 @@ title: Mobile App Channel
 description: Mobile App Channel
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Mobile App Channel{#mobile-app-channel}

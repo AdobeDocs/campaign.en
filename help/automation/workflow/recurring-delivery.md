@@ -4,6 +4,7 @@ title: Recurring delivery
 description: Learn more about the Recurring delivery workflow activity
 feature: Workflows
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 ---
 # Recurring delivery{#recurring-delivery}

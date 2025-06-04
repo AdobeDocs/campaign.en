@@ -4,6 +4,7 @@ title: Enrich data
 description: Learn more about the Enrichment workflow activity
 feature: Workflows, Enrichment Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
 ---
 # Enrich data{#enriching-data}

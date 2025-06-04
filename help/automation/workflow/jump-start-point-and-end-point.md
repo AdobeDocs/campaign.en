@@ -4,6 +4,7 @@ title: Jump (start point and end point)
 description: Jump (start point and end point)
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: b96ebf8c-9846-44c3-bd9b-9d617e389b1c
 ---
 # Jump (start point and end point){#jump-start-point-and-end-point}

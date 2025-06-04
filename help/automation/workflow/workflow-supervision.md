@@ -3,6 +3,7 @@ product: campaign
 title: Supervising workflows
 description: Learn how to supervise Campaign workflows
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 362b347b-f914-4ebf-84d7-9989aef28a82
 ---
 # Use case: supervise your workflows{#supervising-workflows}

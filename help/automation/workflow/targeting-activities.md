@@ -3,6 +3,7 @@ product: campaign
 title: About targeting activities
 description: About targeting activities
 feature: Workflows, Audiences, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
 ---
 # Targeting activities in workflows{#about-targeting-activities}

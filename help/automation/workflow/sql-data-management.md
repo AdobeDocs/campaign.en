@@ -5,6 +5,7 @@ description: Learn more about SQL Data Management workflow activity
 feature: Workflows
 Role: User
 level: Experienced 
+version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 ---
 # SQL Data Management{#sql-data-management}

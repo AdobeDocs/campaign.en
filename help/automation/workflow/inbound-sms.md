@@ -4,6 +4,7 @@ title: Inbound SMS
 description: Learn more about the Inbound SMS workflow activity
 feature: Workflows, Channels Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
 ---
 # Inbound SMS{#inbound-sms}

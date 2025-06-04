@@ -4,6 +4,7 @@ title: Content Management
 description: Content Management
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
 ---
 # Content Management{#content-management}

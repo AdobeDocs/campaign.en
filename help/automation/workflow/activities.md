@@ -4,6 +4,7 @@ title: About workflow activities
 description: About activities
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 636f9ad0-9576-421e-ad8b-62d6602ee26a
 ---
 # Workflow activities{#wf-activities}

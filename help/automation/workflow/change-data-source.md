@@ -3,6 +3,7 @@ title: Change data source
 description: Learn more about the Change data source activity
 feature: Workflows, Data Management, Federated Data Access
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 ---
 # Change data source {#change-data-source}

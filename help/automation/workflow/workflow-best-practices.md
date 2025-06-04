@@ -4,6 +4,7 @@ title: Workflow best practices
 description: Learn Campaign Workflow best practices
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 ---
 # Workflow best practices{#workflow-best-practices}

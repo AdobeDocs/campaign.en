@@ -4,6 +4,7 @@ title: Control of offer engine
 description: Control of offer engine
 feature: Workflows, Offers
 role: User
+version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 ---
 

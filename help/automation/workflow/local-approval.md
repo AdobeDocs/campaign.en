@@ -4,6 +4,7 @@ title: Local approval
 description: Local approval
 feature: Workflows, Approvals
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
 ---
 # Local approval{#local-approval}

@@ -3,6 +3,7 @@ product: campaign
 title: Web download
 description: Learn more about the Web download workflow activity
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
 ---
 # Web download{#web-download}

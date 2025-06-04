@@ -4,6 +4,7 @@ title: Deduplication
 description: Learn more about the Deduplication workflow activity
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
 ---
 # Deduplication{#deduplication}

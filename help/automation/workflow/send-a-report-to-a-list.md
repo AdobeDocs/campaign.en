@@ -3,6 +3,7 @@ product: campaign
 title: Send a report to a list
 description: Learn how to send a report to a list with a workflow
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
 ---
 # Send a report to a list{#send-a-report-to-a-list}

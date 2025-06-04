@@ -4,6 +4,7 @@ title: AND-join
 description: AND-join
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
 ---
 # AND-join{#and-join}

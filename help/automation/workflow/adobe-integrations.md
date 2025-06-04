@@ -3,6 +3,7 @@ product: campaign
 title: Integrations with Adobe Experience Cloud solutions workflows
 description: Learn more about Integrations with Adobe Experience Cloud solutions workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 ---
 

@@ -4,6 +4,7 @@ title: Distributed Marketing
 description: Learn more about the Distributed Marketing package
 feature: Workflows, Data Management, Distributed Marketing
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 ---
 
 # Distributed Marketing{#distributed-marketing}
