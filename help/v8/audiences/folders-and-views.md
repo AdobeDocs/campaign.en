@@ -15,8 +15,8 @@ A view is a specific folder which does not contain any data but displays data th
 
 
 >[!NOTE]
->To distinguish views from standard folders, their name is displayed in light blue instead of black.
 >
+>To distinguish views from standard folders, their name is displayed in light blue instead of black.
 
 Note that you can assign permissions to folders to restrict access to certain data. [Learn more](#restrict-access-to-a-folder)
 
@@ -46,14 +46,19 @@ To create another type of folder, right-click on an existing folder and select *
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
->These changes apply to all Campaign users.
 >
+>These changes apply to all Campaign users.
 
 ## Turn a folder to a view{#turn-a-folder-to-a-view}
 
 A view is a specific folder which does not contain any data but displays data that is physically stored in other folders of the same type.
 
 You can turn any folder to a view, but the folder must be empty. Any data stored in the folder is deleted as you turn the folder to a view.
+
+>[!IMPORTANT]
+>
+>Out of the box folders should not be turned into a view.
+
 
 >[!CAUTION]
 >
