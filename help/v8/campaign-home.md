@@ -12,11 +12,11 @@ Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) p
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.6.4 release is live]
+>[!TAB Campaign v8.6.5 release is live]
 
 The latest version of Adobe Campaign is now live. Read out the release notes for more details.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md#release-8-6-4)
+[![image](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md#release-8-6-5)
 
 
 >[!TAB New Campaign Web User Interface] 

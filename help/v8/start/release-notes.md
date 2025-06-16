@@ -12,7 +12,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 **On this page**
 
-* [Release 8.6.5](#release-8-6-4)
+* [Release 8.6.5](#release-8-6-5)
 * [Release 8.7.4](#release-8-7-4)
 * [Release 8.6.4](#release-8-6-4)
 
