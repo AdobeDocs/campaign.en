@@ -91,8 +91,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Delivery analysis](send/delivery-analysis.md)
     + [Configure and send the delivery](send/configure-and-send.md)
     + [Send time optimization](send/predictive.md)
-  + Failures, bounces and quarantines{#failures}
-    + [Quarantines](send/quarantines.md)
+  + Failures, bounces and quarantines {#failures}
+    + [Quarantine](send/quarantines.md)
     + [Delivery failures](send/delivery-failures.md)
   + Deliverability management {#deliverability-management}
     + [What is deliverability](send/about-deliverability.md)

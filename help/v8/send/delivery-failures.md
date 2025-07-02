@@ -232,7 +232,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
    <td> Unreachable </td> 
    <td> Soft / Hard </td> 
    <td> 3 </td> 
-   <td> An error has occurred in the message delivery chain. It could be an incident on the SMTP relay, a domain that is temporarily unreachable, etc. According to the error, the address will be tried again until the error counter reaches 5, or it will be directly sent to quarantines.<br /> </td> 
+   <td> An error has occurred in the message delivery chain. It could be an incident on the SMTP relay, a domain that is temporarily unreachable, etc. According to the error, the address will be tried again until the error counter reaches 5, or it will be directly sent to quarantine.<br /> </td> 
   </tr> 
   <tr> 
    <td> User unknown </td> 
