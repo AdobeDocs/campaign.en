@@ -95,11 +95,11 @@ breadcrumb-title: Campaign v8 Documentation
     + [Quarantines](send/quarantines.md)
     + [Delivery failures](send/delivery-failures.md)
   + Deliverability management {#deliverability-management}
-    + [What is deliverability](delivery/using/about-deliverability.md)
-    + [Control message content](delivery/using/control-message-content.md)
-    + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
-    + [Inbox rendering](delivery/using/inbox-rendering.md)
-    + [SpamAssassin](delivery/using/spamassassin.md)
+    + [What is deliverability](send/about-deliverability.md)
+    + [Control message content](send/control-message-content.md)
+    + [Monitoring deliverability](send/monitoring-deliverability.md)
+    + [Inbox rendering](send/inbox-rendering.md)
+    + [SpamAssassin](send/spamassassin.md)
   + Transactional messages {#real-time}
     + [Get started with transactional messages](send/transactional.md)
     + [Create and publish your template](send/transactional-template.md)
