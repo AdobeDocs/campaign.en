@@ -39,6 +39,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Send messages{#send}
   + [Get started with messages](start/gs-message.md)
   + [Create your first delivery](start/create-message.md)
+  + [Work with delivery templates](send/create-templates.md)
   + [Delivery best practices](start/delivery-best-practices.md)
   + Emails {#emails}
     + [Design and validate emails](send/email.md)
@@ -93,7 +94,12 @@ breadcrumb-title: Campaign v8 Documentation
   + Failures, bounces and quarantines{#failures}
     + [Quarantines](send/quarantines.md)
     + [Delivery failures](send/delivery-failures.md)
-  + [Work with delivery templates](send/create-templates.md)
+  + Deliverability management {#deliverability-management}
+    + [What is deliverability](delivery/using/about-deliverability.md)
+    + [Control message content](delivery/using/control-message-content.md)
+    + [Monitoring deliverability](delivery/using/monitoring-deliverability.md)
+    + [Inbox rendering](delivery/using/inbox-rendering.md)
+    + [SpamAssassin](delivery/using/spamassassin.md)
   + Transactional messages {#real-time}
     + [Get started with transactional messages](send/transactional.md)
     + [Create and publish your template](send/transactional-template.md)
