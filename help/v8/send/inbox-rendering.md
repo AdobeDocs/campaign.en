@@ -2,9 +2,9 @@
 product: campaign
 title: Inbox rendering in Campaign
 description: Learn how to capture email renderings and make them available in a dedicated report
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 ---
 # Inbox rendering{#inbox-rendering}
@@ -13,56 +13,18 @@ exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 
 Before hitting the **Send** button, make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-To allow this, Adobe Campaign leverages the [Litmus](https://litmus.com/email-testing) web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.
+To allow this, Adobe Campaign leverages the [Litmus](https://litmus.com/email-testing){target="_blank"} web-based email testing solution to capture the renderings and make them available in a dedicated report. This enables you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications.
 
 >[!CAUTION]
->Inbox rendering is not compatible with [recurring deliveries](communication-channels.md#recurring-delivery).
->
+>Inbox rendering is not compatible with [recurring deliveries](../../automation/workflow/recurring-delivery.md).
 
 Litmus is a feature-rich email validation and previewing application. It allows email content creators to preview their message content in over 70 email renderers, such as the Gmail inbox or the Apple Mail client.
 
-The mobile, messaging and webmail clients available for **Inbox rendering** in Adobe Campaign are listed on the [Litmus website](https://litmus.com/email-testing) (click **View all email clients**).
+The mobile, messaging and webmail clients available for **Inbox rendering** in Adobe Campaign are listed on the [Litmus website](https://litmus.com/email-testing){target="_blank"} (click **View all email clients**).
 
 >[!NOTE]
 >
->Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](steps-validating-the-delivery.md#sending-a-proof).
-
-## Activating Inbox rendering {#activating-inbox-rendering}
-
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
-
-For hosted and hybrid clients, Inbox rendering is configured on your instance by Adobe technical support and consultants. For more information, contact your Adobe Account executive.
-
-For on-premise installations, follow the steps below to configure Inbox rendering.
-
-1. Install the **[!UICONTROL Inbox rendering (IR)]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** menu. For more on this, see [Installing Campaign Classic standard packages](../../installation/using/installing-campaign-standard-packages.md).
-1. Configure an external account of the HTTP type via the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** node. For more on this, see [Creating an external account](../../installation/using/external-accounts.md#creating-an-external-account).
-1. Set the external account parameters as follows:
-    * **[!UICONTROL Label]**: Deliverability server info
-    * **[!UICONTROL Internal name]**: deliverabilityInstance
-    * **[!UICONTROL Type]**: HTTP
-    * **[!UICONTROL Server]**: https://deliverability-app.neolane.net/deliverability
-    * **[!UICONTROL Encryption]**: None
-    * Check the **[!UICONTROL Enabled]** option.
-    
-    ![](assets/s_tn_inbox_rendering_external-account.png)
- 
-1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** node. Search for the **[!UICONTROL DmRendering_cuid]** option and contact support to get your delivery reports identifier that needs to be copied to the **[!UICONTROL Value (text)]** field.
-1. Edit the **serverConf.xml** file to allow a call to the Litmus server. Add the following line to the `<urlPermission>` section:
-
-    ```
-    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
-    ```
-
-1. Reload the configuration using the following command:
-
-   ```
-   nlserver config -reload
-   ```
-
->[!NOTE]
->
->You may have to log out from the console and log back in to be able to use Inbox rendering.
+>Inbox rendering is not necessary to test personalization in deliveries. Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](preview-and-proof.md#send-proofs).
 
 ## About Litmus tokens {#about-litmus-tokens}
 
@@ -94,14 +56,15 @@ Typically, the Inbox rendering feature is used to test the HTML framework of a n
 
 Once you have created your email delivery and defined its content as well as the targeted population, follow the steps below.
 
-For more on creating, designing and targeting a delivery, refer to [this section](about-email-channel.md).
+For more on creating, designing and targeting a delivery, refer to [this section](defining-the-email-content.md).
 
 1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
+
 1. Select **[!UICONTROL Analyze]** to start the capture process.
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](steps-validating-the-delivery.md#sending-a-proof).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](preview-and-proof.md#send-proofs).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

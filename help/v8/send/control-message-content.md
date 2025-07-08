@@ -2,9 +2,9 @@
 product: campaign
 title: About deliverability in Adobe Campaign Classic
 description: Learn more about managing deliverability in Adobe Campaign
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 ---
 # Control your message content{#control-message-content}
@@ -19,7 +19,7 @@ Follow the principles listed below when designing your message content:
 * [Unsubscription link](#opt-out) and landing page: the unsubscription link is essential. It must be visible and valid, and the form must be functional.
 * Preview: use the tools offered by Adobe Campaign to check and optimize the content of your email ([Inbox rendering](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
-For additional tips to optimize deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+For additional tips to optimize deliverability when designing content, see the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) be
 
 You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) or in the most frequently-used scenarios.
 
-For more on this, see [this page](defining-the-email-content.md).
+For more on defining the address of the sender, see [this page](defining-the-email-content.md#sender).
 
 ## Personalization {#personalization}
 
@@ -45,7 +45,7 @@ By default, when the message is analyzed, a [typology rule](../../automation/cam
 
 You must check that the opt-out link works correctly before each time you send. For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the **[!UICONTROL No longer contact this recipient]** field to **[!UICONTROL Yes]**. You should make this check systematically because human error is always possible when entering the link or when changing the form.
 
-Learn how to insert an opt-out link [in this section](personalization-blocks.md#personalization-blocks-example).
+Learn how to insert an opt-out link [in this section](personalization-blocks.md#ootb-personalization-blocks).
 
 If a problem is detected concerning unsubscription after the delivery is started, it is still possible to perform an unsubscription manually (using the mass-update function, for example) for those recipients who click the opt-out link even if they were not able to confirm their choice.
 
