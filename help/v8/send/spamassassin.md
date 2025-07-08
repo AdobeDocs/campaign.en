@@ -2,14 +2,14 @@
 product: campaign
 title: SpamAssassin
 description: Learn how to set up email spam detection with SpamAssassin
-badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Deliverability
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 ---
 # SpamAssassin{#spamassassin}
 
-Adobe Campaign can be configured to work with [SpamAssassin](https://spamassassin.apache.org), a third-party service used for email spam filtering. This allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt.
+Adobe Campaign can be configured to work with [SpamAssassin](https://spamassassin.apache.org){target="_blank"}, a third-party service used for email spam filtering. This allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt.
 
 SpamAssassin leverages a variety of spam-detection techniques, including:
 
@@ -21,7 +21,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 
 >[!NOTE]
 >
->SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, refer to [this section](../../installation/using/configuring-spamassassin.md).
+>SpamAssassin must be installed and configured on the Adobe Campaign application server. For more on this, contact your Adobe representative.
 >
 >The rules that govern whether an element is spam or not are managed via SpamAssassin and can be edited by an administrator with privileges.
 
@@ -29,7 +29,7 @@ SpamAssassin leverages a variety of spam-detection techniques, including:
 
 Once you have created your email delivery and defined its content, follow the steps below to evaluate the risks.
 
-For more on creating and designing a delivery, refer to [this section](about-email-channel.md).
+For more on creating and designing a delivery, refer to [this section](defining-the-email-content.md).
 
 1. Go to the **[!UICONTROL Preview]** tab.
 1. Select a recipient to preview your delivery.
