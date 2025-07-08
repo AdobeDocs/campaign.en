@@ -20,9 +20,11 @@ You can use JavaScript APIs to write in Campaign cloud database or read from the
 
 Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md),  Campaign works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.
 
->[!CAUTION]
+>[!NOTE]
 >
->* As a Campaign user transitioning from Campaign Standard, you can use REST APIs with Campaign v8. [Learn more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+>* You can use REST APIs with Campaign v8. [Learn more](../dev/api/get-started-apis.md).
+
+>[!CAUTION]
 >
 >* Starting Campaign v8.5.1, the authentication process to Campaign v8 changed. Technical operators must use Adobe Identity Management System (IMS) to connect to Campaign. Learn how to migrate your existing technical account(s) in [this technote](../../technotes/upgrades/ims-migration.md).
 >
