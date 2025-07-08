@@ -14,8 +14,6 @@ _July 9, 2025_
 
 ### New features {#features-8-8-1}
 
-In addition to the features listed below, this release also comes with a set of functionalities available in the Web UI. Refer to the Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}.
-
 Previously released for a small set of customers, the following capability is now available to all Campaign FDA environments:
 
 * **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md)
@@ -87,6 +85,16 @@ ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to
 ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the “wishedChannel” field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
 ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
+
+In addition to the features listed above, this release also comes with a set of functionalities available in the Web UI:
+
+* [Multilingual delivery creation](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery).
+* [Delivery alerting](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html)
+* [Landing pages improvements](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html)
+* [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html)
+* [Centralized Branding](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html)
+
+Refer to the Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}.
 
 ### General improvements {#improvements-8-8-1}
 
