@@ -82,7 +82,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
 * **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
-ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the “wishedChannel” field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
+ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
 ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
@@ -102,8 +102,8 @@ Refer to the Web UI [release notes](https://experienceleague.adobe.com/docs/camp
 * Campaign v8 now supports Android 15 and iOS 18 for Push Notifications. [Read more](../start/compatibility-matrix.md#MobileSDK)
 * Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling. [Read more](../config/enhanced-security.md#vpn-databases)
 * A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
-* Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery.
-* A revamped version of the inbox rendering report is now available in the Adobe Campaign interface.
+* Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Read more](../send/quarantines.md)
+* A revamped version of the inbox rendering report is now available in the Adobe Campaign interface. [Read more](../send/inbox-rendering.md)
 
 ### Fixes {#fixes-8-8-1}
 
