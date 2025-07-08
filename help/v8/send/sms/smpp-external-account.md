@@ -327,6 +327,10 @@ For each field, you can set the associated tag as well as its format. Ask the SM
 * Tag: the tag value, either in decimal format (e.g. 12345) or hexadecimal with 0x prefix (e.g. 0x12ab). Tags can go between 0 and 65535.
 * Format: format used for value. Binary values are all big-endian signed binary values. For text fields, choose the encoding used by the SMPP provider.
 
+>[!NOTE]
+>
+>If the **Customer account** field is left empty, it will be replaced with the short code.
+
 ### Automatic reply sent to the MO 
 
 This feature allows to quickly reply text to MO and handle per-shortcode blacklists.
