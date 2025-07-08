@@ -90,7 +90,7 @@ Three use cases are supported:
 
 >[!CAUTION]
 >
->Only on-premise databases and AWS-compliant VPN devices are supported. [Learn more](#vpn-databases)
+>On-premise and Cloud databases are supported. [Learn more](#vpn-databases)
 
 To ensure proper use of this feature, follow the guidelines below:
 
@@ -116,8 +116,9 @@ The following on-premise databases are supported:
 * Sybase
 * Teradata
 * Hadoop via HiveSQL
+* PostgreSQL
 
-Only AWS-compliant VPN devices are supported. A list of compatible devices is available on [this page](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}.
+Cloud databases are supported. Refer to the [compatibility matrix](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 >[!NOTE]
 >
