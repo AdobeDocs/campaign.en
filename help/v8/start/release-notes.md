@@ -8,11 +8,11 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
-## Release 8.8 {#release-8-8}
+## Release 8.8.1 {#release-8-8-1}
 
 _July 9, 2025_
 
-### New features {#features-8-8}
+### New features {#features-8-8-1}
 
 In addition to the features listed below, this release also comes with a set of functionalities available in the Web UI. Refer to the Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}.
 
@@ -65,7 +65,7 @@ Web - * **Captcha in landing pages** - You can now add captcha to protect your l
 ACC * Rich Push Notification templates - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. Read more.
 -->
 
-Previously released in Limited Availability, the following capabilities are now available **on demand**:
+Previously released in Limited Availability, the following capability is now available **on demand**:
 
 <!--
 * **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
@@ -75,7 +75,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **Rest APIs** - You can now use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. The Transactional Messaging REST API is also available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. Event-based Transactional APIs are also available for Emails. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}
+* **Rest APIs** - You can now use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. The Transactional Messaging REST API is also available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. Event-based Transactional APIs are also available for Emails. [Read more](../dev/api/get-started-apis.md)
 
     >[!NOTE]
     >
@@ -88,16 +88,16 @@ ACC - SMS REST API support - The Transactional Messaging REST API is now availab
 ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
-### General improvements {#improvements-8-8}
+### General improvements {#improvements-8-8-1}
 
-* Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA).
-* Campaign v8 now supports Android 15 and iOS 18 for Push Notifications.
-* Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling.
-* A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector.
+* Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA). [Read more](../config/external-accounts.md#transfer-data-external-accounts)
+* Campaign v8 now supports Android 15 and iOS 18 for Push Notifications. [Read more](../start/compatibility-matrix.md#MobileSDK)
+* Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling. [Read more](../config/enhanced-security.md#vpn-databases)
+* A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
 * Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery.
 * A revamped version of the inbox rendering report is now available in the Adobe Campaign interface.
 
-### Fixes {#fixes-8-8}
+### Fixes {#fixes-8-8-1}
 
 * Fixed an issue where auto-replies were not being received due to an invalid validity period in SMS 2.0. This ensures proper message delivery post-migration. (NEO-88088)
 * Resolved a problem in SMS 2.0 where certain fields in the `inSms` table were not being updated correctly, ensuring accurate data insertion for SMS functionalities. (NEO-87906)

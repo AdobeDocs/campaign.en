@@ -52,6 +52,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
+* **[!DNL Fabrics]**
 
 
 >[!AVAILABILITY]
