@@ -10,6 +10,10 @@ exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 
 Adobe Campaign provides a set of reporting tools listed in this page.
 
+* **Dynamic reporting**
+
+    Available with the Campaign Web UI, Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Refer to the [Web UI v7 documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
+
 * **Cubes**
 
     Adobe Campaign comes with an intuitive data exploration tool to create dynamic reports.
