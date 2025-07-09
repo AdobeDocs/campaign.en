@@ -86,24 +86,24 @@ ACC - SMS REST API support - The Transactional Messaging REST API is now availab
 ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
-In addition to the features listed above, this release also comes with a set of functionalities available in the Web UI:
+In addition to the features listed above, this release also comes with a set of functionalities available Campaign the Web user interface:
 
-* [Multilingual delivery creation](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery).
-* [Delivery alerting](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html)
-* [Landing pages improvements](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html)
-* [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html)
-* [Centralized Branding](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html)
+* [Multilingual delivery creation](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [Delivery alerting](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
+* [Landing pages improvements](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
+* [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
+* [Centralized Branding](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
-Refer to the Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}.
+Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}.
 
 ### General improvements {#improvements-8-8-1}
 
-* Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA). [Read more](../config/external-accounts.md#transfer-data-external-accounts)
+* Microsoft Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA). [Read more](../config/external-accounts.md#transfer-data-external-accounts)
 * Campaign v8 now supports Android 15 and iOS 18 for Push Notifications. [Read more](../start/compatibility-matrix.md#MobileSDK)
 * Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling. [Read more](../config/enhanced-security.md#vpn-databases)
 * A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
 * Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Read more](../send/quarantines.md)
-* A revamped version of the inbox rendering report is now available in the Adobe Campaign interface. [Read more](../send/inbox-rendering.md)
+* A revamped version of the inbox rendering report is now available in the Adobe Campaign client console. [Read more](../send/inbox-rendering.md)
 
 ### Fixes {#fixes-8-8-1}
 

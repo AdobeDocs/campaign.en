@@ -1,21 +1,24 @@
 ---
 title: Campaign v8 (console) 2025 release notes
-description: List of features and improvemens coming with 2025 Campaign v8 releases
+description: List of features and improvements coming with 2025 Campaign v8 releases
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 ---
 # 2025 release notes {#2025-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. Latest releases are listed in [this page](release-notes.md).
+This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+
+For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
 
 >[!BEGINSHADEBOX]
 
 **In this page**
 
 * [Release 8.6.5](#release-8-6-5)
+* [Release 8.6.4](#release-8-6-4)
 * [Release 8.7.4](#release-8-7-4)
 * [Release 8.7.3](#release-8-7-3)
-* [Release 8.6.4](#release-8-6-4)
+
 
 >[!ENDSHADEBOX]
 

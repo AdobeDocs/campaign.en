@@ -1,12 +1,15 @@
 ---
 title: Campaign v8 (console) 2024 release notes
-description: List of features and improvemens coming with 2024 Campaign v8 releases
+description: List of features and improvements coming with 2024 Campaign v8 releases
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 ---
 # 2024 release notes {#2024-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**.
+This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+
+For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
+
 
 >[!BEGINSHADEBOX]
 
