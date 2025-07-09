@@ -4,16 +4,15 @@ description: About the settings of SMPP connector in deliveries
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 ---
 # SMPP connector description {#smpp-connector-desc}
 
 >[!IMPORTANT]
 >
->This applies to Adobe Campaign v8.7.2 and later.
+>This documentation applies to Adobe Campaign v8.7.2 and later. To switch from the legacy to the new SMS connector, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}.
 >
->For older versions, refer to the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## SMS connector data flow {#sms-data-flow}
 

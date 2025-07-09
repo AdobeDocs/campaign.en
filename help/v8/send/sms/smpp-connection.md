@@ -4,7 +4,6 @@ description: Learn how to validate a SMPP connection
 feature: SMS
 role: User
 level: Intermediate
-badge: label="Limited Availability" type="Informative"
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
 ---
 # Validating a SMPP connection {#validate-smpp-connection}

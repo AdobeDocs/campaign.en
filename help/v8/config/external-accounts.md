@@ -141,3 +141,11 @@ These external accounts can be used to import or export data to Adobe Campaign u
     * **[!UICONTROL Encryption]**: Type of encryption between **[!UICONTROL None]** or **[!UICONTROL SSL]**.
 
     * **[!UICONTROL Access key]**: Learn how to find your **[!UICONTROL Access key]** in [Microsoft documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
+
+* **Microsoft Fabric** - The **Microsoft Fabric** external account allows you to import and export data between Microsoft Fabric and Adobe Campaign using the **[!UICONTROL Transfer file]** workflow activity. To configure this integration, provide the following details:
+
+    * **[!UICONTROL Server]**: URL of your Microsoft Fabric storage server.
+
+    * **[!UICONTROL Application ID]**: The unique identifier of the application used to authenticate and access Microsoft Fabric resources.
+
+    * **[!UICONTROL Client secret]**: The authentication key or password associated with the application, required to securely connect to Microsoft Fabric.

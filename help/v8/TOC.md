@@ -91,8 +91,8 @@ breadcrumb-title: Campaign v8 Documentation
     + [Delivery analysis](send/delivery-analysis.md)
     + [Configure and send the delivery](send/configure-and-send.md)
     + [Send time optimization](send/predictive.md)
-  + Failures, bounces and quarantines{#failures}
-    + [Quarantines](send/quarantines.md)
+  + Failures, bounces and quarantines {#failures}
+    + [Quarantine](send/quarantines.md)
     + [Delivery failures](send/delivery-failures.md)
   + Deliverability management {#deliverability-management}
     + [What is deliverability](send/about-deliverability.md)
@@ -233,6 +233,32 @@ breadcrumb-title: Campaign v8 Documentation
     + [Input forms](dev/forms.md)
   + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
+  + REST APIs {#apis}
+    + [Get started with REST APIs](dev/api/get-started-apis.md)
+    + [Recommendations & limitations](dev/api/limitations.md)
+    + [Why use REST APIs](dev/api/why-using-campaign-standard-apis.md)
+    + [Setting up API access](dev/api/setting-up-api-access.md)
+    + Global concepts {#global-concepts}
+      + [Must-read](dev/api/must-read.md)
+      + [Endpoints](dev/api/endpoints.md)
+      + [Metadata mechanism](dev/api/metadata-mechanism.md)
+      + [Verbs](dev/api/verbs.md)
+      + [Additional operations](dev/api/sorting.md)
+      + [Custom resources](dev/api/custom-resources.md)
+    + [Interacting with custom resources](dev/api/interacting-with-custom-resources.md)  
+    + Managing profiles {#managing-profiles}
+      + [Retrieving profiles](dev/api/retrieving-profiles.md)
+      + [Updating profiles](dev/api/updating-profiles.md)
+      + [Creating profiles](dev/api/creating-profiles-api.md)
+    + Managing services and subscription {#managing-services-and-subscriptiopns}
+      + [Creating a service](dev/api/creating-a-service.md)
+      + [Retrieving subscriptions](dev/api/retrieving-subscriptions.md)
+      + [Perform subscriptions](dev/api/perform-subscriptions.md)
+      + [Deleting subscriptions](dev/api/deleting-subscriptions.md)
+    + [Managing transactional messages](dev/api/managing-transactional-messages.md)
+    + Managing workflows {#managing-workflows}
+      + [Controlling a workflow](dev/api/controlling-a-workflow.md)
+      + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
 + [Campaign technotes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 

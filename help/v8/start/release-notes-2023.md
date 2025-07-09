@@ -1,6 +1,6 @@
 ---
 title: Campaign v8 (console) 2023 release notes
-description: List of features and improvemens coming with 2023 Campaign v8 releases
+description: List of features and improvements coming with 2023 Campaign v8 releases
 feature: Release Notes
 role: User
 level: Beginner
@@ -8,7 +8,10 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 ---
 # 2023 release notes {#2023-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**.
+This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+
+For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
+
 
 >[!BEGINSHADEBOX]
 

@@ -14,15 +14,21 @@ When their address or phone number is quarantined, recipients are excluded from 
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
-**Quarantine** applies only to an **address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#delivery-quarantines) (for a delivery) or in the [quarantine list](#non-deliverable-bounces) (for the entire platform).
+## Quarantine versus denylist
 
-On the other hand, profiles can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
+**Quarantine** applies only to an **address**, a **phone number**, or a **device token**, but not to the profile itself. For example, a profile whose email address is quarantined can update their profile and enter a new address, and could then be targeted by delivery actions again. Likewise, if two profiles happen to have the same phone number, they will both be affected if the number is quarantined. The quarantined addresses or phone numbers are displayed in the [exclusion logs](#delivery-quarantines) (for a delivery) or in the [quarantine list](#non-deliverable-bounces) (for the entire platform).
 
 >[!NOTE]
 >
 >When recipients report your message as spam or reply to an SMS message with a keyword such as "STOP", their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
 
-<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
+On the other hand, **profiles** can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any delivery. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
+
+>[!NOTE]
+>
+>Unsubscribed recipients through the ["mailto" List-Unsubscribe method](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} are not sent to quarantine. They are either unsubscribed from the [service](../start/subscriptions.md) associated with the delivery, or sent to the denylist (visible in the profile's **[!UICONTROL No longer contact]** section) if no service was defined for the delivery.
+
+<!--For the mobile app channel, device tokens are quarantined.-->
 
 ## Why is an email, phone or device sent to quarantine {#quarantine-reason}
 
