@@ -86,7 +86,7 @@ ACC - SMS REST API support - The Transactional Messaging REST API is now availab
 ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
-In addition to the features listed above, this release also comes with a set of functionalities available Campaign the Web user interface:
+In addition to the features listed above, this release also comes with a set of functionalities available with the Campaign Web user interface:
 
 * [Multilingual delivery creation](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
 * [Delivery alerting](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
