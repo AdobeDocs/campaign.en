@@ -104,18 +104,17 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
 * Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Read more](../send/quarantines.md)
 * A revamped version of the inbox rendering report is now available in the Adobe Campaign client console. [Read more](../send/inbox-rendering.md)
+* The setup-client.exe file has been replaced with an ac-client.msi file. This provides an easier way for admins to perform mass upgrades without user intervention.
 
 ### Fixes {#fixes-8-8-1}
 
 * Fixed an issue where auto-replies were not being received due to an invalid validity period in SMS 2.0. This ensures proper message delivery post-migration. (NEO-88088)
 * Resolved a problem in SMS 2.0 where certain fields in the `inSms` table were not being updated correctly, ensuring accurate data insertion for SMS functionalities. (NEO-87906)
-
 <!--
 * NOOOO Addressed delivery preparation failures for IndiGo Aviation after upgrading to v7.4.2. This fix resolves personalization and deduplication-related errors, enabling smooth delivery workflows. (NEO-87693)
 * NOOOO Corrected Redshift database function definitions in version 8.6.4, ensuring proper execution of functions like `AddDays`, `AddHours`, `AddMinutes`, and `AddSeconds`. (NEO-87305)
--->
-
 * Provided a silent installation mechanism for the client console to facilitate mass upgrades without user intervention. This resolves challenges with manual installations. (NEO-69772)
+-->
 * Fixed database cleanup workflow failures due to missing or incorrect column references in SQL queries. This ensures proper purging of logs and visitor data. (NEO-86813)
 * Resolved an issue where event dates were missing in delivery logs. This fix ensures accurate event date population, critical for scheduled triggers and workflows. (NEO-86708)
 * Fixed SMS delivery log insertion issues in SMS 2.0, ensuring proper logging in the `nmsBroadLogMid` table. (NEO-86556)
