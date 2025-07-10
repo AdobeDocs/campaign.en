@@ -104,7 +104,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
 * Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Read more](../send/quarantines.md)
 * A revamped version of the inbox rendering report is now available in the Adobe Campaign client console. [Read more](../send/inbox-rendering.md)
-* The `setup-client.exe` file has been replaced with an ac-client.msi file, providing a simpler method for administrators to perform mass upgrades without requiring user intervention.
+* The `setup-client.exe` file has been replaced with an `ac-client.msi` file, providing a simpler method for administrators to perform mass upgrades without requiring user intervention.
 
 ### Fixes {#fixes-8-8-1}
 
