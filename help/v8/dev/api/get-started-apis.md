@@ -12,8 +12,6 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 
 >[!CAUTION]
 >
->This documentation is intended for Adobe Campaign Standard customers migrating to Campaign v8.
->
 >Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Campaign REST APIs are aimed at letting you **create integrations** for Adobe Campaign and **build your own ecosystem** by interfacing Adobe Campaign with the panel of technologies that you use.
