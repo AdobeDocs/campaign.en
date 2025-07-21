@@ -8,7 +8,7 @@ exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
 ---
 # SMS channel characteristics {#sms-channel}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >This capability is available to all Campaign FDA environments. It is **not** available for Campaign FFDA deployments. This documentation applies to Adobe Campaign v8.7.2 and later. To switch from the legacy to the new SMS connector, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
