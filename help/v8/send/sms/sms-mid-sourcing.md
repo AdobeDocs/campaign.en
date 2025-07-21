@@ -8,9 +8,9 @@ exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 ---
 # SMS in a mid-sourcing infrastructure {#sms-mid}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->This documentation applies to Adobe Campaign v8.7.2 and later. To switch from the legacy to the new SMS connector, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
+>This capability is available to all Campaign FDA environments. It is **not** available for Campaign FFDA deployments. This documentation applies to Adobe Campaign v8.7.2 and later. To switch from the legacy to the new SMS connector, refer to this [technote](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
 >For older versions, please read the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 

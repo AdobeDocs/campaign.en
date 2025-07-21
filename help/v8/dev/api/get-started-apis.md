@@ -10,6 +10,10 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 ---
 # Get started with Campaign REST APIs {#get-started-apis}
 
+>[!AVAILABILITY]
+>
+>This capability is only available on-demand, for all Campaign FDA environments. It is **not** available for Campaign FFDA deployments. To gain access, contact your Adobe representative.
+
 >[!CAUTION]
 >
 >Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
