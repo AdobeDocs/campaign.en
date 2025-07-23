@@ -12,7 +12,7 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 
 >[!AVAILABILITY]
 >
->This capability is only available on-demand, for all Campaign FDA environments. It is **not** available for Campaign FFDA deployments. To gain access, contact your Adobe representative.
+>This capability is only available on demand, for all Campaign FDA environments. It is **not** available for Campaign FFDA deployments. To gain access, contact your Adobe representative.
 
 >[!CAUTION]
 >
