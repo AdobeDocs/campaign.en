@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Classic;home;popular topics
-description: Campaign v8 help center
-title: Adobe Campaign v8 product documentation
+description: Find help in the Adobe Campaign v8 help center. Learn about what's new, improvements, and fixes in Campaign v8.
+title: Adobe Campaign v8 Product Documentation
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 ---
 # Adobe Campaign v8 (console) Documentation {#campaign-documentation}
 
-## What's New
+## What's new
 
 Get a glimpse of the newest enhancements in Adobe Campaign v8 (client console) product and documentation! For a comprehensive list of features, improvements, and fixes, check out the detailed [Release Notes](start/release-notes.md). Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates](start/documentation-updates.md) page.
 
