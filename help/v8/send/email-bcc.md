@@ -55,6 +55,6 @@ When using email BCC with Adobe Campaign, the following guardrails and recommend
 
 * Email BCC <!--with Enhanced MTA--> delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understand delivery failures](delivery-failures.md).
 
-* Emails sent to the BCC address shouln not be opened and clicked through, as these activities are be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, can cause miscalculations.
+* Emails sent to the BCC address should not be opened and clicked through, as these activities are be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, can cause miscalculations.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
