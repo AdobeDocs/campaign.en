@@ -11,8 +11,6 @@ version: Campaign v8, Campaign Classic v7
 
 Profiles are contacts stored in Campaign database, such as customers, subscribers to a service or prospects. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual, or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PI data in a consolidated view to analyze and take action. Profiles contain all the information required for targeting, qualifying and tracking individuals.
 
-
-
 A profile is a record in the **nmsRecipient** table or an external table which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. Other tables linked to the recipient table contain profile-related data, for example the delivery logs table which contains records of all deliveries sent to recipients. Learn more about built-in profiles and recipient tables in [this section](../dev/datamodel.md#ootb-profiles).
 
 ![](assets/recipients-in-explorer.png) 

@@ -5,12 +5,12 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
+version: Campaign v8, Campaign Classic v7
 ---
+
 # Work with audiences in Campaign{#gs-ac-audiences}
 
-Profiles are contacts stored in Campaign database. 
-
-In Adobe Campaign, **recipients** are the default profiles targeted for sending deliveries (emails, SMS, etc.). Recipient data stored in the database enable you to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
+Profiles represent the contacts stored in your Adobe Campaign database. By default, **recipients** are the primary profiles used when sending deliveries such as emails, SMS, or direct mail. The recipient data stored in the database allows you to define and filter your target audiences, as well as personalize delivery content. In addition to recipients, other profile types exist for specific purposes. For example, seed profiles let you test deliveries before they are sent to your actual audience.
 
 Learn how to import, update and manage profiles and audiences [in this section](../audiences/gs-audiences.md).
 
