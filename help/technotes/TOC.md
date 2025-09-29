@@ -24,4 +24,5 @@ breadcrumb-title: Campaign technotes
   + [client console 32-bit deprecation](upgrades/console.md)
   + Security {#security}
     + [Customer credentials rotation](security/credential-rotation-guide.md)
+    + [Asymetric encryption](security/asymetric-encryption.md)
 + [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
