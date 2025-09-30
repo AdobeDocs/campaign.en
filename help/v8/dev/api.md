@@ -15,10 +15,9 @@ exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 
 >[!NOTE]
 >
->* Depending on your deployment model, you can also use REST APIs with Campaign v8. [Learn more](../dev/api/get-started-apis.md).
+>Depending on your deployment model, you can also use REST APIs with Campaign v8. [Learn more](../dev/api/get-started-apis.md).
 
-
-You can use JavaScript APIs to write in Campaign cloud database or read from the database:
+You can use [Campaign JavaScript APIs](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"} to write in Campaign cloud database or read from the database:
 
 * Business-specific APIs that let you act on each object: deliveries, workflows, subscriptions, and so on. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
 * Generic data access APIs for querying the data model data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
@@ -49,3 +48,4 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 **Related topics**
 
 * [Data model best practices](datamodel-best-practices.md)
+* [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

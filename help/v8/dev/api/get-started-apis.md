@@ -10,15 +10,13 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 ---
 # Get started with Campaign REST APIs {#get-started-apis}
 
-
-
 Campaign REST APIs are aimed at letting you **create integrations** for Adobe Campaign and **build your own ecosystem** by interfacing Adobe Campaign with the panel of technologies that you use.
 
 >[!AVAILABILITY]
 >
 >* This capability is only available on demand, for all [Campaign FDA environments](../../architecture/fda-deployment.md). It is **not** available for [Enterprise (FFDA) deployments](../../architecture/enterprise-deployment.md). To gain access, contact your Adobe representative.
 >
->* Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to the [Campaign Product Description page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}.
+>* Before performing API calls, please check the scale limitations corresponding to your license agreement. For more on this, refer to the [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 
 With the Adobe Campaign REST APIs, you get access to the following functionalities:
@@ -38,4 +36,3 @@ The APIs we provide use **standard concepts** with a REST interface and JSON pay
 
 All the endpoints are described extensively in this documentation with the general notions you should know for manipulating the API, the complete API reference, code examples and quick start guides. All the examples work with Postman but feel free to use your favorite REST client.
 
-If anything is missing or seems incorrect, please ask the [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community){target="_blank"}.
