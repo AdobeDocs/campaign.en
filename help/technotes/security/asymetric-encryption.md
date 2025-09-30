@@ -46,3 +46,7 @@ var decrypted = rsaPrivateDecrypt(
 );
 ```
 
+**Additional resources**
+
+* [Get Started with [!DNL Campaign] APIs](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
