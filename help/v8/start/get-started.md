@@ -23,6 +23,13 @@ Use Campaign to:
 
 ![](assets/do-not-localize/ac-capabilities.png) 
 
+
+>[!AVAILABILITY]
+>
+>Except when mentioned in the pages, Adobe Campaign (console) documentation applies to Campaign Classic v7 and Campaign v8.
+>
+>Please note certain references within the documentation may still refer to prior branding but are still applicable to the current offering.
+
 ## Integrated customer profile {#integrated-customer-profile}
 
 Profiles are centralized in a powerful cloud database. There are many possible mechanisms for acquiring profiles and building up this database: on-line collection via web forms, manual, or automatic import of text files, replication with company databases or other information systems. With Adobe Campaign, you can incorporate marketing history, purchase information, preferences, CRM data, and any relevant PII data in a consolidated view to analyze and take action.

@@ -4,53 +4,67 @@ description: Learn how to browse and use Campaign user interface
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 ---
 # Discover the user interface {#ui-client-console}
 
 You can access to Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 
->[!CAUTION]
->
->This documentation is focused on Campaign Client console usage. If you are using the Campaign Web user interface, refer to [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
-
 * **Client console** - Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. [Learn more](#ui-access)
 
     Learn how to install and configure Campaign client console in [this section](../start/connect.md).
-
-* **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
-    
-    >[!AVAILABILITY]
-    >
-    >Campaign Web user interface is only available to users connecting to Adobe Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
-    >
 
 * **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
 * **APIs** - To address more use cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. Learn more about Campaign APIs [in this page](../dev/api.md).
 
+* **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
+    
+    >[!AVAILABILITY]
+    >
+    >Campaign Web user interface is only available to Campaign v8 users connecting to Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+    >
+
+>[!CAUTION]
+>
+>This documentation is focused on Campaign Client console usage. As a Campaign v8 user, if you are using the Campaign Web user interface, refer to [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
 ## Work with the client console {#ui-access}
 
-Campaign client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.  [Learn more about Campaign client console](../start/connect.md). You can switch to the Campaign Web user interface from the dedicated card in the client console home page.
+Campaign client console is a native application which communicates with the Adobe Campaign application server, through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic.  [Learn more about Campaign client console](../start/connect.md). 
 
-![](assets/web-ui.png) 
 
+
+>[!BEGINTABS]
+
+>[!TAB Campaign v8]
+
+Once you are connected to Campaign, you access the Adobe Campaign home page. In Campaign v8, use the central cards to browse the new Campaign Web user interface, and Campaign Control panel.
+
+![Campaign v8 Client Console Home](assets/web-ui.png) 
 
 >[!NOTE]
 >
->If the new access card is not displayed, please ensure that the following fields are not left empty within your Adobe Experience Cloud external account: **Server**, **Tenant**, **Callback server**, and **Association mark**.
+>If the Web user interface card is not displayed, ensure that the following fields are not left empty within your A[dobe Experience Cloud external account](../config/external-accounts.md): **Server**, **Tenant**, **Callback server**, and **Association mark**.
+
+You can also access the [Campaign Control Panel](../config/self-service.md) from the home page. 
+
+>[!TAB Campaign Classic v7] 
+
+Once you are connected to Campaign, you access the Adobe Campaign home page with links and shortcuts to access capabilities, documentation, support website, and Campaign community.
+
+![Campaign Classic v7 Client Console Home](assets/v7_user_interface_home.png) 
+
+
+>[!ENDTABS]
 
 
 You can also use a web browser to access Campaign. In this context, only a sub-set of Campaign capabilities are available. [Learn more](#web-browser)
 
 ### Browse the interface {#ui-browse}
 
-Once you are connected to Campaign client console, you access the home page. Browse the links to access capabilities. The set of capabilities available in the interface depend on your options and permissions.
-
-From the central section of the home page, use links to access Campaign help materials, community and the support website. Use the central cards to browse the new Campaign Web user interface, and Campaign Control panel.
-
-Browse the tabs in the upper section to access Campaign key capabilities:
+Once you are connected to Campaign client console, browse the tabs in the upper section to access Campaign key capabilities:
 
 ![](assets/overview-home.png)
 
@@ -102,13 +116,13 @@ This workspace lets you access the Explorer tree to browse all features and opti
 
 ## Campaign Web user interface {#ac-web-ui}
 
-As a Campaign v8 client console user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
+As a Campaign v8 user, starting v8.6.1 release, you have access to a web environment, available through the central Adobe Experience Cloud user interface. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
 
 ![Adobe Campaign Web User Interface Home Page](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
 >
->Campaign Web user interface is only available to users connecting to Adobe Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+>Campaign Web user interface is only available to Campaign v8 users connecting to Campaign with their Adobe ID. Learn more about [Adobe Identity Management System (IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 >
 
 Learn more about the new Campaign Web User Interface in [this documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}. You can also visit the dedicated [Frequently Asked Questions page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}, in Campaign Web User Interface documentation.
@@ -120,7 +134,7 @@ Additional and advanced capabilities, configuration and settings are only availa
 
 Languages supported depend on the user interface. 
 
-* For Campaign v8 client console interface, supported languages are:
+* For Campaign client console interface, supported languages are:
 
     * English (UK)
     * English (US)
@@ -131,10 +145,11 @@ Languages supported depend on the user interface.
 
     >[!CAUTION]
     >
-    >The language is selected during the installation process, and cannot be changed afterwards. 
+    >The language is selected during the installation process, and **cannot be changed** afterwards. 
 
 * For Campaign Web user interface supported languages, [refer to this page](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
+## Formats
 
 Language affects dates and time formats. 
 
@@ -156,13 +171,37 @@ Main differences between US English and UK English are:
   </tr> 
   <tr> 
    <td> Short date<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 09/25/2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2018</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y</p><p><strong>ex: 09/25/2025</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>ex: 25/09/2025</strong></p> </td> 
   </tr> 
   <tr> 
    <td> Short date with time<br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2018 10:47:25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2018 22:47:25</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>ex: 09/25/2025 10:47:25 PM</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>ex: 25/09/2025 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+## Default units {#default-units}
+
+In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following **units**:
+
+* **[!UICONTROL s]** for seconds,
+* **[!UICONTROL mn]** for minutes,
+* **[!UICONTROL h]** for hours,
+* **[!UICONTROL d]** for days.
+
+
+## Enumeration {#enumeration}
+
+Using the input fields with a drop-down list, you can enter an enumeration value, which can be stored and then proposed as an option in the drop-down list. 
+
+For example, in the **[!UICONTROL City]** field of the **[!UICONTROL General]** tab of a recipient profile, you can enter London. When you press Enter to confirm this value, a message asks if you want to save this value for the enumeration associated with the field.  If you click **[!UICONTROL Yes]**, this value will be available in the dropdon of the relevant field.
+
+Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section.
+
+Learn how to [Work with enumerations](../dev/enumerations.md)
+
+Learn more about [Enumerations in schemas](../dev/schema-structure.md#enumerations)

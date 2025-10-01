@@ -209,6 +209,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
+    + [Work with enumerations](dev/enumerations.md)
     + [Data model best practices](dev/datamodel-best-practices.md)
   + Settings and configuration {#configuration}
     + [User interface settings](config/ui-settings.md)
