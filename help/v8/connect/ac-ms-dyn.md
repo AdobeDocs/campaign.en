@@ -189,6 +189,8 @@ To synchronize data between Adobe Campaign data and Microsoft CRM, create a work
 
 Learn more about data synchronization [in this page](crm-data-sync.md).
 
+Learn more about enumeration management in Campaign [in this page](../dev/enumerations.md).
+
 ### Supported field data types {#ms-dyn-supported-types}
 
 For Microsoft Dynamics 365 supported/unsupported attribute types are listed below:

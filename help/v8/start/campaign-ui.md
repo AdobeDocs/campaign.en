@@ -183,25 +183,7 @@ Main differences between US English and UK English are:
 </table>
 
 
+## Additional Resources
 
-## Default units {#default-units}
-
-In the fields that express a duration (e.g. validity period of the resources of a delivery, approval deadline for a task, etc.), the value can be expressed in the following **units**:
-
-* **[!UICONTROL s]** for seconds,
-* **[!UICONTROL mn]** for minutes,
-* **[!UICONTROL h]** for hours,
-* **[!UICONTROL d]** for days.
-
-
-## Enumeration {#enumeration}
-
-Using the input fields with a drop-down list, you can enter an enumeration value, which can be stored and then proposed as an option in the drop-down list. 
-
-For example, in the **[!UICONTROL City]** field of the **[!UICONTROL General]** tab of a recipient profile, you can enter London. When you press Enter to confirm this value, a message asks if you want to save this value for the enumeration associated with the field.  If you click **[!UICONTROL Yes]**, this value will be available in the dropdon of the relevant field.
-
-Enumerations (also known as 'itemized lists') are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section.
-
-Learn how to [Work with enumerations](../dev/enumerations.md)
-
-Learn more about [Enumerations in schemas](../dev/schema-structure.md#enumerations)
+* **[Work with Enumerations](../dev/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
+* **[Enumerations in schemas](../dev/schema-structure.md#enumerations)** - As a Campaign developer, use free, fixed, or database-based enumerations in your schemas to control field values.

@@ -73,3 +73,5 @@ Adobe Campaign and Salesforce.com are now connected. You can set up data synchro
 To synchronize data between Adobe Campaign data and SFDC, create a workflow and use the **[!UICONTROL CRM connector]** activity.
 
 Learn more about data synchronization [in this page](crm-data-sync.md).
+
+Learn more about enumeration management in Campaign [in this page](../dev/enumerations.md).

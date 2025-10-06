@@ -6,7 +6,7 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
 ---
-# Manage enumerations {#manage-enumerations}
+# Work with enumerations {#enumerations}
 
 An enumeration (also called an itemized list) is a predefined list of values you can use to fill in certain fields. Enumerations help standardize field values, making data entry more consistent and simplifying queries.
 
@@ -16,101 +16,97 @@ When available, the values appear in a drop-down list. You can either select a v
 
 Some console fields are configured with enumerations. If an enumeration is **open**, you can also add new values directly in the field.
 
-## Access enumerations
+![Access enumerations](assets/enumerations-menu.png)
 
-The values used in these fields are managed centrally. You can add, edit, update or delete them from the Explorer tree, under **Administration** `>` **Platform** `>` **Enumerations**.
+## Types of enumerations {#types-of-enum}
 
-* The upper section offers a list of fields for which an enumeration has been defined.
-* The lower section lists the available values.
+Enumerations are stored in the **[!UICONTROL Administration > Platform > Enumerations]** folder of the explorer. 
 
-When an enumeration is **[!UICONTROL Open]**, users can enter a new value directly in the corresponding field in the user interface. 
+They can be: Open, System, Emoticon or Closed.
 
-When an enumeration is  **[!UICONTROL Closed]**, new values can only be added from the **Enumeration** menu.
+* An **Open** enumeration allows users to add new values directly in the fields based on this enumeration.
+* A **Closed** enumeration has a fixed list of values which can only be modified from the **[!UICONTROL Administration > Platform > Enumerations]** folder of the explorer. 
+* An **Emoticon** enumeration is used to update the emoticon list. Learn more
+* A **System** enumeration is associated to system fields and is coming with an Internal name.
 
-## Add a new value
+For **Open** and **Closed** enumerations, specific options are available:
 
-To create a new enumeration value, click the **[!UICONTROL Add]** button.
-
-![](assets/enumeration_screen.png)
-
-Enter the label of the value.
+* **Simple enumeration** is the default standard type.
+* **Alias cleansing** enumeration is used to harmonize the enumeration values stored in the database. [Learn more](#alias-cleansing)
+* **Reserved for binning** is an option which allows you to link cube values to this enumeration. [Learn more](../reporting/gs-cubes.md)
 
 
 ## Alias cleansing {#alias-cleansing}
 
-In the enumeration fields, you can enter values other than enumeration values. These can either be stored as they are or be cleansed.
+In the enumeration fields, you can select a value, or enter a custom value which is not available in the drop-down list. Custom values can be added to the existing enumerations values, as a new one - in this case, the **[!UICONTROL Open]** option must be selected. These custom values can be cleaned using alias cleansing capabilities. For example if a user enters `Adob` instead of `Adobe`, alias cleansing process can automatically replace it by the correct term.
 
 >[!CAUTION]
 >
 >Data cleansing is a critical process that impacts the data in the database. Adobe Campaign carries out mass data updates, which may lead to some values being deleted. This operation is therefore reserved for expert users.
 
-The entered value is then either:
+Enable the **[!UICONTROL Alias cleansing]** option to use data cleansing capabilities for an enumeration. When this option is selected, the **[!UICONTROL Alias]** tab is displayed at the bottom of the window. 
 
-* Added to the itemized list values: in this case the **[!UICONTROL Open]** option must be selected,
-* or automatically replaced by its corresponding alias: in this case, this case must then be defined in the **[!UICONTROL Alias]** tab of the itemized list,
-* or is stored in the list of aliases: an alias be assigned to it later on.
+When a user enters a value which does not exist in an Alias cleansing enumeration, it is added to the **Values** list. You can [create aliases from these values](#convert-to-alias), or [create new aliases from scratch](#create-alias).
 
-### Create an alias {#creating-an-alias}
-
-The option **[!UICONTROL Alias cleansing]** makes it possible to use aliases for the selected itemized list. When this option is selected, the **[!UICONTROL Alias]** tab is displayed at the bottom of the window. 
+### Create an alias{#create-alias}
 
 To create an alias, follow these steps:
 
-1. Browse to the enumeration to update ant click **[!UICONTROL Add]**.
+1. Click **[!UICONTROL Add]** button of the **[!UICONTROL Alias]** tab.
+1. Enter the alias you want to convert and select the value to be applied in the drop-down list. 
 
-    ![](assets/enumeration_alias_create.png)
+    ![Create a new alias](assets/new-alias.png)
 
-1. Enter the alias you want to convert and the value to be applied and click **[!UICONTROL Ok]**.
+1. Click **[!UICONTROL Ok]** and confirm.
+    
+1. Save your changes. The replacement of values is performed by the **Alias cleansing** workflow which is executed every night. Refer to [Run data cleansing](#running-data-cleansing).
 
-1. Check parameters before confirming this operation.
+For all fields based on this enumeration, when a user enters the value **Adob** in a "company" field (in the Adobe Campaign Client Console, in a web form), it will automatically be replaced by the value **Adobe**.
 
->[!CAUTION]
->
->Once this step is confirmed, the previous values may not be recovered: they are replaced.
+### Convert a wrong value to an alias{#convert-to-alias}
 
-Thus, when a user enters the value **NEILSEN** in a "company" field (in the Adobe Campaign console or in a form), it is automatically replaced by the value **NIELSEN Ltd**. The value replacement is performed by the **Alias cleansing** workflow. Refer to [Run data cleansing](#running-data-cleansing).
+You can also convert an existing enumeration value into an alias. To perform this:
 
-![](assets/enumeration_alias_use.png)
+1. In the list of values of an enumeration, right-click and browse to **[!UICONTROL Actions... > Convert values into aliases...]**. 
 
-### Convert values into aliases {#values-into-aliases}
+    ![Convert a value to an alias](assets/convert-into-aliases.png)
 
-You can convert existing values into aliases. To perform this, follow these steps:
-
-1. Right-click in the list of values and choose **[!UICONTROL Convert values into aliases...]**. 
-
-1. Choose the values to convert and click **[!UICONTROL Next]**.
-
+1. Select the values to be converted in aliases and click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL Start]** to run the conversion.
 
-Once execution is complete, the alias is added to the list of aliases.
+    Once execution is complete, aliases are added to the list, in the **Alias** tab. You can associate a correct value to replace wrong entries. To perform this: 
 
-### Retrieve alias hits {#alias-hits}
+1. Select a value to clean.
+1. Click the **Detail...** button.
+1. Select the new value in the drop-down list.
 
-When users enter values that are not included in the enumeration, they are stored in the **[!UICONTROL Alias]** tab.
+    ![Create a new alias](assets/define-new-alias.png)
 
-The **Alias cleansing** technical workflow recovers these values every night to update the enumeration. Refer to [Run data cleansing](#running-data-cleansing)
 
-If needed, the **[!UICONTROL Hits]** column can display the number of times this value was entered. However, calculating this value can be both time and memory consuming. For more on this, refer to [Calculate entry occurrences](#calculating-entry-occurrences).
+>[!NOTE]
+>
+>You can track the occurrences of an alias in the **[!UICONTROL Hits]** column in the **[!UICONTROL Alias]** sub-tab. It can display the number of times this value was entered.  [Learn more](#calculate-entry-occurrences).
 
-### Run data cleansing {#run-data-cleansing}
+### Run data cleansing {#running-data-cleansing}
 
-Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. The configurations defined for enumerations are applied during execution. Refer to [Alias cleansing workflow](#alias-cleansing-workflow).
+Data cleansing is performed by the **[!UICONTROL Alias cleansing]** technical workflow. By default, it is executed on a daily basis.
 
-Cleansing can be triggered via the **[!UICONTROL Cleanse values...]** link.
+Cleansing can also be triggered via the **[!UICONTROL Cleanse values...]** link.
 
 The **[!UICONTROL Advanced parameters...]** link lets you set the date starting from which collected values are taken into account.
 
 Click the **[!UICONTROL Start]** button to run data cleansing.
 
-### Calculate entry occurrences {#entry-occurrences}
+### Monitor occurrences {#calculate-entry-occurrences}
 
-The **[!UICONTROL Alias]** sub-tab of an itemized list can display the number of occurrences of an alias among all the values entered. This information is an estimate and will be displayed in the **[!UICONTROL Hits]** column.
+The **[!UICONTROL Alias]** sub-tab of an enumeration can display the number of occurrences of an alias among all the values entered. This information is an estimate and will be displayed in the **[!UICONTROL Hits]** column.
 
 >[!CAUTION]
 >
->Calculating alias entry occurrences can take a long time. That's why caution should be applied when using this function.
+>Calculating alias entry occurrences can take a long time.
+>
 
-You can run hit calculation manually via the **[!UICONTROL Cleanse values...]** link. To do this, click the **[!UICONTROL Advanced parameters...]** link and select the desired option(s).
+You can run hit calculation manually via the **[!UICONTROL Cleanse values...]** link. To do this, click the **[!UICONTROL Advanced parameters...]** link and select option(s).
 
 * **[!UICONTROL Update the number of alias hits]**: this lets you update hits which have already been calculated, based on the entered date.
 * **[!UICONTROL Recalculate the number of alias hits from the start]**: lets you run calculation on the entire Adobe Campaign platform.
@@ -121,11 +117,3 @@ To do this, create a copy of the **[!UICONTROL Alias cleansing]** workflow, chan
 
 * **-updateHits** to update the number of alias hits,
 * **-updateHits:full** to recalculate all alias hits.
-
-### Alias cleansing workflow {#alias-cleansing-workflow}
-
-The **Alias cleansing** workflow runs enumerations value cleansing. By default, it is executed on a daily basis.
-
-It is accessed via the **[!UICONTROL Administration > Production > Technical workflows]** node.
-
-

@@ -223,6 +223,8 @@ To link a default value to a field, you can use the `<default>  or  <sqldefault>
 
 ### Enumerations {#enumerations}
 
+Use free, fixed, or database-based [enumerations](../dev/enumerations.md) to control field values. They provide drop-down lists for easier input, consistent data, and flexible schema design. 
+
 #### Free enumeration {#free-enumeration}
 
 The **userEnum** property lets you define a free enumeration to memorize and display the values entered via this field. The syntax is as follows:
