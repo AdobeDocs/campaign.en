@@ -88,7 +88,7 @@ To select the recipients of a delivery, follow the steps below:
 
    The following target types are available:
 
-    * **[!UICONTROL Filtering conditions]**: use this option to define a query and display the result. Learn how to design a query in [this section](../../automation/workflow/query.md).
+    * **[!UICONTROL Filtering conditions]**: use this option to define a query and display the result. Learn how to design a query in [this section](../start/query-editor.md).
     * **[!UICONTROL A list of recipients]**: use this option to target a list of profiles. Learn more about lists in [this section](../audiences/create-audiences.md).
     * **[!UICONTROL A recipient]**: use this option to select a specific profile in the database.
     * **[!UICONTROL Recipients included in a folder]**: use this option to target all the profiles contained in a specific folder.

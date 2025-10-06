@@ -21,14 +21,12 @@ You can set up:
 
 >[!NOTE]
 >
->Adobe Campaign Web UI comes with a reimagined canvas for workflows, allowing to create more dynamic and personalized customer journeys. To learn more about Workflows for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>Adobe Campaign Web User interface comes with a reimagined canvas for workflows, allowing to create more dynamic and personalized customer journeys. To learn more about Workflows for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Design and use workflows {#gs-ac-wf}
 
 Use Adobe Campaign workflows to improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery.
-
-Learn how to design workflows in these [end-to-end use cases](#end-to-end-uc).
 
 Learn more about workflows user interface and execution in these pages:
 
@@ -53,6 +51,7 @@ Workflow activities are grouped by category. The four activity categories are av
 * [Action activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
 * [Event activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: File transfer, Web download and more
 
+<!--
 ### Change data source activity {#change-data-source-activity}
 
 The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
@@ -86,6 +85,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
 1. You can now start your workflow.
+-->
 
 ## Manage virtual warehouses {#warehouse}
 
@@ -129,115 +129,4 @@ Learn how to integrate Campaign with other solutions in [this section](../start/
 
 ## Workflow end-to-end use cases{#end-to-end-uc}
 
-In this section, you will find various use cases leveraging Campaign workflows capabilities.
-
-### Deliveries {#deliveries}
-
-<img src="assets/do-not-localize/icon_send.svg" width="60px">
-
-    
-* [Send a birthday email](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
-
-    This use case presents how to plan sending a recurring email to a list of recipients on the day of their birthday.
-
-* [Load delivery content](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
-    When your delivery content is available in an HTML file located on a remote server, you can easily load this content into Adobe Campaign deliveries.
-
-* [Cross-channel delivery workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
-    Learn how to build a cross-channel delivery workflow. The objective is to segment an audience from the recipients of your database into different groups and send an email to the first group and a SMS to the other.
-
-* [Email enrichment with custom date fields](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target="_blank"}
-    Learn how to send an email with custom data fields to profiles who celebrate their birthdays this month. The email will include a coupon valid one week before and after their birthday.
-
-And these pages in Campaign v7 documentation: 
-
-* [Automat content creation, edition and publishing](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target="_blank"}
-    Learn how to automate the creation and delivery of a content block with Campaign Content Management add-on.
-
-* [A/B testing](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target="_blank"}
-    Learn how to compare two email delivery contents via a targeting workflow. The message and the text are identical in both deliveries: only the layout changes. The targeted population is divided into three: two test groups and the remaining population. A different version of the delivery is sent to each test group.
-
-### Monitoring {#monitoring}
-
-<img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
-
-* [Send a report to a list](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
-    Learn how to generate a monthly built-in Tracking indicators report in PDF format and send it to a list of Campaign operators.
-
-* [Supervise your workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
-    Learn how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors".
-
-* [Send personalized alerts to operators](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html){target="_blank"}
-    Learn how to send an alert to an operator that will contain the name of profiles who opened a newsletter but did not click the link it contains.
-
-### Data management {#management}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
-
-* [Coordinate data updates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html){target="_blank"}
-    Learn how to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether to continue the execution of the workflow and perform the update.
-
-* [Create a summary list](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html){target="_blank"}
-    Learn how to create a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
-
-* [Enrich data](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html){target="_blank"}
-    Learn how to send personalized deliveries to profiles who took part in the latest competition depending on their score.
-
-* [Use aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
-    Learn how to identify the last recipients added to the database.
-
-* [Quarterly list update using an incremental query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html){target="_blank"}
-    Learn how to use an incremental query to automatically update a recipient list.
-
-* [Set up a recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
-    Learn how to design a workflow that can be reused for importing profiles coming from a CRM in the Adobe Campaign database. 
-
-### Targeting {#designing-queries}
-
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
-
-* [Query the recipient table](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html){target="_blank"}
-    Learn how to recover the names and emails of recipients whose email domain is "orange.co.uk" and who don't live in London.
-
-* [Query delivery information](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html){target="_blank"}
-    Learn how to define queries on delivery information to retrieve profile's behavior.
-
-* [Compute aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html){target="_blank"}
-    Learn how to count the number of profiles living in London, according to gender.
-    
-* [Query using a many-to-many-relationship](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}
-    Learn how to find profiles not contacted during the last 7 days. 
-
-* [Call an instance variable in a query](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html){target="_blank"}
-    Learn how to use an instance variable to compute dynamically the split percentage to apply on a population.
-
-<!--
-### Change data source activity {#data-source-uc}
-
-The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
-
-In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
-
-![](assets/wf_data_source_uc.png)
-
-1. Create a workflow and add a **[!UICONTROL Start]** activity.
-
-1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
-
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
-
-1. 
-
-1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
-    
-    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
-
-1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
-
-1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
-    
-    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
-
-1. Add an **[!UICONTROL End]** activity and start your workflow.
--->
-
+Learn through use cases leveraging Campaign workflows capabilities [in this section](../../automation/workflow/workflow-use-cases.md).

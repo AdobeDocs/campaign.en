@@ -127,8 +127,9 @@ breadcrumb-title: Campaign v8 Documentation
 + Content Management {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
-+ Automation and workflows {#automation}
-  + [Campaign Automation Guide >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ Workflows {#workflows}
+  + [Get started with workflows](config/workflows.md)
+  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
@@ -168,9 +169,11 @@ breadcrumb-title: Campaign v8 Documentation
       + [Built-in metrics calculation](reporting/metrics-calculation.md)
     + [Custom reports](reporting/custom-reports.md)
 + Data Management {#data}
-  + [Get started with workflows](config/workflows.md)
+  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
   + [Import data](start/import.md)
-  + [Workflow Documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+  + Create queries {#query}
+    + [Design queries](start/query-editor.md)
+    + [Define filter conditions](start/filter-conditions.md)
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}

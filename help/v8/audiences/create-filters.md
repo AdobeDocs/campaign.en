@@ -46,7 +46,7 @@ Use the last tab to preview the filtered data.
 ![](assets/built-in-filter-preview.png)
 
 
-Built-in predefined filters are:
++++  Built-in predefined filters
 
 <table> 
  <tbody> 
@@ -153,6 +153,7 @@ Built-in predefined filters are:
  </tbody> 
 </table>
 
++++
 
 ### Default filters{#default-filters}
 
@@ -347,3 +348,6 @@ Advanced parameters are available for predefined filters. To access them, browse
     
     * You can associate a SQL table with the filter to make it common to all editors that share the table.
     * To prevent any user from overriding the filter, select the **[!UICONTROL Do not restrict the filter]** option. For example, this option is active for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters which are available in the delivery wizard. These filters cannot be overloaded.
+
+
+### Operators

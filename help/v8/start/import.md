@@ -9,26 +9,13 @@ version: Campaign v8, Campaign Classic v7
 ---
 # Import data into Campaign {#ootb-profiles}
 
-Campaign helps you add contacts to the Cloud database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
-
-Get started with [audiences](audiences.md)
-
-Understand Campaign [data model](../dev/datamodel.md)
-
-## Import profiles in a workflow
+Campaign helps you add contacts to the database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
 
 Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [this section](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png) 
 
-
-## Run unitary imports
-
-Create and execute a generic data import job to load contacts in the Cloud database.
-
-![](assets/new-import.png) 
-
-### Import data
+## Run an import 
 
 Adobe Campaign lets you import data into the database from one or more files in text, CSV, TAB, or XML format. These files are associated with a table (main or linked), and each field of the source file(s) is associated with a field of the database.
 
@@ -36,19 +23,18 @@ Adobe Campaign lets you import data into the database from one or more files in 
 >
 >You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../automation/workflow/read-list.md).
 
+
+## Use the import assistant
+
 The import assistant lets you configure an import, define its options (such as data transformation), and launch execution. It is a series of screens whose content depends on the type of import (simple or multiple) and the operator's rights.
 
 The import assistant displays after creating a new import job.
 
->[!NOTE]
->
->If you use an IIS Web server, a configuration may be necessary to authorize uploading large files (>28 MB).
-
-#### Source file {#source-file}
+![](assets/new-import.png) 
 
 In the source file, each line coincides with a record. The data in records is separated by delimiters (space, tab, character, etc.). This means that data is retrieved in the form of columns, and each column is associated with a field of the database.
 
-## Step 1 - Choose the import template {#step-1---choosing-the-import-template}
+### Step 1 - Choose the import template {#step-1---choosing-the-import-template}
 
 When launching the import assistant, you first have to select a template. As an example, to configure the import of recipients who received a newsletter, follow the steps below:
 
@@ -78,37 +64,7 @@ When launching the import assistant, you first have to select a template. As an 
    >
    >Multiple imports should only address specific needs and are not recommended.
 
-### Advanced parameters {#advanced-parameters}
-
-The **[!UICONTROL Advanced parameters]** link lets you access the following options:
-
-* **[!UICONTROL General]** tab
-
-    * **[!UICONTROL Stop execution if there are too many rejects]**
-
-      This option is selected by default. You can deselect it if you want to continue executing the import irrespective of the number of rejects. By default, execution is stopped if the first 100 lines are rejected.
-    
-    * **[!UICONTROL Trace mode]**
-
-      Select this option to track the execution of the import for each line.
-    
-    * **[!UICONTROL Start the job in a detached process]**
-
-      This option is selected by default. It lets you detach the execution of the import so that it will not affect other jobs in progress on the database.
-    
-    * **[!UICONTROL Do not update enumerations]**
-
-      Select this option to avoid enriching the list of enumerated values in the database. Learn more about [enumerations](../config/enumerations.md).
-
-* **[!UICONTROL Variables]** tab
-
-  You can define variables associated with the job that will be accessible in the query editors and calculated fields. To create a variable, click **[!UICONTROL Add]** and use the variable editor.
-
-  >[!IMPORTANT]
-  >
-  >The **[!UICONTROL Variables]** tab is for Workflow-type programming use only, and should be configured by expert users only.
-
-## Step 2 - Source file selection {#step-2---source-file-selection}
+#### Step 2 - Source file selection {#step-2---source-file-selection}
 
 The source file can be in text format (txt, csv, tab, fixed columns) or xml.
 
@@ -140,7 +96,7 @@ You can view the result of the configuration in the preview zone in the lower pa
 
 Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]** to display the next step.
 
-## Step 3 - Field mapping {#step-3---field-mapping}
+### Step 3 - Field mapping {#step-3---field-mapping}
 
 You must then select the destination schema and map the data of each column onto fields in the database. 
 
@@ -167,7 +123,7 @@ You must then select the destination schema and map the data of each column onto
 
 * You can add calculated fields using the appropriate icon, located to the right of the central table. Calculated fields let you perform complex transformations, add virtual columns, or merge the data of several columns. Refer to the following sections for details of the various possibilities.
 
-### Calculated fields {#calculated-fields}
+#### Calculated fields {#calculated-fields}
 
 Calculated fields are new columns added to the source file and calculated from other columns. Calculated fields can then be associated with fields of the Adobe Campaign database. Reconciliation operations, however, are not possible on calculated fields.
 
@@ -184,7 +140,7 @@ There are four types of calculated fields:
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-#### Step 4 - Reconciliation {#step-4---reconciliation}
+### Step 4 - Reconciliation {#step-4---reconciliation}
 
 The reconciliation step of the import assistant lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
 
@@ -286,7 +242,7 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-#### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
+### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
 The next step of the import assistant lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
 
@@ -342,7 +298,7 @@ The next step of the import assistant lets you select or create the folder in wh
 
 Click **[!UICONTROL Next]** to validate this step and display the following step.
 
-## Step 6 - Launch the import {#step-6---launching-the-import}
+### Step 6 - Launch the import {#step-6---launching-the-import}
 
 The last step of the assistant lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
 
@@ -350,7 +306,7 @@ The last step of the assistant lets you launch data import. To do this, click th
 
 You can then monitor the execution of the import job (see [Monitor workflow execution](../../automation/workflow/monitor-workflow-execution.md)).
 
-### Export data
+## Export data
 
 The export jobs allow you to access and extract data from the database: contacts, clients, lists, segments, etc.
 
@@ -360,7 +316,7 @@ The export assistant lets you configure an export, define its options and launch
 
 The export assistant displays after creating a new export job.
 
-#### Step 1 - Choose the export template {#step-1---choosing-the-export-template}
+### Step 1 - Choose the export template {#step-1---choosing-the-export-template}
 
 When launching the export assistant, you first have to select a template. As an example, to configure the export of recipients who recently registered, follow the steps below:
 
@@ -376,7 +332,7 @@ When launching the export assistant, you first have to select a template. As an 
 1. Enter a name for export in the **[!UICONTROL Label]** field. You can add a description.
 1. Select the export type. There are two possible types of export: **[!UICONTROL Simple export]** to export only one file, and **[!UICONTROL Multiple export]** to export several files in a single execution, from one or more types of source document.
 
-## Step 2 - Type of file to export {#step-2---type-of-file-to-export}
+### Step 2 - Type of file to export {#step-2---type-of-file-to-export}
 
 Select the type of document to be exported, i.e. the schema of the data to export.
 
@@ -409,7 +365,7 @@ Select an output format for the export file. The following formats can be used: 
 * Indicate the date format and number format. To do this, click the **[!UICONTROL Edit]** button for the field concerned and use the editor.
 * For fields containing enumerated values, you can select **[!UICONTROL Export labels instead of internal values of enumerations]**. For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**. If this option is selected, **Mr.**, **Miss** and **Mrs.** will be exported.
 
-#### Step 4 - Data selection {#step-4---data-selection}
+### Step 4 - Data selection {#step-4---data-selection}
 
 Select the fields to export. To do this:
 
@@ -420,19 +376,19 @@ Select the fields to export. To do this:
 
 1. Click the **[!UICONTROL Add]** button to call on functions.
 
-#### Step 5 - Sort columns {#step-5---sorting-columns}
+### Step 5 - Sort columns {#step-5---sorting-columns}
 
 Select the sorting order of the columns.
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-#### Step 6 - Filter conditions {#step-6---filter-conditions-}
+### Step 6 - Filter conditions {#step-6---filter-conditions-}
 
 You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery assistant.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-#### Step 7 - Data formatting {#step-7---data-formatting}
+### Step 7 - Data formatting {#step-7---data-formatting}
 
 You can modify the order and label of the fields for the output file and apply transformations to the source data.
 
@@ -452,7 +408,7 @@ If you are exporting a collection of elements (e.g. recipients' subscriptions, t
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-#### Step 8 - Data preview {#step-8---data-preview}
+### Step 8 - Data preview {#step-8---data-preview}
 
 Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. By default, the first 200 lines are displayed. To change this value, click the arrows to the right of the **[!UICONTROL Lines to display]** field.
 
@@ -460,7 +416,7 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 Click the tabs at the bottom of the assistant to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
-#### Step 9 - Launch the export {#step-9---launching-the-export}
+### Step 9 - Launch the export {#step-9---launching-the-export}
 
 Click **[!UICONTROL Start]** to launch data export.
 
@@ -482,3 +438,4 @@ Learn how to create web forms in [Campaign Classic v7 documentation](https://exp
 * [Create audiences](audiences.md)
 * [Deduplicate profiles](../../automation/workflow/deduplication-merge.md)
 * [Enrich profile data](../../automation/workflow/enrich-data.md)
+* Understand Campaign [data model](../dev/datamodel.md)

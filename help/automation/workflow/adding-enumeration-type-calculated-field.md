@@ -25,7 +25,7 @@ Here we want to create a query with an **[!UICONTROL Enumerations]** type calcul
 
 Apply the following steps:
 
-1. Open the Generic query editor and select the Recipient table (**[!UICONTROL nms:recipient]**).
+1. Open the [Generic query editor](../../v8/start/query-editor.md) and select the Recipient table (**[!UICONTROL nms:recipient]**).
 1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Last name]**, **[!UICONTROL First name]** and **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)

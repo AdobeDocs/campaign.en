@@ -42,7 +42,7 @@ Learn how to add profiles to Campaign in [this section](import.md).
 
 ## Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and graphical query editor functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. 
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the [filter management](../audiences/create-filters.md) and graphical [query editor](query-editor.md) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. 
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. 
 

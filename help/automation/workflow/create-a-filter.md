@@ -9,9 +9,9 @@ exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 ---
 # Create a filter {#creating-a-filter}
 
-The filters available in Adobe Campaign are defined via filtering conditions which are created using the same operating mode as queries. 
+The filters available in Adobe Campaign are defined via filtering conditions which are created using the same operating mode as when building queries in the [Query editor](../../v8/start/query-editor.md).
 
-The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the filters used in the lists and overviews.
+The **[!UICONTROL Administration > Configuration > Predefined filters]** node contains all the default filters. Some of them are used in lists and overviews. Learn more about [built-in predefined filters](../../v8/audiences/create-filters.md).
 
 For example, the list of operators can be filtered by **[!UICONTROL Active accounts]**:
 

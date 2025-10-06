@@ -216,7 +216,7 @@ This population can come from a list of recipients or you can define it via a sp
 
 >[!NOTE]
 >
->Adobe Campaign query editor is presented in [this section](../workflow/query.md).
+>Adobe Campaign query editor is presented in [this section](../../v8/start/query-editor.md).
 
 ### Extract the control group from the main target {#extract-the-control-group-from-the-main-target}
 

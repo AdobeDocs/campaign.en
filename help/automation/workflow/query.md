@@ -14,16 +14,13 @@ version: Campaign v8, Campaign Classic v7
 ## Create a query {#creating-a-query}
 
 A query lets you select a target according to criteria. You can associate a segment code to the query result and insert additional data into it.
-For more information on query samples, refer to this [this section](querying-recipient-table.md).
-
->[!NOTE]
->
->Adobe Campaign Web UI features a powerful query modeler that simplifies the process of filtering databases to select specific targets based on various criteria, allowing you to create and manage your query more easily. To learn more about the Query modeler for Web UI, please refer to the [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
-
+Learn how to build queries through use cases in [this section](querying-recipient-table.md). See also the section about the [Query editor](../../v8/start/query-editor.md).
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-For more on using and managing additional data, refer to [Add data](#adding-data).
+>[!NOTE]
+>
+>Adobe Campaign Web user interface features a powerful query modeler that simplifies the process of filtering databases to select specific targets based on various criteria, allowing you to create and manage your query more easily. To learn more about the Query modeler for Web UI, please refer to the [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 The **[!UICONTROL Edit query...]** link lets you define the targeting type, the restrictions, and the selection criteria for the population in the following way:
 

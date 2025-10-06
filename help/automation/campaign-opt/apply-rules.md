@@ -40,7 +40,7 @@ It is possible to configure typology rules so that they concern only certain del
 
 To define the application conditions of a rule, click the **[!UICONTROL Edit the rule application conditions...]** link in the **[!UICONTROL General]** tab.
 
-Then use the query editor to define filtering conditions. In the following example, the capacity rule concerns only deliveries with the word 'offer' in their label or deliveries created before April 1st 2013.
+Then use the [query editor](../../v8/start/query-editor.md) to define filtering conditions. In the following example, the capacity rule concerns only deliveries with the word 'offer' in their label or deliveries created before April 1st 2013.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
