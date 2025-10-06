@@ -346,7 +346,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
 
 The expression editor looks like this:
 
-![](assets/s_ncs_user_filter_define_expression.png)
+![](assets/filter-define-expression.png)
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
 
