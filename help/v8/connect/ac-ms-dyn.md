@@ -189,7 +189,7 @@ To synchronize data between Adobe Campaign data and Microsoft CRM, create a work
 
 Learn more about data synchronization [in this page](crm-data-sync.md).
 
-Learn more about enumeration management in Campaign [in this page](../dev/enumerations.md).
+Learn more about enumeration management in Campaign [in this page](../config/enumerations.md).
 
 ### Supported field data types {#ms-dyn-supported-types}
 

@@ -74,4 +74,4 @@ To synchronize data between Adobe Campaign data and SFDC, create a workflow and 
 
 Learn more about data synchronization [in this page](crm-data-sync.md).
 
-Learn more about enumeration management in Campaign [in this page](../dev/enumerations.md).
+Learn more about enumeration management in Campaign [in this page](../config/enumerations.md).

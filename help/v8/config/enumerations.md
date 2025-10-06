@@ -16,7 +16,7 @@ When available, the values appear in a drop-down list. You can either select a v
 
 Some console fields are configured with enumerations. If an enumeration is **open**, you can also add new values directly in the field.
 
-![Access enumerations](assets/enumerations-menu.png)
+![Access enumerations](../config/assets/enumerations-menu.png)
 
 ## Types of enumerations {#types-of-enum}
 

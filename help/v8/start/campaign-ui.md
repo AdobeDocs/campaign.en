@@ -185,5 +185,5 @@ Main differences between US English and UK English are:
 
 ## Additional Resources
 
-* **[Work with Enumerations](../dev/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
+* **[Work with Enumerations](../config/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
 * **[Enumerations in schemas](../dev/schema-structure.md#enumerations)** - As a Campaign developer, use free, fixed, or database-based enumerations in your schemas to control field values.

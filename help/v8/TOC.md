@@ -213,7 +213,7 @@ breadcrumb-title: Campaign v8 Documentation
   + Settings {#settings}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
-    + [Work with enumerations](dev/enumerations.md)
+    + [Work with enumerations](config/enumerations.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)

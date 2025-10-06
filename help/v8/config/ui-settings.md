@@ -154,4 +154,4 @@ You can also configure sorting or combine sort criteria. To do this, follow the 
 ## Additional Resources
 
 * **[Start with the Campaign user interface](../start/campaign-ui.md)** - Discover how to access and browse Adobe Campaign interface.
-* **[Work with Enumerations](../dev/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
+* **[Work with Enumerations](../config/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
