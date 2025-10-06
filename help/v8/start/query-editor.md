@@ -149,4 +149,3 @@ In this example, data is sorted in ascending order based on recipient age.
 * [Workflow Query Activity](../../automation/workflow/query.md)
 * [Query the recipient table](../../automation/workflow/querying-recipient-table.md)
 * [Filtering conditions](filter-conditions.md)
-* 
