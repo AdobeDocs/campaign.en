@@ -8,21 +8,21 @@ level: Intermediate, Experienced
 ---
 # Work with enumerations {#enumerations}
 
-An enumeration (also called an itemized list) is a predefined list of values you can use to fill in certain fields. Enumerations help standardize field values, making data entry more consistent and simplifying queries.
+An enumeration (also called an itemized list) is a predefined list of values you can use to fill in certain fields. Enumerations help standardize field values, making data entry more consistent and simplifying queries. 
 
-When available, the values appear in a drop-down list. You can either select a value directly or start typing—predictive input suggests matching values and completes them automatically.
+When defined, values are displayed in a drop-down list. A value can be selected directly or entered using predictive input, which suggests and completes matching entries. Some fields include predefined enumerations, and additional enumerations can be created if required.
 
 ![](assets/enum_values.png)
 
-Some console fields are configured with enumerations. If an enumeration is **open**, you can also add new values directly in the field.
-
-![Access enumerations](../config/assets/enumerations-menu.png)
 
 ## Types of enumerations {#types-of-enum}
 
 Enumerations are stored in the **[!UICONTROL Administration > Platform > Enumerations]** folder of the explorer. 
 
-They can be: Open, System, Emoticon or Closed.
+![Access enumerations](../config/assets/enumerations-menu.png)
+
+
+An enumeration can be: **Open**, **System**, **Emoticon** or **Closed**.
 
 * An **Open** enumeration allows users to add new values directly in the fields based on this enumeration.
 * A **Closed** enumeration has a fixed list of values which can only be modified from the **[!UICONTROL Administration > Platform > Enumerations]** folder of the explorer. 
@@ -38,11 +38,12 @@ For **Open** and **Closed** enumerations, specific options are available:
 
 ## Alias cleansing {#alias-cleansing}
 
-In the enumeration fields, you can select a value, or enter a custom value which is not available in the drop-down list. Custom values can be added to the existing enumerations values, as a new one - in this case, the **[!UICONTROL Open]** option must be selected. These custom values can be cleaned using alias cleansing capabilities. For example if a user enters `Adob` instead of `Adobe`, alias cleansing process can automatically replace it by the correct term.
+In enumeration fields, a value can be selected from the drop-down list or entered manually if not available in the list. Custom values can be added to the enumeration when the **[!UICONTROL Open]** option is enabled. These values can later be standardized through alias cleansing, which automatically replaces variations with the correct term (for example, converting `Adob` to `Adobe`).
+
 
 >[!CAUTION]
 >
->Data cleansing is a critical process that impacts the data in the database. Adobe Campaign carries out mass data updates, which may lead to some values being deleted. This operation is therefore reserved for expert users.
+>Data cleansing is a critical operation that affects database values. Adobe Campaign performs mass data updates, which may result in the deletion of certain values. This operation is intended for expert users only.
 
 Enable the **[!UICONTROL Alias cleansing]** option to use data cleansing capabilities for an enumeration. When this option is selected, the **[!UICONTROL Alias]** tab is displayed at the bottom of the window. 
 
