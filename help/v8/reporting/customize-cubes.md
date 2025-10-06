@@ -16,14 +16,14 @@ Use data binning to simplify data display by grouping values according to criter
 Overall, three types of binning are available:
 
 1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](#defining-each-bin).
-1. Dynamically, depending on the values of an enumeration: only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](#dynamically-managing-bins).
+1. Dynamically, depending on the values of an [enumeration](../config/enumerations.md): only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](#dynamically-managing-bins).
 1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](#creating-value-ranges).
 
 To enable binning, check the appropriate box when creating the dimension.
 
 ![](assets/cube-class.png)
 
-You can either create bins manually or link them to an existing enumeration.
+You can either create bins manually or link them to an existing [enumeration](../config/enumerations.md).
 
 Adobe Campaign also provides an assistant for automatic binning: values can be broken down into N groups, or grouped according to the most frequent values in the database.
 
@@ -58,7 +58,7 @@ To create this type of value binning, apply the following steps:
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
-Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
+   Learn more about enumerations in [this page](../config/enumerations.md).
 
 ### Create value ranges {#create-value-ranges}
 

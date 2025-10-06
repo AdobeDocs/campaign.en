@@ -111,7 +111,7 @@ Enumerations are defined first, before the main element of the schema. They allo
 
 Example:
 
-```
+```xml
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
 <value label="Website" name="web" value="0"/>
 <value label="Call Center" name="phone" value="1"/>
@@ -121,7 +121,7 @@ Example:
 
 When defining fields, you can then use this enumeration like so:
 
-```
+```xml
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
 type="string" enum="exTransactionTypeEnum"/>
 ```
@@ -172,7 +172,7 @@ The primary key can also be defined using the **internal** attribute.
 
 Example:
 
-```
+```xml
 <key name="householdId" internal="true">
   <keyfield xpath="@householdId"/>
 </key>
@@ -200,25 +200,25 @@ For more information on each attribute, refer to the Attribute description in [C
 
 Example of defining a default value:
 
-```
+```xml
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
 Example of using a common attribute as a template for a field also marked as mandatory:
 
-```
+```xml
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
 Example of a computed field that is hidden using the **@advanced** attribute:
 
-```
+```xml
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
 Example of an XML field also stored in an SQL field and which has an **@dataPolicy** attribute.
 
-```
+```xml
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
@@ -240,19 +240,19 @@ There are three types of cardinality: 1-1, 1-N, and N-N. It is the 1-N type that
 
 An example of a 1-N link between the recipient table (out-of-the-box schema) and a table of custom transactions:
 
-```
+```xml
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
 An example of a 1-1 link between a custom schema "Car" (in the "cus" namespace) and the recipient table:
 
-```
+```xml
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
 Example of an external join between the recipient table and a table of addresses based on the email address and not a primary key:
 
-```
+```xml
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
   <join xpath-dst="@address" xpath-src="@email"/>
 </element>
@@ -266,7 +266,7 @@ One useful element you may want to include at the bottom of your schema is a tra
 
 Use the example below to include fields relating to the creation date, the user that created the data, the date, and the author of the last modification for all data in your table:
 
-```
+```xml
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
 ```
 

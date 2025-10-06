@@ -37,7 +37,7 @@ The workflows detailed in this page are installed with the Adobe Campaign built-
 
 |Technical workflow|Package|Description|
 |------|--------|-----------|
-|**Alias cleansing** (aliasCleansing)|Installed by default|This workflow standardizes enumeration values. It is triggered every day at 3am by default.|
+|**Alias cleansing** (aliasCleansing)|Installed by default|This workflow standardizes [enumeration](../../v8/config/enumerations.md#alias-cleansing) values. It is triggered every day at 3am by default.|
 |**Billing** (billing)|Installed by default|This workflow sends the system activity report to the 'billing' operator by email. It is triggered the 25th of every month on the Marketing instance.|
 |**Campaign jobs** (operationMgt)|Installed by default|This workflow manages the jobs for marketing campaigns (launches targeting, file extraction, etc.). It also creates workflows related to recurring and periodic campaigns.|
 |**Collect data for HeatMap service** (collectDataHeatMapService)|Installed by default|This workflow retrieves data required by the HeatMap service.|

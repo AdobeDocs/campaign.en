@@ -98,7 +98,7 @@ The **[!UICONTROL Advanced parameters]** link lets you access the following opti
     
     * **[!UICONTROL Do not update enumerations]**
 
-      Select this option to avoid enriching the list of enumerated values in the database.
+      Select this option to avoid enriching the list of enumerated values in the database. Learn more about [enumerations](../config/enumerations.md).
 
 * **[!UICONTROL Variables]** tab
 

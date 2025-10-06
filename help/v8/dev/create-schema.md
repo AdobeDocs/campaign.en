@@ -61,7 +61,7 @@ To do this, you need to create the schema of the table and update the database s
 
    As a best practice, create the table in the Cloud database by adding the `dataSource="nms:extAccount:ffda"` attribute. This attribute is added by default when creating a new table.
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" lastModified="YYYY-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
@@ -81,7 +81,7 @@ To do this, you need to create the schema of the table and update the database s
 
    Add the type of contract enumeration.
 
-   ```
+   ```xml
    <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>

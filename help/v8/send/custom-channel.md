@@ -27,7 +27,7 @@ First, you need to configure the schema to add the new channel to the list of av
 
 1. From Campaign Explorer, select **Administration** > **Configuration** > **Data schemas**.
 
-1. Create a schema extension to extend the messageType enumeration with the new channel.
+1. Create a schema extension to extend the **messageType** [enumeration](../config/enumerations.md) with the new channel.
 
     For example:
 

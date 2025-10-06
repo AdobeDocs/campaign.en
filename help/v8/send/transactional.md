@@ -53,7 +53,7 @@ When [creating a message template](#create-message-template), you will select th
 
 To create event types that will be processed by Adobe Campaign, follow the steps below:
 
-1. Browse to the **[!UICONTROL Administration > Platform > Enumerations]** folder of Campaign explorer.
+1. Browse to the **[!UICONTROL Administration > Platform > Enumerations]** folder of Campaign explorer. 
 1. Select the **[!UICONTROL Event type]** enumeration from the list.
 1. Click **[!UICONTROL Add]** to create an enumeration value. This can be an order confirmation, password change, order delivery change, etc.
 
@@ -67,6 +67,6 @@ To create event types that will be processed by Adobe Campaign, follow the steps
 
 >[!NOTE]
 >
->Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
+>Learn more about [enumerations](../config/enumerations.md).
 
 For next step, learn how to [create and publish your template for Transactional messaging](transactional-template.md).

@@ -96,7 +96,7 @@ To create dimensions, follow the steps below:
 
 1. Create another dimension to analyze data relative to the city of the recipient. To do this, add a new dimension and select the city in the **[!UICONTROL Location]** node of the recipient schema. 
 
-  You can enable binning to make information reading easier and link the values to an enumeration.
+  You can enable binning to make information reading easier and link the values to an [enumeration](../config/enumerations.md).
 
   Select the enumeration from the drop-down list. Note that this enumeration must be defined as **[!UICONTROL Reserved for binning]**.
 

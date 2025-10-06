@@ -42,7 +42,8 @@ The proof target can be defined in the delivery template, or specific to a deliv
 The type of proof target is selected from the **[!UICONTROL Targeting mode]** drop-down list.
 
 * Use the **[!UICONTROL Definition of a specific proof target]** option to select recipients in the database as the proof target.
-* Use the **[!UICONTROL Substitution of the address]** option to enter email addresses and use the target recipient data to validate the content. The substitution addresses can be entered manually or selected from the drop-down list. The associated enumeration is Substitution address (rcpAddress).
+* Use the **[!UICONTROL Substitution of the address]** option to enter email addresses and use the target recipient data to validate the content. The substitution addresses can be entered manually or selected from the drop-down list. The associated [enumeration](../config/enumerations.md) is **Substitution address (rcpAddress)**.
+
     By default, substitution is performed randomly, but you can select a specific recipient from the main target, via the  **[!UICONTROL Detail]** icon. 
 
     ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
