@@ -195,25 +195,25 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage user permissions](start/manage-permissions.md)
     + [Add permissions on folders](start/folder-permissions.md)
   + [Control Panel](config/self-service.md)
-+ Architecture and configuration {#config}
-  + Campaign v8 architecture {#architecture}
-    + [Global principles](architecture/general-architecture.md)
-    + [Architecture models](architecture/architecture.md)
-    + [Campaign FDA deployment](architecture/fda-deployment.md)
-    + Enterprise (FFDA) deployment {#ffda}
-      + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
-      + [Key management and unicity](architecture/keys.md)
-      + [New APIs](architecture/new-apis.md)
-      + [API staging mechanism](architecture/staging.md)
-      + [Replication mechanism](architecture/replication.md)
++ Architecture {#architecture}
+  + [Global principles](architecture/general-architecture.md)
+  + [Architecture models](architecture/architecture.md)
+  + [Campaign FDA deployment](architecture/fda-deployment.md)
+  + Enterprise (FFDA) deployment {#ffda}
+    + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
+    + [Key management and unicity](architecture/keys.md)
+    + [New APIs](architecture/new-apis.md)
+    + [API staging mechanism](architecture/staging.md)
+    + [Replication mechanism](architecture/replication.md)
++ Configuration {#config}
   + Implementation {#implement}
     + [Implementation steps](start/implement.md)
     + [Customize your instance](dev/customize.md)
-    + [Work with enumerations](dev/enumerations.md)
     + [Data model best practices](dev/datamodel-best-practices.md)
-  + Settings and configuration {#configuration}
+  + Settings {#settings}
     + [User interface settings](config/ui-settings.md)
     + [Manage folders and views](audiences/folders-and-views.md)
+    + [Work with enumerations](dev/enumerations.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
     + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
