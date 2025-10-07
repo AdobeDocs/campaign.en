@@ -41,7 +41,7 @@ Adobe Campaign v8 comes with the delivery channels listed below. The channels av
 
 * **Email channel**: email deliveries let you send personalized emails to the target population. [Learn more](../send/email.md)
 
-* **Mobile channels**: deliveries on mobile channels let you send personalized messages on mobile devices to the target population. You can send [SMS](../send/sms/sms.md) and [LINE](../send/line.md) messages on mobiles.
+* **Mobile channels**: deliveries on mobile channels let you send personalized messages on mobile devices to the target population. You can send [SMS](../send/sms/sms.md) and [LINE](../send/line/line.md) messages on mobiles.
 
 * **Mobile application channel**: You can use Adobe Campaign to send personalized and segmented [push notifications](../send/push.md) on iOS and Android mobile devices, through dedicated apps. Once configuration and integration steps have been performed, iOS and Android deliveries can be created and sent with Adobe Campaign. You can also design and send rich notifications with images or videos to Android devices.
 

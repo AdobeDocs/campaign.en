@@ -5,6 +5,7 @@ description: Learn how to design an iOS rich push notification delivery with Ado
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
 ---
 # Design an iOS rich push delivery {#rich-push}

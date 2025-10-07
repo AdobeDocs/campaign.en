@@ -170,7 +170,7 @@ _July 23, 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>The <a href="../send/line.md">LINE channel</a> is now available with Campaign v8, including the following enhancements when combined with the <a href="../send/transactional.md">transactional messaging</a> module:
+<td> <p>The <a href="../send/line/line.md">LINE channel</a> is now available with Campaign v8, including the following enhancements when combined with the <a href="../send/transactional.md">transactional messaging</a> module:
 <ul> 
 <li><p>Fixed an issue which could prevent visitors from being targeted in a LINE delivery. 
 </p></li>

@@ -76,7 +76,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Design an iOS rich push delivery](send/rich-push-ios.md)
     + [Configure push notification channel](send/push-settings.md)
     + [Configure your push notifications with Data Collection](send/push-data-collection.md)
-  + [LINE messaging](send/line.md)
+  + [LINE messaging](send/line/line.md)
   + [Direct mail](send/direct-mail.md)
   + [X (Twitter)](send/twitter.md)
   + [Custom external channel](send/custom-channel.md)

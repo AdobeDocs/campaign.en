@@ -5,6 +5,7 @@ description: Learn how to design a rich push notification delivery with Adobe Ca
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 ---
 # Design an Android rich push delivery {#rich-push}
