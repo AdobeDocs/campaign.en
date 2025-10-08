@@ -9,7 +9,7 @@ version: Campaign v8, Campaign Classic v7
 
 # LINE Channel{#line-channel}
 
-The workflows detailed below are installed with the **LINE channel** module by default. For more on this module, refer to [this page](../../v8/send/line.md).
+The workflows detailed below are installed with the **LINE channel** module by default. For more on this module, refer to [this page](../../v8/send/line/line.md).
 
 <table> 
  <tbody> 

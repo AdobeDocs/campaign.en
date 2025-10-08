@@ -4,6 +4,7 @@ description: Learn how to integrate Adobe Experience Platform mobile SDK with yo
 feature: Push
 role: Admin, Developer
 level: Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 ---
 # Configure push notification channel {#push-notification-configuration}
