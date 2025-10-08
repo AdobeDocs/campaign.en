@@ -1,6 +1,6 @@
 ---
-title: Design queries in Campaign v8 
-description: Learn how to create queries
+title: Work with the query editor
+description: Learn how work with the query editor
 feature: Query Editor, Data Management
 role: User
 level: Beginner
@@ -8,141 +8,31 @@ version: Campaign v8, Campaign Classic v7
 ---
 # Query Campaign database
 
-The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.
+The query tool is available at various levels of the application and can be used to define target populations, segment customers, extract and filter tracking logs, create filters, and more.
 
-The Adobe Campaign query tool lets you query a database using a dedicated assistant: the generic query editor. It is accessed via the **[!UICONTROL Tools > Generic query editor...]** menu. It lets you extract information stored in a database and organize, group, sort, etc. For instance, the user can recover recipients who clicked more than 'n' times on the link of a newsletter over a given period. This tool lets you collect, sort and display results based on your needs.
+It provides a dedicated assistant — the generic query editor — accessible from the **[!UICONTROL Tools > Generic query editor...]** menu. This editor enables database queries to extract, organize, group, and sort information. For example, it can retrieve recipients who clicked more than n times on a newsletter link during a given period.
 
-This tool combines all Adobe Campaign querying possibilities. For instance, it lets you create and save restriction filters. This means that a user filter created in the Generic query editor can be used in the Query box of a targeting workflow, etc.
+The generic query editor centralizes all querying capabilities. It allows the creation and storage of restriction filters, which can then be reused in other contexts, such as the Query box of a targeting workflow.
 
-Queries are created using fields of the selected table or using a formula.
-
-The steps for building a query in Adobe Campaign are as follows:
-
-1. Select the work table. Refer to [Step 1 - Choose a table](#step-1---choose-a-table).
-1. Select the data to extract. Refer to [Step 2 - Choose data to extract](#step-2---choose-data-to-extract).
-1. Define the data sorting sequence. Refer to [Step 3 - Sort data](#step-3---sort-data).
-1. Filter the data. Refer to [Step 4 - Filter data](#step-4---filter-data).
-1. Format the data. Refer to [Step 5 - Format data](#step-5---format-data).
-1. Display the result. Refer to [Step 6 - Preview data](#step-6---preview-data).
+![Access the query editor and select a table](assets/query_editor_nveau_21.png)
 
 
->[!NOTE]
->
->* All these steps are available in the generic query editor. When a query is created in another context, some steps can be left out.  
->
->* To learn more about Queries and how to create them, refer to the [Campaign workflow documentation](../../automation/workflow/query.md).
+Steps to create a query are detailed [on this page](design-queries.md).
 
-To query the Campaign database, open the **Generic query editor**, and follow these steps:
+<!--
+Contexts to use the query editor iin Campaign are listed below:
 
-## Step 1 - Choose a table {#step-1---choose-a-table}
-
-Select the table containing the data you want to query in the **[!UICONTROL Document type]** window. If needed, filter the data using the filter field or the **[!UICONTROL Filters]** button.
-
-![](assets/query_editor_nveau_21.png)
-
-## Step 2 - Choose data to extract {#step-2---choose-data-to-extract}
-
-In the **[!UICONTROL Data to extract]** window, select the data to display: these fields will make up the output columns.
-
-For example, select **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** and **[!UICONTROL City]**. The results will be organized based on this selection. Use the blue arrows to the right of the window to change the column order.
-
-![](assets/query_editor_nveau_01.png)
-
-You can edit an expression by inserting a formula into it or running a process on an aggregate function. To do this, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
-
-![](assets/query_editor_nveau_97.png)
-
-You can group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../automation/workflow/query-delivery-info.md).
-
-![](assets/query_editor_nveau_56.png)
-
-* The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
-
-  For more on this, refer to [this section](../../automation/workflow/query-grouping-management.md).
-
-* The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
-
-## Step 3 - Sort data {#step-3---sort-data}
-
-The **[!UICONTROL Sorting]** window lets you sort column content. Use the arrows to change the column order:
-
-* The **[!UICONTROL Sorting]** column enables a simple sort and arranges column content from A to Z or in ascending order.
-* The **[!UICONTROL Descending sort]** arranges the content from Z to A and in descending order. This is useful for viewing record sales for example: the highest figures are shown at the top of the list.
-
-In this example, the data is sorted in ascending order based on recipient age.
-
-![](assets/query_editor_nveau_57.png)
-
-## Step 4 - Filter data {#step-4---filter-data}
-
-The query editor lets you filter data to refine your search.
-
-The filters offered depend on the table which the query concerns.
-
-![](assets/query_editor_nveau_09.png)
-
-Once you select the **[!UICONTROL Filtering conditions]** you will access the **[!UICONTROL Target elements]** section: this lets you define how to filter the data to collect.
-
-* To create a new filter, select the fields, operators and values required for creating the formula to be verified in order for data to be selected. You can also combine several conditions as detailed  [on this page](filter-conditions.md).
-* To use previously saved filters, open the drop-down list by clicking the **[!UICONTROL Add]** button, click **[!UICONTROL Predefined filter]** and select the one you want.
-
-  ![](assets/query_editor_15.png)
-
-* The filters created in the **[!UICONTROL Generic query editor]** are available in other query applications and vice versa. To save a filter, click the **[!UICONTROL Save]** icon.
-
-  >[!NOTE]
-  >
-  >For more on creating and using filters, refer to [Filtering options](filter-conditions.md).
-
-As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
-
-![](assets/query_editor_nveau_89.png)
-
->[!NOTE]
->
->You can directly access an option by typing the following formula in the **Value** field: **$(options:OPTION_NAME)**.
-
-Click the **[!UICONTROL Preview]** tab to view the result of the filtering condition. In this case, all English-speaking recipients are displayed with their name, first name and email address.
-
-![](assets/query_editor_nveau_98.png)
-
-Users familiar with SQL language can click **[!UICONTROL Generate SQL query]** to view the query in SQL.
-
-![](assets/query_editor_nveau_99.png)
-
-## Step 5 - Format data {#step-5---format-data}
-
-Once you have configured the restriction filters, you will access the **[!UICONTROL Data formatting]** window. This window lets you re-arrange output columns, transform data, and change the upper/lower case of the column labels. It also lets you apply a formula to the final result using a calculated field.
-
->[!NOTE]
->
->For more information on the types of calculated fields, refer to [Create calculated fields](filter-conditions.md#creating-calculated-fields).
-
-Unchecked columns will not be shown in the data preview window.
-
-![](assets/query_editor_nveau_10.png)
-
-The **[!UICONTROL Transformation]** column lets you change a column label to upper or lower case. Select the column and click in the **[!UICONTROL Transformation]** column. You can choose:
-
-* **[!UICONTROL Switch to lower case]**,
-* **[!UICONTROL Switch to upper case]**, 
-* **[!UICONTROL First letter in upper case]**.
-
-![](assets/query_editor_nveau_42.png)
-
-## Step 6 - Preview data {#step-6---preview-data}
-
-The **[!UICONTROL Data preview]** window is the last stage. Click **[!UICONTROL Start the preview of the data]** to get your query result. It is available in columns or in XML format. Click the **[!UICONTROL Generated SQL queries]** tab to view the query in SQL format.
-
-In this example, data is sorted in ascending order based on recipient age.
-
-![](assets/query_editor_nveau_11.png)
-
->[!NOTE]
->
->By default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**.
-
-
+|Usage|Example|
+|  ---  |  ---  |
+|**Define a Query activity in a workflow**: Define the criteria to query Campaign database in a workflow. [Learn how to configure the Query activity](../../automation/workflow/query.md)|![Image showing how to configure a query activity in a workflow](../../automation/workflow/assets/query-activity.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../start/create-message.md#define-the-target-audience)|![Image showing how to access the audience creation interface](../send/sms/assets/audience_to.png){width="200" align="center" zoomable="yes"}|
+|**Define audiences**: Specify the population you want to target in your messages or workflows, and effortlessly create new audiences tailored to your needs. [Learn how to build audiences](../audiences/create-audiences.md)|![Image showing how to access the audience creation interface](../audiences/assets/targeting-wf-age-filter.png){width="200" align="center" zoomable="yes"}|
+|**Customize workflow activities**: Apply rules within workflow activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about workflow activities](../../automation/workflow/activities.md)|![Image showing how to access workflow customization options](assets/access-workflow.png){width="200" align="center" zoomable="yes"}|
+|**Predefined filters**: Create predefined filters that serve as shortcuts during various filtering operations, whether you're working with data lists or forming the audience for a delivery. [Learn how to work with predefined filters](../get-started/predefined-filters.md)|![Image showing how to access predefined filters](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"}|
+|**Filter reports data**: Add rules to filter the data displayed in reports. [Learn how to work with reports](../reporting/gs-reports.md)|![Image showing how to filter data in reports](assets/access-reports.png){width="200" align="center" zoomable="yes"}|
+|**Customize lists**: Create custom rules to filter the data displayed in lists such as recipients or deliveries lists. [Learn how to filter lists](../get-started/list-filters.md#list-built-in-filters)|![Image showing how to customize list filters](assets/access-lists.png){width="200" align="center" zoomable="yes"}|
+|**Build conditional content**: Make email content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging. [Learn how to build conditional content](../personalization/conditions.md)|![Image showing how to create conditional content](assets/conditional-content.png){width="200" align="center" zoomable="yes"}|
+-->
 
 **Related topics**
 

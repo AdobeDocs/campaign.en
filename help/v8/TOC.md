@@ -169,11 +169,12 @@ breadcrumb-title: Campaign v8 Documentation
       + [Built-in metrics calculation](reporting/metrics-calculation.md)
     + [Custom reports](reporting/custom-reports.md)
 + Data Management {#data}
-  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
-  + [Import data](start/import.md)
-  + Create queries {#query}
-    + [Design queries](start/query-editor.md)
+  + Query the database {#query}
+    + [Work with the query editor](start/query-editor.md)
+    + [Design queries](start/design-queries.md)
     + [Define filter conditions](start/filter-conditions.md)
+  + [Import data](start/import.md)
+  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
