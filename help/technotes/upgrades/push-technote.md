@@ -5,8 +5,6 @@ description: Push Notification Channel upcoming changes
 feature: Push
 role: Admin
 level: Experienced
-badge-v7: label="v7" type="Informative" tooltip="Also applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Applies to Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 ---
 # Push Notification Channel changes {#push-upgrade}

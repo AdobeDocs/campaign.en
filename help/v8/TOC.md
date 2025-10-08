@@ -111,6 +111,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
+    + [Work with filters](audiences/create-filters.md)
     + Add profiles {#add-profiles}
       + [Create profiles manually](audiences/create-profiles.md)
       + [Import profiles from a file](audiences/import-profiles.md)
@@ -120,7 +121,6 @@ breadcrumb-title: Campaign v8 Documentation
       + [Create test profiles](audiences/test-profiles.md)
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
-      + [Create and manage filters](audiences/create-filters.md)
       + [Share audiences with Adobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)

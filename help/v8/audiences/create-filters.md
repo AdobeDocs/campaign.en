@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
 ---
-# Create and manage filters{#create-filters}
+# Work with filters{#create-filters}
 
-Data filtering is the process of selecting a smaller part of your data set, only those records that match certain criteria, and using that subset for specific actions (updates, audiences creation) or analysis.
+Data filtering is the process of narrowing down a dataset to only those records that match specific criteria. This subset can then be used for targeted actions (such as updates or audience creation) or for analysis.
 
-When browsing Campaign from the **[!UICONTROL Explorer]**, the data is displayed in lists. You can use existing built-in filters to access a specific sub-set of this data: quarantined addresses, untargeted recipients, a specific age range or creation date for example.
+When browsing Campaign, data is displayed in lists. You can apply built-in filters to quickly access a defined subset, such as quarantined addresses, untargeted recipients, or records within a specific age range or creation date.
 
-You can also create your own filters, save them for future use or share them with other Campaign users. 
+In addition, you can create custom filters, save them for future use, and share them with other Campaign users.
 
-Filter configuration lets you select data from a list **[!UICONTROL dynamically]**: when the data is modified, the filtered data is updated.
+Filters are applied **dynamically**: whenever the data changes, the filtered results are automatically updated.
 
 >[!NOTE]
 >
@@ -23,7 +23,67 @@ Filter configuration lets you select data from a list **[!UICONTROL dynamically]
 
 The following types of filter are available in Adobe Campaign:
 
+* [Predefined filters](#predefined-filters)
+* [Quick filters](#quick-filters)
+* [Advanced custom filters](#advanced-filters)
+
 ## Predefined filters{#predefined-filters}
+
+### Predefined filters in the dashboards
+
+By default, Adobe Campaign displays all database records that the operator has permission to read. You can filter this data using the options available in the upper section of the browser window.
+
+![](assets/filter_web_zone.png)
+
+There are several ways of filtering the data to be displayed. If necessary, these can be used together.
+
+* Filter on folders, refer to [Filter by folder](#filter-by-folder),
+* Filter by status, refer to [Filter by status](#filter-by-status),
+* Data sorting, refer to [Order by](#order-by),
+* Search, refer to [Quick search](#quick-search).
+
+
+>[!BEGINTABS]
+
+>[!TAB Filter by folder] 
+
+To filter data based on their folder, click the **[!UICONTROL Folder]** icon and select the folder containing the data to display.
+
+![](assets/filter_web_select_folder.png)
+
+Only the profiles in the folder are displayed:
+
+![](assets/filter_web_folder_display.png)
+
+Use the cross to the right of the folder selection field to return to the default display mode.
+
+>[!TAB Filter by status] 
+
+Depending on the type of information displayed, you can apply a filter by status or by state. 
+
+For example for deliveries, you can choose to display only finished deliveries as shown below:
+
+![](assets/d_ncs_user_interface_filter_delivery.png)
+
+>[!TAB Order by] 
+
+You can select the sorting order of the data offered on pages via the drop-down list to the right of the 'per folder' filtering field. The content of this field depends on the type of data on the page.
+
+For example, you can sort tasks by priority, creation date, or alphabetical order.
+
+![](assets/order_data_sample.png)
+
+>[!TAB Quick search] 
+
+Use the search field to quickly access the item you are looking for: enter the characters included in the label or internal name of the item you want to display, then confirm to apply an automatic filter to the data on the page.
+
+![](assets/d_ncs_user_interface_filter_search.png)
+
+To display all items again, click on the cross to delete the content of the search field.
+
+>[!ENDTABS]
+
+### Predefined filters in the Explorer
 
 Predefined filters are available from the **Filters** button above each list.
 
@@ -46,7 +106,7 @@ Use the last tab to preview the filtered data.
 ![](assets/built-in-filter-preview.png)
 
 
-+++  Built-in predefined filters
++++  Built-in predefined filters for profiles
 
 <table> 
  <tbody> 
@@ -155,7 +215,7 @@ Use the last tab to preview the filtered data.
 
 +++
 
-### Default filters{#default-filters}
+#### Default filters{#default-filters}
 
 The fields above each list lets you use the **predefined default filter** for this list. For the recipient list, you can filter on the name and email address by default. 
 
@@ -185,7 +245,7 @@ Apply the following steps:
 
 ## Quick filters{#quick-filters}
 
-Use and combine **Quick filters** to define filters on specific fields. 
+You can set and combine **Quick filters** to build custom filters on specific fields. 
 
 Once added, quick filter fields are displayed above the data list, one after the other. They can be deleted independently of each other.
 
@@ -193,7 +253,7 @@ Quick filters are specific to each operator and are re-initialized each time the
 
 If you need to reuse a filter, create an **advanced filter** and save it. [Learn more](#advanced-filters).
 
-To create a **quick filter**, follow the steps:
+To create a **quick filter**, follow these steps:
 
 1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
 
@@ -210,7 +270,7 @@ To create a **quick filter**, follow the steps:
    ![](assets/add-filter-above-the-list.png)
 
 
-If you need to filer on a field which is not available in the form, it in the columns, and filter on that column. To do this,
+If you need to filter on a field which is not available in the form, but in the columns, and filter on that column. To do this,
 
 1. Click the **[!UICONTROL Configure list]** icon.
 
@@ -230,7 +290,7 @@ If you need to filer on a field which is not available in the form, it in the co
 
 ## Advanced filters{#advanced-filters}
 
-Combine complex criteria in **Advanced filters**. Use these filters to create a complex query or a combination of queries on your data. These filters can be saved and shared with other Campaign users.
+Combine complex criteria in custom **Advanced filters**. Use these filters to create a complex query or a combination of queries on your data. These filters can be saved and shared with other Campaign users.
 
 ### Create an advanced filter{#create-adv-filters}
 
@@ -349,5 +409,3 @@ Advanced parameters are available for predefined filters. To access them, browse
     * You can associate a SQL table with the filter to make it common to all editors that share the table.
     * To prevent any user from overriding the filter, select the **[!UICONTROL Do not restrict the filter]** option. For example, this option is active for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters which are available in the delivery wizard. These filters cannot be overloaded.
 
-
-### Operators
