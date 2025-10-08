@@ -33,7 +33,7 @@ You can find a sample of a recipient schema extension that shows this usage belo
 
 The main properties are:
 
-* **[!UICONTROL visibleIf]**: hides the fields from the metadata, hence they cannot be accessed within a schema view, or column selection, or an expression builder. But this does not hide any data, if the field name is manually entered in an expression the value will show up.
+* **[!UICONTROL visibleIf]**: hides the fields from the metadata, hence they cannot be accessed within a schema view, or column selection, or an [Expression builder](../../v8/start/filter-conditions.md#list-of-functions). But this does not hide any data, if the field name is manually entered in an expression the value will show up.
 * **[!UICONTROL accessibleIf]**: hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expresion as **[!UICONTROL accessibleIf]**.
 
 Here are the consequences of using this attribute in Campaign:

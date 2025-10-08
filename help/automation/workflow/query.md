@@ -46,7 +46,7 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    You can also add data grouping conditions by checking the corresponding box. To do this, the filtering dimension must be different to the query's targeting dimension. For more information on grouping, refer to this [section](query-grouping-management.md).
 
-   You can also add more criteria by using the Expression builder and combining it with the logical options AND, OR, and EXCEPT.
+   You can also add more criteria by using the [Expression builder](../../v8/start/filter-conditions.md#using-and--or--except) and combining it with the logical options AND, OR, and EXCEPT.
 
    Save your filter if you wish to re-use it later.
 
