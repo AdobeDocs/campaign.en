@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
 ---
-# View existing profiles{#view-profiles}
+# View existing profiles {#view-profiles}
 
 Browse to **[!UICONTROL Profiles and targets]** to access recipients stored in Adobe Campaign database. 
 
@@ -22,10 +22,10 @@ For more advanced profile manipulations, access the Campaign tree from the **[!U
 
 >[!CAUTION]
 >
->The built-in Recipient screen is define through a XML schema and its associated form. The XML schema is stored in the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign explorer tree. Only expert users may make changes to these schemas.  
+>The built-in Recipient screen is defined through a XML schema and its associated form. The XML schema is stored in the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign explorer tree. Only expert users may make changes to these schemas.  
 >
 
-## Edit a profile{#edit-a-profiles}
+## Edit a profile {#edit-a-profiles}
 
 Select a profile to display details in a new tab.
 

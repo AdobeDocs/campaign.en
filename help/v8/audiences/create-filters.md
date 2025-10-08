@@ -1,5 +1,5 @@
 ---
-title: Create filters in Adobe Campaign
+title: Work with filters in Adobe Campaign
 description: Learn how to filter your data and save filters in Campaign
 feature: Audiences, Profiles
 role: User
