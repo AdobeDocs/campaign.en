@@ -35,12 +35,7 @@ By default, Adobe Campaign displays all database records that the operator has p
 
 ![](assets/filter_web_zone.png)
 
-There are several ways of filtering the data to be displayed. If necessary, these can be used together.
-
-* Filter on folders, refer to [Filter by folder](#filter-by-folder),
-* Filter by status, refer to [Filter by status](#filter-by-status),
-* Data sorting, refer to [Order by](#order-by),
-* Search, refer to [Quick search](#quick-search).
+There are several ways of filtering the data to be displayed. If necessary, these can be used together. Browse the tabs below to learn more about filtering options.
 
 
 >[!BEGINTABS]
