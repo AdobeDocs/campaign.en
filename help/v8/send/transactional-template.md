@@ -80,7 +80,7 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Insert test data. [Learn more on personalization data in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data.html){target="_blank"}
+1. Insert test data. [Learn more on personalization data in Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
