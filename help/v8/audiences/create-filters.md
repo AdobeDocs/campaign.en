@@ -63,7 +63,7 @@ Depending on the type of information displayed, you can apply a filter by status
 
 For example for deliveries, you can choose to display only finished deliveries as shown below:
 
-![](assets/d_ncs_user_interface_filter_delivery.png)
+![](assets/filter_delivery.png)
 
 >[!TAB Order by] 
 
@@ -77,7 +77,7 @@ For example, you can sort tasks by priority, creation date, or alphabetical orde
 
 Use the search field to quickly access the item you are looking for: enter the characters included in the label or internal name of the item you want to display, then confirm to apply an automatic filter to the data on the page.
 
-![](assets/d_ncs_user_interface_filter_search.png)
+![](assets/filter_search.png)
 
 To display all items again, click on the cross to delete the content of the search field.
 
