@@ -410,9 +410,13 @@ If you are exporting a collection of elements (e.g. recipients' subscriptions, t
 
 ### Step 8 - Data preview {#step-8---data-preview}
 
-Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. By default, the first 200 lines are displayed. To change this value, click the arrows to the right of the **[!UICONTROL Lines to display]** field.
+Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. 
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#manage-and-customize-lists)
 
 Click the tabs at the bottom of the assistant to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
