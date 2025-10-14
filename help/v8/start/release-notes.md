@@ -46,7 +46,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Fixed an issue where the Real-Time Server returned an incorrect response code for invalid IMS tokens instead. (NEO-87428)
 * Fixed an issue where delivery statistics for Email and SMS were not fully recomputed, causing inaccurate success indicators. (NEO-88106)
 * Fixed an issue with the new SMS sending connector where delivery logs were incorrectly assigning delivery status for a small subset of messages. (NEO-89581)
-* Fixed an issue with the new SMS sending connector where success metrics on T-Mobile deliveries were not updating correctly on both marketing and mid servers. (NEO-89850)
+* Fixed an issue with the new SMS sending connector where success metrics deliveries were not updating correctly on both marketing and mid servers. (NEO-89850)
 * Fixed a synchronization issue between the Real-Time and Marketing instances which caused missing tracking logs and incorrect reporting. (NEO-90247)
 * Fixed a workflow enrichment issue which could cause errors when selecting fields across two consecutive 1-N links in custom schemas. (NEO-87682)
 
