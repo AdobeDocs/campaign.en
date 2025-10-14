@@ -143,7 +143,7 @@ To send direct messages to your followers, follow the steps below:
 
 >[!CAUTION]
 >
->You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
+>You cannot send more than 250 direct messages per day. To avoid exceeding this threshold, you can deliver in waves. For more on this, refer to this [section](configure-and-send.md#sending-using-multiple-waves).
 
 
 ## Access tracking data {#tw-tracking}

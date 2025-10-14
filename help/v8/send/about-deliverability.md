@@ -86,5 +86,4 @@ Adobe Campaign allows you to check how your deliveries are performing through a 
 For more on this, refer to the following sections:
 
 * [Monitor deliverability](monitoring-deliverability.md)
-* [Get started with delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 * [Get started with Campaign built-in reports](../reporting/built-in-reports.md)

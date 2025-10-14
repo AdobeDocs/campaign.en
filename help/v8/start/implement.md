@@ -81,7 +81,7 @@ Before starting sending messages and creating marketing campaigns, you need to:
 
    Learn how to configure a workflow template in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
    
-    Learn more about email templates in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target="_blank"}.
+    Learn more about email templates in this [page](../send/create-templates.md).
 
 
 1. **Configure typology rules**

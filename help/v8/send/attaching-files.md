@@ -24,7 +24,7 @@ There are two possible cases:
 
 >[!NOTE]
 >
->This type of configuration is generally carried out in the delivery templates. For more on this, refer to the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html).
+>This type of configuration is generally carried out in the delivery templates. For more on this, refer to this [page](../send/create-templates.md).
 
 ## Guardrails {#attachments-guardrails}
 

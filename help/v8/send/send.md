@@ -26,9 +26,6 @@ From the delivery dashboard, you can check the processed messages and delivery a
 >
 >Delivery statuses are not displayed in real-time. Learn more about Email Feedback Service [in this section](#email-feedback-service).
 
-
-[Learn more about delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
-
 ## Campaign MTA {#mta}
 
 Campaign v8 Mail Transfer Agent (MTA) provides a best-in-class sending infrastructure allowing for optimal deliverability, reputation, throughput, reporting, bounce handling, IP ramp up and connection setting management.
@@ -82,7 +79,7 @@ When the message is actually delivered to the targeted profiles and once this in
 
 When hard-bouncing messages get reported back from the MTA, their log status changes from **[!UICONTROL Taken into account by the service provider]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-When soft-bouncing messages get reported back from the MTA, their log status remains unchanged (**[!UICONTROL Taken into account by the service provider]**): only the [error reason](delivery-failures.md#delivery-failure-reasons) is updated<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
+When soft-bouncing messages get reported back from the MTA, their log status remains unchanged (**[!UICONTROL Taken into account by the service provider]**): only the [error reason](delivery-failures.md#delivery-failure-reasons) is updated<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. The **[!UICONTROL Success]** percentage remains unchanged. Soft-bouncing messages are then retried throughout the delivery [validity period](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels){target="_blank"}:
 
 * If a retry is successful before the end of the validity period, the message status changes to **[!UICONTROL Sent]** and the **[!UICONTROL Success]** percentage is increased accordingly.
 
