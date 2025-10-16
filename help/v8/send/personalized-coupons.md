@@ -5,7 +5,6 @@ description: Learn how to create and insert personalized coupons
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 ---
 # Personalized coupons{#personalized-coupons}
 
@@ -17,7 +16,7 @@ Adding coupons to your deliveries can give your recipients enhanced value for pr
 
 Coupon management relies on a package which must be installed. To confirm that you have Coupon management, check **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
-Coupon data can be imported and exported using CSV and XML formats. [Learn more](../../platform/using/get-started-data-import-export.md).
+Coupon data can be imported and exported using CSV and XML formats. [Learn more](../start/import.md).
 
 ## Create a coupon {#creating-a-coupon}
 
@@ -52,7 +51,7 @@ Before following the steps below, make sure that you know the type of coupon you
 
    >[!NOTE]
    >
-   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../../platform/using/get-started-data-import-export.md).
+   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../start/import.md).
 
 ### Configure individual coupons {#configuring-individual-coupons}
 
@@ -69,8 +68,7 @@ Values for **[!UICONTROL status]**, **[!UICONTROL channel]**, and **[!UICONTROL 
 
 ## Insert a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
-In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](about-email-channel.md). You can also add a coupon to a delivery in a workflow.
-
+In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](email.md)
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]**.
 1. Click **[!UICONTROL Create]**.
 
@@ -144,9 +142,9 @@ To confirm that the delivery was successful:
 
 >[!NOTE]
 >
->By default, the coupon management module uses an **nms:recipient** table. [Learn more](../../configuration/using/about-data-model.md#default-recipient-table).
+>By default, the coupon management module uses an **nms:recipient** table. [Learn more](../dev/datamodel.md#ootb-profiles).
 >
->Learn how to use a custom recipient table [in this page](../../configuration/using/about-custom-recipient-table.md).
+>Learn how to use a custom recipient table [in this page](../dev/custom-recipient.md).
 
 ## Manage insufficient coupons {#managing-insufficient-coupons}
 
