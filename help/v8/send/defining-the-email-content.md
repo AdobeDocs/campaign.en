@@ -134,7 +134,7 @@ You can insert emoticons to your email content.
 
 1. Click the **[!UICONTROL Close]** button when done.
 
-To customize the emoticon list, refer to the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html).
+To customize the emoticon list, refer to this [page](customizing-emoticon-list.md).
 
 ## Add images {#adding-images}
 

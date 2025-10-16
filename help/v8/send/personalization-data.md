@@ -4,6 +4,7 @@ description: Learn what sources can be used for personalization
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 711256e2-ab77-404a-b052-6793a85da193
 ---
 # Personalization data sources{#personalization-data}

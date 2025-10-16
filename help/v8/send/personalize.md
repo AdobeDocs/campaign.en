@@ -4,6 +4,7 @@ description: Learn how to personalize message content
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
 ---
 # Get started with personalization {#personalize-content}

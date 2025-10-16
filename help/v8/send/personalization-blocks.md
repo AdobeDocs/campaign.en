@@ -4,6 +4,7 @@ description: Learn how to use built-in personalization blocks in your message co
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 ---
 # Use personalization blocks{#personalization-blocks}
