@@ -86,6 +86,9 @@ breadcrumb-title: Campaign v8 Documentation
     + [Add personalization fields](send/personalization-fields.md)
     + [Use personalization blocks](send/personalization-blocks.md)
     + [Create conditions](send/conditions.md)
+    + [Personalized coupons](send/personalized-coupons.md)
+    + [Generate personalized PDF documents](send/generating-personalized-pdf-documents.md)
+    + [Customize the emoticon list](send/customizing-emoticon-list.md)
   + Validate & send your delivery {#validate}
     + [Preview and proofs](send/preview-and-proof.md)
     + [Delivery analysis](send/delivery-analysis.md)
