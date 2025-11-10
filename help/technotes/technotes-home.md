@@ -10,6 +10,7 @@ exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 
 Find latest Campaign technotes in this section. These technotes apply to Campaign v8. 
 
+<!--
 >[!BEGINTABS]
 
 >[!TAB Push Notification Channel changes] 
@@ -27,6 +28,7 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
 [![image](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
+-->
 
 ## Explore the documentation
 

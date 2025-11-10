@@ -30,7 +30,7 @@ _July 9, 2025_
 
 Previously released for a small set of customers, the following capability is now available to all Campaign FDA environments:
 
-* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md)
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. Contact Adobe if you would like to transition to the new connector. [Read more](../send/sms/sms.md)
 
     >[!NOTE]
     >

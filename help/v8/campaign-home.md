@@ -25,13 +25,13 @@ Experience the new Adobe Campaign User Interface. More modern, intuitive and dyn
 
 [![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
 
-
+<!--
 >[!TAB Push channel upcoming changes] 
 
 Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.
 
 [![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
-
+-->
 
 
 >[!ENDTABS]

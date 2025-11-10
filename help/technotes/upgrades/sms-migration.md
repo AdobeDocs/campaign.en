@@ -3,6 +3,8 @@ title: Moving to the new SMS connector v2
 description: Learn how to move to the new SMS connector v2
 feature: Technote
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
 ---
 # Moving to the new SMS connector v2

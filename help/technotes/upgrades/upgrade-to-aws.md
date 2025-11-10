@@ -1,6 +1,8 @@
 ---
 title: Campaign Email Sending Infrastructure Upgrade
 description: Campaign Email Sending Infrastructure Upgrade
+hide: yes
+hidefromtoc: yes
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
 ---
 # Campaign Email Sending Infrastructure Upgrade {#migrate-infra-to-aws}
