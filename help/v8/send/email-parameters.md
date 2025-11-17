@@ -70,6 +70,33 @@ Each of these fields can be personalized using the dedicated icon. Learn more on
 
 For more on bounce mail management, see [this section](delivery-failures.md#bounce-mail-management).
 
+## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
+
+The one-click list unsubscribe URL is an unsubscribe link or button displayed next to the email sender information, and lets recipients instantly opt out of your mailing lists with a single click.
+
+This header can be used as an alternative to the "Report as SPAM" icon. It displays as an "Unsubscribe" link in the ISPs' email interfaces.
+
+Using this functionality lowers complaint rates and helps to protect your reputation. Feedback will be executed as an unsubscribe.
+
+>[!IMPORTANT]
+>
+>To display the one-click unsubscribe URL in the email header, the recipients' email client must support this feature.
+
+To enable One-click List-unsubscribe, check the Addition of **[!UICONTROL One-click List-Unsubscription Header]** option.
+
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.
+
+Depending on the email client, clicking the unsubscribe link in the email header can have the following impacts:
+
+* The unsubscribe request sends a pre-filled email to the unsubscribe address specified in the email header ("mailto" List-Unsubscribe).
+* The recipient is directly opted-out ("One-Click" List-Unsubscribe).
+
+>[!CAUTION]
+>
+>Major ISPs are requiring senders to comply with One-Click List-Unsubscribe.
+
 ## Add SMTP headers {#adding-smtp-headers}
 
 It is possible to add SMTP headers to your deliveries. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
