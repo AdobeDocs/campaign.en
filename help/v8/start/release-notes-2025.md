@@ -93,7 +93,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
     >
     >This feature is **not** available for [Campaign FFDA deployments](../architecture/enterprise-deployment.md).
 
-* **One-Click List-Unsubscribe** - Major ISPs requiring senders to allow recipients to instantly opt out with a single click, you can now enable the One-Click List-Unsubscribe header in the user interface, directly from the email template or delivery properties. This option is enabled by default. [Read more](../send/email-parameters.md#one-click-list-unsubscribe)
+* **One-Click List-Unsubscribe** - With major ISPs requiring senders to allow recipients to instantly opt out with a single click, you can now enable the One-Click List-Unsubscribe header in the user interface, directly from the email template or delivery properties. This option is enabled by default. [Read more](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
