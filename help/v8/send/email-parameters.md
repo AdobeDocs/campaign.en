@@ -105,7 +105,9 @@ Depending on the email client and the method they are using to perform opt-out, 
   >
   >Major ISPs such as Google and Yahoo! are requiring senders to comply with **One-Click List-Unsubscribe**.
 
-* If the email client does not support One-Click List-Unsubscribe, they can still use the **Mailto** List-Unsubscribe method, which sends a pre-filled email to the unsubscribe address specified in the email header.
+* If the email client does not support One-Click List-Unsubscribe, they can still use the **"mailto"** List-Unsubscribe method, which sends a pre-filled email to the unsubscribe address specified in the email header.
+
+  You can set the address explicitly in the header or use a dynamic address (e.g. using <%=errorAddress%> or the option 'NmsEmail_DefaultErrorAddr') which can be set via the deployment wizard.
 
 >[!NOTE]
 >
