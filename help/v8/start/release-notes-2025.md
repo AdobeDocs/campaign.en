@@ -93,6 +93,8 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
     >
     >This feature is **not** available for [Campaign FFDA deployments](../architecture/enterprise-deployment.md).
 
+* **One-Click List-Unsubscribe** - Major ISPs requiring senders to allow recipients to instantly opt out with a single click, you can now enable the One-Click List-Unsubscribe header in the user interface, directly from the email template or delivery properties. This option is enabled by default. [Read more](../send/email-parameters.md#one-click-list-unsubscribe)
+
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
 * **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
