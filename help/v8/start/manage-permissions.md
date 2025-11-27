@@ -4,6 +4,7 @@ description: Learn how to grant permissions to Campaign v8 users
 feature: Permissions
 role: User, Admin
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 ---
 # Manage user permissions{#manage-permissions}
