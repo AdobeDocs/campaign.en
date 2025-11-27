@@ -1381,92 +1381,216 @@ Configure your Campaign instance with the right settings, integrations, and conf
 
 +++ Can I change the language of Campaign interface?
 
-Campaign language is selected when creating the instance. You cannot change it afterwards. For more on this, refer to [this section](../start/connect.md).
+It depends on which interface you're using. The **client console** language is fixed, but the **Campaign Web UI** allows individual users to change their language preferences.
 
-Adobe Campaign user interface is available in multiple languages: English, French, German, Japanese, and more. Please note that the client console and the server must be set with the same language. Each Campaign instance can only run in one language.
+**Client Console (Desktop Application):**
 
-For English, when installing Campaign, you can select either US English or UK English: they differ on date and time formats.
+* Language is set when your instance is created and cannot be changed
+* The client console and server must use the same language
+* Each Campaign instance operates in a single language
+* For English installations, you can choose between US English or UK English (they differ in date and time formats)
+
+**Campaign Web UI:**
+
+* Users can change their interface language independently through their profile preferences
+* Multiple languages are supported with locale-specific formatting for dates, times, and numbers
+* Your Web UI language preference is independent of your Campaign server and client console language
+
+
+[Change language in Campaign Web UI](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Get started with Campaign client console](connect.md)
 
 +++
 
 +++ Can I use Campaign v8 with other Adobe solutions?
 
-You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience.
+Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to create a powerful, unified marketing ecosystem. As a Managed Cloud Service, v8 is designed for native integration with Adobe's enterprise applications.
 
-[Learn how to work with other Adobe solutions](../connect/integration.md) and [how to set up IMS in Campaign](../start/connect.md).
+**Key integrations available:**
+
+* **Adobe Experience Platform** - Leverage unified customer profiles and real-time data
+* **Adobe Analytics** - Measure campaign performance and customer behavior across channels
+* **Adobe Target** - Personalize content based on customer segments and behavior
+* **Adobe Experience Manager** - Centralize content creation and asset management
+* **Adobe Audience Manager** - Build and activate audience segments across platforms
+
+**Benefits:** Unified customer data, consistent user experiences, streamlined workflows, and enhanced personalization capabilities.
+
+**Setup:** Integration with Adobe solutions requires Adobe Identity Management System (IMS) authentication, automatically configured for Campaign v8 Managed Cloud Services.
+
+[Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
 
 +++
 
 +++ How can I set up tracking capabilities on my Campaign instance?
 
-As an experienced user, you can configure tracking capabilities on your Campaign instance.
+Campaign v8 provides comprehensive tracking to monitor recipient interactions with your messages. Tracking requires proper configuration of your instance and message settings.
 
-[Learn more](../start/tracking.md).
+**What you can track:**
+
+* **Email opens** - Via tracking pixel (1x1 transparent image)
+* **Link clicks** - All URLs automatically converted to tracked links
+* **Unsubscribes** - Opt-out link tracking
+* **Mirror page views** - When recipients view the web version
+* **Custom parameters** - Add tracking data to URLs for advanced analysis
+
+**Key configuration steps:**
+
+1. Configure tracking server URL in your instance settings (managed by Adobe for v8)
+2. Enable tracking in delivery properties
+3. Set up tracking for individual links or all links automatically
+4. Define tracking validity period and log retention
+
+**Best practice:** Always test tracking with proofs before sending to your main audience to ensure links work correctly and data is captured.
+
+[Track and monitor deliveries](tracking.md) | [Configure tracked links](../send/email.md)
 
 +++
 
 +++ How to configure email deliverability?
 
-In addition to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}, review the deliverability technical recommendations to understand how to configure your instance in order to maximize Campaign delivering capabilities.
+Email deliverability depends on technical configuration, content quality, and sender reputation. Campaign v8 provides tools and settings to optimize inbox placement.
 
-[Learn more](../send/about-deliverability.md).
+**Essential configuration steps:**
 
-+++
+* **Domain authentication** - Set up SPF, DKIM, and DMARC records to verify your sending domain
+* **IP warming** - Gradually increase sending volume on new IPs to build reputation
+* **Sender configuration** - Use consistent, recognizable sender addresses and names
+* **Bounce management** - Configure quarantine rules to handle hard and soft bounces automatically
+* **Feedback loops** - Set up complaint handling to manage spam reports
 
-+++ How can I implement content approval?
+**Content best practices:**
 
-Campaign lets you set up approval processes for the main steps of the marketing campaign, in collaborative mode. For each campaign you can approve the delivery target, contents and costs. Adobe Campaign operators in charge of approval can be notified by email and can accept or reject approval from the console or via a Web connection.
+* Test emails with SpamAssassin to check spam score
+* Maintain proper text-to-image ratio
+* Include plain text version alongside HTML
+* Always provide unsubscribe link
+* Avoid spam trigger words and excessive capitalization
 
-[Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"} and discover steps to implement your delivery content approval in Campaign.
+**Monitoring:** Use Campaign's deliverability reports to track bounce rates, complaint rates, and inbox placement. For Campaign v8, Adobe provides infrastructure-level deliverability optimization.
 
-+++
-
-+++ How can I access data stored in an external database?
-
-Adobe Campaign provides the Federated Data Access (FDA) option in order to process information stored in one or more external databases: you can access external data without changing the structure of Adobe Campaign data.
-
-[Learn more](../connect/fda.md).
+[About deliverability in Campaign](../send/about-deliverability.md) | [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
 +++
 
 +++ Which external databases can I connect Campaign to?
 
-External database compatible with Campaign through Federated Data Access (FDA) are listed in the [Compatibility matrix](compatibility-matrix.md).
+Campaign v8 supports Federated Data Access (FDA) connections to major enterprise database systems, enabling you to leverage existing data infrastructure.
+
+**Supported databases:**
+
+* **Cloud databases:** Amazon Redshift, Google BigQuery, Snowflake, Azure Synapse Analytics
+* **Enterprise databases:** Oracle, Microsoft SQL Server, PostgreSQL, MySQL
+* **Data warehouses:** Teradata, Vertica, SAP HANA
+* **Big data:** Hadoop via Hive
+
+**Platform-specific considerations:** Supported database versions and connection requirements vary. Campaign v8 as a Managed Cloud Service may have specific network and security requirements for external database access.
+
+**Important:** Always check the official compatibility matrix for your Campaign v8 version to confirm support for specific database versions and ensure proper licensing for external database connectors.
+
+[Compatibility matrix](compatibility-matrix.md) | [Configure FDA connections](../connect/fda.md)
 
 +++
 
 +++ Can Adobe Campaign integrate with CRM systems?
 
-Adobe Campaign provides various CRM connectors for linking your Adobe Campaign platform to your third-party systems. These CRM connectors enable you to synchronize contacts, accounts, purchases, etc. They make for easy integration of your application with various third-party and business applications.
+Yes. Campaign provides native CRM connectors for seamless bidirectional synchronization between Campaign and your CRM system, ensuring consistent customer data across platforms.
 
-These connectors enable quick and easy data integration: Adobe Campaign provides a dedicated assistant for collecting and selecting from the tables available in the CRM. This guarantees two-directional synchronization to make sure data is up-to-date at all times throughout the systems.
+**Supported CRM systems:**
 
-[Learn more](../connect/crm.md) about how to synchronize your CRM tool with Adobe Campaign.
+* **Salesforce** - Leads, contacts, accounts, opportunities, campaigns
+* **Microsoft Dynamics 365** - Contacts, accounts, leads, custom entities
+* Other CRMs via custom API integrations
+
+**What syncs:**
+
+* **From CRM to Campaign:** Contact records, account information, leads, custom fields, segmentation data
+* **From Campaign to CRM:** Delivery logs, tracking data, engagement metrics, campaign responses, subscription status
+
+**Synchronization modes:**
+
+* **Scheduled** - Automatic sync at defined intervals (hourly, daily)
+* **Manual** - On-demand sync triggered by operators
+* **Real-time** - Via API for immediate updates (custom development)
+
+**Configuration:** Use Campaign's built-in CRM connector assistant to map CRM fields to Campaign attributes, select tables to sync, and schedule synchronization. The connector handles conflict resolution and maintains data consistency.
+
+**Best practice:** Start with read-only sync to test mapping, then enable bidirectional sync. Monitor sync logs for errors and maintain clean data in both systems.
+
+[CRM connector configuration](../connect/crm.md) | [Workflow CRM activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
 +++ How do I clear the client console cache?
 
-If you have issues such as new logos not being reflected correctly, or issues with exporting data, you might need to clear the client console cache.
+Clearing the client console cache resolves many common display and functionality issues. The cache stores local configuration files that can sometimes become corrupted or outdated.
 
-Sign out and close the client console. Navigate to the following location based on your operating system:
+**When to clear cache:**
 
-* Windows: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
-* Mac: `~/Library/Application Support/Neolane/NL_5/`
+* New branding elements (logos, colors) not displaying correctly
+* Export/import functions failing unexpectedly
+* Interface elements not updating after configuration changes
+* Performance issues or slow console response
+* After upgrading to a new client console version
 
-Delete the XML configuration files (keeping `nlclient_cnx.xml`), then log back in to the client console.
+**Steps to clear cache:**
+
+1. Open the Campaign client console
+2. Go to **[!UICONTROL File]** menu
+3. Select **[!UICONTROL Clear the local cache...]**
+4. Confirm the action when prompted
+5. Restart the client console
+
+
+
+[Install and configure client console](connect.md)
 
 +++
 
 +++ Can I configure user interface settings?
 
-Yes, as an administrator, you can customize Campaign UI settings for your users. [Learn more](../config/ui-settings.md).
+Yes. Campaign administrators can customize the user interface to match organizational branding and optimize user experience. Configure settings at the instance or user level.
+
+**What you can customize:**
+
+* **Branding** - Logo, colors, and visual identity elements
+* **Default views** - Home page layout, folder structure visibility
+* **List configurations** - Default columns, sort order, filters in data lists
+* **Navigation** - Available menu items and shortcuts
+* **Regional settings** - Date/time formats, number formats, time zones
+* **Notifications** - Email alerts, in-app notifications, workflow alerts
+
+**Configuration levels:**
+
+* **Instance-wide** - Apply to all users (requires administrator rights)
+* **User-specific** - Individual preferences and personal settings
+* **Operator group** - Settings inherited by all group members
+
+
+[Configure UI settings](../config/ui-settings.md) | [User permissions](gs-permissions.md)
 
 +++
 
 +++ Can I create custom fields and tables?
 
-Yes, Campaign v8 allows you to extend the data model with custom fields and tables. Learn how to [extend schemas](../dev/extend-schema.md).
+Yes. Campaign's flexible data model allows you to extend built-in schemas with custom fields and create entirely new tables to meet your specific business needs.
+
+**What you can customize:**
+
+* **Add fields to existing tables** - Extend recipient table with loyalty points, custom preferences, external IDs
+* **Create new custom tables** - Store products, transactions, loyalty tiers, custom entities
+* **Define relationships** - Link custom tables to existing Campaign tables
+* **Extend forms** - Update UI to display and edit custom fields
+
+**Common use cases:**
+
+* Store additional profile attributes (customer lifetime value, preferred store, VIP status)
+* Manage product catalogs with custom attributes
+* Track custom events and interactions
+* Integrate external system IDs for data synchronization
+* Build industry-specific data models (retail, finance, travel)
+
+
+[Extend data model](../dev/extend-schema.md) | [Schema structure](../dev/schemas.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
 +++
 
