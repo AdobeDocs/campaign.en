@@ -23,7 +23,7 @@ For additional tips to optimize deliverability when designing content, see the [
 
 >[!NOTE]
 >
->For more information on editing email content, see [Define the email content](defining-the-email-content.md).
+>For more information on editing email content, see this [page](defining-the-email-content.md).
 
 ## Sender address {#sender-address}
 
@@ -31,7 +31,7 @@ Certain ISPs check the validity of the sender address (**[!UICONTROL From]**) be
 
 You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > deployment wizard...]**) or in the most frequently-used scenarios.
 
-For more on defining the address of the sender, see [this page](defining-the-email-content.md#sender).
+For more on defining the address of the sender, see this [page](defining-the-email-content.md#sender).
 
 ## Personalization {#personalization}
 

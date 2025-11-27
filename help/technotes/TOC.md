@@ -11,7 +11,6 @@ breadcrumb-title: Campaign technotes
 
 + [Campaign technotes](technotes-home.md)
 + Upgrades{#tn-new}
-  + [SMS connector migration](upgrades/sms-migration.md)  
   + [Push Notification Channel changes](upgrades/push-technote.md)  
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operators to Developer Console](upgrades/ims-migration.md)

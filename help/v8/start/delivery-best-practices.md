@@ -406,9 +406,6 @@ To control your campaigns, you must ensure that the message has indeed been deli
 
 From Campaign delivery dashboard, you can check the processed messages and delivery audit logs. You can also control the status of the messages in the delivery logs.
 
-[Learn more about delivery monitoring in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
-
-
 ## Track behaviour {#track-behaviour}
 
 To better know the behavior of your recipients, you can track how they react to a delivery: reception, opening, clicks on links, unsubscriptions, etc. In Campaign, this information is displayed in the **Tracking** tab of the recipients targeted by the delivery and in the Tracking tab of the delivery.

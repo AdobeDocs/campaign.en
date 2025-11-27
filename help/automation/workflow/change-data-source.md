@@ -23,6 +23,10 @@ Note that when using the **[!UICONTROL Change Data Source]** activity, you need 
 >
 >Please note that the **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row. If you need to use both activities consecutively, make sure you include an **[!UICONTROL Enrichement]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
 
+>[!NOTE]
+>
+>The **Change Data Source** activity can process a maximum of one million records per execution. Contact your Adobe representative if you need to increase this limit.
+
 To use the **[!UICONTROL Change Data Source]** activity, you must:
 
 1. Create a workflow.

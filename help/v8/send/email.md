@@ -94,7 +94,7 @@ Learn how to create a workflow to import an email content in this [use case](htt
 >* [Select the audience of your email](../audiences/gs-audiences.md)
 >* [Validate a delivery and send proofs](preview-and-proof.md)
 >* [Configure and send the delivery](configure-and-send.md)
->* [Delivery best practices](../start/delivery-best-practices.md)
+>* [Delivery best practices](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## Test and validate your emails
 

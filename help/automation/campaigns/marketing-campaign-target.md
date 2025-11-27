@@ -13,7 +13,7 @@ In a marketing campaign, for each delivery, you can define:
 
 * The target audience. You can send messages to a [list of recipient](#send-to-a-group) or build an [audience in a workflow](#build-the-main-target-in-a-workflow)
 * A control group. You can [add a control group](#add-a-control-group) to monitor recipients behavior after message delivery
-* Seed addresses - Learn more in [this section](../../v8/audiences/test-profiles.md).-->
+* Seed addresses - Learn more in [this section](../../v8/audiences/test-profiles.md).
 
 Some of this information can be inherited from the [campaign template](marketing-campaign-templates.md#campaign-templates).
 
@@ -170,6 +170,10 @@ The toolbar icons let you take action concerning the execution of the targeting 
 A control group is a population which will not receive the delivery; it is used to track post-delivery behavior and campaign impact by making a comparison with the behavior of target population, which has received the delivery.
 
 The control group can be extracted from the main target and/or come from a specific group or query.
+
+>[!CAUTION]
+>
+>You cannot use control groups when loading the target population from an external file.
 
 ### Activate the control group for a campaign {#activate-the-control-group-for-a-campaign}
 

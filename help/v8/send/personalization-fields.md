@@ -4,6 +4,7 @@ description: Learn how to insert personalization data in your message content
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 ---
 # Add personalization fields{#personalization-fields}
