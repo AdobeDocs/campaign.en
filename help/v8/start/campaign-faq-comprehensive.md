@@ -235,7 +235,7 @@ A workflow can also involve one or more operators to be notified or who can make
 
 **Related topics:**
 
-* [Get started with workflows](config/workflows.md)
+* [Get started with workflows](../config/workflows.md)
 * [Build your first workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}
 * [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 * [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
@@ -1660,7 +1660,7 @@ Connect with other Campaign users and Adobe experts to share knowledge and get a
 
 Access comprehensive guides, tutorials, and training materials.
 
-* **[Campaign v8 Documentation Home](campaign-home.md)** - Complete product documentation
+* **[Campaign v8 Documentation Home](../campaign-home.md)** - Complete product documentation
 * **[Campaign Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}** - Step-by-step video guides and hands-on tutorials
 * **[What's New](whats-new.md)** - Latest features and capabilities
 * **[Release Notes](release-notes.md)** - Current and previous release information
