@@ -678,7 +678,7 @@ Campaign offers personalization capabilities to create relevant, targeted messag
 
 **Personalization options:**
 
-* **Personalization fields** - Insert recipient data (e.g., "Hello {{firstName}}")
+* **Personalization fields** - Insert recipient data (e.g., `"Hello {{firstName}}")`
 * **Personalization blocks** - Use predefined or custom content blocks
 * **Conditional content** - Display different content based on recipient criteria
 * **Behavioral data** - Leverage browsing history, purchase patterns, or engagement metrics
