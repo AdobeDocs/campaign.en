@@ -32,7 +32,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Components and processes](start/ac-components.md)
   + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
-  + [FAQ](start/campaign-faq.md)
+  + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
@@ -226,7 +226,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
   + [Campaign data model](dev/datamodel.md)
-  + Schemas & forms {#shemas-forms}
+  + Schemas & forms {#schemas-forms}
     + [Work with schemas](dev/schemas.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
@@ -258,7 +258,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Retrieving profiles](dev/api/retrieving-profiles.md)
       + [Updating profiles](dev/api/updating-profiles.md)
       + [Creating profiles](dev/api/creating-profiles-api.md)
-    + Managing services and subscription {#managing-services-and-subscriptiopns}
+    + Managing services and subscription {#managing-services-and-subscriptions}
       + [Creating a service](dev/api/creating-a-service.md)
       + [Retrieving subscriptions](dev/api/retrieving-subscriptions.md)
       + [Perform subscriptions](dev/api/perform-subscriptions.md)
