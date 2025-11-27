@@ -33,6 +33,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
+  + [Frequently Asked Questions](start/campaign-faq.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)

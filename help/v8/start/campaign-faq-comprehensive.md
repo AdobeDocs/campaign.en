@@ -111,7 +111,7 @@ Adobe Campaign comes with a set of dashboards and tools to monitor your email de
 
 +++ Can I monitor workflow execution?
 
-Understand how to monitor Campaign workflow execution [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution)
+Understand how to monitor Campaign workflow execution [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}
 
 +++
 
@@ -135,7 +135,7 @@ Learn more about the Distribution Center [on this page](https://experienceleague
 
 Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
 
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}. 
+To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}. 
 
 This system requires individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
