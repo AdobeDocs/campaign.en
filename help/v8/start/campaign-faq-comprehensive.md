@@ -1600,57 +1600,158 @@ Get insights into Campaign's reporting capabilities, including built-in reports,
 
 +++ How can I create new reports?
 
-In addition to built-in reports, Adobe Campaign lets you generate reports in various contexts and to meet different needs.
+Campaign offers multiple reporting options depending on your needs and technical expertise. You can use built-in reports, create custom reports in the client console, or design visual dashboards in the Campaign Web UI.
 
-Adobe Campaign is not a specialized reporting tool: reports created in Adobe Campaign mainly enable you to view aggregated data.
+**Reporting options:**
 
-[Learn more](../reporting/gs-reporting.md) about Campaign reporting capabilities.
+* **Built-in reports** - Ready-to-use delivery, campaign, and tracking reports accessible from the **[!UICONTROL Reports]** tab
+* **Descriptive analysis** - Quick statistical reports on any data with a wizard-driven interface
+* **Custom reports** - Advanced reports built by technical users using the reporting editor
+* **Web UI dashboards** - Modern visual reports and dashboards with drag-and-drop interface
+* **Cubes** - Multi-dimensional data exploration and pivot table analysis
+
+**Important:** Campaign is designed for marketing operations reporting, not as a specialized business intelligence tool. For complex analytical needs, consider integrating with Adobe Analytics or dedicated BI platforms.
+
+[Get started with reporting](../reporting/gs-reporting.md) | [Campaign Web UI reports](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
 +++ How can I design and share statistic reports on populations?
 
-Adobe Campaign [descriptive analysis reports](../reporting/built-in-reports.md) allow you to design and share statistic reports on your populations.
+Use Campaign's descriptive analysis tool to quickly generate statistical reports on any population data. This wizard-driven feature helps you analyze distributions, trends, and patterns without technical expertise.
 
-[Learn more](../reporting/built-in-reports.md).
+**What you can analyze:**
+
+* Recipient demographics and segmentation breakdowns
+* Campaign performance metrics and response rates
+* Distribution of profile attributes (age, location, preferences)
+* Delivery statistics and engagement patterns
+* Custom field values and data quality metrics
+
+**How to create:** Select any list or query result → Right-click → **[!UICONTROL Actions > Analyze]** → Choose analysis type (qualitative or quantitative) → Configure display options → Generate report.
+
+**Sharing:** Export reports to Excel/PDF or save them to the **[!UICONTROL Reports]** folder for team access with appropriate permissions.
+
+[Descriptive analysis](../reporting/built-in-reports.md)
 
 +++
 
 +++ How can I design advanced reports on my data?
 
-With Campaign v8, you can [create advanced reports](../reporting/custom-reports.md). As an expert user, you will be able to build, update and distribute custom reports on your data.
+Campaign offers two approaches for creating advanced custom reports: technical reports in the client console for complex analysis, and visual dashboards for easier report building.
 
-You can also use the Campaign Web user interface to create reports and dashboards. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}.
+In the Client Console, you can:
+
+* Build complex reports using SQL queries and custom calculations
+* Create multi-page reports with charts, tables, and pivot tables
+* Design conditional formatting and dynamic content
+* Access the full Campaign data model and external databases (FDA)
+
+
+[Create custom reports (client console)](../reporting/custom-reports.md) 
 
 +++
 
-+++ What is a cube and how to create such a report?
++++ What is a cube and how can I use it for reporting?
 
-You can extend the database exploration and analysis capacities while making it easier for final users to configure reports and tables: all they need to do is select an existing (fully configured) cube when creating their report or table to process calculations, measures and statistics.
+Cubes are multi-dimensional data structures that enable business users to explore and analyze Campaign data through pivot tables without technical skills. Think of them as pre-configured data models that simplify complex reporting.
 
-Once they have been created and configured, cubes are used in report query boxes and Web applications. They can be used and manipulated within pivot tables.
 
-Learn how to [explore your data](../reporting/gs-cubes.md) with cubes.
+* Technical users create and configure cubes defining dimensions (time, geography, channels) and measures (opens, clicks, revenue)
+* Business users select a cube when creating reports and drag-and-drop dimensions to explore data
+* Data is automatically aggregated and calculated based on cube configuration
+* Results can be displayed as pivot tables, charts, or exported to Excel
+
+
+[Explore data with cubes](../reporting/gs-cubes.md)
 
 +++
 
 +++ Can I create a report from answers to an online survey?
 
-Campaign v8 does not have a built-in survey feature. You can use Adobe Experience Manager or other web solutions for creating surveys. 
+Yes! Campaign includes a Survey module that allows you to create online questionnaires and generate built-in reports on survey responses.
 
-However, you can use reporting capabilities to analyze any collected data and create custom reports.
+>[!AVAILABILITY]
+>
+>Survey management is not available in Campaign v8 Enterprise (FFDA) deployments. [Learn more](../architecture/enterprise-deployment.md).
+
+**Survey capabilities:**
+
+* Create online questionnaires with multiple pages and question types
+* Collect responses in the database or local variables
+* View real-time tracking of survey responses
+* Generate dedicated reports on survey answers (breakdown by question, general statistics)
+* Export survey responses to Excel, PDF, or CSV for further analysis
+* Use survey data in targeting workflows to personalize campaigns
+
+**Built-in survey reports:**
+
+* **General report** - Response trends over time, distribution by origin and language
+* **Breakdown of responses** - Detailed breakdown of answers for each question
+* **Documentation report** - Visual representation of survey structure
+
+**Advanced analysis:**
+
+* Access survey responses from the **[!UICONTROL Responses]** tab and export data
+* Use **[!UICONTROL Survey responses]** activity in workflows to target recipients based on their answers
+* Combine survey data with other Campaign data for segmentation and personalization
+* Create custom reports and cubes for multi-dimensional survey analysis
+
+
+[Get started with surveys](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Survey reports](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
-+++ How can I share access to my report in Campaign interface?
++++ How can I share access to my reports?
 
-You can define in which context your report will be displayed in the Adobe Campaign UI. For more on report access, refer to [this section](../reporting/custom-reports.md).
+Campaign provides flexible options for sharing reports with different user groups, controlling visibility and access permissions based on roles and responsibilities.
+
+**Report access control:**
+
+* **Folder permissions** - Place reports in folders with appropriate read/write access for user groups
+* **Named rights** - Assign specific rights to view, create, or modify reports
+* **Display context** - Define where reports appear: in **[!UICONTROL Reports]** folder, campaign tabs, or delivery screens
+* **Web UI sharing** - Share dashboard links with team members through the Campaign Web UI
+
+**How to configure access:**
+
+1. Save your report to a specific folder in the client console
+2. Configure folder access permissions for relevant operator groups
+3. Define report properties: report type, display context, and availability
+4. Test access with a user from the target group before broader rollout
+
+**Best practice:** Create dedicated report folders for different teams (marketing, operations, management) with tailored access permissions. Document report purpose and refresh schedules.
+
+[Custom reports](../reporting/custom-reports.md) | [User permissions](gs-permissions.md)
 
 +++
 
 +++ Can I export reports in different formats?
 
-Yes, you can export Campaign reports in different formats such as Excel, PDF, or CSV. [Learn more](../reporting/custom-reports.md).
+Yes, Campaign supports multiple export formats for both client console and Web UI reports, enabling easy sharing with stakeholders and integration with other tools.
+
+**Available export formats:**
+
+* **Excel (.xlsx)** - Best for data manipulation, further analysis, and pivot tables
+* **PDF** - Ideal for presentations, executive summaries, and printed reports
+* **CSV** - Perfect for data imports into other systems and BI tools
+* **OpenDocument (.ods)** - Open-source spreadsheet format
+* **XML** - For system integrations and automated processing
+
+**How to export:**
+
+* **Client console:** Open report → Click **[!UICONTROL Export]** button → Choose format → Save file
+* **Web UI:** Open dashboard → Click export icon → Select format → Download
+* **Automated exports:** Schedule regular exports using workflows with export activities
+
+**Best practices:**
+
+* Use Excel for reports requiring stakeholder analysis and annotations
+* Use PDF for static reports sent to executives or archived for compliance
+* Use CSV for integrations with data warehouses or external analytics tools
+* Test exported reports to ensure formatting and data accuracy
+
+[Custom reports](../reporting/custom-reports.md) | [Campaign Web UI reports](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1660,85 +1761,279 @@ Access technical information for developers, including data model details, schem
 
 +++ What is the Campaign data model?
 
-The conceptual data model of the Adobe Campaign database consists in a set of built-in tables and their interaction. The physical and logical structure of the data carried in the application is described in XML. It obeys a grammar specific to Adobe Campaign, called a schema. 
+Campaign's data model is a schema-driven relational database structure that defines how marketing data is organized and related. It consists of built-in tables for core marketing objects (recipients, deliveries, campaigns) and can be extended to meet your specific business needs.
 
-[Learn more about Campaign data model](../dev/datamodel.md).
+**Key data model concepts:**
 
-[This page lists best practices](../dev/datamodel-best-practices.md).
+* **Schemas** - XML definitions describing table structure, fields, and relationships
+* **Built-in tables** - Core marketing entities (recipients, deliveries, workflows, campaigns)
+* **Links** - Relationships between tables (1-1, 1-N, N-N)
+* **Enumerations** - Predefined value lists for dropdown fields
+* **Extensions** - Custom fields and tables added to the standard model
+
+**Main built-in schemas:**
+
+* **Recipient (nms:recipient)** - Customer profiles and contact information
+* **Delivery (nms:delivery)** - Email, SMS, and push campaigns
+* **Workflow (xtk:workflow)** - Automation processes
+* **Campaign (nms:operation)** - Marketing campaign orchestration
+* **Tracking logs** - Opens, clicks, and engagement data
+
+**Why it matters:** Understanding the data model is essential for creating workflows, building queries, extending schemas, and developing custom integrations. The schema-based approach ensures data consistency and enables powerful querying capabilities.
+
+[Campaign data model](../dev/datamodel.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
 +++
 
 +++ How to work with Campaign schemas?
 
-In Adobe Campaign, data schemas are used to:
+Schemas are the foundation of Campaign's data structure, defining tables, fields, and relationships in XML format. Understanding schemas is crucial for customization, integration, and advanced workflow development.
 
-* Define how data objects within the application are tied to underlying database tables.
-* Define links between the different data objects within the Campaign application.
-* Define and describe the individual fields included in each object.
+**What schemas define:**
 
-[Get started with tables and schemas](../dev/schemas.md) to understand how to work with data schema, extend and customize Campaign to address your needs.
+* **Table structure** - Database tables and their corresponding application objects
+* **Field properties** - Data types, labels, validation rules, and default values
+* **Relationships** - Links between tables (joins) and cardinality
+* **Indexes** - Database optimization for query performance
+* **Access control** - Which fields users can view and modify
+
+**Working with schemas:**
+
+* **View schemas:** Access via **[!UICONTROL Administration > Configuration > Data schemas]** in the client console
+* **Extend schemas:** Create extension schemas (e.g., `cus:recipient` extends `nms:recipient`) to add custom fields without modifying core schemas
+* **Create custom schemas:** Build entirely new tables for business-specific data
+* **Update database:** Apply schema changes using **[!UICONTROL Tools > Advanced > Update database structure]**
+
+**Common use cases:**
+
+* Adding custom fields to recipient table (company ID, loyalty tier, preferences)
+* Creating custom tables for products, stores, or transactions
+* Defining relationships between custom and built-in tables
+* Implementing business-specific data models
+
+**Important:** Never modify built-in schemas directly. Always use extension schemas to preserve upgrade compatibility and Adobe support.
+
+[Get started with schemas](../dev/schemas.md) | [Extend a schema](../dev/extend-schema.md)
 
 +++
 
 +++ How to use a custom recipient table?
 
-You can create and implement a non-built-in recipient table in Campaign to send your messages.
+Campaign allows you to use a custom table instead of the built-in recipient table when your business requires a different data structure for targeting (e.g., B2B accounts, subscribers, leads, or external contacts).
 
-[Learn more](../dev/custom-recipient.md)
+**Why use a custom recipient table:**
+
+* Target B2B companies or organizational units instead of individual contacts
+* Separate subscriber data from main customer database
+* Use an existing customer table from another system
+* Implement multi-brand architectures with separate contact tables
+* Comply with specific data governance requirements
+
+**Implementation steps:**
+
+1. Create your custom schema defining the recipient table structure
+2. Include mandatory fields (email, primary key, exclusion flags)
+3. Configure target mappings to link your table with deliveries
+4. Update delivery templates to use the new target mapping
+5. Adapt workflows and queries to reference the custom table
+
+**Key considerations:**
+
+* Custom recipient tables must include required fields for deliveries (email, exclusions, tracking)
+* Workflows and forms need adaptation to work with the custom structure
+* Some built-in features may require customization
+* Testing is critical before migrating production campaigns
+
+**Best practice:** Start with extending the standard recipient table before considering a custom table. Custom recipient tables add complexity and should only be used when truly necessary.
+
+[Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../architecture/target-mappings.md)
 
 +++
 
 +++ What are the best practices to define queries in Campaign?
 
-Adobe Campaign query editor is a powerful tool to explore data and build segments.
+Campaign's query editor is a powerful visual tool for building database queries without SQL knowledge. Mastering it is essential for effective targeting, segmentation, and data analysis.
 
-The Adobe Campaign query tool can be found on multiple levels of the software: to create a target population, segment customers, extract and filter tracking logs, build filters, etc.
+**Where queries are used:**
 
-You can query Campaign database using the generic query editor. It is accessed via the **Tools > Generic query editor...** menu. It lets you extract information stored in a database and organize, group, sort, etc. For instance, the user can recover recipients who clicked more than 'n' times on the link of a newsletter over a given period. This tool lets you collect, sort and display results based on your needs.
+* **Workflow activities** - Query, Split, Update data, Enrichment activities
+* **Delivery targeting** - Define recipient populations for campaigns
+* **Lists** - Create dynamic or static recipient lists
+* **Reports** - Build custom data extractions and analysis
+* **Filters** - Create reusable targeting criteria
 
-[Learn more](../start/query-editor.md). You can also consult the [Campaign Automation guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+**Query best practices:**
+
+* **Start simple** - Build queries incrementally, testing at each step
+* **Use filtering dimensions** - Leverage relationships between tables (recipients → deliveries → tracking logs)
+* **Optimize performance** - Index frequently queried fields, avoid complex calculated fields
+* **Leverage predefined filters** - Reuse and combine existing filters for consistency
+* **Test with small samples** - Validate query logic before running on full database
+* **Document complex queries** - Add descriptions for maintenance and knowledge transfer
+
+**Common query patterns:**
+
+* Target recipients who opened specific delivery: Filter on tracking logs linked to recipients
+* Find inactive contacts: Query on last delivery date or tracking activity
+* Segment by behavior: Combine delivery, tracking, and profile criteria
+* Exclude previous recipients: Use set operations (union, intersection, exclusion)
+
+**Access generic query editor:** **[!UICONTROL Tools > Generic query editor]** for ad-hoc database exploration and data extraction outside workflows.
+
+[Query editor](../start/query-editor.md) | [Query activity in workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
 +++ How can I import a data package?
 
-Adobe Campaign allows you to export or import the platform configuration and data through a package system. Data packages let entities of the Adobe Campaign database be displayed via files in XML format. Each entity contained in a package is represented with all of its data.
+Data packages enable you to export and import Campaign configurations (schemas, workflows, typologies, filters) and data between instances. This is essential for deploying configurations from development to production or sharing components across organizations.
 
-The principle of data packages is to export a data configuration and integrate it into another Adobe Campaign system.
+**What can be packaged:**
 
-[Learn more](../dev/packages.md) about how to work with data packages to import and export Campaign configurations.
+* **Configuration objects** - Schemas, workflows, typology rules, forms, filters
+* **Campaign components** - Delivery templates, campaign templates, content blocks
+* **Application settings** - Operators, operator groups, folder structures
+* **Data** - Recipient lists, seed addresses, content fragments
+* **Custom developments** - JavaScript code, SQL scripts, web applications
+
+
+**Package types:**
+
+* **User package** - Custom configurations you create and export
+* **Platform package** - Adobe-provided features and updates
+* **Data package** - Contains actual data records, not just structure
+
+**Best practices:**
+
+* Always export packages from the same or older Campaign version
+* Test package imports in development environment before production
+* Document package contents and dependencies
+* Use version control for package XML files
+* Back up instance before major package imports
+
+[Work with data packages](../dev/packages.md)
 
 +++
 
 +++ Where can I find the list of Campaign v8 APIs?
 
-All Campaign APIs including their full description is available in this [dedicated documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}.
+Campaign v8 provides comprehensive API documentation covering both SOAP APIs (for client console interactions) and REST APIs (for modern integrations). The API reference includes all available methods, parameters, and response formats.
+
+**Campaign API types:**
+
+* **SOAP APIs** - Traditional APIs for Campaign client console operations, schema manipulation, and workflow control
+* **REST APIs** - Modern HTTP APIs for external system integrations, profile management, and event triggering
+* **JavaScript APIs** - Server-side scripting APIs for workflow activities and custom business logic
+
+**API documentation resources:**
+
+* **Full API reference:** Comprehensive SOAP API documentation with method signatures, parameters, and examples
+* **REST API guide:** Modern REST endpoints for profiles, events, and organizational units
+* **JavaScript API:** Server-side functions available in workflow scripts and web applications
+
+**Common API use cases:**
+
+* Integrate Campaign with CRM, ERP, or custom applications
+* Automate campaign operations and workflow execution
+* Synchronize data between systems in real-time
+* Build custom monitoring and alerting solutions
+* Create external interfaces for Campaign data and operations
+
+**Access:** [Campaign v8 API documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}
 
 +++
 
-+++ What is the Campaign REST API?
-
-Campaign v8 exposes a set of REST APIs that let you create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use.
-
-[Learn more](../dev/api/get-started-apis.md).
-
-+++
 
 +++ How do I monitor workflows from API?
 
-Learn how to monitor workflows using Campaign APIs in [this dedicated page](../dev/api/controlling-a-workflow.md).
+Campaign APIs allow you to programmatically control and monitor workflow execution, enabling external monitoring systems, automated alerting, and custom orchestration solutions.
+
+**What you can do via API:**
+
+* **Start workflows** - Trigger workflow execution programmatically
+* **Pause/Resume workflows** - Control workflow execution flow
+* **Stop workflows** - Terminate running workflows
+* **Query workflow status** - Check if workflows are running, paused, or completed
+* **Retrieve logs** - Access workflow execution logs and error messages
+* **Monitor activity progress** - Track individual workflow activity completion
+
+**API methods:**
+
+* `xtk:workflow#Start` - Start a workflow instance
+* `xtk:workflow#Pause` - Pause running workflow
+* `xtk:workflow#Stop` - Stop workflow execution
+* `xtk:workflow#GetState` - Get current workflow state
+* `xtk:workflow#GetLogs` - Retrieve execution logs
+
+**Common use cases:**
+
+* Build custom monitoring dashboards showing workflow health
+* Implement automated alerting when workflows fail or run too long
+* Orchestrate workflows from external schedulers or event systems
+* Create workflow dependencies across multiple Campaign instances
+* Generate custom workflow execution reports
+
+**Best practice:** Combine API monitoring with workflow audit trail for comprehensive workflow governance. Use external monitoring tools to track workflow SLAs and performance metrics.
+
+[Control workflows via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
 +++ How can I update the database structure?
 
-If you modify Campaign data schemas, you need to update the database structure. Learn how in [this section](../dev/update-database-structure.md).
+After modifying Campaign schemas (adding fields, creating tables, changing data types), you must update the physical database structure to apply your changes. This synchronization ensures the database matches your schema definitions.
+
+**When database updates are needed:**
+
+* Adding new fields to existing schemas
+* Creating custom tables or extending built-in tables
+* Modifying field properties (data type, length, required status)
+* Adding or removing links between tables
+* Creating new indexes for query optimization
+
+
+**Important considerations:**
+
+* **Backup first** - Always back up your database before structural changes
+* **Test in development** - Validate schema changes in dev environment before production
+* **Downtime planning** - Large structural changes may require brief maintenance windows
+* **For Managed Cloud Services** - Coordinate major changes with Adobe support
+* **Reversibility** - Some changes (like removing fields) may cause data loss
+
+**Best practice:** Use schema versioning and change tracking. Document all custom schema modifications for maintenance and troubleshooting.
+
+[Update database structure](../dev/update-database-structure.md) | [Extend schema](../dev/extend-schema.md)
 
 +++
 
 +++ What are the limitations of Campaign v8?
 
-Campaign v8 comes with some limitations compared to Campaign Classic v7, detailed in [this page](../start/v7-to-v8.md#limitations).
+Campaign v8 introduces architectural changes (particularly in FFDA deployments) that bring significant performance improvements but also some differences from Campaign Classic v7. Understanding these helps plan migrations and set appropriate expectations.
+
+**Main v8 considerations:**
+
+* **FFDA architecture** - Enterprise deployments use cloud database (Snowflake) with different data access patterns
+* **Unit updates** - Data updates should be done in workflows, not through APIs or direct database access
+* **Real-time writes** - Optimized for batch operations rather than high-frequency individual updates
+* **Data model** - Some schema customizations require different approaches
+* **External database access** - FDA (Federated Data Access) configuration differs from v7
+
+**Features not available in FFDA deployments:**
+
+* Surveys (available in standard v8 deployments)
+* Marketing Resource Management (MRM)
+* Some specific connector configurations
+
+**Migration considerations:**
+
+* Custom code using direct database writes needs refactoring
+* API integrations may require adaptation for batch processing
+* Workflows should follow FFDA best practices for data operations
+* Testing is essential to validate custom developments
+
+**Important:** These limitations are evolving as Adobe continues enhancing v8. Consult the latest documentation for current status and roadmap.
+
+[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -1746,102 +2041,99 @@ Campaign v8 comes with some limitations compared to Campaign Classic v7, detaile
 
 Understand how Adobe Campaign helps you comply with privacy regulations like GDPR and CCPA, and manage data subject requests.
 
-+++ What are the key terms about Privacy?
++++ What are the key privacy concepts in Campaign?
 
-The items listed below link to the key terms and concepts related to Privacy and Consent in Adobe Campaign:
+Campaign helps you comply with privacy regulations (GDPR, CCPA, PDPA, LGPD) through tools for managing data subject rights, consent, and data retention. Key concepts include privacy regulations, personal data identification, data subject rights (access, deletion, portability), consent management, and data retention policies.
 
-* [Regulations on Privacy management](../start/privacy.md#privacy-regulations)
-* [Personal Data and Personas](../start/privacy.md#personal-data)
-* [Right to Access and Right to be Forgotten](../start/privacy.md#right-access-forgotten)
-* [Consent, Retention and Roles](../start/privacy.md#consent-retention-roles)
+As Data Controller, you're responsible for handling data subject requests, maintaining consent records, and ensuring transparent data use.
 
-+++
-
-+++ What is Adobe Campaign's suggestion to comply with the most recent Privacy regulations?
-
-Adobe does not provide legal advice. You should work with your own legal counsel to ensure they are taking all steps necessary towards GDPR, CCPA, PDPA, LGPD or any other applicable regulation readiness.
-
-**Prepare for data Access and Delete requests**
-
-* Identify a process to receive/respond to Data Subject requests, including appointing a Privacy point of contact.
-
-* Review the various customer data stored in Adobe Campaign and determine unique identifiers (there will likely be more than one).
-
-* Determine a validation/authentication policy and process for Data Subject identity confirmation.
-
-* Make sure that the Data Subject response is easy to understand.
-
-**Consider Consent**
-
-* List and update as necessary all touch points for data capture for GDPR (i.e. consider language, mechanism for consent, and consent logs).
-
-* Make sure all marketing emails include the unsubscribe links.
-
-* Assess global strategy for email marketing to determine geo-specific implementations.
-
-**Understand your data**
-
-* Review all data import and capture sources where data is flowing into Adobe Campaign, and document which fields are being used for your marketing efforts.
-
-* Remove any unused data attributes from your Adobe Campaign database.
-
-* Use data available in Adobe Campaign for the intent it was captured and give your recipients better personalized experiences.
-
-* Review and update data access permissions to help ensure users of Adobe Campaign can fully leverage only the data needed to run their campaigns, but not access any data beyond this.
-
-* Ensure each user of Adobe Campaign has the appropriate access rights to perform their required tasks, but does not have any other rights to perform additional tasks.
+[Privacy management](../start/privacy.md) | [Privacy requests](../start/privacy-requests.md)
 
 +++
 
-+++ How could Data Controllers obtain consent with minimal impact on user engagement?
++++ How do I ensure privacy compliance in Campaign?
 
-In those instances where consent will be needed for certain marketing activities, consumer consent will need to be active (i.e. no silence as assent or pre-checked boxes), unbundled, and it may not be conditional upon offering the services.
+Campaign provides tools for privacy compliance, but legal responsibility rests with you. Work with legal counsel for your privacy program.
 
-There may even be instances where certain consents need to be refreshed to be able to continue using data going forward.
+**Essential actions:**
 
-Marketers should embrace these enhanced consent requirements as a true indicator of brand engagement and loyalty, as well as customer satisfaction and trust.
+* Establish processes for handling data subject requests (access, deletion)
+* Implement consent management with timestamps and scope tracking
+* Include unsubscribe links in all marketing emails
+* Audit data sources and remove unused data
+* Apply least-privilege access controls
 
-+++
+Campaign offers Privacy Core Service integration, consent tracking, automated deletion workflows, and audit trails for compliance.
 
-+++ How can Data Controllers manage consent in Adobe Campaign?
-
-Adobe Campaign already provides capabilities to manage consent at more levels than most marketers leverage via customized data fields or through one or more services.
-
-Marketers should check with their legal counsel for guidance on how to proceed, and then take advantage of capabilities already built-in to Adobe Campaign.
-
-For example, extending the data model in Adobe Campaign to track not only if people have opted-in, but also the timestamp of the opt-in, and some type of indicator that captures the precise scope of consent.
+[Privacy management](../start/privacy.md) | [Privacy requests](../start/privacy-requests.md)
 
 +++
 
-+++ What data can Data Controllers delete in Adobe Campaign in response to a customer request by a Data Subject?
++++ How should I collect and manage user consent?
 
-All data associated to the Data Subject will be deleted including out-of-the-box and custom tables.
+Valid consent requires active, specific, informed, and revocable agreement. Users must take explicit action—no pre-checked boxes or silence as consent. Separate consents for different purposes (unbundled), provide clear explanations, and maintain records with timestamps.
 
-Technically, all data linked to the Data Subject with `integrity="own"` will be deleted.
+**Best practices:** Provide granular opt-in options, periodically refresh consent, make preference centers easy to access, and frame consent as building trust.
 
-As the Data Controller, you have the option of customizing this by changing the integrity of links defined in the data schemas (for example, in case you have a business justification to not delete certain data).
+Campaign offers subscription services, preference centers, custom consent fields with timestamp tracking, and workflow-based consent refresh.
 
-+++
-
-+++ How are reports affected when delivery and tracking logs are deleted?
-
-Reports in Adobe Campaign are based on indicators computed on aggregated data from delivery and tracking logs. As a result, removing the individual logs should not impact the metrics displayed on the reports.
+[Subscriptions](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md#consent-retention-roles)
 
 +++
 
-+++ Do I need to be mindful of possibly re-importing data at a later date?
++++ How do I implement consent management in Campaign?
 
-In Adobe Campaign, records are often uploaded from an external data source.
+Campaign provides subscription services, preference centers, opt-out flags, and custom consent fields for tracking consent.
 
-As the Data Controller you will need to ensure that when you receive a deletion request, you delete all necessary data about the Data Subject from all of your systems.
+**Implementation approach:** Extend recipient schema for consent fields (date, type, source), create subscription services for each consent type, build preference center web forms, use workflows to enforce consent in targeting, and maintain audit trails.
+
+Consult legal counsel to ensure your implementation meets regulatory requirements.
+
+[Subscription services](../start/subscriptions.md) | [Privacy management](../start/privacy.md)
 
 +++
 
-+++ Can a Data Subject, whose data has been erased from Adobe Campaign, opt in again later?
++++ What data is deleted when I process a deletion request?
 
-It is possible for a Data Subject to opt-in again or to be added as a new recipient after their data has been erased from Adobe Campaign.
+Campaign automatically deletes all data linked to a data subject: recipient profile, delivery and tracking logs, custom data with ownership relationships, subscription history, and web tracking data.
 
-You can use the audit trail which details when the previous deletion was performed and when the new recipient has been created.
+**How it works:** Campaign deletes all data where the link to the recipient has `integrity="own"` in the schema definition, ensuring cascading deletion across related tables.
+
+You can customize deletion scope by modifying link integrity in schemas, but consult legal counsel first. Deletion is permanent and cannot be undone.
+
+[Privacy requests](../start/privacy-requests.md) | [Schema links](../dev/schemas.md)
+
++++
+
++++ Do privacy deletions affect my delivery reports?
+
+No. Campaign reports are based on pre-calculated aggregated metrics (total sent, opens, clicks), not live queries on individual logs. Deleting individual recipient data doesn't change historical aggregate statistics.
+
+Overall delivery statistics and performance metrics remain intact, while individual tracking logs and personal details are removed. This allows you to maintain marketing analytics while respecting data subject rights.
+
+[Privacy management](../start/privacy.md) | [Reports](../reporting/gs-reporting.md)
+
++++
+
++++ How do I prevent re-importing deleted data?
+
+You must delete data from all source systems, not just Campaign. Data often flows from external systems (CRM, e-commerce, data warehouses).
+
+**Required actions:** Identify all data sources, delete from source systems, add to exclusion/suppression lists, update import workflows to respect deletion flags, and document the process.
+
+As Data Controller, you're responsible for complete data removal across your entire technology ecosystem.
+
+[Privacy management](../start/privacy.md) | [Import workflows](../config/workflows.md)
+
++++
+
++++ Can deleted users opt in again?
+
+Yes. Data subjects can opt in again after deletion. Campaign creates a completely new recipient record with no link to previous deleted data—the profile starts with a clean slate.
+
+Campaign's audit trail records both the deletion event and new profile creation, demonstrating compliance and showing the new opt-in was freely given after deletion.
+
+[Privacy management](../start/privacy.md) | [Subscriptions](../start/subscriptions.md)
 
 +++
 
