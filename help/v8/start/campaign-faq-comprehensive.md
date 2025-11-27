@@ -1846,7 +1846,7 @@ Campaign allows you to use a custom table instead of the built-in recipient tabl
 
 **Best practice:** Start with extending the standard recipient table before considering a custom table. Custom recipient tables add complexity and should only be used when truly necessary.
 
-[Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../architecture/target-mappings.md)
+[Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../audiences/target-mappings.md)
 
 +++
 
@@ -2047,7 +2047,7 @@ Campaign helps you comply with privacy regulations (GDPR, CCPA, PDPA, LGPD) thro
 
 As Data Controller, you're responsible for handling data subject requests, maintaining consent records, and ensuring transparent data use.
 
-[Privacy management](../start/privacy.md) | [Privacy requests](../start/privacy-requests.md)
+[Privacy management](../start/privacy.md)
 
 +++
 
@@ -2065,7 +2065,7 @@ Campaign provides tools for privacy compliance, but legal responsibility rests w
 
 Campaign offers Privacy Core Service integration, consent tracking, automated deletion workflows, and audit trails for compliance.
 
-[Privacy management](../start/privacy.md) | [Privacy requests](../start/privacy-requests.md)
+[Privacy management](../start/privacy.md)
 
 +++
 
@@ -2101,7 +2101,7 @@ Campaign automatically deletes all data linked to a data subject: recipient prof
 
 You can customize deletion scope by modifying link integrity in schemas, but consult legal counsel first. Deletion is permanent and cannot be undone.
 
-[Privacy requests](../start/privacy-requests.md) | [Schema links](../dev/schemas.md)
+[Privacy management](../start/privacy.md) | [Schema links](../dev/schemas.md)
 
 +++
 
