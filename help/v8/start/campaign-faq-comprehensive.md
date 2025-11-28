@@ -69,6 +69,64 @@ Learn more about [Campaign versions and upgrades](upgrades.md).
 
 +++
 
++++ How can I be informed of the release of a new version?
+
+Stay informed about new Campaign releases through these channels:
+
+* **Adobe representative** - Contacts you directly when a new version is available
+* **Release Notes** - All versions and changes documented in [Campaign Release Notes](release-notes.md)
+* **Adobe Priority Product Updates** - [Subscribe](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} for email notifications
+* **Campaign Community** - Join [discussions](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} for early updates
+
+As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
+
+[Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
+
++++
+
++++ Why does my organization need an upgrade?
+
+Upgrading to the latest Campaign version is critical for security, performance, and support quality.
+
+**Key benefits:**
+
+* **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
+* **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
+* **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
+* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
+
+Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
+
+[Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
+
++++
+
++++ What is the process and timeline for an upgrade?
+
+As a Managed Cloud Services customer, Adobe manages the entire upgrade process with minimal impact on your operations.
+
+**Process:**
+
+1. **Notification** - Adobe notifies you weeks in advance
+2. **Planning** - Schedule upgrade at optimal time with your Adobe representative
+3. **Preparation** - Adobe prepares environment and validates
+4. **Execution** - Adobe upgrades infrastructure with minimal downtime
+5. **Validation** - Post-upgrade testing by Adobe
+6. **Client console upgrade** - You upgrade your client consoles to match server version
+
+**Your responsibilities:**
+
+* Coordinate internal stakeholders for timing
+* [Upgrade client consoles](connect.md#upgrade-ac-console) to the new version
+* Test campaigns and workflows after upgrade
+* Report issues to Adobe Support
+
+Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
+
+[Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
+
++++
+
 +++ How to improve email deliverability?
 
 Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
