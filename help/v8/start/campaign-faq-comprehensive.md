@@ -31,17 +31,8 @@ You need to download and install Campaign client console to connect to Adobe Cam
 
 Starting Campaign v8.6 release, you have access to the **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. 
 
-Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
+Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui). Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
-Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
-
-**Troubleshooting connection issues:**
-
-* Verify your Adobe ID credentials are correct
-* Ensure your client console version matches the server version
-* Check network connectivity and firewall settings
-* Clear client console cache if experiencing issues
-* Contact your administrator to verify your user permissions
 
 **Related topics:**
 
@@ -87,21 +78,9 @@ Refer to this guide to learn [Deliverability Best Practices](https://experiencel
 
 Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
-**Key deliverability tips:**
-
-* Maintain a clean email list and remove inactive subscribers regularly
-* Use double opt-in to ensure engaged recipients
-* Monitor your sender reputation and IP reputation
-* Authenticate your emails with SPF, DKIM, and DMARC
-* Respect unsubscribe requests immediately
-* Test your emails before sending to large audiences
-
 **Related topics:**
 
-* [About deliverability](../send/about-deliverability.md)
-* [Control message content](../send/control-message-content.md)
-* [Monitor deliverability](../send/monitoring-deliverability.md)
-* [SpamAssassin](../send/spamassassin.md)
+[About deliverability](../send/about-deliverability.md) | [Control message content](../send/control-message-content.md) | [Monitor deliverability](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
