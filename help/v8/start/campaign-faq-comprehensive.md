@@ -1364,7 +1364,35 @@ It depends on which interface you're using. The **client console** language is f
 * Your Web UI language preference is independent of your Campaign server and client console language
 
 
+**Related topics:**
+
 [Change language in Campaign Web UI](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Get started with Campaign client console](connect.md)
+
++++
+
++++ What is Campaign Control Panel and how do I access it?
+
+Campaign Control Panel is a web-based administrative interface that helps Campaign administrators increase efficiency by managing settings and monitoring usage across Campaign instances. It provides self-service capabilities to manage critical instance configurations without contacting Adobe Support.
+
+**Key capabilities:**
+
+* **Subdomain management** - Delegate and manage subdomains, monitor SSL certificates
+* **Storage monitoring** - Track database usage and prevent storage issues
+* **SFTP management** - Monitor SFTP storage, manage IP allowlists, and SSH keys
+* **Instance settings** - Configure IP allowlists, manage URL permissions, review instance details
+* **Active profiles monitoring** - Track active profile usage against entitlements
+* **Performance monitoring** - Monitor database and workflow performance
+* **Email deliverability** - Configure DMARC, BIMI, and other authentication records
+
+**Access requirements:**
+
+* **Admin users only** - Control Panel is restricted to users with Administrator rights
+* **Adobe IMS authentication** - Access through Adobe Experience Cloud with your Adobe ID
+* **Campaign v8 Managed Cloud Services** - Available for hosted instances only
+
+**Additional resources:** 
+
+[Control Panel documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home){target="_blank"} | [Control Panel tutorial videos](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1383,6 +1411,8 @@ Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to 
 **Benefits:** Unified customer data, consistent user experiences, streamlined workflows, and enhanced personalization capabilities.
 
 **Setup:** Integration with Adobe solutions requires Adobe Identity Management System (IMS) authentication, automatically configured for Campaign v8 Managed Cloud Services.
+
+**Related topics:**
 
 [Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
 
@@ -1408,6 +1438,8 @@ Campaign v8 provides comprehensive tracking to monitor recipient interactions wi
 4. Define tracking validity period and log retention
 
 **Best practice:** Always test tracking with proofs before sending to your main audience to ensure links work correctly and data is captured.
+
+**Related topics:**
 
 [Track and monitor deliveries](tracking.md) | [Configure tracked links](../send/email.md)
 
@@ -1435,6 +1467,8 @@ Email deliverability depends on technical configuration, content quality, and se
 
 **Monitoring:** Use Campaign's deliverability reports to track bounce rates, complaint rates, and inbox placement. For Campaign v8, Adobe provides infrastructure-level deliverability optimization.
 
+**Related topics:**
+
 [About deliverability in Campaign](../send/about-deliverability.md) | [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
 
 +++
@@ -1453,6 +1487,8 @@ Campaign v8 supports Federated Data Access (FDA) connections to major enterprise
 **Platform-specific considerations:** Supported database versions and connection requirements vary. Campaign v8 as a Managed Cloud Service may have specific network and security requirements for external database access.
 
 **Important:** Always check the official compatibility matrix for your Campaign v8 version to confirm support for specific database versions and ensure proper licensing for external database connectors.
+
+**Related topics:**
 
 [Compatibility matrix](compatibility-matrix.md) | [Configure FDA connections](../connect/fda.md)
 
@@ -1483,6 +1519,8 @@ Yes. Campaign provides native CRM connectors for seamless bidirectional synchron
 
 **Best practice:** Start with read-only sync to test mapping, then enable bidirectional sync. Monitor sync logs for errors and maintain clean data in both systems.
 
+**Related topics:**
+
 [CRM connector configuration](../connect/crm.md) | [Workflow CRM activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
@@ -1507,7 +1545,7 @@ Clearing the client console cache resolves many common display and functionality
 4. Confirm the action when prompted
 5. Restart the client console
 
-
+**Related topics:**
 
 [Install and configure client console](connect.md)
 
@@ -1532,6 +1570,7 @@ Yes. Campaign administrators can customize the user interface to match organizat
 * **User-specific** - Individual preferences and personal settings
 * **Operator group** - Settings inherited by all group members
 
+**Related topics:**
 
 [Configure UI settings](../config/ui-settings.md) | [User permissions](gs-permissions.md)
 
@@ -1556,6 +1595,7 @@ Yes. Campaign's flexible data model allows you to extend built-in schemas with c
 * Integrate external system IDs for data synchronization
 * Build industry-specific data models (retail, finance, travel)
 
+**Related topics:**
 
 [Extend data model](../dev/extend-schema.md) | [Schema structure](../dev/schemas.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
@@ -1579,6 +1619,8 @@ Campaign offers multiple reporting options depending on your needs and technical
 
 **Important:** Campaign is designed for marketing operations reporting, not as a specialized business intelligence tool. For complex analytical needs, consider integrating with Adobe Analytics or dedicated BI platforms.
 
+**Related topics:**
+
 [Get started with reporting](../reporting/gs-reporting.md) | [Campaign Web UI reports](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
@@ -1599,7 +1641,7 @@ Use Campaign's descriptive analysis tool to quickly generate statistical reports
 
 **Sharing:** Export reports to Excel/PDF or save them to the **[!UICONTROL Reports]** folder for team access with appropriate permissions.
 
-[Descriptive analysis](../reporting/built-in-reports.md)
+See [Descriptive analysis](../reporting/built-in-reports.md)
 
 +++
 
@@ -1615,7 +1657,7 @@ In the Client Console, you can:
 * Access the full Campaign data model and external databases (FDA)
 
 
-[Create custom reports (client console)](../reporting/custom-reports.md) 
+See [Create custom reports (client console)](../reporting/custom-reports.md) 
 
 +++
 
@@ -1630,7 +1672,7 @@ Cubes are multi-dimensional data structures that enable business users to explor
 * Results can be displayed as pivot tables, charts, or exported to Excel
 
 
-[Explore data with cubes](../reporting/gs-cubes.md)
+See [Explore data with cubes](../reporting/gs-cubes.md)
 
 +++
 
@@ -1662,6 +1704,7 @@ Yes! Campaign includes a Survey module that allows you to create online question
 * Combine survey data with other Campaign data for segmentation and personalization
 * Create custom reports and cubes for multi-dimensional survey analysis
 
+**Related topics:**
 
 [Get started with surveys](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Survey reports](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
@@ -1686,6 +1729,8 @@ Campaign provides flexible options for sharing reports with different user group
 4. Test access with a user from the target group before broader rollout
 
 **Best practice:** Create dedicated report folders for different teams (marketing, operations, management) with tailored access permissions. Document report purpose and refresh schedules.
+
+**Related topics:**
 
 [Custom reports](../reporting/custom-reports.md) | [User permissions](gs-permissions.md)
 
@@ -1716,6 +1761,8 @@ Yes, Campaign supports multiple export formats for both client console and Web U
 * Use CSV for integrations with data warehouses or external analytics tools
 * Test exported reports to ensure formatting and data accuracy
 
+**Related topics:**
+
 [Custom reports](../reporting/custom-reports.md) | [Campaign Web UI reports](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
@@ -1745,6 +1792,8 @@ Campaign's data model is a schema-driven relational database structure that defi
 * **Tracking logs** - Opens, clicks, and engagement data
 
 **Why it matters:** Understanding the data model is essential for creating workflows, building queries, extending schemas, and developing custom integrations. The schema-based approach ensures data consistency and enables powerful querying capabilities.
+
+**Related topics:**
 
 [Campaign data model](../dev/datamodel.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
@@ -1778,6 +1827,8 @@ Schemas are the foundation of Campaign's data structure, defining tables, fields
 
 **Important:** Never modify built-in schemas directly. Always use extension schemas to preserve upgrade compatibility and Adobe support.
 
+**Related topics:**
+
 [Get started with schemas](../dev/schemas.md) | [Extend a schema](../dev/extend-schema.md)
 
 +++
@@ -1810,6 +1861,8 @@ Campaign allows you to use a custom table instead of the built-in recipient tabl
 * Testing is critical before migrating production campaigns
 
 **Best practice:** Start with extending the standard recipient table before considering a custom table. Custom recipient tables add complexity and should only be used when truly necessary.
+
+**Related topics:**
 
 [Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../audiences/target-mappings.md)
 
@@ -1845,6 +1898,8 @@ Campaign's query editor is a powerful visual tool for building database queries 
 
 **Access generic query editor:** **[!UICONTROL Tools > Generic query editor]** for ad-hoc database exploration and data extraction outside workflows.
 
+**Related topics:**
+
 [Query editor](../start/query-editor.md) | [Query activity in workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
@@ -1876,7 +1931,8 @@ Data packages enable you to export and import Campaign configurations (schemas, 
 * Use version control for package XML files
 * Back up instance before major package imports
 
-[Work with data packages](../dev/packages.md)
+
+See [Work with data packages](../dev/packages.md)
 
 +++
 
@@ -1940,7 +1996,7 @@ Campaign APIs allow you to programmatically control and monitor workflow executi
 
 **Best practice:** Combine API monitoring with workflow audit trail for comprehensive workflow governance. Use external monitoring tools to track workflow SLAs and performance metrics.
 
-[Control workflows via API](../dev/api/controlling-a-workflow.md)
+See [Control workflows via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
@@ -1966,6 +2022,8 @@ After modifying Campaign schemas (adding fields, creating tables, changing data 
 * **Reversibility** - Some changes (like removing fields) may cause data loss
 
 **Best practice:** Use schema versioning and change tracking. Document all custom schema modifications for maintenance and troubleshooting.
+
+**Related topics:**
 
 [Update database structure](../dev/update-database-structure.md) | [Extend schema](../dev/extend-schema.md)
 
@@ -1998,6 +2056,8 @@ Campaign v8 introduces architectural changes (particularly in FFDA deployments) 
 
 **Important:** These limitations are evolving as Adobe continues enhancing v8. Consult the latest documentation for current status and roadmap.
 
+**Related topics:**
+
 [Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
 
 +++
@@ -2012,7 +2072,7 @@ Campaign helps you comply with privacy regulations (GDPR, CCPA, PDPA, LGPD) thro
 
 As Data Controller, you're responsible for handling data subject requests, maintaining consent records, and ensuring transparent data use.
 
-[Privacy management](../start/privacy.md)
+See [Privacy management](../start/privacy.md)
 
 +++
 
@@ -2030,7 +2090,7 @@ Campaign provides tools for privacy compliance, but legal responsibility rests w
 
 Campaign offers Privacy Core Service integration, consent tracking, automated deletion workflows, and audit trails for compliance.
 
-[Privacy management](../start/privacy.md)
+See [Privacy management](../start/privacy.md)
 
 +++
 
@@ -2052,6 +2112,8 @@ Campaign provides subscription services, preference centers, opt-out flags, and 
 
 Consult legal counsel to ensure your implementation meets regulatory requirements.
 
+**Related topics:**
+
 [Subscription services](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md#consent-retention-roles) | [Privacy management](../start/privacy.md)
 
 +++
@@ -2064,6 +2126,8 @@ Campaign automatically deletes all data linked to a data subject: recipient prof
 
 You can customize deletion scope by modifying link integrity in schemas, but consult legal counsel first. Deletion is permanent and cannot be undone.
 
+**Related topics:**
+
 [Privacy management](../start/privacy.md) | [Schema links](../dev/schemas.md)
 
 +++
@@ -2073,6 +2137,8 @@ You can customize deletion scope by modifying link integrity in schemas, but con
 No. Campaign reports are based on pre-calculated aggregated metrics (total sent, opens, clicks), not live queries on individual logs. Deleting individual recipient data doesn't change historical aggregate statistics.
 
 Overall delivery statistics and performance metrics remain intact, while individual tracking logs and personal details are removed. This allows you to maintain marketing analytics while respecting data subject rights.
+
+**Related topics:**
 
 [Privacy management](../start/privacy.md) | [Reports](../reporting/gs-reporting.md)
 
@@ -2086,6 +2152,8 @@ You must delete data from all source systems, not just Campaign. Data often flow
 
 As Data Controller, you're responsible for complete data removal across your entire technology ecosystem.
 
+**Related topics:**
+
 [Privacy management](../start/privacy.md) | [Import workflows](../config/workflows.md)
 
 +++
@@ -2095,6 +2163,8 @@ As Data Controller, you're responsible for complete data removal across your ent
 Yes. Data subjects can opt in again after deletion. Campaign creates a completely new recipient record with no link to previous deleted data—the profile starts with a clean slate.
 
 Campaign's audit trail records both the deletion event and new profile creation, demonstrating compliance and showing the new opt-in was freely given after deletion.
+
+**Related topics:**
 
 [Privacy management](../start/privacy.md) | [Subscriptions](../start/subscriptions.md)
 
@@ -2116,20 +2186,16 @@ Connect with other Campaign users and Adobe experts to share knowledge and get a
 
 Access comprehensive guides, tutorials, and training materials.
 
-* **[Campaign v8 Documentation Home](../campaign-home.md)** - Complete product documentation
 * **[Campaign Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}** - Step-by-step video guides and hands-on tutorials
 * **[What's New](whats-new.md)** - Latest features and capabilities
 * **[Release Notes](release-notes.md)** - Current and previous release information
 * **[Versions and Upgrades](upgrades.md)** - Learn about Campaign versions, upgrades, and how to check your version
-* **[Best Practices](delivery-best-practices.md)** - Recommended approaches for common tasks
 
 ### Technical Resources
 
 Find detailed technical documentation and developer resources.
 
 * **[Campaign APIs](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}** - Complete API reference documentation
-* **[Campaign GitHub](https://github.com/AdobeDocs/campaign.en)** - Contribute to documentation
-* **[Technical Notes](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home){target="_blank"}** - In-depth technical articles
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
 * **[Versions and Upgrades FAQ](upgrades.md#upgrades-faq)** - Check your version and learn about upgrades
 
@@ -2146,6 +2212,7 @@ Get help from Adobe's support team and manage your instance.
 
 Advance your skills with official Adobe training and certification programs.
 
+* **[Experience League Help](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Help resources for Campaign v8 (Web UI and CLient console)
 * **[Adobe Digital Learning Services](https://learning.adobe.com/){target="_blank"}** - Official instructor-led and self-paced courses
 * **[Adobe Campaign Certification](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - Validate your expertise with professional certification
 * **[Experience League Learning Paths](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** - Guided learning journeys
@@ -2155,9 +2222,4 @@ Advance your skills with official Adobe training and certification programs.
 * **[Campaign Classic v7 Documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html){target="_blank"}** - Reference for Classic v7 users
 * **[Campaign Web UI Documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}** - New web interface guide
 * **[Deliverability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}** - Optimize email delivery
-* **[Product Updates](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current){target="_blank"}** - Latest Adobe Experience Cloud updates
-
-**Last updated:** November 2025 | **Applies to:** Campaign v8.6 and later
-
-*Found an error or want to suggest an improvement? [Edit this page on GitHub](https://github.com/AdobeDocs/campaign.en/edit/main/help/v8/start/campaign-faq-comprehensive.md)*
 
