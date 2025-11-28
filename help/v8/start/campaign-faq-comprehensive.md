@@ -5,6 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 keywords: FAQ, Campaign v8, questions, answers, help, support, troubleshooting
+version: Campaign v8
 hide: yes
 hidefromtoc: yes
 ---
