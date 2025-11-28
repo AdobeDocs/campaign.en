@@ -63,8 +63,6 @@ No. Campaign v8 is exclusively available as a **Managed Cloud Service**, fully h
 * No infrastructure management or IT overhead
 * Built-in high availability and disaster recovery
 
-**Note:** If you need on-premise or hybrid deployment, Campaign Classic v7 remains available with full support.
-
 Learn more about [Campaign v8 architecture](../architecture/architecture.md) and the [differences between Campaign v8 and Classic v7](../start/v7-to-v8.md).
 
 +++
@@ -142,10 +140,10 @@ Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs
 Yes. Campaign provides several tools to monitor workflow execution:
 
 * **Workflow dashboard** - View real-time status, progress, and errors for each workflow activity
-* **Workflow logs** - Access detailed execution logs to troubleshoot issues
-* **Heatmap** - Visualize workflow activity and identify performance bottlenecks
+* **[Workflow logs](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - Access detailed execution logs to troubleshoot issues
+* **[Heatmap](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - Visualize workflow activity and identify performance bottlenecks
 * **[Audit trail](../reporting/audit-trail.md)** - Track all modifications made to workflows
-* **Alerts** - Set up notifications for workflow failures or delays
+* **[Alerts](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - Set up notifications for workflow failures or delays
 
 To monitor a workflow, open it and click the **Logs** tab. Failed activities are highlighted in red, and you can view error details by clicking on them.
 
