@@ -53,7 +53,19 @@ Learn more in the [Adobe Campaign Web user interface documentation](https://expe
 
 +++ Can Campaign v8 be installed on an on-premise or hybrid environment?
 
-Campaign v8 is only available in Managed Cloud Services, fully hosted by Adobe.
+No. Campaign v8 is exclusively available as a **Managed Cloud Service**, fully hosted by Adobe.
+
+**Key benefits of Managed Cloud Services:**
+
+* Superior performance and scalability
+* Automatic upgrades - always on the latest version
+* Enhanced security with continuous monitoring
+* No infrastructure management or IT overhead
+* Built-in high availability and disaster recovery
+
+**Note:** If you need on-premise or hybrid deployment, Campaign Classic v7 remains available with full support.
+
+Learn more about [Campaign v8 architecture](../architecture/architecture.md) and the [differences between Campaign v8 and Classic v7](../start/v7-to-v8.md).
 
 +++
 
@@ -64,6 +76,8 @@ Adobe Campaign is regularly updated. Minor versions are released every year with
 This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
 
 **Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
+
+Learn more about [Campaign versions and upgrades](upgrades.md).
 
 +++
 
@@ -95,15 +109,47 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 
 +++ How can I make sure my delivery is sent without errors?
 
-Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
+Follow these steps to ensure successful delivery:
 
-[Read out Campaign Classic v7 documentation to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+**Before sending:**
+
+* Run delivery analysis to detect errors (missing personalization, invalid recipients, content issues)
+* Send test proofs to verify rendering and personalization
+* Review warnings during preparation
+* Verify target population count
+
+**During and after sending:**
+
+* Monitor the delivery dashboard for real-time statistics (sent, delivered, bounces, errors)
+* Check delivery logs for message-level status
+* Track success rate, bounce rate, and error messages
+* Review quarantined addresses
+
+**Best practices:**
+
+* Set up alerts for error thresholds
+* Use waves (batch sending) for large volumes
+* Test with small volumes first
+* Regularly clean your recipient database
+* Monitor sender reputation
+
+Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} and [delivery best practices](../send/delivery-best-practices.md).
 
 +++
 
 +++ Can I monitor workflow execution?
 
-Understand how to monitor Campaign workflow execution [this page](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}
+Yes. Campaign provides several tools to monitor workflow execution:
+
+* **Workflow dashboard** - View real-time status, progress, and errors for each workflow activity
+* **Workflow logs** - Access detailed execution logs to troubleshoot issues
+* **Heatmap** - Visualize workflow activity and identify performance bottlenecks
+* **[Audit trail](../reporting/audit-trail.md)** - Track all modifications made to workflows
+* **Alerts** - Set up notifications for workflow failures or delays
+
+To monitor a workflow, open it and click the **Logs** tab. Failed activities are highlighted in red, and you can view error details by clicking on them.
+
+Learn more about [monitoring workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} and [workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.
 
 +++
 
@@ -155,7 +201,7 @@ Yes! Thanks to the integration with the IMS (Adobe Identity Management System), 
 
 +++ What is my version of Campaign?
 
-Check your [version and build number](connect.md#ac-version) from the **Help > About...** menu of Campaign client console.
+Check your [version and build number](upgrades.md#version) from the **Help > About...** menu of Campaign client console.
 
 +++
 
@@ -2134,6 +2180,7 @@ Access comprehensive guides, tutorials, and training materials.
 * **[Campaign Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}** - Step-by-step video guides and hands-on tutorials
 * **[What's New](whats-new.md)** - Latest features and capabilities
 * **[Release Notes](release-notes.md)** - Current and previous release information
+* **[Versions and Upgrades](upgrades.md)** - Learn about Campaign versions, upgrades, and how to check your version
 * **[Best Practices](delivery-best-practices.md)** - Recommended approaches for common tasks
 
 ### Technical Resources
@@ -2144,6 +2191,7 @@ Find detailed technical documentation and developer resources.
 * **[Campaign GitHub](https://github.com/AdobeDocs/campaign.en)** - Contribute to documentation
 * **[Technical Notes](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home){target="_blank"}** - In-depth technical articles
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
+* **[Versions and Upgrades FAQ](upgrades.md#upgrades-faq)** - Check your version and learn about upgrades
 
 ### Support & Services
 
