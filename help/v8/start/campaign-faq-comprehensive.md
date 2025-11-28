@@ -112,9 +112,9 @@ Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs
 
 +++
 
-+++ How an I monitor workflow execution?
++++ Can I monitor workflow execution?
 
-Campaign provides several tools to monitor workflow execution:
+Yes. Campaign provides several tools to monitor workflow execution:
 
 * **[Workflow dashboard](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - View real-time status, progress, and errors for each workflow activity
 * **[Workflow logs](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - Access detailed execution logs to troubleshoot issues
@@ -143,6 +143,27 @@ As an Admin user, access Adobe [Software Distribution](https://experience.adobe.
 Learn more about the Distribution Center [on this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
 +++
+
++++ What is the procedure for domain delegation?
+
+A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
+    
+>[!NOTE]
+>
+>As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
+
++++
+
++++ As a Campaign Classic v7 user, can I migrate to Campaign v8?
+
+Automated migration from an existing Campaign Classic v7 environment is not yet available. 
+
+Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+
+For more information about the migration process, reach out to your Adobe representative.
+
++++
+
 
 +++ How can I log an issue?
 
@@ -205,14 +226,6 @@ These are a set of rights and restrictions that authorize or deny to:
 **Related topics:**
 
 [Get started with permissions](gs-permissions.md) | [Manage user permissions](manage-permissions.md) | [Add permissions on folders](folder-permissions.md)
-
-+++
-
-+++ How to ensure Privacy compliance with Campaign?
-
-Adobe Campaign offers a set of tools to help you with your Privacy Compliance for GDPR, CCPA and other privacy regulations.
-
-[Learn more](../start/privacy.md) about privacy management and the tools and functionalities that Adobe Campaign provides to help you with your privacy compliance. 
 
 +++
 
@@ -2020,27 +2033,25 @@ Campaign offers Privacy Core Service integration, consent tracking, automated de
 
 +++
 
-+++ How should I collect and manage user consent?
++++ How do I collect and manage user consent in Campaign?
 
 Valid consent requires active, specific, informed, and revocable agreement. Users must take explicit action—no pre-checked boxes or silence as consent. Separate consents for different purposes (unbundled), provide clear explanations, and maintain records with timestamps.
 
 **Best practices:** Provide granular opt-in options, periodically refresh consent, make preference centers easy to access, and frame consent as building trust.
 
-Campaign offers subscription services, preference centers, custom consent fields with timestamp tracking, and workflow-based consent refresh.
-
-[Subscriptions](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md#consent-retention-roles)
-
-+++
-
-+++ How do I implement consent management in Campaign?
+**Technical implementation in Campaign:**
 
 Campaign provides subscription services, preference centers, opt-out flags, and custom consent fields for tracking consent.
 
-**Implementation approach:** Extend recipient schema for consent fields (date, type, source), create subscription services for each consent type, build preference center web forms, use workflows to enforce consent in targeting, and maintain audit trails.
+* Extend recipient schema for consent fields (date, type, source)
+* Create subscription services for each consent type
+* Build preference center web forms
+* Use workflows to enforce consent in targeting
+* Maintain audit trails
 
 Consult legal counsel to ensure your implementation meets regulatory requirements.
 
-[Subscription services](../start/subscriptions.md) | [Privacy management](../start/privacy.md)
+[Subscription services](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md#consent-retention-roles) | [Privacy management](../start/privacy.md)
 
 +++
 
