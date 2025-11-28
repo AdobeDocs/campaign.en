@@ -112,11 +112,11 @@ Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs
 
 +++
 
-+++ Can I monitor workflow execution?
++++ How an I monitor workflow execution?
 
-Yes. Campaign provides several tools to monitor workflow execution:
+Campaign provides several tools to monitor workflow execution:
 
-* **Workflow dashboard** - View real-time status, progress, and errors for each workflow activity
+* **[Workflow dashboard](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - View real-time status, progress, and errors for each workflow activity
 * **[Workflow logs](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - Access detailed execution logs to troubleshoot issues
 * **[Heatmap](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - Visualize workflow activity and identify performance bottlenecks
 * **[Audit trail](../reporting/audit-trail.md)** - Track all modifications made to workflows
@@ -1042,29 +1042,46 @@ Import data into Campaign using multiple methods depending on your needs:
 
 +++
 
-+++ Can I monitor workflow execution?
++++ What are common workflow use cases in Campaign?
 
-Yes. Campaign provides comprehensive workflow monitoring capabilities to track execution, identify issues, and optimize performance.
+Campaign workflows can automate virtually any marketing process. Here are the most common use cases:
 
-**Monitoring options:**
+**Data management:**
 
-* **Workflow dashboard** - View real-time execution status, progress, and activity states
-* **Execution logs** - Access detailed logs for each activity and transition
-* **Audit trail** - Track workflow modifications and execution history
-* **Alerts and notifications** - Set up email alerts for failures or specific conditions
+* **Import and load data** - Automate file imports from SFTP, API, or cloud storage
+* **Data cleansing** - Deduplicate profiles, standardize formats, remove invalid records
+* **Data enrichment** - Enhance profiles with external data or calculated fields
+* **List management** - Automatically update segments based on behavior or criteria
 
-**Key monitoring features:**
+**Campaign automation:**
 
-* Visual status indicators (pending, in progress, completed, failed)
-* Execution time tracking for performance optimization
-* Activity-level error messages for troubleshooting
-* Pause, stop, or restart workflows as needed
+* **Welcome series** - Trigger automated onboarding emails for new subscribers
+* **Birthday campaigns** - Send personalized messages on customer birthdays or anniversaries
+* **Re-engagement** - Target inactive subscribers with win-back campaigns
+* **Cart abandonment** - Send reminders to customers who left items in cart
 
-Access monitoring from **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** or directly from the workflow dashboard.
+**Advanced targeting:**
+
+* **A/B testing** - Split audiences and test different content variations
+* **Dynamic segmentation** - Create segments based on real-time behavior or attributes
+* **Lead scoring** - Calculate and update lead scores based on engagement
+* **Cross-channel orchestration** - Coordinate messaging across email, SMS, and push
+
+**Monitoring and alerts:**
+
+* **Workflow monitoring** - Track workflow status and send alerts on failures
+* **Delivery monitoring** - Monitor campaign performance and bounce rates
+* **Database maintenance** - Automate cleanup of old logs and temporary data
+
+**Integration and synchronization:**
+
+* **CRM sync** - Keep customer data synchronized with Salesforce, Dynamics, etc.
+* **API integrations** - Connect with e-commerce platforms, analytics tools, or custom systems
+* **Event-triggered workflows** - React to real-time events from websites or apps
 
 **Related topics:**
 
-[Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Start a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html){target="_blank"}
+[Workflow use cases library](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Targeting workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [Data management workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
 
 +++
 
