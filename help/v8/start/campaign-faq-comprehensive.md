@@ -16,9 +16,7 @@ Get quick answers to the most common questions about Adobe Campaign v8. Whether 
 **Need technical help?** Check [Developers](#developers) and [Campaign Settings](#settings).  
 **Can't find your answer?** Visit our [Community Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} or [contact support](#get-help).
 
->[!TIP]
->
->Use Ctrl+F (Cmd+F on Mac) to search for specific keywords on this page. Click any question to expand the answer.
+**Tip:** Use Ctrl+F (Cmd+F on Mac) to search for specific keywords on this page. Click any question to expand the answer.
 
 
 ## General Questions {#general}
@@ -37,15 +35,13 @@ Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web in
 
 Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
->[!TIP]
->
->**Troubleshooting connection issues:**
->
->* Verify your Adobe ID credentials are correct
->* Ensure your client console version matches the server version
->* Check network connectivity and firewall settings
->* Clear client console cache if experiencing issues
->* Contact your administrator to verify your user permissions
+**Troubleshooting connection issues:**
+
+* Verify your Adobe ID credentials are correct
+* Ensure your client console version matches the server version
+* Check network connectivity and firewall settings
+* Clear client console cache if experiencing issues
+* Contact your administrator to verify your user permissions
 
 **Related topics:**
 
@@ -67,9 +63,7 @@ Adobe Campaign is regularly updated. Minor versions are released every year with
 
 This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
 
->[!NOTE]
->
->As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
+**Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
 
 +++
 
@@ -81,16 +75,14 @@ Refer to this guide to learn [Deliverability Best Practices](https://experiencel
 
 Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
 
->[!TIP]
->
->**Key deliverability tips:**
->
->* Maintain a clean email list and remove inactive subscribers regularly
->* Use double opt-in to ensure engaged recipients
->* Monitor your sender reputation and IP reputation
->* Authenticate your emails with SPF, DKIM, and DMARC
->* Respect unsubscribe requests immediately
->* Test your emails before sending to large audiences
+**Key deliverability tips:**
+
+* Maintain a clean email list and remove inactive subscribers regularly
+* Use double opt-in to ensure engaged recipients
+* Monitor your sender reputation and IP reputation
+* Authenticate your emails with SPF, DKIM, and DMARC
+* Respect unsubscribe requests immediately
+* Test your emails before sending to large audiences
 
 **Related topics:**
 
@@ -653,9 +645,7 @@ A list is a static set of recipients that you can target in deliveries and reuse
 
 * **During import:** Create a list when importing profiles to save them as a reusable group.
 
->[!TIP]
->
->Use workflows for lists requiring regular updates, and manual creation for one-time segmentation.
+**Tip:** Use workflows for lists requiring regular updates, and manual creation for one-time segmentation.
 
 [Create audiences](../audiences/create-audiences.md) | [List update activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
@@ -665,9 +655,7 @@ A list is a static set of recipients that you can target in deliveries and reuse
 
 Use the **[!UICONTROL Deduplication]** activity in a workflow to remove duplicate recipients before delivery. Place it between your **[!UICONTROL Query]** and **[!UICONTROL Delivery]** activities, then choose your deduplication criteria (typically email address or recipient ID) and which record to keep.
 
->[!TIP]
->
->Always deduplicate before sending to ensure each person receives your message only once.
+**Tip:** Always deduplicate before sending to ensure each person receives your message only once.
 
 [Deduplication activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
 
@@ -733,9 +721,7 @@ A delivery template is a pre-configured delivery that saves all settings and par
 
 Yes. Import HTML content via direct copy/paste into the content editor, file upload from your computer, or load from a URL. Ensure your HTML uses email-compatible code (HTML 4.0/XHTML) with inline CSS, and host images on a public server. Campaign automatically adds personalization and tracking to imported HTML.
 
->[!TIP]
->
->For the best email design experience, use the **Email Designer** in the Campaign Web UI, which offers modern drag-and-drop capabilities and built-in responsive templates, rather than importing raw HTML.
+**Tip:** For the best email design experience, use the **Email Designer** in the Campaign Web UI, which offers modern drag-and-drop capabilities and built-in responsive templates, rather than importing raw HTML.
 
 [Import HTML content](../send/defining-the-email-content.md)
 
@@ -798,9 +784,7 @@ Yes, but **only through the Campaign Web UI**. AI Assistant, powered by Microsof
 * Upload brand assets and get brand alignment scoring
 * Use existing content as reference and upload style reference images
 
->[!NOTE]
->
->AI Assistant is available exclusively in the Campaign Web UI and currently supports English only. Users need proper permissions and must agree to a user agreement.
+**Note:** AI Assistant is available exclusively in the Campaign Web UI and currently supports English only. Users need proper permissions and must agree to a user agreement.
 
 [AI Assistant overview](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI Assistant use cases](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Brand alignment](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
@@ -912,10 +896,7 @@ Creating an email in Campaign v8 involves these key steps: create the delivery, 
 * **Campaign Web UI** - Modern interface with enhanced Email Designer, AI Assistant, and multilingual capabilities
 * **Client console** - Traditional interface with advanced targeting and workflow capabilities
 
-
->[!TIP]
->
->Use the Campaign Web UI for faster, more intuitive email creation with modern design tools. Use the client console for complex targeting or advanced workflow-based campaigns.
+**Tip:** Use the Campaign Web UI for faster, more intuitive email creation with modern design tools. Use the client console for complex targeting or advanced workflow-based campaigns.
 
 [Create your first email](create-message.md) | [Email design guide](../send/email.md)
 
@@ -1025,9 +1006,7 @@ Campaign tracks delivery errors for each address. When an address reaches the co
 
 Access quarantine management in **[!UICONTROL Administration > Campaign Management > Non deliverables Management]**. You can view quarantined addresses, manually remove validated addresses from quarantine, or configure automatic cleanup rules.
 
->[!TIP]
->
->Monitor your quarantine list regularly. Increasing quarantine rates often signal data quality issues that need attention before they impact sender reputation.
+**Tip:** Monitor your quarantine list regularly. Increasing quarantine rates often signal data quality issues that need attention before they impact sender reputation.
 
 [Quarantine management guide](../send/quarantines.md) | [Bounce management](../send/delivery-failures.md)
 
@@ -1671,9 +1650,7 @@ Cubes are multi-dimensional data structures that enable business users to explor
 
 Yes! Campaign includes a Survey module that allows you to create online questionnaires and generate built-in reports on survey responses.
 
->[!AVAILABILITY]
->
->Survey management is not available in Campaign v8 Enterprise (FFDA) deployments. [Learn more](../architecture/enterprise-deployment.md).
+**Important:** Survey management is not available in Campaign v8 Enterprise (FFDA) deployments. [Learn more](../architecture/enterprise-deployment.md).
 
 **Survey capabilities:**
 
