@@ -133,7 +133,7 @@ Follow these steps to ensure successful delivery:
 * Regularly clean your recipient database
 * Monitor sender reputation
 
-Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} and [delivery best practices](../send/delivery-best-practices.md).
+Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} and [delivery best practices](delivery-best-practices.md).
 
 +++
 
