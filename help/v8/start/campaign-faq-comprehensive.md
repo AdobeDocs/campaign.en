@@ -36,9 +36,7 @@ Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web in
 
 **Related topics:**
 
-* [Install the client console](connect.md)
-* [Campaign user interface](campaign-ui.md)
-* [User permissions](gs-permissions.md)
+[Install the client console](connect.md) | [Campaign user interface](campaign-ui.md) | [User permissions](gs-permissions.md)
 
 +++
 
@@ -206,9 +204,7 @@ These are a set of rights and restrictions that authorize or deny to:
 
 **Related topics:**
 
-* [Get started with permissions](gs-permissions.md)
-* [Manage user permissions](manage-permissions.md)
-* [Add permissions on folders](folder-permissions.md)
+[Get started with permissions](gs-permissions.md) | [Manage user permissions](manage-permissions.md) | [Add permissions on folders](folder-permissions.md)
 
 +++
 
@@ -250,10 +246,7 @@ A workflow can also involve one or more operators to be notified or who can make
 
 **Related topics:**
 
-* [Get started with workflows](../config/workflows.md)
-* [Build your first workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}
-* [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
-* [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+[Get started with workflows](../config/workflows.md) | [Build your first workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -276,13 +269,7 @@ Campaign v8 offers two interfaces for email creation:
 
 **Related topics:**
 
-* [Create your first delivery](create-message.md) - Step-by-step guide
-* [Work with delivery templates](../send/create-templates.md) - Save time with templates
-* [Delivery best practices](delivery-best-practices.md) - Recommendations for success
-* [Define the email content](../send/defining-the-email-content.md) - Content creation options
-* [Preview and proofs](../send/preview-and-proof.md) - Test before sending
-* [Configure and send](../send/configure-and-send.md) - Final steps to send
-* [Personalize content](../send/personalize.md) - Add dynamic personalization
+[Create your first delivery](create-message.md) | [Work with delivery templates](../send/create-templates.md) | [Delivery best practices](delivery-best-practices.md) | [Define the email content](../send/defining-the-email-content.md) | [Preview and proofs](../send/preview-and-proof.md) | [Configure and send](../send/configure-and-send.md) | [Personalize content](../send/personalize.md)
 
 +++
 
@@ -318,13 +305,7 @@ Sending SMS messages with Campaign v8 requires initial configuration and then fo
 
 **Related topics:**
 
-* [Get started with SMS](../send/sms/sms.md) - Complete SMS guide
-* [SMS delivery settings](../send/sms/sms-delivery-settings.md) - Configuration options
-* [SMPP external account settings](../send/sms/smpp-external-account.md) - Provider setup
-* [Create a SMS delivery](../send/sms/create-sms.md) - Step-by-step creation
-* [SMS content](../send/sms/sms-content.md) - Content design guidelines
-* [Send SMS proofs](../send/sms/sms-proofs.md) - Testing SMS
-* [Monitor SMS](../send/sms/sms-monitor.md) - Track and analyze deliveries
+[Get started with SMS](../send/sms/sms.md) | [SMS delivery settings](../send/sms/sms-delivery-settings.md) | [SMPP external account settings](../send/sms/smpp-external-account.md) | [Create a SMS delivery](../send/sms/create-sms.md) | [SMS content](../send/sms/sms-content.md) | [Send SMS proofs](../send/sms/sms-proofs.md) | [Monitor SMS](../send/sms/sms-monitor.md)
 
 +++
 
@@ -368,12 +349,7 @@ Sending push notifications with Campaign v8 involves configuring your mobile app
 
 **Related topics:**
 
-* [Create and send push notifications](../send/push.md) - Complete push guide
-* [Configure push notification channel](../send/push-settings.md) - Channel setup
-* [Design an Android rich push](../send/rich-push-android.md) - Android rich notifications
-* [Design an iOS rich push](../send/rich-push-ios.md) - iOS rich notifications  
-* [Configure with Data Collection](../send/push-data-collection.md) - Modern revised integration method
-* [Track and monitor](tracking.md) - Analyze push performance
+[Create and send push notifications](../send/push.md) | [Configure push notification channel](../send/push-settings.md) | [Design an Android rich push](../send/rich-push-android.md) | [Design an iOS rich push](../send/rich-push-ios.md) | [Configure with Data Collection](../send/push-data-collection.md) | [Track and monitor](tracking.md)
 
 +++
 
@@ -395,10 +371,7 @@ Learn more about tracking management in Campaign [in this page](../start/trackin
 
 **Related topics:**
 
-* [Track and monitor messages](tracking.md)
-* [Delivery reports](../reporting/delivery-reports.md)
-* [Understand delivery failures](../send/delivery-failures.md)
-* [Configure tracked links](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"} (Campaign Classic v7 documentation)
+[Track and monitor messages](tracking.md) | [Delivery reports](../reporting/delivery-reports.md) | [Understand delivery failures](../send/delivery-failures.md) | [Configure tracked links](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
 
 +++
 
@@ -472,10 +445,7 @@ Campaign v8 is a complete reimagining of Adobe Campaign, designed for modern clo
 
 **Related topics:**
 
-* [From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 transition guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
-* [From Campaign Standard to v8](acs-to-v8.md) | [Campaign Standard transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
-* [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
-* [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+[From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 transition guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} | [From Campaign Standard to v8](acs-to-v8.md) | [Campaign Standard transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 * [Campaign v8 architecture](../architecture/architecture.md)
 * [Guardrails and limitations](ac-guardrails.md)
 
@@ -541,22 +511,11 @@ Contact your Adobe representative to:
 
 **Related topics:**
 
-**For Campaign Classic v7 users:**
+**For Campaign Classic v7 users:** [From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 detailed guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
 
-* [From Campaign Classic v7 to v8](v7-to-v8.md)
-* [v7 to v8 detailed guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
+**For Campaign Standard users:** [Campaign Standard transition to v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} | [From Campaign Standard to v8 overview](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [Get started for marketers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [Get started for admin/developers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
 
-**For Campaign Standard users:**
-
-* [Campaign Standard transition to v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
-* [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
-* [From Campaign Standard to v8 overview](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/overview){target="_blank"}
-* [Get started for marketers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/marketers){target="_blank"}
-* [Get started for admin/developers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
-
-**General resources:**
-
-* [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+**General resources:** [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 * [Compatibility matrix](compatibility-matrix.md)
 
 +++
@@ -618,10 +577,7 @@ The following terms have been updated in the Campaign Web UI (client console use
 
 **Related topics:**
 
-* [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} - Compare features across interfaces
-* [Compatibility matrix](compatibility-matrix.md) - Supported systems and components
-* [Guardrails and limitations](ac-guardrails.md)
-* [v7 to v8 transition guide](v7-to-v8.md)
+[Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Compatibility matrix](compatibility-matrix.md) | [Guardrails and limitations](ac-guardrails.md) | [v7 to v8 transition guide](v7-to-v8.md)
 * [Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
@@ -1054,10 +1010,7 @@ Common workflow patterns: data import, audience segmentation, delivery sending, 
 
 **Related topics:**
 
-* [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}
-* [Workflow activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"}
-* [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-* [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
@@ -1085,9 +1038,7 @@ Import data into Campaign using multiple methods depending on your needs:
 
 **Related topics:**
 
-* [Import best practices](../start/import.md)
-* [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
-* [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
+[Import best practices](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
 
@@ -1113,9 +1064,7 @@ Access monitoring from **[!UICONTROL Administration > Production > Objects creat
 
 **Related topics:**
 
-* [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
-* [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-* [Start a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html){target="_blank"}
+[Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Start a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html){target="_blank"}
 
 +++
 
@@ -1142,8 +1091,7 @@ Configure reconciliation keys to match records accurately and choose update opti
 
 **Related topics:**
 
-* [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
-* [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
@@ -1172,9 +1120,7 @@ These activities allow you to work with data not directly in the main recipient 
 
 **Related topics:**
 
-* [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"}
-* [Targeting workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}
-* [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
+[Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Targeting workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1201,9 +1147,7 @@ Common scenarios: birthday campaigns, cart abandonment, loyalty programs, win-ba
 
 **Related topics:**
 
-* [Personalization guide](../send/personalize.md)
-* [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
-* [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
+[Personalization guide](../send/personalize.md) | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1230,8 +1174,7 @@ Each split subset flows to a separate transition, allowing different processing 
 
 **Related topics:**
 
-* [Split activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}
-* [A/B testing guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[Split activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [A/B testing guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
@@ -1261,9 +1204,7 @@ Yes. Use workflows to update Campaign data with values from external files (CSV,
 
 **Related topics:**
 
-* [Import data guide](../start/import.md)
-* [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
-* [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
+[Import data guide](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
 
@@ -1289,9 +1230,7 @@ Use aggregate functions to dynamically identify the most recent additions and co
 
 **Related topics:**
 
-* [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
-* [Using aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
-* [Welcome programs](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
+[Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Using aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"} | [Welcome programs](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
 
 +++
 
@@ -1323,10 +1262,7 @@ To use activities, drag them from the palette to your workflow canvas, double-cl
 
 **Related topics:**
 
-* [Targeting activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}
-* [Flow control activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}
-* [Action activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
-* [Event activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}
+[Targeting activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [Flow control activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [Action activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"} | [Event activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}
 
 +++
 
@@ -1371,9 +1307,7 @@ Follow these best practices to build efficient, maintainable, and reliable workf
 
 **Related topics:**
 
-* [Workflow best practices guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-* [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}
-* [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+[Workflow best practices guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
