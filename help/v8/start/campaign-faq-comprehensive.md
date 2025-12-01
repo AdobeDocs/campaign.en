@@ -63,6 +63,8 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 
 **Best practices:** Set up alerts, use waves for large volumes, test with small volumes first, clean recipient database regularly, monitor sender reputation.
 
+**Related topics:**
+
 [Monitor deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [Delivery best practices](delivery-best-practices.md)
 
 +++
@@ -72,6 +74,8 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 Yes. Campaign provides multiple monitoring tools: workflow dashboard (real-time status and errors), workflow logs (detailed execution logs), heatmap (visualize activity and bottlenecks), audit trail (track modifications), and alerts (notifications for failures).
 
 To monitor, open the workflow and click the **Logs** tab. Failed activities appear in red.
+
+**Related topics:**
 
 [Monitor workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
@@ -121,6 +125,8 @@ Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions for
 
 **Setup:** Requires Adobe IMS authentication, automatically configured for Campaign v8 Managed Cloud Services.
 
+**Related topics:**
+
 [Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
 
 +++
@@ -139,6 +145,8 @@ Campaign v8 brings significant performance improvements but has some architectur
 **Migration impact:** Custom code using direct database writes needs refactoring; API integrations may need adaptation for batch processing.
 
 These limitations are evolving as Adobe enhances v8. Consult latest documentation for current status.
+
+**Related topics:**
 
 [Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
 
@@ -206,7 +214,8 @@ Starting Campaign v8.6 release, you also have access to the new **Campaign Web u
 
 With Adobe Campaign, you can use different strategies to create audiences and select target recipients.
 
-[Learn more](../audiences/gs-audiences.md) about how to define audiences in Campaign v8.
+
+Learn how to [Define audiences in Campaign v8](../audiences/gs-audiences.md)
 
 +++
 
@@ -238,6 +247,8 @@ A workflow can also involve one or more operators to be notified or who can make
 
 Campaign v8 offers two interfaces: **Client console** (full-featured) and **Campaign Web UI** (modern, intuitive).
 
+**Related topics:**
+
 [Email design and validation](../send/email.md) | [Create first delivery](create-message.md) | [Delivery templates](../send/create-templates.md) | [Personalize content](../send/personalize.md)
 
 +++
@@ -256,6 +267,8 @@ Sending SMS requires initial setup (configure SMS channel, SMPP connection, rout
 
 **Capabilities:** Multiple SMPP connectors, delivery tracking, GSM7/Unicode support, long SMS auto-concatenation, two-way SMS with workflows.
 
+**Related topics:**
+
 [Learn more about SMS configuration and sending](../send/sms/sms.md) | [SMS delivery settings](../send/sms/sms-delivery-settings.md) | [Create SMS delivery](../send/sms/create-sms.md)
 
 +++
@@ -271,6 +284,8 @@ Sending push notifications requires initial mobile app integration setup, then s
 3. **Test and send**: Validate on real devices, then send
 
 **Capabilities:** Rich push (images, videos, buttons), personalization, deep linking, scheduling, A/B testing, tracking. Platform-specific features for iOS and Android.
+
+**Related topics:**
 
 [Learn more about push notifications](../send/push.md) | [Configure push channel](../send/push-settings.md) | [Android rich push](../send/rich-push-android.md) | [iOS rich push](../send/rich-push-ios.md)
 
@@ -460,7 +475,9 @@ Campaign v8 is Adobe's strategic platform, ideal for organizations needing high-
 
 **Next steps:** Contact your Adobe representative to assess migration readiness and access migration tools.
 
-**Learn more:** [From Campaign Classic v7 to v8](v7-to-v8.md) | [Campaign Standard transition guide](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+**Related topics:**
+
+[From Campaign Classic v7 to v8](v7-to-v8.md) | [Campaign Standard transition guide](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -505,7 +522,9 @@ Campaign v8 brings most v7/Standard capabilities with enhancements, but some ter
 
 * Dynamic Reporting, Centralized Branding, REST APIs, Landing Pages improvements, Visual Fragments
 
-**Learn more:** [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7 to v8 transition guide](v7-to-v8.md) | [Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**Related topics:**
+
+[Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7 to v8 transition guide](v7-to-v8.md) | [Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -539,6 +558,8 @@ For file imports, prepare your data file (CSV/TXT, UTF-8 encoding), use the impo
 +++ How can I define the target population of a marketing campaign?
 
 Campaign offers multiple targeting methods: build queries with visual criteria, target existing lists or segments, import recipients from external files (CSV, TXT), or apply pre-defined filters. You can combine criteria with AND/OR logic, exclude specific populations, use control groups, and split for A/B testing. Always preview your target population size before sending.
+
+**Related topics:**
 
 [Define campaign targets](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"} | [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Create audiences](../audiences/create-audiences.md)
 
@@ -677,6 +698,8 @@ Key features: automatic content duplication, automatic language-based sending, d
 
 The client console also supports multilingual content using conditional content and workflows, but requires more manual configuration.
 
+**Related topics:**
+
 [Multilingual deliveries (Web UI)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [Conditional content (Client console)](../send/conditions.md)
 
 +++
@@ -702,6 +725,8 @@ Yes, but **only through the Campaign Web UI**. AI Assistant, powered by Microsof
 * Use existing content as reference and upload style reference images
 
 **Note:** AI Assistant is available exclusively in the Campaign Web UI and currently supports English only. Users need proper permissions and must agree to a user agreement.
+
+**Related topics:**
 
 [AI Assistant overview](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI Assistant use cases](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Brand alignment](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
@@ -742,7 +767,7 @@ Seed addresses are special recipients automatically added to every delivery for 
 
 Manage seed addresses in **[!UICONTROL Resources > Campaign management > Seed addresses]**. Keep lists small to avoid impacting delivery metrics.
 
-[Seed addresses guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
+Learn more in the [Seed addresses guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -777,7 +802,7 @@ Typology rules are automated business logic applied during delivery analysis to 
 
 Rules are grouped into typologies and applied during delivery analysis. Campaign can exclude recipients, block the delivery, or generate warnings based on the rules.
 
-[Typology rules guide](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}
+Learn more in the [Typology rules guide](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}
 
 +++
 
@@ -1196,7 +1221,7 @@ Campaign v8 supports Federated Data Access (FDA) connections to major enterprise
 
 Supported database versions and connection requirements vary. Check the [Compatibility matrix](compatibility-matrix.md) for your Campaign v8 version to confirm support for specific databases and ensure proper licensing for FDA connectors.
 
-[Configure FDA connections](../connect/fda.md)
+See [Configure FDA connections](../connect/fda.md)
 
 +++
 
@@ -1205,6 +1230,8 @@ Supported database versions and connection requirements vary. Check the [Compati
 Yes. Campaign provides native CRM connectors for bidirectional synchronization with major CRM systems. Syncs contact data, leads, accounts, delivery logs, tracking data, and engagement metrics. Supports scheduled, manual, and real-time (via API) synchronization modes.
 
 Use Campaign's CRM connector assistant to map fields, select tables, and schedule sync. Check [Compatibility matrix](compatibility-matrix.md) for supported CRM versions.
+
+**Related topics:**
 
 [CRM connector configuration](../connect/crm.md) | [Workflow CRM activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
@@ -1230,9 +1257,7 @@ Clearing the client console cache resolves many common display and functionality
 4. Confirm the action when prompted
 5. Restart the client console
 
-**Related topics:**
-
-[Install and configure client console](connect.md)
+Learn more in [Install and configure client console](connect.md)
 
 +++
 
@@ -1396,6 +1421,8 @@ Control report visibility through folder permissions and named rights in Campaig
 
 **Setup:** Save report to specific folder → Configure folder access for operator groups → Define report properties and display context.
 
+**Related topics:**
+
 [Custom reports](../reporting/custom-reports.md) | [User permissions](gs-permissions.md)
 
 +++
@@ -1445,6 +1472,8 @@ Campaign's data model is a schema-driven relational database structure consistin
 
 Understanding the data model is essential for workflows, queries, schema extensions, and integrations.
 
+**Related topics:**
+
 [Campaign data model](../dev/datamodel.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
 +++
@@ -1464,6 +1493,8 @@ Schemas define Campaign's data structure in XML format, specifying table structu
 
 **Important:** Never modify built-in schemas directly. Always use extension schemas for upgrade compatibility.
 
+**Related topics:**
+
 [Get started with schemas](../dev/schemas.md) | [Extend a schema](../dev/extend-schema.md)
 
 +++
@@ -1477,6 +1508,8 @@ Use a custom recipient table when targeting B2B accounts, separate subscriber da
 **Key considerations:** Must include required delivery fields, workflows/forms need adaptation, testing critical before production migration.
 
 **Best practice:** Extend the standard recipient table first. Only use custom tables when truly necessary due to added complexity.
+
+**Related topics:**
 
 [Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../audiences/target-mappings.md)
 
@@ -1499,6 +1532,8 @@ Campaign's query editor builds database queries visually without SQL, used in wo
 
 **Access:** **[!UICONTROL Tools > Generic query editor]** for ad-hoc exploration.
 
+**Related topics:**
+
 [Query editor](../start/query-editor.md) | [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
@@ -1511,7 +1546,7 @@ Import packages via **[!UICONTROL Tools > Advanced > Import package]** in the cl
 
 **Best practices:** Test in dev first, back up before importing, export from same/older version.
 
-[Work with data packages](../dev/packages.md)
+Learn more in [Work with data packages](../dev/packages.md)
 
 +++
 
@@ -1538,7 +1573,7 @@ Campaign APIs let you programmatically control workflows: start, pause/resume, s
 
 **Best practice:** Combine API monitoring with audit trail for comprehensive governance.
 
-[Control workflows via API](../dev/api/controlling-a-workflow.md)
+See [Control workflows via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
@@ -1550,7 +1585,8 @@ After modifying schemas (adding fields, creating tables, changing data types), u
 
 **Important:** Backup first, test in dev, plan downtime for large changes, coordinate with Adobe support (Managed Cloud Services), note some changes may cause data loss.
 
-**Best practice:** Use schema versioning, document all modifications.
+
+**Related topics:**
 
 [Update database structure](../dev/update-database-structure.md) | [Extend schema](../dev/extend-schema.md)
 
