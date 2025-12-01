@@ -13,7 +13,7 @@ hidefromtoc: yes
 
 Get quick answers to the most common questions about Adobe Campaign v8. Whether you're just getting started or looking for advanced configuration help, you'll find answers organized by topic below.
 
-**New to Campaign?** Start with [General Questions](#general) and [Key Concepts](#key-concepts).  
+**New to Campaign?** Start with [Getting Started](#getting-started) to learn the essentials.  
 **Need help with versions?** Check [Upgrades](#upgrades) for version information and upgrade processes.  
 **Migrating from v7 or Standard?** See [Campaign v8 vs Previous Versions](#v7-differences) for differences and transition guidance.  
 **Need technical help?** Check [Developers](#developers) and [Campaign Settings](#settings).  
@@ -22,9 +22,19 @@ Get quick answers to the most common questions about Adobe Campaign v8. Whether 
 **Tip:** Use Ctrl+F (Cmd+F on Mac) to search for specific keywords on this page. Click any question to expand the answer.
 
 
-## General Questions {#general}
+## Getting Started {#getting-started}
 
-Get answers to the most common questions about Adobe Campaign v8, including how to connect, get started, and access support.
+Learn the essentials to start working with Adobe Campaign v8, from installation and connection to creating your first campaigns.
+
++++ How can I download Campaign?
+
+You can get the installation program and the client console from Adobe Download Center.
+    
+As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} to download Adobe Campaign.
+    
+Learn more about the Distribution Center [on this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+
++++
 
 +++ How can I connect to Campaign v8?
 
@@ -41,7 +51,155 @@ Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web in
 
 +++
 
-+++ How to improve email deliverability?
++++ Can I connect to Campaign v8 with an Adobe ID?
+
+Yes! Thanks to the integration with the IMS (Adobe Identity Management System), users connect to the Adobe Campaign console using their Adobe ID. This integration provides the following advantages:
+
+* The same ID can be used for all Experience Cloud solutions.
+* The connection is memorized when using Adobe Campaign with different integrations.
+* Securer password management policy.
+* Use of Federated ID accounts (external ID provider).
+
+[Learn more](connect.md) about accessing Campaign v8 with an Adobe ID.
+
++++
+
++++ What are Campaign user interface concepts I should know?
+
+Refer to [this section](campaign-ui.md) to learn more about Adobe Campaign user interface basics.
+
+Starting Campaign v8.6 release, you also have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment.
+
+[Learn more in the Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+
++++
+
++++ How can I set up user permissions?
+
+As a Campaign administrator, you can set up permissions for users of your organization.
+
+These are a set of rights and restrictions that authorize or deny to:
+
+* Access to certain functionalities
+* Access to certain data
+* Create, modify and/or delete data
+
+**Related topics:**
+
+[Get started with permissions](gs-permissions.md) | [Manage user permissions](manage-permissions.md) | [Add permissions on folders](folder-permissions.md)
+
++++
+
++++ How can I select the audience of my messages?
+
+Campaign offers multiple targeting methods to select the right audience for your messages:
+
+**Targeting methods:**
+
+* **Query editor** - Build audiences using visual filters on recipient attributes, behaviors, or demographics
+* **Lists** - Use predefined static or dynamic recipient lists
+* **File import** - Upload external recipient files for one-time campaigns
+* **Workflows** - Create complex targeting logic with query, split, and enrichment activities
+* **Predefined filters** - Apply ready-to-use filters (active customers, subscribers, VIPs)
+* **Segments from Adobe Experience Platform** - Leverage unified profiles and real-time segments
+
+You can combine multiple criteria (location, purchase history, engagement) and use exclusions, intersections, or unions to refine your audience.
+
+**Related topics:**
+
+[Define audiences in Campaign v8](../audiences/gs-audiences.md) | [Query editor](query-editor.md) | [Target mappings](../audiences/target-mappings.md)
+
++++
+
++++ How to create and send a first email?
+
+Creating your first email in Campaign v8 is straightforward. You start from a template, select your target audience, design your content with personalization, test it with proofs, and then send. Campaign offers two interfaces for email creation: the full-featured **Client console** for advanced users and the modern **Campaign Web UI** for faster, more intuitive email building.
+
+**5 key steps:**
+
+1. **Create delivery** - Start from an email template or create from scratch
+2. **Define audience** - Select recipients using queries, lists, or workflows
+3. **Design content** - Use the email designer to create your message with personalization fields
+4. **Send test proofs** - Validate rendering and content across devices and email clients
+5. **Analyze and send** - Run delivery analysis to check for errors, then send your email
+
+**Related topics:**
+
+[Email design and validation](../send/email.md) | [Create first delivery](create-message.md) | [Delivery templates](../send/create-templates.md) | [Personalize content](../send/personalize.md)
+
++++
+
++++ How to translate an error message?
+
+An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html){target="_blank"}.
+
++++
+
++++ How can I log an issue?
+
+To contact Adobe Customer Support, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} to create a case or start a chat session.
+
+Requires individual accounts with correct permissions. If you can't log in, request access via Experience League. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+
+Alternatively, join [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} to search for answers or ask experts.
+
++++
+
++++ Which systems and components Campaign v8 is compatible with?
+
+You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
+
++++
+
++++ Can I use Campaign v8 with other Adobe solutions?
+
+Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions for a unified marketing ecosystem.
+
+**Key integrations:** Adobe Experience Platform (unified profiles, real-time data), Adobe Analytics (performance measurement), Adobe Target (personalization), Adobe Experience Manager (content management), Adobe Audience Manager (audience segments).
+
+**Setup:** Requires Adobe IMS authentication, automatically configured for Campaign v8 Managed Cloud Services.
+
+**Related topics:**
+
+[Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
+
++++
+
++++ What are the limitations of Campaign v8?
+
+Campaign v8 brings significant performance improvements but has some architectural differences from Campaign Classic v7, especially in FFDA deployments.
+
+**Key considerations:**
+
+* **FFDA architecture** - Uses cloud database (Snowflake) with different data access patterns
+* **Data updates** - Should be done in workflows, not via direct database access
+* **Batch-optimized** - Optimized for batch operations rather than high-frequency individual updates
+* **Not available in FFDA** - Surveys, Marketing Resource Management (MRM), some specific connectors
+
+**Migration impact:** Custom code using direct database writes needs refactoring; API integrations may need adaptation for batch processing.
+
+These limitations are evolving as Adobe enhances v8. Consult latest documentation for current status.
+
+**Related topics:**
+
+[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
+
++++
+
++++ As a Campaign Classic v7 user, can I migrate to Campaign v8?
+
+Automated migration from an existing Campaign Classic v7 environment is not yet available. 
+
+Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+
+For more information about the migration process, reach out to your Adobe representative.
+
+Learn more in the [Campaign v8 vs Previous versions](#v7-differences) section.
+
++++
+
+
+## Upgrades {#upgrades}
 
 Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
@@ -161,196 +319,6 @@ Campaign v8 is **only** available as a Managed Cloud Service, and cannot be depl
 For more information about the migration process, reach out to your Adobe representative.
 
 Learn more in the [Campaign v8 vs Previous versions](#v7-differences) section.
-
-+++
-
-
-## Key Concepts {#key-concepts}
-
-Learn about fundamental Campaign concepts including authentication, user interface, workflows, and core functionalities to get started effectively.
-
-+++ Can I connect to Campaign v8 with an Adobe ID?
-
-Yes! Thanks to the integration with the IMS (Adobe Identity Management System), users connect to the Adobe Campaign console using their Adobe ID. This integration provides the following advantages:
-
-* The same ID can be used for all Experience Cloud solutions.
-* The connection is memorized when using Adobe Campaign with different integrations.
-* Securer password management policy.
-* Use of Federated ID accounts (external ID provider).
-
-[Learn more](connect.md) about accessing Campaign v8 with an Adobe ID.
-
-+++
-
-+++ How can I set up user permissions?
-
-As a Campaign administrator, you can set up permissions for users of your organization.
-
-These are a set of rights and restrictions that authorize or deny to:
-
-* Access to certain functionalities
-* Access to certain data
-* Create, modify and/or delete data
-
-**Related topics:**
-
-[Get started with permissions](gs-permissions.md) | [Manage user permissions](manage-permissions.md) | [Add permissions on folders](folder-permissions.md)
-
-+++
-
-+++ What are Campaign user interface concepts I should know?
-
-Refer to [this section](campaign-ui.md) to learn more about Adobe Campaign user interface basics.
-
-Starting Campaign v8.6 release, you also have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment.
-
-[Learn more in the Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
-
-+++
-
-+++ How can I select the audience of my messages?
-
-Campaign offers multiple targeting methods to select the right audience for your messages:
-
-**Targeting methods:**
-
-* **Query editor** - Build audiences using visual filters on recipient attributes, behaviors, or demographics
-* **Lists** - Use predefined static or dynamic recipient lists
-* **File import** - Upload external recipient files for one-time campaigns
-* **Workflows** - Create complex targeting logic with query, split, and enrichment activities
-* **Predefined filters** - Apply ready-to-use filters (active customers, subscribers, VIPs)
-* **Segments from Adobe Experience Platform** - Leverage unified profiles and real-time segments
-
-You can combine multiple criteria (location, purchase history, engagement) and use exclusions, intersections, or unions to refine your audience.
-
-**Related topics:**
-
-[Define audiences in Campaign v8](../audiences/gs-audiences.md) | [Query editor](query-editor.md) | [Target mappings](../audiences/target-mappings.md)
-
-+++
-
-+++ What is a workflow?
-
-Adobe Campaign includes workflows to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
-
-You can use a workflow, for example, to download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
-
-A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
-
-[Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"} about workflows. You can also read out [workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
-
-**Related topics:**
-
-[Get started with workflows](../config/workflows.md) | [Build your first workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
-
-+++
-
-+++ How to create and send a first email?
-
-Creating your first email in Campaign v8 is straightforward. You start from a template, select your target audience, design your content with personalization, test it with proofs, and then send. Campaign offers two interfaces for email creation: the full-featured **Client console** for advanced users and the modern **Campaign Web UI** for faster, more intuitive email building.
-
-**5 key steps:**
-
-1. **Create delivery** - Start from an email template or create from scratch
-2. **Define audience** - Select recipients using queries, lists, or workflows
-3. **Design content** - Use the email designer to create your message with personalization fields
-4. **Send test proofs** - Validate rendering and content across devices and email clients
-5. **Analyze and send** - Run delivery analysis to check for errors, then send your email
-
-**Related topics:**
-
-[Email design and validation](../send/email.md) | [Create first delivery](create-message.md) | [Delivery templates](../send/create-templates.md) | [Personalize content](../send/personalize.md)
-
-+++
-
-+++ How to send SMS messages?
-
-Sending SMS requires initial setup (configure SMS channel, SMPP connection, routing) then standard delivery creation.
-
-**Basic process:**
-
-1. Configure SMS channel and provider connection (one-time setup)
-2. Create SMS delivery from template
-3. Define recipients and write content (160 chars standard, auto-concatenation for longer)
-4. Add personalization and send test proofs
-5. Analyze and send
-
-**Capabilities:** Multiple SMPP connectors, delivery tracking, GSM7/Unicode support, long SMS auto-concatenation, two-way SMS with workflows.
-
-**Related topics:**
-
-[Learn more about SMS configuration and sending](../send/sms/sms.md) | [SMS delivery settings](../send/sms/sms-delivery-settings.md) | [Create SMS delivery](../send/sms/create-sms.md)
-
-+++
-
-+++ How to send push notifications?
-
-Sending push notifications requires initial mobile app integration setup, then standard delivery creation.
-
-**Basic process:**
-
-1. **Initial setup** (one-time): Configure push channel, integrate Campaign SDK or Data Collection, register iOS/Android apps, configure APNs/FCM certificates
-2. **Create delivery**: Create push from template, select platform, define audience, design notification with rich media
-3. **Test and send**: Validate on real devices, then send
-
-**Capabilities:** Rich push (images, videos, buttons), personalization, deep linking, scheduling, A/B testing, tracking. Platform-specific features for iOS and Android.
-
-**Related topics:**
-
-[Learn more about push notifications](../send/push.md) | [Configure push channel](../send/push-settings.md) | [Android rich push](../send/rich-push-android.md) | [iOS rich push](../send/rich-push-ios.md)
-
-+++
-
-+++ How to create landing page?
-
-Landing pages in Campaign enable you to capture leads, manage subscriptions, and collect data through web forms. Campaign offers two methods: the **Client console** for advanced forms with complex logic, and the **Campaign Web UI** for quick, modern landing page creation with a drag-and-drop editor.
-
-**Campaign Web UI (recommended for most users):**
-
-* Use the visual editor to design responsive landing pages
-* Add form fields, images, and content blocks with drag-and-drop
-* Map form fields to database attributes
-* Configure pre-fill, confirmation messages, and thank-you pages
-* Publish and track submissions in real-time
-
-**Client console (for advanced use cases):**
-
-* Build custom web applications with complex business logic
-* Define advanced field mapping and validation rules
-* Create multi-page forms with conditional routing
-* Access full Campaign data model for enrichment
-
-**Related topics:**
-
-[Create landing pages (Web UI)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"} | [Web applications (Client console)](../dev/landing-pages.md)
-
-+++
-
-+++ How can I track deliveries?
-
-You can track deliveries sent with Campaign v8 through dedicated [delivery reports](../reporting/delivery-reports.md) and then monitor your deliveries.
-
-Learn more about tracking management in Campaign [in this page](../start/tracking.md).
-
-**Related topics:**
-
-[Track and monitor messages](tracking.md) | [Delivery reports](../reporting/delivery-reports.md) | [Understand delivery failures](../send/delivery-failures.md) | [Configure tracked links](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
-
-+++
-
-+++ How to translate an error message?
-
-An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html){target="_blank"}.
-
-+++
-
-+++ Can I create a webform and collect answers in Campaign?
-
-Yes. Create web forms using **Campaign Web Applications & Forms** (client console) for full control over form logic and validation, or use **Campaign Landing Pages** (Web UI) with a modern drag-and-drop interface for subscriptions and lead generation. Both collect data directly into Campaign and integrate with workflows for automated actions.
-
-**Related topics:**
-
-[Learn more about web applications and forms](../dev/webapps.md) | [Campaign Web UI landing pages](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
 
@@ -762,6 +730,34 @@ Yes, but **only through the Campaign Web UI**. AI Assistant, powered by Microsof
 
 Learn best practices for testing, validating, sending, and tracking your marketing messages to ensure successful campaign delivery.
 
++++ How to improve email deliverability?
+
+Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
+
+Refer to this guide to learn [Deliverability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
+
+Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
+
+**Related topics:**
+
+[Get started with deliverability](../send/about-deliverability.md) | [Control message content](../send/control-message-content.md) | [Monitor deliverability](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+
++++
+
++++ How can I make sure my delivery is sent without errors?
+
+**Before sending:** Run delivery analysis, send test proofs, review warnings, verify target count.
+
+**During/after sending:** Monitor delivery dashboard (sent, delivered, bounces, errors), check delivery logs, track success/bounce rates, review quarantined addresses.
+
+**Best practices:** Set up alerts, use waves for large volumes, test with small volumes first, clean recipient database regularly, monitor sender reputation.
+
+**Related topics:**
+
+[Monitor deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [Delivery best practices](delivery-best-practices.md)
+
++++
+
 +++ What is the delivery analysis?
 
 Delivery analysis is a validation phase Campaign runs before sending. It calculates the target population, validates content, checks for errors, applies typology rules, and estimates delivery volume.
@@ -967,6 +963,34 @@ Access quarantine management in **[!UICONTROL Administration > Campaign Manageme
 ## Workflows {#workflows}
 
 Explore how to use workflows to automate processes, manage data, and orchestrate complex marketing campaigns in Adobe Campaign.
+
++++ What is a workflow?
+
+Adobe Campaign includes workflows to orchestrate the full range of processes and tasks across the different modules of the application server. This comprehensive graphical environment lets you design processes including segmentation, campaign execution, file processing, human participation, etc. The workflow engine executes and tracks these processes.
+
+You can use a workflow, for example, to download a file from a server, decompress it, and then import records contained within into the Adobe Campaign database.
+
+A workflow can also involve one or more operators to be notified or who can make choices and approve processes. In this way, it is possible to create a delivery action, assign a task to one or more operators to work on content, specify targets, and to approve proofs before starting the delivery.
+
+[Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html){target="_blank"} about workflows. You can also read out [workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"}.
+
+**Related topics:**
+
+[Get started with workflows](../config/workflows.md) | [Build your first workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Monitor workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+
++++
+
++++ Can I monitor workflow execution?
+
+Yes. Campaign provides multiple monitoring tools: workflow dashboard (real-time status and errors), workflow logs (detailed execution logs), heatmap (visualize activity and bottlenecks), audit trail (track modifications), and alerts (notifications for failures).
+
+To monitor, open the workflow and click the **Logs** tab. Failed activities appear in red.
+
+**Related topics:**
+
+[Monitor workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+
++++
 
 +++ What are the key steps to create a workflow?
 
@@ -1175,6 +1199,16 @@ Campaign Control Panel is a web-based administrative interface that helps Campai
 **Additional resources:** 
 
 [Control Panel documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home){target="_blank"} | [Control Panel tutorial videos](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+
++++
+
++++ What is the procedure for domain delegation?
+
+A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
+    
+>[!NOTE]
+>
+>As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
 
 +++
 
