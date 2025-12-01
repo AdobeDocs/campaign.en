@@ -14,6 +14,8 @@ hidefromtoc: yes
 Get quick answers to the most common questions about Adobe Campaign v8. Whether you're just getting started or looking for advanced configuration help, you'll find answers organized by topic below.
 
 **New to Campaign?** Start with [General Questions](#general) and [Key Concepts](#key-concepts).  
+**Need help with versions?** Check [Upgrades](#upgrades) for version information and upgrade processes.  
+**Migrating from v7 or Standard?** See [Campaign v8 vs Previous Versions](#v7-differences) for differences and transition guidance.  
 **Need technical help?** Check [Developers](#developers) and [Campaign Settings](#settings).  
 **Can't find your answer?** Visit our [Community Forums](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} or [contact support](#get-help).
 
@@ -22,7 +24,7 @@ Get quick answers to the most common questions about Adobe Campaign v8. Whether 
 
 ## General Questions {#general}
 
-Get answers to the most common questions about Adobe Campaign v8, including how to connect, upgrade, and get support.
+Get answers to the most common questions about Adobe Campaign v8, including how to connect, get started, and access support.
 
 +++ How can I connect to Campaign v8?
 
@@ -201,88 +203,6 @@ Campaign v8 is **only** available as a Managed Cloud Service, and cannot be depl
 For more information about the migration process, reach out to your Adobe representative.
 
 Learn more in the [Campaign v8 vs Previous versions](#v7-differences) section.
-
-+++
-
-+++ What is my version of Campaign?
-
-Check your [version and build number](upgrades.md#version) from the **Help > About...** menu of Campaign client console.
-
-+++
-
-+++ How can I upgrade Campaign to the latest version?
-
-Adobe Campaign is regularly updated. Minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only.
-
-This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
-
-**Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
-
-Learn more about [Campaign versions and upgrades](upgrades.md).
-
-+++
-
-+++ How can I be informed of the release of a new version?
-
-Stay informed about new Campaign releases through these channels:
-
-* **Adobe representative** - Contacts you directly when a new version is available
-* **Release Notes** - All versions and changes documented in [Campaign Release Notes](release-notes.md)
-* **Adobe Priority Product Updates** - [Subscribe](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} for email notifications
-* **Campaign Community** - Join [discussions](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} for early updates
-
-As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
-
-**Related topics:**
-
-[Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
-
-+++
-
-+++ Why does my organization need an upgrade?
-
-Upgrading to the latest Campaign version is critical for security, performance, and support quality.
-
-**Key benefits:**
-
-* **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
-* **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
-* **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
-* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
-
-Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
-
-**Related topics:**
-
-[Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
-
-+++
-
-+++ What is the process and timeline for an upgrade?
-
-As a Managed Cloud Services customer, Adobe manages the entire upgrade process with minimal impact on your operations.
-
-**Process:**
-
-1. **Notification** - Adobe notifies you weeks in advance
-2. **Planning** - Schedule upgrade at optimal time with your Adobe representative
-3. **Preparation** - Adobe prepares environment and validates
-4. **Execution** - Adobe upgrades infrastructure with minimal downtime
-5. **Validation** - Post-upgrade testing by Adobe
-6. **Client console upgrade** - You upgrade your client consoles to match server version
-
-**Your responsibilities:**
-
-* Coordinate internal stakeholders for timing
-* [Upgrade client consoles](connect.md#upgrade-ac-console) to the new version
-* Test campaigns and workflows after upgrade
-* Report issues to Adobe Support
-
-Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
-
-**Related topics:**
-
-[Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
 
 +++
 
@@ -497,6 +417,92 @@ Yes. Create web forms using **Campaign Web Applications & Forms** (client consol
 
 +++
 
+
+## Upgrades {#upgrades}
+
+Learn how to check your Campaign version, understand the upgrade process, and stay informed about new releases. Campaign v8 Managed Cloud Services handles upgrades automatically with minimal disruption.
+
++++ What is my version of Campaign?
+
+Check your [version and build number](upgrades.md#version) from the **Help > About...** menu of Campaign client console.
+
++++
+
++++ How can I upgrade Campaign to the latest version?
+
+Adobe Campaign is regularly updated. Minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only.
+
+This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
+
+**Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
+
+Learn more about [Campaign versions and upgrades](upgrades.md).
+
++++
+
++++ How can I be informed of the release of a new version?
+
+Stay informed about new Campaign releases through these channels:
+
+* **Adobe representative** - Contacts you directly when a new version is available
+* **Release Notes** - All versions and changes documented in [Campaign Release Notes](release-notes.md)
+* **Adobe Priority Product Updates** - [Subscribe](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} for email notifications
+* **Campaign Community** - Join [discussions](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} for early updates
+
+As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
+
+**Related topics:**
+
+[Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
+
++++
+
++++ Why does my organization need an upgrade?
+
+Upgrading to the latest Campaign version is critical for security, performance, and support quality.
+
+**Key benefits:**
+
+* **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
+* **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
+* **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
+* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
+
+Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
+
+**Related topics:**
+
+[Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
+
++++
+
++++ What is the process and timeline for an upgrade?
+
+As a Managed Cloud Services customer, Adobe manages the entire upgrade process with minimal impact on your operations.
+
+**Process:**
+
+1. **Notification** - Adobe notifies you weeks in advance
+2. **Planning** - Schedule upgrade at optimal time with your Adobe representative
+3. **Preparation** - Adobe prepares environment and validates
+4. **Execution** - Adobe upgrades infrastructure with minimal downtime
+5. **Validation** - Post-upgrade testing by Adobe
+6. **Client console upgrade** - You upgrade your client consoles to match server version
+
+**Your responsibilities:**
+
+* Coordinate internal stakeholders for timing
+* [Upgrade client consoles](connect.md#upgrade-ac-console) to the new version
+* Test campaigns and workflows after upgrade
+* Report issues to Adobe Support
+
+Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
+
+**Related topics:**
+
+[Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
+
++++
 
 
 ## Campaign v8 vs Previous Versions {#v7-differences}
