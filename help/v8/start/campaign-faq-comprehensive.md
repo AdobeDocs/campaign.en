@@ -26,6 +26,22 @@ Get quick answers to the most common questions about Adobe Campaign v8. Whether 
 
 Learn the essentials to start working with Adobe Campaign v8, from installation and connection to creating your first campaigns.
 
++++ What is Adobe Campaign v8?
+
+Adobe Campaign v8 is a powerful cross-channel marketing automation platform that helps you create, coordinate, and deliver personalized campaigns across email, mobile, social, and offline channels. It combines a robust marketing database, campaign orchestration engine, and real-time interaction capabilities to engage customers throughout their journey.
+
+**Key capabilities:** Multi-channel campaign management, audience segmentation and targeting, workflow automation, personalization at scale, real-time and batch messaging, reporting and analytics, integration with Adobe Experience Cloud.
+
+**What makes v8 unique:** Cloud-native architecture (Managed Cloud Services only), enterprise-scale performance powered by Snowflake database, automatic upgrades, enhanced security, and bi-directional integration with Adobe Experience Platform.
+
+**Ideal for:** Enterprise marketing teams managing complex, high-volume campaigns across multiple channels and customer touchpoints.
+
+**Related topics:**
+
+[Campaign v8 product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} | [What's new in v8](whats-new.md) | [Get started guide](get-started.md)
+
++++
+
 +++ How can I download Campaign?
 
 You can get the installation program and the client console from Adobe Download Center.
@@ -132,130 +148,6 @@ Creating your first email in Campaign v8 is straightforward. You start from a te
 +++ How to translate an error message?
 
 An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html){target="_blank"}.
-
-+++
-
-+++ How can I log an issue?
-
-To contact Adobe Customer Support, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} to create a case or start a chat session.
-
-Requires individual accounts with correct permissions. If you can't log in, request access via Experience League. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-
-Alternatively, join [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} to search for answers or ask experts.
-
-+++
-
-+++ Which systems and components Campaign v8 is compatible with?
-
-You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
-
-+++
-
-+++ Can I use Campaign v8 with other Adobe solutions?
-
-Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions for a unified marketing ecosystem.
-
-**Key integrations:** Adobe Experience Platform (unified profiles, real-time data), Adobe Analytics (performance measurement), Adobe Target (personalization), Adobe Experience Manager (content management), Adobe Audience Manager (audience segments).
-
-**Setup:** Requires Adobe IMS authentication, automatically configured for Campaign v8 Managed Cloud Services.
-
-**Related topics:**
-
-[Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
-
-+++
-
-+++ What are the limitations of Campaign v8?
-
-Campaign v8 brings significant performance improvements but has some architectural differences from Campaign Classic v7, especially in FFDA deployments.
-
-**Key considerations:**
-
-* **FFDA architecture** - Uses cloud database (Snowflake) with different data access patterns
-* **Data updates** - Should be done in workflows, not via direct database access
-* **Batch-optimized** - Optimized for batch operations rather than high-frequency individual updates
-* **Not available in FFDA** - Surveys, Marketing Resource Management (MRM), some specific connectors
-
-**Migration impact:** Custom code using direct database writes needs refactoring; API integrations may need adaptation for batch processing.
-
-These limitations are evolving as Adobe enhances v8. Consult latest documentation for current status.
-
-**Related topics:**
-
-[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
-
-+++
-
-+++ As a Campaign Classic v7 user, can I migrate to Campaign v8?
-
-Automated migration from an existing Campaign Classic v7 environment is not yet available. 
-
-Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
-
-For more information about the migration process, reach out to your Adobe representative.
-
-Learn more in the [Campaign v8 vs Previous versions](#v7-differences) section.
-
-+++
-
-
-## Upgrades {#upgrades}
-
-Email deliverability, a critical component to every sender's marketing program success, is characterized by ever-changing criteria and rules. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
-
-Refer to this guide to learn [Deliverability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}
-
-Learn how to implement deliverability in Campaign [in this guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html){target="_blank"}
-
-**Related topics:**
-
-[Get started with deliverability](../send/about-deliverability.md) | [Control message content](../send/control-message-content.md) | [Monitor deliverability](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
-
-+++
-
-+++ How can I make sure my delivery is sent without errors?
-
-**Before sending:** Run delivery analysis, send test proofs, review warnings, verify target count.
-
-**During/after sending:** Monitor delivery dashboard (sent, delivered, bounces, errors), check delivery logs, track success/bounce rates, review quarantined addresses.
-
-**Best practices:** Set up alerts, use waves for large volumes, test with small volumes first, clean recipient database regularly, monitor sender reputation.
-
-**Related topics:**
-
-[Monitor deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [Delivery best practices](delivery-best-practices.md)
-
-+++
-
-+++ Can I monitor workflow execution?
-
-Yes. Campaign provides multiple monitoring tools: workflow dashboard (real-time status and errors), workflow logs (detailed execution logs), heatmap (visualize activity and bottlenecks), audit trail (track modifications), and alerts (notifications for failures).
-
-To monitor, open the workflow and click the **Logs** tab. Failed activities appear in red.
-
-**Related topics:**
-
-[Monitor workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-
-+++
-
-+++ How can I download Campaign?
-
-You can get the installation program and the client console from Adobe Download Center.
-    
-As an Admin user, access Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"} to download Adobe Campaign.
-    
-Learn more about the Distribution Center [on this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
-
-+++
-
-+++ What is the procedure for domain delegation?
-
-A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
-    
->[!NOTE]
->
->As a Managed Cloud Services user, contact Adobe to delegate your subdomains to Adobe.
 
 +++
 
@@ -494,7 +386,7 @@ Learn more about [migrating to Managed Services](https://experienceleaguecommuni
 
 +++ What are the key terminology and feature differences in Campaign v8?
 
-Campaign v8 brings most v7/Standard capabilities with enhancements, but some terminology and features differ due to cloud-native architecture.
+Campaign v8 brings most v7/Standard capabilities with enhancements, but some terminology and features differ. You'll find a summary of key changes below.
 
 **Key terminology changes (Campaign Standard → v8):**
 
@@ -684,6 +576,25 @@ Test personalization before sending to verify merge fields and conditional logic
 
 +++
 
++++ How can I personalize email subject lines?
+
+Personalized subject lines significantly increase open rates. Campaign allows you to dynamically insert recipient data, apply conditional logic, and test variations to optimize engagement.
+
+**Personalization techniques:**
+
+* **Basic fields** - Insert firstname, lastname, location: `"<%@ firstName %>, exclusive offer for you"`
+* **Conditional content** - Different subjects by segment: `"<% if (recipient.gender == 'F') { %>Special offer just for you<% } else { %>Exclusive deal inside<% } %>"`
+* **Dynamic data** - Include purchase history, loyalty points, or account info
+* **Emojis** - Add visual appeal (test across email clients first)
+
+**Best practices:** Keep under 50 characters, test personalization tokens before sending, use A/B testing to optimize, avoid spam trigger words, include value proposition or urgency.
+
+**Related topics:**
+
+[Personalization fields](../send/personalization-fields.md) | [Conditional content](../send/conditions.md) | [A/B testing](../send/a-b-testing.md)
+
++++
+
 +++ Can I send multilingual messages?
 
 Yes. Campaign v8 offers multilingual capabilities, with the **Campaign Web UI** providing the easiest approach. The Web UI offers native multilingual delivery with language variants—add language variants to your delivery, and Campaign automatically sends the appropriate version based on recipient's preferred language. Available for email, push notifications, SMS, and transactional messages.
@@ -808,6 +719,33 @@ Use **proofs as your approval process**. Send proofs to your approval group for 
 **Related topics:**
 
 [Delivery validation](../send/preview-and-proof.md) | [Campaign approvals](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}
+
++++
+
++++ Can I run A/B tests on my deliveries?
+
+Yes! Campaign allows you to run A/B tests (also called split tests) to optimize subject lines, content, sender names, send times, and more by comparing performance across different variants.
+
+**What you can test:**
+
+* **Subject lines** - Compare open rates across different subjects
+* **Content variations** - Test different layouts, calls-to-action, or images
+* **Sender information** - Test sender name or from address impact
+* **Send time** - Identify optimal delivery windows
+* **Personalization strategies** - Compare personalized vs. generic content
+
+**How it works:**
+
+1. Create your delivery and define test variants (up to 3)
+2. Split your audience (typically 10-20% for test segments)
+3. Campaign sends variants to test segments and tracks performance
+4. Winning variant automatically sends to remaining audience (or you manually select winner)
+
+**Available in:** Both Campaign Web UI and client console. Web UI offers simpler setup with visual comparison.
+
+**Related topics:**
+
+[A/B testing guide](../send/a-b-testing.md) | [Delivery analysis](../send/delivery-analysis.md)
 
 +++
 
@@ -1011,6 +949,34 @@ Common workflow patterns: data import, audience segmentation, delivery sending, 
 
 +++
 
++++ How can I automate recurring campaigns?
+
+Use workflows with the **Scheduler** activity to automate campaigns that run on a regular schedule—daily, weekly, monthly, or custom intervals. Perfect for welcome emails, birthday messages, newsletter sends, abandoned cart reminders, and regular reporting.
+
+**Setup pattern:**
+
+1. **Scheduler** - Define frequency (e.g., "Every Monday at 9 AM")
+2. **Query** - Select target audience with dynamic criteria
+3. **Enrichment** (optional) - Add personalization data
+4. **Delivery** - Configure your message (email, SMS, push)
+5. **End** - Workflow completes and waits for next scheduled run
+
+**Common automated campaigns:**
+
+* **Welcome series** - Daily workflow to send onboarding emails to new subscribers
+* **Birthday emails** - Daily check for recipients with birthdays, send personalized message
+* **Re-engagement** - Weekly targeting of inactive users with win-back offers
+* **Newsletters** - Scheduled weekly or monthly content distribution
+* **Cart abandonment** - Hourly workflow to identify and message cart abandoners
+
+**Tip:** Use **recurring delivery** type in workflows to track each execution separately and maintain historical reporting.
+
+**Related topics:**
+
+[Scheduler activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"} | [Recurring deliveries](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [Campaign automation](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"}
+
++++
+
 +++ How can I import data in Campaign?
 
 **Methods:** Import wizard (one-time CSV/TXT), workflow-based import (**[!UICONTROL Data loading (file)]** activity for complex/recurring imports with transformations), REST APIs (programmatic/real-time sync).
@@ -1020,6 +986,34 @@ Common workflow patterns: data import, audience segmentation, delivery sending, 
 **Related topics:**
 
 [Import best practices](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
+
++++
+
++++ How can I ensure data quality during imports?
+
+Data quality is critical for successful campaign execution. Poor data leads to delivery failures, wasted resources, and compliance risks. Campaign provides tools to validate, clean, and enrich data during the import process.
+
+**Data validation steps:**
+
+1. **Pre-import validation** - Verify file format, encoding (UTF-8), column mapping, required fields present
+2. **Deduplication** - Use **[!UICONTROL Deduplication]** activity to identify and handle duplicates by email, ID, or custom keys
+3. **Data enrichment** - Use **[!UICONTROL Enrichment]** activity to add missing data from existing Campaign tables
+4. **Format standardization** - Normalize phone numbers, email addresses, dates, country codes using JavaScript or enrichment
+5. **Validation rules** - Apply constraints (valid email format, mandatory fields, value ranges)
+
+**Common issues and fixes:**
+
+* **Character encoding errors** → Always use UTF-8 encoding
+* **Date format mismatches** → Standardize to YYYY-MM-DD format
+* **Invalid email addresses** → Use validation rules or JavaScript to filter
+* **Duplicate records** → Always include deduplication activity before updates
+* **Missing required fields** → Set default values or reject incomplete records
+
+**Best practice:** Create a reusable "data quality" workflow template with standard validation and cleaning activities that you can apply to all imports.
+
+**Related topics:**
+
+[Data quality guide](../start/import.md) | [Deduplication activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1779,7 +1773,7 @@ Find detailed technical documentation and developer resources.
 
 * **[Campaign APIs](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}** - Complete API reference documentation
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
-* **[Versions and Upgrades FAQ](upgrades.md#upgrades-faq)** - Check your version and learn about upgrades
+* **[Versions and Upgrades FAQ](upgrades.md-faq)** - Check your version and learn about upgrades
 
 ### Support & Services
 
