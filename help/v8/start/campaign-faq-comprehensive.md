@@ -521,57 +521,21 @@ Learn more about [Campaign v8 architecture](../architecture/architecture.md) and
 
 +++ What are the main differences between Campaign v8 and previous versions?
 
-Campaign v8 is a complete reimagining of Adobe Campaign, designed for modern cloud-native architecture and bringing significant improvements over Campaign Classic v7 and Campaign Standard:
+Campaign v8 is built on a modern cloud-native architecture with significant improvements:
 
-**Deployment Model:**
+* **Managed Cloud Services only** - Fully hosted by Adobe (no on-premise/hybrid options)
+* **Superior performance** - Up to 20 million operations/hour, with Full Federated Data Access (FFDA) architecture
+* **New Campaign Web UI** - Modern, intuitive interface alongside the classic console
+* **Automatic upgrades** - Always on the latest version with zero downtime
+* **Enhanced features** - AI Assistant, rich push notifications, upgraded SMS, improved integrations with Adobe Experience Cloud
 
-* **v8:** Managed Cloud Services only - fully hosted and managed by Adobe
-* **v7/Standard:** On-premise, hybrid, or hosted options available
-* **Benefit:** Zero infrastructure management, automatic scaling, enterprise-grade security, proactive monitoring
+**For Campaign Classic v7 users:** Learn about [transitioning from v7 to v8](v7-to-v8.md) including architecture changes, unavailable features, and migration considerations.
 
-**Architecture & Performance:**
-
-* **v8:** Enhanced Full FDA (FFDA) architecture with PostgreSQL database
-* **v8:** Batch processing throughput reaching up to **20 million operations per hour**
-* **v8:** Transactional message throughput of **1 million per hour**
-* **v8:** Real-time data exploration and rapid audience building (minutes vs hours)
-* **Benefit:** Better performance for large-scale operations and complex campaigns
-
-**User Interface:**
-
-* **v8:** New **Campaign Web user interface** alongside client console - intuitive, accessible, ideal for marketers
-* **v8:** Modern, responsive design with drag-and-drop capabilities
-* **v8:** Simplified campaign creation and management workflows
-* **v8:** Shares many similarities with Campaign Standard interface
-* **Benefit:** Faster onboarding, easier campaign execution, better accessibility, minimal learning curve
-
-**New Key Features:**
-
-* **Rich push notifications** with images, videos, interactive buttons, carousels, and timers
-* **AI Assistant** for content generation (email, SMS, push) with brand alignment scoring
-* **Upgraded SMS infrastructure (SMS v2.0)** with improved reliability and compatibility
-* **Adobe Experience Manager as a Cloud Service integration** for seamless content management
-* **Enhanced reporting** including Dynamic Reporting for Campaign Standard users
-
-**Upgrades & Maintenance:**
-
-* **v8:** Automatic upgrades managed by Adobe - always on latest stable version with continuous delivery model
-* **v7/Standard:** Manual upgrade planning and execution required
-* **Benefit:** Reduced maintenance burden, immediate access to new features, no downtime
-
-**APIs & Integration:**
-
-* **v8:** Modern REST APIs with enhanced performance and reliability
-* **v8:** Seamless integration with Adobe Experience Cloud and Adobe Experience Platform
-* **Benefit:** Easier integrations, better interoperability, modern development practices
-
-[Learn more about Campaign v8 key capabilities](whats-new.md)
+**For Campaign Standard users:** Discover the [transition path to v8](acs-to-v8.md) and [Campaign Standard migration guide](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 **Related topics:**
 
-[From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 transition guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} | [From Campaign Standard to v8](acs-to-v8.md) | [Campaign Standard transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
-* [Campaign v8 architecture](../architecture/architecture.md)
-* [Guardrails and limitations](ac-guardrails.md)
+[Campaign v8 key capabilities](whats-new.md) | [Campaign v8 architecture](../architecture/architecture.md) | [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Guardrails and limitations](ac-guardrails.md)
 
 +++
 
@@ -639,8 +603,7 @@ Contact your Adobe representative to:
 
 **For Campaign Standard users:** [Campaign Standard transition to v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} | [From Campaign Standard to v8 overview](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [Get started for marketers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [Get started for admin/developers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
 
-**General resources:** [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
-* [Compatibility matrix](compatibility-matrix.md)
+**General resources:** [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Compatibility matrix](compatibility-matrix.md)
 
 +++
 
