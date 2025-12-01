@@ -527,6 +527,8 @@ Learn how to design effective marketing messages in Campaign v8, including email
 
 Key guidelines: ensure mobile-responsive design, use HTML 4.0/XHTML compatible code with inline CSS, optimize images (under 100KB) with alt text, use personalization merge fields, test across email clients before sending, and include a plain text version. Aim for total email size under 500KB for optimal deliverability.
 
+**Related topics:**
+
 [Email design guide](../send/email.md) | [Delivery best practices](delivery-best-practices.md)
 
 +++
