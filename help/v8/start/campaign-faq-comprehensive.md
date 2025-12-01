@@ -995,6 +995,8 @@ Common workflow patterns: data import, audience segmentation, delivery sending, 
 
 **Best practices:** Test with small samples, use UTF-8 encoding, map fields correctly, apply deduplication, schedule large imports off-peak.
 
+**Related topics:**
+
 [Import best practices](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
@@ -1009,6 +1011,8 @@ Workflows automate marketing processes including:
 **Monitoring:** Workflow/delivery monitoring, alerts, database maintenance  
 **Integration:** CRM sync, API integrations, event-triggered workflows
 
+**Related topics:**
+
 [Workflow use cases library](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
@@ -1021,6 +1025,8 @@ Use **[!UICONTROL Update data]** activity for bulk database operations: Insert (
 
 Configure reconciliation keys for accurate matching and choose update options.
 
+**Related topics:**
+
 [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
@@ -1030,6 +1036,8 @@ Configure reconciliation keys for accurate matching and choose update options.
 Data management activities enable sophisticated operations: Enrichment (add data from related tables), Split (segment populations), Deduplication (remove duplicates), Update data (bulk operations), Change dimension (switch targeting dimensions), Intersection/Union/Exclusion (combine/filter populations).
 
 **Common uses:** Enrich with purchase/behavior data, segment audiences, remove duplicates, integrate external databases (FDA), create complex multi-table queries.
+
+**Related topics:**
 
 [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
@@ -1041,6 +1049,8 @@ Yes. Build automated workflows: Query (target audience) → Enrichment (add pers
 
 **Personalization:** Use profile data, behavioral data, conditional content, dynamic values. Common scenarios: birthday campaigns, cart abandonment, loyalty programs, win-back, event-triggered messages.
 
+**Related topics:**
+
 [Personalization guide](../send/personalize.md) | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
 
 +++
@@ -1050,6 +1060,8 @@ Yes. Build automated workflows: Query (target audience) → Enrichment (add pers
 Use **[!UICONTROL Split]** activity to divide populations: Filtering conditions (age, location, VIP status), Percentage distribution (A/B testing), Limit records (first N, top X%), Data grouping (one subset per value).
 
 **Common uses:** A/B testing, channel preference routing, progressive rollout, segment-specific messaging, load balancing. Each subset flows to separate transition for different processing.
+
+**Related topics:**
 
 [Split activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [A/B testing guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
@@ -1063,6 +1075,8 @@ Yes. Workflow: Data loading (file) → Enrichment (optional) → Reconciliation 
 
 **Best practices:** Use unique identifiers, validate data first, test with samples, schedule regular updates.
 
+**Related topics:**
+
 [Import data guide](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
@@ -1074,6 +1088,8 @@ Query **[!UICONTROL Created date]** field to select recipients added within spec
 **Automated welcome workflow:** Scheduler (run daily) → Query (select new recipients) → Deduplication (optional) → Delivery (welcome message) → Update data (mark as "welcomed").
 
 **Advanced:** Use aggregate functions to dynamically identify recent additions.
+
+**Related topics:**
 
 [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Using aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 
@@ -1090,6 +1106,8 @@ Four activity categories:
 
 Drag from palette, double-click to configure, connect with transitions.
 
+**Related topics:**
+
 [Targeting activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [Flow control](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [Action activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
 
 +++
@@ -1101,6 +1119,8 @@ Drag from palette, double-click to configure, connect with transitions.
 **Error handling:** Add error paths, configure alerts, test with samples, review logs  
 **Maintenance:** Archive obsolete workflows, version control, limit complexity (<20 activities), use templates  
 **Security:** Apply permissions, clean temporary data, use variables not hardcoded values
+
+**Related topics:**
 
 [Workflow best practices guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
