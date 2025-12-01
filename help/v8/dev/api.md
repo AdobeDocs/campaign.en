@@ -47,6 +47,6 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 
 **Related topics**
 
-* [Query the database with queryDef](query-api.md)
+<!-- * [Query the database with queryDef](query-api.md)-->
 * [Data model best practices](datamodel-best-practices.md)
 * [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
