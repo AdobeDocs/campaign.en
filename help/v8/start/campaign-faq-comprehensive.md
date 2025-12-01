@@ -192,8 +192,6 @@ These are a set of rights and restrictions that authorize or deny to:
 * Access to certain data
 * Create, modify and/or delete data
 
-[Learn more](../start/gs-permissions.md) about user permissions in Campaign v8.
-
 **Related topics:**
 
 [Get started with permissions](gs-permissions.md) | [Manage user permissions](manage-permissions.md) | [Add permissions on folders](folder-permissions.md)
@@ -212,10 +210,22 @@ Starting Campaign v8.6 release, you also have access to the new **Campaign Web u
 
 +++ How can I select the audience of my messages?
 
-With Adobe Campaign, you can use different strategies to create audiences and select target recipients.
+Campaign offers multiple targeting methods to select the right audience for your messages:
 
+**Targeting methods:**
 
-Learn how to [Define audiences in Campaign v8](../audiences/gs-audiences.md)
+* **Query editor** - Build audiences using visual filters on recipient attributes, behaviors, or demographics
+* **Lists** - Use predefined static or dynamic recipient lists
+* **File import** - Upload external recipient files for one-time campaigns
+* **Workflows** - Create complex targeting logic with query, split, and enrichment activities
+* **Predefined filters** - Apply ready-to-use filters (active customers, subscribers, VIPs)
+* **Segments from Adobe Experience Platform** - Leverage unified profiles and real-time segments
+
+You can combine multiple criteria (location, purchase history, engagement) and use exclusions, intersections, or unions to refine your audience.
+
+**Related topics:**
+
+[Define audiences in Campaign v8](../audiences/gs-audiences.md) | [Query editor](query-editor.md) | [Target mappings](../audiences/target-mappings.md)
 
 +++
 
@@ -237,15 +247,15 @@ A workflow can also involve one or more operators to be notified or who can make
 
 +++ How to create and send a first email?
 
+Creating your first email in Campaign v8 is straightforward. You start from a template, select your target audience, design your content with personalization, test it with proofs, and then send. Campaign offers two interfaces for email creation: the full-featured **Client console** for advanced users and the modern **Campaign Web UI** for faster, more intuitive email building.
+
 **5 key steps:**
 
-1. Create delivery from template
-2. Define audience (queries, lists, or workflows)
-3. Design content with personalization
-4. Send test proofs to validate
-5. Run analysis and send
-
-Campaign v8 offers two interfaces: **Client console** (full-featured) and **Campaign Web UI** (modern, intuitive).
+1. **Create delivery** - Start from an email template or create from scratch
+2. **Define audience** - Select recipients using queries, lists, or workflows
+3. **Design content** - Use the email designer to create your message with personalization fields
+4. **Send test proofs** - Validate rendering and content across devices and email clients
+5. **Analyze and send** - Run delivery analysis to check for errors, then send your email
 
 **Related topics:**
 
@@ -293,11 +303,26 @@ Sending push notifications requires initial mobile app integration setup, then s
 
 +++ How to create landing page?
 
-You can use Adobe Campaign digital content editor to design landing pages and define mapping with database fields.
+Landing pages in Campaign enable you to capture leads, manage subscriptions, and collect data through web forms. Campaign offers two methods: the **Client console** for advanced forms with complex logic, and the **Campaign Web UI** for quick, modern landing page creation with a drag-and-drop editor.
 
-[Learn more](../dev/landing-pages.md) in Campaign v8 documentation.
+**Campaign Web UI (recommended for most users):**
 
-You can also use the Campaign Web user interface to create and publish landing pages - [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+* Use the visual editor to design responsive landing pages
+* Add form fields, images, and content blocks with drag-and-drop
+* Map form fields to database attributes
+* Configure pre-fill, confirmation messages, and thank-you pages
+* Publish and track submissions in real-time
+
+**Client console (for advanced use cases):**
+
+* Build custom web applications with complex business logic
+* Define advanced field mapping and validation rules
+* Create multi-page forms with conditional routing
+* Access full Campaign data model for enrichment
+
+**Related topics:**
+
+[Create landing pages (Web UI)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"} | [Web applications (Client console)](../dev/landing-pages.md)
 
 +++
 
