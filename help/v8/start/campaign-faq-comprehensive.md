@@ -26,9 +26,7 @@ Get answers to the most common questions about Adobe Campaign v8, including how 
 
 +++ How can I connect to Campaign v8?
 
-You need to download and install Campaign client console to connect to Adobe Campaign.
-    
-[Click here to learn more](connect.md).
+You need to download and install Campaign client console to connect to Adobe Campaign. [Learn more](connect.md).
 
 Starting Campaign v8.6 release, you have access to the **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. 
 
@@ -80,6 +78,8 @@ Stay informed about new Campaign releases through these channels:
 
 As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
 
+**Related topics:**
+
 [Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
 
 +++
@@ -96,6 +96,8 @@ Upgrading to the latest Campaign version is critical for security, performance, 
 * **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
 
 Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
+
+**Related topics:**
 
 [Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
 
@@ -123,6 +125,8 @@ As a Managed Cloud Services customer, Adobe manages the entire upgrade process w
 
 Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
 
+**Related topics:**
+
 [Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
 
 +++
@@ -137,7 +141,7 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 
 **Related topics:**
 
-[About deliverability](../send/about-deliverability.md) | [Control message content](../send/control-message-content.md) | [Monitor deliverability](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+[Get started with deliverability](../send/about-deliverability.md) | [Control message content](../send/control-message-content.md) | [Monitor deliverability](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
@@ -457,6 +461,8 @@ An error message is displayed in a foreign language? All error messages and thei
 
 Yes. Create web forms using **Campaign Web Applications & Forms** (client console) for full control over form logic and validation, or use **Campaign Landing Pages** (Web UI) with a modern drag-and-drop interface for subscriptions and lead generation. Both collect data directly into Campaign and integrate with workflows for automated actions.
 
+**Related topics:**
+
 [Learn more about web applications and forms](../dev/webapps.md) | [Campaign Web UI landing pages](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
@@ -650,7 +656,8 @@ The following terms have been updated in the Campaign Web UI (client console use
 **Related topics:**
 
 [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Compatibility matrix](compatibility-matrix.md) | [Guardrails and limitations](ac-guardrails.md) | [v7 to v8 transition guide](v7-to-v8.md)
-* [Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+
+[Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -662,6 +669,8 @@ Find answers to questions about managing profiles, creating audiences, importing
 
 Create recipients manually in the client console for individual profiles, import from files (CSV/TXT) for bulk additions, use web forms for self-registration, or integrate via APIs from external systems. Use import workflows for recurring data loads.
 
+**Related topics:**
+
 [Create profiles manually](../audiences/create-profiles.md) | [Import profiles from a file](../audiences/import-profiles.md) | [Collect profiles with web forms](../audiences/collect-profiles.md)
 
 +++
@@ -671,6 +680,8 @@ Create recipients manually in the client console for individual profiles, import
 Campaign provides multiple import methods: simple file import using the import wizard, workflow-based import for complex transformations, recurring imports with scheduled workflows from SFTP, and API import for programmatic integration.
 
 For file imports, prepare your data file (CSV/TXT, UTF-8 encoding), use the import wizard or workflow, map columns to Campaign fields, define update/insert rules, and test with a small sample first. Use workflows for recurring imports and apply deduplication rules.
+
+**Related topics:**
 
 [Import data guide](../start/import.md) | [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"} | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
 
@@ -698,6 +709,8 @@ A list is a static set of recipients that you can target in deliveries and reuse
 
 **Tip:** Use workflows for lists requiring regular updates, and manual creation for one-time segmentation.
 
+**Related topics:**
+
 [Create audiences](../audiences/create-audiences.md) | [List update activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
@@ -708,7 +721,7 @@ Use the **[!UICONTROL Deduplication]** activity in a workflow to remove duplicat
 
 **Tip:** Always deduplicate before sending to ensure each person receives your message only once.
 
-[Deduplication activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
+Learn more about the [Deduplication activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}
 
 +++
 
@@ -722,6 +735,8 @@ Campaign automatically tracks newsletter subscriptions through information servi
 
 Campaign tracks subscription/unsubscription history and manages opt-in/opt-out automatically.
 
+**Related topics:**
+
 [Manage subscriptions](../start/subscriptions.md) | [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
@@ -730,7 +745,7 @@ Campaign tracks subscription/unsubscription history and manages opt-in/opt-out a
 
 Use the **[!UICONTROL Exclusion]** activity in a workflow to remove unwanted profiles from your target. Place it after your targeting activities and define which population to exclude.
 
-[Exclusion activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}
+Learn more about the [Exclusion activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}
 
 +++
 
@@ -744,7 +759,7 @@ Yes, Campaign v8 allows you to work with external profiles stored in an external
 
 Test profiles are special recipients used to send proofs and validate deliveries without impacting your production database. Create them in **[!UICONTROL Profiles and Targets > Test profiles]**, or use the **[!UICONTROL Seed addresses]** feature to automatically add test recipients to your deliveries for quality assurance and inbox monitoring.
 
-[Test profiles](../audiences/test-profiles.md)
+Learn more about [Test profiles](../audiences/test-profiles.md)
 
 +++
 
@@ -764,7 +779,7 @@ Key guidelines: ensure mobile-responsive design, use HTML 4.0/XHTML compatible c
 
 A delivery template is a pre-configured delivery that saves all settings and parameters for reuse across multiple campaigns. Templates include target rules, content design, personalization, technical settings (sender, reply-to), and typology rules. Create once and reuse to maintain consistency and speed up campaign creation.
 
-[Create delivery templates](../send/create-templates.md)
+Learn how to [Create delivery templates](../send/create-templates.md)
 
 +++
 
@@ -774,7 +789,7 @@ Yes. Import HTML content via direct copy/paste into the content editor, file upl
 
 **Tip:** For the best email design experience, use the **Email Designer** in the Campaign Web UI, which offers modern drag-and-drop capabilities and built-in responsive templates, rather than importing raw HTML.
 
-[Import HTML content](../send/defining-the-email-content.md)
+Learn how to [Import HTML content](../send/defining-the-email-content.md)
 
 +++
 
@@ -782,7 +797,7 @@ Yes. Import HTML content via direct copy/paste into the content editor, file upl
 
 Yes. Use Campaign's information services to manage newsletter subscriptions. Key capabilities include automatic opt-in/opt-out handling, subscription tracking, compliance management (GDPR, CAN-SPAM), multi-newsletter support, web integration for sign-up forms, and targeted delivery to subscribers.
 
-[Manage subscriptions](../start/subscriptions.md)
+Learn how to [manage subscriptions](../start/subscriptions.md)
 
 +++
 
@@ -798,6 +813,8 @@ Campaign offers personalization capabilities to create relevant, targeted messag
 * **Behavioral data** - Leverage browsing history, purchase patterns, or engagement metrics
 
 Test personalization before sending to verify merge fields and conditional logic work correctly.
+
+**Related topics:**
 
 [Personalization guide](../send/personalize.md) | [Personalization fields](../send/personalization-fields.md) | [Conditional content](../send/conditions.md)
 
@@ -819,7 +836,7 @@ The client console also supports multilingual content using conditional content 
 
 Yes. Campaign web applications support multi-language localization. Define translations for all form elements (labels, buttons, messages, error text), with automatic language detection based on recipient profile or browser settings. Multiple language versions are supported within a single web application, with fallback to a default language when needed.
 
-[Web application localization](../dev/webapps.md)
+Learn more about [Web application localization](../dev/webapps.md)
 
 +++
 
@@ -851,7 +868,7 @@ Delivery analysis is a validation phase Campaign runs before sending. It calcula
 
 Campaign generates logs showing warnings and errors. Errors block delivery and must be fixed; warnings are advisory. Always review analysis logs before sending.
 
-[Delivery analysis guide](../send/delivery-analysis.md)
+Learn more in the [Delivery analysis guide](../send/delivery-analysis.md)
 
 +++
 
@@ -861,7 +878,7 @@ Proofs are test messages that validate your delivery before sending to your main
 
 Proofs help catch errors before they reach thousands of recipients, enable stakeholder approval, and test inbox placement. Send proofs to multiple email clients and devices, and always obtain approval before production sends.
 
-[Proofs and preview guide](../send/preview-and-proof.md)
+Learn more in the [Proofs and preview guide](../send/preview-and-proof.md)
 
 +++
 
@@ -891,6 +908,8 @@ Create operator groups in **[!UICONTROL Administration > Access management > Ope
 **For standalone deliveries (not in a campaign):**
 
 Use **proofs as your approval process**. Send proofs to your approval group for validation, and always send a new proof after making changes to ensure stakeholders review the latest version.
+
+**Related topics:**
 
 [Delivery validation](../send/preview-and-proof.md) | [Campaign approvals](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}
 
@@ -923,7 +942,7 @@ In your delivery properties, enable wave sending and define the number of waves 
 
 Use waves for large campaigns, monitor first wave performance before continuing, and allow sufficient time between waves to process bounces and opt-outs.
 
-[Configure wave sending](../send/configure-and-send.md#sending-using-multiple-waves)
+Learn how to [Configure wave sending](../send/configure-and-send.md#sending-using-multiple-waves)
 
 +++
 
@@ -949,6 +968,8 @@ Creating an email in Campaign v8 involves these key steps: create the delivery, 
 
 **Tip:** Use the Campaign Web UI for faster, more intuitive email creation with modern design tools. Use the client console for complex targeting or advanced workflow-based campaigns.
 
+**Related topics:**
+
 [Create your first email](create-message.md) | [Email design guide](../send/email.md)
 
 +++
@@ -965,7 +986,7 @@ Campaign allows you to schedule deliveries for future sending to optimize send t
 
 Campaign also supports contact date optimization (best send time per recipient) and time zone adaptation (same local time for all recipients).
 
-[Schedule delivery sending](../send/configure-and-send.md#schedule-delivery-sending)
+Learn how to [Schedule delivery sending](../send/configure-and-send.md#schedule-delivery-sending)
 
 +++
 
@@ -982,7 +1003,7 @@ Yes. Campaign supports static attachments (same file for all recipients) and per
 
 Use safe file formats (PDF, JPEG, PNG, DOCX) and test with seed addresses before production sends.
 
-[Email attachments guide](../send/email.md#attachments)
+Learn more in the [Email attachments guide](../send/email.md#attachments)
 
 +++
 
@@ -998,6 +1019,8 @@ Campaign automatically converts all URLs in your email into tracked links to mon
 * **Tracking type** - Track clicks, opens, or both
 
 Campaign tracks content links, mirror page links, unsubscribe links, and can include an optional tracking pixel for email opens. Use meaningful labels and categories to simplify reporting and quickly identify high-performing content.
+
+**Related topics:**
 
 [Link tracking guide](../start/tracking.md) | [Tracking best practices](../send/send.md)
 
@@ -1016,6 +1039,8 @@ Access delivery and tracking logs directly from each delivery dashboard. In the 
 
 Use these logs to troubleshoot delivery issues, analyze engagement, and maintain list hygiene.
 
+**Related topics:**
+
 [Delivery monitoring](../send/send.md) | [Tracking guide](../start/tracking.md)
 
 +++
@@ -1032,6 +1057,8 @@ Campaign provides comprehensive built-in reports to analyze delivery performance
 * **Non-deliverables** - Bounce analysis with failure reasons
 
 Reports are available in both the client console and Campaign Web UI with modern visualizations.
+
+**Related topics:**
 
 [Built-in delivery reports](../reporting/delivery-reports.md) | [Campaign reporting](../reporting/gs-reporting.md)
 
@@ -1058,6 +1085,8 @@ Campaign tracks delivery errors for each address. When an address reaches the co
 Access quarantine management in **[!UICONTROL Administration > Campaign Management > Non deliverables Management]**. You can view quarantined addresses, manually remove validated addresses from quarantine, or configure automatic cleanup rules.
 
 **Tip:** Monitor your quarantine list regularly. Increasing quarantine rates often signal data quality issues that need attention before they impact sender reputation.
+
+**Related topics:**
 
 [Quarantine management guide](../send/quarantines.md) | [Bounce management](../send/delivery-failures.md)
 
@@ -1699,7 +1728,7 @@ Use Campaign's descriptive analysis tool to quickly generate statistical reports
 
 **Sharing:** Export reports to Excel/PDF or save them to the **[!UICONTROL Reports]** folder for team access with appropriate permissions.
 
-See [Descriptive analysis](../reporting/built-in-reports.md)
+Learn more about [Descriptive analysis](../reporting/built-in-reports.md)
 
 +++
 
@@ -1714,8 +1743,7 @@ In the Client Console, you can:
 * Design conditional formatting and dynamic content
 * Access the full Campaign data model and external databases (FDA)
 
-
-See [Create custom reports (client console)](../reporting/custom-reports.md) 
+Learn how to [Create custom reports (client console)](../reporting/custom-reports.md) 
 
 +++
 
@@ -1729,8 +1757,7 @@ Cubes are multi-dimensional data structures that enable business users to explor
 * Data is automatically aggregated and calculated based on cube configuration
 * Results can be displayed as pivot tables, charts, or exported to Excel
 
-
-See [Explore data with cubes](../reporting/gs-cubes.md)
+Learn how to [Explore data with cubes](../reporting/gs-cubes.md)
 
 +++
 
@@ -1989,8 +2016,7 @@ Data packages enable you to export and import Campaign configurations (schemas, 
 * Use version control for package XML files
 * Back up instance before major package imports
 
-
-See [Work with data packages](../dev/packages.md)
+Learn more about how to [Work with data packages](../dev/packages.md)
 
 +++
 
@@ -2054,7 +2080,7 @@ Campaign APIs allow you to programmatically control and monitor workflow executi
 
 **Best practice:** Combine API monitoring with workflow audit trail for comprehensive workflow governance. Use external monitoring tools to track workflow SLAs and performance metrics.
 
-See [Control workflows via API](../dev/api/controlling-a-workflow.md)
+Learn how to [Control workflows via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
@@ -2130,7 +2156,7 @@ Campaign helps you comply with privacy regulations (GDPR, CCPA, PDPA, LGPD) thro
 
 As Data Controller, you're responsible for handling data subject requests, maintaining consent records, and ensuring transparent data use.
 
-See [Privacy management](../start/privacy.md)
+Learn more about [Privacy management](../start/privacy.md)
 
 +++
 
@@ -2148,7 +2174,7 @@ Campaign provides tools for privacy compliance, but legal responsibility rests w
 
 Campaign offers Privacy Core Service integration, consent tracking, automated deletion workflows, and audit trails for compliance.
 
-See [Privacy management](../start/privacy.md)
+Learn more about [Privacy management](../start/privacy.md)
 
 +++
 
