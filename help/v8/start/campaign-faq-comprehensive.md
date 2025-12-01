@@ -591,7 +591,7 @@ Personalized subject lines significantly increase open rates. Campaign allows yo
 
 **Related topics:**
 
-[Personalization fields](../send/personalization-fields.md) | [Conditional content](../send/conditions.md) | [A/B testing](../send/a-b-testing.md)
+[Personalization fields](../send/personalization-fields.md) | [Conditional content](../send/conditions.md)
 
 +++
 
@@ -745,7 +745,7 @@ Yes! Campaign allows you to run A/B tests (also called split tests) to optimize 
 
 **Related topics:**
 
-[A/B testing guide](../send/a-b-testing.md) | [Delivery analysis](../send/delivery-analysis.md)
+[Delivery analysis](../send/delivery-analysis.md) | [Send and track deliveries](../send/send.md)
 
 +++
 
@@ -1773,7 +1773,7 @@ Find detailed technical documentation and developer resources.
 
 * **[Campaign APIs](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}** - Complete API reference documentation
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
-* **[Versions and Upgrades FAQ](upgrades.md-faq)** - Check your version and learn about upgrades
+* **[Versions and Upgrades FAQ](upgrades.md)** - Check your version and learn about upgrades
 
 ### Support & Services
 
