@@ -242,6 +242,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Input forms](dev/forms.md)
   + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
+  + [Query the database with queryDef](dev/query-api.md)
   + REST APIs {#apis}
     + [Get started with REST APIs](dev/api/get-started-apis.md)
     + [Recommendations & limitations](dev/api/limitations.md)

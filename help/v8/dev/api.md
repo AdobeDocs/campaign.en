@@ -20,7 +20,7 @@ exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 You can use [Campaign JavaScript APIs](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"} to write in Campaign cloud database or read from the database:
 
 * Business-specific APIs that let you act on each object: deliveries, workflows, subscriptions, and so on. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* Generic data access APIs for querying the data model data. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* Generic data access APIs for querying the data model data using queryDef and NLWS methods. Learn more in [Query the database with queryDef](query-api.md).
 
 Note that in its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md),  Campaign works with two databases: a local database for the user interface real-time messaging and unitary queries and write through APIs, and a Cloud database for campaign execution, reporting, data ingestion, batch queries and workflow execution.
 
@@ -47,5 +47,6 @@ In order to use APIs and interact with [!DNL Adobe Campaign], you also must be f
 
 **Related topics**
 
+* [Query the database with queryDef](query-api.md)
 * [Data model best practices](datamodel-best-practices.md)
 * [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
