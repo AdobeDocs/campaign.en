@@ -598,6 +598,60 @@ Contact your Adobe representative to:
 
 +++
 
++++ How do I migrate my Campaign Classic v7 On-Premise or Hybrid environment to Adobe Managed Services?
+
+Migrating your Campaign Classic v7 On-Premise or Hybrid environment to Adobe Managed Services is often a strategic stepping stone before transitioning to Campaign v8. This migration offers immediate benefits while setting the foundation for future v8 adoption.
+
+**Why migrate to Managed Services?**
+
+* **Path to Campaign v8** - Managed Services provides a smoother upgrade path to v8 with its web interface and GenAI capabilities
+* **Scalability & reliability** - Leverage Adobe's cloud infrastructure for better performance and automatic scaling
+* **Enhanced security** - Benefit from continuous monitoring, automatic security patches, and enterprise-grade protection
+* **Expert support** - Access Adobe's support team and infrastructure resources
+* **Reduced IT overhead** - No infrastructure management, automatic backups, and disaster recovery included
+* **Adobe Experience Platform integration** - Seamlessly integrate with Adobe Experience Platform for comprehensive marketing solutions
+
+**Important considerations:**
+
+* **No automated migration** - Currently, there's no automated migration tool available. Manual planning and execution are required
+* **Adobe Professional Services support** - Highly recommended to engage Adobe Professional Services for guidance and expertise
+* **Preparation required** - Organize your data, assess requirements, audit current practices, and ensure compatibility
+* **Migration complexity** - Consider factors like environment complexity, data volume, customizations, and object dependencies
+
+**Key challenges to plan for:**
+
+1. **XML/Blob data import limitations** - Can only be imported using packages or dump-and-restore methods
+2. **Large data tables** - Recipient tables and delivery/tracking logs require special optimization strategies
+3. **Object IDs** - Each imported object receives a new ID, requiring ID realignment for continuity
+4. **Build upgrades** - Plan to upgrade to the latest available v7 version before migration
+
+**High-level migration roadmap:**
+
+1. **Due diligence & scope definition** - Conduct thorough analysis, define scope, and assess provisioning needs with Adobe Managed Services team
+2. **Audit & scope refinement** - Review current practices, assess data model and flows, identify bad practices, and reduce unnecessary migration elements
+3. **Clean-up & preparation** - Address identified issues, remove unused data, and execute build upgrades to latest version
+4. **Initial migration (Stage)** - Provision new cloud instance, backup structure, import packages, set up sequences/counters, import objects, realign IDs, import non-XML data, and validate
+5. **Final migration (Production)** - Refresh production with verified stage instance, conduct performance testing, directly migrate to production, and enable tracking/real-time capabilities
+
+**Best practice:** Always perform initial migration on a stage instance before proceeding to production to minimize risks and validate the process.
+
+**Getting started:**
+
+Contact your Adobe representative and engage Adobe Professional Services to:
+
+* Assess your current environment and migration readiness
+* Develop a detailed migration plan with timelines and dependencies
+* Receive expert guidance throughout the migration process
+* Leverage proven best practices and avoid common pitfalls
+
+Learn more about [migrating to Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} on the Adobe Campaign Community.
+
+**Related topics:**
+
+[From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 transition guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} | [Campaign v8 architecture](../architecture/architecture.md) | [Adobe Professional Services](https://business.adobe.com/customers/consulting-services/main.html){target="_blank"}
+
++++
+
 +++ What are the key terminology and feature differences in Campaign v8?
 
 Campaign v8 brings most Campaign Classic v7 and Campaign Standard capabilities with enhancements, but some features have changes due to the cloud-native architecture, and some terminology differs between versions.
@@ -2069,6 +2123,7 @@ All workflow control commands use the same POST endpoint with different method p
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 **Available commands:**
+
 * `{"method":"start"}` - Start a workflow
 * `{"method":"pause"}` - Pause a running workflow
 * `{"method":"resume"}` - Resume a paused workflow
