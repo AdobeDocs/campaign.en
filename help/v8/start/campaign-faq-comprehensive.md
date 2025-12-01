@@ -2062,13 +2062,17 @@ Campaign APIs allow you to programmatically control and monitor workflow executi
 * **Retrieve logs** - Access workflow execution logs and error messages
 * **Monitor activity progress** - Track individual workflow activity completion
 
-**API methods:**
+**API endpoint:**
 
-* `xtk:workflow#Start` - Start a workflow instance
-* `xtk:workflow#Pause` - Pause running workflow
-* `xtk:workflow#Stop` - Stop workflow execution
-* `xtk:workflow#GetState` - Get current workflow state
-* `xtk:workflow#GetLogs` - Retrieve execution logs
+All workflow control commands use the same POST endpoint with different method parameters:
+
+`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
+
+**Available commands:**
+* `{"method":"start"}` - Start a workflow
+* `{"method":"pause"}` - Pause a running workflow
+* `{"method":"resume"}` - Resume a paused workflow
+* `{"method":"stop"}` - Stop a workflow
 
 **Common use cases:**
 
