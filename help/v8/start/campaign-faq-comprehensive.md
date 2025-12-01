@@ -446,21 +446,6 @@ Adobe performs the infrastructure upgrade. You don't need to perform any technic
 
 Understand the key differences between Campaign v8 and previous versions (Classic v7 and Standard), including architecture, deployment, migration paths, and feature changes. Whether you're coming from Campaign Classic v7 or Campaign Standard, learn what's new and how to transition smoothly.
 
-+++ Can Campaign v8 be installed on an on-premise or hybrid environment?
-
-No. Campaign v8 is exclusively available as a **Managed Cloud Service**, fully hosted by Adobe.
-
-**Key benefits of Managed Cloud Services:**
-
-* Superior performance and scalability
-* Automatic upgrades - always on the latest version
-* Enhanced security with continuous monitoring
-* No infrastructure management or IT overhead
-* Built-in high availability and disaster recovery
-
-Learn more about [Campaign v8 architecture](../architecture/architecture.md) and the [differences between Campaign v8 and Classic v7](../start/v7-to-v8.md).
-
-+++
 
 +++ What are the main differences between Campaign v8 and previous versions?
 
@@ -503,6 +488,22 @@ Campaign v8 is Adobe's strategic platform, ideal for organizations needing high-
 **Related topics:**
 
 [From Campaign Classic v7 to v8](v7-to-v8.md) | [Campaign Standard transition guide](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+
++++
+
++++ Can Campaign v8 be installed on an on-premise or hybrid environment?
+
+No. Campaign v8 is exclusively available as a **Managed Cloud Service**, fully hosted by Adobe.
+
+**Key benefits of Managed Cloud Services:**
+
+* Superior performance and scalability
+* Automatic upgrades - always on the latest version
+* Enhanced security with continuous monitoring
+* No infrastructure management or IT overhead
+* Built-in high availability and disaster recovery
+
+Learn more about [Campaign v8 architecture](../architecture/architecture.md) and the [differences between Campaign v8 and Classic v7](../start/v7-to-v8.md).
 
 +++
 
@@ -580,6 +581,14 @@ For file imports, prepare your data file (CSV/TXT, UTF-8 encoding), use the impo
 
 +++
 
++++ How do I create test profiles for my deliveries?
+
+Test profiles (seed addresses) let you target recipients who don't match defined targeting criteria, allowing you to test your delivery before sending to your main audience. Add them via **[!UICONTROL Seed addresses]** in the delivery properties or use the **[!UICONTROL Seed addresses]** folder.
+
+Learn more about [test profiles](../audiences/test-profiles.md).
+
++++
+
 +++ How can I define the target population of a marketing campaign?
 
 Campaign offers multiple targeting methods: build queries with visual criteria, target existing lists or segments, import recipients from external files (CSV, TXT), or apply pre-defined filters. You can combine criteria with AND/OR logic, exclude specific populations, use control groups, and split for A/B testing. Always preview your target population size before sending.
@@ -647,14 +656,6 @@ Learn more about the [Exclusion activity](https://experienceleague.adobe.com/doc
 +++ Can I use external profiles without importing them in Campaign?
 
 Yes, Campaign v8 allows you to work with external profiles stored in an external database without loading them into Adobe Campaign. [Learn more](../audiences/external-profiles.md).
-
-+++
-
-+++ How do I create test profiles for my deliveries?
-
-Test profiles are special recipients used to send proofs and validate deliveries without impacting your production database. Create them in **[!UICONTROL Profiles and Targets > Test profiles]**, or use the **[!UICONTROL Seed addresses]** feature to automatically add test recipients to your deliveries for quality assurance and inbox monitoring.
-
-Learn more about [Test profiles](../audiences/test-profiles.md)
 
 +++
 
@@ -842,34 +843,6 @@ In your delivery properties, enable wave sending and define the number of waves 
 Use waves for large campaigns, monitor first wave performance before continuing, and allow sufficient time between waves to process bounces and opt-outs.
 
 Learn how to [Configure wave sending](../send/configure-and-send.md#sending-using-multiple-waves)
-
-+++
-
-+++ Which are the key steps to create an email in Campaign?
-
-Creating an email in Campaign v8 involves these key steps: create the delivery, define the target audience, design the content, add personalization, configure settings (sender, subject, reply-to), run delivery analysis, send proofs for testing, and finally send or schedule.
-
-**Key steps:**
-
-1. **Create the delivery** - Choose email as the channel and optionally select a delivery template
-1. **Define the target** - Select your recipient audience using queries, lists, or imported files
-1. **Design the content** - Create your message using the email editor (Web UI Email Designer or client console editor)
-1. **Add personalization** - Insert dynamic fields, personalization blocks, and conditional content
-1. **Configure settings** - Set sender address, subject line, reply-to, and delivery parameters
-1. **Run delivery analysis** - Campaign validates content, calculates the target, and checks for errors
-1. **Send proofs** - Test your email with approval groups to validate rendering and content
-1. **Send or schedule** - Send immediately to the main target or schedule for a later date
-
-**Two interface options:**
-
-* **Campaign Web UI** - Modern interface with enhanced Email Designer, AI Assistant, and multilingual capabilities
-* **Client console** - Traditional interface with advanced targeting and workflow capabilities
-
-**Tip:** Use the Campaign Web UI for faster, more intuitive email creation with modern design tools. Use the client console for complex targeting or advanced workflow-based campaigns.
-
-**Related topics:**
-
-[Create your first email](create-message.md) | [Email design guide](../send/email.md)
 
 +++
 
