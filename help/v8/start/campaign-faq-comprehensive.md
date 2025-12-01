@@ -57,47 +57,23 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 
 +++ How can I make sure my delivery is sent without errors?
 
-Follow these steps to ensure successful delivery:
+**Before sending:** Run delivery analysis, send test proofs, review warnings, verify target count.
 
-**Before sending:**
+**During/after sending:** Monitor delivery dashboard (sent, delivered, bounces, errors), check delivery logs, track success/bounce rates, review quarantined addresses.
 
-* Run delivery analysis to detect errors (missing personalization, invalid recipients, content issues)
-* Send test proofs to verify rendering and personalization
-* Review warnings during preparation
-* Verify target population count
+**Best practices:** Set up alerts, use waves for large volumes, test with small volumes first, clean recipient database regularly, monitor sender reputation.
 
-**During and after sending:**
-
-* Monitor the delivery dashboard for real-time statistics (sent, delivered, bounces, errors)
-* Check delivery logs for message-level status
-* Track success rate, bounce rate, and error messages
-* Review quarantined addresses
-
-**Best practices:**
-
-* Set up alerts for error thresholds
-* Use waves (batch sending) for large volumes
-* Test with small volumes first
-* Regularly clean your recipient database
-* Monitor sender reputation
-
-Learn more about [monitoring deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} and [delivery best practices](delivery-best-practices.md).
+[Monitor deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [Delivery best practices](delivery-best-practices.md)
 
 +++
 
 +++ Can I monitor workflow execution?
 
-Yes. Campaign provides several tools to monitor workflow execution:
+Yes. Campaign provides multiple monitoring tools: workflow dashboard (real-time status and errors), workflow logs (detailed execution logs), heatmap (visualize activity and bottlenecks), audit trail (track modifications), and alerts (notifications for failures).
 
-* **[Workflow dashboard](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - View real-time status, progress, and errors for each workflow activity
-* **[Workflow logs](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - Access detailed execution logs to troubleshoot issues
-* **[Heatmap](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - Visualize workflow activity and identify performance bottlenecks
-* **[Audit trail](../reporting/audit-trail.md)** - Track all modifications made to workflows
-* **[Alerts](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - Set up notifications for workflow failures or delays
+To monitor, open the workflow and click the **Logs** tab. Failed activities appear in red.
 
-To monitor a workflow, open it and click the **Logs** tab. Failed activities are highlighted in red, and you can view error details by clicking on them.
-
-Learn more about [monitoring workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} and [workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.
+[Monitor workflow execution](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
@@ -123,13 +99,11 @@ A subdomain is a division of your domain that can be used to isolate your brands
 
 +++ How can I log an issue?
 
-Creating a case allows you to contact the Adobe Customer Support Team about any issues that you face with your Adobe products. To help resolve or troubleshoot your issues, the Adobe Admin Console will allow you to chat with Adobe Customer Support.
+To contact Adobe Customer Support, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} to create a case or start a chat session.
 
-To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}. 
+Requires individual accounts with correct permissions. If you can't log in, request access via Experience League. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-This system requires individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-
-Join Campaign Community: search for answers in existing question or ask the experts. [Join the conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+Alternatively, join [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} to search for answers or ask experts.
 
 +++
 
@@ -141,21 +115,11 @@ You can get the list of all systems and components supported for the latest buil
 
 +++ Can I use Campaign v8 with other Adobe solutions?
 
-Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to create a powerful, unified marketing ecosystem. As a Managed Cloud Service, v8 is designed for native integration with Adobe's enterprise applications.
+Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions for a unified marketing ecosystem.
 
-**Key integrations available:**
+**Key integrations:** Adobe Experience Platform (unified profiles, real-time data), Adobe Analytics (performance measurement), Adobe Target (personalization), Adobe Experience Manager (content management), Adobe Audience Manager (audience segments).
 
-* **Adobe Experience Platform** - Leverage unified customer profiles and real-time data
-* **Adobe Analytics** - Measure campaign performance and customer behavior across channels
-* **Adobe Target** - Personalize content based on customer segments and behavior
-* **Adobe Experience Manager** - Centralize content creation and asset management
-* **Adobe Audience Manager** - Build and activate audience segments across platforms
-
-**Benefits:** Unified customer data, consistent user experiences, streamlined workflows, and enhanced personalization capabilities.
-
-**Setup:** Integration with Adobe solutions requires Adobe Identity Management System (IMS) authentication, automatically configured for Campaign v8 Managed Cloud Services.
-
-**Related topics:**
+**Setup:** Requires Adobe IMS authentication, automatically configured for Campaign v8 Managed Cloud Services.
 
 [Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
 
@@ -163,32 +127,18 @@ Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to 
 
 +++ What are the limitations of Campaign v8?
 
-Campaign v8 introduces architectural changes (particularly in FFDA deployments) that bring significant performance improvements but also some differences from Campaign Classic v7. Understanding these helps plan migrations and set appropriate expectations.
+Campaign v8 brings significant performance improvements but has some architectural differences from Campaign Classic v7, especially in FFDA deployments.
 
-**Main v8 considerations:**
+**Key considerations:**
 
-* **FFDA architecture** - Enterprise deployments use cloud database (Snowflake) with different data access patterns
-* **Unit updates** - Data updates should be done in workflows, not through APIs or direct database access
-* **Real-time writes** - Optimized for batch operations rather than high-frequency individual updates
-* **Data model** - Some schema customizations require different approaches
-* **External database access** - FDA (Federated Data Access) configuration differs from v7
+* **FFDA architecture** - Uses cloud database (Snowflake) with different data access patterns
+* **Data updates** - Should be done in workflows, not via direct database access
+* **Batch-optimized** - Optimized for batch operations rather than high-frequency individual updates
+* **Not available in FFDA** - Surveys, Marketing Resource Management (MRM), some specific connectors
 
-**Features not available in FFDA deployments:**
+**Migration impact:** Custom code using direct database writes needs refactoring; API integrations may need adaptation for batch processing.
 
-* Surveys (available in standard v8 deployments)
-* Marketing Resource Management (MRM)
-* Some specific connector configurations
-
-**Migration considerations:**
-
-* Custom code using direct database writes needs refactoring
-* API integrations may require adaptation for batch processing
-* Workflows should follow FFDA best practices for data operations
-* Testing is essential to validate custom developments
-
-**Important:** These limitations are evolving as Adobe continues enhancing v8. Consult the latest documentation for current status and roadmap.
-
-**Related topics:**
+These limitations are evolving as Adobe enhances v8. Consult latest documentation for current status.
 
 [Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
 
@@ -278,104 +228,51 @@ A workflow can also involve one or more operators to be notified or who can make
 
 +++ How to create and send a first email?
 
-Creating your first email in Campaign v8 involves several key steps:
+**5 key steps:**
 
-1. **Create the delivery** - Start by creating a new email delivery from a template or from scratch
-1. **Define the audience** - Select your target recipients using queries, lists, or workflows
-1. **Design the content** - Use the email designer to create your message with personalization
-1. **Test with proofs** - Send test emails to validate content and personalization
-1. **Analyze and send** - Run delivery analysis to check for errors, then send your email
+1. Create delivery from template
+2. Define audience (queries, lists, or workflows)
+3. Design content with personalization
+4. Send test proofs to validate
+5. Run analysis and send
 
-Campaign v8 offers two interfaces for email creation:
+Campaign v8 offers two interfaces: **Client console** (full-featured) and **Campaign Web UI** (modern, intuitive).
 
-* **Client console** - Full-featured desktop application with advanced capabilities
-* **Campaign Web UI** - Modern, intuitive web interface for faster email creation
-
-[Learn more about email design and validation](../send/email.md) in Campaign v8.
-
-**Related topics:**
-
-[Create your first delivery](create-message.md) | [Work with delivery templates](../send/create-templates.md) | [Delivery best practices](delivery-best-practices.md) | [Define the email content](../send/defining-the-email-content.md) | [Preview and proofs](../send/preview-and-proof.md) | [Configure and send](../send/configure-and-send.md) | [Personalize content](../send/personalize.md)
+[Email design and validation](../send/email.md) | [Create first delivery](create-message.md) | [Delivery templates](../send/create-templates.md) | [Personalize content](../send/personalize.md)
 
 +++
 
 +++ How to send SMS messages?
 
-Sending SMS messages with Campaign v8 requires initial configuration and then follows a straightforward delivery process:
+Sending SMS requires initial setup (configure SMS channel, SMPP connection, routing) then standard delivery creation.
 
-**Initial Setup (one-time configuration):**
+**Basic process:**
 
-1. **Configure SMS channel** - Set up the SMS delivery settings and external account
-1. **Configure SMPP connection** - Connect to your SMS service provider via SMPP protocol
-1. **Test the connection** - Validate connectivity with your SMS provider
-1. **Set up routing** - Define how SMS messages are routed through your provider
+1. Configure SMS channel and provider connection (one-time setup)
+2. Create SMS delivery from template
+3. Define recipients and write content (160 chars standard, auto-concatenation for longer)
+4. Add personalization and send test proofs
+5. Analyze and send
 
-**Creating and Sending SMS:**
+**Capabilities:** Multiple SMPP connectors, delivery tracking, GSM7/Unicode support, long SMS auto-concatenation, two-way SMS with workflows.
 
-1. **Create SMS delivery** - Start a new SMS delivery from a template
-1. **Define recipients** - Select your mobile audience using phone number fields
-1. **Write SMS content** - Create your message (160 characters standard, or longer with concatenation)
-1. **Add personalization** - Include dynamic fields specific to each recipient
-1. **Send proofs** - Test SMS delivery to validate content and delivery
-1. **Analyze and send** - Run analysis and send to your audience
-
-**Key SMS capabilities:**
-
-* **Multiple SMPP connectors** - Support for various SMS providers and protocols
-* **Delivery reports** - Track sent, delivered, and failed messages
-* **Character encoding** - Support for GSM7, Unicode, and special characters
-* **Long SMS support** - Automatic message concatenation for longer texts
-* **Two-way SMS** - Handle inbound SMS responses with workflows
-
-[Learn more about SMS configuration and sending](../send/sms/sms.md) in Campaign v8.
-
-**Related topics:**
-
-[Get started with SMS](../send/sms/sms.md) | [SMS delivery settings](../send/sms/sms-delivery-settings.md) | [SMPP external account settings](../send/sms/smpp-external-account.md) | [Create a SMS delivery](../send/sms/create-sms.md) | [SMS content](../send/sms/sms-content.md) | [Send SMS proofs](../send/sms/sms-proofs.md) | [Monitor SMS](../send/sms/sms-monitor.md)
+[Learn more about SMS configuration and sending](../send/sms/sms.md) | [SMS delivery settings](../send/sms/sms-delivery-settings.md) | [Create SMS delivery](../send/sms/create-sms.md)
 
 +++
 
 +++ How to send push notifications?
 
-Sending push notifications with Campaign v8 involves configuring your mobile app integration and creating engaging notifications:
+Sending push notifications requires initial mobile app integration setup, then standard delivery creation.
 
-**Initial Setup (one-time configuration):**
+**Basic process:**
 
-1. **Configure push channel** - Set up push notification channel settings in Campaign
-1. **Integrate Campaign SDK** - Add Adobe Campaign SDK to your mobile app (or use Data Collection)
-1. **Configure mobile app** - Register your iOS and Android apps in Campaign
-1. **Set up certificates** - Configure APNs certificate (iOS) and FCM key (Android)
-1. **Test registration** - Verify devices can register and receive tokens
+1. **Initial setup** (one-time): Configure push channel, integrate Campaign SDK or Data Collection, register iOS/Android apps, configure APNs/FCM certificates
+2. **Create delivery**: Create push from template, select platform, define audience, design notification with rich media
+3. **Test and send**: Validate on real devices, then send
 
-**Creating and Sending Push Notifications:**
+**Capabilities:** Rich push (images, videos, buttons), personalization, deep linking, scheduling, A/B testing, tracking. Platform-specific features for iOS and Android.
 
-1. **Create push delivery** - Start a new push notification from a template
-1. **Select platform** - Choose iOS, Android, or both platforms
-1. **Define audience** - Target app subscribers using mobile app subscription data
-1. **Design notification** - Create title, message, and rich media content
-1. **Configure behavior** - Set click actions, deep links, and custom data
-1. **Send test notifications** - Validate on real devices before sending
-1. **Analyze and send** - Review targeting and send to your mobile audience
-
-**Push notification capabilities:**
-
-* **Rich push notifications** - Include images, videos, and interactive buttons (iOS and Android)
-* **Personalization** - Dynamic content based on user profile and behavior
-* **Deep linking** - Direct users to specific app screens or content
-* **Scheduling** - Send at optimal times based on user timezone
-* **A/B testing** - Test different messages and optimize engagement
-* **Tracking** - Monitor opens, clicks, and conversions
-
-**Platform-specific features:**
-
-* **iOS** - Silent notifications, notification categories, sound customization
-* **Android** - Rich push templates, notification channels, custom layouts
-
-[Learn more about push notification configuration](../send/push-settings.md) in Campaign v8.
-
-**Related topics:**
-
-[Create and send push notifications](../send/push.md) | [Configure push notification channel](../send/push-settings.md) | [Design an Android rich push](../send/rich-push-android.md) | [Design an iOS rich push](../send/rich-push-ios.md) | [Configure with Data Collection](../send/push-data-collection.md) | [Track and monitor](tracking.md)
+[Learn more about push notifications](../send/push.md) | [Configure push channel](../send/push-settings.md) | [Android rich push](../send/rich-push-android.md) | [iOS rich push](../send/rich-push-ios.md)
 
 +++
 
@@ -547,69 +444,23 @@ Campaign v8 is built on a modern cloud-native architecture with significant impr
 
 +++ Should I migrate from Campaign Classic v7 or Campaign Standard to v8?
 
-**Campaign v8 is ideal for organizations that need:**
+Campaign v8 is Adobe's strategic platform, ideal for organizations needing high-volume campaigns (20M operations/hour), modern web UI, cloud-native benefits, and long-term support. Previous versions will reach End of Support in the coming years.
 
-* **High-volume campaigns** - Send millions of messages with improved performance and reliability (20M operations/hour)
-* **Enterprise scalability** - Grow your database and campaigns without performance concerns
-* **Modern web user interface** - Intuitive, responsive Campaign Web UI for faster campaign creation and improved user experience
-* **Cloud-native benefits** - Leverage automatic updates, managed infrastructure, elastic scaling, and proactive monitoring
-* **Long-term support** - Campaign v8 is Adobe's strategic platform with extended support, while previous versions will reach End of Support in the coming years
-* **Reduced IT overhead** - Eliminate infrastructure management and upgrade planning
-* **Advanced capabilities** - AI Assistant, rich push, enhanced SMS, Adobe Experience Platform integration
+**Key benefits:**
 
-**For Campaign Standard users:**
+* **For Campaign Standard users** - Familiar Web UI, feature parity (Dynamic Reporting, REST APIs, Landing Pages), smooth data migration
+* **For Campaign Classic v7 users** - Dual interface (console + Web UI), better performance, automatic upgrades, enhanced FFDA architecture
 
-Campaign Standard users are now eligible to transition to Campaign v8 Managed Cloud Services. Key benefits include:
+**Consider migrating if you:**
 
-* **Familiar interface** - The Campaign Web UI shares many similarities with Campaign Standard, minimizing the learning curve
-* **Feature parity** - Key Campaign Standard capabilities have been added to v8 (Dynamic Reporting, Centralized Branding, REST APIs, Landing Pages, Visual Fragments)
-* **Enhanced support** - Top-notch assistance with smooth transition and ongoing platform monitoring
-* **Data migration** - All your data from Campaign Standard is imported with minimal disruption
-* **Consistent user experience** - Continue working with familiar workflows and interface
+* Handle large data volumes or experience performance issues
+* Want to reduce IT overhead and infrastructure management
+* Need Adobe Experience Cloud/Platform integration
+* Want future-proof technology with automatic updates
 
-**For Campaign Classic v7 users:**
+**Next steps:** Contact your Adobe representative to assess migration readiness and access migration tools.
 
-Campaign v8 brings substantial improvements while maintaining core Campaign capabilities:
-
-* **Dual interface** - Access both the powerful client console and modern Campaign Web UI
-* **Better performance** - Significantly improved query performance and data processing
-* **Cloud benefits** - Automatic upgrades, security patches, backup/recovery managed by Adobe
-* **Modern architecture** - Enhanced FFDA architecture with PostgreSQL for better scalability
-
-**When to consider migrating:**
-
-* Your current Campaign instance handles large data volumes (millions of profiles)
-* You're experiencing performance issues with complex workflows or targeting
-* You want to reduce infrastructure management and maintenance costs
-* You need seamless integration with Adobe Experience Cloud or Adobe Experience Platform
-* You're planning a major upgrade or infrastructure refresh anyway
-* **You want future-proof technology** - Previous versions will reach End of Support
-* **Your team needs a modern interface** - The Campaign Web UI offers better accessibility for marketers
-
-**Migration considerations:**
-
-* Adobe provides migration support, guidance, and tools
-* v8 is Managed Cloud Service only (no on-premise or hybrid deployment)
-* Some technical implementations may differ - review the [capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
-* Data migration and testing require planning and resources
-* **For Campaign Standard users** - Transition is designed to be smooth with minimal workflow disruption
-
-**Next steps:**
-
-Contact your Adobe representative to:
-
-* Assess your migration readiness and timeline
-* Understand the specific benefits for your use case
-* Plan the migration strategy and resource allocation
-* Access migration tools and support
-
-**Related topics:**
-
-**For Campaign Classic v7 users:** [From Campaign Classic v7 to v8](v7-to-v8.md) | [v7 to v8 detailed guide](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
-
-**For Campaign Standard users:** [Campaign Standard transition to v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} | [From Campaign Standard to v8 overview](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [Get started for marketers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [Get started for admin/developers](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
-
-**General resources:** [Campaign v8 capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Compatibility matrix](compatibility-matrix.md)
+**Learn more:** [From Campaign Classic v7 to v8](v7-to-v8.md) | [Campaign Standard transition guide](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -632,64 +483,29 @@ Learn more about [migrating to Managed Services](https://experienceleaguecommuni
 
 +++ What are the key terminology and feature differences in Campaign v8?
 
-Campaign v8 brings most Campaign Classic v7 and Campaign Standard capabilities with enhancements, but some features have changes due to the cloud-native architecture, and some terminology differs between versions.
+Campaign v8 brings most v7/Standard capabilities with enhancements, but some terminology and features differ due to cloud-native architecture.
 
-**Terminology differences (Campaign Standard to v8):**
+**Key terminology changes (Campaign Standard → v8):**
 
-* **Custom resources** are now **Schemas**
-* **Messages** are referred to as **Deliveries**
-* **Product users** are now **Operators**
-* **Roles** are configured with **Named Rights**
-* **Security Groups** are now **Operator Groups**
-* **Organizational units** are managed through **Folder Permissions**
+* Custom resources → **Schemas** | Messages → **Deliveries** | Product users → **Operators**
+* Security Groups → **Operator Groups** | Organizational units → **Folder Permissions**
 
-**Campaign Web UI terminology updates:**
+**Campaign Web UI updates:**
 
-The following terms have been updated in the Campaign Web UI (client console uses traditional terms):
-
-* **Recipients** are now **Profiles**
-* **Seed addresses** are now **Test profiles**
-* **Delivery analysis** is now **Delivery preparation** (click **Prepare** button)
-* **Email Preview** is available through **Simulate content** button
-* **Lists** are now **Audiences**
+* Recipients → **Profiles** | Seed addresses → **Test profiles** | Delivery analysis → **Delivery preparation**
+* Lists → **Audiences** | Email Preview → **Simulate content**
 
 **Not available in v8:**
 
-* **On-premise and hybrid deployments** - v8 is Managed Cloud Services only
-* **Direct database access** - Use provided APIs and tools instead
-* **Customer-managed infrastructure** - Adobe manages all infrastructure
-* **Manual build upgrades** - Now automatic (Adobe managed)
+* On-premise/hybrid deployments (Managed Cloud Services only)
+* Direct database access (use APIs)
+* Manual infrastructure management (Adobe managed)
 
-**Different implementations in v8:**
+**New features for Campaign Standard users:**
 
-* **Technical workflows** - Some optimized for cloud architecture, may work differently
-* **Database structure** - Enhanced FFDA architecture may require schema adaptations
-* **Custom integrations** - May need updates for cloud-based architecture
-* **Low-level customizations** - Some require different approaches in managed environment
+* Dynamic Reporting, Centralized Branding, REST APIs, Landing Pages improvements, Visual Fragments
 
-**Enhanced or replaced in v8:**
-
-* **Build upgrades** - Automatic with continuous delivery model instead of manual
-* **Performance tuning** - Handled by Adobe infrastructure optimization
-* **Security patches** - Applied automatically by Adobe
-* **Backup and recovery** - Managed by Adobe as part of service
-* **User interface** - New Campaign Web UI alongside client console
-
-**Features added for Campaign Standard users transitioning to v8:**
-
-* **Dynamic Reporting** - Customizable, real-time reports with demographic analysis
-* **Centralized Branding** - Define brand visual and technical guidelines
-* **REST APIs** - Create integrations and build your ecosystem
-* **Landing Pages improvements** - Enhanced feature parity with Campaign Standard
-* **Visual Fragments** - Reusable visual components for emails and content templates
-
-**Important:** Most marketing and operational features are available and improved in v8. Technical and infrastructure-level features are managed by Adobe in the cloud environment.
-
-**Related topics:**
-
-[Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [Compatibility matrix](compatibility-matrix.md) | [Guardrails and limitations](ac-guardrails.md) | [v7 to v8 transition guide](v7-to-v8.md)
-
-[Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**Learn more:** [Capability matrix](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7 to v8 transition guide](v7-to-v8.md) | [Campaign Standard to v8 transition](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -1150,27 +966,9 @@ Common workflow patterns: data import, audience segmentation, delivery sending, 
 
 +++ How can I import data in Campaign?
 
-Import data into Campaign using multiple methods depending on your needs:
+**Methods:** Import wizard (one-time CSV/TXT), workflow-based import (**[!UICONTROL Data loading (file)]** activity for complex/recurring imports with transformations), REST APIs (programmatic/real-time sync).
 
-**Simple file import:**
-
-* Use the import wizard for one-time CSV/TXT imports with a guided interface
-* Ideal for manual uploads and quick data loads
-
-**Workflow-based import:**
-
-* Create workflows with **[!UICONTROL Data loading (file)]** activity for complex imports
-* Add data transformations, enrichment, and deduplication
-* Schedule recurring imports from SFTP, local directories, or cloud storage
-
-**API integration:**
-
-* Use REST APIs to import data programmatically from external systems
-* Ideal for real-time synchronization with CRM, e-commerce, or other platforms
-
-**Best practices:** Always test with small samples, use UTF-8 encoding, map fields correctly, apply deduplication rules, and schedule large imports during off-peak hours.
-
-**Related topics:**
+**Best practices:** Test with small samples, use UTF-8 encoding, map fields correctly, apply deduplication, schedule large imports off-peak.
 
 [Import best practices](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Recurring import workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
@@ -1178,69 +976,25 @@ Import data into Campaign using multiple methods depending on your needs:
 
 +++ What are common workflow use cases in Campaign?
 
-Campaign workflows can automate virtually any marketing process. Here are the most common use cases:
+Workflows automate marketing processes including:
 
-**Data management:**
+**Data management:** Import/load data, cleansing, enrichment, list management  
+**Campaign automation:** Welcome series, birthday campaigns, re-engagement, cart abandonment  
+**Advanced targeting:** A/B testing, dynamic segmentation, lead scoring, cross-channel orchestration  
+**Monitoring:** Workflow/delivery monitoring, alerts, database maintenance  
+**Integration:** CRM sync, API integrations, event-triggered workflows
 
-* **Import and load data** - Automate file imports from SFTP, API, or cloud storage
-* **Data cleansing** - Deduplicate profiles, standardize formats, remove invalid records
-* **Data enrichment** - Enhance profiles with external data or calculated fields
-* **List management** - Automatically update segments based on behavior or criteria
-
-**Campaign automation:**
-
-* **Welcome series** - Trigger automated onboarding emails for new subscribers
-* **Birthday campaigns** - Send personalized messages on customer birthdays or anniversaries
-* **Re-engagement** - Target inactive subscribers with win-back campaigns
-* **Cart abandonment** - Send reminders to customers who left items in cart
-
-**Advanced targeting:**
-
-* **A/B testing** - Split audiences and test different content variations
-* **Dynamic segmentation** - Create segments based on real-time behavior or attributes
-* **Lead scoring** - Calculate and update lead scores based on engagement
-* **Cross-channel orchestration** - Coordinate messaging across email, SMS, and push
-
-**Monitoring and alerts:**
-
-* **Workflow monitoring** - Track workflow status and send alerts on failures
-* **Delivery monitoring** - Monitor campaign performance and bounce rates
-* **Database maintenance** - Automate cleanup of old logs and temporary data
-
-**Integration and synchronization:**
-
-* **CRM sync** - Keep customer data synchronized with Salesforce, Dynamics, etc.
-* **API integrations** - Connect with e-commerce platforms, analytics tools, or custom systems
-* **Event-triggered workflows** - React to real-time events from websites or apps
-
-**Related topics:**
-
-[Workflow use cases library](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Targeting workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [Data management workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
+[Workflow use cases library](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 +++
 
 +++ How can I update Campaign data with a workflow?
 
-Use the **[!UICONTROL Update data]** activity in workflows to perform bulk operations on your database:
+Use **[!UICONTROL Update data]** activity for bulk database operations: Insert (add new records), Update (modify existing), Insert or update (upsert), Delete (remove matching records).
 
-**Supported operations:**
+**Common uses:** Update profile attributes, synchronize with external systems, maintain list memberships, clean/deduplicate data, apply bulk status changes.
 
-* **Insert** - Add new records to the database
-* **Update** - Modify existing records based on matching criteria
-* **Insert or update** - Add new records or update existing ones (upsert)
-* **Delete** - Remove records matching specific criteria
-
-**Common use cases:**
-
-* Update profile attributes after data enrichment
-* Synchronize data with external systems
-* Maintain list memberships based on behavior
-* Clean and deduplicate data
-* Apply bulk status changes (e.g., opt-out, quarantine)
-
-Configure reconciliation keys to match records accurately and choose update options (update all fields or only empty ones).
-
-**Related topics:**
+Configure reconciliation keys for accurate matching and choose update options.
 
 [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
@@ -1248,82 +1002,29 @@ Configure reconciliation keys to match records accurately and choose update opti
 
 +++ How can I leverage data management capabilities?
 
-Campaign's data management activities enable sophisticated data operations within workflows for complex targeting and segmentation.
+Data management activities enable sophisticated operations: Enrichment (add data from related tables), Split (segment populations), Deduplication (remove duplicates), Update data (bulk operations), Change dimension (switch targeting dimensions), Intersection/Union/Exclusion (combine/filter populations).
 
-**Key data management activities:**
+**Common uses:** Enrich with purchase/behavior data, segment audiences, remove duplicates, integrate external databases (FDA), create complex multi-table queries.
 
-* **Enrichment** - Add data from related tables or external sources to your working population
-* **Split** - Segment populations based on criteria or distribute randomly
-* **Deduplication** - Remove duplicate records based on specified keys
-* **Update data** - Perform bulk insert, update, or delete operations
-* **Change dimension** - Switch targeting dimensions (e.g., from recipients to subscriptions)
-* **Intersection/Union/Exclusion** - Combine or filter multiple populations
-
-**Common use cases:**
-
-* Enrich profiles with purchase history or behavior data
-* Segment audiences into multiple groups for different messages
-* Remove duplicates before delivery
-* Integrate data from external databases (FDA - Federated Data Access)
-* Create complex multi-table queries and joins
-
-These activities allow you to work with data not directly in the main recipient table and perform advanced database operations.
-
-**Related topics:**
-
-[Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Targeting workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
+[Data management activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
 +++ Can I automate personalized messages sending?
 
-Yes. Workflows enable fully automated personalized message campaigns based on recipient data, behavior, and custom criteria.
+Yes. Build automated workflows: Query (target audience) → Enrichment (add personalization data) → Split (optional segments) → Delivery (personalized messages) → Scheduler (recurring execution).
 
-**Automation workflow structure:**
+**Personalization:** Use profile data, behavioral data, conditional content, dynamic values. Common scenarios: birthday campaigns, cart abandonment, loyalty programs, win-back, event-triggered messages.
 
-1. **Query** - Select your target audience based on criteria
-1. **Enrichment** - Add personalization data from related tables
-1. **Split** - Segment into groups for different message variants (optional)
-1. **Delivery** - Send personalized messages with merge fields
-1. **Scheduler** - Set up recurring execution for automated campaigns
-
-**Personalization options:**
-
-* Use recipient profile data (name, location, preferences)
-* Include behavioral data (purchase history, engagement scores)
-* Apply conditional content based on segments or attributes
-* Calculate dynamic values (loyalty points, expiration dates)
-
-Common scenarios: birthday campaigns, cart abandonment, loyalty programs, win-back campaigns, and event-triggered messages.
-
-**Related topics:**
-
-[Personalization guide](../send/personalize.md) | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"} | [Enrichment activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
+[Personalization guide](../send/personalize.md) | [Workflow use cases](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
 
 +++
 
 +++ How can I split an audience in subsets with a workflow?
 
-Use the **[!UICONTROL Split]** activity to divide a single population into multiple subsets based on criteria or distribution rules.
+Use **[!UICONTROL Split]** activity to divide populations: Filtering conditions (age, location, VIP status), Percentage distribution (A/B testing), Limit records (first N, top X%), Data grouping (one subset per value).
 
-**Split methods:**
-
-* **Filtering conditions** - Create subsets based on criteria (e.g., age groups, location, VIP status)
-* **Percentage distribution** - Split randomly into equal or custom percentages for A/B testing
-* **Limit records** - Restrict subset sizes (first N records, top X%, random selection)
-* **Data grouping** - Create one subset per distinct value (e.g., one subset per country)
-
-**Common use cases:**
-
-* A/B testing with control groups
-* Channel preference routing (email vs. SMS)
-* Progressive rollout (send to 10%, then 90%)
-* Segment-specific messaging (VIP, regular, new customers)
-* Load balancing across multiple delivery servers
-
-Each split subset flows to a separate transition, allowing different processing or delivery for each group.
-
-**Related topics:**
+**Common uses:** A/B testing, channel preference routing, progressive rollout, segment-specific messaging, load balancing. Each subset flows to separate transition for different processing.
 
 [Split activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [A/B testing guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
@@ -1331,29 +1032,11 @@ Each split subset flows to a separate transition, allowing different processing 
 
 +++ How can I update recipient data from an external file?
 
-Yes. Use workflows to update Campaign data with values from external files (CSV, TXT).
+Yes. Workflow: Data loading (file) → Enrichment (optional) → Reconciliation (match keys like email/ID) → Update data (update matched records, insert new if no match).
 
-**Workflow structure:**
+**Common uses:** Update profile attributes from CRM, refresh subscription statuses, synchronize loyalty points, update opt-in/opt-out preferences.
 
-1. **Data loading (file)** - Load the external file and map columns
-1. **Enrichment** (optional) - Add additional data or transformations
-1. **Reconciliation** - Define keys to match file records with database records (e.g., email address, recipient ID)
-1. **Update data** - Choose update options:
-   * Update matched records only
-   * Update existing fields or only empty ones
-   * Insert new records if no match found
-
-**Common scenarios:**
-
-* Update profile attributes from CRM exports
-* Refresh subscription statuses from external systems
-* Synchronize loyalty points or customer scores
-* Update opt-in/opt-out preferences
-* Enrich profiles with behavioral data
-
-**Best practices:** Use unique identifiers for reconciliation, validate data before update, test with small samples, and schedule regular updates for ongoing synchronization.
-
-**Related topics:**
+**Best practices:** Use unique identifiers, validate data first, test with samples, schedule regular updates.
 
 [Import data guide](../start/import.md) | [Data loading activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [Update data activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
@@ -1361,104 +1044,40 @@ Yes. Use workflows to update Campaign data with values from external files (CSV,
 
 +++ How can I identify and target new recipients?
 
-Use workflows with query activities to identify recently added recipients and trigger automated welcome campaigns.
+Query **[!UICONTROL Created date]** field to select recipients added within specific timeframe.
 
-**Query approach:**
+**Automated welcome workflow:** Scheduler (run daily) → Query (select new recipients) → Deduplication (optional) → Delivery (welcome message) → Update data (mark as "welcomed").
 
-Create a query filtering on the **[!UICONTROL Created date]** field to select recipients added within a specific timeframe (e.g., last 24 hours, last week).
+**Advanced:** Use aggregate functions to dynamically identify recent additions.
 
-**Automated welcome workflow structure:**
-
-1. **Scheduler** - Run daily or at specific intervals
-1. **Query** - Select recipients created since last execution
-1. **Deduplication** (optional) - Ensure no duplicates
-1. **Delivery** - Send welcome message
-1. **Update data** (optional) - Mark recipients as "welcomed"
-
-**Advanced technique with aggregates:**
-
-Use aggregate functions to dynamically identify the most recent additions and compare against previously processed recipients for sophisticated new recipient detection.
-
-**Related topics:**
-
-[Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Using aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"} | [Welcome programs](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}
+[Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [Using aggregates](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}
 
 +++
 
 +++ How do I use workflow activities?
 
-Campaign workflows are built using four main categories of activities, each serving specific purposes:
+Four activity categories:
 
-**Targeting activities** - Define and refine your audience
+**Targeting:** Query, Split, Deduplication, Enrichment, Intersection, Union, Exclusion (define/refine audience)  
+**Flow control:** Scheduler, Wait, Test, Fork, AND-join, OR-join, Jump (manage logic/timing)  
+**Action:** Delivery, Update data, Data loading/extraction, JavaScript code (perform operations)  
+**Event:** External signal, File collector, HTTP transfer (react to triggers)
 
-* Query, Split, Deduplication, Enrichment, Intersection, Union, Exclusion
-* Use these to select recipients, segment populations, and combine data sources
+Drag from palette, double-click to configure, connect with transitions.
 
-**Flow control activities** - Manage workflow logic and timing
-
-* Scheduler, Wait, Test, Fork, AND-join, OR-join, Jump
-* Control execution flow, add conditions, and manage parallel paths
-
-**Action activities** - Perform operations and send messages
-
-* Delivery, Update data, Data loading (file), Data extraction (file), JavaScript code
-* Execute database operations, file transfers, and message sending
-
-**Event activities** - React to external triggers
-
-* External signal, File collector, HTTP transfer, SMS, Email
-* Handle incoming data and external system interactions
-
-To use activities, drag them from the palette to your workflow canvas, double-click to configure parameters, and connect them with transitions.
-
-**Related topics:**
-
-[Targeting activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [Flow control activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [Action activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"} | [Event activities reference](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}
+[Targeting activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [Flow control](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [Action activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}
 
 +++
 
 +++ What are workflow best practices?
 
-Follow these best practices to build efficient, maintainable, and reliable workflows:
+**Design:** Clear names, add labels/descriptions, group related activities, break complex processes into smaller workflows  
+**Performance:** Limit query sizes, use temporary tables, schedule off-peak, avoid excessive loops  
+**Error handling:** Add error paths, configure alerts, test with samples, review logs  
+**Maintenance:** Archive obsolete workflows, version control, limit complexity (<20 activities), use templates  
+**Security:** Apply permissions, clean temporary data, use variables not hardcoded values
 
-**Design and organization:**
-
-* Use clear, descriptive names for workflows and activities
-* Add labels and descriptions to document logic
-* Group related activities visually for readability
-* Break complex processes into multiple smaller workflows
-
-**Performance optimization:**
-
-* Limit query result sizes with appropriate filters
-* Use temporary tables for intermediate data storage
-* Schedule resource-intensive workflows during off-peak hours
-* Avoid unnecessary loops and excessive iterations
-
-**Error handling and monitoring:**
-
-* Add error handling paths with supervisors
-* Configure alerts for failed workflows
-* Test with small data samples before full execution
-* Review execution logs regularly for performance issues
-
-**Maintenance and governance:**
-
-* Archive or delete obsolete workflows
-* Version control workflow changes and document modifications
-* Limit workflow complexity (aim for < 20 activities)
-* Use workflow templates for recurring patterns
-
-**Security and data management:**
-
-* Apply appropriate operator permissions
-* Clean up temporary data with workflow cleanup
-* Avoid hardcoding values—use variables and options
-* Regularly review and optimize poorly performing workflows
-
-**Related topics:**
-
-[Workflow best practices guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Build a workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html){target="_blank"} | [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+[Workflow best practices guide](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [Monitor workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -1573,51 +1192,19 @@ Email deliverability depends on technical configuration, content quality, and se
 
 +++ Which external databases can I connect Campaign to?
 
-Campaign v8 supports Federated Data Access (FDA) connections to major enterprise database systems, enabling you to leverage existing data infrastructure.
+Campaign v8 supports Federated Data Access (FDA) connections to major enterprise database systems (cloud databases, enterprise databases, data warehouses, big data platforms).
 
-**Supported databases:**
+Supported database versions and connection requirements vary. Check the [Compatibility matrix](compatibility-matrix.md) for your Campaign v8 version to confirm support for specific databases and ensure proper licensing for FDA connectors.
 
-* **Cloud databases:** Amazon Redshift, Google BigQuery, Snowflake, Azure Synapse Analytics
-* **Enterprise databases:** Oracle, Microsoft SQL Server, PostgreSQL, MySQL
-* **Data warehouses:** Teradata, Vertica, SAP HANA
-* **Big data:** Hadoop via Hive
-
-**Platform-specific considerations:** Supported database versions and connection requirements vary. Campaign v8 as a Managed Cloud Service may have specific network and security requirements for external database access.
-
-**Important:** Always check the official compatibility matrix for your Campaign v8 version to confirm support for specific database versions and ensure proper licensing for external database connectors.
-
-**Related topics:**
-
-[Compatibility matrix](compatibility-matrix.md) | [Configure FDA connections](../connect/fda.md)
+[Configure FDA connections](../connect/fda.md)
 
 +++
 
 +++ Can Adobe Campaign integrate with CRM systems?
 
-Yes. Campaign provides native CRM connectors for seamless bidirectional synchronization between Campaign and your CRM system, ensuring consistent customer data across platforms.
+Yes. Campaign provides native CRM connectors for bidirectional synchronization with major CRM systems. Syncs contact data, leads, accounts, delivery logs, tracking data, and engagement metrics. Supports scheduled, manual, and real-time (via API) synchronization modes.
 
-**Supported CRM systems:**
-
-* **Salesforce** - Leads, contacts, accounts, opportunities, campaigns
-* **Microsoft Dynamics 365** - Contacts, accounts, leads, custom entities
-* Other CRMs via custom API integrations
-
-**What syncs:**
-
-* **From CRM to Campaign:** Contact records, account information, leads, custom fields, segmentation data
-* **From Campaign to CRM:** Delivery logs, tracking data, engagement metrics, campaign responses, subscription status
-
-**Synchronization modes:**
-
-* **Scheduled** - Automatic sync at defined intervals (hourly, daily)
-* **Manual** - On-demand sync triggered by operators
-* **Real-time** - Via API for immediate updates (custom development)
-
-**Configuration:** Use Campaign's built-in CRM connector assistant to map CRM fields to Campaign attributes, select tables to sync, and schedule synchronization. The connector handles conflict resolution and maintains data consistency.
-
-**Best practice:** Start with read-only sync to test mapping, then enable bidirectional sync. Monitor sync logs for errors and maintain clean data in both systems.
-
-**Related topics:**
+Use Campaign's CRM connector assistant to map fields, select tables, and schedule sync. Check [Compatibility matrix](compatibility-matrix.md) for supported CRM versions.
 
 [CRM connector configuration](../connect/crm.md) | [Workflow CRM activities](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
@@ -1666,7 +1253,6 @@ Yes. Campaign administrators can customize the user interface to match organizat
 
 * **Instance-wide** - Apply to all users (requires administrator rights)
 * **User-specific** - Individual preferences and personal settings
-* **Operator group** - Settings inherited by all group members
 
 **Related topics:**
 
@@ -1705,14 +1291,13 @@ Get insights into Campaign's reporting capabilities, including built-in reports,
 
 +++ How can I create new reports?
 
-Campaign offers multiple reporting options depending on your needs and technical expertise. You can use built-in reports, create custom reports in the client console, or design visual dashboards in the Campaign Web UI.
+Campaign offers multiple reporting options depending on your needs and technical expertise: built-in reports, descriptive analysis, custom reports in the client console, and cubes.
 
 **Reporting options:**
 
 * **Built-in reports** - Ready-to-use delivery, campaign, and tracking reports accessible from the **[!UICONTROL Reports]** tab
 * **Descriptive analysis** - Quick statistical reports on any data with a wizard-driven interface
 * **Custom reports** - Advanced reports built by technical users using the reporting editor
-* **Web UI dashboards** - Modern visual reports and dashboards with drag-and-drop interface
 * **Cubes** - Multi-dimensional data exploration and pivot table analysis
 
 **Important:** Campaign is designed for marketing operations reporting, not as a specialized business intelligence tool. For complex analytical needs, consider integrating with Adobe Analytics or dedicated BI platforms.
@@ -1745,7 +1330,7 @@ Learn more about [Descriptive analysis](../reporting/built-in-reports.md)
 
 +++ How can I design advanced reports on my data?
 
-Campaign offers two approaches for creating advanced custom reports: technical reports in the client console for complex analysis, and visual dashboards for easier report building.
+Use the client console to create advanced custom reports with complex analysis capabilities.
 
 In the Client Console, you can:
 
@@ -1760,8 +1345,7 @@ Learn how to [Create custom reports (client console)](../reporting/custom-report
 
 +++ What is a cube and how can I use it for reporting?
 
-Cubes are multi-dimensional data structures that enable business users to explore and analyze Campaign data through pivot tables without technical skills. Think of them as pre-configured data models that simplify complex reporting.
-
+Cubes are multi-dimensional data structures that enable business users to explore and analyze Campaign data through pivot tables without technical skills. Think of them as pre-configured data models that simplify complex reporting. This reporting tool is available in both the client console and Campaign Web UI.
 
 * Technical users create and configure cubes defining dimensions (time, geography, channels) and measures (opens, clicks, revenue)
 * Business users select a cube when creating reports and drag-and-drop dimensions to explore data
@@ -1787,12 +1371,6 @@ Yes! Campaign includes a Survey module that allows you to create online question
 * Export survey responses to Excel, PDF, or CSV for further analysis
 * Use survey data in targeting workflows to personalize campaigns
 
-**Built-in survey reports:**
-
-* **General report** - Response trends over time, distribution by origin and language
-* **Breakdown of responses** - Detailed breakdown of answers for each question
-* **Documentation report** - Visual representation of survey structure
-
 **Advanced analysis:**
 
 * Access survey responses from the **[!UICONTROL Responses]** tab and export data
@@ -1808,25 +1386,15 @@ Yes! Campaign includes a Survey module that allows you to create online question
 
 +++ How can I share access to my reports?
 
-Campaign provides flexible options for sharing reports with different user groups, controlling visibility and access permissions based on roles and responsibilities.
+Control report visibility through folder permissions and named rights in Campaign.
 
-**Report access control:**
+**Access control methods:**
 
-* **Folder permissions** - Place reports in folders with appropriate read/write access for user groups
-* **Named rights** - Assign specific rights to view, create, or modify reports
-* **Display context** - Define where reports appear: in **[!UICONTROL Reports]** folder, campaign tabs, or delivery screens
-* **Web UI sharing** - Share dashboard links with team members through the Campaign Web UI
+* **Folder permissions** - Place reports in folders with appropriate access for user groups
+* **Named rights** - Assign rights to view, create, or modify reports
+* **Display context** - Define where reports appear (Reports folder, campaign tabs, delivery screens)
 
-**How to configure access:**
-
-1. Save your report to a specific folder in the client console
-2. Configure folder access permissions for relevant operator groups
-3. Define report properties: report type, display context, and availability
-4. Test access with a user from the target group before broader rollout
-
-**Best practice:** Create dedicated report folders for different teams (marketing, operations, management) with tailored access permissions. Document report purpose and refresh schedules.
-
-**Related topics:**
+**Setup:** Save report to specific folder → Configure folder access for operator groups → Define report properties and display context.
 
 [Custom reports](../reporting/custom-reports.md) | [User permissions](gs-permissions.md)
 
@@ -1869,27 +1437,13 @@ Access technical information for developers, including data model details, schem
 
 +++ What is the Campaign data model?
 
-Campaign's data model is a schema-driven relational database structure that defines how marketing data is organized and related. It consists of built-in tables for core marketing objects (recipients, deliveries, campaigns) and can be extended to meet your specific business needs.
+Campaign's data model is a schema-driven relational database structure consisting of built-in tables (recipients, deliveries, campaigns) that can be extended for your business needs.
 
-**Key data model concepts:**
+**Key concepts:** Schemas (XML definitions), built-in tables, links (relationships), enumerations (value lists), extensions (custom fields/tables).
 
-* **Schemas** - XML definitions describing table structure, fields, and relationships
-* **Built-in tables** - Core marketing entities (recipients, deliveries, workflows, campaigns)
-* **Links** - Relationships between tables (1-1, 1-N, N-N)
-* **Enumerations** - Predefined value lists for dropdown fields
-* **Extensions** - Custom fields and tables added to the standard model
+**Main schemas:** Recipient (`nms:recipient`), Delivery (`nms:delivery`), Workflow (`xtk:workflow`), Campaign (`nms:operation`), Tracking logs.
 
-**Main built-in schemas:**
-
-* **Recipient (nms:recipient)** - Customer profiles and contact information
-* **Delivery (nms:delivery)** - Email, SMS, and push campaigns
-* **Workflow (xtk:workflow)** - Automation processes
-* **Campaign (nms:operation)** - Marketing campaign orchestration
-* **Tracking logs** - Opens, clicks, and engagement data
-
-**Why it matters:** Understanding the data model is essential for creating workflows, building queries, extending schemas, and developing custom integrations. The schema-based approach ensures data consistency and enables powerful querying capabilities.
-
-**Related topics:**
+Understanding the data model is essential for workflows, queries, schema extensions, and integrations.
 
 [Campaign data model](../dev/datamodel.md) | [Data model best practices](../dev/datamodel-best-practices.md)
 
@@ -1897,33 +1451,18 @@ Campaign's data model is a schema-driven relational database structure that defi
 
 +++ How to work with Campaign schemas?
 
-Schemas are the foundation of Campaign's data structure, defining tables, fields, and relationships in XML format. Understanding schemas is crucial for customization, integration, and advanced workflow development.
-
-**What schemas define:**
-
-* **Table structure** - Database tables and their corresponding application objects
-* **Field properties** - Data types, labels, validation rules, and default values
-* **Relationships** - Links between tables (joins) and cardinality
-* **Indexes** - Database optimization for query performance
-* **Access control** - Which fields users can view and modify
+Schemas define Campaign's data structure in XML format, specifying table structure, field properties, relationships, indexes, and access control.
 
 **Working with schemas:**
 
-* **View schemas:** Access via **[!UICONTROL Administration > Configuration > Data schemas]** in the client console
-* **Extend schemas:** Create extension schemas (e.g., `cus:recipient` extends `nms:recipient`) to add custom fields without modifying core schemas
-* **Create custom schemas:** Build entirely new tables for business-specific data
-* **Update database:** Apply schema changes using **[!UICONTROL Tools > Advanced > Update database structure]**
+* **View:** Access via **[!UICONTROL Administration > Configuration > Data schemas]**
+* **Extend:** Create extension schemas (e.g., `cus:recipient`) to add custom fields without modifying core schemas
+* **Create:** Build new tables for business-specific data
+* **Update:** Apply changes via **[!UICONTROL Tools > Advanced > Update database structure]**
 
-**Common use cases:**
+**Common uses:** Add custom fields to recipient table, create custom tables, define relationships, implement business-specific models.
 
-* Adding custom fields to recipient table (company ID, loyalty tier, preferences)
-* Creating custom tables for products, stores, or transactions
-* Defining relationships between custom and built-in tables
-* Implementing business-specific data models
-
-**Important:** Never modify built-in schemas directly. Always use extension schemas to preserve upgrade compatibility and Adobe support.
-
-**Related topics:**
+**Important:** Never modify built-in schemas directly. Always use extension schemas for upgrade compatibility.
 
 [Get started with schemas](../dev/schemas.md) | [Extend a schema](../dev/extend-schema.md)
 
@@ -1931,34 +1470,13 @@ Schemas are the foundation of Campaign's data structure, defining tables, fields
 
 +++ How to use a custom recipient table?
 
-Campaign allows you to use a custom table instead of the built-in recipient table when your business requires a different data structure for targeting (e.g., B2B accounts, subscribers, leads, or external contacts).
+Use a custom recipient table when targeting B2B accounts, separate subscriber data, external systems, or multi-brand architectures instead of the standard recipient table.
 
-**Why use a custom recipient table:**
+**Implementation:** Create custom schema with mandatory fields (email, primary key, exclusions) → Configure target mappings → Update delivery templates → Adapt workflows/queries.
 
-* Target B2B companies or organizational units instead of individual contacts
-* Separate subscriber data from main customer database
-* Use an existing customer table from another system
-* Implement multi-brand architectures with separate contact tables
-* Comply with specific data governance requirements
+**Key considerations:** Must include required delivery fields, workflows/forms need adaptation, testing critical before production migration.
 
-**Implementation steps:**
-
-1. Create your custom schema defining the recipient table structure
-2. Include mandatory fields (email, primary key, exclusion flags)
-3. Configure target mappings to link your table with deliveries
-4. Update delivery templates to use the new target mapping
-5. Adapt workflows and queries to reference the custom table
-
-**Key considerations:**
-
-* Custom recipient tables must include required fields for deliveries (email, exclusions, tracking)
-* Workflows and forms need adaptation to work with the custom structure
-* Some built-in features may require customization
-* Testing is critical before migrating production campaigns
-
-**Best practice:** Start with extending the standard recipient table before considering a custom table. Custom recipient tables add complexity and should only be used when truly necessary.
-
-**Related topics:**
+**Best practice:** Extend the standard recipient table first. Only use custom tables when truly necessary due to added complexity.
 
 [Custom recipient table](../dev/custom-recipient.md) | [Target mappings](../audiences/target-mappings.md)
 
@@ -1966,94 +1484,42 @@ Campaign allows you to use a custom table instead of the built-in recipient tabl
 
 +++ What are the best practices to define queries in Campaign?
 
-Campaign's query editor is a powerful visual tool for building database queries without SQL knowledge. Mastering it is essential for effective targeting, segmentation, and data analysis.
+Campaign's query editor builds database queries visually without SQL, used in workflow activities, delivery targeting, lists, reports, and filters.
 
-**Where queries are used:**
+**Best practices:**
 
-* **Workflow activities** - Query, Split, Update data, Enrichment activities
-* **Delivery targeting** - Define recipient populations for campaigns
-* **Lists** - Create dynamic or static recipient lists
-* **Reports** - Build custom data extractions and analysis
-* **Filters** - Create reusable targeting criteria
+* Start simple - build incrementally, test each step
+* Use filtering dimensions - leverage table relationships
+* Optimize performance - index queried fields, avoid complex calculations
+* Reuse predefined filters for consistency
+* Test with small samples first
+* Document complex queries
 
-**Query best practices:**
+**Common patterns:** Target delivery openers, find inactive contacts, segment by behavior, exclude previous recipients.
 
-* **Start simple** - Build queries incrementally, testing at each step
-* **Use filtering dimensions** - Leverage relationships between tables (recipients → deliveries → tracking logs)
-* **Optimize performance** - Index frequently queried fields, avoid complex calculated fields
-* **Leverage predefined filters** - Reuse and combine existing filters for consistency
-* **Test with small samples** - Validate query logic before running on full database
-* **Document complex queries** - Add descriptions for maintenance and knowledge transfer
+**Access:** **[!UICONTROL Tools > Generic query editor]** for ad-hoc exploration.
 
-**Common query patterns:**
-
-* Target recipients who opened specific delivery: Filter on tracking logs linked to recipients
-* Find inactive contacts: Query on last delivery date or tracking activity
-* Segment by behavior: Combine delivery, tracking, and profile criteria
-* Exclude previous recipients: Use set operations (union, intersection, exclusion)
-
-**Access generic query editor:** **[!UICONTROL Tools > Generic query editor]** for ad-hoc database exploration and data extraction outside workflows.
-
-**Related topics:**
-
-[Query editor](../start/query-editor.md) | [Query activity in workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
+[Query editor](../start/query-editor.md) | [Query activity](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
 +++ How can I import a data package?
 
-Data packages enable you to export and import Campaign configurations (schemas, workflows, typologies, filters) and data between instances. This is essential for deploying configurations from development to production or sharing components across organizations.
+Import packages via **[!UICONTROL Tools > Advanced > Import package]** in the client console. Packages contain Campaign configurations (schemas, workflows, typologies) and data for deploying between instances.
 
-**What can be packaged:**
+**Package types:** User package (custom configs), Platform package (Adobe-provided), Data package (actual data).
 
-* **Configuration objects** - Schemas, workflows, typology rules, forms, filters
-* **Campaign components** - Delivery templates, campaign templates, content blocks
-* **Application settings** - Operators, operator groups, folder structures
-* **Data** - Recipient lists, seed addresses, content fragments
-* **Custom developments** - JavaScript code, SQL scripts, web applications
+**Best practices:** Test in dev first, back up before importing, export from same/older version.
 
-
-**Package types:**
-
-* **User package** - Custom configurations you create and export
-* **Platform package** - Adobe-provided features and updates
-* **Data package** - Contains actual data records, not just structure
-
-**Best practices:**
-
-* Always export packages from the same or older Campaign version
-* Test package imports in development environment before production
-* Document package contents and dependencies
-* Use version control for package XML files
-* Back up instance before major package imports
-
-Learn more about how to [Work with data packages](../dev/packages.md)
+[Work with data packages](../dev/packages.md)
 
 +++
 
 +++ Where can I find the list of Campaign v8 APIs?
 
-Campaign v8 provides comprehensive API documentation covering both SOAP APIs (for client console interactions) and REST APIs (for modern integrations). The API reference includes all available methods, parameters, and response formats.
+Campaign v8 provides SOAP APIs (client console operations), REST APIs (modern integrations), and JavaScript APIs (workflow scripting).
 
-**Campaign API types:**
-
-* **SOAP APIs** - Traditional APIs for Campaign client console operations, schema manipulation, and workflow control
-* **REST APIs** - Modern HTTP APIs for external system integrations, profile management, and event triggering
-* **JavaScript APIs** - Server-side scripting APIs for workflow activities and custom business logic
-
-**API documentation resources:**
-
-* **Full API reference:** Comprehensive SOAP API documentation with method signatures, parameters, and examples
-* **REST API guide:** Modern REST endpoints for profiles, events, and organizational units
-* **JavaScript API:** Server-side functions available in workflow scripts and web applications
-
-**Common API use cases:**
-
-* Integrate Campaign with CRM, ERP, or custom applications
-* Automate campaign operations and workflow execution
-* Synchronize data between systems in real-time
-* Build custom monitoring and alerting solutions
-* Create external interfaces for Campaign data and operations
+**Common uses:** Integrate with CRM/ERP, automate campaigns, synchronize data, build monitoring solutions, create external interfaces.
 
 **Access:** [Campaign v8 API documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}
 
@@ -2062,68 +1528,29 @@ Campaign v8 provides comprehensive API documentation covering both SOAP APIs (fo
 
 +++ How do I monitor workflows from API?
 
-Campaign APIs allow you to programmatically control and monitor workflow execution, enabling external monitoring systems, automated alerting, and custom orchestration solutions.
+Campaign APIs let you programmatically control workflows: start, pause/resume, stop, query status, retrieve logs, monitor activity progress.
 
-**What you can do via API:**
+**API endpoint:** `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
-* **Start workflows** - Trigger workflow execution programmatically
-* **Pause/Resume workflows** - Control workflow execution flow
-* **Stop workflows** - Terminate running workflows
-* **Query workflow status** - Check if workflows are running, paused, or completed
-* **Retrieve logs** - Access workflow execution logs and error messages
-* **Monitor activity progress** - Track individual workflow activity completion
+**Commands:** `{"method":"start"}`, `{"method":"pause"}`, `{"method":"resume"}`, `{"method":"stop"}`
 
-**API endpoint:**
+**Use cases:** Build monitoring dashboards, implement automated alerting, orchestrate from external schedulers, create dependencies across instances, generate custom reports.
 
-All workflow control commands use the same POST endpoint with different method parameters:
+**Best practice:** Combine API monitoring with audit trail for comprehensive governance.
 
-`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
-
-**Available commands:**
-
-* `{"method":"start"}` - Start a workflow
-* `{"method":"pause"}` - Pause a running workflow
-* `{"method":"resume"}` - Resume a paused workflow
-* `{"method":"stop"}` - Stop a workflow
-
-**Common use cases:**
-
-* Build custom monitoring dashboards showing workflow health
-* Implement automated alerting when workflows fail or run too long
-* Orchestrate workflows from external schedulers or event systems
-* Create workflow dependencies across multiple Campaign instances
-* Generate custom workflow execution reports
-
-**Best practice:** Combine API monitoring with workflow audit trail for comprehensive workflow governance. Use external monitoring tools to track workflow SLAs and performance metrics.
-
-Learn how to [Control workflows via API](../dev/api/controlling-a-workflow.md)
+[Control workflows via API](../dev/api/controlling-a-workflow.md)
 
 +++
 
 +++ How can I update the database structure?
 
-After modifying Campaign schemas (adding fields, creating tables, changing data types), you must update the physical database structure to apply your changes. This synchronization ensures the database matches your schema definitions.
+After modifying schemas (adding fields, creating tables, changing data types), update the physical database structure via **[!UICONTROL Tools > Advanced > Update database structure]** to apply changes.
 
-**When database updates are needed:**
+**When needed:** Adding fields, creating/extending tables, modifying field properties, adding/removing links, creating indexes.
 
-* Adding new fields to existing schemas
-* Creating custom tables or extending built-in tables
-* Modifying field properties (data type, length, required status)
-* Adding or removing links between tables
-* Creating new indexes for query optimization
+**Important:** Backup first, test in dev, plan downtime for large changes, coordinate with Adobe support (Managed Cloud Services), note some changes may cause data loss.
 
-
-**Important considerations:**
-
-* **Backup first** - Always back up your database before structural changes
-* **Test in development** - Validate schema changes in dev environment before production
-* **Downtime planning** - Large structural changes may require brief maintenance windows
-* **For Managed Cloud Services** - Coordinate major changes with Adobe support
-* **Reversibility** - Some changes (like removing fields) may cause data loss
-
-**Best practice:** Use schema versioning and change tracking. Document all custom schema modifications for maintenance and troubleshooting.
-
-**Related topics:**
+**Best practice:** Use schema versioning, document all modifications.
 
 [Update database structure](../dev/update-database-structure.md) | [Extend schema](../dev/extend-schema.md)
 
