@@ -131,6 +131,161 @@ Join Campaign Community: search for answers in existing question or ask the expe
 
 +++
 
++++ Which systems and components Campaign v8 is compatible with?
+
+You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
+
++++
+
++++ Can I use Campaign v8 with other Adobe solutions?
+
+Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to create a powerful, unified marketing ecosystem. As a Managed Cloud Service, v8 is designed for native integration with Adobe's enterprise applications.
+
+**Key integrations available:**
+
+* **Adobe Experience Platform** - Leverage unified customer profiles and real-time data
+* **Adobe Analytics** - Measure campaign performance and customer behavior across channels
+* **Adobe Target** - Personalize content based on customer segments and behavior
+* **Adobe Experience Manager** - Centralize content creation and asset management
+* **Adobe Audience Manager** - Build and activate audience segments across platforms
+
+**Benefits:** Unified customer data, consistent user experiences, streamlined workflows, and enhanced personalization capabilities.
+
+**Setup:** Integration with Adobe solutions requires Adobe Identity Management System (IMS) authentication, automatically configured for Campaign v8 Managed Cloud Services.
+
+**Related topics:**
+
+[Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
+
++++
+
++++ What are the limitations of Campaign v8?
+
+Campaign v8 introduces architectural changes (particularly in FFDA deployments) that bring significant performance improvements but also some differences from Campaign Classic v7. Understanding these helps plan migrations and set appropriate expectations.
+
+**Main v8 considerations:**
+
+* **FFDA architecture** - Enterprise deployments use cloud database (Snowflake) with different data access patterns
+* **Unit updates** - Data updates should be done in workflows, not through APIs or direct database access
+* **Real-time writes** - Optimized for batch operations rather than high-frequency individual updates
+* **Data model** - Some schema customizations require different approaches
+* **External database access** - FDA (Federated Data Access) configuration differs from v7
+
+**Features not available in FFDA deployments:**
+
+* Surveys (available in standard v8 deployments)
+* Marketing Resource Management (MRM)
+* Some specific connector configurations
+
+**Migration considerations:**
+
+* Custom code using direct database writes needs refactoring
+* API integrations may require adaptation for batch processing
+* Workflows should follow FFDA best practices for data operations
+* Testing is essential to validate custom developments
+
+**Important:** These limitations are evolving as Adobe continues enhancing v8. Consult the latest documentation for current status and roadmap.
+
+**Related topics:**
+
+[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
+
++++
+
++++ As a Campaign Classic v7 user, can I migrate to Campaign v8?
+
+Automated migration from an existing Campaign Classic v7 environment is not yet available. 
+
+Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+
+For more information about the migration process, reach out to your Adobe representative.
+
+Learn more in the [Campaign v8 vs Previous versions](#v7-differences) section.
+
++++
+
++++ What is my version of Campaign?
+
+Check your [version and build number](upgrades.md#version) from the **Help > About...** menu of Campaign client console.
+
++++
+
++++ How can I upgrade Campaign to the latest version?
+
+Adobe Campaign is regularly updated. Minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only.
+
+This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
+
+**Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
+
+Learn more about [Campaign versions and upgrades](upgrades.md).
+
++++
+
++++ How can I be informed of the release of a new version?
+
+Stay informed about new Campaign releases through these channels:
+
+* **Adobe representative** - Contacts you directly when a new version is available
+* **Release Notes** - All versions and changes documented in [Campaign Release Notes](release-notes.md)
+* **Adobe Priority Product Updates** - [Subscribe](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} for email notifications
+* **Campaign Community** - Join [discussions](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} for early updates
+
+As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
+
+**Related topics:**
+
+[Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
+
++++
+
++++ Why does my organization need an upgrade?
+
+Upgrading to the latest Campaign version is critical for security, performance, and support quality.
+
+**Key benefits:**
+
+* **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
+* **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
+* **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
+* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
+
+Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
+
+**Related topics:**
+
+[Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
+
++++
+
++++ What is the process and timeline for an upgrade?
+
+As a Managed Cloud Services customer, Adobe manages the entire upgrade process with minimal impact on your operations.
+
+**Process:**
+
+1. **Notification** - Adobe notifies you weeks in advance
+2. **Planning** - Schedule upgrade at optimal time with your Adobe representative
+3. **Preparation** - Adobe prepares environment and validates
+4. **Execution** - Adobe upgrades infrastructure with minimal downtime
+5. **Validation** - Post-upgrade testing by Adobe
+6. **Client console upgrade** - You upgrade your client consoles to match server version
+
+**Your responsibilities:**
+
+* Coordinate internal stakeholders for timing
+* [Upgrade client consoles](connect.md#upgrade-ac-console) to the new version
+* Test campaigns and workflows after upgrade
+* Report issues to Adobe Support
+
+Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
+
+**Related topics:**
+
+[Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
+
++++
+
 
 ## Key Concepts {#key-concepts}
 
@@ -347,8 +502,6 @@ Yes. Create web forms using **Campaign Web Applications & Forms** (client consol
 ## Campaign v8 vs Previous Versions {#v7-differences}
 
 Understand the key differences between Campaign v8 and previous versions (Classic v7 and Standard), including architecture, deployment, migration paths, and feature changes. Whether you're coming from Campaign Classic v7 or Campaign Standard, learn what's new and how to transition smoothly.
-
-### Deployment & Architecture
 
 +++ Can Campaign v8 be installed on an on-premise or hybrid environment?
 
@@ -608,166 +761,6 @@ The following terms have been updated in the Campaign Web UI (client console use
 
 +++
 
-### Versions & Upgrades
-
-+++ What is my version of Campaign?
-
-Check your [version and build number](upgrades.md#version) from the **Help > About...** menu of Campaign client console.
-
-+++
-
-+++ How can I upgrade Campaign to the latest version?
-
-Adobe Campaign is regularly updated. Minor versions are released every year with new features, improvements and fixes. In addition, we periodically release builds with cumulative fixes only.
-
-This regular frequency of updates aims at getting the latest and greatest in your hands, keeping your environment secure and improving your experience with our product. This is the reason why we believe it is critical that you run the most recent version of Adobe Campaign. 
-
-**Note:** As a Managed Cloud Services user, your instance is upgraded by Adobe with new releases.
-
-Learn more about [Campaign versions and upgrades](upgrades.md).
-
-+++
-
-+++ How can I be informed of the release of a new version?
-
-Stay informed about new Campaign releases through these channels:
-
-* **Adobe representative** - Contacts you directly when a new version is available
-* **Release Notes** - All versions and changes documented in [Campaign Release Notes](release-notes.md)
-* **Adobe Priority Product Updates** - [Subscribe](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} for email notifications
-* **Campaign Community** - Join [discussions](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} for early updates
-
-As a Managed Cloud Services user, Adobe handles upgrades and coordinates timing with you.
-
-**Related topics:**
-
-[Release Notes](release-notes.md) | [What's new](whats-new.md) | [Campaign versions and upgrades](upgrades.md)
-
-+++
-
-+++ Why does my organization need an upgrade?
-
-Upgrading to the latest Campaign version is critical for security, performance, and support quality.
-
-**Key benefits:**
-
-* **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
-* **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
-* **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
-* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
-
-Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
-
-**Related topics:**
-
-[Campaign versions and upgrades](upgrades.md) | [What's new](whats-new.md) | [Compatibility matrix](compatibility-matrix.md)
-
-+++
-
-+++ What is the process and timeline for an upgrade?
-
-As a Managed Cloud Services customer, Adobe manages the entire upgrade process with minimal impact on your operations.
-
-**Process:**
-
-1. **Notification** - Adobe notifies you weeks in advance
-2. **Planning** - Schedule upgrade at optimal time with your Adobe representative
-3. **Preparation** - Adobe prepares environment and validates
-4. **Execution** - Adobe upgrades infrastructure with minimal downtime
-5. **Validation** - Post-upgrade testing by Adobe
-6. **Client console upgrade** - You upgrade your client consoles to match server version
-
-**Your responsibilities:**
-
-* Coordinate internal stakeholders for timing
-* [Upgrade client consoles](connect.md#upgrade-ac-console) to the new version
-* Test campaigns and workflows after upgrade
-* Report issues to Adobe Support
-
-Adobe performs the infrastructure upgrade. You don't need to perform any technical actions on servers.
-
-**Related topics:**
-
-[Campaign versions and upgrades](upgrades.md) | [Upgrade client console](connect.md#upgrade-ac-console) | [Release Notes](release-notes.md)
-
-+++
-
-### Migration Questions
-
-+++ As a Campaign Classic v7 user, can I migrate to Campaign v8?
-
-Automated migration from an existing Campaign Classic v7 environment is not yet available. 
-
-Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
-
-For more information about the migration process, reach out to your Adobe representative.
-
-+++
-
-### Compatibility & Integrations
-
-+++ Which systems and components Campaign v8 is compatible with?
-
-You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
-
-+++
-
-+++ Can I use Campaign v8 with other Adobe solutions?
-
-Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions to create a powerful, unified marketing ecosystem. As a Managed Cloud Service, v8 is designed for native integration with Adobe's enterprise applications.
-
-**Key integrations available:**
-
-* **Adobe Experience Platform** - Leverage unified customer profiles and real-time data
-* **Adobe Analytics** - Measure campaign performance and customer behavior across channels
-* **Adobe Target** - Personalize content based on customer segments and behavior
-* **Adobe Experience Manager** - Centralize content creation and asset management
-* **Adobe Audience Manager** - Build and activate audience segments across platforms
-
-**Benefits:** Unified customer data, consistent user experiences, streamlined workflows, and enhanced personalization capabilities.
-
-**Setup:** Integration with Adobe solutions requires Adobe Identity Management System (IMS) authentication, automatically configured for Campaign v8 Managed Cloud Services.
-
-**Related topics:**
-
-[Adobe Campaign integrations](../connect/integration.md) | [Connect with Adobe ID](connect.md)
-
-+++
-
-### Limitations & Considerations
-
-+++ What are the limitations of Campaign v8?
-
-Campaign v8 introduces architectural changes (particularly in FFDA deployments) that bring significant performance improvements but also some differences from Campaign Classic v7. Understanding these helps plan migrations and set appropriate expectations.
-
-**Main v8 considerations:**
-
-* **FFDA architecture** - Enterprise deployments use cloud database (Snowflake) with different data access patterns
-* **Unit updates** - Data updates should be done in workflows, not through APIs or direct database access
-* **Real-time writes** - Optimized for batch operations rather than high-frequency individual updates
-* **Data model** - Some schema customizations require different approaches
-* **External database access** - FDA (Federated Data Access) configuration differs from v7
-
-**Features not available in FFDA deployments:**
-
-* Surveys (available in standard v8 deployments)
-* Marketing Resource Management (MRM)
-* Some specific connector configurations
-
-**Migration considerations:**
-
-* Custom code using direct database writes needs refactoring
-* API integrations may require adaptation for batch processing
-* Workflows should follow FFDA best practices for data operations
-* Testing is essential to validate custom developments
-
-**Important:** These limitations are evolving as Adobe continues enhancing v8. Consult the latest documentation for current status and roadmap.
-
-**Related topics:**
-
-[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
-
-+++
 
 ## Profiles and Audiences {#audiences}
 

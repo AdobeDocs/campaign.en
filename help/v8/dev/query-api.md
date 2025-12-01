@@ -10,11 +10,43 @@ exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
 ---
 # Query the database with queryDef {#query-database-api}
 
-[!DNL Adobe Campaign] provides powerful JavaScript methods to interact with the database using `queryDef` and `NLWS`. These methods allow you to load, create, update, and query data using JSON, XML, or SQL.
+[!DNL Adobe Campaign] provides powerful JavaScript methods to interact with the database using `queryDef` and the `NLWS` object. These SOAP-based methods allow you to load, create, update, and query data using JSON, XML, or SQL.
 
 >[!NOTE]
 >
 >This documentation covers data-oriented APIs for querying the database programmatically. For REST APIs, refer to [Get started with REST APIs](api/get-started-apis.md). For visual query building, refer to [Work with the query editor](../start/query-editor.md).
+
+## What is NLWS? {#what-is-nlws}
+
+`NLWS` (Neolane Web Services) is the global JavaScript object used to access [!DNL Adobe Campaign]'s SOAP-based API methods. Schemas are properties of the `NLWS` object, allowing you to interact with Campaign entities programmatically.
+
+According to the [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}, "schemas are 'NLWS' global objects." The syntax to access schema methods follows this pattern:
+
+```javascript
+NLWS.<namespace><SchemaName>.<method>()
+```
+
+**Examples:**
+
+* `NLWS.nmsRecipient` - Access methods for the recipient schema (`nms:recipient`)
+* `NLWS.nmsDelivery` - Access methods for the delivery schema (`nms:delivery`)
+* `NLWS.xtkQueryDef` - Access queryDef methods for querying the database
+
+Common API methods include:
+
+* `load(id)` - Load an entity by its ID. [Learn more](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
+* `create(data)` - Create a new entity
+* `save()` - Save changes to an entity
+
+**Example from official documentation:**
+
+```javascript
+var delivery = NLWS.nmsDelivery.load("12435")
+```
+
+>[!NOTE]
+>
+>**Alternative syntax:** For backward compatibility, you may also see lowercase namespace syntax in some documentation (e.g., `nms.recipient.create()`, `xtk.queryDef.create()`). Both syntaxes work, but `NLWS` is the standard documented in the official Campaign JSAPI reference.
 
 ## Prerequisites {#prerequisites}
 
@@ -24,11 +56,30 @@ Before using queryDef and NLWS methods, you should be familiar with:
 * [!DNL Adobe Campaign] data model and schemas
 * XPath expressions for navigating schema elements
 
-Learn more about the Campaign data model in [this page](datamodel.md).
+**Understanding the Campaign data model:**
 
-## Entity Schema static methods {#entity-schema-methods}
+Adobe Campaign comes with a pre-defined data model consisting of tables linked together in a Cloud database. The basic structure includes:
 
-Each schema in [!DNL Adobe Campaign] (e.g., `nms:recipient`, `nms:delivery`) comes with static methods accessible through the `NLWS` object. These methods provide a convenient way to interact with database entities.
+* **Recipient table** (`nmsRecipient`) - Main table storing marketing profiles
+* **Delivery table** (`nmsDelivery`) - Stores delivery actions and templates with parameters for performing deliveries
+* **Logs tables** - Store execution logs:
+  * `nmsBroadLogRcp` - Delivery logs for all messages sent to recipients
+  * `nmsTrackingLogRcp` - Tracking logs for recipient reactions (opens, clicks)
+* **Technical tables** - Store system data like operators (`xtkGroup`), sessions (`xtkSessionInfo`), workflows (`xtkWorkflow`)
+
+To access schema descriptions in the Campaign interface, browse to **Administration > Configuration > Data schemas**, select a resource, and click the **Documentation** tab.
+
+## Entity Schema methods {#entity-schema-methods}
+
+Each schema in [!DNL Adobe Campaign] (e.g., `nms:recipient`, `nms:delivery`) comes with methods accessible through the `NLWS` object. These methods provide a convenient way to interact with database entities.
+
+### Static methods {#static-methods}
+
+Static SOAP methods are accessed by invoking a method on the object representing the schema. For example, `NLWS.xtkWorkflow.PostEvent()` invokes a static method.
+
+### Non-static methods {#non-static-methods}
+
+To use non-static SOAP methods, you must first retrieve an entity using the `load` or `create` methods on the corresponding schemas. Learn more in the [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}.
 
 ### Load, save, and create entities {#load-save-create}
 
@@ -203,9 +254,12 @@ for each(var delivery in deliveries.delivery) {
 
 >[!NOTE]
 >
->The `lineCount` parameter limits the number of results. Without it, the default limit is 10,000 records.
+>**Result limits:** Campaign automatically limits query results to prevent memory issues:
+>* Default limit varies by context (typically 200-10,000 records)
+>* Use `lineCount` to explicitly set the maximum number of results
+>* For large datasets (>1000 records), use workflows instead of queryDef. Workflows are designed to process millions of rows efficiently.
 
-Learn more about [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}.
+Learn more about [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"} and [query best practices](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}.
 
 ## Query workflow transition data {#workflow-transition-data}
 
@@ -342,6 +396,78 @@ for each(var result in d.get()) {
   logInfo(result.$expr + ': ' + result.$count);
 }
 ```
+
+## Query enumerations with analyze {#analyze-enumerations}
+
+The `analyze` option returns user-friendly names for enumeration values. Instead of just numeric values, Campaign will also return the string value and label using "Name" and "Label" suffixes.
+
+**Query delivery mapping with enumeration analysis:**
+
+```javascript
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:deliveryMapping",
+    operation: "get",
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@name"},
+        {expr: "[storage/@exclusionType]", analyze: true}  // Analyze enumeration
+      ]
+    },
+    where: {
+      condition: [{expr: "@name='mapRecipient'"}]
+    }
+  }
+});
+
+var mapping = query.ExecuteQuery();
+
+// Result includes:
+// - exclusionType: 2 (numeric value)
+// - exclusionTypeName: "excludeRecipient" (string value)
+// - exclusionTypeLabel: "Exclude recipient" (display label)
+logInfo("Type: " + mapping.$exclusionType);
+logInfo("Name: " + mapping.$exclusionTypeName);
+logInfo("Label: " + mapping.$exclusionTypeLabel);
+```
+
+Learn more about the [analyze option](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}.
+
+## Pagination {#pagination}
+
+Use `lineCount` and `startLine` to paginate through large result sets.
+
+**Retrieve records in pages:**
+
+```javascript
+// Get records 3 and 4 (skip first 2)
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:recipient",
+    operation: "select",
+    lineCount: 2,     // Number of records per page
+    startLine: 2,     // Starting position (0-indexed)
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@email"}
+      ]
+    },
+    orderBy: {
+      node: [{expr: "@id"}]  // Critical: Always use orderBy for pagination
+    }
+  }
+});
+
+var recipients = query.ExecuteQuery();
+```
+
+>[!CAUTION]
+>
+>**Pagination requires orderBy:** Without an `orderBy` clause, query results are not guaranteed to be in a consistent order. Subsequent calls may return different pages or duplicate records. Always include an `orderBy` when using pagination.
+
+Learn more about [pagination](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}.
 
 ## Dynamic query construction {#dynamic-queries}
 
@@ -623,12 +749,14 @@ for each(var record in xml.collection) {
 
 When working with queryDef and NLWS methods:
 
+* **Use workflows for large datasets** - QueryDef is not designed for high-volume data processing. For datasets with more than 1,000 records, use workflows which can handle millions of rows efficiently. Learn more in the [Campaign SDK documentation](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
 * **Use parameterized queries** - Always use bound parameters (`$(sz)`, `$(l)`) with `sqlExec` to prevent SQL injection
-* **Set lineCount** - Override the default 10,000 record limit when needed with `lineCount: 999999999`
+* **Set explicit limits** - Use `lineCount` to control result size. Campaign's default limits vary by context (200-10,000 records)
+* **Use orderBy with pagination** - Always include an `orderBy` clause when using `startLine` and `lineCount` to ensure consistent pagination
 * **Use getIfExists** - Use `operation: "getIfExists"` when records might not exist to avoid exceptions
+* **Use analyze for enumerations** - Add `analyze: true` to select nodes to get user-friendly enumeration names and labels
 * **Optimize queries** - Add appropriate `where` conditions to limit result sets
-* **Batch processing** - Process large datasets in batches to avoid timeouts
-* **Transaction safety** - Consider using transactions for multiple related updates
+* **Batch processing** - Process multiple records in batches to avoid memory issues and timeouts
 * **FFDA awareness** - In [Enterprise (FFDA) deployments](../architecture/enterprise-deployment.md), be aware that [!DNL Campaign] works with two databases
 
 
@@ -766,9 +894,9 @@ Complete structure of the `queryDef` object:
 ## Related topics {#related-topics}
 
 * [Get started with Campaign APIs](api.md)
+* [Campaign JavaScript SDK - Query API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
 * [queryDef API Reference](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
 * [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
-* [Data model](datamodel.md)
 * [Work with schemas](schemas.md)
 * [Work with the query editor](../start/query-editor.md)
 
