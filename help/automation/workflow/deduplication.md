@@ -16,7 +16,7 @@ Deduplication deletes duplicates from the results of inbound activities. Dedupli
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. For example, the records below could be considered duplicate as they have the same email address and same mobile and/or home phone.
 
 | Last modification date | First Name | Last Name | Email | Mobile Phone | Phone |
------|------------|-----------|-------|--------------|------|
+|-----|------------|-----------|-------|--------------|------|
 |02/03/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888|
 |05/19/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777|
 |07/22/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777|
