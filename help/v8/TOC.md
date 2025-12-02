@@ -115,7 +115,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Collect and process events](send/event-processing.md)
       + [Understand event description](send/event-description.md)
       + [Send and monitor messages](send/delivery-execution.md)
-+ Profile & Audiences {#audience}
++ Profiles & Audiences {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
@@ -132,7 +132,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Share audiences with Adobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)
-+ Landing Pages & Web Content {#content}
++ Landing Pages & Forms {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
 + Workflows {#workflows}
