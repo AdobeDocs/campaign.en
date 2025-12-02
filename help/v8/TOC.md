@@ -115,7 +115,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Collect and process events](send/event-processing.md)
       + [Understand event description](send/event-description.md)
       + [Send and monitor messages](send/delivery-execution.md)
-+ Profile & Audience Management {#audience}
++ Profile & Audiences {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
@@ -137,12 +137,12 @@ breadcrumb-title: Campaign v8 Documentation
   + [Design web apps and forms](dev/webapps.md)
 + Workflows {#workflows}
   + [Get started with workflows](config/workflows.md)
-  + [Complete Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
-+ Privacy and Security Management {#privacy}
+  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
++ Privacy and Security {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
   + [Enhanced security add-on](config/enhanced-security.md)
-+ Offer Management & Interactions {#offers}
++ Offer Management - Interaction {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
   + [Best practices](interaction/interaction-best-practices.md)
