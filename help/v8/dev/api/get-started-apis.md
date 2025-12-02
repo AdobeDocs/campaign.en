@@ -4,7 +4,7 @@ description: Create integrations and build your own ecosystem by interfacing Cam
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 ---

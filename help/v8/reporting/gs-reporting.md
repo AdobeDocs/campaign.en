@@ -2,7 +2,7 @@
 title: Get started with Adobe Campaign reporting tools
 description: Measure the success of your campaigns and analyze user behaviour
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 ---
