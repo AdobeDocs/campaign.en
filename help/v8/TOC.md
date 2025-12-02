@@ -181,7 +181,6 @@ breadcrumb-title: Campaign v8 Documentation
     + [Work with the query editor](start/query-editor.md)
     + [Design queries](start/design-queries.md)
     + [Define filter conditions](start/filter-conditions.md)
-    + [Work with audience filters](audiences/create-filters.md)
   + [Import data](start/import.md)
   + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
