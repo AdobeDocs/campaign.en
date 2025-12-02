@@ -49,8 +49,10 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. From **[!UICONTROL Mobile Application Configuration]**, select the Operational system:
 
-    * **For iOS**
-      
+   >[!BEGINTABS]
+
+   >[!TAB iOS]
+
       ![](assets/push-config-2.png)
 
         1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. 
@@ -69,7 +71,7 @@ The mobile app push credential registration is required to authorize Adobe to se
         
         1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
 
-    * **For Android**
+   >[!TAB Android]
 
       ![](assets/push-config-3.png)
 
@@ -78,6 +80,7 @@ The mobile app push credential registration is required to authorize Adobe to se
         1. Switch **[!UICONTROL Push Credentials]** to add your credentials.
 
         1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+>[!ENDTABS]
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
 
