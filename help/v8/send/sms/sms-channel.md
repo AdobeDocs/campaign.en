@@ -63,11 +63,11 @@ The *data_coding* field tells which encoding is used. A major problem is that th
 
 The maximum size of a message depends on its encoding. This table sums up all the relevant information:
 
-| Encoding | Usual data_coding | Message size (characters) | Part size for multipart SMS | Available characters | 
-|:-:|:-:|:-:|:-:|:-:|  
-| GSM7 | 0 | 160 | 152 | GSM7 basic character set + extension (extended characters take 2 characters) | 
-| Latin-1 | 3 | 140| 134 | ISO-8859-1 | 
-| UCS-2 UTF-16 | 8 | 70 | 67 | Unicode (varies from phone to phone) | 
+| Encoding | Usual data_coding | Message size (characters) | Part size for multipart SMS | Available characters |
+|:-:|:-:|:-:|:-:|:-:|
+| GSM7 | 0 | 160 | 152 | GSM7 basic character set + extension (extended characters take 2 characters) |
+| Latin-1 | 3 | 140| 134 | ISO-8859-1 |
+| UCS-2 UTF-16 | 8 | 70 | 67 | Unicode (varies from phone to phone) |
 
 ## Multipart SMS (long SMS) {#multipart-sms}
 

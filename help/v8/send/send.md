@@ -2,7 +2,7 @@
 title: Send and monitor your emails
 description: Learn about the scope and the specificities of sending emails with Adobe Campaign
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3

@@ -2,7 +2,7 @@
 title: Campaign Interaction advanced settings
 description: Campaign Interaction advanced settings
 feature: Interaction, Offers
-role: Data Engineer
+role: Developer
 level: Beginner
 ---
 # Interaction module advanced settings

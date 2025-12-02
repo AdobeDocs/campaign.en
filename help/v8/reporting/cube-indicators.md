@@ -2,7 +2,7 @@
 title: Create a cube in Adobe Campaign
 description: Learn how to create cubes
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
 ---

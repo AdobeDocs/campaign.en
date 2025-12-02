@@ -1,7 +1,7 @@
 ---
 title: API Troubleshooting
 description: Learn more about common issues related Campaign Standard APIs
-role: Data Engineer
+role: Developer
 level: Experienced
 ---
 # API troubleshooting {#troubleshooting}
