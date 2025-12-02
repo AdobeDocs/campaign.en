@@ -10,7 +10,7 @@ breadcrumb-title: Campaign v8 Documentation
 # Adobe Campaign v8 (console) Documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
-+ Releases notes {#releases}
++ Release notes {#releases}
   + [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
   + [Latest releases](start/release-notes.md)
@@ -34,10 +34,15 @@ breadcrumb-title: Campaign v8 Documentation
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
   + [Frequently Asked Questions](start/campaign-faq.md)
++ Administration & Permissions {#permissions}
+  + [Get started with permissions](start/gs-permissions.md)
+  + [Manage user permissions](start/manage-permissions.md)
+  + [Add permissions on folders](start/folder-permissions.md)
+  + [Control Panel](config/self-service.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
-  + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
-+ Send messages{#send}
+  + [Campaign Orchestration Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
++ Send Messages {#send}
   + [Get started with messages](start/gs-message.md)
   + [Create your first delivery](start/create-message.md)
   + [Work with delivery templates](send/create-templates.md)
@@ -54,22 +59,20 @@ breadcrumb-title: Campaign v8 Documentation
     + [Attach files to an email](send/attaching-files.md)
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
+    + [SMS channel characteristics](send/sms/sms-channel.md)
+    + [Create a SMS delivery](send/sms/create-sms.md)
+    + [Define the content](send/sms/sms-content.md)
+    + [Select the audience](send/sms/sms-audience.md)
+    + [Send SMS proofs](send/sms/sms-proofs.md)
+    + [Send to the audience](send/sms/sms-send.md)
+    + [Monitor and track SMS](send/sms/sms-monitor.md)
     + Configure SMS channel {#config-sms}
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
-      + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
-      + [SMPP connector description](send/sms/smpp-connector-delivery.md) 
-    + Create a SMS  {#create-sms}
-      + [Create a SMS delivery](send/sms/create-sms.md)   
-      + [Define the content](send/sms/sms-content.md)
-      + [Select the audience](send/sms/sms-audience.md)
-    + Validate and send SMS {#validate-sms}
-      + [Send SMS proofs](send/sms/sms-proofs.md)   
-      + [Send to the audience](send/sms/sms-send.md) 
-    + [Monitor and track SMS](send/sms/sms-monitor.md)
+      + [SMPP connector description](send/sms/smpp-connector-delivery.md)
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
     + Rich push {#rich-push}
@@ -77,10 +80,11 @@ breadcrumb-title: Campaign v8 Documentation
       + [Design an iOS rich push delivery](send/rich-push-ios.md)
     + [Configure push notification channel](send/push-settings.md)
     + [Configure your push notifications with Data Collection](send/push-data-collection.md)
-  + [LINE messaging](send/line/line.md)
-  + [Direct mail](send/direct-mail.md)
-  + [X (Twitter)](send/twitter.md)
-  + [Custom external channel](send/custom-channel.md)
+  + Other channels {#other-channels}
+    + [LINE messaging](send/line/line.md)
+    + [Direct mail](send/direct-mail.md)
+    + [X (Twitter)](send/twitter.md)
+    + [Custom external channel](send/custom-channel.md)
   + Personalize content {#personalize}
     + [Get started with personalization](send/personalize.md)
     + [Personalization data](send/personalization-data.md)
@@ -128,21 +132,21 @@ breadcrumb-title: Campaign v8 Documentation
       + [Share audiences with Adobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)
-+ Content Management {#content}
++ Landing Pages & Web Content {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
 + Workflows {#workflows}
   + [Get started with workflows](config/workflows.md)
-  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+  + [Complete Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Privacy and Security Management {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
   + [Enhanced security add-on](config/enhanced-security.md)
-+ Decision Management {#offers}
++ Offer Management & Interactions {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
   + [Best practices](interaction/interaction-best-practices.md)
-  + Define settings{#interaction-settings}
+  + Configuration settings {#interaction-settings}
     + [Create operators](interaction/interaction-operators.md)
     + [Create environments](interaction/interaction-env.md)
     + [Create pre-defined filters](interaction/interaction-predefined-filters.md)
@@ -177,6 +181,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Work with the query editor](start/query-editor.md)
     + [Design queries](start/design-queries.md)
     + [Define filter conditions](start/filter-conditions.md)
+    + [Work with audience filters](audiences/create-filters.md)
   + [Import data](start/import.md)
   + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
@@ -197,12 +202,6 @@ breadcrumb-title: Campaign v8 Documentation
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
-+ Administration {#admin}
-  + Users and permissions {#permissions}
-    + [Get started with permissions](start/gs-permissions.md)
-    + [Manage user permissions](start/manage-permissions.md)
-    + [Add permissions on folders](start/folder-permissions.md)
-  + [Control Panel](config/self-service.md)
 + Architecture {#architecture}
   + [Global principles](architecture/general-architecture.md)
   + [Architecture models](architecture/architecture.md)
@@ -246,10 +245,10 @@ breadcrumb-title: Campaign v8 Documentation
   + REST APIs {#apis}
     + [Get started with REST APIs](dev/api/get-started-apis.md)
     + [Recommendations & limitations](dev/api/limitations.md)
-    + [Why use REST APIs](dev/api/why-using-campaign-standard-apis.md)
+    + [When to use REST APIs](dev/api/why-using-campaign-standard-apis.md)
     + [Setting up API access](dev/api/setting-up-api-access.md)
     + Global concepts {#global-concepts}
-      + [Must-read](dev/api/must-read.md)
+      + [Essential concepts](dev/api/must-read.md)
       + [Endpoints](dev/api/endpoints.md)
       + [Metadata mechanism](dev/api/metadata-mechanism.md)
       + [Verbs](dev/api/verbs.md)
@@ -269,6 +268,7 @@ breadcrumb-title: Campaign v8 Documentation
     + Managing workflows {#managing-workflows}
       + [Controlling a workflow](dev/api/controlling-a-workflow.md)
       + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
-+ [Campaign technotes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ Additional Resources {#resources}
+  + [Campaign Technical Notes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
+  + [Campaign Web User Interface Documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
