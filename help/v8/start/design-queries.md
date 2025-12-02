@@ -1,6 +1,6 @@
 ---
 title: Design queries in Campaign v8 
-description: Learn how to create queries
+description: Learn how to create queries in Campaign client console
 feature: Query Editor, Data Management
 role: User
 level: Beginner
