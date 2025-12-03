@@ -75,15 +75,15 @@ You can test tracking on mirror pages, email logs and links by following the ste
 
 If the tracking logs do not appear:
 
-1. **Check delivery settings**: Go to the delivery and access its **[!UICONTROL Properties]** to make sure that both **[!UICONTROL Activate tracking]** and **[!UICONTROL Opens tracking]** options are checked.
+1. **Check delivery settings**: Go to the delivery and access its **[!UICONTROL Properties]** to make sure that both **[!UICONTROL Activate tracking]** and **[!UICONTROL Opens tracking]** options are checked. [Learn more about URL tracking options](url-tracking.md)
 
-1. **Verify the Tracking workflow**: Make sure the **[!UICONTROL Tracking]** technical workflow is running without errors.
+1. **Verify the Tracking workflow**: Make sure the **[!UICONTROL Tracking]** technical workflow is running without errors. [Learn about tracking workflow troubleshooting](tracking-logs.md#check-tracking-workflow)
 
-1. **Check URL format**: Verify that your URLs are correctly formatted and enclosed in delimiters. See [this section](tracked-links.md) for more information.
+1. **Check URL format**: Verify that your URLs are correctly formatted and enclosed in delimiters. [Learn more about configuring tracked links](tracked-links.md)
 
-1. **Review email client behavior**: Some email clients may block tracking pixels or modify links. Try testing with different email clients.
+1. **Review email client behavior**: Some email clients may block tracking pixels or modify links. Try testing with different email clients. [Learn about delivery best practices](../start/delivery-best-practices.md)
 
-1. **Wait for processing**: The Tracking workflow runs hourly by default. If you manually trigger it, allow sufficient time for processing before checking results.
+1. **Wait for processing**: The Tracking workflow runs hourly by default. If you manually trigger it, allow sufficient time for processing before checking results. [Learn more about tracking logs](tracking-logs.md)
 
 ## Related topics {#related-topics}
 
