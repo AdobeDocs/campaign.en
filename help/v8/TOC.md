@@ -161,7 +161,13 @@ breadcrumb-title: Campaign v8 Documentation
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
 + Reporting & Analytics {#analytics}
-  + [Track & monitor](start/tracking.md)
+  + Track & monitor {#tracking}
+    + [Get started with tracking](send/tracking.md)
+    + [Configure tracked links](send/tracked-links.md)
+    + [Configure URL tracking options](send/url-tracking.md)
+    + [Track personalized links](send/personalized-links.md)
+    + [Access tracking logs](send/tracking-logs.md)
+    + [Test tracking](send/testing-tracking.md)
   + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)

@@ -413,4 +413,4 @@ To better know the behavior of your recipients, you can track how they react to 
 Message tracking is enabled by default. To configure URLs, select the Display URLs option in the lower section of the delivery assistant. For each URL of the message, you can choose whether to activate tracking.
 
 
-[Learn more about tracking capabilities in Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
+[Learn more about tracking capabilities](../send/tracking.md)

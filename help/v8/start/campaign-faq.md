@@ -48,7 +48,7 @@ Need help as you are working with Campaign? Read the top questions / answers bel
 
     Adobe Campaign comes with a set of dashboards and tools to monitor your email deliveries.
 
-    [Read out Campaign Classic v7 documentation to learn](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} how to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
+    Learn how to [track and monitor your messages](../send/tracking.md) to make sure your messages are being sent, monitor the execution and engage action if an error occurs.
     
 1. **Can I monitor workflow execution?**
 

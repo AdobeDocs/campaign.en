@@ -74,4 +74,4 @@ For a typical built-in recipient, you can access the following tabs:
 
 * **Tracking**, for all the tracking logs for the selected profile. This information is used to track profile behavior following deliveries. This tab shows the cumulative total of all URLs tracked in deliveries. The list is configurable, and usually contains: the URL clicked, date and time of click, and the document that contained the URL
 
-    Learn more about Tracking [in this section](../start/tracking.md).
+    Learn more about Tracking [in this section](../send/tracking.md).

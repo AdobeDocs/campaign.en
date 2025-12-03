@@ -667,7 +667,7 @@ Learn how to implement deliverability in Campaign [in this guide](https://experi
 
 **Related topics:**
 
-[Monitor deliveries](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"} | [Delivery best practices](delivery-best-practices.md)
+[Track and monitor deliveries](../send/tracking.md) | [Delivery best practices](delivery-best-practices.md)
 
 +++
 
@@ -830,7 +830,7 @@ Campaign tracks content links, mirror page links, unsubscribe links, and can inc
 
 **Related topics:**
 
-[Link tracking guide](../start/tracking.md) | [Tracking best practices](../send/send.md)
+[Link tracking guide](../send/tracking.md) | [Tracking best practices](../send/send.md)
 
 +++
 
@@ -849,7 +849,7 @@ Use these logs to troubleshoot delivery issues, analyze engagement, and maintain
 
 **Related topics:**
 
-[Delivery monitoring](../send/send.md) | [Tracking guide](../start/tracking.md)
+[Delivery monitoring](../send/send.md) | [Tracking guide](../send/tracking.md)
 
 +++
 
@@ -1231,7 +1231,7 @@ Campaign v8 provides comprehensive tracking to monitor recipient interactions wi
 
 **Related topics:**
 
-[Track and monitor deliveries](tracking.md) | [Configure tracked links](../send/email.md)
+[Track and monitor deliveries](../send/tracking.md) | [Configure tracked links](../send/tracked-links.md) | [Test tracking](../send/testing-tracking.md)
 
 +++
 
@@ -1698,7 +1698,7 @@ Consult legal counsel to ensure your implementation meets regulatory requirement
 
 +++ What data is deleted when I process a deletion request?
 
-Campaign automatically deletes all data linked to a data subject: recipient profile, delivery and tracking logs, custom data with ownership relationships, subscription history, and web tracking data.
+Campaign automatically deletes all data linked to a data subject: recipient profile, delivery and tracking logs, custom data with ownership relationships, and subscription history.
 
 **How it works:** Campaign deletes all data where the link to the recipient has `integrity="own"` in the schema definition, ensuring cascading deletion across related tables.
 
