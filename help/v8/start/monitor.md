@@ -54,7 +54,7 @@ For transactional messages triggered by events, you can monitor:
 * Message execution and delivery status
 * Processing errors and failed events
 
-Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-transactional-msg)
+Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-messages)
 
 ### Understand delivery failures {#delivery-failures}
 
@@ -76,10 +76,21 @@ Deliverability monitoring helps you ensure that your messages reach your recipie
 
 Adobe Campaign provides several built-in tools to monitor and improve deliverability:
 
-* **Delivery reports**: Track opens, clicks, bounces, and spam complaints
-* **Inbox rendering**: Preview how your email displays across different email clients and devices
-* **SpamAssassin**: Test your email content for spam triggers before sending
-* **Feedback loops**: Receive notifications when recipients mark your messages as spam
+**Delivery reports**
+
+Track opens, clicks, bounces, and spam complaints to analyze your delivery performance. [Learn more about delivery reports](#delivery-reports)
+
+**Inbox rendering**
+
+Preview how your email displays across different email clients and devices to ensure optimal rendering. [Learn more about inbox rendering](../send/inbox-rendering.md)
+
+**SpamAssassin**
+
+Test your email content for spam triggers before sending. [Learn more about SpamAssassin](../send/spamassassin.md)
+
+>[!NOTE]
+>
+>SpamAssassin is installed and configured by Adobe for Managed Cloud Services deployments. Contact your Adobe representative for assistance.
 
 Learn more about [deliverability monitoring](../send/monitoring-deliverability.md)
 
@@ -107,12 +118,21 @@ Workflows are essential to automate your marketing campaigns and data processing
 
 **Monitor the following workflow elements:**
 
-* **Workflow execution status**: Running, paused, failed, or completed
-* **Activity execution logs**: Detailed logs for each workflow activity
-* **Workflow heatmap**: Visualize workflow execution patterns and identify bottlenecks
-* **Workflow history**: Track all workflow executions and modifications
+**Workflow execution status**
 
-Learn more about [workflow monitoring](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+Track whether workflows are running, paused, failed, or completed. [Learn more about workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+
+**Activity execution logs**
+
+Access detailed logs for each workflow activity to troubleshoot issues and optimize performance.
+
+**Workflow heatmap**
+
+Visualize workflow execution patterns, identify bottlenecks, and monitor concurrent workflows. The Workflow HeatMap is available to Campaign administrators. [Learn more about workflow heatmap](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+
+**Workflow history**
+
+Track all workflow executions and modifications over time to understand workflow behavior and performance.
 
 ## Monitor your instance {#monitor-instance}
 
@@ -124,21 +144,38 @@ The Audit trail self-service interface allows you to monitor changes made within
 
 **Use Audit trail to:**
 
-* Track what happened to your workflows, schemas, options, and other components
-* Identify who last updated a specific element
-* Understand what users did in the instance
-* Maintain compliance and security by tracking all configuration changes
+* **Track component changes**: Monitor what happened to your workflows, schemas, options, and other components
+* **Identify who made changes**: See who last updated a specific element and when
+* **Understand user actions**: Review what users did in the instance for troubleshooting or auditing
+* **Maintain compliance**: Track all configuration changes for compliance and security purposes
+
+The Audit trail is accessible through the Campaign client console and provides detailed information about actions performed by users.
 
 Learn more about [Audit trail](../reporting/audit-trail.md)
 
 ### Performance monitoring {#performance-monitoring}
 
-Monitor the performance of your Campaign instance to ensure optimal operation:
+Campaign v8 provides several monitoring capabilities to track your instance performance and ensure optimal operation:
 
-* **Database performance**: Track query execution times and database load
-* **Server resources**: Monitor CPU, memory, and disk usage
-* **Campaign processes**: Ensure all technical workflows are running correctly
-* **Delivery throughput**: Monitor the number of messages sent per hour
+**Database monitoring**
+
+Monitor database usage and capacity through Control Panel to ensure optimal performance and storage management. [Learn more about database monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+
+**Active profiles monitoring**
+
+Track active profile usage against your contractual limits to maintain compliance and optimize resource allocation. [Learn more about active profiles](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+
+**Workflow monitoring**
+
+Monitor workflow execution status to identify long-running workflows and ensure all technical workflows are running correctly. [Learn more about technical workflows](#technical-workflows)
+
+**Delivery throughput and latency**
+
+Track delivery throughput (messages sent per hour) and latency for transactional communications through Control Panel. [Learn more about throughput monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+
+>[!NOTE]
+>
+>For Campaign v8 Managed Cloud Services, server infrastructure (CPU, memory, disk) is monitored and managed by Adobe.
 
 ### Technical workflows {#technical-workflows}
 
@@ -159,6 +196,8 @@ Technical workflows are essential processes that run in the background to mainta
 | **Deliverability update** | Updates deliverability rules and spam filter patterns |
 | **Database cleanup** | Purges old delivery and tracking logs |
 
+Learn more about [technical workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+
 ### Campaign Control Panel {#control-panel}
 
 Campaign Control Panel provides administrators with self-service capabilities to monitor and manage Campaign instances.
@@ -173,7 +212,13 @@ Learn more about [Control Panel](../config/self-service.md) and [Control Panel p
 
 ### Instance monitoring guidelines {#instance-guidelines}
 
-For comprehensive instance monitoring guidelines, including server configuration, database maintenance, and log analysis, refer to [Campaign Classic v7 monitoring documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html){target="_blank"}
+**For Campaign v8 Managed Cloud Services:**
+
+Adobe monitors and manages the server infrastructure, operating system, and application layer. You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
+
+**For advanced monitoring guidelines:**
+
+For comprehensive instance monitoring guidelines, including workflow best practices, delivery troubleshooting, and performance optimization, refer to [Campaign Classic v7 monitoring documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html){target="_blank"}
 
 ## Tracking and reporting {#tracking-reporting}
 
