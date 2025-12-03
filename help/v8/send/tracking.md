@@ -20,7 +20,7 @@ The following diagram shows the stages of the dialog between the user and the va
 
 ## Configure tracking {#configure-tracking}
 
-<img src="assets/do-not-localize/icon-configure.svg" width="60px">
+<img src="../assets/do-not-localize/icon-configure.svg" width="60px">
 
 **Operating principle**
 
@@ -36,7 +36,7 @@ Once tracking is configured and your URLs populated, the tracking server must be
 
 ## Message tracking {#message-tracking}
 
-<img src="assets/do-not-localize/icon-message-tracking.svg" width="60px">
+<img src="../assets/do-not-localize/icon-message-tracking.svg" width="60px">
 
 **Tracked links**
 
@@ -70,7 +70,7 @@ Before sending your messages with your tracking, you can test the tracking on yo
 
 ## Tracking reports {#tracking-reports}
 
-<img src="assets/do-not-localize/icon_monitor.svg" width="60px">
+<img src="../assets/do-not-localize/icon_monitor.svg" width="60px">
 
 **Tracking statistics**
 
