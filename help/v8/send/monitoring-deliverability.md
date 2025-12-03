@@ -40,3 +40,10 @@ Here are some additional guidelines on deliverability monitoring:
 * When using [waves](configure-and-send.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](quarantines.md) are consistent with other deliveries.
 * Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
+
+## Related topics
+
+* [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"} - Comprehensive guide to deliverability best practices
+* [What is deliverability](about-deliverability.md)
+* [Delivery failures and bounces](delivery-failures.md)
+* [Quarantine management](quarantines.md)
