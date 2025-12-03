@@ -22,7 +22,7 @@ Monitoring your deliveries after they have been sent is a key step to ensure you
 
 After sending an email delivery, you can monitor its status and track key metrics in the delivery dashboard.
 
-The delivery dashboard provides:
+**Available logs:**
 
 * **Delivery logs**: View which recipients successfully received the email
 * **Exclusion logs**: Understand why certain recipients were excluded from the delivery
@@ -60,7 +60,7 @@ Learn more about [transactional message monitoring](../send/delivery-execution.m
 
 Understanding why a delivery failed is critical to maintain a clean database and ensure good deliverability rates.
 
-Adobe Campaign classifies delivery failures into three types:
+**Delivery failure classification:**
 
 * **Hard bounces**: Permanent failures (invalid email address, domain doesn't exist)
 * **Soft bounces**: Temporary failures (mailbox full, server temporarily unavailable)
@@ -85,7 +85,7 @@ Learn more about [deliverability monitoring](../send/monitoring-deliverability.m
 
 ### Deliverability best practices {#deliverability-best-practices}
 
-Follow these key practices to maintain good deliverability:
+**Key practices to maintain good deliverability:**
 
 * Maintain a clean email list with regular bounce and unsubscribe processing
 * Use double opt-in for new subscribers
@@ -105,7 +105,7 @@ Workflows are essential to automate your marketing campaigns and data processing
 
 ### Workflow monitoring capabilities {#workflow-monitoring}
 
-You can monitor:
+**Monitor the following workflow elements:**
 
 * **Workflow execution status**: Running, paused, failed, or completed
 * **Activity execution logs**: Detailed logs for each workflow activity
@@ -122,7 +122,7 @@ Instance monitoring helps you ensure the health and performance of your Adobe Ca
 
 The Audit trail self-service interface allows you to monitor changes made within your Adobe Campaign instance. Audit trail captures, in real-time, a comprehensive list of actions and events occurring within your instance.
 
-Use Audit trail to:
+**Use Audit trail to:**
 
 * Track what happened to your workflows, schemas, options, and other components
 * Identify who last updated a specific element
@@ -142,43 +142,32 @@ Monitor the performance of your Campaign instance to ensure optimal operation:
 
 ### Technical workflows {#technical-workflows}
 
-Technical workflows are essential processes that run in the background to maintain your Campaign instance. Regularly monitor technical workflows to ensure they are:
+Technical workflows are essential processes that run in the background to maintain your Campaign instance.
+
+**Monitor that technical workflows are:**
 
 * Executing on schedule
 * Completing successfully without errors
 * Processing data correctly
 
-Key technical workflows to monitor include:
+**Key technical workflows to monitor:**
 
-* **Tracking workflow**: Processes tracking data from email deliveries
-* **Cleanup workflow**: Removes old data and logs to maintain database performance
-* **Deliverability update**: Updates deliverability rules and spam filter patterns
-* **Database cleanup**: Purges old delivery and tracking logs
+| Workflow | Purpose |
+|----------|---------|
+| **Tracking** | Processes tracking data from email deliveries |
+| **Cleanup** | Removes old data and logs to maintain database performance |
+| **Deliverability update** | Updates deliverability rules and spam filter patterns |
+| **Database cleanup** | Purges old delivery and tracking logs |
 
 ### Campaign Control Panel {#control-panel}
 
 Campaign Control Panel provides administrators with self-service capabilities to monitor and manage Campaign instances.
 
-**Performance monitoring**
-
-Control Panel offers several functionalities to monitor your instances and ensure optimal performance:
-
-* **Active profiles monitoring**: Track active profile usage against your contractual limits
-* **Database monitoring**: Monitor database usage, storage capacity, and performance
-* **Workflow monitoring**: View workflow execution status and identify long-running workflows
-* **Throughput and latency**: Monitor delivery throughput and system latency
-
-**Infrastructure monitoring**
-
-* **SFTP storage monitoring**: Monitor SFTP server storage capacity and usage
-* **Subdomain monitoring**: Track subdomain configuration and delegation status
-* **SSL certificate monitoring**: Monitor SSL certificate expiration dates and renewal status
-* **IP allow listing**: Manage and monitor IP addresses authorized to access your instance
-
-**Instance settings and details**
-
-* **Instance details**: View key information about your Campaign instances including build version, installed packages, and system configuration
-* **URL permissions**: Monitor and manage authorized external domains for your instance
+| Monitoring Type | Capabilities |
+|-----------------|--------------|
+| **Performance** | Track active profile usage, monitor database usage and capacity, view workflow execution status, monitor delivery throughput and latency |
+| **Infrastructure** | Monitor SFTP storage capacity, track subdomain configuration, monitor SSL certificate expiration, manage IP allow listing |
+| **Instance** | View build version and installed packages, monitor system configuration, manage authorized external domains |
 
 Learn more about [Control Panel](../config/self-service.md) and [Control Panel performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
 
