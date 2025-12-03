@@ -51,7 +51,19 @@ Technical recommendations are listed in [this section](https://experienceleague.
 
 +++
 
+### Delivery and maintenance {#delivery-maintenance}
 
+Regular maintenance of your deliveries is essential for optimal platform performance.
+
++++ **Read out few best practices**
+
+* **Remove failed and unneeded deliveries**: Do not keep deliveries in failed state on the instance, as this maintains temporary tables and impacts performance. Regularly remove deliveries which are no longer needed to free up system resources.
+
+* **Clean inactive recipients**: Inactive recipients in the last 12 months should be removed from the database to maintain address quality. ISPs deactivate addresses after a period of inactivity, and bounced messages are sent to senders to inform them about this new status. Regular list cleaning improves deliverability and reduces costs.
+
+* **Schedule large deliveries wisely**: Do not schedule large deliveries together. Coordinate the scheduling of deliveries with the other members of your team to spread the load uniformly over the system. When multiple large deliveries are being sent simultaneously, this can affect overall platform performance.
+
++++
 
 ### Double opt-in mechanism {#double-opt-in}
 
@@ -228,7 +240,7 @@ Here are some specific guidelines for optimizing images for your email marketing
 
 ### Prevent images blocking {#image-blocking}
 
-Some email clients block images by default, and users may change their settings to block images for saving on data usage.  herefore, if images are not downloaded, the whole message can be lost.
+Some email clients block images by default, and users may change their settings to block images for saving on data usage.  Therefore, if images are not downloaded, the whole message can be lost.
 
 +++ To avoid this, you can apply these best practices
 
