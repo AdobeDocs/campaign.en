@@ -86,25 +86,4 @@ The different tables give you the list of indicators used in the different repor
 
 [Learn more about indicator calculation](../reporting/metrics-calculation.md)
 
-## Monitoring guidelines
-
-Adobe Campaign offers a set of capabilities to monitor your processes and your environment.
-
-### Monitor your deliveries
-
-Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers.
-
-Learn more about [delivery monitoring](send.md), understand [delivery failures and quarantines](delivery-failures.md)
-
-### Monitor your workflows
-
-Learn how to monitor workflow execution in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
-
-### Monitor your instance
-
-Instance monitoring guidelines are available in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
-
-Use the Audit trail self-service interface to monitor changes made within your instance. Audit trail captures, in real-time, a comprehensive list of actions and events occurring within your Adobe Campaign instance. You can access a history of data to help answer questions such as: what happened to your workflows, and who last updated them or what did your users do in the instance.
-
-Learn more about Audit trail in [this page](../reporting/audit-trail.md)
 

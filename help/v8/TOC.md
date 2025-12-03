@@ -168,6 +168,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Track personalized links](send/personalized-links.md)
     + [Test tracking](send/testing-tracking.md)
     + [Access tracking logs](send/tracking-logs.md)
+  + [Monitor your Campaign environment](start/monitor.md)
   + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)
