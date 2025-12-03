@@ -37,9 +37,10 @@ You can test tracking on mirror pages, email logs and links by following the ste
    * Go to the **[!UICONTROL Tracking & Images]** section
    * Ensure that **[!UICONTROL Activate tracking]** is checked
    * Ensure that **[!UICONTROL Opens tracking]** is checked if you want to track opens
-   * [Learn more about URL tracking options](url-tracking.md)
 
    ![](assets/s_ncs_user_email_del_tracking_param.png)
+
+   [Learn more about URL tracking options](url-tracking.md)
 
 1. Send the delivery to your test recipient. [Learn about sending deliveries](configure-and-send.md)
 
@@ -51,11 +52,14 @@ You can test tracking on mirror pages, email logs and links by following the ste
 1. Open the **[!UICONTROL Tracking]** workflow.
 1. Start the workflow, or right-click the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Execute pending task now]**.
 1. Wait around 30 seconds for the workflow to process the tracking logs.
-1. Select the **[!UICONTROL Audit]** tab of the workflow. Ensure that at least one tracking log record is found.
+1. Select the **[!UICONTROL Audit]** tab of the workflow. Ensure that at least one tracking log record is found. Click **[!UICONTROL Refresh]** if you do not see any new logs.
+
+1. Verify tracking logs in the delivery:
+   * Go back to your delivery
+   * Select the **[!UICONTROL Tracking]** tab
+   * Check that the list of tracking logs appears with the URLs clicked and other tracking events
 
    ![](assets/s_ncs_user_delivery_tracking_tab.png)
-
-   Click **[!UICONTROL Refresh]** if you do not see any new logs.
 
 ## Step 4: Check recipient tracking tab {#check-recipient-tracking}
 
