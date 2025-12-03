@@ -103,13 +103,6 @@ breadcrumb-title: Campaign v8 Documentation
     + [Delivery statuses](send/delivery-statuses.md)
     + [Delivery failures](send/delivery-failures.md)
     + [Quarantine](send/quarantines.md)
-  + Track your messages {#track}
-    + [Get started with tracking](send/tracking.md)
-    + [Tracked links](send/tracked-links.md)
-    + [Tracking logs](send/tracking-logs.md)
-    + [Test tracking](send/testing-tracking.md)
-    + [Track personalized links](send/personalized-links.md)
-    + [URL tracking](send/url-tracking.md)
   + Deliverability management {#deliverability-management}
     + [What is deliverability](send/about-deliverability.md)
     + [Control message content](send/control-message-content.md)
