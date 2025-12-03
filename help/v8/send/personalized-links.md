@@ -77,9 +77,45 @@ To ensure that personalized URLs are tracked correctly, you must use the `escape
 
 This will ensure that the personalized parameter is correctly encoded and tracked by Adobe Campaign.
 
+## Looping with `<%@ foreach %>` {#foreach}
+
+The `<%@ foreach %>` instruction allows you to iterate over arrays of objects loaded in the delivery to track individual links related to the objects.
+
+### Syntax
+
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %>
+  <!-- Content to repeat -->
+<%@ end %>
+```
+
+**Parameters:**
+
+* **`object`**: Name of the object to start from (typically an extra script object, but can be a delivery)
+* **`xpath`** (optional): XPath of the collection to loop on. Default is ".", meaning the object is the array to loop on
+* **`index`** (optional): If xpath is not "." and object is an array itself, item index of object (starts at 0)
+* **`item`** (optional): Name of a new object accessible with `<%@ value %>` inside the foreach loop. Default is the link name in the schema
+
+### Example
+
+In the delivery properties/personalization, load an array of articles and a relation table between recipient and articles.
+
+You can display links to these articles with individual tracking:
+
+```
+<%@ foreach object="articleList" item="article" %>
+  <a href="http://example.com/article.jsp?id=<%@ value object="article" xpath="@id" %>">
+    <%@ value object="article" xpath="@title" %>
+  </a>
+<%@ end %>
+```
+
+This allows Adobe Campaign to track which specific article each recipient clicked, rather than just tracking that an article link was clicked.
+
 ## Best practices {#best-practices}
 
 * Always use the `escapeUrl()` function for dynamic URL parameters
+* Use `<%@ foreach %>` when you need to track individual items in collections
 * Test the tracking before sending your delivery to ensure all links work correctly
 * Verify that personalized links are correctly formatted in the delivery content
 * Check the tracking logs to confirm that personalized parameters are being captured correctly

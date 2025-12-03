@@ -18,21 +18,9 @@ The following diagram shows the stages of the dialog between the user and the va
 
 <img src="assets/tracking-diagram.png" width="70%">
 
-## Configure tracking {#configure-tracking}
-
-<img src="../assets/do-not-localize/icon-configure.svg" width="60px">
-
-**Operating principle**
-
-Before using tracking, you need to first configure it for your instance. Tracking configuration must be performed on the Adobe Campaign application server(s) and web server(s).
-
-**Tracking server**
-
-Your instance must be declared and registered with the tracking server(s). The tracking server URL is available in the deployment configuration.
-
-**Saving tracking**
-
-Once tracking is configured and your URLs populated, the tracking server must be registered to save the tracking information. Adobe Campaign stores all tracking data and provides reports and statistics on tracked activities.
+>[!NOTE]
+>
+>Tracking configuration is performed by Adobe for Managed Cloud Services deployments.
 
 ## Message tracking {#message-tracking}
 
