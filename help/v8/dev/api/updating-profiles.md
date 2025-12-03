@@ -1,7 +1,7 @@
 ---
 title: Updating profiles
 description: Learn more how to update profiles with APIs
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 ---

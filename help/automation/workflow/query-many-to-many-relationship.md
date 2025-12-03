@@ -3,7 +3,7 @@ product: campaign
 title: Query using a many-to-many relationship
 description: Learn how to perform queries using a many-to-many relationship
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
 ---

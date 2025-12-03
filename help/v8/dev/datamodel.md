@@ -2,7 +2,7 @@
 title: Get started with Campaign data model
 description: Get started with the Campaign data model and leverage data from your sources to benefit your communications and marketing outputs.
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 ---

@@ -2,7 +2,7 @@
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="Limited Availability" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
