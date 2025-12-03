@@ -24,8 +24,6 @@ The following diagram shows the stages of the dialog between the user and the va
 
 ## Message tracking {#message-tracking}
 
-<img src="../assets/do-not-localize/icon-message-tracking.svg" width="60px">
-
 **Tracked links**
 
 You can track the reception of messages and the activation of the links inserted in the message content to better understand the behavior of recipients.
@@ -57,8 +55,6 @@ Before sending your messages with your tracking, you can test the tracking on yo
 [Learn more about testing tracking](testing-tracking.md)
 
 ## Tracking reports {#tracking-reports}
-
-<img src="../assets/do-not-localize/icon_monitor.svg" width="60px">
 
 **Tracking statistics**
 
