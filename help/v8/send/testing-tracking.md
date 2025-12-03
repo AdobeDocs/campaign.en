@@ -22,7 +22,7 @@ You can test tracking on mirror pages, email logs and links by following the ste
 
 ## Step 1: Create a test delivery {#create-test-delivery}
 
-1. Create a new email delivery that will be used for testing. [Learn how to create a delivery](create-message.md)
+1. Create a new email delivery that will be used for testing. [Learn how to create a delivery](../start/create-message.md)
 1. Design your email content with links that you want to track. [Learn about email content design](defining-the-email-content.md)
 1. Add a mirror page personalization block in the email content. [Learn about personalization blocks](personalization-blocks.md)
 1. Specify the user that will receive the email. Since this user will have to open the email and click the links it contains, make sure you select a test recipient address that you control. [Learn about test profiles](../audiences/test-profiles.md)
