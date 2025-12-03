@@ -22,6 +22,8 @@ Once sent, check your delivery status in the **Delivery Dashboard** and access d
 
 From the delivery dashboard, you can check the processed messages and delivery audit logs. You can also control the status of the messages in the delivery logs.
 
+Learn more about [delivery statuses](delivery-statuses.md).
+
 >[!NOTE]
 >
 >Delivery statuses are not displayed in real-time. Learn more about Email Feedback Service [in this section](#email-feedback-service).
