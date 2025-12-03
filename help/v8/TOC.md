@@ -138,7 +138,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Workflows {#workflows}
   + [Get started with workflows](config/workflows.md)
   + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
-+ Privacy and Security {#privacy}
++ Privacy & Security {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
   + [Enhanced security add-on](config/enhanced-security.md)
@@ -160,7 +160,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-+ Reporting and Analytics {#analytics}
++ Reporting & Analytics {#analytics}
   + [Track & monitor](start/tracking.md)
   + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
