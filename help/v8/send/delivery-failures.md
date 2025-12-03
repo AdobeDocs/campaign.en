@@ -110,7 +110,9 @@ Once a message has been in the MTA queue for 3.5 days and has failed to deliver,
 
 ## Email error types {#email-error-types}
 
-For the email channel, possible reasons for a delivery failure are listed below. 
+For the email channel, possible reasons for a delivery failure are listed below.
+
++++ Click to view the complete list of email error types
 
 <table> 
  <tbody> 
@@ -243,7 +245,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
  </tbody> 
 </table>
 
-
++++
 
 ## Push notifications error types {#push-error-types}
 
@@ -254,6 +256,8 @@ For the mobile app channel, possible reasons for a delivery failure are listed b
 The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
 
 Synchronously, if the APNs returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
+
++++ Click to view iOS quarantine scenarios
 
 <table> 
  <tbody> 
@@ -340,6 +344,8 @@ Synchronously, if the APNs returns an "unregistered" status for a message, the t
  </tbody> 
 </table>
 
++++
+
 ### Android quarantine {#android-quarantine}
 
 **For Android V1**
@@ -367,6 +373,8 @@ During the delivery analysis, all the devices that are excluded from the target 
 **For Android V2**
 
 The Android V2 quarantine mechanism uses the same process as Android V1, the same applies to the subscriptions and exclusions update. For more on this refer to the [Android V1](#android-quarantine) section.
+
++++ Click to view Android V2 quarantine scenarios
 
 <table> 
  <tbody> 
@@ -573,6 +581,8 @@ The Android V2 quarantine mechanism uses the same process as Android V1, the sam
  </tbody> 
 </table>
 
++++
+
 ## SMS quarantines {#sms-quarantines}
 
 **For standard connectors**
@@ -582,6 +592,8 @@ The specificities for SMS channel are listed below.
 >[!NOTE]
 >
 >The **[!UICONTROL Delivery log qualification]** table does not apply to the **Extended generic SMPP** connector.
+
++++ Click to view SMS error types for standard connectors
 
 <table> 
  <tbody> 
@@ -630,6 +642,8 @@ The specificities for SMS channel are listed below.
  </tbody> 
 </table>
 
++++
+
 **For the Extended generic SMPP connector**
 
 When using the SMPP protocol to send SMS messages, the error management is handled differently.
@@ -669,3 +683,49 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. This content is always replaced by **#MESSAGE#** after the message is normalized. This process avoids having multiple entries for similar errors and is the same as for emails.
 
 The Extended generic SMPP connector applies a heuristic to find sensible default values: if the status begins with **DELIV**, it is considered a success because it matches the common statuses **DELIVRD** or **DELIVERED** used by most providers. Any other status leads to a hard failure.
+
+## Troubleshooting delivery failures {#troubleshooting}
+
+This section provides guidance on diagnosing and resolving common delivery failure issues.
+
+### Failed status with personalization errors {#personalization-errors}
+
+If an email delivery's status is **[!UICONTROL Failed]**, it can be linked to an issue with personalization blocks. Personalization blocks in a delivery can generate errors when the schemas do not match the delivery mapping.
+
+Delivery logs are key to learn why a delivery failed. Here is a common error you may encounter:
+
+Recipient messages are failing with an "Unreachable" error stating:
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**Cause**: The personalization within the HTML is attempting to call upon a table or field that has not been defined or mapped in the upstream targeting or in the delivery's target mapping.
+
+**Resolution**: Review the workflow and delivery content to determine specifically what personalization is attempting to call the table in question. Then either remove the call to this table in the HTML or fix the mapping to the delivery.
+
+Learn more about personalization in [this section](personalize.md).
+
+### Multiple personalization values error {#multiple-values-error}
+
+When a delivery fails, the following error can appear in the delivery logs:
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**Cause**: There is a personalization field or block within the email that has more than one value for the recipient. A personalization block is being used and it is fetching more than one record for a particular recipient.
+
+**Resolution**: Check the personalization data used, and then check the target for recipients that have more than one entry for any of those fields. You can also use a **[!UICONTROL Deduplication]** activity in the targeting workflow prior to the delivery activity to ensure there is only one personalization field at a time. For more information on deduplication, refer to the [Workflow documentation](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
+
+### Auto-reply handling {#auto-reply-handling}
+
+Some deliveries can fail with an "Unreachable" error stating:
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**Explanation**: This means that the delivery succeeded but Adobe Campaign received an auto-reply from the recipient (e.g. an "Out of office" reply) that matched the 'Auto_replies' inbound email rules.
+
+The auto-reply email is ignored by Adobe Campaign, and the recipient's address will not be sent to quarantines. This is expected behavior and does not indicate a delivery failure.

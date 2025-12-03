@@ -132,3 +132,29 @@ You can also track your deliveries with different reports via the delivery dashb
 >
 >As a Campaign v8 Managed Cloud Services user, the infrastructure is monitored and managed by Adobe. If you experience persistent issues with delivery indicators or dashboard synchronization, contact Adobe Customer Care.
 
+## Troubleshooting slow deliveries {#troubleshooting-slow-deliveries}
+
+If your delivery seems to take longer than usual after clicking the **[!UICONTROL Send]** button, check the following potential causes:
+
+### IP address reputation issues
+
+Some email providers might have added your IP addresses to a denylist. Check your delivery logs (broadlogs) in the **[!UICONTROL Delivery]** tab for bounce messages indicating reputation issues. Consult the [deliverability monitoring](monitoring-deliverability.md) section for guidance on reputation management.
+
+### Delivery size and complexity
+
+Your delivery might be too large to be processed quickly. This may occur with:
+
+Heavy JavaScript personalization that requires significant data processing for each recipient.
+
+Delivery weighing more than 60 kilobytes due to large HTML content, embedded images, or extensive personalization.
+
+Refer to [Delivery best practices](../start/delivery-best-practices.md) to learn about content guidelines and personalization best practices. The recommended maximum size is about 35KB for optimal performance.
+
+### System performance
+
+System issues can prevent servers from processing deliveries efficiently. If you suspect performance issues, check the delivery logs for timeout errors or communication issues.
+
+>[!NOTE]
+>
+>As a Campaign v8 Managed Cloud Services user, server infrastructure monitoring is managed by Adobe. If you experience persistent performance issues with delivery sending, contact Adobe Customer Care with your delivery logs.
+

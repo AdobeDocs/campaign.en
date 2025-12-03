@@ -93,7 +93,7 @@ Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-hi
 
 [What is deliverability](about-deliverability.md) introduces key deliverability concepts and how to improve your deliverability rate in Campaign.
 
-[Delivery failures and bounces](delivery-failures.md) describes the different types of delivery failures and how Campaign handles them.
+[Delivery failures and bounces](delivery-failures.md) describes the different types of delivery failures, how Campaign handles them, and includes troubleshooting guidance for common issues.
 
 [Quarantine management](quarantines.md) explains how Campaign manages quarantined addresses to protect your sending reputation.
 

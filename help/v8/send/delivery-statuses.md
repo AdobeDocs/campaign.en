@@ -11,7 +11,7 @@ Once a delivery has been sent, the delivery dashboard displays a status that all
 
 ![](assets/delivery-status.png)
 
-For more details on the different delivery failures you can encounter, and how to solve them, refer to [this page](delivery-failures.md).
+For more details on the different delivery failures you can encounter, and how to solve them, refer to [Understanding delivery failures](delivery-failures.md).
 
 **Related topics:**
 
