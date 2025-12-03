@@ -16,7 +16,7 @@ The **delivery dashboard** is also a key tool to monitor your deliveries and pot
 
 The following diagram shows the stages of the dialog between the user and the various servers.
 
-![](assets/tracking-diagram.png)
+<img src="assets/tracking-diagram.png" width="70%">
 
 ## Configure tracking {#configure-tracking}
 

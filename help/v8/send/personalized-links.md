@@ -41,6 +41,30 @@ Where:
 * 71ffa8 is the NmsTrackingUrl ID (hexadecimal).
 * p1, p2, and so on, are all the parameters to substitute in the URL.
 
+### Example of non-detection {#non-detection-example}
+
+`<%= getURL("http://mynewsletter.com") %>` works and sends the actual content of the web page via email to the recipients. But none of the links are tracked. The reason for this is that the MTA executes `"<%=getURL(..."` for each email before sending. It can be different for each recipient, so Adobe Campaign cannot know the URLs for tracking and assign them a tag ID.
+
+When the page to download is the same for all recipients, the best practice is to use:
+
+```
+<%@ include url="http://mynewsletter.com" %>
+```
+
+In that case, the page is downloaded during the analysis, before the tracking detection. It allows Adobe Campaign to discover the links, assign a tag ID, and track them.
+
+### Recommended pattern {#recommended-pattern}
+
+After processing `<%@` instructions, the URL to be tracked should have the following syntax:
+
+```
+<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">
+```
+
+>[!IMPORTANT]
+>
+>All other patterns are not supported by Adobe and should be avoided to prevent potential security gaps.
+
 ## URL parameters {#url-parameters}
 
 To ensure that personalized URLs are tracked correctly, you must use the `escapeUrl()` function or the appropriate encoding method for the parameters in your URLs.

@@ -44,7 +44,7 @@ From this tab, you can view:
 >
 >If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Refer to [this section](tracked-links.md) to learn how to configure tracking.
 
-**Check the Tracking technical workflow**
+### Check the Tracking technical workflow {#check-tracking-workflow}
 
 The Tracking technical workflow must be running to collect tracking data. You can locate the Tracking technical workflow in the **[!UICONTROL Administration > Production > Technical workflows]** folder.
 
@@ -56,7 +56,7 @@ To verify the workflow:
 
 If the workflow is not running or has errors, contact your system administrator.
 
-**Verify tracking data collection**
+## Verify tracking data collection
 
 After sending a delivery with tracking enabled:
 

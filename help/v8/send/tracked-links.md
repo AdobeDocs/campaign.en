@@ -14,18 +14,6 @@ For each delivery, you can track the reception of messages and the activation of
 >
 >The links in email content that contain personalization need specific syntax to be tracked. Learn more about how to add links in emails that can be personalized and that support tracking in [this section](personalized-links.md).
 
-We strongly recommend that you enclose URLs in delimiters in the **[!UICONTROL Text content]** tab before applying the tracking formula. The URL delimiters that you enter in this tab are used by Adobe Campaign to identify URLs within character strings. You can use these pairs of delimiters:
-
-* Parentheses ( )
-* Brackets [ ]
-* Braces { }
-
-In this example, the URL https://www.adobe.com is followed by a semicolon. The semicolon may be interpreted by recipient email clients as a part of the URL. As a result, the link may be broken. To avoid this issue, you can enclose the URL in delimiters in one of these ways:
-
-* (https://www.adobe.com);
-* [https://www.adobe.com];
-* {https://www.adobe.com};
-
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 
 1. Select the **[!UICONTROL Display URLs]** option in the lower section of the delivery assistant, under the message content.
@@ -65,3 +53,16 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
 1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed in reports, as for example in the **[!UICONTROL URLs and click streams]** report (see [this section](../reporting/delivery-reports.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]**. Learn more about how to work with enumerations in [this section](../config/enumerations.md).
 
+## Best practices for URL delimiters {#url-delimiters}
+
+We strongly recommend that you enclose URLs in delimiters in the **[!UICONTROL Text content]** tab before applying the tracking formula. The URL delimiters that you enter in this tab are used by Adobe Campaign to identify URLs within character strings. You can use these pairs of delimiters:
+
+* Parentheses ( )
+* Brackets [ ]
+* Braces { }
+
+In this example, the URL https://www.adobe.com is followed by a semicolon. The semicolon may be interpreted by recipient email clients as a part of the URL. As a result, the link may be broken. To avoid this issue, you can enclose the URL in delimiters in one of these ways:
+
+* (https://www.adobe.com);
+* [https://www.adobe.com];
+* {https://www.adobe.com};
