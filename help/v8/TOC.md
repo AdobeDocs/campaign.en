@@ -100,6 +100,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Configure and send the delivery](send/configure-and-send.md)
     + [Send time optimization](send/predictive.md)
   + Monitor your deliveries {#monitor}
+    + [Monitor deliveries in Campaign UI](send/delivery-dashboard.md)
     + [Delivery statuses](send/delivery-statuses.md)
     + [Delivery failures](send/delivery-failures.md)
     + [Quarantine](send/quarantines.md)

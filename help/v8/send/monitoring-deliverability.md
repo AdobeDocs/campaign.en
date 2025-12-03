@@ -24,7 +24,7 @@ Adobe Campaign gives you access to all the deliverability tools listed below.
     
     <!--For more on this, see the [Delivery statistics](../reporting/global-reports.md#delivery-statistics) section.-->
 
-* More generally, the [delivery dashboard](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"} gives you access to:
+* More generally, the [delivery dashboard](delivery-dashboard.md) gives you access to:
     * the delivery summary, which shows the detail of the sending and the number of messages to send, processed and sent with success;
     * the delivery logs and history, which show which target has been excluded and why;
     * the tracking logs, which show tracking information such as opens and clicks.
@@ -36,7 +36,7 @@ Here are some additional guidelines on deliverability monitoring:
 * Regularly check the [delivery throughput](../reporting/global-reports.md#delivery-throughput) for the whole platform to verify whether it is consistent with the original set-up.
 * Check that [retries](delivery-failures.md#retries) are set up correctly (30 minutes for retry period and more than 20 retries) in delivery templates.
 * Regularly verify that the [bounce](delivery-failures.md#bounce-mail-qualification) mailbox is accessible and that the account is not about to expire.
-* Check each delivery throughput, accessible from the [delivery dashboard](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}, to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days). is a key tool to monitor your deliveries and potential issues during the sending of messages. 
+* Check each delivery throughput, accessible from the [delivery dashboard](delivery-dashboard.md), to make sure that it is consistent with the delivery content's validity (e.g. 'flash sales' should be delivered in minutes, not days). 
 * When using [waves](configure-and-send.md#sending-using-multiple-waves), verify that each wave has enough time to finish before the next one is triggered.
 * Check that the number of errors and new [quarantines](quarantines.md) are consistent with other deliveries.
-* Carefully consult the [delivery logs](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"} in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).
+* Carefully consult the [delivery logs](delivery-dashboard.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (denylists, DNS issues, anti-spam rules, etc.).

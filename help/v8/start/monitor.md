@@ -28,7 +28,7 @@ After sending an email delivery, you can monitor its status and track key metric
 * **Exclusion logs**: Understand why certain recipients were excluded from the delivery
 * **Tracking logs**: Monitor opens, clicks, and other recipient interactions with your email content
 
-Learn more about [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring)
+Learn more about [monitoring deliveries in Campaign UI](../send/delivery-dashboard.md), [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring)
 
 ### SMS delivery monitoring {#sms-monitoring}
 
