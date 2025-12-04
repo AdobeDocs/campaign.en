@@ -4,6 +4,7 @@ description: Learn more about the statuses available on your delivery dashboard
 feature: Monitoring, Deliverability
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 ---
 # Delivery statuses {#delivery-statuses}
 

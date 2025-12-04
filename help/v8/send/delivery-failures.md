@@ -4,6 +4,7 @@ description: Understand possible failures when sending messages with Adobe Campa
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 ---
 # Understand delivery failures {#delivery-failures}

@@ -4,6 +4,7 @@ description: Understand quarantine management in Adobe Campaign
 feature: Profiles, Monitoring
 role: User, Developer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 ---
 # Quarantine {#quarantine-management}

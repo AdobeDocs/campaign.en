@@ -1,12 +1,11 @@
 ---
-title: Monitor your Campaign environment
+title: Campaign monitoring overview
 description: Learn how to monitor deliveries, workflows, and your Campaign instance
 feature: Monitoring
 role: User
 level: Beginner
-exl-id: a5c9a84e-4f39-4f3c-8a8e-3d1e5e5e5e5e
 ---
-# Monitor your Campaign environment {#monitor-campaign}
+# Campaign monitoring overview {#monitor-campaign}
 
 Adobe Campaign offers a comprehensive set of capabilities to monitor your processes, deliveries, and environment to ensure optimal performance and troubleshoot issues proactively.
 
@@ -16,89 +15,23 @@ Adobe Campaign offers a comprehensive set of capabilities to monitor your proces
 
 ## Monitor your deliveries {#monitor-deliveries}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers.
+Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers. After sending a delivery, you can monitor its status and track key metrics in the delivery dashboard. The dashboard provides access to delivery logs, exclusion logs, tracking logs, and other monitoring capabilities to help you analyze your delivery performance across all channels.
 
-### Email delivery monitoring {#email-monitoring}
+**Email deliveries** - Monitor email delivery status, track key metrics, and access detailed logs. Learn more about [monitoring deliveries in Campaign UI](../send/delivery-dashboard.md), [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring).
 
-After sending an email delivery, you can monitor its status and track key metrics in the delivery dashboard.
+**SMS deliveries** - Track SMS delivery status and monitor key metrics in the SMS delivery dashboard. Learn more about [SMS monitoring](../send/sms/sms-monitor.md).
 
-**Available logs:**
+**Push notifications** - Monitor push notification deliveries to ensure they reach your mobile app users effectively. Learn more about [push notification monitoring](../send/push.md#push-test).
 
-* **Delivery logs**: View which recipients successfully received the email
-* **Exclusion logs**: Understand why certain recipients were excluded from the delivery
-* **Tracking logs**: Monitor opens, clicks, and other recipient interactions with your email content
+**Transactional messages** - For messages triggered by events, monitor event processing status, message execution and delivery status. Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-messages).
 
-Learn more about [monitoring deliveries in Campaign UI](../send/delivery-dashboard.md), [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring)
-
-### SMS delivery monitoring {#sms-monitoring}
-
-For SMS deliveries, you can track the delivery status and monitor key metrics such as:
-
-* Messages sent and delivered
-* Delivery failures and bounces
-* Recipient interactions with SMS content
-
-Learn more about [SMS monitoring](../send/sms/sms-monitor.md)
-
-### Push notification monitoring {#push-monitoring}
-
-Monitor your push notification deliveries to ensure they reach your mobile app users effectively.
-
-Learn more about [push notification monitoring](../send/push.md#push-test)
-
-### Transactional message monitoring {#transactional-monitoring}
-
-For transactional messages triggered by events, you can monitor:
-
-* Event processing status
-* Message execution and delivery status
-* Processing errors and failed events
-
-Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-messages)
-
-### Understand delivery failures {#delivery-failures}
-
-Understanding why a delivery failed is critical to maintain a clean database and ensure good deliverability rates.
-
-**Delivery failure classification:**
-
-* **Hard bounces**: Permanent failures (invalid email address, domain doesn't exist)
-* **Soft bounces**: Temporary failures (mailbox full, server temporarily unavailable)
-* **Ignored**: Delivery ignored by Adobe Campaign (unsubscribed, quarantine)
-
-Learn more about [delivery failures and quarantines](../send/delivery-failures.md)
+**Delivery failures** - Understanding why a delivery failed is critical to maintain a clean database and ensure good deliverability rates. Delivery failures are classified into hard bounces, soft bounces, and ignored messages. Learn more about [delivery failures and quarantines](../send/delivery-failures.md).
 
 ## Monitor deliverability {#monitor-deliverability}
 
-Deliverability monitoring helps you ensure that your messages reach your recipients' inboxes and avoid spam filters.
+Deliverability monitoring helps you ensure that your messages reach your recipients' inboxes and avoid spam filters. Adobe Campaign provides several built-in tools to monitor and improve deliverability, including delivery reports, inbox rendering, SpamAssassin testing, and broadcast statistics. Following deliverability best practices such as maintaining a clean email list, monitoring sender reputation, and authenticating sending domains is critical to maintain good deliverability rates.
 
-### Deliverability monitoring tools {#deliverability-tools}
-
-Adobe Campaign provides several built-in tools to monitor and improve deliverability:
-
-**Delivery reports** - Track opens, clicks, bounces, and spam complaints to analyze your delivery performance. [Learn more about delivery reports](#delivery-reports)
-
-**Inbox rendering** - Preview how your email displays across different email clients and devices to ensure optimal rendering. [Learn more about inbox rendering](../send/inbox-rendering.md)
-
-**SpamAssassin** - Test your email content for spam triggers before sending. [Learn more about SpamAssassin](../send/spamassassin.md)
-
->[!NOTE]
->
->SpamAssassin is installed and configured by Adobe for Managed Cloud Services deployments. Contact your Adobe representative for assistance.
-
-Learn more about [deliverability monitoring](../send/monitoring-deliverability.md)
-
-### Deliverability best practices {#deliverability-best-practices}
-
-**Key practices to maintain good deliverability:**
-
-* Maintain a clean email list with regular bounce and unsubscribe processing
-* Use double opt-in for new subscribers
-* Monitor your sender reputation and IP address reputation
-* Warm up new IP addresses gradually
-* Authenticate your sending domains with SPF, DKIM, and DMARC
-
-Learn more about [deliverability best practices](../send/about-deliverability.md)
+Learn more about [deliverability monitoring tools](../send/monitoring-deliverability.md) and [deliverability best practices](../send/about-deliverability.md).
 
 ## Monitor workflows {#monitor-workflows}
 
@@ -188,11 +121,9 @@ Campaign Control Panel provides administrators with self-service capabilities to
 
 Learn more about [Control Panel](../config/self-service.md) and [Control Panel performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
 
-### Instance monitoring guidelines {#instance-guidelines}
-
-**For Campaign v8 Managed Cloud Services** - Adobe monitors and manages the server infrastructure, operating system, and application layer. You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
-
-**For advanced monitoring guidelines** - For comprehensive instance monitoring guidelines, including workflow best practices, delivery troubleshooting, and performance optimization, refer to [Campaign Classic v7 monitoring documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html){target="_blank"}
+>[!NOTE]
+>
+>For Campaign v8 Managed Cloud Services, Adobe monitors and manages the server infrastructure, operating system, and application layer. You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
 
 ## Tracking and reporting {#tracking-reporting}
 
@@ -230,7 +161,8 @@ Learn more about [global reports](../reporting/global-reports.md)
 
 ## Related topics {#related-topics}
 
-* [Get started with message tracking](../send/tracking.md)
 * [Delivery best practices](delivery-best-practices.md)
-* [Control message content](../send/control-message-content.md)
+* [Quarantine management](../send/quarantines.md)
+* [Configure and send deliveries](../send/configure-and-send.md)
+* [Get started with reporting](../reporting/gs-reporting.md)
 

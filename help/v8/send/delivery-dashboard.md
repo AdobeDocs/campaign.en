@@ -4,6 +4,7 @@ description: Learn how to access the list of deliveries and use the delivery das
 feature: Monitoring
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 ---
 # Monitor your deliveries in Campaign UI {#delivery-dashboard}
 
