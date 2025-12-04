@@ -72,7 +72,7 @@ This report shows the list of pages visited following a delivery.
 
 Better understand the tracking difference between a person/people and a recipient in Adobe Campaign with this example.
 
-Learn more about person/people and recipients in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+[Learn more about targeted persons and recipients](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **Tracking indicators**
 

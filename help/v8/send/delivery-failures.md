@@ -61,7 +61,7 @@ The way bounce mail qualification is handled in Adobe Campaign depends on the er
 
 * **Synchronous errors**: The MTA determines the bounce type and qualification, and sends back that information to Campaign. The bounce qualifications in the **[!UICONTROL Delivery log qualification]** table are not used for **synchronous** delivery failure error messages.
 
-* **Asynchronous errors**: Rules used by Campaign to qualify asynchronous delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. For more on this, refer to [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
+* **Asynchronous errors**: Rules used by Campaign to qualify asynchronous delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
