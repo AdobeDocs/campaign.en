@@ -3,8 +3,6 @@ title: Moving to the new SMS connector v2
 description: Learn how to move to the new SMS connector v2
 feature: Technote
 role: Admin
-hide: yes
-hidefromtoc: yes
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
 ---
 # Moving to the new SMS connector v2
@@ -17,7 +15,7 @@ The dedicated SMS process introduces support for SMPP transceiver mode, reducing
 
 ## Differences v1 and v2 connectors
 
-The dedicated SMS connector in Adobe Campaign v8 introduces several architectural changes compared to the MTA-based connector. One key difference is the default use of SMPP transceiver mode, which reduces the number of connections by combining send and receive functions. If the provider doesn’t support this mode, it's still possible to use separate transmitter and receiver connections. Unlike the MTA connector, enabling automatic replies has no effect on connection count, and all receiver connections can handle any type of incoming message.
+The dedicated SMS connector in Adobe Campaign v8 introduces several architectural changes compared to the MTA-based connector. One key difference is the default use of SMPP transceiver mode, which reduces the number of connections by combining send and receive functions. If the provider doesn't support this mode, it's still possible to use separate transmitter and receiver connections. Unlike the MTA connector, enabling automatic replies has no effect on connection count, and all receiver connections can handle any type of incoming message.
 
 Connection count is now calculated using a different formula: 
 
