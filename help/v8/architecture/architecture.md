@@ -28,7 +28,7 @@ Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **C
 
 ### Campaign FDA deployment {#ac-deployment-fda}
 
-In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend then your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
+In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
 
 
 ![](assets/P1-P3-architecture.png){zoomable="yes"}
@@ -57,7 +57,7 @@ Depending on your Campaign v8 package, you are provisioned with a specific numbe
 
 By default, the external accounts for all channels use an **[!UICONTROL Alternate]** routing mode, meaning that one delivery is sent from each mid-sourcing (MID) instance at a time in an alternating way.
 
-To ensure better performances both in terms of speed and scale, you can allow deliveries to be automatically splitted accross your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
+To ensure better performances both in terms of speed and scale, you can allow deliveries to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients. This operation is transparent when executing the delivery from the marketing instance: once the delivery has been sent, all the logs are consolidated together, before being sent back to the marketing instance into a single delivery object.
 
 To do this, additional external accounts with the **[!UICONTROL Split]** routing mode are created on provisioning for each channel:
 
@@ -70,7 +70,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 
 >[!IMPORTANT]
 >
->The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out your Adobe Transition Manager to have the option enabled.
+>The split routing mode is enabled by default for the "Split Delivery - Email" account. For all the other channels external accounts, reach out to your Adobe Transition Manager to have the option enabled.
 >
 >By default, the threshold size value to split a delivery among multiple mid-sourcing (MID) instances is 100K. You can change this value in the "NmsDelivery_MultiMidSplitThreshold" option in the **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menu. 
 
@@ -104,7 +104,7 @@ In this specific architecture, execution cell is separated from the control inst
     
     Learn how to create and publish message templates in [this section](../send/transactional.md).
 
-* The **Execution instance** retreives incoming events (password reset or orders from a website for example) and sends out personalized messages. There can be more than one execution instance to process messages via the load-balancer and scale the number of events to be proceeded for maximum availability.
+* The **Execution instance** retrieves incoming events (password reset or orders from a website for example) and sends out personalized messages. There can be more than one execution instance to process messages via the load-balancer and scale the number of events to be processed for maximum availability.
 
 >[!CAUTION]
 >
@@ -121,6 +121,6 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
     Then, with the sessionToken provided by the execution instance in response to the above call, the external application can make SOAP api invocations (rtEvents or batchEvents) to send communications, without the need to include in each SOAP call the account login and password.
  
 * Multiple execution instances
-    In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot  be used. A user/password-based authentication is required. 
+    In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot be used. A user/password-based authentication is required. 
 
 Learn more about Transactional messaging events in [this page](../send/event-processing.md).
