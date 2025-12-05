@@ -2,8 +2,9 @@
 title: Quarantine management in Campaign
 description: Understand quarantine management in Adobe Campaign
 feature: Profiles, Monitoring
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 ---
 # Quarantine {#quarantine-management}
@@ -39,7 +40,7 @@ Two types or errors can be captured:
 * **Hard error**: the email address, phone number or device is immediately sent to quarantine.
 * **Soft error**: soft errors increment an error counter, and might quarantine an email, phone number or device token. Campaign performs [retries](delivery-failures.md#retries): when the error counter reaches the limit threshold, the address, phone number or device token is quarantined. [Learn more](delivery-failures.md#retries).
 
-In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#identifying-quarantined-addresses-for-the-entire-platform).
+In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#non-deliverable-bounces).
 
 
 If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
@@ -47,6 +48,12 @@ If a user qualifies an email as a spam, the message is automatically redirected 
 >[!NOTE]
 >
 >Quarantine in Adobe Campaign is case sensitive. Make sure to import email addresses in lower case, so that they are not retargeted later on.
+
+## Soft error management {#soft-error-management}
+
+As opposed to hard errors, soft errors do not send an address to quarantine immediately, but instead they increment an error counter. When the error counter reaches the limit threshold, the address is quarantined. Learn more about retries and error types in [Understanding delivery failures](delivery-failures.md).
+
+The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines by the **[!UICONTROL Database cleanup]** workflow. [Learn more about technical workflows](../config/workflows.md#technical-workflows).
 
 ## Access quarantined addresses {#access-quarantined-addresses}
 
@@ -60,6 +67,8 @@ For each delivery, you can also check the **[!UICONTROL Delivery summary]** repo
 
 * The number of addresses placed in quarantine during the delivery analysis,
 * The number of addresses placed in quarantine following the delivery action.
+
+Learn more about delivery reports in [this section](../reporting/gs-reporting.md).
 
 ### Non deliverable and bounce addresses{#non-deliverable-bounces}
 
@@ -75,7 +84,7 @@ To view the list of quarantined addresses **for the entire platform**, Campaign 
 >
 >End of Year 2: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
-In addition, the **[!UICONTROL Non-deliverables and bounces]** built-in report, available from the **Reports** section of ths home page, displays information about the addresses in quarantine, the types of error encountered, and a failure breakdown by domain. You can filter data for a specific delivery, or customize this report as needed.
+In addition, the **[!UICONTROL Non-deliverables and bounces]** built-in report, available from the **Reports** section of this home page, displays information about the addresses in quarantine, the types of error encountered, and a failure breakdown by domain. You can filter data for a specific delivery, or customize this report as needed.
 
 Learn more about bounce addresses in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
@@ -92,7 +101,9 @@ For each folder, you can display only the recipients whose email address is in q
 
 ## Remove a quarantined address {#remove-a-quarantined-address}
 
-Addresses that match specific conditions are automatically deleted from the quarantine list by the **Database cleanup** built-in workflow.
+### Automatic updates {#unquarantine-auto}
+
+Addresses that match specific conditions are automatically deleted from the quarantine list by the **[!UICONTROL Database cleanup]** built-in workflow.
 
 The addresses are automatically removed from the quarantine list in the following cases:
 
@@ -104,24 +115,32 @@ Their status then changes to **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
->Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email. 
+>Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL Denylisted]** status will never be removed, even if they receive an email.
 
-You can also manually remove an address from the quarantine list. To remove an address from quarantine, you can:
+### Manual updates {#unquarantine-manual}
 
-* Change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
+You can also manually remove an address from the quarantine list. To manually remove an address from quarantine, you can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
-    ![](assets/tech-quarantine-status.png) 
+![](assets/tech-quarantine-status.png)
 
-You might need to perform bulk updates on the quarantine list, for example in case of an ISP outage during which emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient.
+### Bulk updates {#unquarantine-bulk}
 
-To perform this, create a workflow and add a query on your quarantine table to filter out all impacted recipients so they can be removed from the quarantine list, and included in future Campaign email deliveries. 
+You might need to perform bulk updates on the quarantine list in specific situations, such as an ISP outage during which emails are wrongly marked as bounces because they cannot be successfully delivered to their recipient.
 
-Below are the recommended guidelines for this query:
+To perform a bulk update:
 
-* **Error text (quarantine text)** contains "Momen_Code10_InvalidRecipient"
-* **Email domain (@domain)** equal to domain1.com OR **Email domain (@domain)** equal to domain2.com OR **Email domain (@domain)** equal to domain3.com
-* **Update status (@lastModified)** on or after `MM/DD/YYYY HH:MM:SS AM`
-* **Update status (@lastModified)** on or before `MM/DD/YYYY HH:MM:SS PM`
+1. Create a workflow and add a query on the quarantine table (**[!UICONTROL nms:address]**) to filter impacted recipients
+2. Use query conditions to identify addresses that should be unquarantined, such as:
+   * **Email domain (@domain)** equals the affected ISP domain(s)
+   * **Update status (@lastModified)** within the timeframe of the outage
+   * **Status (@status)** equals quarantine status
+3. Add an **[!UICONTROL Update data]** activity to set the address status to **[!UICONTROL Valid]**
 
-Once you have the list of affected recipients, add an **[!UICONTROL Update data]** activity to set their status to **[!UICONTROL Valid]** so they will be removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow,. You can also just delete them from the quarantine table.
+The addresses will then be automatically removed from the quarantine list by the **[!UICONTROL Database cleanup]** workflow and can be included in future deliveries.
+
+## Related topics
+
+* [Understanding delivery failures](delivery-failures.md) - Learn about the different types of delivery failures and how Campaign handles bounces
+* [Monitor deliveries](delivery-dashboard.md) - Access delivery logs and monitor delivery performance
+* [Delivery best practices](../start/delivery-best-practices.md) - Best practices for maintaining good deliverability and avoiding quarantines
 

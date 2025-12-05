@@ -10,7 +10,7 @@ breadcrumb-title: Campaign v8 Documentation
 # Adobe Campaign v8 (console) Documentation {#campaign-v8}
 
 + [Campaign v8 documentation](campaign-home.md)
-+ Releases notes {#releases}
++ Release notes {#releases}
   + [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
   + [Latest releases](start/release-notes.md)
@@ -32,11 +32,17 @@ breadcrumb-title: Campaign v8 Documentation
   + [Components and processes](start/ac-components.md)
   + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
-  + [FAQ](start/campaign-faq.md)
+  + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
+  + [Frequently Asked Questions](start/campaign-faq.md)
++ Administration & Permissions {#permissions}
+  + [Get started with permissions](start/gs-permissions.md)
+  + [Manage user permissions](start/manage-permissions.md)
+  + [Add permissions on folders](start/folder-permissions.md)
+  + [Control Panel](config/self-service.md)
 + Campaign Management {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
-  + [Campaign orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
-+ Send messages{#send}
+  + [Campaign Orchestration Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
++ Send Messages {#send}
   + [Get started with messages](start/gs-message.md)
   + [Create your first delivery](start/create-message.md)
   + [Work with delivery templates](send/create-templates.md)
@@ -53,22 +59,20 @@ breadcrumb-title: Campaign v8 Documentation
     + [Attach files to an email](send/attaching-files.md)
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
+    + [SMS channel characteristics](send/sms/sms-channel.md)
+    + [Create a SMS delivery](send/sms/create-sms.md)
+    + [Define the content](send/sms/sms-content.md)
+    + [Select the audience](send/sms/sms-audience.md)
+    + [Send SMS proofs](send/sms/sms-proofs.md)
+    + [Send to the audience](send/sms/sms-send.md)
+    + [Monitor and track SMS](send/sms/sms-monitor.md)
     + Configure SMS channel {#config-sms}
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
-      + [SMS channel characteristics](send/sms/sms-channel.md)
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
       + [Standalone instance](send/sms/sms-standalone-instance.md)  
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
-      + [SMPP connector description](send/sms/smpp-connector-delivery.md) 
-    + Create a SMS  {#create-sms}
-      + [Create a SMS delivery](send/sms/create-sms.md)   
-      + [Define the content](send/sms/sms-content.md)
-      + [Select the audience](send/sms/sms-audience.md)
-    + Validate and send SMS {#validate-sms}
-      + [Send SMS proofs](send/sms/sms-proofs.md)   
-      + [Send to the audience](send/sms/sms-send.md) 
-    + [Monitor and track SMS](send/sms/sms-monitor.md)
+      + [SMPP connector description](send/sms/smpp-connector-delivery.md)
   + Push notifications {#push}
     + [Create and send push notifications](send/push.md)
     + Rich push {#rich-push}
@@ -76,10 +80,11 @@ breadcrumb-title: Campaign v8 Documentation
       + [Design an iOS rich push delivery](send/rich-push-ios.md)
     + [Configure push notification channel](send/push-settings.md)
     + [Configure your push notifications with Data Collection](send/push-data-collection.md)
-  + [LINE messaging](send/line/line.md)
-  + [Direct mail](send/direct-mail.md)
-  + [X (Twitter)](send/twitter.md)
-  + [Custom external channel](send/custom-channel.md)
+  + Other channels {#other-channels}
+    + [LINE messaging](send/line/line.md)
+    + [Direct mail](send/direct-mail.md)
+    + [X (Twitter)](send/twitter.md)
+    + [Custom external channel](send/custom-channel.md)
   + Personalize content {#personalize}
     + [Get started with personalization](send/personalize.md)
     + [Personalization data](send/personalization-data.md)
@@ -94,9 +99,11 @@ breadcrumb-title: Campaign v8 Documentation
     + [Delivery analysis](send/delivery-analysis.md)
     + [Configure and send the delivery](send/configure-and-send.md)
     + [Send time optimization](send/predictive.md)
-  + Failures, bounces and quarantines {#failures}
-    + [Quarantine](send/quarantines.md)
+  + Monitor your deliveries {#monitor}
+    + [Monitor deliveries in Campaign UI](send/delivery-dashboard.md)
+    + [Delivery statuses](send/delivery-statuses.md)
     + [Delivery failures](send/delivery-failures.md)
+    + [Quarantine](send/quarantines.md)
   + Deliverability management {#deliverability-management}
     + [What is deliverability](send/about-deliverability.md)
     + [Control message content](send/control-message-content.md)
@@ -110,7 +117,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Collect and process events](send/event-processing.md)
       + [Understand event description](send/event-description.md)
       + [Send and monitor messages](send/delivery-execution.md)
-+ Profile & Audience Management {#audience}
++ Profiles & Audiences {#audience}
     + [Get started with profiles and audiences](audiences/gs-audiences.md)
     + [Work with audiences](start/audiences.md)
     + [Access profiles](audiences/view-profiles.md)
@@ -127,21 +134,21 @@ breadcrumb-title: Campaign v8 Documentation
       + [Share audiences with Adobe solutions](start/shared-audiences.md)
     + [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)
-+ Content Management {#content}
++ Landing Pages & Forms {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
 + Workflows {#workflows}
   + [Get started with workflows](config/workflows.md)
   + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
-+ Privacy and Security Management {#privacy}
++ Privacy & Security {#privacy}
   + [Manage Privacy requests](start/privacy.md)
   + [Security guidelines](config/security.md)
   + [Enhanced security add-on](config/enhanced-security.md)
-+ Decision Management {#offers}
++ Offer Management - Interaction {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
   + [Best practices](interaction/interaction-best-practices.md)
-  + Define settings{#interaction-settings}
+  + Configuration settings {#interaction-settings}
     + [Create operators](interaction/interaction-operators.md)
     + [Create environments](interaction/interaction-env.md)
     + [Create pre-defined filters](interaction/interaction-predefined-filters.md)
@@ -155,8 +162,15 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-+ Reporting and Analytics {#analytics}
-  + [Track & monitor](start/tracking.md)
++ Tracking & Analytics {#analytics}
+  + Message tracking {#tracking}
+    + [Get started with tracking](send/tracking.md)
+    + [Configure tracked links](send/tracked-links.md)
+    + [Configure URL tracking options](send/url-tracking.md)
+    + [Track personalized links](send/personalized-links.md)
+    + [Test tracking](send/testing-tracking.md)
+    + [Access tracking logs](send/tracking-logs.md)
+  + [Campaign monitoring overview](start/monitor.md)
   + [Audit trail](reporting/audit-trail.md)
   + Work with reports{#reports}
     + [Get started with reports](reporting/gs-reporting.md)
@@ -196,12 +210,6 @@ breadcrumb-title: Campaign v8 Documentation
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
-+ Administration {#admin}
-  + Users and permissions {#permissions}
-    + [Get started with permissions](start/gs-permissions.md)
-    + [Manage user permissions](start/manage-permissions.md)
-    + [Add permissions on folders](start/folder-permissions.md)
-  + [Control Panel](config/self-service.md)
 + Architecture {#architecture}
   + [Global principles](architecture/general-architecture.md)
   + [Architecture models](architecture/architecture.md)
@@ -226,7 +234,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
   + [Campaign data model](dev/datamodel.md)
-  + Schemas & forms {#shemas-forms}
+  + Schemas & forms {#schemas-forms}
     + [Work with schemas](dev/schemas.md)
     + [Create schemas](dev/create-schema.md)
     + [Extend schemas](dev/extend-schema.md)
@@ -241,13 +249,14 @@ breadcrumb-title: Campaign v8 Documentation
     + [Input forms](dev/forms.md)
   + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
+  + [Query the database with queryDef](dev/query-api.md)
   + REST APIs {#apis}
     + [Get started with REST APIs](dev/api/get-started-apis.md)
     + [Recommendations & limitations](dev/api/limitations.md)
-    + [Why use REST APIs](dev/api/why-using-campaign-standard-apis.md)
+    + [When to use REST APIs](dev/api/why-using-campaign-standard-apis.md)
     + [Setting up API access](dev/api/setting-up-api-access.md)
     + Global concepts {#global-concepts}
-      + [Must-read](dev/api/must-read.md)
+      + [Essential concepts](dev/api/must-read.md)
       + [Endpoints](dev/api/endpoints.md)
       + [Metadata mechanism](dev/api/metadata-mechanism.md)
       + [Verbs](dev/api/verbs.md)
@@ -258,7 +267,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [Retrieving profiles](dev/api/retrieving-profiles.md)
       + [Updating profiles](dev/api/updating-profiles.md)
       + [Creating profiles](dev/api/creating-profiles-api.md)
-    + Managing services and subscription {#managing-services-and-subscriptiopns}
+    + Managing services and subscription {#managing-services-and-subscriptions}
       + [Creating a service](dev/api/creating-a-service.md)
       + [Retrieving subscriptions](dev/api/retrieving-subscriptions.md)
       + [Perform subscriptions](dev/api/perform-subscriptions.md)
@@ -267,6 +276,7 @@ breadcrumb-title: Campaign v8 Documentation
     + Managing workflows {#managing-workflows}
       + [Controlling a workflow](dev/api/controlling-a-workflow.md)
       + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
-+ [Campaign technotes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign web user interface documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
++ Additional Resources {#resources}
+  + [Campaign Technical Notes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
+  + [Campaign Web User Interface Documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 

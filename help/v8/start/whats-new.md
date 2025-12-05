@@ -16,6 +16,22 @@ Adobe Campaign v8 brings significant infrastructure, security, deliverability, a
 
 ## Key capabilities{#key-capabilities}
 
+### Campaign Web user interface{#new-web-ui}
+
+Adobe Campaign v8 offers a **new web user interface** alongside the traditional client console. This modern, intuitive interface is designed for marketers who need faster campaign creation and improved accessibility.
+
+**Key benefits:**
+
+* **Modern design** - Clean, responsive interface accessible from any browser
+* **Simplified workflows** - Streamlined campaign creation and management
+* **Drag-and-drop capabilities** - Visual content design without technical knowledge
+* **Faster onboarding** - Minimal learning curve for new users
+* **Unified experience** - Shares similarities with Campaign Standard for easy transition
+
+Starting Campaign v8.6, the Campaign Web UI is available through Adobe Experience Cloud, enabling seamless access to all Adobe solutions.
+
+[Learn more about the Campaign Web user interface](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}
+
 ### Central workflow management{#central-wf-mgt}
 
 Improve the speed and scale of every aspect of your marketing campaigns, from creating segments and preparing messages to delivery. 
@@ -86,6 +102,63 @@ Adobe Campaign can now leverage cloud scale database technologies to dramaticall
 
 [Learn more about Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md)
 
+### Performance at scale {#performance-metrics}
+
+Campaign v8 Enterprise delivers exceptional performance for high-volume marketing operations:
+
+* **Batch processing** - Up to **20 million operations per hour** for large-scale campaign execution
+* **Transactional messaging** - **1 million messages per hour** for real-time communications
+* **Rapid audience building** - Query and segment millions of profiles in minutes instead of hours
+* **Cloud database** - Snowflake technology eliminates system overload during peak activity
+
+This performance enables organizations to execute complex, multi-touch campaigns at enterprise scale without compromising speed or reliability.
+
+### New and enhanced features {#new-features}
+
+Campaign v8 introduces powerful new capabilities and enhancements:
+
+**AI Assistant**
+
+Leverage generative AI to accelerate content creation:
+
+* Generate email, SMS, and push notification content automatically
+* Adapt messaging to your brand voice and guidelines
+* Brand alignment scoring to ensure consistency
+* Reduce content creation time while maintaining quality
+
+**Rich push notifications**
+
+Create engaging mobile experiences with:
+
+* Images, videos, and carousels in push notifications
+* Interactive buttons and timers
+* Enhanced customization for iOS and Android
+* Improved engagement through visual storytelling
+
+**Upgraded SMS infrastructure (v2.0)**
+
+* Enhanced reliability and delivery rates
+* Better compatibility with SMPP connectors
+* Improved throughput for high-volume SMS campaigns
+* Advanced delivery monitoring and reporting
+
+**Enhanced integrations**
+
+* **Adobe Experience Manager as a Cloud Service** - Seamless content management and asset integration
+* **REST APIs** - Modern API architecture for easier integrations and development
+* **Dynamic Reporting** - Advanced analytics capabilities for Campaign Standard users transitioning to v8
+
+### Automatic upgrades and maintenance {#automatic-upgrades}
+
+Campaign v8 Managed Cloud Services eliminates the burden of manual upgrades:
+
+* **Continuous delivery model** - Automatic upgrades to the latest stable version
+* **Zero downtime** - Upgrades performed with minimal impact on operations
+* **Immediate access** - Get new features and security patches as soon as they're released
+* **Reduced IT burden** - Adobe manages all infrastructure maintenance and updates
+* **Coordinated scheduling** - Adobe works with you to plan upgrade timing
+
+This approach ensures your Campaign instance is always secure, optimized, and equipped with the latest capabilities without requiring internal IT resources for upgrade planning and execution.
 
 ## Self-service admin interface{#self-service-admin}
 

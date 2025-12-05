@@ -152,5 +152,5 @@ In the built-in **[!UICONTROL Tweet]** delivery template, tracking is enabled by
 
 Tracking data can be viewed in the delivery reports and in the **[!UICONTROL Edit > Tracking]** tab of the delivery and the service.
 
-Tracking configuration is the same as for an email delivery. Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html){target="_blank"}.
+Tracking configuration is the same as for an email delivery. Learn more about [tracking](tracking.md).
 

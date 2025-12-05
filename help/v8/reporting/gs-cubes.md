@@ -2,7 +2,7 @@
 title: Get started with Adobe Campaign analytics reports
 description: Learn how to create cubes
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
 ---

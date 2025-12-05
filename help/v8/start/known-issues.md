@@ -2,7 +2,7 @@
 title: Campaign v8 known issues
 description: Known issues in the latest Campaign release
 feature: Overview
-role: Data Engineer
+role: Developer
 level: Beginner
 hide: yes
 hidefromtoc: yes

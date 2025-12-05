@@ -145,22 +145,19 @@ Thanks to its tracking functionalities, Adobe Campaign enables you to track the 
 
 Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies.
 
-* You must inform users that your sites are equipped with web tracking tools via an authorization request (that comes up over the page, for example) with a checkbox to authorize the use of cookies, or add a banner at the top of the first page they land on, etc.
 * Pop-up windows should be avoided as they are often blocked by browsers.
 
 ### Message tracking {#message-tracking}
 
 Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About messages](../start/gs-message.md).
 
-To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the Tracking tab of the delivery dashboard. Tracking data is interpreted in the Tracking indicators report. To learn more about tracking, refer to [this page](../start/tracking.md).
+To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the Tracking tab of the delivery dashboard. Tracking data is interpreted in the Tracking indicators report. To learn more about tracking, refer to [this page](../send/tracking.md).
 
 ### Web tracking {#web-tracking}
 
-Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages.
-
-The configuration of web tracking is explained in [this section](../start/tracking.md).
-
-To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}.
+>[!AVAILABILITY]
+>
+>Web tracking is not available in Campaign v8. Learn more about unavailable features in [this page](../start/v7-to-v8.md#gs-unavailable-features).
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:

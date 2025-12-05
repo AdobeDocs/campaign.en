@@ -34,7 +34,7 @@ To access reports, follow the steps below:
 
 ## Tracking indicators {#tracking-indicators}
 
-This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
+This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, as well as sharing activities to social networks.
 
 >[!NOTE]
 >

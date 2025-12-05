@@ -15,6 +15,7 @@ breadcrumb-title: Campaign technotes
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operators to Developer Console](upgrades/ims-migration.md)
   + [Migrate technical operator to Developer Console](upgrades/ims-migration-old.md)
+  + [Move to the new SMS connector](upgrades/sms-migration.md)  
   + [Campaign sending infrastructure migration to AWS](upgrades/migrate-to-aws.md)
   + [Campaign Email Sending Infrastructure Upgrade](upgrades/upgrade-to-aws.md)
   + [Upgrade Apache version](upgrades/apache.md)

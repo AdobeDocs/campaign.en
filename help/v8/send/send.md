@@ -2,7 +2,7 @@
 title: Send and monitor your emails
 description: Learn about the scope and the specificities of sending emails with Adobe Campaign
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
@@ -21,6 +21,8 @@ Track the execution of the delivery from the **Delivery** tab, accessible via th
 Once sent, check your delivery status in the **Delivery Dashboard** and access delivery logs and reports to confirm messages were correctly sent.
 
 From the delivery dashboard, you can check the processed messages and delivery audit logs. You can also control the status of the messages in the delivery logs.
+
+Learn more about [delivery statuses](delivery-statuses.md).
 
 >[!NOTE]
 >

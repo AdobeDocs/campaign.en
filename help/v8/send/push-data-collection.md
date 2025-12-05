@@ -2,7 +2,7 @@
 title: Send push notification with Adobe Campaign
 description: Get started with push notification in Campaign
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="Limited Availability" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
@@ -49,37 +49,43 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. From **[!UICONTROL Mobile Application Configuration]**, select the Operational system:
 
-    * **For iOS**
-      
-      ![](assets/push-config-2.png)
+>[!BEGINTABS]
 
-        1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. 
+>[!TAB iOS]
+
+![](assets/push-config-2.png)
+
+1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. 
         
-            The app Bundle ID can be found in the **General** tab of the primary target in **XCode** of your Apple developer account.
+      The app Bundle ID can be found in the **General** tab of the primary target in **XCode** of your Apple developer account.
         
-        1. Switch on **[!UICONTROL Push Credentials]** to add your credentials.
+1. Switch on **[!UICONTROL Push Credentials]** to add your credentials.
         
-        1. Drag and drop your .p8 Apple Push Notification Authentication Key file. 
+1. Drag and drop your .p8 Apple Push Notification Authentication Key file. 
         
-            This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page of your Apple developer account.
+      This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page of your Apple developer account.
 
-        1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. 
+1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. 
         
-            It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
+       It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
         
-        1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
-
-    * **For Android**
-
-      ![](assets/push-config-3.png)
-
-        1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
-
-        1. Switch **[!UICONTROL Push Credentials]** to add your credentials.
-
-        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
+
+>[!TAB Android]
+
+   ![](assets/push-config-3.png)
+
+1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
+
+1. Switch **[!UICONTROL Push Credentials]** to add your credentials.
+
+1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+1. Click **[!UICONTROL Save]** to create your app configuration.
+
+>[!ENDTABS]
 
 ## Configure your application settings in Adobe Campaign{#push-config-campaign}
 

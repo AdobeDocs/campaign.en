@@ -10,7 +10,7 @@ feature: Overview
 + [Campaign Automation Guide](home.md)
 + Automate with workflows {#workflows}
   + Get started with workflows {#introduction}
-       + [About workflows](workflow/about-workflows.md)
+     + [About workflows](workflow/about-workflows.md)
      + Types of workflows {#wf-type}
        + [Targeting workflows](workflow/targeting-workflows.md)
        + [Campaign workflows](workflow/campaign-workflows.md)
@@ -18,7 +18,7 @@ feature: Overview
      + [Build a workflow](workflow/build-a-workflow.md)
      + [Best practices](workflow/workflow-best-practices.md)
      + [Use workflow data](workflow/use-workflow-data.md)
-  +  Execute a workflow {#executing-a-workflow}
+  + Execute a workflow {#executing-a-workflow}
        + [Start a workflow](workflow/start-a-workflow.md)
        + [Workflow life cycle](workflow/workflow-life-cycle.md)
        + [Set up approvals](workflow/define-approvals.md)
@@ -28,7 +28,7 @@ feature: Overview
        + [Workflow HeatMap](workflow/heatmap.md)
   + Workflow activities {#wf-activities}
        + [Get started with activities](workflow/activities.md)
-     + Targeting activities {#targeting-activities}
+       + Targeting activities {#targeting-activities}
           + [List of targeting activities](workflow/targeting-activities.md)
           + [Cells](workflow/cells.md)
           + [Change data source](workflow/change-data-source.md)
@@ -50,7 +50,7 @@ feature: Overview
           + [Subscription Services](workflow/subscription-services.md)
           + [Union](workflow/union.md)
           + [Update data](workflow/update-data.md)
-     + Flow control activities {#flow-control-activities}
+       + Flow control activities {#flow-control-activities}
           + [List of flow control activities](workflow/flow-control-activities.md)
           + [Alert](workflow/alert.md)
           + [AND-join](workflow/and-join.md)
@@ -64,7 +64,7 @@ feature: Overview
           + [Test](workflow/test.md)
           + [Time constraint](workflow/time-constraint.md)
           + [Wait](workflow/wait.md)
-     + Action activities {#action-activities}
+       + Action activities {#action-activities}
           + [List of action activities](workflow/action-activities.md)
           + [Content Management](workflow/content-management.md)
           + [Continuous delivery](workflow/continuous-delivery.md)
@@ -81,7 +81,7 @@ feature: Overview
           + [SQL code and JavaScript code](workflow/sql-code-and-javascript-code.md)
           + [SQL Data Management](workflow/sql-data-management.md)
           + [Update aggregate](workflow/update-aggregate.md)
-     + Event activities {#event-activities}
+       + Event activities {#event-activities}
           + [List of event activities](workflow/event-activities.md)
           + [File collector](workflow/file-collector.md)
           + [File transfer](workflow/file-transfer.md)

@@ -2,7 +2,7 @@
 title: Send SMS with Adobe Campaign
 description: Get started with SMS in Campaign
 feature: SMS
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 ---

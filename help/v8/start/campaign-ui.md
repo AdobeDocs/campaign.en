@@ -76,19 +76,17 @@ For each capability, you can access the set of key features in the **[!UICONTROL
 
 For example, when browsing to the **[!UICONTROL Profiles and targets]** tab, you can access to the recipient lists, subscription services, existing targeting workflows and the shortcuts for creating all these components.
 
-![](assets/overview-list.png)
+![Campaign console user interface showing how to access the lists from the Profiles and target tab](assets/overview-list.png)
 
 When you select an element in the screen, it is loaded in a new tab so that you can easily browse content.
 
-![](assets/new-tab.png)
+![Campaign console user interface showing how to edit a list in a new tab](assets/new-tab.png)
 
 ### Create an element {#create-an-element}
 
 Use shortcuts in the **[!UICONTROL Create]** section on the left of the screen to add new elements. You can also use the **[!UICONTROL Create]** button above the list to add new elements to the current list.
 
-For example, on the delivery page, use the **[!UICONTROL Create]** button to create a new delivery.
-
-![](assets/new-recipient.png)
+![Campaign console user interface showing how to create a recipient from the Profiles and target screen](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -103,7 +101,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 Browse Campaign Explorer to access all the Adobe Campaign capabilities and settings. 
 
-![](assets/explorer.png) 
+![Campaign console user interface showing the Explorer with a focus on the Campaigns menu](assets/explorer.png) 
 
 This workspace lets you access the Explorer tree to browse all features and options.
 
@@ -147,7 +145,7 @@ Languages supported depend on the user interface.
     >
     >The language is selected during the installation process, and **cannot be changed** afterwards. 
 
-* For Campaign Web user interface supported languages, [refer to this page](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+* For Campaign Web user interface supported languages, [refer to the Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
 ## Formats
 

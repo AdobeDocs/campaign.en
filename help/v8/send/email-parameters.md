@@ -70,6 +70,50 @@ Each of these fields can be personalized using the dedicated icon. Learn more on
 
 For more on bounce mail management, see [this section](delivery-failures.md#bounce-mail-management).
 
+## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
+
+The one-click list-unsubscribe URL is a link or button displayed next to the email sender information which lets recipients instantly opt out of your mailing lists with a single click. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+It displays as an **Unsubscribe** link in the ISPs' email interfaces. For example:
+
+![](assets/email-list-unsubscribe-example.png)
+
+Adding an SMTP header called List-Unsubscribe is mandatory to ensure optimal deliverability management, and can be used as an alternative to the "Report as SPAM" icon. Indeed, using this functionality lowers complaint rates and helps to protect your reputation.
+
+>[!IMPORTANT]
+>
+>To display the one-click unsubscribe URL in the email header, the recipients' email client must support this feature.
+
+To enable this functionality, select the **[!UICONTROL Addition of One-click List-Unsubscription Header]** option in the **[!UICONTROL SMTP]** tab of the delivery properties.
+
+>[!NOTE]
+>
+>This option is enabled by default.
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+Depending on the email client and the method they are using to perform opt-out, clicking the **Unsubscribe** link in the email header can have the following impacts:
+
+* If the email client is using the **One-Click** List-Unsubscribe method, the recipient is directly opted out.
+
+  >[!NOTE]
+  >
+  >Major ISPs such as Google and Yahoo! are requiring senders to comply with **One-Click List-Unsubscribe**.
+
+* If the email client does not support One-Click List-Unsubscribe, they can still use the **"mailto"** List-Unsubscribe method, which sends a pre-filled email to the unsubscribe address specified in the email header.
+
+  You can set the address explicitly in the header or use a dynamic address (e.g. using <%=errorAddress%> or the option 'NmsEmail_DefaultErrorAddr') which can be set via the deployment wizard.
+
+>[!NOTE]
+>
+>You can also set the [One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} and ["mailto" List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} methods manually. The detailed steps are described in the Experience Cloud [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}.
+
+
 ## Add SMTP headers {#adding-smtp-headers}
 
 It is possible to add SMTP headers to your deliveries. To do this, use the relevant section of the **[!UICONTROL SMTP]** tab in the delivery.
