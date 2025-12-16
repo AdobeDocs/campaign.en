@@ -6,8 +6,6 @@ role: User
 level: Beginner
 keywords: FAQ, Campaign v8, questions, answers, help, support, troubleshooting
 version: Campaign v8
-hide: yes
-hidefromtoc: yes
 ---
 # Frequently Asked Questions {#faq}
 
@@ -329,7 +327,7 @@ Campaign v8 is built on a modern cloud-native architecture with significant impr
 
 +++ Should I migrate from Campaign Classic v7 or Campaign Standard to v8?
 
-Campaign v8 is Adobe's strategic platform, ideal for organizations needing high-volume campaigns (20M operations/hour), modern web UI, cloud-native benefits, and long-term support. Previous versions will reach End of Support in the coming years.
+Campaign v8 is Adobe's platform, ideal for organizations needing high-volume campaigns (20M operations/hour), modern web UI, cloud-native benefits, and long-term support.
 
 **Key benefits:**
 

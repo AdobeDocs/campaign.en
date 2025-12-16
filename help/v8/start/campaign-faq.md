@@ -5,6 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
+hide: yes
+hidefromtoc: yes
 ---
 # Frequently Asked Questions{#faq}
 
