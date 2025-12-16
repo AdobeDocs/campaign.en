@@ -513,11 +513,6 @@ Learn more about the [Exclusion activity](https://experienceleague.adobe.com/doc
 
 +++
 
-+++ Can I use external profiles without importing them in Campaign?
-
-Yes, Campaign v8 allows you to work with external profiles stored in an external database without loading them into Adobe Campaign. [Learn more](../audiences/external-profiles.md).
-
-+++
 
 ## Message Design {#design}
 

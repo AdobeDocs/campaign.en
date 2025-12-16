@@ -125,7 +125,6 @@ breadcrumb-title: Campaign v8 Documentation
     + Add profiles {#add-profiles}
       + [Create profiles manually](audiences/create-profiles.md)
       + [Import profiles from a file](audiences/import-profiles.md)
-      + [Work with external profiles](audiences/external-profiles.md)
       + [Collect profile data in web forms](audiences/collect-profiles.md)
       + [Work with target mappings](audiences/target-mappings.md)
       + [Create test profiles](audiences/test-profiles.md)
