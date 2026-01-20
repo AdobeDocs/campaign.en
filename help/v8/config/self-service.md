@@ -22,7 +22,15 @@ Learn more in [Campaign Control Panel documentation](https://experienceleague.ad
 
 ## How to access Control Panel? {#ac-control-panel-access}
 
-The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target="_blank"} for more information.
+The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. 
+
+>[!IMPORTANT]
+>
+>By default, the Control Panel is accessible to Admin users belonging to the "Administrators" Product Profile. According to your organization configuration, the Product Profile can be named differently ("admin", "admins", "approval admin", etc.). **Any Product Profile containing the word "admin" in its name will automatically grant access to Control Panel.** 
+>
+>Carefully review your Product Profile naming to ensure only authorized users have Control Panel access.
+
+[Click here](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html){target="_blank"} for more information.
 
 ## Control Panel FAQ {#ac-control-faq}
 
