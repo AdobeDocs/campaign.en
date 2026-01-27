@@ -94,13 +94,13 @@ Example using PushEvents:
 </urn:PushEvents>
 ```
 
-The **`<rtevent>`** and **`<batchevent>`** elements have a set of attributes as well as a mandatory child element: **`<ctx>`** for integrating message data.
+The **`<rtevent>`** and **`<batchEvent>`** elements have a set of attributes as well as a mandatory child element: **`<ctx>`** for integrating message data.
 
 >[!NOTE]
 >
->The **`<batchevent>`** element lets you add the event to the "batch" queue. The **`<rtevent>`** adds the event to the "real time" queue.
+>The **`<batchEvent>`** element lets you add the event to the "batch" queue. The **`<rtevent>`** adds the event to the "real time" queue.
 
-The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
+The mandatory attributes of the **`<rtevent>`** and **`<batchEvent>`** elements are @type and @email. The value of @type must be the same as the itemized list value defined when configuring the execution instance. This value lets you define the template to be linked to the content of the event during the delivery.
 
 `<rtevent> configuration example:`
 
