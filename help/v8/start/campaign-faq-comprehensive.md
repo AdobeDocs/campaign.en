@@ -1256,6 +1256,18 @@ Email deliverability depends on technical configuration, content quality, and se
 
 +++
 
++++ How can I access data stored in an external database?
+
+Campaign v8 provides Federated Data Access (FDA) to query and use data stored in external databases without changing the Campaign data model. You configure an external account, then use FDA in workflows, queries, and targeting to combine external data with Campaign profiles.
+
+FDA availability and connection requirements depend on your deployment and licensing. Review supported databases and required versions in the compatibility matrix.
+
+**Related topics:**
+
+[Configure FDA connections](../connect/fda.md) | [Compatibility matrix](compatibility-matrix.md)
+
++++
+
 +++ Which external databases can I connect Campaign to?
 
 Campaign v8 supports Federated Data Access (FDA) connections to major enterprise database systems (cloud databases, enterprise databases, data warehouses, big data platforms).
@@ -1298,7 +1310,34 @@ Clearing the client console cache resolves many common display and functionality
 4. Confirm the action when prompted
 5. Restart the client console
 
+**If the issue persists (advanced):**
+
+Close the client console, then manually remove the local cache files from your user profile.
+
+**Manual cache cleanup (Windows):**
+
+1. In the client console, select **[!UICONTROL File]** > **[!UICONTROL Clear the local cache...]**.
+2. Log out and close the client console.
+3. Go to the cache location based on your Windows version. For Windows 10: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
+4. Delete the `nlclient-config-<alphanumerical>.xml` files and their associated folders.
+
+>[!IMPORTANT]
+>
+>Do not delete `nlclient_cnx.xml`.
+
+Adobe Support can confirm the correct cache location for your version and OS and guide you through a safe manual cleanup.
+
 Learn more in [Install and configure client console](connect.md)
+
++++
+
++++ Can Adobe Campaign integrate with LDAP?
+
+No. Campaign v8 does not support LDAP integration. Authentication uses Adobe IMS (Adobe ID or Federated ID). If you are migrating from Campaign Classic v7, review unsupported features and authentication changes.
+
+**Related topics:**
+
+[Connect to Campaign v8](connect.md) | [Unsupported features in v8](v7-to-v8.md#gs-removed)
 
 +++
 
