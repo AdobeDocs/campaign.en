@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate, Experienced
 hide: yes
 hidefromtoc: yes
-exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
+exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 ---
 # Query the database with queryDef {#query-database-api}
 
@@ -899,4 +899,3 @@ Complete structure of the `queryDef` object:
 * [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [Work with schemas](schemas.md)
 * [Work with the query editor](../start/query-editor.md)
-

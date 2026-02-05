@@ -5,6 +5,7 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
 ---
 # Delivery statuses {#delivery-statuses}
 
@@ -103,4 +104,3 @@ If your delivery is not being sent and its status remains **[!UICONTROL Pending]
 * [Send and monitor your emails](send.md#email-monitoring)
 * [Understand delivery failures](delivery-failures.md)
 * [Monitor your Campaign environment](../start/monitor.md#monitor-deliveries)
-

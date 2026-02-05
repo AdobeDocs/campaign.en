@@ -4,6 +4,7 @@ description: Learn how to monitor deliveries, workflows, and your Campaign insta
 feature: Monitoring
 role: User
 level: Beginner
+exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
 ---
 # Campaign monitoring overview {#monitor-campaign}
 
@@ -165,4 +166,3 @@ Learn more about [global reports](../reporting/global-reports.md)
 * [Quarantine management](../send/quarantines.md)
 * [Configure and send deliveries](../send/configure-and-send.md)
 * [Get started with reporting](../reporting/gs-reporting.md)
-

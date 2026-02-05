@@ -5,6 +5,7 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
+exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
 ---
 # Work with enumerations {#enumerations}
 

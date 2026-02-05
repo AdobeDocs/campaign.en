@@ -1,10 +1,11 @@
 ---
-title: Design queries in Campaign v8 
+title: Design queries in Campaign v8
 description: Learn how to create queries in Campaign client console
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
+exl-id: d34b6073-a7e7-443a-a6d8-e74ef10a67e8
 ---
 # Query Campaign database
 
