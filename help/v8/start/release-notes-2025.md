@@ -346,6 +346,8 @@ _Jan 15, 2025_
 
 ### Security improvements {#security-8-6-4}
 
+Enhanced HTTP request processing in the Apache web module to strengthen security and prevent potential request handling vulnerabilities. (NEO-85824)
+
 Connection with Adobe solutions and apps through the **[!UICONTROL Adobe Experience Cloud]** external account has been updated to reinforce security. 
 
 <!--

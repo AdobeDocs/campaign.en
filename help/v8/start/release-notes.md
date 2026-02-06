@@ -25,9 +25,9 @@ This release comes with a set of functionalities available with the Campaign Web
 * [Multilingual delivery capabilities (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 * [Profile Enrichment in Transactional Messages (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"} 
 * [Adobe Experience Manager live and language copies](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"} 
-* [Content experiments - A/B testing](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html)
-* [Continuous delivery activity](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html)
-* [Campaign approval management](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html)
+* [Content experiments - A/B testing](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"} 
+* [Continuous delivery activity](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"} 
+* [Campaign approval management](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"} 
 
 Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
@@ -78,3 +78,4 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Optimized slow queries on the recipient table in FFDA deployments. (NEO-89268)
 * Fixed an issue where incremental query activities ignored configured schedules. (NEO-89317)
 * Resolved access errors when opening campaigns in hybrid environments. (NEO-89320)
+* Fixed discrepancies in Campaign Web UI reports where tracking statistics displayed different values compared to the console. The Tracking Indicators, Sending Summary, and URL Click Streams reports now show consistent metrics across both interfaces. (NEO-82339)
