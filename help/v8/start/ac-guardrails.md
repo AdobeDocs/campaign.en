@@ -16,7 +16,7 @@ Guardrails and limitations identify capabilities, architecture, or processes tha
 
 * Adobe Campaign v8 is not available for on-premise/hybrid deployments - only released as an Adobe Managed Cloud Service
 * No automatic migration to Adobe Campaign v8 is available for existing customers
-* In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), no bi-directional data replication is provided: replication happens only from the Campaign local database to the Cloud database
+* In the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md), no bi-directional data replication is provided: replication happens only from the Campaign local database to the Cloud database
 * Capabilities listed [in this section](v7-to-v8.md#gs-unavailable-features) are not available in the current Campaign v8 build
 * Some non-available or removed features are still visible in the user interface
 * In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), subscription (opt-in) and unsubscription (opt-out) mechanisms, and Mobile registration are asynchronous processes. Requests are processed each hour through a specific technical workflow. [Learn more](../architecture/replication.md#tech-wf)
