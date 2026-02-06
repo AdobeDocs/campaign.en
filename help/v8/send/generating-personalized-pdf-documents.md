@@ -5,6 +5,7 @@ description: Learn how to generate personalized PDF documents
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
 ---
 # Generate personalized PDF documents{#generating-personalized-pdf-documents}
 

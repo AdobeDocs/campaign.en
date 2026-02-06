@@ -5,6 +5,7 @@ description: Learn how to create and insert personalized coupons
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
+exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
 ---
 # Personalized coupons{#personalized-coupons}
 

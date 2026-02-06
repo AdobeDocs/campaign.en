@@ -6,6 +6,7 @@ role: User
 level: Beginner
 keywords: FAQ, Campaign v8, questions, answers, help, support, troubleshooting
 version: Campaign v8
+exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
 ---
 # Frequently Asked Questions {#faq}
 
@@ -1832,4 +1833,3 @@ Advance your skills with official Adobe training and certification programs.
 * **[Campaign Classic v7 Documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html){target="_blank"}** - Reference for Classic v7 users
 * **[Campaign Web UI Documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}** - New web interface guide
 * **[Deliverability Best Practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}** - Optimize email delivery
-

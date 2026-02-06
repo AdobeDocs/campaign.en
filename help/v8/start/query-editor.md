@@ -5,6 +5,7 @@ feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
+exl-id: 071274f1-7c60-445d-ac07-f5f4f229a489
 ---
 # Query Campaign database
 

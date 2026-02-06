@@ -5,6 +5,7 @@ feature: Monitoring
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
+exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
 ---
 # Monitor your deliveries in Campaign UI {#delivery-dashboard}
 
@@ -158,4 +159,3 @@ System issues can prevent servers from processing deliveries efficiently. If you
 >[!NOTE]
 >
 >As a Campaign v8 Managed Cloud Services user, server infrastructure monitoring is managed by Adobe. If you experience persistent performance issues with delivery sending, contact Adobe Customer Care with your delivery logs.
-

@@ -1,12 +1,12 @@
 ---
-title: Design queries in Campaign v8 
+title: Design queries in Campaign v8
 description: Learn how to create queries
 feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
+exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
 ---
-
 # Define filter conditions{#filter-conditions}
 
 To design your query, you must select the filtering conditions in the query editor. Available capabilities and use cases are detailed in this page.
