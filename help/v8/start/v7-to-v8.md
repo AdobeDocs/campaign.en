@@ -49,11 +49,11 @@ Learn more about sending transactional message proofs when transitioning from v7
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
 
-In its [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
+In its [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 works with two databases: a local [!DNL Campaign] database for the user interface real-time messaging and unitary queries and write through APIs, and a cloud [!DNL Snowflake] database for campaign execution, batch queries and workflow execution.
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You only need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-Learn more about [!DNL Campaign] v8 architecture in [this page](../architecture/architecture.md).
+Learn more about [!DNL Campaign] v8 architecture in [this page](../../v8/architecture/architecture.md). 
 
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}
@@ -70,7 +70,7 @@ With Adobe Campaign v8, cube reports are optimized and bring better scale capabi
 
 ## Unavailable features{#gs-unavailable-features}
 
-Please note that some capabilities are not available in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md) of Campaign, such as:
+Please note that some capabilities are not available in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md) of Campaign, such as:
 
 * Marketing Resource Management
 * Coupons
