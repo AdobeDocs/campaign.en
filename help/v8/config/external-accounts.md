@@ -97,7 +97,7 @@ The **External database** type external account is used to connect to an externa
 
 External account configuration settings depend on the database engine. With Adobe Campaign Managed Cloud Services, external accounts configuration is performed by Adobe. Learn more about this configuration in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
 
-### Databricks External Account {#databricks-external-accounts}
+#### Databricks External Account {#databricks-external-accounts}
 
 The Databricks FDA connection uses the Databricks ODBC driver. Starting Campaign v8.9.1, Databricks external accounts support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication for federated data access. 
 
