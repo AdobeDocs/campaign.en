@@ -34,7 +34,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 ### Security improvements {#security-8-9-1}
 
 * Snowflake external accounts now support OAuth2 authentication, providing modern and secure authentication methods for federated data access connections. (NEO-87013)
-* Databricks external accounts now support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication methods for federated data access connections. Interactive OAuth2 authentication will be available in a future release. (NEO-87422)
+* Databricks external accounts now support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication methods for federated data access connections. Interactive OAuth2 authentication will be available in a future release. (NEO-87422) [Read more](../config/external-accounts.md#databricks-external-accounts)
 * Fixed workflow file access vulnerabilities by restricting operations to authorized directories, preventing unauthorized access and potential remote code execution. (NEO-88460)
 * Added FTP URL allowlisting controls to workflow JavaScript code activities, restricting outbound FTP connections to authorized addresses only. (NEO-89083)
 
