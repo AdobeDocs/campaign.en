@@ -107,7 +107,7 @@ To configure OAuth2 authentication via service principal in Campaign:
 
 1. The Databricks workspace administrator enables service principals on the Databricks workspace and generates credentials. To authorize access to your Azure Databricks resources with OAuth, create an OAuth secret (used to generate OAuth access tokens for authentication).
 2. In Adobe Campaign, create or edit a Databricks external account and open the **OAuth** tab.
-3. Paste the credentials into the **Secret** field of the OAuth tab of the Databricks external account.
+3. Paste the credentials into the fields of the OAuth tab of the Databricks external account.
 4. Use **[!UICONTROL Test the connection]** to validate the configuration.
 
 ### X (formerly known as Twitter) {#twitter-external-account}
