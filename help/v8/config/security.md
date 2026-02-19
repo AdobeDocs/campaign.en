@@ -32,9 +32,10 @@ Use this checklist to align your configuration with recommended secure defaults:
 
 ### Where to find this guidance {#public-guidance}
 
-This recommended secure configuration guidance is published publicly on Experience League. You can use and share it without restriction:
+Adobe Campaign currently does not provide recommended secure configuration guidance in a machine-readable format. You can use the following documentation to compare your current settings against recommended secure defaults:
 
 * **This page** – [Campaign security best practices](#ac-security) (checklist and detailed sections)
+* **[Campaign Settings (FAQ)](../start/campaign-faq-comprehensive.md#settings)** – Compare settings to recommended secure defaults
 * **[Enhanced security add-on](enhanced-security.md)** – Secure CMK integration and Secure VPN tunneling
 * **[Get started with permissions](../start/gs-permissions.md)** – Access and product profiles
 * **[Restrict PII view](../dev/restrict-pi-view.md)** – Restricting access to sensitive fields
