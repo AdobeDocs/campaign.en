@@ -13,6 +13,22 @@ At Adobe, we take the security of your digital experience very seriously. Securi
 
 Furthermore, our collaborative work with partners, leading researchers, security research institutions, and other industry organizations helps us keep up to date with the latest threats and vulnerabilities and we regularly incorporate advanced security techniques into the products and services we offer.
 
+>[!NOTE]
+>
+>**Campaign v8 Managed Cloud Services:** Infrastructure (network, server, TLS, patching) is managed by Adobe. This page focuses on tenant- and application-level configuration that you control: access management, authentication, instance settings, data protection, coding, and operational practices.
+
+## Security checklist {#security-checklist}
+
+Use this checklist to align your configuration with recommended secure defaults:
+
+* [Access management](#access-management): Create security groups, assign appropriate rights, limit admin use, one operator per user, review periodically
+* [Authentication and session](#authentication-and-session): Use Adobe IMS, strong identity policy, session timeout
+* [Instance and network security](#instance-and-network-security): IP allowlist, URL permissions, GPG keys via Control Panel
+* [Data and PII protection](#data-and-pii-protection): HTTPS, PII view restriction, restrict passwords, protect sensitive pages
+* [Coding guidelines](#coding-guidelines): No hardcoded secrets, validate input, parameterized SQL, captchas
+* [Data restriction](#data-restriction): Restrict access to password and secret fields in external accounts
+* [Operational and compliance](#operational-and-compliance): Compare to this baseline periodically, use audit trail
+
 ## Privacy
 
 To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. Adobe Campaign's capabilities help you comply with the regulations listed in [this page](../start/privacy.md)
@@ -159,38 +175,58 @@ To do this, add tracked links to your messages in order to measure the impact of
 >
 >Web tracking is not available in Campaign v8. Learn more about unavailable features in [this page](../start/v7-to-v8.md#gs-unavailable-features).
 
-<!--
-Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
+## Data and PII protection {#data-and-pii-protection}
 
-* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
-* Use [PI view restriction](../dev/restrict-pi-view.md) to protect privacy and prevent data from being misused
-* Make sure that encrypted passwords are restricted
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
--->
+Privacy configuration and hardening is a key element of security optimization. Follow these best practices:
+
+* **Use HTTPS for all endpoints** – Ensure all endpoints used by Campaign (tracking, mirror page, web applications, APIs) are served over HTTPS.
+* **Restrict PII view** – Use [PII view restriction](../dev/restrict-pi-view.md) so that only authorized operators can see sensitive fields (e.g. email, phone) in schemas and screens.
+* **Restrict access to encrypted passwords** – Restrict access to password and secret fields in external accounts and other schemas so only administrators or a minimal set of operators can view them. See [Data restriction](#data-restriction) below.
+* **Protect sensitive pages** – Restrict access to mirror pages, web applications, and landing pages that display or collect PII; use operator and folder permissions and, where relevant, captchas and consent.
 
 >[!NOTE]
 >
 >As a Managed Cloud Services user, Adobe will work with you to implement these configurations on your environment.
 
+## Access management {#access-management}
 
-## Access management
+Access management is an important part of security hardening. Here are the main best practices:
 
-Access management is an important part of security hardening. Here are some of the main best practices:
+* **Create enough security groups** – Define operator groups that match roles and assign only the rights each role needs.
+* **Check that each operator has the appropriate access rights** – Apply the principle of least privilege; avoid granting ADMINISTRATION or other broad rights by default.
+* **Avoid using the admin operator and avoid having too many operators in the admin group** – Do not share the built-in admin account; create one operator per physical user for accountability and audit.
+* **One operator per physical user** – Do not share accounts. Create one Campaign operator (Adobe ID) per person so audit trails and logs are attributable.
+* **Limit high-privilege named rights** – Grant **ADMINISTRATION**, **PROGRAM EXECUTION** (createProcess), and **SQL** only to a small number of trusted operators; document who has them and why.
+* **Review access periodically** – Periodically review Operators, Operator groups, and folder permissions; remove or reduce access when roles change or people leave.
+* **Use product profiles consistently** – Prefer assigning users to product profiles (operator groups) in Admin Console; keep naming consistent (e.g. `campaign - <instance> - <group>`). See [Get started with permissions](../start/gs-permissions.md).
+* **Control Panel access** – In Campaign v8, product profiles or named rights whose name contains "admin" can grant access to Campaign Control Panel. Avoid using "admin" in profile or group names unless those users should have Control Panel access.
 
-* Create enough security groups
-* Check that each operator has the appropriate access rights
+Learn more about permissions in [this section](../start/gs-permissions.md).
 
-Learn more about permissions in [this section](../start/gs-permissions.md)
+## Authentication and session {#authentication-and-session}
 
-## Coding guidelines
+* **Use Adobe IMS** – All users should sign in with their Adobe ID (IMS); do not rely on legacy login/password for day-to-day operators.
+* **Rely on strong identity and password policy** – Use Admin Console or your identity provider for MFA and password policy; ensure only authorized users are assigned to Campaign product profiles.
+* **Configure session timeout** – Where configurable (e.g. client console), set a reasonable session timeout and lock the screen when leaving the workstation.
+
+## Instance and network security {#instance-and-network-security}
+
+As a Campaign v8 product administrator, use [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"} to manage instance-level security:
+
+* **IP allowlist** – Manage the IP allowlist for instance access; restrict to known networks (e.g. office, VPN) and avoid overly broad ranges where possible.
+* **URL permissions** – Restrict URL permissions to the domains your instance needs to call (APIs, tracking, external services) to reduce the risk of server-side request abuse.
+* **GPG keys** – If you use encryption for file transfers or other use cases, manage GPG keys via Control Panel and rotate them according to your security policy.
+
+## Coding guidelines {#coding-guidelines}
 
 When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
 
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
-
-* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
-
-* **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
+* **Scripting** – Try to avoid raw SQL; use parameterized functions instead of string concatenation. Avoid SQL injection by adding only the SQL functions you need to the allow list.
+* **Secure the data model** – Use named rights to limit operator actions and add system filters (sysFilter).
+* **Add captchas in web applications** – Add captchas to public landing pages and subscription pages.
+* **Do not hardcode secrets** – Do not hardcode passwords, API keys, or tokens in workflows, JavaScript, or JSSP; use external accounts or secure configuration.
+* **Validate and sanitize input** – Validate and sanitize user input in web applications and workflow parameters to reduce injection and XSS risks.
+* **Use the allow list for SQL** – When SQL or script execution is required, use the allow list for permitted SQL functions and avoid building queries from user input via string concatenation.
 
 Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
@@ -205,7 +241,7 @@ When adding personalized links to your content, always avoid having any personal
 * `https://<%= sub-domain >.domain.tld/path`
 * `https://sub.domain<%= main domain %>/path`
 
-## Data restriction
+## Data restriction {#data-restriction}
 
 You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main ways: restrict access to password fields only or to the entire entity.
 
@@ -267,24 +303,7 @@ This restriction allows you to remove passwords fields but leaves the external a
     >
     >You can replace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
 
+## Operational and compliance {#operational-and-compliance}
 
-## Access management
-
-Access management is an important part of security hardening. Here are some of the main best practices:
-
-* Create enough security groups
-* Check that each operator has the appropriate access rights
-
-Learn more about permissions in [in this section](../start/gs-permissions.md).
-
-## Coding guidelines
-
-When developing in Adobe Campaign (workflows, Javascript, JSSP, etc.), always follow these guidelines:
-
-* **Scripting**: try to avoid SQL statements, use parameterized functions instead of string concatenation, avoid SQL injection by adding the SQL functions to use to the allow list.
-
-* **Secure the data model**: use named rights to limit operator actions, add system filters (sysFilter)
-
-* **Add captchas in web applications**: add captchas in your public landing pages and subscription pages.
-
-Learn more in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
+* **Compare to secure baseline** – Periodically compare your operator groups, named rights, and folder permissions to the recommendations in this page (and, when applicable, the [Enhanced security add-on](enhanced-security.md)) to align with recommended secure defaults.
+* **Use the audit trail** – Rely on Campaign's audit trail for important changes (e.g. workflows, deliveries, key configuration); retain and review logs as required by your compliance and retention policy.

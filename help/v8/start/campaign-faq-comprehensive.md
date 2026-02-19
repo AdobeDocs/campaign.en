@@ -1192,6 +1192,20 @@ Campaign Control Panel is a web-based administrative interface that helps Campai
 
 +++
 
++++ How do I check that my operators and permissions follow security best practices?
+
+Adobe Campaign v8 offers the capability to compare all current settings for top-level administrative accounts and privileged accounts to recommended secure defaults.
+
+* **Current settings (full visibility):** All settings for administrative and privileged accounts can be reviewed in **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (client console or Campaign Web UI): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (e.g. ADMINISTRATION, APPROVAL ADMINISTRATION), and folder-level permissions. Product administrators can also review instance-level settings in [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"} (IP allowlist, URL permissions, instance details, and more).
+* **Recommended secure defaults:** The [Security guidelines](../config/security.md) define the recommended secure baseline for administrative and privileged accounts, including: create sufficient security groups, assign appropriate access rights per operator, and limit use of the admin operator and admin group. When applicable, see also the [Enhanced security add-on](../config/enhanced-security.md) for network and encryption hardening.
+* **Comparison:** Administrators compare their current configuration to these documented recommendations to identify gaps and align with secure defaults.
+
+**Related topics:**
+
+[Get started with permissions](gs-permissions.md) | [Security guidelines](../config/security.md) | [Enhanced security add-on](../config/enhanced-security.md)
+
++++
+
 +++ What is the procedure for domain delegation?
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (transactional messages, marketing information, etc.).
