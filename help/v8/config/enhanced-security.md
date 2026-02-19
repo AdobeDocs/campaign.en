@@ -1,6 +1,6 @@
 ---
 title: Campaign Enhanced security add-on
-description: Get started with the Campaign Enhanced security add-on
+description: Secure configuration guidance for the Campaign Enhanced security add-on
 feature: Configuration
 role: Developer
 level: Experienced
@@ -8,6 +8,8 @@ exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 ---
 
 # Campaign Enhanced Security add-on {#enhanced-security}
+
+This page is part of Adobe's [publicly available recommended secure configuration guidance](security.md#public-guidance) for Campaign v8.
 
 To make your network connection more secure and provide improved security for your resources, [!DNL Adobe Campaign] offers a new **Enhanced security** add-on.
 

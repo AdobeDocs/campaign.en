@@ -1,6 +1,6 @@
 ---
 title: Campaign security best practices
-description: Get started with Campaign security best practices
+description: Recommended secure configuration guidance for Campaign
 feature: Privacy, PI
 role: Developer
 level: Beginner
@@ -17,6 +17,7 @@ Furthermore, our collaborative work with partners, leading researchers, security
 >
 >**Campaign v8 Managed Cloud Services:** Infrastructure (network, server, TLS, patching) is managed by Adobe. This page focuses on tenant- and application-level configuration that you control: access management, authentication, instance settings, data protection, coding, and operational practices.
 
+
 ## Security checklist {#security-checklist}
 
 Use this checklist to align your configuration with recommended secure defaults:
@@ -28,6 +29,16 @@ Use this checklist to align your configuration with recommended secure defaults:
 * [Coding guidelines](#coding-guidelines): No hardcoded secrets, validate input, parameterized SQL, captchas
 * [Data restriction](#data-restriction): Restrict access to password and secret fields in external accounts
 * [Operational and compliance](#operational-and-compliance): Compare to this baseline periodically, use audit trail
+
+### Where to find this guidance {#public-guidance}
+
+This recommended secure configuration guidance is published publicly on Experience League. You can use and share it without restriction:
+
+* **This page** – [Campaign security best practices](#ac-security) (checklist and detailed sections)
+* **[Enhanced security add-on](enhanced-security.md)** – Secure CMK integration and Secure VPN tunneling
+* **[Get started with permissions](../start/gs-permissions.md)** – Access and product profiles
+* **[Restrict PII view](../dev/restrict-pi-view.md)** – Restricting access to sensitive fields
+* **[Implementation guidelines](../start/implement.md)** – Security and privacy before you start
 
 ## Privacy
 
