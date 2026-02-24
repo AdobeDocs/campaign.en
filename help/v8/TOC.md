@@ -24,6 +24,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
   + [Documentation updates](start/documentation-updates.md)
+  + [Monthly updates report](../../monthly-updates-report.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
