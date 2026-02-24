@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 version: Campaign v8 Client Console
 solution: Campaign, Campaign v8, Campaign v8 Client Console
+landing-page-name: campaign
+landing-page-breadcrumb-title: Campaign
 product: adobe campaign
 feature-set: Campaign
 type: Documentation
