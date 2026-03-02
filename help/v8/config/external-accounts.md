@@ -110,6 +110,40 @@ To configure OAuth2 authentication via service principal in Campaign:
 3. Paste the credentials into the fields of the OAuth tab of the Databricks external account.
 4. Use **[!UICONTROL Test the connection]** to validate the configuration.
 
+#### Snowflake External Account {#snowflake-external-accounts}
+
+The Snowflake FDA connection uses the Snowflake ODBC driver. Starting Campaign v8.9.1, Snowflake external accounts support OAuth2 authentication, providing secure authentication for federated data access.
+
+Learn more about OAuth in Snowflake in the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/oauth-intro){target="_blank"}.
+
+First, you need to perform the following steps on Snowflake:
+
+1. Before configuring your Snowflake external account using OAuth 2.0, you first need to create an OAuth Security Integration in Snowflake. The **ACCOUNTADMIN** role is required to create the security integration. 
+
+   Learn more about creating OAuth Security Integration in the [Snowflake documentation](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}.
+
+1. You can then query the Client ID and Client Secret using:
+
+   ```
+   select system$show_oauth_client_secrets('OAUTH_INTEGRATION_ABC'); // use uppercase letters
+   ```
+
+To configure OAuth2 authentication in Campaign, follow these steps:
+
+1. In Adobe Campaign, create or edit a Snowflake external account and check the **[!UICONTROL Use OAuth 2.0]** option.
+
+1. Set the server, database and schema and open the **[!UICONTROL OAuth]** tab.
+
+1. Set the **[!UICONTROL Client ID]**, **[!UICONTROL Client Secret]** and **[!UICONTROL Redirect URL]** security integration parameters. These parameters are obtained from your Snowflake OAuth Security Integration. Refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"}.
+
+1. Click **[!UICONTROL Proceed to Sign in]** to perform manual login. A new browser window will open where you will be prompted to enter your Snowflake user credentials.
+
+1. After completing the authentication process, the account is authenticated for the number of days defined in your Snowflake OAuth Security Integration (using the `OAUTH_REFRESH_TOKEN_VALIDITY` parameter). The refresh token is stored in the external account.
+
+>[!CAUTION]
+>
+>Note that the redirect URL should always target `oauth.jsp` on your Campaign application server machine over HTTPS (port 443). Also, server domains with underscores are not supported when using OAuth. Use server domains without underscores where the intention is to use OAuth.
+
 ### X (formerly known as Twitter) {#twitter-external-account}
 
 The **Twitter** type external account is used to connect Campaign to your X account, to post messages on your behalf. Learn more about X integration in [this section](../connect/ac-tw.md).
