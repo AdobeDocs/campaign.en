@@ -17,12 +17,11 @@ To deliver SMS to mobile devices with Adobe Campaign, you need:
 
 * An SMS delivery template that is correctly linked to this external account.
 
+Adobe Campaign supports two SMS connectors used for sending SMS messages to your customers. [Learn more](sms-connectors.md).
 
 >[!NOTE]
 >
 >You can also use Adobe Campaign to send [push notifications](../push.md) and [LINE](../line/line.md) messages to mobile devices.
->
-> For customers using the legacy SMS connector, the existing implementation remains supported. However, we recommend moving to the new connector. Contact Adobe if you would like to transition.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
