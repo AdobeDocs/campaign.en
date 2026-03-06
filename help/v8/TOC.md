@@ -60,6 +60,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Attach files to an email](send/attaching-files.md)
   + SMS {#sms}
     + [Get started with SMS](send/sms/sms.md)
+    + [About SMS connector types](send/sms/sms-connectors.md)
     + [SMS channel characteristics](send/sms/sms-channel.md)
     + [Create a SMS delivery](send/sms/create-sms.md)
     + [Define the content](send/sms/sms-content.md)
