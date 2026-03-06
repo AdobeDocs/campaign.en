@@ -4,6 +4,7 @@ description: Learn about SMS connectors in Adobe Campaign
 feature: SMS
 role: User, Admin
 level: Intermediate
+exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
 ---
 # About SMS connector types {#sms-connectors}
 
