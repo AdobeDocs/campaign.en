@@ -8,6 +8,24 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+## Release 8.9.2 {#release-8-9-2}
+
+_Mar 9, 2026_
+
+>[!CAUTION]
+>
+> Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console).
+
+### Security improvements {#security-8-9-2}
+
+* To maintain optimal security, stability, and compliance, all instances have been upgraded to Debian 13 and PostgreSQL 17.
+
+### Fixes {#fixes-8-9-2}
+
+* Fixed an issue where event dates in transactional events were incorrectly set due to a data type conversion issue, causing incorrect dates in dynamic reporting. (NEO-93923)
+* Fixed an issue where Android and iOS silent push notifications failed during delivery preparation when title and body fields were empty. (NEO-93739)
+* Fixed an issue preventing the language field from being captured for Android app registration tokens due to incorrect reconciliation keys. (NEO-93100)
+
 ## Release 8.9.1 {#release-8-9-1}
 
 _Jan 27, 2026_
