@@ -10,7 +10,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.2 {#release-8-9-2}
 
-_Mar 9, 2026_
+_Mar 11, 2026_
 
 >[!CAUTION]
 >
@@ -25,6 +25,8 @@ _Mar 9, 2026_
 * Fixed an issue where event dates in transactional events were incorrectly set due to a data type conversion issue, causing incorrect dates in dynamic reporting. (NEO-93923)
 * Fixed an issue where Android and iOS silent push notifications failed during delivery preparation when title and body fields were empty. (NEO-93739)
 * Fixed an issue preventing the language field from being captured for Android app registration tokens due to incorrect reconciliation keys. (NEO-93100)
+* Fixed an issue where delivery preparation failed when applying custom typology rules with pressure rules. (NEO-94457)
+* Fixed an issue where the client console could experience HTTP request processing failures. (NEO-94071)
 
 ## Release 8.9.1 {#release-8-9-1}
 
