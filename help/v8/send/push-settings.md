@@ -88,7 +88,7 @@ Follow implementation steps detailed in the links below:
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
 
-After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection. 
+After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection.
 
 The mobile app push credential registration is required to authorize Adobe to send push notifications on your behalf. Refer to the steps detailed below:
 
@@ -103,13 +103,13 @@ The mobile app push credential registration is required to authorize Adobe to se
     * **For iOS**
 
         1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
-        
+
         1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
-        
+
         1. Drag and drop your .p8 Apple Push Notification Authentication Key file. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
         1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
-        
+
         1. Provide the **Team ID**. This is a string value which can be found under the Membership tab.
 
     * **For Android**
@@ -119,7 +119,7 @@ The mobile app push credential registration is required to authorize Adobe to se
         1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
 
         1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-    
+
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
 -->

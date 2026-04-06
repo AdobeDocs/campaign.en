@@ -86,9 +86,11 @@ In order to make split external accounts as the default account for sending out 
 
 1. Save your changes. All deliveries sent using the template will now be using the split routing mode by default.
 
-<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
+<!--
+In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
 
-![](assets/split-default-options.png) -->
+![](assets/split-default-options.png)
+-->
 
 ## Message Center architecture{#transac-msg-archi}
 

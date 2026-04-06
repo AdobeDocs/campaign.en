@@ -42,8 +42,8 @@ In the context of Adobe Campaign Marketing Resource Management, the following co
 >[!NOTE]
 >
 >For more on Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
->  
->Deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).  
+>
+>Deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
 >Marketing campaign functionalities are detailed in [this section](../../campaign/using/accessing-marketing-campaigns.md).
 -->

@@ -95,9 +95,9 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
 * **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
 * **[!UICONTROL Transactions]**: Number of purchases following message reception.
-* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception.
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients.
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients.
 * **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
 * **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
@@ -111,7 +111,7 @@ This section shows the number of messages shared on each social network. For mor
 
 ## URLs and click streams {#urls-and-click-streams}
 
-This report shows the list of pages visited following a delivery. 
+This report shows the list of pages visited following a delivery.
 
 ![](assets/s_ncs_user_url_report.png)
 
@@ -125,14 +125,14 @@ The following rates are displayed in the upper section of the report:
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully.
 * **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
 **[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link.
 * **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
@@ -187,8 +187,7 @@ This report provides a table of values and a Pareto chart which display the time
 * **[!UICONTROL Clicks]**: Estimate of the time required to reach a percentage of the total number of clicks recorded. Clicks on the opt-out link and the mirror page are not taken into account.
 <!--
 * **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
---> 
-
+-->
 
 ## Cumulative reports {#cumulated-reports}
 

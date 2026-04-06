@@ -86,7 +86,8 @@ Either your token is invalid (improper IMS call used to generate a token) or you
 
 Depending on the instance configuration, the created profile needs to be associated to an **orgUnit**. To understand how to add this field in your creation, consult [this section](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!--
+ * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles
@@ -98,11 +99,9 @@ Update the mobilePhone attribute of a profile
 API Calls on Service
 
 GET the list of services
-
 -->
 
 <!--
-
 How to find and use a filter?
 Error codes:
 
@@ -130,5 +129,4 @@ Comment savoir quel filtre appliquer ?
 3) get sur la valeur du champ resTarget
 4) get sur le href dans filters
 5) retourne les filtres applicables sur l'url des data.
-
 -->

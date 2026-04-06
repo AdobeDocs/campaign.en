@@ -149,8 +149,10 @@ _January 27, 2023_
 * Fixed an issue with Snowflake (all deployments) when using the sorting parameter in a **Split** workflow activity. (NEO-45899) <!--OKKKK-->
 * Fixed an issue that led to an error when a user with read access rights on the nmsDeliveryMapping folder tried to run a campaign or workflow. (NEO-48230)
 * Fixed a performance issue in the HTML tab of a delivery which could occur for large HTML code. (NEO-47440)
-<!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
-* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
+<!--
+ * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
+* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)
+-->
 * Fixed an issue which prevented users from using the **Merge selected lines** workflow option. (NEO-48488)
 * Fixed an issue on Snowflake FDA connector which led to records being dropped when using the "0 or 1 cardinality simple join" option during enrichment. (NEO-48737)
 * The remaining references to the log4j library have been removed from the Campaign installation on Windows. (NEO-44851)

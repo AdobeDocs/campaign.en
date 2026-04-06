@@ -232,9 +232,10 @@ To avoid common formatting errors, check the following elements:
 
 * Correct **date formatting**: Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets. [Learn more](formatting.md#date-display)
 
-* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
+* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+-->
 
 ## Manage images {#manage-images}
 
@@ -299,7 +300,8 @@ You can deliver to recipients who are stored in an external file rather than sav
 <!--
 ### Send to your subscribers {#send-to-subscribers}
 
-To send messages to the subscribers of a newsletter, you can directly target the subscribers to the corresponding information service. Learn more [in this section](../audiences/).-->
+To send messages to the subscribers of a newsletter, you can directly target the subscribers to the corresponding information service. Learn more [in this section](../audiences/).
+-->
 
 ### Test recipients {#test-recipients-seed-addresses}
 
@@ -341,7 +343,8 @@ Inbox rendering enables you to preview your messages on major email clients, sca
 
 * Inbox rendering capabilities are crucial to identifying whether your email campaigns successfully make it past the filters of major ISPs (Internet Service Providers) and webmail services. Such tools send a pre-flight copy of an email to a network of test inboxes, so you can see how the message will display, or render, across these services. They may also include reports and code correction options that help you quickly identify and make fixes that improve deliverability.
 
-Learn more [in this section](inbox-rendering.md).-->
+Learn more [in this section](inbox-rendering.md).
+-->
 
 ### Proof messages {#proof-messages}
 
@@ -358,7 +361,8 @@ If you have several contents for an email delivery, you can use A/B testing to f
 
 * Select the one with the highest success rate and send it to the rest of your target
 
-Learn more [in this section](get-started-a-b-testing.md).-->
+Learn more [in this section](get-started-a-b-testing.md).
+-->
 
 ### Make sure your message is delivered {#make-sure-your-message-is-delivered}
 
@@ -403,7 +407,8 @@ You can:
 
 >[!NOTE]
 >
->Most of these steps can only be performed by an expert user.-->
+>Most of these steps can only be performed by an expert user.
+-->
 
 #### Use typologies
 

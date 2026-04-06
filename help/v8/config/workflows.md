@@ -68,20 +68,20 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Create a workflow.
 
-1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
+1. Query your targeted recipients with a **[!UICONTROL Query]** activity.
 
     For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
-    
+
     The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
     For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
-1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
-    
+1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
+
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
 1. You can now start your workflow.
