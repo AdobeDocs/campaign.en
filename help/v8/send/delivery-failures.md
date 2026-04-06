@@ -53,9 +53,11 @@ These types of errors are managed as follows:
 
 ## Bounce mail qualification {#bounce-mail-qualification}
 
-<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+<!--
+NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
-![](assets/delivery-log-qualification.png)-->
+![](assets/delivery-log-qualification.png)
+-->
 
 The way bounce mail qualification is handled in Adobe Campaign depends on the error type:
 
@@ -63,14 +65,15 @@ The way bounce mail qualification is handled in Adobe Campaign depends on the er
 
 * **Asynchronous errors**: Rules used by Campaign to qualify asynchronous delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. Asynchronous bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules.
 
-<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+<!--
+NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
 ![](assets/delivery-log-first-txt.png)
 
 Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
 This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
-  
+
 >[!NOTE]
 >
 >The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
@@ -85,7 +88,8 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.
+-->
 
 
 ## Retry management {#retries}

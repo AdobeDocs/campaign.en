@@ -182,4 +182,5 @@ In the task configuration box, go to the **[!UICONTROL Implementation schedule]*
 
 ![](assets/mrm_task_in_template_start_date.png)
 
-When you create a campaign using this template, the task start date will be calculated automatically. However, you can always change it later.-->
+When you create a campaign using this template, the task start date will be calculated automatically. However, you can always change it later.
+-->

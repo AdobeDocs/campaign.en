@@ -12,7 +12,8 @@ exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 <!--
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+-->
 
 ## About email BCC {#gs-bcc}
 

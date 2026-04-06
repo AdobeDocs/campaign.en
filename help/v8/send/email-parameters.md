@@ -42,7 +42,8 @@ Select the format of the email in the lower section of the window:
 <!--
 >[!NOTE]
 >
->For more on defining the email content, see [this section]().-->
+>For more on defining the email content, see [this section]().
+-->
 
 ## Set character encoding {#character-encoding}
 
@@ -95,7 +96,8 @@ To enable this functionality, select the **[!UICONTROL Addition of One-click Lis
 <!--
 >[!WARNING]
 >
->If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.
+-->
 
 Depending on the email client and the method they are using to perform opt-out, clicking the **Unsubscribe** link in the email header can have the following impacts:
 

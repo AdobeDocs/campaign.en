@@ -67,7 +67,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. 
         
-       It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
+   It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
         
 1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
 
@@ -75,7 +75,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 >[!TAB Android]
 
-   ![](assets/push-config-3.png)
+![](assets/push-config-3.png)
 
 1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
 

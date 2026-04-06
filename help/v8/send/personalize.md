@@ -34,8 +34,9 @@ You can personalize the message content by:
 
     Configure conditional content to add dynamic personalization based on the recipient's profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditions.md).
 
-<!--* Add **personalized offers**
-    
+<!--
+* Add **personalized offers**
+
     Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
 -->
 

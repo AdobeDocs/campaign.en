@@ -196,7 +196,6 @@ To do this, use the following process:
 1. Then configure a delivery activity that corresponds to your chosen channel.
 
 <!--
-
 ## Delivering with delivery outlines {#delivering-with-delivery-outlines}
 
 You can also present offers in a delivery using delivery outlines.

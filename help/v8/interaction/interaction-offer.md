@@ -157,7 +157,6 @@ To do this:
 1. If you have personalized the offer content, select the offer target to view personalization.
 
 <!--
-
 ## Create a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 
 You can create hypotheses on your offer propositions. This lets you determine the impact of your offers on purchases carried out for the product concerned.
@@ -169,7 +168,6 @@ You can create hypotheses on your offer propositions. This lets you determine th
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
 Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
-
 -->
 
 ## Approve and activate an offer{#approve-offers}

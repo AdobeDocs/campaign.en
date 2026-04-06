@@ -33,7 +33,8 @@ Before creating a Privacy request, you must **define the namespace** to use. The
 
 Currently Adobe Campaign does not support importing namespaces from the Experience Platform Identity Namespace service. Therefore, once you have created a namespace on the Identity Namespace service, you must create manually the corresponding namespace in the Adobe Campaign interface. To do this, follow the steps below.
 
-<!--v7?
+<!--
+v7?
 Three namespaces are available out-of-the-box: email, phone and mobile phone. If you need a different namespace (a recipient custom field, for example), you can create a new one from **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**.
 
 >[!NOTE]
@@ -132,7 +133,8 @@ If you created custom tables that have a link to the recipient table (own type),
 >If you perform Privacy batch requests using profile deletion workflows, please take into consideration the following remarks:
 >* Profile deletion via workflows do not process children tables.
 >* You need to handle the deletion for all the children tables.
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.-->
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. We suggest to limit to 200 profiles per day to delete for performance reasons.
+-->
 
 ### Privacy request statuses {#privacy-request-statuses}
 

@@ -31,7 +31,8 @@ The transactional deliveries sent from the execution instance are synchronized b
 >The deliveries weekly accumulate the events based on the latest event update, and not on the event creation date. Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID may change over time as the log is updated (for example, when an inbound bounce is received for the event).
 
 <!--
-To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).
+-->
 
 ## Reporting{#reporting-transactional-msg}
 

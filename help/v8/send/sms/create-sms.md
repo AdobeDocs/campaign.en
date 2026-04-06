@@ -17,8 +17,10 @@ To create a new SMS delivery, follow the steps below:
 
     Delivery creation steps are detailed in [this page](../../start/create-message.md).
 
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, --> 
+<!--
+ * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
+* For mid-sourcing infrastructure,
+--> 
   
 1. Rename your delivery in the **[!UICONTROL Label]** field and add information in **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery.
 

@@ -73,7 +73,7 @@ Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe
 >In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), subscriptions and unsubscriptions are **asynchronous** processes. Opt-in and opt-out requests are processed each hour. [Learn more](../architecture/new-apis.md#sub-apis)
 
 <!--
-You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
+You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages.
 
 For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
 -->

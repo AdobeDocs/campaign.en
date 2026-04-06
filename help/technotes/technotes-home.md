@@ -13,7 +13,7 @@ Find latest Campaign technotes in this section. These technotes apply to Campaig
 <!--
 >[!BEGINTABS]
 
->[!TAB Push Notification Channel changes] 
+>[!TAB Push Notification Channel changes]
 
 Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 

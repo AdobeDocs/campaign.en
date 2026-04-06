@@ -9,7 +9,7 @@ feature-set: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign.en
 mini-toc-levels: 2
-index: yes
+index: true
 ---
 
 # Metadata for internal use
