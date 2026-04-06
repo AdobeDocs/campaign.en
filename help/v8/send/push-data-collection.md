@@ -75,7 +75,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 >[!TAB Android]
 
-   ![](assets/push-config-3.png)
+![](assets/push-config-3.png)
 
 1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
 
