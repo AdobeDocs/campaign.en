@@ -5,7 +5,6 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 hide: yes
-hidefromtoc: yes
 ---
 # Share audiences with Adobe Experience Cloud solutions{#shared-audiences}
 
