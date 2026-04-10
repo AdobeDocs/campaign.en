@@ -4,7 +4,6 @@ title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
 feature: Workflows, Targeting Activity
 hide: yes
-hidefromtoc: yes
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}

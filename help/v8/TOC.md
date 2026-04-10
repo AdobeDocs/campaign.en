@@ -11,7 +11,7 @@ breadcrumb-title: Campaign v8 Documentation
 
 + [Campaign v8 documentation](campaign-home.md)
 + Release notes {#releases}
-  + [Early release notes](start/e-release-notes.md)
+  + {hide-from-toc} [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
   + [Latest releases](start/release-notes.md)
   + Previous releases {#previous-rn}
@@ -19,11 +19,11 @@ breadcrumb-title: Campaign v8 Documentation
     + [2024](start/release-notes-2024.md)
     + [2023](start/release-notes-2023.md)
     + [2022](start/release-notes-2022.md)
-    + [2021](start/release-notes-2021.md)
+    + {hide-from-toc} [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
-  + [Known issues](start/known-issues.md)
+  + {hide-from-toc} [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
-  + [Documentation updates](start/documentation-updates.md)
+  + {hide-from-toc} [Documentation updates](start/documentation-updates.md)
   + [Monthly updates report](../../monthly-updates-report.md)
 + Get Started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
@@ -34,7 +34,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
-  + [Frequently Asked Questions](start/campaign-faq.md)
+  + {hide-from-toc} [Frequently Asked Questions](start/campaign-faq.md)
 + Administration & Permissions {#permissions}
   + [Get started with permissions](start/gs-permissions.md)
   + [Manage user permissions](start/manage-permissions.md)
@@ -72,7 +72,7 @@ breadcrumb-title: Campaign v8 Documentation
       + [SMS delivery settings](send/sms/sms-delivery-settings.md)   
       + [SMPP external account settings](send/sms/smpp-external-account.md)  
       + [Validating a SMPP connection](send/sms/smpp-connection.md) 
-      + [Standalone instance](send/sms/sms-standalone-instance.md)  
+      + {hide-from-toc} [Standalone instance](send/sms/sms-standalone-instance.md)  
       + [Mid-sourcing infrastructure](send/sms/sms-mid-sourcing.md) 
       + [SMPP connector description](send/sms/smpp-connector-delivery.md)
   + Push notifications {#push}
@@ -132,8 +132,8 @@ breadcrumb-title: Campaign v8 Documentation
       + [Create test profiles](audiences/test-profiles.md)
     + Create audiences {#create-audiences}
       + [Create a list of contacts](audiences/create-audiences.md)
-      + [Share audiences with Adobe solutions](start/shared-audiences.md)
-    + [Best practices](audiences/audiences-best-practices.md)
+      + {hide-from-toc} [Share audiences with Adobe solutions](start/shared-audiences.md)
+    + {hide-from-toc} [Best practices](audiences/audiences-best-practices.md)
     + [Manage subscriptions](start/subscriptions.md)
 + Landing Pages & Forms {#content}
   + [Create landing pages](dev/landing-pages.md)
@@ -231,7 +231,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage folders and views](audiences/folders-and-views.md)
     + [Work with enumerations](config/enumerations.md)
     + [Transactional messaging settings](config/transactional-msg-settings.md)
-    + [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
+    + {hide-from-toc} [Integrate Campaign SDKs with your app - DEPRECATED PAGE](config/push-config.md)
     + [External accounts](config/external-accounts.md)
 + Developer resources {#developer}
   + [Campaign data model](dev/datamodel.md)
@@ -250,7 +250,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Input forms](dev/forms.md)
   + [Work with data packages](dev/packages.md)
   + [Campaign APIs](dev/api.md)
-  + [Query the database with queryDef](dev/query-api.md)
+  + {hide-from-toc} [Query the database with queryDef](dev/query-api.md)
   + REST APIs {#apis}
     + [Get started with REST APIs](dev/api/get-started-apis.md)
     + [Recommendations & limitations](dev/api/limitations.md)

@@ -2,7 +2,6 @@
 title: Migrate Campaign sending infrastructure to Amazon Web Services (AWS)
 description: Migrate Campaign sending infrastructure to Amazon Web Services (AWS)
 hide: yes
-hidefromtoc: yes
 exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
 ---
 # Campaign sending infrastructure migration to Amazon Web Services (AWS) {#migrate-infra-to-aws}

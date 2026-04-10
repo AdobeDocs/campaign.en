@@ -5,7 +5,6 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 hide: yes
-hidefromtoc: yes
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 ---
 # Query the database with queryDef {#query-database-api}
