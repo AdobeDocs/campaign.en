@@ -63,6 +63,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Improved container memory management by implementing automatic workflow throttling during high memory conditions, with intelligent workflow restart capabilities and memory guardrails for non-critical processes. (NEO-89041)
 * Added support for asymmetric encryption and decryption functions in Campaign workflows. (NEO-80257)
 * Enhanced replication agent performance and memory resilience for large data uploads in FFDA deployments. (NEO-88430)
+* The **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]** workflow activities have been improved to better protect PostgreSQL databases and keep your workflows running smoothly when custom SQL is executed from Campaign. Refer to [SQL code](../../automation/workflow/sql-code-and-javascript-code.md#postgresql-sensitive-sql) and [SQL Data Management](../../automation/workflow/sql-data-management.md#postgresql-sensitive-sql) for more information and best practices. (NEO-86540)
 
 
 ### Fixes {#fixes-8-9-1}

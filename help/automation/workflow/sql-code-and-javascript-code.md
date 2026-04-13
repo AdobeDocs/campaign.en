@@ -10,8 +10,6 @@ exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
 
-
-
 ## SQL code {#sql-code}
 
 An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JST template.
@@ -25,6 +23,28 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 * **[!UICONTROL Processing errors]**
 
   Refer to [Processing errors](monitor-workflow-execution.md#processing-errors).
+
+### Sensitive SQL on PostgreSQL (Campaign v8 8.9.1 and later) {#postgresql-sensitive-sql}
+
+From **Campaign v8 8.9.1**, **[!UICONTROL SQL code]** against **PostgreSQL** can **reject** SQL that may **lock** the database or destabilize the instance (for example heavy `VACUUM`, `TRUNCATE`, `REINDEX`, some index DDL). The same rules apply to **[!UICONTROL SQL Data Management]** on PostgreSQL; see [SQL Data Management](sql-data-management.md#postgresql-sensitive-sql). Similar errors can appear when **updating the database structure**.
+
+Options are in **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**.
+
+#### Solution 1 {#postgresql-sensitive-sql-solution-1}
+
+Set **`XtkSecurity_FeatureFlag_SqlSensitive`** to **`0`**. The whole feature is deactivated.
+
+#### Solution 2 {#postgresql-sensitive-sql-solution-2}
+
+Modify **`XtkSecurity_SqlSensitive_Methods`**. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>` — **`TRUNCATE`** then only logs a warning in the workflow that a SQL query which can lock the database by definition was used.
+
+```
+<method name="TRUNCATE" action="block"/>
+```
+
+```
+<method name="TRUNCATE" action="warn"/>
+```
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 

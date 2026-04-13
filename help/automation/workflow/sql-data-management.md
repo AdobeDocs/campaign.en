@@ -19,6 +19,14 @@ Before configuring the activity, make sure the following prerequisites are fulfi
 * The activity is available for remote data sources only. 
 * The Outbound schema must exist in the database and be linked to an FDA database.
 
+## Sensitive SQL on PostgreSQL {#postgresql-sensitive-sql}
+
+From 8.9.1, the **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]** workflow activities have been improved to better protect PostgreSQL databases and keep your workflows running smoothly when custom SQL is executed from Campaign. Refer to [SQL code](sql-code-and-javascript-code.md#postgresql-sensitive-sql) for more information and best practices.
+
+In case of errors, two solutions are available:
+
+* [Solution 1](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-1) — **`XtkSecurity_FeatureFlag_SqlSensitive`**
+* [Solution 2](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-2) — **`XtkSecurity_SqlSensitive_Methods`**
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 
