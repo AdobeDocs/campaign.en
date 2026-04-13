@@ -38,7 +38,7 @@ Set `XtkSecurity_FeatureFlag_SqlSensitive` to `0`. The feature is deactivated.
 
 Modify `XtkSecurity_SqlSensitive_Methods`. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>`
 
-`TRUNCATE` then only logs a warning in the workflow that a SQL query which can lock the database by definition was used.
+Other methods such as VACUUM FULL, REINDEX, CREATE INDEX, DROP INDEX are also blocked by default in order to protect the database integrity. Be cautious if you want to set them to warn instead of block. Those methods can have a sever impact on database performance when running.
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 
