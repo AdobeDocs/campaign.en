@@ -28,13 +28,13 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
 From 8.9.1, the **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]** workflow activities have been improved to better protect PostgreSQL databases and keep your workflows running smoothly when custom SQL is executed from Campaign. Here are some best practices to follow in case of errors.
 
-Options are available under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**.
+Options are available under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Two solutions are available in case of errors:
 
-#### Solution 1 {#postgresql-sensitive-sql-solution-1}
+**Solution 1**
 
 Set `XtkSecurity_FeatureFlag_SqlSensitive` to `0`. The feature is deactivated.
 
-#### Solution 2 {#postgresql-sensitive-sql-solution-2}
+**Solution 2**
 
 Modify `XtkSecurity_SqlSensitive_Methods`. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>`
 
