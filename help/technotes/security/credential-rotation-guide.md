@@ -2,7 +2,7 @@
 product: campaign
 title: Technical Note - Credential Rotation Guide
 description: Adobe Campaign Technical Note - Credential Rotation Guide
-hide: yes
+hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
 ---
 # Technical Note: Credential Rotation Guide {#ac-customer-credentials}

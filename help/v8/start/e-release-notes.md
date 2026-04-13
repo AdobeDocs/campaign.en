@@ -4,7 +4,7 @@ description: Early Campaign v8 release
 feature: Release Notes
 role: User
 level: Beginner
-hide: yes
+hide: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 ---
 # Early release notes {#e-new-release}

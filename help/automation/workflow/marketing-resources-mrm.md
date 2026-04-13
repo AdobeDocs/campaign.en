@@ -3,7 +3,7 @@ product: campaign
 title: Marketing Resources (MRM)
 description: Marketing Resources (MRM)
 feature: Workflows, Targeting Activity
-hide: yes
+hide: true
 ---
 
 # Marketing Resources (MRM){#marketing-resources-mrm}
