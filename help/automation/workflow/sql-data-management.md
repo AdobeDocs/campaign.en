@@ -25,8 +25,8 @@ From 8.9.1, the **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]
 
 In case of errors, two solutions are available:
 
-* [Solution 1](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-1) — **`XtkSecurity_FeatureFlag_SqlSensitive`**
-* [Solution 2](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-2) — **`XtkSecurity_SqlSensitive_Methods`**
+* [Solution 1](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-1) — `XtkSecurity_FeatureFlag_SqlSensitive`
+* [Solution 2](sql-code-and-javascript-code.md#postgresql-sensitive-sql-solution-2) — `XtkSecurity_SqlSensitive_Methods`
 
 ## Configuring the SQL Data Management activity {#configuring-the-sql-data-management-activity}
 

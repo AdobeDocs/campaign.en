@@ -32,11 +32,11 @@ Options are available under **[!UICONTROL Administration]** > **[!UICONTROL Plat
 
 #### Solution 1 {#postgresql-sensitive-sql-solution-1}
 
-Set **`XtkSecurity_FeatureFlag_SqlSensitive`** to **`0`**. The feature is deactivated.
+Set `XtkSecurity_FeatureFlag_SqlSensitive` to `0`. The feature is deactivated.
 
 #### Solution 2 {#postgresql-sensitive-sql-solution-2}
 
-Modify **`XtkSecurity_SqlSensitive_Methods`**. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>`
+Modify `XtkSecurity_SqlSensitive_Methods`. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>`
 
 `TRUNCATE` then only logs a warning in the workflow that a SQL query which can lock the database by definition was used.
 
