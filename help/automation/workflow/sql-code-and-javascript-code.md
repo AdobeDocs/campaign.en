@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: SQL code and JavaScript code
-description: Learn more about SQL and JavaScript codes workflow activities
+description: Learn more about SQL and JavaScript code workflow activities
 feature: Workflows
 Role: User
 level: Experienced 
@@ -24,7 +24,7 @@ An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JS
 
   Refer to [Processing errors](monitor-workflow-execution.md#processing-errors).
 
-### Sensitive SQL on PostgreSQL (Campaign v8 8.9.1 and later) {#postgresql-sensitive-sql}
+### Important notes {#postgresql-sensitive-sql}
 
 From 8.9.1, the **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]** workflow activities have been improved to better protect PostgreSQL databases and keep your workflows running smoothly when custom SQL is executed from Campaign. Here are some best practices to follow in case of errors.
 
@@ -38,7 +38,7 @@ Set `XtkSecurity_FeatureFlag_SqlSensitive` to `0`. The feature is deactivated.
 
 Modify `XtkSecurity_SqlSensitive_Methods`. You can change `<method name="TRUNCATE" action="block"/>` to `<method name="TRUNCATE" action="warn"/>`
 
-Other methods such as VACUUM FULL, REINDEX, CREATE INDEX, DROP INDEX are also blocked by default in order to protect the database integrity. Be cautious if you want to set them to warn instead of block. Those methods can have a sever impact on database performance when running.
+Other methods such as VACUUM FULL, REINDEX, CREATE INDEX, DROP INDEX are also blocked by default in order to protect the database integrity. Be cautious if you want to set them to warn instead of block. Those methods can have a severe impact on database performance when running.
 
 ## JavaScript code and Advanced JavaScript code {#javascript-code}
 
