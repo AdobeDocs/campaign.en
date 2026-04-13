@@ -4,7 +4,7 @@ description: Learn how to share audiences with Adobe Experience Cloud solutions
 feature: Audiences
 role: User
 level: Beginner
-hide: yes
+hide: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
 ---
 # Share audiences with Adobe Experience Cloud solutions{#shared-audiences}

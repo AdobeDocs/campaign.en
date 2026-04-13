@@ -4,7 +4,7 @@ description: Learn how to integrate Campaign Android and iOS SDKs with your app
 feature: Push
 role: Admin, Developer
 level: Intermediate
-hide: yes
+hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 ---
 # Integrate Campaign SDKs with your app {#integrate-campaign-sdk}

@@ -2,7 +2,7 @@
 product: campaign
 title: Technote - Asymetric Encryption and Decryption in Adobe Campaign
 description: Technical Note - Asymetric Encryption and Decryption in Adobe Campaign
-hide: yes
+hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
 ---
 # Technote: Asymmetric Encryption and Decryption in Adobe Campaign {#asymetric-encryption}

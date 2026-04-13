@@ -4,7 +4,7 @@ description: Learn how to select recipients in an external file
 feature: Audiences, Profiles
 role: Developer
 level: Beginner
-hide: yes
+hide: true
 exl-id: c21f1620-4b61-486e-a077-fa70e3b278a7
 ---
 # Use external profiles

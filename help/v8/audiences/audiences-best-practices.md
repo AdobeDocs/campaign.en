@@ -4,7 +4,7 @@ description: Learn best practices with audiences
 feature: Audiences, Profiles
 role: Developer
 level: Beginner
-hide: yes
+hide: true
 exl-id: 99aa6fb6-5153-4501-b075-162fc2c98921
 ---
 # Best practices with audiences

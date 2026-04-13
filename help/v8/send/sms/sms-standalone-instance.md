@@ -3,7 +3,7 @@ title: SMS in a standalone instance
 description: Learn how to configure a SMS delivery in a standalone instance
 feature: SMS
 role: User
-hide: yes
+hide: true
 level: Beginner, Intermediate
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
 ---

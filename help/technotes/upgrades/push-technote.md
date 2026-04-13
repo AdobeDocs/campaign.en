@@ -5,7 +5,7 @@ description: Push Notification Channel upcoming changes
 feature: Push
 role: Admin
 level: Experienced
-hide: yes
+hide: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 ---
 # Push Notification Channel changes {#push-upgrade}
