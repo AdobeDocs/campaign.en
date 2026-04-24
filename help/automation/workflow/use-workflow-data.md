@@ -4,6 +4,17 @@ description: Learn how to use workflow data
 feature: Workflows, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
+TQID: https://experienceleague.adobe.com/MeXrY93e-BFOK0OdPAXrnv8baT15WZWwYhXMdFjf1vw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Use workflow data{#how-to-use-workflow-data}
 

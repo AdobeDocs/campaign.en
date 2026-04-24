@@ -6,6 +6,19 @@ feature: Workflows, Data Management Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
+TQID: https://experienceleague.adobe.com/XM-wH6gqH3EvqBp0qMShsy76VheGg1w6kul8Ui4f-pc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Data loading (file){#data-loading-file}
 

@@ -6,6 +6,18 @@ role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 version: Campaign v8, Campaign Classic v7
+TQID: https://experienceleague.adobe.com/0rN0mC1re8VV-oUscl9KqgnuEAxQ4wAnV5ubotmyZ3g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Get started with permissions{#gs-permissions}
 

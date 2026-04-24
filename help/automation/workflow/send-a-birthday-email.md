@@ -5,6 +5,13 @@ description: Learn how to send a birthday email with a workflow
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
+TQID: https://experienceleague.adobe.com/K6fvJssifUJoE7PYvXlHwmGU6oNQztCvCqAKUYNdomE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Send a birthday email{#sending-a-birthday-email}
 

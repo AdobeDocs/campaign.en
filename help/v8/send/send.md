@@ -6,8 +6,22 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
+TQID: https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Send and monitor your emails  {#send-and-monitor-emails}
 
 When the delivery is configured and ready to be sent, make sure you have run the delivery analysis. [Learn more](delivery-analysis.md)

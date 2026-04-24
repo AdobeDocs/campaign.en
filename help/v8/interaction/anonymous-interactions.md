@@ -5,6 +5,15 @@ description: Learn how to present offers to anonymous profiles
 feature: Interaction, Offers
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
+TQID: https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Anonymous interactions {#anonymous-interactions}
 

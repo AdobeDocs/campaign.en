@@ -5,6 +5,16 @@ feature: Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
+TQID: https://experienceleague.adobe.com/1UBvvvkN-05BqOe4aOMpYFtKEMp0Yf-q9ECtbtmHzb0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Update the database structure {#updating-the-database-structure}
 

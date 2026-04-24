@@ -5,6 +5,18 @@ feature: Custom Resources, Profiles, Configuration
 role: User, Developer
 level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
+TQID: https://experienceleague.adobe.com/W67Z2xVEBDpju5xlL2WiE5ZTzvrFmhuByMvfPb4x6nM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Use a custom recipient table{#gs-ac-custom-recipient}
 

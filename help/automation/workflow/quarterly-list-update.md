@@ -6,6 +6,16 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
+TQID: https://experienceleague.adobe.com/0C-z3NZX9SMcI4Zl2dxUKwf4l3welUfwGQijq3H5K6A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Quarterly list update using an incremental query {#quarterly-list-update}
 

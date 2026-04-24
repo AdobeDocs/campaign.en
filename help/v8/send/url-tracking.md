@@ -5,6 +5,19 @@ feature: Monitoring, Email Design, Personalization
 role: User
 level: Beginner
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
+TQID: https://experienceleague.adobe.com/HCq5m-mT9DkabqiYnTntU96ctR0dtXb9iMwwZs-t-i8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Configure URL tracking options {#personalizing-url-tracking}
 

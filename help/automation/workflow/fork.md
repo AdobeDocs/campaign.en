@@ -6,6 +6,13 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
+TQID: https://experienceleague.adobe.com/QdPwfYOVGD1YUdYSyTNHzvbTcg6WRwEprcYGjTXU-ls
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Fork{#fork}
 

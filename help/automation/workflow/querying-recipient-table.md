@@ -6,6 +6,15 @@ feature: Query Editor
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
+TQID: https://experienceleague.adobe.com/puAVnnwm21KiCWWCR5ZaexXnqysPINAkWAlcnR-gr1g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Query the recipient table {#querying-recipient-table}
 

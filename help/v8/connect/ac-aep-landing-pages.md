@@ -5,6 +5,26 @@ feature: Experience Platform Integration
 role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
+TQID: https://experienceleague.adobe.com/LWOsfmxhIhhcbbXp6SXq2MLpejPdfipyOllm0SBmVAo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Update Adobe Experience Platform profiles from Adobe Campaign landing pages {#ac-aep-lp}
 

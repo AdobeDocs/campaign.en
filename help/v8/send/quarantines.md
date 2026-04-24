@@ -6,6 +6,29 @@ role: User, Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
+TQID: https://experienceleague.adobe.com/Qn4CWccz3NcanKq9l-Awt0N9JiVzWoyPMxhqs9TrOVA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Quarantine {#quarantine-management}
 

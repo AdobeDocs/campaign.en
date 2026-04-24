@@ -3,6 +3,26 @@ keywords: Campaign Classic;home;popular topics
 description: Find help in the Adobe Campaign v8 help center. Learn about what's new, improvements, and fixes in Campaign v8.
 title: Adobe Campaign v8 Product Documentation
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
+TQID: https://experienceleague.adobe.com/btc-anKUgS2PFCv86Pi7QRw8nrWMV4gZXvFwnWQvQVM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Adobe Campaign v8 (console) Documentation {#campaign-documentation}
 

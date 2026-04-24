@@ -4,6 +4,18 @@ title: Configure pressure rules
 description: Learn how to configure pressure rules
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
+TQID: https://experienceleague.adobe.com/HBf2YMR-DobvQCsVSJC-cCSpwL8IbBH9cAbOPS9V5zk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Pressure rules{#pressure-rules}
 

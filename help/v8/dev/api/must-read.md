@@ -7,6 +7,16 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
+TQID: https://experienceleague.adobe.com/LL6IuGgjNZjeuD2ern5vMJCIe-Ngbu5xY3RLzjuGW5o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Must-Read {#must-read}
 

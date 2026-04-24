@@ -4,8 +4,25 @@ description: Learn how to use Adobe Campaign Social Marketing module to post mes
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
+TQID: https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
-
 # Post messages on X (Twitter) with Adobe Campaign {#post-tw-messages}
 
 Adobe Campaign comes with a **Social Marketing** module which lets you interact with your customers and prospects via X (formerly known as Twitter).

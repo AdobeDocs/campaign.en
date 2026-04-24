@@ -6,6 +6,16 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
+TQID: https://experienceleague.adobe.com/7fxaGcRPnb0Q3FqBkIA4da9ksKnGDDZ4ALVTGdGsKq0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # File collector{#file-collector}
 

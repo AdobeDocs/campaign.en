@@ -6,6 +6,15 @@ feature: Query Editor
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
+TQID: https://experienceleague.adobe.com/-OBJg0XeJowHsyunWoCdl6K434cs-p08xMFRKJmz--4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Query using grouping management {#querying-using-grouping-management}
 

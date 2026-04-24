@@ -4,9 +4,21 @@ title: SQL Data Management
 description: Learn more about SQL Data Management workflow activity
 feature: Workflows
 Role: User
-level: Experienced 
+level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
+TQID: https://experienceleague.adobe.com/aQKYDkFnBDT-N-fFTRg8ggvxfjKOKBgE9dcuuh7L28k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # SQL Data Management{#sql-data-management}
 

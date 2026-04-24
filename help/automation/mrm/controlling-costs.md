@@ -5,6 +5,23 @@ description: Learn how to control costs
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
+TQID: https://experienceleague.adobe.com/OQtmoiTmvFeWbYfLNpjuk5FZLb2Si-mPBbMNMWnDGoo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Control costs{#controlling-costs}
 

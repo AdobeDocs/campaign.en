@@ -1,10 +1,27 @@
 ---
 title: Connect Campaign with your solutions
-description: Learn how to connect your Adobe Campaign instance with Experience Cloud solutions. 
+description: Learn how to connect your Adobe Campaign instance with Experience Cloud solutions.
 feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+TQID: https://experienceleague.adobe.com/vCnJYU3rJvZ5d5waVuycpPnBD-1dBJs25RLQjdZbBZU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 # Connect Campaign with your solutions{#gs-ac-connectors}
 

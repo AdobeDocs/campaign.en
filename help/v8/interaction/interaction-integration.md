@@ -5,6 +5,18 @@ description: Learn how to add an offer in a web page
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
+TQID: https://experienceleague.adobe.com/KBMGNRM-vmeYoar4Bdr2uILvjiIBHA3KlkELyirtuvk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Add an offer in a web page{#add-an-offer-in-web}
 

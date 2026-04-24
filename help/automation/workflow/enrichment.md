@@ -6,6 +6,13 @@ feature: Workflows, Enrichment Activity, Targeting Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
+TQID: https://experienceleague.adobe.com/f5zQLS5AXT8OcK4BVB0oH6qShvjmZfTgUS6uchiEsZ8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Enrichment{#enrichment}
 

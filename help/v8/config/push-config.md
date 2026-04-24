@@ -6,6 +6,25 @@ role: Admin, Developer
 level: Intermediate
 hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
+TQID: https://experienceleague.adobe.com/P8-MVht-FT2EuZMz6C4YpLuzu3797L-f63XO--Ai7B4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Integrate Campaign SDKs with your app {#integrate-campaign-sdk}
 

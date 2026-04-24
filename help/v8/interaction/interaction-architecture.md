@@ -5,6 +5,19 @@ feature: Interaction, Offers
 role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
+TQID: https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Understand Campaign Interaction environments and architecture
 

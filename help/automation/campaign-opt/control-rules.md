@@ -4,6 +4,13 @@ title: Configure control rules
 description: Learn how to configure control rules
 feature: Typology Rules
 exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
+TQID: https://experienceleague.adobe.com/xluD-4nygREOMWZyFT6OrenJvfvFVWTVf7i6-ZoYfTI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Control rules{#control-rules}
 

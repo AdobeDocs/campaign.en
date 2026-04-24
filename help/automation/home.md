@@ -5,6 +5,16 @@ title: Adobe Campaign Automation Home
 feature: Overview
 description: Overview
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
+TQID: https://experienceleague.adobe.com/FtiYjkQl0glW5gi7Ar8DI4RVxoS7wd7Okh4vHdNdutU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Adobe Campaign Automation {#automation-home}
 

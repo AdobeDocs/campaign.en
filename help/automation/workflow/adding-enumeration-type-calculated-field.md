@@ -6,6 +6,16 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
+TQID: https://experienceleague.adobe.com/SC-bh-Ms6cMAg0YV14vjf0wA-Ijw-D4MY-s4kqWXZiQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Add an Enumeration type calculated field {#adding-an-enumeration-type-calculated-field}
 

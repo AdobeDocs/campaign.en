@@ -5,6 +5,21 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+TQID: https://experienceleague.adobe.com/0Nx5tAtCSIZ3Ctm8MHRU7Aa2-8CyX6IbDgj9RF5KlSI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Operators profiles {#operator-profiles}
 
