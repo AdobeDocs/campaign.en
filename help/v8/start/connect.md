@@ -85,6 +85,19 @@ You can then sign in to Campaign with your Adobe ID.
 >
 >As Microsoft Edge Webview2 does not save proxy credentials, the Console may ask you to authenticate twice at your first connection.
 
+## Troubleshoot Adobe ID login issues {#troubleshoot-ims-login}
+
+If you're experiencing issues when signing in to the **[!UICONTROL Client Console]** with your Adobe ID, try clearing the local WebView2 cache. In most cases, this solves the problem. Follow the steps below:
+
+1. Close the **[!UICONTROL Client Console]** and stop any running `nlclient` process.
+
+1. Delete all `webview2` and `webview2Cache` folders from the following locations. 
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. Restart the **[!UICONTROL Client Console]** and sign in with your Adobe ID. The cache folders will be automatically recreated at the next launch.
+
 ## Upgrade your Client Console{#upgrade-ac-console}
 
 When your system is upgraded to a newer release, you must update your Client Console to that same version. This is a best practice, and for some releases this upgrade is mandatory. In that case, it is mentioned in the [Release Notes](release-notes.md).
