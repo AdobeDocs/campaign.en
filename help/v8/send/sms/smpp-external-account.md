@@ -274,13 +274,13 @@ If checked, the content of optional fields will be appended to the text processe
 
 For example, you might want to capture the ID in the receipted_message_id field. For this, enable this checkbox and the following text will be added to the status:
 
- 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
+`0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739`
 
 In this example, 0x001E is the tag of the optional field and the UUID is the value of the field.
 
 In order to capture this value, you may now set the following regex in the Extraction regex of the ID in the SR field:
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+`\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b`
 
 >[!IMPORTANT]
 >
