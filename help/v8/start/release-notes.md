@@ -68,6 +68,21 @@ _Mar 11, 2026_
 * Fixed an issue where delivery preparation failed when applying custom typology rules with pressure rules. (NEO-94457)
 * Fixed an issue where the client console could experience HTTP request processing failures. (NEO-94071)
 
+<!-- Other 
+
+Internal/non-customer-facing:
+
+* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
+
+Customer-specific hotfixes:
+
+* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
+* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
+* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
+* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
+* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
+-->
+
 ## Release 8.9.1 {#release-8-9-1}
 
 _Jan 27, 2026_
