@@ -36,9 +36,9 @@ _Mar 11, 2026_
 
 * FDA monitoring is now disabled by default to prevent connection log insertion errors. (NEO-94841)
 * Fixed an issue where Interaction SOAP calls used for offer redemption could fail with a namespace resolution error. (NEO-94787)
-* Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350)
+<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
 * Fixed an issue where string fields with length 1 could cause SQL errors in workflow temporary tables on PostgreSQL 17. (NEO-94487)
-* Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598)
+<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
 
 <!-- BUILD 8.9.2.9829.c90aa36 -->
 
