@@ -14,17 +14,17 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 >
 > Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console).
 
->[!NOTE]
->
-> Fixes listed below have been progressively rolled out across successive 8.9.2 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version}) to check that you have the latest 9831.11d1c68 build. Contact your Adobe representative for more information.
-
-_Mar 11, 2026_
+_May 3, 2026_
 
 ### Security improvements {#security-8-9-2}
 
 * To maintain optimal security, stability, and compliance, all instances have been upgraded to Debian 13 and PostgreSQL 17.
 
 ### Fixes {#fixes-8-9-2}
+
+>[!NOTE]
+>
+> Fixes listed below have been progressively rolled out across successive 8.9.2 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version) to check that you have the latest 8.9.2 (11d1c68) build. Contact your Adobe representative for more information.
 
 * Fixed an issue where event dates in transactional events were incorrectly set due to a data type conversion issue, causing incorrect dates in dynamic reporting. (NEO-93923)
 * Fixed an issue where Android and iOS silent push notifications failed during delivery preparation when title and body fields were empty. (NEO-93739)
