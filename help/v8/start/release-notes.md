@@ -17,15 +17,15 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 _8.9.2.9831.11d1c68_
 
 * Fixed an issue which could cause the server to crash repeatedly, leading to instance outages. (NEO-95304)
-* Fixed an issue where tracking and mirror page links could fail to load for deliveries created before an upgrade but sent after the upgrade. (NEO-95239)
-* Fixed an issue which could cause a redirect loop when logging in to Campaign web applications protected by Adobe ID sign-on (IMS). (NEO-95188)
+* Fixed an issue where tracking and mirror page links could fail to load deliveries. (NEO-95239)
+* Fixed an issue which could cause a redirect loop when logging in to Campaign web applications protected by IMS single sign-on. (NEO-95188)
 * Fixed an issue where the delivery creation date was missing from delivery extraction files after saving the delivery. (NEO-95010)
-* Fixed an issue where child workflows spawned in high volume could remain stuck in **Being Edited** state, reducing transactional workflow capacity. (NEO-95131)
+* Fixed an issue where child workflows spawned in high volume could remain stuck in the **Being Edited** state, reducing transactional workflow capacity. (NEO-95131)
 * Fixed an issue where the **Read List** activity could overwrite predefined list templates with workflow-generated list structures, causing failures in downstream workflows. (NEO-95103)
 * Fixed an issue where push notification feedback handling could cause the server to crash when processing high-volume deliveries. (NEO-95150)
 * Fixed an issue where opening the **Data** tab on the `xtk:workflow` schema in the schema explorer could trigger an error message. (NEO-94923)
 * Fixed an issue where the **Enrichment** activity could no longer retrieve output attributes from upstream **Subworkflow** activities, causing workflows to fail. (NEO-95151) <!-- hotfix -->
-* Fixed a tracking data ingesting issue which could prevent delivery status updates and block downstream message processing. (NEO-94666) <!-- hotfix -->
+* Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666) <!-- hotfix -->
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936) <!-- hotfix -->
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302) <!-- hotfix -->
 
@@ -48,7 +48,7 @@ _8.9.2.9829.c90aa36_
 
 _8.9.2.9829.9669833_
 
-* Fixed an issue to prevent connection log insertion errors. FDA monitoring is now disabled by default. (NEO-94841)
+* FDA monitoring is now disabled by default to prevent connection log insertion errors. (NEO-94841)
 * Fixed an issue where Interaction SOAP calls used for offer redemption could fail with a namespace resolution error. (NEO-94787)
 * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350)
 * Fixed an issue where string fields with length 1 could cause SQL errors in workflow temporary tables on PostgreSQL 17. (NEO-94487)
