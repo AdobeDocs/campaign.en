@@ -75,13 +75,9 @@ _May 3, 2026_
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
 
 <!-- Other 
-
 Internal/non-customer-facing:
-
 * Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
-
 Customer-specific hotfixes:
-
 * Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
 * Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
 * Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
