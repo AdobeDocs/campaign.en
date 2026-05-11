@@ -6,6 +6,22 @@ feature: Approvals
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
+TQID: https://experienceleague.adobe.com/D-Yo0xuEnL3MSX6VWZqAVKpF3XSIzdf--0qQlZbB5mg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Define approvals {#defining-approvals}
 

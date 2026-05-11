@@ -6,6 +6,13 @@ feature: Workflows, Targeting Activity, Interaction
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
+TQID: https://experienceleague.adobe.com/rcPG-VXEtEll374z7DpQTQOcZ3MXauiZwPTwByTUSEk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Offers by cell{#offers-by-cell}
 

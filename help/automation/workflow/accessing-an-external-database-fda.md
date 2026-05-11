@@ -6,6 +6,16 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
+TQID: https://experienceleague.adobe.com/fG7gFVxim41pGWyikupf-v-br4f1O1uJfKsJJpIL11U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Access an external database (FDA){#accessing-an-external-database-fda}
 

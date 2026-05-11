@@ -6,6 +6,22 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
 exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
+TQID: https://experienceleague.adobe.com/xXZIcDJ92-bWCjCvM0LuPPTxFWEwjG9eD6VS8wqv4Ms
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Work with enumerations {#enumerations}
 

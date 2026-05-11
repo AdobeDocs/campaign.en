@@ -4,9 +4,16 @@ title: SQL code and JavaScript code
 description: Learn more about SQL and JavaScript code workflow activities
 feature: Workflows
 Role: User
-level: Experienced 
+level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
+TQID: https://experienceleague.adobe.com/J1oZUE7vCyJvodf0-09QoG24gWY9P9sSgqsH7rXibgk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # SQL code and JavaScript code{#sql-code-and-javascript-code}
 

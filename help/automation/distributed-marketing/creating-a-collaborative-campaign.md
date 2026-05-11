@@ -5,6 +5,21 @@ description: Learn how to create a collaborative campaign
 feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
+TQID: https://experienceleague.adobe.com/UrdZY0sxtcDwZZd5sfgOcsyCKn1lQ8tIs8UlS8rHV4Y
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 ---
 # Create a collaborative campaign{#creating-a-collaborative-campaign-intro}
 

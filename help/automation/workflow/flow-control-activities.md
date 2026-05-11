@@ -6,6 +6,13 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
+TQID: https://experienceleague.adobe.com/ASEN6-oLFuS4se4B0hreK-ufXzIoWLquNRc5t2G8UF4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Flow control activities in workflows{#about-flow-control-activities}
 

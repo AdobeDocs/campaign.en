@@ -5,6 +5,10 @@ description: Learn how to send personalized alerts to operators
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 41a009f6-d1e9-40c9-8494-3bbb4bd3d134
+TQID: https://experienceleague.adobe.com/dNaZR5YIugp9CIju-jKPHqztQu75IurMvxJtbTILOTY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Send personalized alerts to operators{#sending-personalized-alerts-to-operators}
 

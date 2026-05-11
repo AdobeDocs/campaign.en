@@ -6,6 +6,21 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
+TQID: https://experienceleague.adobe.com/2qo8UUeTbMxMJse13-8HOB0dJXoSk0AKpNJamGTaqxs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Marketing campaign deliveries {#marketing-campaign-deliveries}
 

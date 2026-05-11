@@ -4,6 +4,19 @@ description: Learn how to retrieve subscriptions with APIs
 role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+TQID: https://experienceleague.adobe.com/PxFql-omcIMizY-oMBl75gfo2UmmLTanrhQqw5te--A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Retrieving subscriptions with APIs {#retrieving-subscriptions-api}
 

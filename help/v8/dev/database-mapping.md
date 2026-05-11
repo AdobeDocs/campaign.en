@@ -5,6 +5,16 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
+TQID: https://experienceleague.adobe.com/mkPCZigiyLWLYV7orT1B2jFQKBf0FOYSDE8IqCa1i1o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 # Database mapping{#database-mapping}
 

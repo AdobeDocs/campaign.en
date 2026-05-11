@@ -5,6 +5,10 @@ description: Learn more about the Subscription Services workflow activity
 feature: Workflows, Targeting Activity, Subscription Services Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
+TQID: https://experienceleague.adobe.com/JT5ZcURy2sxP9UclzGhhwJgaSpcv3Exi2X6FRUmCNc0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Subscription Services{#subscription-services}
 

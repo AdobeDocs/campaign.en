@@ -5,6 +5,10 @@ description: Learn more about Start and End workflow activities
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 1de622bc-967b-403b-86e0-2ad32cb432e3
+TQID: https://experienceleague.adobe.com/Y6nuELN3qjtuXhruC9MgmyqxzptNTJgfZ0XLGleQ3A4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Start and end{#start-and-end}
 

@@ -5,6 +5,10 @@ description: Learn more about the Wait workflow activity
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: a9bcb214-5c87-4b26-804a-22b868905022
+TQID: https://experienceleague.adobe.com/pCmFiYzA61DTXdDZCO14diygPbfuvZkXIbKVgbtXmQQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 ---
 # Wait{#wait}
 

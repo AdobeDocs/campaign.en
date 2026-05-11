@@ -6,6 +6,15 @@ feature: Workflows, Interaction
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
+TQID: https://experienceleague.adobe.com/1ZdqlgFBd-cmAQ-B--443wvLhmUXZ9YD4l-A9enANhY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Offer engine{#offer-engine}
 

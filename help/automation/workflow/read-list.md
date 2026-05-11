@@ -6,6 +6,15 @@ feature: Workflows, Targeting Activity
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
+TQID: https://experienceleague.adobe.com/J-3G1xfCNkBVkmO0WqjHtstOGq5LE8ymd2oa8f-VSSE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Read list{#read-list}
 

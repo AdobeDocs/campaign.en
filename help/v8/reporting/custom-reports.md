@@ -4,6 +4,18 @@ description: Learn key steps to create a custom report
 feature: Reporting
 role: User, Developer
 exl-id: 39ab5cd9-cc84-430b-a8b3-691e377851fa
+TQID: https://experienceleague.adobe.com/LQeipcGpFxqYvuLrm8luihUsT8t3hCOYi9Y-FZMYns8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Key steps to create a custom report{#key-steps-to-create-a-report}
 

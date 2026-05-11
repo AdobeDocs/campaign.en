@@ -6,6 +6,18 @@ feature: Email, Push
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 8a714eef-ea72-48f3-86d9-5a98b8ddcc6f
+TQID: https://experienceleague.adobe.com/sCGiJu4peYEbt4i-NnuvOpfQp0WkG-iho-xz-4HNuvg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Customize the emoticon list {#customize-emoticons}
 

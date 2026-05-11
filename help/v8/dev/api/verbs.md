@@ -7,6 +7,19 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
+TQID: https://experienceleague.adobe.com/S8WC9Y9aqkSodleg6QasdSL4XvV8S6BFCZtyPi3l4II
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
 # GET / POST / PATCH / DELETE verbs {#verbs}
 

@@ -5,6 +5,23 @@ description: Learn more about the Web download workflow activity
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
+TQID: https://experienceleague.adobe.com/o-kTHkx0LFrxyykvGSZW-fZJRMWDN2HFnRKlZ-LBDMk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Web download{#web-download}
 
