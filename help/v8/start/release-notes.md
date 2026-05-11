@@ -10,11 +10,11 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.2 {#release-8-9-2}
 
-_Mar 11, 2026_
-
 >[!CAUTION]
 >
 > Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console).
+
+_May 3, 2026_
 
 ### Security improvements {#security-8-9-2}
 
@@ -22,11 +22,68 @@ _Mar 11, 2026_
 
 ### Fixes {#fixes-8-9-2}
 
+>[!NOTE]
+>
+> Fixes listed below have been progressively rolled out across successive 8.9.2 builds. Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version) to check that you have the latest 8.9.2 (11d1c68) build. Contact your Adobe representative for more information.
+
 * Fixed an issue where event dates in transactional events were incorrectly set due to a data type conversion issue, causing incorrect dates in dynamic reporting. (NEO-93923)
 * Fixed an issue where Android and iOS silent push notifications failed during delivery preparation when title and body fields were empty. (NEO-93739)
 * Fixed an issue preventing the language field from being captured for Android app registration tokens due to incorrect reconciliation keys. (NEO-93100)
 * Fixed an issue where delivery preparation failed when applying custom typology rules with pressure rules. (NEO-94457)
 * Fixed an issue where the client console could experience HTTP request processing failures. (NEO-94071)
+
+<!-- BUILD 8.9.2.9829.9669833 -->
+
+* FDA monitoring is now disabled by default to prevent connection log insertion errors. (NEO-94841)
+* Fixed an issue where Interaction SOAP calls used for offer redemption could fail with a namespace resolution error. (NEO-94787)
+<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
+* Fixed an issue where string fields with length 1 could cause SQL errors in workflow temporary tables on PostgreSQL 17. (NEO-94487)
+<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
+
+<!-- BUILD 8.9.2.9829.c90aa36 -->
+
+* Fixed an issue where the **Display mirror page** option in the Client Console and Web UI could return a "Bad Mirror Page" error. (NEO-93303)
+
+<!-- BUILD 8.9.2.9830.4a6f868 -->
+
+* Fixed an issue where the out-of-the-box **Tracking** technical workflow could fail after a multivariant package installation in FFDA deployments. (NEO-94972)
+* Fixed an issue where delivery preparation could fail to add any recipients to the target when the delivery template used a weight formula referencing the current delivery. (NEO-94892)
+<!-- hotfix -->
+* Fixed an issue where workflow enrichments using joins across two consecutive 1-N links could fail with SQL errors after an upgrade. (NEO-94893) 
+
+<!-- BUILD 8.9.2.9831.f53d3d2 -->
+
+* Fixed an issue in the email pipeline which could lead to excessive memory consumption over time. (NEO-95088)
+* Fixed an issue where the conflicting email typology rule could incorrectly exclude non-duplicate recipients from a delivery target when seed or proof addresses were used. (NEO-95026)
+* Fixed an issue where the out-of-the-box **Offer notification** technical workflow could fail after an upgrade. (NEO-95064)
+* The multivariant package installation process has been improved to prevent tracking workflow failures during build upgrades. (NEO-95018)
+
+<!-- BUILD 8.9.2.9831.11d1c68 -->
+
+* Fixed an issue which could cause the server to crash repeatedly, leading to instance outages. (NEO-95304)
+* Fixed an issue where tracking and mirror page links could fail to load deliveries. (NEO-95239)
+* Fixed an issue which could cause a redirect loop when logging in to Campaign web applications protected by IMS single sign-on. (NEO-95188)
+* Fixed an issue where the delivery creation date was missing from delivery extraction files after saving the delivery. (NEO-95010)
+* Fixed an issue where child workflows spawned in high volume could remain stuck in the **Being Edited** state, reducing transactional workflow capacity. (NEO-95131)
+* Fixed an issue where the **Read List** activity could overwrite predefined list templates with workflow-generated list structures, causing failures in downstream workflows. (NEO-95103)
+* Fixed an issue where push notification feedback handling could cause the server to crash when processing high-volume deliveries. (NEO-95150)
+* Fixed an issue where opening the **Data** tab on the `xtk:workflow` schema in the schema explorer could trigger an error message. (NEO-94923)
+<!-- hotfixes -->
+* Fixed an issue where the **Enrichment** activity could no longer retrieve output attributes from upstream **Subworkflow** activities, causing workflows to fail. (NEO-95151)
+* Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666)
+* Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
+* Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
+
+<!-- 
+Internal/non-customer-facing:
+* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
+Customer-specific hotfixes:
+* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
+* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
+* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
+* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
+* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
+-->
 
 ## Release 8.9.1 {#release-8-9-1}
 
