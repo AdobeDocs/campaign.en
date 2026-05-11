@@ -74,7 +74,7 @@ _May 3, 2026_
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
 
-<!-- Other 
+<!-- 
 Internal/non-customer-facing:
 * Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
 Customer-specific hotfixes:
