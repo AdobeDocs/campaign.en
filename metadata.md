@@ -9,6 +9,7 @@ product_v2:
     internal-label: "Adobe Campaign v8"
   - id: bb44d873-5098-4ed3-aaf2-23b9778b38b2
     internal-label: "Adobe Campaign Classic v8 Client Console"
+usetq: true
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 product: adobe campaign
