@@ -117,7 +117,7 @@ If you have implemented inbound integrations with Campaign, you must migrate you
 
 ### General improvements {#improvements-8-7-1}
 
-* Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html){target="_blank"}
+* Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](../../technotes/upgrades/64-bit-tables.md)
 
 * In Campaign tables, the following attributes are now populated by default by the server date and time: `lastModified` and `created`. The `createdBy-id` attribute value is now populated with the current login ID by default. Values provided by users in API calls are ignored. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 

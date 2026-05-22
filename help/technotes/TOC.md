@@ -22,6 +22,7 @@ breadcrumb-title: Campaign technotes
   + {hide-from-toc} [Internet browsers](upgrades/browsers.md)
   + {hide-from-toc} [2023 system upgrades](upgrades/tech-stack-upgrade.md)
   + {hide-from-toc} [client console 32-bit deprecation](upgrades/console.md)
+  + [64-bit schemas](upgrades/64-bit-tables.md)
   + Security {#security}
     + {hide-from-toc} [Customer credentials rotation](security/credential-rotation-guide.md)
     + {hide-from-toc} [Asymetric encryption](security/asymetric-encryption.md)
