@@ -59,11 +59,11 @@ The type of proof target is selected from the **[!UICONTROL Targeting mode]** dr
 
     By default, substitution is performed randomly, but you can select a specific recipient from the main target, via the  **[!UICONTROL Detail]** icon. 
 
-    ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+    ![](assets/target-of-proofs-substitution-details.png){width="800"}
 
     Choose the **[!UICONTROL Select a profile (must be included in the target)]** option and select a recipient.
 
-    ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+    ![](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * Use the **[!UICONTROL Seed addresses]**  option to use seed addresses as proof target. These addresses can be imported from a file or entered manually.
@@ -84,7 +84,7 @@ To send message proofs, follow the steps below:
 1. From the **[!UICONTROL Send a proof]** window, check the proof recipients.
 1. Click **[!UICONTROL Analyze]** to start proof message preparation.
 
-    ![](assets/send-proof-analyze.png){width="800" align="left"}
+    ![](assets/send-proof-analyze.png){width="800"}
 
 1. Once the delivery preparation is complete, use the **[!UICONTROL Confirm delivery]** to start sending proof messages.
 
@@ -106,7 +106,7 @@ Proof properties are set in the **[!UICONTROL Advanced]** tab of the delivery pr
 
 By default, proof messages are identified by the `Proof #N` mention in the subject, where `N` is the proof number. This number is incremented with each proof delivery analysis. You can change the `proof` prefix, as needed.
 
-![](assets/proof-parameters.png){width="800" align="left"}
+![](assets/proof-parameters.png){width="800"}
 
 
 ## How-to video {#video-proof}

@@ -95,7 +95,7 @@ To select the recipients of a delivery, follow the steps below:
 1. Select the [target mapping](../audiences/target-mappings.md) in the **[!UICONTROL Target mapping]** drop-down list.
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
-   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
+   ![](assets/target-type.png){width="60%" zoomable="yes"}
 
    Select a type of filter and click **[!UICONTROL Next]** to define the conditions. You can display the filtered recipients from the **[!UICONTROL Preview]** tab. Depending on the type of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
 
