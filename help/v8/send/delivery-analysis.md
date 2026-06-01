@@ -63,7 +63,7 @@ To prepare the the delivery, make sure the delivery content and target have been
     * A yellow icon indicates a non-critical processing error.
     * A red icon indicates a critical error that prevents sending the delivery.
 
-    ![](assets/delivery-analysis-results.png){width="800" align="left"}
+    ![](assets/delivery-analysis-results.png){width="800"}
 
 1. Click **[!UICONTROL Close]** to correct the errors if any. After making the changes, restart the analysis clicking **[!UICONTROL Analyze]**.
 
@@ -79,7 +79,7 @@ To prepare the the delivery, make sure the delivery content and target have been
 
 Browse to the **[!UICONTROL Analysis]** tab of the delivery properties to define settings for the message preparation during the analysis phase.
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 This tab gives access to the following options:
 

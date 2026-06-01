@@ -179,7 +179,7 @@ To create a service to send push notifications, follow the steps below:
 
 1. Browse to **[!UICONTROL Profiles and Targets > Services and Subscriptions]** tab, and click **[!UICONTROL Create]**.
 
-   ![](assets/new-service-push.png){width="800" align="left"}
+   ![](assets/new-service-push.png){width="800"}
 
 1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**, and select a **[!UICONTROL Mobile application]** type.
 
@@ -197,14 +197,14 @@ To create an app for iOS devices, follow these steps:
 
 1. Select **[!UICONTROL Create an iOS application]** and click **[!UICONTROL Next]**.
 
-   ![](assets/new-ios-app.png){width="600" align="left"}
+   ![](assets/new-ios-app.png){width="600"}
 
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
 
    In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notification and then provides the application with the image to display within the notification.
 
-   ![](assets/ios-app-parameters.png){width="600" align="left"}
+   ![](assets/ios-app-parameters.png){width="600"}
 
 1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
@@ -247,7 +247,7 @@ To create an app for Android devices, follow these steps:
 
 1. Select **[!UICONTROL Create an Android application]** and click **[!UICONTROL Next]**.
 
-   ![](assets/new-android-app.png){width="600" align="left"}
+   ![](assets/new-android-app.png){width="600"}
 
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.

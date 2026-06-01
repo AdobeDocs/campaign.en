@@ -41,7 +41,7 @@ Adobe Campaign comes with a set of built-in technical workflows. They control op
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
+![](assets/navtree.png){width="50%" zoomable="yes"}
 
 >[!NOTE]
 >
