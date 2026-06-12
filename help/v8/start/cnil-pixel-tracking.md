@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign - Email Tracking Pixels and CNIL Guidance
+title: Email Tracking Pixels and CNIL Guidance
 description: Understanding CNIL's updated guidance on email tracking pixels and the Adobe Campaign capabilities that can support compliance efforts.
 feature: Overview
 role: User
@@ -7,11 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 ---
-# Adobe Campaign -  Email Tracking Pixels and CNIL Guidance
+# Understanding CNIL's updated guidance on email tracking pixels
 
 This post is for informational purposes only. It is not legal advice and does not warrant your compliance with applicable law. The Adobe Campaign product capabilities described below are building blocks that, configured and operated appropriately, may support a compliant implementation. Each customer is responsible for determining and complying with its obligations under applicable law.
-
-## Title: Understanding CNIL's updated guidance on email tracking pixels
 
 ## Overview
 
@@ -35,21 +33,21 @@ Customers seeking assistance implementing the changes described above may engage
 
 Customers may use Adobe Campaign's native tracking, schema, and personalization mechanisms to address certain elements when configuring architecture to address the CNIL guidance:
 
-* Classification of the delivery. Extend nms:delivery with an emailType attribute (authentication, deliverability-only, transactional, marketing, public service, B2B prospecting). The classification drives which pixels are allowed without consent.
-* Consent capture. Extend nms:recipient with a per-purpose consent structure carrying wording version, timestamp, capture source, and expiry. Extend sign-up forms and preference centers to collect pixel consent separately from the email opt-in.
-* Pixel emission. Define one NmsTracking_OpenFormula per pixel purpose (authentication, deliverability, performance, profiling, fraud detection). A delivery typology rule selects which formulas to emit based on emailType and the recipient's per-purpose consent. Personalization blocks encapsulate the logic so it does not live in individual creatives.
-* Withdrawal. Add a Manage tracker preferences link to every email footer, distinct from the unsubscribe link. The link points to an nms:webApp landing page authenticated through idTracking; the recipient withdraws consent in one click, without re-entering their email address. A filter step added to the standard Tracking workflow prevents re-opens of previously delivered emails from being exploited after withdrawal.
-* Proof of consent. Capture each consent event in an append-only log (a pix:consentLog extension namespace, for example), with the wording version stored separately for retrievability after wording changes. Surface the log through the Adobe Campaign explorer and as a periodic export.
-* Re-solicitation governance. A lastPixelRefusalDate field and a filtering typology rule prevent re-solicitation for at least six months after a refusal. A periodic workflow can help manage consent expiration.
-* Reporting. Existing Adobe Campaign reporting continues to operate against the new fields (urlCategory, emailType, the consent flags) without code changes.
+* **Classification of the delivery.** Extend nms:delivery with an emailType attribute (authentication, deliverability-only, transactional, marketing, public service, B2B prospecting). The classification drives which pixels are allowed without consent.
+* **Consent capture.** Extend nms:recipient with a per-purpose consent structure carrying wording version, timestamp, capture source, and expiry. Extend sign-up forms and preference centers to collect pixel consent separately from the email opt-in.
+* **Pixel emission.** Define one NmsTracking_OpenFormula per pixel purpose (authentication, deliverability, performance, profiling, fraud detection). A delivery typology rule selects which formulas to emit based on emailType and the recipient's per-purpose consent. Personalization blocks encapsulate the logic so it does not live in individual creatives.
+* **Withdrawal.** Add a Manage tracker preferences link to every email footer, distinct from the unsubscribe link. The link points to an nms:webApp landing page authenticated through idTracking; the recipient withdraws consent in one click, without re-entering their email address. A filter step added to the standard Tracking workflow prevents re-opens of previously delivered emails from being exploited after withdrawal.
+* **Proof of consent.** Capture each consent event in an append-only log (a pix:consentLog extension namespace, for example), with the wording version stored separately for retrievability after wording changes. Surface the log through the Adobe Campaign explorer and as a periodic export.
+* **Re-solicitation governance.** A lastPixelRefusalDate field and a filtering typology rule prevent re-solicitation for at least six months after a refusal. A periodic workflow can help manage consent expiration.
+* **Reporting.** Existing Adobe Campaign reporting continues to operate against the new fields (urlCategory, emailType, the consent flags) without code changes.
 
 For more information regarding email tracking in Adobe email marketing execution applications see documentation here:
 
 | Product | Documentation reference |
 |---|---|
-| Campaign v8 | [Message Tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking) |
-| Campaign Classic | [Get started with message tracking](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking) |
-| Campaign Standard | [Configuring email channel](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel) |
-| Journey Optimizer | [Message tracking documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking) |
-| Marketo Engage | [Disable tracking for an email link](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link) |
-| Journey Optimizer B2B | [Email settings documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email) |
+| Campaign v8 | [Message Tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [Get started with message tracking](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [Configuring email channel](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [Message tracking documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [Disable tracking for an email link](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [Email settings documentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
