@@ -34,6 +34,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
   + {hide-from-toc} [Frequently Asked Questions](start/campaign-faq.md)
+  + {hide-from-toc} [Email Tracking Pixels and CNIL Guidance](start/cnil-pixel-tracking.md)
 + Administration & Permissions {#permissions}
   + [Get started with permissions](start/gs-permissions.md)
   + [Manage user permissions](start/manage-permissions.md)
