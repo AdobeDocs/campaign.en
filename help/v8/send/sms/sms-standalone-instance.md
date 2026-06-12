@@ -83,3 +83,4 @@ In the **[!UICONTROL SMS]** tab, you can add optional parameters to your templat
 ![](assets/sms_template_properties.png){zoomable="yes"}
 
 [Learn more about this SMS tab configuration](sms-delivery-settings.md).
+

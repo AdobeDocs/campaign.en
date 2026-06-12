@@ -105,3 +105,4 @@ Need help as you are working with Campaign? Read the top questions / answers bel
     To log an issue or start a chat session in that new system, connect to [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}. 
 
     This system requires individual accounts for each user, with correct permissions. If you find that you can't log in with your Adobe ID, request access via the Experience League, and the Customer Care team will get you set up as soon as possible. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+
