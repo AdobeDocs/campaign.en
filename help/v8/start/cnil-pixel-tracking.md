@@ -5,7 +5,6 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 ---
 # Understanding CNIL's updated guidance on email tracking pixels
 
