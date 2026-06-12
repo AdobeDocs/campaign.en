@@ -53,3 +53,4 @@ A note has been added to specify how to clear instance variables when restarting
 
 * Information has been added on how the default postalAddress field for Direct Mail is defined and why it is important to make sure that addresses are complete. [Read more](../send/direct-mail.md)
 * Adobe Campaign v8 [documentation home](../campaign-home.md) page has been redesigned.
+

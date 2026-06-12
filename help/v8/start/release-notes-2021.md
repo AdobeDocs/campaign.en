@@ -208,3 +208,4 @@ _July 23, 2021_
 * Fixed an issue with the **Deduplication** workflow activity which could result in an inaccurate duplicate counting. 
 * Fixed an issue when using a workflow query with the "ID is not empty" filter which could result in an empty item being displayed in the transition population.
 * Fixed an issue which prevented additional fields from being created in a new target mapping.
+
