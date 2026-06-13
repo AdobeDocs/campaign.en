@@ -49,3 +49,4 @@ _Sept 3, 2024_
 The following issues are fixed in this release:
 
 NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-77795, NEO-78843, NEO-79328.
+

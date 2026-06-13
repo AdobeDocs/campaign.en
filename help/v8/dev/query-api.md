@@ -927,3 +927,4 @@ Complete structure of the `queryDef` object:
 * [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [Work with schemas](schemas.md)
 * [Work with the query editor](../start/query-editor.md)
+
