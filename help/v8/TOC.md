@@ -17,8 +17,8 @@ breadcrumb-title: Campaign v8 Documentation
   + Previous releases {#previous-rn}
     + [2025](start/release-notes-2025.md)
     + [2024](start/release-notes-2024.md)
-    + [2023](start/release-notes-2023.md)
-    + [2022](start/release-notes-2022.md)
+    + {hide-from-toc} [2023](start/release-notes-2023.md)
+    + {hide-from-toc} [2022](start/release-notes-2022.md)
     + {hide-from-toc} [2021](start/release-notes-2021.md)
   + [Guardrails](start/ac-guardrails.md)
   + {hide-from-toc} [Known issues](start/known-issues.md)
