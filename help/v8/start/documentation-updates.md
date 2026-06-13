@@ -20,6 +20,10 @@ level_v2:
 
 This page lists all the latest updates in [!DNL Campaign] v8 (console) documentation.
 
+## June 2026 {#june-2026}
+
+Added a page on CNIL guidance for email tracking pixels and the related Adobe Campaign capabilities. [Read more](cnil-pixel-tracking.md)
+
 ## April 2025 {#april-2025}
 
 Added a best practice to restart the workflow after changing the scheduled time of the **[!UICONTROL Scheduler]** activity to ensure it executes according to the updated schedule. [Read more](../../automation/workflow/scheduler.md)
