@@ -4,6 +4,7 @@ description: Understanding CNIL's updated guidance on email tracking pixels and 
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
 ---
 
