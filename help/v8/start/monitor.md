@@ -28,66 +28,99 @@ topic_v2:
 ---
 # Campaign monitoring overview {#monitor-campaign}
 
-Adobe Campaign offers a comprehensive set of capabilities to monitor your processes, deliveries, and environment to ensure optimal performance and troubleshoot issues proactively.
+Adobe Campaign gives you visibility at every level — from whether an individual message was delivered, to why a workflow failed, to how much database capacity your instance has left. This page maps all monitoring capabilities so you know where to look when something needs attention.
 
 >[!NOTE]
 >
 >As a Campaign administrator, you can also use [Campaign Control Panel](#control-panel) to monitor your instances, manage performance, and configure settings with self-service capabilities.
 
+>[!TIP]
+>
+>**Not sure where to start?**
+>
+>- Marketer checking on a campaign → [Monitor your deliveries](#monitor-deliveries)
+>- Troubleshooting a workflow → [Monitor workflows](#monitor-workflows)
+>- Admin checking instance health → [Monitor your instance](#monitor-instance)
+
 ## Monitor your deliveries {#monitor-deliveries}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers. After sending a delivery, you can monitor its status and track key metrics in the delivery dashboard. The dashboard provides access to delivery logs, exclusion logs, tracking logs, and other monitoring capabilities to help you analyze your delivery performance across all channels.
+Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach your customers. After sending a delivery, you can track its progress and diagnose problems from the delivery dashboard. The dashboard gives you access to delivery logs, exclusion logs, tracking logs, and other data for every channel you use.
 
-**Email deliveries** - Monitor email delivery status, track key metrics, and access detailed logs. Learn more about [monitoring deliveries in Campaign UI](../send/delivery-dashboard.md), [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring).
+>[!NOTE]
+>
+>**New to Campaign?** The delivery dashboard is your main day-to-day screen. Open any sent delivery, click the **Logs** tab, and you will see which recipients received the message, which were excluded and why, and who clicked or opened.
 
-**SMS deliveries** - Track SMS delivery status and monitor key metrics in the SMS delivery dashboard. Learn more about [SMS monitoring](../send/sms/sms-monitor.md).
+**Email deliveries** — Monitor email delivery status, track key metrics, and access detailed logs. Learn more about [monitoring deliveries in Campaign UI](../send/delivery-dashboard.md), [delivery statuses](../send/delivery-statuses.md) and [email delivery monitoring](../send/send.md#email-monitoring).
 
-**Push notifications** - Monitor push notification deliveries to ensure they reach your mobile app users effectively. Learn more about [push notification monitoring](../send/push.md#push-test).
+**SMS deliveries** — Track SMS delivery status and monitor key metrics in the SMS delivery dashboard. Learn more about [SMS monitoring](../send/sms/sms-monitor.md).
 
-**Transactional messages** - For messages triggered by events, monitor event processing status, message execution and delivery status. Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-messages).
+**Push notifications** — Monitor push notification deliveries to ensure they reach your mobile app users effectively. Learn more about [push notification monitoring](../send/push.md#push-test).
 
-**Delivery failures** - Understanding why a delivery failed is critical to maintain a clean database and ensure good deliverability rates. Delivery failures are classified into hard bounces, soft bounces, and ignored messages. Learn more about [delivery failures and quarantines](../send/delivery-failures.md).
+**Transactional messages** — For messages triggered by events, monitor event processing status, queue depth, and execution results. Learn more about [transactional message monitoring](../send/delivery-execution.md#monitor-messages).
+
+**Delivery failures** — Understanding why a delivery failed is critical to maintaining a clean database and ensuring good deliverability rates. Delivery failures are classified into three types — understanding the difference helps you decide what action to take:
+
+| Failure type | What it means | What Campaign does |
+| --- | --- | --- |
+| **Hard bounce** | The address is permanently invalid (does not exist, domain unknown) | Contact is automatically quarantined — it will not be targeted in future deliveries |
+| **Soft bounce** | A temporary issue (full mailbox, server temporarily unavailable) | Campaign retries automatically for a configured period |
+| **Ignored** | The address was already quarantined or on a blocklist before sending | No attempt is made; counted separately from bounces |
+
+Learn more about [delivery failures and quarantines](../send/delivery-failures.md).
 
 ## Monitor deliverability {#monitor-deliverability}
 
-Deliverability monitoring helps you ensure that your messages reach your recipients' inboxes and avoid spam filters. Adobe Campaign provides several built-in tools to monitor and improve deliverability, including delivery reports, inbox rendering, SpamAssassin testing, and broadcast statistics. Following deliverability best practices such as maintaining a clean email list, monitoring sender reputation, and authenticating sending domains is critical to maintain good deliverability rates.
+Deliverability is the measure of how successfully your messages reach recipients' inboxes — as opposed to being filtered to spam or rejected. Adobe Campaign provides several built-in tools to help you understand and improve your inbox placement rates.
+
+>[!NOTE]
+>
+>A message counted as "delivered" means it was accepted by the receiving server — it does not guarantee inbox placement. Deliverability monitoring tells you whether your sending domain authentication, IP reputation, and email content are meeting inbox provider standards.
+
+Adobe Campaign provides the following built-in deliverability tools:
+
+- **Delivery reports** — Built-in reports showing send volume, bounce rates, and unsubscribes over time.
+- **Inbox rendering** — Preview how your email appears across major clients (Gmail, Outlook, Apple Mail) before or after sending.
+- **SpamAssassin testing** — Score your email content against common spam filter rules to catch issues before delivery.
+- **Broadcast statistics** — Aggregate delivery data across your sending volumes and IP reputation.
+
+Following deliverability best practices — such as maintaining a clean email list, monitoring sender reputation, and authenticating sending domains — is critical to maintaining good deliverability rates.
 
 Learn more about [deliverability monitoring tools](../send/monitoring-deliverability.md) and [deliverability best practices](../send/about-deliverability.md).
 
 ## Monitor workflows {#monitor-workflows}
 
-Workflows are essential to automate your marketing campaigns and data processing. Monitoring workflow execution helps you:
+Workflows are the engine behind your marketing automations and data processing. Monitoring them ensures that scheduled activities complete as expected and that errors are caught before they affect deliveries or data quality.
 
-* Ensure workflows complete successfully
-* Identify and troubleshoot errors
-* Optimize workflow performance
+>[!TIP]
+>
+>If a workflow shows a **Failed** status, open it, right-click the red activity, and select **Display logs**. The error message identifies exactly what went wrong and on which record.
 
 ### Workflow monitoring capabilities {#workflow-monitoring}
 
 **Monitor the following workflow elements:**
 
-**Workflow execution status** - Track whether workflows are running, paused, failed, or completed. [Learn more about workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**Workflow execution status** — Track whether workflows are running, paused, failed, or completed. Spot stuck or long-running workflows at a glance. [Learn more about workflow execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
-**Activity execution logs** - Access detailed logs for each workflow activity to troubleshoot issues and optimize performance.
+**Activity execution logs** — Drill into per-activity logs to understand what happened at each step — useful for troubleshooting failed transitions or unexpected data outputs.
 
-**Workflow heatmap** - Visualize workflow execution patterns, identify bottlenecks, and monitor concurrent workflows. The Workflow HeatMap is available to Campaign administrators. [Learn more about workflow heatmap](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+**Workflow HeatMap** — A visual overview of all workflows running simultaneously across your instance. Use it to identify peak load periods, spot workflows consuming disproportionate resources, and plan scheduling to avoid execution conflicts. Available to Campaign administrators only. [Learn more about workflow heatmap](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
-**Workflow history** - Track all workflow executions and modifications over time to understand workflow behavior and performance.
+**Workflow history** — Track all workflow executions and modifications over time to understand workflow behavior and performance patterns.
 
 ## Monitor your instance {#monitor-instance}
 
-Instance monitoring helps you ensure the health and performance of your Adobe Campaign environment. For Campaign v8 Managed Cloud Services, Adobe also monitors and manages the infrastructure on your behalf. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
+Instance monitoring covers the health of your Campaign environment — database capacity, profile usage, throughput, and infrastructure. For Campaign v8 Managed Cloud Services, Adobe monitors and manages the underlying infrastructure on your behalf, but you retain full visibility through the client console and Control Panel. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
 
 ### Audit trail {#audit-trail}
 
-The Audit trail self-service interface allows you to monitor changes made within your Adobe Campaign instance. Audit trail captures, in real-time, a comprehensive list of actions and events occurring within your instance.
+The Audit trail self-service interface lets you monitor every significant change made within your Adobe Campaign instance. Audit trail captures, in real time, a comprehensive list of actions and events occurring within your instance.
 
 **Use Audit trail to:**
 
-* **Track component changes**: Monitor what happened to your workflows, schemas, options, and other components
-* **Identify who made changes**: See who last updated a specific element and when
-* **Understand user actions**: Review what users did in the instance for troubleshooting or auditing
-* **Maintain compliance**: Track all configuration changes for compliance and security purposes
+- **Track component changes** — Monitor what happened to your workflows, schemas, options, and other components
+- **Identify who made a change** — See which user last modified an element and at what time
+- **Troubleshoot unexpected behavior** — Trace back through user actions to find when and how a problem was introduced
+- **Support compliance and audits** — Maintain a complete, tamper-evident record of all configuration changes
 
 The Audit trail is accessible through the Campaign client console and provides detailed information about actions performed by users.
 
@@ -97,39 +130,33 @@ Learn more about [Audit trail](../reporting/audit-trail.md)
 
 Campaign v8 provides several monitoring capabilities to track your instance performance and ensure optimal operation:
 
-**Database monitoring** - Monitor database usage and capacity through Control Panel to ensure optimal performance and storage management. [Learn more about database monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**Database monitoring** — Monitor database usage and capacity through Control Panel to ensure optimal performance and storage management. [Learn more about database monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
 
-**Active profiles monitoring** - Track active profile usage against your contractual limits to maintain compliance and optimize resource allocation. [Learn more about active profiles](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**Active profiles monitoring** — Track active profile usage against your contractual limits to maintain compliance and optimize resource allocation. [Learn more about active profiles](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
 
-**Workflow monitoring** - Monitor workflow execution status to identify long-running workflows and ensure all technical workflows are running correctly. [Learn more about technical workflows](#technical-workflows)
+**Workflow monitoring** — Monitor workflow execution status to identify long-running workflows and ensure all technical workflows are running correctly. [Learn more about technical workflows](#technical-workflows)
 
-**Delivery throughput and latency** - Track delivery throughput (messages sent per hour) and latency for transactional communications through Control Panel. [Learn more about throughput monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Delivery throughput and latency** — Track delivery throughput (messages sent per hour) and latency for transactional communications through Control Panel. [Learn more about throughput monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
 
 >[!NOTE]
 >
->For Campaign v8 Managed Cloud Services, server infrastructure (CPU, memory, disk) is monitored and managed by Adobe. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
+>For Campaign v8 Managed Cloud Services, server infrastructure (CPU, memory, disk) is monitored and managed by Adobe. The monitoring capabilities described on this page and in Control Panel are complementary — they give you visibility into your data and configuration without requiring infrastructure access. Some actions taken by Adobe appear in your Campaign logs under the **campaign-loginmonitor** user. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
 
 ### Adobe-managed monitoring {#adobe-cloud-monitoring}
 
-Adobe Campaign Cloud Services provides mission-critical support for demanding customer experience delivery needs through flexible cloud infrastructure. This lets organizations launch, monitor, and optimize customer experiences without the need to manage or operate Campaign infrastructure themselves.
+Adobe Campaign Cloud Services provides mission-critical support for demanding customer experience delivery needs through flexible cloud infrastructure. This lets organizations launch, monitor, and optimize customer experiences without managing or operating Campaign infrastructure themselves.
 
-Adobe monitors your Campaign Cloud Services environments to help manage various issues and minimize disruptions by detecting technical issues and providing continuous feedback about performance and ongoing projects.
+Adobe monitors your Campaign Cloud Services environments 24/7 to detect technical issues and minimize disruptions. Upon detecting an issue, the system uses auto-restart and auto-launch mechanisms to attempt remediation. If the system does not self-remedy, Adobe On-Call engineering intervenes based on pre-defined alert runbooks.
 
-**How Adobe responds**
-
-Adobe monitors all critical network equipment on the Campaign network 24/7 and receives notifications from monitoring systems when fixes or escalations are needed. Upon detecting an issue, the system uses auto-restart and auto-launch mechanisms to attempt remediation. If the system does not self-remedy, Adobe On-Call engineering intervenes to perform troubleshooting based on pre-defined alert runbooks.
-
->[!NOTE]
+>[!TIP]
 >
->Some monitoring actions performed by Adobe appear in Campaign logs under the **campaign-loginmonitor** user.
+>You can subscribe to real-time instance alerts through [Campaign Control Panel](#control-panel) and receive recommended remediation steps for detected issues — for example, SSL certificates nearing expiry.
 
-In addition to Adobe's internal monitoring, you can access monitoring capabilities directly through the Campaign client console or the [Campaign Control Panel](../config/self-service.md). With Control Panel, you can subscribe to real-time alerts about your instances and receive recommended remediation steps for identified incidents (for example, SSL certificates nearing expiry).
+**Monitoring tiers**
 
-**Monitoring taxonomy**
+Adobe monitors your environment across three tiers. Tier 1 issues have the widest impact and receive the fastest response:
 
-Adobe monitors your environment across three tiers:
-
-| Tier | Group | Potential business impact |
+| Tier | Group | What you may experience |
 | --- | --- | --- |
 | **Tier 1: Infrastructure** | Database space exhaustion | Performance issues including inability to log in, run batch deliveries, or execute queries |
 | **Tier 1: Infrastructure** | Database availability | Users and services may not be able to use the system |
@@ -150,55 +177,49 @@ Adobe monitors your environment across three tiers:
 
 >[!NOTE]
 >
->Adobe Campaign Cloud Services is built on a multi-cloud strategy and offers deployments on AWS and Azure. Due to vendor differences, monitoring capabilities differ between AWS, Azure, and other data center deployments. The table above applies to Campaign Cloud Services customers hosted on AWS unless stated otherwise. Note also that Adobe Campaign does not currently expose all monitoring data used by On-Call engineering to customers.
+>Adobe Campaign Cloud Services is built on a multi-cloud strategy with deployments on AWS and Azure. Monitoring capabilities differ between AWS, Azure, and other data center deployments. The table above applies to Campaign Cloud Services customers hosted on AWS unless stated otherwise. Adobe Campaign does not currently expose all monitoring data used by On-Call engineering to customers.
 
 ### Technical workflows {#technical-workflows}
 
-Technical workflows are essential processes that run in the background to maintain your Campaign instance.
+Technical workflows run silently in the background to maintain your Campaign instance. They are not created by users — they ship with the product. If a technical workflow fails, it can directly affect deliveries and data quality.
 
-**Monitor that technical workflows are:**
+Verify that each technical workflow is executing on schedule, completing without errors, and processing data correctly.
 
-* Executing on schedule
-* Completing successfully without errors
-* Processing data correctly
-
-**Key technical workflows to monitor:**
-
-| Workflow | Purpose |
-|----------|---------|
-| **Tracking** | Processes tracking data from email deliveries |
-| **Cleanup** | Removes old data and logs to maintain database performance |
-| **Deliverability update** | Updates deliverability rules and spam filter patterns |
-| **Database cleanup** | Purges old delivery and tracking logs |
+| Workflow | Purpose | If it fails |
+| --- | --- | --- |
+| **Tracking** | Processes tracking data from email deliveries | Click and open metrics stop updating in reports |
+| **Cleanup** | Removes old data and logs to maintain database performance | Database grows unchecked, degrading query and delivery performance |
+| **Deliverability update** | Updates deliverability rules and spam filter patterns | Rules become stale; filtering accuracy may degrade |
+| **Database cleanup** | Purges old delivery and tracking logs | Log accumulation slows queries and reporting over time |
 
 Learn more about [technical workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 ### Campaign Control Panel {#control-panel}
 
-Campaign Control Panel provides administrators with self-service capabilities to monitor and manage Campaign instances.
+Campaign Control Panel provides administrators with self-service capabilities to monitor and manage Campaign instances — without requiring a support ticket.
 
-| Monitoring Type | Capabilities |
-|-----------------|--------------|
-| **Performance** | Track active profile usage, monitor database usage and capacity, view workflow execution status, monitor delivery throughput and latency |
-| **Infrastructure** | Monitor SFTP storage capacity, track subdomain configuration, monitor SSL certificate expiration, manage IP allow listing |
-| **Instance** | View build version and installed packages, monitor system configuration, manage authorized external domains |
+| Monitoring type | Capabilities |
+| --- | --- |
+| **Performance** | Active profile usage vs. contract limit, database usage and capacity, workflow execution status, delivery throughput and latency |
+| **Infrastructure** | SFTP storage capacity, subdomain configuration, SSL certificate expiry alerts, IP allow listing |
+| **Instance** | Build version and installed packages, system configuration overview, authorized external domains |
 
 Learn more about [Control Panel](../config/self-service.md) and [Control Panel performance monitoring](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
 
 >[!NOTE]
 >
->For Campaign v8 Managed Cloud Services, Adobe monitors and manages the server infrastructure, operating system, and application layer. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring). You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
+>For Campaign v8 Managed Cloud Services, Adobe monitors and manages the server infrastructure, operating system, and application layer. The monitoring capabilities described on this page and Control Panel are complementary — they give you visibility into your data and configuration without requiring infrastructure access.
 
 ## Tracking and reporting {#tracking-reporting}
 
 ### Message tracking {#message-tracking}
 
-Track recipient behavior and measure the effectiveness of your campaigns:
+Tracking records how recipients interact with your messages after delivery. All tracked events are stored in tracking logs and surfaced in delivery reports.
 
-* **Opens**: Track when recipients open your emails
-* **Clicks**: Monitor which links recipients click
-* **Unsubscribes**: Track opt-out requests
-* **Mirror page views**: See how many recipients view your email in a browser
+- **Opens** — Recorded when the tracking pixel loads (email only)
+- **Clicks** — Recorded for every tracked link in the message
+- **Unsubscribes** — Opt-out requests via the unsubscription link
+- **Mirror page views** — Recipients who viewed the email in a browser
 
 Learn more about [message tracking](../send/tracking.md)
 
@@ -206,10 +227,10 @@ Learn more about [message tracking](../send/tracking.md)
 
 Adobe Campaign provides a comprehensive set of reports to analyze your delivery performance:
 
-* **Delivery summary**: Overview of sends, deliveries, and failures
-* **Tracking indicators**: Opens, clicks, and click-through rates
-* **URLs and click streams**: Most popular links in your deliveries
-* **Hot clicks**: Visual representation of where recipients clicked in your email
+- **Delivery summary** — Overview of sends, deliveries, and failures for a single delivery
+- **Tracking indicators** — Opens, clicks, and click-through rates with trend over time
+- **URLs and click streams** — Ranking of most clicked links, with counts and percentages
+- **Hot clicks** — Visual overlay showing where recipients clicked within the email body
 
 Learn more about [delivery reports](../reporting/delivery-reports.md)
 
@@ -217,15 +238,15 @@ Learn more about [delivery reports](../reporting/delivery-reports.md)
 
 Access global reports to analyze performance across all campaigns and deliveries:
 
-* **Delivery throughput**: Messages sent over time
-* **Non-deliverables and bounces**: Analysis of failed deliveries
-* **User activities**: Opens, clicks, and unsubscribes across all campaigns
+- **Delivery throughput** — Messages sent per hour across all deliveries over a period
+- **Non-deliverables and bounces** — Breakdown of failed deliveries by failure type and reason
+- **User activities** — Opens, clicks, and unsubscribes aggregated across all campaigns
 
 Learn more about [global reports](../reporting/global-reports.md)
 
 ## Related topics {#related-topics}
 
-* [Delivery best practices](delivery-best-practices.md)
-* [Quarantine management](../send/quarantines.md)
-* [Configure and send deliveries](../send/configure-and-send.md)
-* [Get started with reporting](../reporting/gs-reporting.md)
+- [Delivery best practices](delivery-best-practices.md)
+- [Quarantine management](../send/quarantines.md)
+- [Configure and send deliveries](../send/configure-and-send.md)
+- [Get started with reporting](../reporting/gs-reporting.md)
