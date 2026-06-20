@@ -28,11 +28,7 @@ topic_v2:
 ---
 # Campaign monitoring overview {#monitor-campaign}
 
-Adobe Campaign gives you visibility at every level — from whether an individual message was delivered, to why a workflow failed, to how much database capacity your instance has left. This page maps all monitoring capabilities so you know where to look when something needs attention.
-
->[!NOTE]
->
->As a Campaign administrator, you can also use [Campaign Control Panel](#control-panel) to monitor your instances, manage performance, and configure settings with self-service capabilities.
+Adobe Campaign gives you visibility at every level — from whether an individual message was delivered, to why a workflow failed, to how much database capacity your instance has left. This page maps all monitoring capabilities so you know where to look when something needs attention. As a Campaign administrator, you can also use [Campaign Control Panel](#control-panel) to monitor your instances, manage performance, and configure settings with self-service capabilities.
 
 >[!TIP]
 >
