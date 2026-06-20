@@ -76,7 +76,7 @@ Workflows are essential to automate your marketing campaigns and data processing
 
 ## Monitor your instance {#monitor-instance}
 
-Instance monitoring helps you ensure the health and performance of your Adobe Campaign environment.
+Instance monitoring helps you ensure the health and performance of your Adobe Campaign environment. For Campaign v8 Managed Cloud Services, Adobe also monitors and manages the infrastructure on your behalf. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
 
 ### Audit trail {#audit-trail}
 
@@ -107,7 +107,50 @@ Campaign v8 provides several monitoring capabilities to track your instance perf
 
 >[!NOTE]
 >
->For Campaign v8 Managed Cloud Services, server infrastructure (CPU, memory, disk) is monitored and managed by Adobe.
+>For Campaign v8 Managed Cloud Services, server infrastructure (CPU, memory, disk) is monitored and managed by Adobe. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring).
+
+### Adobe-managed monitoring {#adobe-cloud-monitoring}
+
+Adobe Campaign Cloud Services provides mission-critical support for demanding customer experience delivery needs through flexible cloud infrastructure. This lets organizations launch, monitor, and optimize customer experiences without the need to manage or operate Campaign infrastructure themselves.
+
+Adobe monitors your Campaign Cloud Services environments to help manage various issues and minimize disruptions by detecting technical issues and providing continuous feedback about performance and ongoing projects.
+
+**How Adobe responds**
+
+Adobe monitors all critical network equipment on the Campaign network 24/7 and receives notifications from monitoring systems when fixes or escalations are needed. Upon detecting an issue, the system uses auto-restart and auto-launch mechanisms to attempt remediation. If the system does not self-remedy, Adobe On-Call engineering intervenes to perform troubleshooting based on pre-defined alert runbooks.
+
+>[!NOTE]
+>
+>Some monitoring actions performed by Adobe appear in Campaign logs under the **campaign-loginmonitor** user.
+
+In addition to Adobe's internal monitoring, you can access monitoring capabilities directly through the Campaign client console or the [Campaign Control Panel](../config/self-service.md). With Control Panel, you can subscribe to real-time alerts about your instances and receive recommended remediation steps for identified incidents (for example, SSL certificates nearing expiry).
+
+**Monitoring taxonomy**
+
+Adobe monitors your environment across three tiers:
+
+| Tier | Group | Potential business impact |
+| --- | --- | --- |
+| **Tier 1: Infrastructure** | Database space exhaustion | Performance issues including inability to log in, run batch deliveries, or execute queries |
+| **Tier 1: Infrastructure** | Database availability | Users and services may not be able to use the system |
+| **Tier 1: Infrastructure** | Database overload (burst balance) | Performance issues including inability to log in, run batch deliveries, or execute queries |
+| **Tier 1: Infrastructure** | Database sequence & transaction ID exhaustion | Unable to create new workflows, deliveries, or send batch emails |
+| **Tier 1: Infrastructure** | SFTP storage | Unable to update or retrieve data on SFTP servers |
+| **Tier 2: Platform and Web** | Login | Users may not be able to log in; scheduled activities and workflows may not execute |
+| **Tier 2: Platform and Web** | API lock | Users or services may not be able to authenticate or execute operations |
+| **Tier 2: Platform and Web** | Web | Unable to create new connections to Campaign |
+| **Tier 2: Platform and Web** | Datacenter network | Performance issues or complete unavailability for users in the datacenter |
+| **Tier 3: Software** | Delivery tracking | Processing of tracking logs is unavailable |
+| **Tier 3: Software** | inMail | No feedback about errors and bounces of email deliveries |
+| **Tier 3: Software** | Message Center status | Unable to send any transactional deliveries |
+| **Tier 3: Software** | MTA | Unable to send scheduled and ad-hoc email deliveries |
+| **Tier 3: Software** | Workflow server status | Unable to execute workflows |
+| **Tier 3: Software** | Web API availability | Unable to process HTTP requests or execute API calls |
+| **Tier 3: Software** | Inbound interactions | Unable to process inbound interactions |
+
+>[!NOTE]
+>
+>Adobe Campaign Cloud Services is built on a multi-cloud strategy and offers deployments on AWS and Azure. Due to vendor differences, monitoring capabilities differ between AWS, Azure, and other data center deployments. The table above applies to Campaign Cloud Services customers hosted on AWS unless stated otherwise. Note also that Adobe Campaign does not currently expose all monitoring data used by On-Call engineering to customers.
 
 ### Technical workflows {#technical-workflows}
 
@@ -144,7 +187,7 @@ Learn more about [Control Panel](../config/self-service.md) and [Control Panel p
 
 >[!NOTE]
 >
->For Campaign v8 Managed Cloud Services, Adobe monitors and manages the server infrastructure, operating system, and application layer. You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
+>For Campaign v8 Managed Cloud Services, Adobe monitors and manages the server infrastructure, operating system, and application layer. Learn more about [Adobe-managed monitoring](#adobe-cloud-monitoring). You can use the monitoring capabilities described in this page and Control Panel to monitor your instance performance, workflows, and deliveries.
 
 ## Tracking and reporting {#tracking-reporting}
 

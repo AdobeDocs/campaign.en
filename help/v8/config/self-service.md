@@ -68,6 +68,8 @@ Learn how to monitor your subdomains and their certificates.
 
 Control Panel provides several functionalities to help you monitor your instances and ensure optimal performances. [Click here](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html){target="_blank"}
 
+For Campaign v8 Managed Cloud Services, Adobe also monitors infrastructure, platform, and software processes on your behalf. Learn more about [Adobe-managed monitoring](../start/monitor.md#adobe-cloud-monitoring).
+
 
 ## Instance settings
 
