@@ -148,6 +148,10 @@ Adobe monitors your environment across three tiers:
 | **Tier 3: Software** | Web API availability | Unable to process HTTP requests or execute API calls |
 | **Tier 3: Software** | Inbound interactions | Unable to process inbound interactions |
 
+>[!NOTE]
+>
+>Adobe Campaign Cloud Services is built on a multi-cloud strategy and offers deployments on AWS and Azure. Due to vendor differences, monitoring capabilities differ between AWS, Azure, and other data center deployments. The table above applies to Campaign Cloud Services customers hosted on AWS unless stated otherwise. Note also that Adobe Campaign does not currently expose all monitoring data used by On-Call engineering to customers.
+
 ### Technical workflows {#technical-workflows}
 
 Technical workflows are essential processes that run in the background to maintain your Campaign instance.
