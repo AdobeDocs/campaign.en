@@ -53,6 +53,7 @@ To set up Campaign-Analytics connection, you must perform the following operatio
 
 1. [Create your Report suite in Adobe Analytics](#report-suite-analytics)
 1. [Configure your Conversion variables and Success events](#configure-conversion-success)
+1. [Create a classification set](#create-classification-set)
 1. [Configure your external account in Adobe Campaign](#external-account-ac)
 
 ## Create your Analytics Report suite {#report-suite-analytics}
@@ -128,7 +129,30 @@ After creating your **[!UICONTROL Report suite]**, you need to configure your **
 
 1. Click **[!UICONTROL Save]** when done.
 
-When your report suite is configured, you will need to configure the **[!UICONTROL External accounts]** in Adobe Campaign.
+## Create a classification set {#create-classification-set}
+
+Since the migration to the Adobe Analytics 2.0 API, you also need to create a **[!UICONTROL Classification set]** in Adobe Analytics before you configure your external account in Campaign. This classification set links the conversion variable you just created (your internal campaign name) to the report suite, so Campaign can automatically discover and use it when you configure the external account in the next step.
+
+To create your classification set:
+
+1. From the [!DNL Adobe Analytics] top menu bar, select **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**, then click **[!UICONTROL New]**.
+
+   ![](assets/analytics_connnector_16.png)
+
+1. In the **[!UICONTROL Add New Classification Set]** dialog:
+
+   ![](assets/analytics_connnector_17.png)
+
+   * Enter a **[!UICONTROL Name]** for the classification set.
+   * Set the **[!UICONTROL Type]** to **[!UICONTROL Primary]**.
+   * In **[!UICONTROL Job notifications]**, choose who should be notified on success or failure of the classification set jobs, and provide the corresponding email addresses.
+   * In **[!UICONTROL Subscriptions]**, select your report suite and the conversion variable you created for the internal campaign name in the previous step.
+
+1. Click **[!UICONTROL Save]**.
+
+For more information on classification sets, refer to the [Adobe Analytics documentation](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+
+When your report suite, conversion variables, success events, and classification set are configured, you will need to configure the **[!UICONTROL External accounts]** in Adobe Campaign.
 
 ## Configure your Campaign external account {#external-account-ac}
 
