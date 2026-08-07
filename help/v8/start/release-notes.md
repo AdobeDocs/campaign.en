@@ -24,6 +24,18 @@ topic_v2:
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+## Release 8.9.3 {#release-8-9-3}
+
+<!-- TODO: add build number to this heading/anchor, and add a Fixes section, once the 8.9.3 Jira scope is finalized -->
+
+_August 17, 2026_
+
+This release includes several product improvements and security fixes, including the upgrade of the Adobe Analytics connector to the Analytics 2.0 API.
+
+### Other changes {#changes-8-9-3}
+
+* **Adobe Analytics connector upgraded to the Analytics 2.0 API.** Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, so the [Web Analytics connector](../connect/ac-aa.md) that sends your campaign indicators and classification data to Adobe Analytics has been upgraded to the Analytics 2.0 API as part of this release. As a hosted customer, Adobe takes care of this migration for you — no configuration is required on your side. The upgrade does re-import the built-in technical workflows that power the connector (**[!UICONTROL webAnalyticsSendMetrics]** and **[!UICONTROL webAnalyticsGetWebEvents]**), so if you customized either of these workflows, re-apply and re-test your customization after the upgrade, since it will otherwise be overwritten. Once the upgrade is complete, validate the Adobe Analytics use cases you rely on (metrics export, classification export, and remarketing if applicable) to confirm data keeps flowing as expected.
+
 ## Release 8.9.2 {#release-8-9-2}
 
 >[!CAUTION]
