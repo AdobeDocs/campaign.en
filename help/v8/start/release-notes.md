@@ -26,7 +26,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.3 {#release-8-9-3}
 
-<!-- TODO: add build number to this heading/anchor, and add a Fixes section, once the 8.9.3 Jira scope is finalized -->
+<!-- TODO: add build number to this heading/anchor once the 8.9.3 build is confirmed -->
 
 _August 17, 2026_
 
