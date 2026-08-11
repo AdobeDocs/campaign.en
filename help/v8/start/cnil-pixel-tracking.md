@@ -8,7 +8,7 @@ hide: true
 # Understanding CNIL's updated guidance on email tracking pixels
 
 This post is for informational purposes only. It is not legal advice and does not warrant your compliance with applicable law. The Adobe Campaign product capabilities described below are building blocks that, configured and operated appropriately, may support a compliant implementation. Each customer is responsible for determining and complying with its obligations under applicable law.
-
+ 
 ## Overview
 
 On April 14, 2026, the _Commission nationale de l'informatique et des libertés_ (CNIL), France's data protection authority, published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). The guidance clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers based in France.
