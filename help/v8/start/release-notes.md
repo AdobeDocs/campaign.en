@@ -26,7 +26,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.3 {#release-8-9-3}
 
-_August 17, 2026_
+_August 11, 2026_
 
 This release includes several product improvements and security fixes, including the upgrade of the Adobe Analytics connector to the Analytics 2.0 API.
 
