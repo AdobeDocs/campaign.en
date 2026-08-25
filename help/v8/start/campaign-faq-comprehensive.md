@@ -144,12 +144,6 @@ Creating your first email in Campaign v8 is straightforward. You start from a te
 
 +++
 
-+++ How to translate an error message?
-
-An error message is displayed in a foreign language? All error messages and their translation are listed in [this page](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html){target="_blank"}.
-
-+++
-
 +++ How can I log an issue?
 
 To contact Adobe Customer Support, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} to create a case or start a chat session.

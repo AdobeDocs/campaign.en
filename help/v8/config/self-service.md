@@ -25,7 +25,7 @@ topic_v2:
 # Campaign Control Panel {#ac-control-panel}
 
 Campaign Control Panel helps you increase efficiency in your work as a product admin of Adobe Campaign, by allowing you to manage settings and track usages for each of your instances. Its intuitive interface lets you easily monitor usage of key assets, as well as perform administrative tasks such as IP addresses allow list addition, SFTP storage monitoring, key management, and more.
-
+ 
 Key benefits:
 
 * Quickly make changes to settings by yourself without reaching out to Adobe.
