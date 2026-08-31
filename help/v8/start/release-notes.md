@@ -34,6 +34,12 @@ This release includes several product improvements and security fixes, including
 >
 > Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version) to check that you have build 9835 or later.
 
+### Security enhancement — External URL validation {#security-8-9-3}
+
+External URLs referenced in delivery content and attachments are now validated against the instance's approved URL allow list. Resources whose domains are not on the allow list will no longer be loaded.
+
+As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 ### Adobe Analytics connector upgraded to the Analytics 2.0 API {#analytics-2-0-8-9-3}
 
 Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, so the [Web Analytics connector](../connect/ac-aa.md) — which sends your campaign indicators and classification data to Adobe Analytics, supports the remarketing flow, and is used to configure new report suites — has been upgraded to the Analytics 2.0 API as part of this release. As a hosted customer, Adobe takes care of this migration for you — no configuration is required on your side. The upgrade does re-import the built-in technical workflows that power the connector (**[!UICONTROL webAnalyticsSendMetrics]** and **[!UICONTROL webAnalyticsGetWebEvents]**) and updates the built-in Analytics JavaScript files, so if you customized either of these workflows or built custom workflows that reference those files, re-apply and adapt that customization after the upgrade, since it will otherwise be overwritten or break. As a best practice, avoid modifying the built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. Once the upgrade is complete, validate the Adobe Analytics use cases you rely on (metrics export, classification export, and remarketing if applicable) to confirm data keeps flowing as expected.

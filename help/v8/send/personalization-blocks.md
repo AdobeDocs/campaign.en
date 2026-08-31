@@ -62,6 +62,10 @@ Built-in personalization blocks are:
 
 ## Create custom personalization blocks {#create-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>If a custom personalization block references an external URL (for example, an externally-hosted image), that URL must be added to the instance's approved URL allow list, or the corresponding resource will not be loaded. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 You can define new personalized content blocks to be inserted from the personalization icon.
 
 To create a personalization block, follow the steps below:
