@@ -28,15 +28,25 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 _August 11, 2026_
 
-This release includes several product improvements and security fixes, including the upgrade of the Adobe Analytics connector to the Analytics 2.0 API.
-
+<!--
 >[!NOTE]
 >
 > Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version) to check that you have build 9835 or later.
+-->
+
+### Security fixes {#security-8-9-3}
+
+This release includes security fixes that strengthen the overall security posture of your Campaign environment. As a hosted customer, these fixes are applied by Adobe as part of the upgrade, with no action required on your side.
 
 ### Adobe Analytics connector upgraded to the Analytics 2.0 API {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, so the [Web Analytics connector](../connect/ac-aa.md) — which sends your campaign indicators and classification data to Adobe Analytics, supports the remarketing flow, and is used to configure new report suites — has been upgraded to the Analytics 2.0 API as part of this release. As a hosted customer, Adobe takes care of this migration for you — no configuration is required on your side. The upgrade does re-import the built-in technical workflows that power the connector (**[!UICONTROL webAnalyticsSendMetrics]** and **[!UICONTROL webAnalyticsGetWebEvents]**) and updates the built-in Analytics JavaScript files, so if you customized either of these workflows or built custom workflows that reference those files, re-apply and adapt that customization after the upgrade, since it will otherwise be overwritten or break. As a best practice, avoid modifying the built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. Once the upgrade is complete, validate the Adobe Analytics use cases you rely on (metrics export, classification export, and remarketing if applicable) to confirm data keeps flowing as expected.
+Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, so the [Web Analytics connector](../connect/ac-aa.md) has been upgraded to the Analytics 2.0 API as part of this release. As a hosted customer, Adobe takes care of this migration for you — no configuration is required on your side.
+
++++ Learn more about the Analytics 2.0 upgrade
+
+The [Web Analytics connector](../connect/ac-aa.md) sends your campaign indicators and classification data to Adobe Analytics, supports the remarketing flow, and is used to configure new report suites. The upgrade does re-import the built-in technical workflows that power the connector (**[!UICONTROL webAnalyticsSendMetrics]** and **[!UICONTROL webAnalyticsGetWebEvents]**) and updates the built-in Analytics JavaScript files, so if you customized either of these workflows or built custom workflows that reference those files, re-apply and adapt that customization after the upgrade, since it will otherwise be overwritten or break. As a best practice, avoid modifying the built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. Once the upgrade is complete, validate the Adobe Analytics use cases you rely on (metrics export, classification export, and remarketing if applicable) to confirm data keeps flowing as expected.
+
++++
  
 ## Release 8.9.2 {#release-8-9-2}
 
