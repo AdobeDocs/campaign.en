@@ -28,13 +28,9 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 _August 11, 2026_
 
-<!--
->[!NOTE]
->
-> Navigate to the **[!UICONTROL Help > About...]** [menu](upgrades.md#version) to check that you have build 9835 or later.
--->
+<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
-### Security fixes {#security-8-9-3}
+### Security improvements {#security-8-9-3}
 
 This release includes security fixes that strengthen the overall security posture of your Campaign environment. As a hosted customer, these fixes are applied by Adobe as part of the upgrade, with no action required on your side.
 
@@ -47,7 +43,7 @@ Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/
 The [Web Analytics connector](../connect/ac-aa.md) sends your campaign indicators and classification data to Adobe Analytics, supports the remarketing flow, and is used to configure new report suites. The upgrade does re-import the built-in technical workflows that power the connector (**[!UICONTROL webAnalyticsSendMetrics]** and **[!UICONTROL webAnalyticsGetWebEvents]**) and updates the built-in Analytics JavaScript files, so if you customized either of these workflows or built custom workflows that reference those files, re-apply and adapt that customization after the upgrade, since it will otherwise be overwritten or break. As a best practice, avoid modifying the built-in workflows directly — build your customization in a separate custom workflow instead, so future upgrades don't overwrite it. Once the upgrade is complete, validate the Adobe Analytics use cases you rely on (metrics export, classification export, and remarketing if applicable) to confirm data keeps flowing as expected.
 
 +++
- 
+
 ## Release 8.9.2 {#release-8-9-2}
 
 >[!CAUTION]
@@ -71,35 +67,17 @@ _May 3, 2026_
 * Fixed an issue preventing the language field from being captured for Android app registration tokens due to incorrect reconciliation keys. (NEO-93100)
 * Fixed an issue where delivery preparation failed when applying custom typology rules with pressure rules. (NEO-94457)
 * Fixed an issue where the client console could experience HTTP request processing failures. (NEO-94071)
-
-<!-- BUILD 8.9.2.9829.9669833 -->
-
 * FDA monitoring is now disabled by default to prevent connection log insertion errors. (NEO-94841)
 * Fixed an issue where Interaction SOAP calls used for offer redemption could fail with a namespace resolution error. (NEO-94787)
-<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
 * Fixed an issue where string fields with length 1 could cause SQL errors in workflow temporary tables on PostgreSQL 17. (NEO-94487)
-<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
-
-<!-- BUILD 8.9.2.9829.c90aa36 -->
-
 * Fixed an issue where the **Display mirror page** option in the Client Console and Web UI could return a "Bad Mirror Page" error. (NEO-93303)
-
-<!-- BUILD 8.9.2.9830.4a6f868 -->
-
 * Fixed an issue where the out-of-the-box **Tracking** technical workflow could fail after a multivariant package installation in FFDA deployments. (NEO-94972)
 * Fixed an issue where delivery preparation could fail to add any recipients to the target when the delivery template used a weight formula referencing the current delivery. (NEO-94892)
-<!-- hotfix -->
-* Fixed an issue where workflow enrichments using joins across two consecutive 1-N links could fail with SQL errors after an upgrade. (NEO-94893) 
-
-<!-- BUILD 8.9.2.9831.f53d3d2 -->
-
+* Fixed an issue where workflow enrichments using joins across two consecutive 1-N links could fail with SQL errors after an upgrade. (NEO-94893)
 * Fixed an issue in the email pipeline which could lead to excessive memory consumption over time. (NEO-95088)
 * Fixed an issue where the conflicting email typology rule could incorrectly exclude non-duplicate recipients from a delivery target when seed or proof addresses were used. (NEO-95026)
 * Fixed an issue where the out-of-the-box **Offer notification** technical workflow could fail after an upgrade. (NEO-95064)
 * The multivariant package installation process has been improved to prevent tracking workflow failures during build upgrades. (NEO-95018)
-
-<!-- BUILD 8.9.2.9831.11d1c68 -->
-
 * Fixed an issue which could cause the server to crash repeatedly, leading to instance outages. (NEO-95304)
 * Fixed an issue where tracking and mirror page links could fail to load deliveries. (NEO-95239)
 * Fixed an issue which could cause a redirect loop when logging in to Campaign web applications protected by IMS single sign-on. (NEO-95188)
@@ -108,22 +86,10 @@ _May 3, 2026_
 * Fixed an issue where the **Read List** activity could overwrite predefined list templates with workflow-generated list structures, causing failures in downstream workflows. (NEO-95103)
 * Fixed an issue where push notification feedback handling could cause the server to crash when processing high-volume deliveries. (NEO-95150)
 * Fixed an issue where opening the **Data** tab on the `xtk:workflow` schema in the schema explorer could trigger an error message. (NEO-94923)
-<!-- hotfixes -->
 * Fixed an issue where the **Enrichment** activity could no longer retrieve output attributes from upstream **Subworkflow** activities, causing workflows to fail. (NEO-95151)
 * Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666)
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
-
-<!-- 
-Internal/non-customer-facing:
-* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
-Customer-specific hotfixes:
-* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
-* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
-* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
-* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
-* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
--->
 
 ## Release 8.9.1 {#release-8-9-1}
 
@@ -133,27 +99,28 @@ _Jan 27, 2026_
 >
 > Client Console upgrade is mandatory. Learn how to upgrade your Client Console in this [page](../start/connect.md#upgrade-ac-console).
 
-### New features {#new-8-9-1}
-
-The **new SMS sending connector** is now available to all customers (GA). Refer to the [detailed documentation](../send/sms/sms.md). 
-
-This release comes with a set of functionalities available with the Campaign Web user interface:
-
-* [Multilingual delivery capabilities (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
-* [Profile Enrichment in Transactional Messages (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"} 
-* [Adobe Experience Manager live and language copies](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"} 
-* [Content experiments - A/B testing](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"} 
-* [Continuous delivery activity](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"} 
-* [Campaign approval management](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"} 
-
-Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
-
 ### Security improvements {#security-8-9-1}
 
 * Snowflake external accounts now support OAuth2 authentication, providing modern and secure authentication methods for federated data access connections. (NEO-87013) [Read more](../config/external-accounts.md#snowflake-external-accounts)
 * Databricks external accounts now support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication methods for federated data access connections. Interactive OAuth2 authentication will be available in a future release. (NEO-87422) [Read more](../config/external-accounts.md#databricks-external-accounts)
 * Fixed workflow file access vulnerabilities by restricting operations to authorized directories, preventing unauthorized access and potential remote code execution. (NEO-88460)
 * Added FTP URL allowlisting controls to workflow JavaScript code activities, restricting outbound FTP connections to authorized addresses only. (NEO-89083)
+* Fixed a security issue that could cause application denial of service. (NEO-89984)
+
+### New features {#new-8-9-1}
+
+The **new SMS sending connector** is now available to all customers (GA). Refer to the [detailed documentation](../send/sms/sms.md).
+
+This release comes with a set of functionalities available with the Campaign Web user interface:
+
+* [Multilingual delivery capabilities (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Profile Enrichment in Transactional Messages (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager live and language copies](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Content experiments - A/B testing](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Continuous delivery activity](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Campaign approval management](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+
+Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}
 
 ### Other changes {#changes-8-9-1}
 
@@ -161,7 +128,6 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Added support for asymmetric encryption and decryption functions in Campaign workflows. (NEO-80257)
 * Enhanced replication agent performance and memory resilience for large data uploads in FFDA deployments. (NEO-88430)
 * The **[!UICONTROL SQL code]** and **[!UICONTROL SQL Data Management]** workflow activities have been improved to better protect PostgreSQL databases and keep your workflows running smoothly when custom SQL is executed from Campaign. Refer to [SQL Data Management](../../automation/workflow/sql-data-management.md#important-notes) and [SQL code](../../automation/workflow/sql-code-and-javascript-code.md#important-notes) for more information and best practices. (NEO-86540)
-
 
 ### Fixes {#fixes-8-9-1}
 
@@ -181,7 +147,6 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Fixed an issue where the (un)subscription origin was missing for opt-out links. (NEO-90714)
 * Fixed an issue where adding coupons failed delivery preparation. (NEO-90547)
 * Fixed an issue where the Insert Reject Count was not accurately reflected in the Audit tab. (NEO-90318)
-* Fixed a security issue that could cause application denial of service. (NEO-89984)
 * Fixed an issue where the downloaded PDF of the Hotclick report was broken. (NEO-89954)
 * Resolved an SSL error that occurred after an upgrade, causing unexpected EOF while reading errors. (NEO-89108)
 * Fixed an issue where data could not be queried in a data schema after an upgrade. (NEO-88663)
