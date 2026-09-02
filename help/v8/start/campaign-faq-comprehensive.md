@@ -1645,7 +1645,7 @@ Campaign v8 provides SOAP APIs (client console operations), REST APIs (modern in
 
 **Common uses:** Integrate with CRM/ERP, automate campaigns, synchronize data, build monitoring solutions, create external interfaces.
 
-**Access:** [Campaign v8 API documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}
+**Access:** [Campaign v8 API documentation](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
 
 +++
 
@@ -1814,7 +1814,7 @@ Access comprehensive guides, tutorials, and training materials.
 
 Find detailed technical documentation and developer resources.
 
-* **[Campaign APIs](https://experienceleague.adobe.com/developer/campaign-api/api/index.html){target="_blank"}** - Complete API reference documentation
+* **[Campaign APIs](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}** - Complete API reference documentation
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
 * **[Versions and Upgrades FAQ](upgrades.md)** - Check your version and learn about upgrades
 
