@@ -34,9 +34,9 @@ _August 11, 2026_
 
 This release includes security fixes that strengthen the overall security posture of your Campaign environment. As a hosted customer, these fixes are applied by Adobe as part of the upgrade, with no action required on your side.
 
-### Security enhancement — External URL validation {#security-8-9-3}
+### External URL allow list update {#url-allow-list-update-8-9-3}
 
-External URLs referenced in delivery content and attachments are now validated against the instance's approved URL allow list. Resources whose domains are not on the allow list will no longer be loaded.
+This release includes an update to the external URL allow list used for delivery content and attachments. Make sure all domains you currently reference are added to your instance's approved allow list.
 
 As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
 
