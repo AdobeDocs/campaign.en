@@ -111,10 +111,10 @@ In Campaign v8, when the same request body structure is used and the "vehicle" i
 
 ## REST responses
 
-The section below lists minor differencies between Campaign Standard and v8 REST responses.
+The section below lists minor differences between Campaign Standard and v8 REST responses.
 
 * For single GET records, the response includes the href in the response.
-* When queried with the attribute, Campaign v8 provides Count and Pagination in the reponse.
+* When queried with the attribute, Campaign v8 provides Count and Pagination in the response.
 * After POST operations, values from linked resources are returned in the response.
 
 ## Error codes and messages
