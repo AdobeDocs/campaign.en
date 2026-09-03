@@ -34,6 +34,12 @@ _August 11, 2026_
 
 This release includes security fixes that strengthen the overall security posture of your Campaign environment. As a hosted customer, these fixes are applied by Adobe as part of the upgrade, with no action required on your side.
 
+### External URL allow list update {#url-allow-list-update-8-9-3}
+
+This release includes an update to the external URL allow list used for delivery content and attachments. Make sure all domains you currently reference are added to your instance's approved allow list.
+
+As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
+
 ### Adobe Analytics connector upgraded to the Analytics 2.0 API {#analytics-2-0-8-9-3}
 
 Adobe Analytics 1.4 APIs are [reaching end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}, so the [Web Analytics connector](../connect/ac-aa.md) has been upgraded to the Analytics 2.0 API as part of this release. As a hosted customer, Adobe takes care of this migration for you — no configuration is required on your side.
