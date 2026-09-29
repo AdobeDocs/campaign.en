@@ -38,30 +38,30 @@ To trigger a workflow, follow the steps below:
 
 If you want to call the workflow with parameters, add them into the payload with the **"parameters"** attribute. The syntax consists of the parameter's name followed by its value (the following  types are supported: **string**, **number**, **boolean** and **date/time**).
 
-  ```
+```
 
-    -X POST <TRIGGER_URL>
-    -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-    -H 'Cache-Control: no-cache' \
-    -H 'X-Api-Key: <API_KEY>' \
-    -H 'Content-Type: application/json;charset=utf-8' \
-    -H 'Content-Length:79' \
-    -i
-    -d {
-    -d    "source":"<SOURCE>",
-    -d    "parameters":{
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",  
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>"
-    -d    }
-    -d }
+  -X POST <TRIGGER_URL>
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8' \
+  -H 'Content-Length:79' \
+  -i
+  -d {
+  -d    "source":"<SOURCE>",
+  -d    "parameters":{
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",  
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>"
+  -d    }
+  -d }
 
-  ```
+```
 
-  >[!NOTE]
-  >
-  >When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
+>[!NOTE]
+>
+>When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
 
 <br/>
 
