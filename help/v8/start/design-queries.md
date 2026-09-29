@@ -93,9 +93,9 @@ After selecting **[!UICONTROL Filtering conditions]**, the **[!UICONTROL Target 
 
 Filters created in the **[!UICONTROL Generic query editor]** can be reused in other query applications, and the reverse is also true. To save a filter for later use, click the **[!UICONTROL Save]** icon.
 
-  >[!NOTE]
-  >
-  >For more on creating and using filters, refer to [Filtering options](filter-conditions.md).
+>[!NOTE]
+>
+>For more on creating and using filters, refer to [Filtering options](filter-conditions.md).
 
 As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 

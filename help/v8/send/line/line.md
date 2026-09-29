@@ -224,10 +224,10 @@ Note that wide or tall videos may be cropped when played on some devices.
 ## Accessing reports {#accessing-reports}
 
 After sending your delivery, you can view your [!DNL LINE] reports via the menu **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** from the **[!UICONTROL Explorer]**.
-   
-   >[!NOTE]
-   >
-   >The tracking reports indicate the click-through rate. [!DNL LINE] does not take the open rate into account.
+
+>[!NOTE]
+>
+>The tracking reports indicate the click-through rate. [!DNL LINE] does not take the open rate into account.
 
 ![](assets/line_reports_01.png)
  
