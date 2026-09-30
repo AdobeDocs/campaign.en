@@ -26,7 +26,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.4 {#release-8-9-4}
 
-`These are early release notes. Please note that Jira numbers and notes are for reviewing only. They will be removed before publication.`
+`These are early release notes. Please note notes are for reviewing only. They will be removed before publication.`
 
 _October 1, 2026_
 
