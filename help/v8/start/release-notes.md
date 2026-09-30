@@ -35,19 +35,19 @@ _October 1, 2026_
 ### Improvements {#fixes-8-9-4}
 
 <!-- New ones 100% (16 Jiras) -->
-***New 8.9.4 improvement (1 jira)***
+`New 8.9.4 improvement (1 jira)`
 
 * Client Console UI themes can now be stored and shared across users. (NEO-96823)
 
 <!-- From 8.9.3 not documented (16 Jiras) -->
-***8.9.3 improvement, not documented (1 jira)***
+`8.9.3 improvement, not documented (1 jira)`
 
 * Added an instance name parameter to push notification events, identifying which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
 
 ### Fixes {#fixes-8-9-4}
 
 <!-- New ones 100% (15 Jiras) -->
-***New 8.9.4 fixes (15 jiras)***
+`New 8.9.4 fixes (15 jiras)`
 
 * Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
 * Fixed an issue where delivery alerts for deliveries stuck in a long start pending status could trigger incorrectly due to a threshold calculation error. (NEO-93434)
@@ -85,7 +85,7 @@ _October 1, 2026_
 * Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
 
 <!-- From 8.9.2 duplicates (8 Jiras) -->
-```8.9.2 fixes, already documentated, duplicates (8 jiras)```
+`8.9.2 fixes, already documentated, duplicates (8 jiras)`
 
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
