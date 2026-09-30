@@ -24,6 +24,67 @@ topic_v2:
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+## Release 8.9.4 {#release-8-9-4}
+
+>[!NOTE]
+>
+> This is an early release note. Jira numbers will be removed before publication.
+
+_October 1, 2026_
+
+### Improvements {#fixes-8-9-4}
+
+<!-- New ones 100% (16 Jiras) -->
+* Client Console UI themes can now be stored and shared across users. (NEO-96823)
+<!-- From 8.9.3 not documented (16 Jiras) -->
+* Added an instance name parameter to push notification events, identifying which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
+
+### Fixes {#fixes-8-9-4}
+
+<!-- New ones 100% (16 Jiras) -->
+* Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
+* Fixed an issue where delivery alerts for deliveries stuck in a long start pending status could trigger incorrectly due to a threshold calculation error. (NEO-93434)
+* Fixed an issue where sending text-content deliveries could cause the mid-sourcing server process to crash. (NEO-95122)
+* Fixed an issue where the **Read Group** workflow activity could generate invalid SQL for calculated-expression fields. (NEO-95233)
+* Fixed an issue where delivery part IDs generated for FFDA mid-sourcing deliveries could collide. (NEO-95777)
+* Fixed an issue where certain characters in embedded browser navigation URLs could cause the Client Console to crash. (NEO-96267)
+* Fixed an issue where SMS deliveries were under-reported in Dynamic Reporting. (NEO-96401)
+* Fixed an issue where delivery preparation could fail for Snowflake or FFDA external-file targets that don't use profile mapping. (NEO-96507)
+* Fixed an issue where workflows containing multiple queries linked to different FDA sources could fail. (NEO-97249)
+* Fixed an issue where near-real-time enrichment workflows could intermittently fail with SQL errors when processing events triggered close together in time. (NEO-97557)
+* Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
+* Fixed an issue where delivery preparation could fail with an SQL error when using seed addresses together with a custom target mapping. (NEO-94966)
+* Fixed an issue where FDA workflows could fail with a column overflow error when loading data into Redshift. (NEO-96125)
+* Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
+* Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
+
+<!-- From 8.9.3 not documented (16 Jiras) -->
+* Fixed an issue where the tracking workflow could fail when processing a reference to a deleted delivery. (NEO-91322)
+* Fixed an issue where data replication could select the wrong replicator for FDA bulk loads. (NEO-93758)
+* Fixed an issue where send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-93924)
+* Fixed an issue where delivery send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-94509)
+* Fixed an issue where continuous delivery workflows could be incorrectly picked up by the operation management scheduler. (NEO-94520)
+* Fixed an issue affecting custom send-time scheduling in the Campaign Web user interface. (NEO-94762)
+* Fixed an issue where mirror page URLs could be broken in multi-mid-sourcing deployments. (NEO-95246)
+* Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
+* Fixed an issue where the out-of-the-box Adobe Experience Plarform export workflow could export duplicate tracking data. (NEO-95804)
+* Fixed an issue where a delivery target's weight formula could be applied even when not configured to use one. (NEO-96087)
+* Fixed an issue where valid email encryption certificates (S/MIME) could be incorrectly rejected. (NEO-96128)
+* Fixed an issue where the next scheduled send date was not replicated from the marketing instance to the mid-sourcing instance. (NEO-96552)
+* Fixed an issue where some deliveries could remain pending on the marketing instance without completing on the mid-sourcing instance. (NEO-96557)
+* Fixed an issue where a missing delivery reference could stop tracking event processing. (NEO-96587)
+* Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
+
+<!-- From 8.9.2 duplicates (8 Jiras) -->
+* Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
+* Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
+* Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666)
+* Fixed an issue where workflow enrichments using joins across two consecutive 1-N links could fail with SQL errors after an upgrade. (NEO-94893)
+* Fixed an issue where the conflicting email typology rule could incorrectly exclude non-duplicate recipients from a delivery target when seed or proof addresses were used. (NEO-95026)
+* Fixed an issue where child workflows spawned in high volume could remain stuck in the **Being Edited** state, reducing transactional workflow capacity. (NEO-95131)
+* Fixed an issue where the **Enrichment** activity could no longer retrieve output attributes from upstream **Subworkflow** activities, causing workflows to fail. (NEO-95151)
+* Fixed an issue which could cause the server to crash repeatedly, leading to instance outages. (NEO-95304)
+
 ## Release 8.9.3 {#release-8-9-3}
 
 _August 11, 2026_
