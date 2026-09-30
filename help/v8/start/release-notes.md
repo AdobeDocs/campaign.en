@@ -35,26 +35,20 @@ _October 1, 2026_
 ### Improvements {#fixes-8-9-4}
 
 <!-- New ones 100% (16 Jiras) -->
-**New 8.9.4 improvement (1 jira)**
-*New 8.9.4 improvement (1 jira)*
 ***New 8.9.4 improvement (1 jira)***
->[!IMPORTANT]
->
-> New 8.9.4 improvement (1 jira)
+
 * Client Console UI themes can now be stored and shared across users. (NEO-96823)
 
 <!-- From 8.9.3 not documented (16 Jiras) -->
->[!IMPORTANT]
->
-> 8.9.3 improvement, not documented (1 jira)
+***8.9.3 improvement, not documented (1 jira)***
+
 * Added an instance name parameter to push notification events, identifying which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
 
 ### Fixes {#fixes-8-9-4}
 
 <!-- New ones 100% (15 Jiras) -->
->[!IMPORTANT]
->
-> New 8.9.4 fixes (15 jiras)
+***New 8.9.4 fixes (15 jiras)***
+
 * Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
 * Fixed an issue where delivery alerts for deliveries stuck in a long start pending status could trigger incorrectly due to a threshold calculation error. (NEO-93434)
 * Fixed an issue where sending text-content deliveries could cause the mid-sourcing server process to crash. (NEO-95122)
@@ -72,9 +66,8 @@ _October 1, 2026_
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
 
 <!-- From 8.9.3 not documented (15 Jiras) -->
->[!NOTE]
->
-> 8.9.3 fixes, not documented (15 jiras)
+***8.9.3 fixes, not documented (15 jiras)***
+
 * Fixed an issue where the tracking workflow could fail when processing a reference to a deleted delivery. (NEO-91322)
 * Fixed an issue where data replication could select the wrong replicator for FDA bulk loads. (NEO-93758)
 * Fixed an issue where send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-93924)
@@ -92,9 +85,8 @@ _October 1, 2026_
 * Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
 
 <!-- From 8.9.2 duplicates (8 Jiras) -->
->[!NOTE]
->
-> 8.9.2 fixes, already documentated, duplicates (8 jiras)
+***8.9.2 fixes, already documentated, duplicates (8 jiras)***
+
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
 * Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666)
