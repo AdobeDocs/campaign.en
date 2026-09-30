@@ -26,7 +26,7 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.4 {#release-8-9-4}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 > These are early release notes. Please note that Jira numbers and notes are for reviewing only. They will be removed before publication.
 
@@ -35,13 +35,16 @@ _October 1, 2026_
 ### Improvements {#fixes-8-9-4}
 
 <!-- New ones 100% (16 Jiras) -->
->[!NOTE]
+**New 8.9.4 improvement (1 jira)**
+*New 8.9.4 improvement (1 jira)*
+***New 8.9.4 improvement (1 jira)***
+>[!IMPORTANT]
 >
 > New 8.9.4 improvement (1 jira)
 * Client Console UI themes can now be stored and shared across users. (NEO-96823)
 
 <!-- From 8.9.3 not documented (16 Jiras) -->
->[!NOTE]
+>[!IMPORTANT]
 >
 > 8.9.3 improvement, not documented (1 jira)
 * Added an instance name parameter to push notification events, identifying which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
@@ -49,7 +52,7 @@ _October 1, 2026_
 ### Fixes {#fixes-8-9-4}
 
 <!-- New ones 100% (15 Jiras) -->
->[!NOTE]
+>[!IMPORTANT]
 >
 > New 8.9.4 fixes (15 jiras)
 * Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
