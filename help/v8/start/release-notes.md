@@ -40,7 +40,7 @@ _October 1, 2026_
 <!-- From 8.9.3 not documented (16 Jiras) -->
 `8.9.3 improvement, not documented (1 jira)`
 
-* Added an instance name parameter to push notification events, identifying which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
+* Push notification events now include an instance name parameter that identifies which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
 
 ### Fixes {#fixes-8-9-4}
 
