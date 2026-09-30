@@ -66,7 +66,7 @@ _October 1, 2026_
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
 
 <!-- From 8.9.3 not documented (15 Jiras) -->
-***8.9.3 fixes, not documented (15 jiras)***
+`8.9.3 fixes, not documented (15 jiras)`
 
 * Fixed an issue where the tracking workflow could fail when processing a reference to a deleted delivery. (NEO-91322)
 * Fixed an issue where data replication could select the wrong replicator for FDA bulk loads. (NEO-93758)
@@ -85,7 +85,7 @@ _October 1, 2026_
 * Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
 
 <!-- From 8.9.2 duplicates (8 Jiras) -->
-***8.9.2 fixes, already documentated, duplicates (8 jiras)***
+```8.9.2 fixes, already documentated, duplicates (8 jiras)```
 
 * Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
 * Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
