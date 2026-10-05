@@ -24,6 +24,10 @@ topic_v2:
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+>[!NOTE]
+>
+>**Campaign security**: Learn how Adobe assesses security vulnerabilities, deploys fixes, and helps protect Adobe Campaign customers. [Learn more](upgrades-v2.md#campaign-security).
+
 ## Release 8.9.3 {#release-8-9-3}
 
 _August 11, 2026_
