@@ -1,5 +1,5 @@
 ---
-title: Campaign versions and upgrades
+title: Campaign versions, upgrades, and security
 description: Learn more about Campaign versions and upgrades
 feature: Release Notes
 role: User
@@ -20,7 +20,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Versions and upgrades {#upgrades}
+  # Versions, upgrades, and security {#upgrades}
 
 Adobe Campaign v8 is offered exclusively as a **Managed Cloud Services** solution. Adobe manages and performs every server-side upgrade for you — there is no on-premises or hybrid deployment of v8, and no server upgrade to schedule or perform yourself.
 
@@ -38,7 +38,7 @@ In addition, as a customer, ensure that you are using the latest supported versi
 >
 >Adobe reserves the right to apply critical security patches to your hosted environment at any time, without prior notice, in order to remediate vulnerabilities as quickly as possible. These patches are deployed without service interruption. Remediating a critical vulnerability takes precedence over advance notification.
 
-## Campaign versions {#versions}
+## Campaign versions and upgrades {#versions}
 
 Adobe Campaign periodically releases product versions which improve the performance, security, logic, and usability of your Campaign infrastructure.
 
@@ -48,11 +48,11 @@ These upgrades can be:
 * **Minor upgrades**, from a minor version to another, for example from v8.5 to v8.6. These upgrades bring improvements, compatibility and security updates, and fixes.
 * **Patch upgrades**, from a patch version to another, for example from v8.5.1 to v8.5.2. These upgrades bring security updates and fixes.
 
-Detailed information about each new version is available in the [Release notes](release-notes.md). Security-related fixes are called out within each release's notes — see [How can I be informed of the release of a new version?](#upgrades-0) below.
+Detailed information about each new version is available in the [Release notes](release-notes.md). Security-related fixes are called out within each release's notes. For more information about security notifications, see [Staying informed](#security-staying-informed).
 
 To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console).
 
-## Keep your client console up to date {#ac-upgrades}
+### Keep your client console up to date {#ac-upgrades}
 
 As a Campaign Managed Services customer, when a new Campaign version is available, your server infrastructure is upgraded by Adobe without any further action on your part.
 
@@ -65,13 +65,74 @@ To avoid this, upgrade your client console as soon as you're notified of a new v
 
 Note that, as a customer, you must also ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 
+### Check your Campaign version {#version}
+
+To check your Campaign version, access the **Help > About…** menu from the client console.
+
+![](assets/ac-version.png)
+
+You access the following information:
+
+* The **version** number of your client console and application server. In the sample above, the version is 8.1.5 for both the client console and the Application server.
+* The SHA number, between parenthesis.
+* A link to contact Adobe Customer Care.
+* Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
+
+>[!NOTE]
+>
+>If the version shown for your client console doesn't match the version shown for your Application server, upgrade your console as described in [Keep your client console up to date](#ac-upgrades).
+
+### Stay informed about new releases {#upgrades-0}
+
+New versions and their changes are listed in the [Release Notes](release-notes.md).
+
+For product release updates, subscribe to [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} or visit [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+
+For security notifications and guidance on preparing your organization for security updates, see [Staying informed](#security-staying-informed).
+
+### Benefits of upgrading {#upgrades-1}
+
+Upgrading ensures that your account is secure from vulnerabilities and is using up-to-date performance technology.
+
+Typically, upgrading to the latest version brings:
+
+* **Improved security**
+
+  Security needs constant focus and proactive maintenance. Security risks are omnipresent and cannot be ignored — every upgrade for Campaign improves security. A combination of technologies work together to power Adobe Campaign, and all of them must be kept up to date. Adobe applies these updates to your server automatically; upgrading your client console in step ensures the same protection extends to it.
+
+* **Improved support**
+
+  Most critical issues are resolved with upgrades and can be avoided altogether. Regular upgrades help reduce the challenges you face and increase efficiency. Customer Care volume is reduced, allowing for speedier resolutions and more attention to issues that aren't related to upgrades.
+
+* **Improved maintenance and stability**
+
+  Over time, the Adobe Campaign team identifies ways to improve the stability and performance of the product, as well as fix known issues. Upgrading brings your instance up to date with these improvements and eliminates common challenges seen by organizations experiencing rapid growth and/or complexity within their Campaign instances. Improvements across the technology stack powering Campaign are felt across both marketing and IT teams in your organization.
+
+* **Stay connected**
+
+  Your client console can only communicate reliably with a server running the same version. Keeping your console current — every time your server is upgraded — is what keeps this connection, and the security and fixes that come with it, intact.
+
+### Upgrade process and timeline {#upgrades-2}
+
+As a v8 customer, Adobe manages your server upgrade end-to-end:
+
+1. When a new version is available, or your account is identified as needing to move to one, your Adobe representative notifies you.
+1. Adobe upgrades your server infrastructure — no action is required from you for this step.
+1. On your side, the only action needed is upgrading your client console to match, and confirming the systems in your [Compatibility matrix](compatibility-matrix.md) are still supported. See [Keep your client console up to date](#ac-upgrades).
+
+A team of dedicated Customer Care Representatives, Product Managers, Engineers, TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
+
+>[!NOTE]
+>
+>Critical security patches may be applied to your hosted environment outside of this notification cycle — see the note at the top of this page.
+
 ## Protecting Adobe Campaign Customers Faster: How Adobe Keeps Pace with Security {#campaign-security}
 
 ### Finding more, faster {#finding-more-faster}
 
 As we shared in [Protecting customers faster: How Adobe is responding to AI-accelerated vulnerability discovery](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery), Adobe security teams use AI-assisted tools to identify and address vulnerabilities more quickly. We apply this approach across our products, including Adobe Campaign.
 
-This page explains how we assess and prioritize security issues, how we deploy fixes, and what that means for you.
+This section explains how we assess and prioritize security issues, how we deploy fixes, and what that means for you.
 
 ### How we assess and prioritize security issues {#assess-security-issues}
 
@@ -98,73 +159,10 @@ We design security updates to maintain compatibility with standard Adobe Campaig
 
 You do not need to take immediate action, but these steps can help your organization stay informed and respond efficiently:
 
-- Keep your account and technical contacts current in Adobe Admin Console so notifications reach the right people.
-- Subscribe to [Adobe Security notifications](https://www.adobe.com/subscription/adobesecuritynotifications.html) for new bulletins and advisories.
-- Review your organization's change-management process so you can evaluate and respond to security updates promptly.
+* Keep your account and technical contacts current in Adobe Admin Console so notifications reach the right people.
+* Subscribe to [Adobe Security notifications](https://www.adobe.com/subscription/adobesecuritynotifications.html) for new bulletins and advisories.
+* Review your organization's change-management process so you can evaluate and respond to security updates promptly.
 
 ### Our commitment {#security-commitment}
 
 Adobe is committed to helping protect your Adobe Campaign environment and responding quickly when security issues arise. We will continue to strengthen our security processes while working to minimize disruption to your operations.
-
-## Frequently Asked Questions {#upgrades-faq}
-
-### How to check my Campaign version? {#version}
-
-To check your Campaign version, access the **Help > About…** menu from the client console.
-
-![](assets/ac-version.png)
-
-You access the following information:
-
-* The **version** number of your client console and application server. In the sample above, the version is 8.1.5 for both the client console and the Application server.
-* The SHA number, between parenthesis.
-* A link to contact Adobe Customer Care.
-* Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
-
->[!NOTE]
->
->If the version shown for your client console doesn't match the version shown for your Application server, upgrade your console as described in [Keep your client console up to date](#ac-upgrades).
-
-### How can I be informed of the release of a new version? {#upgrades-0}
-
-New versions and which changes they bring — including security fixes — are listed in the [Release Notes](release-notes.md). Once a new version is available, your Adobe representative contacts you and upgrades your server environments; you'll separately need to upgrade your client console (see [Keep your client console up to date](#ac-upgrades)).
-
-To be informed of new Experience Cloud solution releases and their content, subscribe to the [Adobe Priority Product Updates](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"} communication.
-
-You can also visit [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} to be informed about release updates.
-
-### Why does my organization need an upgrade? {#upgrades-1}
-
-Upgrading ensures that your account is secure from vulnerabilities and is using up-to-date performance technology.
-
-Typically, upgrading to the latest version brings:
-
-* **Improved security**
-
-  Security needs constant focus and proactive maintenance. Security risks are omnipresent and cannot be ignored — every upgrade for Campaign improves security. A combination of technologies work together to power Adobe Campaign, and all of them must be kept up to date. Adobe applies these updates to your server automatically; upgrading your client console in step ensures the same protection extends to it.
-
-* **Improved support**
-
-  Most critical issues are resolved with upgrades and can be avoided altogether. Regular upgrades help reduce the challenges you face and increase efficiency. Customer Care volume is reduced, allowing for speedier resolutions and more attention to issues that aren't related to upgrades.
-
-* **Improved maintenance and stability**
-
-  Over time, the Adobe Campaign team identifies ways to improve the stability and performance of the product, as well as fix known issues. Upgrading brings your instance up to date with these improvements and eliminates common challenges seen by organizations experiencing rapid growth and/or complexity within their Campaign instances. Improvements across the technology stack powering Campaign are felt across both marketing and IT teams in your organization.
-
-* **Stay connected**
-
-  Your client console can only communicate reliably with a server running the same version. Keeping your console current — every time your server is upgraded — is what keeps this connection, and the security and fixes that come with it, intact.
-
-### What is the process and timeline for an upgrade? {#upgrades-2}
-
-As a v8 customer, Adobe manages your server upgrade end-to-end:
-
-1. When a new version is available, or your account is identified as needing to move to one, your Adobe representative notifies you.
-1. Adobe upgrades your server infrastructure — no action is required from you for this step.
-1. On your side, the only action needed is upgrading your client console to match, and confirming the systems in your [Compatibility matrix](compatibility-matrix.md) are still supported. See [Keep your client console up to date](#ac-upgrades).
-
-A team of dedicated Customer Care Representatives, Product Managers, Engineers, TechOps Specialists, and Product Consultants is here to assist and ensure the experience is smooth.
-
->[!NOTE]
->
->Critical security patches may be applied to your hosted environment outside of this notification cycle — see the note at the top of this page.
