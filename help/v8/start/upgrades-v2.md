@@ -82,7 +82,7 @@ You access the following information:
 >
 >If the version shown for your client console doesn't match the version shown for your Application server, upgrade your console as described in [Keep your client console up to date](#ac-upgrades).
 
-### Stay informed about new releases {#upgrades-0}
+### Product release announcements {#upgrades-0}
 
 New versions and their changes are listed in the [Release Notes](release-notes.md).
 
