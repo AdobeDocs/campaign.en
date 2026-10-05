@@ -20,7 +20,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-  # Versions, upgrades, and security {#upgrades}
+# Versions, upgrades, and security {#upgrades}
 
 Adobe Campaign v8 is offered exclusively as a **Managed Cloud Services** solution. Adobe manages and performs every server-side upgrade for you — there is no on-premises or hybrid deployment of v8, and no server upgrade to schedule or perform yourself.
 
