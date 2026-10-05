@@ -13,7 +13,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Release notes {#releases}
   + {hide-from-toc} [Early release notes](start/e-release-notes.md)
   + [Versions and upgrades](start/upgrades.md)
-  + {hide-from-toc} [Versions and upgrades preview](start/upgrades-v2.md)
+  + {hide-from-toc} [Versions, upgrades, and security preview](start/upgrades-v2.md)
   + [Latest releases](start/release-notes.md)
   + Previous releases {#previous-rn}
     + [2025](start/release-notes-2025.md)
