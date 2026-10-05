@@ -71,7 +71,7 @@ Note that, as a customer, you must also ensure that you are using the latest sup
 
 As we shared in [Protecting customers faster: How Adobe is responding to AI-accelerated vulnerability discovery](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery), Adobe security teams use AI-assisted tools to identify and address vulnerabilities more quickly. We apply this approach across our products, including Adobe Campaign.
 
-This post explains how we assess and prioritize security issues, how we deploy fixes, and what that means for you.
+This page explains how we assess and prioritize security issues, how we deploy fixes, and what that means for you.
 
 ### How we assess and prioritize security issues {#assess-security-issues}
 
@@ -87,8 +87,8 @@ We validate security updates before release and choose a deployment approach bas
 
 Depending on the scope of the update, we use one of two deployment approaches:
 
-- Security stack maintenance: Targeted updates that do not change your build number or introduce intended changes to product functionality. Customers with standard configurations typically do not need to take action.
-- Security-driven build upgrades: Updates that change your build number and follow Adobe's standard notification, release-note, and rollout processes.
+* **Security stack maintenance**: Targeted updates that do not change your build number or introduce intended changes to product functionality. Customers with standard configurations typically do not need to take action.
+* **Security-driven build upgrades**: Updates that change your build number and follow Adobe's standard notification, release-note, and rollout processes.
 
 For standard, out-of-the-box configurations, your integrations and running campaigns keep operating as before.
 
