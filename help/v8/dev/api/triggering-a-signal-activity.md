@@ -7,16 +7,21 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-TQID: https://experienceleague.adobe.com/dBlJVUgC7x6qy7aztj9BLEL9aHnPsLlODzIwI0Ao8QE
+TQID: 'https://experienceleague.adobe.com/dBlJVUgC7x6qy7aztj9BLEL9aHnPsLlODzIwI0Ao8QE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Triggering a signal activity {#triggering-a-signal-activity}
 

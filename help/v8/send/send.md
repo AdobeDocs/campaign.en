@@ -6,10 +6,15 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-TQID: https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I
+TQID: 'https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

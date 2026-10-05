@@ -4,10 +4,18 @@ description: Learn key steps to create a custom report
 feature: Reporting
 role: User, Developer
 exl-id: 39ab5cd9-cc84-430b-a8b3-691e377851fa
-TQID: https://experienceleague.adobe.com/LQeipcGpFxqYvuLrm8luihUsT8t3hCOYi9Y-FZMYns8
+TQID: 'https://experienceleague.adobe.com/LQeipcGpFxqYvuLrm8luihUsT8t3hCOYi9Y-FZMYns8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

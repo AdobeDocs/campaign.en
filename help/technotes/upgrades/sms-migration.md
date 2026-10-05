@@ -4,6 +4,17 @@ description: Learn how to move to the new SMS connector v2
 feature: Technote
 role: Admin
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Moving to the new SMS connector v2
 

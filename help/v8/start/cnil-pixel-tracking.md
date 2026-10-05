@@ -3,6 +3,11 @@ title: Email Tracking Pixels and CNIL Guidance
 description: Understanding CNIL's updated guidance on email tracking pixels and the Adobe Campaign capabilities that can support compliance efforts.
 version: Campaign v8, Campaign Classic v7
 hide: true
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 
 # Understanding CNIL's updated guidance on email tracking pixels

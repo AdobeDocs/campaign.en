@@ -5,10 +5,12 @@ description: Learn more on use cases that you can perform using Campaign workflo
 feature: Workflows, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
-TQID: https://experienceleague.adobe.com/DXZmQKj9A82rhIU-hUw-0J4r5TddhC6BDM5VNQidZsw
+TQID: 'https://experienceleague.adobe.com/DXZmQKj9A82rhIU-hUw-0J4r5TddhC6BDM5VNQidZsw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management

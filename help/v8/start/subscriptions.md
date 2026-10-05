@@ -5,13 +5,20 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-TQID: https://experienceleague.adobe.com/I5pfyav0jU-Z940hBDp35kW881ySxeCJ7UECkDyKb1w
+TQID: 'https://experienceleague.adobe.com/I5pfyav0jU-Z940hBDp35kW881ySxeCJ7UECkDyKb1w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d4adbfcb-4ec0-5691-b003-d940294aa34c
+    internal-label: Subscriptions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
