@@ -5,10 +5,20 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-TQID: https://experienceleague.adobe.com/VhceB0hYF1J8cXouqmY3wgqYLkmVoBRFBVaIwa1VNr8
+TQID: 'https://experienceleague.adobe.com/VhceB0hYF1J8cXouqmY3wgqYLkmVoBRFBVaIwa1VNr8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: f09afca2-2160-4624-bedb-639c4f4c236f
+    internal-label: Salesforce integration
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

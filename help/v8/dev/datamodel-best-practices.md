@@ -5,10 +5,12 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-TQID: https://experienceleague.adobe.com/DWjWISB-REvq9WPEHV8t4lwxoSIbtMRBHJIby6RTEJI
+TQID: 'https://experienceleague.adobe.com/DWjWISB-REvq9WPEHV8t4lwxoSIbtMRBHJIby6RTEJI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management

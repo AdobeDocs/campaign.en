@@ -5,10 +5,20 @@ description: Learn more about the Update data workflow activity
 feature: Workflows, Targeting Activity, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-TQID: https://experienceleague.adobe.com/9-8CMVv6UNU-0cggEat72cStNKk4Bv9wqApeatuq-Fo
+TQID: 'https://experienceleague.adobe.com/9-8CMVv6UNU-0cggEat72cStNKk4Bv9wqApeatuq-Fo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management

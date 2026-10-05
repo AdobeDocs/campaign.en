@@ -5,10 +5,18 @@ description: Learn more about the Sub-workflow activity
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-TQID: https://experienceleague.adobe.com/XS5rd13a3naqU6284JA3zTwHzZuNx1Efql-C-Ud-oV8
+TQID: 'https://experienceleague.adobe.com/XS5rd13a3naqU6284JA3zTwHzZuNx1Efql-C-Ud-oV8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 ---
 # Sub-workflow{#sub-workflow}
 

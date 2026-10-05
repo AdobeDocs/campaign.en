@@ -5,13 +5,22 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-TQID: https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok
+TQID: 'https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

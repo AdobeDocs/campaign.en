@@ -5,10 +5,18 @@ role: Admin, User
 feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-TQID: https://experienceleague.adobe.com/5Ixr-cednn5oLE2bwaBrJFSj9fgKaxI6mJBG-2t21jc
+TQID: 'https://experienceleague.adobe.com/5Ixr-cednn5oLE2bwaBrJFSj9fgKaxI6mJBG-2t21jc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: d6e12e21-983d-4704-bc9a-d6385d40ef26
+    internal-label: Journey Optimizer integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

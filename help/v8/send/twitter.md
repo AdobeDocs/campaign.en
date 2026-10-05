@@ -4,10 +4,12 @@ description: Learn how to use Adobe Campaign Social Marketing module to post mes
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-TQID: https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE
+TQID: 'https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns

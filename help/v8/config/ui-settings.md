@@ -5,10 +5,18 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-TQID: https://experienceleague.adobe.com/2hwiutGxqcitRmeG9ceUMCW1rBGNomWMK8aM2ZDAJ-0
+TQID: 'https://experienceleague.adobe.com/2hwiutGxqcitRmeG9ceUMCW1rBGNomWMK8aM2ZDAJ-0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

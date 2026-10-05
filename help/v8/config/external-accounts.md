@@ -5,10 +5,20 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
+TQID: 'https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: ebf2bfe1-e099-5c32-ac1e-1865f8050ffc
+    internal-label: External Account
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -17,6 +27,8 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

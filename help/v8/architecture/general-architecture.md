@@ -5,10 +5,12 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-TQID: https://experienceleague.adobe.com/j8EwT2TAYvpavC-CrlayZpNsgBhMc-bUrr1OR1s5bzw
+TQID: 'https://experienceleague.adobe.com/j8EwT2TAYvpavC-CrlayZpNsgBhMc-bUrr1OR1s5bzw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -18,6 +20,10 @@ feature_v2:
     internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI

@@ -4,13 +4,26 @@ title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
-TQID: https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0
+TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

@@ -6,10 +6,18 @@ feature: Workflows
 role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-TQID: https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk
+TQID: 'https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

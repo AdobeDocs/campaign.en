@@ -5,13 +5,24 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-TQID: https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk
+TQID: 'https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

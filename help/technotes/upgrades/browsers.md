@@ -4,6 +4,11 @@ title: Campaign web components and version 100 in Chrome Firefox, and Edge brows
 description: Campaign web components and version 100 in Chrome, Firefox, and Edge browsers
 hide: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 # 3-digit browser version impacts on Campaign web components {#version-100}
 

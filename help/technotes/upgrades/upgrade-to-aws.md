@@ -3,6 +3,11 @@ title: Campaign Email Sending Infrastructure Upgrade
 description: Campaign Email Sending Infrastructure Upgrade
 hide: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 # Campaign Email Sending Infrastructure Upgrade {#migrate-infra-to-aws}
 

@@ -6,13 +6,20 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-TQID: https://experienceleague.adobe.com/urm8-2koO46hRe8XeCDoKYVU-WDqxM7tq0TwqDC8Sc0
+TQID: 'https://experienceleague.adobe.com/urm8-2koO46hRe8XeCDoKYVU-WDqxM7tq0TwqDC8Sc0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: d9d413df-4e9e-4906-bbbc-28c06c2ccf59
+    internal-label: LINE App
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

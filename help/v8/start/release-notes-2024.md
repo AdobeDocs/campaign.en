@@ -3,10 +3,12 @@ title: Campaign v8 (console) 2024 release notes
 description: List of features and improvements coming with 2024 Campaign v8 releases
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-TQID: https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE
+TQID: 'https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -16,6 +18,8 @@ feature_v2:
     internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
@@ -25,6 +29,8 @@ subfeature_v2:
     internal-label: Analytics integration
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
