@@ -26,26 +26,15 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.4 {#release-8-9-4}
 
-`These are early release notes. Please note notes are for reviewing only. They will be removed before publication.`
-
-_October 1, 2026_
+_October 7, 2026_
 
 ### Improvements {#improvements-8-9-4}
 
-<!-- New ones 100% (16 Jiras) -->
-`New 8.9.4 improvement (1 jira)`
-
 * Client Console UI themes can now be stored and shared across users. (NEO-96823)
-
-<!-- From 8.9.3 not documented (16 Jiras) -->
-`8.9.3 improvement, not documented (1 jira)`
 
 * Push notification events now include an instance name parameter that identifies which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
 
 ### Fixes {#fixes-8-9-4}
-
-<!-- New ones 100% (15 Jiras) -->
-`New 8.9.4 fixes (15 jiras)`
 
 * Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
 * Fixed an issue where delivery alerts for deliveries stuck in a long start pending status could trigger incorrectly due to a threshold calculation error. (NEO-93434)
@@ -62,10 +51,6 @@ _October 1, 2026_
 * Fixed an issue where FDA workflows could fail with a column overflow error when loading data into Redshift. (NEO-96125)
 * Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
-
-<!-- From 8.9.3 not documented (15 Jiras) -->
-`8.9.3 fixes, not documented (15 jiras)`
-
 * Fixed an issue where the tracking workflow could fail when processing a reference to a deleted delivery. (NEO-91322)
 * Fixed an issue where data replication could select the wrong replicator for FDA bulk loads. (NEO-93758)
 * Fixed an issue where send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-93924)
@@ -82,23 +67,9 @@ _October 1, 2026_
 * Fixed an issue where a missing delivery reference could stop tracking event processing. (NEO-96587)
 * Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
 
-<!-- From 8.9.2 duplicates (8 Jiras) -->
-`8.9.2 fixes, already documented, duplicates (8 jiras)`
-
-* Fixed an issue where certain Client Console actions related to offer propositions could trigger long-running queries on Snowflake databases, causing locks and slowness. (NEO-92936)
-* Fixed an issue where custom options for storing encrypted keys could not be configured on Snowflake external accounts. (NEO-93302)
-* Fixed a tracking data ingestion issue which could prevent delivery status updates and block downstream message processing. (NEO-94666)
-* Fixed an issue where workflow enrichments using joins across two consecutive 1-N links could fail with SQL errors after an upgrade. (NEO-94893)
-* Fixed an issue where the conflicting email typology rule could incorrectly exclude non-duplicate recipients from a delivery target when seed or proof addresses were used. (NEO-95026)
-* Fixed an issue where child workflows spawned in high volume could remain stuck in the **Being Edited** state, reducing transactional workflow capacity. (NEO-95131)
-* Fixed an issue where the **Enrichment** activity could no longer retrieve output attributes from upstream **Subworkflow** activities, causing workflows to fail. (NEO-95151)
-* Fixed an issue which could cause the server to crash repeatedly, leading to instance outages. (NEO-95304)
-
 ## Release 8.9.3 {#release-8-9-3}
 
 _August 11, 2026_
-
-<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### Security improvements {#security-8-9-3}
 
