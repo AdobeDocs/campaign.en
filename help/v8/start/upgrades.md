@@ -53,6 +53,16 @@ Detailed information about each new version is available in the [Release notes](
 
 To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console).
 
+## Hotflixes {#hotflixes}
+
+In exceptional cases, Adobe may provide a customer-specific hotfix to address an issue before a fix is available in a standard release. Hotfix requests are assessed case by case and are not part of the standard release cycle.
+
+Hotfix requests should be raised through Adobe Customer Care. If approved, a hotfix is prepared for the affected customer and product build. A hotfix is not a general release for all customers; Adobe may approve sharing it with other affected customers after review.
+
+Hotfix details may not be included in public release notes when the hotfix is delivered. Adobe may later include a hotfix fix in a standard release for the applicable version. Inclusion and timing are not guaranteed. Consult the release notes for changes included in each standard release.
+
+This customer-specific hotfix process is separate from the critical security patch policy described above, under which Adobe may apply critical security patches to hosted environments without prior notice.
+
 ## Keep your client console up to date {#ac-upgrades}
 
 As a Campaign Managed Services customer, when a new Campaign version is available, your server infrastructure is upgraded by Adobe without any further action on your part.
