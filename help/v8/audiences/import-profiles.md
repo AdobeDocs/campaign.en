@@ -47,7 +47,7 @@ Prepare and structure your data in a file to import it with a workflow. [Learn m
 
 ### Load data from a file {#data-from-a-file}
 
-The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}.
+The data processed in a workflow can be extracted from a structured file so that it can be imported into Adobe Campaign. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
 
 Once data has been collected you can use it in your workflows, for example to enrich a delivery or update the database. For more on this, refer to [this section](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
 
