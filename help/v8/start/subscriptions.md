@@ -63,7 +63,7 @@ To subscribe (opt-in) a profile to a service, available options are:
 
    ![](assets/web-app.png) 
 
-   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
+   Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Create a targeting workflow and using a **[!UICONTROL Subscription service]** activity. 
