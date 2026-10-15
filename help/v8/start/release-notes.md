@@ -26,13 +26,11 @@ This page lists new capabilities, improvements and fixes coming with Campaign v8
 
 ## Release 8.9.4 {#release-8-9-4}
 
-_October 7, 2026_
+_October 15, 2026_
 
 ### Improvements {#improvements-8-9-4}
 
 * Client Console UI themes can now be stored and shared across users. (NEO-96823)
-
-* Push notification events now include an instance name parameter that identifies which instance (marketing or mid-sourcing) sent the notification. (NEO-94650)
 
 ### Fixes {#fixes-8-9-4}
 
@@ -51,21 +49,6 @@ _October 7, 2026_
 * Fixed an issue where FDA workflows could fail with a column overflow error when loading data into Redshift. (NEO-96125)
 * Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
 * Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
-* Fixed an issue where the tracking workflow could fail when processing a reference to a deleted delivery. (NEO-91322)
-* Fixed an issue where data replication could select the wrong replicator for FDA bulk loads. (NEO-93758)
-* Fixed an issue where send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-93924)
-* Fixed an issue where delivery send-time expressions could generate invalid SQL on Snowflake schemas. (NEO-94509)
-* Fixed an issue where continuous delivery workflows could be incorrectly picked up by the operation management scheduler. (NEO-94520)
-* Fixed an issue affecting custom send-time scheduling in the Campaign Web user interface. (NEO-94762)
-* Fixed an issue where mirror page URLs could be broken in multi-mid-sourcing deployments. (NEO-95246)
-* Fixed an issue where integer columns loaded from Snowflake through a Data Loading (RDBMS) activity were incorrectly typed as strings in the generated temporary schema. (NEO-95534)
-* Fixed an issue where the out-of-the-box Adobe Experience Platform export workflow could export duplicate tracking data. (NEO-95804)
-* Fixed an issue where a delivery target's weight formula could be applied even when not configured to use one. (NEO-96087)
-* Fixed an issue where valid email encryption certificates (S/MIME) could be incorrectly rejected. (NEO-96128)
-* Fixed an issue where the next scheduled send date was not replicated from the marketing instance to the mid-sourcing instance. (NEO-96552)
-* Fixed an issue where some deliveries could remain pending on the marketing instance without completing on the mid-sourcing instance. (NEO-96557)
-* Fixed an issue where a missing delivery reference could stop tracking event processing. (NEO-96587)
-* Fixed an issue where restarting a workflow on a non-data-management campaign did not update the operator associated with the restart. (NEO-94516)
 
 ## Release 8.9.3 {#release-8-9-3}
 
