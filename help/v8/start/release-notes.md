@@ -31,11 +31,35 @@ topic_v2:
 
 This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
+## Release 8.9.4 {#release-8-9-4}
+
+_October 15, 2026_
+
+### Improvements {#improvements-8-9-4}
+
+* Client Console UI themes can now be stored and shared across users. (NEO-96823)
+
+### Fixes {#fixes-8-9-4}
+
+* Fixed an issue where certain bounce-feedback messages could cause delivery status updates to stall, leaving affected deliveries stuck in the "Taken into account by the Service provider" status. (NEO-98183)
+* Fixed an issue where delivery alerts for deliveries stuck in a long start pending status could trigger incorrectly due to a threshold calculation error. (NEO-93434)
+* Fixed an issue where sending text-content deliveries could cause the mid-sourcing server process to crash. (NEO-95122)
+* Fixed an issue where the **Read Group** workflow activity could generate invalid SQL for calculated-expression fields. (NEO-95233)
+* Fixed an issue where delivery part IDs generated for FFDA mid-sourcing deliveries could collide. (NEO-95777)
+* Fixed an issue where certain characters in embedded browser navigation URLs could cause the Client Console to crash. (NEO-96267)
+* Fixed an issue where SMS deliveries were under-reported in Dynamic Reporting. (NEO-96401)
+* Fixed an issue where delivery preparation could fail for Snowflake or FFDA external-file targets that don't use profile mapping. (NEO-96507)
+* Fixed an issue where workflows containing multiple queries linked to different FDA sources could fail. (NEO-97249)
+* Fixed an issue where near-real-time enrichment workflows could intermittently fail with SQL errors when processing events triggered close together in time. (NEO-97557)
+* Fixed an issue where an internal locking mechanism could enter a retry loop and cause high CPU usage on the server. (NEO-94845)
+* Fixed an issue where delivery preparation could fail with an SQL error when using seed addresses together with a custom target mapping. (NEO-94966)
+* Fixed an issue where FDA workflows could fail with a column overflow error when loading data into Redshift. (NEO-96125)
+* Fixed an issue where the Analytics external account could fail with a "Gone" (410) error. (NEO-99019)
+* Fixed an issue where some deliveries could remain stuck in the personalization pending status even though the corresponding messages were successfully sent. (NEO-94471)
+
 ## Release 8.9.3 {#release-8-9-3}
 
 _August 11, 2026_
-
-<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### Security improvements {#security-8-9-3}
 
@@ -79,7 +103,7 @@ _May 3, 2026_
 * Fixed an issue where Android and iOS silent push notifications failed during delivery preparation when title and body fields were empty. (NEO-93739)
 * Fixed an issue preventing the language field from being captured for Android app registration tokens due to incorrect reconciliation keys. (NEO-93100)
 * Fixed an issue where delivery preparation failed when applying custom typology rules with pressure rules. (NEO-94457)
-* Fixed an issue where the client console could experience HTTP request processing failures. (NEO-94071)
+* Fixed an issue where the Client Console could experience HTTP request processing failures. (NEO-94071)
 * FDA monitoring is now disabled by default to prevent connection log insertion errors. (NEO-94841)
 * Fixed an issue where Interaction SOAP calls used for offer redemption could fail with a namespace resolution error. (NEO-94787)
 * Fixed an issue where string fields with length 1 could cause SQL errors in workflow temporary tables on PostgreSQL 17. (NEO-94487)
@@ -151,7 +175,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Fixed an issue which could cause HTML layout errors in Outlook Windows desktop. (NEO-92611)
 * Fixed a data integrity issue where delivery primary keys were duplicated on the mid instance after an upgrade. (NEO-92424)
 * Fixed an issue where links could not be disabled in the Tracking & Images dialog box in a delivery. (NEO-92381)
-* Fixed an issue where the nms.subscribtion.RecipientSubscribe() function did not work for bulk subscription. (NEO-92308)
+* Fixed an issue where the nms.subscription.RecipientSubscribe() function did not work for bulk subscription. (NEO-92308)
 * Fixed an issue where delivery failures occurred due to missing delivery parts after an upgrade. (NEO-92278)
 * Fixed an issue in the tracking workflow where duplicate status errors and SQL syntax errors prevented tracking indicators from being updated. (NEO-92239)
 * Fixed an issue where enumeration field labels were missing or displayed incorrectly in lists created via workflow when using dbEnum fields. (NEO-91158)
@@ -166,8 +190,8 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Fixed an error that occurred when concatenating a "char" field in PostgreSQL 15. (NEO-88028)
 * Fixed an issue where the order of delivery template variables changed when saving or duplicating the template. (NEO-87845)
 * Fixed an issue where creating a new Data Library schema caused the Web interface to crash. (NEO-87816)
-* Fixed an issue where with complement sets in the Deduplication activity. (NEO-87711)
-* Fixed a request for installation package without X11 dependency. (NEO-87471)
+* Fixed an issue where segment codes for complement sets did not work correctly in the Deduplication activity. (NEO-87711)
+* Added an installation package option that doesn't require the X11 dependency. (NEO-87471)
 * Fixed an issue where segment codes could not be used in dynamic reports. (NEO-87276)
 * Fixed an issue where workflows got stuck in the Update Data activity. (NEO-87252)
 * Fixed an issue where BigQuery was using an incorrect timezone. (NEO-86622)
@@ -179,7 +203,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Fixed an issue where technical delivery templates were not refreshed after changes made to options. (NEO-84149)
 * Fixed an error in the out-of-the-box Billing workflow. (NEO-83624)
 * Fixed an issue with exclusion of duplicates based only on the primary key of targeted records. (NEO-82910)
-* Fixed discrepancies in Campaign Web UI reports where tracking statistics displayed different values compared to the console. (NEO-82339)
+* Fixed discrepancies in Campaign Web UI reports where tracking statistics displayed different values compared to the Client Console. (NEO-82339)
 * Fixed an issue where the lastmodified date changed even if the record should not be updated in the Update Data activity. (NEO-82002)
 * Fixed an issue where adding new attributes in a list caused workflows reading the list to fail. (NEO-80258)
 * Fixed an issue where the Tracking Indicators report displayed incorrect values for distinct opens. (NEO-79466)
