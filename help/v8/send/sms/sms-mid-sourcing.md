@@ -5,10 +5,18 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-TQID: https://experienceleague.adobe.com/JMj3tFG6i-bWXlEGyvFzlNpAj4fZoqZC4mdej5N3Qcw
+TQID: 'https://experienceleague.adobe.com/JMj3tFG6i-bWXlEGyvFzlNpAj4fZoqZC4mdej5N3Qcw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

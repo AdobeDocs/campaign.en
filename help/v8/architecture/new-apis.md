@@ -5,13 +5,19 @@ feature: Architecture, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-TQID: https://experienceleague.adobe.com/QH0Vnh9hi9bHuaY16UTn26NkuIIsb04dyNMhzkrpVdQ
+TQID: 'https://experienceleague.adobe.com/QH0Vnh9hi9bHuaY16UTn26NkuIIsb04dyNMhzkrpVdQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 702a1f63-4da5-5981-83b3-4d5b14e90420
+    internal-label: FFDA
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

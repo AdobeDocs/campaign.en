@@ -5,10 +5,18 @@ feature: Monitoring
 role: User, Developer
 level: Beginner
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-TQID: https://experienceleague.adobe.com/VeDV3OsmWKOlAGNhUiDb5uDmjX0lXWa1RnA3KHm6F-w
+TQID: 'https://experienceleague.adobe.com/VeDV3OsmWKOlAGNhUiDb5uDmjX0lXWa1RnA3KHm6F-w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -6,15 +6,22 @@ feature: Budget Management, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-TQID: https://experienceleague.adobe.com/-9-67l8H1X7fXH708FbQc0Tu37mWAxpuFFvHfT9hQoo
+TQID: 'https://experienceleague.adobe.com/-9-67l8H1X7fXH708FbQc0Tu37mWAxpuFFvHfT9hQoo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: f4694696-6278-5131-97cc-3f6c23e232a2
+    internal-label: Budget Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

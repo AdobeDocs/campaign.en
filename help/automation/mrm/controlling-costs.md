@@ -5,15 +5,19 @@ description: Learn how to control costs
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-TQID: https://experienceleague.adobe.com/OQtmoiTmvFeWbYfLNpjuk5FZLb2Si-mPBbMNMWnDGoo
+TQID: 'https://experienceleague.adobe.com/OQtmoiTmvFeWbYfLNpjuk5FZLb2Si-mPBbMNMWnDGoo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

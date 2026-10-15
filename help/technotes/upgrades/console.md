@@ -4,6 +4,11 @@ title: client console 32-bit deprecation
 description: client console 32-bit deprecation
 hide: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 # End of support on 32-bit operating systems {#console-eol}
 

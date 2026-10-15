@@ -5,15 +5,19 @@ description: Learn how to use Campaign discussion forums
 feature: Campaigns, Resource Management
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
-TQID: https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo
+TQID: 'https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management

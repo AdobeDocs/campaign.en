@@ -6,16 +6,22 @@ feature: Workflows, Heatmap
 role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-TQID: https://experienceleague.adobe.com/7-PYfeX9J1RnXdjB4eTOBjZT2GMaYz6t3oi8o-ABoV0
+TQID: 'https://experienceleague.adobe.com/7-PYfeX9J1RnXdjB4eTOBjZT2GMaYz6t3oi8o-ABoV0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: HeatMap
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

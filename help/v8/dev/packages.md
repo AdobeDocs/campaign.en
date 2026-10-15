@@ -6,10 +6,12 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/kykUHVpP7R4UDFaI3iJwHb54-hnWbHNCzk-phFmzGY0
+TQID: 'https://experienceleague.adobe.com/kykUHVpP7R4UDFaI3iJwHb54-hnWbHNCzk-phFmzGY0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -19,6 +21,8 @@ feature_v2:
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
     internal-label: Best practices
@@ -28,12 +32,16 @@ subfeature_v2:
     internal-label: Permissions
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
+  - id: d131faec-227e-5880-92f9-edb8b18bacb4
+    internal-label: Package Export/Import
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management

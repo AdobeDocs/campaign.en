@@ -4,10 +4,18 @@ description: Built-in report metrics calculation
 feature: Reporting
 role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-TQID: https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI
+TQID: 'https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

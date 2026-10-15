@@ -6,10 +6,18 @@ feature: Reporting
 role: Developer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-TQID: https://experienceleague.adobe.com/-qDOwpBmI9ao2jCcHw4ex8Ft-qyIGnPggcQJuDdUAkQ
+TQID: 'https://experienceleague.adobe.com/-qDOwpBmI9ao2jCcHw4ex8Ft-qyIGnPggcQJuDdUAkQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

@@ -5,10 +5,12 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-TQID: https://experienceleague.adobe.com/2twe2j5Hff6hTUPBos45bAKXOYP2YSVFGWyTJlvFuvI
+TQID: 'https://experienceleague.adobe.com/2twe2j5Hff6hTUPBos45bAKXOYP2YSVFGWyTJlvFuvI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -16,11 +18,17 @@ feature_v2:
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 702a1f63-4da5-5981-83b3-4d5b14e90420
+    internal-label: FFDA
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer

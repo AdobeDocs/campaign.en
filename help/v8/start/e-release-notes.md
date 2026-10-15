@@ -6,10 +6,18 @@ role: User
 level: Beginner
 hide: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-TQID: https://experienceleague.adobe.com/vxR3VYl7aRItdg0KDZNPPIK4LVFPHPmLNaW-BaE4Yko
+TQID: 'https://experienceleague.adobe.com/vxR3VYl7aRItdg0KDZNPPIK4LVFPHPmLNaW-BaE4Yko'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

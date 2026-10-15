@@ -3,13 +3,20 @@ title: Campaign v8 2022 release notes
 description: List of features and improvemens coming with 2022 Campaign v8 releases
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-TQID: https://experienceleague.adobe.com/PCye0NRsbFxzoRgD-2apCDpph-gvtX0eboiuzdmVQZE
+TQID: 'https://experienceleague.adobe.com/PCye0NRsbFxzoRgD-2apCDpph-gvtX0eboiuzdmVQZE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security

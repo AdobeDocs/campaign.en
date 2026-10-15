@@ -6,10 +6,18 @@ feature: Workflows, Data Management
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
-TQID: https://experienceleague.adobe.com/ayYWipGQV7JpZMC1751hJD9Vj47UYT89zplV1pl-3Uo
+TQID: 'https://experienceleague.adobe.com/ayYWipGQV7JpZMC1751hJD9Vj47UYT89zplV1pl-3Uo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

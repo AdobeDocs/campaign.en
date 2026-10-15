@@ -6,10 +6,15 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
-TQID: https://experienceleague.adobe.com/9TZEv5GZwgyl5SJkod5GRaWGgMJMls3iNSVqE09BT7M
+TQID: 'https://experienceleague.adobe.com/9TZEv5GZwgyl5SJkod5GRaWGgMJMls3iNSVqE09BT7M'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

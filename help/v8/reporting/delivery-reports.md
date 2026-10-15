@@ -3,13 +3,20 @@ title: Adobe Campaign built-in delivery reports
 description: Adobe Campaign built-in delivery reports
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-TQID: https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14
+TQID: 'https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

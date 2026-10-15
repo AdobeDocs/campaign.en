@@ -1,25 +1,28 @@
 ---
-title: Email Tracking Pixels and CNIL Guidance
-description: Understanding CNIL's updated guidance on email tracking pixels and the Adobe Campaign capabilities that can support compliance efforts.
+title: Guidance Regarding Email Tracking Pixels
+description: Understand regulatory guidance regarding email tracking pixels and the Adobe Campaign capabilities that can support compliance efforts.
 version: Campaign v8, Campaign Classic v7
 hide: true
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 ---
 
-# Understanding CNIL's updated guidance on email tracking pixels
+# Guidance Regarding Email Tracking Pixels
 
 This post is for informational purposes only. It is not legal advice and does not warrant your compliance with applicable law. The Adobe Campaign product capabilities described below are building blocks that, configured and operated appropriately, may support a compliant implementation. Each customer is responsible for determining and complying with its obligations under applicable law.
  
 ## Overview
 
-On April 14, 2026, the _Commission nationale de l'informatique et des libertés_ (CNIL), France's data protection authority, published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). The guidance clarifies when consent is required and highlights the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers based in France.
+On April 14, 2026, the _Commission nationale de l'informatique et des libertés_ (CNIL), France's data protection authority, published a [recommendation on the use of tracking pixels within emails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Shortly after, Italy's independent data protection authority ("Garante") published Provision No. 284 (the "Garante Provision") on April 17, 2026. Both guidance documents, while non-legally binding, clarify when consent is required and highlight the importance of proper consent practices for email pixel tracking. This policy could impact sending practices for any entity delivering emails to subscribers under applicable EU privacy law.
 
-CNIL provided a three-month period from the date of the recommendation for companies to inform their email recipients ("users") of the presence of the tracking pixels, their purpose, and users' right to opt-out. During this transition period, customers are expected to notify users about pixel tracking and provide an opt-out if necessary. CNIL is expected to begin enforcement activities after July 14, 2026.
+As regulators continue to clarify guidance on tracking pixels and related issues, Adobe will continue to monitor changes and inform customers of the technical capabilities of Adobe products that support email marketing, including Adobe Campaign. Adobe's documentation on email tracking pixels reflects current regulatory guidance. Adobe will continue to update documentation as needed to reflect relevant changes that may impact use of Adobe's CXO products as regulatory requirements evolve. Delays in updating materials do not constitute a failure on behalf of Adobe.
 
-As the CNIL and other regulators clarify guidance on tracking pixels and related issues, Adobe will continue to monitor updates and inform customers of the technical capabilities of Adobe products that support email marketing, including Adobe Campaign.
+Adobe email marketing execution applications, including Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign, and Marketo Engage, provide controls that can help customers manage open tracking at the delivery or email level. Customers are responsible for determining their own compliance obligations under the applicable guidance and other laws, but these capabilities may support customer compliance efforts.
 
-Adobe email marketing execution applications, including Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign, and Marketo Engage, provide controls that can help customers manage open tracking at the delivery or email level. Customers are responsible for determining their own compliance obligations under applicable CNIL guidance and other laws, but these capabilities may support customer compliance efforts.
-
-## What is an email tracking pixel
+## What is an email tracking pixel?
 
 An email tracking pixel is a 1x1 transparent image embedded in the HTML of an email. When the recipient's email client loads that image, the pixel pings a server that records data such as a timestamp, device type, email client and sometimes an IP address for approximate location. That log is then tied to a recipient's record, allowing marketers to see whether an email is opened.
 
@@ -29,7 +32,7 @@ Customers seeking assistance implementing the changes described above may engage
 
 ## Adobe Campaign functionality related to email tracking
 
-Customers may use Adobe Campaign's native tracking, schema, and personalization mechanisms to address certain elements when configuring architecture to address the CNIL guidance:
+Customers may use Adobe Campaign's native tracking, schema, and personalization mechanisms to address certain elements when configuring architecture to address the guidance surrounding email tracking pixels:
 
 * **Classification of the delivery.** Extend `nms:delivery` with an `emailType` attribute (authentication, deliverability-only, transactional, marketing, public service, B2B prospecting). The classification drives which pixels are allowed without consent.
 

@@ -5,13 +5,20 @@ description: Learn how to send a report to a list with a workflow
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
-TQID: https://experienceleague.adobe.com/d8vslZcVX8-e0GRGP4PVRB4opH11d-1B33nGO3uei3s
+TQID: 'https://experienceleague.adobe.com/d8vslZcVX8-e0GRGP4PVRB4opH11d-1B33nGO3uei3s'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

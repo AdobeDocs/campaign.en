@@ -6,10 +6,12 @@ feature: Workflows
 role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-TQID: https://experienceleague.adobe.com/Rk6eyM-0GkwgC4yiewGSiB-6zr3x1ySJI6S72KzHNb0
+TQID: 'https://experienceleague.adobe.com/Rk6eyM-0GkwgC4yiewGSiB-6zr3x1ySJI6S72KzHNb0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns

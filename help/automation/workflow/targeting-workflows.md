@@ -4,16 +4,20 @@ description: Learn how to create target audiences in a workflow
 feature: Query Editor, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-TQID: https://experienceleague.adobe.com/njUqAgkAYMjYMBQvnwt9HOO0aBNX8BRmKJZeccYejhc
+TQID: 'https://experienceleague.adobe.com/njUqAgkAYMjYMBQvnwt9HOO0aBNX8BRmKJZeccYejhc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

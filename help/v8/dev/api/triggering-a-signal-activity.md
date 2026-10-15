@@ -7,16 +7,21 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-TQID: https://experienceleague.adobe.com/dBlJVUgC7x6qy7aztj9BLEL9aHnPsLlODzIwI0Ao8QE
+TQID: 'https://experienceleague.adobe.com/dBlJVUgC7x6qy7aztj9BLEL9aHnPsLlODzIwI0Ao8QE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 ---
 # Triggering a signal activity {#triggering-a-signal-activity}
 
@@ -38,30 +43,30 @@ To trigger a workflow, follow the steps below:
 
 If you want to call the workflow with parameters, add them into the payload with the **"parameters"** attribute. The syntax consists of the parameter's name followed by its value (the following  types are supported: **string**, **number**, **boolean** and **date/time**).
 
-  ```
+```
 
-    -X POST <TRIGGER_URL>
-    -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-    -H 'Cache-Control: no-cache' \
-    -H 'X-Api-Key: <API_KEY>' \
-    -H 'Content-Type: application/json;charset=utf-8' \
-    -H 'Content-Length:79' \
-    -i
-    -d {
-    -d    "source":"<SOURCE>",
-    -d    "parameters":{
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",  
-    -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>"
-    -d    }
-    -d }
+  -X POST <TRIGGER_URL>
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8' \
+  -H 'Content-Length:79' \
+  -i
+  -d {
+  -d    "source":"<SOURCE>",
+  -d    "parameters":{
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>",  
+  -d      "<PARAMETER_NAME":"<PARAMETER_VALUE>"
+  -d    }
+  -d }
 
-  ```
+```
 
-  >[!NOTE]
-  >
-  >When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
+>[!NOTE]
+>
+>When adding a parameter to the payload, make sure that its **name** and **type** values are consistent with the information declared in the External signal activity. Moreover, the payload size should not exceed 64Ko.
 
 <br/>
 

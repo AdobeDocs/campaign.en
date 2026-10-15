@@ -4,6 +4,17 @@ description: Learn about 64-bit schemas in Adobe Campaign v8 for Campaign Standa
 feature: Technote
 role: Admin
 exl-id: ab5f01fd-4ad5-46e9-b132-011fe0f7bbd2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # 64-bit schemas {#sixty-four-bit-tables}
 

@@ -5,10 +5,12 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-TQID: https://experienceleague.adobe.com/Xr1tQZzAnAnvIS-ZCPKlIBZOugRSRFkYyZletTmtaZo
+TQID: 'https://experienceleague.adobe.com/Xr1tQZzAnAnvIS-ZCPKlIBZOugRSRFkYyZletTmtaZo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -18,11 +20,15 @@ feature_v2:
     internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
     internal-label: Execution activities
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

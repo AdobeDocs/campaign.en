@@ -3,6 +3,17 @@ product: campaign
 title: Transfer to Mid-sourcing
 description: Learn more about Transfer to Mid-sourcing workflows
 feature: Workflows
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 ---
 
 # Transfer to Mid-sourcing{#transfer-to-mid-sourcing}
