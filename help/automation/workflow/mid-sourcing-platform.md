@@ -41,3 +41,6 @@ The workflow detailed below is installed with the **Mid-Sourcing platform** modu
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>The log retention period on the mid-sourcing server must be longer than the delivery validity period plus the **indicatorsDuration** value. Otherwise, the delivery indicators decrease when old logs are purged, and the lower values are synchronized to the marketing instance. For example, with a validity period of 5 days and an **indicatorsDuration** of 30 days, set the retention period to at least 36 days.
