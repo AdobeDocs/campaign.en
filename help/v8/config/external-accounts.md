@@ -249,6 +249,10 @@ These external accounts can be used to import or export data to Adobe Campaign u
 
     * **[!UICONTROL Access key]**: Learn how to find your **[!UICONTROL Access key]** in [Microsoft documentation](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
 
+    >[!NOTE]
+    >
+    >Azure Blob Storage matches file names by prefix, not by pattern. When a file mask ends with an asterisk (`*`), Campaign removes it and sends the remaining text to Azure as a prefix. For example, `TEST_EXPORT_AZURE_*` returns all files whose name starts with `TEST_EXPORT_AZURE_`. Masks with characters after the asterisk, such as `TEST_EXPORT_AZURE_*.csv`, are not supported. This is a limitation of Azure Blob Storage.
+
 * **Microsoft Fabric** - The **Microsoft Fabric** external account allows you to import and export data between Microsoft Fabric and Adobe Campaign using the **[!UICONTROL Transfer file]** workflow activity. To configure this integration, provide the following details:
 
     * **[!UICONTROL Server]**: URL of your Microsoft Fabric storage server.
