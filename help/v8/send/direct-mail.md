@@ -80,10 +80,6 @@ By default, the extraction file is created and stored on the server. You can sav
 
 For a direct mail delivery, the content of the extraction is defined in **[!UICONTROL Edit the extraction file format...]** link.
 
->[!NOTE]
->
->When you use a **[!UICONTROL Direct mail]** activity in a workflow, its outbound transition carries the targeted population, not the generated extraction file. To send the file to a server, add a **[!UICONTROL Data extraction]** activity after the **[!UICONTROL Direct mail]** activity, then a **[!UICONTROL File transfer]** activity.
-
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
 This link lets you access the extraction assistant and define the information (columns) to be exported into the output file.
@@ -138,3 +134,7 @@ Once you validated the extraction file, click **Confirm delivery** a confirmatio
 The confirmation starts the data extraction in the specified file.
 
 In the context of a marketing campaign, when all approvals have been granted, the extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. Learn more in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}.
+
+>[!NOTE]
+>
+>When you use a **[!UICONTROL Direct mail]** activity in a workflow, its outbound transition carries the targeted population, not the generated extraction file. To send the file to a server, add a **[!UICONTROL Data extraction]** activity after the **[!UICONTROL Direct mail]** activity, then a **[!UICONTROL File transfer]** activity.
