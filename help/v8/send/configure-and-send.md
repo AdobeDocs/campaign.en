@@ -95,6 +95,10 @@ A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that t
 >
 >* You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
 
+>[!CAUTION]
+>
+>Waves are scheduled from the contact date of the delivery. If the delivery starts after the planned time of one or more waves, those overdue waves are all sent together instead of being spaced out.
+
 ### Monitor waves {#monitor-waves}
 
 To monitor your sends, browse to the delivery logs. See [this page](send.md)
