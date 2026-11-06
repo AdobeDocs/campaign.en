@@ -82,6 +82,10 @@ You can also insert emoticons to your subject line with the **[!UICONTROL Insert
 >
 >Release 8.9.3 includes an update to the external URL allow list. Make sure the domains used in your message content are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See [Add URL permissions](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} for steps.
 
+>[!IMPORTANT]
+>
+>Do not use the HTML `<base>` tag in your email content. For security reasons, this tag is not supported and can prevent your content from loading in the content editor. Use absolute URLs for your links and external resources instead.
+
 The content of the message is defined in the lower section of the delivery configuration window.
 
 Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](email-parameters.md#selecting-message-formats).
