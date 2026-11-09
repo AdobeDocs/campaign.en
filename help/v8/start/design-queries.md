@@ -151,7 +151,7 @@ In this example, data is sorted in ascending order based on recipient age.
 
 >[!NOTE]
 >
->As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#manage-and-customize-lists)
+>As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#customize-lists)
 
 
 

@@ -63,7 +63,7 @@ The fields to be entered in case of a notification for target approval are:
 
 * **[!UICONTROL Distribution context]**: select the **[!UICONTROL Specified in the transition]** option if you are using a **[!UICONTROL Split]** type activity to limit the targeted population. In this case, the distribution template is entered in the split activity. If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
 
-  For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+  For more on creating a data distribution template, refer to [Limiting the number of subset records per data distribution](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 

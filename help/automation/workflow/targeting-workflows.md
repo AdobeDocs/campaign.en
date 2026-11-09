@@ -82,11 +82,11 @@ While for **Visitors**, the list will contain the following filtering dimensions
 
 ### Work with additional data {#select-data}
 
-A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [this section](query.md#create-a-query).
+A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [this section](query.md#creating-a-query).
 
 You can also use the following activities to query and refine data from the database: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
-It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Add data](query.md#add-data) and [Edit additional data](#edit-additional-data).
+It is possible to collect additional data to be forwarded and processed throughout the workflow's life cycle. For more on this, refer to [Add data](query.md#adding-data) and [Edit additional data](#edit-additional-data).
 
 ### Edit additional data {#edit-additional-data}
 

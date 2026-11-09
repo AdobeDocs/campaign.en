@@ -44,7 +44,7 @@ The **[!UICONTROL Visitor folder]** field appears. It is automatically completed
 
 Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.
 
-To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#creating-an-offer-environment)).
+To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#create-an-offer-environment)).
 
 ## Anonymous visitors {#anonymous-visitors}
 

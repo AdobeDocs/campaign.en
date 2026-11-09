@@ -81,7 +81,7 @@ External databases compatible with Adobe Campaign Federated Data Access (FDA) mo
 
 
 >[!AVAILABILITY]
->In addition, with the [Enhanced Security Add-on](../config/enhanced-security.md#secure-vpn-tunneling), you can access your on-premise databases, through the secure VPN tunelling. [Learn more](../config/enhanced-security.md#vpn-callouts)
+>In addition, with the [Enhanced Security Add-on](../config/enhanced-security.md#secure-vpn-tunneling), you can access your on-premise databases, through the secure VPN tunelling. [Learn more](../config/enhanced-security.md)
 
 ## Mobile SDK {#MobileSDK}
 

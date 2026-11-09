@@ -81,7 +81,7 @@ However, you can also allow the campaign owner to confirm the send, even if spec
 
 Once all approvals have been granted, the delivery status changes to **[!UICONTROL Pending extraction]**. The extraction files are created via a dedicated [technical workflow](../workflow/technical-workflows.md) which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. When a process is in progress, it is displayed in the dashboard and can be edited via its link.
 
-Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings). [Learn more](marketing-campaign-approval.md#approving-an-extraction-file).
+Once the extraction workflow has been successfully executed, the extraction file must be approved (provided that extraction file approval was selected in the delivery settings). [Learn more](marketing-campaign-approval.md#approve-an-extraction-file).
 
 Follow the steps below to validate content and send the file to the provider:
 

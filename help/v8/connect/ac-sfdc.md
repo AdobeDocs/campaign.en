@@ -95,7 +95,7 @@ Once the schema is created, you can synchronize enumerations automatically from 
 
 1. Click **[!UICONTROL Next]** and then **[!UICONTROL Start]** to start importing the enumerations.
 
-1. Browse the **[!UICONTROL Administration > Platform > Enumerations]** node to check imported values. Learn more about enumerations in [this page](../config/ui-settings.md#enumerations).
+1. Browse the **[!UICONTROL Administration > Platform > Enumerations]** node to check imported values. Learn more about enumerations in [this page](../config/ui-settings.md).
 
 Adobe Campaign and Salesforce.com are now connected. You can set up data synchronization between the two systems. 
 

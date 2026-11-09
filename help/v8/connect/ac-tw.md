@@ -165,7 +165,7 @@ Once this configuration is done, you can create posts on your X accounts and sen
 
 ## Create a test account on X {#tw-test-account}
 
-In addition to X account, create a private X account which can be used for sending [tweet proofs](../send/twitter.md#send-tw-proofs). To do this, follow the steps below:
+In addition to X account, create a private X account which can be used for sending [tweet proofs](../send/twitter.md). To do this, follow the steps below:
 
 1. Create a new X account.
 1. Access the account  **Settings**.

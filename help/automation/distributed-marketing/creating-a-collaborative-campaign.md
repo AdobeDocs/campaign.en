@@ -25,7 +25,7 @@ topic_v2:
 
 
 
-The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md#collaborative-campaign).
+The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md).
 
 ## Create a collaborative campaign {#creating-a-collaborative-campaign}
 

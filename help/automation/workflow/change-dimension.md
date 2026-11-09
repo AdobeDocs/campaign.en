@@ -66,7 +66,7 @@ To configure the **[!UICONTROL Change dimension]** activity, apply the following
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Add data](query.md#add-data).
+      >For information on creating and managing additional columns, refer to [Add data](query.md#adding-data).
 
     * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
     

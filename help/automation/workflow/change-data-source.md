@@ -28,7 +28,7 @@ topic_v2:
 ---
 # Change data source {#change-data-source}
 
-Use the **[!UICONTROL Change data source]** activity to change the data source of a [workflow working table](use-workflow-data.md#workflow-temporary-work-table). This activity provides more flexibility to manage data across different data sources such as Federated Data Access (FDA), Campaign Cloud database (FFDA) and Campaign Local database.
+Use the **[!UICONTROL Change data source]** activity to change the data source of a [workflow working table](use-workflow-data.md#work-table). This activity provides more flexibility to manage data across different data sources such as Federated Data Access (FDA), Campaign Cloud database (FFDA) and Campaign Local database.
 
 The workflow **[!UICONTROL Working table]** is used to handle and share data with the workflow activities. 
 
@@ -53,7 +53,7 @@ To use the **[!UICONTROL Change Data Source]** activity, you must:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to this [page](query.md#create-a-query).
+    For more information on the **[!UICONTROL Query]** activity, refer to this [page](query.md#creating-a-query).
 
 1. Add a **[!UICONTROL Change data source]** activity.
 

@@ -20,7 +20,7 @@ For security reasons, Adobe must [install the latest Campaign build](#ac-upgrade
 
 >[!NOTE]
 >
->For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>For any questions about these changes, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 >
 
 ## Campaign build upgrade {#ac-upgrade}

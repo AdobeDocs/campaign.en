@@ -63,7 +63,7 @@ Campaign comes with a set of default **Filtering** and **Control** rules:
 The Campaign Optimization add-on provides two additional types of **typology rules**:
 
 * **Pressure** rules which let you control marketing fatigue. [Learn more](pressure-rules.md).
-* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#controlling-capacity).
+* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#control-capacity).
 
 
 >[!NOTE]

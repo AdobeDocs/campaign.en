@@ -439,7 +439,7 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 >[!NOTE]
 >
->As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#manage-and-customize-lists)
+>As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#customize-lists)
 
 Click the tabs at the bottom of the assistant to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
