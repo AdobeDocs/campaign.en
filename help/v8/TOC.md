@@ -189,9 +189,24 @@ breadcrumb-title: Campaign v8 Documentation
     + [Context](interaction/interaction-present-offers.md)
     + [Call an offer in a web page](interaction/interaction-integration.md)
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
+  + Manage an offer catalog {#managing-an-offer-catalog}
+    + [Approve and activate an offer](interaction/approving-and-activating-an-offer.md)
+    + [Manage offer templates](interaction/managing-offer-templates.md)
+    + [Manage offer presentation](interaction/managing-offer-presentation.md)
+  + Offers simulation {#simulating-offers}
+    + [About offers simulation](interaction/about-offers-simulation.md)
+    + [Execution settings](interaction/execution-settings.md)
+    + [Simulation scope](interaction/simulation-scope.md)
+    + [Simulation tracking](interaction/simulation-tracking.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
+  + Use case examples {#case-study}
+    + [Presentation rules](interaction/presentation-rules.md)
+    + [Offers on an inbound channel](interaction/offers-on-an-inbound-channel.md)
+    + [Offers on an outbound channel](interaction/offers-on-an-outbound-channel.md)
   + [Advanced settings](interaction/interaction-advanced-settings.md)
+  + Advanced parameters {#advanced-parameters}
+    + [Extension example](interaction/extension-example.md)
 + Query & data {#data}
   + Query the database {#query}
     + [Work with the query editor](start/query-editor.md)

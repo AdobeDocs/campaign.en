@@ -27,7 +27,7 @@ Campaign Interaction module configuration is reserved to expert users. Advanced 
 
 Learn how to use additional contextual data in offers [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}.
 
-Learn how to enrich the eligibility criteria of your offers [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
+Learn how to enrich the eligibility criteria of your offers [in this page](extension-example.md).
 
 Learn steps to create a test environment  [in this page](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}.
 
