@@ -88,7 +88,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 * To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the Digital Content Editor (DCE), refer to the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content).
+  If you are using the Digital Content Editor (DCE), refer to [this section](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >

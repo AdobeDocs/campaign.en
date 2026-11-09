@@ -30,9 +30,15 @@ level_v2:
 ---
 # Get Started with web applications and web forms{#gs-ac-web}
 
+>[!NOTE]
+>
+>For most common use cases, create your landing pages in the Campaign Web user interface, where you can easily design and publish them. Landing pages created in the client console, as described in this section, offer more settings and cover more advanced use cases.
+>
+>[Learn more about landing pages in the Campaign Web user interface](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+
 Adobe Campaign integrates a graphical module for defining and publishing **Web forms** to create pages with input and selection fields, and which may include data from the database. This lets you design and post Web pages which users can access to view or enter information.
 
-Learn how to create and publish web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html#designing-content){target="_blank"}
+Learn how to create and publish web forms in [this section](web/about-web-forms.md)
 
 ![](assets/sample.png) 
 
@@ -40,4 +46,4 @@ Adobe Campaign also lets you create and publish dynamic and interactive **Web ap
 
 You can create pages, such as an edit form on an extranet, or notification forms including data from the database with tables, charts, input forms, etc. This functionality lets you design and post Web pages where users can look up or enter information.
 
-Learn how to create and publish web applications in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}
+Learn how to create and publish web applications in [this section](web/about-web-applications.md)

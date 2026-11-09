@@ -35,7 +35,7 @@ Once the form has been created, configured and published, you can share the link
 
 >[!NOTE]
 >
->The life cycle of a survey in Adobe Campaign as well as its publishing and delivery modes are similar to those of Web forms: these are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>The life cycle of a survey in Adobe Campaign as well as its publishing and delivery modes are similar to those of Web forms: these are detailed in [this section](../web/about-web-forms.md).
 
 ## Survey dashboard {#survey-dashboard}
 
@@ -65,7 +65,7 @@ The origin is indicated in the survey URL by adding the following characters:
 
 while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]**, which indicates that it is in a test phase and not yet online. When you access the survey via this URL, the records created are not taken into account in the tracking (reports). The origin is forced to the value **[!UICONTROL Adobe Campaign]**.
 
-For more on URL parameters, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties#form-url-parameters){target="_blank"}.
+For more on URL parameters, refer to [this page](../web/defining-web-forms-properties.md#form-url-parameters).
 
 ### Reports on surveys {#reports-on-surveys}
 
