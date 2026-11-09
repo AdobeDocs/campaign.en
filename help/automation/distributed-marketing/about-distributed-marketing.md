@@ -3,14 +3,13 @@ product: campaign
 title: Get started with distributed marketing
 description: Get started with distributed marketing
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 TQID: https://experienceleague.adobe.com/Xic-o4WB0jDoHpUAdN2U9Uunuf8rAcQ7rrcpXIFLqSI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
-    internal-label: Campaign Classic v7
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
 feature_v2:

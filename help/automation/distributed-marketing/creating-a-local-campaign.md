@@ -3,14 +3,13 @@ product: campaign
 title: Create a local campaign
 description: Create a local campaign
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 TQID: https://experienceleague.adobe.com/hxeStkXhnSKoLew2gYv3nIDeoRjwgTYINF83w70aFxo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
-    internal-label: Campaign Classic v7
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
 feature_v2:

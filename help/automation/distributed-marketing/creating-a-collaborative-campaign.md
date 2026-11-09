@@ -3,14 +3,13 @@ product: campaign
 title: Create a collaborative campaign
 description: Learn how to create a collaborative campaign
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 TQID: https://experienceleague.adobe.com/UrdZY0sxtcDwZZd5sfgOcsyCKn1lQ8tIs8UlS8rHV4Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
-    internal-label: Campaign Classic v7
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
 feature_v2:

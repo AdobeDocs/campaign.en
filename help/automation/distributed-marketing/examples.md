@@ -3,14 +3,13 @@ product: campaign
 title: Distributed Marketing samples
 description: Distributed Marketing samples
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 TQID: https://experienceleague.adobe.com/fCNtLvuBs2xnlBx-Eu-6AIDkle5YpR0z9pecVRJJbQA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
-    internal-label: Campaign Classic v7
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
 feature_v2:

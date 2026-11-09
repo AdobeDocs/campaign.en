@@ -3,6 +3,7 @@ product: campaign
 title: Configure filtering rules
 description: Learn how to configure filtering rules
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 TQID: 'https://experienceleague.adobe.com/4dOJKJq9bGT93592ugAfrbQU27OBBpUp25QRpzDqtW0'
 product_v2:

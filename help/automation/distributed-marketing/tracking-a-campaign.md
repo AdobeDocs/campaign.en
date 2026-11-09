@@ -3,14 +3,13 @@ product: campaign
 title: Track a campaign
 description: Learn how to track a campaign with Campaign Distributed Marketing
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 9904c1c6-c233-4aa2-a237-338ebde15661
 TQID: https://experienceleague.adobe.com/v-ZkfPAMBCbVOb0FheuwmYILdV4uFjbGu6cv2uoKccc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
-    internal-label: Campaign Classic v7
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
 feature_v2:
