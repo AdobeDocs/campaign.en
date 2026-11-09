@@ -24,7 +24,7 @@ breadcrumb-title: Campaign v8 Documentation
   + {hide-from-toc} [Known issues](start/known-issues.md)
   + [Compatibility matrix](start/compatibility-matrix.md)
   + {hide-from-toc} [Documentation updates](start/documentation-updates.md)
-+ Get Started {#new}
++ Get started {#new}
   + [Get started with Adobe Campaign](start/get-started.md)
   + [Key capabilities](start/whats-new.md)
   + [Discover the user interface](start/campaign-ui.md)
@@ -35,15 +35,7 @@ breadcrumb-title: Campaign v8 Documentation
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
   + {hide-from-toc} [Frequently Asked Questions](start/campaign-faq.md)
   + {hide-from-toc} [Email Tracking Pixels and CNIL Guidance](start/cnil-pixel-tracking.md)
-+ Administration & Permissions {#permissions}
-  + [Get started with permissions](start/gs-permissions.md)
-  + [Manage user permissions](start/manage-permissions.md)
-  + [Add permissions on folders](start/folder-permissions.md)
-  + [Control Panel](config/self-service.md)
-+ Campaign Management {#campaigns}
-  + [Get started with campaigns](start/campaigns.md)
-  + [Campaign Orchestration Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
-+ Send Messages {#send}
++ Messages {#send}
   + [Get started with messages](start/gs-message.md)
   + [Create your first delivery](start/create-message.md)
   + [Work with delivery templates](send/create-templates.md)
@@ -119,33 +111,32 @@ breadcrumb-title: Campaign v8 Documentation
       + [Collect and process events](send/event-processing.md)
       + [Understand event description](send/event-description.md)
       + [Send and monitor messages](send/delivery-execution.md)
-+ Profiles & Audiences {#audience}
-    + [Get started with profiles and audiences](audiences/gs-audiences.md)
-    + [Work with audiences](start/audiences.md)
-    + [Access profiles](audiences/view-profiles.md)
-    + [Work with filters](audiences/create-filters.md)
-    + Add profiles {#add-profiles}
-      + [Create profiles manually](audiences/create-profiles.md)
-      + [Import profiles from a file](audiences/import-profiles.md)
-      + [Collect profile data in web forms](audiences/collect-profiles.md)
-      + [Work with target mappings](audiences/target-mappings.md)
-      + [Create test profiles](audiences/test-profiles.md)
-    + Create audiences {#create-audiences}
-      + [Create a list of contacts](audiences/create-audiences.md)
-      + {hide-from-toc} [Share audiences with Adobe solutions](start/shared-audiences.md)
-    + {hide-from-toc} [Best practices](audiences/audiences-best-practices.md)
-    + [Manage subscriptions](start/subscriptions.md)
-+ Landing Pages & Forms {#content}
++ Profiles & audiences {#audience}
+  + [Get started with profiles and audiences](audiences/gs-audiences.md)
+  + [Work with audiences](start/audiences.md)
+  + [Access profiles](audiences/view-profiles.md)
+  + [Work with filters](audiences/create-filters.md)
+  + Add profiles {#add-profiles}
+    + [Create profiles manually](audiences/create-profiles.md)
+    + [Import profiles from a file](audiences/import-profiles.md)
+    + [Collect profile data in web forms](audiences/collect-profiles.md)
+    + [Work with target mappings](audiences/target-mappings.md)
+    + [Create test profiles](audiences/test-profiles.md)
+  + Create audiences {#create-audiences}
+    + [Create a list of contacts](audiences/create-audiences.md)
+    + {hide-from-toc} [Share audiences with Adobe solutions](start/shared-audiences.md)
+  + {hide-from-toc} [Best practices](audiences/audiences-best-practices.md)
+  + [Manage subscriptions](start/subscriptions.md)
++ Landing pages & forms {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
++ Campaigns {#campaigns}
+  + [Get started with campaigns](start/campaigns.md)
+  + [Campaign Orchestration Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
 + Workflows {#workflows}
   + [Get started with workflows](config/workflows.md)
   + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
-+ Privacy & Security {#privacy}
-  + [Manage Privacy requests](start/privacy.md)
-  + [Security guidelines](config/security.md)
-  + [Enhanced security add-on](config/enhanced-security.md)
-+ Offer Management - Interaction {#offers}
++ Offers & interaction {#offers}
   + [Get started with real-time interaction](interaction/interaction.md)
   + [Environments and architecture](interaction/interaction-architecture.md)
   + [Best practices](interaction/interaction-best-practices.md)
@@ -163,7 +154,13 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
-+ Tracking & Analytics {#analytics}
++ Query & data {#data}
+  + Query the database {#query}
+    + [Work with the query editor](start/query-editor.md)
+    + [Design queries](start/design-queries.md)
+    + [Define filter conditions](start/filter-conditions.md)
+  + [Import data](start/import.md)
++ Reporting & tracking {#analytics}
   + Message tracking {#tracking}
     + [Get started with tracking](send/tracking.md)
     + [Configure tracked links](send/tracked-links.md)
@@ -186,13 +183,6 @@ breadcrumb-title: Campaign v8 Documentation
       + [Delivery reports](reporting/delivery-reports.md)
       + [Built-in metrics calculation](reporting/metrics-calculation.md)
     + [Custom reports](reporting/custom-reports.md)
-+ Data Management {#data}
-  + Query the database {#query}
-    + [Work with the query editor](start/query-editor.md)
-    + [Design queries](start/design-queries.md)
-    + [Define filter conditions](start/filter-conditions.md)
-  + [Import data](start/import.md)
-  + [Workflow Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 + Integrations {#connect}
   + [Connect Campaign with other solutions](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -211,6 +201,15 @@ breadcrumb-title: Campaign v8 Documentation
     + [Work with Campaign and SFDC](connect/ac-sfdc.md)
     + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
     + [Synchronize data](connect/crm-data-sync.md)
++ Administration & permissions {#permissions}
+  + [Get started with permissions](start/gs-permissions.md)
+  + [Manage user permissions](start/manage-permissions.md)
+  + [Add permissions on folders](start/folder-permissions.md)
+  + [Control Panel](config/self-service.md)
++ Privacy & security {#privacy}
+  + [Manage Privacy requests](start/privacy.md)
+  + [Security guidelines](config/security.md)
+  + [Enhanced security add-on](config/enhanced-security.md)
 + Architecture {#architecture}
   + [Global principles](architecture/general-architecture.md)
   + [Architecture models](architecture/architecture.md)
@@ -277,7 +276,7 @@ breadcrumb-title: Campaign v8 Documentation
     + Managing workflows {#managing-workflows}
       + [Controlling a workflow](dev/api/controlling-a-workflow.md)
       + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
-+ Additional Resources {#resources}
++ Additional resources {#resources}
   + [Campaign Technical Notes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web User Interface Documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
 
