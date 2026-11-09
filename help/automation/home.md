@@ -91,6 +91,10 @@ Visit the guides below and learn how to build automation with Adobe Campaign.
     <a href="mrm/about-marketing-resource-management.md">Marketing Resource Management (MRM)</a>
     </div>
     <br>
+    <div>
+    <a href="response/about-response-manager.md">Response manager</a>
+    </div>
+    <br>
   </td>
 </tr>
 </table>

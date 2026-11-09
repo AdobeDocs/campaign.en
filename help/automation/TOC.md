@@ -160,4 +160,10 @@ feature: Overview
   + [Control costs](mrm/controlling-costs.md)
   + [Manage marketing resources](mrm/managing-marketing-resources.md)
   + [Discussion forums](mrm/discussion-forums.md)
++ Response manager (add-on) {#response-manager}
+  + [Get started with response manager](response/about-response-manager.md)
+  + [Configure Response Manager](response/configure-response-manager.md)
+  + [Hypothesis templates](response/hypothesis-templates.md)
+  + [Create hypotheses](response/creating-hypotheses.md)
+  + [Hypothesis tracking](response/hypothesis-tracking.md)
 + [< Back to Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
