@@ -3,6 +3,7 @@ product: campaign
 title: Audit trail
 description: Learn how to monitor your instance with Campaign Audit trail
 feature: Audit Trail, Monitoring, Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:

@@ -2,6 +2,7 @@
 title: Conditional content
 description: Learn how to create conditional content
 feature: Personalization
+version: Campaign v8, Campaign Classic v7
 role: User
 level: Beginner
 exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71

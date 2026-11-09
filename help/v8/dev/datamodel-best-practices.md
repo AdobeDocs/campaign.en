@@ -2,6 +2,7 @@
 title: Data model best practices
 description: Learn Campaign data model extension best practices
 feature: Data Model
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49

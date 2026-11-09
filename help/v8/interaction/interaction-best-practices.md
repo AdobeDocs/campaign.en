@@ -3,6 +3,7 @@ product: campaign
 title: Adobe Campaign Interaction best practices
 description: Best practice approach to manage the Interaction module in Adobe Campaign
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 TQID: 'https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc'
