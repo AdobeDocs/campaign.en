@@ -129,6 +129,15 @@ breadcrumb-title: Campaign v8 Documentation
 + Landing pages & forms {#content}
   + [Create landing pages](dev/landing-pages.md)
   + [Design web apps and forms](dev/webapps.md)
+  + Surveys {#surveys}
+    + [Get started with surveys](dev/surveys/about-surveys.md)
+    + [Key steps to create a survey](dev/surveys/getting-started-with-surveys.md)
+    + [Design a survey](dev/surveys/building-a-survey.md)
+    + [Manage answers](dev/surveys/managing-answers.md)
+    + [Publish, track and use collected data](dev/surveys/publish-track-and-use-collected-data.md)
+    + [Configure surveys](dev/surveys/configuring-surveys.md)
+    + [Use case: create a referral form](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [Use case: display report on answers to an online survey](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Campaigns {#campaigns}
   + [Get started with campaigns](start/campaigns.md)
   + [Campaign Orchestration Documentation >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html)
