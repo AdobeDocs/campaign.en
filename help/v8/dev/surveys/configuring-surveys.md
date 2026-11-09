@@ -1,0 +1,43 @@
+---
+product: campaign
+title: Configure online surveys
+description: Learn how to configure online surveys
+feature: Surveys
+version: Campaign v8, Campaign Classic v7
+exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
+TQID: 'https://experienceleague.adobe.com/1BTkZ--FyHkp7u0eya-lmuELDu8AMmeC96eGsonYcVM'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: 71b1c383-45b9-57e0-b8cd-ea2e98a01a26
+    internal-label: Surveys
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+---
+# Configure online surveys{#configuring-surveys}
+
+>[!AVAILABILITY]
+>
+>Surveys are not available for [Campaign FFDA deployments](../../architecture/enterprise-deployment.md).
+
+ 
+
+## Survey properties {#survey-properties}
+
+Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.
+
+The available parameters are detailed in [this document](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
+
+![](assets/s_ncs_admin_survey_properties_general.png)
+
+## Survey data storage {#survey-data-storage}
+
+By default, the Web form fields are stored in the recipient table. To use another table, select it in the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
+
+Answers to surveys provided by users which aren't stored in the fields (but in local variables) are stored in the **Answers to surveys** table. You can change the schema used based on the **[!UICONTROL Library]** field. This field is only available for **surveys**.
