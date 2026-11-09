@@ -50,7 +50,7 @@ The **Managing social networks (Social Marketing)** module lets you interact wit
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with X. The  **Managing social networks (Social Marketing)** add-on must be installed on your environment, through the dedicated package, and the Twitter External Account must be configured.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to connect Campaign with X. The  **Managing social networks (Social Marketing)** add-on must be installed on your environment, through the dedicated package, and the Twitter External Account must be configured.
 
 
 To configure Adobe Campaign to post tweets to your X accounts, delegate write access to Adobe Campaign for these accounts. To do this, you must:

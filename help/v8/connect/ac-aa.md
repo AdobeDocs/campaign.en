@@ -45,7 +45,7 @@ This integration allows Adobe Campaign and Adobe Analytics to interact through t
  
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
 
 Using Adobe Analytics Connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). The Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to Analytics.
 

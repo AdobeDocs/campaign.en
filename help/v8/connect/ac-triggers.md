@@ -32,7 +32,7 @@ level_v2:
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to implement Experience Cloud triggers with Campaign.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to implement Experience Cloud triggers with Campaign.
 
 You can use Experience Cloud Triggers to connect data between Adobe Campaign and Adobe Analytics using the pipeline. The pipeline retrieves user's actions or triggers from your website. A cart abandonment is an example of trigger. Triggers are processed in Adobe Campaign to send emails in near real time.
 

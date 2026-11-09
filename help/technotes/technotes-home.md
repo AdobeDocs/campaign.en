@@ -48,7 +48,7 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="../v8/start/campaign-ui.md">User interface</a> - <a href="../v8/start/ac-components.md">Components & processes</a> - <a href="../v8/start/v7-to-v8.md">From Classic v7 to v8</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
+      <strong>Get started</strong><br/><a href="../v8/start/campaign-ui.md">User interface</a> - <a href="../v8/start/ac-components.md">Components & processes</a> - <a href="../v8/start/v7-to-v8.md">From Classic v7 to v8</a> - <a href="../v8/start/campaign-faq-comprehensive.md">FAQ</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">

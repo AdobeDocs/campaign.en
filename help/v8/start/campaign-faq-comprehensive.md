@@ -1835,7 +1835,7 @@ Find detailed technical documentation and developer resources.
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
 * **[Versions and Upgrades FAQ](upgrades.md)** - Check your version and learn about upgrades
 
-### Support & Services
+### Support & Services {#support}
 
 Get help from Adobe's support team and manage your instance.
 
