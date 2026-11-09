@@ -86,7 +86,7 @@ This link lets you access the extraction assistant and define the information (c
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-You can insert a personalized URL into the extraction file. For more on this, refer to the Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}.
+You can insert a personalized URL into the extraction file. For more on this, refer to [this section](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >

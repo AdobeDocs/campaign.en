@@ -32,7 +32,7 @@ subfeature_v2:
 
 Online surveys are fully configurable and customizable to satisfy your requirements. The parameters must be entered in the properties window.
 
-The available parameters are detailed in [this document](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
+The available parameters are detailed in [this document](../web/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

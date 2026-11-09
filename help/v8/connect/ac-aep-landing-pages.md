@@ -365,5 +365,5 @@ Here is an example of a landing page and a JavaScript code activity configured t
 ### More information
 
 * [Configure a JavaScript code activity](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Create a landing page](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
+* [Create a landing page](../dev/web/creating-a-landing-page.md)
 * [Manage subscriptions and unsubscriptions](../start/subscriptions.md)

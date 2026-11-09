@@ -458,7 +458,7 @@ Use Campaign to create web forms and collect and manage profile information easi
 
 ![](assets/web-form-page.png) 
 
-Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}.
+Learn how to create web forms in [this section](../dev/web/about-web-forms.md).
 
 **Related topics**
 

@@ -38,7 +38,7 @@ The pages of the form are created using a special editor that lets you define an
 
 >[!NOTE]
 >
->For more on how to define content and create screen layouts for a Web form, refer to [this document](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>For more on how to define content and create screen layouts for a Web form, refer to [this document](../web/about-web-forms.md).
 
 ## Add fields {#adding-fields}
 
@@ -67,7 +67,7 @@ The nature of the field to add (drop-down list, text field, checkboxes, etc.) ad
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-The various types of available fields are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+The various types of available fields are detailed in [this section](../web/about-web-forms.md).
 
 ## Survey-specific elements {#survey-specific-elements}
 
@@ -102,7 +102,7 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 
 ### Add questions {#adding-questions}
 
-There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+There are two types of containers: standard and question. Standard containers are used to configure page layout and conditional display in a page. [Learn more](../web/about-web-forms.md).
 
 Use a **Question** container to add a question to the page and to insert the possible answers below in the hierarchy. User responses to questions placed in this type of container can be analyzed in reports.
 
@@ -116,7 +116,7 @@ The label of the question is entered in the label field. In this case, the style
 
 >[!NOTE]
 >
->Refer to [this document](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} for more on using the HTML editor.
+>Refer to [this document](../web/about-web-forms.md) for more on using the HTML editor.
 
 For example:
 

@@ -88,7 +88,7 @@ The Adobe Campaign interface uses many Web applications to access, manage, and i
 
 The built-in Web applications are stored in the **Administration > Configuration > Web applications** folder of the Explorer.
 
-Learn how to create an overview page in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}
+Learn how to create an overview page in Campaign in [this section](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Customize lists and create filters {#gs-lists-and-filters}

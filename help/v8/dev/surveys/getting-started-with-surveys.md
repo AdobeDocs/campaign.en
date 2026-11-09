@@ -121,7 +121,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   >[!NOTE]
   >
-  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+  >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. The layout of survey screens is detailed in the [this section](../web/about-web-forms.md).
 
   In the detail screen, click the **[!UICONTROL Preview]** tab to view the rendering of the survey you have just created.
 
