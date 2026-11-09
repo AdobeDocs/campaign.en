@@ -3,6 +3,7 @@ product: campaign
 title: Creating and managing tasks
 description: Creating and managing tasks
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
@@ -201,7 +202,7 @@ By default, the budget charged is the budget of the campaign to which the task i
 
 >[!NOTE]
 >
->For more information about expenses and budgets, refer to [this section](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>For more information about expenses and budgets, refer to [this section](../campaigns/providers-stocks-and-budgets.md).
 
 In this window, you can also define the objectives to be reached. Objectives are expressed in terms of forecast revenue for the task.
 

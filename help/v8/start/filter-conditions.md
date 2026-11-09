@@ -1,5 +1,5 @@
 ---
-title: Design queries in Campaign v8
+title: Define filter conditions
 description: Learn how to create queries
 feature: Query Editor
 role: User

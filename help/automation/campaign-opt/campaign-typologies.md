@@ -3,6 +3,7 @@ product: campaign
 title: Get started with campaign typologies
 description: Learn how to configure and implement campaign typologies
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -63,7 +64,7 @@ Campaign comes with a set of default **Filtering** and **Control** rules:
 The Campaign Optimization add-on provides two additional types of **typology rules**:
 
 * **Pressure** rules which let you control marketing fatigue. [Learn more](pressure-rules.md).
-* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#controlling-capacity).
+* **Capacity** rules which let you limit loads to guarantee optimal processing conditions. [Learn more](consistency-rules.md#control-capacity).
 
 
 >[!NOTE]

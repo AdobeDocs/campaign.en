@@ -33,7 +33,6 @@ breadcrumb-title: Campaign v8 Documentation
   + [From Campaign Classic v7 to v8](start/v7-to-v8.md)
   + [From Campaign Standard to v8](start/acs-to-v8.md)
   + [Frequently Asked Questions](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc} [Frequently Asked Questions](start/campaign-faq.md)
   + {hide-from-toc} [Email Tracking Pixels and CNIL Guidance](start/cnil-pixel-tracking.md)
 + Messages {#send}
   + [Get started with messages](start/gs-message.md)
@@ -154,6 +153,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
+  + [Advanced settings](interaction/interaction-advanced-settings.md)
 + Query & data {#data}
   + Query the database {#query}
     + [Work with the query editor](start/query-editor.md)

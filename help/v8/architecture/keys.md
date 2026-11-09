@@ -90,7 +90,7 @@ Campaign comes with a set of new guardrails to prevent insertion of duplicated k
 
 >[!NOTE]
 >
->These guardrails are available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>These guardrails are available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md)
 
 ### Delivery preparation {#remove-duplicates-delivery-preparation}
 

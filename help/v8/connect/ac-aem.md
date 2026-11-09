@@ -42,7 +42,7 @@ Integration between Adobe Campaign and Adobe Experience Manager allows you to ma
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to integrate Adobe Experience Manager with Campaign.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to integrate Adobe Experience Manager with Campaign.
 
 ## Import content from Adobe Experience Manager {#integrating-with-aem}
 

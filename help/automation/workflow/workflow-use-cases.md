@@ -52,7 +52,7 @@ Learn different contexts in which workflows can be used and how to implement the
 * [Create a summary list](create-a-summary-list.md)
 * [Enrich data](enrich-data.md)
 * [Use aggregates](using-aggregates.md)
-* [Encrypt and export data using a key installed on Control Panel](use-workflow-data.md#use-case-gpg-encrypt)
+* [Encrypt and export data using a key installed on Control Panel](use-workflow-data.md)
 * [Quarterly list update using an incremental query](quarterly-list-update.md)
 * [Use the Deduplication activity's merge functionality](deduplication-merge.md)
 * [Set up a recurring import workflow](recurring-import-workflow.md)

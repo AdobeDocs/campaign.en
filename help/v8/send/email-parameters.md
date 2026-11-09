@@ -83,7 +83,7 @@ Each of these fields can be personalized using the dedicated icon. Learn more on
 
 ![](assets/email-smtp-bounce.png)
 
-For more on bounce mail management, see [this section](delivery-failures.md#bounce-mail-management).
+For more on bounce mail management, see [this section](delivery-failures.md#bounce-mail-qualification).
 
 ## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
 

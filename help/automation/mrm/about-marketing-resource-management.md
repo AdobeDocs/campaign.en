@@ -3,6 +3,7 @@ product: campaign
 title: Get Started marketing resource management
 description: Discover marketing resource management
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 TQID: 'https://experienceleague.adobe.com/pbJIafh8oVqlRrL4IKSmpWWNEx-rLE2fujmzcdKg5WE'

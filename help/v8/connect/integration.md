@@ -59,7 +59,7 @@ Learn more about **Asset sharing** between Campaign and Experience Cloud solutio
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to connect Campaign with Adobe Experience Cloud services and solutions.
 
 
 ## Integrate with your CRM Connector{#gs-crm-connectors}

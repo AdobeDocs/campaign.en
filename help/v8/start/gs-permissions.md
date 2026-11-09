@@ -69,7 +69,7 @@ Product profiles are groups of products and services that you can assign to user
 
 In the Admin Console, each Adobe Experience Cloud **product profile** for Campaign is associated to an **operator group** in Campaign Client Console.
 
-Learn how to create and assign product profiles in [this page](manage-permissions.md#create-a-product-profile).
+Learn how to create and assign product profiles in [this page](manage-permissions.md#create-product-profile).
 
 ## Campaign named rights{#named-rights}
 

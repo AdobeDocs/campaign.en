@@ -168,7 +168,7 @@ Adobe Campaign provides you with various sets of features dedicated to privacy m
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
 * Opt-out for the Sale of Personal Information (CCPA-specific).
 
-The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](#personal-data).
 
 ### Consent, Retention and Roles {#consent}
 

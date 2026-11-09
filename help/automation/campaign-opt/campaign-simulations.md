@@ -3,6 +3,7 @@ product: campaign
 title: Get started with campaign simulations
 description: Learn how to configure campaign simulations
 feature: Campaigns
+version: Campaign v8, Campaign Classic v7
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 TQID: 'https://experienceleague.adobe.com/U78259I0GrAXCvnDrUCP-RyQZ-caoY0fjWndcONm5EQ'
 product_v2:

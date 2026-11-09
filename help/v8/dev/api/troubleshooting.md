@@ -1,5 +1,5 @@
 ---
-title: API Troubleshooting
+title: API troubleshooting
 description: Learn more about common issues related Campaign Standard APIs
 role: Developer
 level: Experienced

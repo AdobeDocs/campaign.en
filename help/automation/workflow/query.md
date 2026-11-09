@@ -101,10 +101,10 @@ To add data from the Adobe Campaign database:
 
    You can add:
 
-    * A field computed based on data taken from the targeted population or an aggregate (number of pending purchases within the last month, average amount of a receipt, etc.). For an example, go to [Select data](targeting-workflows.md#selecting-data).
+    * A field computed based on data taken from the targeted population or an aggregate (number of pending purchases within the last month, average amount of a receipt, etc.). For an example, go to [Select data](targeting-workflows.md).
     * A new field, created using the **[!UICONTROL Add]** button to the right of the list of output columns.
 
-      You can also add a collection of information, for example a list of contracts, the last 5 deliveries, etc. Collections coincide with fields that can have multiple values for the same profile (1-N relationship). For more on this, refer to [Edit additional data](targeting-workflows.md#editing-additional-data).
+      You can also add a collection of information, for example a list of contracts, the last 5 deliveries, etc. Collections coincide with fields that can have multiple values for the same profile (1-N relationship). For more on this, refer to [Edit additional data](targeting-workflows.md#edit-additional-data).
 
 To add a collection of information linked to a targeted population:
 
@@ -218,7 +218,7 @@ The equivalent of the filtering dimension in SQL is the inner join:
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-For more on filtering dimensions, refer to [this section](build-a-workflow.md#targeting-and-filtering-dimensions).
+For more on filtering dimensions, refer to [this section](build-a-workflow.md).
 
 ### Architecture {#architecture}
 
