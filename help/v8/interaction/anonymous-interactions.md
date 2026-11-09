@@ -3,6 +3,7 @@ product: campaign
 title: Present offers to anonymous profiles (inbound interaction)
 description: Learn how to present offers to anonymous profiles
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'

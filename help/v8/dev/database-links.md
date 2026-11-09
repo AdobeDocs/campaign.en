@@ -2,6 +2,7 @@
 title: Link management in Campaign schemas
 description: Understand link management in Adobe Campaign schemas
 feature: Data Model, Configuration
+version: Campaign v8, Campaign Classic v7
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b

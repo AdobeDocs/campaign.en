@@ -2,6 +2,7 @@
 title: Campaign Database mapping
 description: Campaign Database mapping
 feature: Data Model, Configuration
+version: Campaign v8, Campaign Classic v7
 role: Developer
 level: Intermediate, Experienced
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668

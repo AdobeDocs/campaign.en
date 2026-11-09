@@ -2,6 +2,7 @@
 title: Key management in Campaign database
 description: Understand key management in Adobe Campaign schemas
 feature: Data Model, Configuration
+version: Campaign v8, Campaign Classic v7
 role: Developer
 level: Intermediate, Experienced
 exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
