@@ -154,6 +154,7 @@ breadcrumb-title: Campaign v8 Documentation
     + [Manage anonymous interactions](interaction/anonymous-interactions.md)
   + [Reports and history](interaction/interaction-tracking.md)
   + [Use cases](interaction/interaction-use-cases.md)
+  + [Advanced settings](interaction/interaction-advanced-settings.md)
 + Query & data {#data}
   + Query the database {#query}
     + [Work with the query editor](start/query-editor.md)
@@ -261,6 +262,9 @@ breadcrumb-title: Campaign v8 Documentation
       + [Metadata mechanism](dev/api/metadata-mechanism.md)
       + [Verbs](dev/api/verbs.md)
       + [Additional operations](dev/api/sorting.md)
+      + [Counting results](dev/api/counting.md)
+      + [Filtering](dev/api/filtering.md)
+      + [Pagination](dev/api/pagination.md)
       + [Custom resources](dev/api/custom-resources.md)
     + [Interacting with custom resources](dev/api/interacting-with-custom-resources.md)  
     + Managing profiles {#managing-profiles}
@@ -276,6 +280,7 @@ breadcrumb-title: Campaign v8 Documentation
     + Managing workflows {#managing-workflows}
       + [Controlling a workflow](dev/api/controlling-a-workflow.md)
       + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
+    + [API troubleshooting](dev/api/troubleshooting.md)
 + Additional resources {#resources}
   + [Campaign Technical Notes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web User Interface Documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)

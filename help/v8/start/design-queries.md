@@ -1,5 +1,5 @@
 ---
-title: Design queries in Campaign v8
+title: Query the Campaign database
 description: Learn how to create queries in Campaign client console
 feature: Query Editor, Data Management
 role: User
