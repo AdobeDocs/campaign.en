@@ -87,7 +87,7 @@ Learn more about [!DNL Campaign] v8 architecture in [this page](../../v8/archite
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}
 
-Campaign users connect through their Adobe ID only. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account, for all Adobe Experience Cloud solutions. 
+Campaign users connect through their Adobe ID only. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account, for all [!DNL Adobe CX Enterprise] solutions. 
 
 Learn how to connect to [!DNL Campaign] in [this page](connect.md).
 

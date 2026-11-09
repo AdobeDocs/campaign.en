@@ -85,7 +85,7 @@ Adobe Campaign v8 offers a **new web user interface** alongside the traditional 
 * **Faster onboarding** - Minimal learning curve for new users
 * **Unified experience** - Shares similarities with Campaign Standard for easy transition
 
-Starting Campaign v8.6, the Campaign Web UI is available through Adobe Experience Cloud, enabling seamless access to all Adobe solutions.
+Starting Campaign v8.6, the Campaign Web UI is available through [!DNL Adobe CX Enterprise], enabling seamless access to all Adobe solutions.
 
 [Learn more about the Campaign Web user interface](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 

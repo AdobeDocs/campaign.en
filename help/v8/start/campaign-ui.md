@@ -44,7 +44,7 @@ You can access to Adobe Campaign via its client console or its Web user interfac
 
 * **APIs** - To address more use cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. Learn more about Campaign APIs [in this page](../dev/api.md).
 
-* **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central Adobe Experience Cloud user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
+* **Web user interface** - As a Campaign v8 user, starting v8.6.1 release, you now have access to a web environment, available through the central [!DNL Adobe CX Enterprise] user interface. You can then connect to Adobe Campaign from a web browser. This new interface lets you create, manage and execute key marketing actions. However, all Campaign capabilities are not available. [Learn more](#ac-web-ui).
     
     >[!AVAILABILITY]
     >
@@ -71,7 +71,7 @@ Once you are connected to Campaign, you access the Adobe Campaign home page. In 
 
 >[!NOTE]
 >
->If the Web user interface card is not displayed, ensure that the following fields are not left empty within your A[dobe Experience Cloud external account](../config/external-accounts.md): **Server**, **Tenant**, **Callback server**, and **Association mark**.
+>If the Web user interface card is not displayed, ensure that the following fields are not left empty within your [Adobe Experience Cloud external account](../config/external-accounts.md): **Server**, **Tenant**, **Callback server**, and **Association mark**.
 
 You can also access the [Campaign Control Panel](../config/self-service.md) from the home page. 
 
@@ -140,7 +140,7 @@ This workspace lets you access the Explorer tree to browse all features and opti
 
 ## Campaign Web user interface {#ac-web-ui}
 
-As a Campaign v8 user, starting v8.6.1 release, you have access to a web environment, available through the central Adobe Experience Cloud user interface. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
+As a Campaign v8 user, starting v8.6.1 release, you have access to a web environment, available through the central [!DNL CX Enterprise] user interface. [!DNL CX Enterprise] is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. 
 
 ![Adobe Campaign Web User Interface Home Page](assets/ac-web-home.png)
 

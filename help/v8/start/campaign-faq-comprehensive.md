@@ -46,7 +46,7 @@ Learn the essentials to start working with Adobe Campaign v8, from installation 
 
 Adobe Campaign v8 is a powerful cross-channel marketing automation platform that helps you create, coordinate, and deliver personalized campaigns across email, mobile, social, and offline channels. It combines a robust marketing database, campaign orchestration engine, and real-time interaction capabilities to engage customers throughout their journey.
 
-**Key capabilities:** Multi-channel campaign management, audience segmentation and targeting, workflow automation, personalization at scale, real-time and batch messaging, reporting and analytics, integration with Adobe Experience Cloud.
+**Key capabilities:** Multi-channel campaign management, audience segmentation and targeting, workflow automation, personalization at scale, real-time and batch messaging, reporting and analytics, integration with [!DNL Adobe CX Enterprise].
 
 **What makes v8 unique:** Cloud-native architecture (Managed Cloud Services only), enterprise-scale performance powered by Snowflake database, automatic upgrades, enhanced security, and bi-directional integration with Adobe Experience Platform.
 
@@ -72,9 +72,9 @@ Learn more about the Distribution Center [on this page](https://experienceleague
 
 You need to download and install Campaign client console to connect to Adobe Campaign. [Learn more](connect.md).
 
-Starting Campaign v8.6 release, you have access to the **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. 
+Starting Campaign v8.6 release, you have access to the **Campaign Web user interface**, available through the central [!DNL CX Enterprise] environment. [!DNL CX Enterprise] is Adobe's integrated family of digital marketing applications, products, and services. 
 
-Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui). Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+Learn how to connect to [!DNL CX Enterprise], and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui). Learn more in the [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 
 **Related topics:**
@@ -87,7 +87,7 @@ Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web in
 
 Yes! Thanks to the integration with the IMS (Adobe Identity Management System), users connect to the Adobe Campaign console using their Adobe ID. This integration provides the following advantages:
 
-* The same ID can be used for all Experience Cloud solutions.
+* The same ID can be used for all [!DNL CX Enterprise] solutions.
 * The connection is memorized when using Adobe Campaign with different integrations.
 * Securer password management policy.
 * Use of Federated ID accounts (external ID provider).
@@ -100,7 +100,7 @@ Yes! Thanks to the integration with the IMS (Adobe Identity Management System), 
 
 Refer to [this section](campaign-ui.md) to learn more about Adobe Campaign user interface basics.
 
-Starting Campaign v8.6 release, you also have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment.
+Starting Campaign v8.6 release, you also have access to the new **Campaign Web user interface**, available through the central [!DNL CX Enterprise] environment.
 
 [Learn more in the Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
@@ -179,7 +179,7 @@ You can get the list of all systems and components supported for the latest buil
 
 +++ Can I use Campaign v8 with other Adobe solutions?
 
-Yes. Campaign v8 seamlessly integrates with Adobe Experience Cloud solutions for a unified marketing ecosystem.
+Yes. Campaign v8 seamlessly integrates with [!DNL CX Enterprise] solutions for a unified marketing ecosystem.
 
 **Key integrations:** Adobe Experience Platform (unified profiles, real-time data), Adobe Analytics (performance measurement), Adobe Target (personalization), Adobe Experience Manager (content management), Adobe Audience Manager (audience segments).
 
@@ -273,7 +273,7 @@ Upgrading to the latest Campaign version is critical for security, performance, 
 * **Improved security** - Protection against vulnerabilities, latest patches, enhanced data protection
 * **Better support** - Faster issue resolution, access to bug fixes, priority support on recent versions
 * **Enhanced performance** - Database and workflow optimizations, better scalability, more reliable operations
-* **New capabilities** - Latest features, improved Adobe Experience Cloud integrations, modern UI enhancements
+* **New capabilities** - Latest features, improved [!DNL CX Enterprise] integrations, modern UI enhancements
 
 Adobe strongly recommends running the most recent version. As a Managed Cloud Services customer, upgrades are performed by Adobe with minimal disruption.
 
@@ -325,7 +325,7 @@ Campaign v8 is built on a modern cloud-native architecture with significant impr
 * **Superior performance** - Up to 20 million operations/hour, with Full Federated Data Access (FFDA) architecture
 * **New Campaign Web UI** - Modern, intuitive interface alongside the classic console
 * **Automatic upgrades** - Always on the latest version with zero downtime
-* **Enhanced features** - AI Assistant, rich push notifications, upgraded SMS, improved integrations with Adobe Experience Cloud
+* **Enhanced features** - AI Assistant, rich push notifications, upgraded SMS, improved integrations with [!DNL CX Enterprise]
 
 **For Campaign Classic v7 users:** Learn about [transitioning from v7 to v8](v7-to-v8.md) including architecture changes, unavailable features, and migration considerations.
 
@@ -350,7 +350,7 @@ Campaign v8 is Adobe's platform, ideal for organizations needing high-volume cam
 
 * Handle large data volumes or experience performance issues
 * Want to reduce IT overhead and infrastructure management
-* Need Adobe Experience Cloud/Platform integration
+* Need [!DNL CX Enterprise]/Platform integration
 * Want future-proof technology with automatic updates
 
 **Next steps:** Contact your Adobe representative to assess migration readiness and access migration tools.
@@ -1194,7 +1194,7 @@ Campaign Control Panel is a web-based administrative interface that helps Campai
 **Access requirements:**
 
 * **Admin users only** - Control Panel is restricted to users with Administrator rights
-* **Adobe IMS authentication** - Access through Adobe Experience Cloud with your Adobe ID
+* **Adobe IMS authentication** - Access through [!DNL CX Enterprise] with your Adobe ID
 * **Campaign v8 Managed Cloud Services** - Available for hosted instances only
 
 **Additional resources:** 

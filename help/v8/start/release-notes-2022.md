@@ -203,7 +203,7 @@ _May 18, 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Experience Cloud solutions are automatically handled by Campaign via a dedicated workflow.</p>
+<td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. Privacy requests pushed from the Privacy Core Service to all Adobe CX Enterprise solutions are automatically handled by Campaign via a dedicated workflow.</p>
 <p>For more information, refer to the <a href="privacy.md">detailed documentation</a>.</p>
 </td> 
 </tr> 

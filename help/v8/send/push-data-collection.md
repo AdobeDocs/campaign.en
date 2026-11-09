@@ -263,7 +263,7 @@ Your mobile property will now be automatically sync with the **[!UICONTROL Adobe
 
 ## Add Campaign Classic to your mobile application {#campaign-mobile-app}
 
-The Adobe Experience Platform Mobile SDK helps power Adobe's Experience Cloud solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. 
+The Adobe Experience Platform Mobile SDK helps power [!DNL Adobe CX Enterprise] solutions and services in your mobile apps. SDKs configuration is managed through the Data Collection UI for flexible configuration and extensible, rules-based integrations. 
 
 [Learn more in Adobe Developer documentation](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 

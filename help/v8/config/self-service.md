@@ -47,7 +47,7 @@ Learn more in [Campaign Control Panel documentation](https://experienceleague.ad
 
 ## How to access Control Panel? {#ac-control-panel-access}
 
-The Control Panel is available directly from Adobe Experience Cloud. It is accessible to Admin users only. 
+The Control Panel is available directly from [!DNL Adobe CX Enterprise]. It is accessible to Admin users only. 
 
 >[!IMPORTANT]
 >

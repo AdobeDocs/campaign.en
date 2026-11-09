@@ -125,7 +125,7 @@ The campaign reporting feature facilitates the creation of dynamic reports. You 
 
 Learn more about report and tracking capabilities in [this section](../reporting/gs-reporting.md).
 
-## Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
+## [!DNL Adobe CX Enterprise] integrations {#adobe-experience-cloud-integrations}
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example.  
 

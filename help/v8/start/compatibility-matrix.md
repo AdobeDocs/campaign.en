@@ -108,4 +108,4 @@ The following browsers are compatible with Campaign for Web Access. Learn more a
 * [Install Campaign client console](connect.md)
 * [Control Panel releases](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}
 
-To be informed of new Experience Cloud solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"}.
+To be informed of new [!DNL Adobe CX Enterprise] solution releases, subscribe to the [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html){target="_blank"}.

@@ -184,7 +184,7 @@ _Feb 14, 2024_
 
 ### New features {#new-8-6-1}
 
-* Starting this release, you have access to the new **Campaign Web user interface**, available through the central Adobe Experience Cloud environment. Experience Cloud is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to Adobe Experience Cloud, and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
+* Starting this release, you have access to the new **Campaign Web user interface**, available through the central [!DNL Adobe CX Enterprise] environment. [!DNL CX Enterprise] is Adobe's integrated family of digital marketing applications, products, and services. From its intuitive interface, you can quickly access your cloud applications, product features, and services. Learn how to connect to [!DNL CX Enterprise], and access Adobe Campaign Web interface [in this page](campaign-ui.md#ac-web-ui).
     
     >[!AVAILABILITY]
     >

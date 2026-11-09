@@ -45,7 +45,7 @@ This integration allows Adobe Campaign and Adobe Analytics to interact through t
  
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with Adobe Experience Cloud services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with [!DNL Adobe CX Enterprise] services and solutions. The Web Analytics connector add-on must be installed on your environment, through the dedicated package.
 
 Using Adobe Analytics Connector, Adobe Campaign has a way of measuring internet audience (Web Analytics). The Web analytics tools enable Adobe Campaign to forward indicators and campaign attributes to Analytics.
 
@@ -250,7 +250,7 @@ This workflow is available from Campaign Explorer tree, under the **[!UICONTROL 
 
 ![](assets/webanalytics_workflows.png)
 
-The **[!UICONTROL Sending of indicators and campaign attributes]** workflow lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
+The **[!UICONTROL Sending of indicators and campaign attributes]** workflow lets you send email campaign indicators via Adobe Campaign to the [!DNL CX Enterprise] using Adobe Analytics Connector. This workflow is triggered at 4am every day and it can take 24 hours for the data to be sent to Analytics.
 
 Please note that this workflow should not be restarted or else it will resend all the prior data which can skew Analytics results.
 
@@ -284,7 +284,7 @@ The attributes sent are as follows:
 
 ## Track deliveries {#tracking-deliveries-in-adobe-campaign}
 
-In order for the Adobe Experience Cloud to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:
+In order for the [!DNL CX Enterprise] to be able to track activity on the sites once the delivery is sent by Adobe Campaign, you need to reference the matching connector in the delivery properties. To do this, apply the following steps:
 
 1. Open the delivery of the campaign to be tracked.
 
