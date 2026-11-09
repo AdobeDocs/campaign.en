@@ -33,6 +33,10 @@ topic_v2:
 ---
 # Get started with Campaign HTML editor{#about-campaign-html-editor}
 
+>[!NOTE]
+>
+>To create landing pages, use the Campaign Web user interface, which is the recommended approach. Learn more in the [Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+
  
 
 The **Digital Content Editor (DCE)** is an HTML content editor that lets you easily create content and templates in HTML format within Adobe Campaign.

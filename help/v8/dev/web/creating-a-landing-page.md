@@ -29,6 +29,10 @@ topic_v2:
 ---
 # Create a landing page{#creating-a-landing-page}
 
+>[!NOTE]
+>
+>To create landing pages, use the Campaign Web user interface, which is the recommended approach. Learn more in the [Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+
  
 
 ## About landing pages creation {#about-landing-pages-creation}

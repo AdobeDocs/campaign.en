@@ -43,6 +43,10 @@ topic_v2:
 ---
 # Get started with web applications{#about-web-applications}
 
+>[!NOTE]
+>
+>To create landing pages, use the Campaign Web user interface, which is the recommended approach. Learn more in the [Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+
  
 
 Adobe Campaign lets you create and publish dynamic and interactive Web applications with data from the database and content adapted to the rights of the connected user. 

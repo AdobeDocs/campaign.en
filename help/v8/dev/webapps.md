@@ -30,6 +30,10 @@ level_v2:
 ---
 # Get Started with web applications and web forms{#gs-ac-web}
 
+>[!NOTE]
+>
+>To create landing pages, use the Campaign Web user interface, which is the recommended approach. Learn more in the [Campaign Web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+
 Adobe Campaign integrates a graphical module for defining and publishing **Web forms** to create pages with input and selection fields, and which may include data from the database. This lets you design and post Web pages which users can access to view or enter information.
 
 Learn how to create and publish web forms in [this section](web/about-web-forms.md)
