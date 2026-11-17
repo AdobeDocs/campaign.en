@@ -3,6 +3,7 @@ product: campaign
 title: Consistency rules
 description: Consistency rules
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
 TQID: 'https://experienceleague.adobe.com/KaybpQFNgtTiMgQOWX0-bNqPEMeWGWR8vb6qjZzr63k'
 product_v2:

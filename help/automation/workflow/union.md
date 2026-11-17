@@ -28,7 +28,7 @@ A **[!UICONTROL Union]** groups the result of several inbound activities in a si
 
 >[!NOTE]
 >
->For more on configuring and using the **[!UICONTROL Union]** activity, refer to [this page](targeting-workflows.md#combining-several-targets--union-).
+>For more on configuring and using the **[!UICONTROL Union]** activity, refer to [this page](targeting-workflows.md#combine-several-targets--union-).
 
 ## Union example {#union-example}
 

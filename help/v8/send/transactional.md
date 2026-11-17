@@ -37,7 +37,7 @@ Transactional messaging (Message Center) is a Campaign module designed for manag
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to configure Campaign Transactional messaging in your environment.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support){target="_blank"} to configure Campaign Transactional messaging in your environment.
 
 Transactional messages are used to send:
 

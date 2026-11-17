@@ -84,7 +84,7 @@ If a user qualifies an email as a spam, the message is automatically redirected 
 
 As opposed to hard errors, soft errors do not send an address to quarantine immediately, but instead they increment an error counter. When the error counter reaches the limit threshold, the address is quarantined. Learn more about retries and error types in [Understanding delivery failures](delivery-failures.md).
 
-The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines by the **[!UICONTROL Database cleanup]** workflow. [Learn more about technical workflows](../config/workflows.md#technical-workflows).
+The error counter is reinitialized if the last significant error occurred more than 10 days ago. The address status then changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines by the **[!UICONTROL Database cleanup]** workflow. [Learn more about technical workflows](../config/workflows.md).
 
 ## Access quarantined addresses {#access-quarantined-addresses}
 

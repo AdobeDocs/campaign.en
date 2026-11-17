@@ -1,5 +1,5 @@
 ---
-title: Send push notification with Adobe Campaign
+title: Configure push notifications with Data Collection
 description: Get started with push notification in Campaign
 feature: Push
 role: Developer

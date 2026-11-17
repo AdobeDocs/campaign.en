@@ -94,6 +94,8 @@ A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that t
 >* Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
 >
 >* You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
+>
+>* Waves are scheduled from the contact date of the delivery. If the delivery starts after the planned time of one or more waves, those overdue waves are all sent together instead of being spaced out.
 
 ### Monitor waves {#monitor-waves}
 

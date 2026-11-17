@@ -122,7 +122,7 @@ To add and configure measures, follow the steps below:
 
    ![](assets/cube-pivot-table-config.png)
 
-   You can then choose whether or not to display measure labels. [Learn more](customize-cubes.md#configure-the-display).
+   You can then choose whether or not to display measure labels. [Learn more](customize-cubes.md#configuring-the-display).
 
 1. You can build new measures based on existing ones. To do this, click **[!UICONTROL Create a measure]** and configure it.
 

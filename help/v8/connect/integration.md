@@ -59,7 +59,7 @@ Learn more about **Asset sharing** between Campaign and [!DNL CX Enterprise] sol
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to connect Campaign with [!DNL CX Enterprise] services and solutions.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to connect Campaign with [!DNL CX Enterprise] services and solutions.
 
 
 ## Integrate with your CRM Connector{#gs-crm-connectors}

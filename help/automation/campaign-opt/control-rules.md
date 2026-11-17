@@ -3,6 +3,7 @@ product: campaign
 title: Configure control rules
 description: Learn how to configure control rules
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
 TQID: 'https://experienceleague.adobe.com/xluD-4nygREOMWZyFT6OrenJvfvFVWTVf7i6-ZoYfTI'
 product_v2:

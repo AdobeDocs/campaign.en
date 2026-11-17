@@ -2,6 +2,7 @@
 title: Adobe Campaign built-in delivery reports
 description: Adobe Campaign built-in delivery reports
 feature: Reporting
+version: Campaign v8, Campaign Classic v7
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 TQID: 'https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14'
 product_v2:

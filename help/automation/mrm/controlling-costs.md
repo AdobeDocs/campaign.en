@@ -3,6 +3,7 @@ product: campaign
 title: Control costs
 description: Learn how to control costs
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 TQID: 'https://experienceleague.adobe.com/OQtmoiTmvFeWbYfLNpjuk5FZLb2Si-mPBbMNMWnDGoo'

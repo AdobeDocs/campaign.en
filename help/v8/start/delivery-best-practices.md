@@ -332,7 +332,7 @@ These mappings are presented [in this section](../audiences/target-mappings.md).
 
 ### External recipients {#external-recipients}
 
-You can deliver to recipients who are stored in an external file rather than saved in the database. Learn more [in this section](create-message.md#select-external-recipients-selecting-external-recipients).
+You can deliver to recipients who are stored in an external file rather than saved in the database. Learn more [in this section](create-message.md#selecting-external-recipients).
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -344,7 +344,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 To test your delivery, use proofs before sending to the main target.
 
-Make sure you select appropriate proof recipients, because they validate the form and the content of the message. The steps for defining the proof recipients are presented [in this section](create-message.md#select-the-recipients-of-proof-messages-select-the-proof-target).
+Make sure you select appropriate proof recipients, because they validate the form and the content of the message. The steps for defining the proof recipients are presented [in this section](create-message.md#select-the-proof-target).
 
 
 ### Deduplicate addresses {#deduplicate-addresses}

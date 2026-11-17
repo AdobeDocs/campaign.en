@@ -129,7 +129,7 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 You can create other enumerations reserved for binning and use them in other Cubes: all alias values will be regrouped in the bins specified in the first enumeration tab.
 
-Learn more about enumerations in [this page](../../v8/config/ui-settings.md#enumerations).
+Learn more about enumerations in [this page](../../v8/config/ui-settings.md).
 
 ## Aggregates in cubes {#calculate-and-use-aggregates}
 

@@ -154,7 +154,7 @@ Here is the general flow for this use case:
 
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
+* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../dev/web/use-cases-web-forms.md).
 * Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
@@ -168,7 +168,7 @@ Adobe Campaign provides you with various sets of features dedicated to privacy m
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
 * Opt-out for the Sale of Personal Information (CCPA-specific).
 
-The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](#personal-data).
 
 ### Consent, Retention and Roles {#consent}
 

@@ -3,6 +3,7 @@ product: campaign
 title: Discussion forums
 description: Learn how to use Campaign discussion forums
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 TQID: 'https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo'

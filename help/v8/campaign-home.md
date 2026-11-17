@@ -94,7 +94,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Get started</strong><br/><a href="start/campaign-ui.md">User interface</a> - <a href="start/ac-components.md">Components & processes</a> - <a href="start/v7-to-v8.md">From Classic v7 to v8</a> - <a href="start/campaign-faq.md">FAQ</a>
+      <strong>Get started</strong><br/><a href="start/campaign-ui.md">User interface</a> - <a href="start/ac-components.md">Components & processes</a> - <a href="start/v7-to-v8.md">From Classic v7 to v8</a> - <a href="start/campaign-faq-comprehensive.md">FAQ</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

@@ -3,6 +3,7 @@ product: campaign
 title: Apply typology rules
 description: Learn how to apply typology rules
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
 TQID: 'https://experienceleague.adobe.com/CqL2-BL-DuUY2-tMG4WD-ih3YJw0u3BuIkcL4HavFlg'
 product_v2:

@@ -112,7 +112,7 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 **Compatibility updates**
 
 * The 32-bit version of the client console is now deprecated. Starting 8.6, the client console will only be available in 64-bits. The upgrade to the 64-bit version of the client console is seamless. For more information on how to upgrade your operating system, refer to this [technote](../../technotes/upgrades/console.md).
-* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* You can now connect your Campaign v8 instance to your Azure Synapse external database. This connection is managed through a new external account. Learn more in [Campaign compatibility matrix](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 
 **Fixes**

@@ -153,6 +153,8 @@ For example, if the validity period is set to the default value of 5 days in Cam
 
 Once a message has been in the MTA queue for 3.5 days and has failed to deliver, it will time out and its status will be updated from **[!UICONTROL Sent]** to **[!UICONTROL Failed]** in the delivery logs.
 
+A message can expire before the end of its validity period when the next retry would fall after the expiry time. The delivery log then shows the failure from the last delivery attempt.
+
 <!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 

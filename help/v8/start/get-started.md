@@ -142,4 +142,4 @@ Already familiar with Campaign Classic? Learn key differences between Campaign C
 * [Campaign workspace](campaign-ui.md)
 * [Campaign v8 Compatibility matrix](compatibility-matrix.md)
 * [Connect to Campaign](connect.md)
-* [Frequently Asked Questions](campaign-faq.md)
+* [Frequently Asked Questions](campaign-faq-comprehensive.md)

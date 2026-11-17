@@ -439,7 +439,7 @@ Click **[!UICONTROL Start the preview of the data]** for a preview of the export
 
 >[!NOTE]
 >
->As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#manage-and-customize-lists)
+>As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#customize-lists)
 
 Click the tabs at the bottom of the assistant to switch from the preview of results in columns to the results in XML. You can also view the generated SQL queries.
 
@@ -458,7 +458,7 @@ Use Campaign to create web forms and collect and manage profile information easi
 
 ![](assets/web-form-page.png) 
 
-Learn how to create web forms in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html){target="_blank"}.
+Learn how to create web forms in [this section](../dev/web/about-web-forms.md).
 
 **Related topics**
 

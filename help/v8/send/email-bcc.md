@@ -47,7 +47,7 @@ The archiving destination is the BCC email address of your choice, which will re
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support){target="_blank"} to communicate the BCC email address to be used for archiving.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support){target="_blank"} to communicate the BCC email address to be used for archiving.
 
 ## Enable email BCC {#enable-bcc}
 

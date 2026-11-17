@@ -122,7 +122,7 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
 * **Control group**
 
-  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more about control groups in [this section](marketing-campaign-deliveries.md#defining-a-control-group).
+  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more about control groups in [this section](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-1.png)
 
@@ -135,7 +135,7 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
 * **Documents**
 
-  When this module is selected, an additional tab is added to the **[!UICONTROL Edit]** tab of the template and the campaigns based on this template. Attached documents can be added from the template or individually for each campaign. Learn more about documents in [this section](marketing-campaign-deliveries.md#manage-associated-documents).
+  When this module is selected, an additional tab is added to the **[!UICONTROL Edit]** tab of the template and the campaigns based on this template. Attached documents can be added from the template or individually for each campaign. Learn more about documents in [this section](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-3.png)
 
@@ -147,7 +147,7 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
 * **Targeting and workflows**
 
-  When you select the **[!UICONTROL Targeting and workflows]** module, a tab is added to let you create one or more workflows for campaigns based on this template. Workflows can also be configured individually for each campaign based on this template.Learn more about campaign workflows in [this section](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
+  When you select the **[!UICONTROL Targeting and workflows]** module, a tab is added to let you create one or more workflows for campaigns based on this template. Workflows can also be configured individually for each campaign based on this template.Learn more about campaign workflows in [this section](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-5.png)
 

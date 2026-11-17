@@ -38,4 +38,3 @@ The following activities are database activities: they are used to coordinate th
 * **[Test](test.md)**: enables a transition based on a test result. 
 * **[Time constraint](time-constraint.md)**: lets you pause a task for a set period.
 * **[Wait](wait.md)**: enables the outbound transition after a given time limit.
-<!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

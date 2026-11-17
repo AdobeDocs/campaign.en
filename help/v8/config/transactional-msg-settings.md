@@ -34,7 +34,7 @@ Understand transactional messaging architecture in [this page](../architecture/a
 
 >[!NOTE]
 >
->As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq.md#support) to install and configure Campaign Transactional messaging in your environment.
+>As a Managed Cloud Services user, [contact Adobe](../start/campaign-faq-comprehensive.md#support) to install and configure Campaign Transactional messaging in your environment.
 
 ## Define permissions {#mc-permissions}
 

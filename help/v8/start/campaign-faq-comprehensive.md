@@ -165,7 +165,7 @@ Creating your first email in Campaign v8 is straightforward. You start from a te
 
 To contact Adobe Customer Support, connect to [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} to create a case or start a chat session.
 
-Requires individual accounts with correct permissions. If you can't log in, request access via Experience League. [Learn more](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+Requires individual accounts with correct permissions. If you can't log in, request access via Experience League. [Learn more](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
 Alternatively, join [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} to search for answers or ask experts.
 
@@ -208,7 +208,7 @@ These limitations are evolving as Adobe enhances v8. Consult latest documentatio
 
 **Related topics:**
 
-[Campaign v7 to v8 migration](../start/v7-to-v8.md#limitations) | [FFDA architecture](../architecture/enterprise-deployment.md)
+[Campaign v7 to v8 migration](../start/v7-to-v8.md) | [FFDA architecture](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -816,7 +816,7 @@ Yes. Campaign supports static attachments (same file for all recipients) and per
 
 Use safe file formats (PDF, JPEG, PNG, DOCX) and test with seed addresses before production sends.
 
-Learn more in the [Email attachments guide](../send/email.md#attachments)
+Learn more in the [Email attachments guide](../send/email.md)
 
 +++
 
@@ -1750,7 +1750,7 @@ Consult legal counsel to ensure your implementation meets regulatory requirement
 
 **Related topics:**
 
-[Subscription services](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md#consent-retention-roles) | [Privacy management](../start/privacy.md)
+[Subscription services](../start/subscriptions.md) | [Privacy and consent](../start/privacy.md) | [Privacy management](../start/privacy.md)
 
 +++
 
@@ -1835,12 +1835,12 @@ Find detailed technical documentation and developer resources.
 * **[Compatibility Matrix](compatibility-matrix.md)** - Supported systems and versions
 * **[Versions and Upgrades FAQ](upgrades.md)** - Check your version and learn about upgrades
 
-### Support & Services
+### Support & Services {#support}
 
 Get help from Adobe's support team and manage your instance.
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - Log support cases and manage users
-* **[Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - Contact the support team
+* **[Adobe Customer Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html){target="_blank"}** - Contact the support team
 * **[Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}** - Manage your Campaign instance settings
 * **[System Status](https://status.adobe.com/){target="_blank"}** - Check Adobe services status
 

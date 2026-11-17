@@ -117,7 +117,7 @@ For each campaign you can approve the delivery target, [delivery content](#appro
 
 For direct mail deliveries, Adobe Campaign operators can view the extraction file before it is sent to the router, and if necessary they can change the format and re-launch extraction. [Learn more](#approve-an-extraction-file).
 
-When these validation phases are complete, the delivery can be launched. [Learn more](marketing-campaign-deliveries.md#starting-a-delivery).
+When these validation phases are complete, the delivery can be launched. [Learn more](marketing-campaign-deliveries.md#start-a-delivery).
 
 >[!NOTE]
 >

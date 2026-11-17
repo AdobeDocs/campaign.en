@@ -78,7 +78,7 @@ Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFD
 
 >[!AVAILABILITY]
 >
->This feature is available to customers with multiple mid-sourcing (MID) instances configurations only.
+>This feature is in Limited Availability (LA) and is available to customers with multiple mid-sourcing (MID) instances configurations only.
 
 Depending on your Campaign v8 package, you are provisioned with a specific number of mid-sourcing instances in charge of executing deliveries. 
 

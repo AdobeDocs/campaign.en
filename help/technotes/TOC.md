@@ -14,7 +14,6 @@ breadcrumb-title: Campaign technotes
   + {hide-from-toc} [Push Notification Channel changes](upgrades/push-technote.md)  
   + [Migrate users to IMS](upgrades/migrate-users-to-ims.md)
   + [Migrate technical operators to Developer Console](upgrades/ims-migration.md)
-  + {hide-from-toc} [Migrate technical operator to Developer Console](upgrades/ims-migration-old.md)
   + [Move to the new SMS connector](upgrades/sms-migration.md)  
   + {hide-from-toc} [Campaign sending infrastructure migration to AWS](upgrades/migrate-to-aws.md)
   + {hide-from-toc} [Campaign Email Sending Infrastructure Upgrade](upgrades/upgrade-to-aws.md)

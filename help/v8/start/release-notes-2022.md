@@ -189,7 +189,7 @@ _May 18, 2022_
 <tbody> 
 <tr> 
 <td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
-<p>For more information, refer to the <a href="../send/push.md#send-notifications-on-ios">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../send/push.md">detailed documentation</a>.</p>
 </td> 
 </tr> 
 </tbody> 

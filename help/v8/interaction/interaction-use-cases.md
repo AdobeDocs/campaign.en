@@ -27,12 +27,12 @@ level_v2:
 ---
 # Use cases
 
-Leverage Campaign Interaction capabilities through these step-by-step use cases available in Campaign Classic v7 documentation:
+Leverage Campaign Interaction capabilities through these step-by-step use cases:
 
-[Create and apply a presentation rule](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
+[Create and apply a presentation rule](presentation-rules.md)
 
-[Send an email offer delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Send an email offer delivery](offers-on-an-outbound-channel.md)
 
-[Present an offer to an anonymous visitor](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Present an offer to an anonymous visitor](offers-on-an-inbound-channel.md#presenting-an-offer-to-an-anonymous-visitor)
 
-[Perform an offer simulation](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Perform an offer simulation](offers-on-an-outbound-channel.md#perform-an-offer-simulation)

@@ -2,6 +2,7 @@
 title: Understand event description
 description: Learn how transactional messaging events are managed in Adobe Campaign Classic using the SOAP methods
 feature: Transactional Messaging
+version: Campaign v8, Campaign Classic v7
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3

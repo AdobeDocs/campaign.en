@@ -217,7 +217,7 @@ In this example, instead of letting the **@autopk** or the **@autouuid** attribu
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-Learn more about keys in [this section](database-mapping.md#management-of-keys).
+Learn more about keys in [this section](database-mapping.md).
 
 ## Attributes (Fields) {#attributes--fields-}
 

@@ -3,6 +3,7 @@ product: campaign
 title: Present offers to anonymous profiles (inbound interaction)
 description: Learn how to present offers to anonymous profiles
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'
@@ -44,7 +45,7 @@ The **[!UICONTROL Visitor folder]** field appears. It is automatically completed
 
 Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.
 
-To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#creating-an-offer-environment)).
+To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#create-an-offer-environment)).
 
 ## Anonymous visitors {#anonymous-visitors}
 

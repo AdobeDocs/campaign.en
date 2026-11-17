@@ -86,7 +86,7 @@ This link lets you access the extraction assistant and define the information (c
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-You can insert a personalized URL into the extraction file. For more on this, refer to the Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}.
+You can insert a personalized URL into the extraction file. For more on this, refer to [this section](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
@@ -134,3 +134,7 @@ Once you validated the extraction file, click **Confirm delivery** a confirmatio
 The confirmation starts the data extraction in the specified file.
 
 In the context of a marketing campaign, when all approvals have been granted, the extraction files are created via a special workflow which, in a default configuration, starts automatically when a direct mail delivery is pending extraction. Learn more in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html){target="_blank"}.
+
+>[!NOTE]
+>
+>When you use a **[!UICONTROL Direct mail]** activity in a workflow, its outbound transition carries the targeted population, not the generated extraction file. To send the file to a server, add a **[!UICONTROL Data extraction]** activity after the **[!UICONTROL Direct mail]** activity, then a **[!UICONTROL File transfer]** activity.

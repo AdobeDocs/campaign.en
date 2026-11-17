@@ -50,7 +50,7 @@ Key steps to create and execute a marketing campaign in Adobe Campaign are liste
     A campaign centralizes all the elements related to a marketing campaign: deliveries, targeting rules, costs, export files, related documents, etc. Each campaign is attached to a program. Learn how to create a campaign [in this section](marketing-campaign-create.md#create-a-campaign).
 
 1. **Select the audience**
-    Audiences can be imported from a list or built in a campaign workflow using queries. Learn how to define the target audience of a campaign [in this section](marketing-campaign-target.md#select-the-target-population).
+    Audiences can be imported from a list or built in a campaign workflow using queries. Learn how to define the target audience of a campaign [in this section](marketing-campaign-target.md).
 
 1. **Create deliveries**
     Orchestrate your cross channel deliveries in your campaigns. Streamline your communications with Adobe Campaign through personalised emails, SMS, push notifications and in-app messages. You can also add direct mail deliveries. Learn how to create, validate, and monitor deliveries in your campaigns [in this section](marketing-campaign-deliveries.md).
@@ -64,7 +64,7 @@ Key steps to create and execute a marketing campaign in Adobe Campaign are liste
 1. **Track budgets, stocks and associated costs**. 
     Use Adobe Campaign to control budget allocation, manage your suppliers, stocks and costs. [Learn more](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
-When these steps have been completed, you can [start the deliveries](marketing-campaign-deliveries.md#start-a-delivery), check the data, processes and information relating to the deliveries and, if necessary, [manage the associated documents](marketing-campaign-deliveries.md#manage-associated-documents). You can also [track and monitor the execution](marketing-campaign-monitoring.md) of your campaigns and deliveries.
+When these steps have been completed, you can [start the deliveries](marketing-campaign-deliveries.md#start-a-delivery), check the data, processes and information relating to the deliveries and, if necessary, [manage the associated documents](marketing-campaign-deliveries.md). You can also [track and monitor the execution](marketing-campaign-monitoring.md) of your campaigns and deliveries.
 
 
 ## Key concepts in video {#key-concepts-video}
