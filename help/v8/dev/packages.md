@@ -330,8 +330,8 @@ The following table lists the built-in packages for information. The availabilit
 | CRM connectors | Links Adobe Campaign to third-party CRM systems. [Learn more](../connect/crm.md) |
 | Web Analytics connectors | Allows Adobe Campaign and Adobe Analytics to interact. [Learn more](../connect/ac-aa.md) |
 | AEM integration | Manages the content of emails and forms in Adobe Experience Manager. [Learn more](../connect/ac-aem.md) |
-| Adobe Experience Cloud Shared Audiences Integration | Exchanges and shares audiences with Adobe CX Enterprise solutions and apps. [Learn more](../start/shared-audiences.md) |
-| Integration with Adobe Experience Cloud | Imports and exports audiences from Adobe CX Enterprise solutions into Adobe Campaign. [Learn more](../connect/integration.md) |
+| Adobe Experience Cloud Shared Audiences Integration | Exchanges and shares audiences with [!DNL Adobe CX Enterprise] (formerly Adobe Experience Cloud) solutions and apps. [Learn more](../start/shared-audiences.md) |
+| Integration with Adobe Experience Cloud | Imports and exports audiences from [!DNL Adobe CX Enterprise] (formerly Adobe Experience Cloud) solutions into Adobe Campaign. [Learn more](../connect/integration.md) |
 | Privacy Data Protection Regulation | Adds functionality to help with privacy compliance. [Learn more](../start/privacy.md) |
 | AMP support | Sends dynamic emails with the interactive AMP for email format. [Learn more](../send/defining-interactive-content.md) |
 
