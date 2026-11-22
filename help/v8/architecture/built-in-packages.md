@@ -4,6 +4,7 @@ description: Learn what built-in packages are in Campaign v8, how they differ fr
 feature: Architecture
 role: Admin, Developer
 level: Beginner
+hide: true
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign

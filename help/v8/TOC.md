@@ -266,7 +266,7 @@ breadcrumb-title: Campaign v8 Documentation
 + Architecture {#architecture}
   + [Global principles](architecture/general-architecture.md)
   + [Architecture models](architecture/architecture.md)
-  + [Built-in packages](architecture/built-in-packages.md)
+  + {hide-from-toc} [Built-in packages](architecture/built-in-packages.md)
   + [Campaign FDA deployment](architecture/fda-deployment.md)
   + Enterprise (FFDA) deployment {#ffda}
     + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
