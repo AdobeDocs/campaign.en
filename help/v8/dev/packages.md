@@ -314,6 +314,7 @@ The following table lists the built-in packages for information. The availabilit
 | Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter). [Learn more](../connect/ac-tw.md) |
 | Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. [Learn more](../send/transactional.md) |
 | LINE channel | Sends deliveries through the LINE channel. [Learn more](../send/line/line.md) |
+| WhatsApp channel | Sends deliveries through the WhatsApp channel, using Meta templates. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/whatsapp/get-started-whatsapp){target="_blank"} |
 | Direct Mail channel | Sends deliveries through the direct mail channel. [Learn more](../send/direct-mail.md) |
 | Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS). [Learn more](../send/sms/sms.md) |
 | Mobile App Channel | Sends personalized notifications to iOS and Android devices through apps. [Learn more](../send/push.md) |
