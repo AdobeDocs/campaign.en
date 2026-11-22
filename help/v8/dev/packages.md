@@ -301,9 +301,9 @@ Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ### Built-in packages {#install-a-standard-package}
 
-Built-in packages (also known as standard packages) contain the features of Adobe Campaign. In Campaign v8, Adobe installs and manages these packages for you, according to your license agreement. You do not need to install them.
+Built-in packages (also known as standard packages) contain the features of Adobe Campaign. In Campaign v8, Adobe installs and manages these packages for you. You do not need to install them.
 
-The following table lists the built-in packages for information.
+The following table lists the built-in packages for information. The availability of each package is subject to your license agreement and your deployment model.
 
 | Package | Description |
 |---|---|
