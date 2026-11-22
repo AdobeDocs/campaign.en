@@ -336,6 +336,10 @@ The following table lists the built-in packages for information.
 | Privacy Data Protection Regulation | Adds functionality to help with privacy compliance. [Learn more](../start/privacy.md) |
 | AMP support | Sends dynamic emails with the interactive AMP for email format. [Learn more](../send/defining-interactive-content.md) |
 
+>[!NOTE]
+>
+>The Marketing resources (MRM), Coupon Management, and Online surveys packages are not available in the context of an Enterprise (FFDA) deployment of Campaign. Learn more in [Feature availability](../architecture/enterprise-deployment.md#feature-availability).
+
 ## Data package best practices {#data-package-best-practices}
 
 This section describes how to organize data packages in a consistent way across the life of the project.
