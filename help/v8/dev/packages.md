@@ -307,34 +307,34 @@ The following table lists the built-in packages for information.
 
 | Package | Description |
 |---|---|
-| Delivery | Monitors deliveries and the issues encountered when messages are sent. |
-| Marketing campaigns (Campaign) | Defines, optimizes, executes, and analyzes communications and marketing campaigns. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaigns/campaigns) |
-| Marketing resources (MRM) | Controls marketing actions in a collaborative mode, with management and tracking of tasks, budgets, and marketing resources. |
-| Offer engine (interaction) | Responds in real time during an interaction with a contact by making one or several adapted offers. |
-| Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter) and Facebook. |
-| Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. |
-| LINE channel | Sends deliveries through the LINE channel. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line) |
-| Direct Mail channel | Sends deliveries through the direct mail channel. |
-| Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS). [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms) |
-| Telephone channel | Sends deliveries through the telephone channel, for call center use. |
-| Mobile App Channel | Sends personalized notifications to iOS and Android devices through apps. |
-| Content Manager | Creates recurring newsletters or websites, then validates and publishes your messages. |
-| Online surveys (Survey Manager) | Creates and manages online forms to add or modify profile information, subscribe, unsubscribe, or enter a competition. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys) |
-| Marketing Analytics | Analyzes and measures data, calculates statistics, and simplifies report creation. |
-| Response Manager | Measures the success and profitability of marketing campaigns or offers across all channels. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager) |
-| Access to external data (Federated Data Access) | Processes information stored in external databases without changing the structure of Adobe Campaign data. |
-| Campaign Optimization | Controls, filters, and monitors deliveries so that messages meet customer needs and company communication policies. |
-| Deliverability monitoring (Email Deliverability) | Measures whether your messages reach the inbox without bouncing or being marked as spam. |
-| Coupon Management | Creates sets of coupons to add to marketing offers. |
-| Inbox Rendering (IR) | Previews messages in the contexts in which they may be received and checks compatibility with major desktop and web email clients. |
-| Central/local Marketing (Distributed Marketing) | Implements cooperative campaigns between central entities, such as headquarters, and local entities, such as sales points. |
-| CRM connectors | Links Adobe Campaign to third-party CRM systems. |
-| Web Analytics connectors | Allows Adobe Campaign and Adobe Analytics to interact. |
-| AEM integration | Manages the content of emails and forms in Adobe Experience Manager. [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem) |
-| Adobe Experience Cloud Shared Audiences Integration | Exchanges and shares audiences with Adobe CX Enterprise solutions and apps. |
-| Integration with Adobe Experience Cloud | Imports and exports audiences from Adobe CX Enterprise solutions into Adobe Campaign. |
-| Privacy Data Protection Regulation | Adds functionality to help with privacy compliance. |
-| AMP support | Sends dynamic emails with the interactive AMP for email format. |
+| Delivery | Monitors deliveries and the issues encountered when messages are sent. [Learn more](../start/monitor.md) |
+| Marketing campaigns (Campaign) | Defines, optimizes, executes, and analyzes communications and marketing campaigns. [Learn more](../start/campaigns.md) |
+| Marketing resources (MRM) | Controls marketing actions in a collaborative mode, with management and tracking of tasks, budgets, and marketing resources. [Learn more](../../automation/mrm/about-marketing-resource-management.md) |
+| Offer engine (interaction) | Responds in real time during an interaction with a contact by making one or several adapted offers. [Learn more](../interaction/interaction.md) |
+| Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter) and Facebook. [Learn more](../connect/ac-tw.md) |
+| Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. [Learn more](../send/transactional.md) |
+| LINE channel | Sends deliveries through the LINE channel. [Learn more](../send/line/line.md) |
+| Direct Mail channel | Sends deliveries through the direct mail channel. [Learn more](../send/direct-mail.md) |
+| Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS). [Learn more](../send/sms/sms.md) |
+| Telephone channel | Sends deliveries through the telephone channel, for call center use. [Learn more](../start/gs-message.md#gs-channel) |
+| Mobile App Channel | Sends personalized notifications to iOS and Android devices through apps. [Learn more](../send/push.md) |
+| Content Manager | Creates recurring newsletters or websites, then validates and publishes your messages. [Learn more](../../automation/workflow/content-management.md) |
+| Online surveys (Survey Manager) | Creates and manages online forms to add or modify profile information, subscribe, unsubscribe, or enter a competition. [Learn more](../dev/surveys/about-surveys.md) |
+| Marketing Analytics | Analyzes and measures data, calculates statistics, and simplifies report creation. [Learn more](../reporting/gs-reporting.md) |
+| Response Manager | Measures the success and profitability of marketing campaigns or offers across all channels. [Learn more](../../automation/response/about-response-manager.md) |
+| Access to external data (Federated Data Access) | Processes information stored in external databases without changing the structure of Adobe Campaign data. [Learn more](../connect/fda.md) |
+| Campaign Optimization | Controls, filters, and monitors deliveries so that messages meet customer needs and company communication policies. [Learn more](../../automation/campaign-opt/campaign-typologies.md) |
+| Deliverability monitoring (Email Deliverability) | Measures whether your messages reach the inbox without bouncing or being marked as spam. [Learn more](../send/monitoring-deliverability.md) |
+| Coupon Management | Creates sets of coupons to add to marketing offers. [Learn more](../send/personalized-coupons.md) |
+| Inbox Rendering (IR) | Previews messages in the contexts in which they may be received and checks compatibility with major desktop and web email clients. [Learn more](../send/inbox-rendering.md) |
+| Central/local Marketing (Distributed Marketing) | Implements cooperative campaigns between central entities, such as headquarters, and local entities, such as sales points. [Learn more](../../automation/distributed-marketing/about-distributed-marketing.md) |
+| CRM connectors | Links Adobe Campaign to third-party CRM systems. [Learn more](../connect/crm.md) |
+| Web Analytics connectors | Allows Adobe Campaign and Adobe Analytics to interact. [Learn more](../connect/ac-aa.md) |
+| AEM integration | Manages the content of emails and forms in Adobe Experience Manager. [Learn more](../connect/ac-aem.md) |
+| Adobe Experience Cloud Shared Audiences Integration | Exchanges and shares audiences with Adobe CX Enterprise solutions and apps. [Learn more](../start/shared-audiences.md) |
+| Integration with Adobe Experience Cloud | Imports and exports audiences from Adobe CX Enterprise solutions into Adobe Campaign. [Learn more](../connect/integration.md) |
+| Privacy Data Protection Regulation | Adds functionality to help with privacy compliance. [Learn more](../start/privacy.md) |
+| AMP support | Sends dynamic emails with the interactive AMP for email format. [Learn more](../send/defining-interactive-content.md) |
 
 ## Data package best practices {#data-package-best-practices}
 
