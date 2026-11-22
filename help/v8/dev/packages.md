@@ -56,6 +56,8 @@ You can use data packages to export and import your platform custom settings and
 
 In Campaign data packages, entities of the Adobe Campaign database be displayed into XML files. In a package, each entity is represented with all of its data.
 
+This page describes **custom** data packages, which you create and manage. The packages that provide the Campaign features are **built-in packages**, which Adobe installs and manages. Learn more in [Built-in packages](../architecture/built-in-packages.md).
+
 The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign environment. Learn how to maintain a consistent set of data packages in this [section](#data-package-best-practices).
 
 ### Types of packages {#types-of-packages}
@@ -301,43 +303,7 @@ Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
 ### Built-in packages {#install-a-standard-package}
 
-Built-in packages (also known as standard packages) contain the features of Adobe Campaign. In Campaign v8, Adobe installs and manages these packages for you. You do not need to install them.
-
-The following table lists the built-in packages for information. The availability of each package is subject to your license agreement and your deployment model.
-
-| Package | Description |
-|---|---|
-| Delivery | Monitors deliveries and the issues encountered when messages are sent. [Learn more](../start/monitor.md) |
-| Marketing campaigns (Campaign) | Defines, optimizes, executes, and analyzes communications and marketing campaigns. [Learn more](../start/campaigns.md) |
-| Marketing resources (MRM) | Controls marketing actions in a collaborative mode, with management and tracking of tasks, budgets, and marketing resources. [Learn more](../../automation/mrm/about-marketing-resource-management.md) |
-| Offer engine (interaction) | Responds in real time during an interaction with a contact by making one or several adapted offers. [Learn more](../interaction/interaction.md) |
-| Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter). [Learn more](../connect/ac-tw.md) |
-| Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. [Learn more](../send/transactional.md) |
-| LINE channel | Sends deliveries through the LINE channel. [Learn more](../send/line/line.md) |
-| Direct Mail channel | Sends deliveries through the direct mail channel. [Learn more](../send/direct-mail.md) |
-| Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS). [Learn more](../send/sms/sms.md) |
-| Mobile App Channel | Sends personalized notifications to iOS and Android devices through apps. [Learn more](../send/push.md) |
-| Content Manager | Creates recurring newsletters or websites, then validates and publishes your messages. [Learn more](../../automation/workflow/content-management.md) |
-| Online surveys (Survey Manager) | Creates and manages online forms to add or modify profile information, subscribe, unsubscribe, or enter a competition. [Learn more](../dev/surveys/about-surveys.md) |
-| Marketing Analytics | Analyzes and measures data, calculates statistics, and simplifies report creation. [Learn more](../reporting/gs-reporting.md) |
-| Response Manager | Measures the success and profitability of marketing campaigns or offers across all channels. [Learn more](../../automation/response/about-response-manager.md) |
-| Access to external data (Federated Data Access) | Processes information stored in external databases without changing the structure of Adobe Campaign data. [Learn more](../connect/fda.md) |
-| Campaign Optimization | Controls, filters, and monitors deliveries so that messages meet customer needs and company communication policies. [Learn more](../../automation/campaign-opt/campaign-typologies.md) |
-| Deliverability monitoring (Email Deliverability) | Measures whether your messages reach the inbox without bouncing or being marked as spam. [Learn more](../send/monitoring-deliverability.md) |
-| Coupon Management | Creates sets of coupons to add to marketing offers. [Learn more](../send/personalized-coupons.md) |
-| Inbox Rendering (IR) | Previews messages in the contexts in which they may be received and checks compatibility with major desktop and web email clients. [Learn more](../send/inbox-rendering.md) |
-| Central/local Marketing (Distributed Marketing) | Implements cooperative campaigns between central entities, such as headquarters, and local entities, such as sales points. [Learn more](../../automation/distributed-marketing/about-distributed-marketing.md) |
-| CRM connectors | Links Adobe Campaign to third-party CRM systems. [Learn more](../connect/crm.md) |
-| Web Analytics connectors | Allows Adobe Campaign and Adobe Analytics to interact. [Learn more](../connect/ac-aa.md) |
-| AEM integration | Manages the content of emails and forms in Adobe Experience Manager. [Learn more](../connect/ac-aem.md) |
-| Adobe Experience Cloud Shared Audiences Integration | Exchanges and shares audiences with [!DNL Adobe CX Enterprise] (formerly Adobe Experience Cloud) solutions and apps. [Learn more](../start/shared-audiences.md) |
-| Integration with Adobe Experience Cloud | Imports and exports audiences from [!DNL Adobe CX Enterprise] (formerly Adobe Experience Cloud) solutions into Adobe Campaign. [Learn more](../connect/integration.md) |
-| Privacy Data Protection Regulation | Adds functionality to help with privacy compliance. [Learn more](../start/privacy.md) |
-| AMP support | Sends dynamic emails with the interactive AMP for email format. [Learn more](../send/defining-interactive-content.md) |
-
->[!NOTE]
->
->The Marketing resources (MRM), Coupon Management, and Online surveys packages are not available in the context of an Enterprise (FFDA) deployment of Campaign. Learn more in [Feature availability](../architecture/enterprise-deployment.md#feature-availability).
+Adobe installs and manages the built-in packages in Campaign v8. Learn more in [Built-in packages](../architecture/built-in-packages.md).
 
 ## Data package best practices {#data-package-best-practices}
 
