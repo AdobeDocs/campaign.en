@@ -311,7 +311,7 @@ The following table lists the built-in packages for information.
 | Marketing campaigns (Campaign) | Defines, optimizes, executes, and analyzes communications and marketing campaigns. [Learn more](../start/campaigns.md) |
 | Marketing resources (MRM) | Controls marketing actions in a collaborative mode, with management and tracking of tasks, budgets, and marketing resources. [Learn more](../../automation/mrm/about-marketing-resource-management.md) |
 | Offer engine (interaction) | Responds in real time during an interaction with a contact by making one or several adapted offers. [Learn more](../interaction/interaction.md) |
-| Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter) and Facebook. [Learn more](../connect/ac-tw.md) |
+| Social networks (Social Marketing) | Synchronizes Adobe Campaign with X (formerly Twitter). [Learn more](../connect/ac-tw.md) |
 | Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. [Learn more](../send/transactional.md) |
 | LINE channel | Sends deliveries through the LINE channel. [Learn more](../send/line/line.md) |
 | Direct Mail channel | Sends deliveries through the direct mail channel. [Learn more](../send/direct-mail.md) |
