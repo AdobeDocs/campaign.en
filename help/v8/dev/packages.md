@@ -56,6 +56,8 @@ You can use data packages to export and import your platform custom settings and
 
 In Campaign data packages, entities of the Adobe Campaign database be displayed into XML files. In a package, each entity is represented with all of its data.
 
+This page describes **custom** data packages, which you create and manage. The packages that provide the Campaign features are **built-in packages**, which Adobe installs and manages. Learn more in [Built-in packages](../architecture/built-in-packages.md).
+
 The principle of **data packages** is to export a data configuration and integrate it into another Adobe Campaign environment. Learn how to maintain a consistent set of data packages in this [section](#data-package-best-practices).
 
 ### Types of packages {#types-of-packages}
@@ -299,11 +301,9 @@ The content of the package to be imported is then displayed in the middle sectio
 
 Click **[!UICONTROL Next]** and **[!UICONTROL Start]** to launch the import.
 
-### Install a built-in package {#install-a-standard-package}
+### Built-in packages {#install-a-standard-package}
 
-Built-in packages (aka. standard packages) are installed when the Adobe Campaign is configured. Depending on your permissions, your deployment model, and your product offering, you can import new standard packages.
-
-Refer to your license agreement to check which packages you can install.
+Adobe installs and manages the built-in packages in Campaign v8. Learn more in [Built-in packages](../architecture/built-in-packages.md).
 
 ## Data package best practices {#data-package-best-practices}
 
