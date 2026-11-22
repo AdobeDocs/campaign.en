@@ -61,7 +61,7 @@ The following table lists the built-in packages for information. The availabilit
 | Transactional message control and execution (Message Center) | Manages trigger messages generated from events in information systems, with higher availability and better load management. [Learn more](../send/transactional.md) |
 | LINE channel | Sends deliveries through the LINE channel. [Learn more](../send/line/line.md) |
 | Direct Mail channel | Sends deliveries through the direct mail channel. [Learn more](../send/direct-mail.md) |
-| Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS). [Learn more](../send/sms/sms.md) |
+| Mobile channel (SMS) | Sends deliveries through the mobile channel (SMS), including the SMS connector v2 (generally available since 8.9.1). [Learn more](../send/sms/sms.md) |
 | Mobile App Channel | Sends personalized notifications to iOS and Android devices through apps. [Learn more](../send/push.md) |
 | Content Manager | Creates recurring newsletters or websites, then validates and publishes your messages. [Learn more](../../automation/workflow/content-management.md) |
 | Online surveys (Survey Manager) | Creates and manages online forms to add or modify profile information, subscribe, unsubscribe, or enter a competition. [Learn more](../dev/surveys/about-surveys.md) |
