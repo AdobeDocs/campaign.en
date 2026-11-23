@@ -330,6 +330,8 @@ breadcrumb-title: Campaign v8 Documentation
     + Managing workflows {#managing-workflows}
       + [Controlling a workflow](dev/api/controlling-a-workflow.md)
       + [Triggering a signal activity](dev/api/triggering-a-signal-activity.md)
++ API documentation {#api-documentation}
+  + [Campaign API Documentation >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
 + Additional resources {#resources}
   + [Campaign Technical Notes >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web User Interface Documentation >](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
