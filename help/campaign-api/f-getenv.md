@@ -1,8 +1,12 @@
 # getEnv
 
-> Warning: This function is available for an on-Premise environment.
+>[!WARNING]
+>
+>This function is available for an on-Premise environment.
 
-> Note: You can disable this function by passing the **XtkSecurity\_Disable\_GetSetEnv** option to **true**.
+>[!NOTE]
+>
+>You can disable this function by passing the **XtkSecurity\_Disable\_GetSetEnv** option to **true**.
 
 Returns the value of an environment variable.
 
