@@ -6,8 +6,8 @@ Operators of the application
 
 | Method | Description |
 | --- | --- |
-| [CheckRights](sm-operator-CheckRights.md) | Check if the current operator has rights on the specified groups |
-| [ResetPassword](sm-operator-ResetPassword.md) | Reset an operator password |
+| [CheckRights](sm-operator-checkrights.md) | Check if the current operator has rights on the specified groups |
+| [ResetPassword](sm-operator-resetpassword.md) | Reset an operator password |
 
 ## Generic Methods
 
@@ -15,4 +15,4 @@ Operators of the application
 | --- | --- |
 | [create](f-create.md) | Creates a new entity corresponding to a given schema. |
 | [load](f-load.md) | Loads and returns an entity corresponding to a given schema and key. |
-| [save](m-Entity-save.md) | Saves an entity in the database. |
+| [save](m-entity-save.md) | Saves an entity in the database. |

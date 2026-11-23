@@ -6,7 +6,7 @@ Visitor table (profiles)
 
 | Method | Description |
 | --- | --- |
-| [updateFacebookProfile](sm-visitor-updateFacebookProfile.md) |  |
+| [updateFacebookProfile](sm-visitor-updatefacebookprofile.md) |  |
 
 ## Generic Methods
 
@@ -14,4 +14,4 @@ Visitor table (profiles)
 | --- | --- |
 | [create](f-create.md) | Creates a new entity corresponding to a given schema. |
 | [load](f-load.md) | Loads and returns an entity corresponding to a given schema and key. |
-| [save](m-Entity-save.md) | Saves an entity in the database. |
+| [save](m-entity-save.md) | Saves an entity in the database. |

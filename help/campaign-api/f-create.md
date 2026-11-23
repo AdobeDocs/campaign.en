@@ -27,7 +27,7 @@ var recipient = NLWS.nmsRecipient.create(
 recipient.save()
 ```
 
-The document is not automatically saved to the database. You must use the ⌐⌐[save()](m-Entity-save.md) method on the entity.
+The document is not automatically saved to the database. You must use the ⌐⌐[save()](m-entity-save.md) method on the entity.
 
 ## Features
 

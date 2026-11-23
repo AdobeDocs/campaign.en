@@ -6,7 +6,7 @@ Status of Email/SMS/IM addresses (quarantine management)
 
 | Method | Description |
 | --- | --- |
-| [GetQuarantines](sm-address-GetQuarantines.md) | Retrieves the latest quarantines and quarantine exits. |
+| [GetQuarantines](sm-address-getquarantines.md) | Retrieves the latest quarantines and quarantine exits. |
 
 ## Generic Methods
 
@@ -14,4 +14,4 @@ Status of Email/SMS/IM addresses (quarantine management)
 | --- | --- |
 | [create](f-create.md) | Creates a new entity corresponding to a given schema. |
 | [load](f-load.md) | Loads and returns an entity corresponding to a given schema and key. |
-| [save](m-Entity-save.md) | Saves an entity in the database. |
+| [save](m-entity-save.md) | Saves an entity in the database. |

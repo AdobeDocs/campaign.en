@@ -6,7 +6,7 @@ Stock
 
 | Method | Description |
 | --- | --- |
-| [Calculate](sm-stock-Calculate.md) | Calculate the stocks for a campaign. |
+| [Calculate](sm-stock-calculate.md) | Calculate the stocks for a campaign. |
 
 ## Generic Methods
 
@@ -14,4 +14,4 @@ Stock
 | --- | --- |
 | [create](f-create.md) | Creates a new entity corresponding to a given schema. |
 | [load](f-load.md) | Loads and returns an entity corresponding to a given schema and key. |
-| [save](m-Entity-save.md) | Saves an entity in the database. |
+| [save](m-entity-save.md) | Saves an entity in the database. |
