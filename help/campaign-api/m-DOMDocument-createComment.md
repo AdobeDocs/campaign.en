@@ -1,0 +1,31 @@
+# createComment
+
+Creates a new comment type node.
+
+```text
+createComment (data)
+```
+
+## Parameters
+
+**data** Character string to insert into the comment node.
+
+## Return value
+
+[commentaire](c-DOMCharacterData.md) created.
+
+## Features
+
+**Method of class:** [DOMDocument](c-DOMDocument.md)
+
+**Available in:**
+
+* Content management
+* Delivery properties
+* Delivery message
+* Typology rule
+* Import
+* JSSP
+* SOAP Method
+* WebApp
+* Workflow

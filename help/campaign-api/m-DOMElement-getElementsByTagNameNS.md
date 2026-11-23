@@ -1,0 +1,37 @@
+# getElementsByTagNameNS
+
+Returns the list of all child elements with the specified name.
+
+```text
+getElementsByTagNameNS (namespaceURI, localName)
+```
+
+## Parameters
+
+**namespaceURI** The URI of the namespace of searched for elements.
+
+**localName** Name of searched for elements.
+
+## Return value
+
+Table containing the list of elements.
+
+## Remarks
+
+This method creates a new table for each call. It is therefore better to keep the table in a local variable rather than make several calls.
+
+## Features
+
+**Method of class:** [DOMElement](c-DOMElement.md)
+
+**Available in:**
+
+* Content management
+* Delivery properties
+* Delivery message
+* Typology rule
+* Import
+* JSSP
+* SOAP Method
+* WebApp
+* Workflow
