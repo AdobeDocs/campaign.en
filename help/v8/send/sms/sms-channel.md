@@ -88,7 +88,7 @@ The maximum size of a message depends on its encoding. This table sums up all th
 
 ## Multipart SMS (long SMS) {#multipart-sms}
 
-Multipart SMS (often called long SMS) are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, a SMS cannot be larger than 140 bytes (see the SMS text encoding section below for the number of characters that can fit in a SMS) so longer messages need to be split.
+Multipart SMS (often called long SMS) are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, an SMS cannot be larger than 140 bytes (see the SMS text encoding section below for the number of characters that can fit in an SMS) so longer messages need to be split.
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. In order to handle retries and connectivity problems gracefully, Campaign sends parts in reverse order and asks for a SR only on the first part of the message (the one that is sent last); as the mobile phone only displays a message when it received its first part, retries on additional parts won't produce duplicates on the mobile phone.
 

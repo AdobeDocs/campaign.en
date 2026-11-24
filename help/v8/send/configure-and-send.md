@@ -99,7 +99,7 @@ A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that t
 
 ### Monitor waves {#monitor-waves}
 
-To monitor your sends, browse to the delivery logs. See [this page](send.md)
+To monitor your sends, browse to the delivery logs. See [this page](send.md).
 
 You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 

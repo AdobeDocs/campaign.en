@@ -36,7 +36,7 @@ Use data binning to simplify data display by grouping values according to criter
 
 Overall, three types of binning are available:
 
-1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc.). For more on this, refer to [Defining each bin](#defining-each-bin).
+1. Using manually defined value ranges. For instance, age, average shopping cart, number of deliveries opened, etc. For more on this, refer to [Defining each bin](#defining-each-bin).
 1. Dynamically, depending on the values of an [enumeration](../config/enumerations.md): only display the values contained in the enumeration, all other values are grouped in 'Others'. For more on this, refer to [Dynamically managing bins](#dynamically-managing-bins).
 1. Using value ranges, all others being grouped together. For instance, 18 to 25 year-olds, 26 to 59 year-olds, and the others. For more on this, refer to [Creating value ranges](#creating-value-ranges).
 
@@ -135,7 +135,7 @@ Learn more about enumerations in [this page](../../v8/config/ui-settings.md).
 
 The largest data volumes can be calculated in aggregates.
 
-Aggregates are useful when manipulating large volumes of data. They are updated automatically based on settings defined in the dedicated workflow box, to integrate the data collect most recently into the indicators
+Aggregates are useful when manipulating large volumes of data. They are updated automatically based on settings defined in the dedicated workflow box, to integrate the most recently collected data into the indicators
 
 Aggregates are defined in the relevant tab of each cube.
 

@@ -54,9 +54,9 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
     * Pause
     * Stop
     * Restart
-    * Cleanup which equals to the action Purge history
-    * Simulate which equals to the action Start in simulation mode
-    * Wakeup which equals to the action Execute pending tasks now
+    * Cleanup which equals the action Purge history
+    * Simulate which equals the action Start in simulation mode
+    * Wakeup which equals the action Execute pending tasks now
     * Unconditional Stop
 
   For more information on workflows, refer to this [page](../../automation/workflow/about-workflows.md).

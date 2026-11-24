@@ -449,7 +449,7 @@ Click **[!UICONTROL Start]** to launch data export.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-You can then monitor the execution of the import job.
+You can then monitor the execution of the export job.
 
 
 ## Collect profiles through web apps

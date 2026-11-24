@@ -96,7 +96,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
 
-1. Switch **[!UICONTROL Push Credentials]** to add your credentials.
+1. Switch on **[!UICONTROL Push Credentials]** to add your credentials.
 
 1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -154,7 +154,7 @@ To create an app for iOS devices, follow these steps:
 
 1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
-1. Browse to the **[!UICONTROL Sounds]** tab to define a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
+1. Browse to the **[!UICONTROL Sounds]** tab to define a sound to play. Click **[!UICONTROL Add]** and fill in the **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 

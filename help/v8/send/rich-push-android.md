@@ -155,7 +155,7 @@ Once you have defined your message content, you can use test subscribers to prev
     * **[!UICONTROL Auto]**: automatically cycles through images as slides, transitioning at predefined intervals.
     * **[!UICONTROL Manual]**: allows users to manually swipe between slides to navigate through the images.     
 
-1. From the **[!UICONTROL Layout]** drop-down, select **[!UICONTROL Filmstrip]** option to include previews of the previous and next images alongside the main slide.
+1. From the **[!UICONTROL Layout]** drop-down, select the **[!UICONTROL Filmstrip]** option to include previews of the previous and next images alongside the main slide.
 
 1. Click **[!UICONTROL Add image]** and enter your image URL, Text and Action URL.
 
@@ -236,7 +236,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
-1. Under **[!UICONTROL Product catalog options]** menu, fill in the following options:
+1. Under the **[!UICONTROL Product catalog options]** menu, fill in the following options:
 
     * **[!UICONTROL Action button text]**: Text displayed on the button.
     * **[!UICONTROL Action button text color]**: Color of the Action button text.
@@ -280,7 +280,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     ![](assets/rich_push_rating_3.png)
 
-1. Under **[!UICONTROL Product rating items]** menu, click **[!UICONTROL Add]** and enter your **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
+1. Under the **[!UICONTROL Product rating items]** menu, click **[!UICONTROL Add]** and enter your **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
     
     * **[!UICONTROL Web URL]**: Web URLs direct users to online content. Upon clicking, they prompt the device's default web browser to open and navigate to the designated URL.
 

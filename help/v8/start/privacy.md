@@ -140,7 +140,7 @@ The pattern for a file name is: `<InstanceName>-<NamespaceId>-<ReconciliationKey
 
 When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject's data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
 
-The list of built-in tables taken into account when performing Privacy requests are:
+The list of built-in tables taken into account when performing Privacy requests is:
 
 * Recipients (recipient)
 * Recipient delivery log (broadLogRcp)

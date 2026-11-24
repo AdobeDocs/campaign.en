@@ -31,7 +31,7 @@ topic_v2:
 
 ## Creating a presentation rule {#creating-a-presentation-rule}
 
-In our database, there are several travel offers for Europe, Africa, the United States and Canada. We want to send offers for a trip to Canada, but if the recipient refuses this type of offer, we don't want to send it to them again
+In our database, there are several travel offers for Europe, Africa, the United States and Canada. We want to send offers for a trip to Canada, but if the recipient refuses this type of offer, we don't want to send it to them again.
 
 We are going to configure our rule so that the trip to Canada is only offered once per recipient and not offered again if rejected.
 

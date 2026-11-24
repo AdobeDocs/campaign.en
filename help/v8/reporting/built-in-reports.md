@@ -61,7 +61,7 @@ To access Campaign built-in reports:
 
     ![](assets/edit-a-report.png)
 
-1. Click the **[!UICONTROL Back]** link at the top of the screen takes you back to the list of reports.
+1. Click the **[!UICONTROL Back]** link at the top of the screen to go back to the list of reports.
 
     ![](assets/back-button.png)
 

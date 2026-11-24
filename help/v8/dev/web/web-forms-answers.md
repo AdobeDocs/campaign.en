@@ -95,19 +95,19 @@ This means that, if the user selects a commercial vehicle, the form offers the f
 
 For each form, the answers provided can be re-used in the fields or the labels. The following syntaxes must be used:
 
-* For a content stored in a field of the database:
+* For content stored in a field of the database:
 
   ```
   <%=ctx.recipient.@field name%
   ```
 
-* For a content stored in a local variable:
+* For content stored in a local variable:
 
   ```
   <%= ctx.vars.variable name %
   ```
 
-* For a content stored in an HTML text field:
+* For content stored in an HTML text field:
 
   ```
   <%== HTML field name %

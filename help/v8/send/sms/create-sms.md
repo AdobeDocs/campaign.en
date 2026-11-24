@@ -42,9 +42,9 @@ To create a new SMS delivery, follow the steps below:
 * For mid-sourcing infrastructure,
 --> 
   
-1. Rename your delivery in the **[!UICONTROL Label]** field and add information in **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery.
+1. Rename your delivery in the **[!UICONTROL Label]** field and add information in the **[!UICONTROL Delivery code]** field and **[!UICONTROL Nature]** list if needed for the tracking. You can also add a **[!UICONTROL Description]** to your delivery.
 
-1. Click on **[!UICONTROL Continue]** button. Now, you have all the settings of your template in your delivery.
+1. Click the **[!UICONTROL Continue]** button. Now, you have all the settings of your template in your delivery.
 
 1. You can check in the **[!UICONTROL Properties]** button that all is set up as needed. [Learn more about SMS tab](sms-delivery-settings.md#sms-tab)
     

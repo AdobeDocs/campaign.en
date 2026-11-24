@@ -124,7 +124,7 @@ In the example below, we will create a new folder to display only US deliveries,
 
 By default, a new folder is added on the top of the hierarchy.
 
-Browse the **Sub-folders** tab of a folder properties to organize its sub-folders.
+Browse the **Sub-folders** tab of the folder properties to organize its sub-folders.
 
 You can move the folders with the arrows on the right or select the **[!UICONTROL Sort the sub-folders in alphabetical order]** option to sort them automatically.
 

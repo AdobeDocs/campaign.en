@@ -149,7 +149,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
    ![](assets/rich_push_ios_timer_1.png)
 
-1. To compose your message, enter your text in the **[!UICONTROL Title]**,**[!UICONTROL Expanded title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
+1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Expanded title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 

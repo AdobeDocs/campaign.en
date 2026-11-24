@@ -260,7 +260,7 @@ Entities can be added to a package definition directly from their location in th
 
 1. Select **[!UICONTROL Add to a package definition]**, then select the package definition to which you want to add the entity.
 
-1. The entity is added to the package definition, it will be exported with the package (see [this section](#export-packages-from-a-package-definition)).
+1. The entity is added to the package definition and will be exported with the package (see [this section](#export-packages-from-a-package-definition)).
 
 ### Configure package definitions generation {#configure-package-definitions-generation}
 

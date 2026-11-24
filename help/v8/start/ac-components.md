@@ -67,7 +67,7 @@ You can access Adobe Campaign through a Rich client, a Thin client or API integr
 
 ### Persistence layer{#persistance-layer}
 
-Campaign databases are used as a persistence layer, and contains almost all the information and data managed by Adobe Campaign. This includes: functional data, such as profiles, subscriptions, content; technical data, such as delivery jobs and logs, tracking logs; and work data (purchases, leads).
+Campaign databases are used as a persistence layer, and contain almost all the information and data managed by Adobe Campaign. This includes: functional data, such as profiles, subscriptions, content; technical data, such as delivery jobs and logs, tracking logs; and work data (purchases, leads).
 
 The reliability of the database is of utmost importance because the majority of Adobe Campaign components require access to the database in order to perform their tasks (with the exception of the redirection module).
 

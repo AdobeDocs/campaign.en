@@ -31,7 +31,7 @@ topic_v2:
 
 ## Presentation rules overview {#presentation-rules-overview}
 
-Interaction lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment
+Interaction lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Interaction, are typology rules. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment.
 
 ## Creating and referencing an offer presentation rule {#creating-and-referencing-an-offer-presentation-rule}
 
@@ -61,7 +61,7 @@ Interaction lets you control the flow of offer propositions using presentation r
 
 ### Application criteria {#application-criteria-}
 
-The application criteria available in the **[!UICONTROL General]** tab lets you specify the offers which the presentation rule will apply to. To do this, you need to create a query and choose the concerned offers, as described below.
+The application criteria available in the **[!UICONTROL General]** tab let you specify the offers which the presentation rule will apply to. To do this, you need to create a query and choose the concerned offers, as described below.
 
 1. In your typology rule, click the **[!UICONTROL Edit the rule application conditions...]** link to create your query.
 

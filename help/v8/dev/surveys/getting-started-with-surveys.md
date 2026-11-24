@@ -137,7 +137,7 @@ In the example below, when saving (confirmation) takes place, if a profile is sa
 
 ![](assets/s_ncs_admin_survey_save_edit.png)
 
-Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save the survey
+Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save the survey.
 
 ## Step 6 - Publish the pages {#step-6---publishing-the-pages}
 
