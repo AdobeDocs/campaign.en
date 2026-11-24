@@ -39,7 +39,6 @@ Campaign uses two kinds of packages. Make sure you work with the right one.
 |---|---|---|
 | Purpose | Provide the Campaign features, such as channels, integrations, and add-ons. | Export and import your own configuration and data, for example from a staging to a production environment. |
 | Who manages them | Adobe installs and manages them. With Managed Cloud Services, you cannot modify installed built-in packages. | You create, export, and import them. |
-| Where to learn more | This page. | [Work with data packages](../dev/packages.md) |
 
 ## Check the installed packages {#check-installed-packages}
 
