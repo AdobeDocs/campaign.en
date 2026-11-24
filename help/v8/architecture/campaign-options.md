@@ -177,6 +177,29 @@ These options let you customize how Campaign enriches and routes real-time and b
 | MC_RoutingCustomJs | JavaScript library that routes events. It must implement dispatchRtEvent(iEventId) and dispatchBatchEvent(iEventId), which return the internal name of the transactional message selected for the real-time or batch event. |
 | NmsMessageCenter_RoutingBatchSize | Size of the groups used for event routing. |
 
+### Interaction (offer management) {#interaction-options}
+
+These options apply to Campaign Interaction, the offer management module. They control how propositions are written and how the control and execution instances are synchronized. Learn more in [Campaign Interaction - Offer management](../interaction/interaction.md) and in the [maintenance options](../interaction/interaction-architecture.md#maintenance-options) of the Interaction architecture.
+
+| Option | Description |
+|---|---|
+| NmsInteraction_UseDaemon | Set it to 1 to enable the asynchronous writing of propositions, or to 0 to disable it. |
+| `NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>` | Last date that an environment was synchronized on a given instance. Maintenance option of the control instance. |
+| `NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>` | Last date that the propositions of a schema were synchronized from one instance to another. Maintenance option of the control instance. |
+| NmsInteraction_MapWorkflowId | List of all the generated synchronization workflows. Maintenance option of the control instance. |
+| NmsExecutionInstanceId | Identifier of the execution instance. Available on execution instances. |
+
+>[!CAUTION]
+>
+>Use the maintenance options only for specific maintenance cases.
+
+The following options apply to coupons, which are not available in Enterprise (FFDA) deployments. Learn more in [Personalized coupons](../send/personalized-coupons.md).
+
+| Option | Description |
+|---|---|
+| NmsModule_CouponsEnabled | Enables coupons. |
+| NmsCoupons_MaxPerTransac | Number of coupons updated per SQL transaction. |
+
 ### Privacy requests {#privacy-options}
 
 These options control how Campaign processes privacy requests, such as the confirmation of deletions, the number of errors allowed, and how long request data is kept. Learn more in [Manage Privacy requests in Campaign](../start/privacy.md).
@@ -207,12 +230,12 @@ The audit trail records the changes made to Campaign entities. Use these options
 
 ### Integrations and surveys {#integration-options}
 
-These options store the settings of integrations, interaction, and surveys: the Adobe Developer Console credentials for landing pages, the last synchronization date of the CRM Connector activity, and the default backup of survey answers. Learn more in [Update Adobe Experience Platform profiles from Adobe Campaign landing pages](../connect/ac-aep-landing-pages.md), [CRM Connectors data synchronization](../connect/crm-data-sync.md), and [Manage answers](../dev/surveys/managing-answers.md).
+These options store the settings of integrations and surveys: the Adobe Developer Console credentials for landing pages, the last synchronization date of the CRM Connector activity, and the default backup of survey answers. Learn more in [Update Adobe Experience Platform profiles from Adobe Campaign landing pages](../connect/ac-aep-landing-pages.md), [CRM Connectors data synchronization](../connect/crm-data-sync.md), and [Manage answers](../dev/surveys/managing-answers.md).
 
 | Option | Description |
 |---|---|
 | IMS_CLIENT_ID, IMS_CLIENT_SECRET, IMS_ORG_ID, IMS_CLIENT_API_KEY | Adobe Developer Console credentials used for landing pages with Adobe Experience Platform. [Learn more](../connect/ac-aep-landing-pages.md) |
-| LASTIMPORT_<instance>_<activity> | Date of the last synchronization of the generic CRM Connector activity. Create it manually as a text option, in the format `yyyy/MM/dd hh:mm:ss`. [Learn more](../connect/crm-data-sync.md) |
+| `LASTIMPORT_<instance>_<activity>` | Date of the last synchronization of the generic CRM Connector activity. Create it manually as a text option, in the format `yyyy/MM/dd hh:mm:ss`. [Learn more](../connect/crm-data-sync.md) |
 | NmsWebApp_XmlBackup | Create it and set it to 1 to save a copy of the raw answers by default for all surveys. [Learn more](../dev/surveys/managing-answers.md) |
 | AEMResourceTypeFilter | Types of Adobe Experience Manager resources that can be used in Campaign, separated by commas. [Learn more](../connect/ac-aem.md) |
 | nmsPipeline_config | Configuration of Adobe Experience Cloud triggers, in JSON format. Create it as a long text option. [Learn more](../connect/ac-triggers.md) |
@@ -220,7 +243,6 @@ These options store the settings of integrations, interaction, and surveys: the 
 | TNT_TenantName | Name of the Adobe Target organization (client). [Learn more](../connect/ac-at.md) |
 | AAM_DataSourceId, AAM_DestinationId | Identifiers used by the integration with Adobe Audience Manager. [Learn more](../start/shared-audiences.md) |
 | WdbcCapabilities_AzureDw | Options of the Azure Synapse (Azure SQL Data Warehouse) connector. [Learn more](../connect/fda.md) |
-| NmsInteraction_UseDaemon | Set it to 1 to enable the asynchronous writing of propositions, or to 0 to disable it. [Learn more](../interaction/interaction.md) |
 
 ## Related topics {#related-topics}
 
