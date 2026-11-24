@@ -191,7 +191,7 @@ You can create hypotheses on your offer propositions. This lets you determine th
 
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
-Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
+Creating hypotheses is detailed in [this page](../../automation/response/about-response-manager.md).
 -->
 
 ## Approve and activate an offer{#approve-offers}

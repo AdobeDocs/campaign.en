@@ -127,7 +127,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](../../reporting/using/global-reports.md#sharing-to-social-networks).
+This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](global-reports.md#sharing-to-social-networks).
 
 ## URLs and click streams {#urls-and-click-streams}
 

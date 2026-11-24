@@ -44,7 +44,7 @@ Adobe Campaign manages a list of quarantined addresses for online channels (emai
 
 When their address or phone number is quarantined, recipients are excluded from the target during delivery analysis: you will not be able to send marketing messages, including automated workflow emails, to those contacts. If those quarantined addresses are also present in lists, they will be excluded when sending to those lists. An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable.
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+<!--For more on best practices to secure and optimize your deliveries, refer to [this page](../start/delivery-best-practices.md).-->
 
 ## Quarantine versus denylist
 
