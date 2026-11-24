@@ -930,6 +930,8 @@ The **Sent** indicator (@sent), accessed via the **Deliveries (nms:delivery) > I
 
 ## Indicator synchronization {#indicator-synchronization}
 
+The **Processed** indicator can temporarily exceed the number of messages to send while indicators are being updated, for example for deliveries with retries or linked deliveries.
+
 If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Click **[!UICONTROL Next]**, then click **[!UICONTROL Finish]**.
 
 ## Tracking opens {#tracking-opens-}
