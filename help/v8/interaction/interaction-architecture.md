@@ -64,7 +64,7 @@ To be able to support scalability and provide 24/7 service on the inbound channe
 
 ![](assets/interaction_powerbooster_schema.png)
 
-Control instances are dedicated to the inbound channel and contain the online version of the catalog. Every execution instance is independent and dedicated to one contact segment (for example, one execution instance per country). Calls to the Offer engine must be directly performed on the execution (one specific URL per execution instance). As synchronization between instances is not automatic, interactions from the same contact must be sent through the same instance.
+Execution instances are dedicated to the inbound channel and contain the online version of the catalog. Every execution instance is independent and dedicated to one contact segment (for example, one execution instance per country). Calls to the Offer engine must be directly performed on the execution (one specific URL per execution instance). As synchronization between instances is not automatic, interactions from the same contact must be sent through the same instance.
 
 ### Synchronization {#synchronization}
 

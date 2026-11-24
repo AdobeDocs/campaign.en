@@ -40,7 +40,7 @@ Interaction lets you create and manage a catalog of offers, and configure the el
 
 ![](assets/interaction-cycle.png)
 
-First, a contact occurs between a customer and a company through a communication channel: it can be a website (outbound interaction), an email, SMS, push notification (inbound interactions). [Learn more](#interaction-types)
+First, a contact occurs between a customer and a company through a communication channel: it can be a website (inbound interaction), an email, SMS, push notification (outbound interactions). [Learn more](#interaction-types)
 
 This contact results in a call to the Offer engine. (1)
 

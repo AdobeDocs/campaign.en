@@ -411,7 +411,7 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   The URL contains **EnvNeobankRecip**, the internal name of the identified environment.
+   The URL contains **EnvNeobankIdnRecip**, the internal name of the identified environment.
 
 When you open the web page, the script lets you call up the Interaction engine to display the content of offers in the relevant spaces of the web page. In a single call to the Adobe Campaign server, the engine determines the environment, the offer space and the categories to be selected.
 
