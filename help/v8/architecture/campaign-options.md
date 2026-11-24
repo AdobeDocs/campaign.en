@@ -56,7 +56,7 @@ You can read and write option values from JavaScript code, personalization, and 
 
 ## Available options {#available-options}
 
-The tables below list the options available in Campaign v8, grouped by area. When another page of the documentation describes an option, the table links to it.
+The tables below list the options available in Campaign v8, grouped by area. When another page of the documentation describes an option, the table links to it. Some entries are informational or maintenance options. Listing an option does not mean that it is safe to change.
 
 ### Deliveries {#delivery-options}
 
@@ -79,7 +79,6 @@ These options control how deliveries are prepared and sent. They cover image and
 | NmsMTA_Alert_Delay | Delay, in minutes, after which a delivery is considered delayed. The default value is 30 minutes. |
 | NmsServer_MirrorPageUrl | URL of the mirror page server. It is the default value of email deliveries when the routing definition does not specify a URL. By default, it is identical to the tracking server URL. |
 | XtkBarcode_SpecialChar | Enables or disables the support of special characters for Code128 barcodes. |
-| XtkSecurity_Restrict_EditXML | Add it with the value 0 to disable the editing of the XML code of deliveries (Edit XML source or Ctrl+F4). |
 | NMS_ActivateOwnerConfirmation | Set it to 1 so that the operator in charge of the delivery can confirm the send, when a specific operator or group is designated for starting the delivery. Set it to 0 to deactivate: only the designated operator or group, or an administrator, can then confirm the send. |
 | NmsDelivery_senderAddressMask | Comma-separated list of the sender addresses allowed in the From email field of email deliveries. When the option has a value, the field becomes a dropdown list. The restriction is global: it applies to every brand and delivery template, and supports static addresses only. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#restrict-sender-address){target="_blank"} |
 
@@ -160,6 +159,8 @@ These options define the thresholds that raise a warning or an alert when the pr
 
 The cleanup workflow purges old records to keep the database from growing. These options define how long Campaign keeps each type of data. A purge delay option is created automatically when you change the delay in the interface. If you edit it from the options list, express the value in seconds. Learn more in [General architecture](general-architecture.md) and [Security guidelines](../config/security.md#consent).
 
+Only administrators can modify the purge delay options. The appropriate values depend on your environment, so check the current value on your instance and do not assume a universal default.
+
 | Option | Description |
 |---|---|
 | NmsCleanup_BroadLogPurgeDelay | Delay after which delivery logs (broadlogs) are erased. |
@@ -174,7 +175,6 @@ The cleanup workflow purges old records to keep the database from growing. These
 | NmsCleanup_RejectsPurgeDelay | Delay after which rejects are erased. |
 | NmsCleanup_VisitorPurgeDelay | Delay after which visitors are erased. |
 | NmsCleanup_WorkflowResultPurgeDelay | Delay after which workflow results are erased. |
-| XtkCleanup_NoStats | Set it to 1 so that the cleanup workflow does not update the database statistics. |
 | WdbcKillSessionPolicy | Behavior of the Unconditional stop of workflows on PostgreSQL. 0 (default): stops the workflow process with no impact on the database. 1: stops the process and cancels the query (pg_cancel_backend). 2: stops the process and terminates the query (pg_terminate_backend). |
 | XtkSequence_AutoGeneration | Applies to custom schemas created after this option is set, with autopk="true" and no pkSequence attribute: Campaign generates the sequence automatically. |
 
@@ -197,8 +197,8 @@ These options apply to Campaign Interaction, the offer management module. They c
 | Option | Description |
 |---|---|
 | NmsInteraction_UseDaemon | Set it to 1 to enable the asynchronous writing of propositions, or to 0 to disable it. |
-| NmsInteraction_MapWorkflowId | List of all the generated synchronization workflows. Maintenance option of the control instance. |
-| NmsExecutionInstanceId | Identifier of the execution instance. Available on execution instances. |
+| NmsInteraction_MapWorkflowId | List of all the generated synchronization workflows. Informational maintenance option of the control instance: do not modify it. |
+| NmsExecutionInstanceId | Identifier of the execution instance. Informational option available on execution instances: do not modify it. |
 
 The following options are also maintenance options of the control instance:
 
