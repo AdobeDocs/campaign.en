@@ -42,7 +42,7 @@ The generic query editor centralizes all querying capabilities. It allows the cr
 Steps to create a query are detailed [on this page](design-queries.md).
 
 <!--
-Contexts to use the query editor iin Campaign are listed below:
+Contexts to use the query editor in Campaign are listed below:
 
 |Usage|Example|
 |  ---  |  ---  |

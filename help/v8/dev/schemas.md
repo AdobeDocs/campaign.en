@@ -61,7 +61,7 @@ Schemas enable you to define an entity in the database. There is a schema for ea
 
 Adobe Campaign employs Data Schemas to:
 
-* Define how data object within the application are tied to underlying database tables.
+* Define how data objects within the application are tied to underlying database tables.
 * Define links between the different data objects within the Campaign application.
 * Define and describe the individual fields included in each object.
 

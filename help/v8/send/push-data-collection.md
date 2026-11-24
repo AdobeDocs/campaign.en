@@ -40,7 +40,7 @@ In the context of this updated implementation, to send push notifications in Ado
 
 1. [Create and configure a mobile property in Adobe Experience Platform Data Collection](#create-mobile-property)
 
-1. [Add Adobe Adobe Experience Platform Assurance extension](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recommended)
+1. [Add Adobe Experience Platform Assurance extension](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recommended)
 
 1. [Add Campaign Classic to your mobile application](#campaign-mobile-ap)
 
@@ -64,7 +64,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. Enter a **[!UICONTROL Name]** for the configuration.
 
-1. From **[!UICONTROL Mobile Application Configuration]**, select the Operational system:
+1. From **[!UICONTROL Mobile Application Configuration]**, select the operating system:
 
 >[!BEGINTABS]
 
@@ -82,9 +82,9 @@ The mobile app push credential registration is required to authorize Adobe to se
         
       This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page of your Apple developer account.
 
-1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. 
+1. Provide the **Key ID**. This is a 10 character string assigned during the creation of the p8 auth key. 
         
-   It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** pag of your Apple developer account.
+   It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page of your Apple developer account.
         
 1. Provide the **Team ID**. This is a string value which can be found under the **Membership** tab.
 
@@ -108,7 +108,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ### Create a service {#create-service}
 
-Before sending push notifications, you must define your iOS and Android apps settings in Adobe Campaign.
+Before sending push notifications, you must define your iOS and Android app settings in Adobe Campaign.
 
 Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android apps to send on iOS and Android devices.
 
@@ -138,7 +138,7 @@ After creating your service, you now need to define the mobile applications that
 
 To create an app for iOS devices, follow these steps:
 
-1. From you Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an iOS application]**. Click **[!UICONTROL Next]**.
+1. From your Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an iOS application]**. Click **[!UICONTROL Next]**.
 
    ![](assets/push-config-6.png)
 
@@ -148,7 +148,7 @@ To create an app for iOS devices, follow these steps:
 
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
 
-   In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notification and then provides the application with the image to display within the notification.
+   In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notifications and then provide the application with the image to display within the notification.
 
    ![](assets/push-config-8.png)
 
@@ -173,7 +173,7 @@ To create an app for iOS devices, follow these steps:
 
    ![](assets/push-config-9.png)
 
-1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Select the icon from the **[!UICONTROL Application icon]** field to personalize the mobile application in your service.
 
 1. Click **[!UICONTROL Next]** to start configuring the production application and follow the same steps as detailed above. Note that you cannot use the same **[!UICONTROL Integration key]** for the development version (sandbox) and the production version of the application.
 
@@ -185,7 +185,7 @@ Your iOS application is now ready to be used in Campaign.
 
 To create an app for Android devices, follow these steps:
 
-1.  From you Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an Android application]**. Click **[!UICONTROL Next]**.
+1.  From your Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an Android application]**. Click **[!UICONTROL Next]**.
 
       ![](assets/push-config-10.png)
 
@@ -259,7 +259,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 1. You now need to publish the configuration from the **[!UICONTROL Publishing flow]** menu. [Learn more](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-Your mobile property will now be automatically sync with the **[!UICONTROL Adobe Experience Platform Data Collection]** technical workflow. [Learn more](../../automation/workflow/technical-workflows.md#list-technical-workflows)
+Your mobile property will now be automatically synced with the **[!UICONTROL Adobe Experience Platform Data Collection]** technical workflow. [Learn more](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
 ## Add Campaign Classic to your mobile application {#campaign-mobile-app}
 

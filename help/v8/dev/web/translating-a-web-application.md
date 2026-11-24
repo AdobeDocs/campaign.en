@@ -51,7 +51,7 @@ To flag the strings to be translated:
 
    There are three specific cases:
 
-    * When the selected block contains several strings/blocks, it is flagged as a single string to be translated. The string contains then the HTML code of the elements inside this block.
+    * When the selected block contains several strings/blocks, it is flagged as a single string to be translated. The string then contains the HTML code of the elements inside this block.
     * When you want to flag a block that contains several strings and if at least one of these strings is already flagged, a warning is displayed. You can then remove the flag from the isolated string and add the entire block.
     
       ![](assets/dce_translation_4.png)
@@ -65,7 +65,7 @@ To flag the strings to be translated:
 
    >[!NOTE]
    >
-   >Once the strings have been collected, they will not be removed from the list if you remove the translation flag in DCE. This allows to keep them in the translation memory.
+   >Once the strings have been collected, they will not be removed from the list if you remove the translation flag in DCE. This allows you to keep them in the translation memory.
 
 1. Translate and approve the strings.
 

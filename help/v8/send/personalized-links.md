@@ -32,7 +32,7 @@ The links in email content that contain personalization need specific syntax to 
 
 Using JavaScript in email content (HTML or Text) allows you to generate and send dynamic content to the recipients, with two limitations:
 
-* The script cannot access the database directly (SQL function and API functions are not available),
+* The script cannot access the database directly (SQL functions and API functions are not available),
 * Adobe Campaign must be able to detect URLs so that links can be tracked.
 
 ## Pre-processing instructions {#pre-processing-instructions}

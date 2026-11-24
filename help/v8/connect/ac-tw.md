@@ -55,27 +55,27 @@ The **Managing social networks (Social Marketing)** module lets you interact wit
 
 To configure Adobe Campaign to post tweets to your X accounts, delegate write access to Adobe Campaign for these accounts. To do this, you must:
 
-1. Create a X account and sign up for a developer account. [Learn more](#dev-account)
+1. Create an X account and sign up for a developer account. [Learn more](#dev-account)
 1. (optional) Create a test X account for sending proofs. [Learn more](#tw-test-account)
-1. Create a X application (one app per X account). [Learn more](#create-an-app-on-twitter)
+1. Create an X application (one app per X account). [Learn more](#create-an-app-on-twitter)
 1. Create a new service for **[!UICONTROL Twitter]** (one service per X account). [Learn more](#create-tw-service)
 1. Synchronize your X account with Campaign. [Learn more](#synchro-tw-accounts)
 
 ## X developer account {#dev-account}
 
-To start with this integration, you must sign up for a [X developer account](https://developer.twitter.com){target="_blank"}.
+To start with this integration, you must sign up for an [X developer account](https://developer.twitter.com){target="_blank"}.
 
 Campaign uses the 1.1 version of the X API. To use it, you need to apply for Elevated access via the Developer Portal. Learn more about X Elevated Access [in this page](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## Create an application on X {#create-an-app-on-twitter}
 
-Once you have been approved with Elevated access, create a X application to enable Adobe Campaign to create posts on your X account. To do this, follow the steps below:
+Once you have been approved with Elevated access, create an X application to enable Adobe Campaign to create posts on your X account. To do this, follow the steps below:
 
 1. Log on to your X account.
 1. Connect to [X developer portal](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Select **Create an App**.
 1. Let X assistant guide you through the process.
-1. To allow Adobe Campaign to create posts on your account, edit to the **App permissions** from the User authentication set up section of your app. Select **Read, Write, and Direct Messages**. 
+1. To allow Adobe Campaign to create posts on your account, edit the **App permissions** from the User authentication set up section of your app. Select **Read, Write, and Direct Messages**. 
 
    ![](assets/tw-permissions.png)
    
@@ -104,7 +104,7 @@ To link your Campaign instance with your X account, create a **Twitter** service
 >Each **Twitter** service must also be created by Adobe on your mid-sourcing (MID) instance. Contact your Adobe representative to have your environment configured.
 >
 
-To enter settings, you must access both to your Adobe Campaign Client Console and an your X app permissions.
+To enter settings, you must access both your Adobe Campaign Client Console and your X app permissions.
 
 1. In **Adobe Campaign**, browse to the **[!UICONTROL Profiles and targets]** tab, and select the **[!UICONTROL Services and Subscriptions]** link
 1. Create a new service.
@@ -140,7 +140,7 @@ To check your settings, you can:
 
 Synchronization between Campaign and X is managed through dedicated technical workflows. These workflows are stored in the **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** folder. 
 
-They are stopped by default: you must start them manualy when you start using the **Social Marketing** module.
+They are stopped by default: you must start them manually when you start using the **Social Marketing** module.
 
 The **[!UICONTROL Synchronization of Twitter accounts]** technical workflow synchronizes X accounts in Adobe Campaign. This workflow recovers the list of X followers so that you can send them direct messages. [Learn more](../send/twitter.md#direct-tw-messages)
 
@@ -165,7 +165,7 @@ Once this configuration is done, you can create posts on your X accounts and sen
 
 ## Create a test account on X {#tw-test-account}
 
-In addition to X account, create a private X account which can be used for sending [tweet proofs](../send/twitter.md). To do this, follow the steps below:
+In addition to an X account, create a private X account which can be used for sending [tweet proofs](../send/twitter.md). To do this, follow the steps below:
 
 1. Create a new X account.
 1. Access the account  **Settings**.

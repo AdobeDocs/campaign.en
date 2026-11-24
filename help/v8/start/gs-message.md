@@ -46,7 +46,7 @@ topic_v2:
 ---
 # Get Started with messages {#gs-ac-msg}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent though deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent through deliveries, and can be personalized for each recipient.
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
 
@@ -74,7 +74,7 @@ To send messages, you must create a delivery. The delivery creation mode depends
 
 ## Communication channels {#gs-channel}
 
-Adobe Campaign v8 comes with the delivery channels listed below. The channels available in your environment depends on your contract. Please check your license agreement.
+Adobe Campaign v8 comes with the delivery channels listed below. The channels available in your environment depend on your contract. Please check your license agreement.
 
 * **Email channel**: email deliveries let you send personalized emails to the target population. [Learn more](../send/email.md)
 
@@ -119,7 +119,7 @@ Recurring deliveries are created within workflows via the [Recurring delivery ac
 
 A **continuous delivery** is available in the context of a workflow. It lets you add new recipients to an existing delivery, which avoids having to create a new delivery each time it is executed.
 
-If an information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
+If any information in the delivery changes (content, name, etc.), a new delivery object is created at the delivery execution. If no information was changed, the same delivery object is reused and the delivery and tracking logs are added in the same object.
 
 As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
 
@@ -138,6 +138,6 @@ You can:
 
 ## Tracking and monitoring {#gs-tracking-logs}
 
-Monitoring your deliveries after they have been sent is a key step to ensure your maketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
+Monitoring your deliveries after they have been sent is a key step to ensure your marketing campaigns are efficient and reach out to your customers. You can monitor after sending a delivery, as well as understand how delivery failures and quarantines are managed.
 
 Learn how to [track and monitor your deliveries](../send/tracking.md)

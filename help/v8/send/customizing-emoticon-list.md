@@ -41,7 +41,7 @@ Note that emoticons are only available for email and push. For more on this refe
 
 >[!CAUTION]
 >
->The emoticon list can not display more than 81 entries.
+>The emoticon list cannot display more than 81 entries.
 
 1. Choose your new emoticon to add from this [page](https://unicode.org/emoji/charts/full-emoji-list.html). Note that it has to be compatible with the different platforms such as browser and OS.
 
@@ -58,7 +58,7 @@ Note that emoticons are only available for email and push. For more on this refe
 1. Fill in the fields:
 
     * **[!UICONTROL U+]**: Code of your new emoticon. You can find the list of emoticons' codes in this [page](https://unicode.org/emoji/charts/full-emoji-list.html).
-    To avoid compatibility issues, we advise you to choose emoticons which are supported on browsers and on every operation system.
+    To avoid compatibility issues, we advise you to choose emoticons which are supported on browsers and on every operating system.
 
     * **[!UICONTROL Label]**: Label of your new emoticon.
 

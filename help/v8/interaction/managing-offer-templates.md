@@ -28,7 +28,7 @@ feature_v2:
 
  
 
-Offer templates are delivered out-of-box in Adobe Campaign. You may use them after creating your offers, duplicating them or adapting their configuration to your needs. You can also create your own templates. Template offers are stored in the folder **Resources** > **Templates** > **Offer templates**.
+Offer templates are delivered out-of-the-box in Adobe Campaign. You may use them after creating your offers, duplicating them or adapting their configuration to your needs. You can also create your own templates. Template offers are stored in the folder **Resources** > **Templates** > **Offer templates**.
 
 ## Creating an offer template {#creating-an-offer-template}
 

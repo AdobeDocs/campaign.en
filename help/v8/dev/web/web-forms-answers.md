@@ -35,7 +35,7 @@ For each input field in a form, the following storage options are available:
 
 * **[!UICONTROL Edit a recipient]**
 
-  You can select a field of the database: users' answers will be stored in this field. For each user, only the last value entered is saved: it is added to their profile: Refer to [Storing data in the database](#storing-data-in-the-database).
+  You can select a field of the database: users' answers will be stored in this field. For each user, only the last value entered is saved: it is added to their profile. Refer to [Storing data in the database](#storing-data-in-the-database).
 
 * **[!UICONTROL Variable]**
 

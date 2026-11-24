@@ -61,7 +61,7 @@ Within the Predictive Send-Time Optimization model, there are two sub-models:
 
 Output details:
 
-* Compute the best time of day to send an email for in the 7 days of the week with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
+* Compute the best time of day to send an email for the 7 days of the week with 1 hour intervals (e.g.: 9:00 am, 10:00 am, 11:00 am)
 * The model will indicate the best day in the week and the best hour in that day
 * Each optimal time is computed twice: once to maximize open rate and once to maximize click rate
 * 16 fields are given (14 for days of the week and 2 for the whole week):
@@ -99,9 +99,9 @@ The predictive engagement scoring lets you:
 This model uses multiple scores to indicate:
 
 * **Open Engagement Score / Click Engagement Score**: this value matches the probability that a subscriber will engage with a specific message (open or click). Values range from 0.0 to 1.0.
-* **Unsubscription probability**: this value matches the probability for recipient to unsubscribe from email channel given one email opened. Values range from 0.0 to 1.0.
+* **Unsubscription probability**: this value matches the probability for a recipient to unsubscribe from email channel given one email opened. Values range from 0.0 to 1.0.
 * **Retention level**:  this value ranks users into three levels: low, medium and high. High being most likely to stay with the brand and low value likely to unsubscribe.
-* **Percentile rank of retention**: profile rank in terms of unsubscription probability. Values range from 0.0 to 1.0. For example, if the retention percent rank is 0.953, this recipient is more likely to stay with brand and less likely to unsubscribe than 95.3% of all recipients.
+* **Percentile rank of retention**: profile rank in terms of unsubscription probability. Values range from 0.0 to 1.0. For example, if the retention percent rank is 0.953, this recipient is more likely to stay with the brand and less likely to unsubscribe than 95.3% of all recipients.
 
 >[!NOTE]
 >

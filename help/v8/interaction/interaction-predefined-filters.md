@@ -34,7 +34,7 @@ topic_v2:
 
 >[!NOTE]
 >
->Adobe Campaign Web UI offers you an user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. To learn more about Pre-defined filters for Web UI, please refer to the [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>Adobe Campaign Web UI offers you a user-friendly interface to effortlessly manage and customize predefined filters to meet your specific needs. Create once and save for future use. To learn more about Pre-defined filters for Web UI, please refer to the [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 To create a pre-defined filter, apply the following process:

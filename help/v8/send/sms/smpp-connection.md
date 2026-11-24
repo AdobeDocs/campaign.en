@@ -31,9 +31,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 ---
-# Validating a SMPP connection {#validate-smpp-connection}
+# Validating an SMPP connection {#validate-smpp-connection}
 
-Here are some checks to do be sure your SMPP connection is OK.
+Here are some checks to be sure your SMPP connection is OK.
 
 ## Things to check before going live {#check-go-live}
 
@@ -45,13 +45,13 @@ Before going live, be sure your SMPP setup is Ok with the list of checks below.
 
 >[!NOTE]
 >
->Enable verbose SMPP traces during checks, it will help you and the support team to understand the troubleshoutings.
+>Enable verbose SMPP traces during checks, it will help you and the support team to understand the troubleshooting.
 
 ### Check for external account conflicts {#sms-external-accounts-check}
 
 Check that you don't have leftover SMS external accounts. Delete the test accounts in order to eliminate potential conflicts.
 
-Check that no other instance connect to the external account. In particular, make sure that the preprod environment does not connect to the prod external account.
+Check that no other instance connects to the external account. In particular, make sure that the preprod environment does not connect to the prod external account.
 
 If you need to have multiple accounts on the same Campaign instance that connect to the same provider, contact the provider to make sure that they actually distinguish connections between these accounts. Having multiple accounts with the same login requires extra configuration.
 
@@ -63,7 +63,7 @@ Try sending a few SMS on different mobiles.
 
 **Send SMS with all kinds of characters**
 
-If you need to send SMS with non-GSM or non-ASCII characters, try sending some messages with the most diverse characters as possible. If you set up a custom character mapping table, send at least one SMS for all possible data_coding values.
+If you need to send SMS with non-GSM or non-ASCII characters, try sending some messages with the most diverse characters possible. If you set up a custom character mapping table, send at least one SMS for all possible data_coding values.
 
 **Check that SR are properly processed**
 
@@ -92,7 +92,7 @@ The minimum number of messages to send could be calculated like this:
 After the delivery is finished, check the following things:
 
 * Check that all messages were sent (not necessarily received)
-* There must be absolutely zero PDU with command_status not 0x00000000, unless this is explicitely stated by the provider as normal operation
+* There must be absolutely zero PDU with command_status not 0x00000000, unless this is explicitly stated by the provider as normal operation
 * Connections must stay absolutely stable (no BIND PDU) during the whole delivery process.
 * Check that all messages have a SR and that it was correctly processed (see [Check that SR are properly processed](#real-test)). If a small percentage has errors, check that these were actual SR returning errors, not errors during sending or processing on the Campaign side.
 * If you are unsure about performance, check that latency is reasonable, especially between a PDU and its corresponding RESP, having more than 500ms latency can be a problem for high throughput. Use that latency to check the sending window formula (see the Sending window setting for more details)
@@ -179,7 +179,7 @@ To isolate the external account causing problems:
 1. Disable all external accounts
 1. Enable one external account
 1. Try to reproduce the problem
-1. If the problem does not appear with that single account, disable it and restart to step 2 on the next account. Once you checked every accounts individually, there are 2 possible scenarios:
+1. If the problem does not appear with that single account, disable it and restart to step 2 on the next account. Once you checked every account individually, there are 2 possible scenarios:
 
 **The problem appeared on one or several accounts**
 
@@ -205,8 +205,8 @@ Adobe Campaign supports handling multiple short codes on the same external accou
 
 In general, SMPP connections tend to be very stable over time, and once they are configured correctly they should continue working.
 
-* Investigate whether connector has been changed recently - and by whom (check External Accounts as a group).
-* Investigate whether system was upgraded and when.
+* Investigate whether the connector has been changed recently - and by whom (check External Accounts as a group).
+* Investigate whether the system was upgraded and when.
 * Investigate whether any packages affecting SMS might have been upgraded recently.
 
 If none of these checks lead to a root cause, contact the provider. Sometimes, when providers update their platforms, their connector behaves slightly differently. This might break fine tuned settings and introduce regressions.
@@ -216,7 +216,7 @@ It is recommended to keep in touch with the provider, they often communicate maj
 #### Issue with mid-sourcing (hosted)  {#sms-issue-hosted}
 
 * If the problem happens on a mid-sourcing environment, make sure that the delivery and broadlogs are properly created and updated on the mid-sourcing server. If that is not the case, the issue is not an SMS issue.
-* Make sure that the mid operator name is stricly in lower case otherwise the delivery will remain in pending status.
+* Make sure that the mid operator name is strictly in lower case otherwise the delivery will remain in pending status.
 * If everything works on the mid server and SMS are properly sent, but the marketing instance is not properly updated, then you have a mid synchronization issue.
 
 #### Issue when connecting to the provider {#sms-issue-connection}
@@ -242,7 +242,7 @@ A connection is considered unstable if any of these things happen:
 
 **How to fix connection stability problems:**
 
-* Unstable connections are rarely the root cause, it's often the result of another problem triggering a disconnect in a way or another. Finding the root cause is the priority.
+* Unstable connections are rarely the root cause, it's often the result of another problem triggering a disconnect in one way or another. Finding the root cause is the priority.
 * Enable verbose SMPP traces. You will need them to see what's happening when the connection restarts.
 * If the provider sends UNBIND PDUs, they probably do something wrong. Ask them why they send UNBIND and it will probably lead to the root cause.
 * Taking a network capture is sometimes the only way to see how the connection is closed.
@@ -250,11 +250,11 @@ A connection is considered unstable if any of these things happen:
 * If the provider closes the connection after sending a clean error (such as DELIVER_SM_RESP with an error code), they must fix their connector because that prevents other kinds of messages from being transmitted and will trigger MTA throttling. This is especially important in transceiver mode where closing the connection impacts both MT and SR.
 * If there are timeouts (BIND timeouts, SUBMIT_SM timeouts), Campaign may be sending messages too quickly for that provider. Try lowering the *max MT throughput* setting and see if it solves the issue.
 
-#### Issue when sending a MT (regular SMS sent to an end-user)
+#### Issue when sending an MT (regular SMS sent to an end-user)
 
-* Check that the connection is stable: a SMPP connection should stay up for at least 1 hour continuously. See the section "Issue with unstable connections" above.
+* Check that the connection is stable: an SMPP connection should stay up for at least 1 hour continuously. See the section "Issue with unstable connections" above.
 * If restarting the SMS process makes sending MT working again for a small period of time, you probably have throttling due to an unstable connection. See the section "Issue with unstable connections" above.
-* Check that the broad log is present and in the correct status with the correct dates. If it's not, it's not a SMS issue but a delivery issue or a delivery preparation issue (that's outside the scope of this document).
+* Check that the broad log is present and in the correct status with the correct dates. If it's not, it's not an SMS issue but a delivery issue or a delivery preparation issue (that's outside the scope of this document).
 * Check that the SMS connector is actually bound with the provider's equipment. Ask the provider for feedback to make sure all systems are communicating properly. See BIND_TRANSMITTER and BIND_TRANSCEIVER PDUs for information about the bind process. You may need to enable SMPP traces for proper troubleshooting.
 * With the SMPP traces enabled, check that the SUBMIT_SM PDU is containing the right information (see the documentation above).
 * Check that the provider responds with a SUBMIT_SM_RESP PDU with a "OK" value (code 0). Make sure that the PDU arrives with a reasonable delay: anything longer than 1 second is suspicious and must be discussed with the provider, it usually arrives in less than 100ms.
@@ -277,12 +277,12 @@ Mitigating the amount of duplicates when there is a retry:
 
 * You will need SMPP traces enabled to do any kind of SR troubleshooting.
 * Check that the DELIVER_SM PDU is coming from the provider and that it is well formed.
-* Check that Campaign replies with a successful DELIVER_SM_RESP PDU in a timely manner. This guarantees that the SR has been inserted into the providerMsgStatus table for defered processing by the SMS process.
+* Check that Campaign replies with a successful DELIVER_SM_RESP PDU in a timely manner. This guarantees that the SR has been inserted into the providerMsgStatus table for deferred processing by the SMS process.
 
 If the DELIVER_SM PDU is not successfully acknowledged, then you need to check a few things:
 
 * Check regex related to id extraction and error processing in the external account. You may need to validate them against the content of the DELIVER_SM PDU.
-* Check that errors are properly provisioned in the broadLogMsg table (the Campaign documentation explains this in details).
+* Check that errors are properly provisioned in the broadLogMsg table (the Campaign documentation explains this in detail).
 
 If the DELIVER_SM PDU has been acknowledged by the ACC extended SMPP connector but the broadLog is not updated properly, check the ID reconciliation process described in the section Matching MT, SR and broadlog entries above.
 
@@ -290,7 +290,7 @@ If you fixed everything but some invalid SR are still in the provider's buffers,
 
 If SR processing is slow, try qualifying the most common status messages in the BroadLogMsg table.
 
-If only some SR are received but not all, check that no other system connect to your provider's account, such as a test system. SR can be routed on any connection, so some of them may be routed to this other system. The provider might help you finding where is this other system connecting to the account.
+If only some SR are received but not all, check that no other system connects to your provider's account, such as a test system. SR can be routed on any connection, so some of them may be routed to this other system. The provider might help you finding where is this other system connecting to the account.
 
 #### Issue when processing MO (and quarantine/auto reply)
 
@@ -322,7 +322,7 @@ The most common source of problems is copy-paste from a word processor, that cha
 
 Don't copy-paste your message when testing, always type it directly in the interface.
 
-**Don't be intimidated by hexadecimal**. Hexadecimal looks strange and unnatural, but it has a very distinct quality: you can tell the difference between similar characters. A lower-case L, a upper-case I, O, 0, all different types of quotes, non-latin encodings or even different types of spaces can all look the same (or even not being displayed at all). Hexadecimal shows everything and helps comparing things.
+**Don't be intimidated by hexadecimal**. Hexadecimal looks strange and unnatural, but it has a very distinct quality: you can tell the difference between similar characters. A lower-case L, an upper-case I, O, 0, all different types of quotes, non-latin encodings or even different types of spaces can all look the same (or even not being displayed at all). Hexadecimal shows everything and helps comparing things.
 
 To convert unicode to hexadecimal, you can use online tools.
 
@@ -359,9 +359,9 @@ If the provider complains about buffer overload on their side, this may be becau
 * Check that the instance database is not overloaded. SR processing is very dependent on database performance.
 * Ask the provider to increase the sending window for DELIVER_SM on their side. Ideally it should be as big as the *batchUpdateSize* setting in serverConf.
 
-### Elements to include when communicating about a SMS issue
+### Elements to include when communicating about an SMS issue
 
-Whenever you seek assistance on a SMS issue (whether it's opening a support ticket to Adobe Campaign, to the SMS provider, or any kind of communication about the issue), you will need to include at least the following information to be sure that it will be properly qualified. Properly qualified issues are key to solving problems faster, so taking a little more time to try to understand the situation and give meaningful information will lead to a giant leap in efficiency.
+Whenever you seek assistance on an SMS issue (whether it's opening a support ticket to Adobe Campaign, to the SMS provider, or any kind of communication about the issue), you will need to include at least the following information to be sure that it will be properly qualified. Properly qualified issues are key to solving problems faster, so taking a little more time to try to understand the situation and give meaningful information will lead to a giant leap in efficiency.
 
 * Enable verbose SMPP messages during the time when the problem appears. Most SMS problems are virtually impossible to solve without this.
 * If the problem is related to SMS traffic, contact the provider first. They are the most knowledgeable and their platform is usually suited for efficient diagnosis of SMS traffic problems in real time.
@@ -372,7 +372,7 @@ Whenever you seek assistance on a SMS issue (whether it's opening a support tick
 * If you include logs, traces or captures, pinpoint the exact location in the file when the problem appears, as well as the exact location of a working example if there is any. Captures or traces can be big and tedious to look at, so anything helping to find information in them is helpful.
 * If you reference messages, PDUs or logs, clearly state their timestamp so they are easy to find by other people.
 * Try to reproduce the problem on a test environment. If you are unsure about a setting, try it on the test environment and check the result with the SMPP traces. It's usually better to report problems replicated on test environments than directly reporting problems on production environments.
-* Include any change or tweaks made on the platform: even a small change can have huge impacts. Also, include any change that the provider may have done on their side.
+* Include any changes or tweaks made on the platform: even a small change can have huge impacts. Also, include any change that the provider may have done on their side.
 
 #### When is a network capture useful?
 

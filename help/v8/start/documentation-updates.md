@@ -51,11 +51,11 @@ A note has been added to specify how to clear instance variables when restarting
 
 ## May 2024 {#may-2024}
 
-* The list of channels and types of deliveries are now listed in [this page](create-message.md).
+* The list of channels and types of deliveries is now listed in [this page](create-message.md).
 * The delivery settings and wave management sections have been reorganized and improved. [Read more](../send/configure-and-send.md).
 * A note has been added to specify that **[!UICONTROL Change Dimension]** and **[!UICONTROL Change Data source]** activities should not be added in one row and need to have an **[!UICONTROL Enrichement]** activity in between them. Read more in the [Change Dimension](../../automation/workflow/change-dimension.md) and [Change Data source](../../automation/workflow/change-data-source.md) sections.
 
-## Febuary 2024 {#feb-2024}
+## February 2024 {#feb-2024}
 
 * All new features, changes and improvements coming with [!DNL Campaign] v8.6 release have been detailed in the documentation. [Read more](release-notes.md)
 * Campaign v8 version management and upgrade mechanism are now detailed in a dedicated page. [Read more](upgrades.md)

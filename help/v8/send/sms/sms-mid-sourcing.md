@@ -46,12 +46,12 @@ Sending SMS deliveries with a mid-sourcing infrastructure requires:
 
 First, you need to create an SMS operator on the Mid-server, that will be used by the SMS external account on the Marketing server.
 
-To create you SMS operator, follow the steps below: 
+To create your SMS operator, follow the steps below: 
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**, click on the **[!UICONTROL New]** and fill in the form in the new window opened. 
 
     * **[!UICONTROL Name (login)]** and **[!UICONTROL Label]** are mandatory.
-    * Password is not mandatory but highly recommended for the security.
+    * Password is not mandatory but highly recommended for security.
 
     Note that the Name (login) is to be later used to name your SMPP external account in the Mid-server.
 
@@ -74,7 +74,7 @@ You can see it in the operators list now.
 
 ## Create an SMS external account on the Marketing server {#sms-external-account}
 
-In a mid infrastructure, you need to create a SMS external account on the Marketing server as below
+In a mid infrastructure, you need to create an SMS external account on the Marketing server as below
 
 >[!IMPORTANT]
 >
@@ -128,7 +128,7 @@ To do this, follow the steps below:
 
 ## Configure the delivery template {#sms-delivery-template}
 
-To facilitate the creation of your SMS delivery, create a SMS delivery template where all your settings are referenced.
+To facilitate the creation of your SMS delivery, create an SMS delivery template where all your settings are referenced.
 
 In **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** on the Marketing server, right click on the existing Mobile delivery template, and choose **[!UICONTROL Duplicate]**.
 

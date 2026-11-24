@@ -39,7 +39,7 @@ topic_v2:
 
  
 
-In this use case, you will learn steps to design an email delivery using Adobe Campaign Digital Content Editor (DCE).
+In this use case, you will learn the steps to design an email delivery using Adobe Campaign Digital Content Editor (DCE).
 
 Our final goal is to create a delivery with a personalized template which contains:
 
@@ -62,11 +62,11 @@ To create a new delivery, place your cursor in the **Campaigns** tab and click *
 
 ## Step 2 - Selecting a template {#step-2---selecting-a-template}
 
-Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
+Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients; however, this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 
-## Step 3 - Selecting a content {#step-3---selecting-a-content}
+## Step 3 - Selecting content {#step-3---selecting-a-content}
 
 The Digital Content Editor comes with various out-of-the-box templates with varying structures (columns, text areas, etc.).
 
@@ -74,7 +74,7 @@ Select the content template that you want to use, then click the **[!UICONTROL S
 
 ![](assets/dce_select_model.png)
 
-You can also import an HTML content created outside of Adobe Campaign by selecting **[!UICONTROL From a file]**.
+You can also import HTML content created outside of Adobe Campaign by selecting **[!UICONTROL From a file]**.
 
 ![](assets/dce_select_from_file_template.png)
 

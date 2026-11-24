@@ -110,7 +110,7 @@ To do this, use the **[!UICONTROL Split]** activity in your workflow and define 
 
 When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
 
-The message contact will display correctly for the users on Japanese mobiles, just as for the standard recipients.
+The message content will display correctly for the users on Japanese mobiles, just as for the standard recipients.
 
 >[!IMPORTANT]
 >

@@ -53,12 +53,12 @@ To ensure the editor's optimal operation, we recommend observing the following g
 
   The official list of 'type' attributes is available [in this website](https://www.w3schools.com/tags/att_input_type.asp).
 
-* Steps to simulating an end page with the DCE:
+* Steps to simulate an end page with the DCE:
 
   ![](assets/dce_enchainement.png)
 
 * Make sure that there is only one `<body> </body>` in the page.
-* When a CSS or JS file is uploaded, the images contained within the.zip file are not uploaded. The references to these images present in the CSS are therefore not updated.
+* When a CSS or JS file is uploaded, the images contained within the .zip file are not uploaded. The references to these images present in the CSS are therefore not updated.
 
 ## Content editor supported formats {#content-editor-supported-formats}
 
@@ -103,7 +103,7 @@ The upper section of the editor displays messages related to the status of the c
 * The Web application has not been published and cannot be accessed online.
 * The Web application is online, please publish again to apply any changes.
 * The page content isn't functional. It must include an HTML form (`<form>`)
-* There is n input zone(s) or buttons to configure.
+* There are n input zone(s) or buttons to configure.
 * To enable the transition to the next page, you need to link the 'Next page' action to a button or a link on the current page.
 
 ### List of messages when editing a delivery {#list-of-messages-when-editing-a-delivery}

@@ -31,7 +31,7 @@ level_v2:
 
 Before selecting your audience, [learn more about audience here](../../audiences/gs-audiences.md).
 
-In most cases, the main target of a delivery is extracted from Adobe Campaign database (default mode). However, the audience can also be stored in an external file. [Learn more in this section](#external-audience).
+In most cases, the main target of a delivery is extracted from the Adobe Campaign database (default mode). However, the audience can also be stored in an external file. [Learn more in this section](#external-audience).
 
 ## Audience in Adobe Campaign
 
@@ -39,7 +39,7 @@ To select the audience of your delivery, follow the steps below:
 
 1. In the delivery editor, click on **[!UICONTROL To]** link. You will have a **[!UICONTROL Select target]** window opened
 
-1. Because the audience is stored in Adobe Campaign database, in the **[!UICONTROL Main target]** tab, choose **[!UICONTROL Defined in the database]** option.
+1. Because the audience is stored in the Adobe Campaign database, in the **[!UICONTROL Main target]** tab, choose **[!UICONTROL Defined in the database]** option.
 
     ![](assets/audience_to.png){zoomable="yes"}
 
@@ -72,11 +72,11 @@ To select the audience of your delivery, follow the steps below:
 
     ![](assets/audience_finish.png){zoomable="yes"}
 
-    You can add target population as many as you need in clicking again on **[!UICONTROL Add]** button. You can also delete some of them by clicking on the cross located after their label.
+    You can add as many target populations as you need by clicking again on **[!UICONTROL Add]** button. You can also delete some of them by clicking on the cross located after their label.
 
 ## Audience in an external file {#external-audience}
 
-You can use Adobe Campaign to send a delivery on an audience who is not in its database, but in an external file.
+You can use Adobe Campaign to send a delivery on an audience that is not in its database, but in an external file.
 
 Here are the steps for this: 
 

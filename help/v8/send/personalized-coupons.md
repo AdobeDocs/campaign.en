@@ -54,7 +54,7 @@ Before following the steps below, make sure that you know the type of coupon you
    ![](assets/deliv_coup_01.png)
 
 1. Click the **[!UICONTROL New]** button.
-1. Enter the name of the coupon in **[!UICONTROL Label]** field. A unique code has been automatically entered in **[!UICONTROL Coupon code]**. You can keep the code or enter a new one.
+1. Enter the name of the coupon in the **[!UICONTROL Label]** field. A unique code has been automatically entered in **[!UICONTROL Coupon code]**. You can keep the code or enter a new one.
 
    ![](assets/deliv_coup_02.png)
 
@@ -90,7 +90,7 @@ Values for **[!UICONTROL status]**, **[!UICONTROL channel]**, and **[!UICONTROL 
 
 ## Insert a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
-In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](email.md)
+In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](email.md).
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]**.
 1. Click **[!UICONTROL Create]**.
 

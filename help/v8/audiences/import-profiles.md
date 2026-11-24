@@ -39,7 +39,7 @@ To populate your Campaign database, you can [add profiles manually](create-profi
 
 ## Import profiles with a workflow {#import-profiles-with-a-wf}
 
-Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from a SFTP, you can use workflows to standardize your data management procedures.
+Workflows can be a useful way to automate some of your import processes. Whether you import data from a local file or from an SFTP, you can use workflows to standardize your data management procedures.
 
 ### Use data from a list: Read list {#data-from-read-list}
 

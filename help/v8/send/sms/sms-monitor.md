@@ -29,15 +29,15 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 ---
-# Monitor and track a SMS
+# Monitor and track an SMS
 
-It is important to monitor you SMS delivery, in order to be sure that your marketing campaigns are efficient.
+It is important to monitor your SMS delivery, in order to be sure that your marketing campaigns are efficient.
 
-Here the possibilities you have to know what happens after the sending of your delivery
+Here are the possibilities you have to know what happens after the sending of your delivery
 
-## Understand the SMS delivery dashboad
+## Understand the SMS delivery dashboard
 
-The delivery dashboard gives you many information about your SMS. 
+The delivery dashboard gives you much information about your SMS. 
 
 To access the dashboard, double-click on your delivery in the delivery list.
 
@@ -55,7 +55,7 @@ You can see in the **[!UICONTROL Exclusions]** tab the details on why some addre
 
 ![](assets/sms_exclusions.png){zoomable="yes"}
 
-The **[!UICONTROL Tracking]** tab is about the tracking. Below the example of an URL tracked in the SMS content.
+The **[!UICONTROL Tracking]** tab is about the tracking. Below the example of a URL tracked in the SMS content.
 
 ![](assets/sms_trackinglogs.png){zoomable="yes"}
 

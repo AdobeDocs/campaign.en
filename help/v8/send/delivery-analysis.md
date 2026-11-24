@@ -32,7 +32,7 @@ The analysis is the delivery preparation step. It can be started once your targe
 
 ## Start the analysis {#start-the-analysis}
 
-To prepare the the delivery, make sure the delivery content and target have been defined, and follow the steps below:
+To prepare the delivery, make sure the delivery content and target have been defined, and follow the steps below:
 
 1. From the delivery windows, click the **[!UICONTROL Send]** button.
 1. Select **[!UICONTROL Deliver as soon as possible]** to perform the audience calculation, and content preparation for an immediate sending. You can also postpone the delivery to a later date, or get an estimation of the population without preparing the content.
@@ -41,7 +41,7 @@ To prepare the the delivery, make sure the delivery content and target have been
 
 1. Click **[!UICONTROL Analyze]** to launch the analysis manually. The progress bar shows the progress of the analysis.
 
-    A set checking rules is applied during the delivery analysis. These rules are defined in a **typology**, which is selected in the **[!UICONTROL Typology]** tab in the delivery properties. Learn more about typologies in [this section](../../automation/campaign-opt/campaign-typologies.md).
+    A set of checking rules is applied during the delivery analysis. These rules are defined in a **typology**, which is selected in the **[!UICONTROL Typology]** tab in the delivery properties. Learn more about typologies in [this section](../../automation/campaign-opt/campaign-typologies.md).
     
     By default, for emails, the analysis covers the following points:
 

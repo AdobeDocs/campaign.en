@@ -28,7 +28,7 @@ level_v2:
 
 The Adobe Campaign Managed Cloud Service Destination and Source connectors allow seamless integration between Adobe Campaign and Adobe Experience Platform. With this integration, you can:
 
-* Send Adobe Experience Platform audiences over to Adobe Campaign, and send back delivery and tracking logs into Adobe Experience Platform for analysis purpose,
+* Send Adobe Experience Platform audiences over to Adobe Campaign, and send back delivery and tracking logs into Adobe Experience Platform for analysis purposes,
 * Bring Adobe Experience Platform profile attributes into Adobe Campaign and have a sync process in place so that they can be updated on a regular basis.
 
 ## Send Adobe Experience Platform audiences to Campaign {#audiences}
@@ -48,11 +48,11 @@ The main steps to send Adobe Experience Platform audiences to Adobe Campaign and
 
         ![](assets/aep-destination.png){width="800" align="center"}
 
-    Detailed information on how to configure the destination are available in [Adobe Campaign Managed Cloud Services connection documentation](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+    Detailed information on how to configure the destination is available in [Adobe Campaign Managed Cloud Services connection documentation](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
 * Use an Adobe Campaign Managed Cloud Services **Source connection** to send Adobe Campaign delivery and tracking logs over to Adobe Experience Platform:
 
-    To do this, configure a new Adobe Campaign Managed Cloud Services **Source connection** to ingest Campaign events into Adobe Experient Platform. Provide details on the Campaign instance and the schema to use, select a dataset where data should be ingested, then configure the fields to retrieve. [Learn how to create an Adobe Campaign Managed Cloud Services source connection](https://www.adobe.com/go/sources-campaign-ui-en)
+    To do this, configure a new Adobe Campaign Managed Cloud Services **Source connection** to ingest Campaign events into Adobe Experience Platform. Provide details on the Campaign instance and the schema to use, select a dataset where data should be ingested, then configure the fields to retrieve. [Learn how to create an Adobe Campaign Managed Cloud Services source connection](https://www.adobe.com/go/sources-campaign-ui-en)
 
     ![](assets/aep-logs.png){width="800" align="center"}
 
@@ -77,4 +77,4 @@ The main steps to sync Adobe Experience Platform profile attributes with Adobe C
 1. Configure the profile attributes that you want to update into Adobe Campaign. 
 1. Once the flow has been configured, the selected profile attributes will be synced with Adobe Campaign and updated for all the profiles targeted by the segments configured in the destination.
 
-Detailed information on how to configure the destination are available in [Adobe Campaign Managed Cloud Services connection documentation](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+Detailed information on how to configure the destination is available in [Adobe Campaign Managed Cloud Services connection documentation](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}

@@ -37,9 +37,9 @@ topic_v2:
 
  
 
-Adobe Campaign enables you to stop tracking web behaviors of end-users who opt-out of behavioral tracking via cookies or web beacons. The feature includes the ability to display a banner to present the end-user with that option; you may add these banners into web applications or landing pages.
+Adobe Campaign enables you to stop tracking web behaviors of end-users who opt out of behavioral tracking via cookies or web beacons. The feature includes the ability to display a banner to present the end-user with that option; you may add these banners into web applications or landing pages.
 
-If an end-user opts-out of behavioral tracking via cookies or web beacons, then that information is transmitted to the Adobe Campaign tracking server with JavaScript APIs. Please note that some jurisdictions may require that Customer present end-users with an opt-in before an opt-out can be offered (or have other legal requirements), and it is Customer’s responsibility to comply with applicable laws.
+If an end-user opts out of behavioral tracking via cookies or web beacons, then that information is transmitted to the Adobe Campaign tracking server with JavaScript APIs. Please note that some jurisdictions may require that Customer present end-users with an opt-in before an opt-out can be offered (or have other legal requirements), and it is Customer’s responsibility to comply with applicable laws.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ If an end-user opts-out of behavioral tracking via cookies or web beacons, then 
 
 To be displayed within Web applications or Landing pages, the banner needs to be configured.
 
-Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Adobe Campaign is delivered with a sample banner that you must adapt to your needs. This banner version appears as a personalization block located in the content model folder. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ The banner is delivered with a specific CSS. However, you can overwrite the styl
 
 ## Setting the opt-out cookie using API {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign is delivered with APIs that allows you to manage the cookie value and to retrieve user preferences.
+Adobe Campaign is delivered with APIs that allow you to manage the cookie value and to retrieve user preferences.
 
 The cookie name is **acoptout**. The common values are:
 
@@ -103,7 +103,7 @@ The available client-side APIs to customize the banner are:
 
 * **NL.ClientWebTracking.allow()**: Sets the opt-out cookie value to allow Web tracking. Web tracking is allowed by default.
 * **NL.ClientWebTracking.forbid()**: Sets the opt-out cookie value to forbid Web tracking. Web tracking needs a user input to be forbidden.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Closes the opt-out cookie banner after the user has clicked the Accept or Refuse button. (during the click event bubbling phase)
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Closes the opt-out cookie banner after the user has clicked the Accept or Refuse button (during the click event bubbling phase).
 
   bannerDomElt {DOMElement} the root DOM element of the cookie banner that needs to be removed
 

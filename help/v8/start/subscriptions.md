@@ -30,7 +30,7 @@ level_v2:
 
 Use Adobe Campaign to create and monitor your information services such as newsletters and to manage the subscriptions/unsubscriptions to these services. Several services can be defined in parallel, for example: specialist newsletters for certain product categories, themes or areas of a web site, subscriptions to various types of alert messages and real-time notifications.
 
-Learn how to create an information service, send newsletter and manage opt-in and opt-out in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+Learn how to create an information service, send newsletters and manage opt-in and opt-out in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
 To subscribe (opt-in) a profile to a service, available options are:
 
@@ -66,7 +66,7 @@ To subscribe (opt-in) a profile to a service, available options are:
    Learn more in [this section](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 
-* Create a targeting workflow and using a **[!UICONTROL Subscription service]** activity. 
+* Create a targeting workflow and use a **[!UICONTROL Subscription service]** activity. 
 
    ![](assets/wf-subscription.png) 
 

@@ -30,7 +30,7 @@ topic_v2:
 
 The **/customResources** endpoint allows you to expose the Campaign custom resources in REST. Based on this API, an integration between custom entities and external endpoints is available.
 
-The /customResources endpoint has exactly the same behavior as /profileAndServices endpoint.
+The /customResources endpoint has exactly the as the /profileAndServices endpoint.
 
 The custom resources that are exposed within this API are:
 

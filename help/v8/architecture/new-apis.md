@@ -27,7 +27,7 @@ level_v2:
 ---
 # Specific FFDA Campaign APIs{#gs-new-api}
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two specific APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them is to enable the staging mechanism on the schema. [Learn more](staging.md)
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), Campaign v8 comes with two specific APIs to manage data between Campaign local database and Cloud database. Prerequisites to use them are to enable the staging mechanism on the schema. [Learn more](staging.md)
 
 * Ingestion API: **xtk.session.ingest**
 
@@ -84,7 +84,7 @@ Once the workflow is executed, the staging table is fed as expected.
     </soapenv:Envelope>
     ```
 
-1. UUID is sent back to the SOAP response:
+1. The UUID is sent back in the SOAP response:
 
     ```
     <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -96,7 +96,7 @@ Once the workflow is executed, the staging table is fed as expected.
     </SOAP-ENV:Envelope>
     ```
 
-As a result, staging table is fed as expected.
+As a result, the staging table is fed as expected.
 
 ![](assets/no-reconciliation.png)
 
@@ -144,7 +144,7 @@ Once the workflow is executed, the staging table is fed as expected.
     </soapenv:Envelope>
     ```
 
-1. In this case UUID is not provided back to the response because it has been provided in the payload. The response is:
+1. In this case the UUID is not provided back to the response because it has been provided in the payload. The response is:
 
     ```
     <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -156,11 +156,11 @@ Once the workflow is executed, the staging table is fed as expected.
     </SOAP-ENV:Envelope>
     ```
 
-As a result, staging table is fed as expected.
+As a result, the staging table is fed as expected.
 
 ## Update or delete data{#data-update-api}
 
-The **xtk.session.IngestExt** API is optmized for data update/delete. For insert only, prefer **xtk.session.ingest**. Insert is working whether the record key is not in the staging table.
+The **xtk.session.IngestExt** API is optimized for data update/delete. For insert only, prefer **xtk.session.ingest**. Insert works when the record key is not in the staging table.
 
 ### Insert / update
 
@@ -214,13 +214,13 @@ Once the workflow is executed, the staging table is updated as expected.
     </SOAP-ENV:Envelope>
     ```
 
-As a result, staging table is updated as expected.
+As a result, the staging table is updated as expected.
 
 ## Subscription management {#sub-apis}
 
 Subscription management in Campaign is described in [this page](../start/subscriptions.md).
 
-Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. Subscriber information is temporary stored in staging tables in the local database, and the synchronization workflow sends this data from the local database to the Cloud database. As a consequence, subscription and unsubscription processes are **asynchronous**. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](replication.md#workflows)
+Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. Subscriber information is temporarily stored in staging tables in the local database, and the synchronization workflow sends this data from the local database to the Cloud database. As a consequence, subscription and unsubscription processes are **asynchronous**. Opt-in and opt-out requests are processed each hour through a specific technical workflow. [Learn more](replication.md#workflows)
 
 
 **Related topics**

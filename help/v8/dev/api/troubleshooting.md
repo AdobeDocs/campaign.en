@@ -19,13 +19,13 @@ level_v2:
 
 * **When going to the Adobe.io Console you get the following error: "The Adobe I/O console is only available to select members of enterprise accounts. If you believe you should have access, please contact your System Administrator."**
 
-You can only create API Keys for the organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrator of the organization.
+You can only create API Keys for the organizations you are admin of. If this message is displayed and you want to create API Keys and you want to ask one of the administrators of the organization.
 
 * **When doing a request to Adobe.io you get {"error_code":"403023","message":"Profile is not valid"}**
 
 This means that there is an issue with the IMS provisioning of your specific Campaign product: the IMS team needs to fix it.
 
-To get more details you can call the IMS API with your token to see what your IMS profile looks like: You need to have a prodCtx where the organization_id is the same as the one you put in you URL for Adobe.io to be able to route your request.
+To get more details you can call the IMS API with your token to see what your IMS profile looks like: You need to have a prodCtx where the organization_id is the same as the one you put in your URL for Adobe.io to be able to route your request.
 If it is missing the IMS provisioning needs to be fixed.
 
 ```
@@ -87,7 +87,7 @@ In the response, the ORGANIZATION_ID value must be the same in your first GET re
 
 * **When doing a request to Adobe.io you get {"code":500, "message":"Oops. Something went wrong. Check your URI and try again."}**
 
-Adobe.io declares your unvalid URI: most likely the URI you are requesting is not valid. On Adobe.io when you select the Campaign service you get a picker with a list of possible organization_ids. You need to check that the one you choose is the one you put in your URL.
+Adobe.io declares your invalid URI: most likely the URI you are requesting is not valid. On Adobe.io when you select the Campaign service you get a picker with a list of possible organization_ids. You need to check that the one you choose is the one you put in your URL.
 
 * **When doing a request to Adobe.io you get {"error_code":"401013","message":"Oauth token is not valid"}**
 

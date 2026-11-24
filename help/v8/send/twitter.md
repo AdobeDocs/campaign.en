@@ -38,11 +38,11 @@ Once the integration is configured, you can:
 
 Configuration steps to integrate your X account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
 
-## Create and publish a X post {#publish-on-tw}
+## Create and publish an X post {#publish-on-tw}
 
 Follow the steps below to post a message on your X account:
 
-1. Create a X delivery
+1. Create an X delivery
 
     Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
 
@@ -77,7 +77,7 @@ Follow the steps below to post a message on your X account:
 
     >[!CAUTION]
     >
-    >When posting on X, the limitations apply:
+    >When posting on X, the following limitations apply:
     >
     >* The message cannot exceed 140 characters.
     >* HTML format is not supported.
@@ -110,7 +110,7 @@ The **[!UICONTROL Synchronize Twitter accounts]** technical workflow recovers th
 
 To send direct messages to your followers, follow the steps below:
 
-1. Create a X delivery based on the **[!UICONTROL Tweet (Direct Message)]** built-in delivery template.
+1. Create an X delivery based on the **[!UICONTROL Tweet (Direct Message)]** built-in delivery template.
 
 1. Select the main target
 
@@ -147,7 +147,7 @@ To send direct messages to your followers, follow the steps below:
 
     1. Click the **[!UICONTROL Preview]** tab.
     1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Visitor Subscription]**.
-    1. Choose a X account which you want to test the preview with.
+    1. Choose an X account which you want to test the preview with.
 
 1. Send a proof
 

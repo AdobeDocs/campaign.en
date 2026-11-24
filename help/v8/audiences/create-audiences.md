@@ -32,7 +32,7 @@ Use Campaign lists to create and organize your audiences.
 
 A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These list are based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles)
+Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These lists are based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles)
 
 ![](assets/list-dashboard.png)
 
@@ -75,7 +75,7 @@ You can select profiles and add them to a list. To perform this, follow the step
 
 1. From Campaign Explorer, select profiles and right-click.
    
-   These profiles can be filtered to met specific criteria.
+   These profiles can be filtered to meet specific criteria.
    
 1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
 
@@ -134,7 +134,7 @@ In the example below, you create a list of all the recipients between 25 and 40.
 1. Click **[!UICONTROL Ok]**, and save the workflow.
 1. Start the workflow.
 
-   The list of matching recipients is then created. You can access to this list from the **[!UICONTROL Lists]** entry of the home page.
+   The list of matching recipients is then created. You can access this list from the **[!UICONTROL Lists]** entry of the home page.
 
    ![](assets/access-new-list.png)
 

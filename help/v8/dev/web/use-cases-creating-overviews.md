@@ -52,7 +52,7 @@ In the following example, we will create overview-type Web applications to displ
 
    ![](assets/s_ncs_configuration_webapp_create.png)
 
-1. Changing the page title.
+1. Change the page title.
 
    This title will appear in the overview header and in the Web application overview.
 
@@ -99,7 +99,7 @@ In an overview, you can choose to access data depending on its location in the A
 
    >[!NOTE]
    >
-   >At this stage, the Web application is not within its application context, the filter can therefore not be tested on the folder.
+   >At this stage, the Web application is not within its application context; the filter can therefore not be tested on the folder.
 
 ## Adding a button to configure a new Web application {#adding-a-button-to-configure-a-new-web-application}
 

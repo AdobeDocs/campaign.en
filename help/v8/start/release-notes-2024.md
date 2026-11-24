@@ -70,7 +70,7 @@ _Sept 3, 2024_
 
 ### New features {#new-8-7-2}
 
-* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
 
 * **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
 
@@ -202,7 +202,7 @@ _Feb 14, 2024_
 
 ### Deliverability updates {#deliverability-8-6-1}
 
-* By February 2024, any company sending more than 5,000 email messages through Google or Yahoo! will have to start using an authentication technology known as Domain-based Message Authentication Reporting and Conformance (DMARC). Make sure to have DMARC record set up for all the subdomains that you are using with Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"}
+* By February 2024, any company sending more than 5,000 email messages through Google or Yahoo! will have to start using an authentication technology known as Domain-based Message Authentication Reporting and Conformance (DMARC). Make sure to have a DMARC record set up for all the subdomains that you are using with Adobe Campaign. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"}
 
 * Starting June 1st, 2024, Google and Yahoo! will be requiring senders to comply with One-Click List-Unsubscribe. Adobe Campaign now supports this option. [Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 

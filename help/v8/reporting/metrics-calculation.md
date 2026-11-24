@@ -412,7 +412,7 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
   <tr> 
    <td> Pages viewed<br /> </td> 
    <td> @totalPages / @days<br /> </td> 
-   <td> Daily average of the total number of clicks on the delivery links per operating systems for all deliveries.<br /> </td> 
+   <td> Daily average of the total number of clicks on the delivery links per operating system for all deliveries.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
   </tr> 
   <tr> 
@@ -805,7 +805,7 @@ This report is based on the **[!UICONTROL Delivery]** table (nms:delivery).
 
 This report is based on the Delivery(nms:delivery) and **[!UICONTROL Consolidated tracking]** (nms:trackingStats) tables.
 
-This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links and mirror page links are taken into account in the total cumulated clicks but are not displayed in the report.
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks, unsubscription links and mirror page links are taken into account in the total cumulated clicks but are not displayed in the report.
 
 ## Tracking statistics {#tracking-statistics-1}
 
@@ -936,7 +936,7 @@ If you experience desynchronization or inconsistency for certain indicators, sel
 
 ## Tracking opens {#tracking-opens-}
 
-In order for Adobe Campaign to detect message opens, the recipient must download the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enable you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
+In order for Adobe Campaign to detect message opens, the recipient must download the images in the email. HTML and Multipart/Alternative emails include a 0 pixel image, which enables you to detect messages which have been opened. Since messages in text format do not include any images, it is impossible to detect whether they have been opened or not. Values calculated based on message opens are always estimates, due to the error margin linked to image display.
 
 ## Targeted persons / recipients {#targeted-persons---recipients}
 

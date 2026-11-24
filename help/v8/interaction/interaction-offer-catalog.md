@@ -33,13 +33,13 @@ Before creating your offers, you must first specify an [environment](interaction
 
 ## Create offer categories{#creating-offer-categories}
 
-Offer are organized into categories/sub-categories. Categoies are created in the **[!UICONTROL Design]** environment, and deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the offers they contain are approved. The **[!UICONTROL Design]** environment contains a default category to receive all offers. Sub-categories can be created to add hierarchy to the catalog offers.
+Offers are organized into categories/sub-categories. Categories are created in the **[!UICONTROL Design]** environment, and deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the offers they contain are approved. The **[!UICONTROL Design]** environment contains a default category to receive all offers. Sub-categories can be created to add hierarchy to the catalog offers.
 
 For each category, you can define **eligibility dates**, which is the period during which the offers contained in the category can be presented to their target. You can also adjust the weight of a category to prioritize the offer presentation.
 
-To create an new category, follow the steps below:
+To create a new category, follow the steps below:
 
-1. Browser to the **[!UICONTROL Offer catalog]** folder.
+1. Browse to the **[!UICONTROL Offer catalog]** folder.
 
    ![](assets/offer_cat_create_001.png)
 
@@ -63,13 +63,13 @@ To create an new category, follow the steps below:
 
     * **[!UICONTROL Edit query]** to apply filters to the offer target.
 
-    * A recap of the eligibility rules.To view them, click the **[!UICONTROL Schedule and eligibility rules of the offer]** link.
+    * A recap of the eligibility rules. To view them, click the **[!UICONTROL Schedule and eligibility rules of the offer]** link.
 
 ## Add a fallback category
 
 In order to ensure that all recipients receive an offer proposition, it is possible to systematically add one or various offer categories in the recommendations. 
 
-These fallback offers must have a low (but non-null) weight, so that they are only taken into account if no higher weight offers is eligible. 
+These fallback offers must have a low (but non-null) weight, so that they are only taken into account if no higher weight offer is eligible. 
 
 In addition, there must be no presentation rule applied to these offers to ensure that they are always included in the recommendations. This means that, during a proposition, if no higher weight offer is available, the recipient will receive at least one offer from this category.
 

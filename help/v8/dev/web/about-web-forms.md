@@ -81,7 +81,7 @@ To define the configuration and content of the Web form, apply the following ste
 
 ## About web forms designing {#about-web-forms-designing}
 
-The pages of the form are created via a specific editor which lets you define and configure input zones (text), selection fields (lists, checkboxes, etc.) and static elements (images, HTLM contents, etc.). They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](defining-web-forms-layout.md#creating-containers)).
+The pages of the form are created via a specific editor which lets you define and configure input zones (text), selection fields (lists, checkboxes, etc.) and static elements (images, HTML contents, etc.). They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](defining-web-forms-layout.md#creating-containers)).
 
 The following sections detail how to define content and layout for form screens:
 

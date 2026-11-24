@@ -60,7 +60,7 @@ As soon as an offer can or must be presented (according to the configurations ca
 To be able to support scalability and provide 24/7 service on the inbound channel, the **Interaction** module is implemented in a distributed architecture. This type of architecture is already used with [Message Center](../architecture/architecture.md#transac-msg-archi) and is made up of several instances:
 
 * one or several control instances dedicated to the outbound channel and containing the marketing and environment design base
-* one or several execution instances dedicated to inbound channel
+* one or several execution instances dedicated to the inbound channel
 
 ![](assets/interaction_powerbooster_schema.png)
 
@@ -86,7 +86,7 @@ You must be aware of the following synchronization mechanisms:
 
 * If you use the fall back function from an anonymous environment to an identified environment, these two environments must be on the same execution instance. 
 * The synchronization between several execution instances is not performed in real time. Interactions of the same contact must be sent to the same instance. The control instance must be dedicated to the outbound channel (no real time).
-* The marketing database is not automatically synchronized. The marketing data used in the weights and eligibility rules must be duplicated on execution instances. This process does not come as standard, you must develop it during the integration period. 
+* The marketing database is not automatically synchronized. The marketing data used in the weights and eligibility rules must be duplicated on execution instances. This process does not come as standard; you must develop it during the integration period. 
 * Proposition synchronization is carried out exclusively by FDA connection.
 * If you use Interaction and Message Center on the same instance, synchronization will occur via FDA protocol in both cases.
 
@@ -164,7 +164,7 @@ If your instance did not previously have the **Interaction** package, no migrati
 >
 >Depending on the volume of existing propositions in your instance, this operation may take a while.
 
-* If your instance has little or no propositions, no manual modification of the proposition table is necessary. The modification will be done when packages are installed.
+* If your instance has few or no propositions, no manual modification of the proposition table is necessary. The modification will be done when packages are installed.
 * If your instance has a lot of propositions, it is better to change the structure of the propositions table before installing the control packages and running them. We recommend running the queries during a low-activity period.
 
 >[!NOTE]

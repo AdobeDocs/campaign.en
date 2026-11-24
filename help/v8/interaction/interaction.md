@@ -103,9 +103,9 @@ Discover offer-specific terms and related guidance before starting.
     * **Design environment**: environment in which offers are created and/or typology rules are defined (rules that will determine the offers to present or not present to a targeted person). The table of individuals to be targeted by the offers and the table for storing all offer propositions are also defined in this. The **[!UICONTROL Design environment]** node contains offer space sub-folders, pre-defined filters, and offer categories. For every **[!UICONTROL Design environment]** there is one corresponding read-only **[!UICONTROL Live environment]**, generated from this same **[!UICONTROL Design environment]**.
     * **Live environment**: environment linked to a **[!UICONTROL Design environment]**. It contains read-only offers whose content and eligibility have been approved via the **[!UICONTROL Design environment]**. They are available to be displayed on a Web site or inserted into a message.
 
-* **Offer space**: folder defining the location where the offer is exposed. When defining a space lets you can:
+* **Offer space**: folder defining the location where the offer is exposed. When defining a space, you can:
   * select the channel
-  * choose it can be used in unitary mode (by default: only in batch mode)
+  * choose whether it can be used in unitary mode (by default: only in batch mode)
   * build the content of the offer using rendering functions
   * specify the offers to present
   
@@ -113,7 +113,7 @@ Discover offer-specific terms and related guidance before starting.
 
   >[!CAUTION]
   >
-  >An offer space is not a communication channel, it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, you have two spaces for the same channel.
+  >An offer space is not a communication channel; it coincides with a specific exposition location on the channel. For example, offers exposed on a website can occupy two spaces on the same page. In this case, you have two spaces for the same channel.
   >
   >Spaces must be defined in the specifications and must not be modified during the project.
 
@@ -150,7 +150,7 @@ Discover offer-specific terms and related guidance before starting.
 * **Identification mode**: refers to the status of a contact:
 
     * **[!UICONTROL explicit]**: contacts are identified by their login onto the channel interface.
-    * **[!UICONTROL implicit]**: contact are identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
+    * **[!UICONTROL implicit]**: contacts are identified by a cookie (permanent or session). It can be processed as an anonymous or identified contact.
     * **[!UICONTROL anonymous]**: contacts cannot be identified.
 
 * **Eligible offer**: offer meeting the constraints defined upstream that can be consistently offered to a target.

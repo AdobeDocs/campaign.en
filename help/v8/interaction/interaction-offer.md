@@ -54,7 +54,7 @@ You can now use the **[!UICONTROL Eligibility]** tab to define:
 
 ### Offer eligibility period{#eligibility-period}
 
-In the **[!UICONTROL Eligibility]** tab of the offer, define the eligibility period of the offer. use the drop-down lists to select a start and an end date in the calendar.
+In the **[!UICONTROL Eligibility]** tab of the offer, define the eligibility period of the offer. Use the drop-down lists to select a start and an end date in the calendar.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -76,7 +76,7 @@ If pre-defined filters have been created already, you can select them from the l
 
 To enable the engine to decide between several offers that the target is eligible for, you need to assign one or more weights to the offer. You can also apply filters to the target if necessary or restrict the offer space which the weight will apply to. An offer with a more significant weight will be preferred over an offer with less weight.
 
-You can configure multiple weights for the same offer, for example to distinguish sup-periods, specific targets or even an offer space.
+You can configure multiple weights for the same offer, for example to distinguish sub-periods, specific targets or even an offer space.
 
 For example, an offer can have a weight of A for contacts aged 18 to 25 and a weight of B for contacts above that range. If an offer is eligible all summer, it can also have a weight of A in July and a weight of B in August.
 
@@ -90,7 +90,7 @@ To create a weight in an offer, apply the following steps:
 
    ![](assets/offer_weight_create_001.png)
 
-1. Change the label and assign a weight. Default value is 1.
+1. Change the label and assign a weight. The default value is 1.
 
    ![](assets/offer_weight_create_006.png)
 
@@ -137,7 +137,7 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
     * **[!UICONTROL Title]**: Specify the title that you would like to make appear in your offer. Warning: this is not referring to the offer's label, which is defined in the **[!UICONTROL General]** tab.
     * **[!UICONTROL Destination URL]**: specify your offer's URL. It must start with "http://" or "https://".
     * **[!UICONTROL Image URL]**: specify a URL or an access path to the image of your offer.
-    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as followed:
+    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as follows:
 
    ```
       <div> 

@@ -34,7 +34,7 @@ Select the survey template (**[!UICONTROL newSurvey]** by default).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements. [Learn more](#adding-questions)).
+The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements. [Learn more](#adding-questions).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ The various types of available fields are detailed in [this section](../web/abou
 
 ## Survey-specific elements {#survey-specific-elements}
 
-Online surveys are based on Web applications capabilities. Survey-specific capabilities are detailed below.
+Online surveys are based on Web application capabilities. Survey-specific capabilities are detailed below.
 
 ### Multiple choice {#multiple-choice}
 

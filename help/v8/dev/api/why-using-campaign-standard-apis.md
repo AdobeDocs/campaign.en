@@ -44,7 +44,7 @@ They are built with the elements below:
 
     ![alt text](assets/apis_uc1.png)
 
-1. Custom actions to be taken based on checkboxes. A customer selecting "Email Special Offers" would be sent a different custom mail with a gift coupon compared to normal registration process.
+1. Custom actions to be taken based on checkboxes. A customer selecting "Email Special Offers" would be sent a different custom mail with a gift coupon compared to the normal registration process.
 
     ![alt text](assets/apis_uc2.png)
 
@@ -54,7 +54,7 @@ They are built with the elements below:
 
 A collection of requests is available to help you familiarize yourself with Campaign Standard APIs requests. This collection in JSON format provides pre-designed API requests representing common use cases.
 
-The steps below describe a step-by-step use case to import and use the collection to create a profile in Campaign Standard database.
+The steps below describe a step-by-step use case to import and use the collection to create a profile in the Campaign Standard database.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ The steps below describe a step-by-step use case to import and use the collectio
 
     ![alt text](assets/postman_uc2.png)
 
-1. Once an object created, a primary key (PKey) is associated to it. It is visible in the request response, as well as other attributes.
+1. Once an object is created, a primary key (PKey) is associated to it. It is visible in the request response, as well as other attributes.
 
     ![alt text](assets/postman_uc3.png)
 

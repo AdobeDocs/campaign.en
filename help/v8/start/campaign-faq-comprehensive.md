@@ -171,7 +171,7 @@ Alternatively, join [Campaign Community](https://experienceleaguecommunities.ado
 
 +++
 
-+++ Which systems and components Campaign v8 is compatible with?
++++ Which systems and components is Campaign v8 compatible with?
 
 You can get the list of all systems and components supported for the latest build of Campaign in [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
 
@@ -216,7 +216,7 @@ These limitations are evolving as Adobe enhances v8. Consult latest documentatio
 
 Automated migration from an existing Campaign Classic v7 environment is not yet available. 
 
-Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environment. 
 
 For more information about the migration process, reach out to your Adobe representative.
 
@@ -1848,7 +1848,7 @@ Get help from Adobe's support team and manage your instance.
 
 Advance your skills with official Adobe training and certification programs.
 
-* **[Experience League Help](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Help resources for Campaign v8 (Web UI and CLient console)
+* **[Experience League Help](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Help resources for Campaign v8 (Web UI and Client console)
 * **[Adobe Digital Learning Services](https://learning.adobe.com/){target="_blank"}** - Official instructor-led and self-paced courses
 * **[Adobe Campaign Certification](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - Validate your expertise with professional certification
 * **[Experience League Learning Paths](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** - Guided learning journeys

@@ -52,9 +52,9 @@ topic_v2:
 
 ## Get started with packages {#gs-data-packages}
 
-You can use data packages to export and import your platform custom settings and data. A packags can contain different types of configurations and components, filtered or not. 
+You can use data packages to export and import your platform custom settings and data. A package can contain different types of configurations and components, filtered or not. 
 
-In Campaign data packages, entities of the Adobe Campaign database be displayed into XML files. In a package, each entity is represented with all of its data.
+In Campaign data packages, entities of the Adobe Campaign database are displayed in XML files. In a package, each entity is represented with all of its data.
 
 This page describes **custom** data packages, which you create and manage. The packages that provide the Campaign features are **built-in packages**, which Adobe installs and manages. Learn more in [Built-in packages](../architecture/built-in-packages.md).
 
@@ -115,7 +115,7 @@ Packages can be exported in three different ways:
 * To export a **single object**, right-click on it and select **[!UICONTROL Actions > Export in a package]**.
 * Use the **Package definitions** to create a package structure in which you add objects to be exported later on in a package. [Learn more](#manage-package-definitions)
 
-Once a package exported, you can import it and all the added entities into another Campaign instance.
+Once a package is exported, you can import it and all the added entities into another Campaign instance.
 
 ### Export a set of objects in a package {#export-a-set-of-objects-in-a-package}
 
@@ -250,7 +250,7 @@ You can then add entities to the package definition, and export it to an XML fil
 
 ### Add entities to a package definition {#add-entities-to-a-package-definition}
 
-In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in the [this section](#export-a-set-of-objects-in-a-package).
+In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in [this section](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -294,7 +294,7 @@ The package import assistant is accessible via the main menu **[!UICONTROL Tools
 
 To import an existing data package, follow these steps:
 
-1. Acess the import assistant via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the client console. 
+1. Access the import assistant via the main menu **[!UICONTROL Tools > Advanced > Import package]** of the client console. 
 1. Select the XML file and click **[!UICONTROL Open]**.
 
 The content of the package to be imported is then displayed in the middle section of the editor.
@@ -341,7 +341,7 @@ This type of package:
 
 **Campaigns**
 
-This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can been seen as a feature.
+This package is not mandatory. It is sometimes useful to create a specific type for all campaigns, even if a campaign can be seen as a feature.
 
 **Updates**
 
@@ -355,7 +355,7 @@ An update could not only be a fix, but also a new element of your entity/feature
 
 ### Naming conventions {#data-package-naming}
 
-Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers is the best solution for staying organized. Numbers prefix package names. 
+Now that types are defined, we should specify a naming convention. Adobe Campaign does not allow to create subfolders for package specifications, meaning that numbers are the best solution for staying organized. Numbers prefix package names. 
 
 For example, you can use the following convention:
 
@@ -366,7 +366,7 @@ For example, you can use the following convention:
 
 #### Entity packages order {#entity-packages-order}
 
-To help the import, entity packages should by ordered as they should be imported. 
+To help the import, entity packages should be ordered as they should be imported. 
 
 For example:
 

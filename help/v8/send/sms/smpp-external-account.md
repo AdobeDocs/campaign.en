@@ -75,7 +75,7 @@ In **transmitter+receiver mode**, this defines the number of transmitter+receive
 There is no way to change the balance between transmitters and receivers.
 
 * **Send messages through a dedicated process**:
-For Adobe Campaign v8.7.2 and later, this option should be always enabled. It has many impacts on how messages are processed.
+For Adobe Campaign v8.7.2 and later, this option should always be enabled. It has many impacts on how messages are processed.
 * **SMPP connection mode**:
 Set the connection in transceiver mode or in separated transmitter+receiver mode. 
     * Transmitter+receiver (or TX+RX): two separate TCP connections are used for transmitting and receiving messages.
@@ -174,11 +174,11 @@ enquire_link is a special kind of PDU sent to keep the connection alive. This pe
 
 Please see the [SMS text encoding section](sms-channel.md#sms-text-encoding) for details about text encoding.
 
-This setting allows to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value. The MTA will try to encode using the first encoding in the list; if it fails, it tries to use the next encoding on the list, etc... If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the SUBMIT_SM PDU with the encoded text and the data_coding field set with the value specified in the table.
+This setting allows you to define a custom encoding mapping, different from the specification. You will be able to declare a list of encodings, along with their data_coding value. The MTA will try to encode using the first encoding in the list; if it fails, it tries to use the next encoding on the list, etc... If no encoding can be used to encode the message, an error will happen. Once the encoding is found, the MTA will create the SUBMIT_SM PDU with the encoded text and the data_coding field set with the value specified in the table.
 
 The order of items in the table is important: encodings are tried from top to bottom. You should put the cheapest or most recommended encoding at the top of the list, then followed by more and more expensive (or less desirable) encodings.
 
-Note that UCS-2 will never fail as it can encode all characters supported in Campaign. Please note that the maximum length of an UCS-2 SMS is much smaller (70 characters only).
+Note that UCS-2 will never fail as it can encode all characters supported in Campaign. Please note that the maximum length of a UCS-2 SMS is much smaller (70 characters only).
 
 You can also use this setting to force a specific encoding to be always used by declaring only 1 line in the mapping table.
 
@@ -225,7 +225,7 @@ Sent as-is in the address_range field of the BIND PDU. This value should be set 
 
 ### Invalid ID acknowledge count
 
-Limits the number of "Message ID invalid" DELIVER_SM_RESP that can be sent for a single SR. **This should be only used for troubleshooting purpose as a workaround** and set to 0 in normal conditions.
+Limits the number of "Message ID invalid" DELIVER_SM_RESP that can be sent for a single SR. **This should only be used for troubleshooting purposes as a workaround** and set to 0 in normal conditions.
 
 Detailed explanation: say you set this setting to 2:
 
@@ -240,7 +240,7 @@ This feature is meant to flush SR buffers on the provider side when invalid SR b
 
 Setting this field to 0 disables the mechanism so "Message ID invalid" is always returned, this is normal behavior.
 
-Setting this field to 1 makes the connector always respond "OK" even if the ID is invalid. This should be set to 1 only used under supervision for troubleshooting and for the minimum amount of time, e.g. to recover from a provider-side issue.
+Setting this field to 1 makes the connector always respond "OK" even if the ID is invalid. This should be set to 1 and only used under supervision for troubleshooting and for the minimum amount of time, e.g. to recover from a provider-side issue.
 
 ### Extraction regex of the ID in the SR
 
@@ -248,7 +248,7 @@ SR format is not strictly enforced by the SMPP protocol specification. It is onl
 
 By default, it captures up to 10 alphanumeric characters after "id:".
 
-The regex must have exactly one capture group (a part that is contained within parentheses). Parentheses must surround the part that correspond to the ID. The regex format is PCRE.
+The regex must have exactly one capture group (a part that is contained within parentheses). Parentheses must surround the part that corresponds to the ID. The regex format is PCRE.
 
 When adjusting this setting, be sure to include as much context as possible to avoid false triggers. If there are specific prefixes (such as "id:" in the standard), include them in the regex. Also use word delimiters (\b) as much as possible, to avoid capturing text in the middle of a word.
 
@@ -260,7 +260,7 @@ This regex captures the status from the text field of SR messages.
 
 By default, it captures between 5 and 15 characters after "stat:".
 
-The regex must have **exactly one capture group** (a part that is contained within parentheses). Parentheses must surround the part that correspond to the status. The regex format is PCRE.
+The regex must have **exactly one capture group** (a part that is contained within parentheses). Parentheses must surround the part that corresponds to the status. The regex format is PCRE.
 
 ### Regex applied to determine successful status
 
@@ -321,7 +321,7 @@ Enabling this option may introduce a very small security flaw if the Extraction 
 
 ### Service ID tag
 
-Allows to add a custom TLV. This field sets the tag, passed as a hexadecimal value in the format **0x1234**.
+Allows you to add a custom TLV. This field sets the tag, passed as a hexadecimal value in the format **0x1234**.
 
 The value of the custom TLV must be set in the delivery in the "Service or program ID" field in the advanced parameters of the delivery. The value is sent as UTF-8 encoded text.
 
@@ -360,7 +360,7 @@ For each field, you can set the associated tag as well as its format. Ask the SM
 
 ### Automatic reply sent to the MO 
 
-This feature allows to quickly reply text to MO and handle per-shortcode blacklists.
+This feature allows you to quickly reply with text to MO and handle per-shortcode blacklists.
 
 The *Keyword* and *Short code* columns define conditions to trigger the auto reply: if both fields match, the MO is sent and the additional action is triggered. To specify a wildcard, just leave the field empty. Keyword matches against the first alphanumeric word in the MO text, ignoring punctuation and leading spaces. It means that the Keyword field cannot contain spaces and must be a single word.
 
@@ -378,8 +378,8 @@ All entries in the table are processed in the specified order, until one rule ma
 
 >[!NOTE]
 >
->In a mid-sourcing architecture, applying auto-reply for the extended SMPP connector requires to add write access for the mid operator on the external account folder.
+>In a mid-sourcing architecture, applying auto-reply for the extended SMPP connector requires adding write access for the mid operator on the external account folder.
 
 >[!IMPORTANT]
 >
->Be careful with encodings in automatic replies, especially when copy-pasting. Word processing software tend to add extra formatting, such as adding non-breaking spaces or changing quotes to apostrophes.
+>Be careful with encodings in automatic replies, especially when copy-pasting. Word processing software tends to add extra formatting, such as adding non-breaking spaces or changing quotes to apostrophes.

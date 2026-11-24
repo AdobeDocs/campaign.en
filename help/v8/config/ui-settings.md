@@ -141,7 +141,7 @@ To save a list configuration so that it can be reused, follow the steps below:
 1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
 1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
-You can then apply this configuration any another folder of the same type. Learn more about folders in [this page](../audiences/folders-and-views.md).
+You can then apply this configuration to another folder of the same type. Learn more about folders in [this page](../audiences/folders-and-views.md).
 
 ### Export a list {#exporting-a-list}
 

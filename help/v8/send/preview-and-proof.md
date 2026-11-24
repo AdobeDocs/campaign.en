@@ -103,7 +103,7 @@ It is recommended to send proofs after each modification to the message content.
 
 ### Proof properties {#proofs-properties}
 
-Proof properties are set in the **[!UICONTROL Advanced]** tab of the delivery properties windows. Browse to the **[!UICONTROL Proof properties...]** link to define the parameters and the label of the proofs. You can choose to keep:
+Proof properties are set in the **[!UICONTROL Advanced]** tab of the delivery properties window. Browse to the **[!UICONTROL Proof properties...]** link to define the parameters and the label of the proofs. You can choose to keep:
 
 * Duplicate addresses in the proof
 * Denylisted addresses in the proof

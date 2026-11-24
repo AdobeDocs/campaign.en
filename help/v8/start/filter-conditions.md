@@ -74,7 +74,7 @@ Below is a list of the operators available:
   <tr> 
    <td> <span class="uicontrol">Not equal to</span> <br /> </td> 
    <td> Returns all values not identical to the value entered.<br /> </td> 
-   <td> <strong>Language (@language) to equal to 'English'</strong>.<br /> </td> 
+   <td> <strong>Language (@language) not equal to 'English'</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Starts with</span> <br /> </td> 
@@ -181,7 +181,7 @@ The **[!UICONTROL Gender (@gender) equal to Male]** condition has been taken out
 
 The available fields vary from one table to another. All fields are stored in a main node known as the **[!UICONTROL Main element]**. In the following example, the available fields are in the recipient table. Fields are always displayed alphabetically.
 
-The detail the selected field is visible at the bottom of the window. For example, the **[!UICONTROL Email domain]** field is a **[!UICONTROL Calculated SQL field]** and its extension is **[!UICONTROL (@domain)]**.
+The detail of the selected field is visible at the bottom of the window. For example, the **[!UICONTROL Email domain]** field is a **[!UICONTROL Calculated SQL field]** and its extension is **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -319,7 +319,7 @@ To remove this calculated field, click the **[!UICONTROL Remove the calculated f
 
 ## Build expressions {#building-expressions}
 
-The expression editing tool lets you calculate aggregates, generate function, or edit a formula using an expression.
+The expression editing tool lets you calculate aggregates, generate functions, or edit a formula using an expression.
 
 The following example shows you how to run a count on a primary key.
 
@@ -506,7 +506,7 @@ It lets you select fields in the database tables and add advanced functions to t
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Returns an hexadecimal representation of the MD5 key of a string<br /> </td> 
+   <td> Returns a hexadecimal representation of the MD5 key of a string<br /> </td> 
    <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -754,7 +754,7 @@ It lets you select fields in the database tables and add advanced functions to t
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Rounds the time part up to the nearest second<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
+   <td> TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -777,7 +777,7 @@ It lets you select fields in the database tables and add advanced functions to t
    <td> Year(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> Returns the number representing the year and month of the date<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
   </tr> 

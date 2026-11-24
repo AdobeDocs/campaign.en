@@ -45,7 +45,7 @@ By default, Campaign comes with a **[!UICONTROL Design]** environment and a **[!
 
 >[!NOTE]
 >
->To target recipient table, you need to use the target mapping assistant to create the environments. [Learn more](#creating-an-offer-environment).
+>To target the recipient table, you need to use the target mapping assistant to create the environments. [Learn more](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 

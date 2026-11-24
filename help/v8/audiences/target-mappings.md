@@ -52,7 +52,7 @@ Adobe Campaign comes with the following built-in target mappings:
 |  Name  | Use to | Schema  |
 |---|---|---|
 |  Recipients  | Deliver to recipients (built-in recipient table)  | nms:recipient  |
-|  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) for ex.  | mns:visitor  |
+|  Visitors  | Deliver to visitors whose profiles have been collected via referral (viral marketing) for ex.  | nms:visitor  |
 |  Subscriptions  | Deliver to recipients who are subscribed to an information service such as a newsletter | nms:subscription  |
 |  Visitor subscriptions  | Deliver to visitors who are subscribed to an information service  | nms:visitorSub  |
 |  Operators  | Deliver to Adobe Campaign operators  | nms:operator  |

@@ -50,7 +50,7 @@ The following types of data can be used by Adobe Target:
 * Segments linked to the visitor ID in Adobe Target, only if the data used is not subject to legal limitations
 * Adobe Target data: user agent, IP address, geolocalization data
 
-## Insert a dynamic content
+## Insert dynamic content
 
 In the example below, you will learn how to integrate **a dynamic offer** from Adobe Target into an Adobe Campaign email.
 
@@ -64,7 +64,7 @@ In this email, we want one of the images to vary dynamically according to the fo
 
 ![](assets/target_4.png)
 
-THe following steps need to be achieved in Adobe Campaign and Adobe Target:
+The following steps need to be achieved in Adobe Campaign and Adobe Target:
 
 1. [Insert the dynamic offer in an email](#inserting-dynamic-offer)
 1. [Create redirect offers](#create-redirect-offers)
@@ -155,7 +155,7 @@ First you need to define the audience:
 
 1. Create another experience by clicking **[!UICONTROL Add Experience Targeting]**.
 
-Then add a content for each audience:
+Then add content for each audience:
 
 1. Select the location name that you chose when inserting the dynamic offer in Adobe Campaign.
 

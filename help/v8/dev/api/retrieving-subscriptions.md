@@ -27,7 +27,7 @@ level_v2:
 
 ## Retrieving the profiles that subscribed to a service
 
-This is a two-steps procedure.
+This is a two-step procedure.
 
 1. Retrieve the subscriptions URL for the desired service.
 1. Perform a GET request on the subscriptions URL. It returns the list of subscriptions for the service, with each associated profile.
@@ -101,7 +101,7 @@ The list of subscriptions for the service displays, with each associated profile
 
 ## Retrieving the services to which a profile subscribed
 
-This is a two-steps procedure.
+This is a two-step procedure.
 
 1. Retrieve the subscriptions URL for a given profile.
 1. Perform a GET request on the URL. It returns the list of subscriptions for the profile, with each associated service.

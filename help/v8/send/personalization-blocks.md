@@ -54,15 +54,15 @@ Built-in personalization blocks are:
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserts the "Enabled by Adobe Campaign" logo.
 * **[!UICONTROL Formatting function for proper nouns]**: generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
 * **[!UICONTROL Greetings]**: inserts greetings with the recipient's full name, followed by a comma. Example: "Hello John Doe,".
-* **[!UICONTROL Insert logo]**: inserts a logo which is is defined in the instance settings.
+* **[!UICONTROL Insert logo]**: inserts a logo which is defined in the instance settings.
 * **[!UICONTROL Link to mirror page]**: inserts a link to the [mirror page](mirror-page.md). Default format is: "If you are unable to view this message correctly, click here".
 * **[!UICONTROL Mirror page URL]**: inserts the mirror page URL, enabling Delivery Designers to check the link.
-* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**. (This block is available if the Interaction module is enabled)
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserts a URL enabling to set an offer to **[!UICONTROL Accepted]**. (This block is available if the Interaction module is enabled)
 * **[!UICONTROL Registration confirmation]**: inserts a link enabling to confirm subscription.
 * **[!UICONTROL Registration link]**: inserts a subscription link. This link is defined in the instance settings. The default content is: "To register click here."
 * **[!UICONTROL Registration link (with referrer)]**: inserts a subscription link, enabling to identify the visitor and delivery. This link is defined in the instance settings.
 * **[!UICONTROL Registration page URL]**: inserts a subscription URL
-* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]**: generate code which format an email with predefined HTML styles. 
+* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]**: generate code which formats an email with predefined HTML styles. 
 * **[!UICONTROL Unsubscription link]**: inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
 
 ## Create custom personalization blocks {#create-custom-personalization-blocks}
@@ -87,7 +87,7 @@ To create a personalization block, follow the steps below:
     * Enter the label of the block. This label is displayed in the personalization field insertion window.
     * Select a **Delivery** content type.
     * Enable the **[!UICONTROL Visible in the customization menus]** option to make this block accessible from the personalization field insertion icon.
-    * If necessary, enable the **[!UICONTROL The content of the personalization block depends upon the format]** optio, to define two different blocks for HTML and Text emails.
+    * If necessary, enable the **[!UICONTROL The content of the personalization block depends upon the format]** option, to define two different blocks for HTML and Text emails.
     * Enter the content (in HTML, text, JavaScript, etc.) of the personalization block and click **[!UICONTROL Save]**.
 
 Once saved, the new personalization block is available in the delivery editor.

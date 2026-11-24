@@ -28,7 +28,7 @@ subfeature_v2:
 
 ## Creating containers {#creating-containers}
 
-Containers let you combine the fields of a page and configure their layout; to organize the elements in the page.
+Containers let you combine the fields of a page and configure their layout and organize the elements in the page.
 
 For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
 

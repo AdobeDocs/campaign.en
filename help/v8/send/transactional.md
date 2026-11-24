@@ -64,7 +64,7 @@ The main steps for putting this into place are detailed below:
 1. [Test the message](transactional-template.md#test-message-template).
 1. [Publish the message template](transactional-template.md#publish-message-template).
 
-Once you designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](../send/event-description.md), and the delivery is sent to the targeted recipients.
+Once you have designed and published the transactional message template, if a corresponding event is triggered, the relevant data are sent to Campaign via the PushEvent and PushEvents [SOAP methods](../send/event-description.md), and the delivery is sent to the targeted recipients.
 
 ## Create event types {#create-event-types}
 
@@ -94,4 +94,4 @@ To create event types that will be processed by Adobe Campaign, follow the steps
 >
 >Learn more about [enumerations](../config/enumerations.md).
 
-For next step, learn how to [create and publish your template for Transactional messaging](transactional-template.md).
+For the next step, learn how to [create and publish your template for Transactional messaging](transactional-template.md).

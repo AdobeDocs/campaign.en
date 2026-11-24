@@ -40,7 +40,7 @@ topic_v2:
 ---
 # Configure push notification channel {#push-notification-configuration}
 
-To send push notifications with Adobe Campaign, you must first configure your environment and app as detailed in this page. In Adobe Campaign, the channel for sending push notitications is the mobile app channel.
+To send push notifications with Adobe Campaign, you must first configure your environment and app as detailed in this page. In Adobe Campaign, the channel for sending push notifications is the mobile app channel.
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ To set up your app with Adobe Experience Platform Mobile SDKs, follow these step
 1. (optional) Add [Adobe Experience Platform Assurance to your app](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. Configure your iOS and Android mobile services in Adobe Campaign as detailed [in this page](#push-service).
 1. Install and configure [Adobe Campaign Extension](#configure-extension) in your mobile property.
-1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get setup with Adobe Experience Platform Mobile SDKs in your app.
+1. Follow [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} to get set up with Adobe Experience Platform Mobile SDKs in your app.
 
 ## Prerequisites {#before-starting}
 
@@ -75,7 +75,7 @@ To assign **Property** and **Company** rights, follow the steps below:
 1. From the **[!UICONTROL Products]** tab, select the **[!UICONTROL Adobe Experience Platform Data Collection]** card.
 1. Select an existing **[!UICONTROL Product Profile]** or create a new one with the **[!UICONTROL New profile]** button. Learn how to create a new **[!UICONTROL New profile]** in the [Admin console documentation](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. From the **[!UICONTROL Permissions]** tab, select **[!UICONTROL Property Rights]**.
-1. Click **[!UICONTROL Add all]**. This will add the following right to your product profile:
+1. Click **[!UICONTROL Add all]**. This will add the following rights to your product profile:
     * **[!UICONTROL Approve]**
     * **[!UICONTROL Develop]**
     * **[!UICONTROL Edit Property]**
@@ -114,7 +114,7 @@ The technical setup involves close collaboration between the app developer and b
 Follow implementation steps detailed in the links below:
 
 * For **Apple iOS**: Learn how to register your app with APNs in [Apple Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
-* For **Google Android**: Learn how to setup up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
+* For **Google Android**: Learn how to set up a Firebase Cloud Messaging client app on Android in [Google Documentation](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
@@ -178,7 +178,7 @@ Once created, open the new tag property and create a library. To do this:
 
 ## Configure your mobile services in Campaign {#push-service}
 
-Once your mobile app has been set up in in [!DNL Adobe Experience Platform Data Collection], you need to create two services (one for iOS devices, one for Android devices) to be able to send push notifications from **[!DNL Adobe Campaign]**.
+Once your mobile app has been set up in [!DNL Adobe Experience Platform Data Collection], you need to create two services (one for iOS devices, one for Android devices) to be able to send push notifications from **[!DNL Adobe Campaign]**.
 
 Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android apps to send on iOS and Android devices.
 
@@ -209,7 +209,7 @@ To create an app for iOS devices, follow these steps:
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
 
-   In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notification and then provides the application with the image to display within the notification.
+   In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notifications and then provide the application with the image to display within the notification.
 
    ![](assets/ios-app-parameters.png){width="600"}
 
@@ -232,7 +232,7 @@ To create an app for iOS devices, follow these steps:
     >
     > You cannot use the same certificate for the development version (sandbox) and the production version of the application.
 
-1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. Select the icon from the **[!UICONTROL Application icon]** field to personalize the mobile application in your service.
 
 1. Select the **[!UICONTROL Authentication mode]**. Two modes are available:
 
@@ -300,7 +300,7 @@ Below are the FCM payload names to further personalize your push notification:
 
 ## Configure Adobe Campaign Extension in your mobile property {#configure-extension}
 
-The **Adobe Campaign Classic extension** for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collects user push tokens and manages interaction measurement with Adobe Experience Platform services. 
+The **Adobe Campaign Classic extension** for Adobe Experience Platform Mobile SDKs powers push notifications for your mobile apps and helps you collect user push tokens and manages interaction measurement with Adobe Experience Platform services. 
 
 This extension, which applies to both Campaign Classic v7 and Campaign v8, is pre-installed on your environment and must be configured. To configure the extension for your mobile tag property, follow these steps:
 

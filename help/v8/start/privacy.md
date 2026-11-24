@@ -41,7 +41,7 @@ Depending on the nature of your business and the jurisdictions it operates under
 Adobe offers Data Controllers the tools to create and process Privacy requests for data stored in Campaign. However, it is your responsibility as a Data Controller to verify the identity of the Data Subject making the request, and to confirm that the data returned to the requester is about the Data Subject. Learn more on personal data and the different entities that manage data in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target="_blank"}.
 
 
-To manage Privacy request in Campaign, you must first [define a namespace](#namespaces). You are then able to create and manage Privacy requests. To perform privacy requests, use the **Adobe Privacy Service** integration. Privacy requests pushed from the Privacy Service to all [!DNL Adobe CX Enterprise] solutions are automatically handled by Campaign via a dedicated workflow. [Learn more](#create-privacy-request)
+To manage Privacy requests in Campaign, you must first [define a namespace](#namespaces). You are then able to create and manage Privacy requests. To perform privacy requests, use the **Adobe Privacy Service** integration. Privacy requests pushed from the Privacy Service to all [!DNL Adobe CX Enterprise] solutions are automatically handled by Campaign via a dedicated workflow. [Learn more](#create-privacy-request)
 
 Learn about the **Right to Access** and the **Right to be Forgotten** (delete request) in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target="_blank"}.
 
@@ -71,7 +71,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Create a namespace on the [Identity Namespace service](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. When [listing the identity namespaces](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} available for your organization, you get the namespace following details, for example:
+1. When [listing the identity namespaces](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} available for your organization, you get the following namespace details, for example:
 
     ```
     {
@@ -94,7 +94,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Enter a **[!UICONTROL Label]**.
 
-1. Fill in the new namespace details to match the namespace that you created on the Identitiy Namespace service:
+1. Fill in the new namespace details to match the namespace that you created on the Identity Namespace service:
 
     * the **[!UICONTROL AEC Namespace ID]** must match the "id" attribute
     * the **[!UICONTROL Internal name]** must match the "code" attribute
@@ -153,7 +153,7 @@ The list of built-in tables taken into account when performing Privacy requests 
 * Subscriptions (subscription)
 * Recipient offer proposition (propositionRcp)
 
-If you created custom tables that have a link to the recipient table (own type), they will also be taken into account. For example, if you have a transaction table linked to the recipient table and a transaction details table linked to the transaction table, they will be both taken into account.
+If you created custom tables that have a link to the recipient table (own type), they will also be taken into account. For example, if you have a transaction table linked to the recipient table and a transaction details table linked to the transaction table, they will both be taken into account.
 <!--
 >[!CAUTION]
 >

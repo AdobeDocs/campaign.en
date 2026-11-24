@@ -56,9 +56,9 @@ topic_v2:
 
 Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-Adobe Campaign v8 is the next-gen campaign tool built for various marketing channels such as email, push notifications, SMS, and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for communications such as password reset, order confirmation, e-receipt's and much more.
+Adobe Campaign v8 is the next-gen campaign tool built for various marketing channels such as email, push notifications, SMS, and direct mail. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on an all-inclusive payload from any IT system for communications such as password reset, order confirmation, e-receipts and much more.
 
-Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. It is available as a **Managed Cloud Service** which combines services with proactive oversight and timely alterting. Learn more about Campaign Managed Cloud Services [in this page](whats-new.md#acms-desc).
+Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. It is available as a **Managed Cloud Service** which combines services with proactive oversight and timely alerting. Learn more about Campaign Managed Cloud Services [in this page](whats-new.md#acms-desc).
 
 Use Campaign to:
 

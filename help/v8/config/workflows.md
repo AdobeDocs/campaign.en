@@ -48,7 +48,7 @@ You can set up:
 
 >[!NOTE]
 >
->Adobe Campaign Web User interface comes with a reimagined canvas for workflows, allowing to create more dynamic and personalized customer journeys. To learn more about Workflows for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>Adobe Campaign Web User interface comes with a reimagined canvas for workflows, allowing you to create more dynamic and personalized customer journeys. To learn more about Workflows for Web UI, please refer to [Adobe Campaign Web UI documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Design and use workflows {#gs-ac-wf}
@@ -61,7 +61,7 @@ Learn more about workflows user interface and execution in these pages:
 
 * [Workflow best practices](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [Built-in technical workfows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [Built-in technical workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 * [Monitor workflows execution](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
@@ -138,7 +138,7 @@ Depending on your workflow's purpose, you can choose between the following three
 
 ## Set up recurring campaigns
 
-Design recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
+Design a recurring workflow and create a new delivery instance each time the workflow is executed. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. This also means that logs will be separated by each delivery instance.
 
 Learn how to create a recurring campaign in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html){target="_blank"}.
 
@@ -147,7 +147,7 @@ Learn how to create a recurring campaign in [this page](https://experienceleague
 
 Use Campaign Transactional messaging to automate messages generated from events triggered from information systems. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. These messages can be sent individually or in batch via email, SMS or push notifications.
 
-Learn more about transactional messaging capabilities in in [this section](../send/transactional.md).
+Learn more about transactional messaging capabilities in [this section](../send/transactional.md).
 
 Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages. 
 

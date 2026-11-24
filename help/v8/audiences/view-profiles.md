@@ -47,7 +47,7 @@ For more advanced profile manipulations, access the Campaign tree from the **[!U
 
 >[!CAUTION]
 >
->The built-in Recipient screen is defined through a XML schema and its associated form. The XML schema is stored in the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign explorer tree. Only expert users may make changes to these schemas.  
+>The built-in Recipient screen is defined through an XML schema and its associated form. The XML schema is stored in the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign explorer tree. Only expert users may make changes to these schemas.  
 >
 
 ## Edit a profile {#edit-a-profiles}
@@ -62,7 +62,7 @@ For a typical built-in recipient, you can access the following tabs:
 
 * **[!UICONTROL General]**, for all general profile data. In particular, it contains the last name, first name, email address, email format, etc. 
 
-    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such recipient is no longer be targeted on any channel (email, direct mail, etc.). For more on this, refer to [this page](../send/quarantines.md).
+    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on the denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such a recipient is no longer targeted on any channel (email, direct mail, etc.). For more on this, refer to [this page](../send/quarantines.md).
 
 * **Contact information**, which contains the direct mail address of the selected profile. 
 
@@ -88,7 +88,7 @@ For a typical built-in recipient, you can access the following tabs:
     >
 
 
-* **Subscriptions**, for all the active subscriptions to services. Use the **History** tab to access details of subscriptions and unsibscriptions for this contact. 
+* **Subscriptions**, for all the active subscriptions to services. Use the **History** tab to access details of subscriptions and unsubscriptions for this contact. 
 
     ![](assets/subscription-tab.png)
 

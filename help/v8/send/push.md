@@ -96,11 +96,11 @@ To send notifications on iOS devices, follow these steps:
 
 1. From the **[!UICONTROL Sound and Badge]** tab, you can edit the following options:
 
-   * **[!UICONTROL Clean Badge]**: enable this options to refresh the badge value.
+   * **[!UICONTROL Clean Badge]**: enable this option to refresh the badge value.
 
    * **[!UICONTROL Value]**: set a number which will be used to display directly on the application icon the number of new unread information.
 
-   * **[!UICONTROL Critical alert mode]**: enable this option to add sound to your notification even the user's phone is set on focus mode or if the iPhone is muted.
+   * **[!UICONTROL Critical alert mode]**: enable this option to add sound to your notification even if the user's phone is set on focus mode or if the iPhone is muted.
 
    * **[!UICONTROL Name]**: select the sound to be played by the mobile terminal when the notification is received.
 
@@ -127,9 +127,9 @@ To send notifications on iOS devices, follow these steps:
 
 1. For time sensitive notification, you can specify the following options:
 
-   * **[!UICONTROL Target content ID]**: identifier used to target which application window to brought forward when the notification is opened.
+   * **[!UICONTROL Target content ID]**: identifier used to target which application window to bring forward when the notification is opened.
 
-   * **[!UICONTROL Launch image]**: name of the launch image file to display. If the user chooses to launch your application, the selected image will displayed instead of your application's launch screen.
+   * **[!UICONTROL Launch image]**: name of the launch image file to display. If the user chooses to launch your application, the selected image will be displayed instead of your application's launch screen.
 
    * **[!UICONTROL Interruption level]**:
 

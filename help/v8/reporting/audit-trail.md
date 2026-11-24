@@ -46,7 +46,7 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 
 * **Schema audit trail**: allows you to explore the changes made to your schemas, as well as identify who made these modifications and when they occurred.
 
-  For detailed information on schemas, refer to [page](../dev/schemas.md).
+  For detailed information on schemas, refer to this [page](../dev/schemas.md).
 
 * **Workflow audit trail** tracks all actions related to your workflows, including:
 
@@ -73,7 +73,7 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 
 * **External Account** allows you to check modifications made to external accounts, used by technical processes such as technical workflows or campaign workflows.
 
-  For more information on external account, refer to this [page](../config/external-accounts.md).
+  For more information on external accounts, refer to this [page](../config/external-accounts.md).
 
 * **Delivery Mapping** enables you to monitor activities and recent modifications made to your Delivery Mappings. 
 
@@ -81,11 +81,11 @@ The **[!UICONTROL Audit trail]** functionality within Adobe Campaign offers a gr
 
 * **Web Application** allows you to check modifications made to Web forms in Campaign V8 used to create pages with input and selection fields, and which may include data from the database. 
 
-  For more information on web application, refer to this [page](../dev/webapps.md).
+  For more information on web applications, refer to this [page](../dev/webapps.md).
 
 * **Offer** allows you to check the activities and last modifications done to your offers.
 
-  For more information on offer, refer to this [page](../interaction/interaction.md).
+  For more information on offers, refer to this [page](../interaction/interaction.md).
 
 * **Operator** enables you to monitor activities and recent modifications made to your Operators.
 
@@ -111,7 +111,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
     * **[!UICONTROL Type]**: Workflow, Options, Deliveries or Schemas.
     * **[!UICONTROL Entity]**: Internal name of your activities.
-    * **[!UICONTROL Modified by]**: Username of the last person who last modified this entity.
+    * **[!UICONTROL Modified by]**: Username of the person who last modified this entity.
     * **[!UICONTROL Action]**: Last action performed on this entity, either Created, Modified or Deleted.
     * **[!UICONTROL Modification date]**: Date of the last action performed on this entity.
 
@@ -119,7 +119,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 >[!NOTE]
 >
->By default, retention period is set to 180 days for **[!UICONTROL Audit logs]**. This value can be modified in the deployment wizard.
+>By default, the retention period is set to 180 days for **[!UICONTROL Audit logs]**. This value can be modified in the deployment wizard.
 
 ## Enable/disable Audit trail {#enable-disable-audit-trail}
 

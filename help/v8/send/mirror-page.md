@@ -67,7 +67,7 @@ In addition to the default mode, the following options are available:
 
 * **[!UICONTROL Force the generation of the mirror page]**: use this mode to generate the mirror page even if no link to the mirror page is inserted in the delivery.
 * **[!UICONTROL Do not generate the mirror page]**: use this mode to avoid generating a mirror page, even if the link is present in the delivery.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: when the mirror page link is not present in the email content, use this option to enable access the content of the mirror page, in the delivery log window, as detailed below. 
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: when the mirror page link is not present in the email content, use this option to enable access to the content of the mirror page, in the delivery log window, as detailed below. 
 
 ## Check the mirror page for a recipient {#mirror-page-access}
 

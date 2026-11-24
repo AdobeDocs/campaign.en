@@ -34,7 +34,7 @@ The following extensions are supported: ".docx", ".doc", and ".odt".
 
 To personalize your documents, the same JavaScript functionalities as for email personalization are available.
 
-You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer the [Campaign v8 documentation](attaching-files.md).
+You need to activate the **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** option. This option is accessible when you attach the file to the delivery email. For more on attaching a calculated file, refer to the [Campaign v8 documentation](attaching-files.md).
 
 To generate dynamic tables or include images via a URL, you need to follow a specific process.
 

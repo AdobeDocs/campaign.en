@@ -143,7 +143,7 @@ You will get a tree structure containing your new environment:
 
 ### Configure the web offer space on the website {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Campaign v8 documentation)).
+To make the offers you have just configured visible on the website, insert JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Campaign v8 documentation)).
 
 1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
 
@@ -336,7 +336,7 @@ In this example, contact identification takes place thanks to the email address 
 We are going to create two separate categories: the **Best Offer** category and the **Partner** category, each with two personalized offers.
 
 1. Go to the **[!UICONTROL Offer catalogs]** node in the identified environment.
-1. As in the anonymous environment, add two **[!UICONTROL Offer category]** folders with **Best Offer** and **Partner** as a labels.
+1. As in the anonymous environment, add two **[!UICONTROL Offer category]** folders with **Best Offer** and **Partner** as labels.
 
    ![](assets/offer_inbound_fallback_example_009.png)
 
@@ -413,7 +413,7 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
    The URL contains **EnvNeobankRecip**, the internal name of the identified environment.
 
-When you open the web page; the script lets you call up the Interaction engine to display the content of offers in the relevant spaces of the web page. In a single call to the Adobe Campaign server, the engine determines the environment, the offer space and the categories to be selected.
+When you open the web page, the script lets you call up the Interaction engine to display the content of offers in the relevant spaces of the web page. In a single call to the Adobe Campaign server, the engine determines the environment, the offer space and the categories to be selected.
 
 In this example, the engine recognizes the identified environment (**EnvNeobankIdnRecip**). It identifies the offer space (**OSWebBestOfferIdentified**) and the **Best Offer** category (**CatBestOffer**) for the first and second offer spaces on the web page, as well as the (**OSWebPartnerIdentified**) offer space and the **Partner** category (**CatPartner**) for the third offer space on the site.
 

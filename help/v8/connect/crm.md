@@ -57,7 +57,7 @@ Key benefits are:
 
 ## Compatible systems {#compatible-crm-systems-and-limitations}
 
-Supported CRM and versions are detailed in Campaign [Compatibility matrix](../start/compatibility-matrix.md).
+Supported CRMs and versions are detailed in Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
 >[!CAUTION]
 >
@@ -65,8 +65,8 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../st
 
 ## Implementation steps {#crm-implementation-steps}
 
-Learn step-by-step procedure to connect Campaign and Microsoft Dynamics in [this page](ac-ms-dyn.md).
+Learn the step-by-step procedure to connect Campaign and Microsoft Dynamics in [this page](ac-ms-dyn.md).
 
-Learn step-by-step procedure to connect Campaign and Salesforce.com in [this page](ac-sfdc.md).
+Learn the step-by-step procedure to connect Campaign and Salesforce.com in [this page](ac-sfdc.md).
 
 Data synchronization between Adobe Campaign and the CRM is carried out via a dedicated workflow activity. Build your workflows to automate synchronization between Campaign and your CRM. You can create a workflow which imports the contacts via Microsoft Dynamics, synchronizes them with the existing Adobe Campaign data, deletes duplicate contacts, and then updates the Adobe Campaign database. Learn more in [this page](crm-data-sync.md).

@@ -196,7 +196,7 @@ Here is our example schema with the types entered:
 
 ## Properties {#properties}
 
-The **`<elements>`** and **`<attributes>`** elemtns of the data schema can be enriched with various properties. You can populate a label in order to describe the current element.
+The **`<elements>`** and **`<attributes>`** elements of the data schema can be enriched with various properties. You can populate a label in order to describe the current element.
 
 ### Labels and descriptions {#labels-and-descriptions}
 
@@ -253,7 +253,7 @@ To link a default value to a field, you can use the `<default>  or  <sqldefault>
 
 `<default>`: allows you to pre-fill the field with a default value when creating entities. The value will not be a default SQL value. 
 
-`<sqldefault>`: allows you have an added value when creating a field. This value appears as an SQL result. During a schema update, only the new records will be impacted by this value.
+`<sqldefault>`: allows you to have an added value when creating a field. This value appears as an SQL result. During a schema update, only the new records will be impacted by this value.
 
 ### Enumerations {#enumerations}
 

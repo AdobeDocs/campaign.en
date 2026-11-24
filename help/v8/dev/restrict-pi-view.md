@@ -46,7 +46,7 @@ topic_v2:
 
 ## Overview {#overview}
 
-If you need marketing users to be able to access data records but do not want them to see recipient Personally Information (PI), such as first name, last name or email address, apply the guidelines below to protect privacy and prevent data from being misused by regular campaign operators.
+If you need marketing users to be able to access data records but do not want them to see recipient Personal Information (PI), such as first name, last name or email address, apply the guidelines below to protect privacy and prevent data from being misused by regular campaign operators.
 
 ## Implementation {#implementation}
 
@@ -70,7 +70,7 @@ You can find a sample of a recipient schema extension that shows this usage belo
 The main properties are:
 
 * **[!UICONTROL visibleIf]**: hides the fields from the metadata, hence they cannot be accessed within a schema view, or column selection, or an [Expression builder](../../v8/start/filter-conditions.md#list-of-functions). But this does not hide any data, if the field name is manually entered in an expression the value will show up.
-* **[!UICONTROL accessibleIf]**: hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expresion as **[!UICONTROL accessibleIf]**.
+* **[!UICONTROL accessibleIf]**: hides the data (replacing it with empty values) from resulting query. If visibleIf is empty, then it gets the same expression as **[!UICONTROL accessibleIf]**.
 
 Here are the consequences of using this attribute in Campaign:
 
@@ -122,4 +122,4 @@ Below is a sample of log table extension to implement this:
 
 >[!CAUTION]
 >
->This restriction applies to non technical users only and does not isolates data: a technical user, with related permissions, can retrieve data.
+>This restriction applies to non technical users only and does not isolate data: a technical user, with related permissions, can retrieve data.

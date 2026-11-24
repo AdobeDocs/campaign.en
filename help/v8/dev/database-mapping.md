@@ -121,4 +121,4 @@ To populate a field in XML, you must add the **xml** attribute with the value "t
 
   The "html" type lets you store the HTML content in a CDATA tag and display a special HTML edit check in the Adobe Campaign client interface.
 
-The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.).
+The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use fewer resources (size allocated to SQL fields, limit on the number of fields per table, etc.).

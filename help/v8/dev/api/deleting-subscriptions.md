@@ -29,7 +29,7 @@ topic_v2:
 
 ## Deleting a service subscription for a specific profile {#deleting-service-subscription}
 
-This is a three-steps procedure.
+This is a three-step procedure.
 
 1. Retrieve the subscriptions URL for the desired profile.
 1. Perform a GET request on the subscriptions URL.
@@ -112,10 +112,10 @@ Perform a DELETE request on the desired service URL.
 
 ## Deleting a service subscription for a specific profile
 
-This is a three-steps procedure.
+This is a three-step procedure.
 
 1. Retrieve the desired service and its subscription URL.
-1. Perform a GET request on the subscriptions URL to retrieve all profiles subscriptions.
+1. Perform a GET request on the subscriptions URL to retrieve all profile subscriptions.
 1. Perform a DELETE request on the desired profile subscription URL.
 
 If the delete request is successful, the response status is 204 No Content.

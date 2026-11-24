@@ -103,7 +103,7 @@ A sample rendering is displayed in the lower part of the properties window. The 
 
 You can change the logo used in the form by your own logo.
 
-In the **[!UICONTROL Rendering]** tab inside the **[!UICONTROL Properties]** of your web app, click on the glass icon of your template : 
+In the **[!UICONTROL Rendering]** tab inside the **[!UICONTROL Properties]** of your web app, click on the glass icon of your template:
 
 ![](assets/logo_glass.png)
 
@@ -111,7 +111,7 @@ In the new window, click on the **[!UICONTROL Page layout]** link :
 
 ![](assets/logo_pagelayout.png)
 
-You will have the possibility to change the path of the logo image here : 
+You will have the possibility to change the path of the logo image here:
 
 ![](assets/logo_path.png)
 

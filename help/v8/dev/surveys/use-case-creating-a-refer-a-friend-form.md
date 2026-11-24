@@ -105,7 +105,7 @@ To configure and create the referral block, apply the following steps:
 
     * This template contains a link to the competition form and the subscription link for the referee to subscribe to the newsletter.
 
-      The subscription link is inserted via a personalization block. By default, it lets you subscribe profiles to the **newsletter** service. This personalization block can be changed to suit your need, for example to subscribe the recipient to a different service.
+      The subscription link is inserted via a personalization block. By default, it lets you subscribe profiles to the **newsletter** service. This personalization block can be changed to suit your needs, for example to subscribe the recipient to a different service.
     
     * The internal name ('referrer' here) will be used in the message delivery script as shown below.
 

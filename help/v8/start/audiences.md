@@ -57,7 +57,7 @@ Learn how to build an audience in a campaign workflow in [this page](https://exp
 
 ## Active profiles {#active-profiles}
 
-An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
+An active profile is a profile that a customer has attempted to communicate with during the past 12 months via any channel.
 
 According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
@@ -72,7 +72,7 @@ The following guardrails and limitations apply:
 
 ## Privacy and consent{#privacy-and-consent}
 
-Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
+Adobe Campaign is a powerful tool for collecting and processing large volumes of data, including personal information and sensitive data. Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
 Learn how to manage privacy and consent in [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target="_blank"}.
 

@@ -88,11 +88,11 @@ Domain Keys Identified Mail (DKIM) is an authentication method that is used to d
 
 In Adobe Campaign, DKIM email authentication signing is performed by the MTA.
 
-Lern more on DKIM in the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
+Learn more on DKIM in the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## Email Feedback Service {#email-feedback-service}
 
-Campaign Email Feedback Service (EFS) reports the status of each email delivery send with Adobe Campaign.
+Campaign Email Feedback Service (EFS) reports the status of each email delivery sent with Adobe Campaign.
 
 Once the delivery has started, there is no change in the **[!UICONTROL Success]** percentage when the message is successfully relayed from Campaign to the MTA. The delivery logs show the **[!UICONTROL Taken into account by the service provider]** status for each targeted address.
 
@@ -119,5 +119,5 @@ The table below shows how the KPIs and sending logs statuses are updated at each
 | Message is successfully relayed from Campaign to the MTA | **[!UICONTROL Success]** percentage is not displayed (starts out at 0%) | Taken into account by the service provider |
 | Hard-bouncing messages get reported back from the MTA | No change in **[!UICONTROL Success]** percentage | Failed |
 | Soft-bouncing messages get reported back from the MTA | No change in **[!UICONTROL Success]** percentage | Taken into account by the service provider |
-| Soft-bouncing messages retries are successful | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
+| Soft-bouncing message retries are successful | **[!UICONTROL Success]** percentage is increased accordingly | Sent |
 | Soft-bouncing messages retries fail |  No change in **[!UICONTROL Success]** percentage  | Failed |

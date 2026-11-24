@@ -112,7 +112,7 @@ To identify the metadata of a filter and determine how to use it, you have to pe
 
 ***Sample request***
 
-The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metada.
+The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metadata.
 
 ```
 
@@ -263,7 +263,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     ```
 
-* Sample GET request to retrieve the services resources with the type "email" and the label "sport".
+* Sample GET request to retrieve the service resources with the type "email" and the label "sport".
 
     ```
 
@@ -380,7 +380,7 @@ The Adobe Campaign REST API can count the number of records in a request. To do 
 
 ***Sample request***
 
-To count all the services that have a **messageType** value equaling to "sms", perform a GET request with the **byChannel** filter.
+To count all the services that have a **messageType** value equal to "sms", perform a GET request with the **byChannel** filter.
 
 ```
 
@@ -488,7 +488,7 @@ Response to the request, with the **next** node to perform pagination.
 
 ```
 
-By default, the **next** node is not available when interacting with tables with large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
+By default, the **next** node is not available when interacting with tables with a large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
 
 ```
 

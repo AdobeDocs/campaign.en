@@ -46,4 +46,4 @@ In the **Campaigns** tab, open the chosen delivery. Click on the **Save as templ
 
 ![](assets/dce_save_model.png)
 
-The new template is saved under **Resources > Templates > Content templates** node in the explorer.
+The new template is saved under the **Resources > Templates > Content templates** node in the explorer.

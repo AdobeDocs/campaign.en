@@ -64,7 +64,7 @@ You can modify an expression either by adding a formula or by applying a process
 
 ![](assets/query_editor_nveau_97.png)
 
-ou can group the data displayed in the output columns. To do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. The results will then be aggregated based on the selected grouping axis. For an example of a query using grouping, see [this section](../../automation/workflow/query-delivery-info.md).
+You can group the data displayed in the output columns. To do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. The results will then be aggregated based on the selected grouping axis. For an example of a query using grouping, see [this section](../../automation/workflow/query-delivery-info.md).
 
 ![](assets/query_editor_nveau_56.png)
 
@@ -151,7 +151,7 @@ In this example, data is sorted in ascending order based on recipient age.
 
 >[!NOTE]
 >
->As in for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#customize-lists)
+>As for all lists available in the console, by default, only the first 200 lines are displayed in the **[!UICONTROL Data preview]** window. To change this, enter a number in the **[!UICONTROL Lines to display]** box and click **[!UICONTROL Start the preview of the data]**. [Learn more](../config/ui-settings.md#customize-lists)
 
 
 

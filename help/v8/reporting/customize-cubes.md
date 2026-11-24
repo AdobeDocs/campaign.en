@@ -113,7 +113,7 @@ Adobe Campaign also offers an enumeration on domains which lets you display a li
 
 ![](assets/nmx_report_sample.png)
 
-It is built using following template:
+It is built using the following template:
 
 ![](assets/nmx_enum_domain.png)
 
@@ -251,7 +251,7 @@ To do this:
 
    ![](assets/cube_multiple_filters.png)
 
-Each time a filter is modified (add, remover, alter), the report has to be recalculated.
+Each time a filter is modified (added, removed, altered), the report has to be recalculated.
 
 Filters can also be created based on a selection. To do this, select your source cells, lines and columns, then click the **[!UICONTROL Add a filter]** icon.
 

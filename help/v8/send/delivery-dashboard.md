@@ -60,7 +60,7 @@ The **delivery dashboard** is key to monitor your deliveries and eventual issues
 
 It allows you to retrieve information on a delivery and edit it if necessary. Note that tab contents may no longer be changed once the delivery has been sent.
 
-Here are the information you can monitor using the several tabs that are available in the dashboard:
+Here is the information you can monitor using the several tabs that are available in the dashboard:
 
 * [Delivery summary](#delivery-summary)
 * [Delivery reports](#delivery-reports)

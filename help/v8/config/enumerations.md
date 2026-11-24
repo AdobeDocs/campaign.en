@@ -53,7 +53,7 @@ An enumeration can be: **Open**, **System**, **Emoticon** or **Closed**.
 * An **Open** enumeration allows users to add new values directly in the fields based on this enumeration.
 * A **Closed** enumeration has a fixed list of values which can only be modified from the **[!UICONTROL Administration > Platform > Enumerations]** folder of the explorer. 
 * An **Emoticon** enumeration is used to update the emoticon list. Learn more
-* A **System** enumeration is associated to system fields and is coming with an Internal name.
+* A **System** enumeration is associated with system fields and comes with an internal name.
 
 For **Open** and **Closed** enumerations, specific options are available:
 

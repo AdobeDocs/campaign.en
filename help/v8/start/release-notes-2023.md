@@ -191,5 +191,5 @@ _January 27, 2023_
 * The remaining references to the log4j library have been removed from the Campaign installation on Windows. (NEO-44851)
 * Fixed an issue which could lead to an error when adding the **Recipients who have opened**  (estimatedRecipientOpen) indicator in the additional data of a **Query** workflow activity. (NEO-46665)
 * The management of tracking URLs has been improved in workflows with multiple deliveries to improve performance. (NEO-50894) <!--OKKKK-->
-* Fixed an issue which could cause the replication of schemas that uses Xtkfolder to fail. (NEO-46787) <!--OKKKK-->
-* Fixed an issue cause could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)
+* Fixed an issue which could cause the replication of schemas that use Xtkfolder to fail. (NEO-46787) <!--OKKKK-->
+* Fixed an issue that could cause the "lastModified" custom column to be dropped in the NmsSubscription table. (NEO-48402)

@@ -58,7 +58,7 @@ In addition, be aware of the following limitations and best practices:
     
     >[!CAUTION]
     >
-    >This option significantly improves performances when executing the personalization step.
+    >This option significantly improves performance when executing the personalization step.
 
 
 ## Use external data in a workflow
@@ -77,7 +77,7 @@ You can also directly define a connection to an external database from all the w
 
 >[!CAUTION]
 >
->This type of configuration must only be used temporary to collect data. The external account configuration should be preferred for any other usage.
+>This type of configuration must only be used temporarily to collect data. The external account configuration should be preferred for any other usage.
 
 For example, in the **[!UICONTROL Query]** activity, you can define a temporary connection to an external database as follows:
 
@@ -88,5 +88,5 @@ For example, in the **[!UICONTROL Query]** activity, you can define a temporary 
 1. Select the table where the data is stored. You can enter the name of the table directly in the corresponding field or click the edit icon to access the list of the database tables.
 1. Click the **[!UICONTROL Add]** button to define one or several reconciliation fields between the external database data and the data in the Adobe Campaign database. The **[!UICONTROL Edit expression]** icons of the **[!UICONTROL Remote field]** and **[!UICONTROL Local field]** gives you access to the list of fields of each of the tables.
 1. If necessary, specify a filtering condition and the data sorting mode.
-1. Select the additional data to be collected in the external database. To do this, double click on the fields(s) that you want to add to display them in the **[!UICONTROL Output columns]**. 
+1. Select the additional data to be collected in the external database. To do this, double click on the field(s) that you want to add to display them in the **[!UICONTROL Output columns]**. 
 1. Click **[!UICONTROL Finish]** to confirm this configuration.

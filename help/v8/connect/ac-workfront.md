@@ -21,7 +21,7 @@ level_v2:
 ---
 # Work with Campaign and Adobe Workfront
 
-Speed up campaign delivery by pairing Campaign with Adobe Workfront. Make it easy for cross-channel teams to intake, collaborate, and execute. With the Adobe Campaign modules in Adobe Workfont, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Campaign account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
+Speed up campaign delivery by pairing Campaign with Adobe Workfront. Make it easy for cross-channel teams to intake, collaborate, and execute. With the Adobe Campaign modules in Adobe Workfront, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Campaign account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
 
 
 Steps to configure this integration are detailed in Adobe Workfront documentation.

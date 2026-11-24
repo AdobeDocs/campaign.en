@@ -31,7 +31,7 @@ topic_v2:
 ---
 # Work with Campaign and Adobe Journey Optimizer
 
-Integration between Adobe Campaign and Adobe Journey Optimizer allows you orchestrate customer journeys in Adobe Journey Optimizer and send emails, push notifications and/or SMS using Adobe Campaign Transactional Messaging capabilities.
+Integration between Adobe Campaign and Adobe Journey Optimizer allows you to orchestrate customer journeys in Adobe Journey Optimizer and send emails, push notifications and/or SMS using Adobe Campaign Transactional Messaging capabilities.
 
 Basic steps are to create a transactional message template in Campaign, and then create the event, action, and design the journey in Adobe Journey Optimizer.
 

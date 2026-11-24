@@ -53,7 +53,7 @@ In this section, learn how to adjust Adobe Campaign to the requirements of your 
 
 >[!CAUTION]
 >
->With **Campaign Managed Cloud Services**, your environment and initial configuration is set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas, or reports. 
+>With **Campaign Managed Cloud Services**, your environment and initial configuration are set by Adobe, according to the terms of your license agreement. You are not allowed to modify installed built-in packages, built-in schemas, or reports. 
 >
 >If you need to use a Campaign add-on or a specific capability which has not been provisioned for you, you must contact your **Adobe Transition Manager**.
 
@@ -63,7 +63,7 @@ This section contains critical information about privacy and security that needs
 
 ### Privacy{#implementation-privacy}
 
-Adobe Campaign comes with processes and settings that allow you to use Campaign in compliance with applicable data privacy laws and your recipient's preferences. You can manage: 
+Adobe Campaign comes with processes and settings that allow you to use Campaign in compliance with applicable data privacy laws and your recipients' preferences. You can manage: 
 
 * **Data acquisition**: Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and manage consent from your recipients. 
     
@@ -191,7 +191,7 @@ If you are using other Adobe solutions, you can connect them to your Campaign en
 
 You can only use Single Sign-On (SSO) to connect to Campaign. Learn more in [this page](connect.md).
 
-Discover the full list of Adobe solution which can be integrated with Adobe Campaign [in this page](../connect/integration.md).
+Discover the full list of Adobe solutions which can be integrated with Adobe Campaign [in this page](../connect/integration.md).
 
 ### Connectors{#implementation-connectors}
 

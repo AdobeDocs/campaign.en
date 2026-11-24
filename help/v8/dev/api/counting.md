@@ -27,7 +27,7 @@ The Adobe Campaign REST API can count the number of records in a request. To do 
 
 ***Sample request***
 
-To count all the services that have a **messageType** value equaling to "sms", perform a GET request with the **byChannel** filter.
+To count all the services that have a **messageType** value equal to "sms", perform a GET request with the **byChannel** filter.
 
 ```
 

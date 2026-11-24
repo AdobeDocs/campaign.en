@@ -41,7 +41,7 @@ Types of associations, also known as cardinalities, are listed below.
 * Cardinality 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 * Cardinality N-N: one occurrence of the source table can have several corresponding occurrences of the target table, and vice-versa.
 
-In the use interface, cardinalities are represented with a specific icon.
+In the user interface, cardinalities are represented with a specific icon.
 
 For join relations with a campaign table/database:
 
