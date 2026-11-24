@@ -34,7 +34,7 @@ Options are parameters that control how your Campaign instance behaves, for exam
 
 ## Where options are stored {#where-options-are-stored}
 
-Options are stored in the Campaign database, in the **xtkOption** table (schema **xtk:option**). In Campaign Explorer, they are available under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**.
+Options are stored in the Campaign database, in the **xtkOption** table (schema **xtk:option**). In Campaign Explorer, they are available under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. In the Campaign Web user interface, they are available under **[!UICONTROL Administration]** > **[!UICONTROL Options]**. Both lists are identical. Learn more in [Configure Campaign options](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options){target="_blank"}.
 
 ## Use options {#use-options}
 
@@ -42,7 +42,17 @@ Options are stored in the Campaign database, in the **xtkOption** table (schema 
 1. Select the option, then update its value. If the option does not exist, create it with the exact name given in the documentation.
 1. Set a value of the type the documentation expects. For example, a text option for the CRM synchronization date, or an integer option for the workflow restart delay.
 
+You can also create your own options, for example to store intermediate data of a workflow. Enter a name, select the data type, and set the value. Learn more in [Configure Campaign options](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#create){target="_blank"}.
+
 Some options hold credentials. Encrypt secrets with the `cryptString` function, as described in [Work with Campaign and Adobe Experience Platform landing pages](../connect/ac-aep-landing-pages.md). When you rotate credentials, also rotate the ones stored in options. Learn more in the [credential rotation guide](../../technotes/security/credential-rotation-guide.md#ac-options-credentials).
+
+## Use options in workflows and personalization {#use-options-in-processes}
+
+You can read and write option values from JavaScript code, personalization, and queries.
+
+* **JavaScript code**, such as a JavaScript code workflow activity: `getOption('OptionName')` returns the value of an option, and `setOption('OptionName', value, 'description')` sets it. For example, `getOption('IMS_ORG_ID')`. Learn more in [getOption](../../campaign-api/f-getoption.md) and [setOption](../../campaign-api/f-setoption.md).
+* **Delivery personalization**: `<%@ include option='OptionName' %>` inserts the value of an option. For example, `<%@ include option='NmsServer_URL' %>` includes the server URL in a link to a web app in a LINE message. Learn more in [Send direct LINE messages with Adobe Campaign](../send/line/line.md).
+* **Query editor**: type `$(options:OPTION_NAME)` in the **Value** field to use the value of an option. Learn more in [Design queries](../start/design-queries.md).
 
 ## Available options {#available-options}
 
@@ -71,6 +81,7 @@ These options control how deliveries are prepared and sent. They cover image and
 | XtkBarcode_SpecialChar | Enables or disables the support of special characters for Code128 barcodes. |
 | XtkSecurity_Restrict_EditXML | Add it with the value 0 to disable the editing of the XML code of deliveries (Edit XML source or Ctrl+F4). |
 | NMS_ActivateOwnerConfirmation | Set it to 1 so that the operator in charge of the delivery can confirm the send, when a specific operator or group is designated for starting the delivery. Set it to 0 to deactivate: only the designated operator or group, or an administrator, can then confirm the send. |
+| NmsDelivery_senderAddressMask | Comma-separated list of the sender addresses allowed in the From email field of email deliveries. When the option has a value, the field becomes a dropdown list. The restriction is global: it applies to every brand and delivery template, and supports static addresses only. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#restrict-sender-address){target="_blank"} |
 
 ### Campaigns and workflows {#campaign-workflow-options}
 
@@ -176,6 +187,8 @@ These options let you customize how Campaign enriches and routes real-time and b
 | MC_EnrichmentCustomJs | JavaScript library that enriches events. It must implement enrichRtEvents(aiEventId) for real-time events and enrichBatchEvents(aiEventId) for batch events. Both functions enrich the events and save them in the database. |
 | MC_RoutingCustomJs | JavaScript library that routes events. It must implement dispatchRtEvent(iEventId) and dispatchBatchEvent(iEventId), which return the internal name of the transactional message selected for the real-time or batch event. |
 | NmsMessageCenter_RoutingBatchSize | Size of the groups used for event routing. |
+| NmsTracking_RT_ClickFormula, NmsTracking_RT_OpenFormula | Formulas used for click and open tracking of real-time (RT) deliveries when branding is activated. They are configured on the RT control instance. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/branding/branding-configure){target="_blank"} |
+| Branding_RT_ListXtkOptions_toPublish | List of the options, separated by commas, that contain your custom tracking formulas, so that RT deliveries can apply them. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/branding/branding-configure){target="_blank"} |
 
 ### Interaction (offer management) {#interaction-options}
 
@@ -213,6 +226,7 @@ These options control how Campaign processes privacy requests, such as the confi
 | Privacy_Request_ConfirmDeletePendingDelay | Delay after which a request that waits for deletion confirmation is cancelled. |
 | Privacy_Request_MaxErrorAllowed | Maximum number of errors allowed when processing or deleting a privacy request. |
 | Privacy_Request_PurgeDelay | Delay between the creation of a request in the queue and the deletion of its data. |
+| realtimeReporting_collectPII | Choice of the personally identifiable information (PII) agreement for dynamic reporting. The value 1 corresponds to Ask me later, 2 to Decline, and 3 to Accept. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reporting/dynamic-reporting/pii-agreement){target="_blank"} |
 
 ### Audit trail {#audit-trail-options}
 
