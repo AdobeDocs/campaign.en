@@ -184,10 +184,13 @@ These options apply to Campaign Interaction, the offer management module. They c
 | Option | Description |
 |---|---|
 | NmsInteraction_UseDaemon | Set it to 1 to enable the asynchronous writing of propositions, or to 0 to disable it. |
-| `NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>` | Last date that an environment was synchronized on a given instance. Maintenance option of the control instance. |
-| `NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>` | Last date that the propositions of a schema were synchronized from one instance to another. Maintenance option of the control instance. |
 | NmsInteraction_MapWorkflowId | List of all the generated synchronization workflows. Maintenance option of the control instance. |
 | NmsExecutionInstanceId | Identifier of the execution instance. Available on execution instances. |
+
+The following options are also maintenance options of the control instance:
+
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**: last date that an environment was synchronized on a given instance.
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**: last date that the propositions of a schema were synchronized from one instance to another.
 
 >[!CAUTION]
 >
@@ -235,7 +238,7 @@ These options store the settings of integrations and surveys: the Adobe Develope
 | Option | Description |
 |---|---|
 | IMS_CLIENT_ID, IMS_CLIENT_SECRET, IMS_ORG_ID, IMS_CLIENT_API_KEY | Adobe Developer Console credentials used for landing pages with Adobe Experience Platform. [Learn more](../connect/ac-aep-landing-pages.md) |
-| `LASTIMPORT_<instance>_<activity>` | Date of the last synchronization of the generic CRM Connector activity. Create it manually as a text option, in the format `yyyy/MM/dd hh:mm:ss`. [Learn more](../connect/crm-data-sync.md) |
+| LASTIMPORT_ followed by the internal name of the instance and the activity name | Date of the last synchronization of the generic CRM Connector activity. Create it manually as a text option, in the format `yyyy/MM/dd hh:mm:ss`. [Learn more](../connect/crm-data-sync.md) |
 | NmsWebApp_XmlBackup | Create it and set it to 1 to save a copy of the raw answers by default for all surveys. [Learn more](../dev/surveys/managing-answers.md) |
 | AEMResourceTypeFilter | Types of Adobe Experience Manager resources that can be used in Campaign, separated by commas. [Learn more](../connect/ac-aem.md) |
 | nmsPipeline_config | Configuration of Adobe Experience Cloud triggers, in JSON format. Create it as a long text option. [Learn more](../connect/ac-triggers.md) |
