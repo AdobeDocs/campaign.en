@@ -65,7 +65,7 @@ These options control how deliveries are prepared and sent. They cover image and
 
 ### Campaigns and workflows {#campaign-workflow-options}
 
-These options control how campaigns and workflows run: the owner confirmation of a send, the number of jobs processed at the same time, the check of paused workflows, the automatic restart of workflows, and the protection of SQL activities. Learn more in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md), [Workflow best practices](../../automation/workflow/workflow-best-practices.md), [Monitor workflow execution](../../automation/workflow/monitor-workflow-execution.md), [Workflow properties](../../automation/workflow/workflow-properties.md), and [SQL code and JavaScript code](../../automation/workflow/sql-code-and-javascript-code.md#important-notes).
+These options control how campaigns and workflows run. They cover the owner confirmation of a send, the number of jobs processed at the same time, the check of paused workflows, the automatic restart of workflows, and the protection of SQL activities. Learn more in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md), [Workflow best practices](../../automation/workflow/workflow-best-practices.md), [Monitor workflow execution](../../automation/workflow/monitor-workflow-execution.md), [Workflow properties](../../automation/workflow/workflow-properties.md), and [SQL code and JavaScript code](../../automation/workflow/sql-code-and-javascript-code.md#important-notes).
 
 | Option | Description |
 |---|---|
