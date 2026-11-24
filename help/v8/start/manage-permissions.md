@@ -217,7 +217,7 @@ You can use the Admin Console to create user groups and assign users to them.
 
 A user group is a collection of different users that have to be given a shared set of permissions. Learn how to create user groups in [this section](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
-You can assign product profiles to user groups. So, all the users in that group to receive the same set of product permissions.
+You can assign product profiles to user groups. So, all the users in that group receive the same set of product permissions.
 
 ## Named rights{#use-named-rights}
 
@@ -255,7 +255,7 @@ Default named rights in Adobe Campaign are:
 
 * **[!UICONTROL LOCAL]**: Right for local management (Distributed Marketing).
 
-* **[!UICONTROL MERGE]**: Right to merge the selected records into one. If recipients exist as duplicates, the **[!UICONTROL MERGE]** right allows user to select the duplicates and merge them into a primary recipient.
+* **[!UICONTROL MERGE]**: Right to merge the selected records into one. If recipients exist as duplicates, the **[!UICONTROL MERGE]** right allows users to select the duplicates and merge them into a primary recipient.
 
 * **[!UICONTROL PREPARE DELIVERIES]**: Right to create, edit and save a delivery. Users with the **[!UICONTROL PREPARE DELIVERIES]** right can also start the delivery analysis process.
 

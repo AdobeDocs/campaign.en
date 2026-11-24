@@ -125,7 +125,7 @@ To select the recipients of a delivery, follow the steps below:
 
       ![](assets/target-recipient-delivery.png)
 
-    * **[!UICONTROL Delivery recipients belonging to a folder]**: use this option to build the target from the recipients deliveries included in a specific folder.
+    * **[!UICONTROL Delivery recipients belonging to a folder]**: use this option to build the target from the recipients of deliveries included in a specific folder.
     
       ![](assets/target-delivery-folder.png)
       
@@ -142,7 +142,7 @@ To select the recipients of a delivery, follow the steps below:
       ![](assets/target-service.png)
 
     * **[!UICONTROL User filters]**: this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../audiences/create-filters.md#default-filters).
-    * The **[!UICONTROL Exclude recipients from this segment]** option lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
+    * The **[!UICONTROL Exclude recipients from this segment]** option lets you target recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
 
 1. Enter a name for this targeting in the **[!UICONTROL Label]** field. By default, the label is the label of the first targeting criterion. When combining filtering criteria, it is recommended to use an explicit name.
 1. Click **[!UICONTROL Finish]** to validate the targeting options.
@@ -226,6 +226,6 @@ To do this:
 
 ## Configure and send the delivery {#configuring-and-sending-the-delivery}
 
-Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery priority, set up sending waves, confugure the retry settings, and test your delivery sending. Once this configuration is done, you can confirm the sending. Messages are then sent immediately, or based on the delivery schedule.
+Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery priority, set up sending waves, configure the retry settings, and test your delivery sending. Once this configuration is done, you can confirm the sending. Messages are then sent immediately, or based on the delivery schedule.
 
 Learn how to configure your delivery settings in [this page](../send/configure-and-send.md).

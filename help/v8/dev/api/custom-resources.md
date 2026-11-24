@@ -38,7 +38,7 @@ Custom resources are accessible through APIs using the **/profileAndServicesExt*
 >
 >For resources that are not out-of-the-box, always use the <b>"cus"</b> prefix before the resource's name.
 
-You can perform any operation with custom resources, as long as they are linked to the Profile table. For example, let's consider the tables structure below:
+You can perform any operation with custom resources, as long as they are linked to the Profile table. For example, let's consider the table structure below:
 
 ![alt text](assets/cusresources.png)
 
@@ -60,7 +60,7 @@ Sample GET request to access the extended profileAndServicesExt resource.
 
 ```
 
-It returns the list of all linked custom resources. You can then use the resources URLs to perform any API task described in this documentation.
+It returns the list of all linked custom resources. You can then use the resource URLs to perform any API task described in this documentation.
 
 ```
 

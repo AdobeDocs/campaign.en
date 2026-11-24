@@ -89,7 +89,7 @@ In the example below, learn how to create a multilingual email. Content displays
 
    >[!NOTE]
    >
-   >As no alternative version has been defined in the email content, make sure to filter target population before sending the email.
+   >As no alternative version has been defined in the email content, make sure to filter the target population before sending the email.
 
 ## Tutorial video {#conditionnal-content-video}
 

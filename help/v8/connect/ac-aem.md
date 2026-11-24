@@ -66,7 +66,7 @@ This integration can be used for example to create a newsletter in Adobe Experie
 
    ![](assets/aem_authoring_3.png)
 
-1. Customize your email content by adding components, such as personalization fields from Adobe Campaign.. Learn more in [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
+1. Customize your email content by adding components, such as personalization fields from Adobe Campaign. Learn more in [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
 
 1. Once your email is ready, navigate to the **[!UICONTROL Page information]** menu and click **[!UICONTROL Start workflow]**.
 
@@ -110,7 +110,7 @@ Your newsletter is now ready and synchronized in Adobe Campaign.
 
 1. To remove linkage between Experience Manager and Campaign, click **[!UICONTROL Desynchronize]**.
 
-Your email is now ready to be send to your audience.
+Your email is now ready to be sent to your audience.
 
 ## Import assets from Adobe Experience Manager Assets library {#assets-library}
 
@@ -122,7 +122,7 @@ You can also directly insert assets from your [!DNL Adobe Experience Manager Ass
 
    ![](assets/aem_assets_1.png)
 
-1. Click **Create** then **Files** to import your asset to your **Adobe Experience Manager Assets Library**. Learn more in [Adobe Experience Manaager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
+1. Click **Create** then **Files** to import your asset to your **Adobe Experience Manager Assets Library**. Learn more in [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
 
    ![](assets/aem_assets_2.png)
 

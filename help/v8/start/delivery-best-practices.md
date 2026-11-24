@@ -56,7 +56,7 @@ Before even starting creating deliveries, you can take several actions to secure
 
 Several factors can directly impact server performance and slow your Campaign platform:
 
-* The number and type of [personalization](../send/personalize.md) elements: personalization in emails pulls data out of the database for each recipient. in case of many personalization elements, the amount of data needed to prepare the delivery is higher. This can slow your platform. Learn more about personalization guardrails in [this section](../send/personalize.md#perso-guardrails).
+* The number and type of [personalization](../send/personalize.md) elements: personalization in emails pulls data out of the database for each recipient. In case of many personalization elements, the amount of data needed to prepare the delivery is higher. This can slow your platform. Learn more about personalization guardrails in [this section](../send/personalize.md#perso-guardrails).
 
 * The server load: when the marketing server is handling many different tasks at the same time, it can slow down performance. The marketing server needs to coordinate all of the incoming and outgoing data for all of the deliveries to ensure that the data is correct and on time.
     To avoid this, coordinate the scheduling of deliveries with the other members of your team to ensure the best performance.
@@ -112,7 +112,7 @@ Delivery templates allow for increased efficiency by providing ready-made scenar
 
 ### Subdomains and branding {#subdomains-and-branding}
 
-When you manage several brands in Adobe Campaign, Adobe recommends having one sub-domain per brand. For example, a bank can have several sub-domains corresponding to each of its regional agencies. If a bank owns the bluebank.com domain, its sub-domains can be @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Having one delivery template per sub-domain enables you to always use the right pre-configured parameters for each of your brand, which avoids errors and saves you time. Learn more about subdomain branding in the [Campaign Control Panel documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+When you manage several brands in Adobe Campaign, Adobe recommends having one sub-domain per brand. For example, a bank can have several sub-domains corresponding to each of its regional agencies. If a bank owns the bluebank.com domain, its sub-domains can be @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Having one delivery template per sub-domain enables you to always use the right pre-configured parameters for each of your brands, which avoids errors and saves you time. Learn more about subdomain branding in the [Campaign Control Panel documentation](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configure addresses {#configure-addresses}
 
@@ -139,7 +139,7 @@ To configure addresses in Campaign interface, follow the steps below:
 
 ### Set up a control group {#set-up-control-group}
 
-Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups [this section](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
+Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups in [this section](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
 ### Use typologies to apply filters or control rules {#create-typologies}
 
@@ -167,9 +167,9 @@ To personalize your messages, you can use recipients' data stored in the databas
     %>
     ``
 
-    For more on personalization blocks, refer to the [this section](../send/personalization-blocks.md).
+    For more on personalization blocks, refer to [this section](../send/personalization-blocks.md).
 
-* Prepare personalization data - You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used specially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in this [this section](../send/personalization-data.md#optimize-personalization)
+* Prepare personalization data - You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used especially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in [this section](../send/personalization-data.md#optimize-personalization)
 +++
 
 ### Build optimized content {#build-optimized-content}
@@ -211,7 +211,7 @@ Work on the email [subject line](../send/personalization-fields.md#personalizati
 
 ### Mirror page {#mirror-page-check}
 
-Always include a mirror page link. Preferred position is a the top of the email. Learn more about the mirror page in [this page](../send/mirror-page.md) 
+Always include a mirror page link. The preferred position is at the top of the email. Learn more about the mirror page in [this page](../send/mirror-page.md) 
 
 ### Unsubscription link {#unsub-link-check}
 

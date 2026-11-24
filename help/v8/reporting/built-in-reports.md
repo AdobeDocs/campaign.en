@@ -288,7 +288,7 @@ The built-in reports provided by Adobe Campaign can be found in the table below.
   </tr> 
   <tr> 
    <td> Cumulative evolution of the budget (budgetCumulativeEvolution)<br /> </td> 
-   <td> Evolution of the cumulated budget costs broken down by commi<br /> tment level. </td> 
+   <td> Evolution of the cumulated budget costs broken down by commitment level. </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 

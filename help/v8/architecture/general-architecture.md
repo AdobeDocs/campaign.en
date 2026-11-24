@@ -92,14 +92,14 @@ The main processes are:
 * **Workflow engine** (nlserver wfserver) - This process executes the workflow processes defined in the application. It also handles periodically executed technical workflows, including:
 
   * **Tracking**: Recovers and consolidates tracking logs, so that you can retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
-  * **Cleanup**: Cleans the database, and purges old records and avoid the database growing exponentially.
+  * **Cleanup**: Cleans the database, and purges old records and avoids the database growing exponentially.
   * **Billing**: Sends an activity report for the platform (size of the database, number of marketing actions, etc.).
 
 * **Delivery Server** (nlserver mta) - Adobe Campaign has native email broadcast functionality. This process functions as an SMTP mail transfer agent (MTA). It performs "one-to-one" personalization of messages and handles their physical delivery. It runs using delivery jobs and handles automatic retries. In addition, when tracking is enabled, it automatically replaces the URLs so that they point to the redirection server. This process can handle the customization and automatic sending to a third-party router for SMS, fax and direct mail.
 
 * **Redirection server** (nlserver webmdl) - For email, Adobe Campaign automatically handles open and click tracking (transactional tracking at the Web site level is a further possibility). To achieve this, the URLs incorporated in the email messages are rewritten in order to point to this module, which registers the passing of the internet user before redirecting them to the required URL.
 
-  To guarantee highest availability, this process is fully independent from the database: the other server processes communicate with it using SOAP calls (HTTP, HTTP(S) and XML) only. Technically, this functionality is implemented in an extension module of an HTTP server (ISAPI extension in IIS, or a DSO Apache module, etc.) and is available in Windows only.
+  To guarantee the highest availability, this process is fully independent from the database: the other server processes communicate with it using SOAP calls (HTTP, HTTP(S) and XML) only. Technically, this functionality is implemented in an extension module of an HTTP server (ISAPI extension in IIS, or a DSO Apache module, etc.) and is available in Windows only.
   
 Other more technical processes are also available:
 
@@ -115,7 +115,7 @@ Other more technical processes are also available:
 
 * **Supervising modules** (nlserver watchdog) - This technical process acts as a primary process which spawns the others. It also monitors them and relaunches them automatically in case of incidents, thus maintaining maximum system uptime.
 
-* **Statistics server** (nlserver stat) - This process maintains statistics on the number of connections, the messages sent for each mail server which messages are sent to, as well as their limitations (highest number of simultaneous connections, messages per hour/ and or connection). It also lets you federate several instances or machines if they share the same public IP addresses.
+* **Statistics server** (nlserver stat) - This process maintains statistics on the number of connections, the messages sent for each mail server which messages are sent to, as well as their limitations (highest number of simultaneous connections, messages per hour and/or per connection). It also lets you federate several instances or machines if they share the same public IP addresses.
 
 
 ## Database containers {#db-containers}

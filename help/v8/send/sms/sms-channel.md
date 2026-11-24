@@ -39,13 +39,13 @@ When sending SMS through an SMS provider, you will encounter 3 different kinds o
 * **SMS MO (Mobile Originated)**: This is an SMS that is sent by a mobile toward Adobe Campaign through the SMPP provider.
 * **SMS SR (Status Report) or DR or DLR (Delivery Receipt)**: This is a return receipt sent by the mobile to Adobe Campaign through the SMPP provider indicating that the SMS has been received successfully. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error.
 
-You need to distinguish between acknowledgments (RESP PDU, part of the SMPP protocol) and SR. A SR is a kind of SMS that is sent through the network end-to-end, whereas an acknowledgement is only a confirmation that one transfer has been successful. 
+You need to distinguish between acknowledgments (RESP PDU, part of the SMPP protocol) and SR. An SR is a kind of SMS that is sent through the network end-to-end, whereas an acknowledgement is only a confirmation that one transfer has been successful. 
 
 Both acknowledgements and SR can trigger errors, distinguishing between the two will help troubleshooting.
 
 ### Information carried by an SMS  {#sms-info}
 
-An SMS carries more information than text. Here a list of what you can expect to find in an SMS:
+An SMS carries more information than text. Here is a list of what you can expect to find in an SMS:
 
 * The text, which is limited to 140 bytes, which means between 70 and 160 characters depending on the encoding. See [SMS text encoding](#sms-text-encoding) below for details and limitations.
 * A recipient address, sometimes called ADC or MSISDN (the technical name for "phone number"). That's the number of the mobile that will receive the SMS.
@@ -61,7 +61,7 @@ An SMS carries more information than text. Here a list of what you can expect to
 >
 >Encoding of SMS is a vast, complex subject with many traps and non-conforming implementations!
 
-The first rule is **always contact the SMPP provider in case of encoding problems**. Only they, have precise knowledge of the encoding they support and special rules that may apply due to limitations in their technical platform. Make them check what you send them and what they send back to you, it is the only path to a successful and stable interconnection.
+The first rule is **always contact the SMPP provider in case of encoding problems**. Only they have precise knowledge of the encoding they support and special rules that may apply due to limitations in their technical platform. Make them check what you send them and what they send back to you, it is the only path to a successful and stable interconnection.
 
 SMS messages use a special 7 bits encoding, often called the GSM7 encoding.  Wikipedia has [a good article about it (GSM 03.38 in English)](https://en.wikipedia.org/wiki/GSM_03.38).
 
@@ -74,7 +74,7 @@ In case of encoding problems, here are some important things to check:
 * Latin-1 is not always supported. Check the compatibility with your SMPP provider before attempting to use Latin-1.
 * National language shift tables are not supported by the Adobe Campaign connector. You must use UCS-2 or other data_coding instead.
 * UCS-2 and UTF-16 are often mixed by phones. This is a problem for people sending emojis and other rarely used characters not present in UCS-2.
-* Sole older phones don't have font glyphs for all UCS-2 characters. Latest smartphones tend to be able to display rare characters rather easily, older smartphones often lack many emojis, and very old feature phones generally have support limited to what's useful in the native tongue of the country they were bought in. If you want to use emoji or ASCII-art of some sort, test it on a wide variety of phones before sending. Campaign preview does not simulate missing glyphs and will display whatever symbols are available on the web browser displaying the preview.
+* Some older phones don't have font glyphs for all UCS-2 characters. Latest smartphones tend to be able to display rare characters rather easily, older smartphones often lack many emojis, and very old feature phones generally have support limited to what's useful in the native tongue of the country they were bought in. If you want to use emoji or ASCII-art of some sort, test it on a wide variety of phones before sending. Campaign preview does not simulate missing glyphs and will display whatever symbols are available on the web browser displaying the preview.
 
 The *data_coding* field tells which encoding is used. A major problem is that the value 0 means *default SMSC encoding* in the specification, in general it means GSM7, but that's not always the case. Check with the SMPP provider which encoding is associated with data_coding = 0. Other data_coding values tend to follow the specification, but the only way to be sure is to check with the SMPP provider.
 
@@ -92,7 +92,7 @@ Multipart SMS (often called long SMS) are SMS that are sent in multiple parts. D
 
 Each part of a long message is an individual SMS. These parts travel independently on the network and are assembled by the receiving mobile phone. In order to handle retries and connectivity problems gracefully, Campaign sends parts in reverse order and asks for a SR only on the first part of the message (the one that is sent last); as the mobile phone only displays a message when it received its first part, retries on additional parts won't produce duplicates on the mobile phone.
 
-The maximum number of SMS per message can be set per delivery using the Maximum number of SMS per message setting in the delivery template. Messages that go above this limit will fail during sending with a SMS too long failure reason.
+The maximum number of SMS per message can be set per delivery using the Maximum number of SMS per message setting in the delivery template. Messages that go above this limit will fail during sending with an SMS too long failure reason.
 
 There are 2 ways to send long SMS:
 

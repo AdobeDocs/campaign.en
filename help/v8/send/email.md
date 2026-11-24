@@ -101,7 +101,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
       
       Learn more about managing the mirror page in [this section](mirror-page.md#link-to-mirror-page).
 
-1. You can define additional parameters for your email such as sending a copy of your messages to a BBC address, changing the message format, setting a specific encoding, etc. Learn more in [this section](email-parameters.md).
+1. You can define additional parameters for your email such as sending a copy of your messages to a BCC address, changing the message format, setting a specific encoding, etc. Learn more in [this section](email-parameters.md).
 
 1. Once the content is ready, click **Save**: it will now be displayed in your list of deliveries, in the **[!UICONTROL Campaigns > Deliveries]** tab.
 

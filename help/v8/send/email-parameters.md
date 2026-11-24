@@ -77,7 +77,7 @@ The **[!UICONTROL SMTP]** tab of the delivery properties lets you also configure
 
 * **[!UICONTROL Errors-to-address]**: By default, bounced emails are received in the default error box of the platform, but you can define a specific error address for a delivery.
 
-* **[!UICONTROL Bounce address]**: You can also define another address to which the unprocessed bounced emails are forwarded. This address allows to investigate the reasons for bouncing when emails could not be automatically qualified by the application.
+* **[!UICONTROL Bounce address]**: You can also define another address to which the unprocessed bounced emails are forwarded. This address allows you to investigate the reasons for bouncing when emails could not be automatically qualified by the application.
 
 Each of these fields can be personalized using the dedicated icon. Learn more on personalization fields in [this section](personalization-fields.md).
 

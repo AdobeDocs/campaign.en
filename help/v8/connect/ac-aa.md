@@ -195,7 +195,7 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
    >[!NOTE]
    >
-   >The Campaign ID and Broadload ID fields are collected via JavaScript on the landing page or through processing rules. [Learn more on processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >The Campaign ID and Broadlog ID fields are collected via JavaScript on the landing page or through processing rules. [Learn more on processing rules](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -235,8 +235,8 @@ For more information on this, refer to the [Product profiles for Adobe Analytics
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
-    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days) after which the web events recovered in Adobe Campaign by technical workflows. Default: 180 days.
-    * **[!UICONTROL Persistence]**: lets you the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign, Default: 7 days.
+    * **[!UICONTROL Lifespan]**: lets you specify the delay (in days) after which the web events are recovered in Adobe Campaign by technical workflows. Default: 180 days.
+    * **[!UICONTROL Persistence]**: lets you specify the period during which all web events (a purchase for example) can be attributed to a re-marketing campaign. Default: 7 days.
 
 >[!NOTE]
 >
@@ -269,7 +269,7 @@ The indicators involved are:
 
 >[!NOTE]
 >
->Data sent is the delta based on the last snapshot which may lead to negative value in the metric data.
+>Data sent is the delta based on the last snapshot which may lead to negative values in the metric data.
 
 The attributes sent are as follows:
 
@@ -304,7 +304,7 @@ To prepare your re-marketing campaign, simply create delivery templates to be us
 
 Re-marketing campaigns are started automatically once Adobe Campaign has finished recovering the segments analyzing the behavior of people targeted by the initial campaign. In case of cart abandonment or product viewing without a purchase, a delivery is sent to the concerned recipients in order for their site browsing to finalize their purchase.
 
-Adobe Campaign provides personalized delivery templates which you can use or database yourselves on to prepare campaigns.
+Adobe Campaign provides personalized delivery templates which you can use or base yourselves on to prepare campaigns.
 
 1. From the **[!UICONTROL Explorer]**, go to the **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** folder of the Adobe Campaign tree.
 1. Duplicate the **[!UICONTROL Email delivery (re-marketing)]** template or the re-marketing template examples offered by Adobe Campaign.

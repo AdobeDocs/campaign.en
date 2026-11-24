@@ -65,9 +65,9 @@ topic_v2:
 ---
 # Adobe Campaign v8 key capabilities {#ac-gs-what-is-new}
 
-Adobe Campaign v8 is designed for cross-channel marketers who need the best-in-class cloud solution for cross-channel campaign management with enterprise scale. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on a all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipt's and much more.
+Adobe Campaign v8 is designed for cross-channel marketers who need the best-in-class cloud solution for cross-channel campaign management with enterprise scale. It provides robust ETL and data management capabilities to help craft and curate the perfect campaign. Its orchestration engine provides for rich multi-touch marketing programs with a core focus on batch-based driven journeys. It also comes paired with a scalable real-time messaging server that enables marketing teams to send pre-defined messages based on an all-inclusive payload from any IT system for things such as password reset, order confirmation, e-receipts and much more.
 
-Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. It is available as a **Managed Cloud Service** which combines services with proactive oversight and timely alterting. Learn more about Campaign Managed Cloud Services [in this section](#acms-desc).
+Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. It is available as a **Managed Cloud Service** which combines services with proactive oversight and timely alerting. Learn more about Campaign Managed Cloud Services [in this section](#acms-desc).
 
 ![](assets/home-page.png) 
 
@@ -113,7 +113,7 @@ Adobe Campaign helps you build customer profiles from data gathered across all o
 
 [Learn more about customer data management](audiences.md)
 
-### Best-in class campaign management {#best-in-campaign-mgt}
+### Best-in-class campaign management {#best-in-campaign-mgt}
 
 Adobe Campaign v8 provides marketers with best-in-class capabilities to plan, launch and measure campaigns across channels. 
 
@@ -146,7 +146,7 @@ Note that the new cloud architecture enables Campaign to streamline processes, r
 
 >[!AVAILABILITY]
 >
->* Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environments. 
+>* Campaign v8 is **only** available as a Managed Cloud Service, and cannot be deployed on an on-premise or hybrid environment. 
 >
 >* Automated migration from an existing Campaign Classic v7 environment is not yet available.
 
@@ -219,7 +219,7 @@ This approach ensures your Campaign instance is always secure, optimized, and eq
 
 ## Self-service admin interface{#self-service-admin}
 
-As a product administrator, you can manage settings and track usages of each of your Campaign v8 instances with **Campaign Control Panel**. 
+As a product administrator, you can manage settings and track usage of each of your Campaign v8 instances with **Campaign Control Panel**. 
 
 Through an intuitive user interface, administrators can monitor usage of key assets, perform advanced tasks such as IP addresses allow listing, SFTP storage monitoring, key management, and more. This self-service interface brings you more flexibility and helps you:
 

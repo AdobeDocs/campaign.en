@@ -45,13 +45,13 @@ The **[!UICONTROL Visitor folder]** field appears. It is automatically completed
 
 Just like outbound interactions, inbound interactions are organized in an offer catalog which is made up of categories and offers.
 
-To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#create-an-offer-environment)).
+To create categories and spaces, apply the same process as for identified visitors. Refer to [Create an offer category](interaction-offer-catalog.md#creating-offer-categories) and [Create an offer environment](interaction-env.md#create-an-offer-environment).
 
 ## Anonymous visitors {#anonymous-visitors}
 
 Anonymous visitors may be submitted to a cookie identification process when they connect. This implicit recognition is based on the visitor's browser history.
 
-During this step, a comparison is made between the data recovered by the cookies and those in your database. In some cases, visitors are recognized (they arethen implicitly identified), in other cases, they are not recognized (and therefore remains anonymous).
+During this step, a comparison is made between the data recovered by the cookies and those in your database. In some cases, visitors are recognized (they are then implicitly identified), in other cases, they are not recognized (and therefore remain anonymous).
 
 To run this analysis, for the offer space, check the **[!UICONTROL Implicitly identify the individual based on their browser history]** option.
 

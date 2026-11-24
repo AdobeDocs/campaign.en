@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Get started with personalization {#personalize-content}
 
-To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, personalization capabilities  to create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
+To get the most out of every marketing campaign, Adobe Campaign gives you a way to deliver custom content that speaks to customers on their level. Based on profile data, personalization capabilities let you create a custom experience for different groups and individuals: you can adapt your messages to each specific recipient by leveraging the data and information you have about them. It can be their first name, interests, where they live, what they bought, and much more.
 
 Adobe Campaign simplifies personalization: you can display different types of content customized for each recipient using a single [message template](create-templates.md). In your transactional messages, such as purchase confirmation or cart abandonment emails, include product listings information for each individual within a single email template.
 
@@ -46,11 +46,11 @@ You can personalize the message content by:
     
 * Inserting pre-defined **content blocks**
     
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor. [Learn more](personalization-blocks.md).
+    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry in the personalization editor. [Learn more](personalization-blocks.md).
 
-* Create **conditional content**
+* Creating **conditional content**
 
-    Configure conditional content to add dynamic personalization based on the recipient's profile for example. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditions.md).
+    Configure conditional content to add dynamic personalization based on the recipient's profile, for example,. Text blocks and/or images are inserted when a particular condition is true. [Learn more](conditions.md).
 
 <!--
 * Add **personalized offers**
@@ -81,7 +81,7 @@ The following variables are internal variables that can be used for personalizat
 
 ## Tutorial video {#personalization-video}
 
-Understand the different types of dynamic content and learn how create and apply personalization blocks and conditional statements to a delivery.
+Understand the different types of dynamic content and learn how to create and apply personalization blocks and conditional statements to a delivery.
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

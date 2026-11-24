@@ -28,7 +28,7 @@ topic_v2:
 ---
 # Metadata mechanism {#metadata-mechanism}
 
-You can retrieve the resources metadata using **resourceType** in a GET request:
+You can retrieve the resource metadata using **resourceType** in a GET request:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -40,12 +40,12 @@ The response returns the main metadata from the resource (all other fields are d
     * "type": this is the high-level type definition (string, number, link, collection, enumeration...).
     * "dataPolicy": the value of the field must follow the given policy rules. For example, if dataPolicy rule is set to "email", the value must be a valid email. During a PATCH or a POST, the dataPolicy can check the value or modify the value to transform (smartCase for example).
     * "category": gives the category of the field in the query editor.
-    * "resType": this the technical type.
+    * "resType": this is the technical type.
 
         If "type" is completed with the value "link" or "collection", the resTarget value is the name of the resource targeted by the link.
-        If "type" is completed with the value "enumeration", a "values" field is added and each enumeration value are detailed in the **values** node.
+        If "type" is completed with the value "enumeration", a "values" field is added and each enumeration value is detailed in the **values** node.
 
-* The **Filters** node returns the URL to retrieve the associated filters. For more on filters, refer to [this section](sorting.md#filtering) section.
+* The **Filters** node returns the URL to retrieve the associated filters. For more on filters, refer to [this section](sorting.md#filtering).
 
 <!-- créer une section au même niveau sur les liens -->
 <!--

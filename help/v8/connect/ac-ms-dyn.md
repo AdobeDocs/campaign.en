@@ -80,7 +80,7 @@ Learn more in [Microsoft Dynamics 365 documentation](https://docs.microsoft.com/
 
 ### Generate Microsoft Dynamics Certificate key identifier and Key ID {#config-certificate-key-id}
 
-To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, you must upload a certificate. Certificates can be used as secrets to prove the application's identity when requesting a token. Also can be referred to as public keys.
+To get the **Certificate key identifier (customKeyIdentifier)** and the **Key ID (keyId)**, you must upload a certificate. Certificates can be used as secrets to prove the application's identity when requesting a token. They can also be referred to as public keys.
 
 Follow the steps below:
 
@@ -141,7 +141,7 @@ The App user is the user that the application registered above will use. Any cha
 **Step 1**: Create a non-interactive user on azure active directory
 
 1. Click **Azure Active Directory > Users** and click **New User**.
-1. Give a proper name that you want use and the username should be an email format.
+1. Give a proper name that you want to use and the username should be an email format.
 1. Choose **Dynamics 365 Administrator** in the **Directory Role**.
 
 **Step 2**:  Assign a proper license to the created user
@@ -154,7 +154,7 @@ The App user is the user that the application registered above will use. Any cha
 **Step 3**: Create an application user on Dynamics CRM
 
 1. From [Microsoft Azure](https://portal.azure.com), navigate to **Settings > Security > Users**.
-1. Click on drop-down, select **Application users**, and click **New**.
+1. Click on the drop-down, select **Application users**, and click **New**.
 1. Use the same username as the user created on active directory above.
 1. Assign the **Application ID** for [the application you created earlier](#get-client-id-microsoft).
 1. Click on **Manage Roles** and choose the **System administrator** role to the user.

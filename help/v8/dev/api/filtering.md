@@ -31,7 +31,7 @@ To identify the metadata of a filter and determine how to use it, you have to pe
 
 ***Sample request***
 
-The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metada.
+The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metadata.
 
 ```
 
@@ -182,7 +182,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     ```
 
-* Sample GET request to retrieve the services resources with the type "email" and the label "sport".
+* Sample GET request to retrieve the service resources with the type "email" and the label "sport".
 
     ```
 

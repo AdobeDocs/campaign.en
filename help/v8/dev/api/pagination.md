@@ -70,7 +70,7 @@ Response to the request, with the **next** node to perform pagination.
 
 ```
 
-By default, the **next** node is not available when interacting with tables with large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
+By default, the **next** node is not available when interacting with tables with a large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
 
 ```
 

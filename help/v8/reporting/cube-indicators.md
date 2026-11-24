@@ -73,7 +73,7 @@ With cubes you can:
 
 ## Build a cube{#cube-create}
 
-Before starting building a cube report, identify the relevant dimensions and measures, and create them in the cube.
+Before building a cube report, identify the relevant dimensions and measures, and create them in the cube.
 
 To create a cube, apply the following steps:
 

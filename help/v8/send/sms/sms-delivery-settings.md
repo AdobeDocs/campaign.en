@@ -33,18 +33,18 @@ topic_v2:
 ---
 # SMS delivery settings {#sms-settings}
 
-The technical settings needed for a SMS delivery are:
+The technical settings needed for an SMS delivery are:
 
 * The SMPP external account for the message routing. [Learn more](smpp-external-account.md#smpp-connection-settings)
 * Configure the SMS tab. [Learn how](#sms-tab)
 
-You can set up all of these in a delivery template in order to avoid to do the settings for each SMS delivery creation.
+You can set up all of these in a delivery template in order to avoid doing the settings for each SMS delivery creation.
 
 ## Configure the SMS tab {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
-Here are the information you need to fill this form. Each field is explained below:
+Here is the information you need to fill this form. Each field is explained below:
 
 * **[!UICONTROL Sender address]**
 

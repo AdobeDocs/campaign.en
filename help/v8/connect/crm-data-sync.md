@@ -66,7 +66,7 @@ To import data via the CRM in Adobe Campaign, you need to create the following t
 ![](assets/crm-wf-import.png)
 
 1. Select an **[!UICONTROL Import from the CRM]** operation.
-1. In the **[!UICONTROL Remote object]** drop-down list, select the object to import. This object match with one of the tables created in Adobe Campaign during connector configuration.
+1. In the **[!UICONTROL Remote object]** drop-down list, select the object to import. This object matches with one of the tables created in Adobe Campaign during connector configuration.
 1. In the **[!UICONTROL Remote fields]** section, enter the fields to be imported.
 
    To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.

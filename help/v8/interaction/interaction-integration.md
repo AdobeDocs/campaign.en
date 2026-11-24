@@ -103,7 +103,7 @@ The content of the offer representation is returned to the HTML page by the Offe
 
 ### Present an identified offer {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed [in this section](#presenting-an-anonymous-offer). 
+To present an offer to an identified contact, the process is similar to the one detailed [in this section](#presenting-an-anonymous-offer). 
 
 In the content of the web page, you need to add the following script that will identify the contact during the call to the Offer engine:
 
@@ -223,7 +223,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
 1. **Extend the offer formula to edit new fields and modify an existing field**
 
-   Edit the **Offer (nsm)** input form.
+   Edit the **Offer (nms)** input form.
 
    In the "Views" section, insert the two new fields with the following content:
 

@@ -125,11 +125,11 @@ Transactional messaging (Message Center) is the Campaign module designed for man
 
 Learn how to send transactional messages in [this section](../send/transactional.md).
 
-In response to an action of a customer on a website, an event is sent Campaign through a REST API, and the message template is populated with the information or data provided through the API call, and a transactional message is sent in real-time to the customer. These messages can be sent individually or in batches via email, SMS or push notifications. 
+In response to an action of a customer on a website, an event is sent to Campaign through a REST API, and the message template is populated with the information or data provided through the API call, and a transactional message is sent in real-time to the customer. These messages can be sent individually or in batches via email, SMS or push notifications. 
 
-In this specific architecture, execution cell is separated from the control instance to ensure high availability and load management.
+In this specific architecture, the execution cell is separated from the control instance to ensure high availability and load management.
 
-* The **Control instance** (or Marketing instance) is used by marketers and IT teams to create, configure and publish message templates. This instance also centralize event monitoring and history.
+* The **Control instance** (or Marketing instance) is used by marketers and IT teams to create, configure and publish message templates. This instance also centralizes event monitoring and history.
     
     Learn how to create and publish message templates in [this section](../send/transactional.md).
 

@@ -85,7 +85,7 @@ _September 30, 2022_
 <ul> 
 <li><p>Send messages on X (formerly known as Twitter): Adobe Campaign lets you post messages directly to your X account. You can also send direct messages to all your followers.
 </p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
+<li><p>Collect new contacts: Adobe Campaign can automatically recover the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
 </p></li>
 </ul>
 <p>Learn how to connect Campaign and X in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
@@ -126,7 +126,7 @@ Refer to the [Campaign Compatibility matrix](compatibility-matrix.md).
 * Fixed an issue which impacted the Delivery log status updates on the MID instance, when the FeatureFlag_GZIP_Compression option was enabled. (NEO-49183)
 * Fixed an issue which could lead deliveries to stay in **Pending** status even if contact date was reached. (NEO-48079)
 * Fixed an issue in workflows which could prevent files from being updated on server when using the **Data loading (file)** activity. The process stopped at 100% but never ended. (NEO-47269)
-* Fixed an issue during postupgrade on japanese environments. (NEO-46640)
+* Fixed an issue during postupgrade on Japanese environments. (NEO-46640)
 * Fixed an issue that could occur if a delivery reached a precise size during MTA process. (NEO-46097)
 * Fixed an issue which prevented tracking logs from returning data related to the recipient's browser. (NEO-46612)
 * Fixed an issue which led to personalization issues when sending SMS messages using an external delivery mode. (NEO-46415)
@@ -135,7 +135,7 @@ Refer to the [Campaign Compatibility matrix](compatibility-matrix.md).
 * To prevent slowness when sending proof to seed addresses, all consecutive replications of seed members are now grouped to one replication request. (NEO-44844)
 * Fixed an issue which displayed an error when trying to preview a delivery in any Message Center archived event. (NEO-43620)
 * Fixed an issue when injecting data into Snowflake cloud database with a Campaign **Query** activity and a **Change Data Source** activity: the process was failing when a backslash character is present in the data. The source string was not escaped, and data was not processed correctly on Snowflake. (NEO-45549)
-* Fixed an issue when using the **Query** activity and filtering a table. When a column name contained the word "Update", a compilation error occured with an invalid identifier and the following message: "number of rows updated". (NEO-46485)
+* Fixed an issue when using the **Query** activity and filtering a table. When a column name contained the word "Update", a compilation error occurred with an invalid identifier and the following message: "number of rows updated". (NEO-46485)
 * The **Database cleanup** technical workflow now also handles custom staging schemas. (NEO-48974)
 * Fixed an issue which could slow down the delivery analysis, during the exclusion of denylisted recipients step, when targeting large volumes of recipients. (NEO-48019)
 * Improved stability when handling invalid XML strings during SOAP calls. (NEO-48027)
@@ -262,7 +262,7 @@ Refer to the [Campaign Compatibility matrix](compatibility-matrix.md).
 **Fixes**
 
 * Fixed an issue which occurred when using seeds and control groups in the same recurring delivery. (NEO-41197)
-* Fixed an issue on FFDA which led to email sending being blocked for all récipients belonging to the same deliveryPart during the sending process (up to 256) when personalization blocks contained one of the following characters: `' & < > "`. These characters are now supported in personalization blocks (example: firstname="Brian O'Neil"). (NEO-43184)
+* Fixed an issue on FFDA which led to email sending being blocked for all recipients belonging to the same deliveryPart during the sending process (up to 256) when personalization blocks contained one of the following characters: `' & < > "`. These characters are now supported in personalization blocks (example: firstname="Brian O'Neil"). (NEO-43184)
 * Fixed an issue which could lead the tracking workflow to fail when using a custom schema as a target mapping. We now ensure that the type of the foreign link to a custom targeting schema is correct when generating broadLog schema via the target mapping wizard. (NEO-43506) 
 * Fixed an issue which could lead the FFDA deployment workflows to fail for languages other than English. (NEO-44561)
 

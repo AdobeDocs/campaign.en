@@ -81,7 +81,7 @@ Each time a string is translated, its translation is added to the translation di
 
 When the collection process detects that a translation already exists, this translation is displayed in the **[!UICONTROL Text]** column of the string. The status of the string is turned to **[!UICONTROL Translated]**.
 
-For characters strings which have never been translated, the **[!UICONTROL Text]** field is empty and the status is **[!UICONTROL To translate]**.
+For character strings which have never been translated, the **[!UICONTROL Text]** field is empty and the status is **[!UICONTROL To translate]**.
 
 ### Filtering strings {#filtering-strings}
 
@@ -139,7 +139,7 @@ It's possible to export and import character strings to translate them using a t
       >
       >This type of export is not available for XLIFF exports.
 
-1. Then chose the **[!UICONTROL Target folder]** where files will be recorded.
+1. Then choose the **[!UICONTROL Target folder]** where files will be recorded.
 1. Select the file format ( **[!UICONTROL CSV]** or **[!UICONTROL XLIFF]** ) and click **[!UICONTROL Start]**.
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
@@ -415,7 +415,7 @@ The translation languages and dictionaries available by default are listed below
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Waloon (wa)<br /> </td> 
+   <td> Walloon (wa)<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

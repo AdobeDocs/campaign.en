@@ -183,9 +183,9 @@ Once you have defined your message content, you can use test subscribers to prev
 
 |Parameter | Description |
 |---------|---------|
-|**[!UICONTROL Clean Badge]** |Enable this options to refresh the badge value.|
+|**[!UICONTROL Clean Badge]** |Enable this option to refresh the badge value.|
 |**[!UICONTROL Value]** | Set a number which will be used to display directly on the application icon the number of new unread information. |
-|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification even the user's phone is set on focus mode or if the iPhone is muted.|
+|**[!UICONTROL Critical alert mode]**| Enable this option to add sound to your notification even if the user's phone is set on focus mode or if the iPhone is muted.|
 |**[!UICONTROL Name]**| Select the sound to be played by the mobile terminal when the notification is received.|
 |**[!UICONTROL Volume]**|Set volume of your sound from 0 to 100. Sounds must be included in the application and defined when the service is created.|
     
@@ -196,8 +196,8 @@ Once you have defined your message content, you can use test subscribers to prev
 |**[!UICONTROL Mutable content]** |Enable this option to allow the mobile application to download media content.|
 |**[!UICONTROL Thread-id]** | Set the identifier used to group related notifications together. |
 |**[!UICONTROL Category]**| Set the name of your category ID which will display action buttons. These notifications give the user a faster way to perform different tasks in response to a notification without opening or navigating in the application.|
-|**[!UICONTROL Target content ID]**| Set an identifier used to target which application window to brought forward when the notification is opened.|
-|**[!UICONTROL Launch image]**|Set name of the launch image file to display. If the user chooses to launch your application, the selected image will displayed instead of your application's launch screen.|
+|**[!UICONTROL Target content ID]**| Set an identifier used to target which application window to bring forward when the notification is opened.|
+|**[!UICONTROL Launch image]**|Set the name of the launch image file to display. If the user chooses to launch your application, the selected image will be displayed instead of your application's launch screen.|
 |**[!UICONTROL Click action]** | Set the action associated with a user click on your notification.|
-|**[!UICONTROL Interruption level]** |<ul><li>Active: Set by default, the system presents the notification immediately, lights up the screen, and can play a sound. Notifications do not break through Focus modes..</li><li>Passive: The system adds the notification to the notification list without lighting up the screen or playing a sound. Notifications do not break through Focus modes.</li><li> Time sensitive: The system presents the notification immediately, lights up the screen, can play a sound and break through Focus modes. This level does not require a special permission from Apple.</li><li>Critical: The system presents the notification immediately, lights up the screen, and bypasses the mute switch or focus modes. Note that this level requires a special permission from Apple.</li></ul>|
+|**[!UICONTROL Interruption level]** |<ul><li>Active: Set by default, the system presents the notification immediately, lights up the screen, and can play a sound. Notifications do not break through Focus modes.</li><li>Passive: The system adds the notification to the notification list without lighting up the screen or playing a sound. Notifications do not break through Focus modes.</li><li> Time sensitive: The system presents the notification immediately, lights up the screen, can play a sound and break through Focus modes. This level does not require a special permission from Apple.</li><li>Critical: The system presents the notification immediately, lights up the screen, and bypasses the mute switch or focus modes. Note that this level requires a special permission from Apple.</li></ul>|
 |**[!UICONTROL Relevance score]**| Set a relevance score from 0 to 100. The system uses this to sort the notifications in the notification summary.|

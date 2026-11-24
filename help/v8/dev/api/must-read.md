@@ -29,17 +29,17 @@ level_v2:
 
 * Adobe Campaign APIs must be used Server to Server only.
 * Please always check with your Adobe technical contact if the use case you want to implement is aligned with the scale allowed by Adobe Campaign APIs.
-* Setting up an AdobeIO access requires specific permissions, contact the Adobe Support for any trouble.
+* Setting up an AdobeIO access requires specific permissions, contact Adobe Support for any trouble.
 
 ## Rights and access
 
 * By default, Adobe Campaign APIs use the administrator context and thus the organisation units and roles do not apply.
 * The Adobe Campaign APIs are excluded from the role context.
-* If you want to configure the APIs with an organisation unit or roles, please check with your to Adobe technical contact first.
+* If you want to configure the APIs with an organisation unit or roles, please check with your Adobe technical contact first.
 
 ## Resources representation
 
-All API resources are available in **JSON** with an URL extension or inside an HTTP Accept Header:
+All API resources are available in **JSON** with a URL extension or inside an HTTP Accept Header:
 
 `GET /profileAndServices/<resourceName>.json`
 
@@ -63,7 +63,7 @@ All API resources are available in **JSON** with an URL extension or inside an H
 
 ## Primary Key & URLs
 
-* Do not try to build an URL by yourself. All the URLs are returned by the API. However, it is possible to build an URL based on the top-level resource name.
+* Do not try to build a URL by yourself. All the URLs are returned by the API. However, it is possible to build an URL based on the top-level resource name.
 
 * The automatic primary key (PKey) values that illustrate the examples are not intended to work in another specific deployment. They are produced by the Adobe Campaign API.
 

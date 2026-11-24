@@ -80,7 +80,7 @@ Adobe Campaign manages a list that gathers spam complaints, hard bounces, and so
 
 To protect your deliverability, the recipients whose addresses are on that list are excluded by default from all future deliveries, because sending to these contacts could hurt your sending reputation.
 
-Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers.
+Some internet access providers automatically consider emails to be spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to a denylist by these providers.
 
 For more on this, refer to the following sections:
 

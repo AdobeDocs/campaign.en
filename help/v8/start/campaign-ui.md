@@ -34,13 +34,13 @@ topic_v2:
 ---
 # Discover the user interface {#ui-client-console}
 
-You can access to Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
+You can access Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 
 * **Client console** - Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. [Learn more](#ui-access)
 
     Learn how to install and configure Campaign client console in [this section](../start/connect.md).
 
-* **Web access** - Adobe Campaign web access capabilities lets you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
+* **Web access** - Adobe Campaign web access capabilities let you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
 * **APIs** - To address more use cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. Learn more about Campaign APIs [in this page](../dev/api.md).
 
@@ -99,7 +99,7 @@ Once you are connected to Campaign client console, browse the tabs in the upper 
 
 For each capability, you can access the set of key features in the **[!UICONTROL Browsing]** section. The **[!UICONTROL More]** link lets you access all the other components.
 
-For example, when browsing to the **[!UICONTROL Profiles and targets]** tab, you can access to the recipient lists, subscription services, existing targeting workflows and the shortcuts for creating all these components.
+For example, when browsing to the **[!UICONTROL Profiles and targets]** tab, you can access the recipient lists, subscription services, existing targeting workflows and the shortcuts for creating all these components.
 
 ![Campaign console user interface showing how to access the lists from the Profiles and target tab](assets/overview-list.png)
 
@@ -116,7 +116,7 @@ Use shortcuts in the **[!UICONTROL Create]** section on the left of the screen t
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 
@@ -210,4 +210,4 @@ Main differences between US English and UK English are:
 ## Additional Resources
 
 * **[Work with Enumerations](../config/enumerations.md)** - Standardize field values with predefined drop-down lists for faster, more consistent data entry.
-* **[Filter data](../audiences/create-filters.md)** - Discover existing built-in filters to access a specific sub-set of Campaign data, how to create quick filers, or design and share your own advanced filters. 
+* **[Filter data](../audiences/create-filters.md)** - Discover existing built-in filters to access a specific sub-set of Campaign data, how to create quick filters, or design and share your own advanced filters. 

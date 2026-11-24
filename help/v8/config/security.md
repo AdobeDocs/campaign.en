@@ -97,9 +97,9 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
     * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../send/sms/sms-channel.md) and Mobile app channel.
 
-* **You users' privacy choices about your use of Adobe Experience Cloud**
+* **Your users' privacy choices about your use of Adobe Experience Cloud**
 
-    Adobe asks you to provide your customers privacy policies describing:
+    Adobe asks you to provide your customers' privacy policies describing:
 
     * Your privacy practices in connection with Adobe Experience Cloud
     * How users can set their preferences for the collection or use of their information in connection with Adobe Experience Cloud
@@ -161,7 +161,7 @@ Adobe Campaign enables you to collect data, including personal and sensitive inf
 
 ## Privacy management {#privacy-management}
 
-Privacy management refer to all the processes and tools that can help you comply with Privacy regulations (GDPR, CCPA, etc.).
+Privacy management refers to all the processes and tools that can help you comply with Privacy regulations (GDPR, CCPA, etc.).
 
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).
@@ -288,7 +288,7 @@ When adding personalized links to your content, always avoid having any personal
 
 You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main ways: restrict access to password fields only or to the entire entity.
 
-This restriction allows you to remove passwords fields but leaves the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
+This restriction allows you to remove password fields but leaves the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
 
 1. Go in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 

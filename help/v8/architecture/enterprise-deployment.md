@@ -55,7 +55,7 @@ Campaign v8 Enterprise (FFDA) brings end-to-end scale at any step of the process
 * Scale the performance of queries for segmentation and targeting but also data ingestion and egress
 * Scale the delivery preparation (from hours to minutes)
 
-This is a foundational change in the software architecture. Data is now remote and Campaign federates the whole data, including Profiles. [!DNL Campaign] processes now scales end-to-end, from targeting to message execution: data ingestion, segmentation, targeting, queries, deliveries will now typically run in minutes. This new version solves the whole challenge of scaling while keeping the same level of flexibility & extensibility. The number of profiles is almost unlimited, and data retention can be extended.
+This is a foundational change in the software architecture. Data is now remote and Campaign federates the whole data, including Profiles. [!DNL Campaign] processes now scale end-to-end, from targeting to message execution: data ingestion, segmentation, targeting, queries, deliveries will now typically run in minutes. This new version solves the whole challenge of scaling while keeping the same level of flexibility & extensibility. The number of profiles is almost unlimited, and data retention can be extended.
 
 Cloud storage is performed in **[!DNL Snowflake]**: a new built-in **external account** ensures connectivity with the Cloud Database. It is configured by Adobe and must not be modified. [Learn more](../config/external-accounts.md)
 
@@ -63,7 +63,7 @@ Any built-in schema/table which needs to be moved or replicated in Cloud Databas
 
 >[!CAUTION]
 >
-> Customer data is not stored in the local [!DNL Campaign] database. As a consequence, any custom table needs to be create in the Cloud database.
+> Customer data is not stored in the local [!DNL Campaign] database. As a consequence, any custom table needs to be created in the Cloud database.
 >
 
 ## Campaign Enterprise (FFDA) architecture{#ffda-archi}
@@ -140,9 +140,9 @@ Campaign v8 objects now use a **Universally Unique ID (UUID)**, which allows for
 
 Please note that this ID is string-based and not sequential. The primary key is not a numerical value in Campaign v8, and you need to use **autouuid** and **autopk** attributes in your schemas.
 
-In Campaign Classic v7 and earlier versions, the unicity of a key within a schema (i.e. table) is handled at the database engine's level. More generally, Classic Database engines like PostgreSQL, Oracle, or SQL Server include a native mechanism to prevent inserting duplicated rows based on a column or a set of columns via primary keys and/or unique indexes. Duplicated ID do not exist in these versions when proper index and primary keys are set at Database level.
+In Campaign Classic v7 and earlier versions, the unicity of a key within a schema (i.e. table) is handled at the database engine's level. More generally, Classic Database engines like PostgreSQL, Oracle, or SQL Server include a native mechanism to prevent inserting duplicated rows based on a column or a set of columns via primary keys and/or unique indexes. Duplicated IDs do not exist in these versions when proper index and primary keys are set at Database level.
 
-Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage then enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](keys.md)
+Adobe Campaign v8 comes with Snowflake as the core Database. As it dramatically increases the scale of queries, the distributed architecture of the Snowflake database does not provide such mechanisms to manage and enforce the unicity of a key within a table. As a consequence, with Adobe Campaign v8, nothing prevents the ingestion of duplicated keys in a table. End-users are now responsible for ensuring consistency of Keys within the Adobe Campaign database. [Learn more](keys.md)
 
 ### Feature availability {#feature-availability}
 

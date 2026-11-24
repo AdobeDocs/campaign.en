@@ -116,7 +116,7 @@ Affinities are ignored by the dedicated process connector, it just runs inside t
 
 ## serverConf options {#sms-serverconf-options}
 
-Some settings can be tuned in serverConf.xml. Like any other settings in this file, it should be specified in the config-instance.xml file. All settings are in the < mta2 > element.
+Some settings can be tuned in serverConf.xml. Like any other settings in this file, they should be specified in the config-instance.xml file. All settings are in the < mta2 > element.
 
 This table summarizes all settings. Min/max sensible values give a rough idea of the range you should consider in most cases. Debugging value is the value to choose when trying to find issues that are not related to performance.
 

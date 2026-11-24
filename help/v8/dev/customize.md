@@ -78,7 +78,7 @@ Use Case: link a field to an existing reference table in [Campaign Classic v7 do
 
 ## Modify the input forms
 
-Campaign input forms can be adapted to adapt to your implementation. You can add or remove form fields by modifying the XML content.
+Campaign input forms can be adapted to fit your implementation. You can add or remove form fields by modifying the XML content.
 
 Learn how to modify an existing input form or create a new form in [this section](../dev/forms.md).
 
@@ -93,12 +93,12 @@ Learn how to create an overview page in Campaign in [this section](web/use-cases
 
 ## Customize lists and create filters {#gs-lists-and-filters}
 
-Campaign lists come with pre-defined filters to facilitate navigation and data vizualisation. 
+Campaign lists come with pre-defined filters to facilitate navigation and data visualization. 
 
 When you navigate in the Adobe Campaign Explorer tree, the data contained in the database is displayed in lists. You can filter these lists, run searches, add information, filter and sort data.
 
 Learn how to configure lists and save a list configuration in [this page](../start/campaign-ui.md).
 
-You can apply filter on these lists to display only the data needed by the operator. Then actions can then be executed on the filtered data. Filter configuration lets you select data from a list dynamically. If the data is modified, the filtered data is updated.
+You can apply filters to these lists to display only the data needed by the operator. Actions can then be executed on the filtered data. Filter configuration lets you select data from a list dynamically. If the data is modified, the filtered data is updated.
 
 Learn more about filtering options in [this page](../audiences/create-filters.md).

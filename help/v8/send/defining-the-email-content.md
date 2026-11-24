@@ -90,7 +90,7 @@ The content of the message is defined in the lower section of the delivery confi
 
 Messages are sent in HTML or text format by default, according to recipient preference. We recommend creating content in both formats to ensure that messages can be correctly displayed in any mail system. For more on this, refer to [Selecting message formats](email-parameters.md#selecting-message-formats).
 
-* To import an HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
+* To import HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
   If you are using the Digital Content Editor (DCE), refer to [this section](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
@@ -128,14 +128,14 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   ![](assets/s_ncs_user_wizard_email01_141.png)
 
-  As for the HTML format click the **[!UICONTROL Preview]** tab at the bottom of the page to view the rendering of the message with its personalization. 
+  As for the HTML format, click the **[!UICONTROL Preview]** tab at the bottom of the page to view the rendering of the message with its personalization. 
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## Define interactive content {#amp-for-email-format}
 
-Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables you to send dynamic emails, under certain conditions.
 
 For more on this, see [this section](defining-interactive-content.md).
 
@@ -298,7 +298,7 @@ Then configure the following elements to suit your needs:
       ![](assets/barcode_insert_12.png)
 
 1. Enter the size of the barcode that you want to insert into the email: configuring the scale lets you increase or reduce the size of the barcode, from x1 to x10.
-1. The **[!UICONTROL Value]** field enables you to define the value of the barcode. A value can match a special offer and can be the function of a criteria, it can be the value of a database field linked to the customers.
+1. The **[!UICONTROL Value]** field enables you to define the value of the barcode. A value can match a special offer and can be the function of a criterion, it can be the value of a database field linked to the customers.
 
    This example shows an EAN-8 type barcode, to which was added the account number of a recipient. To add this account number, click the personalization button to the right of the **[!UICONTROL Value]** field and select **[!UICONTROL Recipient > Account number]**.
 

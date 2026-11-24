@@ -31,7 +31,7 @@ You can track the execution of deliveries via various reports accessible from th
 To access reports, follow the steps below:
 
 1. Browse to the **[!UICONTROL Campaigns]** tab and click the **[!UICONTROL Delivery]** link to display the list of deliveries.
-1. Click the name of the delivery which reports you want to access. 
+1. Click the name of the delivery whose reports you want to access. 
 1. Select the **[!UICONTROL Summary]** tab and click the **[!UICONTROL Reports]** link to access the reports specific to the delivery.
 
    ![](assets/detailed-report-2.png)
@@ -91,7 +91,7 @@ This table of values shows the breakdown of deliveries, opens, clicks and raw re
 * **[!UICONTROL Complaints]**: Number of messages for this domain that have been reported as undesirable by the recipient. The rate is calculated based on the total number of messages sent on this domain.
 * **[!UICONTROL Opens]**: Number of distinct targeted recipients for this domain who have opened a message at least once. The rate is calculated based on the total number of messages sent on this domain.
 * **[!UICONTROL Clicks]**: Number of distinct targeted recipients who clicked in the same delivery at least once. The rate is calculated based on the total number of messages sent on this domain 
-* **[!UICONTROL Raw reactivity]**: Percentage of the number of recipient who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
+* **[!UICONTROL Raw reactivity]**: Percentage of the number of recipients who clicked in a delivery at least once compared to the number of recipients who opened a delivery at least once.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ This section includes the following indicators:
 
 ## Hot clicks {#hot-clicks}
 
-This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks, unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 
 >[!NOTE]
 >
@@ -215,4 +215,4 @@ You can display cumulated reports on deliveries. To do this, select the deliveri
 
 To select non-adjacent deliveries from the list, hold down the CTRL key while making your selection.
 
-To select deliveries saved in a different folder click the **[!UICONTROL Display sub-levels]** icon, accessible in the toolbar. They will then be displayed in the same list.
+To select deliveries saved in a different folder, click the **[!UICONTROL Display sub-levels]** icon, accessible in the toolbar. They will then be displayed in the same list.

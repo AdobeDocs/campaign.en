@@ -90,7 +90,7 @@ You can insert a personalized URL into the extraction file. For more on this, re
 
 >[!NOTE]
 >
->This assistant includes the steps of the export assistant detailed the Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
+>This assistant includes the steps of the export assistant detailed in the Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
 
 ## Validate the delivery{#validating}
 

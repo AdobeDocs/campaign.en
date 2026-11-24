@@ -27,7 +27,7 @@ level_v2:
 ---
 # Send an offer{#send}
 
-In order for an offer to be selected by the Offer engine, it has be approved and available in a **Live** environment. [Learn more](interaction-offer.md#approve-offers)
+In order for an offer to be selected by the Offer engine, it has to be approved and available in a **Live** environment. [Learn more](interaction-offer.md#approve-offers)
 
 Offer presentation via an outbound communication channel is carried out via direct mail, email, or mobile deliveries. You can also use unitary mode with Transactional messaging (Message Center).
 
@@ -185,7 +185,7 @@ This activity works on the same principle as the **Enrichment** activity with an
 After configuring your **Query** activity:
 
 1. Add and open an **[!UICONTROL Offer engine]** activity.
-1. Complete the various available fields to specify the call to Offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
+1. Complete the various available fields to specify the call to the Offer engine parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters.
 
    >[!CAUTION]
    >

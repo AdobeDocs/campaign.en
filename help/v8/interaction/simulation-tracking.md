@@ -34,7 +34,7 @@ topic_v2:
 
  
 
-Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
+Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via the simulation dashboard.
 
 The simulation results contain a breakdown of propositions per rank and per recipient. Reporting axes are also taken into account and shown in this tab.
 

@@ -31,7 +31,7 @@ topic_v2:
 
 Adobe Campaign comes with an intuitive data exploration tool to create dynamic reports.
 
-Use marketing analytics capatilities to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. You can create reports and build target populations and store them into lists which can be used in Adobe Campaign for targeting or segmentation tasks.
+Use marketing analytics capabilities to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. You can create reports and build target populations and store them into lists which can be used in Adobe Campaign for targeting or segmentation tasks.
     
 You can extend the database exploration and analysis capacities while making it easier for final users to configure reports and tables: all they need to do is select an existing (fully configured) cube when creating their report or table to process calculations, measures and statistics.
 

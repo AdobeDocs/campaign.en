@@ -32,7 +32,7 @@ In order for an offer to be selected by the Offer engine, it has to be approved 
 
 For more on this, refer to [this section](approving-and-activating-an-offer.md#approving-offer-content).
 
-In the context of an inbound contact a contact, the user who is browsing the page can be identified by the website or not. The Offer engine presents different offers for identified profiles and for anonymous profiles.
+In the context of an inbound contact, the user who is browsing the page can be identified by the website or not. The Offer engine presents different offers for identified profiles and for anonymous profiles.
 
 Before being able to present offers on an inbound channel, you must configure the Offer engine call where you would like the offers to be presented. In most cases for an inbound interaction, this is the Web page.
 

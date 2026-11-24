@@ -68,7 +68,7 @@ Note that you can assign permissions to folders to restrict access to certain da
 
 To create a folder, right-click on an existing folder and use the contextual menu.
 
-To create the same type of folder than the one you selected, choose the first option in the contextual menu. For example, from a Recipients folder, select **[!UICONTROL Create a new 'Recipients' folder]**.
+To create the same type of folder as the one you selected, choose the first option in the contextual menu. For example, from a Recipients folder, select **[!UICONTROL Create a new 'Recipients' folder]**.
 
 ![](assets/create-recipient-folder.png)
 
@@ -133,7 +133,7 @@ You can move the folders with the arrows on the right or select the **[!UICONTRO
 
 ## Filter data in a folder{#filter-data-in-a-folder}
 
-To filter data stored in a folder, access to the folder properties and select the Restriction tab.
+To filter data stored in a folder, access the folder properties and select the Restriction tab.
 
 For example, the folder below will contain only contacts with an email address and whose origin is not flagged as 'External' - or is empty.
 

@@ -31,7 +31,7 @@ topic_v2:
 
  
 
-Once the form has been created, configured and published, you can share the link with your audience it and track the responses.
+Once the form has been created, configured and published, you can share the link with your audience and track the responses.
 
 >[!NOTE]
 >

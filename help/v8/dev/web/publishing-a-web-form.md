@@ -115,7 +115,7 @@ There are three stages in the life cycle of a form:
 
     Once the design phase is complete, the form can be delivered.
     
-    When a form has the **[!UICONTROL Being edited]** or **[!UICONTROL Pending publication]** status, it must be [published](#publishing-a-form) to be online and accesssible through the web form URL in a browser.
+    When a form has the **[!UICONTROL Being edited]** or **[!UICONTROL Pending publication]** status, it must be [published](#publishing-a-form) to be online and accessible through the web form URL in a browser.
     
     Once published, the form will be live until it expires.
 
@@ -199,7 +199,7 @@ Learn more on the different statuses of a web form in [this section](#life-cycle
 
   * If the web form already exists on the new instance, it is replaced with the new version of the form and takes the **[!UICONTROL Pending publication]** status, even if the old version of the form was **[!UICONTROL Online]**.
 
-  * Whether the form existed or not, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accesssible through the web form URL in a browser.
+  * Whether the form existed or not, the form must be [published](#publishing-a-form) to become **[!UICONTROL Online]** on the new instance and accessible through the web form URL in a browser.
 
 * If the web form status was **[!UICONTROL Being edited]** when exported:
 

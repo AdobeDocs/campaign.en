@@ -51,7 +51,7 @@ The steps for using the [!DNL LINE] channel are:
 
 ## Set up LINE channel {#setting-up-line-channel}
 
-Before creating a [!DNL LINE] account and external account, the LINE package needs to be installted on your instance. Contact your Adobe representative.
+Before creating a [!DNL LINE] account and external account, the LINE package needs to be installed on your instance. Contact your Adobe representative.
 
 You must first create a [!DNL LINE] account, so that you can then link it to Adobe Campaign. Then, you can send [!DNL LINE] messages to the users that have added your [!DNL LINE] account in their mobile application. External accounts and [!DNL LINE] account can only be managed by the functional administrator of the platform.
 
@@ -140,7 +140,7 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
    ![](assets/line_message_10.png)
 
-1. From your delivery editor, click **[!UICONTROL Add]** to add one or multiple message and select the **[!UICONTROL Content type]**. 
+1. From your delivery editor, click **[!UICONTROL Add]** to add one or multiple messages and select the **[!UICONTROL Content type]**. 
 
    For more information on the different **[!UICONTROL Content type]** available, refer to [Define the content type](#defining-the-content).
 
@@ -156,7 +156,7 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
 ## Define the content type {#defining-the-content}
 
-To define the content of a [!DNL LINE] delivery, you first have to add message type to your delivery. Each [!DNL LINE] delivery can contain up to 5 messages.
+To define the content of a [!DNL LINE] delivery, you first have to add a message type to your delivery. Each [!DNL LINE] delivery can contain up to 5 messages.
 
 You can choose between three message types:
 
@@ -194,7 +194,7 @@ You can use:
 
   ![](assets/line_message_03.png)
 
-  The **[!UICONTROL Define images per device screen size]** option allows you to use different image resolutions to optimize delivery visibility on mobile devices. Only images with same height and width are supported.
+  The **[!UICONTROL Define images per device screen size]** option allows you to use different image resolutions to optimize delivery visibility on mobile devices. Only images with the same height and width are supported.
 
   Images can be defined according to the screen size:
 
@@ -218,7 +218,7 @@ You can use:
 
 ### Configuring a Video message delivery {#configuring-a-video-message-delivery}
 
-A **[!UICONTROL Video message]** [!DNL LINE] delivery is a message sent to recipients in the form of a video that can contain an URL.
+A **[!UICONTROL Video message]** [!DNL LINE] delivery is a message sent to recipients in the form of a video that can contain a URL.
 
 The **[!UICONTROL Preview Image URL]** field allows you to add the URL of a preview image with a character limit of 1000. JPEG and PNG are supported with a file size limit of 1 MB.
 
@@ -278,7 +278,7 @@ In this example, we are going to create and configure a text message and an imag
 
 1. In the **[!UICONTROL Links]** section, select the layout that will divide your image in multiple clickable regions.
 
-1. Assign an URL to each region of your image.
+1. Assign a URL to each region of your image.
 
    ![](assets/line_usecase_08.png)
 

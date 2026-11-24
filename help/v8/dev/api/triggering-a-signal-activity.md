@@ -27,11 +27,11 @@ level_v2:
 
 In an Adobe Campaign Standard workflow, there can be one or more **External signal** activities. These activities are 'listeners' that wait to be triggered.
 
-Campaign Standard APIs let you trigger an **External signal** activity to call a workflow. The API call can include parameters that will be ingested into the workflow's events variables (an audience name to target, a file name to import, a part of message content, etc.). This way, you can easily integrate your Campaign automations with your external system.
+Campaign Standard APIs let you trigger an **External signal** activity to call a workflow. The API call can include parameters that will be ingested into the workflow's event variables (an audience name to target, a file name to import, a part of message content, etc.). This way, you can easily integrate your Campaign automations with your external system.
 
 >[!NOTE]
 >
->External signal activities cannot be triggered more often than every 10 minutes and that the destination workflow must be already running.
+>External signal activities cannot be triggered more often than every 10 minutes and the destination workflow must be already running.
 
 To trigger a workflow, follow the steps below:
 

@@ -38,7 +38,7 @@ To configure the content of your SMS delivery:
     
     ![](assets/sms_content.png){zoomable="yes"}
 
-1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization block (for example adding the greetings). Click on the personalization button to add these:
+1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization blocks (for example adding the greetings). Click on the personalization button to add these:
 
     ![](assets/sms_perso.png){zoomable="yes"}
 
@@ -48,7 +48,7 @@ To configure the content of your SMS delivery:
 
     Learn more about personalization in Adobe Campaign in [this section](../personalize.md).
 
-1. You can preview you delivery content from the **[!UICONTROL Preview]** tab. To check your personalization settings, click on the **[!UICONTROL Test personalization]** drop-down list, and select a recipient.
+1. You can preview your delivery content from the **[!UICONTROL Preview]** tab. To check your personalization settings, click on the **[!UICONTROL Test personalization]** drop-down list, and select a recipient.
 
     ![](assets/sms_preview.png){zoomable="yes"}
 

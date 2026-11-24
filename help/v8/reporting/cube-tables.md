@@ -110,7 +110,7 @@ To add and configure measures, follow the steps below:
 
    ![](assets/cube-measure-button.png)
 
-1. Withe the **[!UICONTROL Use a measure]** button, select one of the existing measures.
+1. With the **[!UICONTROL Use a measure]** button, select one of the existing measures.
 
    ![](assets/cube-add-measure.png)
 
@@ -148,7 +148,7 @@ To add and configure measures, follow the steps below:
 
 ## Build a target population {#build-a-target-population}
 
-Reports build using cubes enable you to collect data from the table and save it in a list.
+Reports built using cubes enable you to collect data from the table and save it in a list.
 
 To group a population into a list, follow the steps below:
 
@@ -156,7 +156,7 @@ To group a population into a list, follow the steps below:
 
    ![](assets/cube-add-to-cart.png)
 
-   To this as many times as necessary to collect various profiles
+   Do this as many times as necessary to collect various profiles.
 
 1. Click the **[!UICONTROL Show cart]** button to view its content before running the export.
 

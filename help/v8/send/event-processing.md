@@ -95,7 +95,7 @@ Possible statuses are:
 
 * **Pending**
 
-    * A pending event can be event which has just been collected and which has not yet been processed. The **[!UICONTROL Number of errors]** column shows the value 0. The email template has not yet been linked.
+    * A pending event can be an event which has just been collected and which has not yet been processed. The **[!UICONTROL Number of errors]** column shows the value 0. The email template has not yet been linked.
     * A pending event can also be an event processed but whose confirmation is erroneous. The **[!UICONTROL Number of errors]** column shows a value that is not 0. To know when this event will be processed again, consult the **[!UICONTROL Process requested on]** column.
 
 * **Pending delivery**

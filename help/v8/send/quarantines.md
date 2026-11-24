@@ -40,7 +40,7 @@ topic_v2:
 ---
 # Quarantine {#quarantine-management}
 
-Adobe Campaign manages a list of quarantined addresses for online channels (email, SMS, push notification). Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to denylist by these providers. Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
+Adobe Campaign manages a list of quarantined addresses for online channels (email, SMS, push notification). Some internet access providers automatically consider emails as spam if the rate of invalid addresses is too high. Quarantine therefore allows you to avoid being added to the denylist by these providers. Moreover, quarantines help reducing SMS sending costs by excluding erroneous phone numbers from deliveries.
 
 When their address or phone number is quarantined, recipients are excluded from the target during delivery analysis: you will not be able to send marketing messages, including automated workflow emails, to those contacts. If those quarantined addresses are also present in lists, they will be excluded when sending to those lists. An email address can be quarantined, for example, when the mailbox is full, if the address does not exist, or if the email server is unavailable.
 
@@ -54,7 +54,7 @@ When their address or phone number is quarantined, recipients are excluded from 
 >
 >When recipients report your message as spam or reply to an SMS message with a keyword such as "STOP", their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
 
-On the other hand, **profiles** can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they no longer being targeted by any delivery. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
+On the other hand, **profiles** can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they are no longer targeted by any delivery. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ On the other hand, **profiles** can be on the **denylist** as after an unsubscri
 
 ## Why is an email, phone or device sent to quarantine {#quarantine-reason}
 
-Adobe Campaign manages quarantine according to the type of delivery failure and its reason. These are assigned during error messages qualification. Learn more about delivery failure management [on this page](delivery-failures.md).
+Adobe Campaign manages quarantine according to the type of delivery failure and its reason. These are assigned during error message qualification. Learn more about delivery failure management [on this page](delivery-failures.md).
 
-Two types or errors can be captured:
+Two types of errors can be captured:
 
 * **Hard error**: the email address, phone number or device is immediately sent to quarantine.
 * **Soft error**: soft errors increment an error counter, and might quarantine an email, phone number or device token. Campaign performs [retries](delivery-failures.md#retries): when the error counter reaches the limit threshold, the address, phone number or device token is quarantined. [Learn more](delivery-failures.md#retries).
@@ -74,7 +74,7 @@ Two types or errors can be captured:
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. [Learn more](#non-deliverable-bounces).
 
 
-If a user qualifies an email as a spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
+If a user qualifies an email as spam, the message is automatically redirected towards a technical mailbox managed by Adobe. The user's email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. This status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications. Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Quarantined addresses can be displayed for a specific delivery or for the entire
 
 ### Quarantines for a delivery{#delivery-quarantines}
 
-Quarantine addresses are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard.
+Quarantined addresses are listed during the delivery preparation phase, in the delivery logs of the delivery dashboard.
 
 For each delivery, you can also check the **[!UICONTROL Delivery summary]** report: it shows the number of addresses in quarantine in the delivery target, and displays:
 
@@ -109,7 +109,7 @@ To view the list of quarantined addresses **for the entire platform**, Campaign 
 
 >[!NOTE]
 >
->Number of quarantines increase with time. For example, if the lifetime of an email address is considered to be three years and the recipients table increases by 50% each year, the increase in quarantines can be calculated as follows:
+>The number of quarantines increases with time. For example, if the lifetime of an email address is considered to be three years and the recipients table increases by 50% each year, the increase in quarantines can be calculated as follows:
 >
 >End of Year 1: (1&#42;0.33)/(1+0.5)=22%.
 >

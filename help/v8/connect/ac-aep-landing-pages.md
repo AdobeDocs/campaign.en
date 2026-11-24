@@ -51,7 +51,7 @@ The main steps to set up this integration are as follows:
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">Configure the landing page workflow</a></p></td>
 </table>
 
-## Set up an Oauth connection {#oauth}
+## Set up an OAuth connection {#oauth}
 
 Adobe Cloud Platform APIs use the OAuth 2.0 protocol for authentication and authorization. To connect Adobe Experience Platform to Adobe Campaign using API calls, you need to generate an access token using the OAuth Integration created in Adobe Developer Console.
 
@@ -67,7 +67,7 @@ To do this, follow these steps:
 
     ![](assets/ac-lp-oauth.png){width="70%"}
 
-Now that your Oauth connection is configured, create and configure a new **[!UICONTROL HTTP API]** Source connection to link Adobe Campaign with Adobe Experience Platform.
+Now that your OAuth connection is configured, create and configure a new **[!UICONTROL HTTP API]** Source connection to link Adobe Campaign with Adobe Experience Platform.
 
 ## Create an HTTP API Source connection {#source}
 
@@ -79,7 +79,7 @@ With the OAuth connection in place, the next step is to create an **[!UICONTROL 
 
 1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
-    At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated prevearlier through the OAuth integration.
+    At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated earlier through the OAuth integration.
 
     ![](assets/ac-lp-source-authentication.png){width="70%"}
 
@@ -95,7 +95,7 @@ Now that the HTTP API Source connection is set up, you need to add specific opti
 
 ## Add authentication options in Adobe Campaign {#xtk}
 
-Once the HTTP API Source connection is configured, you need to add specific options into Adobe Campaign to enable the connection with Adobe Experience Platform. This can be done either in the Campaign Administration menu, or when executing your landing page workfow by adding a specific **[!UICONTROL JavaScript code]** activity.
+Once the HTTP API Source connection is configured, you need to add specific options into Adobe Campaign to enable the connection with Adobe Experience Platform. This can be done either in the Campaign Administration menu, or when executing your landing page workflow by adding a specific **[!UICONTROL JavaScript code]** activity.
 
 Browse the tabs below to discover the two methods:
 

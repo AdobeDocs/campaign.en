@@ -207,7 +207,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
-1. In the **[!UICONTROL Input box options]** menu, fill in the following option:
+1. In the **[!UICONTROL Input box options]** menu, fill in the following options:
 
     * **[!UICONTROL Input receiver name]**: Enter the name or identifier for the receiver of the input. 
     * **[!UICONTROL Input text]**: Enter the text for the **Input box**.

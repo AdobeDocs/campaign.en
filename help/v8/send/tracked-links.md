@@ -70,9 +70,9 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
    * **[!UICONTROL Enabled]**: activates tracking on this URL.
    * **[!UICONTROL Not tracked]**: deactivates tracking on this URL.
    * **[!UICONTROL Always enabled]**: always activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message content, its tracking is automatically activated.
-   * **[!UICONTROL Never tracked]**: never activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message, its tracking be automatically deactivated.
+   * **[!UICONTROL Never tracked]**: never activates tracking of this URL. This information is saved so that the next time, if the URL appears again in a future message, its tracking is automatically deactivated.
    * **[!UICONTROL Opt-out]**: considers this URL as an opt-out or unsubscription URL.
-   * **[!UICONTROL Mirror page]**: considers this URL is a mirror page URL.
+   * **[!UICONTROL Mirror page]**: considers this URL to be a mirror page URL.
 
 1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed in reports, as for example in the **[!UICONTROL URLs and click streams]** report (see [this section](../reporting/delivery-reports.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]**. Learn more about how to work with enumerations in [this section](../config/enumerations.md).
 

@@ -45,7 +45,7 @@ Adobe Campaign Standard API access is set up through the steps below. Each of th
 
     >[!IMPORTANT]
     >
-    >JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases. The Service Account (JWT) credentials have been marked as deprecated, they will continue to work until Jan 27, 2025. Therefore you must migrate your application or integration to use the new OAuth Server-to-Server credential before Jan 27, 2025. OAuth authentication is preferred. You will find all the elements to migrate from JWT authentication to OAuth authentication on these pages:
+    >JWT (JSON Web Tokens) is currently in the process of deprecation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases. The Service Account (JWT) credentials have been marked as deprecated; they will continue to work until Jan 27, 2025. Therefore you must migrate your application or integration to use the new OAuth Server-to-Server credential before Jan 27, 2025. OAuth authentication is preferred. You will find all the elements to migrate from JWT authentication to OAuth authentication on these pages:
     >* [Migration](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
     >* [Implementation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
     >* [Deprecation JWT FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)

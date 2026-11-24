@@ -237,14 +237,14 @@ Use the last tab to preview the filtered data.
 
 #### Default filters{#default-filters}
 
-The fields above each list lets you use the **predefined default filter** for this list. For the recipient list, you can filter on the name and email address by default. 
+The fields above each list let you use the **predefined default filter** for this list. For the recipient list, you can filter on the name and email address by default. 
 
 ![](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
 >
->The **%** character replaces any character string. For example, enter `%@gmail.com` in the Email field to display all the profiles with a Gmail address. Enter `%@L` in the Last name field to display all the profiles with a L in their last name.
+>The **%** character replaces any character string. For example, enter `%@gmail.com` in the Email field to display all the profiles with a Gmail address. Enter `%@L` in the Last name field to display all the profiles with an L in their last name.
 
 To change the default filter for a recipient list, browse to the **[!UICONTROL Profiles and Targets > Predefined filters]** node.
 
@@ -290,7 +290,7 @@ To create a **quick filter**, follow these steps:
    ![](assets/add-filter-above-the-list.png)
 
 
-If you need to filter on a field which is not available in the form, but in the columns, and filter on that column. To do this,
+If you need to filter on a field which is not available in the form but is in the columns, filter on that column. To do this,
 
 1. Click the **[!UICONTROL Configure list]** icon.
 
@@ -405,7 +405,7 @@ Learn how to build advanced queries in these end-to-end samples:
 
 * Learn how to target on simple recipient attributes in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 * Learn how to filter on recipients not contacted during the last 7 days in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
-* Learn how to recover the list of operators can be filtered by Active accounts in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
+* Learn how to recover the list of operators that can be filtered by Active accounts in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Learn how to build a birthday email audience in  [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html){target="_blank"}.
 
 
@@ -415,7 +415,7 @@ Advanced parameters are available for predefined filters. To access them, browse
 
 * To display the filter by default for all the lists based on this Document type, select the **[!UICONTROL Default filter for the associated document type]** option.
 
-  For example, the **[!UICONTROL By name or login]** filter is applied to operators This option is selected, so the filter is always displayed on all operator lists.
+  For example, the **[!UICONTROL By name or login]** filter is applied to operators. This option is selected, so the filter is always displayed on all operator lists.
 
 * To make a filter available to all Campaign operators, select the  **[!UICONTROL Filter shared with other operators]** option.
 

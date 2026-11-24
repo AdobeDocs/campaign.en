@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Define interactive content{#defining-interactive-content}
 
-Adobe Campaign enables you to use the interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign enables you to use the interactive [AMP for Email](https://amp.dev/about/email/) format, which enables you to send dynamic emails, under certain conditions.
 
 With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
@@ -37,11 +37,11 @@ With AMP for Email, you can:
 
 For more on testing and sending AMP emails, see [this section](#targeting-amp-email).
 
-This feature is available through a dedicated package in Adobe Campaign. Depending on your permissions and your deployment model,you can install this package or reach out to Adobe to install it for you.
+This feature is available through a dedicated package in Adobe Campaign. Depending on your permissions and your deployment model, you can install this package or reach out to Adobe to install it for you.
 
 ## About AMP for Email {#about-amp-for-email}
 
-Use the **AMP for Email** new format to include AMP components in your messages and improve the email experience with a rich and actionable content. With modern app functionality directly available within emails, recipients can interact dynamically with content in the message itself.
+Use the **AMP for Email** new format to include AMP components in your messages and improve the email experience with rich and actionable content. With modern app functionality directly available within emails, recipients can interact dynamically with content in the message itself.
 
 For example:
 * Emails written with AMP can contain interactive elements such as image carousels.
@@ -63,7 +63,7 @@ To successfully test and send an AMP email with Adobe Campaign, follow the steps
 
     >[!NOTE]
     >
-    >Currently you can only deliver AMP emails to [specific email addresses](#testing-amp-delivery-for-selected-addresses) (for testing purpose) or after [registration](#delivering-amp-emails-by-registering) with the supported email clients.
+    >Currently you can only deliver AMP emails to [specific email addresses](#testing-amp-delivery-for-selected-addresses) (for testing purposes) or after [registration](#delivering-amp-emails-by-registering) with the supported email clients.
 
 1. Send your email as you would usually do. See [Sending an AMP email](#sending-amp-email).
 
@@ -141,7 +141,7 @@ When building your AMP content in Adobe Campaign, you must comply with the condi
 
 Currently two email providers support testing this format: Gmail and Mail.ru.
 
-All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentations.
+All the steps and specifications required to test delivery with AMP format on Gmail accounts are detailed in the corresponding [Gmail](https://developers.google.com/gmail/ampemail?), and [Mail.ru](https://postmaster.mail.ru/amp) developer documentation.
 
 In particular, the following requirements must be met:
 * Follow the AMP security requirements specific to [Gmail](https://developers.google.com/gmail/ampemail/security-requirements), and [Mail.ru](https://postmaster.mail.ru/amp/#howto).

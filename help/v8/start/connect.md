@@ -35,7 +35,7 @@ Before starting, you need to:
 * Check your system and tools compatibility with Adobe Campaign in the [Compatibility matrix](compatibility-matrix.md)
 * Get your Campaign server URL 
 * Create your Adobe ID, or get your user credentials from your company
-* Install Microsft Edge Webview2 runtime on your system. [Learn more](#webview)
+* Install Microsoft Edge Webview2 runtime on your system. [Learn more](#webview)
 
 ## Install the Client Console{#download-ac-console}
 
@@ -53,7 +53,7 @@ Two options are available to download the Client Console:
 
 1. As a Campaign administrator, connect to Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}.
 
-1. As a end-user, your Campaign administrator deploys the Client Console for you, and makes it available through a dedicated URL.
+1. As an end-user, your Campaign administrator deploys the Client Console for you, and makes it available through a dedicated URL.
 
 Once the Client Console installation program is downloaded, install it on your local machine.
 
@@ -83,7 +83,7 @@ You can add as many connections as needed to connect to your test, stage and pro
 
 ## Log on to Adobe Campaign {#logon-to-ac}
 
-Campaign users connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). They can use same ID all Adobe solutions. The connection is saved when using Adobe Campaign with other solutions. Learn more about Adobe IMS in [this page](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+Campaign users connect to the Adobe Campaign console using their Adobe ID, through Adobe Identity Management System (IMS). They can use the same ID for all Adobe solutions. The connection is saved when using Adobe Campaign with other solutions. Learn more about Adobe IMS in [this page](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 To log on to an instance, follow the steps below:
 
@@ -167,6 +167,6 @@ Whereas with Web access, the options will mainly enable viewing:
 
 ![](assets/campaign-from-web.png)
 
-Web access is also used to in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
+Web access is also used in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
 
-To access to your Campaign instance from the web, the URL is:  `https://<your adobe campaign server>:<port number>/view/home`.
+To access your Campaign instance from the web, the URL is:  `https://<your adobe campaign server>:<port number>/view/home`.

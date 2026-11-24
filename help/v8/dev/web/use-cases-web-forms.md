@@ -59,7 +59,7 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on denylist.
+1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on the denylist.
 
    To do this, click the **[!UICONTROL Exclusions]** tab.
 
@@ -117,7 +117,7 @@ To do this, follow the steps below:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. Its content must be as follows:
+   The first **[!UICONTROL Script]** activity will add recipients on denylist until they have confirmed their subscription to the newsletter. Its content must be as follows:
 
    ```
    ctx.recipient.@blackList=1
@@ -125,7 +125,7 @@ To do this, follow the steps below:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   The second **[!UICONTROL Script]** activity authorizes deliveries to be send to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they confirmed the subscription.
+   The second **[!UICONTROL Script]** activity authorizes deliveries to be sent to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they have confirmed the subscription.
 
    ```
    ctx.recipient.@blackList=0

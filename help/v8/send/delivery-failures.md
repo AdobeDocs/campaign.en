@@ -60,7 +60,7 @@ If a message cannot be sent to a profile, the remote server automatically sends 
 
 Once a message is sent, you can view the delivery status for each profile and the associated failure type and reason in the delivery logs.
 
-When an email address is quarantined, or if a profile is on denylist, the recipient is excluded at the delivery preparation step. Excluded messages are listed in the delivery dashboard.
+When an email address is quarantined, or if a profile is on the denylist, the recipient is excluded at the delivery preparation step. Excluded messages are listed in the delivery dashboard.
 
 ## Why has the message delivery failed {#delivery-failure-reasons}
 
@@ -137,7 +137,7 @@ Bounce mails can have the following qualification status:
 
 ## Retry management {#retries}
 
-If message delivery fails following a temporary error (**Soft** or **Ignored**), Campaign retries sending. These retries can be performed until the end ot the delivery duration.
+If message delivery fails following a temporary error (**Soft** or **Ignored**), Campaign retries sending. These retries can be performed until the end of the delivery duration.
 
 Soft bounce retries and the length of time between them are determined by the MTA based on the type and severity of the bounce responses coming back from the message's email domain.
 
@@ -224,7 +224,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
    <td> Excluded after arbitration </td> 
    <td> Ignored </td> 
    <td> 12 </td> 
-   <td> The recipient was excluded by a 'arbitration' type campaign typology rule.<br /> </td> 
+   <td> The recipient was excluded by an 'arbitration' type campaign typology rule.<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluded by a SQL rule </td> 
@@ -254,7 +254,7 @@ For the email channel, possible reasons for a delivery failure are listed below.
    <td> Not defined </td> 
    <td> Not defined </td> 
    <td> 0 </td> 
-   <td> The address is in qualification because error has not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. They can then carry out message analysis and qualify this error, via the <span class="uicontrol">Administration</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Non deliverables Management</span> node in the tree structure.<br /> </td> 
+   <td> The address is in qualification because the error has not been incremented yet. This type of error occurs when a new error message is sent by the server: it can be an isolated error, but if it occurs again, the error counter increases, which will alert the technical teams. They can then carry out message analysis and qualify this error, via the <span class="uicontrol">Administration</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">Non deliverables Management</span> node in the tree structure.<br /> </td> 
   </tr> 
   <tr> 
    <td> Not eligible for the offers </td> 
@@ -305,7 +305,7 @@ For the mobile app channel, possible reasons for a delivery failure are listed b
 
 The HTTP/V2 protocol allows a direct feedback and status for each push delivery. If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. A token is considered unregistered when a mobile application is uninstalled or reinstalled.
 
-Synchronously, if the APNs returns an "unregistered" status for a message, the target token will be immediately be put in quarantine.
+Synchronously, if the APNs returns an "unregistered" status for a message, the target token will immediately be put in quarantine.
 
 +++ Click to view iOS quarantine scenarios
 
@@ -493,7 +493,7 @@ The Android V2 quarantine mechanism uses the same process as Android V1, the sam
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM message rejection: All other error<br /> </td> 
+   <td> FCM message rejection: All other errors<br /> </td> 
    <td> Failure<br /> </td> 
    <td> The Firebase Cloud Messaging server has returned an unexpected error code: {1} </td> 
    <td> </td> 

@@ -71,7 +71,7 @@ To define waves, follow these steps:
 >
 >You can only define the size and the delay between two consecutive waves. The recipient selection criteria for each wave cannot be configured.
    
-You can either define the size of each waves, or add them to a calendar.
+You can either define the size of each wave, or add them to a calendar.
 
 * **Define the size for each wave**. For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
 

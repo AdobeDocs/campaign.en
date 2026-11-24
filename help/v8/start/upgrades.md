@@ -61,7 +61,7 @@ Detailed information about each new version is available in the [Release notes](
 
 To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console).
 
-### Hotflixes {#hotflixes}
+### Hotfixes {#hotflixes}
 
 In exceptional cases, Adobe may provide a customer-specific hotfix to address an issue before a fix is available in a standard release. Hotfix requests are assessed case by case and are not part of the standard release cycle.
 
@@ -93,7 +93,7 @@ To check your Campaign version, access the **Help > About…** menu from the cli
 You access the following information:
 
 * The **version** number of your client console and application server. In the sample above, the version is 8.1.5 for both the client console and the Application server.
-* The SHA number, between parenthesis.
+* The SHA number, between parentheses.
 * A link to contact Adobe Customer Care.
 * Links to Adobe Privacy Policy, Terms of Use and Cookies Policy.
 

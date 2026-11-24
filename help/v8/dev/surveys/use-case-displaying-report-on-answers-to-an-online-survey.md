@@ -65,7 +65,7 @@ To collect the answers to the survey, apply the following steps:
 
    ![](assets/reporting_usecase_1_01.png)
 
-1. Select the columns to extract (in this case: select: all archived fields. These are the fields that contain the answers.
+1. Select the columns to extract (in this case, select all archived fields). These are the fields that contain the answers.
 
    ![](assets/reporting_usecase_1_02.png)
 

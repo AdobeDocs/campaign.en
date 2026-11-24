@@ -36,7 +36,7 @@ Use Adobe Campaign to send text messages to your customers on their mobile devic
 To deliver SMS to mobile devices with Adobe Campaign, you need:
 
 * An external account configured on the **[!UICONTROL Mobile (SMS)]** channel. Learn how to configure the SMS channel on your [mid-sourcing infrastructure](sms-mid-sourcing.md). For this configuration, you need to understand the [SMPP external account parameters](smpp-external-account.md) and the [SMS channel characteristics](sms-channel.md).
-    After this set up, check your SMPP connection and know how to troubleshoot it if needed. [Learn more](smpp-connection.md).
+    After this setup, check your SMPP connection and know how to troubleshoot it if needed. [Learn more](smpp-connection.md).
 
 * An SMS delivery template that is correctly linked to this external account.
 
@@ -51,7 +51,7 @@ Adobe Campaign supports two SMS connectors used for sending SMS messages to your
 <a href="create-sms.md">
 <img alt="Create SMS" src="../../assets/do-not-localize/sms-sending.jpg">
 </a>
-<div><a href="create-sms.md"><strong>Create a SMS delivery</strong>
+<div><a href="create-sms.md"><strong>Create an SMS delivery</strong>
 </div>
 <p>
 </td>

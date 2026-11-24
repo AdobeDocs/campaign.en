@@ -84,11 +84,11 @@ To add an input field, click the **[!UICONTROL Input control]** button and choos
 
 Five different types of text fields can be inserted into a form page:
 
-* **Text**: lets the user enter a text on one line.
+* **Text**: lets the user enter text on one line.
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Number**: lets the user enter a number on one line. for more on this, refer to [Adding numbers](#adding-numbers).
+* **Number**: lets the user enter a number on one line. For more on this, refer to [Adding numbers](#adding-numbers).
 
   When the page is approved, field content is checked to make sure the value entered is compatible with the field. For more on this, refer to [Defining control settings](form-rendering.md#defining-control-settings).
 
@@ -229,7 +229,7 @@ To add radio buttons via a list, go to the **[!UICONTROL Selection controls>Mult
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-Add as many radio buttons as there are labels. The advantage of this feature is that you can import values from an existing field (in case of an itemized field) and make it for the user to choose one option. However, the layout of buttons is less flexible.
+Add as many radio buttons as there are labels. The advantage of this feature is that you can import values from an existing field (in case of an itemized field) and make it possible for the user to choose one option. However, the layout of buttons is less flexible.
 
 >[!NOTE]
 >
@@ -346,7 +346,7 @@ The purpose of **captcha** tests is to prevent fraudulent use of your Web forms.
 >
 >If your form contains several pages, the Captcha must always be placed on the last page, just before the storage box, to prevent any circumvention of the security measures.
 
-To insert a Captcha into a form, click the first button on the toolbar and Select **[!UICONTROL Advanced controls>Captcha]**.
+To insert a Captcha into a form, click the first button on the toolbar and select **[!UICONTROL Advanced controls>Captcha]**.
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 

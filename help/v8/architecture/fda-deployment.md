@@ -51,7 +51,7 @@ In its Campaign FDA (default) deployment, [!DNL Adobe Campaign] v8 can be connec
 This deployment model comes with the following benefits:
 
 * **Storage and performances**
-    You can move your historical data to [!DNL Snowflake] and then reduce dependencies to Adobe Campaign IDs limit. This architecture also reduce your dependency to PostgreSQL storage and performances limits. As less data is stored in Campaign database, performances are better and maintenance tasks are performed faster.
+    You can move your historical data to [!DNL Snowflake] and then reduce dependencies to Adobe Campaign IDs limit. This architecture also reduces your dependency to PostgreSQL storage and performances limits. As less data is stored in Campaign database, performances are better and maintenance tasks are performed faster.
 
 * **Data model extension and data management**
     You can create tables in [!DNL Snowflake] and link them to Adobe Campaign, for example to use archived data over retention periods, or run segmentation processes with outstanding performances.

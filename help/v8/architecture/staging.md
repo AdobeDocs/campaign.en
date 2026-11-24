@@ -37,17 +37,17 @@ topic_v2:
 ---
 # Campaign API staging mechanism
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), blasting unitary calls is not recommended with regards to performances (latency & concurrency). Unless you are sending extremely low volume, batch operation **must** be used. In order to improve performance, ingestion APIs are redirected to the local database.
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), blasting unitary calls is not recommended with regards to performances (latency & concurrency). Unless you are sending extremely low volume, batch operations **must** be used. In order to improve performance, ingestion APIs are redirected to the local database.
 
 Campaign staging capability is enabled by default on some built-in schemas. We can also enable it on any custom schema. Staging mechanism in a nutshell:
 
 * Data schema structure is duplicated into the local staging table
 * New APIs dedicated for data ingestion flow directly into the local staging table. [Learn more](new-apis.md)
-* A scheduled workflow triggers every hour and synchronize data back to the Cloud Database. [Learn more](replication.md)
+* A scheduled workflow triggers every hour and synchronizes data back to the Cloud Database. [Learn more](replication.md)
 
 Some built-in schemas are Staged by default, such as nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-Campaign Classic v7 APIs are still available but cannot benefit from this new Staging mechanism: API calls flow to directly directly to the Cloud database. Adobe recommends to use new Staging mechanism as much as possible to reduce overall pressure and latency on Campaign Cloud database. 
+Campaign Classic v7 APIs are still available but cannot benefit from this new Staging mechanism: API calls flow directly to the Cloud database. Adobe recommends using the new Staging mechanism as much as possible to reduce overall pressure and latency on Campaign Cloud database. 
 
 >[!CAUTION]
 >

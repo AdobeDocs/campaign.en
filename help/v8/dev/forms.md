@@ -182,7 +182,7 @@ A help text was added using the `<static>` tag with help type. The content of th
 
 Use **containers** to group a set of controls. They are represented by the **`<container>`** element. They were used above to format controls over several columns.
 
-The **xpath** attribute on a `<container>` lets you simplify the referencing of child controls. The referencing of controls is then relative to the parent `<container>` parent.
+The **xpath** attribute on a `<container>` lets you simplify the referencing of child controls. The referencing of controls is then relative to the parent `<container>`.
 
 Example of a container without "xpath":
 
@@ -443,7 +443,7 @@ The **xpathChoiceTarget** attribute lets you launch a selection form from the li
 * **xpathEditTarget**: sets editing on the link entered
 * **xpathChoiceTarget**: for addition, launches the selection form on the link entered
 
-## Add a memory list controls {#memory-list-controls}
+## Add memory list controls {#memory-list-controls}
 
 Memory lists let you edit the collection elements using list data preloading. This list cannot be filtered or configured.
 
@@ -526,7 +526,7 @@ Example on the "Gender" field:
 
 ```
 
-## Add radio button {#radio-button}
+## Add a radio button {#radio-button}
 
 A radio button lets you choose from several options. The **`<input>`** tags are used to list the possible options, and the **checkedValue** attribute specifies the value associated with the choice.
 

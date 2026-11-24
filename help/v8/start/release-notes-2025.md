@@ -229,7 +229,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Addressed typology rule functionality issues, ensuring proper application of pressure rules in PUSH deliveries. (NEO-84010)
 * Resolved BigQuery query errors caused by mismatched date and timestamp comparisons post-upgrade, ensuring compatibility with filtering conditions. (NEO-83826)
 * Resolved an issue where delivery activities would fail when resuming paused deliveries due to personalization errors. This fix ensures smoother delivery workflows and prevents errors related to paused activities. (NEO-83809)
-* Fixe an issue in FFDA, when using the "target record load query" option. Support for "order by" and "where" clauses was added. (NEO-83793)
+* Fixed an issue in FFDA, when using the "target record load query" option. Support for "order by" and "where" clauses was added. (NEO-83793)
 * Addressed recurring delivery failures caused by null values being written to non-nullable columns in the broadLogRcp table. This fix improves delivery reliability and prevents errors during live campaigns. (NEO-83729)
 * Resolved an issue where seed addresses were duplicated during delivery preparation, leading to discrepancies in message counts. This fix ensures accurate targeting and prevents duplication errors. (NEO-83703)
 * Fixed a critical issue where production deliveries were sent after their validity period, potentially causing legal concerns. Deliveries now adhere strictly to their defined validity periods. (NEO-83350)
@@ -290,7 +290,7 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 * Addressed discrepancies in event dates and contact dates for bounce management. The timezone handling logic has been improved. (NEO-72277)
 * Enhanced handling of incorrectly converted UTF-8 characters in direct mail deliveries. Hidden characters are now correctly processed to prevent delivery failures. (NEO-72148)
 * Fixed errors in the Inbound SMS activity where filters caused saving issues. The workflow now saves correctly without generating errors. (NEO-70427)
-* Corrected SQL query generation for grouped eligibility criteria in offer spaces. Missing parenthesis in SQL conditions have been added to ensure proper filtering. (NEO-70425)
+* Corrected SQL query generation for grouped eligibility criteria in offer spaces. Missing parentheses in SQL conditions have been added to ensure proper filtering. (NEO-70425)
 
 <!--
 * Updated the public documentation link in the `ffdaUnicity` workflow email template to point to the correct page for key management in v8. (NEO-67996)
@@ -308,7 +308,7 @@ _April 25, 2025_
 
 ### New features {#features-8-6-5}
 
-**New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
+**New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
 
 ### General improvements {#improvements-8-6-5}
 
@@ -358,7 +358,7 @@ _Feb 14, 2025_
 
 ### New features {#features-8-7-3}
 
-* **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
+* **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](../dev/api/get-started-apis.md)
 
@@ -376,7 +376,7 @@ _Jan 15, 2025_
 
 * Campaign application stability has been improved during delivery analysis in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md).
 * This release comes with improved and strengthened FFDA architecture mechanisms, including key management, staging, and data replication.
-* New technical workflows have been introduced for the [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md). These workflows replicate delivery and related data by centralizing parallel replication requests on corresponding tables. These workflow start with `Replicate nms`. [Read more](../architecture/replication.md)
+* New technical workflows have been introduced for the [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md). These workflows replicate delivery and related data by centralizing parallel replication requests on corresponding tables. These workflows start with `Replicate nms`. [Read more](../architecture/replication.md)
 * A new **Enable watchdog supervisor to keep workflow running permanently** option is now available in the workflow properties. When this option is enabled, workflows automatically restart after an error occurred. The restart happens every 30 seconds by default if the workflow is still in error. To adjust this interval, you can create a new `XtkWorkflow_WatchdogRestartTimerTimeout` option and set an Integer data type to specify the new delay. This option should only be enabled in technical workflows. [Read more](../../automation/workflow/workflow-properties.md#execution)
 
 ### Security improvements {#security-8-6-4}

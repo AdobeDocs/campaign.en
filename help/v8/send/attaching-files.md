@@ -30,7 +30,7 @@ You can attach one or more files to an email delivery.
 
 >[!NOTE]
 >
->To avoid performance issue, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from the list of Campaign options. Refer to the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+>To avoid performance issues, it is recommended not to include more than one attachment per email. The recommended threshold can be configured from the list of Campaign options. Refer to the [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 There are two possible cases:
 
@@ -55,7 +55,7 @@ To attach a local file to a delivery, follow the steps below.
 
 >[!NOTE]
 >
->You can attach several files to a delivery. Attachments can be in any format, included zipped format.
+>You can attach several files to a delivery. Attachments can be in any format, including zipped format.
 
 1. Click the **[!UICONTROL Attachments]** link.
 1. Click the **[!UICONTROL Add]** button.

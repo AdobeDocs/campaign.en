@@ -114,7 +114,7 @@ The following indicators are used:
 * **[!UICONTROL Inbox full]**: Error type generated after five delivery attempts to indicate that the recipients' inbox contains too many messages.
 * **[!UICONTROL Account disabled]**: Error type generated when sending a delivery to indicate that the address no longer exists.
 * **[!UICONTROL Rejected]**: Error type generated when an address is rejected by the IAP (Internet Access Provider), for instance following the application of a security rule (anti-spam software). 
-* **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc 
+* **[!UICONTROL Unreachable]**: Error type which occurs in the message distribution string: incident on the SMTP relay, domain temporarily unreachable, etc. 
 * **[!UICONTROL Not connected]**: Error type to indicate that the recipients' mobile phone is switched off or disconnected from the network at the time of sending.
 
   >[!NOTE]
@@ -139,7 +139,7 @@ You can open up each line of the value table by clicking the [+] symbol. For eac
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined at cube level. To change theses values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](gs-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
+>The domain names displayed in this report are defined at cube level. To change these values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](gs-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
 
 ## Browsers {#browsers}
 
@@ -259,7 +259,7 @@ In the table of global statistics values, click the name of each operating syste
 
 Statistics are presented in the form of a curve, a chart and a table of values.
 
-The **[!UICONTROL History]** curve represents the rate of use of this operating system per day. This rate is the ratio of the number of visitors per day (on this operating systems) in relation to the number of visitors measured on the day with the highest attendance.
+The **[!UICONTROL History]** curve represents the rate of use of this operating system per day. This rate is the ratio of the number of visitors per day (on this operating system) in relation to the number of visitors measured on the day with the highest attendance.
 
 The **[!UICONTROL Breakdown by version]** chart represents the breakdown of visitors per version in relation to the total number of visitors on this operating system.
 
@@ -325,4 +325,4 @@ The number of opens corresponds to the total number of messages opened. Text for
 
 >[!NOTE]
 >
->Browser and operating system names make up part of the information sent by the browser's user agent to which the message has been opened. Adobe Campaign deduces the type of device using its the device information.
+>Browser and operating system names make up part of the information sent by the browser's user agent to which the message has been opened. Adobe Campaign deduces the type of device using the device information.

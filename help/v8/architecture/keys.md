@@ -45,14 +45,14 @@ topic_v2:
 
 In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), the primary key is a Universally Unique IDentifier (UUID), which is a string of characters. To create this UUID, the main element of the schema must contain the **autouuid** and **autopk** attributes set to **true**.
 
-Adobe Campaign v8 uses [!DNL Snowflake] as the core Database. The distributed architecture of the [!DNL Snowflake] database does not provide mechanism to ensure the unicity of a key within a table: end-users are responsible for key consistency within the Adobe Campaign database.
+Adobe Campaign v8 uses [!DNL Snowflake] as the core Database. The distributed architecture of the [!DNL Snowflake] database does not provide a mechanism to ensure the unicity of a key within a table: end-users are responsible for key consistency within the Adobe Campaign database.
 
-Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as **Query**, **Reconciliation**, **Update data**, and more. This critical to define proper reconciliation criteria when updating [!DNL Snowflake] tables.
+Avoiding duplicates on keys, and especially on primary keys, is mandatory to preserve relational database consistency. Duplicates on primary keys lead to issues with data management workflow activities such as **Query**, **Reconciliation**, **Update data**, and more. This is critical to define proper reconciliation criteria when updating [!DNL Snowflake] tables.
 
 
 >[!CAUTION]
 >
->Duplicated keys is not restricted to UUIDs. It can happen in with IDs, including custom keys created in custom tables.
+>Duplicated keys are not restricted to UUIDs. It can happen with IDs, including custom keys created in custom tables.
 
 
 ## Unicity Service{#unicity-service}
@@ -86,7 +86,7 @@ A specific notification is sent to the **[!UICONTROL Workflow Supervisors]** ope
 
 ## Additional guardrails {#duplicates-guardrails}
 
-Campaign comes with a set of new guardrails to prevent insertion of duplicated key in [!DNL Snowflake] database. 
+Campaign comes with a set of new guardrails to prevent insertion of duplicated keys in the [!DNL Snowflake] database. 
 
 >[!NOTE]
 >
@@ -94,19 +94,19 @@ Campaign comes with a set of new guardrails to prevent insertion of duplicated k
 
 ### Delivery preparation {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign removes automatically any duplicated UUID from an audience during delivery preparation. This mechanism prevents any error from happening while preparing a delivery. As an end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated key. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
+Adobe Campaign removes automatically any duplicated UUID from an audience during delivery preparation. This mechanism prevents any error from happening while preparing a delivery. As an end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated keys. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/exclusion-duplicates-log.png)
 
 ### Update data in a workflow {#duplicates-update-data}
 
-In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), you cannot select an internal key (UUID) as field to update data in a workflow. 
+In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), you cannot select an internal key (UUID) as a field to update data in a workflow. 
 
 ![](assets/update-data-no-internal-key.png)
 
 ### Query a schema with duplicates {#query-with-duplicates}
 
-When a workflow starts running query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
+When a workflow starts running a query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, the workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
 
 ![](assets/query-with-duplicates.png)
 
@@ -119,4 +119,4 @@ This check is performed in the following workflow activities:
 
 >[!NOTE]
 >
->If your are transitioning from another Campaign version, it is imperative to remove duplicates, troubleshoot and sanitize data to avoid impacting your transition.
+>If you are transitioning from another Campaign version, it is imperative to remove duplicates, troubleshoot and sanitize data to avoid impacting your transition.

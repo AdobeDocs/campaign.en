@@ -59,7 +59,7 @@ To create a new offer space, follow the steps below:
 
    >[!NOTE]
    >
-   >This option is used at the preview and makes offer spaces invalid when publishing if one of the mandatory field is missing from the offer. However, if an offer is already live on an offer space, these criteria are not taken into account.
+   >This option is used at the preview and makes offer spaces invalid when publishing if one of the mandatory fields is missing from the offer. However, if an offer is already live on an offer space, these criteria are not taken into account.
 
    ![](assets/offer_space_create_005.png)
 

@@ -49,7 +49,7 @@ Once these capabilities are implemented, Adobe monitors:
 
 * Your instance availability, and proceed with alerting if the key is not available.
 
-* The VPN tunnels, and proceed with alerting in case any issue arise.
+* The VPN tunnels, and proceed with alerting in case any issue arises.
 
 ## Secure Customer-Managed Key integration {#secure-cmk-integration}
 

@@ -22,7 +22,7 @@ level_v2:
 ---
 # Creating a service with APIs{#creating-a-service-api}
 
-Services creation is performed with a **POST** request on the service resource.
+Service creation is performed with a **POST** request on the service resource.
 
 If you want to create the service with specific attributes, add them into the payload. Otherwise, the new service will be created with default ones.
 

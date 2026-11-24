@@ -72,7 +72,7 @@ The definition of the transactional message content is the same as for all deliv
 >Images included in the message must be publicly accessible. Adobe Campaign does not provide any image upload mechanism for transactional messages.  
 >Unlike in JSSP or webApp, `<%=` doesn't have any default escaping.
 >
->You have to escape each data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
+>You have to escape each piece of data coming from the event properly. This escaping depends on how this field is used. For example, within a URL, please use encodeURIComponent. To be displayed in the HTML, you can use escapeXMLString.
 
 Once you have defined your message content, you can integrate event information into the message body and personalize it. Event information is inserted into the body of the text thanks to personalization tags.
 
@@ -187,7 +187,7 @@ If you are [transitioning from Campaign Classic v7](../start/v7-to-v8.md), all d
 
 However, when creating a transactional message template, the routing needed for the template to be successfully used is **internal email delivery**. This routing prevents you from sending proofs.
 
-Consequently, to send a proof for you transactional message template, you must change the routing from internal email delivery to the **mid-sourcing routing account**.
+Consequently, to send a proof for your transactional message template, you must change the routing from internal email delivery to the **mid-sourcing routing account**.
 
 ![](assets/messagecenter_send_proof_004.png)
 
@@ -258,4 +258,4 @@ Once unpublication is complete:
 
 * Once a template is unpublished, you can delete it<!-- from the control instance-->.
 
-    To do so, select it from the list and click the **[!UICONTROL Delete]** button on top right of the screen.
+    To do so, select it from the list and click the **[!UICONTROL Delete]** button at the top right of the screen.

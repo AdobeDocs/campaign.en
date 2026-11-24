@@ -41,7 +41,7 @@ Key benefits:
 * Configure settings based on your different business needs at different times.
 * Enhance security by controlling access settings on a need-by-need basis.
 
-You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and retrieve information about your instance.
+You can also use Campaign Control Panel to configure your instance settings such as IP allow listing, URL permissions and to retrieve information about your instance.
 
 Learn more in [Campaign Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"}.
 
@@ -82,7 +82,7 @@ For Campaign v8 Managed Cloud Services, Adobe also monitors infrastructure, plat
 
 ## Instance settings
 
-Learn how to manage your Campaign instances settings in the Control Panel.
+Learn how to manage your Campaign instance settings in the Control Panel.
 * [IP on the allow list](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html){target="_blank"}
 * [URL permissions](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html){target="_blank"}
 * [Instance details](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html){target="_blank"}
