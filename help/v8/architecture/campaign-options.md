@@ -72,6 +72,57 @@ The tables below list the options that the Campaign v8 documentation asks you to
 | XtkSecurity_FeatureFlag_SqlSensitive | Set it to 0 to deactivate the protection of the SQL code activities against blocked SQL methods. [Learn more](../../automation/workflow/sql-code-and-javascript-code.md#important-notes) |
 | XtkSecurity_SqlSensitive_Methods | List of SQL methods that the SQL activities block or warn about. [Learn more](../../automation/workflow/sql-code-and-javascript-code.md#important-notes) |
 
+### Email defaults {#email-default-options}
+
+| Option | Description |
+|---|---|
+| NmsEmail_DefaultFromAddr | Default From address of the instance, used when the delivery leaves it empty. |
+| NmsEmail_FromName | Default From label of the instance, used when the delivery leaves it empty. |
+| NmsEmail_DefaultReplyToAddr | Default Reply-to address of the instance, used when the delivery leaves it empty. |
+| NmsEmail_ReplyToName | Default Reply-to label of the instance, used when the delivery leaves it empty. |
+| NmsEmail_DefaultErrorAddr | Default error address of the instance, used when the delivery leaves it empty. [Learn more](../send/email-parameters.md) |
+| NmsDelivery_FromAddressMasks | Syntax of the From address used when sending a message. |
+| NmsDelivery_ErrorAddressMasks | Syntax of the error address used when replying to a message. |
+| NmsEmail_ExpOrganization | Common name of your organization, used in some warning messages displayed to the recipients. |
+
+### Soft errors and quarantine {#error-options}
+
+| Option | Description |
+|---|---|
+| NmsNPAI_EmailMaxError | Maximum number of soft errors accepted on the email channel before the recipient is put into quarantine. |
+| NmsNPAI_EmailSignificantErrorDelay | Minimum time that must pass after the previous soft error on the email channel before a new soft error is taken into account. |
+| NmsNPAI_MobileMaxError | Maximum number of soft errors accepted on the mobile channel before the recipient is put into quarantine. |
+| NmsNPAI_MobileSignificantErrorDelay | Minimum time that must pass after the previous soft error on the mobile channel before a new soft error is taken into account. |
+
+Learn more about soft errors and quarantines in [Delivery failures](../send/delivery-failures.md).
+
+### Message Center thresholds {#message-center-options}
+
+Each real-time event metric has a warning threshold and an alert threshold. The option name ends with Warning or Alert, for example MC_RtEventErrorWarning and MC_RtEventErrorAlert. Learn more about transactional messaging in [Campaign Transactional messaging](../send/transactional.md).
+
+| Option name prefix | Metric |
+|---|---|
+| MC_RtEventAvgDeliveryTime | Average sending time of real-time events. |
+| MC_RtEventAvgProcessTime | Average processing time of real-time events. |
+| MC_RtEventAvgQueueTime | Average queuing time of real-time events. |
+| MC_RtEventAvgQueue | Average number of queued real-time events. |
+| MC_RtEventMaxQueue | Maximum number of queued real-time events. |
+| MC_RtEventMinQueue | Minimum number of queued real-time events. |
+| MC_RtEventQueue | Queue of pending real-time events. The alert threshold is the critical condition. |
+| MC_RtEventError | Processing errors of real-time events. |
+| MC_RtEventThroughput | Throughput of real-time events. |
+
+### Privacy requests {#privacy-options}
+
+| Option | Description |
+|---|---|
+| Privacy_Request_ConfirmDeletePending | Set it to 1 to confirm each deletion manually in the interface in a second step. Otherwise, data is deleted without confirmation. |
+| Privacy_Request_ConfirmDeletePendingDelay | Delay after which a request that waits for deletion confirmation is cancelled. |
+| Privacy_Request_MaxErrorAllowed | Maximum number of errors allowed when processing or deleting a privacy request. |
+| Privacy_Request_PurgeDelay | Delay between the creation of a request in the queue and the deletion of its data. |
+
+Learn more about privacy requests in [Manage Privacy requests](../start/privacy.md).
+
 ### Audit trail {#audit-trail-options}
 
 Set an audit trail option to 1 to enable the audit trail for an entity, or to 0 to disable it: XtkAudit_Workflows, XtkAudit_DataSchema, XtkAudit_Option, XtkAudit_Delivery, XtkAudit_ExtAccount, XtkAudit_DeliveryMapping, XtkAudit_WebApp, XtkAudit_Offer, XtkAudit_Operator. Use XtkAudit_Enable_All for every entity. Learn more in [Audit trail](../reporting/audit-trail.md#enable-disable-audit-trail).
