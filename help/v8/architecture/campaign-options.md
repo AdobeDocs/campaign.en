@@ -50,6 +50,8 @@ The tables below list the options available in Campaign v8, grouped by area. Whe
 
 ### Deliveries {#delivery-options}
 
+These options control how deliveries are prepared and sent. They cover image and attachment limits, the default routing provider, the mid-sourcing split threshold, the open tracking script, and the public server URL. Learn more in [Attaching files](../send/attaching-files.md), [Email parameters](../send/email-parameters.md), [Delivery best practices](../start/delivery-best-practices.md), [Get started with Campaign architecture](architecture.md#split), [Guidance Regarding Email Tracking Pixels](../start/cnil-pixel-tracking.md), and [Send direct LINE messages](../send/line/line.md).
+
 | Option | Description |
 |---|---|
 | NmsDelivery_MaxDownloadedImageSize | Maximum size, in bytes, of an image downloaded from a personalized URL and attached to an email. The default value is 100,000 bytes (100 KB). [Learn more](../send/attaching-files.md) |
@@ -63,6 +65,8 @@ The tables below list the options available in Campaign v8, grouped by area. Whe
 
 ### Campaigns and workflows {#campaign-workflow-options}
 
+These options control how campaigns and workflows run: the owner confirmation of a send, the number of jobs processed at the same time, the check of paused workflows, the automatic restart of workflows, and the protection of SQL activities. Learn more in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md), [Workflow best practices](../../automation/workflow/workflow-best-practices.md), [Monitor workflow execution](../../automation/workflow/monitor-workflow-execution.md), [Workflow properties](../../automation/workflow/workflow-properties.md), and [SQL code and JavaScript code](../../automation/workflow/sql-code-and-javascript-code.md#important-notes).
+
 | Option | Description |
 |---|---|
 | NmsCampaign_Activate_OwnerConfirmation | Create it and set it to 1 so that the campaign owner can confirm the send, even if reviewers are defined. Set it to 0 to deactivate. [Learn more](../../automation/campaigns/marketing-campaign-deliveries.md) |
@@ -73,6 +77,8 @@ The tables below list the options available in Campaign v8, grouped by area. Whe
 | XtkSecurity_SqlSensitive_Methods | List of SQL methods that the SQL activities block or warn about. [Learn more](../../automation/workflow/sql-code-and-javascript-code.md#important-notes) |
 
 ### Email defaults {#email-default-options}
+
+These options define the default sender and reply addresses and labels of your emails. Campaign uses them when a delivery leaves the corresponding field empty. Learn more in [Email parameters](../send/email-parameters.md) and [Work with delivery templates](../send/create-templates.md).
 
 | Option | Description |
 |---|---|
@@ -87,6 +93,8 @@ The tables below list the options available in Campaign v8, grouped by area. Whe
 
 ### Soft errors and quarantine {#error-options}
 
+These options define when a recipient is put into quarantine after soft errors, which are temporary delivery failures. Learn more in [Quarantine management in Campaign](../send/quarantines.md#soft-error-management) and [Delivery failures in Campaign](../send/delivery-failures.md#retries).
+
 | Option | Description |
 |---|---|
 | NmsNPAI_EmailMaxError | Maximum number of soft errors accepted on the email channel before the recipient is put into quarantine. |
@@ -94,11 +102,9 @@ The tables below list the options available in Campaign v8, grouped by area. Whe
 | NmsNPAI_MobileMaxError | Maximum number of soft errors accepted on the mobile channel before the recipient is put into quarantine. |
 | NmsNPAI_MobileSignificantErrorDelay | Minimum time that must pass after the previous soft error on the mobile channel before a new soft error is taken into account. |
 
-Learn more about soft errors and quarantines in [Delivery failures](../send/delivery-failures.md).
-
 ### Message Center thresholds {#message-center-options}
 
-Each real-time event metric has a warning threshold and an alert threshold. The option name ends with Warning or Alert, for example MC_RtEventErrorWarning and MC_RtEventErrorAlert. Learn more about transactional messaging in [Campaign Transactional messaging](../send/transactional.md).
+These options define the thresholds that raise a warning or an alert when the processing of real-time events, which trigger transactional messages, degrades. Each metric has a warning threshold and an alert threshold. The option name ends with Warning or Alert, for example MC_RtEventErrorWarning and MC_RtEventErrorAlert. Learn more in [Campaign Transactional messaging](../send/transactional.md) and [Campaign Transactional messaging settings](../config/transactional-msg-settings.md).
 
 | Option name prefix | Metric |
 |---|---|
@@ -114,6 +120,8 @@ Each real-time event metric has a warning threshold and an alert threshold. The 
 
 ### Privacy requests {#privacy-options}
 
+These options control how Campaign processes privacy requests, such as the confirmation of deletions, the number of errors allowed, and how long request data is kept. Learn more in [Manage Privacy requests in Campaign](../start/privacy.md).
+
 | Option | Description |
 |---|---|
 | Privacy_Request_ConfirmDeletePending | Set it to 1 to confirm each deletion manually in the interface in a second step. Otherwise, data is deleted without confirmation. |
@@ -121,13 +129,26 @@ Each real-time event metric has a warning threshold and an alert threshold. The 
 | Privacy_Request_MaxErrorAllowed | Maximum number of errors allowed when processing or deleting a privacy request. |
 | Privacy_Request_PurgeDelay | Delay between the creation of a request in the queue and the deletion of its data. |
 
-Learn more about privacy requests in [Manage Privacy requests](../start/privacy.md).
-
 ### Audit trail {#audit-trail-options}
 
-Set an audit trail option to 1 to enable the audit trail for an entity, or to 0 to disable it: XtkAudit_Workflows, XtkAudit_DataSchema, XtkAudit_Option, XtkAudit_Delivery, XtkAudit_ExtAccount, XtkAudit_DeliveryMapping, XtkAudit_WebApp, XtkAudit_Offer, XtkAudit_Operator. Use XtkAudit_Enable_All for every entity. Learn more in [Audit trail](../reporting/audit-trail.md#enable-disable-audit-trail).
+The audit trail records the changes made to Campaign entities. Use these options to enable or disable it for an entity, for example to save space in the database. Set the value to 1 to enable the audit trail and to 0 to disable it. Learn more in [Audit trail](../reporting/audit-trail.md#enable-disable-audit-trail).
+
+| Option | Audited entity |
+|---|---|
+| XtkAudit_Workflows | Workflows |
+| XtkAudit_DataSchema | Schemas |
+| XtkAudit_Option | Options |
+| XtkAudit_Delivery | Deliveries |
+| XtkAudit_ExtAccount | External accounts |
+| XtkAudit_DeliveryMapping | Delivery mappings |
+| XtkAudit_WebApp | Web applications |
+| XtkAudit_Offer | Offers |
+| XtkAudit_Operator | Operators |
+| XtkAudit_Enable_All | All entities |
 
 ### Integrations and surveys {#integration-options}
+
+These options store the settings of integrations and surveys: the Adobe Developer Console credentials for landing pages, the last synchronization date of the CRM Connector activity, and the default backup of survey answers. Learn more in [Update Adobe Experience Platform profiles from Adobe Campaign landing pages](../connect/ac-aep-landing-pages.md), [CRM Connectors data synchronization](../connect/crm-data-sync.md), and [Manage answers](../dev/surveys/managing-answers.md).
 
 | Option | Description |
 |---|---|
