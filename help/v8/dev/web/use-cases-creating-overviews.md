@@ -136,7 +136,7 @@ When you configure a list in your overview, you can choose to display additional
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. In the **[!UICONTROL Data]** tab, add the **[!UICONTROL Primary key]** , **[!UICONTROL Internal name]** and **[!UICONTROL Description]** column and select the **[!UICONTROL Hidden field]** option for each one.
+1. In the **[!UICONTROL Data]** tab, add the **[!UICONTROL Primary key]** , **[!UICONTROL Internal name]** and **[!UICONTROL Description]** columns and select the **[!UICONTROL Hidden field]** option for each one.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 

@@ -45,7 +45,7 @@ To create a new offer space, follow the steps below:
 
    ![](assets/offer_space_create_002.png)
 
-1. Check the **[!UICONTROL Enable unitary mode]** option
+1. Check the **[!UICONTROL Enable unitary mode]** option.
 
 1. Go to the **[!UICONTROL Content field]** window and click **[!UICONTROL Add]**.
 

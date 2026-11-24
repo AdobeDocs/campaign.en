@@ -79,7 +79,7 @@ When a user enters a value which does not exist in an Alias cleansing enumeratio
 
 To create an alias, follow these steps:
 
-1. Click **[!UICONTROL Add]** button of the **[!UICONTROL Alias]** tab.
+1. Click the **[!UICONTROL Add]** button of the **[!UICONTROL Alias]** tab.
 1. Enter the alias you want to convert and select the value to be applied in the drop-down list. 
 
     ![Create a new alias](assets/new-alias.png)

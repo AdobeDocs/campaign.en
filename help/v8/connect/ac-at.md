@@ -93,7 +93,7 @@ You can then define the image parameters:
 * The **[!UICONTROL Default image]**'s URL is the image that will be displayed when none of the conditions are fulfilled. You can also select an image from your Assets library.
 * The **[!UICONTROL Target location]** is the name of your dynamic offer's location. You will have to select this location in your Adobe Target activity.
 * The **[!UICONTROL Landing Page]** lets you redirect the default image to a default landing page. This URL applies only when the default image is displayed in the final email. It is optional.
-* The **[!UICONTROL Additional decision parameters]**  defines the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox. In our example, we added the Country field.
+* The **[!UICONTROL Additional decision parameters]** define the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields. The Adobe Campaign fields used must have been specified in the rawbox. In our example, we added the Country field.
 
 If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [Adobe Target documentation](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 

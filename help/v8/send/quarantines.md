@@ -54,7 +54,7 @@ When their address or phone number is quarantined, recipients are excluded from 
 >
 >When recipients report your message as spam or reply to an SMS message with a keyword such as "STOP", their address or phone number is quarantined as **[!UICONTROL Denylisted]**. Their profile is updated accordingly.
 
-On the other hand, **profiles** can be on the **denylist** as after an unsubscription (opt-out), for a given channel: this implies that they are no longer targeted by any delivery. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
+On the other hand, **profiles** can be on the **denylist**, such as after an unsubscription (opt-out), for a given channel: this implies that they are no longer targeted by any delivery. As a consequence, if a profile on the denylist for the email channel has two email addresses, both addresses will be excluded from delivery. You can check if a profile is on the denylist for one or more channels in the **[!UICONTROL No longer contact]** section of the profile's **[!UICONTROL General]** tab. [Learn more](../audiences/view-profiles.md)
 
 >[!NOTE]
 >

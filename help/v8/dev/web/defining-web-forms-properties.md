@@ -107,7 +107,7 @@ In the **[!UICONTROL Rendering]** tab inside the **[!UICONTROL Properties]** of 
 
 ![](assets/logo_glass.png)
 
-In the new window, click on the **[!UICONTROL Page layout]** link :
+In the new window, click on the **[!UICONTROL Page layout]** link:
 
 ![](assets/logo_pagelayout.png)
 

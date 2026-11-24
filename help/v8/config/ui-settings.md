@@ -82,7 +82,7 @@ The column is added to the right of the existing columns.
 
 You can also use the list configuration screen to add and remove columns:
 
-1. From a list of records, click **[!UICONTROL Configure list]** icon on the lower right section.
+1. From a list of records, click the **[!UICONTROL Configure list]** icon in the lower right section.
 1. Double-click the fields to be added in the **[!UICONTROL Available fields]** list: they are added to the **[!UICONTROL Output columns]** list. 
 
     ![List configuration screen](assets/list-config-screen.png)
@@ -112,7 +112,7 @@ You can create new columns to display additional fields in the list.
 
 To create a column, follow these steps:
 
-1. From a list of records, click **[!UICONTROL Configure list]** icon on the lower right section.
+1. From a list of records, click the **[!UICONTROL Configure list]** icon in the lower right section.
 1. Click the **[!UICONTROL Add]** icon to display a new field in the list.
 1. Configure the field to add in the column.
 

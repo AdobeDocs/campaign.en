@@ -225,7 +225,7 @@ It is recommended to keep in touch with the provider, they often communicate maj
 * Check that the network is properly configured so the TCP connection can be made to the provider.
 * Ask the provider to check that they properly allowed IP addresses of the Adobe Campaign instance (most providers require this).
 * Check external account settings. Ask the provider in case of doubt about the value of some fields.
-* If the connection is successful but unstable, check the [Issues with unstable connections](#unstable-connections). section below.
+* If the connection is successful but unstable, check the [Issues with unstable connections](#unstable-connections) section below.
 * If connection issues are difficult to diagnose, a network capture will bring you a lot of information. Make sure that the network capture runs simultaneously while the problem appears so it can be analyzed efficiently. You should also note the exact time at which the problem appears so it's easier to find the problem in network captures.
 
 #### Issues with unstable connections {#unstable-connections}
@@ -257,7 +257,7 @@ A connection is considered unstable if any of these things happen:
 * Check that the broad log is present and in the correct status with the correct dates. If it's not, it's not an SMS issue but a delivery issue or a delivery preparation issue (that's outside the scope of this document).
 * Check that the SMS connector is actually bound with the provider's equipment. Ask the provider for feedback to make sure all systems are communicating properly. See BIND_TRANSMITTER and BIND_TRANSCEIVER PDUs for information about the bind process. You may need to enable SMPP traces for proper troubleshooting.
 * With the SMPP traces enabled, check that the SUBMIT_SM PDU is containing the right information (see the documentation above).
-* Check that the provider responds with a SUBMIT_SM_RESP PDU with a "OK" value (code 0). Make sure that the PDU arrives with a reasonable delay: anything longer than 1 second is suspicious and must be discussed with the provider, it usually arrives in less than 100ms.
+* Check that the provider responds with a SUBMIT_SM_RESP PDU with an "OK" value (code 0). Make sure that the PDU arrives with a reasonable delay: anything longer than 1 second is suspicious and must be discussed with the provider, it usually arrives in less than 100ms.
 * If all these steps work, you can be confident that the problem is on the provider side. They will have to do troubleshooting on their platform.
 * If it works but throughput is inconsistent, try adjusting the sending window and lowering the MT throughput. You will need to work with the provider to adjust that. Campaign can send messages very quickly so performance problems may arise on the provider's equipment.
 

@@ -32,7 +32,7 @@ To populate your Campaign database, you can [import profiles](import-profiles.md
 
 To create a recipient manually, follow the steps below:
 
-1. Browse to **[!UICONTROL Profiles and targets]** tab and select the **[!UICONTROL Recipients]** category. 
+1. Browse to the **[!UICONTROL Profiles and targets]** tab and select the **[!UICONTROL Recipients]** category. 
 
     ![](assets/profiles-and-targets.png)
 

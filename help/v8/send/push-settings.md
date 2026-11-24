@@ -215,7 +215,7 @@ To create an app for iOS devices, follow these steps:
 
 1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
-1. Browse to the **[!UICONTROL Sounds]** tab to define a sound to play. Click **[!UICONTROL Add]** and fill **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
+1. Browse to the **[!UICONTROL Sounds]** tab to define a sound to play. Click **[!UICONTROL Add]** and fill in the **[!UICONTROL Internal name]** field which must contain the name of the file embedded in the application or the name of the system sound.
 
 1. Click **[!UICONTROL Next]** to start configuring the development application.
 
@@ -270,7 +270,7 @@ To create an app for Android devices, follow these steps:
     >
 
 1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
-1. Select **HTTP v1** in  **[!UICONTROL API version]** drop-down list. 
+1. Select **HTTP v1** in the **[!UICONTROL API version]** drop-down list. 
 1. Click **[!UICONTROL Load project json file to extract project details...]** link to load your JSON key file. For more information on how to extract your JSON file, refer to [Google Firebase documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
    You can also enter manually the following details:

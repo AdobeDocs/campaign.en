@@ -82,7 +82,7 @@ In its [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deploymen
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You only need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-Learn more about [!DNL Campaign] v8 architecture in [this page](../../v8/architecture/architecture.md). Test
+Learn more about [!DNL Campaign] v8 architecture in [this page](../../v8/architecture/architecture.md).
 
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}

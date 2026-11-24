@@ -37,7 +37,7 @@ In most cases, the main target of a delivery is extracted from the Adobe Campaig
 
 To select the audience of your delivery, follow the steps below:
 
-1. In the delivery editor, click on **[!UICONTROL To]** link. You will have a **[!UICONTROL Select target]** window opened
+1. In the delivery editor, click the **[!UICONTROL To]** link. You will have a **[!UICONTROL Select target]** window opened
 
 1. Because the audience is stored in the Adobe Campaign database, in the **[!UICONTROL Main target]** tab, choose **[!UICONTROL Defined in the database]** option.
 
@@ -68,7 +68,7 @@ To select the audience of your delivery, follow the steps below:
 
     The option **[!UICONTROL Exclude recipients from this segment]** lets you target on recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
 
-1. Enter the name of your audience in the label field, and click on **[!UICONTROL Finish]** button to validate your audience.
+1. Enter the name of your audience in the label field, and click the **[!UICONTROL Finish]** button to validate your audience.
 
     ![](assets/audience_finish.png){zoomable="yes"}
 

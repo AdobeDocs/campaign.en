@@ -128,7 +128,7 @@ Click the **[!UICONTROL Advanced campaign settings...]** link and then the **[!U
 
 ## Seed addresses and custom table {#using-an-external-recipient-table}
  
-If the delivery table is an external table, you will need to make additional configurations. The **[!UICONTROL nms:seedmember]** schema must be extended. A tab is added to the seed addresses to define the adequate fields
+If the delivery table is an external table, you will need to make additional configurations. The **[!UICONTROL nms:seedmember]** schema must be extended. A tab is added to the seed addresses to define the adequate fields.
 
 In this case, to add seed addresses to the delivery, enter the adequate fields directly in the matching tab, or import the address templates.
 

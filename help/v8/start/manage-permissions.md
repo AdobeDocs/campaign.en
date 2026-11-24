@@ -235,7 +235,7 @@ Named Rights grant permissions to:
 
 Default named rights in Adobe Campaign are:
 
-* **[!UICONTROL ADMINISTRATION]**: Operators with the **[!UICONTROL ADMINISTRATION]** right has full access on the instance. Admin users can execute/create/edit/delete any object such as workflow, delivery, scripts, etc. **Note:** Product Profiles in the Adobe Admin Console containing the word "admin" grant access to Campaign Control Panel.
+* **[!UICONTROL ADMINISTRATION]**: Operators with the **[!UICONTROL ADMINISTRATION]** right have full access on the instance. Admin users can execute/create/edit/delete any object such as workflow, delivery, scripts, etc. **Note:** Product Profiles in the Adobe Admin Console containing the word "admin" grant access to Campaign Control Panel.
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: You can set multiple approval steps within workflows and deliveries to ensure that the current state has been approved by an assigned operator or group. Users with the **[!UICONTROL APPROVAL ADMINISTRATION]** right can set approval steps and also assign an operator or operator group who should approve those steps. **Note:** Product Profiles containing the word "admin" (such as "approval admin") grant access to Campaign Control Panel.
 

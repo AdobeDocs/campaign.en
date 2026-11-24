@@ -36,7 +36,7 @@ topic_v2:
 
 Browse to **[!UICONTROL Profiles and targets]** to access recipients stored in Adobe Campaign database. 
 
-From this page, you can [create new recipient](create-profiles.md), edit an existing recipient and access its profile details.
+From this page, you can [create a new recipient](create-profiles.md), edit an existing recipient and access its profile details.
 
 ![](assets/profiles-and-targets.png)
 

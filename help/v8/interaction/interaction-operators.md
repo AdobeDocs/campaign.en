@@ -40,7 +40,7 @@ Two types of operators can use Campaign Interaction: **Offer managers** and **De
 1. Create an operator. [Learn more](../start/manage-permissions.md#add-users)
 1. Browse to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
 
-Permissions associated to Offer managers are described [here](../start/manage-permissions.md#ootb-productprofiles)
+Permissions associated to Offer managers are described [here](../start/manage-permissions.md#ootb-productprofiles).
 
 ## Create a Delivery manager operator {#delivery-manager}
 

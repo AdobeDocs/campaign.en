@@ -46,7 +46,7 @@ You can choose to approve the offer content on certain available spaces and reje
 
 To approve the offer content, apply the following steps:
 
-1. Click the **[!UICONTROL Approval]** button and select **[!UICONTROL Approve content]** in popup.
+1. Click the **[!UICONTROL Approval]** button and select **[!UICONTROL Approve content]** in the popup.
 
    ![](assets/offer_validate_002.png)
 

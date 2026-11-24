@@ -59,7 +59,7 @@ These upgrades can be:
 
 Detailed information about each new version is available in the [Release notes](release-notes.md). Security-related fixes are called out within each release's notes. For more information about security notifications, see [Staying informed](#security-staying-informed).
 
-To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, except mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console).
+To ensure a stable configuration, Adobe recommends that you install **the exact same version** on all your Campaign servers. In addition, unless mentioned otherwise in the [Release notes](release-notes.md), the client console must be on **the exact same version** as the server instance. Learn how to upgrade your client console [in this page](../start/connect.md#upgrade-ac-console).
 
 ### Hotfixes {#hotflixes}
 

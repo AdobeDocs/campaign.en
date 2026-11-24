@@ -151,7 +151,7 @@ In the example below, the delivery is created from the Home page. For detailed i
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Manage insufficient coupons](#managing-insufficient-coupons)
+>For instructions on how to manage insufficient coupons for a delivery, see [Manage insufficient coupons](#managing-insufficient-coupons).
 
 To confirm that the delivery was successful:
 

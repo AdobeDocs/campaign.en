@@ -83,7 +83,7 @@ Technical workflows ensuring data replication are as follows:
 
 If needed, you can launch data synchronization manually. To do this, right-click on the **Scheduler** activity and select **Execute pending task(s) now**.
 
-In addition to the built-in **Replicate Reference tables** technical workflow, you can force data replication in your workflows using one of these methods
+In addition to the built-in **Replicate Reference tables** technical workflow, you can force data replication in your workflows using one of these methods:
 
 +++How to force data replication
 

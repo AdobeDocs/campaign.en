@@ -129,7 +129,7 @@ There are two modes:
 
 ## Start the delivery{#start-delivery}
 
-Once you validated the extraction file, click **Confirm delivery** a confirmation message lets you launch the delivery.
+Once you validated the extraction file, click **Confirm delivery**. A confirmation message lets you launch the delivery.
 
 The confirmation starts the data extraction in the specified file.
 

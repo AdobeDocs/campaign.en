@@ -41,7 +41,7 @@ topic_v2:
 
 Answers to Adobe Campaign surveys can be collected and analyzed using dedicated reports.
 
-In the following example, we want to collect answers to an online survey and display them in a pivot table
+In the following example, we want to collect answers to an online survey and display them in a pivot table.
 
 Apply the following steps:
 

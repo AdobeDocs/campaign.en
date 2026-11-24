@@ -27,7 +27,7 @@ role_v2:
 
 ## Environment for anonymous interactions {#environment-for-anonymous-interactions}
 
-By default, Campaign **Interaction** module comes with a pre-configured environment to target the built-in recipient table (identified offers). If you need to target another table, a visitor table for anonymous offers or a custom recipient table for example, you must use the target mapping wizard to create the environment. [Learn more about environments](interaction-env.md).
+By default, the Campaign **Interaction** module comes with a pre-configured environment to target the built-in recipient table (identified offers). If you need to target another table, a visitor table for anonymous offers or a custom recipient table for example, you must use the target mapping wizard to create the environment. [Learn more about environments](interaction-env.md).
 
 When you create an anonymous environment via the mapping creation wizard, the **[!UICONTROL Environment dedicated to incoming anonymous interactions]** box is automatically checked in the environment's **[!UICONTROL General]** tab.
 

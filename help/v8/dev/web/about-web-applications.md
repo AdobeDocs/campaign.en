@@ -108,7 +108,7 @@ To create and post a Web application, you must:
    You can also view the section which details the available fields for forms: all these fields are also available for Web applications. This information is available in [this page](adding-fields-to-a-web-form.md).
 
 1. As required, you can add preloading, test, and saving steps, and configure the access control system (mainly within the framework of an extranet publication).
-1. Publishing the Web application to make it available on an extranet or in Adobe Campaign.
+1. Publish the Web application to make it available on an extranet or in Adobe Campaign.
 
 ## Web application initial configuration {#web-application-initial-configuration}
 

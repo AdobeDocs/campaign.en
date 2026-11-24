@@ -40,7 +40,7 @@ You can access Adobe Campaign via its client console or its Web user interface. 
 
     Learn how to install and configure Campaign client console in [this section](../start/connect.md).
 
-* **Web access** - Adobe Campaign web access capabilities let you access to a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
+* **Web access** - Adobe Campaign web access capabilities let you access a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
 * **APIs** - To address more use cases, the system can be called from external applications using the Web Services APIs exposed via the SOAP protocol. Learn more about Campaign APIs [in this page](../dev/api.md).
 
