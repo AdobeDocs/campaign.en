@@ -44,9 +44,9 @@ Options are stored in the Campaign database, in the **xtkOption** table (schema 
 
 Some options hold credentials. Encrypt secrets with the `cryptString` function, as described in [Work with Campaign and Adobe Experience Platform landing pages](../connect/ac-aep-landing-pages.md). When you rotate credentials, also rotate the ones stored in options. Learn more in the [credential rotation guide](../../technotes/security/credential-rotation-guide.md#ac-options-credentials).
 
-## Options documented for Campaign v8 {#documented-options}
+## Available options {#available-options}
 
-The tables below list the options that the Campaign v8 documentation asks you to use, with a link to the page that describes how.
+The tables below list the options available in Campaign v8, grouped by area. When another page of the documentation describes an option, the table links to it.
 
 ### Deliveries {#delivery-options}
 
