@@ -53,7 +53,7 @@ The following table lists the built-in packages for information. The availabilit
 
 | Package | Description |
 |---|---|
-| Delivery | Monitors deliveries and the issues encountered when messages are sent. [Learn more](../start/monitor.md) |
+| Delivery | Mandatory core package of Adobe Campaign. It lets you send deliveries. [Learn more](../start/gs-message.md) |
 | Marketing campaigns (Campaign) | Defines, optimizes, executes, and analyzes communications and marketing campaigns. [Learn more](../start/campaigns.md) |
 | Marketing resources (MRM) | Controls marketing actions in a collaborative mode, with management and tracking of tasks, budgets, and marketing resources. [Learn more](../../automation/mrm/about-marketing-resource-management.md) |
 | Offer engine (interaction) | Responds in real time during an interaction with a contact by making one or several adapted offers. [Learn more](../interaction/interaction.md) |
