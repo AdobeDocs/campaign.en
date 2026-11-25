@@ -34,7 +34,7 @@ The Digital Content Editor offers **standard templates** for Web applications an
 
 When creating a Landing Page type Web application, the user can choose one of these templates. You may also import an HTML template created outside of Adobe Campaign.
 
-![](assets/dce_popup_templatechoice.png)
+![Choose a content dialog listing available content templates such as From a file, Contact and Clickthrough](assets/dce_popup_templatechoice.png)
 
 To add a template, refer to [Global options](content-editor-interface.md#global-options).
 
@@ -44,6 +44,6 @@ After configuring a delivery, you can save it as a template in order to re-use i
 
 In the **Campaigns** tab, open the chosen delivery. Click on the **Save as template** button, name the template and then save.
 
-![](assets/dce_save_model.png)
+![HTML content editor with the Save as a template icon highlighted in the right-hand toolbar](assets/dce_save_model.png)
 
 The new template is saved under the **Resources > Templates > Content templates** node in the explorer.

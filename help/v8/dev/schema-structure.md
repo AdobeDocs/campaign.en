@@ -215,7 +215,7 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
   The label can be seen from the Adobe Campaign Client Console input form:
 
-  ![](assets/schema_label.png)
+  ![Email input field in the console, labeled Email with an email address entered.](assets/schema_label.png)
 
 * The **desc** property lets you enter a long description.
 
@@ -269,7 +269,7 @@ The name given to the enumeration can be chosen freely and shared with other fie
 
 These values are shown in a drop-down list from the input form:
 
-![](assets/schema_user_enum.png)
+![City field in the input form showing a drop-down list of values from a user enumeration.](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ The **enum** attribute refers to the definition of an enumeration class populate
 
 Enumerations allow the user to select a value from a drop-down list instead of entering the value in a regular input field:
 
-![](assets/schema_enum.png)
+![Gender drop-down list showing the values None specified, Male and Female.](assets/schema_enum.png)
 
 Example of an enumeration declaration in the data schema:
 
@@ -320,7 +320,7 @@ The enumeration values are declared in the **`<value>`** element with the follow
 
   This enumeration is used for specifying the nature of campaigns, for example.
 
-  ![](assets/schema_dbenum.png)
+  ![New marketing campaign dialog with the Nature drop-down open, showing None specified and Re-marketing.](assets/schema_dbenum.png)
 
 ### Example {#example}
 
@@ -402,7 +402,7 @@ High-level functions have been added to the expressions in order to enrich the p
 
 You can access the list of available functions via any expression editor in the Adobe Campaign Client Console:
 
-![](assets/schema_function.png)
+![Expression editor function tree with Aggregate, String, Date and Numerical groups, such as Abs, Ceil and Round.](assets/schema_function.png)
 
 **Example**:
 

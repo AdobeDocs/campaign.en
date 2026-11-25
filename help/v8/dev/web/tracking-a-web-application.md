@@ -46,11 +46,11 @@ The main improvements featured in this version are as follows:
 * Possibility to insert several tracking tags on the same page in order to ease the navigation paths definition (e.g. purchase, subscription, return, etc.).
 * Viewing navigation paths and tracking tags of the different pages in the Web application dashboard.
 
-  ![](assets/trackers_1.png)
+  ![Web application dashboard with Tracking tags section listing conversion paths and the tracking tag stage on each page](assets/trackers_1.png)
 
 * Generating a full tracking report.
 
-  ![](assets/trackers_5.png)
+  ![Tracking tags analysis report with total visits, unique visitors, conversion rate, bounce rate and a visits chart](assets/trackers_5.png)
 
   The main indicators are as follows:
 
@@ -67,7 +67,7 @@ Two different modes can be used to identify where the visitor comes from when ac
 1. Sending a specific delivery to grant access to the Web application pages: in this case, the traffic source is this delivery,
 1. Associating the Web application to a dedicated traffic source: in this case, it must be an external 'traffic source'-type delivery. It can be selected from the Web application properties or from the target mapping.
 
-   ![](assets/trackers_6.png)
+   ![Advanced parameters dialog of the web application properties, with the Traffic source field set to a Web delivery](assets/trackers_6.png)
 
 In order to identify the traffic source in a Web application, Adobe Campaign successively looks for the following information:
 
@@ -83,12 +83,12 @@ In order to identify the traffic source in a Web application, Adobe Campaign suc
 
 When a Web application is created using the HTML content editor - **Digital Content Editor (DCE)** - tracking tags are inserted from the **[!UICONTROL Properties]** tab of the editor. For more information on the Digital Content Editor (DCE), refer to [Get started with Campaign HTML editor](about-campaign-html-editor.md).
 
-![](assets/trackers_2.png)
+![DCE page Properties tab where a tracking tag is assigned a Goal such as Subscription, Conversion or Update](assets/trackers_2.png)
 
 When using the Web interface, tracking tags must be inserted from the page properties.
 
-![](assets/trackers_3.png)
+![Properties of the page dialog, Tracking tags tab, listing each tag with its stage and target action](assets/trackers_3.png)
 
 The **[!UICONTROL Display blocks]** icon lets you view the number of tracking tags defined for the page.
 
-![](assets/trackers_4.png)
+![Display blocks icon in the web editor, with a tooltip indicating 2 tracking tags in the page](assets/trackers_4.png)

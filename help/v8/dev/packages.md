@@ -124,7 +124,7 @@ To export a set of objects in a data package, follow these steps:
 1. Browse to the package export assistant via the **[!UICONTROL Tools > Advanced > Export package...]** menu of the explorer.
 1. Select the [types of packages](#types-of-packages).
 
-    ![](assets/package_type.png)
+    ![Package Export Wizard with User package, Platform package and Admin package options, User package selected](assets/package_type.png)
 
 1. Click the **Add** button to select the entities to export as a package. 
 
@@ -238,7 +238,7 @@ Package definitions can be accessed from the **[!UICONTROL Administration > Conf
 
 To create a package definition, click the **[!UICONTROL New]** button, then fill in the package definition general information.
 
-![](assets/packagedefinition_create.png)
+![Package definitions folder with the New button and the General tab fields Label, Name and Distributor](assets/packagedefinition_create.png)
 
 You can then add entities to the package definition, and export it to an XML file package.
 
@@ -252,7 +252,7 @@ You can then add entities to the package definition, and export it to an XML fil
 
 In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in [Export a set of objects in a package](#export-a-set-of-objects-in-a-package).
 
-![](assets/packagedefinition_addentities.png)
+![Content tab of a package definition with the Add button opening the Export entities dialog listing schemas](assets/packagedefinition_addentities.png)
 
 Entities can be added to a package definition directly from their location in the instance. To do this, follow the steps below:
 
@@ -266,7 +266,7 @@ Entities can be added to a package definition directly from their location in th
 
 Package generation can be configured from the package definition **[!UICONTROL Content]** tab. To do this, click the **[!UICONTROL Generation parameters]** link.
 
-![](assets/packagedefinition_generationparameters.png)
+![Generation parameters dialog with Include the definition, Include an installation script and Include default values](assets/packagedefinition_generationparameters.png)
 
 * Use the **[!UICONTROL Include the definition]** option to include the definition currently used in the package definition.
 * Use the **[!UICONTROL Include an installation script]** option to add a javascript script to execute at the package import. When selected, a **[!UICONTROL Script]** tab is added in the package definition screen.

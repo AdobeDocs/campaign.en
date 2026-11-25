@@ -43,11 +43,11 @@ This example is based on the following scenario:
 
 1. Create the newsletter subscription service to be offered to your recipients. For more information on how to create a newsletter, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
+   ![Service dialog for the Weekly Newsletter service with Label, Internal name, Type Email and Mode Newsletter fields.](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
 1. Create a second information service, a temporary service linked to a delivery template for sending subscription confirmation messages.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1c.png)
+   ![Temporary Service (temp_service) dashboard showing Type Email, Mode Newsletter and its folder.](assets/s_ncs_admin_survey_double-opt-in_sample_1c.png)
 
 ### Step 2 - Creating confirmation messages {#step-2---creating-confirmation-messages}
 
@@ -57,7 +57,7 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 1. Create a delivery template for sending the subscription confirmation messages. 
 1. Click the **[!UICONTROL To]** button in the **[!UICONTROL Email parameters]** to associate the delivery template with the Subscriptions target mapping instead of Recipients.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
+   ![Select target dialog on the delivery template with the Subscriptions (nms:subscription) target mapping selected.](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
 1. Since the recipients of this delivery haven't confirmed their approval, they are still on the database denylist. For them to receive this communication, you need to authorize deliveries based on this template to target recipients on the denylist.
 
@@ -73,15 +73,15 @@ Confirmation messages are sent via a dedicated delivery template referenced at t
 
 1. Personalize your delivery and insert the confirmation link into the message content. This link lets you access the Web form to record subscription confirmation.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
+   ![Confirmation email in the delivery editor with a first name personalization field and a Click here link.](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
 
 1. With the DCE, link your URL to the Web form. Since the Web form is not yet created, replace the value as soon as you create it.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_3.png)
+   ![Hypertext link pane with the Web application field, still empty, for the Click here link in the confirmation email.](assets/s_ncs_admin_survey_double-opt-in_sample_3.png)
 
 1. Finally, link this template to the temporary service previously created.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_3c.png)
+   ![Temporary Service Edit tab with the confirmation delivery selected in the Subscription field.](assets/s_ncs_admin_survey_double-opt-in_sample_3c.png)
 
 ### Step 3 - Creating the subscription form {#step-3---creating-the-subscription-form}
 
@@ -89,33 +89,33 @@ The Web form enables both recipient subscription and subscription confirmation.
 
 The Web form workflow will include the following activities:
 
-![](assets/s_ncs_admin_survey_double-opt-in_sample_4c.png)
+![Web form workflow: Preloading, Test, then Email empty leads to Script Blocklist, Subscription, Storage, End.](assets/s_ncs_admin_survey_double-opt-in_sample_4c.png)
 
 To do this, follow the steps below:
 
 1. Create a Web form and choose the template **[!UICONTROL Newsletter subscription (subNewsletter)]**.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
+   ![New Web application dialog with the Newsletter subscription (subNewsletter) template selected.](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
 1. In the **[!UICONTROL Edit]** tab, we need to configure the existing workflow since we want to add a confirmation message to the recipients who want to subscribe.
 
    To do so, double-click the **[!UICONTROL Preloading]** box and configure it as follows. 
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
+   ![Preloading activity dialog with Auto-load data referenced in the form and Skip preloading if no ID selected.](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
    This means that if the user accesses this form via the link in the confirmation message, their profile information will be loaded. If they access the Web form via a page of the website, no information will be loaded.
 
 1. Add a **[!UICONTROL Test]** activity to your workflow.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
+   ![Web form workflow with a Test activity that branches on Email empty to Subscription, Storage and End.](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
    The **[!UICONTROL Test]** activity can concern the recipient email. In this case, configure it as follows:
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
+   ![Test activity branch editor with the condition @email is not empty.](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
 1. Add two **[!UICONTROL Script]** activities to your workflow.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
+   ![Web form workflow with a Script activity on each branch of the Test activity.](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
    The first **[!UICONTROL Script]** activity will add recipients on denylist until they have confirmed their subscription to the newsletter. Its content must be as follows:
 
@@ -123,7 +123,7 @@ To do this, follow the steps below:
    ctx.recipient.@blackList=1
    ```
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
+   ![Script Blocklist activity containing the script ctx.recipient.@blackList=1.](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
    The second **[!UICONTROL Script]** activity authorizes deliveries to be sent to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they have confirmed the subscription.
 
@@ -139,17 +139,17 @@ To do this, follow the steps below:
    >
    >The **[!UICONTROL Temp]** partition can also be purged on a regular basis using a workflow.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
+   ![Second Script activity containing the unblocklist, Subscribe, folder and Unsubscribe script lines.](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
 
 1. Double-click the **[!UICONTROL Subscription]** activity to personalize the subscription form and link a checkbox with the temporary service previously created.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
+   ![Page editor with the consent checkbox linked to the Temporary Service in the Service field.](assets/s_ncs_admin_survey_double-opt-in_sample_5c.png)
 
 1. Configure the **[!UICONTROL Storage]** activity to save the information entered in the form page.
 
    This activity lets you create recipient profiles in a dedicated temporary folder to set them apart from the profiles in the database, whom communications can be sent to.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
+   ![Storage activity dialog with the Temp folder set as the creation folder.](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 
    >[!NOTE]
    >
@@ -159,75 +159,75 @@ To do this, follow the steps below:
 
    The second **[!UICONTROL End]** box will display the confirmation message once the subscription is complete.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
+   ![End activity dialog with the message Your subscription is complete. You will soon receive our Newsletter.](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
 1. Once the Web form is created and configured, you can now reference it in the delivery template to send confirmation messages.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
+   ![Confirmation delivery with the Click here link pointing to the Newsletter subscription double opt-in Web application.](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
 
 ### Step 4 - Publishing and testing the form {#step-4---publishing-and-testing-the-form}
 
 You can now publish the form to make it accessible to users.
 
-![](assets/s_ncs_admin_survey_double-opt-in_sample_8b.png)
+![Web application dashboard with the Publish button and the message that it must be published to be accessed online.](assets/s_ncs_admin_survey_double-opt-in_sample_8b.png)
 
 Subscription to the newsletter involves the following steps:
 
 1. The user of the website logs on to the subscription page and approves the form.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8c.png)
+   ![Newsletter subscription form in a browser with name and email filled in, consent box checked and I subscribe button.](assets/s_ncs_admin_survey_double-opt-in_sample_8c.png)
 
    They are notified via a message in their browser that their request has been taken into account.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
+   ![Browser End page saying the request has been registered and a message will follow.](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
    The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
+   ![Temp recipients folder with the new profile selected and No longer contact (by any channel) checked.](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
 1. A confirmation message including a link for approving their subscription is sent to them.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
+   ![Subscription confirmation email with a Click here link to confirm the newsletter subscription.](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
 
 1. When they click this link, the approval page is displayed in their browser.
 
-   ![](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
+   ![Browser page titled Congratulations! confirming the subscription is now active.](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
 
    In Adobe Campaign, the user profile is updated:
 
     * they are no longer on denylist,
     * they are subscribed to the information service.
     
-      ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
+      ![Updated recipient profile with No longer contact cleared and the Newsletter Movie subscription listed.](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
 ## Displaying different options depending on the selected values {#displaying-different-options-depending-on-the-selected-values}
 
 In the following example, the user is asked to select a type of vehicle. You can display the available vehicle categories according to the type selected. This means that the items displayed in the right-hand column depend on the user's selection:
 
-![](assets/s_ncs_admin_survey_condition_sample0.png)
+![Car selection page with a Type of car drop-down list set to Select.](assets/s_ncs_admin_survey_condition_sample0.png)
 
 * When the user selects 'private vehicle', the choice between "Compact" and "Minivan" is offered.
 
-  ![](assets/s_ncs_admin_survey_condition_sample2.png)
+  ![Car selection page with Personal car selected, showing the Standard and Compact options.](assets/s_ncs_admin_survey_condition_sample2.png)
 
 * When the user selects 'commercial vehicle', a selection is displayed in a drop-down list: 
 
-  ![](assets/s_ncs_admin_survey_condition_sample1.png)
+  ![Car selection page with Moving truck selected and a Class drop-down list of vehicle types.](assets/s_ncs_admin_survey_condition_sample1.png)
 
 In this example, the vehicle type is not stored in the database. The drop-down list is configured as follows: 
 
-![](assets/s_ncs_admin_survey_condition_config1.png)
+![Type of car combo box properties with the values Select, Personal car and Moving truck.](assets/s_ncs_admin_survey_condition_config1.png)
 
 This information is stored in a local variable.
 
 The right-hand column's conditional display is configured in the containers: 
 
-![](assets/s_ncs_admin_survey_condition_config1bis.png)
+![Storage dialog with the Variable option selected for the Type of car field.](assets/s_ncs_admin_survey_condition_config1bis.png)
 
 * Conditional visibility of fields for a private vehicle:
 
-  ![](assets/s_ncs_admin_survey_condition_config2.png)
+  ![Visibility condition on the Personal Car container: type of car equal to Personal car.](assets/s_ncs_admin_survey_condition_config2.png)
 
 * Conditional visibility of fields for a commercial vehicle:
 
-  ![](assets/s_ncs_admin_survey_condition_config3.png)
+  ![Visibility condition on the Truck/Van container: type of car equal to Moving truck.](assets/s_ncs_admin_survey_condition_config3.png)

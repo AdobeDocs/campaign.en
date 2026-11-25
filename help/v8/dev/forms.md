@@ -47,15 +47,15 @@ The identification key of a form is a string made up of the namespace and the na
 
 Create and configure input forms from the **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Input forms]** folder of the Client Console:
 
-![](assets/form_arbo.png)
+![Explorer tree under Configuration with the Input forms folder selected](assets/form_arbo.png)
 
 The editing zone lets you enter the XML content of the input form:
 
-![](assets/form_edit.png)
+![Input form editor Edit tab showing the XML of the Recipient (cus) form with birthDate, gender and email inputs](assets/form_edit.png)
 
 The preview generates a display of the input form:
 
-![](assets/form_preview.png)
+![Preview tab of the Recipient (cus) form showing Date of birth, Gender and Email fields](assets/form_preview.png)
 
 ## Form structure
 
@@ -89,7 +89,7 @@ By default, a form is associated with the data schema with the same name and nam
 
 The input form based on the example schema:
 
-![](assets/do-not-localize/form_exemple1.png)
+![Input form rendering Gender, Birth date and Email as three stacked fields](assets/do-not-localize/form_exemple1.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -118,7 +118,7 @@ The layout of the controls looks like the layout used in HTML tables, with the p
 
 To display the controls of the above example in two columns:
 
-![](assets/do-not-localize/form_exemple2.png)
+![Input form with Gender and Birth date side by side in two columns and Email below](assets/do-not-localize/form_exemple2.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -134,7 +134,7 @@ The **`<container>`** element with the **colcount** attribute lets you force the
 
 The **colspan** attribute on a control extends the control by the number of columns entered in its value:
 
-![](assets/do-not-localize/form_exemple3.png)
+![Two-column input form with the Email field extended across both columns](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -148,7 +148,7 @@ The **colspan** attribute on a control extends the control by the number of colu
 
 By populating the **type="frame"** attribute, the container adds a frame around the child controls with the label contained in the **label** attribute:
 
-![](assets/do-not-localize/form_exemple4.png)
+![Two-column input form with Gender, Birth date and a full-width Email field, without a visible frame](assets/do-not-localize/form_exemple4.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -162,7 +162,7 @@ By populating the **type="frame"** attribute, the container adds a frame around 
 
 A **`<static>`** element can be used to format the input form:
 
-![](assets/do-not-localize/form_exemple5.png)
+![Input form with Gender, Date and Email fields and a static help text line below them](assets/do-not-localize/form_exemple5.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -208,7 +208,7 @@ Containers are used to construct complex controls using a set of fields formatte
 
 Use a **notebook** container to format data in pages that are accessible from tabs.
 
-![](assets/do-not-localize/form_exemple6.png)
+![Input form with General and Location tabs above the Gender, Date and Email fields](assets/do-not-localize/form_exemple6.png)
 
 ```xml
 <container type="notebook">
@@ -227,7 +227,7 @@ The main container is defined by the **type="notebook"** attribute. Tabs are dec
 
 Add the **style="down"** attribute to force the vertical positioning of tab labels below the control. This attribute is optional. Default value is **"up"**.
 
-![](assets/do-not-localize/form_exemple7.png) 
+![Input form with the General and Location tab labels placed below the Gender, Date and Email fields](assets/do-not-localize/form_exemple7.png) 
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -235,7 +235,7 @@ Add the **style="down"** attribute to force the vertical positioning of tab labe
 
 Use this container to display a vertical icon bar that lets you select the pages to be displayed.
 
-![](assets/do-not-localize/form_exemple8.png)
+![Input form with a vertical icon bar offering General and Location pages beside the Gender, Date and Email fields](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -304,7 +304,7 @@ Remember that a link is declared in the data schema as follows:
 
 The edit control of the link in its input form is as follows:
 
-![](assets/do-not-localize/form_exemple9.png)
+![Company field showing a drop-down edit control for a link, with Adobe selected](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -417,7 +417,7 @@ Example of a relationship table in a schema:
 
 For our example, we start with the input form of the "cus:recipient" schema. The list must display the associations with subscriptions to services and must allow you to add a subscription by selecting an existing service.
 
-![](assets/do-not-localize/form_exemple12.png)
+![Select the services dialog listing Black listed, MobApp, Newsletter and other services to add a subscription](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -518,7 +518,7 @@ To display a field and prevent it from being edited, use the **`<value>`** tag o
 
 Example on the "Gender" field:
 
-![](assets/do-not-localize/form_exemple16.png)
+![Gender field displayed as a drop-down with the value Male](assets/do-not-localize/form_exemple16.png)
 
 ```xml
 <value value="@gender"/>
@@ -538,7 +538,7 @@ Example on the "Gender" field:
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![Gender field displayed as radio buttons Choice 1, Choice 2 and Choice 3, with Choice 1 selected](assets/do-not-localize/form_exemple17.png)
 
 ## Add a checkbox {#checkbox}
 
@@ -549,7 +549,7 @@ A checkbox reflects a Boolean state (selected or not). By default, this control 
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![Two unchecked check boxes labeled Boolean1 and field1](assets/do-not-localize/form_exemple20.png)
 
 ## Edit navigation hierarchy {#navigation-hierarchy-edit}
 
@@ -570,7 +570,7 @@ The controls to be edited are grouped in a **`<container>`** entered under the *
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![Tree edit control with Text fields and Boolean fields groups, listing text1 to text3 and Boolean1 to Boolean3](assets/do-not-localize/form_exemple18.png)
 
 ## Add an expression field {#expression-field}
 

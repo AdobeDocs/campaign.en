@@ -58,13 +58,13 @@ Our final goal is to create a delivery with a personalized template which contai
 
 To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. Next click the **Create** button above the list of existing deliveries. For more on creating deliveries, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
 
-![](assets/delivery_step_1.png)
+![Deliveries list in the Campaigns tab with the Create button used to start a new delivery.](assets/delivery_step_1.png)
 
 ## Step 2 - Selecting a template {#step-2---selecting-a-template}
 
 Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients; however, this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
-![](assets/dce_delivery_model.png)
+![Delivery creation dialog with the Email delivery template, a Label field and the Continue button.](assets/dce_delivery_model.png)
 
 ## Step 3 - Selecting content {#step-3---selecting-a-content}
 
@@ -72,11 +72,11 @@ The Digital Content Editor comes with various out-of-the-box templates with vary
 
 Select the content template that you want to use, then click the **[!UICONTROL Start with the selected content]** button to display the template in the created delivery.
 
-![](assets/dce_select_model.png)
+![Delivery content step listing the content templates with the Start with the selected content button.](assets/dce_select_model.png)
 
 You can also import HTML content created outside of Adobe Campaign by selecting **[!UICONTROL From a file]**.
 
-![](assets/dce_select_from_file_template.png)
+![Available content templates with the From a file option highlighted.](assets/dce_select_from_file_template.png)
 
 You can save this content as a template for future use. Once a personalized content template is created, you can preview it from the list of templates. For more on this, refer to [Template management](template-management.md).
 
@@ -90,13 +90,13 @@ You can save this content as a template for future use. Once a personalized cont
 
   To insert the first and second names of your recipients into a text field in your delivery, click your chosen text field, then place your cursor where you want to display them. Click the first icon in the pop-up toolbar, then click **[!UICONTROL Personalization block]**. Select **[!UICONTROL Greetings]**, then click **[!UICONTROL OK]**.
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![Insert an element dialog with the Greetings personalization block selected, opened from the toolbar menu.](assets/dce_personalizationblock_greetings.png)
 
 * Insert a link into an image
 
   To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Adding a link](editing-content.md#adding-a-link).
 
-  ![](assets/dce_externalpage.png)
+  ![Image toolbar menu with the Link to an external URL option selected.](assets/dce_externalpage.png)
 
   Enter the URL for the link in the **URL** field using the following format **https://www.myURL.com**, then confirm.
 
@@ -118,7 +118,7 @@ You can save this content as a template for future use. Once a personalized cont
 
   Click the text field in which you wish to see the link posted. Click the first icon in the pop-up toolbar, select **[!UICONTROL Personalization block]**, then **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Click **[!UICONTROL Save]** to confirm.
 
-  ![](assets/dce_mirrorpage.png)
+  ![Toolbar menu in the text editor with the Personalization block option selected.](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -130,7 +130,7 @@ You can save this content as a template for future use. Once a personalized cont
 
   Select a text field for your link to a Web application, then click the first icon. Choose **[!UICONTROL Link to a Web application]**, then select the desired application by clicking the icon at the end of the **Web Application** field.
 
-  ![](assets/dce_webapp.png)
+  ![Insert a link dialog with Label and Web application fields and an OK button.](assets/dce_webapp.png)
 
   Click **Save** to confirm.
 

@@ -43,11 +43,11 @@ To edit, create and configure the schemas, click the **[!UICONTROL Administratio
 >
 >Built-in data schemas can only be deleted by an administrator of your Adobe Campaign console.
 
-![](assets/schema_navtree.png)
+![Explorer tree with Administration, Configuration and the Data schemas node highlighted.](assets/schema_navtree.png)
 
 The **[!UICONTROL Edit]** tab shows the XML content of a schema:
 
-![](assets/schema_edition.png)
+![Source schema editor, Edit tab, showing the Name and Label fields and the schema XML content.](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ The **[!UICONTROL Edit]** tab shows the XML content of a schema:
 
 The **[!UICONTROL Preview]** tab automatically generates the extended schema:
 
-![](assets/schema_edition2.png)
+![Source schema editor, Preview tab, showing the generated extended schema XML.](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -72,11 +72,11 @@ To do this, you need to create the schema of the table and update the database s
 1. Edit the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree and click **[!UICONTROL New]**.
 1. Choose the **[!UICONTROL Create a new table in the data template]** option and click **[!UICONTROL Next]** .
 
-   ![](assets/create_new_schema.png)
+   ![Schema type page of the data schema wizard with Create a new table in the data template selected.](assets/create_new_schema.png)
 
 1. Specify a name for the table and a namespace.
 
-   ![](assets/create_new_param.png)
+   ![Schema parameters page with Namespace cus, Name Contracts, Label, Label (singular) and Description filled in.](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -84,7 +84,7 @@ To do this, you need to create the schema of the table and update the database s
 
 1. Create the content of the table. We recommend using the dedicated assistant to make sure no settings are missing. To do this, click the **[!UICONTROL Insert]** button and choose the type of setting to be added.
 
-   ![](assets/create_new_content.png)
+   ![Edit schema page with the Insert menu open, showing Attribute types such as String and Integer.](assets/create_new_content.png)
 
 1. Define the settings for the contract table.
 
@@ -134,6 +134,6 @@ To do this, you need to create the schema of the table and update the database s
 
 1. Save the schema and click the **[!UICONTROL Structure]** tab to generate the structure:
 
-   ![](assets/configuration_structure.png)
+   ![Structure tab of the Contracts schema listing holder, co-holder, contract number and subscription date attributes.](assets/configuration_structure.png)
 
 1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Update the database structure](update-database-structure.md).

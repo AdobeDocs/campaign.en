@@ -35,17 +35,17 @@ topic_v2:
 
 The form settings enable you to select the template used to generate the pages. To access them, click the **[!UICONTROL Properties]** button in the form detail toolbar, and select the **[!UICONTROL Rendering]** tab. There are a number of templates (style sheets) available by default.
 
-![](assets/s_ncs_admin_survey_rendering_select.png)
+![Form properties Rendering tab with the Template list open, showing Standard form and Theme 1 to Theme 7.](assets/s_ncs_admin_survey_rendering_select.png)
 
 The bottom section of the editor enables you to view a rendering of the selected template.
 
 The zoom feature lets you edit the selected template.
 
-![](assets/s_ncs_admin_survey_render_edit.png)
+![Form generation template Theme 5 dialog with the Page layout link and CSS settings.](assets/s_ncs_admin_survey_render_edit.png)
 
 You can modify or override these templates. To do this, click the **[!UICONTROL Page layout...]** link and personalize the information.
 
-![](assets/s_ncs_admin_survey_render_edit_param.png)
+![Page layout dialog, Properties tab, with logo image, width and height, and the preview image path.](assets/s_ncs_admin_survey_render_edit_param.png)
 
 You can:
 
@@ -54,19 +54,19 @@ You can:
 
 The **[!UICONTROL Headers/Footers]** tab lets you change the information displayed in the headers and footers of each form page using this template.
 
-![](assets/s_ncs_admin_survey_render_edit_header.png)
+![Page layout dialog, Headers / Footers tab, with Page headers and Page footers lines and Position fields.](assets/s_ncs_admin_survey_render_edit_header.png)
 
 Each line of the **[!UICONTROL Page headers]** and **[!UICONTROL Page footers]** section corresponds to a line in the HTML page. Click **[!UICONTROL Add]** to create a new line.
 
 Select an existing line and click the **[!UICONTROL Detail]** button to personalize it.
 
-![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![Page headers detail dialog with Page layout, Borders and Font tabs and left and right zone content.](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 You can change the content of the line, add borders, and change the font attributes via the relevant tabs. Click **[!UICONTROL OK]** to confirm these changes.
 
 The **[!UICONTROL Position]** fields let you define the position of elements in the page header and footer.
 
-![](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![Headers / Footers tab with the Position lists for headers and footers, offering Hidden, Outside the page, In the page.](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ You can overload the style sheet for each element of the form (input fields, ima
 
 To do this, use the **[!UICONTROL Advanced]** tab.
 
-![](assets/s_ncs_admin_survey_advanced_tab.png)
+![Advanced tab of a form element with display settings such as Number of cells and Vertical alignment.](assets/s_ncs_admin_survey_advanced_tab.png)
 
 It enables you to define the following properties:
 
@@ -94,7 +94,7 @@ It enables you to define the following properties:
 * **[!UICONTROL Lines]**: number of lines for a **[!UICONTROL Multi-line text]** type zone,
 * **[!UICONTROL Style inline]**: enables you to overload the CSS style sheet with additional settings. These are separated using **;** characters as shown in the example below:
 
-  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![Advanced tab with the Style inline value set to font-size:16pt; background: blue.](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### Defining headers and footers {#defining-headers-and-footers}
 
@@ -102,7 +102,7 @@ Fields are sequenced in a tree structure whose root has the same name as the pag
 
 The title of the window must be entered in the **[!UICONTROL Page]** tab of the form property window. You can also add a set content to the page header and footer (this information will be shown on every page). This content is entered in the matching sections of the **[!UICONTROL Texts]** tab, as shown below:
 
-![](assets/s_ncs_admin_survey_titles_config.png)
+![Form properties Page tab with the window title, page header and page footer content.](assets/s_ncs_admin_survey_titles_config.png)
 
 ### Adding elements to HTML header {#adding-elements-to-html-header}
 
@@ -110,7 +110,7 @@ You can enter additional elements to be inserted into the HTML header of a form 
 
 This lets you reference an icon that will be displayed in the page's title bar, for example.
 
-![](assets/webform_header_page_tab.png)
+![Page Header tab with a link element for a shortcut icon added to the HTML header.](assets/webform_header_page_tab.png)
 
 ## Defining control settings {#defining-control-settings}
 
@@ -120,19 +120,19 @@ When the user fills in the form, a check is automatically carried out on certain
 
 To make certain fields mandatory, select this option when creating the field.
 
-![](assets/s_ncs_admin_survey_required_field.png)
+![Field General tab with the Mandatory option checked for the Last name field.](assets/s_ncs_admin_survey_required_field.png)
 
 If the user approves this page without having entered the field, the following message will be displayed: 
 
-![](assets/s_ncs_admin_survey_required_default_msg.png)
+![Form page showing the default error message Field 'Last name' is mandatory, with the empty field highlighted.](assets/s_ncs_admin_survey_required_default_msg.png)
 
 You can personalize this message by clicking the **[!UICONTROL Personalize this message]** link.
 
-![](assets/s_ncs_admin_survey_required_custom_msg.png)
+![Message personalization dialog opened from Personalize the message with custom text for an empty mandatory field.](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 If the user approves this page without having entered the field, the following message will be displayed: 
 
-![](assets/s_ncs_admin_survey_required_custom_msg2.png)
+![Form page showing the custom MANDATORY FIELD message above the highlighted empty field.](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
 ### Checking data format {#checking-data-format}
 
@@ -142,7 +142,7 @@ For form checks whose values are stored in a variable, approval rules depend on 
 
 For example, if you create a **[!UICONTROL Number]** check to store the client number, as shown below:
 
-![](assets/s_ncs_admin_survey_choose_format.png)
+![Number type field storing its value in a client variable, with Storage and Edit branches dialogs showing Integer type.](assets/s_ncs_admin_survey_choose_format.png)
 
 The user must enter an integer in the form field.
 
@@ -152,13 +152,13 @@ You can configure the display of fields on the page to be displayed based on the
 
 For each element of the page, the **[!UICONTROL Visibility]** section lets you define the display conditions. 
 
-![](assets/s_ncs_admin_survey_condition_edit.png)
+![Container General tab with the Visibility Edit link opening the Visibility condition dialog.](assets/s_ncs_admin_survey_condition_edit.png)
 
 Conditions can concern the value of database fields or variables.
 
 In the field selection window, you can choose from the following data:
 
-![](assets/s_ncs_admin_survey_condition_select.png)
+![Select a field dialog showing the Context tree with Identifier, Language, Origin, Recipients and Variables.](assets/s_ncs_admin_survey_condition_select.png)
 
 * The main tree contains the parameters of the form context. The default parameters are the Identifier (which matches the encrypted identifier of the recipient), Language and Origin.
 
@@ -182,11 +182,11 @@ To import an element into a form, apply the following steps:
 
 1. Edit the page which you want to insert one or more elements into, then click **[!UICONTROL Import an existing block]** in the toolbar.
 
-   ![](assets/s_ncs_admin_survey_import_block.png)
+   ![Page editor toolbar with the Import an existing block button highlighted.](assets/s_ncs_admin_survey_import_block.png)
 
 1. Select the Web form which contains the fields to import and choose the containers and fields to import.
 
-   ![](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![Import an existing block dialog with a source Web application and the blocks to import checked.](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -194,4 +194,4 @@ To import an element into a form, apply the following steps:
 
 1. Click **[!UICONTROL Ok]** to confirm insertion.
 
-   ![](assets/s_ncs_admin_survey_import_block_rendering.png)
+   ![Page tree after import, now containing the Last name, Country, Account # and Email fields.](assets/s_ncs_admin_survey_import_block_rendering.png)

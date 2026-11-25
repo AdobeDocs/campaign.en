@@ -41,7 +41,7 @@ topic_v2:
 
 In this example, we want to offer a competition to the recipients in the database. The Web form will have a section for entering answers and another to refer a friend by entering their email address.
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![Competition form with an identification area, a quiz area with random questions and an invitation area to refer a friend](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 The identification and competition blocks are created using the processes described previously.
 
@@ -49,7 +49,7 @@ To configure and create the referral block, apply the following steps:
 
 1. Create a competition Web form with questions and a field for entering a friend's contact information as shown below:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![Competition form structure with an Identification, a Game and a Referral section with friend contact fields](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    The **Your message** field lets you enter a message for the referee. The referrer must also enter their **Last name**, **First name** and **Email**.
 
@@ -61,7 +61,7 @@ To configure and create the referral block, apply the following steps:
    >
    >In this example, we want to target recipients to suggest they take part in the competition recommended by their referrer. However in this message we also want to offer them a subscription to one of our information services. If they subscribe, they can be stored in the database.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![Form structure with the His last name field in the Refer a friend section selected](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    The content of the fields which concern the referee will be used in the profile creation script and in the message sent to them.
 
@@ -69,7 +69,7 @@ To configure and create the referral block, apply the following steps:
 
    It contains the following instructions:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![Form diagram with the Referee information script box open, setting the visitor id, forward URL and referrer fields](assets/s_ncs_admin_survey_viral_sample_4.png)
 
    ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
@@ -85,23 +85,23 @@ To configure and create the referral block, apply the following steps:
 
 1. The storage box lets you gather information and store it in the database.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![Storage box dialog with the Visitor element selected in the reconciliation options to store the referee](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. Then create the delivery template linked to the information service created during step 1. It will be selected in the **[!UICONTROL Choose scenario]** field of the information service.
 
    The delivery template used to create the referral offer message contains the following information:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![Invite a friend delivery template with a subject and HTML content that uses personalization fields](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    This template has the following characteristics:
 
     * Select the visitor table as the target mapping.
     
-      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+      ![Select target dialog with Visitors (nms:visitor) selected as the target mapping of the delivery](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
     * The referee's contact information as well as the information on the referrer are taken from the visitor table. It is inserted using the personalization button.
     
-      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+      ![Personalization menu in the delivery content, Visitor submenu listing Last name, First name, Email and Referrer fields](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
     * This template contains a link to the competition form and the subscription link for the referee to subscribe to the newsletter.
 
@@ -115,7 +115,7 @@ To configure and create the referral block, apply the following steps:
 
 1. Create the second script for delivering the subscription messages.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![Script box Referee storage and message sending, with code that queues the referral email notification to the referee](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
    ```javascript
    // Updtate visitor to have a link to the referrer recipient
@@ -142,10 +142,10 @@ To configure and create the referral block, apply the following steps:
 
 1. Publish the competition form and send an invitation to the recipients of the initial target. When one of them invites a friend, a delivery based on the **Referral offer** template is created.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![Completed quiz page with an Invite a friend section, and the Deliveries list showing that delivery in progress](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    The referee is added to the visitor folder in the **[!UICONTROL Administration > Visitors node]**:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![Visitors folder listing the referee, with the visitor General tab showing name, email and referrer](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Their profile contains the information entered by their referrer. It is stored based on the configurations entered in the form script. If they decide to subscribe to the newsletter, they will be saved in the recipient table.

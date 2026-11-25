@@ -35,13 +35,13 @@ You can fully configure and personalize web forms to satisfy your requirements. 
 
 The properties window is accessible via the **[!UICONTROL Properties]** button in the toolbar of the Web form. This window lets you access a range of settings specific to the Web form. Some settings may stem from template configuration. 
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Web application editor with the Properties button, which opens the form properties window, highlighted in the toolbar](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Overall form properties {#overall-form-properties}
 
 In the **[!UICONTROL General]** tab of the properties window, you can modify the **Label** of the form. It is strongly recommended not to change the **Internal name**. 
 
-![](assets/s_ncs_admin_survey_properties_general_tab.png)
+![General tab of the form Properties window with Label, Internal name, Nature, Status, Start and End date, Access control](assets/s_ncs_admin_survey_properties_general_tab.png)
 
 The form template is chosen during form creation. It cannot be changed later. For more on creating and managing form templates, refer to [Using a web form template](using-a-web-form-template.md).
 
@@ -59,11 +59,11 @@ The error page is defined in the corresponding tab of the form properties window
 
 By default, it displays the following information:
 
-![](assets/s_ncs_admin_survey_default_error_page.png)
+![Browser page showing the default error message: An error occurred. If this problem persists, contact your administrator](assets/s_ncs_admin_survey_default_error_page.png)
 
 The content of the strings displayed is defined in the **[!UICONTROL Error page]** tab of the properties window. The **[!UICONTROL HTML]** tab displays the rendering and the **[!UICONTROL Texts]** tab lets you modify the text strings and add some text if necessary:
 
-![](assets/s_ncs_admin_survey_error_page.png)
+![Error page tab of Properties, with the Texts tab listing the line1 and line2 strings of the error message](assets/s_ncs_admin_survey_error_page.png)
 
 ## Form localization {#form-localization}
 
@@ -77,7 +77,7 @@ The **[!UICONTROL Rendering]** tab lets you define the type of browsing between 
 
 You can choose to navigate via links or buttons. 
 
-![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
+![Navigation options: a Next button and a Next link, the two ways to move between form pages](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 Buttons are the navigation elements by default. They let you perform the following actions:
 
@@ -97,7 +97,7 @@ Themes are saved in the **[!UICONTROL Administration>Configuration>Form renderin
 
 A sample rendering is displayed in the lower part of the properties window. The **[!UICONTROL Edit link]** icon lets you view the configuration for the selected theme.
 
-![](assets/s_ncs_admin_survey_properties_render.png)
+![Rendering tab of Properties with Use buttons or Use links, Label position and a Template preview with the Edit link icon](assets/s_ncs_admin_survey_properties_render.png)
 
 ## Logo in the form {#logo-in-the-form}
 
@@ -105,15 +105,15 @@ You can change the logo used in the form by your own logo.
 
 In the **[!UICONTROL Rendering]** tab inside the **[!UICONTROL Properties]** of your web app, click on the glass icon of your template:
 
-![](assets/logo_glass.png)
+![Rendering tab of Properties with the magnifier icon next to the Template field highlighted to open the template](assets/logo_glass.png)
 
 In the new window, click on the **[!UICONTROL Page layout]** link:
 
-![](assets/logo_pagelayout.png)
+![Form generation template window with the Page layout link highlighted](assets/logo_pagelayout.png)
 
 You will have the possibility to change the path of the logo image here:
 
-![](assets/logo_path.png)
+![Page layout window with the Image field under Logo highlighted, holding the path of the logo image](assets/logo_path.png)
 
 The images available are under **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. You can add your logo here.
 
@@ -137,7 +137,7 @@ A Web form is accessible to users if it is **[!UICONTROL Online]** and if the cu
 
 The validity period runs from the **[!UICONTROL Start]** date to the **[!UICONTROL End date]**. If no dates are specified in these fields, the form has permanent validity.
 
-![](assets/s_ncs_admin_survey_properties_date.png)
+![General tab of Properties with the End date calendar open to select the date the form stops being valid](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
@@ -149,17 +149,17 @@ By default, access to the Web forms is carried out in anonymous mode: all operat
 
 You can enable access control for the display of the form, for example when delivering a form on an intranet site, in order to authenticate users. To do this, display the **[!UICONTROL Properties]** window of the concerned form and click the **[!UICONTROL Enable access control]** option, as shown below:
 
-![](assets/s_ncs_admin_survey_access_ctrl.png)
+![General tab of Properties with the Enable access control option selected under Access control](assets/s_ncs_admin_survey_access_ctrl.png)
 
 When the page is accessed, the following authentication form will come up:
 
-![](assets/s_ncs_admin_survey_access_login.png)
+![Authentication form with Login and Password fields and a Log in button, displayed when access control is enabled](assets/s_ncs_admin_survey_access_login.png)
 
 Login and password are those used by Adobe Campaign operators. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
 
 The **[!UICONTROL Use a specific account]** option lets you limit the read or write permission of the operator who accesses the form. Use the drop-down box to select an operator or group of operators who will be in charge of granting these permissions. 
 
-![](assets/s_ncs_admin_survey_access_op_select.png)
+![Use a specific account option selected, with the Operator drop-down listing operators to choose from](assets/s_ncs_admin_survey_access_op_select.png)
 
 ## Form URL parameters {#form-url-parameters}
 
@@ -190,7 +190,7 @@ The following parameters are available by default:
 
 Parameters can be added via the **[!UICONTROL Parameters...]** tab in the Properties window of the form. They can be made mandatory, as shown below: 
 
-![](assets/s_ncs_admin_survey_properties_param.png)
+![Parameters tab listing company, gender and status, with the Required parameter option checked for status](assets/s_ncs_admin_survey_properties_param.png)
 
 You must specify a storage location from which the value of the parameter will be retrieved. To do this, select one of the storage options and then click the **[!UICONTROL Storage]** tab to select the field or the variable concerned. The storage options are detailed in [Response storage fields](web-forms-answers.md#response-storage-fields).
 
@@ -198,20 +198,20 @@ The respondent status (0, 1 or any other value) may then be added to the URL for
 
 1. Home page for customers (**status=1**):
 
-   ![](assets/s_ncs_admin_survey_test_client.png)
+   ![Client Home Page of the form, opened with the URL parameter status=1 and an ID field](assets/s_ncs_admin_survey_test_client.png)
 
 1. Home page for prospects (**status=0**):
 
-   ![](assets/s_ncs_admin_survey_test_prospect.png)
+   ![Prospect Home Page of the form, opened with the URL parameter status=0 and name, email and captcha fields](assets/s_ncs_admin_survey_test_prospect.png)
 
 1. Home page for other profiles (e.g., **status=12**):
 
-   ![](assets/s_ncs_admin_survey_test_other.png)
+   ![Contact Home Page of the form, opened with the URL parameter status=12 and name, email and message fields](assets/s_ncs_admin_survey_test_other.png)
 
 To configure this form, create a test box and place it at the start of the diagram, as shown below:
 
-![](assets/s_ncs_admin_survey_test.png)
+![Form diagram where a Client/Prospect/Contact test box branches to the Prospect, Client and Contact home pages](assets/s_ncs_admin_survey_test.png)
 
 The test box lets you configure the page sequencing conditions:
 
-![](assets/s_ncs_admin_survey_test_box.png)
+![Test box dialog with branches defined by status, where the status variable is selected from the Context fields](assets/s_ncs_admin_survey_test_box.png)

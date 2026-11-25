@@ -53,7 +53,7 @@ To define one or more translation languages, click the **[!UICONTROL Properties]
 >
 >This window also lets you change the default language and the editing language.
 
-![](assets/s_ncs_admin_survey_add_lang.png)
+![Web application Properties Localization tab with design and default language and other languages French and Spanish](assets/s_ncs_admin_survey_add_lang.png)
 
 When you add translation languages for a Web application (or when the default language and the editing language are different), a **[!UICONTROL Translation]** sub-tab is added to the **[!UICONTROL Edit]** tab to manage translations.
 
@@ -69,7 +69,7 @@ The first time you open this tab it won't contain any data. Click the **[!UICONT
 
 Adobe Campaign collects labels of fields and strings defined in the **[!UICONTROL Texts]** tabs of all static elements: HTML blocks, Javascript, etc. Static elements are detailed in [Static elements in a web form](static-elements-in-a-web-form.md).
 
-![](assets/s_ncs_admin_survey_trad_tab.png)
+![Translations tab of a web application with the Collect the strings to translate link and strings To translate](assets/s_ncs_admin_survey_trad_tab.png)
 
 >[!CAUTION]
 >
@@ -87,7 +87,7 @@ For character strings which have never been translated, the **[!UICONTROL Text]*
 
 By default, each translation language of the Web application is displayed. There are two default filters: language and status. Click the **[!UICONTROL Filters]** button, then click **[!UICONTROL By language or status]** to display the matching drop-down boxes. You can also create an advanced filter. For more information about filters, refer to the [Campaign v8 (console) documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
-![](assets/s_ncs_admin_survey_trad_tab_en.png)
+![Translations tab Filters menu with By language or status, filtering French strings with the status To translate](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 Go to the **[!UICONTROL Language]** drop-down box to select the translation language.
 
@@ -97,7 +97,7 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
 1. To translate a word, double-click its line on the list of strings.
 
-   ![](assets/s_ncs_admin_survey_trad_tab_add_term.png)
+   ![Translation dialog with the source string, the French translation, the Translation approved option and Save](assets/s_ncs_admin_survey_trad_tab_add_term.png)
 
    The source string is displayed in the upper section of the window. 
 
@@ -121,7 +121,7 @@ It's possible to export and import character strings to translate them using a t
 
 1. Select the Web application(s) whose strings you want to export, right-click, then select **[!UICONTROL Actions > Export strings for translation...]** 
 
-   ![](assets/s_ncs_admin_survey_trad_export.png)
+   ![Web applications list right-click Actions menu with Export strings for translation highlighted](assets/s_ncs_admin_survey_trad_export.png)
 
 1. Select an **[!UICONTROL Export strategy]** :
 
@@ -142,7 +142,7 @@ It's possible to export and import character strings to translate them using a t
 1. Then choose the **[!UICONTROL Target folder]** where files will be recorded.
 1. Select the file format ( **[!UICONTROL CSV]** or **[!UICONTROL XLIFF]** ) and click **[!UICONTROL Start]**.
 
-![](assets/s_ncs_admin_survey_trad_export_start.png)
+![Export strings for translation wizard with One file per language, a target folder, CSV or XLIFF format and Start](assets/s_ncs_admin_survey_trad_export_start.png)
 
 >[!NOTE]
 >
@@ -160,11 +160,11 @@ Once external translation is completed, you can import the translated files.
    >
    >There is no need to select the Web applications concerned by the translation. Place the cursor anywhere on the list of Web applications.
 
-   ![](assets/s_ncs_admin_survey_trad_import.png)
+   ![Web applications list right-click Actions menu with Import translated strings highlighted](assets/s_ncs_admin_survey_trad_import.png)
 
 1. Select the file to import, then click **[!UICONTROL Upload]**.
 
-   ![](assets/s_ncs_admin_survey_trad_import_start.png)
+   ![Import translated strings wizard with a local CSV file selected for import and the Upload button](assets/s_ncs_admin_survey_trad_import_start.png)
 
 >[!NOTE]
 >
@@ -430,7 +430,7 @@ The translation languages and dictionaries available by default are listed below
 
 The following Web form is available in four languages: English, French, German and Spanish. The character strings have all been translated via the **[!UICONTROL Translation]** tab of the Web form. Because the default language is English, when the survey is published, use the standard URL to display it in English.
 
-![](assets/s_ncs_admin_survey_trad_sample_fr.png)
+![Web form Welcome Page displayed in English, with title, name, email, phone and address fields and a Next button](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
 Add **?lang=fr** to the end of the URL to display it in French:
 
@@ -438,7 +438,7 @@ Add **?lang=fr** to the end of the URL to display it in French:
 >
 >The list of symbols for each language is detailed in [Changing forms display language](#changing-forms-display-language).
 
-![](assets/s_ncs_admin_survey_trad_sample_en.png)
+![Same Welcome Page displayed in French after adding lang=fr to the URL, with the lang parameter highlighted](assets/s_ncs_admin_survey_trad_sample_en.png)
 
 You can add **?lang=es** or **?lang=de** to display it in Spanish or German.
 
@@ -459,18 +459,18 @@ System strings are out-of-the-box character strings used by all Web applications
 
 If you translate your Web application into a language for which the system dictionary isn't translated, a warning message will appear to let you know that some translations are missing.
 
-![](assets/s_ncs_admin_survey_trad_error.png)
+![Warning in the Translations tab: 27 missing translations for languages es and fr in the system dictionary](assets/s_ncs_admin_survey_trad_error.png)
 
 To add a language, apply the following steps:
 
 1. Go to the Adobe Campaign tree and click **[!UICONTROL Administration > Configuration > Global dictionary > System dictionary]** .
 1. In the upper section of the window, select the system string to translate, then click **[!UICONTROL Add]** in the lower section.
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation.png)
+   ![System dictionary under Global dictionary with a string such as buttonPrevious selected and the Add button highlighted](assets/s_ncs_admin_survey_trad_system_translation.png)
 
 1. Select the translation language and enter a translation for the string. You can approve the translation by checking the **[!UICONTROL Translation approved]** option. 
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
+   ![Translation dialog for buttonPrevious with French selected, the translated text and Translation approved option](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
    >[!NOTE]
    >
@@ -486,8 +486,8 @@ To translate Web applications into languages other than the default ones (refer 
 
 1. Click the **[!UICONTROL Administration > Platform > Enumerations]** node of the Adobe Campaign tree and select **[!UICONTROL Languages available for translation]** from the list. The list of available translations is displayed in the lower section of the window. 
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
+   ![Enumerations list with Languages available for translation (dictionaryLocale) selected and the Add button highlighted](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
 1. Click the **[!UICONTROL Add]** button, then enter the **[!UICONTROL Internal name]**, **[!UICONTROL Label]** and identifier of the image (flag). To add a new image, please contact your administrator.
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
+   ![Enumeration value dialog for a new language with Internal name, Label Welsh and Image fields](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

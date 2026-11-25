@@ -62,11 +62,11 @@ If the Web tracking is activated, you can either have:
 * No banner.
 * Configure the banner manually on each page: check this option and select the banner in each page in the page properties.
 
-  ![](assets/pageproperties.png)
+  ![Page properties dialog header with the Enable outbound transitions option checked.](assets/pageproperties.png)
 
 * Automatically add the banner to all pages: select the banner directly in the Web application properties.
 
-  ![](assets/optoutconfig.png)
+  ![Web application Properties General tab with the Opt-out banner options: No banner, manual per page, or automatic.](assets/optoutconfig.png)
 
 >[!NOTE]
 >

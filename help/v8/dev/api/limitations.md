@@ -77,7 +77,7 @@ For now, the REST APIs listed below are available for use:
 
 * To use your filters in REST API payloads, you need to edit them in Campaign v8 and provide a name to use in your payloads. To do so, access the filter's additional parameters from the **[!UICONTROL Parameters]** tab, and provide the desired name in the **[!UICONTROL Filter name in REST API]** field.
 
-    ![](assets/api-filtering.png)
+    ![Advanced parameters dialog of a predefined filter with the Filter name in REST API field set to byEmailNotEmpty](assets/api-filtering.png)
 
 
 * The "by" prefix required to use custom filters is no longer needed. The filter name should be used as-is in your requests.

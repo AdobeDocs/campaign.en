@@ -43,21 +43,21 @@ Web applications are created and managed according to the same principle as [web
 
 You can include charts in Web applications. To do this, use the drop-down list of charts in the task bar to select the type of chart to be inserted.
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![Page editor toolbar chart drop-down listing Histogram, Pie, Radar, Areas, Curves and Funnel.](assets/s_ncs_admin_webapps_bar_graph.png)
 
 You can also select the **[!UICONTROL Add a chart]** menu.
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![Page context menu with Add a chart submenu listing Histogram, Pie, Radar, Areas, Curves and Funnel.](assets/s_ncs_admin_webapps_graph.png)
 
 ## Inserting tables in a Web application {#inserting-tables-in-a-web-application}
 
 To add a table, use the drop-down list of tables in the task bar to select the type of table to be used.
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![Page editor toolbar table drop-down listing Pivot table, List with group and Distribution.](assets/s_ncs_admin_webapps_bar_table.png)
 
 You can also select the type of table in the drop-down menu.
 
-![](assets/s_ncs_admin_webapps_table.png)
+![Page context menu with Add a table submenu listing Pivot table, List with group and Distribution.](assets/s_ncs_admin_webapps_table.png)
 
 ## Overview-type Web applications {#overview-type-web-applications}
 

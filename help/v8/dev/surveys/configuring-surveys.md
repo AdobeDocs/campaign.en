@@ -34,7 +34,7 @@ Online surveys are fully configurable and customizable to satisfy your requireme
 
 The available parameters are detailed in [this document](../web/defining-web-forms-properties.md).
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Kids Event Web application Edit tab with the Properties button highlighted above the workflow.](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Survey data storage {#survey-data-storage}
 

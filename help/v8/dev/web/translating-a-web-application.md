@@ -38,12 +38,12 @@ To flag the strings to be translated:
 
 1. Open a content page edited with DCE in a Web application.
 
-   ![](assets/dce_translation_3.png)
+   ![Web application editor with the Page activity highlighted in the Preloading, Page, Storage, End flow](assets/dce_translation_3.png)
 
 1. Select an HTML block.
 1. In the parameters block on the right, the **[!UICONTROL Localization]** option lets you flag the content of the selected block. By default, only the page title is to be translated.
 
-   ![](assets/dce_translation_1.png)
+   ![Block options with the Localization section and its Translate Yes/No toggle highlighted](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -54,11 +54,11 @@ To flag the strings to be translated:
     * When the selected block contains several strings/blocks, it is flagged as a single string to be translated. The string then contains the HTML code of the elements inside this block.
     * When you want to flag a block that contains several strings and if at least one of these strings is already flagged, a warning is displayed. You can then remove the flag from the isolated string and add the entire block.
     
-      ![](assets/dce_translation_4.png)
+      ![Grouping confirmation dialog warning that the block already contains 2 elements to be translated](assets/dce_translation_4.png)
 
     * When you want to remove the flag from a string contained in a block which is already flagged, you cannot directly modify the string translation option. However, you can access the block containing the string in order to change it.
     
-      ![](assets/dce_translation_2.png)
+      ![Localization section warning that the element is already in a block to be translated, with a Select block button](assets/dce_translation_2.png)
 
 1. Once you have finished flagging the strings, go back to the Web application and select the **[!UICONTROL Translations]** tab.
 1. Select **[!UICONTROL Collect the strings to translate]**. The strings flagged in DCE are added to the Web application's strings.

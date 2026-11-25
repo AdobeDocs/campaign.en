@@ -34,7 +34,7 @@ subfeature_v2:
 
 The DCE editing window is broken down into three different sections. They let you view, modify and check the state of the content.
 
-![](assets/dce_decoupe_window_nb.png)
+![DCE editing window with three numbered sections: status message, content area and right options panel](assets/dce_decoupe_window_nb.png)
 
 1. The **top** section is a display area for messages to the user. These messages indicate the status of the Web application or the delivery being created as well as warnings and error messages related to the content. For more on this, refer to [HTML content statuses](content-editing-best-practices.md#html-content-statuses).
 1. The section to the **left** of the window is the area for editing content. From this area, the user can directly interact with the content using the pop-up toolbar: insert a link into an image, change the font, delete a field, etc. For more on this refer to [Editing forms](editing-content.md#editing-forms).
@@ -44,17 +44,17 @@ The DCE editing window is broken down into three different sections. They let yo
 
 The top right section of the editor lets you access global options allowing you to control the content currently being created.
 
-![](assets/dce_global_options.png)
+![Top right of the editor with four global option icons above the block options panel](assets/dce_global_options.png)
 
 It has four icons:
 
-![](assets/dce_icons_sidebar.png)
+![Global option icons: Display / Hide blocks, Choose another content, Save as template and Properties of the page](assets/dce_icons_sidebar.png)
 
 * The **Display/Hide blocks** icon lets you display blue frames around the content blocks (corresponding to the `<div>` HTML tag).
 
 * The **Choose another content** icon lets the user load new content from a template (existing template or out-of-the-box template).
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![Choose a content dialog with From a file and available templates such as Contact and Clickthrough](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -62,15 +62,15 @@ It has four icons:
 
 * The **Save as template** icon lets you save the current content as a template. You must enter the label and internal name for the template. Templates are stored in the **[!UICONTROL Resources > Templates > Content templates]** node.
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![Save as a template dialog with the Label, Internal name and Folder fields](assets/dce_popup_savetemplate.png)
 
   Once saved, the template is available and can be selected when creating new content.
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![Email delivery HTML content tab with the saved Music & Arts template available among the content templates](assets/dce_create_fromtemplate.png)
 
 * The **Page properties** icon lets you select content information at the top of the HTML page.
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![Properties of the page dialog with Title, Key words and Description fields for the HTML page header](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -82,7 +82,7 @@ It has four icons:
 
 The section to the right of the editor groups the main options which allow you to act upon the content. To display these options, you must select a block: the nature of these options depends on the block selected.
 
-![](assets/dce_right_section.png)
+![Right section of the editor with the Block options: Visibility condition, Borders and Background color](assets/dce_right_section.png)
 
 You can:
 

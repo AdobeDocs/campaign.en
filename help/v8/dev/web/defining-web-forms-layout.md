@@ -32,19 +32,19 @@ Containers let you combine the fields of a page and configure their layout and o
 
 For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
 
-![](assets/s_ncs_admin_survey_containers_add.png)
+![Web form page editor with the Containers toolbar button open, offering the Standard container option](assets/s_ncs_admin_survey_containers_add.png)
 
 Use a container to group elements of the page without adding a label to the final rendering. Elements are grouped into the container sub-tree. Standard containers let you manage the layout.
 
 For example:
 
-![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+![Page properties with a tree of two containers, General information and Your contracts, and their form fields](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
 The position of labels is applied to elements placed below the container in the hierarchy. It can be overloaded for each element if necessary. Add or remove columns to change the layout. See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
 
 In the above example, the rendering will be as follows:
 
-![](assets/s_ncs_admin_survey_containers_std_ex.png)
+![Rendered form page with two containers: personal details fields and a contract checkbox list, plus a Validate button](assets/s_ncs_admin_survey_containers_std_ex.png)
 
 ## Positioning the fields on the page {#positioning-the-fields-on-the-page}
 
@@ -54,33 +54,33 @@ Pages are broken down into columns: each page contains a certain number of colum
 
 By default, pages are built on a single column and each element occupies one cell. This means that fields are displayed one under another, each one occupying a whole line, as shown below:
 
-![](assets/s_ncs_admin_survey_container_ex.png)
+![Rendered single-column form page with Gender, Name, First name and Email fields stacked on separate lines](assets/s_ncs_admin_survey_container_ex.png)
 
 In the following example, the default configuration has been kept. The page occupies a single column which includes four containers. 
 
-![](assets/s_ncs_admin_survey_container_ex0.png)
+![Page properties with four containers and Number of columns set to 1 highlighted](assets/s_ncs_admin_survey_container_ex0.png)
 
 Each container occupies one column and each element occupies one cell:
 
-![](assets/s_ncs_admin_survey_container_ex0a.png)
+![Information element properties with Number of cells set to 1 highlighted in Display settings](assets/s_ncs_admin_survey_container_ex0a.png)
 
 The rendering is as follows:
 
-![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+![Single-column page rendering with four containers, each with one column, stacked vertically](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
 You can adapt the display parameters to obtain the following rendering:
 
-![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+![Two-column page rendering where containers 1 and 3 fill the left column and containers 2 and 4 the right](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
 In the above rendering example, each input field, title and image occupies one cell in the columns of the containers.
 
 You can modify the formatting in each container. In our example, you can spread the content of container 4 over two columns and distribute the elements.
 
-![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+![Container 4 with two columns: title and combo box take one cell each, the checkbox spans two cells](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
 The title and the list occupy one cell each (and therefore an entire line of the container) and the checkbox extends over two cells. The number of cells attributed to the input field is defined in the **[!UICONTROL General]** tab or the **[!UICONTROL Advanced]** tab, according to the type of field:
 
-![](assets/s_ncs_admin_survey_container_ex2.png)
+![Advanced tab of the checkbox element with Number of cells set to 2 under Display settings](assets/s_ncs_admin_survey_container_ex2.png)
 
 ## Defining the position of labels {#defining-the-position-of-labels}
 
@@ -90,7 +90,7 @@ By default, the display parameters for fields and other content of the page are 
 
 The global display parameters for the entire form are specified in the form properties box. The **[!UICONTROL Rendering]** tab lets you select the position of labels. 
 
-![](assets/s_ncs_admin_survey_label_position.png)
+![Web form Properties dialog, Rendering tab, with the Label position list: Inherited, Left, Right, Above, Below, Hidden](assets/s_ncs_admin_survey_label_position.png)
 
 This position can be overloaded for each page, each container, and each field, via the **[!UICONTROL Advanced]** tab.
 
