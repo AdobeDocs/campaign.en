@@ -40,15 +40,15 @@ Once your offer propositions have been made, you can view the presentation histo
 
 * At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_followup_006.png)
+  ![Propositions tab of an offer listing propositions made for the offer with event date, space and status](assets/offer_followup_006.png)
 
 * From a recipient's profile, click the **[!UICONTROL Propositions]** tab.
 
-  ![](assets/offer_followup_002.png)
+  ![Propositions tab of a recipient profile listing offers with event date, status, offer space and delivery](assets/offer_followup_002.png)
 
 * At the offer space level, click the **[!UICONTROL Propositions]** tab.
 
-  ![](assets/offer_space_prop_001_b.png)
+  ![Propositions tab of an offer space listing propositions made with ranking, weight and status](assets/offer_space_prop_001_b.png)
 
 ## Offer analysis report{#offer-analysis-report}
 
@@ -58,14 +58,14 @@ Statistics are sorted based on three criteria:
 
 * By date:
 
-  ![](assets/offer_report_perdate.png)
+  ![Offer analysis report, Statistics by date, with proposition counts, accepted and rejected rates and a chart](assets/offer_report_perdate.png)
 
 * By space:
 
-  ![](assets/offer_report_perspaces.png)
+  ![Offer analysis report, Statistics per space, with accepted and rejected rates by channel and a bar chart](assets/offer_report_perspaces.png)
 
 * By deliveries:
 
-  ![](assets/offer_report_perdeliveries.png)
+  ![Offer analysis report, Statistics per delivery, with propositions, accepted and rejected counts by delivery](assets/offer_report_perdeliveries.png)
 
 Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report.

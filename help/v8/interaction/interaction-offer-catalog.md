@@ -41,15 +41,15 @@ To create a new category, follow the steps below:
 
 1. Browse to the **[!UICONTROL Offer catalog]** folder.
 
-   ![](assets/offer_cat_create_001.png)
+   ![Explorer tree with the Offer catalog folder selected under Offers - design and Environment - Recipient](assets/offer_cat_create_001.png)
 
 1. Right click and select **[!UICONTROL Create a new "Offer category" folder]** from the drop-down list.
 
-   ![](assets/offer_cat_create_002.png)
+   ![Context menu on Offer catalog with the Create a new Offer category folder option highlighted](assets/offer_cat_create_002.png)
 
 1. Re-name the category. You can edit the label later using the **[!UICONTROL General]** tab.
 
-   ![](assets/offer_cat_create_003.png)
+   ![New category folder named Neobank - Personal banking in the Offer catalog tree, ready to rename](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ To create a new category, follow the steps below:
 
     * Assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
     
-      ![](assets/offer_cat_create_004.png)
+      ![Eligibility tab with Start date and End date fields, a calendar open and the Edit query link for target filters](assets/offer_cat_create_004.png)
 
     * **[!UICONTROL Edit query]** to apply filters to the offer target.
 
@@ -79,4 +79,4 @@ To include a fallback category in the recommendations, follow the steps below:
 1. Click the **[!UICONTROL Eligibility]** tab and select the **[!UICONTROL Always include this category in the recommendations]** option.
 1. Click **[!UICONTROL Save]**.
 
-   ![](assets/offer_cat_default_001.png)
+   ![Category Eligibility tab with Always include this category in the recommendations selected](assets/offer_cat_default_001.png)

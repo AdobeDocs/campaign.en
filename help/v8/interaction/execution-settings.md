@@ -30,7 +30,7 @@ When creating a simulation, you can specify execution settings if necessary. The
 
 These settings can be changed later in the **[!UICONTROL General]** tab of the simulation window.
 
-![](assets/offer_simulation_008.png)
+![General tab of a simulation with execution settings: low activity scheduling, SQL logging and Priority list.](assets/offer_simulation_008.png)
 
 * **[!UICONTROL Schedule execution for a time of low activity]** : lets you schedule the simulation based on the chosen priority (Low, Average or High) in order to optimize Adobe Campaign performance.
 * **[!UICONTROL Priority]** : this is the level applied to the simulation to schedule it. When the **[!UICONTROL Schedule execution for a time of low activity]** option is checked, the campaign processing workflow selects a time of low activity to start the campaign.

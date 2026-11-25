@@ -73,13 +73,13 @@ When selecting offers in an **Enrichment** activity, you can choose which offer 
 
 In the example below, the offer space selected in the delivery is **[!UICONTROL Email (Environment - Recipient)]**:
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+![Offer selection section of a delivery with the Offer space field set to Email (Environment - Recipient).](assets/Interaction-best-practices-offer-space-selected.png)
 
 If the offer space you select in the delivery does not have an HTML rendering function set up, you will not see it in the delivery menu and it will not be available for selection. This is independent of the offer space selected in the **Enrichment** activity.
 
 In the example below, the HTML rendering function is available in the drop-down list because the offer space selected in the delivery has a rendering function:
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+![Personalization field menu with Propositions, proposition, and the HTML rendering option highlighted.](assets/Interaction-best-practices-HTML-rendering.png)
 
 This function inserts code such as: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
@@ -95,7 +95,7 @@ Consequently, to avoid any issue, it is recommended that all offer spaces have a
 
 Offer spaces have the ability to store data in the proposition table when propositions are generated or accepted:
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![Storage tab of an offer space with On proposition and On acceptance status and storage path expressions.](assets/Interaction-best-practices-offer-space-storage.png)
 
 However, this only applies to inbound interactions.
 
@@ -105,11 +105,11 @@ Any field from the workflow temp table whose name matches a field name in the pr
 
 For example, when selecting an offer manually (without Interaction) in an **Enrichment** workflow activity, the standard fields are defined as follows:
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![Output columns of an Enrichment activity with the standard fields for a manually selected offer.](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 Additional fields can be added, such as a `@rank` field:
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![Output columns of an Enrichment activity with an added Ranking field for the proposition.](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 Because there is a field in the proposition table named `@rank`, the value in the workflow temp table will be copied.
 
@@ -123,7 +123,7 @@ When using outbound Interaction, the `@rank` field can be added, as in the examp
 
 When using Interaction and manually selecting offers, the user can combine both approaches. For example, the user may manually set the `@rank` field to be 1 for the manually selected offer, and use an expression such as `"1 + @rank"` for the offers returned by Interaction. Assuming Interaction selects three offers, the offers returned by both approaches will be ranked 1-4:
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![Output columns combining Offer Interaction with a 1 + Ranking expression to set the rank manually.](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### Extend the nms:offer schema {#extending-nms-offer-schema}
 

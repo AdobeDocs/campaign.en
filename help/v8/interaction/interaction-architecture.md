@@ -53,7 +53,7 @@ These two types of interactions can be carried out either in **unitary mode** (o
 
 As soon as an offer can or must be presented (according to the configurations carried out), the Offer engine plays the intermediary role: it automatically calculates the best possible offer for a contact among those available by combining data received about the contact and the different rules that can be applied as specified in the application.
 
-![](assets/architecture_interaction2.png)
+![Offer engine flows: outbound batch delivery, identified unitary and anonymous unitary interactions with their catalogs](assets/architecture_interaction2.png)
 
 ## Distributed architecture
 
@@ -62,7 +62,7 @@ To be able to support scalability and provide 24/7 service on the inbound channe
 * one or several control instances dedicated to the outbound channel and containing the marketing and environment design base
 * one or several execution instances dedicated to the inbound channel
 
-![](assets/interaction_powerbooster_schema.png)
+![Control instance deploys design offers to live and sends packages to execution instances that publish to websites](assets/interaction_powerbooster_schema.png)
 
 Execution instances are dedicated to the inbound channel and contain the online version of the catalog. Every execution instance is independent and dedicated to one contact segment (for example, one execution instance per country). Calls to the Offer engine must be directly performed on the execution (one specific URL per execution instance). As synchronization between instances is not automatic, interactions from the same contact must be sent through the same instance.
 
@@ -78,7 +78,7 @@ Offers are automatically deployed then published on execution and control instan
 
 Offers deleted in the design environment are disabled on all online instances. Obsolete propositions and offers are automatically deleted on all instances after the purge period (specified in each instance's deployment assistant) and sliding period (specified in the incoming propositions' typology rules).
 
-![](assets/interaction_powerbooster_schema2.png)
+![Offer propositions synchronized in both directions between the control instance and each execution instance](assets/interaction_powerbooster_schema2.png)
 
 A workflow is created for each environment and external account for proposition synchronization. Synchronization frequency can be adjusted for each environment and external account.
 
@@ -106,7 +106,7 @@ On the control instances:
 
 1. Create one external account per execution instance:
 
-   ![](assets/interaction_powerbooster1.png)
+   ![External account form for an execution instance with Enabled, connection, Message Center and Interaction options](assets/interaction_powerbooster1.png)
 
     * Complete the label and add a short and explicit internal name.
     * Select the **[!UICONTROL Execution instance]**.
@@ -127,7 +127,7 @@ On the control instances:
 
 1. Configure the environment:
 
-   ![](assets/interaction_powerbooster2.png)
+   ![Environment General tab listing execution instances with update frequency and proposition filtering by country](assets/interaction_powerbooster2.png)
 
     * Add the list of execution instances.
     * For each one, specify the synchronization period and filter criteria (for example, by country).
@@ -138,7 +138,7 @@ On the control instances:
 
 If, for optimization reasons, only part of the marketing database is duplicated on the execution instances, you can specify a restricted schema linked to the environment to allow the users to only use data that is available on the execution instances. You can create an offer using data that is not available on execution instances. To do this, you must deactivate the rule on the other channels by limiting this rule on the outbound channel (**[!UICONTROL Taken into account if]** field).
 
-![](assets/ita_filtering.png)
+![Population item filter on Country with the Taken into account if field for the channel](assets/ita_filtering.png)
 
 ### Maintenance options {#maintenance-options}
 

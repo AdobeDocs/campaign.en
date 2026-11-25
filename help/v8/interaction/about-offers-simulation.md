@@ -34,7 +34,7 @@ Simulation takes into account the contexts and eligibility rules previously appl
 
 To learn how to simulate an offer, read the steps below.
 
-![](assets/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+![Play video](assets/how-to-video.png) You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Main steps for creating a simulation {#main-steps-for-creating-a-simulation}
 
@@ -42,14 +42,14 @@ To run a simulation of your offers, apply the following steps:
 
 1. In the **[!UICONTROL Profiles and Targets]** tab, click the **[!UICONTROL Simulations]** link, then click the **[!UICONTROL Create]** button.
 
-   ![](assets/offer_simulation_001.png)
+   ![Simulations list with the Create button opening the New offer simulation dialog with template, label and folder](assets/offer_simulation_001.png)
 
 1. Save and edit the simulation which you have just created.
 1. Go to the **[!UICONTROL Edit]** tab and specify the execution settings.
 
    For more on this, refer to [Execution settings](execution-settings.md).
 
-   ![](assets/offer_simulation_003.png)
+   ![Simulation General tab, Execution settings: low activity scheduling, SQL logging and Priority list](assets/offer_simulation_003.png)
 
    >[!NOTE]
    >
@@ -59,21 +59,21 @@ To run a simulation of your offers, apply the following steps:
 
    For more on this, refer to [Definition of the scope](simulation-scope.md#definition-of-the-scope).
 
-   ![](assets/offer_simulation_004.png)
+   ![Simulation Scope tab with environment, offer space, contact date, propositions and the Folder Great travellers target](assets/offer_simulation_004.png)
 
 1. Add reporting axes to enhance the **[!UICONTROL Offer distribution by rank]** report (optional).
 
    For more on this, refer to [Adding reporting axes](simulation-scope.md#adding-reporting-axes).
 
-   ![](assets/offer_simulation_005.png)
+   ![Simulation Calculations tab with reporting axes on the target and on the offers, and the Add button](assets/offer_simulation_005.png)
 
 1. Click **[!UICONTROL Save]** to record the simulation settings.
 1. Start the simulation via the dashboard.
 
-   ![](assets/offer_simulation_006.png)
+   ![Simulation dashboard with the Start simulation button highlighted](assets/offer_simulation_006.png)
 
 1. Check the simulation result and display the analysis report.
 
    For more on this, refer to [Simulation tracking](simulation-tracking.md).
 
-   ![](assets/offer_simulation_007.png)
+   ![Results tab and Breakdown of offers by rank report with offer ranking table and pie chart](assets/offer_simulation_007.png)

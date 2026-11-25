@@ -35,7 +35,7 @@ The **[!UICONTROL Targeting dimension]** is automatically completed. By default,
 
 The **[!UICONTROL Visitor folder]** field appears. It is automatically completed to link to the **[!UICONTROL Visitors]** folder. This field lets you choose where to store visitor profiles. 
 
-![](assets/anonymous_environment_option.png)
+![Offer environment with Environment dedicated to incoming anonymous interactions selected and Visitor folder fields](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ During this step, a comparison is made between the data recovered by the cookies
 
 To run this analysis, for the offer space, check the **[!UICONTROL Implicitly identify the individual based on their browser history]** option.
 
-![](assets/identification_anonymous_visitors.png)
+![Offer space with the Implicitly identify the individual based on their browser history option selected](assets/identification_anonymous_visitors.png)
 
 ## Processing unidentified anonymous visitors {#processing-unidentified-anonymous-visitors}
 
@@ -65,4 +65,4 @@ If there is no element that allows you to identify a contact, or if you do not w
 
 To do this, check the **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**, then specify the environment dedicated to these unidentified visitors in the **[!UICONTROL Linked anonymous space]** when specifying an offer space.
 
-![](assets/anonymous_to_anonymous_environment.png)
+![Offer space with the Fall back on an anonymous environment option selected and a Linked anonymous space field](assets/anonymous_to_anonymous_environment.png)

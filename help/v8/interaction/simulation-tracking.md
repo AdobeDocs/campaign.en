@@ -42,10 +42,10 @@ You can save these results and export them if necessary by creating a descriptiv
 
 Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} for more information on the descriptive analysis assistant. 
 
-![](assets/offer_simulation_012.png)
+![Simulation Results tab with the breakdown of propositions by offers and the Descriptive analysis of results link](assets/offer_simulation_012.png)
 
 A pivot table provides a quick view of offer breakdowns per ranking. Like all reports in Adobe Campaign, you can export, print, archive or display it in a web browser.
 
 For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
 
-![](assets/offer_simulation_013.png)
+![Simulation dashboard, Breakdown of offers by rank report, with offer ranking table, pie chart and export toolbar](assets/offer_simulation_013.png)

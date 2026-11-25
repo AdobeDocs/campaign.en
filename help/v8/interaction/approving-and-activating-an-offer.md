@@ -30,7 +30,7 @@ Once the offer content is complete, you need to approve it for it to be duplicat
 
 The banner on the offer dashboard tells you whether the offer needs to go through the approval cycle or not. 
 
-![](assets/offer_validate_001.png)
+![Offer dashboard banner stating that the offer is pending approval, with the Approval button.](assets/offer_validate_001.png)
 
 ## Approving offer content {#approving-offer-content}
 
@@ -48,15 +48,15 @@ To approve the offer content, apply the following steps:
 
 1. Click the **[!UICONTROL Approval]** button and select **[!UICONTROL Approve content]** in the popup.
 
-   ![](assets/offer_validate_002.png)
+   ![Approval menu with Approve content selected, opening the Action on the offer dialog.](assets/offer_validate_002.png)
 
 1. Using the drop-down list, select the representations you want to keep editing or those you want to publish to the live environment, then click **[!UICONTROL Content approval]**.
 
-   ![](assets/offer_validate_003.png)
+   ![Action on the offer dialog: choose Continue editing or Enable, add a comment, click Content approval.](assets/offer_validate_003.png)
 
    Once the offer content is approved, the information is updated on the offer dashboard table.
 
-   ![](assets/offer_validate_004.png)
+   ![Offer dashboard after approval: representation shows Enabled and the Approvals section shows Content approved.](assets/offer_validate_004.png)
 
    >[!NOTE]
    >
@@ -72,33 +72,33 @@ Approving offer eligibility means accepting or rejecting offer weights and the e
 
 * The full list of rules can be viewed by clicking **[!UICONTROL Schedule and eligibility rules]**.
 
-  ![](assets/offer_validate_005.png)
+  ![Schedule and eligibility rules list with weights and date ranges, opened from the approval dialog.](assets/offer_validate_005.png)
 
 * To change the eligibility rules, click **[!UICONTROL Reject]**, then click **[!UICONTROL Eligibility approval]**.
 
-  ![](assets/offer_validate_007.png)
+  ![Eligibility approval dialog with Reject selected, a comment, and the Eligibility approval button.](assets/offer_validate_007.png)
 
   The various statuses are updated on the offer dashboard.
 
-  ![](assets/offer_validate_006.png)
+  ![Dashboard after rejection: Eligibility approval was rejected banner, Submit eligibility button, Eligibility rejected.](assets/offer_validate_006.png)
 
 * To accept the offer eligibility, click **[!UICONTROL Approve eligibility]**.
 
-  ![](assets/offer_validate_008.png)
+  ![Submit eligibility button opening the Action on the offer dialog with Approve and Reject options.](assets/offer_validate_008.png)
 
   Approve eligibility, add a comment if necessary, then click **[!UICONTROL Eligibility approval]**.
 
-  ![](assets/offer_validate_009.png)
+  ![Eligibility approval dialog with Approve selected, a comment entered, and the Eligibility approval button.](assets/offer_validate_009.png)
 
   The various statuses are updated on the offer dashboard.
 
-  ![](assets/offer_validate_010.png)
+  ![Dashboard showing the offer pending deployment to the live environment, with Eligibility approved and Content approved.](assets/offer_validate_010.png)
 
 ## Approval tracking {#approval-tracking}
 
 Approval tracking is available on the offer dashboard. Click **[!UICONTROL Hide/display logs]** to access it.
 
-![](assets/offer_validate_012.png)
+![Offer dashboard with the approval logs displayed after clicking Hide/display logs, listing action, type and approver.](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Once the approval has been launched, it can be re-launched. To do this, follow t
 1. In the **[!UICONTROL Edit]** window that appears, select the approval to restart, then click **[!UICONTROL Re-initialize approval to submit it again]**.
 1. Confirm by clicking **[!UICONTROL Ok]**.
 
-![](assets/offer_validate_013.png)
+![Approvals journal in the Edit window with the Re-initialize approval to submit it again link.](assets/offer_validate_013.png)
 
 ## Publishing the offer {#publishing-the-offer}
 
@@ -120,11 +120,11 @@ Once the content and eligibility of an offer have both been approved, the offer 
 
 The dashboard of the offer available in the design environment contains information regarding publishing, including the name of the matching offer in the live environment.
 
-![](assets/offer_golive_001.png)
+![Design offer dashboard: deployment date banner, Offers online link with Published status, live representation Online.](assets/offer_golive_001.png)
 
 To display the offer that is available in the live environment, click the offer label: the live offer has a dashboard that contains all its relevant information.
 
-![](assets/offer_golive_002.png)
+![Link to the live offer dashboard, which shows Online status, its environment and its schedule and eligibility rules.](assets/offer_golive_002.png)
 
 ## Disabling an offer {#disabling-an-offer}
 
@@ -138,4 +138,4 @@ You can also directly disable a category by going to the **[!UICONTROL Eligibili
 >
 >When an offer is deleted in a design environment, it is automatically deactivated in the linked online environment. After a proposition retention period, the deactivated offers are deleted from the online environment.
 
-![](assets/offer_preview_deactivate.png)
+![Offer dashboard pending deployment, with the Disable offer button used to deactivate the offer.](assets/offer_preview_deactivate.png)

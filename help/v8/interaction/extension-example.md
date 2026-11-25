@@ -37,12 +37,12 @@ In the case of an inbound contact (call center or web site), the most relevant o
 
   In the following example, the criteria added are the country code and the last visited page.
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![Interactions data schema with Country code and Last visited page attributes added.](assets/s_ncs_configuration_offer_schemas.png)
 
 * You can then use the attributes previously created when defining the eligibility criteria definition.
 
   In the following example, we can create eligibility criteria to display an offer based on the user's country or on the last web page they viewed.
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![Eligibility query editor with the Country code and Last visited page interaction fields selectable as criteria.](assets/s_ncs_configuration_offer_context.png)
 
 * When configuring SOAP calls, insert the **context** XML element to reference context information added in the interaction schema. For further information, refer to [Integration via SOAP (server side)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (Campaign v8 documentation).

@@ -37,37 +37,37 @@ To insert offer propositions into a delivery, follow the steps below:
 
 1. In the delivery window, click the **Offers** icon. 
 
-   ![](assets/offer_delivery_001.png)
+   ![Email delivery with the Offers button, opening the Offer management dialog with an empty Offer space field](assets/offer_delivery_001.png)
 
 1. Select the space that matches your offer environment.
 
-   ![](assets/offer_delivery_002.png)
+   ![Offer space drop-down in the Offer management dialog listing the available Email offer spaces](assets/offer_delivery_002.png)
 
 1. To refine the engine's choice of offers, select either the category from which the offer(s) to be presented is a part of, or one/several themes. We recommend only using one of these fields at a time to avoid overloading the restrictions.
 
-   ![](assets/offer_delivery_003.png)
+   ![Offer management dialog with the Category drop-down listing the offer catalog categories](assets/offer_delivery_003.png)
 
-   ![](assets/offer_delivery_004.png)
+   ![Offer management dialog with the Themes field filled in](assets/offer_delivery_004.png)
 
 1. Specify the number of offers you want to insert into the delivery body.
 
-   ![](assets/offer_delivery_005.png)
+   ![Offer management dialog with the Number of propositions per message field set to 2](assets/offer_delivery_005.png)
 
 1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary. [Learn more](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_006.png)
+   ![Offer management dialog with the Exclude non-eligible recipients option selected](assets/offer_delivery_006.png)
 
 1. If needed, select the **[!UICONTROL Do not display anything if no offers are selected]** option. [Learn more](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_007.png)
+   ![Offer management dialog with the Do not display anything if no offers are selected option selected](assets/offer_delivery_007.png)
 
 1. Insert the properties into the delivery content using the merge fields. The number of propositions available depends on the way the engine call is configured and their order depends on the priority of offers.
 
-   ![](assets/offer_delivery_008.png)
+   ![Delivery content menu path Propositions, Propositions 2, Rendering function, HTML rendering](assets/offer_delivery_008.png)
 
 1. Finalize the content, test and send your delivery.
 
-   ![](assets/offer_delivery_010.png)
+   ![Email delivery content with two proposition include scripts and the Send button highlighted](assets/offer_delivery_010.png)
 
 
 ### Parameters of the Offer engine {#parameters-for-calling-offer-engine}
@@ -93,7 +93,7 @@ The **Enrichment** activity lets you add offers or links to offers for delivery 
 
 For example, you can enrich the data for a recipient query before a delivery.
 
-![](assets/int_enrichment_offer1.png)
+![Workflow with a Query, an Enrichment and a Direct mail delivery activity linked by Result transitions](assets/int_enrichment_offer1.png)
 
 There are two methods for specifying offer propositions.
 
@@ -108,18 +108,18 @@ After configuring your **Query** activity:
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
 1. Select **[!UICONTROL An offer proposition]** in the types of data to add.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Additional data wizard with the An offer proposition option selected](assets/int_enrichment_offer2.png)
 
 1. Specify an identifier as well as a label for the proposition that will be added.
 1. Specify the offer selection. There are two possible options for this:
 
     * **[!UICONTROL Search for the best offer in a category]**: check this option and specify the Offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
     
-      ![](assets/int_enrichment_offer3.png)
+      ![Offer proposition step set to search for the best offer in a category, with space, category and offers to keep](assets/int_enrichment_offer3.png)
 
     * **[!UICONTROL A pre-defined offer]**: check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the Offer engine.
     
-      ![](assets/int_enrichment_offer4.png)
+      ![Offer proposition step set to a predefined offer, with the Space and Offer fields](assets/int_enrichment_offer4.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery)
 
@@ -137,11 +137,11 @@ To do this, follow the steps below:
 1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
 1. Select the type of link you want to establish as well as its target. In this case, the target is the offer schema.
 
-   ![](assets/int_enrichment_link1.png)
+   ![Link definition step with a link whose target is always available and the Marketing offers schema as target](assets/int_enrichment_link1.png)
 
 1. Specify the join between the inbound table data in the enrichment activity (here the recipient table) and the offer table. For example, you can link an offer code to a recipient.
 
-   ![](assets/int_enrichment_link2.png)
+   ![Link definition join conditions matching the cryptedId source field to the target code field](assets/int_enrichment_link2.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#offer-into-a-delivery)
 
@@ -162,11 +162,11 @@ However, you can store this information as follows:
 1. Create a call to the Offer engine in an enrichment activity placed after a query and before a delivery activity. [Learn more](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![Enrichment activity with the Edit additional data link highlighted, listing the proposition data](assets/ita_enrichment_rankweight_1.png)
 
 1. Add the **[!UICONTROL @rank]** columns for the ranking and **[!UICONTROL @weight]** for the offer weight.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Select additional columns dialog with the Weight and Ranking output columns added under the proposition](assets/ita_enrichment_rankweight_2.png)
 
 1. Confirm your addition and save your workflow.
 
@@ -180,7 +180,7 @@ For more on the **Offer engine** activity, refer to [this page](https://experien
 
 This activity works on the same principle as the **Enrichment** activity with an engine call, by enriching the inbound population data with an offer calculated by the engine, before a delivery.
 
-![](assets/int_offerengine_activity2.png)
+![Workflow with a Query, an Offer engine and a Direct mail delivery activity linked by Result transitions](assets/int_offerengine_activity2.png)
 
 After configuring your **Query** activity:
 
@@ -191,7 +191,7 @@ After configuring your **Query** activity:
    >
    >If you use this activity, only the offer propositions used in the delivery will be stored.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![Offer engine activity with the offer space, offer category and number of propositions to calculate](assets/int_offerengine_activity1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. [Learn more](#inserting-an-offer-proposition-into-a-delivery)
 
@@ -210,7 +210,7 @@ To do this, use the following process:
     * Specify the subset population using the available filtering and limiting rules.
     * Then select the offer that you want to present to the sub-set. The available offers are those that are eligible on the offer environment that was selected at the previous step.
     
-      ![](assets/int_offer_per_cell1.png)
+      ![Subset activity with an Email offer space and the Offer drop-down listing the available offers](assets/int_offer_per_cell1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel.
 

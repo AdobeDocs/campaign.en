@@ -37,7 +37,7 @@ To create a template offer, follow these steps:
 1. Go to **Resources** > **Templates** > **Offer templates**.
 1. Click the **New** icon.
 
-   ![](assets/offer_model_001.png)
+   ![Offer templates folder in the Explorer with the New button highlighted and the new offer General tab](assets/offer_model_001.png)
 
 1. Configure your template by applying the same process as for a normal offer, then save it by clicking **Save**.
 
@@ -48,10 +48,10 @@ To duplicate an offer template (out-of-the-box or not), take the following steps
 1. Go to **Resources > Templates > Offer templates**.
 1. Using the mouse, right click on the template that you wish to duplicate and select **Duplicate** from the drop-down menu.
 
-   ![](assets/offer_model_002.png)
+   ![Offer templates context menu with the Duplicate command highlighted](assets/offer_model_002.png)
 
 1. If necessary, configure the settings you wish to see appear in the template, then save the template by clicking **Save**.
 
 This template will now be offered when creating an offer.
 
-![](assets/offer_modelcreated_001.png)
+![Marketing offer selection dialog in the Offer templates folder, listing two offer templates](assets/offer_modelcreated_001.png)

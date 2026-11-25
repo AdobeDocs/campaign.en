@@ -26,7 +26,7 @@ role_v2:
 
 Offers can be presented on various offer spaces using [an inbound or outbound channel](interaction-architecture.md#interaction-types). This chapter details some specific features for inbound channels.
 
-![](assets/inbound-interactions.png)
+![Inbound flow: browse a site, identify the visitor by cookie or login, Offer Engine picks the best offer from the catalog](assets/inbound-interactions.png)
 
 In order for an offer to be selected by the Offer engine, it has to be approved and be available in a live environment.
 
