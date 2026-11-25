@@ -124,7 +124,7 @@ In its [Enterprise (FFDA) deployment](enterprise-deployment.md), the Adobe Campa
 
 You can deploy Adobe Campaign using the pre-defined database and schemas, and if needed this pre-defined environment can be extended. All data within the data mart is accessed by Adobe Campaign via SQL calls. Adobe Campaign also provides a full complement of Extract Transform and Load (ETL) tools to perform data import and export of data into and out of the system.
 
-![](assets/data-flow-diagram.png) 
+![Traffic between client computers, frontal servers with tracking and MTA, application server, database, bounce mailbox](assets/data-flow-diagram.png) 
 
 
 >[!CAUTION]

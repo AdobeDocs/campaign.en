@@ -65,6 +65,6 @@ With this deployment model, Adobe Campaign users can extend their data into [!DN
 
 General communication between servers and processes is carried out according to the following schema:
 
-![](assets/fda-architecture.png) 
+![FDA data flow: Campaign marketing server, Snowflake, PgSQL, Message Center and Mid Sourcing servers, numbered steps 1 to 5](assets/fda-architecture.png) 
 
 PostgreSQL is the primary database, and Snowflake can be used as the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
