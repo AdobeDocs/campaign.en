@@ -165,7 +165,7 @@ There are four types of calculated fields:
 
 ### Step 4 - Reconciliation {#step-4---reconciliation}
 
-The reconciliation step of the import assistant lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
+The reconciliation step of the import assistant lets you define how the data from the file is reconciled with the existing data in the database. It also lets you set the priority rules between the file data and the database data. The configuration window looks like this:
 
 ![Reconciliation screen with the field tree, where First name is set as part of reconciliation key 1.](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -201,7 +201,7 @@ At least one reconciliation key must be filled in to manage deduplication.
 
 A reconciliation key is a set of fields used to identify a record. For example, to import recipients, the reconciliation key can be the account number, the "email" field, or the "Last name, First name, Company" fields, etc.
 
-In this case, to find out if a line of a file matches an existing recipient in the database, the import engine compares the values of the file with those of the database for all fields of the key. When fields are specific to a record, a fine comparison between the source and destination data can be performed, guaranteeing the integrity of data after import. A second reconciliation key can be filled in for the same table; it is used for the lines whose first key is empty.
+In this case, the import engine compares the values of the file with those of the database for all fields of the key. This is how it finds out whether a line of the file matches an existing recipient in the database. When fields are specific to a record, a fine comparison between the source and destination data can be performed, guaranteeing the integrity of data after import. A second reconciliation key can be filled in for the same table; it is used for the lines whose first key is empty.
 
 Avoid choosing a field which might be modified during import; if this occurs, the engine could create additional records.
 
@@ -249,7 +249,7 @@ Details of these rejects can be viewed via the **[!UICONTROL Rejects]** tab.
 There are two types of rejects (the type is displayed in the **[!UICONTROL Connector]** column):
 
 * Rejections of the text connector concern errors which occur while the file line is being processed (calculated field, data analysis, etc.). In this case, in the event of an error, the entire line is always rejected.
-* Database connector rejections concern errors occurring during data reconciliation or writing to the database. In the case of an import to several tables, the rejection can concern only a part of the record (for example, for an import of recipients and associated events, an error can prevent the updating of an event without rejecting the recipient).
+* Database connector rejections concern errors occurring during data reconciliation or writing to the database. In the case of an import to several tables, the rejection can concern only a part of the record. For example, for an import of recipients and associated events, an error can prevent the updating of an event without rejecting the recipient.
 
 In the data reconciliation page, you can define the desired error management type field by field and table by table.
 
@@ -267,7 +267,7 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
 ### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
-The next step of the import assistant lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
+The next step of the import assistant lets you select or create the folder in which data will be imported. You can also automatically map imported recipients with a (new or existing) list and subscribe recipients to a service.
 
 ![Import recipients screen with Edit links for folder, list and service, plus the Origin field.](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -311,7 +311,7 @@ The next step of the import assistant lets you select or create the folder in wh
     
     1. Subscribing to a service
 
-       To subscribe all imported recipients to an information service, click the **[!UICONTROL Edit...]** link of the **[!UICONTROL Subscribe recipients to a service]** section in order to select or create the information service which the recipients will be subscribed to. You can select the **[!UICONTROL Send a confirmation message]** option: The content of this message is defined in the delivery template associated with the subscription service.
+       To subscribe all imported recipients to an information service, click the **[!UICONTROL Edit...]** link of the **[!UICONTROL Subscribe recipients to a service]** section. Then select or create the information service to which the recipients will be subscribed. You can select the **[!UICONTROL Send a confirmation message]** option: The content of this message is defined in the delivery template associated with the subscription service.
     
        ![Subscribe recipients to a service dialog with an existing service selected and Send a confirmation message checked.](assets/s_ncs_user_import_wizard05_7.png)
 
