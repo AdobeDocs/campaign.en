@@ -67,7 +67,7 @@ Adobe Campaign offers several reports that allow you to control the activity and
 
 These Message Center reports can be accessed from the **[!UICONTROL Reports]** tab of the **control instance**. 
 
-![](assets/mc-reports.png)
+![Global reports page on the Reports tab with the three Message Center reports highlighted](assets/mc-reports.png)
 
 ### Message Center event history {#history-events}
 
@@ -82,7 +82,7 @@ You can view the data specific to each event type, per time period. The **[!UICO
 
 The **[!UICONTROL Message Center processing time]** report displays the main indicators related to the real time queue. This report can also be accessed via the **[!UICONTROL Monitoring]** tab on the control instance.
 
-![](assets/mc-processing-time-report.png)
+![Message Center processing time report with channel, instance and period filters, indicators and chart](assets/mc-processing-time-report.png)
 
 You can choose to display global statistics or those relative to a particular execution instance. You can also filter the data by channel and over a specific period.
 
@@ -131,4 +131,4 @@ To do this, follow the steps below:
 1. Open the deployment wizard on the **execution instance**, and browse to the **[!UICONTROL Message Center]** page.
 1. Use the arrows to change the thresholds.
 
-    ![](assets/mc-thresholds.png)
+    ![Message Center configuration wizard with execution instance settings and warning and alert thresholds](assets/mc-thresholds.png)

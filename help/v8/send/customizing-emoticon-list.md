@@ -51,7 +51,7 @@ Note that emoticons are only available for email and push. For more on this refe
     >
     >Out-of-the-box enumerations can only be managed by an administrator of your Adobe Campaign Classic console.
 
-    ![](assets/emoticon_1.png)
+    ![Explorer with Administration, Platform and Enumerations selected, and the Emoticon list enumeration highlighted](assets/emoticon_1.png)
 
 1. Click **[!UICONTROL Add]**.
 
@@ -62,7 +62,7 @@ Note that emoticons are only available for email and push. For more on this refe
 
     * **[!UICONTROL Label]**: Label of your new emoticon.
 
-     ![](assets/emoticon_5.png)
+     ![Enumeration value dialog with the U+ code and Label fields for a new emoticon](assets/emoticon_5.png)
 
 1. Click **[!UICONTROL Ok]** then **[!UICONTROL Save]** when your configuration is finished.
     Your new emoticon will be automatically placed in the store.
@@ -73,7 +73,7 @@ Note that emoticons are only available for email and push. For more on this refe
 
     <br>In this example, we chose the display order number 61 which means that if an entry already had this order it will automatically be moved to the store and our new entry will take its place in the enumeration list.
 
-    ![](assets/emoticon_2.png)
+    ![Enumeration value dialog with U+ code, Label and the Display order field set to 61](assets/emoticon_2.png)
 
 1. Your new emoticon has now been added to the **[!UICONTROL Insert emoticon list]** out-of-the-box enumeration. You can change its **[!UICONTROL Display order]** at any time or move it to the store if you do not need it anymore.
 
@@ -81,8 +81,8 @@ Note that emoticons are only available for email and push. For more on this refe
 
 1. Your new emoticon can now be found in your deliveries in the **[!UICONTROL Insert emoticon]** pop-up window in the 61st position as configured in the previous steps. For more information on how to use emoticons in your deliveries, refer to this [section](defining-the-email-content.md#inserting-emoticons).
 
-    ![](assets/emoticon_4.png)
+    ![Insert emoticon pop-up window with the new emoticon added in the last position](assets/emoticon_4.png)
 
 1. If the following emoticons appear in your **[!UICONTROL Insert emoticon]** pop-up window, this means that they were not correctly configured. Check if your **[!UICONTROL U+]** code or **[!UICONTROL Display order]** is correct in the **[!UICONTROL Emoticon list]**.
 
-    ![](assets/emoticon_6.png)
+    ![Insert emoticon pop-up window with two red cross icons marking incorrectly configured emoticons](assets/emoticon_6.png)

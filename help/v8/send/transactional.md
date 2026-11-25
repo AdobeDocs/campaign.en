@@ -82,7 +82,7 @@ To create event types that will be processed by Adobe Campaign, follow the steps
 1. Select the **[!UICONTROL Event type]** enumeration from the list.
 1. Click **[!UICONTROL Add]** to create an enumeration value. This can be an order confirmation, password change, order delivery change, etc.
 
-   ![](assets/messagecenter_eventtype_enum_001.png)
+   ![Event type enumeration under Administration > Platform > Enumerations, with Add and the Enumeration value dialog](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >

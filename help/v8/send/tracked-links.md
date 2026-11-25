@@ -41,11 +41,11 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
 1. Select the **[!UICONTROL Display URLs]** option in the lower section of the delivery assistant, under the message content.
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![Delivery HTML content with the Display URLs option below the content, not yet selected](assets/s_ncs_user_email_del_display_urls.png)
 
    When you select a URL from the tracked URLs list, it is highlighted in the delivery content - except for the link in the mirror page and the unsubscription link that are provided by default.
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![Tracked URLs list with a selected URL and its matching link highlighted in the delivery content](assets/s_ncs_user_email_del_show_urls.png)
 
 1. For each URL of the message, select whether or not to activate tracking.
 
@@ -63,7 +63,7 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
 
 1. If needed, change the tracking mode, select a new mode in the **[!UICONTROL Tracking]** column which matches the targeted link, as shown below:
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![Tracking column drop-down listing the tracking modes for a URL, from Enabled to Mirror page](assets/s_ncs_user_select_tracking_mode.png)
 
    For each individual URL, you can set tracking mode to one of these values:
 

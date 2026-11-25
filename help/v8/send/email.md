@@ -44,7 +44,7 @@ Learn key steps to create and configure a delivery in [Create your first deliver
 
 Create personalized and contextually relevant emails that are consistent with the rest of the customer experience.
 
-![](assets/new-email-content.png)
+![Email delivery editor with a subject, HTML content, and the tracked URLs list displayed below](assets/new-email-content.png)
 
 
 In the following sample, you will learn steps to design an email delivery in Adobe Campaign which contains personalized data, links to an external URL, and a link to the mirror page.
@@ -53,19 +53,19 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
    To create a new delivery, browse to the **Campaigns** tab, click **Deliveries** and click the **Create** button above the list of existing deliveries.
    
-   ![](assets/delivery_step_1.png)
+   ![Deliveries list in the Campaigns tab with the Deliveries node and the Create button highlighted](assets/delivery_step_1.png)
 
 1. **Select the template**
 
    Select a delivery template, then name your delivery. This name will only be visible to users of the Adobe Campaign console and not by your recipients, however this heading will be displayed in your list of deliveries. Click **[!UICONTROL Continue]**.
 
-   ![](assets/dce_delivery_model.png)
+   ![New delivery dialog with the Email delivery template selected and a label entered, then Continue](assets/dce_delivery_model.png)
 
 1. **Import your content**
 
    Click the **Source** tab to paste your HTML content.
    
-   ![](assets/paste-content.png)
+   ![Email delivery editor with the Source tab open showing HTML code to paste](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -77,11 +77,11 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
       To insert the first and last names of the targeted profiles in the content of the message, place the cursor where you want to insert them, and click the last icon in the toolbar, then click **[!UICONTROL Include]** and select **[!UICONTROL Greetings]**.
 
-      ![](assets/include-greetings.png)
+      ![Personalization menu with Include then Greetings selected in the email HTML content](assets/include-greetings.png)
 
       Browse to the preview tab to check personalization by selecting a recipient.
    
-      ![](assets/perso-check.png)
+      ![Preview tab with a recipient selected and the personalized greeting highlighted in the email text](assets/perso-check.png)
 
       Learn more about personalization options in [Get started with personalization](personalize.md).
 
@@ -91,7 +91,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
       Enter the URL for the link in the **URL** field using the following format **https://www.myURL.com**, then confirm.
 
-      ![](assets/add-a-link.png)
+      ![Add hypertext link dialog with a URL entered and the Add button, over the selected text](assets/add-a-link.png)
 
    * Add a mirror page
 

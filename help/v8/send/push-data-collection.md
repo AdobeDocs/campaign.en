@@ -60,7 +60,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 1. Click **[!UICONTROL Create App Surface]** to create a new configuration.
 
-   ![](assets/push-config-1.png)
+   ![App Surfaces list in Data Collection with the Create App Surface button highlighted](assets/push-config-1.png)
 
 1. Enter a **[!UICONTROL Name]** for the configuration.
 
@@ -70,7 +70,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 >[!TAB iOS]
 
-![](assets/push-config-2.png)
+![Create App Surface for Apple iOS: App ID, Push Credentials switch and p8 key file drop zone](assets/push-config-2.png)
 
 1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. 
         
@@ -92,7 +92,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 >[!TAB Android]
 
-![](assets/push-config-3.png)
+![Create App Surface for Android: App ID (Android package name), Push Credentials switch and JSON key drop zone](assets/push-config-3.png)
 
 1. Provide the **[!UICONTROL App ID (Android package name)]**. Usually the package name is the app id in your `build.gradle` file.
 
@@ -116,7 +116,7 @@ To create a service to send push notifications, follow the steps below:
 
 1. Browse to **[!UICONTROL Profiles and Targets > Services and Subscriptions]** tab, and click **[!UICONTROL Create]**.
 
-   ![](assets/push-config-4.png){width="800"}
+   ![New service dialog with Label, Internal name, Mobile application type and Subscriber applications target mapping](assets/push-config-4.png){width="800"}
 
 1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**, and select a **[!UICONTROL Mobile application]** type.
 
@@ -126,7 +126,7 @@ To create a service to send push notifications, follow the steps below:
 
 1. Then use the **[!UICONTROL Add]** icon on the right to define the mobile applications that use this service.
 
-   ![](assets/push-config-5.png)
+   ![Service dialog with the Add icon highlighted to define the mobile applications that use the service](assets/push-config-5.png)
 
 ### Create a mobile application {#create-sapp}
 
@@ -140,17 +140,17 @@ To create an app for iOS devices, follow these steps:
 
 1. From your Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an iOS application]**. Click **[!UICONTROL Next]**.
 
-   ![](assets/push-config-6.png)
+   ![Mobile application creation wizard with Create an iOS application selected](assets/push-config-6.png)
 
 1. From the **[!UICONTROL Launch app configurations list]** window, select the App surface previously created in this section. Click **[!UICONTROL Next]**.
 
-   ![](assets/push-config-7.png)
+   ![Launch App Configurations List listing the Demo app App Surface to select](assets/push-config-7.png)
 
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
 
    In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notifications and then provide the application with the image to display within the notification.
 
-   ![](assets/push-config-8.png)
+   ![General parameters with the mediaURL and mediaExt application variables added](assets/push-config-8.png)
 
 1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
@@ -171,7 +171,7 @@ To create an app for iOS devices, follow these steps:
     >
     > You cannot use the same certificate for the development version (sandbox) and the production version of the application.
 
-   ![](assets/push-config-9.png)
+   ![Development application step with the Integration key and Application icon fields for iOS](assets/push-config-9.png)
 
 1. Select the icon from the **[!UICONTROL Application icon]** field to personalize the mobile application in your service.
 
@@ -187,11 +187,11 @@ To create an app for Android devices, follow these steps:
 
 1.  From your Service, click **[!UICONTROL Add]** then select **[!UICONTROL Create an Android application]**. Click **[!UICONTROL Next]**.
 
-      ![](assets/push-config-10.png)
+      ![Mobile application creation wizard with Create an Android application selected](assets/push-config-10.png)
 
 1. From the **[!UICONTROL Launch app configurations list]** window, select the App surface created in this section and click **[!UICONTROL Next]**.
 
-   ![](assets/push-config-11.png)
+   ![Launch App Configurations List listing the Demo app App Surface for the Android application](assets/push-config-11.png)
 
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign and will be used when configuring Campaign extension.
 
@@ -203,7 +203,7 @@ To create an app for Android devices, follow these steps:
     >
     > The **[!UICONTROL Integration key]** is fully customizable with string value but needs to be exactly the same as the one specified in the SDK.
 
-   ![](assets/push-config-12.png)
+   ![General parameters for Android with the Integration key, Application icon and Application variables](assets/push-config-12.png)
 
 1. Select the icon from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
 
@@ -230,11 +230,11 @@ Below are the FCM payload names to further personalize your push notification:
 
 1. Click **[!UICONTROL New Property]**.
 
-   ![](assets/push-config-13.png)
+   ![Tag Properties list in Data Collection with the New Property button highlighted](assets/push-config-13.png)
 
 1. Type a name for the property and select **[!UICONTROL Mobile]** as the platform.
 
-   ![](assets/push-config-14.png)
+   ![Create Property form with a name entered and the Mobile platform selected](assets/push-config-14.png)
 
 1. Click **[!UICONTROL Save]** to create the mobile property.
 
@@ -242,18 +242,18 @@ Below are the FCM payload names to further personalize your push notification:
 
 1. From your mobile property dashboard, access the **[!UICONTROL Extensions]** menu then the **[!UICONTROL Catalog]** tab. 
 
-   ![](assets/push-config-15.png)
+   ![Mobile property Extensions page with the Catalog tab highlighted](assets/push-config-15.png)
 
 1. Install the **[!DNL Adobe Campaign Classic]** extension. [Learn more on Campaign extension](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
-   ![](assets/push-config-16.png)
+   ![Extensions catalog with the Install button highlighted on the Adobe Campaign Classic extension](assets/push-config-16.png)
 
 1. Fill in your instance details:
 
    * **[!UICONTROL Registration endpoint]** or **[!UICONTROL Tracking endpoint]** URLs can be found in the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** menu in Campaign.
    * **[!UICONTROL Integration keys]** can be found in the mobile app configured in [this section](#create-app).
 
-   ![](assets/push-config-17.png)
+   ![Install Extension page with registration and tracking endpoints and iOS and Android integration keys](assets/push-config-17.png)
 
 1. Click **[!UICONTROL Save]**.
 

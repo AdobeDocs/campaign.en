@@ -46,13 +46,13 @@ Follow the steps below to post a message on your X account:
 
     Create a new delivery based on the **[!UICONTROL Tweet (twitter)]** delivery template.
 
-   ![](assets/tw-new-delivery.png)
+   ![New delivery dialog with the Tweet (twitter) delivery template selected in the template list](assets/tw-new-delivery.png)
 
 1. Select the main target
 
     Select the account(s) which you want to send posts to.
 
-   ![](assets/tw-define-target.png)
+   ![Select target dialog on the Main target tab with the Twitter account target and the Add button highlighted](assets/tw-define-target.png)
 
     1. Click the **[!UICONTROL To]** link.
     1. Click the **[!UICONTROL Add]** button.
@@ -73,7 +73,7 @@ Follow the steps below to post a message on your X account:
 
     Enter the content of your post in the **[!UICONTROL Content]** tab.
 
-   ![](assets/tw-delivery-content.png)
+   ![Content tab of a Tweet delivery with the post text and a personalization field entered](assets/tw-delivery-content.png)
 
     >[!CAUTION]
     >
@@ -87,7 +87,7 @@ Follow the steps below to post a message on your X account:
 
     Browse the **[!UICONTROL Preview]** tab to check the rendering of your post.
 
-   ![](assets/tw-delivery-preview.png)
+   ![Preview tab of a Tweet delivery showing the rendered post text with the service name](assets/tw-delivery-preview.png)
 
     1. Click the **[!UICONTROL Preview]** tab.
     1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Service]**.
@@ -114,7 +114,7 @@ To send direct messages to your followers, follow the steps below:
 
 1. Select the main target
 
-   ![](assets/tw-dm-define-target.png)
+   ![Select target dialog with Visitor subscriptions mapping and the Add button highlighted for a direct message](assets/tw-dm-define-target.png)
 
     1. Select the **[!UICONTROL To]** link and the **[!UICONTROL Add]** button.
 
@@ -135,7 +135,7 @@ To send direct messages to your followers, follow the steps below:
 
 1. Enter the content of the message in the **[!UICONTROL Content]** tab.
 
-   ![](assets/tw-dm-content.png)
+   ![Content tab of a Twitter direct message delivery with personalized message text](assets/tw-dm-content.png)
 
     Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [Get started with personalization](../send/personalize.md).
 
@@ -143,7 +143,7 @@ To send direct messages to your followers, follow the steps below:
 
     Browse the **[!UICONTROL Preview]** tab to check the rendering of your post.
     
-    ![](assets/tw-dm-preview.png)
+    ![Preview tab of a Twitter direct message showing the personalized text for a selected subscriber](assets/tw-dm-preview.png)
 
     1. Click the **[!UICONTROL Preview]** tab.
     1. Click the **[!UICONTROL Test personalization]** drop-down menu and select **[!UICONTROL Visitor Subscription]**.

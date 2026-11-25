@@ -42,7 +42,7 @@ You can set up all of these in a delivery template in order to avoid doing the s
 
 ## Configure the SMS tab {#sms-tab}
 
-![](assets/send_settings.png){zoomable="yes"}
+![SMS tab of the delivery properties with general parameters and the Optional SMPP parameters (TLV) table](assets/send_settings.png){zoomable="yes"}
 
 Here is the information you need to fill this form. Each field is explained below:
 

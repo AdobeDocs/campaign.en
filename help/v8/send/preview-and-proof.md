@@ -37,11 +37,11 @@ To preview the message content, follow the steps below:
 1. Browse to the **Preview** tab of the delivery.
 1. Click the **[!UICONTROL Test personalization]** button to select a profile to populate personalization data. You can choose a specific recipient in the database, a seed address, or select a profile from the target population - if it has been already defined. You can also check the content without personalization.
 
-    ![](assets/test-personalization.png)
+    ![Test personalization menu in the Preview tab: Recipient, A seed address, Delivery target population, No personalization](assets/test-personalization.png)
 
 1. The preview is generated so that you can check the message rendering. In the message preview, personalized elements are replaced by the selected test profile data.
 
-    ![](assets/test-personalization-with-a-recipient.png)
+    ![Email preview with the subject and heading personalized with the selected test profile first name](assets/test-personalization-with-a-recipient.png)
 
 1. Select other test profiles to preview email rendering for each variant of your message.
 
@@ -55,7 +55,7 @@ A proof is a specific message that allows you to test a message before sending i
 
 The proof target can be defined in the delivery template, or specific to a delivery. In both cases, browse to the target definition screen from the **[!UICONTROL To]** link, and select the **[!UICONTROL Target of the proofs]** tab.
 
-![](assets/target-of-proofs.png)
+![Select target dialog, Target of the proofs tab, with the Targeting mode drop-down and the Add button](assets/target-of-proofs.png)
 
 The type of proof target is selected from the **[!UICONTROL Targeting mode]** drop-down list.
 
@@ -64,11 +64,11 @@ The type of proof target is selected from the **[!UICONTROL Targeting mode]** dr
 
     By default, substitution is performed randomly, but you can select a specific recipient from the main target, via the  **[!UICONTROL Detail]** icon. 
 
-    ![](assets/target-of-proofs-substitution-details.png){width="800"}
+    ![Substitution of the address mode listing proof addresses, with the Detail icon used to select a specific profile](assets/target-of-proofs-substitution-details.png){width="800"}
 
     Choose the **[!UICONTROL Select a profile (must be included in the target)]** option and select a recipient.
 
-    ![](assets/target-of-proofs-substitution.png){width="800"}
+    ![Stand-in proof recipient dialog with the Select a profile option and a recipient chosen from the list](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * Use the **[!UICONTROL Seed addresses]**  option to use seed addresses as proof target. These addresses can be imported from a file or entered manually.
@@ -89,7 +89,7 @@ To send message proofs, follow the steps below:
 1. From the **[!UICONTROL Send a proof]** window, check the proof recipients.
 1. Click **[!UICONTROL Analyze]** to start proof message preparation.
 
-    ![](assets/send-proof-analyze.png){width="800"}
+    ![Send a proof window with substitution addresses and the delivery analysis log running after clicking Analyze](assets/send-proof-analyze.png){width="800"}
 
 1. Once the delivery preparation is complete, use the **[!UICONTROL Confirm delivery]** to start sending proof messages.
 
@@ -111,7 +111,7 @@ Proof properties are set in the **[!UICONTROL Advanced]** tab of the delivery pr
 
 By default, proof messages are identified by the `Proof #N` mention in the subject, where `N` is the proof number. This number is incremented with each proof delivery analysis. You can change the `proof` prefix, as needed.
 
-![](assets/proof-parameters.png){width="800"}
+![Proof properties dialog from the Advanced tab with proof options and the Label prefix field set to Proof](assets/proof-parameters.png){width="800"}
 
 
 ## How-to video {#video-proof}

@@ -51,12 +51,12 @@ Before following the steps below, make sure that you know the type of coupon you
 
 1. In the Campaign tree, go to **[!UICONTROL Resources > Campaign management > Coupons]**.
 
-   ![](assets/deliv_coup_01.png)
+   ![Campaign tree with Resources, Campaign Management expanded and the Coupons node selected](assets/deliv_coup_01.png)
 
 1. Click the **[!UICONTROL New]** button.
 1. Enter the name of the coupon in the **[!UICONTROL Label]** field. A unique code has been automatically entered in **[!UICONTROL Coupon code]**. You can keep the code or enter a new one.
 
-   ![](assets/deliv_coup_02.png)
+   ![Coupons list and General tab of a coupon with Label, Coupon code, Coupon type, Start date and End date fields](assets/deliv_coup_02.png)
 
 1. Choose **[!UICONTROL Start date]** and **[!UICONTROL End date]** to set the period in which the coupon is valid.
 1. In **[!UICONTROL Coupon type]**, choose Anonymous or Individual.
@@ -77,7 +77,7 @@ Before following the steps below, make sure that you know the type of coupon you
 
 ### Configure individual coupons {#configuring-individual-coupons}
 
-![](assets/deliv_coup_03.png)
+![Coupons tab of a coupon listing individual coupon codes, each with an Available status](assets/deliv_coup_03.png)
 
 The Coupons tab is only available with Individual coupons. After a coupon is associated with a delivery, the Coupons tab provides the following details:
 
@@ -94,60 +94,60 @@ In the example below, the delivery is created from the Home page. For detailed i
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]**.
 1. Click **[!UICONTROL Create]**.
 
-   ![](assets/deliv_coup_04.png)
+   ![Deliveries list on the Campaigns tab with the Create button highlighted](assets/deliv_coup_04.png)
 
 1. Enter a name in **[!UICONTROL Label]** and click **[!UICONTROL Continue]**.
 1. Click **[!UICONTROL To]** to add recipients.
 1. Click **[!UICONTROL Add]** to choose recipients for the delivery. Once you have selected your recipients, click **[!UICONTROL Ok]** to return to the delivery.
 
-   ![](assets/deliv_coup_05.png)
+   ![Select target dialog on the Main target tab with the Add button highlighted](assets/deliv_coup_05.png)
 
 1. Enter a subject and add content to the message.
 
-   ![](assets/deliv_coup_06.png)
+   ![Delivery editor with a subject and HTML content for the coupon email](assets/deliv_coup_06.png)
 
 1. In the toolbar, click **[!UICONTROL Properties]** and choose the **[!UICONTROL Advanced]** tab.
 1. Click the folder icon for **[!UICONTROL Coupon management]**.
 
-   ![](assets/deliv_coup_07.png)
+   ![Delivery properties Advanced tab with the folder icon next to the Coupon field in Coupon management highlighted](assets/deliv_coup_07.png)
 
 1. Choose the coupon and click **[!UICONTROL Ok]**. Click **[!UICONTROL Ok]** again.
 
-   ![](assets/deliv_coup_08.png)
+   ![Coupon selection dialog listing coupon documents with Soccer coupons selected](assets/deliv_coup_08.png)
 
 1. Click on the message to choose where you want to place the coupon.
 
-   ![](assets/deliv_coup_09.png)
+   ![HTML content editor with the cursor placed where the coupon code is to be inserted](assets/deliv_coup_09.png)
 
 1. Click the personalization icon to choose one of the following based upon the type of coupon:
 
     * Anonymous coupon: **[!UICONTROL Coupon > Coupon code]** 
 
-      ![](assets/deliv_coup_10.png)
+      ![Personalization menu with Coupon then Coupon code selected, for an anonymous coupon](assets/deliv_coup_10.png)
 
     * Individual coupon: **[!UICONTROL Coupon value > Coupon code]** 
 
-      ![](assets/deliv_coup_11.png)
+      ![Personalization menu with Coupon value then Coupon code selected, for an individual coupon](assets/deliv_coup_11.png)
 
       The coupon is inserted into the message as code rather than the name you assigned. The code is used within the Campaign ootb data model.
 
-   ![](assets/deliv_coup_12.png)
+   ![Email content with the inserted coupon code script, couponValue.couponCode, highlighted](assets/deliv_coup_12.png)
 
 1. Run a test to confirm the name you assigned to the coupon. Go to the **[!UICONTROL Preview]** tab and click **[!UICONTROL Test personalization]**. Choose a recipient for the test.
 
-   ![](assets/deliv_coup_13.png)
+   ![Preview tab with the Test personalization menu open and the Recipient option highlighted](assets/deliv_coup_13.png)
 
    Following the test, the coupon should appear as the assigned name rather than the code.
 
-   ![](assets/deliv_coup_14.png)
+   ![Preview of the email with the coupon code Trynow displayed in the message body](assets/deliv_coup_14.png)
 
 1. In the toolbar, click **[!UICONTROL Send]** (upper left) and choose how you want to send the delivery.
 
-   ![](assets/deliv_coup_15.png)
+   ![Send to the main delivery target dialog with the Deliver as soon as possible option and the Analyze button](assets/deliv_coup_15.png)
 
 1. Click **[!UICONTROL Analyze]**. If the analysis log confirms that there are enough coupons for all recipients, click **[!UICONTROL Confirm delivery]** to send it.
 
-   ![](assets/deliv_coup_16.png)
+   ![Delivery analysis log showing 2 coupons recycled and the Confirm delivery button available](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ To confirm that the delivery was successful:
 1. Go to **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**.
 1. Click the **[!UICONTROL Deliveries]** tab.
 
-   ![](assets/deliv_coup_17.png)
+   ![Deliveries tab of a coupon listing the deliveries that use it with their status and message counts](assets/deliv_coup_17.png)
 
    The status reads as **[!UICONTROL Finished]** for a successful delivery.
 
@@ -176,12 +176,12 @@ The delivery analysis stops if there are fewer coupons than messages. In such a 
 1. Click **[!UICONTROL To]**.
 1. In **[!UICONTROL Select target]**, go to the **[!UICONTROL Exclusions]** tab.
 
-   ![](assets/deliv_coup_18.png)
+   ![Select target dialog with the Exclusions tab highlighted and the Edit link for exclusion settings](assets/deliv_coup_18.png)
 
 1. In the exclusion settings section, click **[!UICONTROL Edit]**.
 1. Enter the number of messages you want to send in **[!UICONTROL Limit delivery to...messages]** and click **[!UICONTROL Ok]**. You can send the delivery.
 
-   ![](assets/deliv_coup_19.png)
+   ![Exclusion settings dialog with the Limit delivery to field set to 20 messages highlighted](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >

@@ -59,7 +59,7 @@ First, you need to configure the schema to add the new channel to the list of av
     </enumeration>
     ```
 
-    ![](assets/cus-schema.png){zoomable="yes"}
+    ![Deliveries (cus) source schema with the messageType enumeration for the custom channel highlighted](assets/cus-schema.png){zoomable="yes"}
 
 ## Create a new external account{#create-ext-account}
 
@@ -71,7 +71,7 @@ Then, you need to create a new routing external account.
 
 1. Select the channel and change the delivery mode. Choose **External** for custom external channels, and **Bulk** for custom API channels.
 
-    ![](assets/cus-ext-account.png){zoomable="yes"}
+    ![External account of type Routing with the custom channel selected and the Delivery mode set to External](assets/cus-ext-account.png){zoomable="yes"}
 
 ## Create a new delivery template{#create-template}
 
@@ -83,7 +83,7 @@ Now, let's create the new template associated to the new channel.
 
 1. Click on **Properties** and select the right folder and routing.
 
-    ![](assets/cus-template.png){zoomable="yes"}
+    ![Delivery template properties, General tab, with the Folder and Routing fields set to the custom channel external account](assets/cus-template.png){zoomable="yes"}
 
 The new channel is now available. You can create and execute deliveries based on this channel.
 
@@ -103,11 +103,11 @@ From the Campaign Web UI, set up the custom screen definition:
 
 1. Open the **Delivery** schema and click **Screen edition**. 
 
-    ![](assets/cus-schema2.png){zoomable="yes"}
+    ![Deliveries (nms) schema page with the Screen edition button at the top right](assets/cus-schema2.png){zoomable="yes"}
 
 1. Select the tab that corresponds to your channel and define how the fields will be displayed in the content screen of the delivery. For more information on screen edition, refer to this [page](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
 
-    ![](assets/cus-schema3.png){zoomable="yes"}
+    ![Screen definition dialog, custom channel tab, listing custom fields with label, attribute, type and mandatory option](assets/cus-schema3.png){zoomable="yes"}
 
 1. In the **Preview for simulate content** section, select the dedicated JSPP. This is optional. This will activate the preview in the delivery simulation screen. [Configure the preview](#api-additional-preview)
 

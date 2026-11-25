@@ -105,7 +105,7 @@ Learn more about delivery reports in [Get started with Adobe Campaign reporting 
 
 To view the list of quarantined addresses **for the entire platform**, Campaign Administrators can browse to  **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. This section lists quarantined elements for **email**, **SMS** and **Push notification** channels.  
 
-![](assets/tech-quarantine.png) 
+![Quarantined address record with Quarantine status, error reason, error text and the delivery action](assets/tech-quarantine.png) 
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ To do this, select the recipient profile and click the **[!UICONTROL Deliveries]
 
 For each folder, you can display only the recipients whose email address is in quarantine, with the **[!UICONTROL Quarantined email address]** built-in filter, as below:
 
-![](assets/quarantine-filter.png) 
+![Recipient list Filters menu with the Quarantined email address built-in filter highlighted](assets/quarantine-filter.png) 
 
 
 ## Remove a quarantined address {#remove-a-quarantined-address}
@@ -152,7 +152,7 @@ Their status then changes to **[!UICONTROL Valid]**.
 
 You can also manually remove an address from the quarantine list. To manually remove an address from quarantine, you can change its status to **[!UICONTROL Valid]** from the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** node.
 
-![](assets/tech-quarantine-status.png)
+![Address record with the Status drop-down list open and the Valid status selected to remove it from quarantine](assets/tech-quarantine-status.png)
 
 ### Bulk updates {#unquarantine-bulk}
 

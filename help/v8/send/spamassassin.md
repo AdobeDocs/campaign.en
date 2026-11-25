@@ -48,7 +48,7 @@ For more on creating and designing a delivery, refer to this [page](defining-the
 1. Go to the **[!UICONTROL Preview]** tab.
 1. Select a recipient to preview your delivery.
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![Delivery Preview tab with the recipient list open to choose a recipient for the anti-spam check](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -56,13 +56,13 @@ For more on creating and designing a delivery, refer to this [page](defining-the
 
 1. A warning message gives the result of the test. If a high level of risk is detected, the following warning message is displayed:
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![Preview tab warning: Anti-spam checking has detected a high risk for this email, with the More link](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. Click the **[!UICONTROL More...]** link next to the warning.
 1. Select the **[!UICONTROL Anti-spam checking]** tab.
 1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![Anti-spam checking tab with spam score, maximum authorized score and the Points / Rule / Description list](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

@@ -35,7 +35,7 @@ topic_v2:
 
 To define the name and address of the sender which will appear in the header of messages sent, click the **[!UICONTROL From]** link.
 
-![](assets/s_ncs_user_wizard_email02.png)
+![Email header parameters dialog opened from From link, with the personalization menu on the From field](assets/s_ncs_user_wizard_email02.png)
 
 This window lets you enter all the information required to create the email message headers. This information can be personalized. To do this, use the buttons to the right of the input fields to insert personalization fields.
 
@@ -60,7 +60,7 @@ The subject of the message is configured in the corresponding field. You can ent
 >
 >The message subject is mandatory.
 
-![](assets/s_ncs_user_wizard_email_object.png)
+![Edit message subject dialog with the personalization menu open on Recipient to insert First name](assets/s_ncs_user_wizard_email_object.png)
 
 The field content will be replaced by the value in the recipient profile when the message is sent.
 
@@ -102,11 +102,11 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   The toolbar buttons provide access to the standard actions and formatting parameters for the HTML page.
 
-  ![](assets/s_ncs_user_wizard_email01_138.png)
+  ![HTML content tab with the formatting toolbar and the Insert hypertext link button highlighted](assets/s_ncs_user_wizard_email01_138.png)
 
   You can insert images in messages from a local file or from an image library in Adobe Campaign. To do this, click the **[!UICONTROL Image]** icon and select the appropriate option.
 
-  ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![Image button menu in the HTML toolbar with From a local file and From the library options](assets/s_ncs_user_wizard_email01_18.png)
 
   Library images can be accessed via the **[!UICONTROL Resources>Online>Public resources]** folder in the folder tree. Also refer to [Adding images](#adding-images).
 
@@ -118,19 +118,19 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   The tabs at the bottom of the page let you display the HTML code of the page being created and view the rendering of the message with its personalization. To launch this display, click **[!UICONTROL Preview]** and select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined target(s) or choose another recipient.
 
-  ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![Preview in HTML content tab: personalization menu to pick a recipient, seed address or target population](assets/s_ncs_user_wizard_email01_139.png)
 
   You can validate the HTML message. You can also view the content of the email header.
 
-  ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![HTML preview for a selected recipient, with personalized subject and content and the From, Subject and Size header](assets/s_ncs_user_wizard_email01_140.png)
 
 * To import a text content, use the **[!UICONTROL Open]** button, or the **[!UICONTROL Text Content]** tab to enter the content of the message when displayed in text format. Use the toolbar buttons to access actions on the contents. The last button lets you insert personalization fields.
 
-  ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![Text content tab with the plain-text message source and personalization fields](assets/s_ncs_user_wizard_email01_141.png)
 
   As for the HTML format, click the **[!UICONTROL Preview]** tab at the bottom of the page to view the rendering of the message with its personalization. 
 
-  ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![Text content preview for a selected recipient, with personalized text and the mirror page and unsubscription blocks](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## Define interactive content {#amp-for-email-format}
@@ -143,11 +143,11 @@ For more on this, see [Define interactive content in Adobe Campaign](defining-in
 
 You can define the content of the delivery using the content management forms, directly in the delivery assistant. To do this, you must reference the publication template of the content management to be used, in the **[!UICONTROL Advanced]** tab of the delivery properties.
 
-![](assets/s_ncs_content_in_delivery.png)
+![Delivery properties Advanced tab with a publication template selected in the Template field](assets/s_ncs_content_in_delivery.png)
 
 An additional tab lets you enter content that will automatically be integrated and formatted according to the content management rules.
 
-![](assets/s_ncs_content_in_delivery_edition_tab.png)
+![Delivery with a content template, showing the Edit tab with the content fields to fill in](assets/s_ncs_content_in_delivery_edition_tab.png)
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ You can insert emoticons to your email content.
 1. Click the **[!UICONTROL Insert emoticon]** icon.
 1. Select an emoticon from the pop-up window.
 
-    ![](assets/emoticon_4.png)
+    ![Insert emoticon pop-up window listing the available emoticons, with one selected for the HTML content](assets/emoticon_4.png)
 
 1. Click the **[!UICONTROL Close]** button when done.
 
@@ -192,7 +192,7 @@ Images can be:
 
 The delivery assistant lets you add local images, or images stored in the library, to the content of messages. To do this, click the **[!UICONTROL Image]** button in the HTML content toolbar.
 
-![](assets/s_ncs_user_image_from_library.png)
+![Image button menu in the HTML toolbar with From the library option selected](assets/s_ncs_user_image_from_library.png)
 
 >[!IMPORTANT]
 >
@@ -201,18 +201,18 @@ The delivery assistant lets you add local images, or images stored in the librar
 To manage images via the delivery assistant:
 
 1. Click the **[!UICONTROL Tracking & Images]** icon in the toolbar.
-  ![](assets/s_ncs_user_email_del_img_param.png)
+  ![Tracking and images button highlighted in the delivery toolbar](assets/s_ncs_user_email_del_img_param.png)
 
 1. Select **[!UICONTROL Upload images]** in the **[!UICONTROL Images]** tab.
 1. You can then choose whether you wish to include the images in the email message.
-  ![](assets/s_ncs_user_email_del_img_upload.png)
+  ![Images tab with Upload images selected and the list of detected images with their Not yet online status](assets/s_ncs_user_email_del_img_upload.png)
 
 * You can upload images manually without waiting for the delivery analysis phase. To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
 * You can specify another path for access to the images on the tracking server. To do this, enter it in the **[!UICONTROL Images URL]** field. This value overrides the value defined in the parameters of the installation assistant.
 
 When you open HTML content with included images in the delivery assistant, a message gives you the option of uploading the images immediately, according to the delivery parameters.
 
-![](assets/s_ncs_user_email_del_img_local.png)
+![Prompt asking whether to publish the relative images of the opened HTML file now, with Yes and No buttons](assets/s_ncs_user_email_del_img_local.png)
 
 >[!IMPORTANT]
 >
@@ -223,11 +223,11 @@ When you open HTML content with included images in the delivery assistant, a mes
 
 Below is a sample of a delivery with four images:
 
-![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
+![HTML content of a delivery with arrows pointing to its four images](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
 These images come from a local directory or Web site as you can verify from the **[!UICONTROL Source]** tab.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_2.png)
+![Source tab of the delivery showing the image paths, from a local directory or website, marked by arrows](assets/s_ncs_user_images_in_delivery_wiz_2.png)
 
 Click the **[!UICONTROL Tracking & Images]** icon and then the **[!UICONTROL Images]** tab to start detecting images in the message.
 
@@ -245,7 +245,7 @@ During the analysis phase, the images are automatically uploaded to the server s
 
 You can work ahead and upload images so that they can be viewed by other Adobe Campaign operators. You may find this useful if working collaboratively. To do this, click **[!UICONTROL Upload the images straightaway...]** to upload the images onto the server.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
+![Images tab listing local image paths with Not yet online status and the Upload the images straightaway link](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
 >[!NOTE]
 >
@@ -253,11 +253,11 @@ You can work ahead and upload images so that they can be viewed by other Adobe C
 
 Once the images are online, you can view changes to their names and paths from the **[!UICONTROL Source]** tab of the message.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_4.png)
+![Source tab after upload, with the image URLs replaced by new paths marked by arrows](assets/s_ncs_user_images_in_delivery_wiz_4.png)
 
 If you select **[!UICONTROL Include the images in the email]**, you can choose which images to include in the corresponding column.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_5.png)
+![Images tab with Include the images in the email selected and the Embed in the e-mail option for an image](assets/s_ncs_user_images_in_delivery_wiz_5.png)
 
 >[!NOTE]
 >
@@ -271,7 +271,7 @@ It is possible to dynamically generate a barcode as a bitmap using a value defin
 
 To insert a barcode into an email, place the cursor in the content where you want to display it, then click the personalization button. Select **[!UICONTROL Include > Barcode...]**.
 
-![](assets/barcode_insert_14.png)
+![Personalization menu in the HTML editor with Include and the Barcode option selected](assets/barcode_insert_14.png)
 
 Then configure the following elements to suit your needs:
 
@@ -281,28 +281,28 @@ Then configure the following elements to suit your needs:
 
       Example of a 1D barcode:
 
-      ![](assets/barcode_insert_08.png)
+      ![Example of a 1D barcode with its number below](assets/barcode_insert_08.png)
 
     * The DataMatrix and PDF417 types concern the 2D format.
 
       Example of a 2D barcode:
 
-      ![](assets/barcode_insert_09.png)
+      ![Example of a 2D DataMatrix barcode](assets/barcode_insert_09.png)
 
     * To insert a QR code, select this type and enter the error correction rate to apply. This rate defines the quantity of information repeated and the tolerance to deterioration.
 
-      ![](assets/barcode_insert_06.png)
+      ![Barcode settings with QR Code type, a value with a personalization field and 30% error correction](assets/barcode_insert_06.png)
 
       Example of a QR code:
 
-      ![](assets/barcode_insert_12.png)
+      ![Example of a QR code](assets/barcode_insert_12.png)
 
 1. Enter the size of the barcode that you want to insert into the email: configuring the scale lets you increase or reduce the size of the barcode, from x1 to x10.
 1. The **[!UICONTROL Value]** field enables you to define the value of the barcode. A value can match a special offer and can be the function of a criterion, it can be the value of a database field linked to the customers.
 
    This example shows an EAN-8 type barcode, to which was added the account number of a recipient. To add this account number, click the personalization button to the right of the **[!UICONTROL Value]** field and select **[!UICONTROL Recipient > Account number]**.
 
-   ![](assets/barcode_insert_15.png)
+   ![Barcode Value field personalization menu with Recipient and Account number selected](assets/barcode_insert_15.png)
 
 1. The **[!UICONTROL Height]** field lets you configure the height of the barcode without changing its width, by altering the amount of space between each bar.
 
@@ -318,10 +318,10 @@ Then configure the following elements to suit your needs:
 
 Once these elements have been configured, you can finalize your email and send it. To avoid errors, always make sure your content is displayed correctly before performing a delivery by clicking the **[!UICONTROL Preview]** tab.
 
-![](assets/barcode_insert_10.png)
+![Delivery preview with a QR code inserted at the end of the personalized message content](assets/barcode_insert_10.png)
 
 >[!NOTE]
 >
 >If the value of a barcode is incorrect, its bitmap is shown crossed out in red.
 
-![](assets/barcode_insert_11.png)
+![Preview of an email in which an invalid barcode value shows the barcode crossed out in red](assets/barcode_insert_11.png)

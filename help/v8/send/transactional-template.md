@@ -46,16 +46,16 @@ To create a message template, follow the steps below:
 1. Go to the **[!UICONTROL Message Center >Transactional message templates]** folder in the Adobe Campaign tree.
 1. In the list of transactional message templates, right-click and select **[!UICONTROL New]** in the drop-down menu or click the **[!UICONTROL New]** button above the list of transactional message templates. 
 
-   ![](assets/messagecenter_create_model_001.png)
+   ![New button in the Transactional message templates list, used to create a message template](assets/messagecenter_create_model_001.png)
 
 1. In the delivery window, select the delivery template suitable for the channel you want to use.
 
-   ![](assets/messagecenter_create_model_002.png)
+   ![Delivery template list with Android, Direct mail, Email, iOS and Mobile transactional message templates](assets/messagecenter_create_model_002.png)
 
 1. Change its label if necessary.
 1. Select the type of event that matches the message you want to send. Event types destined to be processed by Adobe Campaign must be created beforehand. [Learn more](../send/transactional.md#create-event-types)
 
-   ![](assets/messagecenter_create_model_003.png)
+   ![Event type drop-down in the new transactional message delivery window, listing purchase and command event types](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
@@ -76,7 +76,7 @@ The definition of the transactional message content is the same as for all deliv
 
 Once you have defined your message content, you can integrate event information into the message body and personalize it. Event information is inserted into the body of the text thanks to personalization tags.
 
-![](assets/messagecenter_create_content.png)
+![HTML content editor with the Message menu open to insert personalization fields in a transactional message](assets/messagecenter_create_content.png)
 
 * All the personalization fields are coming from the payload.
 * It is possible to reference one or several personalization blocks in a transactional message. <!--The block content will be added to the delivery content during the publication to the execution instance.-->
@@ -87,11 +87,11 @@ To insert personalization tags into the body of an email message, apply the foll
 1. Enter the body of the message.
 1. In the body of the text, insert the tag using the **[!UICONTROL Real time events>Event XML]** menus.
 
-   ![](assets/messagecenter_create_custo_1.png)
+   ![Real time events menu with Event XML selected to insert an event personalization tag in the HTML content](assets/messagecenter_create_custo_1.png)
 
 1. Fill in the tag using the following syntax: **element name**.@**attribute name** as shown below.
 
-   ![](assets/messagecenter_create_custo_2.png)
+   ![Event personalization tags in the HTML content using the element name and attribute syntax, one tag underlined](assets/messagecenter_create_custo_2.png)
 
 ## Test the transactional message template {#test-message-template}
 
@@ -101,23 +101,23 @@ A seed address lets you display a preview of your message, send a proof, and tes
 
 1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab, then click the **[!UICONTROL Add]** button.
 
-   ![](assets/messagecenter_create_seed_1.png)
+   ![Seed addresses tab of the template with the Add button highlighted](assets/messagecenter_create_seed_1.png)
 
 1. Assign a label to it for easy selection later, then enter the seed address (email or mobile phone depending on the communication channel).
 
 1. Enter the external identifier: this optional field allows you to enter a business key (unique ID, name + email, etc.) that is common to all applications on your website, used to identify your profiles. If this field is also present in the Adobe Campaign marketing database, you can then reconcile an event with a profile in the database.
 
-   ![](assets/messagecenter_create_seed_2.png)
+   ![Seed address dialog with Label, Email and External identifier fields filled in](assets/messagecenter_create_seed_2.png)
 
 1. Insert test data. [Learn more on personalization data in Campaign Classic v7 documentation](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
-   ![](assets/messagecenter_create_custo_3.png)
+   ![Seed address dialog with test data in the Content section, written as XML for the event context](assets/messagecenter_create_custo_3.png)
 
 1. Click **[!UICONTROL Ok]** to confirm the creation of the seed address.
 
 1. Repeat the process to create as many addresses as you need.
 
-   ![](assets/messagecenter_create_seed_6.png)
+   ![Seed addresses tab listing three seed addresses created for the Purchase Delivery template](assets/messagecenter_create_seed_6.png)
 
 Once the addresses are created, you can access their preview and personalization.
 
@@ -146,11 +146,11 @@ Once you have created one or more seed addresses and the message body, you can p
 
 1. In the message template, click the **[!UICONTROL Preview]** tab, then select **[!UICONTROL A seed address]** in the drop-down list.
 
-   ![](assets/messagecenter_preview_1.png)
+   ![Preview tab with the Test personalization menu open and A seed address selected](assets/messagecenter_preview_1.png)
 
 1. Select the seed address created previously to display the personalized message.
 
-   ![](assets/messagecenter_create_seed_7.png)
+   ![Seed address selection dialog and the preview showing the personalized message content](assets/messagecenter_create_seed_7.png)
 
 ### Send a proof {#send-proof}
 
@@ -171,15 +171,15 @@ To send the proof:
 1. Analyze the delivery.
 1. Correct any errors and confirm the delivery.
 
-   ![](assets/messagecenter_send_proof_001.png)
+   ![Send a proof dialog showing delivery preparation complete with Messages to send and the Confirm delivery button](assets/messagecenter_send_proof_001.png)
 
 1. Check that the message was delivered to the seed address and that its content complies with your configuration.
 
-   ![](assets/messagecenter_send_proof_002.png)
+   ![Received proof email with personalization values from the seed address data underlined](assets/messagecenter_send_proof_002.png)
 
 Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
 
-![](assets/messagecenter_send_proof_003.png)
+![Audit tab of the template listing the proofs sent, with their messages to send, processed and success counts](assets/messagecenter_send_proof_003.png)
 
 #### Transition from [!DNL Campaign Classic] v7 {#transition-from-v7}
 
@@ -189,7 +189,7 @@ However, when creating a transactional message template, the routing needed for 
 
 Consequently, to send a proof for your transactional message template, you must change the routing from internal email delivery to the **mid-sourcing routing account**.
 
-![](assets/messagecenter_send_proof_004.png)
+![Delivery properties General tab with the Routing field and the Email routing using mid-sourcing account selected](assets/messagecenter_send_proof_004.png)
 
 Once the proofs have been sent, you must change the routing back to internal email delivery prior to publishing the transactional message template.
 
@@ -213,11 +213,11 @@ Publication lets you automatically create two message templates on the execution
 1. Select the template you want to publish<!--on your execution instances-->.
 1. Click **[!UICONTROL Publish]**.
 
-   ![](assets/messagecenter_publish_template.png)
+   ![Publishing the template dialog with Process complete and the log of the publication, after clicking Publish](assets/messagecenter_publish_template.png)
 
 Once publication is complete, both message templates to be applied to batch and real-time type events are created in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
 
-![](assets/messagecenter_deployed_model.png)
+![Published template in the list and its two deployed templates in the Message Center Execution folder](assets/messagecenter_deployed_model.png)
 
 Once a template is published, if the corresponding event is triggered, Adobe Campaign<!--execution instance--> will receive the event, link it to the transactional template and send the corresponding transactional message to each recipient.
 
@@ -246,7 +246,7 @@ To unpublish a transactional message template, follow the steps below.
 1. Click **[!UICONTROL Unpublish]**.
 1. Click **[!UICONTROL Start]**.
 
-![](assets/message-center-unpublish.png)
+![Unpublishing the template dialog with the Start button, opened from the Unpublish button of a published template](assets/message-center-unpublish.png)
 
 The transactional message template status changes back from **[!UICONTROL Published]** to **[!UICONTROL Being edited]**.
 

@@ -55,7 +55,7 @@ You can test tracking on mirror pages, email logs and links by following the ste
 1. Design your email content with links that you want to track. [Learn about email content design](defining-the-email-content.md)
 1. Add a mirror page personalization block in the email content. [Learn about personalization blocks](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   ![Personalization menu with Include and Link to mirror page selected in the email content editor](assets/mirror-page-insert.png)
 
 1. Specify the user that will receive the email. Since this user will have to open the email and click the links it contains, make sure you select a test recipient address that you control. [Learn about test profiles](../audiences/test-profiles.md)
 
@@ -67,7 +67,7 @@ You can test tracking on mirror pages, email logs and links by following the ste
    * Ensure that **[!UICONTROL Activate tracking]** is checked
    * Ensure that **[!UICONTROL Opens tracking]** is checked if you want to track opens
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   ![Tracking and Images dialog with Activate tracking and Opens tracking checked and the tracked URLs list](assets/s_ncs_user_email_del_tracking_param.png)
 
    [Learn more about URL tracking options](url-tracking.md)
 
@@ -88,7 +88,7 @@ You can test tracking on mirror pages, email logs and links by following the ste
    * Select the **[!UICONTROL Tracking]** tab
    * Check that the list of tracking logs appears with the URLs clicked and other tracking events
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ![Delivery Tracking tab with a list of tracking logs showing labels, click and open types, and recipients](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Step 4: Check recipient tracking tab {#check-recipient-tracking}
 
@@ -97,7 +97,7 @@ You can test tracking on mirror pages, email logs and links by following the ste
 
 1. Select the **[!UICONTROL Tracking]** tab. [Learn more about tracking logs](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![Recipient profile Tracking tab listing tracking logs with date, label, type and delivery](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. Verify that tracking records appear with:
    * The **[!UICONTROL Mirror Page]** value in the **[!UICONTROL Type]** column

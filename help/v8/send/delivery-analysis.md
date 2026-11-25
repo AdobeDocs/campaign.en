@@ -37,7 +37,7 @@ To prepare the delivery, make sure the delivery content and target have been def
 1. From the delivery windows, click the **[!UICONTROL Send]** button.
 1. Select **[!UICONTROL Deliver as soon as possible]** to perform the audience calculation, and content preparation for an immediate sending. You can also postpone the delivery to a later date, or get an estimation of the population without preparing the content.
 
-   ![](assets/delivery-analysis-start.png)
+   ![Send to the main delivery target dialog with Deliver as soon as possible selected, plus the Analyze button](assets/delivery-analysis-start.png)
 
 1. Click **[!UICONTROL Analyze]** to launch the analysis manually. The progress bar shows the progress of the analysis.
 
@@ -68,7 +68,7 @@ To prepare the delivery, make sure the delivery content and target have been def
     * A yellow icon indicates a non-critical processing error.
     * A red icon indicates a critical error that prevents sending the delivery.
 
-    ![](assets/delivery-analysis-results.png){width="800"}
+    ![Analysis results: preparation complete, 22 messages to send, log with a warning, and the Confirm delivery button](assets/delivery-analysis-results.png){width="800"}
 
 1. Click **[!UICONTROL Close]** to correct the errors if any. After making the changes, restart the analysis clicking **[!UICONTROL Analyze]**.
 
@@ -84,7 +84,7 @@ To prepare the delivery, make sure the delivery content and target have been def
 
 Browse to the **[!UICONTROL Analysis]** tab of the delivery properties to define settings for the message preparation during the analysis phase.
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![Delivery properties Analysis tab with label and code options, Approval mode set to Manual, and FFDA settings](assets/delivery-properties-analysis-tab.png){width="800"}
 
 This tab gives access to the following options:
 

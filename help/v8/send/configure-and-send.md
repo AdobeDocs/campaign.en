@@ -28,7 +28,7 @@ Access the delivery parameters to configure more settings and define how to send
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
-![](assets/delivery-properties-delivery.png)
+![Delivery properties Delivery tab with priority, waves, retries, personalization and mail format settings](assets/delivery-properties-delivery.png)
 
 ### Delivery priority {#delivery-priority}
 
@@ -63,7 +63,7 @@ To define waves, follow these steps:
 1. Open the delivery properties and browse to the **[!UICONTROL Delivery]** tab.
 1. Enable the **[!UICONTROL Send using multiple waves]** option, and click the **[!UICONTROL Define waves...]** link.
 
-   ![](assets/delivery-define-waves.png)
+   ![Delivery tab with Send using multiple waves selected and the Define waves link highlighted](assets/delivery-define-waves.png)
 
 ### Configure waves {#config-waves}
 
@@ -77,13 +77,13 @@ You can either define the size of each wave, or add them to a calendar.
 
   In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. For example, if you enter **[!UICONTROL 2d]**, the first wave will start immediately, the second wave will start in two days, the third wave in four days, and so on.
 
-  ![](assets/delivery-waves-size.png)
+  ![Waves definition dialog with equal-size waves set to 30% and a 2d period between waves](assets/delivery-waves-size.png)
 
 * **Define a calendar for sending each wave**.  For example, the first wave represents 25% of the total number of messages included in the delivery and will start immediately. The next two waves complete the delivery and are set to begin at six-hour intervals.
 
   In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
 
-  ![](assets/delivery-waves-calendar.png)
+  ![Waves definition dialog with a calendar of three waves: 25% at 0s, 50% at 6h and 25% at 6h](assets/delivery-waves-calendar.png)
 
 ### Wave scheduling check {#check-waves}
 
@@ -116,7 +116,7 @@ The two examples below are the most common use cases for using multiple waves.
 
   To do so, use the **[!UICONTROL Schedule waves according to a calendar]** option. For example, set the first wave to 10%, the second to 15%, and so on.
 
-  ![](assets/delivery-waves-ex-ramp-up.png)
+  ![Waves definition calendar with five waves of increasing size, from 10% to 30%, 12h apart](assets/delivery-waves-ex-ramp-up.png)
 
 * **Campaigns with a call center**
 
@@ -126,7 +126,7 @@ The two examples below are the most common use cases for using multiple waves.
 
   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave's size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
 
-  ![](assets/delivery-waves-ex-call-center.png)
+  ![Waves definition dialog with equal-size waves of 20 messages and a 1d period](assets/delivery-waves-ex-call-center.png)
 
 ## Confirm the delivery {#confirm-delivery}
 
@@ -141,11 +141,11 @@ To do this, follow the steps below.
 
 1. Click **[!UICONTROL Analyze]**. For more on this, see [Delivery analysis](delivery-analysis.md).
 
-    ![](assets/delivery-send-analyze.png)
+    ![Send to the main delivery target dialog with Deliver as soon as possible selected and the Analyze button highlighted](assets/delivery-send-analyze.png)
 
 1. Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
-    ![](assets/delivery-send-confirm.png)
+    ![Send to the main delivery target dialog after analysis, with the Confirm delivery button highlighted](assets/delivery-send-confirm.png)
 
 1. You can close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
 
@@ -164,7 +164,7 @@ You can defer the delivery of messages in order to schedule the delivery or to m
 
 1. Specify a start date in the **[!UICONTROL Contact date]** field.
 
-    ![](assets/delivery-send-postpone.png)
+    ![Send to the main delivery target dialog with Postpone the delivery selected and a Contact date entered](assets/delivery-send-postpone.png)
 
 1. Start the delivery analysis and confirm the delivery sending. However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
 
@@ -172,13 +172,13 @@ You can defer the delivery of messages in order to schedule the delivery or to m
     >
     >Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
 
-    ![](assets/delivery-send-scheduled.png)
+    ![Delivery preparation complete message showing the Delivery scheduled for date and the Confirm delivery button](assets/delivery-send-scheduled.png)
 
 In the delivery list, the delivery will appear with the **[!UICONTROL Pending]** status.
 
 Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
 
-![](assets/delivery-scheduling-button.png)
+![Scheduling dialog opened from the Scheduling button, with Schedule delivery (no automatic execution) selected](assets/delivery-scheduling-button.png)
 
 It lets you defer the delivery to a later date or save the delivery in the provisional calendar.
 
@@ -194,7 +194,7 @@ Dates and times are expressed in the time zone of the current operator. The **[!
 
 For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone:
 
-![](assets/delivery-schedule-time-zone.png)
+![Scheduling dialog with the Time zone drop-down list open to convert the contact date to another time zone](assets/delivery-schedule-time-zone.png)
 
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}

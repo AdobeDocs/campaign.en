@@ -68,7 +68,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 The number of remaining available tokens is displayed in the [Inbox rendering report](#inbox-rendering-report).
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+![Inbox Rendering Results report with the number of tokens used out of the monthly package highlighted](assets/s_tn_inbox_rendering_tokens.png)
 
 Typically, the Inbox rendering feature is used to test the HTML framework of a newly designed email. Each rendering requires approximately up to 70 tokens (depending on the number of environments generally tested on). However, in some cases you may require multiple inbox rendering reports to fully test your delivery. It could therefore take more tokens to complete several checks.
 
@@ -83,17 +83,17 @@ For more on creating, designing and targeting a delivery, refer to this [page](d
 
 1. Select **[!UICONTROL Analyze]** to start the capture process.
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   ![Inbox rendering button in the delivery toolbar and the Analyze button of the Inbox rendering dialog](assets/s_tn_inbox_rendering_button.png)
 
    A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [Send proofs](preview-and-proof.md#send-proofs).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![Deliveries list with the proof of the email delivery selected after it was sent](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. Go to the **Inbox Rendering** tab of the proof.
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![Inbox Rendering tab of the proof, highlighted, with the report summary and Mobile section](assets/s_tn_inbox_rendering_tab.png)
 
    The Inbox rendering report is displayed.
 
@@ -103,14 +103,14 @@ This report displays the inbox renderings as they appear to the recipient. The r
 
 The top section presents the repartition of number of messages received, unwanted (spam), not received, or pending reception through a graphical color-coded representation.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![Pie chart of Inbox, Spam, Not received and Waiting for receipt, with Not received and Waiting hidden](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 Hover over the chart to display the details for each color. Click on an item on the list to hide or display the corresponding category in the chart.
 
 The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]**, and **[!UICONTROL Webmails]**. Scroll down the report to display all the renderings grouped into these three categories.
 
-![](assets/s_tn_inbox_rendering_report.png)
+![Webmails section of the Inbox rendering report with a card for each webmail and browser combination](assets/s_tn_inbox_rendering_report.png)
 
 To get the details for each report, click the corresponding card. The rendering is displayed for the reception method selected.
 
-![](assets/s_tn_inbox_rendering_example.png)
+![Detailed rendering of the email in Gmail on Chrome, opened from its card in the report](assets/s_tn_inbox_rendering_example.png)

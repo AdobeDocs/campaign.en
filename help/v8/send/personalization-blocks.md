@@ -40,7 +40,7 @@ To insert a personalization block in a message, follow the steps below:
 1. In the content editor of the delivery wizard, click the personalization icon and select the **[!UICONTROL Include]** menu.
 1. Select a personalization block from the list, or click the **[!UICONTROL Other...]** menu to access the full list.
 
-   ![](assets/perso-content-block.png)
+   ![Include submenu in the personalization menu listing blocks such as Link to mirror page, with Other... at the end](assets/perso-content-block.png)
 
 1. The personalization block is then inserted as a script. It is automatically adapted to the recipient profile when personalization is generated.
 1. Browse to the **[!UICONTROL Preview]** tab and select a recipient to view the content of this block for a specific recipient.
@@ -78,11 +78,11 @@ To create a personalization block, follow the steps below:
 1. Browse to the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** folder of Campaign explorer.
 1. Above the list of built-in blocks, click **[!UICONTROL New]**.
 
-   ![](assets/perso-new-block.png)
+   ![Personalization blocks list in Campaign explorer with an arrow on the New button](assets/perso-new-block.png)
 
 1. Fill in the settings of the personalization block:
 
-   ![](assets/perso-custom-block.png)
+   ![New personalization block form with Label, Internal name, Content type and script content for an opt-out link](assets/perso-custom-block.png)
 
     * Enter the label of the block. This label is displayed in the personalization field insertion window.
     * Select a **Delivery** content type.

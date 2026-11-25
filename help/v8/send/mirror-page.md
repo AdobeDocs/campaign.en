@@ -47,7 +47,7 @@ Inserting a link to the mirror page is a good practice. This link can be for exa
 
 In Adobe Campaign, you can insert a link to the mirror page in the email content using the dedicated **personalization block**. The built-in **Link to mirror page** personalization block inserts the following code in your email content: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="800"}
+![Email editor personalization menu with Include then Link to mirror page selected](assets/mirror-page-insert.png){width="800"}
 
 
 For more on inserting personalization content blocks, refer to [Personalization blocks](personalization-blocks.md).
@@ -61,7 +61,7 @@ You can control the generation mode of the email mirror page. Options are availa
 1. Browse to the **[!UICONTROL Validity]** tab of the email properties.
 1. In the **Mirror page management** section, check the **[!UICONTROL Mode]** drop down list.
 
-![](assets/mirror-page-generation.png){width="800"}
+![Validity tab with the Mirror page management Mode drop-down listing four generation options](assets/mirror-page-generation.png){width="800"}
 
 In addition to the default mode, the following options are available:
 
@@ -79,6 +79,6 @@ To access this mirror page:
 
 1. Select a recipient and click the **[!UICONTROL Display the mirror page for this message...]** link. 
 
-    ![](assets/mirror-page-display.png){width="800"}
+    ![Delivery logs with a log selected and the Display the mirror page for this message link at the bottom left](assets/mirror-page-display.png){width="800"}
 
     The mirror page displays in a dedicated screen, with personalization data for the selected recipient.

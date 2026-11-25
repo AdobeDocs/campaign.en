@@ -42,7 +42,7 @@ Monitoring your deliveries is essential to ensure your campaigns are efficient a
 
 You can access deliveries from the delivery list, via the **[!UICONTROL Campaign Management > Deliveries]** node of the tree.
 
-![](assets/deliveries-list.png)
+![Deliveries list under Campaign Management with status and message counts, and the selected delivery dashboard below](assets/deliveries-list.png)
 
 By default, the list of deliveries contains the names and statuses of the deliveries created in the selected node. It also shows the number of messages to send, processed and sent with success.
 
@@ -69,7 +69,7 @@ Here is the information you can monitor using the several tabs that are availabl
 * [Delivery rendering](#delivery-rendering)
 * [Delivery audit](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![Delivery dashboard Summary tab with to send, processed and success figures, status and email configuration](assets/s_ncs_user_del_details.png)
 
 **Related topics:**
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Reports]** link, which is accessible from the **[!UICONTROL Su
 
 The contents of this tab can be configured according to your requirements. For more on delivery reports, refer to [Adobe Campaign built-in delivery reports](../reporting/delivery-reports.md).
 
-![](assets/delivery-report.png)
+![Reports view of the delivery Summary tab listing the available delivery reports](assets/delivery-report.png)
 
 ## Delivery logs, history and exclusions {#delivery-logs-and-history}
 
@@ -100,13 +100,13 @@ For a delivery, you can display (for example) only recipients with a failed deli
 >
 >The list displaying the delivery logs can be customized, as any list in Campaign. You can, for example, add a column to know which IP address sent each email in a delivery. For more on configuring list display, refer to [Manage and customize lists](../config/ui-settings.md#customize-lists).
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![Delivery tab Logs sub-tab with the Status filter drop-down listing the delivery log statuses](assets/s_ncs_user_delivery_delivery_tab.png)
 
 The **[!UICONTROL Display the mirror page for this message...]** link lets you view the mirror page for the contents of the delivery selected from the list in a new window.
 
 The mirror page is available only for deliveries for which HTML content has been defined. For more on this, refer to [Link to the mirror page](mirror-page.md).
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![Delivery logs list with the Display the mirror page for this message link highlighted](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Delivery tracking logs and history {#tracking-logs}
 
@@ -120,7 +120,7 @@ Tracking configuration is performed at the appropriate stage in the delivery ass
 
 **[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [Adobe Campaign built-in delivery reports](../reporting/delivery-reports.md).
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![Tracking tab Logs sub-tab listing tracked opens and clicks with date, label, type and recipient](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Inbox rendering {#delivery-rendering}
 
@@ -141,7 +141,7 @@ Special icons enable you to identify errors or warnings. See [Delivery analysis]
 
 The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have been sent.
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![Audit tab Proofs sub-tab listing the proofs sent for the delivery with messages to send, processed and success](assets/s_ncs_user_delivery_log_tab.png)
 
 You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [Manage and customize lists](../config/ui-settings.md#customize-lists).
 

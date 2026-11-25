@@ -41,7 +41,7 @@ When the delivery has been sent and tracking activated, the **[!UICONTROL Tracki
 
 This information appears in the **[!UICONTROL Tracking]** tab of the profile of recipients targeted by the delivery, as in the following example:
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![Tracking tab of a recipient profile listing tracked clicks and opens with date, label, type and delivery](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 This tab displays all URLs tracked and clicked by the recipient, including:
 
@@ -56,7 +56,7 @@ You can filter and sort this information to analyze recipient behavior and ident
 
 Tracking information is also accessible via the **[!UICONTROL Tracking]** tab of the delivery.
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![Tracking tab of a delivery listing tracking logs with date, label, type and recipient](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 From this tab, you can view:
 

@@ -53,7 +53,7 @@ To create a new direct mail delivery, follow the steps below:
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Deliver by direct mail (paper)**.
 
-   ![](assets/direct_mail.png)
+   ![New delivery dialog with the Deliver by direct mail (paper) template selected in the list](assets/direct_mail.png)
 
 1. Identify your delivery with a label, code, and description. For more on this, refer to [Create the delivery](../start/create-message.md#create-the-delivery).
 1. Click **Continue** to confirm this information and display the message configuration window.
@@ -76,15 +76,15 @@ The name of the file which contains the extracted data is defined in the **[!UIC
 
 By default, the extraction file is created and stored on the server. You can save it on your computer. To do this, check the **[!UICONTROL Download the generated file after the analysis of the delivery]**. In this case, you need to indicate the access path to the local storage directory as well as the file name.
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![Extraction tab with Download the generated file option checked and a local file path entered](assets/s_ncs_user_mail_delivery_local_file.png)
 
 For a direct mail delivery, the content of the extraction is defined in **[!UICONTROL Edit the extraction file format...]** link.
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![Extraction tab with the Edit the extraction file format link highlighted](assets/s_ncs_user_mail_delivery_format_link.png)
 
 This link lets you access the extraction assistant and define the information (columns) to be exported into the output file.
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![Data to extract wizard with fields dragged from Available fields into Output columns](assets/s_ncs_user_mail_delivery_format_wz.png)
 
 You can insert a personalized URL into the extraction file. For more on this, refer to [Publish a web form](../dev/web/publishing-a-web-form.md).
 
@@ -112,7 +112,7 @@ Check the result of the analysis and the content of the output file before click
 
 The send confirmation starts the data extraction in the specified file.
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![Start delivery confirmation dialog with OK and Cancel for a Direct Mail delivery in Pending status](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 You can then close the assistant and look at the delivery logs via the **[!UICONTROL Delivery]** tab, accessible via the delivery details.
 

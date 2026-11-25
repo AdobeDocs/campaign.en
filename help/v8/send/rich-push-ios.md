@@ -52,7 +52,7 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Default]**.
 
-   ![](assets/rich_push_ios_default_1.png)
+   ![General tab with the Notification Type drop-down listing Default, Basic, Carousel and Timer](assets/rich_push_ios_default_1.png)
 
 1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear in the list of notifications available from the notification center. 
 
@@ -62,17 +62,17 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 1. Enter the content of the message in the **[!UICONTROL Message content]** section of the wizard.
 
-   ![](assets/rich_push_ios_default_2.png)
+   ![General tab with Default notification type, title and message content filled in](assets/rich_push_ios_default_2.png)
 
 1. Navigate to the **[!UICONTROL Sound and Badge]** tab to customize additional settings such as sound and badge options for your notifications. [Learn more](#sound-badge)
 
-   ![](assets/rich_push_ios_default_3.png)
+   ![Sound and Badge tab with Clean Badge checked, Critical Alert Mode and sound Name settings](assets/rich_push_ios_default_3.png)
 
 1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
 1. For further customization, explore the **[!UICONTROL Advanced options]** available for your push notifications. [Learn more](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![Advanced tab with Thread-id, Category, Target Content id, Launch image and Relevance score fields](assets/rich_push_ios_default_4.png)
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification.
 
@@ -82,13 +82,13 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Basic]**.
 
-    ![](assets/rich_push_ios_basic_1.png)
+    ![Notification Type drop-down with Basic selected, adding Expanded Title and Expanded Message fields](assets/rich_push_ios_basic_1.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**,**[!UICONTROL Expanded message]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_ios_basic_2.png)
+    ![Basic notification with Title, Expanded Title, Message and Expanded Message fields filled in](assets/rich_push_ios_basic_2.png)
 
 1. Optionally, add a **[!UICONTROL Subtitle]**, which corresponds to the **subtitle** parameter of the iOS notification payload.
 
@@ -98,11 +98,11 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 1. For further customization, explore the **[!UICONTROL Advanced options]** available for your push notifications. [Learn more](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![Advanced tab with Thread-id, Category, Target Content id, Launch image and Relevance score fields](assets/rich_push_ios_default_4.png)
 
 1. In the **[!UICONTROL Color options]** menu, enter hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
-    ![](assets/rich_push_ios_basic_3.png)
+    ![Color Options tab with Title Color, Message Color and Background Color fields](assets/rich_push_ios_basic_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -112,17 +112,17 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Carousel]**.
 
-    ![](assets/rich_push_ios_carousel_1.png)
+    ![Notification Type drop-down with Carousel selected, adding Color Options and Carousel Options tabs](assets/rich_push_ios_carousel_1.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Expanded Title]** and **[!UICONTROL Message]** fields.
 
-    ![](assets/rich_push_ios_carousel_2.png)
+    ![Carousel notification with Title, Expanded Title and Message fields filled in](assets/rich_push_ios_carousel_2.png)
 
 1. Navigate to the **[!UICONTROL Sound and Badge]** tab to customize additional settings such as sound and badge options for your notifications. [Learn more](#sound-badge)
 
 1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
-    ![](assets/rich_push_ios_carousel_4.png)
+    ![Advanced tab of a Carousel notification with Thread-id, Target Content id and Click Action fields](assets/rich_push_ios_carousel_4.png)
 
 1. For further customization, explore the **[!UICONTROL Advanced options]** available for your push notifications. [Learn more](#push-advanced)
 
@@ -137,7 +137,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     Ensure that you include a minimum of three images and a maximum of five images.
 
-    ![](assets/rich_push_ios_carousel_3.png)
+    ![Carousel Options tab with Manual operation mode and a list of images with Action URIs](assets/rich_push_ios_carousel_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -147,13 +147,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Timer]**.
 
-   ![](assets/rich_push_ios_timer_1.png)
+   ![Notification Type drop-down with Timer selected, adding Color Options and Timer Options tabs](assets/rich_push_ios_timer_1.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Expanded title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-   ![](assets/rich_push_ios_timer_2.png)
+   ![Timer notification with Title, Expanded Title and Message fields filled in](assets/rich_push_ios_timer_2.png)
 
 1. Optionally, add a **[!UICONTROL Subtitle]**, which corresponds to the **subtitle** parameter of the iOS notification payload.
 
@@ -165,13 +165,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. In the **[!UICONTROL Color options]** menu, enter hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
-    ![](assets/rich_push_ios_timer_4.png)
+    ![Color Options tab with Title Color, Message Color, Background Color and Timer Color fields](assets/rich_push_ios_timer_4.png)
 
 1. From the **[!UICONTROL Timer]** tab, set your **[!UICONTROL Timer duration]** in seconds or the **[!UICONTROL Timer end timestamp]** to a specific epoch timestamp.
 
 1. Enter the text and image that will be displayed after the timer has expired in the **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** and **[!UICONTROL Alternate image]** fields.
 
-   ![](assets/rich_push_ios_timer_3.png)
+   ![Timer Options tab with Alternate Title, Timer Duration, Alternate Image and Alternate Message fields](assets/rich_push_ios_timer_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 

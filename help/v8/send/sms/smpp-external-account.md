@@ -49,7 +49,7 @@ The network equipment on the SMS service provider side is often called the SMSC.
 
 ## Connection settings {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![Connection settings tab of the SMPP external account: server, port, account, password and connection mode](assets/smpp_connection_settings.png){zoomable="yes"}
 
 Here are the parameters and their role needed to set up the connection: 
 
@@ -90,7 +90,7 @@ When enabled, extra logs will be output to the log file. This is very useful for
 
 ## SMPP channel settings {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![SMPP channel settings tab: transliteration option, source number, source and destination TON/NPI, service type](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### Authorize character transliteration {#smpp-transliteration}
 
@@ -120,7 +120,7 @@ This field is transmitted as-is in the service_type field of the SUBMIT_SM PDU. 
 
 ## Throughput and delays {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![Throughput and delays tab: sending window, max MT throughput, reconnection, expiration, bind timeout, enquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 These settings control all the timing aspects of the SMPP channel. Some providers require very precise control of the message rate, window and retry timings, so these settings should be set to values that match the capacity of the provider and the conditions indicated in their contract.
 
@@ -130,7 +130,7 @@ The window is the number of SUBMIT_SM PDUs that can be sent without waiting for 
 
 Example of a transmission with a maximum window of 4:
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![Sequence between Campaign and the SMSC: SUBMIT_SM requests and SUBMIT_SM_RESP replies with a window of 4](assets/sms_sending_window.png){zoomable="yes"}
 
 The window helps increasing throughput when the network link has a high latency. The value of the window must be at least the number of SMS/s multiplied by the latency of the link (in seconds) so the connector is never waiting for a SUBMIT_SM_RESP before sending the next message.
 
@@ -195,7 +195,7 @@ If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will se
 
 ## SMSC specificities {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+![SMSC specificities tab with message_payload, bind TON/NPI, status regexes, ID formats and TLS options](assets/smsc_specificities.png){zoomable="yes"}
 
 ### Activate message_payload
 
@@ -343,7 +343,7 @@ If enabled, all connections to the SMSC will be encrypted using TLS.
 
 ## Incoming traffic {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![Incoming traffic tab: optional SMPP parameters (TLV) in MO and the automatic reply table for the MO](assets/incoming_traffic.png){zoomable="yes"}
 
 ### Optional SMPP parameters (TLV) in MO
 
