@@ -36,7 +36,7 @@ Campaign helps you add contacts to the database. You can load a file, schedule a
 
 Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [Set up a recurring import](../../automation/workflow/recurring-import-workflow.md).
 
-![](assets/import-wf.png) 
+![Update profiles workflow: Updated Contacts and Read list feed Exclusion, then Deduplication, then Update data.](assets/import-wf.png) 
 
 ## Run an import 
 
@@ -53,7 +53,7 @@ The import assistant lets you configure an import, define its options (such as d
 
 The import assistant displays after creating a new import job.
 
-![](assets/new-import.png) 
+![Jobs list with the Create menu showing New import and New export, and the File to import dialog of the import assistant.](assets/new-import.png) 
 
 In the source file, each line coincides with a record. The data in records is separated by delimiters (space, tab, character, etc.). This means that data is retrieved in the form of columns, and each column is associated with a field of the database.
 
@@ -64,7 +64,7 @@ When launching the import assistant, you first have to select a template. As an 
 1. Select the **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** folder.
 1. Click **New** and then click **Import** to create the import template.
 
-   ![](assets/s_ncs_user_import_wizard01_1.png)
+   ![Template selection screen: New text import template, label, description, Simple import type and destination folder.](assets/s_ncs_user_import_wizard01_1.png)
 
 1. Click the arrow to the right of the **[!UICONTROL Import template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
 
@@ -75,11 +75,11 @@ When launching the import assistant, you first have to select a template. As an 
 
    For a multiple import, select **[!UICONTROL Multiple import]** from the **[!UICONTROL Import type]** drop-down list in the first screen of the import assistant.
 
-   ![](assets/s_ncs_user_import_wizard01_2.png)
+   ![Template selection screen with the Import type drop-down listing Simple import and Multiple import.](assets/s_ncs_user_import_wizard01_2.png)
 
 1. Specify the fields you want to import by clicking **[!UICONTROL Add]**.
 
-   ![](assets/s_ncs_user_import_wizard01_3.png)
+   ![Import steps list of a multiple import with two source files and the Add button to add another file.](assets/s_ncs_user_import_wizard01_3.png)
 
    Each time a file is added, the screen of the **[!UICONTROL File to import]** assistant is displayed. See section [Step 2 - Source file selection](#step-2---source-file-selection) and follow the steps in the assistant to define the import options as for a simple import.
 
@@ -93,11 +93,11 @@ The source file can be in text format (txt, csv, tab, fixed columns) or xml.
 
 By default, **[!UICONTROL Upload file on the server]** is selected. Click the folder to the right of the **[!UICONTROL Local file]** field to browse the local disk and select the file to import. You can deselect this option to enter the access path and the name of the file to import if it is on the server.
 
-![](assets/s_ncs_user_import_wizard02_1.png)
+![File to import screen with an empty Local file field and the Upload file on the server option selected.](assets/s_ncs_user_import_wizard02_1.png)
 
 When the file has been specified, you can view its data in the lower section of the window by clicking **[!UICONTROL Auto-detect format]**. This preview displays the first 200 lines of the source file. 
 
-![](assets/s_ncs_user_import_wizard02_2.png)
+![File to import screen with a source file selected and its first lines previewed after clicking Auto-Detect format.](assets/s_ncs_user_import_wizard02_2.png)
 
 Use the options offered above this view to configure the import. The parameters defined via these options are transferred into the preview. The following options are available:
 
@@ -111,7 +111,7 @@ Use the options offered above this view to configure the import. The parameters 
 
 The **[!UICONTROL Click here to change the file format...]** option lets you format the data of the source file, and in particular to specify the column separator and the type of data for each field. This configuration is performed via the following window:
 
-![](assets/s_ncs_user_import_wizard02_3.png)
+![File format dialog: file type, encoding, column separators, per-column label and data type, and a preview.](assets/s_ncs_user_import_wizard02_3.png)
 
 This step lets you describe how the values of the file fields should be read. For example, in the case of a date, the Date or Date + Time data can be associated with a format (dd/mm/yyyy, mm/dd/yy, etc.). If the input data does not match the expected format, rejects will occur during import.
 
@@ -123,7 +123,7 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 
 You must then select the destination schema and map the data of each column onto fields in the database. 
 
-![](assets/s_ncs_user_import_wizard03_1.png)
+![Field mapping screen with the Recipient destination schema and source columns mapped to destination fields.](assets/s_ncs_user_import_wizard03_1.png)
 
 * The **[!UICONTROL Destination schema]** field lets you select the schema in which the data will be imported. This information is mandatory. Click the **[!UICONTROL Select link]** icon to select one of the existing schemas. Click **[!UICONTROL Edit link]** to display the content of the selected table. 
 * The central table shows all the fields defined in the source file. Select the fields to be imported in order to associate a destination file with them. These fields can be mapped manually or automatically.
@@ -138,7 +138,7 @@ You must then select the destination schema and map the data of each column onto
 
 * You can apply a transformation to the imported fields. To do this, click in the cell of the **[!UICONTROL Transformation]** column that relates to the field concerned, and select the transformation to be applied.
 
-  ![](assets/s_ncs_user_import_wizard03_2.png)
+  ![Field mapping screen with the Transformation drop-down: None, lower case, upper case, first letter in upper case.](assets/s_ncs_user_import_wizard03_2.png)
 
   >[!IMPORTANT]
   >
@@ -157,23 +157,23 @@ There are four types of calculated fields:
 * **[!UICONTROL JavaScript expression]**: the value of the calculated field is the result of the evaluation of a JavaScript function. The value returned can be a number, a date, etc.
 * **[!UICONTROL Enumeration]**: the value of the field is attributed according to a value contained in the source file. The editor lets you specify the source column and enter the list of enumeration values, as in the following example:
 
-  ![](assets/s_ncs_user_import_wizard03_3.png)
+  ![Import calculated field definition of type Enumerations mapping source values 0 and 1 to not registered and registered.](assets/s_ncs_user_import_wizard03_3.png)
 
   The **[!UICONTROL Preview]** tab lets you view the result of the defined configuration. Here, the **[!UICONTROL Subscription]** column has been added. The value is calculated from the **Status** field.
 
-  ![](assets/s_ncs_user_import_wizard03_4.png)
+  ![Preview tab of the calculated field definition showing the new Service column calculated from the source data.](assets/s_ncs_user_import_wizard03_4.png)
 
 ### Step 4 - Reconciliation {#step-4---reconciliation}
 
 The reconciliation step of the import assistant lets you define the mode of reconciling the data from the file with the existing data in the database, and to set the priority rules between the file data and the database data. The configuration window looks like this:
 
-![](assets/s_ncs_user_import_wizard04_1.png)
+![Reconciliation screen with the field tree, where First name is set as part of reconciliation key 1.](assets/s_ncs_user_import_wizard04_1.png)
 
 The central section of the screen contains a tree with the fields and the tables of the Adobe Campaign database to which the data will be imported.
 
 Special options are available for each node (table or field). When you click the node concerned in the list, its parameters and a brief description appear below. The behavior defined for each element is displayed in the corresponding **[!UICONTROL Behavior]** column.
 
-![](assets/s_ncs_user_import_wizard04_2.png)
+![Reconciliation screen with the Operation setting and the Management of doubles drop-down: Update, Reject entity, Ignore.](assets/s_ncs_user_import_wizard04_2.png)
 
 #### Types of operation {#types-of-operation}
 
@@ -205,7 +205,7 @@ In this case, to find out if a line of a file matches an existing recipient in t
 
 Avoid choosing a field which might be modified during import; if this occurs, the engine could create additional records.
 
-![](assets/s_ncs_user_import_wizard04_3.png)
+![Reconciliation screen with the Email field selected and set as part of reconciliation key 2.](assets/s_ncs_user_import_wizard04_3.png)
 
 >[!NOTE]
 >
@@ -240,11 +240,11 @@ The options **[!UICONTROL Reject]** and **[!UICONTROL Ignore]** operate as prese
 
 Most data transfer operations generate various types of errors (incoherent line format, invalid email address, etc.). All errors and all warnings generated by the import engine are stored and linked to the import instance.
 
-![](assets/s_ncs_user_import_general_tab.png)
+![Import job General tab with counters for Errors, Warnings, Rejects, Doubles and Duplicates highlighted.](assets/s_ncs_user_import_general_tab.png)
 
 Details of these rejects can be viewed via the **[!UICONTROL Rejects]** tab. 
 
-![](assets/s_ncs_user_import_rejets_tab.png)
+![Rejects tab of an import job listing rejected records by Connector and the rejection message for the selected record.](assets/s_ncs_user_import_rejets_tab.png)
 
 There are two types of rejects (the type is displayed in the **[!UICONTROL Connector]** column):
 
@@ -257,19 +257,19 @@ In the data reconciliation page, you can define the desired error management typ
 * **[!UICONTROL Reject parent element]**: the entire line of the record is rejected, not only the field that caused an error.
 * **[!UICONTROL Reject all elements]**: the import stops and all elements of the record are rejected.
 
-  ![](assets/s_ncs_user_import_wizard04_4.png)
+  ![Reconciliation In case of error drop-down: Ignore and log a warning, Reject parent element, Reject all elements.](assets/s_ncs_user_import_wizard04_4.png)
 
 The tree in the rejection screen of an import instance indicates which fields were rejected and where the errors occurred.
 
 You can generate a file containing these records via the **[!UICONTROL Export rejects]** icon:
 
-![](assets/s_ncs_user_import_errors_export.png)
+![Generic imports and exports list with an import that finished with errors selected and the Export rejects icon.](assets/s_ncs_user_import_errors_export.png)
 
 ### Step 5 - Additional step when importing recipients {#step-5---additional-step-when-importing-recipients}
 
 The next step of the import assistant lets you select or create the folder in which data will be imported, automatically map imported recipients with a (new or existing) list, and subscribe recipients to a service.
 
-![](assets/s_ncs_user_import_wizard05_1.png)
+![Import recipients screen with Edit links for folder, list and service, plus the Origin field.](assets/s_ncs_user_import_wizard05_1.png)
 
 >[!NOTE]
 >
@@ -287,25 +287,25 @@ The next step of the import assistant lets you select or create the folder in wh
 
        To select the import folder, click the arrow to the right of the **[!UICONTROL Folder]** field and select the folder concerned. You can also use the **[!UICONTROL Select link]** icon to display the tree in a new window or create a new folder. 
     
-       ![](assets/s_ncs_user_import_wizard05_2.png)
+       ![Import into a folder dialog with the Add to an existing folder option and a Folder field.](assets/s_ncs_user_import_wizard05_2.png)
 
        To create a new folder, select the node from which you want to add a folder, and right-click. Select **[!UICONTROL Create a new 'Recipients' folder]**.
     
-       ![](assets/s_ncs_user_import_wizard05_3.png)
+       ![Folder tree with the right-click menu showing Create a new Recipients folder.](assets/s_ncs_user_import_wizard05_3.png)
 
        The folder is added below the current node. Enter the name of the new folder, hit Enter to confirm, and then click **[!UICONTROL OK]**.
     
-       ![](assets/s_ncs_user_import_wizard05_4.png)
+       ![Folder tree with a new Newsletter folder added below the selected node, ready to confirm with Ok.](assets/s_ncs_user_import_wizard05_4.png)
 
     1. Associating with a list
 
        The **[!UICONTROL Edit...]** link in the **[!UICONTROL Add recipients to a list]** section lets you select or create a list into which the recipients will be imported.
     
-       ![](assets/s_ncs_user_import_wizard05_5.png)
+       ![Add recipients to a list dialog with the Add to an existing list option and a list drop-down.](assets/s_ncs_user_import_wizard05_5.png)
 
        You can create a new list for these recipients by clicking **[!UICONTROL Select link]**, then **[!UICONTROL Create]**.
     
-       ![](assets/s_ncs_user_import_wizard05_6.png)
+       ![List selection dialog with the Create icon used to add a new recipient list.](assets/s_ncs_user_import_wizard05_6.png)
 
        You can decide to add the recipients to those already present in a list, or to recreate the list with the new recipients. In this case, if the list already contained recipients, they will be deleted and replaced by the imported recipients.
     
@@ -313,7 +313,7 @@ The next step of the import assistant lets you select or create the folder in wh
 
        To subscribe all imported recipients to an information service, click the **[!UICONTROL Edit...]** link of the **[!UICONTROL Subscribe recipients to a service]** section in order to select or create the information service which the recipients will be subscribed to. You can select the **[!UICONTROL Send a confirmation message]** option: The content of this message is defined in the delivery template associated with the subscription service.
     
-       ![](assets/s_ncs_user_import_wizard05_7.png)
+       ![Subscribe recipients to a service dialog with an existing service selected and Send a confirmation message checked.](assets/s_ncs_user_import_wizard05_7.png)
 
        You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [Manage subscriptions and unsubscriptions in Campaign](../start/subscriptions.md).
 
@@ -325,7 +325,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 The last step of the assistant lets you launch data import. To do this, click the **[!UICONTROL Start]** button.
 
-![](assets/s_ncs_user_import_wizard06_1.png)
+![Data import execution screen with the Start button, execution logs, processed count and a 100 percent progress bar.](assets/s_ncs_user_import_wizard06_1.png)
 
 You can then monitor the execution of the import job (see [Monitor workflow execution](../../automation/workflow/monitor-workflow-execution.md)).
 
@@ -346,7 +346,7 @@ When launching the export assistant, you first have to select a template. As an 
 1. Select the **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** folder.
 1. Click **New** and then click **Export** to create the export template.
 
-   ![](assets/s_ncs_user_export_wizard01.png)
+   ![Export template selection screen with New text export template, label, description, Simple export type and folder.](assets/s_ncs_user_export_wizard01.png)
 
 1. Click the arrow to the right of the **[!UICONTROL Export template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
 
@@ -361,7 +361,7 @@ Select the type of document to be exported, i.e. the schema of the data to expor
 
 By default, when the export is launched from the **[!UICONTROL Jobs]** node the data comes from the recipient table. When the export is launched from a list of data (from the **[!UICONTROL right click > Export]** menu), the table to which the data belongs is automatically filled in in the **[!UICONTROL Document type]** field.
 
-![](assets/s_ncs_user_export_wizard02.png)
+![File to export screen with Recipient document type, download option, local file path and name.](assets/s_ncs_user_export_wizard02.png)
 
 * By default, the **[!UICONTROL Download the file generated on the server after the export]** option is selected. In the **[!UICONTROL Local file]** field, fill in the name and path of the file to be created, or browse your local disk by clicking the folder to the right of the field. You can deselect this option to enter the access path and name of the server output file.
 
@@ -373,7 +373,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
 * You can create a differential export to export only records that have been modified since the last execution. To do this, click the **[!UICONTROL Advanced parameters]** link, then click the **[!UICONTROL Differential export]** tab, then select **[!UICONTROL Activate differential export]**.
 
-  ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![Advanced parameters, Differential export tab: Activate differential export checked and a Modification date field.](assets/s_ncs_user_export_wizard02_b.png)
 
   You must enter the date of the last modification. It can be retrieved from a field or calculated.
 
@@ -381,7 +381,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
 Select an output format for the export file. The following formats can be used: text, fixed-column text, CSV, and XML.
 
-![](assets/s_ncs_user_export_wizard03.png)
+![Destination format screen with Text output format, column separator, string delimiter, encoding and formats.](assets/s_ncs_user_export_wizard03.png)
 
 * For **[!UICONTROL Text]** format, select the delimiters to separate the columns (tabs, commas, semi-colons, or custom) and the strings (single or double quotes, or none).
 * For **[!UICONTROL text]** and **[!UICONTROL CSV]**, you can select the option **[!UICONTROL Use first lines as column titles]**.
@@ -395,7 +395,7 @@ Select the fields to export. To do this:
 1. Double-click the desired fields in the **[!UICONTROL Available fields]** list in order to add them to the **[!UICONTROL Output columns]** section. 
 1. Use the arrows to the right of the list to define the order of the fields in the output file.
 
-   ![](assets/s_ncs_user_export_wizard04.png)
+   ![Data to extract screen with the Available fields list and the selected Output columns.](assets/s_ncs_user_export_wizard04.png)
 
 1. Click the **[!UICONTROL Add]** button to call on functions.
 
@@ -403,13 +403,13 @@ Select the fields to export. To do this:
 
 Select the sorting order of the columns.
 
-![](assets/s_ncs_user_export_wizard05.png)
+![Sorting screen listing output columns with Sort and Descending sort options.](assets/s_ncs_user_export_wizard05.png)
 
 ### Step 6 - Filter conditions {#step-6---filter-conditions-}
 
 You can add filter conditions to avoid exporting all the data. The configuration of this filtering is the same as recipient targeting in the delivery assistant.
 
-![](assets/s_ncs_user_export_wizard05_b.png)
+![Data filtering list of restriction filters, with the Subscribers of an information service target element dialog open.](assets/s_ncs_user_export_wizard05_b.png)
 
 ### Step 7 - Data formatting {#step-7---data-formatting}
 
@@ -423,19 +423,19 @@ You can modify the order and label of the fields for the output file and apply t
     * Switch to upper case
     * First letter in upper case
 
-  ![](assets/s_ncs_user_export_wizard06.png)
+  ![Data formatting screen with the Transformation drop-down for the Company column: None, lower, upper, first letter.](assets/s_ncs_user_export_wizard06.png)
 
 * Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to the Import data section.
 
 If you are exporting a collection of elements (e.g. recipients' subscriptions, the lists to which they belong, etc.), you must specify the number of elements in the collection you want to export. 
 
-![](assets/s_ncs_user_export_wizard06_c.png)
+![Collection personalization dialogs to limit lines to retrieve and filter elements for the Subscriptions collection.](assets/s_ncs_user_export_wizard06_c.png)
 
 ### Step 8 - Data preview {#step-8---data-preview}
 
 Click **[!UICONTROL Start the preview of the data]** for a preview of the export result. 
 
-![](assets/s_ncs_user_export_wizard07.png)
+![Data preview screen with Start the preview of the data, Lines to display field and preview result columns.](assets/s_ncs_user_export_wizard07.png)
 
 >[!NOTE]
 >
@@ -447,7 +447,7 @@ Click the tabs at the bottom of the assistant to switch from the preview of resu
 
 Click **[!UICONTROL Start]** to launch data export.
 
-![](assets/s_ncs_user_export_wizard08.png)
+![Data export execution screen with the Start button, execution logs and a 100 percent progress bar.](assets/s_ncs_user_export_wizard08.png)
 
 You can then monitor the execution of the export job.
 
@@ -456,7 +456,7 @@ You can then monitor the execution of the export job.
 
 Use Campaign to create web forms and collect and manage profile information easily and efficiently. You can share these forms into your website, which makes it easy for your contacts to provide their information. Their information is sent to Campaign to create their profile or update their information if they are already present in the database.
 
-![](assets/web-form-page.png) 
+![Web application workflow with Start, Preloading, Page, Storage and End, and the Page editor with an email sign-up form.](assets/web-form-page.png) 
 
 Learn how to create web forms in [Get started with web forms](../dev/web/about-web-forms.md).
 

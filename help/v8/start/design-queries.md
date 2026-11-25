@@ -48,7 +48,7 @@ All these steps are available in the [generic query editor](query-editor.md). Wh
 
 To query the Campaign database, open the **[Generic query editor](query-editor.md)**, and select the table containing the data you want to query in the **[!UICONTROL Document type]** window.
 
-![](assets/query_editor_nveau_21.png)
+![Tools menu with Generic query editor opening the Document type window, with the Recipients schema in the list.](assets/query_editor_nveau_21.png)
 
  If needed, filter the data using the filter field or the **[!UICONTROL Filters]** button.
 
@@ -58,15 +58,15 @@ On the **[!UICONTROL Data to extract]** screen, choose the fields you want to in
 
 For example, you can select **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]**, and **[!UICONTROL City]**. The output will be structured according to this selection. To adjust the order of the columns, use the blue arrows on the right side of the window.
 
-![](assets/query_editor_nveau_01.png)
+![Data to extract step with Age, Primary key, Email domain and City added to the Output columns list.](assets/query_editor_nveau_01.png)
 
 You can modify an expression either by adding a formula or by applying a process to an aggregate function. To edit an expression, click the **[!UICONTROL Expression]** column field, then select **[!UICONTROL Edit expression]**.
 
-![](assets/query_editor_nveau_97.png)
+![Expression column field in Output columns with the Edit expression button highlighted.](assets/query_editor_nveau_97.png)
 
 You can group the data displayed in the output columns. To do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. The results will then be aggregated based on the selected grouping axis. For an example of a query using grouping, see [Querying delivery information](../../automation/workflow/query-delivery-info.md).
 
-![](assets/query_editor_nveau_56.png)
+![Data to extract step with the Group column highlighted, set to No for each output column.](assets/query_editor_nveau_56.png)
 
 * The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option lets you group results and apply conditions to those groups. It applies to all fields in the output columns. For example, you can use it to group values from an output column and then filter the results to retrieve only specific information, such as recipients aged between 35 and 50.
 
@@ -83,13 +83,13 @@ The **[!UICONTROL Sorting]** window lets you sort column content. Use the arrows
 
 In this example, the data is sorted in ascending order based on recipient age.
 
-![](assets/query_editor_nveau_57.png)
+![Sorting step listing Age, Primary key, Email domain and City, with Sort and Descending sort columns set to No.](assets/query_editor_nveau_57.png)
 
 ## Step 4 - Filter data {#step-4---filter-data}
 
 The query editor allows you to filter data to narrow down your results. The available filters depend on the table you are querying.
 
-![](assets/query_editor_nveau_09.png)
+![Data filtering step with Filtering conditions selected in the list of restriction filters and the User filters below.](assets/query_editor_nveau_09.png)
 
 After selecting **[!UICONTROL Filtering conditions]**, the **[!UICONTROL Target elements]** section opens. Here, you can define the rules for filtering the data to be collected.
 
@@ -97,7 +97,7 @@ After selecting **[!UICONTROL Filtering conditions]**, the **[!UICONTROL Target 
 
 * To reuse an existing filter, click the **[!UICONTROL Add]** button, select **[!UICONTROL Predefined filter]** and choose the filter you want.
 
-  ![](assets/query_editor_15.png)
+  ![Add menu in the Target element step with Predefined filter open, listing Blacklisted email address and other filters.](assets/query_editor_15.png)
 
 Filters created in the **[!UICONTROL Generic query editor]** can be reused in other query applications, and the reverse is also true. To save a filter for later use, click the **[!UICONTROL Save]** icon.
 
@@ -107,7 +107,7 @@ Filters created in the **[!UICONTROL Generic query editor]** can be reused in ot
 
 As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 
-![](assets/query_editor_nveau_89.png)
+![Filtering conditions selected, then a Target element with the condition Language equal to EN.](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
@@ -115,11 +115,11 @@ As shown in the following example, to recover all English-speaking recipients, s
 
 Click the **[!UICONTROL Preview]** tab to view the result of the filtering condition. In this case, all English-speaking recipients are displayed with their name, first name and email address.
 
-![](assets/query_editor_nveau_98.png)
+![Preview tab of the Target element step listing the recipients that match the filter.](assets/query_editor_nveau_98.png)
 
 Users familiar with SQL language can click **[!UICONTROL Generate SQL query]** to view the query in SQL.
 
-![](assets/query_editor_nveau_99.png)
+![Generated SQL query link opening the Native SQL query generated from the filter for Language equal to EN.](assets/query_editor_nveau_99.png)
 
 ## Step 5 - Format data {#step-5---format-data}
 
@@ -131,7 +131,7 @@ After configuring the restriction filters, the **[!UICONTROL Data formatting]** 
 
 Unchecked columns are hidden in the data preview window.
 
-![](assets/query_editor_nveau_10.png)
+![Data formatting step listing Age, Primary key, Email domain and City, with the Email domain column unchecked.](assets/query_editor_nveau_10.png)
 
 The **[!UICONTROL Transformation]** column lets you change a column label to upper or lower case. Select the column and click in the **[!UICONTROL Transformation]** column. You can choose:
 
@@ -139,7 +139,7 @@ The **[!UICONTROL Transformation]** column lets you change a column label to upp
 * **[!UICONTROL Switch to upper case]**, 
 * **[!UICONTROL First letter in upper case]**.
 
-![](assets/query_editor_nveau_42.png)
+![Transformation drop-down with None, Switch to lower case, Switch to upper case and First letter in upper case.](assets/query_editor_nveau_42.png)
 
 ## Step 6 - Preview data {#step-6---preview-data}
 
@@ -147,7 +147,7 @@ The **[!UICONTROL Data preview]** window marks the final stage of the query proc
 
 In this example, data is sorted in ascending order based on recipient age.
 
-![](assets/query_editor_nveau_11.png)
+![Data preview step: Start the preview of the data fills a table of Age, Primary key and City values.](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >

@@ -88,7 +88,7 @@ Note that, as a customer, you must also ensure that you are using the latest sup
 
 To check your Campaign version, access the **Help > About…** menu from the client console.
 
-![](assets/ac-version.png)
+![About dialog of the client console showing the client console and application server versions](assets/ac-version.png)
 
 You access the following information:
 

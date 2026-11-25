@@ -33,7 +33,7 @@ To design your query, you must select the filtering conditions in the query edit
 
 Within filtering conditions, you need to link two values together using an operator.
 
-![](assets/query_editor_nveau_96.png)
+![Target element step with the Operator drop-down open, listing equal to, greater than, less than and other operators.](assets/query_editor_nveau_96.png)
 
 Below is a list of the operators available:
 
@@ -139,24 +139,24 @@ For queries using several filtering conditions, you need to define links between
 
 Click **[!UICONTROL And]** (offered by default) and choose from the drop-down list.
 
-![](assets/query_condition_modif_01.png)
+![And, Or and Except link options in a drop-down below the condition Email domain equal to orange.co.uk.](assets/query_condition_modif_01.png)
 
 * **[!UICONTROL And]**: adds a condition and enables overfiltering.
 * **[!UICONTROL Or]**: adds a condition and enables overfiltering.
 
   The following example lets you find recipients whose email domain contains "orange.co.uk" OR whose post code starts with "NW".
 
-  ![](assets/query_condition_modif_02.png)
+  ![Two conditions linked by Or: Email domain equal to orange.co.uk or Zip/Postcode starts with NW.](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Except]**: if you have two filters and the first one does not return a value, this type of link creates an exception.
 
   In the following example, we want to return recipients whose email domain contains "orange.co.uk" EXCEPT if the recipient's last name is "Smith".
 
-  ![](assets/query_condition_modif_03.png)
+  ![Two conditions linked by Except: Email domain equal to orange.co.uk except Last name equal to Smith.](assets/query_condition_modif_03.png)
 
 This example shows a filter which lets you display: recipients who either speak Spanish, OR are women with mobile numbers, OR recipients without an account number and whose company name starts with the letter "N".
 
-![](assets/query_editor_nveau_31.png)
+![Filter combining language Spanish, female with a mobile number, and no account number with a company starting with N.](assets/query_editor_nveau_31.png)
 
 ## Prioritize conditions {#prioritizing-conditions}
 
@@ -165,7 +165,7 @@ This section explains how to prioritize conditions thanks to the blue arrows in 
 * The arrow pointing to the right lets you add a level of parentheses to the filter.
 * The arrow pointing to the left lets you delete a selected parenthesis level from the filter.
 
-  ![](assets/query_condition_modif_04.png)
+  ![Query editor toolbar with the left and right parenthesis arrows and the up and down arrows highlighted.](assets/query_condition_modif_04.png)
 
 * The vertical arrows let you move a condition, thereby changing their execution sequence.
 
@@ -173,7 +173,7 @@ This example shows you how to use the arrow to delete a parenthesis level. Start
 
 Place your cursor on the **[!UICONTROL Gender (@gender) equal to Male]** filtering condition and click the **[!UICONTROL Remove a parenthesis level]** arrow.
 
-![](assets/query_editor_nveau_32.png)
+![Before and after removing a parenthesis level: Gender equal to Male moves to the same level as City equal to London.](assets/query_editor_nveau_32.png)
 
 The **[!UICONTROL Gender (@gender) equal to Male]** condition has been taken out of its parenthesis. It has moved to the same level as the "City equal to London" condition. These conditions are linked together (**[!UICONTROL And]**).
 
@@ -183,7 +183,7 @@ The available fields vary from one table to another. All fields are stored in a 
 
 The detail of the selected field is visible at the bottom of the window. For example, the **[!UICONTROL Email domain]** field is a **[!UICONTROL Calculated SQL field]** and its extension is **[!UICONTROL (@domain)]**.
 
-![](assets/query_editor_nveau_59.png)
+![Data to extract step with Email domain selected; the detail below reads SQL calculated field (@domain).](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ The detail of the selected field is visible at the bottom of the window. For exa
 
 Double-click an available field to add it to the output columns. At the end of the query, each selected field creates a column in the **[!UICONTROL Data preview]** window.
 
-![](assets/query_editor_nveau_01.png)
+![Data to extract step with Age, Primary key, Email domain and City added to the Output columns list.](assets/query_editor_nveau_01.png)
 
 Advanced fields are not displayed by default. Click **[!UICONTROL Display advanced fields]** in the bottom right-hand corner of the available fields to display everything. Click again to return to the former view.
 
@@ -199,7 +199,7 @@ For example, in the recipient table, the advanced fields are **Boolean 1**, **[!
 
 The following example shows the advanced fields of the recipient table.
 
-![](assets/query_editor_nveau_53.png)
+![Available fields list with advanced fields highlighted and the Display advanced fields button at the bottom right.](assets/query_editor_nveau_53.png)
 
 The various categories of fields:
 
@@ -280,21 +280,21 @@ Link to a table and collection element:
 
 If necessary, add a column during data formatting. A calculated field adds a column to the data preview section. Click **[!UICONTROL Add a calculated field]**.
 
-![](assets/query_editor_nveau_43.png)
+![Data formatting step with the Add a calculated field button and the calculated field definition dialog open on Type.](assets/query_editor_nveau_43.png)
 
 There are four types of calculated fields:
 
 * **[!UICONTROL Fixed string]**: lets you add a string of characters.
 
-  ![](assets/query_editor_nveau_60.png)
+  ![Export calculated field definition dialog with the Fixed string type and the text My string entered.](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL String with JavaScript tags]**: the value of the calculated field combines a string of characters and JavaScript directives.
 
-  ![](assets/query_editor_nveau_61.png)
+  ![Export calculated field definition dialog with type String with JavaScript tags and script tags in the editor.](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript expression]**: the value of the calculated field is the result of a JavaScript function evaluation. The returned value can be typed (number, date, etc.).
 
-  ![](assets/query_editor_nveau_62.png)
+  ![Export calculated field definition dialog with type JavaScript expression and an if-else script returning A or B.](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumerations]**: This type of field lets you use/modify the content of one of the output columns in a new column.
 
@@ -302,7 +302,7 @@ There are four types of calculated fields:
 
   An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [Add an Enumeration type calculated field](../../automation/workflow/adding-enumeration-type-calculated-field.md).
 
-  ![](assets/query_editor_nveau_63.png)
+  ![Enumerations calculated field dialog with a Source column list and the four options for the other cases.](assets/query_editor_nveau_63.png)
 
   The **[!UICONTROL Enumerations]** type calculated field can include 4 conditions:
 
@@ -315,7 +315,7 @@ Click the **[!UICONTROL Detail of calculated field]** to view the detail of the 
 
 To remove this calculated field, click the **[!UICONTROL Remove the calculated field]** cross.
 
-![](assets/query_editor_nveau_58.png)
+![Data formatting step with the calculated field New selected and the Detail of calculated field button highlighted.](assets/query_editor_nveau_58.png)
 
 ## Build expressions {#building-expressions}
 
@@ -331,15 +331,15 @@ Apply the following steps:
 
    Select **[!UICONTROL Process on an aggregate function]**, and **[!UICONTROL Count]**. Click **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_nveau_54.png)
+   ![Data to extract step: Add opens an expression field with the Edit expression button highlighted.](assets/query_editor_nveau_54.png)
 
 1. The primary key is calculated.
 
-   ![](assets/query_editor_nveau_88.png)
+   ![Output columns list with a count(primary key) expression added and highlighted.](assets/query_editor_nveau_88.png)
 
 Here is a detailed view of the choices available in the **[!UICONTROL Formula types]** window: 
 
-![](assets/query_editor_nveau_05.png)
+![Formula type window with Process on an aggregate function selected and the Count option chosen.](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Field only]** lets you return to the **[!UICONTROL Field to select]** window.
 1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. Here are some examples of aggregate use:
@@ -354,7 +354,7 @@ Here is a detailed view of the choices available in the **[!UICONTROL Formula ty
 
 1. **[!UICONTROL Expression]** opens the **[!UICONTROL Edit the expression]** window. This lets you detect telephone numbers with too many figures, likely to be input errors.
 
-   ![](assets/query_editor_nveau_71.png)
+   ![Edit the expression window with a phone length expression, and the resulting filter Phone greater than 10.](assets/query_editor_nveau_71.png)
 
    For a list of all available functions, refer to [List of functions](#list-of-functions).
 
@@ -364,7 +364,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
 
 The expression editor looks like this:
 
-![](assets/filter-define-expression.png)
+![Edit the expression window with Available fields and a List of functions with categories such as Aggregates and String.](assets/filter-define-expression.png)
 
 It lets you select fields in the database tables and add advanced functions to them. The following functions are available:
 

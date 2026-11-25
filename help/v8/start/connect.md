@@ -89,7 +89,7 @@ To log on to an instance, follow the steps below:
 
 1. Start the Console and browse the link in the right-hand corner to access the connection configuration screen.
 
-   ![](assets/connectToCampaign.png) 
+   ![Connections dialog opened from the sign-in screen, with the Connect with an Adobe ID option selected](assets/connectToCampaign.png) 
 
 1. Select the Campaign instance you need to log in to.
 
@@ -97,7 +97,7 @@ To log on to an instance, follow the steps below:
 
 You can then sign in to Campaign with your Adobe ID.
 
-![](assets/adobeID.png) 
+![Adobe ID sign-in screen of the Campaign client console with email field and Continue button](assets/adobeID.png) 
 
 >[!NOTE]
 >
@@ -161,11 +161,11 @@ The Web access provides an interface that is similar to the console but with a r
 
 For example, for a given operator, a campaign will show up with the following options in the console:
 
-![](assets/campaign-from-console.png)
+![Campaign dashboard in the client console, with full editing tabs and actions available](assets/campaign-from-console.png)
 
 Whereas with Web access, the options will mainly enable viewing:
 
-![](assets/campaign-from-web.png)
+![Campaign dashboard in the web access, with mainly viewing options](assets/campaign-from-web.png)
 
 Web access is also used in the validation process: operators can click on the approval request email and connect to Campaign through their web browser to validate or reject a delivery content or budget.
 

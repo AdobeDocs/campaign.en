@@ -60,15 +60,15 @@ To send messages, you must create a delivery. The delivery creation mode depends
 
 1. **One-shot messages** - You can send one-shot messages to an audience. Learn how to send your first message in [Create your first delivery](create-message.md).
 
-    ![](assets/send-email.png)
+    ![Email delivery editor with From, To and Subject fields, HTML content and the Send button](assets/send-email.png)
 
 1. **Messages in a marketing campaign** - You can send messages in the context of a [marketing campaign](campaigns.md), define an approval process, send and track them in a consolidated dashboard. Learn how in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-    ![](assets/deliveries-in-a-campaign.png) 
+    ![Campaign dashboard listing deliveries with their approval statuses, such as To approve and To submit](assets/deliveries-in-a-campaign.png) 
 
 1. **Messages in a workflow** - You can send messages via a [workflow](../config/workflows.md) and automate your deliveries. Learn how in [Delivery](../../automation/workflow/delivery.md).
 
-    ![](assets/send-in-a-wf.png) 
+    ![Campaign workflow with Query and Read list feeding a Summer offers delivery, a Wait and a Mobile delivery](assets/send-in-a-wf.png) 
 
 1. **Triggered messages** - You can [Trigger messages](../send/transactional.md) from an event. Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. Steps to configure and send transactional messages are detailed in [Campaign Transactional messaging](../send/transactional.md)
 

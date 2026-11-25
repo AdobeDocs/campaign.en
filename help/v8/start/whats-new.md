@@ -69,7 +69,7 @@ Adobe Campaign v8 is designed for cross-channel marketers who need the best-in-c
 
 Adobe Campaign v8 brings significant infrastructure, security, deliverability, and monitoring enhancements. It is available as a **Managed Cloud Service** which combines services with proactive oversight and timely alerting. Learn more about Campaign Managed Cloud Services [in this section](#acms-desc).
 
-![](assets/home-page.png) 
+![Campaign client console home page with a Welcome message and an Adobe Campaign Managed Cloud Services card](assets/home-page.png) 
 
 ## Key capabilities{#key-capabilities}
 
@@ -227,7 +227,7 @@ Through an intuitive user interface, administrators can monitor usage of key ass
 * Configure settings based on your different business needs at different times
 * Enhance security by controlling access settings on a need-by-need basis
 
-![](assets/subdomain1.png)
+![Control Panel Subdomain Management page listing configured subdomains, with Setup new subdomain highlighted](assets/subdomain1.png)
 
 [Learn more about Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html){target="_blank"}
 

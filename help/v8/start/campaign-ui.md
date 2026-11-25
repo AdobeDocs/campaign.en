@@ -91,7 +91,7 @@ You can also use a web browser to access Campaign. In this context, only a sub-s
 
 Once you are connected to Campaign client console, browse the tabs in the upper section to access Campaign key capabilities:
 
-![](assets/overview-home.png)
+![Campaign home page with the Campaigns, Profiles and targets, Monitoring and Reports tabs highlighted](assets/overview-home.png)
 
 >[!NOTE]
 >

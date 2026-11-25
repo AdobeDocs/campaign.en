@@ -43,7 +43,7 @@ To edit permissions on a specific Campaign folder, follow the steps below:
 1. Right-click on the folder and select **[!UICONTROL Properties...]**.
 1. Browse to the **[!UICONTROL Security]** tab to view authorizations on this folder.
 
-    ![](assets/folder-permissions.png)
+    ![Folder properties Security tab with authorizations for operators or groups and Read, Write and Delete data rights](assets/folder-permissions.png)
 
 * To **authorize a group or an operator**, click the **[!UICONTROL Add]** button and select the group or operator to assign authorizations for this folder.
 * To **forbid a group or an operator**, click **[!UICONTROL Delete]** and select the group or operator to remove authorization for this folder.

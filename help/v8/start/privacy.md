@@ -90,7 +90,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. In Adobe Campaign, browse to **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** and select **[!UICONTROL New]**.
 
-    ![](assets/privacy-namespaces-new.png)
+    ![Explorer path Administration > Platform > Namespaces with the New button highlighted](assets/privacy-namespaces-new.png)
 
 1. Enter a **[!UICONTROL Label]**.
 
@@ -100,7 +100,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
     * the **[!UICONTROL Internal name]** must match the "code" attribute
     * the **[!UICONTROL Reconciliation key]** must match the "idType" attribute
 
-    ![](assets/privacy-namespaces-details.png)
+    ![New namespace form with AEC Namespace ID, Internal name and Reconciliation key fields highlighted](assets/privacy-namespaces-details.png)
 
     The **[!UICONTROL Reconciliation key]** field will be used to identify the Data Subject in the Adobe Campaign database.
 
