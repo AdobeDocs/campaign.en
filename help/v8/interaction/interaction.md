@@ -38,7 +38,7 @@ You can create an offer catalog which interfaces with your outbound channels (em
 
 Interaction lets you create and manage a catalog of offers, and configure the eligibility rules and application themes linked to them. Depending on the channel chosen, offer content can be personalized thanks to various rendering functions. Finally, you can use the simulation module to calculate the impact of an offer presentation.
 
-![](assets/interaction-cycle.png)
+![Offer engine cycle: engine call, catalog call, selection and personalization, history, offer presentation](assets/interaction-cycle.png)
 
 First, a contact occurs between a customer and a company through a communication channel: it can be a website (inbound interaction), an email, SMS, push notification (outbound interactions). [Learn more](#interaction-types)
 

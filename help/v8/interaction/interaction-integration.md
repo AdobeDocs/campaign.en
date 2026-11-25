@@ -115,7 +115,7 @@ In the content of the web page, you need to add the following script that will i
 
 1. Go to the offer space that will be called up by the web page, click **[!UICONTROL Advanced parameters]** and add one or more identification keys.
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![Advanced parameters Target identification tab with Key path @email and the Last name field being added as a second key](assets/interaction_htmlmode_001.png)
 
    In this example, the identification key is composite since it is based both on the email and the recipient name.
 
@@ -137,7 +137,7 @@ To generate the HTML offer representation automatically, you can use a rendering
 1. Select **[!UICONTROL Overload the HTML rendering function]**.
 1. Go to the **[!UICONTROL HTML rendering]** tab and insert the variables that match the fields defined for the offer content in the offer space.
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![Offer space Edit functions dialog, HTML rendering tab, with the Overload the HTML rendering function option and script](assets/interaction_htmlmode_002.png)
 
    In this example, the offer is displayed in the form of a banner in a web page and is made up of a clickable image and a title that match the fields defined in the offer content.
 
@@ -252,7 +252,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    Comment out the destination URL field:
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![Offer representation form XML with the Destination URL input block commented out](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -260,7 +260,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    The rendering in the offer representations form looks like this:
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![Offer Content tab with empty Title, Destination URL and Image URL fields above the HTML content editor](assets/interaction_xmlmode_form.png)
 
    The **[!UICONTROL Title 2]** and **[!UICONTROL Price]** fields have been added and the **[!UICONTROL Destination URL]** field is no longer displayed.
 
@@ -270,7 +270,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    In the following use case, the offer is entered as follows:
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![Offer Content tab with Title, Destination URL and Image URL filled in and HTML content using recipient.firstName](assets/interaction_xmlmode_offer.png)
 
 1. **Approve the offer**
     
@@ -323,7 +323,7 @@ It's possible to use an XML rendering function to create an offer presentation. 
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![Offer space Edit functions dialog, XML rendering tab, with the Overload the XML rendering function option and script](assets/interaction_xmlmode_001.png)
 
 ## Set up a SOAP integration
 

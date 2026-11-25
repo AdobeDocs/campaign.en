@@ -33,27 +33,27 @@ As a **technical administrator**, you can create offer spaces in the Design envi
 
 The HTML rendering is created via a rendering function. The sequence of the fields defined in the rendering function must be identical to the sequence configured in the content.
 
-![](assets/offer_space_create_009.png)
+![Offer space properties with required fields Image URL, Destination URL, Title and a matching HTML rendering function](assets/offer_space_create_009.png)
 
 To create a new offer space, follow the steps below:
 
 1. From the list of offer spaces, click **[!UICONTROL New]**.
 
-   ![](assets/offer_space_create_001.png)
+   ![Offer spaces list with the New button highlighted and an Email offer space selected](assets/offer_space_create_001.png)
 
 1. Select the channel you want to use and change the label of the offer space.
 
-   ![](assets/offer_space_create_002.png)
+   ![Offer space Properties tab with the Label set to Email / clients and the Channel set to Email](assets/offer_space_create_002.png)
 
 1. Check the **[!UICONTROL Enable unitary mode]** option.
 
 1. Go to the **[!UICONTROL Content field]** window and click **[!UICONTROL Add]**.
 
-   ![](assets/offer_space_create_003.png)
+   ![Offer space Properties with the add button next to the offer content fields list](assets/offer_space_create_003.png)
 
 1. Go to the **[!UICONTROL Content]** node and select the fields in the following order: **[!UICONTROL Title]**, then **[!UICONTROL Image URL]**, then **[!UICONTROL HTML content]**, then **[!UICONTROL Destination URL]**.
 
-   ![](assets/offer_space_create_004.png)
+   ![Select an expression dialog listing the Content fields, such as Image URL, Text content and Title](assets/offer_space_create_004.png)
 
 1. Check the **[!UICONTROL Required]** option to make each field mandatory.
 
@@ -61,7 +61,7 @@ To create a new offer space, follow the steps below:
    >
    >This option is used at the preview and makes offer spaces invalid when publishing if one of the mandatory fields is missing from the offer. However, if an offer is already live on an offer space, these criteria are not taken into account.
 
-   ![](assets/offer_space_create_005.png)
+   ![Offer content fields list with Title, Image URL, HTML content and Destination URL, all required](assets/offer_space_create_005.png)
 
 1. Click **[!UICONTROL Edit functions]** to create a rendering function.
 
@@ -69,12 +69,12 @@ To create a new offer space, follow the steps below:
    
     **Note** -  XML format is restricted to inbound interactions which are unavailable in this version of the product. [Learn more](../start/v7-to-v8.md#gs-unavailable-features)
 
-   ![](assets/offer_space_create_006.png)_
+   ![Offer space Properties with the Edit functions link under Rendering functions highlighted](assets/offer_space_create_006.png)_
 
 1. Go to the **[!UICONTROL HTML rendering]** tab and select **[!UICONTROL Overload the HTML rendering function]**.
 1. Insert your rendering function.
 
-   ![](assets/offer_space_create_007.png)
+   ![HTML rendering tab with the Overload the HTML rendering function option and a sample function](assets/offer_space_create_007.png)
 
 ## Offer proposition statuses {#offer-proposition-statuses}
 
@@ -112,7 +112,7 @@ To do this, follow the steps below:
 1. Go to the **[!UICONTROL Storage]** tab of the desired space.
 1. Select the status to apply to the proposition when it is created.
 
-   ![](assets/offer_update_status_001.png)
+   ![Storage tab with the On proposition Status list open and the Presented status being selected](assets/offer_update_status_001.png)
 
 ### Offer status when the proposition is accepted {#configuring-the-status-when-the-proposition-is-accepted}
 
@@ -123,7 +123,7 @@ To do this, follow the steps below:
 1. Go to the **[!UICONTROL Storage]** tab of the desired space.
 1. Select the status that you want to apply to the proposition when it is accepted.
 
-   ![](assets/offer_update_status_002.png)
+   ![Storage tab with the On acceptance Status list open and the Accepted status being selected](assets/offer_update_status_002.png)
 
 
 **Inbound interaction**
@@ -160,11 +160,11 @@ You can automatically apply the **[!UICONTROL Interested]** status to an offer p
 
 In the **[!UICONTROL Preview]** tab, you can view the offers for which the recipient is eligible via a chosen method. In the example below, the recipient is eligible for three offer proposals via mail.
 
-![](assets/offer_space_overview_002.png)
+![Offer space Preview tab with three eligible offers ranked by weight and the rendered offer content](assets/offer_space_overview_002.png)
 
 If a recipient is not eligible for any offers, this is shown in the preview.
 
-![](assets/offer_space_overview_001.png)
+![Offer space Preview tab showing the message No offer is eligible](assets/offer_space_overview_001.png)
 
 
 The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel. 

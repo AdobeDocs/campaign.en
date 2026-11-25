@@ -38,24 +38,24 @@ Interaction lets you control the flow of offer propositions using presentation r
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** node. 
 1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
 
-   ![](assets/offer_typology_001.png)
+   ![Typology rules node with a new rule form and the Rule type list showing Offer presentation](assets/offer_typology_001.png)
 
 1. Specify the channel to which the rule should apply.
 
-   ![](assets/offer_typology_002.png)
+   ![Channel list of the typology rule with All channels highlighted](assets/offer_typology_002.png)
 
 1. Configure the rule's application criteria. For more on this, refer to [Presentation rule settings](#presentation-rule-settings).
 1. Go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** node and create a typology that will group all **[!UICONTROL Offer presentation]** type rules.
 
-   ![](assets/offer_typology_003.png)
+   ![Typologies node with the Offers typology selected and its General tab displayed](assets/offer_typology_003.png)
 
 1. Once the typology has been created, place your cursor on the typology rules and group them in the typology you have just created.
 
-   ![](assets/offer_typology_004.png)
+   ![Typologies tab of the rule with the Add typologies dialog listing the Offers typology selected](assets/offer_typology_004.png)
 
 1. In your offer environment, reference the typology using the drop-down list.
 
-   ![](assets/offer_typology_005.png)
+   ![Eligibility tab of the Environment - Visitors offer environment, Offer presentation typology list with Offers](assets/offer_typology_005.png)
 
 ## Presentation rule settings {#presentation-rule-settings}
 
@@ -65,13 +65,13 @@ The application criteria available in the **[!UICONTROL General]** tab let you s
 
 1. In your typology rule, click the **[!UICONTROL Edit the rule application conditions...]** link to create your query.
 
-   ![](assets/offer_typology_006.png)
+   ![General tab of a typology rule with the Edit the rule application conditions link highlighted](assets/offer_typology_006.png)
 
 1. In the query window, you can apply a filter on the offers to which you wish to apply a typology rule.
 
    For example, you can select an offer category.
 
-   ![](assets/offer_typology_008.png)
+   ![Query on Category equal to a selected offer category in the offer tree](assets/offer_typology_008.png)
 
 ### Offer dimensions {#offer-dimensions}
 
@@ -79,7 +79,7 @@ In the **[!UICONTROL Offer presentation]** tab, you must specify the same dimens
 
 The **[!UICONTROL Targeting dimension]** coincides with the table of recipients (by default: `nms:recipients`) who will receive the offer propositions. The **[!UICONTROL Storage dimension]** coincides with the table which contains the proposition history linked to the targeting dimension (by default: `nms:propositionRcp`).
 
-![](assets/offer_typology_009.png)
+![Offer presentation tab with the Targeting dimension and Storage dimension fields highlighted](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ The period starts **n** days before the proposition date and ends **n** days aft
 
 Use the arrows to change the number of days or directly enter a period ("2d 6h", for instance).
 
-![](assets/offer_typology_010.png)
+![Offer presentation tab with the Sliding period, Period considered field highlighted](assets/offer_typology_010.png)
 
 ### Number of propositions {#number-of-propositions}
 
@@ -104,7 +104,7 @@ It is possible to set the highest number of propositions that can be made before
 
 Use the arrows to change the number of offer propositions.
 
-![](assets/offer_typology_011.png)
+![Offer presentation tab with the Maximum number of propositions, Quantity field highlighted](assets/offer_typology_011.png)
 
 ## Defining propositions and recipients {#defining-propositions-and-recipients}
 
@@ -114,7 +114,7 @@ The **[!UICONTROL Propositions to count]** section lets you specify both the rec
 
 You can select filtering criteria to exclude propositions based on the channel, the offers concerned or the status of previously assigned propositions. 
 
-![](assets/offer_typology_014.png)
+![Propositions to count section with On the same channel only, Offers and Proposition status filters highlighted](assets/offer_typology_014.png)
 
 These criteria represent the most frequent applications of presentation rules. To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. For more on this, refer to the [Creating a query on propositions](#creating-a-query-on-propositions) section.
 
@@ -160,7 +160,7 @@ These criteria represent the most frequent applications of presentation rules. T
 
 To specify the recipients, click the **[!UICONTROL Edit the query from the targeting dimension...]** link and select the recipients concerned by the rule.
 
-![](assets/offer_typology_012.png)
+![Edit filtering query wizard selecting Recipients included in a folder as the targeting dimension query](assets/offer_typology_012.png)
 
 ### Creating a query on propositions {#creating-a-query-on-propositions}
 
@@ -168,4 +168,4 @@ To specify the propositions to be counted via a query, click the **[!UICONTROL L
 
 In the following example, the propositions to be counted after two presentations are the ones in the **Special offers** category, for the **Call center** space, with a weight below **20**.
 
-![](assets/offer_typology_013.png)
+![Limit propositions query on weight, offer space and a weight below 20 for the propositions to count](assets/offer_typology_013.png)

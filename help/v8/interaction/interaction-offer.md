@@ -56,7 +56,7 @@ You can now use the **[!UICONTROL Eligibility]** tab to define:
 
 In the **[!UICONTROL Eligibility]** tab of the offer, define the eligibility period of the offer. Use the drop-down lists to select a start and an end date in the calendar.
 
-![](assets/offer_eligibility_create_002.png)
+![Eligibility tab with the start and end date drop-down calendar for the offer eligibility period.](assets/offer_eligibility_create_002.png)
 
 Outside of this period, the offer will not be selected. If you have also configured eligibility dates for the offer category, the most restrictive period will apply.
 
@@ -66,11 +66,11 @@ In the **[!UICONTROL Eligibility]** tab of the offer, apply filters to the offer
 
 To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. 
 
-![](assets/offer_eligibility_create_003.png)
+![Select targeting filtering conditions wizard, opened from the Edit query link in the Eligibility tab.](assets/offer_eligibility_create_003.png)
 
 If pre-defined filters have been created already, you can select them from the list of user filters. [Learn more](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![User filters list in the targeting wizard, with the selected filter applied and a preview of matching recipients.](assets/offer_eligibility_create_004.png)
 
 ### Set the offer weight {#offer-weight}
 
@@ -88,11 +88,11 @@ To create a weight in an offer, apply the following steps:
 
 1. In the **[!UICONTROL Eligibility]** tab of the offer, click **[!UICONTROL Add]**.
 
-   ![](assets/offer_weight_create_001.png)
+   ![Eligibility tab with the Add button opening the Weight dialog to create an offer weight.](assets/offer_weight_create_001.png)
 
 1. Change the label and assign a weight. The default value is 1.
 
-   ![](assets/offer_weight_create_006.png)
+   ![Weight dialog with the Label field and the Weight value in the Arbitration section.](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -100,19 +100,19 @@ To create a weight in an offer, apply the following steps:
 
 1. If you want the weight to apply for a given period, define eligibility dates.
 
-   ![](assets/offer_weight_create_002.png)
+   ![Weight dialog with Start date and End date set in the Eligibility dates section.](assets/offer_weight_create_002.png)
 
 1. If necessary, restrict the weight to a specific offer space. 
 
-   ![](assets/offer_weight_create_003.png)
+   ![Weight dialog with the Offer space drop-down listing the spaces to which the weight can be restricted.](assets/offer_weight_create_003.png)
 
 1. Apply a filter to a target.
 
-   ![](assets/offer_weight_create_004.png)
+   ![Weight dialog with the Edit query link in Filters on the target highlighted.](assets/offer_weight_create_004.png)
 
 1. Click **[!UICONTROL OK]** to save the weight.
 
-   ![](assets/offer_weight_create_005.png)
+   ![Eligibility tab weight table listing the new Premium weight with its dates and filter.](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -124,13 +124,13 @@ Once configuration is complete, a summary of the eligibility rules will be avail
 
 To view it, click the **[!UICONTROL Schedule and eligibility rules]** link.
 
-![](assets/offer_eligibility_create_005.png)
+![Offer dashboard with the Schedule and eligibility rules link highlighted.](assets/offer_eligibility_create_005.png)
 
 ## Create the offer content {#creating-the-offer-content}
 
 Use the **[!UICONTROL Content]** tab to define the offer content.
 
-   ![](assets/offer_content_create_001.png)
+   ![Content tab of the offer with Title, Destination URL, Image URL fields and the HTML content editor.](assets/offer_content_create_001.png)
 
 1. Define the various parameters of the offer content.
 
@@ -156,11 +156,11 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
 
    Learn how to define the acceptance URL in [Offer status when the proposition is accepted](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
-   ![](assets/offer_content_create_002.png)
+   ![Content tab filled in with a title, destination URL and image URL, plus the Content definitions link.](assets/offer_content_create_002.png)
 
    To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. [Learn more](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![Content definitions dialog listing, for each offer space, the required content fields.](assets/offer_content_create_003.png)
 
    In this example, the offer must include a title, an image, HTML content and a destination URL.
 
@@ -172,11 +172,11 @@ To do this:
 
 1. Click the **[!UICONTROL Preview]** tab.
 
-   ![](assets/offer_preview_create_001.png)
+   ![Preview tab of the offer, listing the representations to preview for each offer space.](assets/offer_preview_create_001.png)
 
 1. Select the representation of the offer you want to view.
 
-   ![](assets/offer_preview_create_002.png)
+   ![Preview tab with the Email /clients representation expanded to show the rendered offer content.](assets/offer_preview_create_002.png)
 
 1. If you have personalized the offer content, select the offer target to view personalization.
 

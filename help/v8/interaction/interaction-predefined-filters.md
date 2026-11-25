@@ -41,24 +41,24 @@ To create a pre-defined filter, apply the following process:
 
 1. Browse to the **[!UICONTROL Administration]** folder and select **[!UICONTROL Pre-defined offer filters]**.
 
-   ![](assets/offer_filter_create_005.png)
+   ![Offers - design tree with the Predefined offer filters node selected under Administration](assets/offer_filter_create_005.png)
 
 1. Click **[!UICONTROL New]**.
 
-   ![](assets/offer_filter_create_001.png)
+   ![Predefined offer filters list with the New button highlighted and an Age filter listed](assets/offer_filter_create_001.png)
 
 1. Change the label to be able to identify the filter later.
 
-   ![](assets/offer_filter_create_002.png)
+   ![Application filter dialog with the Label field set to Email channel](assets/offer_filter_create_002.png)
 
 1. Select the field that the filtering condition will concern.
 
-   ![](assets/offer_filter_create_003.png)
+   ![Select an expression dialog with the Email field chosen from the Recipient fields](assets/offer_filter_create_003.png)
 
 1. Select an operator and a value if necessary, then save the query.
 
-   ![](assets/offer_filter_create_004.png)
+   ![Filter condition on the Email expression with the operator set to is not empty](assets/offer_filter_create_004.png)
 
 1. Click **[!UICONTROL Preview]** to view the result of the filter.
 
-   ![](assets/offer_filter_create_006.png)
+   ![Preview tab of the Email channel filter listing the recipients that match the filter](assets/offer_filter_create_006.png)

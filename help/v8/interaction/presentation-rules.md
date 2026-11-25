@@ -38,57 +38,57 @@ We are going to configure our rule so that the trip to Canada is only offered on
 1. In the Adobe Campaign tree, go to the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** node.
 1. Create a new **[!UICONTROL Offer presentation]** type rule.
 
-   ![](assets/offer_typology_example_001.png)
+   ![Typology rule creation form with the Rule type list open and Offer presentation selected](assets/offer_typology_example_001.png)
 
 1. Change its label and its description if necessary.
 
-   ![](assets/offer_typology_example_002.png)
+   ![Typology rule General tab with a label, the Offer presentation type, Email channel and a description entered](assets/offer_typology_example_002.png)
 
 1. Choose the **[!UICONTROL All channels]** option to extend the rule to all channels. 
 
-   ![](assets/offer_typology_example_003.png)
+   ![Channel list of the typology rule with All channels selected](assets/offer_typology_example_003.png)
 
 1. Click the **[!UICONTROL Edit expression]** link and choose the **[!UICONTROL Category]** node as an expression.
 
-   ![](assets/offer_typology_example_004.png)
+   ![Query window with the Select an expression dialog opened to choose the Category field](assets/offer_typology_example_004.png)
 
 1. Choose the category that matches your travel offer for Canada and click **[!UICONTROL OK]** to close the query window.
 
-   ![](assets/offer_typology_example_005.png)
+   ![Query on Category equal to Canada, with the Canada folder selected in the Travel offer category tree](assets/offer_typology_example_005.png)
 
 1. In the **[!UICONTROL Offer presentation]** tab, choose the same dimensions as those configured in the environment. 
 
-   ![](assets/offer_typology_example_006.png)
+   ![Offer presentation tab showing the Targeting dimension and Storage dimension, which match the environment](assets/offer_typology_example_006.png)
 
 1. Specify the period during which the rule will apply.
 
-   ![](assets/offer_typology_example_007.png)
+   ![Offer presentation tab with the Sliding period, Period considered field set to 10d](assets/offer_typology_example_007.png)
 
 1. Limit the proposition to one so that recipients that have already rejected a trip to Canada will not receive another similar offer. 
 
-   ![](assets/offer_typology_example_008.png)
+   ![Offer presentation tab with the Maximum number of propositions Quantity field set to 1](assets/offer_typology_example_008.png)
 
 1. Select the **[!UICONTROL Offers for the same category]** filter to exclude all offers from the **Canada** category.
 
-   ![](assets/offer_typology_example_020.png)
+   ![Offers drop-down in Propositions to count with Offers for the same category selected](assets/offer_typology_example_020.png)
 
 1. Select the **[!UICONTROL Rejected propositions]** filter to take into account only propositions rejected by the recipient. 
 
-   ![](assets/offer_typology_example_021.png)
+   ![Proposition status drop-down in Propositions to count with Rejected propositions selected](assets/offer_typology_example_021.png)
 
 1. Choose the recipients for which this rule will apply.
 
    In our example, we will choose the **Frequent travelers** recipients.
 
-   ![](assets/offer_typology_example_009.png)
+   ![Edit filtering query wizard selecting the Frequent travellers recipient folder as the rule target](assets/offer_typology_example_009.png)
 
 1. Reference the rule in an offer typology.
 
-   ![](assets/offer_typology_example_013.png)
+   ![Typologies tab of the rule with the Add typologies dialog listing the Offers typology selected](assets/offer_typology_example_013.png)
 
 1. Go to the offer environment, (**Environment - Recipient** in this case) and reference the new typology just created using the drop-down list in the **[!UICONTROL Eligibility]** tab.
 
-   ![](assets/offer_typology_example_014.png)
+   ![Eligibility tab of the offer environment with the Offer presentation typology list showing Offers](assets/offer_typology_example_014.png)
 
 ## Applying the presentation rule {#applying-the-presentation-rule}
 
@@ -100,14 +100,14 @@ We want to send a first offer proposition belonging to the Canada category. If t
 
    In our example, **Tim Ramsey** is eligible for an offer which is part of the **Americas** category.
 
-   ![](assets/offer_typology_example_015.png)
+   ![Recipient Propositions tab, Preview sub-tab, listing the eligible offer for the Americas category](assets/offer_typology_example_015.png)
 
 1. Start by creating an email delivery which will target your **Frequent travelers** recipients with offers.
 1. Select the offer engine call-up parameters.
 
    In our example, the **Travel in America** category is chosen, which contains the **Canada** and **United States** sub-categories.
 
-   ![](assets/offer_typology_example_016.png)
+   ![Offer management dialog of an email delivery with the Americas category and 2 propositions per message](assets/offer_typology_example_016.png)
 
 1. Insert your offers in the body of the message and send the delivery. For more on this, refer to [About outbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (Campaign v8 documentation).
 
@@ -115,10 +115,10 @@ We want to send a first offer proposition belonging to the Canada category. If t
 
 1. The recipient rejected the Canada offer, as shown in the proposition history.
 
-   ![](assets/offer_typology_example_018.png)
+   ![Recipient proposition history with the Canada snowmobile offer in Rejected status](assets/offer_typology_example_018.png)
 
 1. Check the offers for which they are now eligible.
 
    We can see that no offers for Canada are chosen.
 
-   ![](assets/offer_typology_example_019.png)
+   ![Recipient Preview tab showing eligible offers New-York and Grand Canyon, with no Canada offer](assets/offer_typology_example_019.png)

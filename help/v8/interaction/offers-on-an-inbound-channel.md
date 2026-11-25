@@ -47,14 +47,14 @@ Follow the procedure detailed in [Creating an offer environment](https://experie
 
 You will get a tree structure containing your new environment:
 
-![](assets/offer_env_anonymous_003.png)
+![Offers design tree and Environment - Visitors properties, an environment for incoming anonymous interactions](assets/offer_env_anonymous_003.png)
 
 ### Creating anonymous offer spaces {#creating-anonymous-offer-spaces}
 
 1. In your anonymous environment (**Visitors**) go to the **[!UICONTROL Administration]** > **[!UICONTROL Spaces]** node.
 1. Click **[!UICONTROL New]** to create call channels.
 
-   ![](assets/offer_inbound_anonymous_example_010.png)
+   ![New button in the Offer spaces list opening the New offer space dialog with Properties tab](assets/offer_inbound_anonymous_example_010.png)
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ You will get a tree structure containing your new environment:
 
 1. Change the label and select the **[!UICONTROL Inbound Web]** channel. You also have to check the **[!UICONTROL Enable unitary mode]** box.
 
-   ![](assets/offer_inbound_anonymous_example_006.png)
+   ![Offer space dialog with the label Anonymous Web Premium Offer and the Inbound Web channel selected](assets/offer_inbound_anonymous_example_006.png)
 
 1. Select the offer content fields used for the space and specify them as required by checking the relevant box.
 
@@ -73,7 +73,7 @@ You will get a tree structure containing your new environment:
     * Image URL
     * Destination URL
 
-   ![](assets/offer_inbound_anonymous_example_030.png)
+   ![Select an expression dialog with the Title field chosen as an offer content field of the offer space](assets/offer_inbound_anonymous_example_030.png)
 
 1. Edit the HTML rendering function, for example as follows:
 
@@ -90,7 +90,7 @@ You will get a tree structure containing your new environment:
    >
    >The rendering function must name the fields used for the space in the order in which they were previously selected so that the offers display correctly.
 
-   ![](assets/offer_inbound_anonymous_example_031.png)
+   ![Edit functions link opening the HTML rendering tab of the offer space to overload the rendering function](assets/offer_inbound_anonymous_example_031.png)
 
 1. Save the offer space.
 
@@ -103,28 +103,28 @@ You will get a tree structure containing your new environment:
 
 1. Go to the category's **[!UICONTROL Eligibility]** tab and enter **financing** as a theme, then save changes.
 
-   ![](assets/offer_inbound_anonymous_example_023.png)
+   ![Offer category Eligibility tab with the Themes field set to financing](assets/offer_inbound_anonymous_example_023.png)
 
 ### Creating anonymous offers {#creating-anonymous-offers}
 
 1. Go to the category you've just created.
 1. Click **[!UICONTROL New]**.
 
-   ![](assets/offer_inbound_anonymous_example_013.png)
+   ![New button in the Offers list of the Financial products category opening the New offer dialog](assets/offer_inbound_anonymous_example_013.png)
 
 1. Select the out-of-the-box anonymous offer template or a previously created template.
 
-   ![](assets/offer_inbound_anonymous_example_014.png)
+   ![Offer template list with New anonymous offer (emptyAnonOffer) and New offer (emptyOfferVisitor)](assets/offer_inbound_anonymous_example_014.png)
 
 1. Change the label and save your offer.
 
-   ![](assets/offer_inbound_anonymous_example_015.png)
+   ![New anonymous offer dialog with the label Anonymous Premium Offer #1 before saving](assets/offer_inbound_anonymous_example_015.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
 
    In this example, the offer is configured to be displayed on the home page of the site as a priority until the end of the year.
 
-   ![](assets/offer_inbound_anonymous_example_016.png)
+   ![Offer Eligibility tab with offer weights and the Weight dialog limited to the anonymous offer space](assets/offer_inbound_anonymous_example_016.png)
 
 1. Go to the **[!UICONTROL Content]** tab and define the content of the offer.
 
@@ -132,11 +132,11 @@ You will get a tree structure containing your new environment:
    >
    >You can select **[!UICONTROL Content definitions]** to display the list of elements required for the web space.
 
-   ![](assets/offer_inbound_anonymous_example_017.png)
+   ![Offer Content tab with title, destination URL, image URL and HTML content for the first anonymous offer](assets/offer_inbound_anonymous_example_017.png)
 
 1. Create a second offer.
 
-   ![](assets/offer_inbound_anonymous_example_018.png)
+   ![Content tab of the second anonymous offer with title, destination URL and HTML content](assets/offer_inbound_anonymous_example_018.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight as for the first offer.
 1. Run the approval cycle for each offer in order to make them, as well as their approved offer spaces, available in the online environment.
@@ -147,17 +147,17 @@ To make the offers you have just configured visible on the website, insert JavaS
 
 1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
 
-   ![](assets/offer_inbound_anonymous_example_019.png)
+   ![HTML page source with a div whose id is i_SPC3, the offer space internal name preceded by i_](assets/offer_inbound_anonymous_example_019.png)
 
 1. Insert the call URL.
 
-   ![](assets/offer_inbound_anonymous_example_020.png)
+   ![HTML script call to interactionProposal.js with the env=liveVisitor and th=financing parameters highlighted](assets/offer_inbound_anonymous_example_020.png)
 
    The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](#creating-an-anonymous-environment)) and the theme linked to the category ([Creating an offer category and a theme](#creating-an-offer-category-and-a-theme)). The latter is optional.
 
 When a visitor accesses the website's home page, the offers with the **financing** theme are displayed as configured on the HTML page. 
 
-![](assets/offer_inbound_anonymous_example_022.png)
+![Neobank home page with the Special offers block displaying an anonymous offer in the sidebar](assets/offer_inbound_anonymous_example_022.png)
 
 A user who visits the page several times will see either one or the other offers in the category since they have both been assigned the same weight.
 
@@ -169,19 +169,19 @@ This case study is based on the following scenario:
 
 1. A visitor browses the Neobank website without logging on.
 
-   ![](assets/offer_inbound_fallback_example_050.png)
+   ![Neobank home page with the login panel shown to a visitor who is not logged on](assets/offer_inbound_fallback_example_050.png)
 
    Three anonymous offers are displayed on the page: two **Best Offer** offers for Neobank products and one offer from a Neobank partner.
 
-   ![](assets/offer_inbound_fallback_example_051.png)
+   ![Neobank page with three anonymous offers: two Best Offer offers and one Partner offer](assets/offer_inbound_fallback_example_051.png)
 
 1. The user, a Neobank customer, logs on with their credentials.
 
-   ![](assets/offer_inbound_fallback_example_052.png)
+   ![Neobank login panel with credentials entered before the user logs on](assets/offer_inbound_fallback_example_052.png)
 
    Three personalized offers are displayed.
 
-   ![](assets/offer_inbound_fallback_example_053.png)
+   ![Neobank page after login with three personalized offers highlighted in the Special offers block](assets/offer_inbound_fallback_example_053.png)
 
 To implement this case study, you need to have two offer environments: one for anonymous interactions and one with offers configured especially for identified contacts. The identified offer environment will be configured to switch to the anonymous offer environment automatically if the contact isn't logged on and therefore isn't identified.
 
@@ -209,7 +209,7 @@ Apply the following steps:
 
 1. Create an offer environment for anonymous inbound interactions via the delivery mapping assistant (**Visitor** mapping). For more on this, refer to [Creating an offer environment](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (Campaign v8 documentation).
 
-   ![](assets/offer_env_anonymous_003.png)
+   ![Offers design tree and Environment - Visitors properties, an environment for incoming anonymous interactions](assets/offer_env_anonymous_003.png)
 
 ### Configuring offer spaces for the anonymous environment {#configuring-offer-spaces-for-the-anonymous-environment}
 
@@ -219,16 +219,16 @@ To create the offer space to match the **Best Offer** category, apply the follow
 
 1. In the Adobe Campaign tree, go to the anonymous environment you have just created and add an offer space.
 
-   ![](assets/offer_inbound_fallback_example_023.png)
+   ![Offer spaces list in the Environment - Visitors design environment, with the New button highlighted](assets/offer_inbound_fallback_example_023.png)
 
 1. Create a new **[!UICONTROL Inbound web]** type space.
 
-   ![](assets/offer_inbound_fallback_example_024.png)
+   ![New offer space Channel drop-down with Inbound Web selected](assets/offer_inbound_fallback_example_024.png)
 
 1. Enter a label for it: **Web Best Anonymous Offer** for instance.
 1. Add the offer content fields used for this offer space and configure the rendering functions.
 
-   ![](assets/offer_inbound_fallback_example_025.png)
+   ![Offer space Web Best Anonymous Offer with Inbound Web channel, content fields and HTML rendering function](assets/offer_inbound_fallback_example_025.png)
 
    >[!IMPORTANT]
    >
@@ -236,7 +236,7 @@ To create the offer space to match the **Best Offer** category, apply the follow
 
 1. Use the same process to create an inbound web channel offer space to match the **Partner** category.
 
-   ![](assets/offer_inbound_fallback_example_026.png)
+   ![Offer space Web Partner Anonymous with Inbound Web channel, HTML content and Image URL fields](assets/offer_inbound_fallback_example_026.png)
 
 ### Creating offer categories in an anonymous environment {#creating-offer-categories-in-an-anonymous-environment}
 
@@ -245,11 +245,11 @@ Start by creating two offer categories: the **Best Offer** category and the **Pa
 1. Go to the **[!UICONTROL Offer catalog]** in the anonymous environment that you have just created.
 1. Add an **[!UICONTROL Offer category]** folder with **Best Offer** as a label.
 
-   ![](assets/offer_inbound_fallback_example_027.png)
+   ![Offer category folder labeled Best Offer under Environment - Visitors in the design tree](assets/offer_inbound_fallback_example_027.png)
 
 1. Create a second category with **Partner** as a label.
 
-   ![](assets/offer_inbound_fallback_example_028.png)
+   ![Offer category Partner created next to Best Offer under Environment - Visitor](assets/offer_inbound_fallback_example_028.png)
 
 ### Creating offers for anonymous visitors {#creating-offers-for-anonymous-visitors}
 
@@ -257,36 +257,36 @@ We are now going to create two offers in each of the categories created above.
 
 1. Go to the **Best Offer** category and create an anonymous offer.
 
-   ![](assets/offer_inbound_fallback_example_029.png)
+   ![New anonymous offer dialog in the Best Offer category with the label Best offer #1](assets/offer_inbound_fallback_example_029.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
 
-   ![](assets/offer_inbound_fallback_example_030.png)
+   ![Eligibility tab of the Best offer #1 anonymous offer with weights for Home Page and Saving page](assets/offer_inbound_fallback_example_030.png)
 
 1. Go to the **[!UICONTROL Content]** tab and define the content of the offer. 
 
-   ![](assets/offer_inbound_fallback_example_032.png)
+   ![Content tab of an anonymous Best Offer with title Neobank Bank Account and HTML content](assets/offer_inbound_fallback_example_032.png)
 
 1. Create a second offer in the **Best Offer** category.
 
-   ![](assets/offer_inbound_fallback_example_031.png)
+   ![Content tab of the second Best Offer with title Neobank Home Insurance and HTML content](assets/offer_inbound_fallback_example_031.png)
 
 1. Go to the **Partner** category and create an anonymous offer.
 1. Go to the **[!UICONTROL Content]** tab and define the content of the offer. 
 
-   ![](assets/offer_inbound_fallback_example_033.png)
+   ![Content tab of the anonymous Partner offer with title Neo Weekly and HTML content](assets/offer_inbound_fallback_example_033.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
 
-   ![](assets/offer_inbound_fallback_example_034.png)
+   ![Eligibility tab of the anonymous Partner media offer with a weight of 3 for Homepage](assets/offer_inbound_fallback_example_034.png)
 
 1. Create a second offer for the **Partner** category.
 
-   ![](assets/offer_inbound_fallback_example_035.png)
+   ![Content tab of the second anonymous Partner offer with title Excursion and HTML content](assets/offer_inbound_fallback_example_035.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.
 
-   ![](assets/offer_inbound_fallback_example_036.png)
+   ![Eligibility tab of the second Partner offer with a weight of 3 for Homepage, same as the first](assets/offer_inbound_fallback_example_036.png)
 
 1. Run the approval cycle for each offer to begin making them go live. When approving content, activate the **Partner** or **Best Offer** offer space, according to the offer.
 
@@ -299,15 +299,15 @@ To create the two offer spaces, apply the same procedure as for anonymous offer 
 1. In the Adobe Campaign tree, go to the environment you have just created and add **Best Offer** and **Partner** offer spaces.
 1. Apply the process detailed in [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
 
-   ![](assets/offer_inbound_fallback_example_005.png)
+   ![Offer spaces list of the Environment - Recipients design environment, with the Web Partner Identified space open](assets/offer_inbound_fallback_example_005.png)
 
 1. Select the **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** option.
 
-   ![](assets/offer_inbound_fallback_example_006.png)
+   ![Fall back on an anonymous environment if no individuals were identified option selected in the offer space](assets/offer_inbound_fallback_example_006.png)
 
 1. Using the drop-down list, select the anonymous web offer space created previously (refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment)).
 
-   ![](assets/offer_inbound_fallback_example_007.png)
+   ![Drop-down list of anonymous offer spaces for the linked anonymous space, with Web Partner Anonymous selected](assets/offer_inbound_fallback_example_007.png)
 
 ### Specifying the advanced settings of the identified offer spaces {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
@@ -316,20 +316,20 @@ In this example, contact identification takes place thanks to the email address 
 1. In the identified environment, go to the offer space folder.
 1. Select the **Best Offer** offer space and click **[!UICONTROL Advanced parameters]**.
 
-   ![](assets/offer_inbound_fallback_example_044.png)
+   ![Web Best Offer Identified space with the Advanced parameters link opening the Target identification tab](assets/offer_inbound_fallback_example_044.png)
 
 1. In the **[!UICONTROL Target identification]** tab, click **[!UICONTROL Add]**.
 
-   ![](assets/offer_inbound_fallback_example_046.png)
+   ![Advanced parameters Target identification tab with the Add button for a key path](assets/offer_inbound_fallback_example_046.png)
 
 1. Click **[!UICONTROL Edit expression]**, go to the recipients table and select the **[!UICONTROL Email]** field.
 
-   ![](assets/offer_inbound_fallback_example_047.png)
+   ![Edit expression field selector on the recipients table with the Email field selected](assets/offer_inbound_fallback_example_047.png)
 
 1. Click **[!UICONTROL OK]** to close the **[!UICONTROL Advanced parameters]** window and finish configuring the **Best Offer** offer space.
 1. Apply the same process for the **Partner** offer space.
 
-   ![](assets/offer_inbound_fallback_example_048.png)
+   ![Web Partner Identified space with the @email key path set in the Advanced parameters Target identification tab](assets/offer_inbound_fallback_example_048.png)
 
 ### Creating offer categories in an identified environment {#creating-offer-categories-in-an-identified-environment}
 
@@ -338,7 +338,7 @@ We are going to create two separate categories: the **Best Offer** category and 
 1. Go to the **[!UICONTROL Offer catalogs]** node in the identified environment.
 1. As in the anonymous environment, add two **[!UICONTROL Offer category]** folders with **Best Offer** and **Partner** as labels.
 
-   ![](assets/offer_inbound_fallback_example_009.png)
+   ![Environment - Recipient design tree with Best Offer and Partner categories, mirroring the visitors environment](assets/offer_inbound_fallback_example_009.png)
 
 ### Creating personalized offers {#creating-personalized-offers}
 
@@ -346,31 +346,31 @@ We want to create two personalized offers for each category, i.e. four offers.
 
 1. Go to the **Best Offer** category and create a first personalized offer.
 
-   ![](assets/offer_inbound_fallback_example_011.png)
+   ![New offer dialog in the identified Best Offer category using the New offer (emptyOffer) template, label Best offer #1](assets/offer_inbound_fallback_example_011.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
 
-   ![](assets/offer_inbound_fallback_example_012.png)
+   ![Eligibility tab of the first identified Best Offer with weights for the Neobank homepage and Banking page](assets/offer_inbound_fallback_example_012.png)
 
 1. Go to the **[!UICONTROL Content]** tab and define the content of the offer. 
 
-   ![](assets/offer_inbound_fallback_example_013.png)
+   ![Content tab of the personalized Best Offer with title Neobank Bank Account and an offer for Neobank customers](assets/offer_inbound_fallback_example_013.png)
 
 1. Create a second offer in the **Best Offer** category.
 
-   ![](assets/offer_inbound_fallback_example_014.png)
+   ![Content tab of the second personalized Best Offer, Neobank Home Insurance, with a refund for existing customers](assets/offer_inbound_fallback_example_014.png)
 
 1. Go to the **Partner** category and create a personalized offer.
 
-   ![](assets/offer_inbound_fallback_example_015.png)
+   ![Content tab of the personalized Partner offer with title Excursion and a 20% discount for Neobank customers](assets/offer_inbound_fallback_example_015.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
 
-   ![](assets/offer_inbound_fallback_example_016.png)
+   ![Eligibility tab of the Partner Travel Offer with a weight of 5 for the Neobank homepage](assets/offer_inbound_fallback_example_016.png)
 
 1. Create a second offer for the **Partner** category.
 
-   ![](assets/offer_inbound_fallback_example_017.png)
+   ![Content tab of the second Partner offer, Neo Weekly, with a 50% discount for Neobank customers](assets/offer_inbound_fallback_example_017.png)
 
 1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.
 1. Run the approval cycle for each offer to begin updating them. During content approval, activate the **Partner** or **Best Offer** offer spaces.
@@ -379,7 +379,7 @@ We want to create two personalized offers for each category, i.e. four offers.
 
 The website of the Neobank company has three spaces for offers: two for bank related offers from the **Best Offer** category, and one for offers from the **Partner** category.
 
-![](assets/offer_inbound_fallback_example_038.png)
+![Neobank home page for a logged-on user with two Best offer frames and one Partner offer frame in Special offers](assets/offer_inbound_fallback_example_038.png)
 
 To configure these offer spaces on the HTML page of the website, apply the following process:
 
@@ -387,29 +387,29 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
    elements with an @id attribute whose value will enable us to call up the offers in the various offer spaces of the website.
 
-   ![](assets/offer_inbound_fallback_example_039.png)
+   ![HTML page source with divs ContBO1, ContBO2 and ContPtn defining the three offer spaces](assets/offer_inbound_fallback_example_039.png)
 
 1. Then insert the script for defining attribute values. 
 
-   ![](assets/offer_inbound_fallback_example_040.png)
+   ![Script defining interactionDivs for ContBO1, ContBO2 and ContPtn with their spaces and categories](assets/offer_inbound_fallback_example_040.png)
 
    In this example, **ContBO1** and **ContBO2** receive the value **OsWebBestOfferIdentified**, i.e. the internal name of the **Best Offer** offer space created previously in the identified environment. The **CatBestOffer** and **CatBestOfferAnonym** values match the internal name of the **Best Offer** categories for anonymous and identified environments. 
 
-   ![](assets/offer_inbound_fallback_example_041.png)
+   ![Best Offer space OSWebBestOfferIdentified and the Best Offer categories of the identified and anonymous environments](assets/offer_inbound_fallback_example_041.png)
 
    Likewise, **ContPtn** receives the **OSWebPartnerIdentified** value, which matches the internal name of the **Partner** offer space created in the identified environment. **CatPartner** and **CatPartnerAnonym** match the internal name of the **Partner** categories for anonymous and identified environments. 
 
-   ![](assets/offer_inbound_fallback_example_042.png)
+   ![Partner space OSWebPartnerIdentified and the CatPartner and CatPartnerAnonym category values in the script](assets/offer_inbound_fallback_example_042.png)
 
 1. Assign the information that will let you identify the person who logs on to the Neobank site to the **interactionTarget** variable.
 
-   ![](assets/offer_inbound_fallback_example_043.png)
+   ![interactionTarget variable set to the email of the person who logs in, in the page script](assets/offer_inbound_fallback_example_043.png)
 
    The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
 
 1. Insert the call URL.
 
-   ![](assets/offer_inbound_fallback_example_049.png)
+   ![Script call to interactionProposal.js with env=EnvNeobankIdnRecip, the identified environment internal name](assets/offer_inbound_fallback_example_049.png)
 
    The URL contains **EnvNeobankIdnRecip**, the internal name of the identified environment.
 

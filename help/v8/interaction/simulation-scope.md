@@ -46,7 +46,7 @@ The following items are mandatory:
 
   The recipient will receive this many propositions. For example, if you enter 5, each recipient will receive a maximum of 5 offer propositions. 
 
-  ![](assets/offer_simulation_009.png)
+  ![Simulation Scope tab with Contact date, Number of propositions and the Folder Great travellers target query](assets/offer_simulation_009.png)
 
 To refine the offers to be taken into account for the simulation, you can add one or several themes (specified beforehand in the categories).
 
@@ -62,4 +62,4 @@ You can enhance the simulation analysis by adding reporting axes on the target o
 
 To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. Axes will be used for calculating the simulation and are displayed in the analysis report. For more on this, refer to [Simulation tracking](simulation-tracking.md).
 
-![](assets/offer_simulation_011.png)
+![Calculations tab with the Select an expression dialog choosing End date to add an offer reporting axis](assets/offer_simulation_011.png)
