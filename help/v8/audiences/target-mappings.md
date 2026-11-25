@@ -75,16 +75,16 @@ Adobe Campaign target mapping creation wizard helps you create all schemas requi
 
 1. Create a new target mapping and select your custom schema as the targeting dimension.
 
-   ![](assets/new-target-mapping.png)
+   ![Select targeting dimension step of the new target mapping wizard, with Label Clients and Targeting dimension Contracts.](assets/new-target-mapping.png)
 
 
 1. Indicate the fields where the profile information is stored: last name, first name, email, address, etc.
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![Edit address forms step, where each delivery address field, such as Email, is linked to a field of the new dimension.](assets/wf_new_mapping_define_join.png)
 
 1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![Storage step with Namespace, Suffix of the extension schemas, and Exclusions options for storing exclusions and messages.](assets/wf_new_mapping_define_names.png)
 
    You can choose whether to store exclusions (**excludelog**), with messages (**broadlog**) or in a separate table.
 
@@ -92,6 +92,6 @@ Adobe Campaign target mapping creation wizard helps you create all schemas requi
 
 1. Then select the extensions to be taken into account. The extension type depends on your Campaign settings and add-ons.
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   ![Extensions step with the Generate a storage schema for propositions option selected under Offer engine.](assets/wf_new_mapping_define_extensions.png)
 
    Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.

@@ -36,7 +36,7 @@ Profiles are contacts stored in Campaign database, such as customers, subscriber
 
 A profile is a record in the **nmsRecipient** table or an external table which stores all the profile attributes, such as first name, last name, email address, a cookie ID, Customer ID, mobile identifier or other information relevant to a particular channel. Other tables linked to the recipient table contain profile-related data, for example the delivery logs table which contains records of all deliveries sent to recipients. Learn more about built-in profiles and recipient tables in [Built-in profile table](../dev/datamodel.md#ootb-profiles).
 
-![](assets/recipients-in-explorer.png) 
+![Explorer tree with the Recipients node selected, listing profiles and the details of the selected recipient.](assets/recipients-in-explorer.png) 
 
 In Adobe Campaign, **recipients** are the default profiles targeted for sending deliveries (emails, SMS, etc.). 
 
@@ -49,6 +49,6 @@ To populate Adobe Campaign with profile data, you can:
 * [map to an external database](../connect/fda.md) where profiles are stored
 * enter profiles manually in the Client Console, as below:
 
-![](assets/create-profile.png) 
+![New recipient dialog opened from Create on the Recipients page, with General fields such as First name and Email.](assets/create-profile.png) 
 
 Once imported, you can create audiences to send your messages. Learn how to create audiences [in this section](create-audiences.md).

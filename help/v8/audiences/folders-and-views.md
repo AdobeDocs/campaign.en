@@ -70,13 +70,13 @@ To create a folder, right-click on an existing folder and use the contextual men
 
 To create the same type of folder as the one you selected, choose the first option in the contextual menu. For example, from a Recipients folder, select **[!UICONTROL Create a new 'Recipients' folder]**.
 
-![](assets/create-recipient-folder.png)
+![Context menu of the Recipients folder with the Create a new 'Recipients' folder option highlighted](assets/create-recipient-folder.png)
 
 You can drag and drop the new folder to organize Campaign explorer tree as you need.
 
 To create another type of folder, right-click on an existing folder and select **[!UICONTROL Add new folder]**. You can create all types of folders, depending on the data to be stored.
 
-![](assets/add-new-folder.png)
+![Add new folder menu showing the Database submenu with the Lists folder type selected](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -105,11 +105,11 @@ In the example below, we will create a new folder to display only US deliveries,
 1. Right-click this folder and select **[!UICONTROL Properties...]**.
 1. In the **[!UICONTROL Restriction]** tab, select **[!UICONTROL This folder is a view]**. All the deliveries in the database will then be displayed.
 
-   ![](assets/this-folder-is-a-view.png)
+   ![Folder properties of US Deliveries with the This folder is a view option selected in the Restriction tab](assets/this-folder-is-a-view.png)
     
 1. Define the filter criteria from the query editor in the central section of the window: only the deliveries corresponding to the filter are displayed in the folder.
 
-   ![](assets/filter-view.png)
+   ![Restriction tab filter conditions defining the view as internal name starts with US](assets/filter-view.png)
 
    >[!NOTE]
    >
@@ -128,7 +128,7 @@ Browse the **Sub-folders** tab of the folder properties to organize its sub-fold
 
 You can move the folders with the arrows on the right or select the **[!UICONTROL Sort the sub-folders in alphabetical order]** option to sort them automatically.
 
-![](assets/sort-folders.png)
+![Sub-folders tab of the folder properties with the Move down arrow and the sort alphabetically option](assets/sort-folders.png)
 
 
 ## Filter data in a folder{#filter-data-in-a-folder}
@@ -137,7 +137,7 @@ To filter data stored in a folder, access the folder properties and select the R
 
 For example, the folder below will contain only contacts with an email address and whose origin is not flagged as 'External' - or is empty.
 
-![](assets/add-a-filter-to-a-folder.png)
+![Restriction tab of the US Deliveries folder properties, filtered on internal name starts with US](assets/add-a-filter-to-a-folder.png)
 
 
 ## Restrict access to a folder{#restrict-access-to-a-folder}

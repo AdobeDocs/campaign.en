@@ -58,7 +58,7 @@ The following types of filter are available in Adobe Campaign:
 
 By default, Adobe Campaign displays all database records that the operator has permission to read. You can filter this data using the options available in the upper section of the browser window.
 
-![](assets/filter_web_zone.png)
+![Recipients dashboard with the filter area highlighted: folder icon, quick search field and sort list](assets/filter_web_zone.png)
 
 There are several ways of filtering the data to be displayed. If necessary, these can be used together. Browse the tabs below to learn more about filtering options.
 
@@ -69,11 +69,11 @@ There are several ways of filtering the data to be displayed. If necessary, thes
 
 To filter data based on their folder, click the **[!UICONTROL Folder]** icon and select the folder containing the data to display.
 
-![](assets/filter_web_select_folder.png)
+![Folder menu expanded from Profiles and Targets to Recipients, Clients and New](assets/filter_web_select_folder.png)
 
 Only the profiles in the folder are displayed:
 
-![](assets/filter_web_folder_display.png)
+![Recipients list filtered on the Profiles and Targets > Recipients > Clients > New folder](assets/filter_web_folder_display.png)
 
 Use the cross to the right of the folder selection field to return to the default display mode.
 
@@ -83,7 +83,7 @@ Depending on the type of information displayed, you can apply a filter by status
 
 For example for deliveries, you can choose to display only finished deliveries as shown below:
 
-![](assets/filter_delivery.png)
+![Deliveries dashboard status drop-down listing All, Being edited, Finished and other states](assets/filter_delivery.png)
 
 >[!TAB Order by] 
 
@@ -91,13 +91,13 @@ You can select the sorting order of the data offered on pages via the drop-down 
 
 For example, you can sort tasks by priority, creation date, or alphabetical order.
 
-![](assets/order_data_sample.png)
+![Tasks dashboard sort drop-down with Label from A to Z, Newest first, Oldest first and By priority](assets/order_data_sample.png)
 
 >[!TAB Quick search] 
 
 Use the search field to quickly access the item you are looking for: enter the characters included in the label or internal name of the item you want to display, then confirm to apply an automatic filter to the data on the page.
 
-![](assets/filter_search.png)
+![Deliveries dashboard filtered by entering news in the search field](assets/filter_search.png)
 
 To display all items again, click on the cross to delete the content of the search field.
 
@@ -109,7 +109,7 @@ Predefined filters are available from the **Filters** button above each list.
 
 For example, for the profiles, the following built-in filters are available:
   
-![](assets/built-in-filters.png)
+![Filters drop-down of the recipient list showing built-in filters such as Opened but not clicked](assets/built-in-filters.png)
 
 You can access the filters details in the **[!UICONTROL Profiles and Targets > Pre-defined filters]** node of the Explorer.
 
@@ -119,11 +119,11 @@ You can access the filters details in the **[!UICONTROL Profiles and Targets > P
 
 Select a filter to display its definition.
 
-![](assets/predefined-filter-list.png)
+![Predefined filters node in the Explorer with the Opened filter selected and its filter conditions displayed](assets/predefined-filter-list.png)
 
 Use the last tab to preview the filtered data.
 
-![](assets/built-in-filter-preview.png)
+![Preview tab of the By age range predefined filter, with Minimum age 25 and Maximum age 45 and matching recipients](assets/built-in-filter-preview.png)
 
 
 +++  Built-in predefined filters for profiles
@@ -239,7 +239,7 @@ Use the last tab to preview the filtered data.
 
 The fields above each list let you use the **predefined default filter** for this list. For the recipient list, you can filter on the name and email address by default. 
 
-![](assets/filter-recipient-name.png)
+![Recipient list filtered with Lucas in the default Last name field, returning two profiles](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
@@ -255,12 +255,12 @@ Apply the following steps:
 1. Select the filter you want to be used by default.
 1. Click the **[!UICONTROL Parameters]** tab and select **[!UICONTROL Default filter for the associated document type]**.
 
-   ![](assets/change-default-filter.png)
+   ![Parameters tab of a predefined filter with Default filter for the associated document type selected](assets/change-default-filter.png)
 
 1. Uncheck that same option for the current default predefined filter.
 1. Click **[!UICONTROL Save]** to apply the filter.
 1. Browse to the Recipient folder and click the **[!UICONTROL Remove this filter]** icon on the right of the current filter: the new default filter is available. 
-   ![](assets/updated-default-filter.png)
+   ![Recipient list with the By subscription default filter and its Service field drop-down](assets/updated-default-filter.png)
 
 
 ## Quick filters{#quick-filters}
@@ -277,36 +277,36 @@ To create a **quick filter**, follow these steps:
 
 1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
 
-   ![](assets/quick-filter-on-this-field.png)
+   ![Right-click menu on the Language field with Filter on this field highlighted](assets/quick-filter-on-this-field.png)
 
    The default filter fields are displayed above the list.
 
-   ![](assets/quick-filter-above-list.png)
+   ![Recipient list with a Language equal to English filter added above the list](assets/quick-filter-above-list.png)
 
 1. Select the filter options.
 1. If needed, use the grey icon on the right side of a filter to remove it.
 1. You can combine filters to refine your filter.
 
-   ![](assets/add-filter-above-the-list.png)
+   ![Language and Email quick filters combined above the list, with the Email operator drop-down open](assets/add-filter-above-the-list.png)
 
 
 If you need to filter on a field which is not available in the form but is in the columns, filter on that column. To do this,
 
 1. Click the **[!UICONTROL Configure list]** icon.
 
-   ![](assets/configure-list.png)
+   ![Recipient list with the Configure list icon at the bottom right of the list](assets/configure-list.png)
 
 1. Select the column to display, for example the age of the recipients, and click **Ok**.
 
-   ![](assets/add-age-column.png)
+   ![List configuration dialog with the Age field added to the Output columns](assets/add-age-column.png)
 
 1. Right-click the **Age** column in the recipient list, and select **[!UICONTROL Filter on this column]**.
 
-   ![](assets/age-filter-on-this-column.png)
+   ![Right-click menu on the recipient list with Filter on this column highlighted, Age column displayed](assets/age-filter-on-this-column.png)
 
    You can then select the age filtering options. Add another filter on the age to define a range.
 
-   ![](assets/filter-on-age.png)
+   ![Two Age filters, greater than 20 and less than 30, returning four recipients](assets/filter-on-age.png)
 
 ## Advanced filters{#advanced-filters}
 
@@ -316,7 +316,7 @@ Combine complex criteria in custom **Advanced filters**. Use these filters to cr
 
 To create an **advanced filter**, click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**. 
 
-![](assets/adv-filter.png)
+![Filters drop-down of the recipient list with Advanced filter... highlighted at the bottom](assets/adv-filter.png)
 
 You can also right-click the list of data and select **[!UICONTROL Advanced filter...]**.
 
@@ -324,16 +324,16 @@ Define the filtering conditions. In the example below, you will filter on recipi
 
 1. Click the **[!UICONTROL Edit expression]** icon of the **[!UICONTROL Expression]** column.
 
-   ![](assets/edit-exp.png)
+   ![Advanced filter dialog with the Edit expression icon in the Expression column](assets/edit-exp.png)
 
 1. Select the field to filter on.
 1. Select the operator to be applied from the drop-down list.
 
-   ![](assets/select-operator.png)
+   ![Advanced filter dialog with the Account # expression and the Operator drop-down open](assets/select-operator.png)
 
 1. Select an expected value from the **[!UICONTROL Value]** column. You can combine several filters to refine your query. To add a filter condition, click **[!UICONTROL Add]**.
 
-   ![](assets/add-an-exp.png)
+   ![Advanced filter dialog with Account # starts with NL and a new And row added](assets/add-an-exp.png)
 
     >[!NOTE]
     >
@@ -341,13 +341,13 @@ Define the filtering conditions. In the example below, you will filter on recipi
 
 1. Three operators are available to combine expressions:  **And**, **Or**, **Except**. Click the arrow to switch to **Or**.
 
-   ![](assets/select-or-operator.png)
+   ![Advanced filter dialog with the And, Or and Except operator list open on the second City condition](assets/select-or-operator.png)
 
 1. Click **[!UICONTROL Ok]** to create the filter and apply it to the current list.
 
 The filter applied is displayed above the list.
 
-![](assets/adv-filter-link.png)
+![Recipient list with the applied advanced filter shown as a blue link above the list](assets/adv-filter-link.png)
 
 To edit or modify this filter, click its description link in blue, above the list.
 
@@ -361,15 +361,15 @@ To save an advanced filter, follow the steps below:
 1. Click the description of the filter to edit it.
 1. Click the **[!UICONTROL Save as filter]** icon on the upper right section of the window.
 
-   ![](assets/save-as-filter.png)
+   ![Advanced filter dialog with the Save as filter icon at the upper right](assets/save-as-filter.png)
 
 1. Enter a name for this filter and save it.
 
-   ![](assets/application-filter-save.png)
+   ![Application filter dialog with the label Paris - LA New Users and the filter conditions](assets/application-filter-save.png)
 
 The filter is added to the [predefined filters](#predefined-filters). It can be updated from this node.
 
-![](assets/added-to-predefined-filters.png)
+![Predefined filters node listing the new Paris - LA New Users filter with its definition](assets/added-to-predefined-filters.png)
 
 >[!NOTE]
 >
@@ -379,7 +379,7 @@ The filter is added to the [predefined filters](#predefined-filters). It can be 
 
 This filter is also available from the predefined filters of the recipient list.
 
-![](assets/access-to-new-predefined-filter.png)
+![Filters drop-down of the recipient list with the new Paris - LA New Users filter highlighted](assets/access-to-new-predefined-filter.png)
 
 
 
@@ -389,7 +389,7 @@ You can use and combine filters to create a target population segment.
 
 Once saved, advanced filters are available when selecting the target population of a message, in the **[!UICONTROL User filters]** section.
 
-![](assets/adv-filter-target-type.png)
+![Target Type dialog with the saved Paris - LA New Users filter selected under User filters](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
@@ -421,7 +421,7 @@ Advanced parameters are available for predefined filters. To access them, browse
 
 * To define a form to select the filtering criteria, select the  **[!UICONTROL Use parameter entry form]** option. This form must be entered in XML format in the **[!UICONTROL Form]** tab. For example, the built-in predefined filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery to which the filter applies to.
 
-![](assets/predefined-filters-parameters.png)
+![Parameters tab of a predefined filter and its Advanced parameters dialog with Do not restrict the filter option](assets/predefined-filters-parameters.png)
 
 
 * The **[!UICONTROL Advanced parameters]** link lets you define additional settings. 

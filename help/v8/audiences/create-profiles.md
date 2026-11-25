@@ -34,14 +34,14 @@ To create a recipient manually, follow the steps below:
 
 1. Browse to the **[!UICONTROL Profiles and targets]** tab and select the **[!UICONTROL Recipients]** category. 
 
-    ![](assets/profiles-and-targets.png)
+    ![Profiles and targets tab selected on the home page, with the Recipients list and the Create button.](assets/profiles-and-targets.png)
 
     By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can also create recipients from this view. 
 
 1. Click the **[!UICONTROL Create button]**.
 1. Enter the profile's data. 
 
-    ![](assets/new-recipient.png)
+    ![Recipient form with the General tab filled in: First name, Last name, Email, Status and Origin, plus Save and Cancel.](assets/new-recipient.png)
 
     Learn more about the recipient built-in form in [Edit a profile](view-profiles.md#edit-a-profiles).
 

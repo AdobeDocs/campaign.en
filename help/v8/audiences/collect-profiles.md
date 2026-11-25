@@ -34,6 +34,6 @@ level_v2:
 
 Use Campaign to create web forms and collect and manage profile data easily and efficiently. You can share these forms into your website, which makes it easy for your contacts to provide their information. Data is sent to Campaign to create or update their profile.
 
-![](assets/web-form-page.png) 
+![Page activity of a web application workflow, showing the Luma newsletter form with an email field and Send button.](assets/web-form-page.png) 
 
 Learn how to create web forms in [Get started with web forms](../dev/web/about-web-forms.md).
