@@ -169,7 +169,7 @@ First, you must create the Microsoft Dynamics 365 external account.
 1. Select **[!UICONTROL Microsoft Dynamics CRM]** external account in the **Type** section.
 1. Select the authentication method in the **[!UICONTROL CRM O-Auth type]** drop-down list.
     
-    ![](assets/ms-dyn-external-account.png)
+    ![Microsoft Dynamics CRM external account with server, account, CRM O-Auth type, password and CRM version](assets/ms-dyn-external-account.png)
 
     1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with **Password Credentials**, provide the following details:
 

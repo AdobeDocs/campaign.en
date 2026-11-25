@@ -77,15 +77,15 @@ Once you have been approved with Elevated access, create an X application to ena
 1. Let X assistant guide you through the process.
 1. To allow Adobe Campaign to create posts on your account, edit the **App permissions** from the User authentication set up section of your app. Select **Read, Write, and Direct Messages**. 
 
-   ![](assets/tw-permissions.png)
+   ![App permissions with Read and write and Direct message selected](assets/tw-permissions.png)
    
 1. In the **Type of app** section, select **Web App, Automated App or Bot**. You can leave the **Callback URL** field empty, and save your configuration.
 
-   ![](assets/tw-app-type.png)
+   ![Type of App with Web App, Automated App or Bot selected as a confidential client](assets/tw-app-type.png)
 
 1. Back to your app dashboard, select your app and browse to the **Keys and tokens** tab. Under **Access Token and Secret**, if the **Read, Write, and Direct Messages** permission is not mentioned, you must regenerate your app's token and secret. Note that all the keys and tokens must be saved upon creation. You will need them to configure your Campaign Twitter service.
 
-   ![](assets/tw-permissions-check.png)
+   ![Authentication Tokens showing Access Token and Secret created with Read, Write, and Direct Messages permissions](assets/tw-permissions-check.png)
 
 
 >[!NOTE]
@@ -118,7 +118,7 @@ To enter settings, you must access both your Adobe Campaign Client Console and y
 
 1. By default, followers are saved in the **[!UICONTROL Visitors]** folder. You can select another location from the **[!UICONTROL Visitor folder]** field. [Learn more](../send/twitter.md#direct-tw-messages)
 
-   ![](assets/tw-service-in-ac.png)
+   ![Service New Offers Available form with Label, Type Email, Visitor folder and the OAuth consumer and access token fields](assets/tw-service-in-ac.png)
    
    >[!NOTE]
    >
@@ -134,7 +134,7 @@ To check your settings, you can:
 
 * Edit the **Twitter** service which you have just created.
 * Browse the **[!UICONTROL Twitter page]** tab: your Twitter account should be displayed. 
-   ![](assets/tw-page.png)
+   ![Twitter page tab of the Service in the Adobe Campaign console displaying the linked Jane Marge account](assets/tw-page.png)
 
 ## Synchronize your X account {#synchro-tw-accounts}
 
@@ -171,6 +171,6 @@ In addition to an X account, create a private X account which can be used for se
 1. Access the account  **Settings**.
 1. Browse to **Privacy & Safety** and **Audience and Tagging** and check the **Protect your posts** option. Your posts and other account information are only visible to people who follow you.
 
-![](assets/do-not-localize/social_tw_test_page.png)
+![X settings Audience, media and tagging page with the Protect your posts option selected](assets/do-not-localize/social_tw_test_page.png)
 
 Configure your X app and Campaign service to work with this test account, as described above.

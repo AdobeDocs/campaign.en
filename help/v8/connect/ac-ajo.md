@@ -36,7 +36,7 @@ Integration between Adobe Campaign and Adobe Journey Optimizer allows you to orc
 Basic steps are to create a transactional message template in Campaign, and then create the event, action, and design the journey in Adobe Journey Optimizer.
 
 
-![](assets/ajo-integration.png)
+![Journey Optimizer journey canvas with the ActionCampaign_v8 action and its email, first name and order parameters](assets/ajo-integration.png)
 
 
 [Discover this integration in this end-to-end sample](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}.
