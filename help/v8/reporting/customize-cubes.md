@@ -152,7 +152,7 @@ To create a new aggregate, apply the following steps:
 1. Select a dimension and a level. Repeat this process for each dimension and each level.
 1. Click the **[!UICONTROL Workflow]** tab to create the aggregation workflow.
 
-    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [Scheduler](../../automation/workflow/scheduler.md).
+    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [Configuring the Scheduler activity](../../automation/workflow/scheduler.md#configuring-scheduler-activity).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.

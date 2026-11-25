@@ -34,7 +34,7 @@ Added a page on CNIL guidance for email tracking pixels and the related Adobe Ca
 
 ## April 2025 {#april-2025}
 
-Added a best practice to restart the workflow after changing the scheduled time of the **[!UICONTROL Scheduler]** activity to ensure it executes according to the updated schedule. [Scheduler](../../automation/workflow/scheduler.md)
+Added a best practice to restart the workflow after changing the scheduled time of the **[!UICONTROL Scheduler]** activity to ensure it executes according to the updated schedule. [Scheduler best practices](../../automation/workflow/scheduler.md#best-practices)
 
 ## January 2025 {#january-2025}
 

@@ -94,7 +94,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-    Learn how to create and start marketing campaign deliveries in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md).
+    Learn how to create and start marketing campaign deliveries in [Create deliveries](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries) and [Start a delivery](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery).
 
     You can associate various documents with a campaign: report, photo, web page, diagram, etc. Learn more about associated documents in [Marketing campaign assets, documents and delivery outlines](../../automation/campaigns/marketing-campaign-assets.md).
     
