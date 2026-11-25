@@ -530,7 +530,7 @@ Learn how to design effective marketing messages in Campaign v8, including email
 
 +++ What are the best practices for designing emails in Campaign?
 
-Key guidelines: ensure mobile-responsive design, use HTML 4.0/XHTML compatible code with inline CSS, optimize images (under 100KB) with alt text, use personalization merge fields, test across email clients before sending, and include a plain text version. Aim for total email size under 500KB for optimal deliverability.
+Key guidelines: ensure mobile-responsive design and use HTML 4.0/XHTML compatible code with inline CSS. Optimize images (under 100KB) with alt text, use personalization merge fields, test across email clients before sending, and include a plain text version. Aim for total email size under 500KB for optimal deliverability.
 
 **Related topics:**
 
@@ -1208,7 +1208,7 @@ Campaign Control Panel is a web-based administrative interface that helps Campai
 Adobe Campaign v8 offers the capability to compare all current settings for top-level administrative accounts and privileged accounts to recommended secure defaults.
 
 * **Current settings (full visibility):** All settings for administrative and privileged accounts can be reviewed in **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (client console or Campaign Web UI): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (e.g. ADMINISTRATION, APPROVAL ADMINISTRATION), and folder-level permissions. Product administrators can also review instance-level settings in [Campaign Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html){target="_blank"} (IP allowlist, URL permissions, instance details, and more).
-* **Recommended secure defaults:** The [Security guidelines](../config/security.md) define the recommended secure baseline for administrative and privileged accounts, including: create sufficient security groups, assign appropriate access rights per operator, and limit use of the admin operator and admin group. When applicable, see also the [Enhanced security add-on](../config/enhanced-security.md) for network and encryption hardening.
+* **Recommended secure defaults:** The [Security guidelines](../config/security.md) define the recommended secure baseline for administrative and privileged accounts. They recommend that you create sufficient security groups, assign appropriate access rights per operator, and limit use of the admin operator and admin group. When applicable, see also the [Enhanced security add-on](../config/enhanced-security.md) for network and encryption hardening.
 * **Comparison:** Administrators compare their current configuration to these documented recommendations to identify gaps and align with secure defaults.
 
 **Related topics:**

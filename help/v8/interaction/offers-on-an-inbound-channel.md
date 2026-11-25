@@ -143,7 +143,7 @@ You will get a tree structure containing your new environment:
 
 ### Configure the web offer space on the website {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Campaign v8 documentation)).
+To make the offers you have just configured visible on the website, insert JavaScript code into the HTML page of your site. This code calls up the Interaction engine. For more on this, refer to [About inbound channels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Campaign v8 documentation).
 
 1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
 
@@ -153,7 +153,7 @@ To make the offers you have just configured visible on the website, insert JavaS
 
    ![HTML script call to interactionProposal.js with the env=liveVisitor and th=financing parameters highlighted](assets/offer_inbound_anonymous_example_020.png)
 
-   The blue URL boxes above correspond to the instance name, the internal name of the environment (refer to [Creating an anonymous environment](#creating-an-anonymous-environment)) and the theme linked to the category ([Creating an offer category and a theme](#creating-an-offer-category-and-a-theme)). The latter is optional.
+   The blue URL boxes above correspond to the instance name, the internal name of the environment, and the theme linked to the category. For more on these, refer to [Creating an anonymous environment](#creating-an-anonymous-environment) and [Creating an offer category and a theme](#creating-an-offer-category-and-a-theme). The theme is optional.
 
 When a visitor accesses the website's home page, the offers with the **financing** theme are displayed as configured on the HTML page. 
 
@@ -405,7 +405,7 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
    ![interactionTarget variable set to the email of the person who logs in, in the page script](assets/offer_inbound_fallback_example_043.png)
 
-   The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
+   The person's identification can be based on a browser cookie, a reading parameter in the URL, email, or identifier of the person. If you use a field of the recipient table other than the primary key, define it in the advanced parameters of the space. For more on this, refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces).
 
 1. Insert the call URL.
 
@@ -415,6 +415,6 @@ To configure these offer spaces on the HTML page of the website, apply the follo
 
 When you open the web page, the script lets you call up the Interaction engine to display the content of offers in the relevant spaces of the web page. In a single call to the Adobe Campaign server, the engine determines the environment, the offer space and the categories to be selected.
 
-In this example, the engine recognizes the identified environment (**EnvNeobankIdnRecip**). It identifies the offer space (**OSWebBestOfferIdentified**) and the **Best Offer** category (**CatBestOffer**) for the first and second offer spaces on the web page, as well as the (**OSWebPartnerIdentified**) offer space and the **Partner** category (**CatPartner**) for the third offer space on the site.
+In this example, the engine recognizes the identified environment (**EnvNeobankIdnRecip**). It identifies the offer space (**OSWebBestOfferIdentified**) and the **Best Offer** category (**CatBestOffer**) for the first and second offer spaces on the web page. For the third offer space, it identifies the offer space (**OSWebPartnerIdentified**) and the **Partner** category (**CatPartner**).
 
 If the engine can't identify the recipient, it switches to the anonymous offer spaces referenced in the identified offer spaces and towards the anonymous categories (**CatPartner** and **CatPartnerAnonym**) as specified in the script.
