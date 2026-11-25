@@ -38,7 +38,7 @@ An enumeration (also called an itemized list) is a predefined list of values you
 
 When defined, values are displayed in a drop-down list. A value can be selected directly or entered using predictive input, which suggests and completes matching entries. Some fields include predefined enumerations, and additional enumerations can be created if required.
 
-![](assets/enum_values.png)
+![Recipient form with the Language drop-down open, listing the enumeration values English, French, Italian, Russian and Spanish](assets/enum_values.png)
 
 
 ## Types of enumerations {#types-of-enum}

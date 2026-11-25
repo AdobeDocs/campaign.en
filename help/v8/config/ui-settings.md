@@ -103,7 +103,7 @@ If you need to remove a column, select it and click the **Trash** icon.
 
 You can use the **[!UICONTROL Distribution of values]** icon to view the repartition of values for the selected field in the current folder.
 
-![](assets/value-distribution.png)
+![Distribution of values dialog listing each Type with its Count and Percentage for the Services and Subscriptions folder](assets/value-distribution.png)
 
 
 ### Create a new column {#create-a-new-column}

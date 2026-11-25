@@ -122,7 +122,7 @@ Learn more about **Workflow properties** in [this page](https://experienceleague
 
 From the **[!UICONTROL Execution]** tab of your workflow's **[!UICONTROL Properties]**, you can choose to link your workflow to different warehouses and optimize your workload management. For more information on **Warehouses**, refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
-![](assets/warehouse.png)
+![Workflow properties Execution tab with the Warehouse drop-down open: Default, Campaign, Import / Export and Campaign Burst](assets/warehouse.png)
 
 Depending on your workflow's purpose, you can choose between the following three warehouses from the **[!UICONTROL Warehouse]** drop-down:
 
