@@ -20,7 +20,7 @@ This article details the steps required to migrate a technical operator to techn
 
 With Campaign v8, all regular users should already connect to the Adobe Campaign client console using their Adobe ID, through Adobe Identity Management System (IMS). However, with some older configurations, user/password connections were still available. **This is no longer permitted starting Campaign v8.6.**
 
-In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. Migration for technical operators is detailed in a dedicated article, available in [this page](ims-migration.md).
+In addition, as part of the effort to reinforce security and authentication process, Adobe Campaign client application now calls Campaign APIs directly using the IMS technical account token. Migration for technical operators is detailed in a dedicated article, available in [Migration of technical users to Adobe Developer console](ims-migration.md).
 
 This change is applicable starting Campaign v8.5.2, and is **mandatory** starting Campaign v8.6. 
 
@@ -50,7 +50,7 @@ Key steps for this migration are listed below:
 
 1. Adobe upgrades your environments to Campaign v8.5.2.
 1. After the upgrade, you can still create new users with both methods, as native user or with IMS.
-1. Your internal Campaign Administrator must add unique emails to all native users on the Campaign client console, and confirm to your Adobe Transition Manager once this is done. This step is detailed in [this section](#ims-migration-id).
+1. Your internal Campaign Administrator must add unique emails to all native users on the Campaign client console, and confirm to your Adobe Transition Manager once this is done. This step is detailed in [How to add emails for current native users?](#ims-migration-id).
 1. Work with Adobe to secure a date for Adobe to run automated migration for your non-technical users (operators) and product profiles. This step requires an hour window with no downtime to any of your instances.
 1. Your internal Campaign Administrator validates these changes, and provides sign-off. After this migration, you must no longer create any further operator authenticating with his login and password.
 
@@ -104,36 +104,36 @@ To perform a bulk update of your native operators, follow these steps:
 
     Learn more about the **Query** activity in [this page](../../automation/workflow/query.md)
     
-    Learn more about the **Data extraction (file)** activity in [this page](../../automation/workflow/extraction-file.md)
+    Learn more about the **Data extraction (file)** activity in [Data extraction (file)](../../automation/workflow/extraction-file.md)
 
 1. Update the CSV file with a new column containing the emails of your operators.
 
 1. Create a workflow to import updated data, with a **Data loading (file)** activity and an **Update data** activity in the workflow.
 
-    ![](assets/update-operators-wf.png){width="70%"}
+    ![Update Operators workflow: a Data loading (file) activity linked to an Update data activity.](assets/update-operators-wf.png){width="70%"}
 
 1. Edit the **Data loading (file)** activity and define the settings to load the updated CSV file, as per the sample below.
 
-    ![](assets/data-loading-activity.png){width="70%"}
+    ![Data loading (file) activity settings: sample file, preview with Label, Name and Email columns, and file name.](assets/data-loading-activity.png){width="70%"}
 
-    Learn more about the **Data loading (file)** activity in [this page](../../automation/workflow/data-loading-file.md)
+    Learn more about the **Data loading (file)** activity in [Data loading (file)](../../automation/workflow/data-loading-file.md)
 
 1. Edit the **Update data** activity and define the settings as per the sample below. Note that the **Updated dimension** has been changed to `Operators (xtk)`.
 
-    ![](assets/update-data-activity.png){width="70%"}
+    ![Update data activity with reconciliation keys on the Operator dimension, updating the @email and @name fields.](assets/update-data-activity.png){width="70%"}
 
     Learn more about the **Update data** activity in [this page](../../automation/workflow/update-data.md)
 
 1. Run the workflow and check results. The email address has been added to the operator's profile.
 
-    ![](assets/updated-operator.png){width="70%"}
+    ![Operator profile with the Email field in Contact points highlighted, showing the added email address.](assets/updated-operator.png){width="70%"}
     
 +++
 
 
 ### How to log in to Campaign via IMS? {#ims-migration-log}
 
-Learn how to connect to Campaign with your Adobe ID in [this section](../../v8/start/connect.md).
+Learn how to connect to Campaign with your Adobe ID in [Connect to Campaign v8](../../v8/start/connect.md).
 
 ### Will there be a downtime during this migration? {#ims-migration-downtime}
 
@@ -149,7 +149,7 @@ Adobe strongly recommends all users should be logged off during the migration wi
 
 There are 2 aspects in this migration: end-users migration and technical users migration (used in APIs in your custom code).
 
-If all your users (Campaign operators) are on IMS you do not need to perform this migration. However, you still need to migrate Technical users you might have used in custom code. Learn more in [this page](ims-migration.md).
+If all your users (Campaign operators) are on IMS you do not need to perform this migration. However, you still need to migrate Technical users you might have used in custom code. Learn more in [Migration of technical users to Adobe Developer console](ims-migration.md).
 
 Once this migration is done, you must contact your Adobe Transition Manager so that Adobe finalizes the migration.
 
@@ -161,15 +161,15 @@ Learn how to view your Operators' authentication type in Campaign:
 
 1. Right-click the header row and select the **Configure list** menu.
 
-    ![](assets/ims_2.png)
+    ![Operators list with the right-click menu open and the Configure list option highlighted.](assets/ims_2.png)
 
 1. Add **Account Disabled** and **Authentication Type** as **Output columns**.
 
-    ![](assets/ims_1.png)
+    ![List configuration with Account disabled and Authentication type added to the Output columns.](assets/ims_1.png)
 
 You can now see the list of your **Operators** and their **Authentication Type**.
 
-![](assets/ims_3.png)
+![Operators list with the Authentication type column highlighted, showing Native or IMS for each operator.](assets/ims_3.png)
 
 ## Useful links {#ims-useful-links}
 

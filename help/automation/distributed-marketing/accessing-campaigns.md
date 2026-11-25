@@ -33,7 +33,7 @@ Once the order is approved and the availability date reached, the campaign is cr
 
 It is added to the detail of the matching order and can be edited. The complete dashboard lets you manage it on a local level.
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+![Campaign packages list with a local campaign opened on its Dashboard, showing deliveries and Add a delivery link](assets/mkg_dist_local_op_edit_new_op1.png)
 
 The campaign remains accessible in the Campaign overview, located via the **[!UICONTROL Campaigns]** link on the home page.
 

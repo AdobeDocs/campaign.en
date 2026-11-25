@@ -28,7 +28,7 @@ topic_v2:
 
 
 
-The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [this page](about-distributed-marketing.md).
+The central entity creates collaborative campaigns from **Distributed Marketing** campaign templates. Refer to [Get started with distributed marketing](about-distributed-marketing.md).
 
 ## Create a collaborative campaign {#creating-a-collaborative-campaign}
 
@@ -44,7 +44,7 @@ The configuration process for a collaborative campaign database is similar to th
 
 To create a collaborative campaign (by form), the **[!UICONTROL Collaborative campaign (by form)]** template must be selected.
 
-![](assets/mkg_dist_mutual_op_form2.png)
+![New marketing campaign dialog with the Collaborative campaign (by form) template selected.](assets/mkg_dist_mutual_op_form2.png)
 
 In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign parameters...]** link to access the **Distributed Marketing** tab.
 
@@ -54,13 +54,13 @@ Save your campaign. You can now use it from the **Campaign packages** view in th
 
 The **[!UICONTROL Campaign Package]** view allows you to use local campaign templates (out-of-the-box or duplicated), as well as reference campaigns for collaborative campaigns, with the aim of creating campaigns for your different organizational entities.
 
-![](assets/mkg_dist_mutual_op_form1b.png)
+![Campaign packages list with the package creation dialog and the reference campaign drop-down list open.](assets/mkg_dist_mutual_op_form1b.png)
 
 ### By campaign {#by-campaign}
 
 To create a collaborative campaign (by campaign), the **[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]** template must be selected.
 
-![](assets/mkg_dist_mutual_op_by_op2.png)
+![New marketing campaign dialog with the Collaborative campaign (by campaign) template selected.](assets/mkg_dist_mutual_op_by_op2.png)
 
 When ordering the campaign, the local entity can complete the criteria predefined by the central entity, and evaluate the campaign before ordering it.
 
@@ -74,13 +74,13 @@ The local entity executes the child campaign. The central entity executes the pa
 
 The central entity can view all child campaigns linked with a **Collaborative campaign (by campaign)** from this dashboard (via the **[!UICONTROL List of associated campaigns]** link).
 
-![](assets/mkg_dist_mutual_op_by_op.png)
+![Collaborative campaign dashboard with the List of linked campaigns link opening the linked campaigns list.](assets/mkg_dist_mutual_op_by_op.png)
 
 ### By target approval {#by-target-approval}
 
 To create a collaborative campaign (by target approval), the **[!UICONTROL Collaborative campaign (by target approval)]** template must be selected.
 
-![](assets/mkg_dist_mutual_op_by_valid.png)
+![New marketing campaign dialog with the Collaborative campaign (by target approval) template selected.](assets/mkg_dist_mutual_op_by_valid.png)
 
 >[!NOTE]
 >
@@ -94,23 +94,23 @@ The campaign workflow must integrate **Local approval** type activity. The activ
 
 **Local entity distribution** type data distribution must be created. The data distribution template lets you limit the number of records from a list of grouping values. In **[!UICONTROL Resources > Campaign management > Data distribution]**, click the **[!UICONTROL New]** icon to create a new **[!UICONTROL Data distribution]**. For more information on data distribution, 
 
-![](assets/mkg_dist_data_distribution.png)
+![Data distribution form with targeting dimension, distribution field and Local entity assignment type.](assets/mkg_dist_data_distribution.png)
 
 Select the **Targeting dimension** and the **[!UICONTROL Distribution field]**. For the **[!UICONTROL Assignment type]**, select **Local entity**.
 
 In the **[!UICONTROL Distribution]** tab, add a field for each local entity and specify the value.
 
-![](assets/mkg_dist_data_distribution2.png)
+![Breakdown tab of a data distribution listing each distribution field value, fixed count and local entity.](assets/mkg_dist_data_distribution2.png)
 
 You can add a second **Target approval** after the **Delivery** type activity to configure a report on it.
 
 In the campaign creation notification message, the local entity receives a contact list that has been predefined by the central entity parameters.
 
-![](assets/mkg_dist_mutual_op_by_valid1.png)
+![Target approval email linking to a web page where the local entity reviews its contact list.](assets/mkg_dist_mutual_op_by_valid1.png)
 
 The local entity can delete certain contacts based on the campaign content. 
 
-![](assets/mkg_dist_mutual_op_by_valid2.png)
+![Target approval page with some contacts cleared, a comment and the Approve targeting button.](assets/mkg_dist_mutual_op_by_valid2.png)
 
 ### Simple {#simple}
 
@@ -138,13 +138,13 @@ For **collaborative campaigns**, the central entity must specify the registratio
 >
 >The **[!UICONTROL Personalization deadline]** allows the central entity to choose a deadline by which the local entities must have delivered the documents (spreadsheets, images) to be used to configure the campaign. This is not a mandatory option. Side-stepping this date will not affect campaign implementation.
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
+![Campaign package dialog with the Execution schedule section, including the personalization and registration deadlines.](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
 ### Audience {#audience}
 
 The central entity must specify the local entities involved per campaign as soon as the collaborative campaign is created. 
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
+![Campaign package dialog with the Add button opening the selection of local entities for the audience.](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
 
 >[!CAUTION]
 >
@@ -154,36 +154,36 @@ The central entity must specify the local entities involved per campaign as soon
 
 For **collaborative campaigns**, you can specify the order approval mode.
 
-![](assets/mkg_dist_edit_kit1.png)
+![Campaign package Edit tab with the Approval mode drop-down list offering Manual and Automatic.](assets/mkg_dist_edit_kit1.png)
 
 In manual mode, the local entity needs to subscribe for the campaign in order to participate.
 
 In automatic mode, the local entity is pre-subscribed for the campaign. It may cancel campaign subscription or modify its parameters without needing approval from the central entity.
 
-![](assets/mkg_dist_edit_kit2.png)
+![Campaign subscription email with the Reject the subscription and Change the order parameters links.](assets/mkg_dist_edit_kit2.png)
 
 ### Notifications {#notifications}
 
-Configuration for notifications is identical to notifications for a local entity. Refer to [this section](creating-a-local-campaign.md#notifications).
+Configuration for notifications is identical to notifications for a local entity. Refer to [Notifications](creating-a-local-campaign.md#notifications).
 
 ## Order a campaign {#ordering-a-campaign}
 
 When a collaborative campaign is added to the list of campaign packages, the local entities belonging to the audience defined by the central entity are notified (the **collaborative campaigns (by target approval)** do not have a predefined audience). The message sent contains a link that lets you register for the campaign, as shown below:
 
-![](assets/mkg_dist_mutual_op_notification.png)
+![Campaign subscription email with the Register for the campaign link and the package details.](assets/mkg_dist_mutual_op_notification.png)
 
 This message also enables local entities to view the description entered by the central operator that created the package, as well as documents linked to the campaign. These do not belong to the campaign itself, although they provide additional information on it.
 
 Once local operators have logged on via a web interface, they can enter personalized information to the collaborative campaign they wish to order:
 
-![](assets/mkg_dist_mutual_op_command.png)
+![Campaign order web page where the local entity enters an order label and an order comment.](assets/mkg_dist_mutual_op_command.png)
 
 After a local entity has completed their registration, central entities are notified by email to approve their order.
 
-![](assets/mkg_dist_mutual_op_valid_command.png)
+![Approval of campaign order email and Order approval page with Accept and Reject options and a comment.](assets/mkg_dist_mutual_op_valid_command.png)
 
 For more on this, refer to the [Approval process](creating-a-local-campaign.md#approval-process) section.
 
 ## Approve an order {#approving-an-order}
 
-The process for approving a collaborative campaign package order is the same as when doing so for a local campaign. Refer to [this section](creating-a-local-campaign.md#approving-an-order).
+The process for approving a collaborative campaign package order is the same as when doing so for a local campaign. Refer to [Approving an order](creating-a-local-campaign.md#approving-an-order).

@@ -29,15 +29,15 @@ Before they can be published in the campaign package list, the campaign packages
 
 To select the reviewer, click the **[!UICONTROL Approval parameters]** link from the campaign package and choose the relevant reviewer from the drop-down list.
 
-![](assets/s_advuser_mkg_dist_define_valid.png)
+![Approval parameters dialog of a campaign package with the Reviewer field set to a central management group.](assets/s_advuser_mkg_dist_define_valid.png)
 
 You may then begin the approval process by clicking **[!UICONTROL Submit for approval]**. 
 
-![](assets/s_advuser_mkg_dist_valid_process.png)
+![Campaign package dashboard showing the submitted-for-approval message and the Approve the package button.](assets/s_advuser_mkg_dist_valid_process.png)
 
 A notification message is then sent to the reviewer to confirm the availability of this campaign package. The message contains a link to accept or reject the approval via web access.
 
-![](assets/s_advuser_mkg_dist_valid_process1.png)
+![Approval email with the Accept or reject link opening the Action on package page with Accept and Reject options.](assets/s_advuser_mkg_dist_valid_process1.png)
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ A notification message is then sent to the reviewer to confirm the availability 
 
 You can add other reviewers from the **[!UICONTROL Edit...]** link, found in the campaign package's **[!UICONTROL Approval parameters...]** tab. 
 
-![](assets/s_advuser_mkg_dist_select_op_valid.png)
+![Edit link in Approval parameters opening the Edit reviewers window with Additional reviewers and Approval schedule.](assets/s_advuser_mkg_dist_select_op_valid.png)
 
 ## Approval timeline {#approval-periods}
 
@@ -57,7 +57,7 @@ Within the edit reviewers window, you can also set reminders to send one or mult
 
 Reminders can be sent out either on a given date and/or **x** days after the submission date. The type of reminder can be configured in the first column of the table of reminders. In the example below, the reviewers will receive a reminder message on the on the 01/11/2023, i.e. two days before the date selected in the **[!UICONTROL Date]** column, and a second reminder one day before the end of the approval period, i.e. two days after the submission for approval date.
 
-![](assets/s_advuser_mkg_dist_reminder_planning.png)
+![Edit reviewers window with a 3d approval delay and two reminders: Delay from approval deadline and Given date.](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 Once it is defined and the package has been submitted for approval, the execution schedule is displayed in the **[!UICONTROL Audit]** tab. It shows the processing deadline calculated based on previous configuration, as well as the dates of all configured reminders.
 
@@ -65,6 +65,6 @@ Once it is defined and the package has been submitted for approval, the executio
 
 If no reviewer has been specified or if none of the notified operators have approved the package, the **[!UICONTROL Approve the package]** button lets you proceed directly to the approval from the campaign package **[!UICONTROL Dashboard]** or from the packages overview.
 
-![](assets/s_advuser_mkg_dist_valid_button.png)
+![Approve the package button opening the Action on package dialog with Accept or Reject options and a Comment field.](assets/s_advuser_mkg_dist_valid_button.png)
 
 After approval, the campaign is published, added to the list and, as soon as its availability date is reached, local entities may use it. If the local entities were specified when creating the campaign, a message is sent to the operators in the notification group to let them know that the campaign is available. If no entity was specified beforehand, the campaign is available to all local entities, by default. For more on this, refer to [Organizational entities](about-distributed-marketing.md#organizational-entities).

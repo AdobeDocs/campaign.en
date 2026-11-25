@@ -99,7 +99,7 @@ The central entity provides campaigns that local entities may use. Campaigns are
 
 The list of campaign packages can be accessed from the **Campaigns** tab: click the **[!UICONTROL Campaign packages]** link.
 
-![](assets/mkg_dist_home_local_op.png)
+![Campaigns tab: clicking Campaign packages in the Browsing menu opens the list of campaign packages.](assets/mkg_dist_home_local_op.png)
 
 This window allows all local operators to view the campaigns available for their local agency.
 
@@ -109,7 +109,7 @@ In the case of central agencies, this window displays all packages available in 
 
 Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
 
-![](assets/s_advuser_mkg_dist_tree.png)
+![Explorer tree with Administration > Access Management expanded, showing Operators and Organizational entities.](assets/s_advuser_mkg_dist_tree.png)
 
 ### Operators {#operators}
 
@@ -119,13 +119,13 @@ Central operators must belong to the **[!UICONTROL Central management]** operato
 
 Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. They must also be linked to their local entity.
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![Operator Access rights tab listing the Local management and Central management security groups.](assets/s_advuser_mkg_dist_local_create.png)
 
 ### Organizational entities {#organizational-entities}
 
 To create an organizational entity, click the **[!UICONTROL Administration > Access management > Organizational entities]** folder and click the **[!UICONTROL New]** icon above the list of entities.
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![Organizational entities folder with the New icon highlighted above the list of entities.](assets/s_advuser_mkg_dist_local_list.png)
 
 Each organizational entity contains identification information (label, internal name, contact information, etc.) and groups involved in the order approval process. These are defined in the **[!UICONTROL Notifications and approvals]** section found in the **[!UICONTROL General]** tab.
 
@@ -148,7 +148,7 @@ The implementation procedure depends on the type of campaign package used and th
 1. Create local entities.
 1. Link recipients with the operators that manage local entities.
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![Recipient form with the Origin field highlighted, linking the recipient to a local entity.](assets/mkg_dist_local_entity_association.png)
 
 1. Specify rights and browsing rules for local entities
 1. Specify the set of fields necessary for campaign localization:
