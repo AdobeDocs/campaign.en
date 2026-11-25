@@ -69,11 +69,11 @@ This technical workflow is available from the **[!UICONTROL Administration > Pro
 
 This workflow checks all custom and built-in schemas to detect duplicated rows.
 
-![](assets/unicity-alerting-wf.png)
+![Unicity alerting (ffdaUnicity) workflow: schema checks, Duplicated rows detected test, Alert, End and Cleanup activities](assets/unicity-alerting-wf.png)
 
 If the **[!UICONTROL Unicity alerting]** (ffdaUnicity) workflow detects some duplicate keys, they are added to a specific **Audit Unicity** table, which includes the name of the schema, the type of key, the number of impacted rows, and the date. You can access duplicated keys from the **[!UICONTROL Administration > Audit > Key Unicity]** node. 
 
-![](assets/unicity-table.png)
+![Key Unicity list with Schema Id, Key Definition, Key Type, Duplicated Value, Duplicated Count, Creation Date](assets/unicity-table.png)
 
 As a Database Administrator, you can use a SQL activity to remove the duplicates or contact Adobe Customer Care for more guidance.
 
@@ -81,7 +81,7 @@ As a Database Administrator, you can use a SQL activity to remove the duplicates
 
 A specific notification is sent to the **[!UICONTROL Workflow Supervisors]** operator group when duplicated keys are detected. The content and the audience of this alert can be changed in the **Alert** activity of the **[!UICONTROL Unicity alerting]** workflow.
 
-![](assets/wf-alert-activity.png)
+![Alert activity in Unicity alerting, assigned to the Workflow supervisors group with the duplicated keys message](assets/wf-alert-activity.png)
 
 
 ## Additional guardrails {#duplicates-guardrails}
@@ -96,19 +96,19 @@ Campaign comes with a set of new guardrails to prevent insertion of duplicated k
 
 Adobe Campaign removes automatically any duplicated UUID from an audience during delivery preparation. This mechanism prevents any error from happening while preparing a delivery. As an end-user, you can check this information in the delivery logs: some recipients can be excluded from the main target because of duplicated keys. In that case, the following warning is displayed: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
-![](assets/exclusion-duplicates-log.png)
+![Delivery log with the line Exclusion of duplicates (based on the primary key of targeted records) highlighted by an arrow](assets/exclusion-duplicates-log.png)
 
 ### Update data in a workflow {#duplicates-update-data}
 
 In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), you cannot select an internal key (UUID) as a field to update data in a workflow. 
 
-![](assets/update-data-no-internal-key.png)
+![Update data activity with the field selector for Recipient (nms:recipient), where no internal key field can be selected](assets/update-data-no-internal-key.png)
 
 ### Query a schema with duplicates {#query-with-duplicates}
 
 When a workflow starts running a query on a schema, Adobe Campaign checks if any duplicated record is reported in the [Audit Unicity table](#unicity-wf). If so, the workflow logs a warning as the subsequent operation on the duplicated data should potentially impact workflow result.
 
-![](assets/query-with-duplicates.png)
+![Workflow log with the warning Unicity constraint violated. Duplicated data found on schema nms:recipient](assets/query-with-duplicates.png)
 
 This check is performed in the following workflow activities:
 

@@ -96,6 +96,6 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
 
 1. Save the modification. A new staging schema is available, which is a local copy of the initial schema.
 
-    ![](assets/staging-mechanism.png)
+    ![XML source of the generated staging schema dem:sampleTableStg for Sample Table (Staging), a local copy of the initial schema](assets/staging-mechanism.png)
 
 1. Update the database structure. The staging table will be created on Campaign local database.

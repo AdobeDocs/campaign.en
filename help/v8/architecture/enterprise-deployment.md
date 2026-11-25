@@ -76,7 +76,7 @@ Specific APIs are available to manage data between the local and the cloud datab
 
 General communication between servers and processes is carried out according to the following schema:
 
-![](assets/architecture.png) 
+![Marketing instance with Snowflake and PgSQL, Message Center and Mid Sourcing instances, consumers, tracking, steps 1 to 4](assets/architecture.png) 
 
 * The execution and bounce management modules are disabled on the instance.
 * The application is configured to perform message execution on a remote "mid-sourced" server that is driven using SOAP calls (over HTTP or HTTPS).

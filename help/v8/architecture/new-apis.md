@@ -98,7 +98,7 @@ Once the workflow is executed, the staging table is fed as expected.
 
 As a result, the staging table is fed as expected.
 
-![](assets/no-reconciliation.png)
+![Staging schema Sample Table (Staging) content listing four records with Test Col 1 and Test Col 2 values](assets/no-reconciliation.png)
 
 ### Insert with reconciliation
 
@@ -118,7 +118,7 @@ logInfo(strUuid);
 
 Once the workflow is executed, the staging table is fed as expected.
 
-![](assets/with-reconciliation.png)
+![Staging schema Sample Table (Staging) content now listing six records, including ABC12345 and ABDCD321](assets/with-reconciliation.png)
 
 
 **From a SOAP call**
@@ -179,7 +179,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Once the workflow is executed, the staging table is updated as expected.
 
-![](assets/updated-data.png)
+![Staging table content where record ABC12345 now shows testValue A (updated) and testValue B (updated)](assets/updated-data.png)
 
 **From a SOAP call**
 

@@ -93,7 +93,7 @@ In addition to the built-in **Replicate Reference tables** technical workflow, y
     nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
     ```
 
-    ![](assets/jscode.png)
+    ![JavaScript code activity with the script nms.replicationStrategy.StartReplicateStagingData for dem:sampleTable](assets/jscode.png)
 
 * Add a specific **nlmodule** activity with the following command:
 
@@ -101,7 +101,7 @@ In addition to the built-in **Replicate Reference tables** technical workflow, y
     nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
     ```
 
-    ![](assets/nlmodule.png)
+    ![nlserver module activity with the parameter ffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png)
 
 +++
 

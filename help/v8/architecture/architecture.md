@@ -58,7 +58,7 @@ Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **C
 In its [FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 can be connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and you can use Snowflake as the secondary database to extend your data model and store your data into Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Campaign v8 FDA architecture: application server, Postgres and Snowflake databases, real-time and batch delivery servers](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ In the context of an [Enterprise (FFDA) deployment](enterprise-deployment.md), [
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You just need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Campaign v8 FFDA architecture: application server, Cloud Database with Snowflake, Postgres replication, delivery servers](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## Split delivery execution {#split}
@@ -93,7 +93,7 @@ To do this, additional external accounts with the **[!UICONTROL Split]** routing
 * Split Delivery - iOS (splitDeliveryIOS)
 * Split Delivery - Android (splitDeliveryAndroid)
 
-![](assets/splitted-delivery.png) 
+![External account Split Delivery - Email: Routing type, Email channel, Mid-sourcing delivery mode, name splitDeliveryEmail](assets/splitted-delivery.png) 
 
 >[!IMPORTANT]
 >
@@ -105,11 +105,11 @@ In order to make split external accounts as the default account for sending out 
 
 1. Navigate to the **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** folder and open the desired delivery template. In this example, we want to edit the email delivery template.
 
-    ![](assets/split-default-list.png) 
+    ![Delivery templates list in Resources, Templates, with the Email delivery template (mail) selected](assets/split-default-list.png) 
 
 1. Click the **[!UICONTROL Properties]** button and change the routing provider to the corresponding split delivery external account.
 
-    ![](assets/split-default-delivery.png) 
+    ![Delivery properties dialog with the Routing field and the external account list showing SplitEmail](assets/split-default-delivery.png) 
 
 1. Save your changes. All deliveries sent using the template will now be using the split routing mode by default.
 
@@ -139,7 +139,7 @@ In this specific architecture, the execution cell is separated from the control 
 >
 >The control instance and the execution instance(s) must be installed on different machines. They cannot share the same Campaign instance.
 
-![](assets/messagecenter_diagram.png)
+![Message Center: website events reach control instance P and execution instances E1 to EN, which send messages](assets/messagecenter_diagram.png)
 
 ### Authentication
 
