@@ -57,6 +57,6 @@ Adobe Campaign provides generic import capability which allows you, for example,
 
 Generic imports are managed from the **[!UICONTROL Profiles and Targets > Jobs]** menu of the Adobe Campaign home page.
 
-![](assets/new-import-job.png)
+![Jobs list under Profiles and targets with the Create menu open to New import and New export.](assets/new-import-job.png)
 
 The steps to perform a generic import are detailed in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html){target="_blank"}.

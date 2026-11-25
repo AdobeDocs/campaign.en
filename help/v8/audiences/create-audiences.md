@@ -34,7 +34,7 @@ A list is a static set of contacts which can be targeted in delivery actions or 
 
 Lists are created and managed via the **[!UICONTROL Lists]** link in the **[!UICONTROL Profiles and targets]** tab. These lists are based on the default Adobe Campaign profile table (nms:recipient). [Learn more](../dev/datamodel.md#ootb-profiles)
 
-![](assets/list-dashboard.png)
+![Lists page under Profiles and targets showing existing lists and the Create button](assets/list-dashboard.png)
 
 You can create a list using the **Update list** activity in a workflow. This activity stores the resulting population into a list. Use it to create a new list or update an existing list. To create lists containing other types of data than the built-in profile table, you must run a workflow. For example, by using a query on the visitor table then updating the list, you can create a visitor list. [Learn more](#create-a-list-wf).
 
@@ -49,11 +49,11 @@ To create a list of contacts, follow the steps below:
 
 1. Click the **[!UICONTROL Create]** button and select **[!UICONTROL New list]**.
     
-    ![](assets/new-list.png)
+    ![Create menu on the Lists page with the New list option](assets/new-list.png)
 
 1. Enter the information in the **[!UICONTROL Edit]** tab of the list creation window.
    
-   ![](assets/list-details.png)
+   ![Edit tab of the list creation window with the Label, Internal name, List type, Schema and Folder fields](assets/list-details.png)
 
     * Enter the list name in the **[!UICONTROL Label]** field and, if necessary, change the internal name.
     * Add a description for this list.
@@ -62,7 +62,7 @@ To create a list of contacts, follow the steps below:
 
 1. In the **[!UICONTROL Content]** tab, click **[!UICONTROL Add]** to select the profiles belonging to the list.
 
-   ![](assets/add-profiles-to-a-list.png)
+   ![Add recipients to the list dialog with several recipients selected from the Dataset folder](assets/add-profiles-to-a-list.png)
 
    You can create a new profile and add it in the list directly from this window using the **[!UICONTROL Create]** icon. The profile will be added to the database.
 
@@ -79,15 +79,15 @@ You can select profiles and add them to a list. To perform this, follow the step
    
 1. Select **[!UICONTROL Actions > Associate selection with a list...]**.
 
-   ![](assets/add-selection-to-a-list.png)
+   ![Actions menu with the Associate selection with a list option for selected recipients](assets/add-selection-to-a-list.png)
 
 1. Select an existing list or create a new list, and click **[!UICONTROL Next]**.
 
-   ![](assets/select-the-list.png)
+   ![Select list step of the Recipients and Lists Wizard with a list selected and the Next button](assets/select-the-list.png)
 
 1. Click the **[!UICONTROL Start]** button.
 
-   ![](assets/record-a-list.png)
+   ![Record in a list step of the wizard with the Recreate the list option and the Start button](assets/record-a-list.png)
 
 Select the **[!UICONTROL Recreate the list]** option to delete the existing content from the list and optimize the creation of the list (no query is needed to verify whether the profiles are already linked to the list).
 
@@ -107,22 +107,22 @@ In the example below, you create a list of all the recipients between 25 and 40.
 1. Select **[!UICONTROL Profiles and targets]**, and **[!UICONTROL Targeting workflows]**, then create a new workflow from the **[!UICONTROL Create]** button.
 1. Enter a label for this workflow, for example '25-40 contacts', add a description, and click **[!UICONTROL Next]**.
 
-   ![](assets/targeting-wf-sample.png)
+   ![New workflow dialog in Targeting workflows with the Label and Description filled in for 25-40 contacts](assets/targeting-wf-sample.png)
 
 1. Insert a **[!UICONTROL Query]** activity to define the target population, and edit the query.
 
-   ![](assets/targeting-wf-edit-query.png)
+   ![Query activity with the Edit query link and the Targeting and filtering dimension step with Filtering conditions](assets/targeting-wf-edit-query.png)
 
 1. Define the filter conditions, as below:
 
-   ![](assets/targeting-wf-age-filter.png)
+   ![Filter step of the query with Age greater than or equal to 25 and less than or equal to 40](assets/targeting-wf-age-filter.png)
 
    Learn how to create a query in a workflow in [this section](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. Add a label for this query and save your changes.
 1. Add a **[!UICONTROL List update]** activity, and edit it.
 
-   ![](assets/list-update-activity.png)
+   ![List update activity settings in the workflow, with list creation and folder options and the Ok button](assets/list-update-activity.png)
 
 1. Enter a label for the activity.
 1. Select the **[!UICONTROL Create the list if necessary (Computed name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.
@@ -136,7 +136,7 @@ In the example below, you create a list of all the recipients between 25 and 40.
 
    The list of matching recipients is then created. You can access this list from the **[!UICONTROL Lists]** entry of the home page.
 
-   ![](assets/access-new-list.png)
+   ![Lists page showing the new 25-40 contacts list at the top, reached from the Lists entry](assets/access-new-list.png)
 
    You can make this workflow recurrent by adding a scheduler to the workflow. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 

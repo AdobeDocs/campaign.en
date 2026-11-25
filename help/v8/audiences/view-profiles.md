@@ -38,11 +38,11 @@ Browse to **[!UICONTROL Profiles and targets]** to access recipients stored in A
 
 From this page, you can [create a new recipient](create-profiles.md), edit an existing recipient and access its profile details.
 
-![](assets/profiles-and-targets.png)
+![Profiles and targets tab of the Campaign home page, showing the Recipients list with the Create button](assets/profiles-and-targets.png)
 
 For more advanced profile manipulations, access the Campaign tree from the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
 
-![](assets/recipients-in-explorer.png)
+![Explorer tree with the Recipients folder selected, the recipient list and the details of the selected recipient](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -54,7 +54,7 @@ For more advanced profile manipulations, access the Campaign tree from the **[!U
 
 Select a profile to display details in a new tab.
 
-![](assets/edit-a-profile.png)
+![Recipient profile tab with the General, Contact information, Other, Subscriptions, Deliveries and Tracking sections](assets/edit-a-profile.png)
 
 The data concerning profiles is grouped in tabs. These tabs and their content depend on your specific settings and installed packages.
 
@@ -72,15 +72,15 @@ For a typical built-in recipient, you can access the following tabs:
 
     Use the **[!UICONTROL Field properties…]** contextual menu to change the names of the fields and define their format.
 
-    ![](assets/other-tab-field-properties.png)
+    ![Other tab of a recipient with the Field properties option selected in the context menu of the Boolean 1 field](assets/other-tab-field-properties.png)
 
     Enter the new settings as below:
 
-    ![](assets/change-field-properties.png)
+    ![Field properties dialog with the Label field set to Luma Gold Program and the Description field filled in](assets/change-field-properties.png)
 
     Check the update in the UI:
 
-    ![](assets/other-tab-updated.png)
+    ![Other tab of a recipient where the Boolean 1 field now appears as Luma Gold Program with a Yes or No value](assets/other-tab-updated.png)
 
 
     >[!CAUTION]
@@ -90,7 +90,7 @@ For a typical built-in recipient, you can access the following tabs:
 
 * **Subscriptions**, for all the active subscriptions to services. Use the **History** tab to access details of subscriptions and unsubscriptions for this contact. 
 
-    ![](assets/subscription-tab.png)
+    ![Subscriptions tab of a recipient listing active subscriptions, with the Active subscriptions and History tabs](assets/subscription-tab.png)
 
     Learn more about Subscriptions [in this section](../start/subscriptions.md).
 
