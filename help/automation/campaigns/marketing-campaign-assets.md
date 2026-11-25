@@ -50,19 +50,19 @@ For a campaign, the **[!UICONTROL Documents]** tab contains:
 
 The documents are linked to the program or the campaign via the **[!UICONTROL Edit > Documents]** tab. 
 
-![](assets/op_add_document.png)
+![Campaign Edit tab, Documents sub-tab: Attached documents list with Add, Delete and Detail buttons.](assets/op_add_document.png)
 
 You can also add a document to a campaign from the dedicated link in the dashboard.
 
-![](assets/add_a_document_in_op.png)
+![Campaign dashboard with the Add a document link and the Marketing document dialog for uploading a file.](assets/add_a_document_in_op.png)
 
 Click the **[!UICONTROL Detail...]** icon to view the content of a file and to add information:
 
-![](assets/add_document_details.png)
+![Document dialog opened from Detail: label, version, nature, uploaded file link and description.](assets/add_document_details.png)
 
 In the dashboard, documents associated with the campaign are grouped in the **[!UICONTROL Document(s)]** section, as in the following example:
 
-![](assets/edit_documents.png)
+![Campaign dashboard with the Document(s) section highlighting the documents attached to the campaign.](assets/edit_documents.png)
 
 They can also be edited and modified from this view.
 
@@ -82,7 +82,7 @@ For a campaign, delivery outlines let you structure external elements to be asso
 
 To create a delivery outline, click the **[!UICONTROL Delivery outlines]** sub-tab in the **[!UICONTROL Edit > Documents]** tab of the concerned campaign.
 
-![](assets/add-a-delivery-outline.png)
+![Campaign Edit tab, Documents, Delivery outlines sub-tab with the Add a delivery outline link.](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -94,33 +94,33 @@ Next, click **[!UICONTROL Add a delivery outline]** and create the hierarchy of 
 1. Right-click the root of the tree and select **[!UICONTROL New > Delivery outlines]**.
 1. Right-click the outline you have just created and select **[!UICONTROL New > Item]** or **[!UICONTROL New > Personalization fields]**.
 
-![](assets/del-outline-add-new-item.png)
+![Delivery outlines tree with the right-click menu: New > Item, Personalization fields or Offer.](assets/del-outline-add-new-item.png)
 
 An outline can contain items, personalization fields, and offers:
 
 * Items can be physical documents, for example, which are referenced and described here and will be attached to the delivery. 
 * Personalization fields enable you to create personalization elements related to deliveries rather than recipients. It is thus possible to create values to be used in deliveries for a specific target (welcome offer, a discount, etc.) They are created in Adobe Campaign and imported into the outline via the **[!UICONTROL Import personalization fields...]** link. 
 
-  ![](assets/del-outline-perso-field.png)
+  ![Select the personalization fields dialog listing Pack, Gold and Premium, opened from Import personalization fields.](assets/del-outline-perso-field.png)
 
   They can also be created directly in the outline by clicking the **[!UICONTROL Add]** icon to the right of the list zone.
 
-  ![](assets/add-del-outline-button.png)
+  ![Personalization fields list in a delivery outline with values entered and the Add icon to the right of the list.](assets/add-del-outline-button.png)
 
 
 ### Select an outline {#select-an-outline}
 
 For each delivery, you can select the outline to associate from the section reserved for the extraction outline, as in the following example:
 
-![](assets/select-delivery-outline.png)
+![Direct Mail tab of a delivery with the Select a delivery outline dialog listing Unit B, Unit C and Unit A.](assets/select-delivery-outline.png)
 
 The selected outline is then displayed in the lower section of the window. It can be edited using the icon to the right of the field or altered using the drop-down list:
 
-![](assets/delivery-outline-selected.png)
+![Direct Mail tab of a delivery with the Delivery outline field highlighted and showing Unit C.](assets/delivery-outline-selected.png)
 
 The **[!UICONTROL Summary]** tab of the delivery also displays this information:
 
-![](assets/delivery-outline-in-dashboard.png)
+![Delivery Summary tab with an arrow pointing to the Delivery outline value, Unit C.](assets/delivery-outline-in-dashboard.png)
 
 ### Extraction result {#extraction-result}
 
@@ -128,6 +128,6 @@ In the file extracted and sent to the service provider, the name of the outline 
 
 In the following example, the label, estimated cost, and description of the outline associated with the delivery will be added to the extraction file. 
 
-![](assets/campaign-export-template.png)
+![Data to extract step of the export template with the Label (Delivery/Delivery outline) output column highlighted.](assets/campaign-export-template.png)
 
 The export model must be associated with the service provider selected for the delivery concerned. See [this  section](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

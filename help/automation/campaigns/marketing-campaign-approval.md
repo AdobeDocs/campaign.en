@@ -47,25 +47,25 @@ Notification messages are sent to the Adobe Campaign operators who are designate
 Operators can approve in several ways:
 
 * From the notification message. The link in the email gets the operator to Campaign through a web browser. After connecting, the reviewer can choose to approve the content or not.
-  ![](assets/approval-content-email.png)
+  ![Content approval notification email with the Approve or reject the delivery content link and delivery details.](assets/approval-content-email.png)
 
 * From the campaign dashboard.
-  ![](assets/approval-from-dashboard.png)
+  ![Campaign dashboard in the Client console with the Approval menu open and the Approve targeting option highlighted.](assets/approval-from-dashboard.png)
 
 * From the delivery dashboard. 
-  ![](assets/approval-from-delivery-dashboard.png)
+  ![Delivery dashboard with the Approval menu open, listing Submit content, Approve targeting and Approve budget.](assets/approval-from-delivery-dashboard.png)
 
 Operators can access the campaign and the delivery from the approval window. They can also enter a comment.
 
-![](assets/approval-target-confirm.png)
+![Action on delivery window with Accept or Reject options, a Comment field and the Target approval button.](assets/approval-target-confirm.png)
 
 Once an operator validates, the information is displayed in the campaign and delivery dashboards, and in the logs. 
 
-![](assets/approvals-from-delivery.png)
+![Delivery dashboard Approvals section showing Targeting approved and Budget to approve with its deadline.](assets/approvals-from-delivery.png)
 
 The information is also available in the approval logs of the delivery, and in the approval journal of the campaign. These logs are accessed via the **[!UICONTROL Edit > Audit > Approvals]** tabs.
 
-![](assets/approval-logs.png)
+![Delivery Audit Approvals tab with the approval deadlines schedule and an Approvals log entry for targeting.](assets/approval-logs.png)
 
 
 ## Enable approvals{#enable-approvals}
@@ -80,24 +80,24 @@ These settings can be overridden for each campaign created using this template, 
 
 In the following example, the delivery content will not require approvals:
 
-![](assets/approval-not-enabled.png)
+![Delivery properties Approvals tab with Enable content approval cleared while target and budget approvals are enabled.](assets/approval-not-enabled.png)
 
 
 >[!CAUTION]
 >
 >Check that the reviewers have the **appropriate permissions** for approving, and that their security zone is correctly defined. [Learn more](#selecting-reviewers).
 
-The approval process for deliveries is detailed in [this section](#review-and-approve-deliveries).
+The approval process for deliveries is detailed in [Review and approve deliveries](#review-and-approve-deliveries).
 
 ## Select reviewers {#select-reviewers}
 
 For each type of approval, the operators or operator groups in charge of approval are selected from the drop-down list in the delivery. More operators can be added using the **[!UICONTROL Edit...]** link. This window also lets you edit the approval deadline. By default, reviewers have three days starting from the submission date to approve a process. To add an automatic reminder, use the **[!UICONTROL Add a reminder]** link.
 
-![](assets/add-reviewers.png)
+![Advanced settings Approvals tab and Edit reviewers window with additional reviewers, delay and Add a reminder.](assets/add-reviewers.png)
 
 If no reviewer is specified, the campaign owner is responsible for approvals and receives the notifications. The campaign owner is specified in the **[!UICONTROL Edit > Properties]** tab of the campaign: 
 
-![](assets/campaign-owner.png)
+![Campaign Edit tab with the Assigned to field highlighted to set the campaign owner.](assets/campaign-owner.png)
 
 All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve jobs, but they do not receive notifications.  
 
@@ -108,7 +108,7 @@ All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights ca
 
 If a list of reviewers is defined, a job is approved when one reviewer has approved it. The approval link is then no longer available in the campaign and delivery dashboards. When the sending of notifications is enabled, if another reviewer clicks the approval link in the notification message, they are notified that another operator has already approved the job.
 
-![](assets/delivery-target-already-approved.png)
+![Notification email confirming that the delivery targeting was already approved by another operator.](assets/delivery-target-already-approved.png)
 
 
 ## Review and approve deliveries {#review-and-approve-deliveries}
@@ -128,7 +128,7 @@ When these validation phases are complete, the delivery can be launched. [Learn 
 
 The stages requiring approval appear on the campaign dashboard (via the Client Console or the web interface). They also appear in the delivery tracking table and on the delivery dashboard.
 
-![](assets/delivery-approval-actions.png)
+![Delivery summary with the Approval menu listing Submit content, Approve targeting and Approve budget.](assets/delivery-approval-actions.png)
 
 For each delivery in the campaign, you can approve the following processes:
 
@@ -136,7 +136,7 @@ For each delivery in the campaign, you can approve the following processes:
 
   When the **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** or **[!UICONTROL Enable budget approval]** options are selected in the approval settings window, the related links are shown in the campaign and delivery dashboards.
 
-  ![](assets/template-activate-6.png)
+  ![Advanced settings Approvals tab with Enable content, target, budget and extraction approval options and their reviewers.](assets/template-activate-6.png)
 
   >[!NOTE]
   >
@@ -152,7 +152,7 @@ For each delivery in the campaign, you can approve the following processes:
 
   The **[!UICONTROL Approve file]** option is available on the campaign and delivery dashboards.
 
-  ![](assets/approve-file-preview.png)
+  ![Web delivery page with the Approve file button and the Action on delivery window to accept or reject the file.](assets/approve-file-preview.png)
 
   You can preview the output file before validation. The extraction file preview shows a data sample only. The entire file is not loaded.
 
@@ -160,7 +160,7 @@ For each delivery in the campaign, you can approve the following processes:
 
   The **[!UICONTROL Enable individual approval of each associated delivery]** option is used for one primary delivery associated with secondary deliveries. By default, this option is not selected so that an overall approval of the main delivery can be performed. If this option is selected, each delivery must be approved individually.
 
-  ![](assets/enable-ind-approval.png)
+  ![Advanced settings Approvals tab with Enable individual approval of each associated delivery selected.](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -248,20 +248,20 @@ For example, once delivery analysis has been executed:
 
 1. Select **[!UICONTROL Approve targeting]**.
 
-  ![](assets/target-validation-from-console.png)
+  ![Campaign dashboard with the Approval drop-down open and the Approve content and Approve targeting options.](assets/target-validation-from-console.png)
 
 1. In the popup window, check the information to be approved.
 1. Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if necessary. This comment will be displayed in the validation logs.
 1. Confirm your choice with the **[!UICONTROL Target approval]** button.
 
-  ![](assets/confirm-validation-from-console.png)
+  ![Action on delivery window with Accept selected, a comment entered and the Target approval button highlighted.](assets/confirm-validation-from-console.png)
 
 
 If a process has already been approved by another operator, the approval link is not available.
 
 If a process has been rejected, the information is displayed in the delivery dashboard as follows:
 
-![](assets/target-approval-rejected.png)
+![Delivery dashboard showing Target approval was rejected with the Approve targeting button and Targeting rejected status.](assets/target-approval-rejected.png)
 
 
 ### Approve from the notification messages {#approval-via-notification-messages}
@@ -284,19 +284,19 @@ Approval logs are available in the user interface:
 
 * In the campaign approval log, **[!UICONTROL Approvals]** sub-tab of the **[!UICONTROL Edit > Audit]** tab: 
 
-  ![](assets/approval-tracking-from-campaign.png)
+  ![Campaign Edit > Audit > Approvals sub-tab listing the Approvals journal with delivery, action, type and approver.](assets/approval-tracking-from-campaign.png)
 
 * In the campaign delivery log, **[!UICONTROL Deliveries]** sub-tab of the **[!UICONTROL Edit > Audit]** tab:
 
-  ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![Campaign Edit > Audit > Deliveries sub-tab listing each delivery with its targeting and content statuses.](assets/approval-tracking-from-campaign-deliveries.png)
 
 * The approval status for each delivery can be viewed by clicking the **[!UICONTROL Hide/display logs]** option of the **[!UICONTROL Summary]** tab.
 
-  ![](assets/approval-tracking-delivery-dashboard.png)
+  ![Delivery Summary tab with the Hide/display logs link highlighted and the approval logs shown below Approvals.](assets/approval-tracking-delivery-dashboard.png)
 
 * This information can also be accessed via the **[!UICONTROL Audit > Approvals]** tab of each delivery:
 
-  ![](assets/approval-tracking-delivery-tab.png)
+  ![Delivery Audit > Approvals tab listing the approvals log with date, action, type, approver and comment.](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >
@@ -308,7 +308,7 @@ When creating a targeting workflow, if approval is automatic (default mode), Ado
 
 To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit > Properties]** tab of the campaign or campaign template, then click **[!UICONTROL Advanced campaign parameters...]** and finally the **[!UICONTROL Approvals]** tab.
 par
-![](assets/approval-mode.png)
+![Advanced settings Approvals tab with the Approval mode drop-down open, showing Automatic and Manual.](assets/approval-mode.png)
 
 >[!NOTE]
 >
@@ -334,7 +334,7 @@ By default, notification messages are sent if the approval of the related job is
 
 To do this, edit the approval window of the campaign or campaign template ( **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** tab) and select **[!UICONTROL Do not enable notification sending]**.
 
-![](assets/enable-disable-notifications.png)
+![Advanced settings Approvals tab with Do not enable notification sending selected.](assets/enable-disable-notifications.png)
 
 ### Notification content {#notification-content}
 

@@ -63,17 +63,17 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
 1. In the list of campaign typology rules, select the **[!UICONTROL New]** icon above the list.
 
-   ![](assets/campaign_opt_create_a_rule_01.png)
+   ![Typology rules list in the Administration folder with the New icon highlighted above the list.](assets/campaign_opt_create_a_rule_01.png)
 
 1. In the **[!UICONTROL General]** tab of the new rule, select a **Pressure** type rule and enter a name and description for it.
 
-   ![](assets/campaign_opt_create_a_rule_02.png)
+   ![New typology rule, General tab, with Pressure selected in the Rule type list.](assets/campaign_opt_create_a_rule_02.png)
 
 1. Change the execution order if needed. When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. [Learn more](apply-rules.md#execution-order).
 1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. [Learn more](apply-rules.md#adjust-calculation-frequency).
 1. Click the **[!UICONTROL Pressure]** tab and choose the calendar period during which the typology rule applies.
 
-   ![](assets/campaign_opt_create_a_rule_03.png)
+   ![Pressure tab with the Sliding period section and the Period type list showing the grouping options.](assets/campaign_opt_create_a_rule_03.png)
 
    The rule will be applied to deliveries whose contact date is included in the concerned period.
 
@@ -87,11 +87,11 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    By default, the threshold is constant and you need to indicate a maximum number of messages authorized by the rule.
 
-   ![](assets/campaign_opt_create_a_rule_03b.png)
+   ![Pressure tab with Threshold type set to Constant and a Quantity of 4.](assets/campaign_opt_create_a_rule_03b.png)
 
    To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Type of threshold]** field and use the icon on the right to open the expression editor.
 
-   ![](assets/campaign_opt_create_a_rule_04.png)
+   ![Threshold type list showing Constant and Depends on the recipient.](assets/campaign_opt_create_a_rule_04.png)
 
    For more on this, refer to [Maximum number of messages](#maximum-number-of-messages).
 
@@ -106,7 +106,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
       In the following example, only recipients saved in the **NewContacts** folder are taken into account and deliveries starting with **Newsletter** are concerned.
 
-   ![](assets/campaign_opt_create_a_rule_05.png)
+   ![Messages to count section with a folder query on NewRecipients and a delivery query on labels starting with Newsletter.](assets/campaign_opt_create_a_rule_05.png)
 
 1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. [Learn more](campaign-typologies.md#apply-typologies).
 
@@ -118,7 +118,7 @@ Each pressure rule defines a threshold, i.e. the maximum number of messages that
 
 Threshold values can be either constant or calculated by a formula with variables. This means that for a given period, thresholds can vary from one recipient to another, or even for the same recipient. 
 
-![](assets/campaign_opt_create_a_rule_threshold.png)
+![Maximum number of messages section of the Pressure tab, highlighted, with a Constant threshold of 1.](assets/campaign_opt_create_a_rule_threshold.png)
 
 >[!CAUTION]
 >
@@ -128,7 +128,7 @@ Threshold values can be either constant or calculated by a formula with variable
 
 You can index the number of authorized messages according to the segment to which the recipient belongs. This means that a recipient belonging to the web segment may receive more messages than other recipients. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to recipients and 3 for other segments. Configuration will be as follows:
 
-![](assets/campaign_opt_pressure_sample.png)
+![Threshold type Depends on the recipient with the formula Iif(origin equal to 'Web', 5, 3).](assets/campaign_opt_pressure_sample.png)
 
 To define the threshold, you can use a dimension linked to the targeting dimension: for example, to include messages delivered to the recipient profiles stored in the [visitors table](../../v8/audiences/target-mappings.md) or to avoid sending more than one message per week to the same household, (which may refer to several email addresses) identified in a dimension linked to that of the recipients.
 
@@ -152,7 +152,7 @@ In the following example, we want to link the weight of newsletters on music to 
 1. Create a new field to store recipient propensity scores. The field, **@Music** in this case, will be enriched with answers to surveys and online polls, collected tracking data, etc.
 1. Create a typology rule to calculate message weight based on this field.
 
-   ![](assets/campaign_opt_pressure_weight_sample.png)
+   ![Select an expression dialog opened from Weight formula, with the Music field selected in the available fields.](assets/campaign_opt_pressure_weight_sample.png)
 
 1. Apply this rule to messages with the following topic: newsletters, special offers, etc. The weight of these deliveries, and therefore their level of priority, will depend on each recipients' propensity score.
 
@@ -187,19 +187,19 @@ When a period is higher than 0 (1 for example), the calculation threshold may ta
 
 We want to create a pressure rule which restricts solicitation to 3 messages per 2-week period, with a grouping to the calendar month.
 
-![](assets/campaign_opt_pressure_period_sample_1a.png)
+![Pressure tab with a 15d period, Grouping per calendar month and a constant threshold of 3 messages.](assets/campaign_opt_pressure_period_sample_1a.png)
 
 Let's take 6 newsletters with the same weight, scheduled for 05/30, 06/3, 06/8, 06/12, 06/22 and 06/30. 
 
-![](assets/campaign_opt_pressure_period_sample_0.png)
+![Two November 2016 calendars; the second highlights the 3rd, 8th, 12th, 22nd and 30th delivery dates.](assets/campaign_opt_pressure_period_sample_0.png)
 
 The deliveries scheduled for 12th and 30th of June will not be sent: the 06/12 delivery would exceed the threshold of 3 messages per 2-week period, and the 30th delivery would exceed the threshold of authorized communications per calendar month.
 
-![](assets/campaign_opt_pressure_period_sample_1.png)
+![Deliveries list with Pending, Failed and Being edited statuses and targeted and to-send counts.](assets/campaign_opt_pressure_period_sample_1.png)
 
 All recipients for these deliveries are excluded by arbitration during the analysis phase:
 
-![](assets/campaign_opt_pressure_period_sample_2.png)
+![Exclusion logs of a delivery listing recipients with the reason Excluded after arbitration.](assets/campaign_opt_pressure_period_sample_2.png)
 
 For the same rule, if you group deliveries per quarter, the recipients of **newsletter no.5** will also be excluded, and it will not be sent.
 
@@ -219,7 +219,7 @@ Thus, for each recipient, Adobe Campaign checks that the number of messages to s
 
 If this number exceeds the threshold, the arbitration rules defined in the campaign typology are applied and recipients are excluded from campaigns with a lower weight.
 
-![](assets/campaign_opt_pressure_exclusion.png)
+![Delivery summary with 12 targeted and 9 to send, and exclusion logs showing Excluded after arbitration.](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >
@@ -240,21 +240,21 @@ To create the rule, apply the following steps:
 
    Click the **[!UICONTROL Advanced parameters]** button to define the calculation formula.
 
-   ![](assets/campaign_opt_pressure_sample_1_1.png)
+   ![Select an expression dialog opened from the Formula field, with the Status field selected.](assets/campaign_opt_pressure_sample_1_1.png)
 
 1. Select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]**.
 
-   ![](assets/campaign_opt_pressure_sample_1_2.png)
+   ![Formula type step with the Edit the formula using an expression option selected.](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. In the list of functions, double-click the **Iif** function in the **[!UICONTROL Others]** node.
 
    Then select the recipients' **Status** in the **[!UICONTROL Available fields]** section.
 
-   ![](assets/campaign_opt_pressure_sample_1_3.png)
+   ![Edit the expression dialog with the Iif function from Others and the Status field in the formula.](assets/campaign_opt_pressure_sample_1_3.png)
 
    Enter the following formula: **Iif(@status=0,2,4)**
 
-   ![](assets/campaign_opt_pressure_sample_1_4.png)
+   ![Edit the expression dialog with the completed formula Iif(@status=0,2,4).](assets/campaign_opt_pressure_sample_1_4.png)
 
    This formula lets you assign the value 2 if the status equals 0, and the value 4 for all other statuses.
 
@@ -262,7 +262,7 @@ To create the rule, apply the following steps:
 
 1. Indicate the period during which the rule will apply: 7 days in this case, to count the number of messages per week.
 
-   ![](assets/campaign_opt_pressure_sample_1_5.png)
+   ![Pressure tab with the Period type list and a formula that depends on the recipient status.](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. Save the rule to approve creation.
 
@@ -271,13 +271,13 @@ Now link the rule which you have just created to a typology in order to apply it
 1. Create a campaign typology.
 1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rule you have just created.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![Rules tab of a new typology with the Add rules dialog listing the typology rules to select.](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Save the typology: is it added to the list of existing typologies.
 
 To use this typology in your deliveries, select it in the delivery properties, in the **[!UICONTROL Typology]** tab as shown below:
 
-![](assets/campaign_opt_pressure_sample_1_7.png)
+![Delivery properties, Typology tab, with the Clients/Prospects Pressure typology selected in the Typology list.](assets/campaign_opt_pressure_sample_1_7.png)
 
 >[!NOTE]
 >
@@ -287,15 +287,15 @@ During delivery analysis, delivery recipients are excluded from the delivery if 
 
 * View the analysis result:
 
-  ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![Delivery analysis window with the completed preparation log and the Exclude addresses rule highlighted.](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Edit the delivery and click the **[!UICONTROL Delivery]** tab and the **[!UICONTROL Exclusions]** sub-tab:
 
-  ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![Delivery tab, Exclusions sub-tab, with exclusion logs showing Excluded after arbitration.](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Click the **[!UICONTROL Audit]** tab, then the **[!UICONTROL Causes of exclusions]** sub-tab to display the number of exclusions and the applied typology rules: 
 
-  ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![Audit tab, Causes of exclusions sub-tab, with the volume of exclusions per typology rule.](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Calculate the delivery weight based on behavior {#calculate-the-delivery-weight-based-on-behavior}
 
@@ -310,15 +310,15 @@ Apply the following configuration steps:
 1. Create a new **Pressure** type typology rule.
 1. Edit the **[!UICONTROL Pressure]** tab. We want to create a threshold formula which will be based on each individual recipient: click the **[!UICONTROL Edit expression]** icon to the right of the **[!UICONTROL Weight formula]** field.
 
-   ![](assets/campaign_opt_pressure_sample_2_1.png)
+   ![Pressure tab with the Edit expression icon highlighted next to the Weight formula field.](assets/campaign_opt_pressure_sample_2_1.png)
 
 1. By default, value **5** is shown in the upper section of the expression editor. We want to add the propensity score of each recipient to this weight: place your cursor to the right of the 5, enter the **+** character and select the **Propensity** field.
 
-   ![](assets/campaign_opt_pressure_sample_2_2.png)
+   ![Edit the expression dialog with the weight formula 5+@Affinity and the Affinity field selected.](assets/campaign_opt_pressure_sample_2_2.png)
 
 1. Then add a higher value for recipients who have already made a purchase. For them, the weight of the delivery must be increased by 5, while for others it increases by only 4.
 
-   ![](assets/campaign_opt_pressure_sample_2_3.png)
+   ![Edit the expression dialog with a weight formula that adds a field and an Iif condition on Interest.](assets/campaign_opt_pressure_sample_2_3.png)
 
 1. Click **[!UICONTROL Finish]** to save this rule.
 1. Link the rule to a campaign typology and reference this typology in a delivery to approve it.
@@ -334,7 +334,7 @@ First, configure the pressure rule.
 1. Create a pressure rule. [Learn more](#create-a-pressure-rule).
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Re-apply the rule at the start of personalization]** option.
 
-   ![](assets/campaign_opt_pressure_example_5.png)
+   ![General tab of a pressure rule with the Re-apply the rule at the start of personalization option selected.](assets/campaign_opt_pressure_example_5.png)
 
    This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. [Learn more](apply-rules.md#adjust-calculation-frequency).
 
@@ -349,17 +349,17 @@ Now create and configure a workflow for each delivery you want the pressure rule
 1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. For more on using this activity, refer to [this section](../workflow/delivery.md).
 1. Go to the **[!UICONTROL Approvals]** tab of the **[!UICONTROL Delivery properties]** and disable all approvals.
 
-   ![](assets/campaign_opt_pressure_example_2.png)
+   ![Delivery properties, Approvals tab, with all approval options and delivery confirmation cleared.](assets/campaign_opt_pressure_example_2.png)
 
 1. In the **[!UICONTROL Typology]** tab of the **[!UICONTROL Delivery properties]**, reference the campaign typology to apply the rule on. Define a weight for the delivery.
 
-   ![](assets/campaign_opt_pressure_example_3.png)
+   ![Delivery properties, Typology tab, with the Typology field and a Delivery weight of 10 highlighted.](assets/campaign_opt_pressure_example_3.png)
 
 1. In the delivery, click **[!UICONTROL Scheduling]** and select **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**. In this example, select the **[!UICONTROL Use a calculation formula]** option.
 1. Set the extraction date to 10 minutes (current date + 10 minutes).
 1. Set the contact date to the next day (current date + 1 day).
 
-   ![](assets/campaign_opt_pressure_example_4.png)
+   ![Scheduling dialog with extraction set to current date + 10 minutes and contact date to current date + 1 day.](assets/campaign_opt_pressure_example_4.png)
 
    For the pressure rule exclusions to be implemented successfully, make sure you set the extraction date and time before the contact date and time, as well as before the nightly arbitration is re-applied. [Learn more](#exclusion-after-arbitration).
 

@@ -41,7 +41,7 @@ To create a campaign template, follow the steps below:
 1. Open Campaign **Explorer**, and browse to **Resources > Templates > Campaign templates**.
 1. Click **New** in the toolbar above the list of templates. 
 
-  ![](assets/campaign-template-node.png)
+  ![Campaign templates list under Resources > Templates, with the New button highlighted in the toolbar.](assets/campaign-template-node.png)
 
   You can also **duplicate** the built-in template to re-use and adapt its configuration. To do this, right-click on the template and select **Duplicate**.
 
@@ -50,13 +50,13 @@ To create a campaign template, follow the steps below:
 1. In the **Edit** tab, define the template properties.
 1. Select **Advanced campaign parameters...** link to add a workflow to your campaign template.
 
-   ![](assets/campaign-template-parameters.png)
+   ![New campaign template Edit tab with the Advanced campaign parameters link highlighted.](assets/campaign-template-parameters.png)
 
-1. Change the **Targeting and workflows** value to **Yes**., and confirm. Learn how to add functionalities in [this section](#typology-of-enabled-modules).
+1. Change the **Targeting and workflows** value to **Yes**., and confirm. Learn how to add functionalities in [Typology of modules](#typology-of-enabled-modules).
 1. The **Targeting and workflows** tab is added to the template. Click **Add a workflow...**, enter a **Label** and click **Ok**.
 1. Create your workflow according to your needs.
 
-   ![](assets/campaign-template-create-wf.png)
+   ![Targeting and workflows tab of the template with a workflow containing Query and Read list leading to Email delivery.](assets/campaign-template-create-wf.png)
 
 1. Click **Save**. Your template is now ready to be used to create a new campaign.
 
@@ -66,7 +66,7 @@ The various tabs and sub-tabs of the campaign template allow you to access its s
 
 The **[!UICONTROL Advanced campaign parameters...]** link lets you enable and disable jobs for the campaigns based on this template. Select the capabilities you want to enable in the campaigns created based on this template.
 
-![](assets/campaign-template-select-modules.png)
+![Advanced settings Configuration tab listing each functionality with a Yes or No value; Expenses and objectives is No.](assets/campaign-template-select-modules.png)
 
 If a functionality is not selected, the elements concerning the process (menus, icons, options, tabs, sub-tabs, etc.) do not appear in the interface of the template or in campaigns based on this template. The tabs to the left of the campaign details, and the available tabs, coincide with the functionalities selected in the template. For example, the **Expenses and objectives** functionality is not enabled, the corresponding **[!UICONTROL Budget]** tab do not show in campaigns based on this template.
 
@@ -76,44 +76,44 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
 * For example, with the following settings:
 
-  ![](assets/campaign-template-select-functionalities.png)
+  ![Advanced settings: Control group, Seed addresses and Documents set to Yes; Approvals, Targeting and workflows set to No.](assets/campaign-template-select-functionalities.png)
 
   The campaign dashboard shows:
 
-  ![](assets/campaign-template-dashboard-sample-1.png)
+  ![Campaign dashboard with the Dashboard and Edit tabs only, and Add a delivery and Add a document links.](assets/campaign-template-dashboard-sample-1.png)
 
   Note that the **[!UICONTROL Targeting and workflows]** tab is missing.
 
   The following functionalities are available:
 
-  ![](assets/campaign-template-edit-sample-1.png)
+  ![Edit tab of the campaign with Properties, Documents and Audit sections and no Budget section.](assets/campaign-template-edit-sample-1.png)
 
   Note that the **[!UICONTROL Budget]** tab is missing.
 
   The campaign advanced settings also reflect this configuration. 
 
-  ![](assets/campaign-template-parameters-sample-1.png)
+  ![Campaign advanced settings with Control population and Seed addresses tabs and no Approvals tab.](assets/campaign-template-parameters-sample-1.png)
 
   Note that the **[!UICONTROL Approvals]** tab is not available.
 
 * With this configuration:
-  ![](assets/campaign-template-dashboard-sample-2.png)
+  ![Advanced settings: Approvals, Targeting and workflows, Expenses and objectives set to Yes; other functionalities No.](assets/campaign-template-dashboard-sample-2.png)
 
   The campaign dashboard shows:
 
-  ![](assets/campaign-template-select-functionalities-2.png)
+  ![Campaign dashboard with the Targeting and workflows tab and an Add a delivery link but no Add a document link.](assets/campaign-template-select-functionalities-2.png)
 
   Note that the **[!UICONTROL Targeting and workflows]** tab is available but the **Add a document** link is missing.
 
   The following functionalities are available:
 
-  ![](assets/campaign-template-edit-sample-2.png)
+  ![Edit tab with the Budget section open, showing related budget, objectives, and Costs and Expenses tabs.](assets/campaign-template-edit-sample-2.png)
 
   Note that the **[!UICONTROL Budget]** tab is available.
 
   The campaign advanced settings also reflect this configuration. 
 
-  ![](assets/campaign-template-parameters-sample-2.png)
+  ![Advanced settings with the Approvals tab and job validations, and no Control population or Seed addresses tabs.](assets/campaign-template-parameters-sample-2.png)
 
   Note that the **[!UICONTROL Approvals]** tab is available but the **[!UICONTROL Control population]** and **[!UICONTROL Seed addresses]** tabs are not enabled.
 
@@ -122,42 +122,42 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
 * **Control group**
 
-  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more about control groups in [this section](marketing-campaign-deliveries.md).
+  When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. Learn more about control groups in [Marketing campaign deliveries](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-1.png)
+  ![Advanced settings Control population tab with the control group option enabled and an Edit link for its configuration.](assets/template-activate-1.png)
 
 
 * **Seed addresses**
 
   When this module is selected, an additional tab is added to the advanced settings of the template and the campaigns based on this template. The configuration can be defined via the template or individually for each campaign. 
 
-  ![](assets/template-activate-2.png)
+  ![Advanced settings Seed addresses tab with an Import seed templates link and a list of seed addresses.](assets/template-activate-2.png)
 
 * **Documents**
 
-  When this module is selected, an additional tab is added to the **[!UICONTROL Edit]** tab of the template and the campaigns based on this template. Attached documents can be added from the template or individually for each campaign. Learn more about documents in [this section](marketing-campaign-deliveries.md).
+  When this module is selected, an additional tab is added to the **[!UICONTROL Edit]** tab of the template and the campaigns based on this template. Attached documents can be added from the template or individually for each campaign. Learn more about documents in [Marketing campaign deliveries](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-3.png)
+  ![Documents section of the Edit tab listing attached documents, with Add, Delete and Detail buttons.](assets/template-activate-3.png)
 
 * **Delivery outline**
 
-  When this module is selected, a **[!UICONTROL Delivery outlines]** sub-tab is added to the **[!UICONTROL Documents]** tab in order to define delivery outlines for the campaign. Learn more about delivery outlines in [this section](marketing-campaign-assets.md#delivery-outlines).
+  When this module is selected, a **[!UICONTROL Delivery outlines]** sub-tab is added to the **[!UICONTROL Documents]** tab in order to define delivery outlines for the campaign. Learn more about delivery outlines in [Use delivery outlines](marketing-campaign-assets.md#delivery-outlines).
 
-  ![](assets/template-activate-4.png)
+  ![Delivery outlines sub-tab of the Documents section with an Add a delivery outline link.](assets/template-activate-4.png)
 
 * **Targeting and workflows**
 
-  When you select the **[!UICONTROL Targeting and workflows]** module, a tab is added to let you create one or more workflows for campaigns based on this template. Workflows can also be configured individually for each campaign based on this template.Learn more about campaign workflows in [this section](marketing-campaign-deliveries.md).
+  When you select the **[!UICONTROL Targeting and workflows]** module, a tab is added to let you create one or more workflows for campaigns based on this template. Workflows can also be configured individually for each campaign based on this template.Learn more about campaign workflows in [Marketing campaign deliveries](marketing-campaign-deliveries.md).
 
-  ![](assets/template-activate-5.png)
+  ![Targeting and workflows tab with a workflow: Query and Read list, Deduplication, then Mobile delivery.](assets/template-activate-5.png)
 
   When this module is enabled, a **[!UICONTROL Jobs]** tab is added to the advanced settings of the campaign to define the process execution sequence.
 
 * **Approvals**
 
-  If you enable the **[!UICONTROL Approvals]**, you can select the processes to approve and the operators in charge of approvals. Learn more about approvals in [this section](marketing-campaign-approval.md#select-reviewers).
+  If you enable the **[!UICONTROL Approvals]**, you can select the processes to approve and the operators in charge of approvals. Learn more about approvals in [Select reviewers](marketing-campaign-approval.md#select-reviewers).
 
-  ![](assets/template-activate-6.png)
+  ![Advanced settings Approvals tab with content, target, budget and extraction approvals enabled and reviewers assigned.](assets/template-activate-6.png)
 
   You can choose whether or not to enable process approval via the **[!UICONTROL Approvals]** tab of the templates advanced settings section.
 
@@ -165,21 +165,21 @@ Moreover, shortcuts to the configuration windows are added to the campaign dashb
 
   When this module is selected, a **[!UICONTROL Budget]** tab is added to the details of the template and campaigns based on this template so that the associated budget can be selected.
 
-  ![](assets/template-activate-7.png)
+  ![Budget section of the Edit tab with related budget fields, Objectives and the Costs tab with cost lines.](assets/template-activate-7.png)
 
 
 ## Template properties {#template-properties}
 
-![](assets/template-op-type.png)
+![Campaign template Edit tab with the Operation type drop-down open, showing Unique, Recurring and Periodic.](assets/template-op-type.png)
 
 When you create a campaign template, you need to enter the following information:
 
 * Enter the **label** of the template: the label is mandatory and is the default label for all campaigns based on this template.
 * Select the campaign **nature** from the drop-down list. The values available in this list are those saved in the **[!UICONTROL natureOp]** enumeration.
 
-  Learn how to access and configure your enumerations in [this page](../../v8/config/enumerations.md).
+  Learn how to access and configure your enumerations in [Manage enumerations](../../v8/config/enumerations.md).
 
-* Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed in [this section](recurring-periodic-campaigns.md).
+* Select the **type of campaign**: unique, recurring, or periodic. By default, campaign templates apply to unique campaigns. Recurring and periodic campaigns are detailed in [Create recurring and periodic campaigns](recurring-periodic-campaigns.md).
 * Specify the duration of the campaign, i.e. the number of days over which the campaign will take place. When creating a campaign based on this template, the campaign start and end dates will be populated automatically.
 
   If the campaign is recurrent, you must specify the campaign start and end dates directly in the template. 

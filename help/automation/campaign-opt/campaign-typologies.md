@@ -33,7 +33,7 @@ topic_v2:
 
 **Campaign Optimization** is the Adobe Campaign module which lets you control, filter and monitor the sending of deliveries. To avoid conflicts between campaigns, Adobe Campaign can test various combinations by applying specific constraint rules. This guarantees that the messages sent meet the needs and expectations of customers and company communication policies.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
+![Play button icon for the typologies video](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#typologies-video)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Built-in typology rules and typologies are available in the **[!UICONTROL Admini
 
 For each typology, the **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules to apply.
 
-![](assets/campaign_opt_rules_tab.png)
+![Typologies list with one typology selected and its Rules tab listing the typology rules to apply](assets/campaign_opt_rules_tab.png)
 
 Once they have been created, typology rules are grouped in campaign **typologies** which are referenced in deliveries. [Learn more](#apply-typologies).
 
@@ -89,7 +89,7 @@ To create and use a typology to your deliveries, follow the steps below:
 
 During delivery preparation, recipients are excluded when criterion is met. You can check logs to monitor exclusions.
 
-Sample use cases on pressure typology rules are available in [this page](pressure-rules.md#use-cases-on-pressure-rules).
+Sample use cases on pressure typology rules are available in [Use cases on pressure rules](pressure-rules.md#use-cases-on-pressure-rules).
 
 ## Tutorial videos {#typologies-video}
 

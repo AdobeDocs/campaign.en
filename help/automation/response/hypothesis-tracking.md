@@ -46,7 +46,7 @@ The result of hypothesis calculations is available at various levels of the Adob
 
 Once the hypothesis has been calculated, several measurement indicators are updated automatically. These are available in the **[!UICONTROL General]** tab of the hypothesis.
 
-![](assets/response_hypothesis_delivery_example_010.png)
+![General tab of a finished hypothesis with the indicators calculated by the hypothesis highlighted.](assets/response_hypothesis_delivery_example_010.png)
 
 These indicators are:
 
@@ -58,7 +58,7 @@ These indicators are:
 
 For the full list of indicators, click the **[!UICONTROL Display the list]** link:
 
-![](assets/response_hypothesis_indicators_002.png)
+![Indicators read-only window opened from Display the list, showing the full list of indicators and their values.](assets/response_hypothesis_indicators_002.png)
 
 The following information is provided by the indicators:
 
@@ -84,7 +84,7 @@ You can view recipients' reactions to the hypotheses via the **[!UICONTROL React
 1. Once hypothesis calculation is complete, go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node of the Adobe Campaign tree.
 1. Select the desired hypothesis and click the **[!UICONTROL Reactions]** tab to view the list of recipients likely to purchase something following the marketing campaign.
 
-   ![](assets/response_hypothesis_reactions_001.png)
+   ![Reactions tab of a hypothesis listing respondents and whether each belongs to the control group.](assets/response_hypothesis_reactions_001.png)
 
 ## Reports {#reports}
 
@@ -92,8 +92,8 @@ The **[!UICONTROL Hypothesis report]** lets you view the results of the hypothes
 
 * **At campaign level**: click the **[!UICONTROL Reports]** link of the relevant campaign and select the **[!UICONTROL Hypothesis report]**. This report contains the list of campaign deliveries and the hypotheses calculated for each delivery.
 
-  ![](assets/response_hypothesis_campaign_report_001.png)
+  ![Hypothesis report at campaign level listing the hypotheses calculated for each delivery with their indicators.](assets/response_hypothesis_campaign_report_001.png)
 
 * **At delivery level**: to access the report, open the concerned delivery, click the **[!UICONTROL Reports]** in the **[!UICONTROL Summary]** tab and select the **[!UICONTROL Hypothesis report]**. If several hypotheses were calculated for the same delivery, the report will contain all hypotheses.
 
-  ![](assets/response_hypothesis_delivery_report_001.png)
+  ![Hypothesis report at delivery level showing the hypothesis details, state and calculated indicators.](assets/response_hypothesis_delivery_report_001.png)

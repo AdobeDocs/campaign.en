@@ -40,13 +40,13 @@ You have two ways to add deliveries to your marketing campaigns:
 
 * From the **[!UICONTROL Add a delivery]** link in the campaign dashboard.
 
-  ![](assets/campaign_op_add_delivery.png)
+  ![Campaign dashboard with the Add a delivery link and the new delivery window for selecting a template and a label.](assets/campaign_op_add_delivery.png)
 
   Once saved, the delivery is added to the campaign dashboard.
   
 * From a campaign workflow, in the **[!UICONTROL Targeting and workflows]** tab, by adding the delivery. 
 
-  ![](assets/campaign-wf-delivery.png)
+  ![Targeting and workflows tab with the Deliveries palette and a workflow ending in a delivery activity.](assets/campaign-wf-delivery.png)
 
   Once the workflow is started, the delivery is added to the campaign dashboard.
 
@@ -56,23 +56,23 @@ Learn how to set up and execute the delivery approval flow [in this page](market
 
 A delivery can be sent once all approvals have been granted. The delivery execution process depends on the channel. 
 
-* For email or mobile channel deliveries, refer to [this section](#start-an-online-delivery)
+* For email or mobile channel deliveries, refer to [Start an email or mobile delivery](#start-an-online-delivery)
 
-* For direct mail deliveries, refer  to [this section](#start-an-offline-delivery)
+* For direct mail deliveries, refer  to [Start a direct mail delivery](#start-an-offline-delivery)
 
 ### Start an email or mobile delivery {#start-an-online-delivery}
 
 Once all approval requests have been granted, the delivery status changes to **[!UICONTROL Pending confirmation]** and can be started. Reviewers who can start the delivery are notified that a delivery is ready to be started.
 
-![](assets/confirm-delivery.png)
+![Delivery summary with the Confirm delivery button, shown once all approvals are granted and status is Pending.](assets/confirm-delivery.png)
 
 The information also appears on the campaign dashboard. The **[!UICONTROL Confirm delivery]** link lets you start the delivery.
 
-![](assets/confirm-delivery-from-dashboard.png)
+![Campaign dashboard with the Confirm delivery link on a delivery that is Pending confirmation.](assets/confirm-delivery-from-dashboard.png)
 
 Confirming the delivery is restricted to Administrators, and to the operator or group of operators explicitly mentioned in the delivery or campaign properties. If no operator is designed, Administrators and the campaign owner can approve.
 
-![](assets/select-delivery-reviewers.png)
+![Delivery properties Approvals tab showing the reviewers for each approval and for Delivery start.](assets/select-delivery-reviewers.png)
 
 However, you can also allow the campaign owner to confirm the send, even if specific reviewers were defined in the delivery or campaign properties. To do this, as an Administrator, create the **NmsCampaign_Activate_OwnerConfirmation** option and set it to **1**. The options are managed from the **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** folder of Campaign explorer.
 
@@ -89,7 +89,7 @@ Follow the steps below to validate content and send the file to the provider:
   
     This step is only available if the **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** option was enabled in **[!UICONTROL Approvals]** tab of the advanced campaign parameters.
 
-    ![](assets/enable-proof-validation.png)
+    ![Proof validation window with Enable the sending and validation of proofs (Direct mail) selected and a proof group.](assets/enable-proof-validation.png)
   
 1. Click the **[!UICONTROL Send a proof]** button to create the proofs.
 
@@ -111,17 +111,17 @@ The file extraction launches two processes: budget calculation and stock calcula
 
 * The **[!UICONTROL Budget]** tab lets you manage the budgets for the campaign. The total of the cost entries is shown in the **[!UICONTROL Calculated cost]** field of the campaign's main tab and the program it belongs to. The amounts are also reflected in the campaign budget.
 
-  ![](assets/campaign-budget-tab.png)
+  ![Campaign Budget tab showing the related budget, calculated cost and the Cost lines list per delivery.](assets/campaign-budget-tab.png)
 
   The real cost will eventually be calculated from information supplied by the router. Only messages actually sent are invoiced.
 
 * Stocks are defined in the **[!UICONTROL Administration > Campaign management > Stocks]** node of the tree.
 
-  ![](assets/campaign-stocks.png)
+  ![Stocks node in the Campaign explorer with the Sales flyers stock dashboard and its stock lines.](assets/campaign-stocks.png)
 
   Cost structures in the **[!UICONTROL Administration > Campaign management > Service providers]** node.
 
-  ![](assets/campaign-service-providers.png)
+  ![Service providers node in the Campaign explorer with the Blue Print provider and its list of services.](assets/campaign-service-providers.png)
 
   Stock lines are visible in the stock section. To define the initial stock, open a stock line. The stock is decremented each time a delivery takes place. You can define an alert level and notifications.
 

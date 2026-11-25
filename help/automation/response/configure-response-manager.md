@@ -74,7 +74,7 @@ We highly recommend adding an event date.
 
 The following schema shows joins between the different tables once configuration is complete:
 
-![](assets/response_data_model.png)
+![Data model of the response tables: Deliveries, Delivery logs, Measurement hypotheses and Recipients linked to Reactions](assets/response_data_model.png)
 
 ### Response management and recipients {#response-management-with-adobe-campaign-recipients}
 
@@ -85,17 +85,17 @@ The table of response logs on a **[!UICONTROL nms:remaMatchRcp]** recipient is e
 1. Via the Adobe Campaign explorer, select the **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
 1. Right-click **Recipient** then select **[!UICONTROL Actions]** and **[!UICONTROL Modify the options of the targeting dimensions]**.
 
-   ![](assets/delivery_mapping1.png)
+   ![Target mappings list with the Actions menu open and Modify the options of the targeting dimension selected](assets/delivery_mapping1.png)
 
 1. You can personalize the **[!UICONTROL Extension namespace]** in the next window, then click **[!UICONTROL Next]**.
 
-   ![](assets/delivery_mapping2.png)
+   ![Storage step of the targeting dimension options with the Extension namespace and Suffix of the extension schemas fields](assets/delivery_mapping2.png)
 
 1. In the **[!UICONTROL Response management]** category, make sure that the **[!UICONTROL Generate a storage schema for reactions]** box is checked.
 
    Then click **[!UICONTROL Define additional fields...]** to select the related transaction tables and add the desired fields to the extension of the nms:remaMatchRcp schema.
 
-   ![](assets/delivery_mapping3.png)
+   ![Extensions step with Generate a storage schema for reactions checked and the Extension of the reactions schema dialog](assets/delivery_mapping3.png)
 
 The created schema looks as follows:
 

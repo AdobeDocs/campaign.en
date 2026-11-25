@@ -39,10 +39,10 @@ To create a template for recurring campaigns, follow the steps below:
 
 1. Open Campaign explorer and browse to **[!UICONTROL Resources > Templates > Campaign templates]**.
 1. Duplicate the built-in **[!UICONTROL Recurring campaign]** template.
-    ![](assets/recurring-campaign-duplicate.png)
+    ![Campaign templates list with the Duplicate command selected in the context menu of the Recurring campaign template.](assets/recurring-campaign-duplicate.png)
 1. Enter the name of the template and the duration of the campaign.
 1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule. Use this tab to define the execution dates of the campaigns based on this template.
-  ![](assets/recurring-campaign-schedule.png)
+  ![Schedule tab of a campaign template with the Execution schedule list and a calendar picker to set a start date.](assets/recurring-campaign-schedule.png)
 
     The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. [Learn more](../workflow/scheduler.md).
 
@@ -57,7 +57,7 @@ To create a template for recurring campaigns, follow the steps below:
     >
     >This workflow must be saved as a recurring workflow template. To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
 
-    ![](assets/recurring-campaign-wf-properties.png)
+    ![Workflow properties, Execution tab, with the Recurring workflow template option selected.](assets/recurring-campaign-wf-properties.png)
 
 ### Create the recurring campaign {#create-the-recurring-campaign}
 
@@ -77,13 +77,13 @@ To create the recurring campaign and execute its workflows according to the sche
 
 1. Recurring workflows are created automatically from the workflow template present in the campaign. They are visible from the **[!UICONTROL Targeting and workflows]** tab of the campaign. 
 
-   ![](assets/recurring-wf-created.png)
+   ![Targeting and workflows tab listing the default workflow and its recurring instances numbered #1 and #2.](assets/recurring-wf-created.png)
 
    The label of a recurring workflow instance consists of its template label and the workflow number, with the # character in between.
 
    Workflows created from the schedule are automatically associated with it in the **[!UICONTROL Workflow]** column of the **[!UICONTROL Schedule]** tab. 
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![Schedule tab with the Workflow column linking created workflows to schedule lines; Created in advance for is 15d.](assets/recurring-wf-schedule-executed.png)
 
    Each workflow can be edited from this tab.
 

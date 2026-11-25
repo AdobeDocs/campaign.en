@@ -62,7 +62,7 @@ You can create as many service providers as necessary for your deliveries. The p
 1. Click the **[!UICONTROL New]** button above the list of service providers.
 1. In the lower section of the window, specify the name and contact details of the service provider.
 
-   ![](assets/add-a-supplier.png)
+   ![Service providers list in the Explorer and a new service provider form with Label, Internal name and Comment fields](assets/add-a-supplier.png)
 
 1. Click the **[!UICONTROL Save]** button to add the service provider to the list.
 
@@ -76,11 +76,11 @@ To create a service template and define its content, follow the steps below:
 
 1. In the **[!UICONTROL Services]** tab of the service provider, click the **[!UICONTROL Add]** button and enter the name of the service template.
 
-   ![](assets/supplier-new-template.png)
+   ![Service dialog for a new service template, General tab, with Label, Internal name and Comment fields](assets/supplier-new-template.png)
 
 1. Create the cost categories for each type of process (delivery by direct mail/email/etc. or task). To do this, click the **[!UICONTROL Cost categories]** tab and then the **[!UICONTROL Add]** button, and enter the parameters of each cost category.
 
-   ![](assets/add-cost-categories.png)
+   ![Cost categories tab with the Add button and the Cost category dialog for a Direct Mail category and its cost types](assets/add-cost-categories.png)
 
     * Enter a label for this cost category and select the type of process concerned: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, etc. 
     * Click the **[!UICONTROL Add]** button to define the types of cost associated with this category.
@@ -92,7 +92,7 @@ To create a service template and define its content, follow the steps below:
 
 1. You can pre-select a value for this cost category, which is the default in the service provider cost categories (instead of an empty one). To do this, enable the **Yes** option in the **[!UICONTROL Selected]** column for the type of category concerned:
 
-   ![](assets/default-cost-type.png)
+   ![Cost category dialog with the Yes option enabled in the Selected column for the Letter cost type](assets/default-cost-type.png)
 
    At the delivery level, the value will be selected by default.
 
@@ -102,7 +102,7 @@ For each type of cost, the cost structure specifies the calculation rules to be 
 
 Click the **[!UICONTROL Cost structure]** tab to configure the cost calculation for each cost category and type. Click **[!UICONTROL Add]** and input the cost structure.
 
-![](assets/add-cost-structure.png)
+![Cost structure tab with Add button and the Cost structure definition dialog: channel, cost category, calculation](assets/add-cost-structure.png)
 
 * To create the cost structure, select the type of message and the cost category concerned from the drop-down lists, as well as the type of cost to which the calculation rule will apply. The content of these drop-down lists comes from the information entered via the **[!UICONTROL Cost categories]** tab.
 
@@ -122,7 +122,7 @@ If the amount is always the same for a message (or a batch of messages) irrespec
 
 If this amount applies to a batch of messages, specify the number of messages concerned in the **[!UICONTROL for]** field. 
 
-![](assets/supplier_cost_structure_calc.png)
+![Cost structure dialog with Per message and Linear selected, an amount of 4.00 for 5 units](assets/supplier_cost_structure_calc.png)
 
 
 #### Linear structure by threshold {#linear-structure-by-threshold}
@@ -131,7 +131,7 @@ If the amount applies by threshold for each message, you must define a **[!UICON
 
 The configuration is as follows: 
 
-![](assets/supplier-cost-structure-linear.png)
+![Cost structure dialog with the Linear by threshold type, a list of thresholds with amounts, and a Beyond value](assets/supplier-cost-structure-linear.png)
 
 To add a threshold, click the **[!UICONTROL Add]** button to the right of the list.
 
@@ -139,13 +139,13 @@ To add a threshold, click the **[!UICONTROL Add]** button to the right of the li
 
 Finally, you can configure a cost calculation according to the total number of messages. To do this, select a **[!UICONTROL Constant by threshold]** calculation structure. For example, the cost will be set at a fixed amount of 12.00 for 1 to 100 messages, and at 100.00 for a delivery of 101 to 1000 messages, and 500.00 for any delivery over 1000 messages, whatever the total number. 
 
-![](assets/supplier-cost-structure-constant.png)
+![Cost structure dialog with the Constant by threshold type, a list of thresholds with fixed amounts, and a Beyond value](assets/supplier-cost-structure-constant.png)
 
 ### Configure jobs associated with a service {#configure-processes-associated-with-a-service}
 
 You can associate information on the processes associated with the service provider via the **[!UICONTROL Jobs]** tab. This section enables you to configure the sending of information to the router.
 
-![](assets/cost-supplier-jobs.png)
+![Jobs tab of a service showing File extraction, Notification email and Post-processing workflow template settings](assets/cost-supplier-jobs.png)
 
 * The **[!UICONTROL File extraction]** section indicates the export template used for delivery when this service is selected. You can indicate the name of the output file in the **[!UICONTROL Extraction file]** field. The button to the right of the field lets you insert variables.
 
@@ -167,18 +167,18 @@ When a service is selected, the cost categories corresponding to the type of del
 
 * For a direct mail delivery, you can select the service from the configuration window.
 
-  ![](assets/supplier-mail-delivery-select.png)
+  ![Direct mail delivery with the Service provider section highlighted: Service field and Cost categories list](assets/supplier-mail-delivery-select.png)
 
 * For delivery on mobile channels, the same selection mode applies.
 * For an email delivery, the service is selected from the **[!UICONTROL Advanced]** tab in the delivery properties, as in the following example:
 
-  ![](assets/supplier-email-delivery-select.png)
+  ![Delivery properties, Advanced tab, with the Service provider section showing the Service field and Cost categories list](assets/supplier-email-delivery-select.png)
 
 The **[!UICONTROL Amount to surcharge]** column lets you add a cost for this category in the context of the delivery or task concerned.
 
 You can define a mandatory selection of a cost type during the definition of cost categories for a delivery. To do this, select **[!UICONTROL A cost type must be selected]**.
 
-![](assets/cost-type-must-be-selected.png)
+![Cost category dialog with the A cost type must be selected option checked, above the list of cost types](assets/cost-type-must-be-selected.png)
 
 ## Stock and order management {#stock-and-order-management}
 
@@ -198,7 +198,7 @@ The procedure for setting up stock and order management in Adobe Campaign, and a
 
 Adobe Campaign can alert a group of operators if stock has run out or reached a minimum threshold. Stock levels are accessible via the **[!UICONTROL Stocks]** link of the **[!UICONTROL Campaigns]** tab via the **[!UICONTROL Other choices]** link of the navigation area. 
 
-![](assets/stock-dashboard.png)
+![Adobe Campaign home, Campaigns tab, with the Stocks list showing the available stocks](assets/stock-dashboard.png)
 
 #### Create a stock {#creating-a-stock}
 
@@ -213,17 +213,17 @@ A stock comprises various stock lines. A stock line contains an initial quantity
 
 When you create a stock, click the **[!UICONTROL Stock lines]** tab to add new lines.
 
-![](assets/stock-new-lines.png)
+![Stock edit screen, Stock lines tab, listing stock lines with Initial stock, Consumed, In stock and Alert level columns](assets/stock-new-lines.png)
 
 Once the stock is created, use its dashboard to create and monitor stock lines.
 
 Click the **[!UICONTROL Create]** button to add new stock lines. 
 
-![](assets/add-stock-lines.png)
+![Stock dashboard with the Create button above a list of stock lines showing initial, consumed and in-stock quantities](assets/add-stock-lines.png)
 
 * Indicate the quantity initially in stock in the **[!UICONTROL Initial stock]** field. The **[!UICONTROL Consumed]** and **[!UICONTROL In stock]** fields are calculated automatically and updated as campaigns progress.
 
-  ![](assets/create-new-stock-line.png)
+  ![Stock line dialog, General tab, with the Initial stock, Consumed and In stock quantities and the Alert level field](assets/create-new-stock-line.png)
 
 * Indicate the threshold from which operators should be alerted to order stock in the **[!UICONTROL Alert level]** field. When the alert level if reached, a warning message is displayed in the approval window of deliveries using this stock.
 
@@ -231,7 +231,7 @@ Click the **[!UICONTROL Create]** button to add new stock lines.
 
 For a given service provider, in a service, a stock line can be referenced by one of the cost categories, as follows:
 
-![](assets/select-stock-line-supplier.png)
+![Cost category dialog with a stock line selected from the Stock line drop-down list of a cost type](assets/select-stock-line-supplier.png)
 
 ### Stock tracking {#stock-tracking}
 
@@ -239,7 +239,7 @@ For a given service provider, in a service, a stock line can be referenced by on
 
 An alert is displayed when a stock referenced in a delivery is insufficient. For example, the following alert will be displayed when an extraction file is approved:
 
-![](assets/stock-alert.png)
+![Action on delivery dialog showing an insufficient stock alert with Accept and Reject options before file approval](assets/stock-alert.png)
 
 #### Orders {#orders}
 
@@ -247,7 +247,7 @@ The **[!UICONTROL Orders]** sub-tab lets you view current orders and save new or
 
 To save an order, edit the targeted stock line, click the **[!UICONTROL Add]** button and specify the delivery date and the quantity ordered.
 
-![](assets/order-stocks.png)
+![Stock line Orders tab with the Add button and a Stock order dialog with Delivery date and Volume on order fields](assets/order-stocks.png)
 
 >[!NOTE]
 >

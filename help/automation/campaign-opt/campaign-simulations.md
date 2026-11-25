@@ -39,7 +39,7 @@ This means that pressure and capacity rules are only applied to deliveries in **
 
 The delivery mode is chosen in the **[!UICONTROL Typology]** sub-tab of the delivery properties.
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![Delivery properties Typology tab with the Delivery mode drop-down listing three modes.](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### Create a simulation {#create-a-simulation}
@@ -48,19 +48,19 @@ To create a simulation, apply the following steps:
 
 1. Open the **[!UICONTROL Campaigns]** tab, click the **[!UICONTROL More]** link within the **[!UICONTROL Create]** section and select the **[!UICONTROL Simulation]** option.
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![Campaign calendar home page with the More menu under Create open and Simulation highlighted.](assets/simu_campaign_opti_01.png)
 
 1. Enter the template and the name of the simulation. Click **[!UICONTROL Save]** to create the simulation.
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![Simulation creation dialog with Simulation template and Label fields highlighted and the Save button.](assets/simu_campaign_opti_02.png)
 
 1. Click the **[!UICONTROL Edit]** tab to configure it.
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![Edit tab of the simulation with General, Scope, Calculations and Audit sections and the execution settings.](assets/simu_campaign_opti_edit.png)
 
 1. In the **[!UICONTROL Scope]** tab, specify the deliveries you want to consider for this simulation. To do this, click the **[!UICONTROL Add]** button and specify the delivery selection mode to take into account.
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   ![Scope section with the Add button and the Simulation item dialog for choosing how deliveries are selected.](assets/simu_campaign_opti_edit_scope.png)
 
    You can either select each delivery one by one or sort them by campaign, program or plan.
 
@@ -70,17 +70,17 @@ To create a simulation, apply the following steps:
    >  
    >If you don't do this, any deliveries that are not available in the plan, program, or campaign when the simulation is created will not be taken into account: deliveries added later will be ignored.
 
-    ![](assets/simu_campaign_opti_edit_scope_update.png)
+    ![Simulation item dialog with All deliveries of one or more programs and the Refresh the selection option checked.](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. Select the elements to include in the simulation scope. If necessary, select multiple elements using the SHIFT and CTRL keys.
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![Deliveries selection dialog with several deliveries highlighted and the Finish button.](assets/simu_campaign_opti_edit_scope_select.png)
 
    Click **[!UICONTROL Finish]** to approve the selection.
 
    You can manually combine selected deliveries and deliveries belonging to plans, programs or campaigns.
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![Scope list mixing programs, campaigns and a plan, with the Save button and the Edit the dynamic condition link.](assets/simu_campaign_opti_edit_scope_save.png)
 
    If necessary, you can use a dynamic condition via the **[!UICONTROL Edit the dynamic condition...]** link.
 
@@ -92,11 +92,11 @@ To create a simulation, apply the following steps:
 
 1. In the **[!UICONTROL Calculations]** tab, select an analysis dimension such as the recipient schema for example.
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![Calculations section with the schema selection dialog open and Recipients (nms) selected as the analysis dimension.](assets/simu_campaign_opti_dimension.png)
 
 1. You can then add expressions.
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![Calculations section with Recipients (nms) as analysis dimension and Account and Status reporting axes listed.](assets/simu_campaign_opti_dimension_02.png)
 
 ### Execution settings {#execution-settings}
 
@@ -114,11 +114,11 @@ Once the simulation scope is defined, you can execute it.
 
 To do this, open the simulation dashboard and click **[!UICONTROL Start simulation]**.
 
-![](assets/simu_campaign_opti_start.png)
+![Simulation dashboard with the Start simulation button.](assets/simu_campaign_opti_start.png)
 
 Once execution is complete, open the simulation and click the **[!UICONTROL Results]** tab to view the targets calculated for each delivery.
 
-![](assets/simu_campaign_opti_results.png)
+![Results tab, Deliveries sub-tab listing each delivery with its Initial count and Final count.](assets/simu_campaign_opti_results.png)
 
 1. The **[!UICONTROL Deliveries]** sub-tab lists all deliveries taken into account by the simulation. It shows two counts:
 
@@ -131,12 +131,12 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 
 1. The **[!UICONTROL Exclusions]** sub-tab lets you view the exclusion break-down.
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![Results tab, Exclusions sub-tab showing the exclusion count per delivery and rule.](assets/simu_campaign_opti_14.png)
 
 1. The **[!UICONTROL Alerts]** sub-tab groups all alert messages generated during the simulation. Alert messages can be sent in case of capacity overload (if the number of recipients targeted exceeds the set capacity, for instance).
 1. The **[!UICONTROL Exploration of the exclusions]** sub-tab lets you create a result analysis table. The user needs to indicate variables in the abscissa/ordinates axes.
 
-   For an example of analysis table creation, refer to the end of [this section](#explore-results).
+   For an example of analysis table creation, refer to the end of [Explore results](#explore-results).
 
 ### View results {#view-results}
 
@@ -144,7 +144,7 @@ Once execution is complete, open the simulation and click the **[!UICONTROL Resu
 
 The **[!UICONTROL Audit]** tab lets you monitor simulation execution. The **[!UICONTROL SQL Logs]** sub-tab is useful for expert users. It lists execution logs in SQL format. These logs are only displayed if the **[!UICONTROL Save SQL queries in the log]** option has been selected in the **[!UICONTROL General]** tab before simulation execution.
 
-![](assets/simu_campaign_opti_11.png)
+![Audit section with the Journal and SQL logs sub-tabs, the SQL logs showing execution queries.](assets/simu_campaign_opti_11.png)
 
 #### Explore results {#explore-results}
 
@@ -176,7 +176,7 @@ The following reports are provided by default:
 
 To access reports, click the **[!UICONTROL Reports]** link of the targeted simulation via its dashboard.
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![Simulation dashboard Reports view listing report tiles such as Detail of simulation exclusions.](assets/campaign_opt_reporting_edit_from_board.png)
 
 You can also edit reports using the **[!UICONTROL Reports]** link accessible from the simulation dashboard.
 
@@ -192,12 +192,12 @@ To compare results, you need to use reports. Indeed, Adobe Campaign lets you sav
 1. In the **[!UICONTROL Reports]** tab, edit one of the available reports, such as **[!UICONTROL Detail of simulation exclusions]** for example.
 1. In the upper right-hand section of the report, click the icon to create a new history.
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![Detail of simulation exclusions report with the New history icon highlighted in the toolbar.](assets/campaign_opt_reporting_create_hist.png)
 
 1. Close the simulation and change the configuration of typology **A**.
 1. Execute the simulation again and compare the result with the one displayed in the report for which a history was created.
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![Detail of simulation exclusions report compared with a saved history opened from the Available history icon.](assets/campaign_opt_reporting_edit_hist.png)
 
    You can save as many report histories as necessary.
 
@@ -217,7 +217,7 @@ In the example below, we want to create an additional reporting axis based on th
 1. To define a reporting axis, select the table which contains the information to be processed in the **[!UICONTROL Analysis dimension]** field. This information is mandatory.
 1. Here, we want to select the Segment field of the recipient table.
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![Calculations section with Recipients (nms) as analysis dimension and a Status reporting axis based on @status.](assets/simu_campaign_opti_09.png)
 
 1. The following options are available:
 
@@ -237,7 +237,7 @@ When the simulation results are displayed, the information on the selected expre
 
 Delivery target overlaps indicate the targeted recipients in at least two deliveries of a simulation.
 
-![](assets/simu_campaign_opti_13.png)
+![Results tab, Overlaps sub-tab listing each delivery, its concurrent delivery and the overlap count.](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >
