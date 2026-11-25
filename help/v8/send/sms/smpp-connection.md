@@ -193,11 +193,11 @@ You have a conflict between accounts. Adobe Campaign treats accounts individuall
 You will have to contact the provider to diagnose for potential conflicts on their side.
 
 *Some of the external accounts share the same login/password combination*
-The provider has no way to tell from which external account the BIND PDU is coming from, so they treat all connections from the multiple accounts as a single one, so they probably route MO and SR randomly over the 2 accounts, causing seemingly random issues.
+The provider has no way to tell which external account a BIND PDU comes from. They treat all connections from the multiple accounts as a single one, so they probably route MO and SR randomly over the 2 accounts. This causes seemingly random issues.
 
 If the provider supports multiple short codes for the same login/password combination, you will have to ask them where to put that short code in the BIND PDU. Note that this piece of information has to be put inside the BIND PDU, and not in SUBMIT_SM, because the BIND PDU is the only place that will allow routing MOs correctly.
 
-See the [Information in each kind of PDU](#pdu) section above to know what fields are available in the BIND PDU, generally you would put the short code in *address_range*, but that requires special support from the provider. Contact them to know how they expect to route multiple short codes independently.
+See the [Information in each kind of PDU](#pdu) section above for the fields available in the BIND PDU. Generally you would put the short code in *address_range*, but that requires special support from the provider. Contact them to find out how they expect to route multiple short codes independently.
 
 Adobe Campaign supports handling multiple short codes on the same external account just fine, so often just using a single account for all traffic will work fine.
 
@@ -247,7 +247,7 @@ A connection is considered unstable if any of these things happen:
 * If the provider sends UNBIND PDUs, they probably do something wrong. Ask them why they send UNBIND and it will probably lead to the root cause.
 * Taking a network capture is sometimes the only way to see how the connection is closed.
 * If the provider closes the connections (by sending either a TCP FIN or a TCP RST packet), ask them why they do that. This should tell you the root cause of the problem.
-* If the provider closes the connection after sending a clean error (such as DELIVER_SM_RESP with an error code), they must fix their connector because that prevents other kinds of messages from being transmitted and will trigger MTA throttling. This is especially important in transceiver mode where closing the connection impacts both MT and SR.
+* If the provider closes the connection after sending a clean error (such as DELIVER_SM_RESP with an error code), they must fix their connector. Closing the connection prevents other kinds of messages from being transmitted and will trigger MTA throttling. This is especially important in transceiver mode, where closing the connection impacts both MT and SR.
 * If there are timeouts (BIND timeouts, SUBMIT_SM timeouts), Campaign may be sending messages too quickly for that provider. Try lowering the *max MT throughput* setting and see if it solves the issue.
 
 #### Issue when sending an MT (regular SMS sent to an end-user)
@@ -284,7 +284,7 @@ If the DELIVER_SM PDU is not successfully acknowledged, then you need to check a
 * Check regex related to id extraction and error processing in the external account. You may need to validate them against the content of the DELIVER_SM PDU.
 * Check that errors are properly provisioned in the broadLogMsg table (the Campaign documentation explains this in detail).
 
-If the DELIVER_SM PDU has been acknowledged by the ACC extended SMPP connector but the broadLog is not updated properly, check the ID reconciliation process described in the section Matching MT, SR and broadlog entries above.
+If the ACC extended SMPP connector has acknowledged the DELIVER_SM PDU but the broadLog is not updated properly, check the ID reconciliation process. It is described in the section Matching MT, SR and broadlog entries above.
 
 If you fixed everything but some invalid SR are still in the provider's buffers, you can skip them by using the "Invalid ID acknowledge count" option. This should be used with care and reset to 0 as quickly as possible after the buffers are clean.
 
@@ -299,7 +299,7 @@ If only some SR are received but not all, check that no other system connects to
 * If the MO (DELIVER_SM PDU) doesn't appear in the traces, you can be confident that the problem is on the provider side. They will have to do troubleshooting on their platform.
 * If the DELIVER_SM PDU appears, check that it's acknowledged by Campaign with a successful DELIVER_SM_RESP PDU (code 0). This RESP guarantees that all the processing logic has been applied by Campaign (auto reply and quarantine). If it's not the case, search for an error message in the SMS process logs.
 * If automatic replies are enabled, check that the SUBMIT_SM has been sent to the provider. If not, it's guaranteed to find an error message in the SMS process logs.
-* If the SUBMIT_SM MT PDU containing the reply is found in the traces but the SMS does not arrive to the mobile phone, you will have to contact the provider for assistance on troubleshooting because the problem is probably on their side.
+* If the SUBMIT_SM MT PDU containing the reply is found in the traces but the SMS does not reach the mobile phone, contact the provider for troubleshooting assistance. The problem is probably on their side.
 
 #### Issue during delivery preparation not excluding quarantined recipients (quarantined by the auto reply feature)
 
@@ -318,7 +318,7 @@ The provider is the expert that knows how SMS works. Contact them and see with t
 
 You will have to know what's in your message. That sentence may sound easy, but it's not. Unicode allows so many variants for look-alike characters that Campaign cannot handle them all.
 
-The most common source of problems is copy-paste from a word processor, that changes usual characters to typographically-correct versions: spaces changed to non-breaking spaces, double quotes changed to opening and closing quotes, minus signs changed to various kinds of hyphens ...
+The most common source of problems is copy-paste from a word processor. It changes usual characters to typographically-correct versions: spaces changed to non-breaking spaces, double quotes changed to opening and closing quotes, minus signs changed to various kinds of hyphens ...
 
 Don't copy-paste your message when testing, always type it directly in the interface.
 
@@ -361,7 +361,7 @@ If the provider complains about buffer overload on their side, this may be becau
 
 ### Elements to include when communicating about an SMS issue
 
-Whenever you seek assistance on an SMS issue (whether it's opening a support ticket to Adobe Campaign, to the SMS provider, or any kind of communication about the issue), you will need to include at least the following information to be sure that it will be properly qualified. Properly qualified issues are key to solving problems faster, so taking a little more time to try to understand the situation and give meaningful information will lead to a giant leap in efficiency.
+Whenever you seek assistance on an SMS issue, include at least the following information so that the issue can be properly qualified. This applies whether you open a support ticket with Adobe Campaign or with the SMS provider, or communicate about the issue in any other way. Properly qualified issues are key to solving problems faster, so taking a little more time to try to understand the situation and give meaningful information will lead to a giant leap in efficiency.
 
 * Enable verbose SMPP messages during the time when the problem appears. Most SMS problems are virtually impossible to solve without this.
 * If the problem is related to SMS traffic, contact the provider first. They are the most knowledgeable and their platform is usually suited for efficient diagnosis of SMS traffic problems in real time.
