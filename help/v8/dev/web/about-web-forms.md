@@ -51,19 +51,19 @@ Web forms are accessed via the Web Applications menu of the **Campaigns** tab. I
 
 To create a Web form, click the **[!UICONTROL Create]** button above the list of Web applications.
 
-![](assets/webapp_create_new.png)
+![Web applications list under Campaigns with the Create button highlighted for starting a new web form.](assets/webapp_create_new.png)
 
 Select the Web form template ( **[!UICONTROL newWebForm]** by default).
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![New Web application dialog with the New Web form (newWebForm) template selected in the Template list.](assets/s_ncs_admin_survey_select_template.png)
 
 This will take you to the dashboard of the form. 
 
-![](assets/webapp_empty_dashboard.png)
+![Dashboard tab of a new web form showing its status, schema, folder, public URL and the Publish button.](assets/webapp_empty_dashboard.png)
 
 The **[!UICONTROL Edit]** tab lets you create your content.
 
-![](assets/webapp_edit_tab.png)
+![Edit tab of a web form showing the diagram of activities (Start, Page, Test, Storage, End) and the activity palette.](assets/webapp_edit_tab.png)
 
 To define the configuration and content of the Web form, apply the following steps:
 
@@ -100,12 +100,12 @@ The following sections detail how to define content and layout for form screens:
 
 You can also use the icons in the toolbar or a right-click to insert an input zone. 
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![Page editor toolbar menu for adding an input field: Combo box, Checkbox, Radio button, Multiple choice, Date, Grid.](assets/s_ncs_admin_webform_add_selection.png)
 
 In this case, start by selecting the type of field to add and the answer storage mode.
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![Storage dialog: choose Edit a recipient or Variable, then pick the Database field with Edit expression.](assets/s_ncs_admin_webform_select_storage.png)
 
 Click **[!UICONTROL Ok]** to approve the selection. 
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![Selecting the Salutation field in Select an expression fills the Database field in the Storage dialog; click Ok.](assets/s_ncs_admin_webform_confirm_storage.png)

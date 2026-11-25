@@ -31,7 +31,7 @@ Answers to forms can be saved in a field of the database or temporarily in a loc
 
 For each input field in a form, the following storage options are available:
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![Last Name input field with the Edit storage link and the Storage dialog showing Edit a recipient and Variable options.](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL Edit a recipient]**
 
@@ -45,7 +45,7 @@ For each input field in a form, the following storage options are available:
 
 To save the data in an existing field of the database, click the **[!UICONTROL Edit expression]** icon and select it from the list of available fields. 
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![Storage dialog with Edit expression opening the field selector, where Last name (@lastName) is selected.](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -57,15 +57,15 @@ You can use local variables so that even if data is not stored in the database, 
 
 This means that you can use the value of an unsaved field to authorize the display of a group of options on the page. In the page below, the vehicle type is not stored in the database:
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![Type of car combo box with storage set to the variable typeV and the Edit storage link.](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link. 
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![Storage dialog with the Variable option and a drop-down listing Type of car, Moving truck and Personal car.](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 You can display existing variables and create new ones via the **[!UICONTROL Edit variables...]** link. Click the **[!UICONTROL Add]** button to create a new variable.
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![Edit variables list and Variable dialog with the Car Energy label and name, type Text, to add a variable.](assets/s_ncs_admin_survey_add_a_variable.png)
 
 The added variable will be available in the list of local variables when the page's input fields are created.
 
@@ -77,19 +77,19 @@ The added variable will be available in the list of local variables when the pag
 
 In the above example, the container that includes data concerning private vehicles is displayed only if the **[!UICONTROL Private]** option is selected from the drop-down list, as indicated in the visibility condition:
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![Personal Car container Visibility condition: type of car equal to Personal.](assets/s_ncs_admin_survey_add_a_condition.png)
 
 If the user selects a private vehicle, the Web form offers the following options:
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![Car reservation form page showing the Type of car drop-down list with Select, Compact, Intermediate and Standard.](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 The container holding the data concerning commercial vehicles will be displayed if the Professional option is selected, as expressed in the visibility condition:
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![Truck/Van container Visibility condition: origin equal to Truck.](assets/s_ncs_admin_survey_view_a_condition.png)
 
 This means that, if the user selects a commercial vehicle, the form offers the following options:
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![Car reservation form with Moving truck selected and a Class drop-down listing Minibus, Pick-up, Cargo Van and 20 Truck.](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## Using collected information {#using-collected-information}
 
@@ -121,7 +121,7 @@ For each form, the answers provided can be re-used in the fields or the labels. 
 
 To save the information collected in the pages of a form, you need to place a storage box in the diagram.
 
-![](assets/s_ncs_admin_survey_save_box.png)
+![Web form diagram with Welcome Page, Subscribe, Storage and End activities, the Storage box highlighted.](assets/s_ncs_admin_survey_save_box.png)
 
 There are two ways of using this box:
 
@@ -135,13 +135,13 @@ There are two ways of using this box:
 
 * To enrich the data of recipients in the database, edit the storage box and select the reconciliation key. For internal use (typically an intranet system) or for a form used to create new profiles for instance, you can select the reconciliation field(s). The box offers all fields of the database used in the various pages of the Web application:
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![Storage activity dialog with the Reconciliation options tree of the Recipients fields and the Search folder field.](assets/s_ncs_admin_survey_save_box_edit.png)
 
 By default, the data is imported into the database by an **[!UICONTROL Update or insertion]** operation: if it exists in the database, the element is updated (for example, the selected newsletter or the email address entered). If it does not exist, the information is added.
 
 You can, however, change this behavior. To do this, select the root of the element and select the operation to be performed from the drop-down list:
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![Storage activity Operation list: Reconciliation only, Update or insert, Insert, Update and Delete.](assets/s_ncs_admin_survey_save_operation.png)
 
 You can select a search folder for reconciliation and the creation folder for new profiles. If these fields are empty, the profiles are searched for and created in the operator's default folder.
 

@@ -40,7 +40,7 @@ Adobe Campaign integrates a graphical module for defining and publishing **Web f
 
 Learn how to create and publish web forms in [Get started with web forms](web/about-web-forms.md).
 
-![](assets/sample.png) 
+![Example web form for an email newsletter subscription with email, name and country fields and a Subscribe button.](assets/sample.png) 
 
 Adobe Campaign also lets you create and publish dynamic and interactive **Web applications** with data from the database and content adapted to the rights of the connected user.
 

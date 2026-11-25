@@ -30,15 +30,15 @@ level_v2:
 
 To apply the modifications made to the schemas, launch the Database update wizard. This assistant is accessible via **[!UICONTROL Tools > Advanced > Update database structure]**. It checks whether the physical structure of the database matches its logical description and executes the SQL update scripts.
 
-![](assets/schema_update.png)
+![Database update wizard Update parameters page with the Next button to start the auto-discovery process](assets/schema_update.png)
 
 The modules in the database are automatically populated and activated.
 
-![](assets/schema_update_select2.png)
+![Database update wizard Edit tables page listing tables, with the CusContracts table set to synchronize](assets/schema_update_select2.png)
 
 Follow the steps and view the database update SQL script:
 
-![](assets/schema_update2.png)
+![Database update wizard Update script page with the SQL CREATE TABLE script for CusContracts](assets/schema_update2.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ Follow the steps and view the database update SQL script:
 
 Next, launch the database update:
 
-![](assets/schema_update3.png)
+![Database update wizard Start database update page with the log showing the update completed at 100%](assets/schema_update3.png)

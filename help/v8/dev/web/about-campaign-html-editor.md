@@ -59,7 +59,7 @@ This section presents key steps to edit and upload content edited with the DCE, 
 
 The general operation is as follows: 
 
-![](assets/dce_schema.png)
+![Landing page and email delivery both go through the Digital Content Editor, then to publication or send](assets/dce_schema.png)
 
 To create a simple **web application**, you need to:
 

@@ -39,7 +39,7 @@ Web application types are selected during creation.
 
 Go to the **Campaigns** tab and select the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button. Select the Web application template you want to use:
 
-![](assets/webapp_create_from_campaign.png)
+![Web applications list with the Create button and the template list including New landing page and New Web form](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >

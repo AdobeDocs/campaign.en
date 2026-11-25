@@ -39,13 +39,13 @@ You can specify a visibility condition on a web page element: this element will 
 
 To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
 
-![](assets/dce_add_condition.png)
+![Content editor with the Visibility condition field and edit icon highlighted in the right-hand Block options panel](assets/dce_add_condition.png)
 
 >[!NOTE]
 >
 >Advanced expression editing is presented on [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation).
 
-![](assets/dce_popup_visibilitycondition.png)
+![Expression editor dialog with the Available fields list, the List of functions and the Insert button](assets/dce_popup_visibilitycondition.png)
 
 These conditions adopt the XTK expression syntax (for example **ctx.recipient.@email != ""** or **ctx.recipient.@status=="0"**). By default, all fields are visible.
 
@@ -57,11 +57,11 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 You can add a **border** to a selected block. The borders are defined using three options: style, size and color.
 
-![](assets/dce_popup_border.png)
+![Borders dialog with Style, Size, a color picker and a Preview with Transparent, Light and Dark backgrounds](assets/dce_popup_border.png)
 
 You can also define a **background color** by selecting a color from the color chart.
 
-![](assets/dce_popup_background.png)
+![Back dialog with a color picker, opacity slider and Preview with Transparent, Light and Dark options](assets/dce_popup_background.png)
 
 ## Editing forms {#editing-forms}
 
@@ -69,7 +69,7 @@ You can also define a **background color** by selecting a color from the color c
 
 You can link database fields with input zone, radio button or checkbox type blocks.
 
-![](assets/dce_sidebar_field.png)
+![Input zone (text) options with the Form data section, Field set to No data and the Mandatory Yes/No toggle](assets/dce_sidebar_field.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ The **field** input zone lets you select a database field to link with the form 
 
 By default, the fields offered are those in the **nms:recipient** table.
 
-![](assets/dce_field_selection.png)
+![Field of the Recipient dialog listing nms:recipient fields such as Email, First name and Last name](assets/dce_field_selection.png)
 
 The **Required field** option lets you only authorize the page's approval if the user has filled in the field. If a required field is not filled in, an error message will appear.
 
@@ -91,11 +91,11 @@ To do this:
 
 * Click the **[!UICONTROL Edit]** icon.
 
-  ![](assets/dce_sidebar_options.png)
+  ![Checkbox options with the Form data section and its Edit icon highlighted above the Type, Field and Mandatory settings](assets/dce_sidebar_options.png)
 
 * Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
 
-  ![](assets/dce_sidebar_completeoptionradio.png)
+  ![Form data dialog with the Value if checked and Value if not checked fields highlighted](assets/dce_sidebar_completeoptionradio.png)
 
 ### Modifying form fields {#modifying-form-fields}
 
@@ -107,13 +107,13 @@ This means you can:
 * Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
 * Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
 
-  ![](assets/dce_toolbar_formblock_edition.png)
+  ![Form data dialog with the Field selector set to No data and the Mandatory Yes/No toggle](assets/dce_toolbar_formblock_edition.png)
 
 ## Adding an action to a button {#adding-an-action-to-a-button}
 
 When the user clicks a button, you can define an associated action. To do this, select the action to be carried out from the drop-down list.
 
-![](assets/dce_sidebar_button.png)
+![Hypertext link options with the Action drop-down listing To define, None, Refresh, Next page and Previous step](assets/dce_sidebar_button.png)
 
 The actions available are as follows:
 
@@ -133,11 +133,11 @@ You can insert a link into any page element: image, word, group of words, block 
 
 To do this, select the element then use the first icon from the pop-up menu.
 
-![](assets/dce_insertlink_icon.png)
+![Block toolbar with the insert icon highlighted, used to open the link menu](assets/dce_insertlink_icon.png)
 
 This icon lets you access all the available types of links.
 
-![](assets/dce_insertlink_menu.png)
+![Insert menu with Personalization field, Personalization block and link types: external URL, action, Web application](assets/dce_insertlink_menu.png)
 
 Personalization blocks and fields can only be inserted into Text type blocks.
 
@@ -159,7 +159,7 @@ Personalization blocks and fields can only be inserted into Text type blocks.
 
 The **Link to an external URL** option lets you open any URL from the source content. 
 
-![](assets/dce_toolbar_imgblock_externallink.png)
+![Insert a link dialog for an external URL with the URL and Target fields](assets/dce_toolbar_imgblock_externallink.png)
 
 Enter the link address in question into the **URL** field. The URL field should be entered as: **https://www.myURL.com**.
 
@@ -167,7 +167,7 @@ Enter the link address in question into the **URL** field. The URL field should 
 
 The **Link to a Web application** option lets you access an Adobe Campaign Web application.
 
-![](assets/dce_toolbar_imgblock_appweb.png)
+![Insert a link dialog for a Web application with the Web application and Target fields](assets/dce_toolbar_imgblock_appweb.png)
 
 Select the Web application from the corresponding field.
 
@@ -177,7 +177,7 @@ The list of suggested Web applications corresponds to the available applications
 
 The **Link that defines an action** option lets you configure an action when clicking a source element.
 
-![](assets/dce_toolbar_imgblock_action.png)
+![Insert a link dialog for an action with the Action and Target fields](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ When a link has been inserted, the tool bar offers two new icons: **Edit link** 
 
 When you select a text element, you can modify font attributes (style, format).
 
-![](assets/dce_toolbar_txt.png)
+![Text toolbar buttons: enlarge or reduce font, bold, italic, underline, alignment, background color and font color](assets/dce_toolbar_txt.png)
 
 The available options are as follows:
 
@@ -231,11 +231,11 @@ The Digital Content Editor lets you work on **any type of image** compatible wit
 
 To insert an image, select an Image type block and click the **Image** icon.
 
-![](assets/dce_insert_image.png)
+![Image block toolbar with the Image icon highlighted for inserting an image](assets/dce_insert_image.png)
 
 Select an image file saved locally.
 
-![](assets/dce_popup_imgupload.png)
+![Image selection dialog with the Browse button to pick a local image file](assets/dce_popup_imgupload.png)
 
 The **Delete** icon deletes the tag containing the image.
 
@@ -252,7 +252,7 @@ When you select a block containing an image, you access the following properties
 * **Caption** lets you define the caption linked to the image (corresponds to the **alt** HTML attribute).
 * **Dimensions** lets you specify the image size, in pixels.
 
-  ![](assets/dce_popup_imgsize.png)
+  ![Dimensions dialog with Width and Height fields in pixels, both set to 96](assets/dce_popup_imgsize.png)
 
 ## Adding personalization content {#adding-personalization-content}
 
@@ -260,7 +260,7 @@ When you select a block containing an image, you access the following properties
 
 The **Personalization field** option for the insert icon lets you add a database field into the content, such as the recipient's name. This option is only available for text type blocks.
 
-![](assets/dce_toolbar_textblock_persofield.png)
+![Insert an element dialog listing Recipient fields such as Email, First name and Last name](assets/dce_toolbar_textblock_persofield.png)
 
 By default, the fields offered are from the **[!UICONTROL Recipient]** table. Where necessary, edit the Web application properties to select another table.
 
@@ -272,7 +272,7 @@ An example is presented in the [Inserting a personalization field](creating-a-la
 
 The **Personalization block** option lets you insert dynamic and personalized blocks into the content. For example, you can add a logo or a greeting message. It is not available for Text type blocks.
 
-![](assets/dce_toolbar_textblock_persoblock.png)
+![Insert an element dialog listing personalization blocks such as Greetings, Insert Logo and Unsubscription link](assets/dce_toolbar_textblock_persoblock.png)
 
 Once inserted, the personalization block name appears in the editor, highlighted in yellow. It is automatically adapted to the recipient profile when personalization is generated.
 

@@ -45,7 +45,7 @@ The following identification methods are possible:
 
 * **[!UICONTROL DES encryption]** 
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![Preloading Identification section with the Method set to DES encryption, a DES key field and Skip preloading if no ID](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   This encryption method uses an identifier (ID) provided externally, linked to a key shared by Adobe Campaign and the external provider. The **[!UICONTROL Des key]** field lets you enter this encryption key.
 
@@ -53,7 +53,7 @@ The following identification methods are possible:
 
   This option lets you choose from the fields in the current context of the form, those that will be used to find the corresponding profile in the database. 
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![Preloading Identification section with the List of fields method and the email field selected as the identifier](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   Fields can be added to the form properties via the **[!UICONTROL Parameters]** tab (refer to [Adding parameters](defining-web-forms-properties.md#adding-parameters)). They are placed in the form URL or input zones.
 
@@ -65,11 +65,11 @@ The following identification methods are possible:
 
   The URL can include the unencrypted email address, in which case users have direct access to the pages that concern them. 
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![Web form URL containing the email address, opening the pre-filled Client information form directly](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   If not, they will be asked for their password.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![Web form URL without the email, opening an Enter password page that asks for the password](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -85,7 +85,7 @@ The **[!UICONTROL Load additional data]** option lets you add information which 
 
 You can, for example, preload the gender of the recipient and automatically direct them to the appropriate page via a test box.
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![Preloading box loading the gender field, followed by a test box that sends recipients to the matching page](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## Managing web forms delivery and tracking {#managing-web-forms-delivery-and-tracking}
 
@@ -133,13 +133,13 @@ There are three stages in the life cycle of a form:
 
 The publication status of a form is displayed in the list of forms.
 
-![](assets/s_ncs_admin_survey_status.png)
+![Web applications list showing the publication status of each form, such as Online and Being edited](assets/s_ncs_admin_survey_status.png)
 
 ### Publishing a form {#publishing-a-form}
 
 To change the state of a form, you need to publish it. To do this, click the **[!UICONTROL Publication]** button above the list of Web forms and select the state in the drop-down box.
 
-![](assets/webapp_publish_webform.png)
+![Web form dashboard with the Publish button, leading to the Web application publication dialog with a Start button](assets/webapp_publish_webform.png)
 
 ### Making a form available online {#making-a-form-available-online}
 
@@ -147,7 +147,7 @@ To be accessed by users, the form must be in production and started, i.e. within
 
 * Use the fields in the **[!UICONTROL Project]** section to enter start and end dates for the form. 
 
-  ![](assets/webapp_availability_date.png)
+  ![General tab of Properties with the Start and End date fields in the Project section, and the End date calendar open](assets/webapp_availability_date.png)
 
 * Click the **[!UICONTROL Personalize the message displayed if the form is closed...]** link to define the error message to display if the user tries to access the form while it isn't valid.
 
@@ -165,21 +165,21 @@ In this case, the reconciliation key for data storage must be the recipient's en
 
 In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. For more on this, refer to [Saving Web forms answers](web-forms-answers.md#saving-web-forms-answers).
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+![Storage box dialog with the Update the preloaded record option checked](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Log responses {#log-responses}
 
 Response tracking can be activated in a dedicated tab to monitor the impact of your Web form. To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
 
-![](assets/s_ncs_admin_survey_trace.png)
+![Advanced parameters dialog with the Log responses option checked, opened from the form properties](assets/s_ncs_admin_survey_trace.png)
 
 The **[!UICONTROL Responses]** tab appears to let you view the identity of respondents.
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+![Responses tab of the Web form listing the date and recipient of each form response](assets/s_ncs_admin_survey_trace_tab.png)
 
 Select a recipient and click the **[!UICONTROL Detail...]** button to view the responses provided.
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+![Detail button on the Responses tab opening a Form responses window with the answers a recipient entered](assets/s_ncs_admin_survey_trace_edit.png)
 
 You can process the response logs provided in queries, for instance to target only non-respondents when sending reminders, or to offer specific communications to respondents only.
 

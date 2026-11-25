@@ -57,23 +57,23 @@ To extend a schema, follow the steps below:
 1. Navigate to the **[!UICONTROL Administration > Configuration > Data schemas]** folder in the Explorer.
 1. Click the **New** button and select **[!UICONTROL Extend the data in a table using an extension schema]**.
 
-    ![](assets/extend-schema-option.png)
+    ![Schema type step with Extend the data in the table using an extension schema selected](assets/extend-schema-option.png)
 
 1. Identify the built-in schema to extend and select it.
 
-    ![](assets/extend-schema-select.png)
+    ![Source schema selection dialog filtered on recipient, with Recipients (nms) selected](assets/extend-schema-select.png)
 
     By convention, name the extension schema the same as the built-in schema, and use a custom namespace.  Note that some namespaces are internal only. [Learn more](schemas.md#reserved-namespaces)
 
-    ![](assets/extend-schema-validate.png)
+    ![Schema parameters step for the extension schema with namespace cus, name recipient and label Recipients](assets/extend-schema-validate.png)
 
 1. Once in the schema editor, add the elements you need using the contextual menu, and save.
 
-    ![](assets/extend-schema-edit.png)
+    ![Schema editor with the Insert menu open on Attribute, listing String, Boolean, Integer, Date and other types](assets/extend-schema-edit.png)
 
     In the example below, we add the **MembershipYear** attribute, put a length limit for last name (this limit will overwrite the default one), and remove the birth date from the built-in schema.
 
-    ![](assets/extend-schema-sample.png)
+    ![Extension schema XML adding MembershipYear, a 50-character lastName length and deleting birthDate](assets/extend-schema-sample.png)
 
     ```xml
     <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
@@ -89,7 +89,7 @@ To extend a schema, follow the steps below:
 
 1. Disconnect and reconnect to Campaign to check schema structure update in the **[!UICONTROL Structure]** tab.
 
-    ![](assets/extend-schema-structure.png)
+    ![Structure tab of the cus:recipient schema listing fields, including the new Member since field](assets/extend-schema-structure.png)
 
 1. Update the database structure to apply your changes. [Learn more](update-database-structure.md)
 

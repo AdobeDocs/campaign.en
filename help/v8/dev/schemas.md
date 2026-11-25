@@ -93,7 +93,7 @@ The first **`<element>`** sub-element coincides with the root of the entity.
 >
 >The root element of the entity has the same name as the schema.
 
-![](assets/schema_and_entity.png)
+![A schema defines the XML structure of the recipient data; an entity is a specific record that follows it.](assets/schema_and_entity.png)
 
 The **`<element>`** tags define the names of entity elements. **`<attribute>`** tags of the schema define the names of the attributes in the **`<element>`** tags which they have been linked to.
 
@@ -133,7 +133,7 @@ To add an entirely new type of data that does not exist in Adobe Campaign (a tab
 
 For more on this, refer to [Create a new schema](create-schema.md).
 
-![](assets/schemaextension_1.png)
+![Data schema creation wizard, Schema type step, with New table and Extension of a schema options highlighted.](assets/schemaextension_1.png)
 
 
 Once you have created or extended a schema to work in, the best practice is to define its XML content elements in the same order they appear in below.
@@ -223,7 +223,7 @@ Learn more about keys in [Campaign Database mapping](database-mapping.md).
 
 Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. Learn more in [Create a new schema in Campaign](create-schema.md).
 
-![](assets/schemaextension_2.png)
+![Edit schema step with the Insert menu open to add an Attribute such as String, Boolean, Integer or Date.](assets/schemaextension_2.png)
 
 The full list of attributes is available in the `<attribute>` element section in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. Here are some of the more commonly used attributes: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
@@ -307,7 +307,7 @@ Use the example below to include fields relating to the creation date, the user 
 
 Once your changes are completed and saved, any changes that may impact the SQL structure need to be applied to the database. To do this, use the database update assistant.
 
-![](assets/schemaextension_3.png)
+![Tools, Advanced menu in the console with Update database structure selected to apply schema changes.](assets/schemaextension_3.png)
 
 For more on this, refer to [Update the database structure](update-database-structure.md).
 

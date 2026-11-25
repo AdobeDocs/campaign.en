@@ -57,7 +57,7 @@ You can create pages, such as an edit form on an extranet, or notification forms
 
 This can be a subscription form containing data that has been preloaded with information contained in the Adobe Campaign database, as shown below:
 
-   ![](assets/webapp_form_sample.png)
+   ![Subscription form preloaded with an email, name and country, with a Subscribe button.](assets/webapp_form_sample.png)
 
 This chapter provides an overview of how to manage Web applications.
 
@@ -131,7 +131,7 @@ You can create new templates via the **[!UICONTROL Resources > Templates > Web A
 
 The creation assistant lets you select the options you want to enable, as shown below. 
 
-![](assets/webapp_create_template.png)
+![New Web application dialog with the Survey and Advanced website (extranet) options to enable.](assets/webapp_create_template.png)
 
 >[!CAUTION]
 >

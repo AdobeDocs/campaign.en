@@ -49,13 +49,13 @@ To ensure the editor's optimal operation, we recommend observing the following g
 
   The **'type'** attribute is visible in the interface in the following form:
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![Input zone (email) sidebar panel with the Form data section, a Field selector and the Mandatory Yes or No toggle](assets/dce_sidebar_inputtypechanges.png)
 
   The official list of 'type' attributes is available [in this website](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Steps to simulate an end page with the DCE:
 
-  ![](assets/dce_enchainement.png)
+  ![Form diagram with Preloading, Page, Storage and Page 2 boxes in sequence, simulating an end page](assets/dce_enchainement.png)
 
 * Make sure that there is only one `<body> </body>` in the page.
 * When a CSS or JS file is uploaded, the images contained within the .zip file are not uploaded. The references to these images present in the CSS are therefore not updated.

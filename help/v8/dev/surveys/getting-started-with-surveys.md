@@ -32,7 +32,7 @@ subfeature_v2:
 
 Here is a quick overview of the main steps to create a simple survey, using the following built-in template:
 
-![](assets/s_ncs_admin_survey_result.png)
+![Survey page Your details with last name, account number and email fields, an email format list and a Validate button](assets/s_ncs_admin_survey_result.png)
 
 These steps are:
 
@@ -48,13 +48,13 @@ These steps are:
 
 To create a new survey, go to the **[!UICONTROL Campaigns]** or **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Web Applications]** menu. Click the **[!UICONTROL Create]** button above the list of forms.
 
-![](assets/s_ncs_admin_survey_create.png)
+![Web Applications list in the Campaigns tab with the Create button above the list of forms](assets/s_ncs_admin_survey_create.png)
 
 ## Step 2 - Select the template {#step-2---selecting-the-template}
 
 Select a survey template, then give the survey a name. This name will not be seen by end users, but it allows the survey to be identified within Adobe Campaign. Click **[!UICONTROL Save]** to add the survey to the list of Web applications.
 
-![](assets/s_ncs_admin_survey_wz_00.png)
+![New Web application dialog with the New survey template selected, a label, a folder and the Save button](assets/s_ncs_admin_survey_wz_00.png)
 
 ## Step 3 - Build the survey {#step-3---building-the-survey}
 
@@ -66,34 +66,34 @@ A survey must contain **at least** the following three components: a page, a sto
 
 * To create a page, select the **[!UICONTROL Page]** object in the left-hand section of the editor and deposit it in the middle section, as shown below:
 
-  ![](assets/s_ncs_admin_survey_new_page.png)
+  ![Survey editor with the Page object being dragged from the Common list into the diagram area](assets/s_ncs_admin_survey_new_page.png)
 
 * Next, select the **[!UICONTROL Storage]** object and place it on the output transition of the page.
 * Finally, select the **[!UICONTROL End]** object and place it on the end of the output transition of the storage box to obtain the following diagram:
 
-  ![](assets/s_ncs_admin_survey_end.png)
+  ![Survey diagram with a Page, a Storage box and an End object linked by transitions](assets/s_ncs_admin_survey_end.png)
 
 ## Step 4 - Create the page content {#step-4---creating-the-page-content}
 
 In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]** type page. This type of page is accessed via the advanced menu of the **[!UICONTROL Edit]** tab.
 
-![](assets/s_ncs_admin_survey_pagev5.png)
+![Advanced list of the Edit tab with the Page (v5 compatibility) object selected in a Page, Storage, End diagram](assets/s_ncs_admin_survey_pagev5.png)
 
 * **Add input fields**
 
   To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. Click the first icon in the toolbar to open the field creation assistant. To create an entry field for the user name to be stored in the matching field of the recipient's profile, select **[!UICONTROL Edit a recipient]**.
 
-  ![](assets/s_ncs_admin_survey_add_field_menu.png)
+  ![Field creation wizard with the Edit a recipient option selected to add a form field](assets/s_ncs_admin_survey_add_field_menu.png)
 
   Click the **[!UICONTROL Next]** button to select the field for data storage in the database. In this case, the 'Last name' field.
 
-  ![](assets/s_ncs_admin_survey_choose_field.png)
+  ![Field creation wizard listing Recipient fields, with Last name selected as the field to enter](assets/s_ncs_admin_survey_choose_field.png)
 
   Click **[!UICONTROL Finish]** to confirm field creation.
 
   By default, when the information is stored in a field that already exists in the database, the field takes on the name of the selected field, i.e. 'Last name' in this example. You can modify this label as shown below:
 
-  ![](assets/s_ncs_admin_survey_change_label.png)
+  ![Page editor where the Last name field label is changed to Your name, stored in the database field @lastName](assets/s_ncs_admin_survey_change_label.png)
 
   Now create an entry field for the user account number. Repeat the operation and select the 'account No.' field.
 
@@ -103,19 +103,19 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
   
   To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]**.
 
-  ![](assets/s_ncs_admin_survey_add_qu.png)
+  ![Page editor with the Containers menu open and Question selected, below the name, account number and email fields](assets/s_ncs_admin_survey_add_qu.png)
 
   Enter the label of the question and insert the answer field(s) as a sub-branch of the question. To do this, the node linked to the question must be selected when you create the answer field. Add a **[!UICONTROL drop-down list]** using the **[!UICONTROL Selection controls]** icon or by right-clicking, as shown below:
 
-  ![](assets/s_ncs_admin_survey_add_list.png)
+  ![Right-click menu on the question with Selection controls open and Combo box highlighted](assets/s_ncs_admin_survey_add_list.png)
 
   Select a storage space: select an enumeration field to retrieve the values automatically (the email format in this case). 
 
-  ![](assets/s_ncs_admin_survey_add_itz_list.png)
+  ![Storage dialog with Edit a recipient selected and the Email format (@emailFormat) database field](assets/s_ncs_admin_survey_add_itz_list.png)
 
   In the **[!UICONTROL General]** tab, click the **[!UICONTROL Initialize the list of values from the database]** link: the table of values is entered automatically.
 
-  ![](assets/s_ncs_admin_survey_add_value.png)
+  ![Combo box General tab with the Initialize the list of values from the database link and the filled list of values](assets/s_ncs_admin_survey_add_value.png)
 
   Click **[!UICONTROL OK]** to close the editor, and **[!UICONTROL Save]** to save changes.
 
@@ -125,7 +125,7 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
   In the detail screen, click the **[!UICONTROL Preview]** tab to view the rendering of the survey you have just created.
 
-  ![](assets/s_ncs_admin_survey_preview.png)
+  ![Preview tab showing the survey page with name, account number, email and email format fields and a Validate button](assets/s_ncs_admin_survey_preview.png)
 
 ## Step 5 - Store the survey data {#step-5---storing-the-survey-data-}
 
@@ -135,7 +135,7 @@ To do this, edit the box and select the field that will be used as a reconciliat
 
 In the example below, when saving (confirmation) takes place, if a profile is saved in the database with the same account number as the one input in the form, the profile will be updated. If the profile does not exist, it will be created.
 
-![](assets/s_ncs_admin_survey_save_edit.png)
+![Storage box dialog with the Account # field checked as the reconciliation key under Recipient](assets/s_ncs_admin_survey_save_edit.png)
 
 Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save the survey.
 
@@ -146,17 +146,17 @@ For users to be able to access the HTML pages, the application must be made avai
 * Click the **[!UICONTROL Publish]** button located above the survey dashboard.
 * Click **[!UICONTROL Start]** to launch publication and close the assistant.
 
-  ![](assets/s_ncs_admin_survey_start_publ.png)
+  ![Dashboard Publish button leading to the Web application publication dialog with the Start button](assets/s_ncs_admin_survey_start_publ.png)
 
   The status of the survey changes to: **Online**.
 
-  ![](assets/survey_published.png)
+  ![Survey dashboard with the status changed to Online and the publication date and public URL displayed](assets/survey_published.png)
 
 ## Step 7 - Share your online survey {#step-7---sharing-your-online-survey}
 
 Once it is in production, the survey is accessible on the server and you can deliver it. The URL for accessing the survey is displayed on the dashboard. 
 
-![](assets/survey_url_from_dashboard.png)
+![Survey dashboard with an arrow pointing to the Public URL field of the online survey](assets/survey_url_from_dashboard.png)
 
 To deliver the survey, you can send a message containing an access link to the target population, or place the survey access URL on a web page, for example.
 

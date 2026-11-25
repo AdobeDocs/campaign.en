@@ -32,7 +32,7 @@ Web forms are accessed via the **[!UICONTROL Resources > Online > Web applicatio
 
 Select the survey template (**[!UICONTROL newSurvey]** by default).
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![New Web application dialog with the template list open for choosing a survey or Web form template.](assets/s_ncs_admin_survey_select_template.png)
 
 The pages of the form are created using a special editor that lets you define and configure (text) input fields, selection fields (lists, checkboxes, etc.) and static elements (images, HTML content, etc.). They can be collected in "containers" and laid out according to requirements. [Learn more](#adding-questions).
 
@@ -44,7 +44,7 @@ The pages of the form are created using a special editor that lets you define an
 
 The fields in a form enable users to enter information and select options. For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the assistant]** menu. 
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![Field creation wizard opened from Add using the wizard, with four field options from Answer a question to Import.](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ When you add a field to a survey you need to select its type. The following opti
 
 The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![Page editor General tab with the Type list open, showing Multiple choice, Combo box and other field types.](assets/s_ncs_admin_survey_change_type.png)
 
 The various types of available fields are detailed in [Get started with web forms](../web/about-web-forms.md).
 
@@ -77,11 +77,11 @@ Online surveys are based on Web application capabilities. Survey-specific capabi
 
 For **[!UICONTROL Multiple choice]** type controls, you can define a minimum and maximum number of selections. For example, this option enables you to force the selection to at least **2** values and at most **4** values from the available options:
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![Survey page Please select your interests with checkboxes, three to four options selected.](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 If the number of selections is too big or too small, the appropriate message is displayed.
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+![Interests survey page showing the error message Please do not choose more than four interests.](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -89,11 +89,11 @@ If the number of selections is too big or too small, the appropriate message is 
 
 The corresponding configuration is as follows:
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![Multiple choice field set to allow multiple selections, with 2 selections required and 4 allowed.](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 In addition, the storage location for this input field must be a **[!UICONTROL Multiple values]** type **archived field**: 
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![Create new archived field dialog with the Multiple values option checked for the Interests field.](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -110,7 +110,7 @@ Use a **Question** container to add a question to the page and to insert the pos
 >
 >Never insert a **Question** container below another **Question** container in the hierarchy.
 
-![](assets/s_ncs_admin_question_label.png)
+![Question container General tab with the Enter the title in HTML format option checked and the HTML editor shown.](assets/s_ncs_admin_question_label.png)
 
 The label of the question is entered in the label field. In this case, the style from the form's style sheet will be applied. Select the **[!UICONTROL Enter the title in HTML format]** option to personalize it. This will give you access to the HTML editor.
 
@@ -120,11 +120,11 @@ The label of the question is entered in the label field. In this case, the style
 
 For example:
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![Page tree with Question containers for email format and contracts, and the page General tab settings.](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 In the example above, the rendering will be as follows:
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![Rendered survey page with fields, an email format drop-down and a contracts checkbox question.](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -132,11 +132,11 @@ In the example above, the rendering will be as follows:
 
 You can enable the random drawing of questions by Adobe Campaign. It is then possible to specify the number of questions to be displayed in the page, in the field located at the bottom of the configuration window.
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+![Page General tab with Display randomly checked and the number of questions to display set to 1.](assets/s_ncs_admin_survey_containers_qu_display.png)
 
 The rendering will look like this:
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![Rendered page showing only two randomly selected questions, Question 2 and Question 3, with Next button.](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 When the page is refreshed, the questions displayed are not the same.
 

@@ -63,23 +63,23 @@ To collect the answers to the survey, apply the following steps:
 1. Edit the activity and select the survey whose answers you want to analyze.
 1. Enable the **[!UICONTROL Select all the answer data]** option to collect all the information.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![Survey responses activity in the Online Survey workflow with a survey selected and Select all answer data enabled.](assets/reporting_usecase_1_01.png)
 
 1. Select the columns to extract (in this case, select all archived fields). These are the fields that contain the answers.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![Select extra columns dialog for choosing the archived fields to add to the output columns.](assets/reporting_usecase_1_02.png)
 
 1. Once the answer collection box is configured, position a **[!UICONTROL List update]** type activity to save the data.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![Workflow with a Survey responses activity linked by a Result transition to a List update activity.](assets/reporting_usecase_1_04.png)
 
    In this activity, specify the list to be updated and un-check the **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** option: answers are added to the existing table. This option will enable you to reference the list in a cube. The schema linked to the list will not be re-generated for each update, which guarantees the integrity of the cube that uses this list.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![List update dialog with the Purge and re-use the list if it exists option cleared so answers are added to the list.](assets/reporting_usecase_1_03.png)
 
 1. Start the workflow to confirm its configuration.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![Online Survey workflow diagram with Survey responses connected to List update, ready to start.](assets/reporting_usecase_1_05.png)
 
    The specified list is created and includes the schema of the answers to the survey.
 
@@ -93,11 +93,11 @@ You may then create the cube and configure its measures: they will be used to cr
 
 In this example, the cube is based on the data in the list fed by the workflow created previously.
 
-![](assets/reporting_usecase_2_01.png)
+![Cube dialog Answers Online Survey with Use a list selected and the WEB REP list as fact list.](assets/reporting_usecase_2_01.png)
 
 Define the dimensions and the measures to be displayed in the report. Here, we want to display the contract date and the country of the respondent.
 
-![](assets/reporting_usecase_2_02.png)
+![Cube Dimensions tab with Country and Dept, and Measures tab with Answered, 2016 contract and 2017 contract.](assets/reporting_usecase_2_02.png)
 
 The **[!UICONTROL Preview]** tab lets you control the rendering of the report.
 
@@ -105,8 +105,8 @@ The **[!UICONTROL Preview]** tab lets you control the rendering of the report.
 
 You may then create a report based on this cube and process the data and information.
 
-![](assets/reporting_usecase_3_01.png)
+![Creating a new report page with the Answers Online Survey cube template selected and the Create button.](assets/reporting_usecase_3_01.png)
 
 Adapt the information to display based on your needs.
 
-![](assets/reporting_usecase_3_02.png)
+![Online Survey report table of 2016 and 2017 contract counts by country, with the Country dimension in the rows.](assets/reporting_usecase_3_02.png)

@@ -44,13 +44,13 @@ In the following example, we will create overview-type Web applications to displ
 * one filter per link editing tool (refer to [Creating a filter using a link editor](#creating-a-filter-using-a-link-editor)), 
 * a refresh link (refer to [Creating a refresh link](#creating-a-refresh-link)).
 
-![](assets/s_ncs_configuration_webapp_overview.png)
+![Web application overview page with labels: folder filter, New button, link editor filter, Refresh link, list, detail.](assets/s_ncs_configuration_webapp_overview.png)
 
 ## Creating a single-page Web application {#creating-a-single-page-web-application}
 
 1. Create a single **[!UICONTROL Page]** Web application and disable outbound transitions and transitions to the next page.
 
-   ![](assets/s_ncs_configuration_webapp_create.png)
+   ![Page properties, General tab, with Disable next page selected and Enable outbound transitions cleared.](assets/s_ncs_configuration_webapp_create.png)
 
 1. Change the page title.
 
@@ -58,19 +58,19 @@ In the following example, we will create overview-type Web applications to displ
 
 1. In the Web application properties, modify the rendering of your application by selecting the **[!UICONTROL Single-page Web application]** template.
 
-   ![](assets/s_ncs_configuration_webapp_rendering.png)
+   ![Properties dialog, Rendering tab, with the Single-page Web application template selected in the Template list.](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Open the **[!UICONTROL Page]** activity of your Web application and open a list (**[!UICONTROL Static element > List]**).
 1. In the **[!UICONTROL Data]** tab of your list, select the type of **[!UICONTROL Web applications]** document and the **[!UICONTROL Label]** , **[!UICONTROL Creation date]** and **[!UICONTROL Type of application]** output columns.
 1. In the **[!UICONTROL Filter]** sub-tab, create the following filter as shown below in order to display Web applications only and exclude templates from your view.
 
-   ![](assets/s_ncs_configuration_webapp_filter.png)
+   ![List Data tab, Filter sub-tab, with conditions Template equal to No and Primary key not equal to 0.](assets/s_ncs_configuration_webapp_filter.png)
 
 1. Close the configuration window of your page and click **[!UICONTROL Preview]**.
 
    The list of Web applications available in your database is displayed.
 
-   ![](assets/s_ncs_configuration_webapp_preview.png)
+   ![Preview tab of the web application showing the list of Web applications by label.](assets/s_ncs_configuration_webapp_preview.png)
 
 ## Adding a filter on a folder {#adding-a-filter-on-a-folder}
 
@@ -87,15 +87,15 @@ In an overview, you can choose to access data depending on its location in the A
 
 1. Apply the **[!UICONTROL XML]** type to the variable.
 
-   ![](assets/s_ncs_configuration_webapp_variable_xml.png)
+   ![Select folder input with Edit storage open, and Edit branches showing the Folder variable of type XML.](assets/s_ncs_configuration_webapp_variable_xml.png)
 
 1. Select the **[!UICONTROL Refresh page]** interaction.
 
-   ![](assets/s_ncs_configuration_webapp_variable.png)
+   ![Folder input with the Refresh page action selected for the Action to perform when selecting a folder.](assets/s_ncs_configuration_webapp_variable.png)
 
 1. Place your cursor on your list, and in the **[!UICONTROL Advanced]** tab, reference the variable previously created in the **[!UICONTROL Folder filter XPath]** tab of the list. You must use the name of the element concerned by the folder link, i.e. **folder**.
 
-   ![](assets/s_ncs_configuration_webapp_variable002.png)
+   ![List Advanced tab with the Folder filter XPath field set to folder in Storage / Filtering.](assets/s_ncs_configuration_webapp_variable002.png)
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ In an overview, you can choose to access data depending on its location in the A
 
    This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
 
-   ![](assets/s_ncs_configuration_webapp_link.png)
+   ![New link element with the URL that opens the new web application form and the Style field set to button.](assets/s_ncs_configuration_webapp_link.png)
 
 ## Adding detail to a list {#adding-detail-to-a-list}
 
@@ -134,11 +134,11 @@ When you configure a list in your overview, you can choose to display additional
 1. Place your cursor on the previously created list element.
 1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Columns and additional detail]** display mode in the drop-down list.
 
-   ![](assets/s_ncs_configuration_webapp_detail.png)
+   ![List General tab with the View option set to Columns and Additional detail.](assets/s_ncs_configuration_webapp_detail.png)
 
 1. In the **[!UICONTROL Data]** tab, add the **[!UICONTROL Primary key]** , **[!UICONTROL Internal name]** and **[!UICONTROL Description]** columns and select the **[!UICONTROL Hidden field]** option for each one.
 
-   ![](assets/s_ncs_configuration_webapp_detail002.png)
+   ![List Data tab with the Primary key, Internal name and Description output columns marked as Hidden field.](assets/s_ncs_configuration_webapp_detail002.png)
 
    This way, this information will only be visible in the detail of each entry.
 
@@ -188,7 +188,7 @@ These two elements will be grouped in the same container in order to be graphica
 1. Place your cursor on the **[!UICONTROL Page]** element and select **[!UICONTROL Container > Standard]**.
 1. Set the number of columns to **2**, so that the link editor and the link are next to each other.
 
-   ![](assets/s_ncs_configuration_webapp_container.png)
+   ![Filter container with the Appearance style field set to dottedFilter and two columns.](assets/s_ncs_configuration_webapp_container.png)
 
    For information on element layout, refer to [Get started with web forms](about-web-forms.md).
 
@@ -196,14 +196,14 @@ These two elements will be grouped in the same container in order to be graphica
 
    This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
 
-   ![](assets/s_ncs_configuration_webapp_container002.png)
+   ![Filter container General tab with the Appearance style field set to dottedFilter.](assets/s_ncs_configuration_webapp_container002.png)
 
 ### Creating a filter using a link editor {#creating-a-filter-using-a-link-editor}
 
 1. Place your cursor on the container created during the previous stage and insert a link editor via the **[!UICONTROL Advanced controls]** menu.
 1. In the storage window which opens automatically, select the **[!UICONTROL Variables]** option, then click the **[!UICONTROL Edit variables]** link and create an XML variable for filtering data.
 
-   ![](assets/s_ncs_configuration_webapp_variable003.png)
+   ![Link editor input: Edit storage, Edit variables and the Variable dialog creating the var2 XML variable.](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. Modify the label.
 
@@ -211,7 +211,7 @@ These two elements will be grouped in the same container in order to be graphica
 
 1. Choose the Operator table as an application schema.
 
-   ![](assets/s_ncs_configuration_webapp_linkeditor.png)
+   ![Link editor labeled Created by, storing to variable var2, with the Operator application schema selected.](assets/s_ncs_configuration_webapp_linkeditor.png)
 
 1. Place your cursor on the list element and create a filter via the **[!UICONTROL Data > Filter]** tab:
 
@@ -220,7 +220,7 @@ These two elements will be grouped in the same container in order to be graphica
     * **Value:** Variables (variables)
     * **Taken into account if:** '$(var2/@id)'!=''
 
-   ![](assets/s_ncs_configuration_webapp_filter002.png)
+   ![List filter conditions, including the Created by link key equal to Variables, applied only if var2 id is set.](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
 >
@@ -233,13 +233,13 @@ These two elements will be grouped in the same container in order to be graphica
 1. Select **[!UICONTROL Refresh data in a list]**.
 1. Add the previously created list.
 
-   ![](assets/s_ncs_configuration_webapp_refreshlink.png)
+   ![Refresh link with the Refresh data in a list action and List 1 chosen under Lists to refresh.](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. Using the sort-order arrows, reorganize the various elements of your Web application as shown below.
 
-   ![](assets/s_ncs_configuration_webapp_orderelements.png)
+   ![Page elements tree with the sort-order arrows highlighted to move List 1 below the Filter element.](assets/s_ncs_configuration_webapp_orderelements.png)
 
 The Web application is now configured. You can click the **[!UICONTROL Preview]** tab to preview it.
 
-![](assets/s_ncs_configuration_webapp_result.png)
+![Preview of the finished web application: folder filter, New link, Created by filter, Refresh link and list.](assets/s_ncs_configuration_webapp_result.png)
