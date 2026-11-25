@@ -36,11 +36,11 @@ topic_v2:
 
 These reports concern the activity of the data in the entire database. To view the reports dashboard, go to the **[!UICONTROL Reports]** tab. 
 
-![](assets/reports-tab.png)
+![Reports tab of the Adobe Campaign home page, showing the Global reports dashboard with report tiles](assets/reports-tab.png)
 
 To display reports, click their names. The following reports are available by default:
 
-![](assets/report-global-list.png)
+![Global reports list showing the default reports, such as User activities, Delivery throughput and Browsers](assets/report-global-list.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ To display reports, click their names. The following reports are available by de
 
 This report contains information on the delivery throughput of the entire platform for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
 
-![](assets/report-toolbar.png)
+![Delivery throughput report with the Parameters time range, the Refresh link and charts of successes and errors per hour](assets/report-toolbar.png)
 
 You can configure the values displayed by changing the timescale: 1-hour view, 3-hour view, 24-hour view, etc. Click **[!UICONTROL Refresh]** to confirm your selection.
 
@@ -135,7 +135,7 @@ For each domain name, we have:
 
 You can open up each line of the value table by clicking the [+] symbol. For each domain type, you can show the breakdown of error messages by error type.
 
-![](assets/errors-report-details.png)
+![Breakdown of errors per domain table, with expandable domain rows showing error counts by error type](assets/errors-report-details.png)
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ This report shows the breakdown of internet browsers used by delivery recipients
 
 The global statistics on browser use are presented in the form of a table of values and a chart. 
 
-![](assets/browser-report.png)
+![Internet browsers report with a table of visitors, pages viewed and usage rate per browser, and a donut chart](assets/browser-report.png)
 
 The following indicators are used:
 
@@ -165,7 +165,7 @@ The following indicators are used:
 
 In the table of global statistic values, you can click each browser name to view their usage statistics. 
 
-![](assets/browser-report-info.png)
+![Statistics for one browser, with the History curve, Breakdown by versions chart and Global rate and Relative rate](assets/browser-report-info.png)
 
 Statistics are presented in the form of a curve, a chart and a table of values.
 
@@ -243,7 +243,7 @@ This report shows the breakdown of operating systems used by delivery recipients
 
 The global usage statistics of operating systems are presented in the form of a table of values and a chart. 
 
-![](assets/os-report.png)
+![Operating Systems report with a table of visitors, pages viewed and usage rate per system, and a donut chart](assets/os-report.png)
 
 The following indicators are used:
 
@@ -255,7 +255,7 @@ The following indicators are used:
 
 In the table of global statistics values, click the name of each operating system to view the statistics per operating system. 
 
-![](assets/os-report-details.png)
+![Windows statistics page with the History curve, Breakdown by versions chart and Global rate and Relative rate per version](assets/os-report-details.png)
 
 Statistics are presented in the form of a curve, a chart and a table of values.
 
@@ -272,7 +272,7 @@ The table of values uses the following indicators:
 
 This report lets you monitor subscriptions to information services. It shows subscriptions and unsubscriptions.
 
-![](assets/service-report.png)
+![Subscription tracking report with the overall evolution of subscriptions table and the subscription evolution curves](assets/service-report.png)
 
 It can be displayed for a subscription by clicking the **[!UICONTROL Profiles and targets > Services and subscriptions]** node of the home page or the explorer. Select the desired subscription, and then click the **[!UICONTROL Reports]** tab. The **[!UICONTROL Subscriptions tracking]** report is available by default. It lets you see the subscription and unsubscription trends and the loyalty rate over a period. You can configure the representation of this data via the drop-down list. Click **[!UICONTROL Refresh]** to validate the selected configuration.
 
@@ -298,7 +298,7 @@ This chart shows the evolution of subscriptions and unsubscriptions for the conc
 
 This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
 
-![](assets/broadcast-report.png)
+![Delivery statistics report showing processed emails, delivered, bounces, opens, clicks and unsubscriptions per email domain](assets/broadcast-report.png)
 
 The following indicators are used:
 
@@ -321,7 +321,7 @@ This report shows the breakdown of opens by operating system, device and browser
 
 The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to [Tracking opens](metrics-calculation.md#tracking-opens-).
 
-![](assets/user-agent-report.png)
+![Breakdown of opens report with pie charts of operating systems, devices and browsers for all opens and mobile opens only](assets/user-agent-report.png)
 
 >[!NOTE]
 >

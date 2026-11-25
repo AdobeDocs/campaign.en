@@ -34,7 +34,7 @@ To access reports, follow the steps below:
 1. Click the name of the delivery whose reports you want to access. 
 1. Select the **[!UICONTROL Summary]** tab and click the **[!UICONTROL Reports]** link to access the reports specific to the delivery.
 
-   ![](assets/detailed-report-2.png)
+   ![Delivery Summary tab with the Reports link highlighted, listing the available delivery reports.](assets/detailed-report-2.png)
 
    By default, the following reports are available:
 
@@ -60,7 +60,7 @@ This report combines the key indicators for tracking the behavior of recipients 
 >
 >Values calculated based on message opens are always estimates, due to the margin of error linked to emails in text format. The **[!UICONTROL Distinct opens/Sum of opens for the population reached]** indicators take this margin of error into account. [Learn more](metrics-calculation.md#tracking-opens-).
 
-![](assets/tracking-report-synthesis.png)
+![Tracking indicators report with four numbered sections, from Delivery statistics to Generated click streams.](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. Delivery statistics]**
 
@@ -164,7 +164,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 This report provides all the main information on the delivery. 
 
-![](assets/user-report-summary.png)
+![Summary of the delivery report with Initial target population, Causes of exclusion and Delivery statistics sections.](assets/user-report-summary.png)
 
 **[!UICONTROL Target population]**
 

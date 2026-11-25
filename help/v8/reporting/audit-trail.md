@@ -101,7 +101,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 1. Under the **[!UICONTROL Administration]** menu, select **[!UICONTROL Audit]** then **[!UICONTROL Audit Trail]**.
 
-   ![](assets/audit-trail-1.png)
+   ![Explorer tree with Administration, Audit, then AuditTrail selected, and the list of audited entities](assets/audit-trail-1.png)
 
 1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Adobe Campaign will audit the create, edit and delete actions for your different entities.
 
@@ -115,7 +115,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
     * **[!UICONTROL Action]**: Last action performed on this entity, either Created, Modified or Deleted.
     * **[!UICONTROL Modification date]**: Date of the last action performed on this entity.
 
-   ![](assets/audit-trail-2.png)
+   ![Audit entity details showing Type, Entity, Modified by, Action and Modification date](assets/audit-trail-2.png)
 
 >[!NOTE]
 >
@@ -144,10 +144,10 @@ To do so:
    * For Operator: **[!UICONTROL XtkAudit_Operator]**
    * For every entity: **[!UICONTROL XtkAudit_Enable_All]**
 
-   ![](assets/audit-trail-3.png)
+   ![Options list under Administration, Platform filtered on XtkAudit_ with the XtkAudit_Delivery option selected](assets/audit-trail-3.png)
 
 1. Change the **[!UICONTROL Value]** to 1 if you want to enable the entity or to 0 if you want to disable it.
 
-   ![](assets/audit-trail-4.png)
+   ![XtkAudit_Delivery option with the Value (integer) field set to 1 to enable the Audit trail](assets/audit-trail-4.png)
 
 1. Click **[!UICONTROL Save]**.

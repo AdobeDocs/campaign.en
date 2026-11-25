@@ -53,25 +53,25 @@ To access Campaign built-in reports:
 
 1. Select the **[!UICONTROL Reports]** tab of the Adobe Campaign interface.
 
-    ![](assets/reporting-access-from-home.png)
+    ![Reports tab highlighted in the Campaign home, showing the Global reports list of built-in reports.](assets/reporting-access-from-home.png)
 
 1. Use the search fields to filter the displayed reports.
 
 1. Then click the report you want to display.
 
-    ![](assets/edit-a-report.png)
+    ![Global reports list filtered with the search field on budget, showing the matching reports to open.](assets/edit-a-report.png)
 
 1. Click the **[!UICONTROL Back]** link at the top of the screen to go back to the list of reports.
 
-    ![](assets/back-button.png)
+    ![Cost analysis report with the Back button highlighted at the top right to return to the list of reports.](assets/back-button.png)
 
 Reports that are specific to a campaign or a delivery are accessible via their respective dashboards.
 
-![](assets/reporting-on-delivery.png)
+![Delivery dashboard with the Reports link highlighted, listing the delivery reports.](assets/reporting-on-delivery.png)
 
 The principle is the same for lists, services, offers, etc. as shown below:
 
-![](assets/reporting-on-offer.png)
+![List dashboard with the Reports link highlighted to access the list reports.](assets/reporting-on-offer.png)
 
 
 ## Reports on deliveries {#reports-on-deliveries}

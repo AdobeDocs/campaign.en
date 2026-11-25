@@ -47,7 +47,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
         
     Use marketing analytics capabilities to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. You can create reports and build target populations and store them into lists which can be used in Adobe Campaign for targeting or segmentation tasks.
 
-    ![](assets/create-a-report.png)
+    ![Creating a new report page with Available cube templates and the Recipients template selected](assets/create-a-report.png)
 
     Depending on the complexity of the queries, calculations and volumes, the data analyzed in these reports can be collected via a query and pre-aggregated in a list (data management type workflow) or in a Cube (using Marketing Analytics). It will be displayed in the form of a pivot table or a group list.
 
@@ -59,7 +59,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     Use the **Reports** tab to access these reports.
 
-    ![](assets/built-in-reports.png)
+    ![Reports tab showing the Global reports list of built-in reports, such as Broadcast statistics and Browsers](assets/built-in-reports.png)
 
    For more on this, refer to [Adobe Campaign built-in reports](built-in-reports.md).
 
@@ -69,7 +69,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     Use the **[!UICONTROL Tools > Descriptive analysis...]** menu to create a new report.
 
-    ![](assets/desc-analysis-report.png)
+    ![Descriptive analysis wizard Table configuration with the Variable definition dialog opened from Add](assets/desc-analysis-report.png)
 
     Campaign Descriptive analysis reporting is presented in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 

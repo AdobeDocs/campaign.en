@@ -42,7 +42,7 @@ Overall, three types of binning are available:
 
 To enable binning, check the appropriate box when creating the dimension.
 
-![](assets/cube-class.png)
+![Dimension creation dialog with the Enable binning option selected under Configure binning.](assets/cube-class.png)
 
 You can either create bins manually or link them to an existing [enumeration](../config/enumerations.md).
 
@@ -52,15 +52,15 @@ Adobe Campaign also provides an assistant for automatic binning: values can be b
 
 To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
 
-![](assets/cube-binning.png)
+![Dimension binning settings with the Define each bin option selected and an empty Bins table.](assets/cube-binning.png)
 
 Click the **[!UICONTROL Add]** button to create a new bin and list the values which will be grouped into the bin.
 
-![](assets/cube-add-new-bin.png)
+![New bin dialog with a list of values, French and Italian, and the Add button to list more values.](assets/cube-add-new-bin.png)
 
 In the following example, languages are grouped into three categories: English/German/Dutch, French/Italian/Spanish, and Others.
 
-![](assets/cube-add-new-bin-2.png)
+![Language dimension with two bins: French, Italian, Spanish and English, German, Dutch; other values labeled Others.](assets/cube-add-new-bin-2.png)
 
 You can use an SQL mask to combine several values into a filter. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Use an SQL mask]** column and enter the SQL filter to be applied in the **[!UICONTROL Value or expression]** column.
 
@@ -75,7 +75,7 @@ To create this type of value binning, apply the following steps:
 1. Create a new dimension and enable binning.
 1. Select the **[!UICONTROL Dynamically link the values to an enumeration]** option and select the matching enumeration.
 
-   ![](assets/cube-link-to-enum.png)
+   ![Dynamically link the values to an enumeration option selected, with the list of available enumerations open.](assets/cube-link-to-enum.png)
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
@@ -111,11 +111,11 @@ To improve the relevance and readability of a report, Adobe Campaign lets you cr
 
 Adobe Campaign also offers an enumeration on domains which lets you display a list of the email domains of all the contacts in the database, regrouped by ISP, as shown in the following example: 
 
-![](assets/nmx_report_sample.png)
+![Client Origin and Email Domain report with email domains grouped by ISP (AOL, Free, Gmail, Microsoft, Yahoo, Others).](assets/nmx_report_sample.png)
 
 It is built using the following template:
 
-![](assets/nmx_enum_domain.png)
+![Domains enumeration set to Reserved at binning, with its values (AOL, Free, Gmail, Microsoft, Yahoo) and domain aliases.](assets/nmx_enum_domain.png)
 
 To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. Choose the **[!UICONTROL Enable binning]** option then **[!UICONTROL Dynamically link the values to an enumeration]**. Then select the **Domains** enumeration as shown above. All values that have no specified alias will be regrouped under the **Others** label.
 
@@ -123,7 +123,7 @@ Next, create a report based on this Cube to display the values.
 
 You only need to modify the enumeration to update the related report. For example, create the **Adobe** value and add the **adobe.com** alias and the report is automatically updated with the Adobe value at the enumeration level.
 
-![](assets/nmx_add_alias.png)
+![Adding the neolane.com alias to the Domains enumeration, which adds a Neolane line to the report.](assets/nmx_add_alias.png)
 
 The **[!UICONTROL Domains]** enumeration is used to generate built-in reports that display the list of domains. To adapt the content of these reports, you can edit this list.
 
@@ -139,7 +139,7 @@ Aggregates are useful when manipulating large volumes of data. They are updated 
 
 Aggregates are defined in the relevant tab of each cube.
 
-![](assets/cube-agregate.png)
+![Aggregates tab of a cube in the Explorer, listing the cube aggregates with the Add button.](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ To define a new measure, apply the following steps:
 
 1. Click the **[!UICONTROL Add]** button above the list of measures and select the type of measure and the formula to be calculated.
 
-   ![](assets/cube-create-a-measure.png)
+   ![Measure creation dialog with the Operator list open: Count, Sum, Minimum, Maximum, Average and others.](assets/cube-create-a-measure.png)
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
@@ -175,7 +175,7 @@ To define a new measure, apply the following steps:
 
 1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
 
-   ![](assets/cube-create-measure-2.png)
+   ![Filter conditions of a measure, with the operator list open on the BasketMusic expression.](assets/cube-create-measure-2.png)
 
 1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
 
@@ -193,7 +193,7 @@ The measures calculated in the cube are configured via the **[!UICONTROL Measure
 
 Move the lines around to change the display sequence. In the following example, French data is moved to the bottom of the list: this means it will be displayed in the last column.
 
-![](assets/cube-in-report-settings.png)
+![Configure measures window where dragging the French measure to the end moves its column last in the report.](assets/cube-in-report-settings.png)
 
 ### Configure the display {#configuring-the-display}
 
@@ -203,17 +203,17 @@ The configuration of measures, lines and columns can be carried out individually
 
   You can choose whether or not to display the labels of measures as well as configure their layout (lines or columns).
 
-![](assets/cube-pivot-table-config-details.png)
+![Pivot table configuration dialog with the Orientation list (In rows, In columns), Labels, Alignment and Caption options.](assets/cube-pivot-table-config-details.png)
 
 The color options let you highlight important values for easy reading.
 
-![](assets/cube-pivot-table-color.png)
+![Pivot table configuration with the Coloring section: Activate, Measure used, Lower limit, Upper limit and Color scale.](assets/cube-pivot-table-color.png)
 
 ### Change the type of measure displayed {#changing-the-type-of-measure-displayed}
 
 Within each measure, you can define the unit and formatting to be applied.
 
-![](assets/cube-pivot-table-config-units.png)
+![Configure measures window with Label, Formatting, Number of decimal places, Unit and Unit placement for a measure.](assets/cube-pivot-table-config-units.png)
 
 ## Share your report {#share-a-report}
 
@@ -221,7 +221,7 @@ Once the report is configured, you can save it and share it with other operators
 
 To do this, click the **[!UICONTROL Show the report properties]** icon and enable the **[!UICONTROL Share this report]** option.
 
-![](assets/cube_share_option.png)
+![Report properties dialog with the Share the report option set to Yes, plus Category and Relevance fields.](assets/cube_share_option.png)
 
 Specify the category which the report belongs to as well as its relevance. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
@@ -235,13 +235,13 @@ To do this:
 
 1. Click the **[!UICONTROL Add a filter]** icon.
 
-   ![](assets/cube_add_filter.png)
+   ![Report toolbar with the Add a filter icon highlighted above the Clients per Company pivot table.](assets/cube_add_filter.png)
 
 1. Select the dimension which the filter concerns 
 
 1. Select the type of filter and its level of precision.
 
-   ![](assets/cube_ceate_filter.png)
+   ![Add a filter dialog with checkboxes to select the value ranges to keep, such as age ranges.](assets/cube_ceate_filter.png)
 
 1. Once it is created, the filter is displayed above the report.
 
@@ -249,7 +249,7 @@ To do this:
 
    You can combine as many filters as necessary: they will all be shown in this area.
 
-   ![](assets/cube_multiple_filters.png)
+   ![Filter area above the report showing three combined filters: City, Company and Age.](assets/cube_multiple_filters.png)
 
 Each time a filter is modified (added, removed, altered), the report has to be recalculated.
 
@@ -257,8 +257,8 @@ Filters can also be created based on a selection. To do this, select your source
 
 To select a line, column or cell, left-click on it. To deselect, click again.
 
-![](assets/cube_create_filter_from_selection.png)
+![my CLIENTS report with the LONDON line selected and the Filter on the selection icon highlighted.](assets/cube_create_filter_from_selection.png)
 
 The filter is applied automatically and added to the filter zone above the report.
 
-![](assets/cube_create_filter_display.png)
+![Report filtered on London, with the City = London filter shown in the filter area above the report.](assets/cube_create_filter_display.png)
