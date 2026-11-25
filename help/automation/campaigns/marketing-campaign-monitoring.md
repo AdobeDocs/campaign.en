@@ -34,11 +34,11 @@ The following information is accessible via this sub-tab:
 
 * The **[!UICONTROL Audit]** sub-tab shows activity journal. It contains the jobs executed on the campaign: workflow creation or start, approval, extraction, stock management, etc.
 
-  ![](assets/campaign-audit-tab.png)
+  ![Campaign Edit tab, Audit section, Journal sub-tab listing the activity journal messages and log types](assets/campaign-audit-tab.png)
 
 * The **[!UICONTROL Deliveries]** sub-tab contains all the deliveries of the campaign. They can be edited from this view. To do so, select the delivery and click the **[!UICONTROL Detail]** icon.
 
-  ![](assets/campaign-delivery-tab.png)
+  ![Campaign Audit section, Deliveries sub-tab listing channel, status, targeting status and content status](assets/campaign-delivery-tab.png)
   
 * The **[!UICONTROL Approvals]** sub-tab contains all the approval process for the campaign. You can check details and comments
 
@@ -48,7 +48,7 @@ The following information is accessible via this sub-tab:
 
 The list of deliveries is available via the **[!UICONTROL Deliveries]** link of the Campaign node.
 
-![](assets/filter-deliveries-from-homepage.png)
+![Deliveries list on the home page with the status filter drop-down listing Being edited, In progress and Finished](assets/filter-deliveries-from-homepage.png)
 
 For each delivery, this list lets you access the key indicators: status, number of recipients targeted, linked campaigns, etc.
 

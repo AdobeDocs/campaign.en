@@ -40,27 +40,27 @@ To define this filter, apply the following steps:
 1. Browse to the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** folder of Campaign exporer and click the **New** icon to create a typology rule.
 1. Create a **[!UICONTROL Filtering]** typology rule applicable to all channels.
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![New typology rule with Filtering as the rule type and the All channels option selected in the Channel list.](assets/campaign_opt_create_filter_01.png)
 
 1. From the **Filter** tab change the default targeting dimension to **Subscriptions** (**nms:subscription**).
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![Filter tab with the Subscriptions (nms) schema selected as the targeting dimension.](assets/campaign_opt_create_filter_02.png)
 
 1. Create the filter using the **[!UICONTROL Edit the query from the targeting dimension...]** link.
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![Edit filtering query dialog, Target type step, with Filtering conditions selected.](assets/campaign_opt_create_filter_03.png)
 
 1. Filter on the recipient age and save the filtering condition.
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![Edit filtering query dialog with the condition Age (recipient/@age) greater than 18.](assets/campaign_opt_create_filter_03b.png)
 
 1. From the **Typologies** tab, link this rule to a campaign typology and save it.
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![Typologies tab of the filtering rule with the Add typologies dialog and the Newsletters typology selected.](assets/campaign_opt_create_filter_04.png)
 
 When this rule is used in a delivery, underage subscribers are excluded automatically. A specific message indicates when the rule is applied:
 
-![](assets/campaign_opt_create_filter_05.png)
+![Delivery analysis log with an arrow on the lines applying the Exclude addresses and Exclude domains rules.](assets/campaign_opt_create_filter_05.png)
 
 ## Condition a filtering rule {#condition-a-filtering-rule}
 
@@ -82,17 +82,17 @@ In this case, even if the rule is linked to all deliveries, it will only be appl
 
 You can create **[!UICONTROL Filtering]** typologies: they only contain filtering rules. 
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![Typology with the Type list set to Filtering and its Rules tab listing the filtering rules to apply.](assets/campaign_opt_create_typo_filtering.png)
 
 These specific typologies can be linked to a delivery when the target is selected: in the delivery wizard, click the **[!UICONTROL To]** link, then click the **[!UICONTROL Exclusions]** tab. 
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![Select target dialog, Exclusions tab, with the Add a filtering rule link under Filtering rules.](assets/campaign_opt_apply_typo_filtering.png)
 
 Then select the filtering typology to be applied to the delivery. To do this, click the **[!UICONTROL Add]** button and select the typologies to apply.
 
 You can also link filtering rules directly via this tab, without them being grouped in a typology. To do this, use the lower section of the window. 
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![Exclusions tab with a filtering typology and a filtering rule added through the two Add buttons.](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

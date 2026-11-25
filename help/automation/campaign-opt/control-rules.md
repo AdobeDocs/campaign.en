@@ -48,11 +48,11 @@ Apply the following steps:
 
 1. Create a **[!UICONTROL Control]** typology rule. Select a **[!UICONTROL Warning]** alert level. 
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![Typology rule creation dialog, General tab: Control rule type, SMS channel, Level drop-down with Warning highlighted.](assets/campaign_opt_create_control_01.png)
 
 1. In the **[!UICONTROL Code]** tab, enter the script to apply the desired threshold, as shown below:
 
-   ![](assets/campaign_opt_create_control_02.png)
+   ![Typology rule Code tab with the script that logs a warning when the delivery target exceeds 100 contacts.](assets/campaign_opt_create_control_02.png)
 
    This script will trigger a warning if the delivery target exceeds 100 contacts:
 
@@ -62,18 +62,18 @@ Apply the following steps:
 
 1. Link this rule to a campaign typology and reference the typology in the concerned SMS delivery.
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![Delivery Properties, Typology tab: Typology drop-down listing Mobile (Max 100) among the available typologies.](assets/campaign_opt_create_control_03.png)
 
 1. During delivery analysis, the rule is applied and a warning is created if applicable.
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ![Delivery analysis log showing a warning that rule +100 messages detected a problem; Confirm delivery is available.](assets/campaign_opt_create_control_04.png)
 
    However, the delivery will still be ready for sending.
 
    If you increase the alert level, this will prevent the delivery from starting.
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![Typology rule General tab with the Level drop-down open and Error being selected instead of Warning.](assets/campaign_opt_create_control_05.png)
 
    At the end of the analysis, the **[!UICONTROL Confirm delivery]** button will not be available.
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![Delivery analysis log ending in an error, with the Confirm delivery button disabled.](assets/campaign_opt_create_control_06.png)

@@ -35,7 +35,7 @@ In a marketing campaign, for each delivery, you can define:
 
 * The target audience. You can send messages to a [list of recipient](#send-to-a-group) or build an [audience in a workflow](#build-the-main-target-in-a-workflow)
 * A control group. You can [add a control group](#add-a-control-group) to monitor recipients behavior after message delivery
-* Seed addresses - Learn more in [this section](../../v8/audiences/test-profiles.md).
+* Seed addresses - Learn more in [Create test profiles in Campaign](../../v8/audiences/test-profiles.md).
 
 Some of this information can be inherited from the [campaign template](marketing-campaign-templates.md#campaign-templates).
 
@@ -50,16 +50,16 @@ You can import a population into a list, then target this list in deliveries. To
 1. Edit the delivery and click the **[!UICONTROL To]** link to change the targeted population.
 1. In the **[!UICONTROL Main target]** tab, select the **[!UICONTROL Defined via the database]** option and click **[!UICONTROL Add]** to select recipients.
 
-    ![](assets/select-main-target.png)
+    ![Select target dialog, Main target tab, with Defined in the database selected and the Add link for the target population](assets/select-main-target.png)
 
 1. Choose **[!UICONTROL A list of recipients]**.
 
-    ![](assets/target-a-list.png)
+    ![Select target element dialog, Target Type step, with A list of recipients selected in the list of restriction filters](assets/target-a-list.png)
 
 
 1. Click **[!UICONTROL Next]** to select the list.
 
-    ![](assets/select-the-list.png)
+    ![Select target element dialog, Target element step, with a list selected in the Lists folder](assets/select-the-list.png)
 
     You can refine the target by adding new filtering criteria.
 
@@ -77,7 +77,7 @@ The main target of a delivery can also be defined in the campaign workflow: this
 
 Targeting can be created via a combination of filtering conditions in a graphical sequence in a workflow. You can create populations and sub-populations which will be targeted according to your requirements. To display the workflow editor, click the **[!UICONTROL Targeting and workflows]** tab in the campaign dashboard.
 
-![](assets/targeting-and-wf-tab.png)
+![Campaign dashboard with the Targeting and workflows tab highlighted next to the Dashboard and Edit tabs](assets/targeting-and-wf-tab.png)
 
 The target population is extracted from the Adobe Campaign database via one or more queries placed in a workflow. Learn how to build a query in [this section](../workflow/query.md).
 
@@ -85,7 +85,7 @@ You can launch queries and share populations via boxes such as Union, Intersecti
 
 Select the objects from the lists to the left of the workspace and link them to construct the target.
 
-![](assets/campaign-wf.png)
+![Targeting and workflows tab with a diagram: Query A and B, Union, Deduplication, Enrichment, Split, deliveries](assets/campaign-wf.png)
 
 In the diagram, link up the targeting and scheduling queries required for target construction in the diagram. You can execute the targeting while construction is in progress in order to check the population extracted from the database.
 
@@ -97,7 +97,7 @@ The left-hand section of the editor contains a library of graphical objects repr
 
 The targeting workflow execution and formatting functions are accessible via the diagram editor toolbar.
 
-![](assets/wf-diagram.png)
+![Workflow diagram toolbar with an arrow pointing to the Horizontal align button above the targeting diagram](assets/wf-diagram.png)
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ You can create several targeting workflows for a single campaign. To add a workf
 
 1. Go to the upper left-hand section of the workflow creation zone, right-click, and select **[!UICONTROL Add]**. You can also use the **[!UICONTROL New]** button located above this zone.
 
-   ![](assets/add-a-wf.png)
+   ![Right-click menu on the default workflow in the Targeting and workflows tab, with the Add option highlighted](assets/add-a-wf.png)
 
 1. Select the **[!UICONTROL New workflow]** template and name this workflow.
 1. Click **[!UICONTROL OK]** to confirm creation of the workflow, and then create the diagram for this workflow.
@@ -126,7 +126,7 @@ The toolbar icons let you take action concerning the execution of the targeting 
 
     * The **[!UICONTROL Start]** icon lets you launch the targeting workflow. When you click on this icon, all activities without an input transition are activated (except end point jumps).
     
-      ![](assets/start.png)
+      ![Workflow toolbar with the Start icon highlighted and its Start tooltip displayed](assets/start.png)
 
       The server takes the request into account, as shown by its status: **[!UICONTROL Start as soon as possible]**.
     
@@ -138,17 +138,17 @@ The toolbar icons let you take action concerning the execution of the targeting 
 
       When you click **[!UICONTROL Pause]**, operations in progress **[!UICONTROL are not]** paused, but no other activity is launched until the next restart.
     
-      ![](assets/pause.png)
+      ![Workflow toolbar with the Pause icon highlighted and its Pause tooltip displayed](assets/pause.png)
 
       The server takes the command into account, as its status shows: **[!UICONTROL Pause requested]**.
     
       You can also pause a targeting workflow automatically when its execution reaches a particular activity. To do this, right-click the activity from which targeting workflow is to be paused, and select **[!UICONTROL Enable but do not execute]**. 
     
-      ![](assets/donotexecute.png)
+      ![Activity context menu with the Enable but do not execute option highlighted](assets/donotexecute.png)
 
       This configuration is shown by a special icon.
     
-      ![](assets/pause_activity.png)
+      ![Workflow diagram where the Deduplication activity shows a pause icon after Enable but do not execute](assets/pause_activity.png)
 
       >[!NOTE]
       >
@@ -158,17 +158,17 @@ The toolbar icons let you take action concerning the execution of the targeting 
     
     * Click the **[!UICONTROL Stop]** icon to stop the execution in progress.
     
-      ![](assets/stop.png)
+      ![Workflow toolbar with the Stop icon highlighted and its Stop tooltip displayed](assets/stop.png)
 
       The server takes the command into account, as its status shows: **[!UICONTROL Stop requested]**.
   
   You can also stop a targeting workflow automatically when the execution reaches an activity. To do this, right-click the activity from which targeting workflow will be stopped, and select **[!UICONTROL Do not activate]**. 
 
-  ![](assets/donotactivate.png)
+  ![Activity context menu with the Do not enable option highlighted](assets/donotactivate.png)
 
   This configuration is shown by a special icon.
 
-  ![](assets/unactivation.png)
+  ![Workflow diagram where the Deduplication activity shows a red prohibited icon after Do not enable](assets/unactivation.png)
 
 
   >[!NOTE]
@@ -181,7 +181,7 @@ The toolbar icons let you take action concerning the execution of the targeting 
 
   You can unconditionally stop your workflow by clicking the **[!UICONTROL Actions]** icon and selecting **[!UICONTROL Unconditional]** stop. This action terminates your campaign workflow.
 
-  ![](assets/stop_unconditional.png)
+  ![Workflow Actions menu with the Unconditional stop option highlighted](assets/stop_unconditional.png)
 
   >[!CAUTION]
   >
@@ -204,14 +204,14 @@ You can define a control group at campaign level, in which case the control grou
 1. Edit the campaign concerned and click the **[!UICONTROL Edit]** tab.
 1. Click **[!UICONTROL Advanced campaign parameters...]**.
 
-   ![](assets/enable-control-group.png)
+   ![Advanced settings, Control population tab, with Enable and edit control group configuration selected and Edit link](assets/enable-control-group.png)
 
 1. Select the **[!UICONTROL Enable and edit control group configuration]** option.
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-   ![](assets/edit-control-group.png)
+   ![Control population dialog, Type of limit step, with random sampling selected and the Extra population control group list](assets/edit-control-group.png)
 
-The complete procedure is detailed in [this section](#extract-the-control-group-from-the-main-target). Learn more about control groups in [this section](#add-a-population).
+The complete procedure is detailed in [Extract the control group from the main target](#extract-the-control-group-from-the-main-target). Learn more about control groups in [Use a new population as a control group](#add-a-population).
 
 ### Activate the control group for a delivery {#activate-the-control-group-for-a-delivery}
 
@@ -226,11 +226,11 @@ By default, the control group configuration defined at the campaign level applie
 1. Edit the delivery concerned and then click the **[!UICONTROL To]** link.
 1. Click the **[!UICONTROL Control group]** tab and then select **[!UICONTROL Enable and edit control group configuration]**.
 
-   ![](assets/enable-control-group-for-a-delivery.png)
+   ![Select target dialog, Control group tab, with Enable and edit control group configuration selected and the Edit link](assets/enable-control-group-for-a-delivery.png)
 
 1. Click **[!UICONTROL Edit...]** to configure the control group.
 
-The complete procedure is detailed in [this section](#extract-the-control-group-from-the-main-target).
+The complete procedure is detailed in [Extract the control group from the main target](#extract-the-control-group-from-the-main-target).
 
 ### Use a new population as a control group {#add-a-population}
 
@@ -238,17 +238,17 @@ You can use a specific population for the control group. In that case, select th
 
 This population can come from a list of recipients or you can define it via a specific query.
 
-![](assets/new-population-as-control-group.png)
+![Control population dialog with the Extra population section highlighted: Control group list and dynamic condition](assets/new-population-as-control-group.png)
 
 >[!NOTE]
 >
->Adobe Campaign query editor is presented in [this section](../../v8/start/query-editor.md).
+>Adobe Campaign query editor is presented in [Work with the query editor](../../v8/start/query-editor.md).
 
 ### Extract the control group from the main target {#extract-the-control-group-from-the-main-target}
 
 You can also extract recipients from the main target of the delivery. In this case, recipients will be taken from the target of delivery actions affected by this configuration. This extraction can be random or can be the result of sorting the recipients. 
 
-![](assets/extract-control-group-from-target.png)
+![Control population dialog with Keep only the first records after sorting selected in the Target extract section](assets/extract-control-group-from-target.png)
 
 To extract a control group, enable the control group for the campaign or delivery and select one of the following options: **[!UICONTROL Activate random sampling]** or **[!UICONTROL Keep only the first records after sorting]**.
 
@@ -257,7 +257,7 @@ To extract a control group, enable the control group for the campaign or deliver
 
 Click **[!UICONTROL Next]** to define the sorting order (if necessary) and select the recipient limitation mode.
 
-![](assets/limit-control-group.png)
+![Control population Limits step with Size as a percentage set to 5.00, plus Fixed size and By data grouping options](assets/limit-control-group.png)
 
 This configuration is equivalent to a **[!UICONTROL Split]** activity in the workflow, which lets you break the target up into subsets. The control group is one of these subsets. 
 

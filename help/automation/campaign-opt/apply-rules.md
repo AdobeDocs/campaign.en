@@ -41,14 +41,14 @@ To do this, follow the steps below:
 
 1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rules to apply with this typology.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![Typology Rules tab with the Add button and the Add rules dialog listing the typology rules to select](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Save the typology: is it added to the list of existing typologies.
 1. Open the delivery that you want to apply the rules to.
 1. Browse to the delivery properties and open the **[!UICONTROL Typology]** tab.
 1. Select the typology in the drop-down list.
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![Delivery properties, Typology tab, with the Typology drop-down listing Clients/Prospects Pressure](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ To define the application conditions of a rule, click the **[!UICONTROL Edit the
 
 Then use the [query editor](../../v8/start/query-editor.md) to define filtering conditions. In the following example, the capacity rule concerns only deliveries with the word 'offer' in their label or deliveries created before April 1st 2013.
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+![Capacity rule General tab with the application conditions query on label contains offer and creation date](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ For example, a pressure rule with an execution order of 20 is executed before a 
 
 For **[!UICONTROL Control]** rules, you can decide at which point of the delivery life cycle the rule is applied:  before or after targeting, at the start of personalization, at the end of the analysis. Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
 
-![](assets/campaign_opt_define_control_phase.png)
+![Control typology rule General tab with the Phase drop-down listing the four application phases](assets/campaign_opt_define_control_phase.png)
 
 Possible values are:
 
@@ -143,7 +143,7 @@ Possible values are:
 
 As an option, you can use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) this affinity. This lets you restrict the number of emails for specific deliveries towards machines or output addresses. 
 
-![](assets/campaign_opt_select_ip_affinity.png)
+![Typology General tab with the Affinity field under Management of affinities with IP addresses](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -157,9 +157,9 @@ As an option, you can use the **[!UICONTROL Managing affinities with IP addresse
 
 The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of typologies and/or rules which applies when a shared campaign is ordered and/or reserved. Typologies/rules defined for a local entity (linked to those defined for the central entity) replace rules/typologies linked to the central entity. Re-mapping lets you adapt central entity rules to the local entities who order the campaign.
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![Typology Distributed marketing tab with the Organizational entity and Associated central typology fields](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.  
->For more information on Distributed Marketing, refer to [this section](../distributed-marketing/about-distributed-marketing.md).
+>For more information on Distributed Marketing, refer to [Get started with distributed marketing](../distributed-marketing/about-distributed-marketing.md).

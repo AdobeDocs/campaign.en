@@ -46,22 +46,22 @@ To design a new capacity rule, follow the steps below:
 1. Under the **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** folder, click **[!UICONTROL New]**.
 1. Select a **[!UICONTROL Capacity]** rule type.
 
-   ![](assets/campaign_opt_create_capacity_01.png)
+   ![Typology rule creation screen with the Capacity option selected in the Rule type drop-down list.](assets/campaign_opt_create_capacity_01.png)
 
 1. In the **[!UICONTROL Capacity]** tab, create the availability lines: in our example, these are time periods during which calls can be made. Select a 24 hours period and enter 150 in the initial quantity, which means that the call center can handle 150 calls per day.
 
-   ![](assets/campaign_opt_create_capacity_02.png)
+   ![Capacity tab with the Edit availability line dialog for entering start, end and initial quantity.](assets/campaign_opt_create_capacity_02.png)
 
    >[!NOTE]
    >
-   >Availability lines are for information purpose only. If you need to exclude messages when the capacity limit is reached, refer to [this section](#exclude-messages-when-capacity-limit-reached).
+   >Availability lines are for information purpose only. If you need to exclude messages when the capacity limit is reached, refer to [Exclude messages when capacity limit reached](#exclude-messages-when-capacity-limit-reached).
 
-1. Associate this rule to a typology and then reference the typology into your delivery to apply this capacity rule. For more on this, refer to [this section](apply-rules.md#apply-a-typology-to-a-delivery).
+1. Associate this rule to a typology and then reference the typology into your delivery to apply this capacity rule. For more on this, refer to [Apply a typology to a delivery](apply-rules.md#apply-a-typology-to-a-delivery).
 1. You can monitor consumption from the rule **[!UICONTROL Consumptions]** and **[!UICONTROL Capacity]** tabs.
 
    When a rule is used in a delivery, the **[!UICONTROL Consumed]** and **[!UICONTROL Remaining]** columns provide information on the load, as shown below:
 
-   ![](assets/campaign_opt_create_capacity_03.png)
+   ![Capacity tab showing an availability line with 150 initial quantity, 200 Consumed and -50 Remaining.](assets/campaign_opt_create_capacity_03.png)
 
    For more on this, refer to [this section](#monitor-consumption).
 
@@ -73,7 +73,7 @@ To define the maximum load, you need to define availability lines. To do this, t
 
 To create an availability line, click the **[!UICONTROL Add]** button and select **[!UICONTROL Add an availability line]**. Enter the availability period and the available load.
 
-![](assets/campaign_opt_create_capacity_02.png)
+![Edit availability line dialog opened from the Add button, with start, end and initial quantity fields.](assets/campaign_opt_create_capacity_02.png)
 
 Add as many lines as necessary to suit your processing capacity.
 
@@ -83,25 +83,25 @@ To define availability periods for a given time, click the **[!UICONTROL Add]** 
 
 To automate the frequency of page creation, click the **[!UICONTROL Change]** button and define time period scheduling.
 
-![](assets/campaign_opt_create_capacity_07.png)
+![Edit availability line dialog with Add a set of availability lines selected and the Change button for scheduling.](assets/campaign_opt_create_capacity_07.png)
 
 For example, let's define a schedule to create availability periods for all work days at a rate of 10 calls per hour between 9AM and 5PM. To do this, apply the following steps:
 
 1. Select the type of periodicity and the days and hours during which it is valid:
 
-   ![](assets/campaign_opt_create_capacity_08.png)
+   ![Schedule editing wizard Validity period page with Valid from and To dates selected from a calendar.](assets/campaign_opt_create_capacity_08.png)
 
 1. Indicate the validity dates:
 
-   ![](assets/campaign_opt_create_capacity_09.png)
+   ![Schedule editing wizard Validity period page with the end validity date being picked from a calendar.](assets/campaign_opt_create_capacity_09.png)
 
 1. Check the schedule before you approve it:
 
-   ![](assets/campaign_opt_create_capacity_10.png)
+   ![Schedule editing wizard Summary page with the schedule description and the list of launch times before Finish.](assets/campaign_opt_create_capacity_10.png)
 
 The **[!UICONTROL Forecasting]** workflow automatically creates all matching lines.
 
-![](assets/campaign_opt_create_capacity_12.png)
+![Capacity tab of the Call Center rule listing the availability lines created automatically by the schedule.](assets/campaign_opt_create_capacity_12.png)
 
 >[!NOTE]
 >
@@ -111,17 +111,17 @@ The **[!UICONTROL Forecasting]** workflow automatically creates all matching lin
 
 Availability lines are for information purposes only. To exclude excess messages, check the **[!UICONTROL Exclude from the target messages in excess of capacity]** option. This prevents the capacity from being exceeded. For the same population as in the previous example, the consumption and remaining capacity may not exceed the initial quantity:
 
-![](assets/campaign_opt_create_capacity_04.png)
+![Capacity tab with Exclude from the target messages in excess of capacity selected: 100 consumed, 50 remaining.](assets/campaign_opt_create_capacity_04.png)
 
 The maximum number of messages that can be processed is broken down evenly over the defined availability range. This is particularly relevant for call centers since their maximum number of calls per days is limited. In the case of email deliveries, the **[!UICONTROL Do not limit instantaneous delivery capacity]** option lets you ignore this availability range and send your emails at the same time.
 
-![](assets/campaign_opt_create_capacity_05.png)
+![Capacity tab with Do not limit instantaneous delivery capacity selected, showing 150 consumed and 0 remaining.](assets/campaign_opt_create_capacity_05.png)
 
 >[!NOTE]
 >
 >In case of an overload, the saved messages are selected according to the formula defined in the delivery properties.
 
-![](assets/campaign_opt_create_capacity_06.png)
+![Delivery properties Typology tab with Capacity settings: Call Center channel capacity and importance formula.](assets/campaign_opt_create_capacity_06.png)
 
 ## Monitor consumption {#monitoring-consumption}
 
@@ -129,6 +129,6 @@ By default, capacity rules are for indication purposes only. Select the **[!UICO
 
 To monitor consumptions, view the values displayed in the **[!UICONTROL Consumed]** column of the **[!UICONTROL Capacity]** tab in the typology rule.
 
-![](assets/campaign_opt_create_capacity_04.png)
+![Capacity tab with the exclusion option selected, showing 100 Consumed and 50 Remaining of 150 initial quantity.](assets/campaign_opt_create_capacity_04.png)
 
 To view consumption lines, click the **[!UICONTROL Consumptions]** tab in the rule.

@@ -42,7 +42,7 @@ To create a hypothesis template, apply the following steps:
 
 1. In the Adobe Campaign explorer, click **[!UICONTROL Resources>Templates>Hypothesis templates]**.
 
-   ![](assets/response_hypothesis_model_creation_001.png)
+   ![Explorer with Resources > Templates > Hypothesis templates selected and a hypothesis template open on the General tab.](assets/response_hypothesis_model_creation_001.png)
 
 1. Click **[!UICONTROL New]** or right-click in the list of templates and choose **[!UICONTROL New]** in the drop-down list.
 1. Enter the hypothesis label.
@@ -84,7 +84,7 @@ The template's **[!UICONTROL General]** tab lets you specify the general templat
 
 * **[!UICONTROL Channel]**: you can choose a specific channel or make the hypothesis template available to all channels in the Adobe Campaign console by selecting **[!UICONTROL All channels]** in the drop-down list. If you configure the template for a specific channel, this lets you automatically filter deliveries per channel when creating the hypothesis. [Learn more](creating-hypotheses.md)
 
-  ![](assets/response_properties_001.png)
+  ![Hypothesis template General tab with the Channel drop-down open and All channels highlighted.](assets/response_properties_001.png)
 
 * **[!UICONTROL Execution folder]**: lets you specify the execution folder for the hypothesis.
 * **[!UICONTROL Taken into account in campaign ROI calculation]**: takes the hypothesis result into account in the ROI calculation for the related campaign.
@@ -95,29 +95,29 @@ The template's **[!UICONTROL General]** tab also lets you specify the hypothesis
 
 * **[!UICONTROL Schedule execution for a time of low activity]**: lets you schedule the hypothesis launch to optimize Adobe Campaign performances. When this option is checked, the processing workflow on campaigns executes hypothesis calculation during downtime.
 
-  ![](assets/response_exec_settings_002.png)
+  ![Hypothesis template Execution settings with Schedule execution for a time of low activity checked.](assets/response_exec_settings_002.png)
 
 * **[!UICONTROL Priority]**: level applied to the hypothesis to space out the hypothesis calculation orders if there are simultaneous executions.
 
-  ![](assets/response_exec_settings_003.png)
+  ![Hypothesis template Priority drop-down listing Low, Average and High.](assets/response_exec_settings_003.png)
 
 * **[!UICONTROL Automatic execution]**: if necessary, lets you schedule hypothesis recalculation (for example, if you want to update indicators regularly until the end of the delivery). 
 
-  ![](assets/response_exec_settings_001.png)
+  ![Automatic execution checked with the Frequency of execution link and its Hypothesis dialog with the Change button.](assets/response_exec_settings_001.png)
 
   To specify a schedule, apply the following process:
 
     1. Click the **[!UICONTROL Frequency of execution...]** link, then the **[!UICONTROL Change...]** button. 
     
-       ![](assets/response_frequency_execution_001.png)
+       ![Hypothesis dialog stating the task scheduling is not defined, with the Change button to define the frequency.](assets/response_frequency_execution_001.png)
 
     1. Configure the frequency, the related events and the validity period.
     
-       ![](assets/response_frequency_execution_002.png)
+       ![Schedule editing wizard: Weekly frequency, Wednesday and Friday selected, and Valid from validity period.](assets/response_frequency_execution_002.png)
 
     1. Click **[!UICONTROL Finish]** to save the schedule.
     
-       ![](assets/response_frequency_execution_003.png)
+       ![Schedule editing wizard Summary step listing the launch times, with the Finish button.](assets/response_frequency_execution_003.png)
 
 * **[!UICONTROL Log SQL queries in journal]**: this function is reserved for expert users. It lets you add a tab to the measuring hypothesis audit to show SQL queries. This enables the detection of possible malfunctions if a simulation finishes with errors.
 * **[!UICONTROL Keep execution workflow]**: lets you keep the workflow that was automatically generated at the start of the hypothesis calculation. In the hypotheses created from a template that has this option checked, the generated workflow is available to follow the process.
@@ -142,19 +142,19 @@ This tab contains the various fields and tables which let you save the history o
 
   When the hypothesis is linked to a delivery, measurement is automatically triggered a few days after the contact date for direct mail deliveries, or after the delivery date for email or SMS deliveries.
 
-  ![](assets/response_measurement_001.png)
+  ![Transactions tab with the transaction date field and the Start of calculation and End of calculation periods.](assets/response_measurement_001.png)
 
   If the hypothesis is launched on the fly, it can be forced if would like to trigger it immediately. Otherwise, it is triggered automatically based on the configured end of calculation date, which is based on the hypothesis creation date. [Learn more](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
 * **[!UICONTROL Transaction/Margin amount]**: these fields are optional and enable you to calculate turnover indicators automatically. [Learn more](hypothesis-tracking.md#indicators)
 * **[!UICONTROL Unit amount]**: lets you set an amount for calculating revenue. [Learn more](hypothesis-tracking.md#indicators)
 
-  ![](assets/response_transactions_001.png)
+  ![Transactions tab with Transaction amount set to @amount and an arrow pointing to the Unit amount field.](assets/response_transactions_001.png)
 
 * **[!UICONTROL Additional measures and data]**: lets you specify additional reporting measures or axes from fields in the different tables.
 * **[!UICONTROL Update offer proposition status]**: lets you change the status of the offer proposition if an offer recipient is identified by the hypothesis. 
 
-  ![](assets/response_offer_status_001.png)
+  ![Transactions tab Propositions section with Update offer proposition status checked and the Status drop-down open.](assets/response_offer_status_001.png)
 
 ### Hypothesis perimeter {#hypothesis-perimeter}
 
@@ -164,29 +164,29 @@ Once you have defined the transaction table and the fields which the hypothesis 
 
     1. Click the **[!UICONTROL Edit query]** link.
     
-       ![](assets/response_scope_filtering_001.png)
+       ![Scope tab with the Edit query link under Filtering of transactions linked to reactions.](assets/response_scope_filtering_001.png)
 
     1. Specify your filtering conditions.
     
-       ![](assets/response_scope_filtering_002.png)
+       ![Edit query wizard: Filtering conditions selected, then the Edit expression button and the field selection tree.](assets/response_scope_filtering_002.png)
 
     1. Select the transaction which the hypothesis will concern.
     
-       ![](assets/response_scope_filtering_003.png)
+       ![Edit query filter conditions: Purchase lines exist such as, with Purchase equal to value list open.](assets/response_scope_filtering_003.png)
 
 * **Filter on recipients**: in the **[!UICONTROL Scope]** tab, you can limit your hypothesis to any information linked to a message (delivery, recipient, email address, service, etc.):
 
     1. Click the **[!UICONTROL Add a filter]** link, then **[!UICONTROL Edit query]**.
     
-       ![](assets/response_scope_filtering_004.png)
+       ![Scope tab with the Add a filter link and the Edit query link under Filtering of the delivery messages.](assets/response_scope_filtering_004.png)
 
     1. Specify your filtering conditions.
     
-       ![](assets/response_scope_filtering_005.png)
+       ![Edit query wizard on the Recipient delivery log schema with an Email contains filter condition.](assets/response_scope_filtering_005.png)
 
     1. Click **[!UICONTROL Finish]** to save your query.
     
-       ![](assets/response_scope_filtering_006.png)
+       ![Scope tab showing the saved delivery message filter, Query: email contains, highlighted.](assets/response_scope_filtering_006.png)
 
 * **Script**: you can use a JavaScript script to dynamically overload the hypothesis settings during its execution.
 
@@ -196,7 +196,7 @@ Once you have defined the transaction table and the fields which the hypothesis 
   >
   >This option is for expert users.
 
-  ![](assets/response_hypothesis_model_creation_011.png)
+  ![Advanced settings dialog with an initialization script entered, opened from the Advanced settings link on the Scope tab.](assets/response_hypothesis_model_creation_011.png)
 
 ## Example: create a hypothesis template on a delivery {#example--creating-a-hypothesis-template-on-a-delivery}
 
@@ -205,11 +205,11 @@ In this example, we are going to create a hypothesis template on a direct mail t
 1. In the Adobe Campaign explorer, go to the **[!UICONTROL Resources > Templates > Hypothesis templates]** node.
 1. Click **[!UICONTROL New]** to create a template.
 
-   ![](assets/response_hypothesis_model_example_001.png)
+   ![Hypothesis templates list with the New button highlighted and a new template open on the General tab.](assets/response_hypothesis_model_example_001.png)
 
 1. Change the template label.
 
-   ![](assets/response_hypothesis_model_example_002.png)
+   ![Template General tab with the label changed to Hypotheses on purchases and Deliveries as hypothesis type.](assets/response_hypothesis_model_example_002.png)
 
 1. Select **[!UICONTROL Deliveries]** as a hypothesis type.
 1. Specify that the delivery can contain a control group by checking the relevant box.
@@ -221,33 +221,33 @@ In this example, we are going to create a hypothesis template on a direct mail t
 
 1. In the **[!UICONTROL Transactions]** tab, select the recipient reactions table.
 
-   ![](assets/response_hypothesis_model_example_006.png)
+   ![Transactions tab with the Select a Schema dialog and the reactions of recipients schema selected.](assets/response_hypothesis_model_example_006.png)
 
 1. In the **[!UICONTROL Transactions schema]** field, choose your purchase table.
 
-   ![](assets/response_hypothesis_model_example_007.png)
+   ![Transactions tab with the Select a document dialog filtered on purch and Purchases selected.](assets/response_hypothesis_model_example_007.png)
 
 1. Select purchase lines in the **[!UICONTROL Querying schema]** field.
 
-   ![](assets/response_hypothesis_model_example_008.png)
+   ![Querying schema drop-down listing Purchase lines, Purchases and Reactions of recipients.](assets/response_hypothesis_model_example_008.png)
 
 1. Choose the recipients linked to the purchase table.
 
-   ![](assets/response_hypothesis_model_example_009.png)
+   ![Select an expression dialog for Link to individuals with the Recipient link selected under Purchase.](assets/response_hypothesis_model_example_009.png)
 
 1. Select the field linked to the purchase date.
 
    This lets you define a time frame for hypotheses. This stage isn't mandatory but it is recommended.
 
-   ![](assets/response_hypothesis_model_example_010.png)
+   ![Select an expression dialog for Transaction date with the Purchase Date field selected.](assets/response_hypothesis_model_example_010.png)
 
 1. Configure the calculation period for 5 to 25 days.
 
-   ![](assets/response_hypothesis_model_example_005.png)
+   ![Transactions tab with Start of calculation set to 5d and End of calculation set to 25d highlighted.](assets/response_hypothesis_model_example_005.png)
 
 1. In the **[!UICONTROL Scope]** tab, click **[!UICONTROL Edit query]** to create a filter on hypotheses.
 
-   ![](assets/response_hypothesis_model_example_011.png)
+   ![Scope tab with Edit query clicked and the Edit query wizard listing filter types, Filter by product selected.](assets/response_hypothesis_model_example_011.png)
 
    The template created thus enables you to run hypotheses on the products or articles in the purchase table.
 

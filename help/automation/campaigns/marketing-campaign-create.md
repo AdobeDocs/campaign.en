@@ -32,9 +32,9 @@ Campaign orchestration components are found in the **[!UICONTROL Campaigns]** ta
 
 A marketing program is made up of campaigns, which are made up of deliveries, resources, etc. All the information concerning deliveries, budgets, reviewers and linked documents are grouped in the campaign.
 
-![](assets/campaigns-create-from-home.png)
+![Campaigns home page with the Marketing campaigns list, the Create button and the Campaign calendar menu](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Discover programs and campaigns in video](#video)
+![Play icon for the video about programs and campaigns](assets/do-not-localize/how-to-video.png) [Discover programs and campaigns in video](#video)
 
 ## Work with programs and plans{#work-with-plan-and-program}
 
@@ -48,18 +48,18 @@ Before starting building your campaigns and deliveries, configure your folder hi
 1. Right-click the folder in which you want to create your plan.
 1. Select **Add new folder > Campaign Management > Plan**.
 
-   ![](assets/create-new-plan-folder.png)
+   ![Add new folder menu in the Explorer, with Campaign Management > Plan selected](assets/create-new-plan-folder.png)
 
 1. Rename the plan.
 1. Right-click the newly created plan and select **Properties...**.
 1. In the **General** tab, modify the **Internal name** to avoid duplicates during package exports.
 
-   ![](assets/plan-properties.png)
+   ![Folder properties dialog, General tab, with the Label and Internal name fields and the Save button](assets/plan-properties.png)
 
 1. Click **Save**.
 1. Right-click the newly created plan and select **Create a new 'Program' folder**. 
 
-   ![](assets/program-folder.png)
+   ![Right-click menu on the plan folder with Create a new 'Program' folder selected](assets/program-folder.png)
 
 1. Repeat the above steps to rename your new program folder and its internal name.
 
@@ -72,7 +72,7 @@ When editing a program, use the tabs described below to browse and configure it.
 
 * The **Edit** tab lets you personalize the program: name, start and end dates, budget, linked documents, etc.
 
-  ![](assets/new-program-edit-tab.png)
+  ![Program Edit tab with Label, Internal name, Schedule dates, Related budget and Objectives](assets/new-program-edit-tab.png)
 
 ## Work with campaigns{#work-with-campaigns}
 
@@ -82,7 +82,7 @@ You can create a campaign via the list of campaigns. To display this view, selec
 
 The **[!UICONTROL Program]** field lets you select the program to which the campaign will be attached. This information is mandatory.
 
-![](assets/new-campaign-settings.png)
+![New marketing campaign dialog with the Template, Label and Program fields, and the Ok button](assets/new-campaign-settings.png)
 
 Campaigns can also be created via from the campaign or program calendar. [Learn more](#campaign-calendar) 
 
@@ -98,7 +98,7 @@ You can then edit the campaign you have just created and define its parameters. 
 
 All these actions take you to the campaign dashboard.
 
-![](assets/campaigns-dashboard-approve.png)
+![Campaign dashboard with the Approval menu on a delivery offering Approve content and Approve targeting](assets/campaigns-dashboard-approve.png)
 
 Access the following sections to learn how to configure your campaign:
 
@@ -129,17 +129,17 @@ For each campaign, the following capabilities are available:
 
 For each campaign, jobs, resources and deliveries are centralized in a the dashboard. This interface lets you manage and orchestrate marketing actions.
 
-With Adobe Campaign, you can set up collaborative processes for the creation and approval of the various steps of your campaigns: approval of the budget, target, content, etc. This orchestration is detailed in [this section](marketing-campaign-approval.md).
+With Adobe Campaign, you can set up collaborative processes for the creation and approval of the various steps of your campaigns: approval of the budget, target, content, etc. This orchestration is detailed in [Set up and manage the approval process](marketing-campaign-approval.md).
 
-![](assets/campaigns-dashboard-approval-tab.png)
+![Delivery panel of the campaign dashboard with the Approval menu, content and targeting status](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->Components available in a campaign depends on its template. Campaign template configuration is presented in [this section](marketing-campaign-templates.md#campaign-templates).
+>Components available in a campaign depends on its template. Campaign template configuration is presented in [Create and configure campaign templates](marketing-campaign-templates.md#campaign-templates).
 
 Once the campaign is achieved, use the **[!UICONTROL Reports]** link to access the campaign reports.
 
-![](assets/campaigns-reports-dashboard.png)
+![Campaign dashboard Reports tab listing campaign reports such as Campaign expenses and Delivery summary](assets/campaigns-reports-dashboard.png)
 
 ## Campaign calendar {#campaign-calendar}
 
@@ -147,11 +147,11 @@ The campaign calendar shows all programs, plans, campaigns and deliveries.
 
 To edit a plan, program, campaign or delivery, browse to its name in the calendar and then use the **[!UICONTROL Open]** link. It is then displayed in a new tab, as shown below:
 
-![](assets/campaign-calendar.png)
+![Campaign calendar with a pop-up for a campaign showing the Open link, schedule and status](assets/campaign-calendar.png)
 
 You can filter the information displayed in the campaign calendar. To do this, click the **[!UICONTROL Filter]** link and select the filtering criteria.
 
-![](assets/campaign_planning_filter.png)
+![Campaign calendar Filter link expanding the filter options for campaigns, deliveries, tasks and programs](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
@@ -163,11 +163,11 @@ The icons linked to each item let you view its status: finished, in progress, be
 
 To filter the campaigns to display, click the **[!UICONTROL Filter]** link and select the status of campaigns to display.
 
-![](assets/calendar-filter-options.png)
+![Campaign calendar filter with the Tasks drop-down listing statuses such as Being edited, Started and Finished](assets/calendar-filter-options.png)
 
 As browsing the calendar, you can also create a program or a campaign.
 
-![](assets/campaign-create-from-calendar.png)
+![Program Schedule tab with the Add menu offering Add a program and Add a campaign](assets/campaign-create-from-calendar.png)
 
 When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, the campaign is automatically linked to the concerned program. The **[!UICONTROL Program]** field is hidden in this case.
 
@@ -179,7 +179,7 @@ You can access the Adobe Campaign Client Console screens via an internet browser
 1. Log on as usual via https://`<your instance>:<port>/view/home`.
 1. Use the menus to access the overviews.
 
-   ![](assets/web-access-campaigns.png)
+   ![Marketing campaigns list in the web interface with campaign status and the Actions menu](assets/web-access-campaigns.png)
 
 In addition to navigating across campaigns and viewing them, you can perform these types of tasks:
 
@@ -212,9 +212,9 @@ This table summarizes the actions that you can take on campaigns from a browser:
 
 Approvals of a target or a delivery content can be carried out via web access.
 
-![](assets/web-access-approval.png)
+![Action on delivery dialog in the web interface with Accept and Reject options and a Comment field](assets/web-access-approval.png)
 
-You can also use the link contained in the notification messages. For more on this, refer to [this section](marketing-campaign-approval.md#review-and-approve-deliveries).
+You can also use the link contained in the notification messages. For more on this, refer to [Review and approve deliveries](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 
 ## Tutorial video {#video}
