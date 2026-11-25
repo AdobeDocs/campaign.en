@@ -38,7 +38,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications.
 
-![](assets/campaign-tab.png) 
+![Campaigns tab of the home page listing marketing campaigns with status, dates and the Create button](assets/campaign-tab.png) 
 
 ### Core concepts{#ac-core-concepts}
 
@@ -60,7 +60,7 @@ Before starting implementing marketing campaigns, you need to be familiar with t
 
 Adobe Campaign lets you create, configure, execute and analyze all marketing campaigns from a unified control center.
 
-![](assets/calendar.png) 
+![Campaign calendar showing campaigns and deliveries on a timeline, with a Loyalty program detail popup](assets/calendar.png) 
 
 Discover how to access and implement marketing campaigns in [this section](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html){target="_blank"}.
 
@@ -84,7 +84,7 @@ Key steps to create a cross-channel marketing campaign are:
     
     You can build the audience in a workflow or select an existing group, such as a recipient list, subscribers of a newsletter, recipients of a previous delivery, or any filtering condition.
 
-    ![](assets/campaign-wf.png) 
+    ![Campaign workflow: Query and Read list feed a Summer offers delivery, then a Wait and a Mobile delivery](assets/campaign-wf.png) 
     
     Learn how to define the audience of your messages in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html){target="_blank"}.
     
@@ -92,7 +92,7 @@ Key steps to create a cross-channel marketing campaign are:
 
     Select channel(s), define the message content and start deliveries.
 
-    ![](assets/campaign-dashboard.png) 
+    ![Campaign dashboard with status, schedule, documents, actions and the list of deliveries with their statuses](assets/campaign-dashboard.png) 
     
     Learn how to create and start marketing campaign deliveries in [Create deliveries](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries) and [Start a delivery](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery).
 

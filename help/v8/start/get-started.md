@@ -66,7 +66,7 @@ Use Campaign to:
 * **Integrate** email, mobile, online and offline channels into the customer journey
 * **Automate** the delivery of meaningful and timely messages and offers
 
-![](assets/do-not-localize/ac-capabilities.png) 
+![Campaign capabilities from customer profile and segmentation to orchestration, email and mobile, and reporting](assets/do-not-localize/ac-capabilities.png) 
 
 
 >[!AVAILABILITY]

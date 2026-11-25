@@ -36,17 +36,17 @@ To subscribe (opt-in) a profile to a service, available options are:
 
 * Manually add the service to the recipient profile: to do this, from the **[!UICONTROL Subscriptions]** tab of their profile, click **[!UICONTROL Add]** and select the information service concerned. 
 
-   ![](assets/subscribe-to-a-service.png) 
+   ![Subscriptions tab of a recipient profile with the Select the services dialog opened from Add](assets/subscribe-to-a-service.png) 
     
    Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
     
 * Automatically subscribe a set of recipients to the service. The list of recipients can come from a filtering operation, a group, a folder, an import, or a direct manual selection. To subscribe these recipients, select the profiles and right-click. Select **[!UICONTROL Actions > Subscribe selection to a service...]**.
 
-   ![](assets/subscribe-selection.png) 
+   ![Right-click menu on selected recipients with Actions > Subscribe selection to a service](assets/subscribe-selection.png) 
 
    Select the service concerned, and start the operation.
 
-   ![](assets/subscribe-confirm.png) 
+   ![Service subscription wizard, Service choice step, with the Send a confirmation message option](assets/subscribe-confirm.png) 
 
    Learn more in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
@@ -57,18 +57,18 @@ To subscribe (opt-in) a profile to a service, available options are:
 
 * Use a web form so that recipients can subscribe to a service. 
 
-   ![](assets/opt-in-webapp.png) 
+   ![Newsletter subscription web application workflow: Preloading, Subscription, Storage and End](assets/opt-in-webapp.png) 
 
    Campaign comes with a default web form to manage opt-in. You can personalize it and map the profile data.
 
-   ![](assets/web-app.png) 
+   ![Page editor of the subscription web form with name, email, phone, consent checkbox and I subscribe button](assets/web-app.png) 
 
    Learn more in [Create a subscription form with double opt-in](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 
 * Create a targeting workflow and use a **[!UICONTROL Subscription service]** activity. 
 
-   ![](assets/wf-subscription.png) 
+   ![Workflow with Read list, Query and File collector feeding Deduplication and Subscription Services](assets/wf-subscription.png) 
 
    Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
     

@@ -47,7 +47,7 @@ Learn more about Campaign key capabilities in [Get started with Campaign v8](../
 
 Adobe Campaign components and global architecture are described below. 
 
-![](assets/do-not-localize//ac-components.png) 
+![Architecture: integration, presentation, logical application and persistence layers, plus email, mail and SMS execution](assets/do-not-localize//ac-components.png) 
 
 ### Presentation layer{#presentation-layer}
 
@@ -83,7 +83,7 @@ Adobe Campaign v8 is deployed as a Managed Service: all components of Adobe Camp
 
 Campaign Web server controls the access to Campaign Web processes. Javascript is the server-side language used for core product features and customization. Tomcat is the back-end engine and is embedded in the Campaign product as part of the Web process. Javascript is used for example in JSP or JSSP pages to render dynamic content.
 
-![](assets/do-not-localize/ac-processes.png) 
+![Client Console and other applications call the web server and web process, which access the database through SQL](assets/do-not-localize/ac-processes.png) 
 
 Campaign Client Console connects to the Web server using SOAP XML over HTTP. The Web server provides the security layer, passes the requests to the Application layer using Javascript and the Campaign internal processes access the database using SQL.
 

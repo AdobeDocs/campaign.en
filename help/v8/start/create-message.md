@@ -61,7 +61,7 @@ To create a delivery, follow these steps:
 1. Browse to the list of deliveries and click **[!UICONTROL Create]**. 
 1. Select the delivery channel. To do this, choose the appropriate delivery template from the drop-down list. 
 
-   ![](../send/assets/select-the-new-template.png)
+   ![Delivery template drop-down listing email, SMS, Tweet and other delivery templates to choose from](../send/assets/select-the-new-template.png)
 
    A built-in template is provided for each channel you have installed: email, telephone, mobile channels (push / SMS), direct mail, X (Twitter), etc. The channels available in the list depend on your license agreement.
 
@@ -106,12 +106,12 @@ To select the recipients of a delivery, follow the steps below:
 1. In the delivery editor, select **[!UICONTROL To]**.
 1. If the recipients are stored in the database, choose the first option.
 
-   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
+   ![Select target dialog with the To link and Defined in the database option selected](../send/sms/assets/audience_to.png){zoomable="yes"}
 
 1. Select the [target mapping](../audiences/target-mappings.md) in the **[!UICONTROL Target mapping]** drop-down list.
 1. Click the **[!UICONTROL Add]** button to define restriction filters.
 
-   ![](assets/target-type.png){width="60%" zoomable="yes"}
+   ![Target Type dialog listing restriction filters such as Recipients included in a folder](assets/target-type.png){width="60%" zoomable="yes"}
 
    Select a type of filter and click **[!UICONTROL Next]** to define the conditions. You can display the filtered recipients from the **[!UICONTROL Preview]** tab. Depending on the type of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
 
@@ -123,15 +123,15 @@ To select the recipients of a delivery, follow the steps below:
     * **[!UICONTROL Recipients included in a folder]**: use this option to target all the profiles contained in a specific folder.
     * **[!UICONTROL Recipients of a delivery]**: use this option to build the target from the recipients of a delivery. You must then select the delivery in the list:
 
-      ![](assets/target-recipient-delivery.png)
+      ![Target element dialog for selecting a delivery whose recipients are targeted, with a Behavior filter](assets/target-recipient-delivery.png)
 
     * **[!UICONTROL Delivery recipients belonging to a folder]**: use this option to build the target from the recipients of deliveries included in a specific folder.
     
-      ![](assets/target-delivery-folder.png)
+      ![Target element dialog for selecting a delivery folder, with Behavior and Include sub-folders options](assets/target-delivery-folder.png)
       
       You can filter the behavior of recipients by selecting from the drop-down list:
       
-      ![](assets/target-filter-behavior.png)
+      ![Behavior drop-down listing recipient filters such as opened or clicked, not opened, and failed messages](assets/target-filter-behavior.png)
 
       >[!NOTE]
       >
@@ -139,7 +139,7 @@ To select the recipients of a delivery, follow the steps below:
 
     * **[!UICONTROL Subscribers of an information service]** : this option lets you select a newsletter to which the recipients must be subscribed to be targeted by the delivery being created.
 
-      ![](assets/target-service.png)
+      ![Target element dialog listing information services, such as Newsletter, to target subscribers](assets/target-service.png)
 
     * **[!UICONTROL User filters]**: this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [Default filters](../audiences/create-filters.md#default-filters).
     * The **[!UICONTROL Exclude recipients from this segment]** option lets you target recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
@@ -149,7 +149,7 @@ To select the recipients of a delivery, follow the steps below:
 
    The targeting criteria defined are summarized in the central section of the main target configuration tab. Click a criterion to view its contents (configuration and preview). To delete a criterion, click the cross located after its label.
 
-   ![](assets/target-remove-criterion.png)
+   ![Main target tab with the Delete cross after a targeting criterion in the target population](assets/target-remove-criterion.png)
 
 ### Select external recipients {#selecting-external-recipients}
 
@@ -180,7 +180,7 @@ You can exclude addresses that have reached a certain number of consecutive erro
 
 To modify the default configuration, click the **[!UICONTROL Edit...]** link.
 
-![](assets/target-exclusion-settings.png)
+![Exclusion settings options, including excluding blocklisted and quarantined recipients and keeping duplicates](assets/target-exclusion-settings.png)
 
 +++ See available options
 
