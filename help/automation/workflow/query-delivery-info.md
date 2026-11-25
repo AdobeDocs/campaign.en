@@ -46,7 +46,7 @@ To carry out this example, apply the following steps:
 
 1. Open the **[!UICONTROL Generic query editor]** and select the **[!UICONTROL Recipient tracking logs]** schema.
 
-   ![](assets/query_editor_tracklog_05.png)
+   ![Document type window filtered on tracking with Recipient tracking logs (nms) selected.](assets/query_editor_tracklog_05.png)
 
 1. In the **[!UICONTROL Data to extract]** window, we want to create an aggregate to collect information. To do this, add the primary key (located above the main **[!UICONTROL Recipient tracking logs]** element): Tracking log count is carried out on this **[!UICONTROL Primary key]** field. The edited expression will be **[!UICONTROL x=count(primary key)]**. It links the sum of various tracking logs to a single email address.
 
@@ -54,27 +54,27 @@ To carry out this example, apply the following steps:
 
     * Click the **[!UICONTROL Add]** icon to the right of the **[!UICONTROL Output columns]** field. In the **[!UICONTROL Formula type]** window, select the **[!UICONTROL Edit the formula using an expression]** option and click **[!UICONTROL Next]**. In the **[!UICONTROL Field to select]** window, click **[!UICONTROL Advanced selection]**.
     
-      ![](assets/query_editor_tracklog_06.png)
+      ![Field to select window for the Recipient tracking log schema with the Advanced selection button highlighted.](assets/query_editor_tracklog_06.png)
 
     * In the **[!UICONTROL Formula type]** window, run a process on the aggregate function. This process will be a primary key count.
 
       Select **[!UICONTROL Process on an aggregate function]** in the **[!UICONTROL Aggregate]** section and click **[!UICONTROL Count]**.
     
-      ![](assets/query_editor_nveau_18.png)
+      ![Formula type window with Process on an aggregate function and Count selected.](assets/query_editor_nveau_18.png)
 
       Click **[!UICONTROL Next]**.
     
     * Select the **[!UICONTROL Primary key (@id)]** field. The **[!UICONTROL count (primary key)]** output column is configured.
     
-      ![](assets/query_editor_nveau_19.png)
+      ![Data to extract window with the count(primary key) output column configured.](assets/query_editor_nveau_19.png)
 
 1. Select the other field to be displayed in the output column. In the **[!UICONTROL Available fields]** column, open the **[!UICONTROL Recipient]** node and choose **[!UICONTROL Email]**. Check the **[!UICONTROL Group]** box to **[!UICONTROL Yes]** to group the tracking logs by email address: this group links each log to its recipient.
 
-   ![](assets/query_editor_nveau_20.png)
+   ![Data to extract window with Email (Recipient) added as a second output column and Group set to Yes.](assets/query_editor_nveau_20.png)
 
 1. Configure column sorting so that the most active recipients (with the most tracking logs) are displayed first. Check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column.
 
-   ![](assets/query_editor_nveau_64.png)
+   ![Sorting window with Descending sort set to Yes on the count(primary key) column.](assets/query_editor_nveau_64.png)
 
 1. You must then filter the logs which interest you, i.e. those which are under 2 weeks old and which concern sales-related deliveries.
 
@@ -82,19 +82,19 @@ To carry out this example, apply the following steps:
 
     * Configure data filtering. To do this, select **[!UICONTROL Filter conditions]** then click **[!UICONTROL Next]**.
     
-      ![](assets/query_editor_nveau_22.png)
+      ![Data filtering window with Filtering conditions selected in the list of restriction filters.](assets/query_editor_nveau_22.png)
 
     * Recover tracking logs over a given period for a specific delivery. Three filtering conditions are necessary: two date conditions to set the search period between 2 weeks before the current date and the day before the current date; and another condition to restrict the search to a specific delivery.
 
       In the **[!UICONTROL Target element]** window, configure the date starting from which tracking logs will be taken into account. Click **[!UICONTROL Add]**. A condition line is displayed. Edit the **[!UICONTROL Expression]** column by clicking the **[!UICONTROL Edit expression]** function. In the **[!UICONTROL Field to select]** window, choose **[!UICONTROL Date (@logDate)]**.
     
-      ![](assets/query_editor_nveau_23.png)
+      ![Field to select window for the Recipient tracking log schema listing Date, External Id and Primary key.](assets/query_editor_nveau_23.png)
 
       Select the **[!UICONTROL greater than]** operator. In the **[!UICONTROL Value]** column, click **[!UICONTROL Edit expression]**, and in the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]**. Finally, in **[!UICONTROL Current date minus n days]**, enter "15".
 
       Click **[!UICONTROL Finish]**.
     
-      ![](assets/query_editor_nveau_24.png)
+      ![Formula type window with Process on dates and Current date minus n days set to 15, and Finish highlighted.](assets/query_editor_nveau_24.png)
 
     * To select the tracking log search end date, create a second condition by clicking **[!UICONTROL Add]**. In the **[!UICONTROL Expression]** column, choose **[!UICONTROL Date (@logDate)]** again.
 
@@ -102,7 +102,7 @@ To carry out this example, apply the following steps:
 
       Click **[!UICONTROL Finish]**.
     
-      ![](assets/query_editor_nveau_65.png)
+      ![Formula type window with Process on dates and Current date minus n days set to 1, and Finish highlighted.](assets/query_editor_nveau_65.png)
 
       Now we want to configure the third filter condition, i.e. the delivery label which our query concerns.
     
@@ -110,18 +110,18 @@ To carry out this example, apply the following steps:
 
       Click **[!UICONTROL Finish]**.
     
-      ![](assets/query_editor_nveau_66.png)
+      ![Field to select window with the Label (@label) field highlighted and Finish highlighted.](assets/query_editor_nveau_66.png)
 
       Look for a delivery containing the word "sales". Since you don't remember its exact label, you can choose the **[!UICONTROL contains]** operator and enter "sales" in the **[!UICONTROL Value]** column.
     
-      ![](assets/query_editor_nveau_25.png)
+      ![Target element window with date after 15 days before, date before 1 days before and label contains sales.](assets/query_editor_nveau_25.png)
 
 1. Click **[!UICONTROL Next]** until you get to the **[!UICONTROL Data preview]** window: no formatting is necessary here.
 1. In the **[!UICONTROL Data preview]** window, click **[!UICONTROL Start the preview of the data]** to see the number of tracking logs for each delivery recipient.
 
    The result is displayed in descending order.
 
-   ![](assets/query_editor_tracklog_04.png)
+   ![Data preview window listing tracking log counts per recipient email in descending order, from 6 down to 2.](assets/query_editor_tracklog_04.png)
 
    The highest number of logs for a user is 6 for this delivery. 5 different users opened the delivery email or clicked one of the links in the email.
 
@@ -134,33 +134,33 @@ To create this example, apply the following steps:
 1. Drag and drop a **[!UICONTROL Query]** activity in a workflow and open the activity.
 1. Click **[!UICONTROL Edit query]** and set the target and filtering dimensions to **[!UICONTROL Recipients]**.
 
-   ![](assets/query_recipients_1.png)
+   ![Targeting and filtering dimension window with both dimensions set to Recipients and Filtering conditions selected.](assets/query_recipients_1.png)
 
 1. Select **[!UICONTROL Filtering conditions]** then click **[!UICONTROL Next]**.
 1. Click the **[!UICONTROL Add]** button and select **[!UICONTROL Tracking logs]**.
 1. Set the **[!UICONTROL Operator]** of the **[!UICONTROL Tracking logs]** expression to **[!UICONTROL Do not exist such as]**.
 
-   ![](assets/query_open_1.png)
+   ![Filter window with the Tracking logs (trackingLog) expression and the do not exist such as operator.](assets/query_open_1.png)
 
 1. Add another expression. Select **[!UICONTROL Type]** in the **[!UICONTROL URL]** category.
 1. Then, set its **[!UICONTROL Operator]** to **[!UICONTROL equal to]** and its **[!UICONTROL Value]** to **[!UICONTROL Open]**.
 
-   ![](assets/query_open_2.png)
+   ![Filter window with a Type (url/@type) condition set to equal to Open under the Tracking logs expression.](assets/query_open_2.png)
 
 1. Add another expression and select **[!UICONTROL Date]**. **[!UICONTROL Operator]** should be set to **[!UICONTROL on or after]**.
 
-   ![](assets/query_open_3.png)
+   ![Filter window with a Date of Tracking logs (@logDate) condition using the on or after operator, value still empty.](assets/query_open_3.png)
 
 1. To set the value last 7 days, click the **[!UICONTROL Edit expression]** button in the **[!UICONTROL Value]** field.
 1. In the **[!UICONTROL Function]** category, select **[!UICONTROL Current date minus n days]** and add the number of days you want to target. Here, we want to target the last 7 days.
 
-   ![](assets/query_open_4.png)
+   ![Formula type window with Process on dates and Current date minus n days set to 7.](assets/query_open_4.png)
 
 Your outbound transition will contain recipients who didn't open an email in the last 7 days.
 
 If, on the opposite, you want to filter recipients who opened at least one email your query should be as follows. Please note that, in this case, the **[!UICONTROL Filtering dimension]** should be set to **[!UICONTROL Tracking logs (Recipients)]**.
 
-![](assets/query_open_5.png)
+![Filter window with the condition Primary key (@id) not equal to 0 and the query summary below it.](assets/query_open_5.png)
 
 ## Recipients who have opened a delivery {#recipients-who-have-opened-a-delivery}
 
@@ -168,25 +168,25 @@ The following example shows how to target profiles who have opened a delivery wi
 
 1. To target profiles having opened a delivery, you need to use tracking logs. they are stored in a linked table: start by selecting this table in the drop-down list of the **[!UICONTROL Filtering dimension]** field, as shown below:
 
-   ![](assets/s_advuser_query_sample1.0.png)
+   ![Filtering dimension drop-down list with Recipient tracking log among the available tables.](assets/s_advuser_query_sample1.0.png)
 
 1. Concerning filtering conditions, click the **[!UICONTROL Edit expression]** icon of the criteria shown in the sub-tree structure of the tracking logs. Select the **[!UICONTROL Date]** field.
 
-   ![](assets/s_advuser_query_sample1.1.png)
+   ![Filtering dimension set to Recipient tracking log, with the Date field selected in the Field to select window.](assets/s_advuser_query_sample1.1.png)
 
    Click **[!UICONTROL Finish]** to confirm selection.
 
    In order to recover only the tracking logs less than two weeks old, select the **[!UICONTROL Greater than]** operator.
 
-   ![](assets/s_advuser_query_sample1.4.png)
+   ![Filter window on Date (@logDate) with the operator drop-down open and the after operator highlighted.](assets/s_advuser_query_sample1.4.png)
 
    Then click the **[!UICONTROL Edit expression]** icon in the **[!UICONTROL Value]** column to define the calculation formula to be applied. Select the **[!UICONTROL Current date minus n days]** formula and enter 15 in the related field.
 
-   ![](assets/s_advuser_query_sample1.5.png)
+   ![Formula type window opened from Edit expression, with Current date minus n days set to 15.](assets/s_advuser_query_sample1.5.png)
 
    Click the **[!UICONTROL Finish]** button of the formula window. In the filtering window, click the **[!UICONTROL Preview]** tab to check targeting criteria.
 
-   ![](assets/s_advuser_query_sample1.6.png)
+   ![Filter window on the Preview tab listing the 53 recipients that match the targeting criteria.](assets/s_advuser_query_sample1.6.png)
 
 ## Filtering recipients' behavior following a delivery {#filtering-recipients--behavior-folllowing-a-delivery}
 
@@ -206,17 +206,17 @@ The following steps show you how to configure the **[!UICONTROL Split]** box by 
 
 1. Insert the **[!UICONTROL Split]** box into the workflow. This box will break down the recipients of the first delivery into the next two deliveries. Breakdown occurs based on the filtering conditions linked to recipient behavior during the first delivery.
 
-   ![](assets/query_editor_ex_09.png)
+   ![Workflow with Query, Summer sport offer delivery, Wait 4 days and a Split based on behavior activity.](assets/query_editor_ex_09.png)
 
 1. Open the **[!UICONTROL Split]** box. In the **[!UICONTROL General]** tab, enter a label: **Split based on behavior** for instance.
 
-   ![](assets/query_editor_ex_04.png)
+   ![Split activity General tab with the Label field set to Split based on behavior.](assets/query_editor_ex_04.png)
 
 1. In the **[!UICONTROL Subsets]** tab, define the first split branch. For example, enter the **Clicked** label for this branch.
 1. Select the **[!UICONTROL Add a filtering condition on the incoming population]** option. Click **[!UICONTROL Edit]**.
 1. In the **[!UICONTROL Targeting and filtering dimension]** window, double-click the **[!UICONTROL Recipients of a delivery]** filter.
 
-   ![](assets/query_editor_ex_05.png)
+   ![Split Subsets tab with Add a filtering condition selected and Recipients of a delivery highlighted.](assets/query_editor_ex_05.png)
 
 1. In the **[!UICONTROL Target element]** window, select the behavior you want to apply to this branch: **[!UICONTROL Recipients having clicked (email)]**.
 
@@ -224,23 +224,23 @@ The following steps show you how to configure the **[!UICONTROL Split]** box by 
 
    This is the "Watersports offer" delivery.
 
-   ![](assets/query_editor_ex_08.png)
+   ![Target element window with Behavior set to Recipients who have clicked (email) and Delivery specified by the transition.](assets/query_editor_ex_08.png)
 
 1. Define the second branch. This branch will include the follow-up email with the same content as for the first delivery. Go to the **[!UICONTROL Subsets]** tab and click **[!UICONTROL Add]** to create it.
 
-   ![](assets/query_editor_ex_06.png)
+   ![Split Subsets tab with the Clicked subset and the Add button highlighted to create a second subset.](assets/query_editor_ex_06.png)
 
 1. Another sub-tab is displayed. Name it "**Did not click**".
 1. Click **[!UICONTROL Add a filtering condition for the incoming population]**. Then click **[!UICONTROL Edit...]**.
 
-   ![](assets/query_editor_ex_07.png)
+   ![Split Subsets tab for the Did not click subset with the Edit link highlighted for the filtering condition.](assets/query_editor_ex_07.png)
 
 1. Click **[!UICONTROL Delivery recipients]** in the **[!UICONTROL Targeting and filtering dimension]** window. 
 1. In the **[!UICONTROL Target element]** window, select the **[!UICONTROL Recipients who did not click (email)]** behavior. Select the **[!UICONTROL Delivery specified by the transition]** option as shown for the last branch.
 
    The **[!UICONTROL Split]** box is now fully configured.
 
-   ![](assets/query_editor_ex_03.png)
+   ![Workflow where the Split sends Clicked recipients to Watersport offer and Did not click ones to the reminder.](assets/query_editor_ex_03.png)
 
 Below is the list of the various components configured by default:
 
@@ -252,4 +252,4 @@ Below is the list of the various components configured by default:
 * **[!UICONTROL Recipients who didn't open or click (email),]** 
 * **[!UICONTROL Recipients who didn't click (email).]** 
 
-  ![](assets/query_editor_ex_02.png)
+  ![Target element Behavior list with All recipients, opened or clicked, clicked, failed and did not click options.](assets/query_editor_ex_02.png)

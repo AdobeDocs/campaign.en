@@ -35,11 +35,11 @@ The properties screen of an activity has an **[!UICONTROL Advanced]** tab that l
 
 * a simplified version (for **[!UICONTROL Start]** and **[!UICONTROL End]** activities for instance)
 
-  ![](assets/wf-advanced-basic.png)
+  ![Simplified Advanced tab of a Start activity with Name, Image, Initialization script and Comment fields.](assets/wf-advanced-basic.png)
 
 * a more detailed version (for the **[!UICONTROL Query]** activity, for instance)
 
-  ![](assets/wf-advanced-full.png)
+  ![Detailed Advanced tab of a Query activity with Execution, Affinity, Behavior, Time zone and error management fields.](assets/wf-advanced-full.png)
 
 The fields to be entered in the **[!UICONTROL Advanced]** tab are detailed in the following sections.
 

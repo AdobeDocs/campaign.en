@@ -33,7 +33,7 @@ To carry out a **Creation date = max (Creation date)** type filter on the recipi
 1. Link each recipient to the aggregation function result in the same schema.
 1. Filter recipients using the aggregate via the edited schema.
 
-![](assets/datamanagement_usecase_1.png)
+![Workflow: Recipients and DateMax queries feed an Edit schema activity, then a Split activity and End.](assets/datamanagement_usecase_1.png)
 
 ## Step 1: Calculating the aggregate result {#step-1--calculating-the-aggregate-result}
 
@@ -42,7 +42,7 @@ To carry out a **Creation date = max (Creation date)** type filter on the recipi
 1. In the windows that open, select **[!UICONTROL Data linked to the filtering dimension]** then **[!UICONTROL Filtering dimension data]**.
 1. In the **[!UICONTROL Data to add]** window, add a column that calculates the maximum value for the **Creation date** field in the table of recipients. You can use the expression editor or enter **max(@created)** directly into a field in the **[!UICONTROL Expression]** column. Then click the **[!UICONTROL Finish]** button. 
 
-   ![](assets/datamanagement_usecase_2.png)
+   ![Data to add window with output column Max(creation date) in the Expression column and the Finish button.](assets/datamanagement_usecase_2.png)
 
 1. Click **[!UICONTROL Edit additional data]** then **[!UICONTROL Advanced parameters...]**. Check the **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** option.
 
@@ -61,7 +61,7 @@ To link the query dealing with recipients to the query carrying out the aggregat
     * Select **[!UICONTROL Use a simple join]** to link the aggregate result to every recipient of the main set.
     * Finally, specify that the link is a **[!UICONTROL Type 11 simple link]**.
 
-   ![](assets/datamanagement_usecase_3.png)
+   ![Link definition with Temporary schema DateMax, Use a simple join and Type 11 simple link selected.](assets/datamanagement_usecase_3.png)
 
 The aggregation result is therefore linked to every recipient.
 
@@ -82,7 +82,7 @@ Once the link has been established, the aggregate result and the recipients make
     * **[!UICONTROL Expression]**: `toDate([target/@created])`.
     * **[!UICONTROL Value]**: `toDate([datemax/expr####])`, where expr#### relates to the aggregate specified in the aggregation function query.
 
-   ![](assets/datamanagement_usecase_4.png)
+   ![Target element filter: ToDate target/@created equal to DateOnly(Max(creation date)).](assets/datamanagement_usecase_4.png)
 
 The result of the split activity thus relates to the recipients created the same day as the last known creation date.
 

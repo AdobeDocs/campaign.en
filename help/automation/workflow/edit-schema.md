@@ -34,10 +34,10 @@ Data can be transformed, normalized and, if necessary, enriched in the workflow 
 
 This activity does not change the data in the work table, it changes only its schema, i.e. the logical view of the data.
 
-![](assets/wf_manipulation_box.png)
+![Edit schema activity with output columns and expressions, including an Order average column calculated with Avg](assets/wf_manipulation_box.png)
 
 You can also create joins with other worktables, via the **[!UICONTROL Links]** tab.
 
-![](assets/wf_manipulation_box_link_tab.png)
+![Links tab of Edit schema with the Link definition dialog showing the target schema and the join conditions](assets/wf_manipulation_box_link_tab.png)
 
 The lower section lets you configure the list of joining conditions, i.e. the criteria used for reconciling the data from the two tables.

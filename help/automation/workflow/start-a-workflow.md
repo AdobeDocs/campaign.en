@@ -46,7 +46,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 The **[!UICONTROL Actions]** button of the toolbar lets you access to additional execution options on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
 
-![](assets/purge_historique.png)
+![Workflow list with the Actions menu open and Purge history highlighted among Start, Pause, Stop and Restart options.](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
@@ -130,7 +130,7 @@ Improve your instance stability by implementing the following best practices:
 
 When one or more workflow activities are selected, you can right-click to act on your selection. 
 
-![](assets/contextual_menu.png)
+![Right-click menu on a workflow activity with Display logs highlighted, plus Open, Cut, Copy, Delete and Save options.](assets/contextual_menu.png)
 
 The following options are available in the right-click menu:
 

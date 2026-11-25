@@ -33,9 +33,9 @@ This activity does not trigger a union of inbound populations. If several transi
 >
 >Split operations cannot be performed for tables that have different sources. For this purpose, you need to add an **Enrichment** activity before the **Split** activity.
 
-* For an example of the split activity being used, refer to [this section](targeting-workflows.md#create-subsets-using-the-split-activity).
-* An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [this section](cross-channel-delivery-workflow.md).
-* An example showing how to use an instance variable in a Split activity is available in [this section](javascript-scripts-and-templates.md).
+* For an example of the split activity being used, refer to [Create subsets using the Split activity](targeting-workflows.md#create-subsets-using-the-split-activity).
+* An example illustrating how to use the Split activity to segment the target into different populations using filtering conditions is described in [Cross-channel delivery workflow](cross-channel-delivery-workflow.md).
+* An example showing how to use an instance variable in a Split activity is available in [JavaScript scripts and templates](javascript-scripts-and-templates.md).
 
 To configure this activity, define the subset content and label in the **[!UICONTROL Subsets]** tab, then choose the target dimension in the **[!UICONTROL General]** tab.
 
@@ -58,11 +58,11 @@ To create a subset:
 
    A wizard lets you choose the selection mode for records of this subset. [Learn more](#limit-the-number-of-subset-records).
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![Subsets tab with Subset 1, Limit the selected records chosen and the Edit link that opens the limitation wizard](assets/s_user_segmentation_partage4.png)
 
 1. If you wish, you can **add other subsets** using the **[!UICONTROL Add]** button. 
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![Subsets tab with the Add button and tabs Subset 1, Subset 2 and Subset 3 at the bottom](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ To create a subset:
 
    For each subset created, an outbound transition will be added to the split activity.
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![Split activity with one outbound transition per subset: Subset 1, Subset 2 and Subset 3](assets/s_user_segmentation_partage_add2.png)
 
    You can choose to generate a single outbound transition (and identify sets using the segment code, for example): to do this, select the **[!UICONTROL Generate subsets in the same table]** option in the **[!UICONTROL General]** tab.
 
@@ -89,15 +89,15 @@ If you do not wish to use the entire population contained in a subset, you can l
 
       For example, if you select the **[!UICONTROL Age]** field as a sorting criteria, and you then define a limit of 100, but the 2000 youngest recipients in the database are all 18, then 100 recipients will be randomly selected out of those 2000.
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![Type of limit wizard step: random sampling, first records after sorting, or first ones after sorting (criteria, random)](assets/s_user_segmentation_partage_wz1.png)
 
 1. If you wish to define sorting criteria, an additional step lets you define the columns and the sorting order.
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![Sorting wizard step with targeting and filtering dimensions and sort columns Creation date and Company, descending](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. Then choose the data limitation method.
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![Limits wizard step with Size (in %) selected and set to 10.00, plus the other data limitation options](assets/s_user_segmentation_partage_wz2.png)
 
    There are several ways of doing this:
 
@@ -121,15 +121,15 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 1. After selecting the data limitation values, select **[!UICONTROL By data grouping]** or **[!UICONTROL By data grouping (as a %)]** and click **[!UICONTROL Next]**. 
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![Limits wizard step with By data grouping selected and a prompt to click Next to enter the additional information](assets/s_user_segmentation_partage_wz3.png)
 
 1. Then select the grouping field(s) (the **[!UICONTROL Language]** field for instance) and click **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![Data grouping wizard step listing the Language field as the grouping expression](assets/s_user_segmentation_partage_wz4.png)
 
 1. Finally, specify the data grouping thresholds (using the fixed values or percentages depending on the previously selected grouping method). To set the same threshold for every value, for example if you wish to set the number of records for each language to 10, select the **[!UICONTROL All data groupings are the same size]** option. To set a different limit for every value, select the **[!UICONTROL Limitations by grouping value]** option. This will allow you to choose a different limitation for English, French, etc. 
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![Data grouping step with All data groupings are the same size selected and a value of 8](assets/s_user_segmentation_partage_wz5.png)
 
 1. Click **[!UICONTROL Finish]** to approve the limitation and return to editing the split activity.
 
@@ -137,9 +137,9 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 If your grouping fields contain too large a number of values or if you want to avoid resetting values for every new split activity, Adobe Campaign lets you create a limitation per data distribution. When selecting [data limitation values](#create-subsets) section), select the **[!UICONTROL By data distribution]** option and select a template from the drop-down menu. Creating a data distribution template is demonstrated below.
 
-For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [this page](local-approval-activity.md).
+For an example of the **[!UICONTROL Local approval]** activity with a distribution template, refer to [Use the local approval activity](local-approval-activity.md).
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![Limits wizard step with By data distribution selected and the template Distribution applied to recipients](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -149,11 +149,11 @@ The data distribution template lets you limit the number of records using a list
 
 1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]**.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![Explorer tree with the Data distribution node under Resources and Campaign Management, and the New button](assets/local_validation_data_distribution_1.png)
 
 1. The **[!UICONTROL General]** tab lets you enter the label and the execution context of the distribution (targeting dimension, distribution field).
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![Data distribution General tab with targeting dimension, distribution field, distribution type and approval storage](assets/local_validation_data_distribution_2.png)
 
    The following fields need to be entered:
 
@@ -167,7 +167,7 @@ The data distribution template lets you limit the number of records using a list
 
 1. If you are using a [Local approval](local-approval.md) activity, enter the **[!UICONTROL Advanced settings]** for the distribution template:
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![Advanced parameters with Approve the targeted messages, Delivery label, Grouping field and Web interface settings](assets/local_validation_data_distribution_3.png)
 
    The following fields need to be entered:
 
@@ -177,21 +177,21 @@ The data distribution template lets you limit the number of records using a list
       >
       >This option is checked by default.
 
-      ![](assets/local_validation_notification.png)
+      ![Approval notification list of recipients to approve, each with a checked box highlighted in red](assets/local_validation_notification.png)
 
     * **[!UICONTROL Delivery label]**: lets you define an expression to display the delivery label in the return notification. The default expression provides information on the standard label of the delivery (compute string). You can modify this expression. 
     
-      ![](assets/local_validation_notification_3.png)
+      ![Delivery feedback notification with the Delivery line, which shows the delivery label, highlighted in red](assets/local_validation_notification_3.png)
 
     * **[!UICONTROL Grouping field]**: this field lets you define the grouping used to display recipients in approval and return notifications.
     
-      ![](assets/local_validation_notification_4.png)
+      ![Approval list where recipients are grouped under the Male and Female headings highlighted in red](assets/local_validation_notification_4.png)
 
     * **[!UICONTROL Web Interface]**: lets you link a web application to the recipient list. In the approval and return notification, each recipient will be clickable and will link to the selected web application. The **[!UICONTROL Parameters]** field (for example **[!UICONTROL recipientId]**) lets you configure the additional parameter to be used in the URL and the web application.
     
 1. The **[!UICONTROL Breakdown]** tab lets you define the list of distribution values.
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![Breakdown tab listing distribution field values with their percentage, label and group or operator](assets/local_validation_data_distribution_4.png)
 
     * **[!UICONTROL Value]**: enter the distribution values. 
     * **[!UICONTROL Percentage / Set]**: enter the record limit (fixed or percentage) linked to each value.
@@ -211,11 +211,11 @@ The data distribution template lets you limit the number of records using a list
 
 Click the **[!UICONTROL General]** tab to enter the activity label. Select the target and filter dimensions for this split. If necessary, you can change these dimensions for a given subset.
 
-![](assets/s_user_segmentation_partage_general.png)
+![General tab of the Split activity with targeting and filtering dimensions and the Generate complement option checked](assets/s_user_segmentation_partage_general.png)
 
 Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement is the inbound target minus the union of the subsets. An additional outbound transition will then be added to the activity, as follows:
 
-![](assets/s_user_segmentation_partage_compl.png)
+![Split activity with outbound transitions Subset 1, Subset 2, Subset 3 and an additional Complement transition](assets/s_user_segmentation_partage_compl.png)
 
 For this option to work correctly, the inbound data must have a primary key.
 

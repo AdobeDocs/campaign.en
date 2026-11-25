@@ -42,29 +42,29 @@ To configure data extraction, apply the following steps:
 1. Specify the name of the output file: this name can contain variables, inserted via the personalization button to the right of the field.
 1. Click **[!UICONTROL Edit the file format...]** to select the data to be extracted.
 
-   ![](assets/s_advuser_extract_file_param.png)
+   ![Data extraction (file) activity with the Extraction file format window open from the Edit the file format link.](assets/s_advuser_extract_file_param.png)
 
    The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
 
 1. If necessary, you can add new columns to the output file, such as computing or processing results for example. To do this, click the **[!UICONTROL Add]** icon.
 
-   ![](assets/s_advuser_extract_file_add_col.png)
+   ![Extraction file format window with the Add icon highlighted to the right of the Output columns list.](assets/s_advuser_extract_file_add_col.png)
 
    In the additional line, click the **[!UICONTROL Edit expression]** icon to define the content of the new column. 
 
-   ![](assets/s_advuser_extract_file_add_exp.png)
+   ![Output columns list with the Edit expression icon on the Creation date column.](assets/s_advuser_extract_file_add_exp.png)
 
    You will then access the selection window. Click **[!UICONTROL Advanced selection]** to choose the process to be applied to the data.
 
-   ![](assets/s_advuser_extract_file_advanced_selection.png)
+   ![Field to select window listing recipient fields, with the Advanced selection button highlighted.](assets/s_advuser_extract_file_advanced_selection.png)
 
    Choose the desired formula from the list.
 
-   ![](assets/s_advuser_extract_file_agregate_values.png)
+   ![Formula type window with Process on an aggregate function selected and the Maximum value option chosen.](assets/s_advuser_extract_file_agregate_values.png)
 
 You can define a post-process to be executing during the data extraction, allowing you to zip or to encrypt the files. To do this, the desired command must be added in the **[!UICONTROL Script]** tab of the activity.
 
-![](assets/postprocessing_dataextraction.png)
+![Data extraction (file) activity with the Script tab highlighted for adding a post-process command.](assets/postprocessing_dataextraction.png)
 
 ## List of aggregate functions {#list-of-aggregate-functions}
 

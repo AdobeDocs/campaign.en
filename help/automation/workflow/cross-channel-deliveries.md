@@ -42,26 +42,26 @@ In the example below, learn how to create a workflow to send an email or an SMS 
    >
    >For the push notifications, use the **subscriber applications** target dimension.
 
-   ![](assets/cross_channel_delivery_1.png)
+   ![Query activity with the Subscriber applications schema selected as the document to filter on.](assets/cross_channel_delivery_1.png)
 
 1. Add the filter conditions to your query. In this case, we will select recipients who have a mobile number or email address.
 
-   ![](assets/cross_channel_delivery_2.png)
+   ![Query filter with Mobile is not empty and an Or condition for Email is not empty.](assets/cross_channel_delivery_2.png)
 
 1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
 1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
 
    Create your delivery in the same way as with a classic delivery wizard by double-clicking the delivery activity in your workflow.
 
-   ![](assets/cross_channel_delivery_3.png)
+   ![Campaign workflow with a query and a Split leading to a Mobile delivery and an Email delivery.](assets/cross_channel_delivery_3.png)
 
 1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
 1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
 
    Select a service for each of the operating systems. 
 
-   ![](assets/cross_channel_delivery_4.png)
+   ![Query dialog with Subscriber applications as targeting dimension and Subscribers of an Android mobile app selected.](assets/cross_channel_delivery_4.png)
 
 1. Select and configure a mobile application delivery for each of the operating systems.
 
-   ![](assets/cross_channel_delivery_5.png)
+   ![Workflow with email and SMS deliveries joining a Wait activity, then a Split to Push iOS and Push Android deliveries.](assets/cross_channel_delivery_5.png)

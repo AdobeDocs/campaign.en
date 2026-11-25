@@ -51,4 +51,4 @@ The **delivery outline** activity, available in the campaign workflows, lets you
 
    The preview takes into account the number of offers specified in the delivery. When executing a workflow, it is the number specified in the delivery outline that is taken into account.
 
-   ![](assets/int_compo_offre_wf1.png)
+   ![Delivery outline activity with Offers selected, a number of propositions, an offer space and filtering rule tables.](assets/int_compo_offre_wf1.png)

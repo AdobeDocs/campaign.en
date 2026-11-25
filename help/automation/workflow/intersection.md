@@ -32,13 +32,13 @@ An **Intersection**-type activity creates a target from the intersection of the 
 
 An intersection lets you extract only the population that is common to all inbound activity results. The target is created with all results received: all prior activities must therefore be finished before the intersection can be executed. To configure this activity, you need to enter a label for it as well as the options concerning the result.
 
-![](assets/s_user_segmentation_inter.png)
+![Intersection activity with reconciliation set to Keys only, a Result label and the Generate complement option](assets/s_user_segmentation_inter.png)
 
 For more on configuring and using the intersection activity, refer to [Extracting joint data (Intersection)](targeting-workflows.md#extract-joint-data--intersection-).
 
 Check the **[!UICONTROL Generate complement]** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity, as follows:
 
-![](assets/s_user_segmentation_inter_compl.png)
+![Intersection activity with two outbound transitions, Result and Complement](assets/s_user_segmentation_inter_compl.png)
 
 ## Intersection example {#intersection-example}
 
@@ -56,7 +56,7 @@ In the following example, the aim of the intersection is to calculate the recipi
 
    The intersection result is sent to the first list update. If you have chosen to use the complement, it is also sent to the second list update.
 
-   ![](assets/intersection_example.png)
+   ![Three queries feeding an Intersection whose Result and Complement go to two List update activities](assets/intersection_example.png)
 
 ## Input parameters {#input-parameters}
 

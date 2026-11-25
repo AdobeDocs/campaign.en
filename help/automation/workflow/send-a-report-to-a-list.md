@@ -29,7 +29,7 @@ topic_v2:
 
 This use case details how to generate a monthly out-of-the-box **[!UICONTROL Tracking indicators]** report in PDF format and how to send it to a list of recipients.
 
-![](assets/use_case_report_intro.png)
+![Monthly report workflow with Scheduler, JavaScript code and Delivery, and the email with indicators.pdf attached.](assets/use_case_report_intro.png)
 
 The main implementation steps for this use case are:
 
@@ -45,7 +45,7 @@ To create the list of targeted recipients, follow the steps below:
 1. Click the **[!UICONTROL Create]** button. 
 1. Select **[!UICONTROL New list]** and create a new recipient list for the report to be sent to.
 
-For more on creating lists, refer to [this section](../../v8/audiences/create-audiences.md).
+For more on creating lists, refer to [Create profile audiences in Campaign](../../v8/audiences/create-audiences.md).
 
 ## Step 2: Create the delivery template {#step-2--create-the-delivery-template}
 
@@ -53,7 +53,7 @@ To create the delivery template, follow the steps below:
 
 1. Browse to the **[!UICONTROL Resources > Templates > Delivery templates]** node of the Adobe Campaign explorer and duplicate the **[!UICONTROL Email delivery]** built-in template.
 
-   For more on creating a delivery template, refer to [this section](../../v8/send/create-templates.md).
+   For more on creating a delivery template, refer to [Work with delivery templates](../../v8/send/create-templates.md).
 
 1. Enter the template parameters: label, target (the list of previously created recipients), subject and content.
 
@@ -63,17 +63,17 @@ To create the delivery template, follow the steps below:
 
     * Click the **[!UICONTROL Attachments]** link and click the arrow next to the **[!UICONTROL Add]** button. Select **[!UICONTROL Calculated attachment...]**.
     
-      ![](assets/use_case_report_4.png)
+      ![Edit attached files window with the Add menu open and Calculated attachment selected.](assets/use_case_report_4.png)
 
     * In the **[!UICONTROL Type]** drop-down list, select the latest option: **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**. 
     
-      ![](assets/use_case_report_5.png)
+      ![Attachment definition with Type set to file name computed during delivery for each message and Label Report.](assets/use_case_report_5.png)
 
       The value entered in the **[!UICONTROL Label]** field will not appear in the final delivery.
     
     * In the text zone, enter the access path and name of the file. 
     
-      ![](assets/use_case_report_6.png)
+      ![Attachment definition General tab with the file path /tmp/indicators.pdf entered in the text zone.](assets/use_case_report_6.png)
 
       >[!CAUTION]
       >
@@ -81,13 +81,13 @@ To create the delivery template, follow the steps below:
 
     * Select the **[!UICONTROL Advanced]** tab and check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. In the text zone, enter the name of the attachment in the final delivery.
     
-      ![](assets/use_case_report_6b.png)
+      ![Attachment definition Advanced tab with Script the name of the file name checked and latest-report.pdf entered.](assets/use_case_report_6b.png)
 
 ## Step 3: Create the workflow {#step-3--creating-the-workflow}
 
 Create the following workflow for this use case. 
 
-![](assets/use_case_report_8.png)
+![Workflow Monthly report indicators: Scheduler, then JavaScript code, then Delivery.](assets/use_case_report_8.png)
 
 It uses three activities:
 
@@ -100,17 +100,17 @@ To build this workflow, follow the steps below:
 1. Browse to the **[!UICONTROL Administration > Production > Technical workflows]** node of Campaign exploere and create a new folder to store your workflows.
 1. Create a new workflow.
 
-   ![](assets/use_case_report_7.png)
+   ![New workflow dialog in Administration > Production > Technical workflows with a Label field and Save button.](assets/use_case_report_7.png)
 
 1. Start by adding a **[!UICONTROL Scheduler]** type activity and configure it so that the workflow executes on the first Monday of the month.
 
-   ![](assets/use_case_report_9.png)
+   ![Scheduler activity showing Triggering at 12:00:00 AM, on first monday of each month.](assets/use_case_report_9.png)
 
    For more on configuring the scheduler, refer to [Scheduler](scheduler.md).
 
 1. Then add a **[!UICONTROL JavaScript code]** type activity.
 
-   ![](assets/use_case_report_10.png)
+   ![JavaScript code activity with the script defining reportName, path, exportFormat and the xtk.report.export call.](assets/use_case_report_10.png)
 
    Enter the following code in the edit zone:
 
@@ -133,14 +133,14 @@ To build this workflow, follow the steps below:
 
       >[!CAUTION]
       >
-      >The file must be saved on the server. You must enter the same path and the same name as in the **[!UICONTROL General]** tab of the edit window for the calculated attachment, as detailed [here](#step-2--create-the-delivery-template)).
+      >The file must be saved on the server. You must enter the same path and the same name as in the **[!UICONTROL General]** tab of the edit window for the calculated attachment, as detailed [Step 2: Create the delivery template](#step-2--create-the-delivery-template)).
 
     * **var exportFormat**: enter the export format of the file ("PDF").
     * **var _ctx** (context): in this case, we are using the **[!UICONTROL Tracking indicators]** report in its global context.
 
 1. Finish by adding a **[!UICONTROL Delivery]** activity with the following options:
 
-   ![](assets/use_case_report_11.png)
+   ![Delivery activity: new from template, Prepare and start, outbound transition and Process errors unchecked.](assets/use_case_report_11.png)
 
     * **[!UICONTROL Delivery]**: select **[!UICONTROL New, created from a template]**, and select the delivery template created previously.
     * For the **[!UICONTROL Recipients]** and **[!UICONTROL Content]** fields, select **[!UICONTROL Specified in the delivery]**.

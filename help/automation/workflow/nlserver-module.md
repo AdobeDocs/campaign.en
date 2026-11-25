@@ -28,4 +28,4 @@ role_v2:
 
 An **nlserver module** activity launches an nlserver module with the parameters specified in the central window.
 
-![](assets/nlserver_module_edit.png)
+![nlserver module activity with an empty Parameters area and the personalization menu open on Activity options.](assets/nlserver_module_edit.png)

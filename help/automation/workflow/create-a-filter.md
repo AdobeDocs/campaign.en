@@ -37,19 +37,19 @@ The **[!UICONTROL Administration > Configuration > Predefined filters]** node co
 
 For example, the list of operators can be filtered by **[!UICONTROL Active accounts]**:
 
-![](assets/query_editor_filter_sample_1.png)
+![Operators list with the Filters menu open and the Active accounts filter selected](assets/query_editor_filter_sample_1.png)
 
 The matching filter contains the query on the **[!UICONTROL Account disabled]** value of the **[!UICONTROL Operators]** schema:
 
-![](assets/query_editor_filter_sample_2.png)
+![Predefined filters list with the By login or label filter selected, showing label, internal name and document type](assets/query_editor_filter_sample_2.png)
 
 For the same list, the **[!UICONTROL By login or label]** filter lets you filter the data on the list based on the value entered in the filter field:
 
-![](assets/query_editor_filter_sample_3.png)
+![Operators list filtered with agency typed in the Login or label contains field, returning one operator](assets/query_editor_filter_sample_3.png)
 
 It is built as follows:
 
-![](assets/query_editor_filter_sample_4.png)
+![By login or label filter definition with three Filter conditions on label, name and description](assets/query_editor_filter_sample_4.png)
 
 To match the filtering conditions, the operator account must check one of the following conditions:
 
@@ -63,7 +63,7 @@ To match the filtering conditions, the operator account must check one of the fo
 
 The **[!UICONTROL Taken into account if]** column lets you define the application criteria for these filtering conditions. Here, the **$(/tmp/@text)** characters represent the content of the input field linked to the filter: 
 
-![](assets/query_editor_filter_sample_5.png)
+![Operators list with agency entered in the Login or label contains field, returning London agency](assets/query_editor_filter_sample_5.png)
 
 Here, **$(/tmp/@text)='agency'**
 

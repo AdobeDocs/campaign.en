@@ -30,7 +30,7 @@ A **Subscription services**-type activity lets you create or delete a subscripti
 
 To configure it, edit the activity and enter its label, then select the action to be executed (Subscription or Unsubscription) and the service concerned, as in the following example:
 
-![](assets/edit_service_inscription.png)
+![Subscription Services activity with Registration or Unsubscription, confirmation message option and service list](assets/edit_service_inscription.png)
 
 1. Enter the activity's label.
 1. Select **[!UICONTROL Generate an outbound transition]** if you wish to create a transition at the end of the execution.
@@ -52,7 +52,7 @@ To do this, you must also exclude recipients that have already subscribed.
 >
 >Before manually subscribing recipients to a service, verify that these recipients accept to receive communications from you.
 
-![](assets/subscription_services_example.png)
+![Three queries feed an Intersection, then a List update and a Subscription Services activity](assets/subscription_services_example.png)
 
 1. Add the following three queries:
 

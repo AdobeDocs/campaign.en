@@ -43,7 +43,7 @@ If necessary, you can assign the approval task to a single operator or a set of 
 
 * To select a single operator, select the **[!UICONTROL Operator]** value in the **[!UICONTROL Assignment type]** field and select the relevant operator in the drop-down list of the **[!UICONTROL Assignee]** field.
 
-  ![](assets/s_advuser_validation_box_assign.png)
+  ![Approval activity with the Assignment type list open and Operator highlighted](assets/s_advuser_validation_box_assign.png)
 
   >[!CAUTION]
   >
@@ -51,7 +51,7 @@ If necessary, you can assign the approval task to a single operator or a set of 
 
 * You can define a query for filtering approving operators. To do this, select the **[!UICONTROL Filter]** value in the **[!UICONTROL Assignment type]** field and click the **[!UICONTROL Advanced parameters...]** link to define filtering conditions, as shown in the following example:
 
-  ![](assets/s_advuser_validation_box_filter.png)
+  ![Approval activity set to Filter, with Advanced parameters filtering conditions where Department equals a value](assets/s_advuser_validation_box_filter.png)
 
 In the event of single approval, the transition corresponding to the choice of operator is activated and the task is finished: the other operators cannot reply.
 
@@ -65,13 +65,13 @@ Modifying the title or message body of the activity does not affect the current 
 
 **Approval** type tasks are accessible from the **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** node: operators can access the approval form directly via this view.
 
-![](assets/s_advuser_validation_from_console.png)
+![Approvals pending list with the Task approval window showing the message, Choice Yes or No and Approve button](assets/s_advuser_validation_from_console.png)
 
 ## Properties {#properties}
 
 Customization variables can be used in the message sent to reviewers. They can be inserted into the message title or body.
 
-![](assets/edit_validation.png)
+![Approval activity with a personalization menu used to insert activity and event variables into the Title field](assets/edit_validation.png)
 
 This **[!UICONTROL Title]** field contains the title of the message: This is the subject of the email message sent. The title, as well as the message body, are JavaScript templates and can therefore contain values calculated according to the context of the workflow.
 

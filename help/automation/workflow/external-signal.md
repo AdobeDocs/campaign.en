@@ -34,7 +34,7 @@ Refer to the online documentation concerning SOAP calls for further information 
 
 You can configure this activity in order to define events if no signal is received. To do this, edit the activity and click the **[!UICONTROL Expiration]** tab. Click the **[!UICONTROL Insert]** button to create and configure an event.
 
-![](assets/edit_signal.png)
+![External signal Expiration tab listing three expirations, with the Expiration detail window open](assets/edit_signal.png)
 
 The configuration of expirations is detailed in [Expirations](define-approvals.md).
 
@@ -42,4 +42,4 @@ The **Delay** field lets you specify an expiration delay in the units of your ch
 
 Each line represents a type of expiration and coincides with a transition.
 
-![](assets/external_sign_diag.png)
+![External signal activity with outbound transitions Expiration, Expiration 2, Expiration 3 and New](assets/external_sign_diag.png)

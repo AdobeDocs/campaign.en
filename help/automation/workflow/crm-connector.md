@@ -35,10 +35,10 @@ With this activity, you can:
 * Import objects deleted in the CRM
 * Delete objects in the CRM
 
-![](assets/crm_task_select_op.png)
+![CRM Connector activity with the Type list open showing import, export and delete options and Salesforce CRM account](assets/crm_task_select_op.png)
 
 Select the external account that matches the CRM that you want to configure synchronization with, then select the object to be synchronized (accounts, opportunities, contacts, etc.).
 
-![](assets/crm_task_select_obj.png)
+![CRM Connector activity with Import from CRM and the Remote object list open with Contact highlighted](assets/crm_task_select_obj.png)
 
 For more information on CRM connectors in Adobe Campaign, refer to [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.

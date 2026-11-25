@@ -33,7 +33,7 @@ topic_v2:
 
 When integrated into a targeting workflow, the **[!UICONTROL Local approval]** activity lets you set up a recipient approval process before the delivery is sent. 
 
-![](assets/local_validation_0.png)
+![Local approval activity with Target approval notification action, approval management and Generate complement option.](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
@@ -43,23 +43,23 @@ For an example of the **[!UICONTROL Local approval]** activity with a distributi
 
 Start by entering a label for the activity and the **[!UICONTROL Action to execute]** field:
 
-![](assets/local_validation_1.png)
+![Local approval activity label and Action to perform: Target approval notification or Delivery feedback report.](assets/local_validation_1.png)
 
 * Select the **[!UICONTROL Target approval notification]** option to send a notification email to local supervisors before the delivery, asking them to approve the recipients assigned to them.
 
 * **Incremental query**: lets you perform a query and plan its execution. Refer to the [Incremental query](incremental-query.md) section. 
 
-  ![](assets/local_validation_intro_3.png)
+  ![Local validation web page with a Delivery feedback list of recipients by gender and their status: sent, opened, clicked](assets/local_validation_intro_3.png)
 
 ## Target approval notification {#target-approval-notification}
 
 In this case, the **[!UICONTROL Local approval]** activity is placed between upstream targeting and the delivery: 
 
-![](assets/local_validation_2.png)
+![Workflow with the Local validation activity placed between Query 1 and Delivery.](assets/local_validation_2.png)
 
 The fields to be entered in case of a notification for target approval are:
 
-![](assets/local_validation_3.png)
+![Local approval fields for a target approval notification: distribution context, approval type, template, reminder.](assets/local_validation_3.png)
 
 * **[!UICONTROL Distribution context]**: select the **[!UICONTROL Specified in the transition]** option if you are using a **[!UICONTROL Split]** type activity to limit the targeted population. In this case, the distribution template is entered in the split activity. If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
 
@@ -86,11 +86,11 @@ The fields to be entered in case of a notification for target approval are:
 
 In this case, the **[!UICONTROL Local approval]** activity is placed after the delivery: 
 
-![](assets/local_validation_4.png)
+![Workflow with a Wait and a Local validation 2 activity placed after the Delivery activity.](assets/local_validation_4.png)
 
 In case of a delivery feedback report, the following fields must be entered:
 
-![](assets/local_validation_workflow_4.png)
+![Local approval set to Delivery feedback report, with the Specified in the transition delivery option and the template.](assets/local_validation_workflow_4.png)
 
 * Select the **[!UICONTROL Specified in the transition]** option if the delivery was entered during a previous activity. Select **[!UICONTROL Explicit]** to specify the delivery in the local approval activity.
 * Select the delivery template and the object of the notification email. There is a default template: **[!UICONTROL Local approval notification]**.
@@ -107,22 +107,22 @@ An operator can approve a delivery in one of two ways: using the Web page linked
 
   To approve the delivery, click the relevant link and log on to the Adobe Campaign Client Console.
 
-  ![](assets/new-workflow-valid-webaccess.png)
+  ![Approval request email asking whether to approve the 574 recipients, with a Click here to reply link.](assets/new-workflow-valid-webaccess.png)
 
   Make a choice and click the **[!UICONTROL Submit]** button.
 
-  ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![Approval web page with a Remarks field, the Yes and No choice and the Submit button.](assets/new-workflow-valid-webaccess-confirm.png)
 
 * Approval via the Client Console
 
   In the tree structure, the **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** node contains the list of tasks to be approved by the operator currently connected. The list should display one line. Double-click this line to respond. The following window is displayed:
 
-![](assets/new-workflow-7.png)
+![Approvals pending node in the Client Console and the Task approval window with Yes selected and the Approve button.](assets/new-workflow-7.png)
 
 Select **Yes**, then click **[!UICONTROL Approve]**. A message will inform you that the response has been recorded.
 
 Go back to the workflow screen: After ten seconds or so, the diagram is displayed as follows:
 
-![](assets/new-workflow-8.png)
+![Workflow diagram after approval: Delivery, Approval, Delivery control and End, with the Yes branch followed.](assets/new-workflow-8.png)
 
 The workflow has executed the **[!UICONTROL Delivery control]** task, which in this case means starting the delivery previously created. The workflow has finished without errors.

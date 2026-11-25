@@ -35,7 +35,7 @@ topic_v2:
 
 For each campaign, you can create workflows to be executed from the **[!UICONTROL Targeting and workflows]** tab. These workflows are specific to the campaign.
 
-![](assets/wf-in-op-edit-delivery-tab.png)
+![Targeting and workflows tab of a campaign showing the workflow list and a diagram with queries, split and deliveries.](assets/wf-in-op-edit-delivery-tab.png)
 
 This tab contains the same activities as for all workflows. [Learn more](#implementation-steps-)
 
@@ -43,6 +43,6 @@ In addition to targeting campaigns, campaign workflows enable you to create and 
 
 All campaign workflows are centralized under the **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** node.
 
-![](assets/campaigns_wf.png)
+![Explorer with Administration > Production > Objects created automatically > Campaign workflows node selected.](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in [this section](../campaigns/marketing-campaign-target.md).
+Campaign workflows and implementation examples are detailed in [Marketing campaign target audience](../campaigns/marketing-campaign-target.md).

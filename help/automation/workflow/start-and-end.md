@@ -28,14 +28,14 @@ The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to grap
 
   Executing a workflow starts with activities without an inbound transition and Start-type activities.
 
-  ![](assets/s_user_segmentation_start_stop.png)
+  ![Workflow with a Start activity, Delivery, Approval, Delivery control and two End activities, one per approval outcome.](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
   You can configure the **[!UICONTROL End]** activity to interrupt all tasks that are in progress. To do this, double-click the activity to display its properties, and check the appropriate option.
 
-  ![](assets/s_user_segmentation_end.png)
+  ![End activity properties with the Stop all tasks in progress option selected.](assets/s_user_segmentation_end.png)
 
   The data in the worktable is deleted automatically when the end activity is enabled. If this isn't necessary, and to avoid unnecessary loads, you can choose to disable the transition at the last activity output. For example, at a delivery output, if no process is scheduled, uncheck the relevant option as shown below:
 
-  ![](assets/s_advuser_delivery_option_no_output.png)
+  ![Delivery activity properties with the Generate an outbound transition option cleared.](assets/s_advuser_delivery_option_no_output.png)

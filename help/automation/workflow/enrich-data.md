@@ -35,7 +35,7 @@ topic_v2:
 
 This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](enrichment.md).
 
-A use case on how to enrich an email delivery with custom dates is also available in [this section](email-enrichment-with-custom-date-fields.md).
+A use case on how to enrich an email delivery with custom dates is also available in [Email enrichment with custom date fields](email-enrichment-with-custom-date-fields.md).
 
 The contacts in the marketing database are sent an invitation to take part in a competition via a web application. The results of the competition are recovered in the **[!UICONTROL Competition results]** table. This table is linked to the contact table (**[!UICONTROL Recipients]**). The **[!UICONTROL Competition results]** table contains the following fields:
 
@@ -43,17 +43,17 @@ The contacts in the marketing database are sent an invitation to take part in a 
 * Trial number (@trial)
 * Score (@score)
 
-![](assets/uc1_enrich_1.png)
+![Recipients table linked 1-n to the Competition results table with Competition name, Trial number and Score fields.](assets/uc1_enrich_1.png)
 
 A contact found in the **[!UICONTROL Recipients]** table can be linked to several lines in the **[!UICONTROL Competition results]** table. The relationship between these two tables is of 1-n type. Here is an example of the result logs for a recipient:
 
-![](assets/uc1_enrich_2.png)
+![Competitions tab of a recipient listing three Competition results lines with Competition name, Trial number and Score.](assets/uc1_enrich_2.png)
 
 The purpose of this use case it to send personalized deliveries to people who took part in the latest competition depending on their highest scores. The recipient with the highest score gets first prize, the recipient with the second highest score gets a consolation prize and all the others get a message wishing them better luck next time.
 
 To set up this use case, we created the following targeting workflow:
 
-![](assets/uc1_enrich_3.png)
+![Targeting workflow: two queries feed an Intersection, then Enrichment and Split, leading to three delivery activities.](assets/uc1_enrich_3.png)
 
 To create the workflow, apply the following steps:
 
@@ -66,11 +66,11 @@ To create the workflow, apply the following steps:
 
 The first query is used to target recipients who were added to the database within the last six months.
 
-![](assets/uc1_enrich_4.png)
+![Query activity Recent subscribers with the filter Creation date (@created) on or after MonthsAgo(-6).](assets/uc1_enrich_4.png)
 
 The second query is used to target the recipients who took part in the last competition.
 
-![](assets/uc1_enrich_5.png)
+![Query activity filtering on Competition results exist such as Competition name equal to The weakest link.](assets/uc1_enrich_5.png)
 
 An **[!UICONTROL Intersection]** type activity is then added to target the recipients added to the database within the last six months and who entered the last competition.
 
@@ -80,62 +80,62 @@ In this example, learn how to personalize deliveries according to the **[!UICONT
 
 1. In the editing screen of the enrichment activity, select **[!UICONTROL Add data]**, then **[!UICONTROL Data linked to the filtering dimension]** and click **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_6.png)
+   ![Additional data dialog with the Data linked to the filtering dimension option selected and Next highlighted.](assets/uc1_enrich_6.png)
 
 1. Then select the **[!UICONTROL Data linked to the filtering dimension]** option, select the **[!UICONTROL Competition results]** table and click **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_7.png)
+   ![Select fields to add screen with the Competition results link selected under Data linked to the filtering dimension.](assets/uc1_enrich_7.png)
 
 1. Enter an ID and a label, and select the **[!UICONTROL Limit the line count]** option in the **[!UICONTROL Data collected]** field. In the **[!UICONTROL Lines to retrieve]** field, select '1' as a value. For each recipient, the enrichment activity will add a single line from the **[!UICONTROL Competition results]** table to the work table of the workflow. Click **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_8.png)
+   ![General parameters screen with Data collected set to Limit the line count and Lines to retrieve set to 1.](assets/uc1_enrich_8.png)
 
 1. In this example, we want to recover the recipient's highest score, but only for the last competition. To do this, add a filter to the **[!UICONTROL Competition name]** field to exclude all lines related to previous competitions. Click **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_9.png)
+   ![Filter screen with the condition Competition name (@game) equal to The weakest link.](assets/uc1_enrich_9.png)
 
 1. Go to the **[!UICONTROL Sort]** screen and click the **[!UICONTROL Add]** button, select the **[!UICONTROL Score]** field and check the box in the **[!UICONTROL descending]** column to sort items of the **[!UICONTROL Score]** fields in descending order. For each recipient, the enrichment activity adds a line that matches the highest score for the last game. Click **[!UICONTROL Next]**.
 
-   ![](assets/uc1_enrich_10.png)
+   ![Sort screen where the Score field is added with Descending checked to keep the highest score.](assets/uc1_enrich_10.png)
 
 1. In the **[!UICONTROL Data to add]** window, double-click the **[!UICONTROL Score]** field. For each recipient, the enrichment activity will add only the **[!UICONTROL Score]** field. Click **[!UICONTROL Finish]**.
 
-   ![](assets/uc1_enrich_11.png)
+   ![Data to add screen with only the Score (@score) field in Output columns and Finish highlighted.](assets/uc1_enrich_11.png)
 
 Right-click the inbound transition of the enrichment activity and select **[!UICONTROL Display the target]**. The work table contains the following data:
 
-![](assets/uc1_enrich_13.png)
+![View population window opened with Display the target, listing primary key and targeting dimension, with no score.](assets/uc1_enrich_13.png)
 
 The linked schema is:
 
-![](assets/uc1_enrich_15.png)
+![Schema tab of the inbound population showing Intersection with Primary key and Targeting dimension only.](assets/uc1_enrich_15.png)
 
 Renew this operation on the outbound transition of the enrichment activity. We can see that the data linked to the recipient scores has been added. The highest score of each recipient has been recovered.
 
-![](assets/uc1_enrich_12.png)
+![View population window after Enrichment listing a Score column with each recipient's highest score.](assets/uc1_enrich_12.png)
 
 The matching schema has also been enriched.
 
-![](assets/uc1_enrich_14.png)
+![Schema tab of the enriched population showing Competition results with the Score field added.](assets/uc1_enrich_14.png)
 
 ## Step 3: Split and delivery {#step-3--split-and-delivery}
 
 To sort the recipients based on their scores, a **[!UICONTROL Split]** activity is added after the enrichment. 
 
-![](assets/uc1_enrich_18.png)
+![Split activity with three outbound transitions to the delivery activities 1st place, 2st place and Try again.](assets/uc1_enrich_18.png)
 
 1. A first (**Winner**) subset has been defined to include the recipient with the highest score. To do this, define a limitation of the number of records, apply a descending sort to the score, and limit the number of records to 1.
 
-   ![](assets/uc1_enrich_16.png)
+   ![Split subset Winner limited to one record, ordered by Score (Additional data/Competition results) descending.](assets/uc1_enrich_16.png)
 
 1. The second (**Second place**) subset includes the recipient with the second highest score. Configuration is the same as for the first subset.
 
-   ![](assets/uc1_enrich_17.png)
+   ![Split subset Second place configured like Winner: ordered by Score descending, limited to 1.](assets/uc1_enrich_17.png)
 
 1. The third (**losers**) subset contains all other recipients. Go to the **[!UICONTROL General]** tab and check the **[!UICONTROL Generate complement]** box to target all recipients who did not achieve the two highest scores.
 
-   ![](assets/uc1_enrich_19.png)
+   ![Split General tab with Generate complement checked and the complement labeled Losers.](assets/uc1_enrich_19.png)
 
 1. Add a **[!UICONTROL Delivery]** type activity for each subset, using a different delivery template for each.
 
-   ![](assets/uc1_enrich_20.png)
+   ![Delivery activity 1st place created from the template 1st place delivery (DM41).](assets/uc1_enrich_20.png)

@@ -29,11 +29,11 @@ topic_v2:
 
 This use case details the creation of a workflow which, after collecting files and following several enrichments, lets you create a summary list. The example is based on a list of contacts who made purchases in a store.
 
-![](assets/uc2_enrich_overview.png)
+![Workflow diagram: File collector, Data loading (file), Enrichment, Update data, Enrichment 2, List update and a Wait.](assets/uc2_enrich_overview.png)
 
 The following data structure is used:
 
-![](assets/uc2_enrich_data.png)
+![Data structure: Purchases and Contact tables linked, and a separate Stores table with refStoreName and zipCodeRef.](assets/uc2_enrich_data.png)
 
 Its purpose is to:
 
@@ -69,21 +69,21 @@ This data is contained in a "Purchases.txt" text file.
 
    The **File collector** activity lets you collect and send files from and to the Adobe Campaign server.
 
-   The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data. For more on this activity, refer to [this page](data-loading-file.md).
+   The **Data loading(file)** activity lets you enrich the work table of the workflow with the collected data. For more on this activity, refer to [Data loading (file)](data-loading-file.md).
 
 1. Configure the **File collector** activity to collect text (&#42;.txt) type files from the selected directory.
 
-   ![](assets/uc2_enrich_collecteur.png)
+   ![File collector activity: Directory tab with the *.txt filter and the Process file nonexistence option checked.](assets/uc2_enrich_collecteur.png)
 
    The **File collector** activity lets you manage the absence of a file in the source directory. To do this, check the **[!UICONTROL Process file nonexistence]** option. In this workflow, a **Wait** activity has been added to try another file collection if it is missing from the directory at the time of collection.
 
 1. Configure the **Data loading (file)** activity using a sample file with the same format as the data to be imported.
 
-   ![](assets/uc2_enrich_chargement1.png)
+   ![Data loading (file) activity with Purchases.txt as sample file and a preview of productName, productPrice, storeName.](assets/uc2_enrich_chargement1.png)
 
    Click the **[!UICONTROL Click here to change the file format...]** link to rename the columns using the internal names and labels of the "Purchases" table.
 
-   ![](assets/uc2_enrich_chargement2.png)
+   ![File format window with columns productName, productPrice and storeName, semicolon separator and first line as header.](assets/uc2_enrich_chargement2.png)
 
 Once the data has been imported, enrichment is carried out by creating a link to a reference table which matches the "Stores" schema.
 
@@ -91,22 +91,22 @@ Add the Enrichment activity and configure it as follows:
 
 1. Select the main set made up of the data from the **Data loading(file)** activity.
 
-   ![](assets/uc2_enrich_enrich1.png)
+   ![Enrichment activity with Data loading (file) as the Primary set, plus the Add data and Edit additional data links.](assets/uc2_enrich_enrich1.png)
 
 1. Click **[!UICONTROL Add data]**, then select the **[!UICONTROL A link]** option.
 
-   ![](assets/uc2_enrich_enrich2.png)
+   ![Select the type of data to add window with the A link option selected.](assets/uc2_enrich_enrich2.png)
 
 1. Select the **[!UICONTROL Define a collection]** option.
 1. Select the "Stores" schema as a target.
 
-   ![](assets/uc2_enrich_enrich3.png)
+   ![Link definition: Define a collection selected as the link type, with the Stores schema as the target schema.](assets/uc2_enrich_enrich3.png)
 
 For more on the various types of links, refer to [Enriching and modifying data](targeting-workflows.md#enrich-and-modify-data).
 
 In the following window, you need to create a join condition by selecting the source field (in the main set) and the target field (belonging to the "Stores" schema) to configure data reconciliation.
 
-![](assets/uc2_enrich_enrich4.png)
+![Link definition join conditions matching the source field storeName to the target field refStoreName.](assets/uc2_enrich_enrich4.png)
 
 Now the link is created, we're going to add a column to the work table of the workflow from the "Stores" schema: the "ZipCode Reference" field.
 
@@ -114,11 +114,11 @@ Now the link is created, we're going to add a column to the work table of the wo
 1. Click **[!UICONTROL Edit additional data]**.
 1. Add the "ZipCode Reference" field to the **[!UICONTROL Output columns]**.
 
-![](assets/uc2_enrich_enrich5.png)
+![Zip Code Reference field from the Stores link added to the Output columns of the enrichment.](assets/uc2_enrich_enrich5.png)
 
 The data in the work table of the workflow after this enrichment will be as follows:
 
-![](assets/uc2_enrich_population1.png)
+![Work table data after enrichment, with the Zip Code Reference column next to productName, productPrice and storeName.](assets/uc2_enrich_population1.png)
 
 ## Step 2: Write enriched data to the 'Purchases' table {#step-2--writing-enriched-data-to-the--purchases--table}
 
@@ -132,7 +132,7 @@ A reconciliation between the data in the work table of the workflow and the **Pu
 1. Select a "Destination expression" for the data in the "Purchases" table (the "storename" field in this case).
 1. Check the **[!UICONTROL Keep unreconciled data coming from the work table]** option.
 
-![](assets/uc2_enrich_reconciliation.png)
+![Reconciliation tab with the Purchases targeting dimension and storeName matched to @storeName.](assets/uc2_enrich_reconciliation.png)
 
 In the **Update data** activity, the following configuration is needed:
 
@@ -156,23 +156,23 @@ The purpose of this second enrichment is to create an aggregate on the purchase 
 1. Click the **[!UICONTROL Data linked to the filtering dimension]** option in the **[!UICONTROL Select fields to add]** window.
 1. Select the **[!UICONTROL Purchases]** node then click **[!UICONTROL Next]**.
 
-   ![](assets/uc2_enrich_enrich9.png)
+   ![Select fields to add window with Data linked to the filtering dimension selected and the Purchases node highlighted.](assets/uc2_enrich_enrich9.png)
 
 1. Change the **[!UICONTROL Collected data]** field by selecting the **[!UICONTROL Aggregates]** option.
 
-   ![](assets/uc2_enrich_enrich10.png)
+   ![General parameters of the Purchases collection with the Data collected field set to Aggregates.](assets/uc2_enrich_enrich10.png)
 
 1. Click **[!UICONTROL Next]**.
 1. Add the following expression to calculate the purchase total for each contact: "Sum(@prodprice)".
 
-   ![](assets/uc2_enrich_enrich6.png)
+   ![Data to add window with the expression Sum(product Price) defined as an output column to total purchases.](assets/uc2_enrich_enrich6.png)
 
 To prepare the summary list, you need to add fields from the "Purchases" fields and from the first enrichment: the "ZipCode Reference" field.
 
 1. Click the **[!UICONTROL Edit additional data...]** link in the enrichment activity.
 1. Add the "Store name" and "Purchases / Zip Code Reference" fields.
 
-   ![](assets/uc2_enrich_enrich7.png)
+   ![Output columns of Enrichment 2: Purchases link, Sum(productPrice), storeName and the Zip Code Reference field.](assets/uc2_enrich_enrich7.png)
 
 1. Click the **[!UICONTROL Properties]** tab.
 1. Change the second link to create only one line.
@@ -192,4 +192,4 @@ Once the workflow is executed, the list will include:
 * a "Store name" column,
 * a "Zip Code Reference" column entered for all stores contained in the store reference schema.
 
-![](assets/uc2_enrich_listfinal.png)
+![Final list content with contacts, Sum(productPrice), Store name and Zip code columns.](assets/uc2_enrich_listfinal.png)

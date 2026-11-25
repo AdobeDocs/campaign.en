@@ -30,7 +30,7 @@ role_v2:
 
 A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#recurring-delivery-video)
+![Play button icon for the video link.](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#recurring-delivery-video)
 
 This activity is only available from the **[!UICONTROL Targeting and workflows]** tab found in a campaign.
 
@@ -38,7 +38,7 @@ To do this:
 
 1. Select the delivery template that the activity will be based on.
 
-   ![](assets/recurring_delivery_001.png)
+   ![Delivery window with the Delivery template drop-down open and Email delivery (mail) selected.](assets/recurring_delivery_001.png)
 
 1. Configure the delivery template.
 

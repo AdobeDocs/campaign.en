@@ -43,23 +43,23 @@ The **Web download** activity launches the downloading of a file on an explicit 
 
     * To directly enter the URL of the file to be downloaded, select the **[!UICONTROL Explicit URL]** option and specify the URL in the appropriate field. This URL can be constructed with variable data.
     
-      ![](assets/download_web_edit.png)
+      ![Web download activity with the Explicit URL option selected and an empty URL field.](assets/download_web_edit.png)
 
     * To use an **[!UICONTROL External account]**, select the account from the drop-down list, and specify the file to be downloaded.
 
       External accounts are configured from the **[!UICONTROL Administration > Platform > External accounts]** node of the Adobe Campaign tree. The account parameters can be edited via the **[!UICONTROL Edit link]** icon.
     
-      ![](assets/download_web_edit_external.png)
+      ![Web file section with External account selected, with an account and the file name to download.](assets/download_web_edit_external.png)
 
     * To download the file from the Adobe Campaign instance, select the **[!UICONTROL Adobe Campaign Instance]** option.
     
-      ![](assets/download_web_edit_instance.png)
+      ![Web file section with Adobe Campaign instance selected and a file name that uses a variable.](assets/download_web_edit_instance.png)
 
 1. **File historization**
 
    The **[!UICONTROL File historization settings...]** link lets you specify the file storage directory and the purge frequency of this directory.
 
-   ![](assets/download_web_edit_hist.png)
+   ![Historization settings dialog with the storage directory, Number of files and Maximum size (in MB) purge settings.](assets/download_web_edit_hist.png)
 
    The following options are available:
 
@@ -81,7 +81,7 @@ The **Web download** activity launches the downloading of a file on an explicit 
     * **[!UICONTROL Add the HTTP headers to the file]**: In some cases, you may wish to add additional HTTP headers to a file. Most commonly, these headers will be used to provide additional information for troubleshooting purposes, for [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/docs/Web/HTTP/CORS), or to set specific caching directives.
     * **[!UICONTROL Ignore the HTTP return code]**: HTTP return codes, also known as HTTP status codes, indicate the outcome of an HTTP request.
 
-   ![](assets/download_web_edit_advanced.png)
+   ![Advanced parameters dialog with Follow redirections, Add the HTTP headers to the file and Ignore the HTTP return code.](assets/download_web_edit_advanced.png)
 
    The **[!UICONTROL Process errors]** option is detailed in [Processing errors](monitor-workflow-execution.md#processing-errors).
 

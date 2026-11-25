@@ -46,23 +46,23 @@ Apply the following steps:
 1. Open the [Generic query editor](../../v8/start/query-editor.md) and select the Recipient table (**[!UICONTROL nms:recipient]**).
 1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Last name]**, **[!UICONTROL First name]** and **[!UICONTROL Gender]**.
 
-   ![](assets/query_editor_nveau_73.png)
+   ![Data to extract window with Last name, First name and Gender in the Output columns list.](assets/query_editor_nveau_73.png)
 
 1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]**: no sort is necessary for this example.
 1. In **[!UICONTROL Data filtering]**, select **[!UICONTROL Filtering conditions]**.
 1. In the **[!UICONTROL Target element]** window, set a filter condition to collect recipients who speak English.
 
-   ![](assets/query_editor_nveau_74.png)
+   ![Target element window with the filter condition Language (@language) equal to EN.](assets/query_editor_nveau_74.png)
 
 1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Add a calculated field]**.
 
-   ![](assets/query_editor_nveau_75.png)
+   ![Data formatting window with the Add a calculated field button highlighted.](assets/query_editor_nveau_75.png)
 
 1. Go to the **[!UICONTROL Type]** window of the **[!UICONTROL Export calculated field definition]** window and select **[!UICONTROL Enumerations]**.
 
    Define the column which the new calculated field must refer to. To do this, select the **[!UICONTROL Gender]** column in the drop-down menu of the **[!UICONTROL Source column]** field: the destination values will coincide with the **[!UICONTROL Gender]** column.
 
-   ![](assets/query_editor_nveau_76.png)
+   ![Calculated field definition with Type set to Enumerations and Source column set to Gender.](assets/query_editor_nveau_76.png)
 
    Define the **Source** and **Destination** values: the destination value makes the query result easier to read. This query should return recipient gender and the result will either be 0, 1, or 2.
 
@@ -75,7 +75,7 @@ Apply the following steps:
 
    Click **[!UICONTROL OK]** to approve the calculated field.
 
-   ![](assets/query_editor_nveau_77.png)
+   ![Enumeration values mapping source 0, 1 and 2 to Not indicated, Male and Female; Keep the source value selected.](assets/query_editor_nveau_77.png)
 
 1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**.
 1. In the preview window, **[!UICONTROL start the preview of the data]**.
@@ -86,12 +86,12 @@ Apply the following steps:
     * 1 for "Male"
     * 2 for "Female"
 
-   ![](assets/query_editor_nveau_78.png)
+   ![Data preview with Gender and Gender specifications columns, for example 1 with Male and 0 with Not indicated.](assets/query_editor_nveau_78.png)
 
    For example, if you don't enter gender "2" in the **[!UICONTROL List of enumeration values]**, and the **[!UICONTROL Generate a warning and continue]** function of the **[!UICONTROL In other cases]** field is selected, you will get a warning log. This log indicates that gender "2" (Female) has not been entered. It is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window.
 
-   ![](assets/query_editor_nveau_79.png)
+   ![Data preview with a flagged gender 2 row and the log Enumeration value 2 does not exist for column @gender.](assets/query_editor_nveau_79.png)
 
    Let's take another example and say that enumeration value "2" isn't entered. Select the **[!UICONTROL Generate an error and reject the line]** function: all gender "2" recipients will raise anomalies and the other information in the line (first and last name, etc.) will not be exported. An error log is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window. This log indicates that enumeration value "2" isn't entered.
 
-   ![](assets/query_editor_nveau_80.png)
+   ![Data preview with error icons on rejected gender 2 rows and the log Enumeration value 2 does not exist.](assets/query_editor_nveau_80.png)

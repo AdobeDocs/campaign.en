@@ -32,7 +32,7 @@ In the following example, an [incremental query](incremental-query.md) is used t
 
 As these campaigns are launched at the beginning of every season in order to offer relevant sports activities, these lists are updated every quarter. However, a recipient here must only be targeted once every 9 months by this campaign. This allows you to space out the recipient's eligibility frequency and to offer activities for different seasons over the years.
 
-![](assets/incremental_query_example.png)
+![Workflow with an Incremental query activity linked by its Result transition to a List update activity](assets/incremental_query_example.png)
 
 1. Add an incremental query as well as a list update activity into a new workflow.
 1. Configure the **[!UICONTROL Incremental query]** tab of the activity as specified in [Create a query](query.md#creating-a-query).

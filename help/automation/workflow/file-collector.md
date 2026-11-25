@@ -39,7 +39,7 @@ The files must be on the server on which the wfserver module in charge of this w
 
 The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. The other tabs are detailed in [Inbound Emails](inbound-emails.md) (**[!UICONTROL Schedule]** and **[!UICONTROL Expiry]** tabs).
 
-![](assets/file_collect_edit.png)
+![File collector Directory tab with Directory, Filter and Stop as soon as a file has been processed options](assets/file_collect_edit.png)
 
 1. **Downloading files**
 
@@ -85,7 +85,7 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
 The file processing order cannot be determined. To process a set of files sequentially, use the **[!UICONTROL Stop as soon as a file has been processed]** option and create a loop. In this case, the files will be processed in alphabetical order. The **[!UICONTROL Process file nonexistence]** option lets you finish the iteration.
 
-![](assets/file_collect_loop.png)
+![Workflow looping from Import back to File collector, with an Alert activity on the No file transition](assets/file_collect_loop.png)
 
 ## Output parameters {#output-parameters}
 

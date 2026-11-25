@@ -33,7 +33,7 @@ This use case details the creation of a workflow which lets you manage concomita
 
 The aim is to check that the update process has ended before executing another update operation. To do this, we will set up an instance variable, and let the workflow test if the instance is running to decide whether or not to continue the execution of the workflow and perform the update.
 
-![](assets/uc_dataupdate_wkf.png)
+![Workflow: Scheduler, Is running? test ending at End on Yes, or Query, Update data and End 2 on No.](assets/uc_dataupdate_wkf.png)
 
 This workflow is made up of:
 
@@ -51,19 +51,19 @@ To build the workflow, follow the steps below:
    >
    >"isRunning" is the instance variable name we have chosen for this example. This is not a built-in variable.
 
-   ![](assets/uc_dataupdate_test.png)
+   ![Is running? test activity with the Yes condition instance.vars.isRunning and the default branch labeled No.](assets/uc_dataupdate_test.png)
 
 1. Add an **End** activity to the **No** fork. This way, nothing will be executed if the workflow is already executing.
 1. Add the desired activities to the **Yes** fork. In our case, **Query** and **Update Data** activities.
 1. Open the first activity, then add the **instance.vars.isRunning = true** command in the **[!UICONTROL Advanced]** tab. This way, the instance variable is set as running.
 
-   ![](assets/uc_dataupdate_query.png)
+   ![Advanced tab of the Query activity with the initialization script instance.vars.isRunning = true.](assets/uc_dataupdate_query.png)
 
 1. Add an **End** activity at the end of the **[!UICONTROL Yes]** fork, then add the **instance.vars.isRunning = false** command in the **[!UICONTROL Advanced]** tab.
 
    This way, no action will be executed as long the workflow is executing.
 
-   ![](assets/uc_dataupdate_end.png)
+   ![Advanced tab of the End 2 activity with the initialization script instance.vars.isRunning = false.](assets/uc_dataupdate_end.png)
 
 **Related topics:**
 

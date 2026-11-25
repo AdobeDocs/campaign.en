@@ -33,7 +33,7 @@ The process is to build a workflow as below:
 1. Use a **[!UICONTROL Test]** activity to check the population count.
 1. Use an **[!UICONTROL Alert]** activity to send an alert to an operator, depending on the **[!UICONTROL Test]** activity result.
 
-![](assets/uc_operator_1.png)
+![Workflow with a query, JavaScript code and Test activity; the True branch leads to an Alert activity, False to End 2.](assets/uc_operator_1.png)
 
 ## Saving the population to the instance variable {#saving-the-population-to-the-instance-variable}
 
@@ -56,21 +56,21 @@ Make sure that the Javascript code corresponds to your workflow information:
 * The **[!UICONTROL queryDef schema]** tag should corresponds to the name of the targeting dimension used in the query activity.
 * The **[!UICONTROL node expr]** tag should correspond to the name of the fields you want to retrieve.
 
-![](assets/uc_operator_3.png)
+![JavaScript code script with the queryDef schema temp:query and the target firstName and lastName nodes highlighted.](assets/uc_operator_3.png)
 
 To retrieve these information, follow the steps below:
 
 1. Right-click the outbound transition from the **[!UICONTROL Query]** activity, then select **[!UICONTROL Display the target]**.
 
-   ![](assets/uc_operator_4.png)
+   ![Right-click menu on the outbound transition of the Query activity with Display the target selected.](assets/uc_operator_4.png)
 
 1. Right-click the list, then select **[!UICONTROL Configure list]**.
 
-   ![](assets/uc_operator_5.png)
+   ![Records of the target list with the right-click menu open and Configure list selected.](assets/uc_operator_5.png)
 
 1. The query targeting dimension and fields names display in the list.
 
-   ![](assets/uc_operator_6.png)
+   ![Configure list Columns tab showing the query temp:query root element highlighted and its targeting dimension fields.](assets/uc_operator_6.png)
 
 ## Testing the population count {#testing-the-population-count}
 
@@ -80,7 +80,7 @@ Add the code below into the **[!UICONTROL Test]** activity to check if the targe
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![Test activity with a True conditional fork using the condition vars.recCount>0 and a default False branch.](assets/uc_operator_7.png)
 
 ## Setting up the alert {#setting-up-the-alert}
 
@@ -104,4 +104,4 @@ for each (var item in items){
 >The **[!UICONTROL <%= item.target.recipient.@fieldName %>]** command lets you add one of the fields that have been saved to the instance variable through the **[!UICONTROL JavaScript code]** activity.  
 >You can add as many fields as desired, as long as they have been inserted into the JavaScript code.
 
-![](assets/uc_operator_8.png)
+![Alert activity assigned to an operator, with a message that loops over saved items to list first and last names.](assets/uc_operator_8.png)

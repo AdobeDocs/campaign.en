@@ -30,7 +30,7 @@ A join triggers its outbound transition only when all inbound transitions are ac
 
 For example, you can use an AND-join activity in the context of content creation and delivery sending automation, to make sure that a delivery is started only once target querying and content updates steps are complete. A dedicated use case is available in  
 
-![](assets/and-join-usage.png)
+![Workflow where a Fork runs a Query and Content Management in parallel into an AND-join before the Delivery.](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ The outbound transition can only contain one of the inbound transition populatio
 
 >[!CAUTION]
 >
->In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [this section](javascript-scripts-and-templates.md#event-variables).
+>In the case of **AND-join** type activities, the event variables are merged but if a same variable is defined twice, there is a conflict and the value remains undetermined. For more on this, refer to [Event variables](javascript-scripts-and-templates.md#event-variables).

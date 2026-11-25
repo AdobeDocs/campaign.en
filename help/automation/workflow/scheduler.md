@@ -46,22 +46,22 @@ The **[!UICONTROL Scheduler]** activity should be considered as a scheduled star
 
 The scheduler defines the activation schedule of the transition. To configure it, double-click the graphical object, then click **[!UICONTROL Change...]** 
 
-![](assets/s_user_segmentation_scheduler.png)
+![Scheduler activity dialog with the Change button used to define the execution frequency](assets/s_user_segmentation_scheduler.png)
 
 A wizard lets you define the frequency and validity period of the activity. The configuration steps are as follows:
 
 1. Select the activation frequency and click **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![Schedule editing wizard, Select frequency type: Several times a day, Daily, Weekly, Monthly, Once](assets/s_user_segmentation_scheduler2.png)
 
 1. Give the activation times and days. The parameters for this step depend on the frequency selected in the previous step. If you choose to launch the activity several times a day, the configuration options will be as follows:
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![Schedule editing wizard, Many times a day: Hour selection on selected hours and Day selection with weekdays](assets/s_user_segmentation_scheduler3.png)
 
 1. Define the validity period of the schedule, or specify how many times it will be executed.
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![Schedule editing wizard, Validity period: Permanent validity, Valid from and To dates, or Maximum number of iterations](assets/s_user_segmentation_scheduler4.png)
 
 1. Check the configuration and click **[!UICONTROL Finish]** to save.
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![Schedule editing wizard, Summary: schedule description and list of next launch times, with the Finish button](assets/s_user_segmentation_scheduler5.png)

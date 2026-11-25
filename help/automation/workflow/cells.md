@@ -35,15 +35,15 @@ topic_v2:
 
 The **[!UICONTROL Cells]** activity provides a view of the various subsets as data columns. It facilitates subset manipulation and is also designed to leverage personalization capabilities.
 
-![](assets/wf_split_cells.png)
+![Cells tab of the Cells activity listing Subset 1 to 3 with filter, limitation, exclusion and segment code columns.](assets/wf_split_cells.png)
 
 This activity can be configured to enter specific parameters based on user needs. By default, the detail of each subset is detailed in a dedicated window via the **[!UICONTROL Cells]** and **[!UICONTROL Advanced]** tabs. 
 
-![](assets/wf_split_cells_with_customization.png)
+![Cells tab with the Detail button highlighted to open the details of the selected subset.](assets/wf_split_cells_with_customization.png)
 
 In the example below, the input form has been modified: a **[!UICONTROL Data]** tab has been added to enable the association of an offer and a priority level for each subset.
 
-![](assets/cells-activity-sample.png)
+![Subset details with a custom Data tab holding Segment code, Priority, Cell identifier and Offers fields.](assets/cells-activity-sample.png)
 
 For this configuration, the following information was added to the workflow form, in the **[!UICONTROL Administration > Configurations > Input forms]** node of Adobe Campaign explorer:
 

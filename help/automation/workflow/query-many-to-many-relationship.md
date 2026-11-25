@@ -49,36 +49,36 @@ Apply the following steps:
 1. Open the Generic query editor and select the Recipient table **[!UICONTROL (nms:recipient)]**.
 1. In the **[!UICONTROL Data to extract]** window, select **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** and **[!UICONTROL Email]**.
 
-   ![](assets/query_editor_nveau_33.png)
+   ![Data to extract window with Primary key, First name, Last name and Email listed as output columns](assets/query_editor_nveau_33.png)
 
 1. In the sorting window, sort the names alphabetically.
 
-   ![](assets/query_editor_nveau_34.png)
+   ![Sorting window with the Sort option set to Yes for the Last name column](assets/query_editor_nveau_34.png)
 
 1. In the **[!UICONTROL Data filtering]** window, select **[!UICONTROL Filtering conditions]**.
 1. In the **[!UICONTROL Target element]** window, the filtering condition for extracting profiles with no tracking log for the last 7 days involves two steps. The element you need to select is a many-to-many link.
 
     * Start by selecting the **[!UICONTROL Recipient delivery logs (broadlog)]** collection element (orange node) for the first **[!UICONTROL Value]** column.
     
-      ![](assets/query_editor_nveau_67.png)
+      ![Field to select window with the Recipient delivery logs (broadLog) collection element selected](assets/query_editor_nveau_67.png)
 
       Choose the **[!UICONTROL do not exist as]** operator. There is no need to select a second value in this line.
     
     * The content of the second filtering condition depends on the first. Here, the **[!UICONTROL Event date]** field is offered directly in the **[!UICONTROL Recipient delivery logs]** table since there is a link to this table.
     
-      ![](assets/query_editor_nveau_36.png)
+      ![Field to select window listing the Recipient delivery logs fields, with Event date (@eventDate) highlighted](assets/query_editor_nveau_36.png)
 
       Select **[!UICONTROL Event date]** with the **[!UICONTROL greater than or equal to]** operator. Select the **[!UICONTROL DaysAgo (7)]** value. To do this, click **[!UICONTROL Edit expression]** in the **[!UICONTROL Value]** field. In the **[!UICONTROL Formula type]** window, select **[!UICONTROL Process on dates]** and **[!UICONTROL Current date minus n days]**, giving "7" as a value.
     
-      ![](assets/query_editor_nveau_37.png)
+      ![Formula type window with Process on dates and Current date minus n days set to 7](assets/query_editor_nveau_37.png)
 
       The filter condition is configured.
     
-      ![](assets/query_editor_nveau_38.png)
+      ![Target element window with the filter: delivery logs do not exist such as event date on or after 7 days before](assets/query_editor_nveau_38.png)
 
 1. In the **[!UICONTROL Data formatting]** window, switch the last names to upper-case. Click the **[!UICONTROL Last name]** line in the **[!UICONTROL Transformation]** column and select **[!UICONTROL Switch to upper case]** in the drop-down menu.
 
-   ![](assets/query_editor_nveau_39.png)
+   ![Data formatting window with the Transformation list for Last name, Switch to upper case option highlighted](assets/query_editor_nveau_39.png)
 
 1. Use the **[!UICONTROL Add a calculated field]** function to insert a column into the data preview window.
 
@@ -89,7 +89,7 @@ Apply the following steps:
    return rep
    ```
 
-   ![](assets/query_editor_nveau_40.png)
+   ![JavaScript expression editor for the First name - Last name column with the script that concatenates both fields](assets/query_editor_nveau_40.png)
 
    Click **[!UICONTROL OK]**. The **[!UICONTROL Data formatting]** window is configured.
 
@@ -97,4 +97,4 @@ Apply the following steps:
 
 1. The result is shown in the **[!UICONTROL Data preview]** window. Recipients which not have been contacted in the last 7 days are displayed in alphabetical order. Names are displayed in upper case and the column with first and last names has been created.
 
-   ![](assets/query_editor_nveau_41.png)
+   ![Data preview window listing recipients with the added First name - Last name column](assets/query_editor_nveau_41.png)

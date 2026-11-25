@@ -47,17 +47,17 @@ Adobe Campaign comes with a set of built-in technical workflows. They control op
 
 By default, technical workflows are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-![](assets/navtree.png){width="50%" zoomable="yes"}
+![Explorer tree with Administration > Production expanded and the Technical workflows folder selected.](assets/navtree.png){width="50%" zoomable="yes"}
 
 >[!NOTE]
 >
->* The list of technical workflows installed with each module is available in a [this section](#list-technical-workflows).
+>* The list of technical workflows installed with each module is available in a [Built-in technical workflows](#list-technical-workflows).
 >
 >* Technical workflows related to the Message Center add-on are stored by default in the **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** node.
 
 The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
 
-![](assets/campaign-processes-wf.png)
+![Campaign process folder selected in the Technical workflows tree, with its workflows list and diagram.](assets/campaign-processes-wf.png)
 
 ## Manage and create technical workflows {#manage-tech-workflows}
 
@@ -88,7 +88,7 @@ The workflows detailed in this page are installed with the Adobe Campaign built-
 |**Event purge** (webAnalyticsPurgeWebEvents)|Web Analytics connectors|This workflow lets you delete every event from the database field according to the period configured in the Lifespan field.|
 |**Export audiences to the Adobe Experience Cloud** (exportSharedAudience)|Integration with Adobe Experience Cloud|This workflow exports audiences as shared audiences/segments. These audiences can be used in the different Adobe CX Enterprise solutions that you use.|
 |**Forecasting** (forecasting)|Installed by default|This workflow analyzes deliveries saved in the provisional calendar (creates provisional logs). It is triggered every day at 1am by default.|
-|**Full aggregate calculation (propositionrcp cube)** (agg_nmspropositionrcp_full)|Offer engine (interaction)|This workflow updates the Full aggregate for the Offer proposition cube. It is triggered every day at 6am by default. This aggregate captures the following dimensions: Channel, Delivery, Marketing Offer and Date. The Offer proposition cube is then used to generate reports based on offers. Learn more about cubes in  [this section](../../v8/reporting/gs-cubes.md).|
+|**Full aggregate calculation (propositionrcp cube)** (agg_nmspropositionrcp_full)|Offer engine (interaction)|This workflow updates the Full aggregate for the Offer proposition cube. It is triggered every day at 6am by default. This aggregate captures the following dimensions: Channel, Delivery, Marketing Offer and Date. The Offer proposition cube is then used to generate reports based on offers. Learn more about cubes in  [Get started with Adobe Campaign analytics reports](../../v8/reporting/gs-cubes.md).|
 |**Identification of converted contacts** (webAnalyticsFindConverted)|Web Analytics connectors|This workflow indexes site visitors that have completed their purchase after a re-marketing campaign. The data recovered by this workflow can be accessed in the Re-marketing efficiency report (Refer to this page).|
 |**Import audiences from the Adobe Experience Cloud** (importSharedAudience)|Integration with Adobe Experience Cloud|This workflow allows you to import audiences/segments from different CX Enterprise solutions into Adobe Campaign.|
 |**Jobs on deliveries in campaigns** (deliveryMgt)|Installed by default|This workflow triggers the approved deliveries and starts post-processing the service provider for an external delivery. It also sends approval notifications and reminders.|

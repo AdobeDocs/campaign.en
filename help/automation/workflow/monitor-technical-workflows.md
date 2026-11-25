@@ -33,7 +33,7 @@ Technical workflows need to be monitored, and actions need to be taken when they
 
 The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** tab.
 
-![](assets/monitoring_technical_workflows1.png)
+![Instance monitoring dashboard with the processes list, failed workflows and deliveries, and system indicators links](assets/monitoring_technical_workflows1.png)
 
 Under System Indicators and core files, check that no indicators are highlighted in red. If this is the case and some are, you should:
 
@@ -71,7 +71,7 @@ For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
 
 The **[!UICONTROL Workflow supervisors]** group should contain operators that need to be kept informed of failures and who can take action in time.
 
-![](assets/monitoring_technical_workflows3.png)
+![Workflow properties General tab with Workflow supervisors selected in the Supervisor(s) field](assets/monitoring_technical_workflows3.png)
 
 An alert should be generated and sent to the correct group in case of problem.
 
@@ -89,7 +89,7 @@ All custom technical workflows should be documented in a worksheet that contains
 * Operator in charge of monitoring.
 * Instructions about what to do in case of error.
 
-![](assets/monitoring_technical_workflows4.png)
+![Maintenance worksheet listing each workflow frequency, start, duration, folder, name, criticity and dependencies](assets/monitoring_technical_workflows4.png)
 
 ## Planning and automation of monitoring {#planning-and-automation-of-monitoring}
 

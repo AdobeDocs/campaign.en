@@ -27,7 +27,7 @@ This use case presents how to plan sending a recurring email to a list of recipi
 
 To set up this use case, we created the following targeting workflow:
 
-![](assets/birthday-workflow_usecase_1.png)
+![Birthday workflow: Scheduler, query, March 1st test, Fork with leap year query, Union, then Delivery.](assets/birthday-workflow_usecase_1.png)
 
 This (daily run) workflow selects all recipients that have their birthday on the current date.
 
@@ -44,20 +44,20 @@ To do this, apply the following steps:
 1. Drag and drop a **[!UICONTROL Query]** activity into the workflow and double-click it.
 1. Click the **Edit query** link and select **[!UICONTROL Filtering conditions]**.
 
-   ![](assets/s_ncs_user_create_exp_exple00.png)
+   ![Targeting and filtering dimension window with Recipients selected and Filtering conditions highlighted.](assets/s_ncs_user_create_exp_exple00.png)
 
 1. Click the first cell of the **[!UICONTROL Expression]** column and click **[!UICONTROL Edit expression]** to open the expression editor.
 
-   ![](assets/s_ncs_user_create_exp_exple.png)
+   ![Filter conditions editor with an empty Expression cell and the Edit expression button displayed.](assets/s_ncs_user_create_exp_exple.png)
 
 1. Click **[!UICONTROL Advanced selection]** to select the filtering mode.
 
-   ![](assets/s_ncs_user_create_exp_exple_a.png)
+   ![Field to select window listing Recipients fields, with the Advanced selection button highlighted.](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. Select **[!UICONTROL Edit the formula using an expression]** and click **[!UICONTROL Next]** to display the expression editor.
 1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node. This function returns the number representing the day corresponding to the date passed as a parameter.
 
-   ![](assets/s_ncs_user_create_exp_exple01.png)
+   ![Edit the expression window with Day() in the edit zone and the Day function selected in the list of functions.](assets/s_ncs_user_create_exp_exple01.png)
 
 1. In the list of available fields, double-click **[!UICONTROL Birth date]**. The upper section of the editor then displays the following formula:
 
@@ -69,13 +69,13 @@ To do this, apply the following steps:
 
 1. In the query editor, in the first cell of the **[!UICONTROL Operator]** column, select **[!UICONTROL equal to]**.
 
-   ![](assets/s_ncs_user_create_exp_exple02.png)
+   ![Filter conditions with day of birth date as expression and the Operator drop-down open with equal to selected.](assets/s_ncs_user_create_exp_exple02.png)
 
 1. Next, click the first cell of the second column (**[!UICONTROL Value]**), and click **[!UICONTROL Edit expression]** to open the expression editor.
 1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node.
 1. Double-click the **[!UICONTROL GetDate]** function to retrieve the current date.
 
-   ![](assets/s_ncs_user_create_exp_exple04.png)
+   ![Edit the expression window showing Day(GetDate()) with the Day and GetDate functions highlighted in the function list.](assets/s_ncs_user_create_exp_exple04.png)
 
    The upper section of the editor displays the following formula:
 
@@ -89,7 +89,7 @@ To do this, apply the following steps:
 
    The complete query is as follows:
 
-   ![](assets/s_ncs_user_create_exp_exple03.png)
+   ![Complete query: day of birth date equal to day of current date and month of birth date equal to month of current date.](assets/s_ncs_user_create_exp_exple03.png)
 
 Link the result of the **[!UICONTROL Query]** activity to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday.
 
@@ -117,7 +117,7 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 >
 >If the current year is a leap year, all of the recipients born on the 29th of February are automatically included.
 
-![](assets/birthday-workflow_usecase_2.png)
+![Query activity filter named Month+day of birth equal to current date, matching month and day of birth date to today.](assets/birthday-workflow_usecase_2.png)
 
 Selecting recipients whose birthday corresponds to the current date is presented in the [Identifying recipients whose birthday it is](#identifying-recipients-whose-birthday-it-is) section.
 
@@ -171,7 +171,7 @@ vars.firstOfMarch = 1;
 }
 ```
 
-![](assets/birthday-workflow_usecase_3.png)
+![Advanced tab of the test activity with an initialization script defining the isLeapYear function.](assets/birthday-workflow_usecase_3.png)
 
 Add the following condition in the **[!UICONTROL Conditional forks]** section:
 
@@ -179,7 +179,7 @@ Add the following condition in the **[!UICONTROL Conditional forks]** section:
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 
-![](assets/birthday-workflow_usecase_4.png)
+![Test tab March 1st and NOT a leap year, with True condition vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
 
 ### Step 3: Select any recipients born on February 29th {#step-3--select-any-recipients-born-on-february-29th}
 
@@ -187,7 +187,7 @@ Create a **[!UICONTROL Fork]** activity and link one of the outbound transitions
 
 In this query, select all of the recipients whose date of birth is February 29th.
 
-![](assets/birthday-workflow_usecase_5.png)
+![Query selecting recipients born on February 29th: month of birth date equal to 2 and day of birth date equal to 29.](assets/birthday-workflow_usecase_5.png)
 
 Combine the results with a **[!UICONTROL Union]** activity.
 
@@ -203,4 +203,4 @@ Add a **Recurring delivery** activity based on the birthday email template that 
 >
 >If the approval steps are enabled for the campaign, the deliveries will only be sent once these steps have been confirmed. For more on this, refer to the   section.
 
-![](assets/birthday-workflow_usecase_1.png)
+![Birthday workflow: Scheduler, query, March 1st test, Fork with leap year query, Union, then Delivery.](assets/birthday-workflow_usecase_1.png)

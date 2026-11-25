@@ -32,7 +32,7 @@ topic_v2:
 
 An **[!UICONTROL SQL code]** activity executes an SQL script. The script is a JST template.
 
-   ![](assets/sql_code.png)
+   ![SQL code activity dialog with the Label field, the SQL script editor and the Process errors option](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
@@ -75,7 +75,7 @@ To ignore this limit, you need to set the value to **0**.
 
 ### JavaScript code {#js-code-desc}
 
-![](assets/javascript_code.png)
+![JavaScript code activity dialog with the Label, Stop execution after and Script fields and the Process errors option](assets/javascript_code.png)
 
 * **[!UICONTROL Script]**: The central area of the editor contains the script to be executed.
 
@@ -83,7 +83,7 @@ To ignore this limit, you need to set the value to **0**.
 
 ### Advanced JavaScript code {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![Advanced JavaScript code activity with First call and Next calls script editors and the Ok transition](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL First call]**: The first zone of the editor contains the script to execute during the first call.
 * **[!UICONTROL Next calls]**: The second zone of the editor contains the script to execute during the next calls.

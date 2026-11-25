@@ -37,7 +37,7 @@ The **Inbound SMS** activity lets you download and process text messages from an
 
 ## Properties {#properties}
 
-![](assets/sms_rec_edit.png)
+![Inbound SMS activity with the External account field, the Filters messages to process link and a Script area.](assets/sms_rec_edit.png)
 
 The first tab of the **Inbound SMS** activity lets you enter the routing parameters for SMS messages and enter the script to be executed on receiving each message. The second tab lets you assign a schedule to the activity, and the third tab defines the expiration conditions of the activity.
 
@@ -45,7 +45,7 @@ The first tab of the **Inbound SMS** activity lets you enter the routing paramet
 1. **[!UICONTROL Script]** 
 1. **[!UICONTROL Schedule]** 
 
-   ![](assets/sms_rec_edit_2.png)
+   ![Inbound SMS Schedule tab with Plan execution checked and Stop schedule as soon as an SMS has been received checked.](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL Expiration]**
 
