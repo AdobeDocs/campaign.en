@@ -43,7 +43,7 @@ topic_v2:
 ---
 # 2024 release notes {#2024-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+This page lists new capabilities, improvements, and fixes coming with **2024 Campaign v8 Releases**. For the latest release, refer to [Campaign v8 release notes](release-notes.md).
 
 For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
 
@@ -70,9 +70,9 @@ _Sept 3, 2024_
 
 ### New features {#new-8-7-2}
 
-* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Send SMS with Adobe Campaign](../send/sms/sms.md). 
 
-* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Design an Android rich push delivery](../send/rich-push-android.md). 
 
 * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
@@ -94,11 +94,11 @@ _May 2, 2024_
 
 ### New features {#new-8-7-1}
 
-* **Rich Push Notification templates** - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. [Read more](../send/rich-push-ios.md).
+* **Rich Push Notification templates** - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. [Design an iOS rich push delivery](../send/rich-push-ios.md).
 
 * **Branding** -  As a Campaign Standard migrated user, your technical administrators can now define one or several brands to centralize the parameters that affect a brand's identity. This includes the brand logo, the domain of the landing pages' access URL, or message tracking settings. You can create these brands and link them to messages or landing pages. This configuration is managed in templates. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}
 
-* **Rest APIs** - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Read more](../dev/api/get-started-apis.md)
+* **Rest APIs** - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Get started with Campaign REST APIs](../dev/api/get-started-apis.md)
 
 * **Dynamic Reporting** - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
@@ -123,7 +123,7 @@ If you have implemented inbound integrations with Campaign, you must migrate you
 
 ### General improvements {#improvements-8-7-1}
 
-* Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [Read more](../../technotes/upgrades/64-bit-tables.md)
+* Several schemas have been changed from 32 to 64 bits. This only applies to customers migrating from Campaign Standard. [64-bit schemas](../../technotes/upgrades/64-bit-tables.md)
 
 * In Campaign tables, the following attributes are now populated by default by the server date and time: `lastModified` and `created`. The `createdBy-id` attribute value is now populated with the current login ID by default. Values provided by users in API calls are ignored. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
@@ -143,7 +143,7 @@ _July 30, 2024_
 
 ### New features {#new-8-6-3}
 
-* **Rich Push Notification** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+* **Rich Push Notification** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Design an Android rich push delivery](../send/rich-push-android.md). 
 
 * Starting this version, with the Service Account (JWT) credential being deprecated by Adobe, Campaign outbound integrations with Adobe solutions and apps now rely on OAuth Server-to-Server credential. [Learn more](release-notes-2024.md#change-8-7-1)
 
@@ -166,7 +166,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 
 The following change has been released in May and is now available to Campaign v8 users:
 
-* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Read more](../config/enhanced-security.md)
+* **New Enhanced Security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced Security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling. [Campaign Enhanced security add-on](../config/enhanced-security.md)
 
 ## Release 8.6.2 {#release-8-6-2}
 

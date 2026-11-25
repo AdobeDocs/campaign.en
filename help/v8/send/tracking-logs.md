@@ -69,7 +69,7 @@ From this tab, you can view:
 
 >[!NOTE]
 >
->If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Refer to [this section](tracked-links.md) to learn how to configure tracking.
+>If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. Refer to [Configure tracked links](tracked-links.md) to learn how to configure tracking.
 
 ### Check the Tracking technical workflow {#check-tracking-workflow}
 

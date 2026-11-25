@@ -79,7 +79,7 @@ To create this type of value binning, apply the following steps:
 
    Whenever the enumeration values are updated, the matching bins are adapted automatically.
 
-   Learn more about enumerations in [this page](../config/enumerations.md).
+   Learn more about enumerations in [Manage enumerations](../config/enumerations.md).
 
 ### Create value ranges {#create-value-ranges}
 
@@ -129,7 +129,7 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 You can create other enumerations reserved for binning and use them in other Cubes: all alias values will be regrouped in the bins specified in the first enumeration tab.
 
-Learn more about enumerations in [this page](../../v8/config/ui-settings.md).
+Learn more about enumerations in [Campaign interface settings](../../v8/config/ui-settings.md).
 
 ## Aggregates in cubes {#calculate-and-use-aggregates}
 
@@ -152,7 +152,7 @@ To create a new aggregate, apply the following steps:
 1. Select a dimension and a level. Repeat this process for each dimension and each level.
 1. Click the **[!UICONTROL Workflow]** tab to create the aggregation workflow.
 
-    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [this section](../../automation/workflow/scheduler.md).
+    * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. The scheduler is detailed in [Configuring the Scheduler activity](../../automation/workflow/scheduler.md#configuring-scheduler-activity).
     * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
 
       By default, a full update is carried out during each calculation. To enable a partial update, select the relevant option and define the update conditions.
@@ -171,7 +171,7 @@ To define a new measure, apply the following steps:
 
 1. If necessary, and depending on the operator, choose the expression which the operation concerns.
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [this section](../../automation/workflow/query.md).
+   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. For more on this, refer to [Query](../../automation/workflow/query.md).
 
 1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
 

@@ -30,7 +30,7 @@ topic_v2:
 ---
 # Operator profiles {#operator-profiles}
 
-Two types of operators can use Campaign Interaction: **Offer managers** and **Delivery managers**. Each of them has specific permissions and restrictions. Learn more about Campaign operators and permissions in [this page](../start/gs-permissions.md).
+Two types of operators can use Campaign Interaction: **Offer managers** and **Delivery managers**. Each of them has specific permissions and restrictions. Learn more about Campaign operators and permissions in [Get started with permissions in Campaign v8](../start/gs-permissions.md).
 
 * The **[!UICONTROL Offer manager]** creates and maintains offers.
 * The **[!UICONTROL Delivery manager]** approves and uses offers
@@ -40,7 +40,7 @@ Two types of operators can use Campaign Interaction: **Offer managers** and **De
 1. Create an operator. [Learn more](../start/manage-permissions.md#add-users)
 1. Browse to the **[!UICONTROL Groups and named rights]** window, click **[!UICONTROL Add]** and select the **[!UICONTROL Offer manager]** group.
 
-Permissions associated to Offer managers are described [here](../start/manage-permissions.md#ootb-productprofiles).
+Permissions associated to Offer managers are described [Default product profiles and operator groups](../start/manage-permissions.md#ootb-productprofiles).
 
 ## Create a Delivery manager operator {#delivery-manager}
 

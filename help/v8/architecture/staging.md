@@ -75,7 +75,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
     </srcSchema>
     ```
 
-    Learn more about custom schema creation in [this page](../dev/create-schema.md).
+    Learn more about custom schema creation in [Create a new schema in Campaign](../dev/create-schema.md).
 
 1. Save and update the database structure.  [Learn more](../dev/update-database-structure.md)
 

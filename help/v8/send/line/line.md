@@ -120,13 +120,13 @@ To create a [!DNL LINE] delivery you have to follow these steps:
 
    ![](assets/line_message_01.png)
 
-1. Identify your delivery with a **[!UICONTROL Label]**, **[!UICONTROL Delivery code]**, and  **[!UICONTROL Description]**. For more on this, refer to [this section](../../start/create-message.md#create-the-delivery). 
+1. Identify your delivery with a **[!UICONTROL Label]**, **[!UICONTROL Delivery code]**, and  **[!UICONTROL Description]**. For more on this, refer to [Create the delivery](../../start/create-message.md#create-the-delivery). 
    
 1. Click **[!UICONTROL Continue]** to create your delivery.
 
 1. In the delivery editor, select **[!UICONTROL To]** to target the recipients of your [!DNL LINE] delivery. Targeting is carried out on **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**.
    
-   For more information, refer to [this page](../../audiences/target-mappings.md). 
+   For more information, refer to [Work with target mappings](../../audiences/target-mappings.md). 
 
    ![](assets/line_message_08.png)
 

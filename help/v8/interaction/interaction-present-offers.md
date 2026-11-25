@@ -30,7 +30,7 @@ Offers can be presented on various offer spaces using [an inbound or outbound ch
 
 In order for an offer to be selected by the Offer engine, it has to be approved and be available in a live environment.
 
-For more on this, refer to [this section](approving-and-activating-an-offer.md#approving-offer-content).
+For more on this, refer to [Approving offer content](approving-and-activating-an-offer.md#approving-offer-content).
 
 In the context of an inbound contact, the user who is browsing the page can be identified by the website or not. The Offer engine presents different offers for identified profiles and for anonymous profiles.
 
@@ -40,4 +40,4 @@ Before being able to present offers on an inbound channel, you must configure th
 >
 >For inbound interactions, you must specifically configure the Offer engine to present and update one or several offers.
 >
->You also have to enable unitary mode on your offer spaces. For more on this, refer to [this page](interaction-offer-spaces.md).
+>You also have to enable unitary mode on your offer spaces. For more on this, refer to [Campaign Interaction Offer spaces](interaction-offer-spaces.md).

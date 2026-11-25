@@ -58,7 +58,7 @@ The new offering combines best-in-class services with proactive oversight and ti
 * **Service experience** — proactive availability, capacity, and performance monitoring and response to prevent disruptions, resolve incidents faster, and review service regularly for continuous improvement.
 * **Deep Campaign expertise** — high-affinity service from expert Customer Engineering teams to meet functional, technical, or deliverability needs, cut deployment risk, and improve change management.
 
-As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [this section](#gs-removed).
+As a former [!DNL Campaign Classic] user, note that most of the [!DNL Campaign Classic] v7 features are available with [!DNL Campaign] v8, except a small set of them, listed in [Unsupported features](#gs-removed).
 
 >The new cloud architecture enables Campaign to streamline processes, reduce costs, manage risks, and improve data security. Your Campaign v8 environment comes with a dedicated Virtual Private Cloud (VPC) that is pre-configured for you.
 
@@ -73,7 +73,7 @@ As a consequence:
 * Status of the deliveries is not instantly updated - A technical process runs on the Marketing instance which will update the delivery statuses in a timely manner.
 
 
-Learn more about sending transactional message proofs when transitioning from v7 on [this page](../send/transactional-template.md#transition-from-v7).
+Learn more about sending transactional message proofs when transitioning from v7 on [Transition from Campaign Classic v7](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] and [!DNL Snowflake] {#ac-gs-snowflake}
@@ -82,20 +82,20 @@ In its [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deploymen
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. With this new architecture, Campaign v8 Enterprise (FFDA) deployment simplifies data management: no index is required on the Cloud Database. You only need to create the tables, copy the data and you can start. The Cloud database technology does not require specific maintenance to guarantee the level of performance.
 
-Learn more about [!DNL Campaign] v8 architecture in [this page](../../v8/architecture/architecture.md).
+Learn more about [!DNL Campaign] v8 architecture in [Get started with Campaign architecture](../../v8/architecture/architecture.md).
 
 
 ## Use your Adobe ID to connect to Campaign{#adobe-id}
 
 Campaign users connect through their Adobe ID only. The same Adobe ID is used to keep all your Adobe plans and products associated with a single account, for all [!DNL Adobe CX Enterprise] solutions. 
 
-Learn how to connect to [!DNL Campaign] in [this page](connect.md).
+Learn how to connect to [!DNL Campaign] in [Connect to Campaign v8](connect.md).
 
 ## Analyze data with cubes{#adobe-reporting}
 
 Use the Marketing Analytics module to analyze and measure data, calculate statistics, simplify and optimize report creation and calculation. In addition, create reports and build target populations: once identified, they are stored in lists that can be used in Adobe Campaign (targeting, segmentation, etc.).
 
-With Adobe Campaign v8, cube reports are optimized and bring better scale capabilities than Campaign Classic v7. In that specific deployment model, former limitations on cubes do not apply in Campaign v8. Learn more about cubes in [this section](../../v8/reporting/gs-cubes.md).
+With Adobe Campaign v8, cube reports are optimized and bring better scale capabilities than Campaign Classic v7. In that specific deployment model, former limitations on cubes do not apply in Campaign v8. Learn more about cubes in [Get started with Adobe Campaign analytics reports](../../v8/reporting/gs-cubes.md).
 
 ## Unavailable features{#gs-unavailable-features}
 

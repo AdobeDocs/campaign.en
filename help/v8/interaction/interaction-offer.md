@@ -154,7 +154,7 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
       </div>
    ```
 
-   Learn how to define the acceptance URL in [this section](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Learn how to define the acceptance URL in [Offer status when the proposition is accepted](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
@@ -198,13 +198,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 You can now approve and activate the offer to make it available in the **Live** environment.
 
-For more on this, refer to [this section](approving-and-activating-an-offer.md#approving-offer-content).
+For more on this, refer to [Approving offer content](approving-and-activating-an-offer.md#approving-offer-content).
 
 ## Manage offer presentation{#offer-presentation}
 
 Campaign lets you control the flow of offer propositions using presentation rules. These rules, which are specific to Campaign Interaction, are **typology rules**. They let you exclude offers based on the history of propositions already made to a recipient. They are referenced in the environment.
 
-For more on this, refer to [this section](managing-offer-presentation.md).
+For more on this, refer to [Managing offer presentation](managing-offer-presentation.md).
 
 ## Offer simulation
 
@@ -212,4 +212,4 @@ The **Simulation** module lets you test the distribution of offers belonging to 
 
 Simulation takes into account the contexts and eligibility rules previously applied to offers and their presentation rules. This lets you test and refine various versions of your offer proposition without actually using an offer or over/under soliciting a target, since simulation has no impact on the targeted recipients.
 
-For more on Offer simulation, refer to [this section](about-offers-simulation.md).
+For more on Offer simulation, refer to [About offers simulation](about-offers-simulation.md).

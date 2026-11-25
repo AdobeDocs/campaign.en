@@ -139,7 +139,7 @@ You can open up each line of the value table by clicking the [+] symbol. For eac
 
 >[!NOTE]
 >
->The domain names displayed in this report are defined at cube level. To change these values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [this section](gs-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
+>The domain names displayed in this report are defined at cube level. To change these values, edit the **[!UICONTROL Delivery logs (broadlogrcp)]** cube. For more on this, refer to [Get started with Adobe Campaign analytics reports](gs-cubes.md). The **[!UICONTROL Others]** category includes domain names that don't belong to a specific class.
 
 ## Browsers {#browsers}
 
@@ -276,7 +276,7 @@ This report lets you monitor subscriptions to information services. It shows sub
 
 It can be displayed for a subscription by clicking the **[!UICONTROL Profiles and targets > Services and subscriptions]** node of the home page or the explorer. Select the desired subscription, and then click the **[!UICONTROL Reports]** tab. The **[!UICONTROL Subscriptions tracking]** report is available by default. It lets you see the subscription and unsubscription trends and the loyalty rate over a period. You can configure the representation of this data via the drop-down list. Click **[!UICONTROL Refresh]** to validate the selected configuration.
 
-For further information, refer to [this page](../start/subscriptions.md).
+For further information, refer to [Manage subscriptions and unsubscriptions in Campaign](../start/subscriptions.md).
 
 The **[!UICONTROL Number subscribed to date]** represents the total number of people currently subscribed.
 
@@ -309,7 +309,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >For more on hard and soft bounces, refer to [this page](../send/quarantines.md).
+  >For more on hard and soft bounces, refer to [Quarantine management in Campaign](../send/quarantines.md).
 
 * **[!UICONTROL Opens]**: percentage of the number of targeted recipients who opened a message at least once compared to the number of messages processed successfully.
 * **[!UICONTROL Clicks]**: percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully. 
@@ -319,7 +319,7 @@ The following indicators are used:
 
 This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
+The number of opens corresponds to the total number of messages opened. Text format emails are not counted. For more information on Tracking opens, refer to [Tracking opens](metrics-calculation.md#tracking-opens-).
 
 ![](assets/user-agent-report.png)
 

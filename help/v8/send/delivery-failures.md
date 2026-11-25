@@ -754,7 +754,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **Resolution**: Review the workflow and delivery content to determine specifically what personalization is attempting to call the table in question. Then either remove the call to this table in the HTML or fix the mapping to the delivery.
 
-Learn more about personalization in [this section](personalize.md).
+Learn more about personalization in [Get started with personalization](personalize.md).
 
 ### Multiple personalization values error {#multiple-values-error}
 

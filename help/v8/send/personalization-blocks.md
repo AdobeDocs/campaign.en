@@ -29,7 +29,7 @@ topic_v2:
 
 Personalization blocks are dynamic content which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to a mirror page. 
 
-To access personalized content blocks, browse to the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the explorer. Built-in personalization blocks are listed in [this section](#ootb-personalization-blocks). 
+To access personalized content blocks, browse to the **[!UICONTROL Resources > Campaign Management > Personalization blocks]** node of the explorer. Built-in personalization blocks are listed in [Built-in personalization blocks](#ootb-personalization-blocks). 
 
 You can also define new blocks to optimize your deliveries personalization. [Learn more](#create-custom-personalization-blocks).
 

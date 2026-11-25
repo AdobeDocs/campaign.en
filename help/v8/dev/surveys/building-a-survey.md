@@ -61,13 +61,13 @@ When you add a field to a survey you need to select its type. The following opti
 
    >[!NOTE]
    >
-   >Storage modes and field imports are detailed in [this section](managing-answers.md#storing-collected-answers).
+   >Storage modes and field imports are detailed in [Store collected answers](managing-answers.md#storing-collected-answers).
 
 The nature of the field to add (drop-down list, text field, checkboxes, etc.) adapts to the storage mode selected. You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-The various types of available fields are detailed in [this section](../web/about-web-forms.md).
+The various types of available fields are detailed in [Get started with web forms](../web/about-web-forms.md).
 
 ## Survey-specific elements {#survey-specific-elements}
 

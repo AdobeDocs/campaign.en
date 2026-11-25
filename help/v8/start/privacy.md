@@ -48,7 +48,7 @@ Learn about the **Right to Access** and the **Right to be Forgotten** (delete re
 
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md)
+>This capability is available starting Campaign v8.3. To check your version, refer to [Campaign v8 compatibility matrix](compatibility-matrix.md)
 
 ## Define a namespace {#namespaces}
 

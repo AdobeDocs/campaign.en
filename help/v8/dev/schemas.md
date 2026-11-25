@@ -65,7 +65,7 @@ Adobe Campaign employs Data Schemas to:
 * Define links between the different data objects within the Campaign application.
 * Define and describe the individual fields included in each object.
 
-For a better understanding of Campaign built-in tables and their interaction, refer to [this section](datamodel.md).
+For a better understanding of Campaign built-in tables and their interaction, refer to [Get started with Campaign data model](datamodel.md).
 
 >[!CAUTION]
 >
@@ -217,11 +217,11 @@ In this example, instead of letting the **@autopk** or the **@autouuid** attribu
 >
 >When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
-Learn more about keys in [this section](database-mapping.md).
+Learn more about keys in [Campaign Database mapping](database-mapping.md).
 
 ## Attributes (Fields) {#attributes--fields-}
 
-Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. Learn more in [this section](create-schema.md).
+Attributes allow you to define the fields which make up your data object. You can use the **[!UICONTROL Insert]** button in the schema edition toolbar to drop empty attribute templates into your XML where your cursor is. Learn more in [Create a new schema in Campaign](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
@@ -309,7 +309,7 @@ Once your changes are completed and saved, any changes that may impact the SQL s
 
 ![](assets/schemaextension_3.png)
 
-For more on this, refer to [this section](update-database-structure.md).
+For more on this, refer to [Update the database structure](update-database-structure.md).
 
 >[!NOTE]
 >

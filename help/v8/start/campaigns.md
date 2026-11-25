@@ -94,9 +94,9 @@ Key steps to create a cross-channel marketing campaign are:
 
     ![](assets/campaign-dashboard.png) 
     
-    Learn how to create and start marketing campaign deliveries in [this page](../../automation/campaigns/marketing-campaign-deliveries.md).
+    Learn how to create and start marketing campaign deliveries in [Create deliveries](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries) and [Start a delivery](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery).
 
-    You can associate various documents with a campaign: report, photo, web page, diagram, etc. Learn more about associated documents in [this page](../../automation/campaigns/marketing-campaign-assets.md).
+    You can associate various documents with a campaign: report, photo, web page, diagram, etc. Learn more about associated documents in [Marketing campaign assets, documents and delivery outlines](../../automation/campaigns/marketing-campaign-assets.md).
     
 1. **Set up the approval process**
 
@@ -111,7 +111,7 @@ Adobe Campaign offers a **Distributed Marketing** add-on for implementing cooper
 
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md)
+>This capability is available starting Campaign v8.3. To check your version, refer to [Campaign v8 compatibility matrix](compatibility-matrix.md)
 
 Learn how to configure and use Campaign Distributed Marketing capabilities in [this page](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}.
 
@@ -121,6 +121,6 @@ Adobe Campaign offers a **Response Management** add-on that lets you measure the
 
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md)
+>This capability is available starting Campaign v8.3. To check your version, refer to [Campaign v8 compatibility matrix](compatibility-matrix.md)
 
 [](../assets/do-not-localize/book.png) Learn how to configure and use Campaign Response Manager in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target="_blank"}.

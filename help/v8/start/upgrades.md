@@ -39,7 +39,7 @@ As a Managed Cloud Services user:
 
 * Your Campaign server instance is upgraded by Adobe with every new version, automatically and without requiring any action on your part.
 * Your Adobe representative contacts you ahead of an upgrade that affects your environment.
-* **Your client console is the one component you are responsible for keeping current.** It must be upgraded to the same version as your Campaign server. Learn how to upgrade your client console in [this page](../start/connect.md#upgrade-ac-console).
+* **Your client console is the one component you are responsible for keeping current.** It must be upgraded to the same version as your Campaign server. Learn how to upgrade your client console in [Upgrade your Client Console](../start/connect.md#upgrade-ac-console).
 
 In addition, as a customer, ensure that you are using the latest supported versions of the systems listed in the [Compatibility matrix](compatibility-matrix.md).
 

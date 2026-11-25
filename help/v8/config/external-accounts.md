@@ -61,7 +61,7 @@ The following technical accounts are used by Adobe Campaign to enable and execut
 
 >[!NOTE]
 >
->The Microsoft Exchange Online OAuth 2.0 authentication for POP3 capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md).
+>The Microsoft Exchange Online OAuth 2.0 authentication for POP3 capability is available starting Campaign v8.3. To check your version, refer to [Campaign v8 compatibility matrix](../start/compatibility-matrix.md).
 >
 
 The **Bounce mails** external account specifies the external POP3 account to be used to connect to the email service. All servers configured for POP3 access can be used to receive return mail.
@@ -107,17 +107,17 @@ After entering your credentials, click **[!UICONTROL Setup the connection]** to 
 
 The **[!UICONTROL Routing]** external account allows you to configure each channel available in Adobe Campaign depending on the packages installed.
 
-Learn more about external account management and delivery execution in [this section](../architecture/architecture.md#split).
+Learn more about external account management and delivery execution in [Split delivery execution](../architecture/architecture.md#split).
 
 ### Execution instance {#execution-instance}
 
-In the context of transactional messaging, the execution instance is linked to the control instance and connects them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [this page](../architecture/architecture.md#transac-msg-archi).
+In the context of transactional messaging, the execution instance is linked to the control instance and connects them. Transactional message templates are deployed to the execution instance. Learn more about Message Center architecture in [Message Center architecture](../architecture/architecture.md#transac-msg-archi).
 
 ## Access to External Systems external accounts {#external-syst-external-accounts}
 
 ### Federated Data Access (FDA) {#fda-external-accounts}
 
-The **External database** type external account is used to connect to an external database via Federated Data Access (FDA). Learn more about Federated Data Access (FDA) option in [this section](../connect/fda.md).
+The **External database** type external account is used to connect to an external database via Federated Data Access (FDA). Learn more about Federated Data Access (FDA) option in [Work with Campaign and External databases (FDA)](../connect/fda.md).
 
 >[!NOTE]
 >
@@ -200,22 +200,22 @@ To configure OAuth2 authentication in Campaign, follow these steps:
 
 ### X (formerly known as Twitter) {#twitter-external-account}
 
-The **Twitter** type external account is used to connect Campaign to your X account, to post messages on your behalf. Learn more about X integration in [this section](../connect/ac-tw.md).
+The **Twitter** type external account is used to connect Campaign to your X account, to post messages on your behalf. Learn more about X integration in [Work with Campaign and X (Twitter)](../connect/ac-tw.md).
 
 ## Adobe solution integration external accounts {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - The **[!UICONTROL Adobe Experience Cloud]** external account is used to implement Adobe Identity Management Service (IMS) to connect to Adobe Campaign. Learn more about Adobe Identity Management Service (IMS) in [this section](../start/connect.md#logon-to-ac).
+* **Adobe Experience Cloud** - The **[!UICONTROL Adobe Experience Cloud]** external account is used to implement Adobe Identity Management Service (IMS) to connect to Adobe Campaign. Learn more about Adobe Identity Management Service (IMS) in [Log on to Adobe Campaign](../start/connect.md#logon-to-ac).
 
-* **Web Analytics** - The **[!UICONTROL Web Analytics (Adobe Analytics)]** external account is used to configure data transfer from Adobe Analytics to Adobe Campaign. Learn more about Adobe Campaign - Adobe Analytics integration in [this page](../connect/ac-aa.md).
+* **Web Analytics** - The **[!UICONTROL Web Analytics (Adobe Analytics)]** external account is used to configure data transfer from Adobe Analytics to Adobe Campaign. Learn more about Adobe Campaign - Adobe Analytics integration in [Work with Campaign and Adobe Analytics](../connect/ac-aa.md).
 
-* **Adobe Experience Manager** - The **[!UICONTROL AEM]** external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager. Learn more about Adobe Campaign - Adobe Experience Manager integration in [this page](../connect/ac-aem.md).
+* **Adobe Experience Manager** - The **[!UICONTROL AEM]** external account allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager. Learn more about Adobe Campaign - Adobe Experience Manager integration in [Work with Campaign and Adobe Experience Manager](../connect/ac-aem.md).
 
 
 ## CRM Connector external accounts {#crm-external-accounts}
 
-* **Microsoft Dynamics CRM** -  The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign. Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [this page](../connect/ac-ms-dyn.md).
+* **Microsoft Dynamics CRM** -  The **[!UICONTROL Microsoft Dynamics CRM]** external account allows you to import and export Microsoft Dynamics data into Adobe Campaign. Learn more about Adobe Campaign - Microsoft Dynamics CRM integration in [Work with Campaign and Microsoft Dynamics](../connect/ac-ms-dyn.md).
 
-* **Salesforce.com** - The **[!UICONTROL Salesforce CRM]** external account allows you to import and export Salesforce data into Adobe Campaign. Learn more about Adobe Campaign - Salesforce.com CRM integration in [this page](../connect/ac-sfdc.md).
+* **Salesforce.com** - The **[!UICONTROL Salesforce CRM]** external account allows you to import and export Salesforce data into Adobe Campaign. Learn more about Adobe Campaign - Salesforce.com CRM integration in [Work with Campaign and SFDC](../connect/ac-sfdc.md).
 
 ## Transfer data external accounts {#transfer-data-external-accounts}
 

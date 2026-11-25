@@ -35,7 +35,7 @@ With AMP for Email, you can:
 * Test delivering AMP emails to specific addresses appropriately configured.
 * Deliver AMP emails to Gmail or Mail.ru addresses after registering with the corresponding providers.
 
-For more on testing and sending AMP emails, see [this section](#targeting-amp-email).
+For more on testing and sending AMP emails, see [Target an AMP email](#targeting-amp-email).
 
 This feature is available through a dedicated package in Adobe Campaign. Depending on your permissions and your deployment model, you can install this package or reach out to Adobe to install it for you.
 

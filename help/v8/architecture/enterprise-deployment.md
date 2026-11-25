@@ -72,7 +72,7 @@ In an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), 
 
 Campaign v8 Enterprise brings the concept of **Full Federated Data Access** (FFDA): all data is now remote on the Cloud Database. 
 
-Specific APIs are available to manage data between the local and the cloud database. Learn how these new APIs work and how to use them in [this page](new-apis.md).
+Specific APIs are available to manage data between the local and the cloud database. Learn how these new APIs work and how to use them in [New Campaign v8 APIs](new-apis.md).
 
 General communication between servers and processes is carried out according to the following schema:
 

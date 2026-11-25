@@ -86,7 +86,7 @@ The **[!UICONTROL Summary]** tab contains the characteristics of the delivery: d
 
 The **[!UICONTROL Reports]** link, which is accessible from the **[!UICONTROL Summary]** tab, lets you look at a set of reports related to the delivery action: general delivery report, detailed report, delivery report, distribution of failed messages, opening rate, clicks and transactions, etc.
 
-The contents of this tab can be configured according to your requirements. For more on delivery reports, refer to [this section](../reporting/delivery-reports.md).
+The contents of this tab can be configured according to your requirements. For more on delivery reports, refer to [Adobe Campaign built-in delivery reports](../reporting/delivery-reports.md).
 
 ![](assets/delivery-report.png)
 
@@ -98,7 +98,7 @@ For a delivery, you can display (for example) only recipients with a failed deli
 
 >[!NOTE]
 >
->The list displaying the delivery logs can be customized, as any list in Campaign. You can, for example, add a column to know which IP address sent each email in a delivery. For more on configuring list display, refer to [this section](../config/ui-settings.md#customize-lists).
+>The list displaying the delivery logs can be customized, as any list in Campaign. You can, for example, add a column to know which IP address sent each email in a delivery. For more on configuring list display, refer to [Manage and customize lists](../config/ui-settings.md#customize-lists).
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -118,7 +118,7 @@ The **[!UICONTROL Tracking]** tab lists the tracking history for this delivery. 
 
 Tracking configuration is performed at the appropriate stage in the delivery assistant. See [How to configure tracked links](tracking.md).
 
-**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [this section](../reporting/delivery-reports.md).
+**[!UICONTROL Tracking]** data is interpreted in the delivery reports. See [Adobe Campaign built-in delivery reports](../reporting/delivery-reports.md).
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -128,7 +128,7 @@ The **[!UICONTROL Inbox rendering]** tab allows you to preview the message in th
 
 This way, you can make sure that your message will be displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-For more on inbox rendering, refer to [this page](inbox-rendering.md)
+For more on inbox rendering, refer to [Inbox rendering in Campaign](inbox-rendering.md)
 
 
 ## Delivery audit {#delivery-audit-}
@@ -143,7 +143,7 @@ The **[!UICONTROL Proofs]** sub-tab lets you view the list of proofs that have b
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [this section](../config/ui-settings.md#customize-lists).
+You can modify the information displayed in this window (and that of the **[!UICONTROL Delivery]** and **[!UICONTROL Tracking]** tabs) by selecting the columns to be displayed. To do this, click the **[!UICONTROL Configure list]** icon located in the lower right-hand corner. For more on configuring list display, refer to [Manage and customize lists](../config/ui-settings.md#customize-lists).
 
 ## Delivery dashboard synchronization {#delivery-dashboard-synchronization}
 

@@ -138,7 +138,7 @@ To export a set of objects in a data package, follow these steps:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](../../automation/workflow/query.md).
+   >The query editor is presented in [Create a query](../../automation/workflow/query.md#creating-a-query).
 
 1. Click **[!UICONTROL Next]** and select the sort order of exported data.
 
@@ -155,7 +155,7 @@ The export process tracks the links between the various exported elements. This 
 
 >[!NOTE]
 >
->Integrity types linked to schema elements are defined in [this page](database-links.md).
+>Integrity types linked to schema elements are defined in [Link management in Campaign schemas](database-links.md).
 
 #### Export a campaign {#export-a-campaign}
 
@@ -250,7 +250,7 @@ You can then add entities to the package definition, and export it to an XML fil
 
 ### Add entities to a package definition {#add-entities-to-a-package-definition}
 
-In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in [this section](#export-a-set-of-objects-in-a-package).
+In the **[!UICONTROL Content]** tab, click the **[!UICONTROL Add]** button to select the entities to export with the package. Best practices when selecting entities are presented in [Export a set of objects in a package](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -260,7 +260,7 @@ Entities can be added to a package definition directly from their location in th
 
 1. Select **[!UICONTROL Add to a package definition]**, then select the package definition to which you want to add the entity.
 
-1. The entity is added to the package definition and will be exported with the package (see [this section](#export-packages-from-a-package-definition)).
+1. The entity is added to the package definition and will be exported with the package (see [Export packages from a package definition](#export-packages-from-a-package-definition)).
 
 ### Configure package definitions generation {#configure-package-definitions-generation}
 

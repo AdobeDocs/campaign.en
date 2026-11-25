@@ -136,4 +136,4 @@ To do this, you need to create the schema of the table and update the database s
 
    ![](assets/configuration_structure.png)
 
-1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [this section](update-database-structure.md).
+1. Update the database structure to create the table which the schema will be linked to. For more on this, refer to [Update the database structure](update-database-structure.md).

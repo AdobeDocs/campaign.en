@@ -236,7 +236,7 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
 The **default** property lets you define an expression returning a default value on content creation.
 
-The value must be an expression compliant with XPath language. For more on this, refer to [this section](#reference-with-xpath).
+The value must be an expression compliant with XPath language. For more on this, refer to [Reference with XPath](#reference-with-xpath).
 
 **Example**:
 

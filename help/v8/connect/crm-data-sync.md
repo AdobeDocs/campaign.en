@@ -71,7 +71,7 @@ To import data via the CRM in Adobe Campaign, you need to create the following t
 
    To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.
 
-   If necessary, change the data format using the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [this section](#data-format).
+   If necessary, change the data format using the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](#data-format).
 
    >[!CAUTION]
    >
@@ -87,11 +87,11 @@ To import data via the CRM in Adobe Campaign, you need to create the following t
 
    >[!CAUTION]
    >
-   >The limitations related to data filtering modes are detailed in [this section](#filtering-data).
+   >The limitations related to data filtering modes are detailed in [Filter data](#filtering-data).
 
 1. Select the **[!UICONTROL Use automatic index...]** option to automatically manage incremental object synchronization between your CRM and Adobe Campaign, depending on the date and their last modification.
 
-   For more on this, refer to [this section](#variable-management).
+   For more on this, refer to [Manage variables](#variable-management).
 
 ### Manage variables {#variable-management}
 
@@ -184,7 +184,7 @@ To export data to your CRM, create the following type of workflow:
    >
    >If no match is defined for a field, the values cannot be updated: they are inserted directly into your CRM.
 
-   If necessary, change the data format using the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [this section](#data-format).
+   If necessary, change the data format using the drop-down list of the **[!UICONTROL Conversion]** columns. Possible conversion types are detailed in [Data format](#data-format).
 
    >[!NOTE]
    >

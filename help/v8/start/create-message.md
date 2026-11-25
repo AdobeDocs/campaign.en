@@ -38,15 +38,15 @@ topic_v2:
 ---
 # Create your first delivery {#create-a-msg}
 
-In this page, learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. Learn more about the different types of deliveries and how to create them in [this page](gs-message.md).
+In this page, learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. Learn more about the different types of deliveries and how to create them in [Get started with messages](gs-message.md).
 
 The key steps when creating a one-shot delivery are:
 
-1. **Create a new delivery**. [Read more](#create-the-delivery)
+1. **Create a new delivery**. [Create the delivery](#create-the-delivery)
 
-1. **Define the delivery content**. [Read more](#content-of-the-delivery)
+1. **Define the delivery content**. [Define the delivery content](#content-of-the-delivery)
 
-1. **Select the target population**. [Read more](#target-population)
+1. **Select the target population**. [Define the target audience](#target-population)
 
 You can then prepare, test, send, and monitor your messages with Adobe Campaign. 
 
@@ -117,8 +117,8 @@ To select the recipients of a delivery, follow the steps below:
 
    The following target types are available:
 
-    * **[!UICONTROL Filtering conditions]**: use this option to define a custom query to retrieve the recipients. Learn how to design a query in [this section](../start/query-editor.md).
-    * **[!UICONTROL A list of recipients]**: use this option to target a list of profiles. Learn more about lists in [this section](../audiences/create-audiences.md).
+    * **[!UICONTROL Filtering conditions]**: use this option to define a custom query to retrieve the recipients. Learn how to design a query in [Work with the query editor](../start/query-editor.md).
+    * **[!UICONTROL A list of recipients]**: use this option to target a list of profiles. Learn more about lists in [Create profile audiences in Campaign](../audiences/create-audiences.md).
     * **[!UICONTROL A recipient]**: use this option to select a specific profile in the database.
     * **[!UICONTROL Recipients included in a folder]**: use this option to target all the profiles contained in a specific folder.
     * **[!UICONTROL Recipients of a delivery]**: use this option to build the target from the recipients of a delivery. You must then select the delivery in the list:
@@ -141,7 +141,7 @@ To select the recipients of a delivery, follow the steps below:
 
       ![](assets/target-service.png)
 
-    * **[!UICONTROL User filters]**: this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [this section](../audiences/create-filters.md#default-filters).
+    * **[!UICONTROL User filters]**: this option lets you access the preconfigured filters to use them as filtering criteria for profiles in the database. Preconfigured filters are presented in [Default filters](../audiences/create-filters.md#default-filters).
     * The **[!UICONTROL Exclude recipients from this segment]** option lets you target recipients who do not satisfy the defined target criteria. To use this option, select the appropriate box and then apply targeting, as defined earlier, to exclude the resulting profiles.
 
 1. Enter a name for this targeting in the **[!UICONTROL Label]** field. By default, the label is the label of the first targeting criterion. When combining filtering criteria, it is recommended to use an explicit name.
@@ -186,7 +186,7 @@ To modify the default configuration, click the **[!UICONTROL Edit...]** link.
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: this option is active by default and removes duplicate email addresses during delivery. The strategy applied can vary according to how Adobe Campaign is used and the type of data in the database. The value of the option can be configured for each delivery template.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]** , i.e. recipients whose email addresses are on denylist ('opt out'). This option must remain selected in order to observe the professional ethics of e-marketing.
-* **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [this section](../send/quarantines.md).
+* **[!UICONTROL Exclude quarantined recipients]**: this option lets you exclude from the target any profiles with an address which is quarantined. We strongly recommend keeping this option selected. Learn more about quarantine management in [Quarantine management in Campaign](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** to a given number of messages. This option lets you enter the maximum number of messages to be sent. If the target audience exceeds the number of messages indicated, a random selection is applied to the target. To send all messages, keep this value to '0'.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: this option allows sending multiple deliveries to recipients who satisfy several targeting criteria.
 +++
@@ -198,7 +198,7 @@ For email deliveries, you can send proofs to validate your message content. Send
 
 A proof is a specific message that allows you to test a message before sending it to the main audience. Recipients of the proof are in charge of approving the message: rendering, content, personalization settings, configuration.
 
-For more on proof recipients and sending, refer to [this section](../send/preview-and-proof.md#send-proofs).
+For more on proof recipients and sending, refer to [Send proofs](../send/preview-and-proof.md#send-proofs).
 
 
 #### Tutorial video {#seeds-and-proofs-video}
@@ -228,4 +228,4 @@ To do this:
 
 Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery priority, set up sending waves, configure the retry settings, and test your delivery sending. Once this configuration is done, you can confirm the sending. Messages are then sent immediately, or based on the delivery schedule.
 
-Learn how to configure your delivery settings in [this page](../send/configure-and-send.md).
+Learn how to configure your delivery settings in [Configure emails with Adobe Campaign](../send/configure-and-send.md).

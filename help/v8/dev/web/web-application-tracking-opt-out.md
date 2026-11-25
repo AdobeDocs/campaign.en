@@ -87,7 +87,7 @@ The default banner has the following structure:
 
 You must replace the **Please insert your message here** with the block containing your tracking information. This replacement should be executed in your new personalization block related to the Opt-out banner.
 
-The banner is delivered with a specific CSS. However, you can overwrite the styles when creating and configuring a webpage. Refer to [this page](content-editor-interface.md).
+The banner is delivered with a specific CSS. However, you can overwrite the styles when creating and configuring a webpage. Refer to [Content editor interface](content-editor-interface.md).
 
 ## Setting the opt-out cookie using API {#setting-the-opt-out-cookie-using-api}
 

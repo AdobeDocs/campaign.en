@@ -64,13 +64,13 @@ You can modify an expression either by adding a formula or by applying a process
 
 ![](assets/query_editor_nveau_97.png)
 
-You can group the data displayed in the output columns. To do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. The results will then be aggregated based on the selected grouping axis. For an example of a query using grouping, see [this section](../../automation/workflow/query-delivery-info.md).
+You can group the data displayed in the output columns. To do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. The results will then be aggregated based on the selected grouping axis. For an example of a query using grouping, see [Querying delivery information](../../automation/workflow/query-delivery-info.md).
 
 ![](assets/query_editor_nveau_56.png)
 
 * The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option lets you group results and apply conditions to those groups. It applies to all fields in the output columns. For example, you can use it to group values from an output column and then filter the results to retrieve only specific information, such as recipients aged between 35 and 50.
 
-  For more on this, refer to [this section](../../automation/workflow/query-grouping-management.md).
+  For more on this, refer to [Query using grouping management](../../automation/workflow/query-grouping-management.md).
 
 The **[!UICONTROL Remove duplicate rows (DISTINCT)]** option eliminates identical rows from the output (deduplicate). For example, if you select **Last name**, **First name**, and **Email** as output columns, any records with the same values in all three fields will be considered duplicates. Only one instance will be kept in the results, ensuring each contact appears only once.
 

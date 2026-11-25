@@ -41,7 +41,7 @@ Adobe Campaign comes with a pre-defined data model. This section gives some deta
 
 The basic structure of the Adobe Campaign data model can be described as follows:
 
-* **Recipient table**: The data model relies on a main table which is by default the Recipient table (**nmsRecipient**). This table stores all the marketing profiles. Learn more about the recipient table in [this section](#ootb-profiles).
+* **Recipient table**: The data model relies on a main table which is by default the Recipient table (**nmsRecipient**). This table stores all the marketing profiles. Learn more about the recipient table in [Built-in profile table](#ootb-profiles).
 
 * **Delivery table**: This table stores one record per delivery action. Usually it is the Delivery table (**NmsDelivery**). A record in this table represents a delivery action or a delivery template. It contains all the necessary parameters for performing deliveries such as target, content, etc. Each record is updated several times to reflect delivery progress.
 
@@ -61,12 +61,12 @@ The basic structure of the Adobe Campaign data model can be described as follows
 
 When starting with Adobe Campaign, you need to assess the default data model to check which table is the best suited to store your marketing data.
 
-You can use the default Recipient table with the out-of-the-box fields, such as described in [this section](#ootb-profiles). If needed, you can extend it with two mechanisms:
+You can use the default Recipient table with the out-of-the-box fields, such as described in [Built-in profile table](#ootb-profiles). If needed, you can extend it with two mechanisms:
 
 * [Extend an existing table](extend-schema.md) with new fields. For example, you can add a new "Loyalty" field to the Recipient table.
 * [Create a new table](create-schema.md), for example a "Purchase" table listing all the purchases made by each profile of the database, and link it to the Recipient table.
 
-Discover best practices when working with Campaign data model in [this section](datamodel-best-practices.md).
+Discover best practices when working with Campaign data model in [Data model best practices](datamodel-best-practices.md).
 
 ## Built-in profile table {#ootb-profiles}
 
@@ -81,19 +81,19 @@ The benefits of using the standard recipient table are:
 
 It is possible to extend the recipient table, but not to reduce the number of fields or links in the table.
 
-Learn how to extend an existing schema in [this section](extend-schema.md).
+Learn how to extend an existing schema in [Extend Campaign schemas](extend-schema.md).
 
 Discover examples of built-in recipient table extensions in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
-You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [this section](custom-recipient.md).
+You can also use a different recipient table to better fit with your business or functional requirements. This method comes with limitations and is described in [Change your default recipient table](custom-recipient.md).
 
 ## Campaign tables and Cloud database
 
 For a better understanding of table management in Campaign v8, note that, in the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), tables are replicated between Campaign and its Snowflake Cloud database.
 
-Learn more about replication strategy and mechanisms in [this section](../architecture/replication.md).
+Learn more about replication strategy and mechanisms in [Data replication](../architecture/replication.md).
 
 **Related topics**
 
-Discover how to import profiles in [this section](../start/import.md)
-Learn more about Campaign audiences in [this section](../start/audiences.md)
+Discover how to import profiles in [Get started with profiles](../start/import.md)
+Learn more about Campaign audiences in [Work with audiences in Campaign](../start/audiences.md)

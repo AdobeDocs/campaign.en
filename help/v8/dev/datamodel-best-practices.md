@@ -56,11 +56,11 @@ This document outlines key recommendations while designing your Adobe Campaign d
 
 Adobe Campaign system is very flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
 
-For a better understanding of Campaign built-in tables and how they relate to each other, refer to [this section](datamodel.md).
+For a better understanding of Campaign built-in tables and how they relate to each other, refer to [Get started with Campaign data model](datamodel.md).
 
-Read out [this section](schemas.md) to get started with Campaign schemas. 
+Read out [Work with Campaign schemas](schemas.md) to get started with Campaign schemas. 
 
-Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [this page](extend-schema.md).
+Learn how to configure extension schemas in order to extend the conceptual data model of the Adobe Campaign database in [Extend Campaign schemas](extend-schema.md).
 
 ## Data model architecture {#data-model-architecture}
 
@@ -132,7 +132,7 @@ The following table describes these identifiers and their purpose.
 
 In the context of an [Enterprise (FFDA) deployment](../architecture/enterprise-deployment.md), Adobe Campaign primary key is an auto-generated UUID for all built-in tables. A UUID can also be used for custom tables. [Learn more](../architecture/keys.md)
 
-Even if the number of IDs is infinite, you should take care of the size of your database to ensure optimal performances. To prevent any issue, make sure to adjust your instance purge settings. For more on this, see [this section](#data-retention).
+Even if the number of IDs is infinite, you should take care of the size of your database to ensure optimal performances. To prevent any issue, make sure to adjust your instance purge settings. For more on this, see [Data retention](#data-retention).
 
 
 ## Custom internal keys {#custom-internal-keys}

@@ -36,4 +36,4 @@ Use Campaign to create web forms and collect and manage profile data easily and 
 
 ![](assets/web-form-page.png) 
 
-Learn how to create web forms in [this section](../dev/web/about-web-forms.md).
+Learn how to create web forms in [Get started with web forms](../dev/web/about-web-forms.md).

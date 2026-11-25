@@ -34,9 +34,9 @@ topic_v2:
 The available endpoints for the Adobe Campaign REST API:
 
 * **/profileAndServices**: interact with out of the box fields. Extended fields are not accessible with this endpoint.
-* **/profileAndServicesExt**: interact with custom fields added during Profile or Services custom resource extension. For more on custom resources, refer to [this section](custom-resources.md).
-* **/&lt;transactionalAPI&gt;**: interact with the transactional messages API (the name of the transactional messages API endpoint depends on your instance configuration). For more on this, refer to [this section](managing-transactional-messages.md).
-* **/workflow/execution**: interact with workflows. For more on this, refer to [this section](controlling-a-workflow.md).
+* **/profileAndServicesExt**: interact with custom fields added during Profile or Services custom resource extension. For more on custom resources, refer to [Custom resources](custom-resources.md).
+* **/&lt;transactionalAPI&gt;**: interact with the transactional messages API (the name of the transactional messages API endpoint depends on your instance configuration). For more on this, refer to [Managing transactional messages](managing-transactional-messages.md).
+* **/workflow/execution**: interact with workflows. For more on this, refer to [Controlling a workflow](controlling-a-workflow.md).
 
 By default, the main resources available for the **profileAndServices** and **profileAndServicesExt** APIs are:
 

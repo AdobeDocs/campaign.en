@@ -38,7 +38,7 @@ With Adobe Campaign, create email deliveries to send personalized emails to the 
 >To create captivating and individually tailored emails, browse to the [web user interface](../start/campaign-ui.md#ac-web-ui). Adobe Campaign comes with the Email Designer, an intuitive drag and drop interface, allowing you to design and refine all content for every email.
 
 
-Learn key steps to create and configure a delivery in [this page](../start/create-message.md).
+Learn key steps to create and configure a delivery in [Create your first delivery](../start/create-message.md).
 
 ## Create an email delivery
 
@@ -83,7 +83,7 @@ In the following sample, you will learn steps to design an email delivery in Ado
    
       ![](assets/perso-check.png)
 
-      Learn more about personalization options in [this section](personalize.md).
+      Learn more about personalization options in [Get started with personalization](personalize.md).
 
    * Insert a tracked link
 
@@ -99,9 +99,9 @@ In the following sample, you will learn steps to design an email delivery in Ado
 
       Place the cursor where you want to insert this link, and click the last icon in the toolbar, then click **[!UICONTROL Include]** and select **[!UICONTROL link to mirror page]**.
       
-      Learn more about managing the mirror page in [this section](mirror-page.md#link-to-mirror-page).
+      Learn more about managing the mirror page in [Add a link to the mirror page](mirror-page.md#link-to-mirror-page).
 
-1. You can define additional parameters for your email such as sending a copy of your messages to a BCC address, changing the message format, setting a specific encoding, etc. Learn more in [this section](email-parameters.md).
+1. You can define additional parameters for your email such as sending a copy of your messages to a BCC address, changing the message format, setting a specific encoding, etc. Learn more in [Email parameters in Adobe Campaign](email-parameters.md).
 
 1. Once the content is ready, click **Save**: it will now be displayed in your list of deliveries, in the **[!UICONTROL Campaigns > Deliveries]** tab.
 
@@ -120,7 +120,7 @@ Learn how to create a workflow to import an email content in this [use case](htt
 
 ## Test and validate your emails
 
-Campaign offers several ways to test and validate your emails before sending them to your audiences. Learn how to preview and test your email content in [this section](../send/preview-and-proof.md).
+Campaign offers several ways to test and validate your emails before sending them to your audiences. Learn how to preview and test your email content in [Preview and test your email](../send/preview-and-proof.md).
 
 You can:
 

@@ -27,9 +27,9 @@ level_v2:
 ---
 # Transactional messaging settings {#mc-settings}
 
-Transactional messaging (Message Center) is a Campaign module designed for managing triggered messages. Learn more about Transactional messaging in [this section](../send/transactional.md).
+Transactional messaging (Message Center) is a Campaign module designed for managing triggered messages. Learn more about Transactional messaging in [Campaign Transactional messaging](../send/transactional.md).
 
-Understand transactional messaging architecture in [this page](../architecture/architecture.md#transac-msg-archi).
+Understand transactional messaging architecture in [Message Center architecture](../architecture/architecture.md#transac-msg-archi).
 
 
 >[!NOTE]

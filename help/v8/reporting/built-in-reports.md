@@ -78,7 +78,7 @@ The principle is the same for lists, services, offers, etc. as shown below:
 
 The built-in reports provided by Adobe Campaign can be found in the table below.
 
-For more on the content of these reports, refer to [this section](delivery-reports.md).
+For more on the content of these reports, refer to [Adobe Campaign built-in delivery reports](delivery-reports.md).
 
 <table> 
  <tbody> 

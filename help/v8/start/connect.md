@@ -135,7 +135,7 @@ Adobe Campaign lets you define and manage the rights assigned to the various ope
 
 As a Campaign administrator, you are responsible for creating the operators and sharing their credentials with the users. 
 
-Learn more about users and how to define their permissions in [this section](gs-permissions.md).
+Learn more about users and how to define their permissions in [Get started with permissions in Campaign v8](gs-permissions.md).
 
 
 ## Access Campaign with a web browser {#connect-web-ac}

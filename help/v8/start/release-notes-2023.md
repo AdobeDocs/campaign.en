@@ -41,7 +41,7 @@ topic_v2:
 ---
 # 2023 release notes {#2023-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+This page lists new capabilities, improvements, and fixes coming with **2023 Campaign v8 Releases**. For the latest release, refer to [Campaign v8 release notes](release-notes.md).
 
 For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
 
@@ -101,7 +101,7 @@ For more information, refer to the [detailed documentation](../send/push-data-co
 
 * You can now leverage Adobe Experience Platform Destination connection to sync profile attributes such as opt-out data between Adobe Experience Platform and Campaign v8 database. 
 * Delivery preparation has been optimized, across all channels.
-* A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access. Learn more in [this section](../config/external-accounts.md).
+* A new key-based authentication option has been added for the SFTP external account, alongside the existing user/password authentication method. Users can now securely authenticate using a private key, enhancing security and providing an alternative authentication mechanism for SFTP access. Learn more in [Campaign external accounts](../config/external-accounts.md).
 
 **Security enhancements**
 

@@ -28,7 +28,7 @@ role_v2:
 
 ## Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](#limitations-and-recommendations).
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [Limitations and recommendations](#limitations-and-recommendations).
 
 In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
@@ -93,8 +93,8 @@ For example, you can replace a profile's address by test@softbank.ne.jp if the e
 
 To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
-* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [Design a specific delivery for Japanese formats](#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [Design a delivery for all formats](#designing-a-delivery-for-all-formats).
 
 ### Design a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -114,4 +114,4 @@ The message content will display correctly for the users on Japanese mobiles, ju
 
 >[!IMPORTANT]
 >
->Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [Limitations and recommendations](#limitations-and-recommendations).

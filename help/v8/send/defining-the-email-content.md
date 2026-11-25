@@ -39,7 +39,7 @@ To define the name and address of the sender which will appear in the header of 
 
 This window lets you enter all the information required to create the email message headers. This information can be personalized. To do this, use the buttons to the right of the input fields to insert personalization fields.
 
-To find out how to insert and use personalization fields, refer to [this section](personalize.md).
+To find out how to insert and use personalization fields, refer to [Get started with personalization](personalize.md).
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ For example, in the message above, the subject of the message is personalized fo
 
 >[!NOTE]
 >
->The use of personalization fields is presented in [this section](personalize.md).
+>The use of personalization fields is presented in [Get started with personalization](personalize.md).
 
 You can also insert emoticons to your subject line with the **[!UICONTROL Insert emoticon]** pop-up window.
 
@@ -92,7 +92,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 * To import HTML content, use the **[!UICONTROL Open]** button. You can also paste the source code directly into the **[!UICONTROL Source]** sub-tab.
 
-  If you are using the Digital Content Editor (DCE), refer to [this section](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
+  If you are using the Digital Content Editor (DCE), refer to [Step 3 - Selecting content](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -114,7 +114,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
   >[!NOTE]
   >
-  >The use of personalization fields is presented in [this section](personalize.md).
+  >The use of personalization fields is presented in [Get started with personalization](personalize.md).
 
   The tabs at the bottom of the page let you display the HTML code of the page being created and view the rendering of the message with its personalization. To launch this display, click **[!UICONTROL Preview]** and select a recipient using the **[!UICONTROL Test personalization]** button in the toolbar. You can select a recipient from the defined target(s) or choose another recipient.
 
@@ -137,7 +137,7 @@ Messages are sent in HTML or text format by default, according to recipient pref
 
 Adobe Campaign enables you to try the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables you to send dynamic emails, under certain conditions.
 
-For more on this, see [this section](defining-interactive-content.md).
+For more on this, see [Define interactive content in Adobe Campaign](defining-interactive-content.md).
 
 ## Use content management {#using-content-management}
 

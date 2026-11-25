@@ -35,7 +35,7 @@ For each delivery, you can track the reception of messages and the activation of
 
 >[!NOTE]
 >
->The links in email content that contain personalization need specific syntax to be tracked. Learn more about how to add links in emails that can be personalized and that support tracking in [this section](personalized-links.md).
+>The links in email content that contain personalization need specific syntax to be tracked. Learn more about how to add links in emails that can be personalized and that support tracking in [Track personalized links](personalized-links.md).
 
 Message tracking is enabled by default. To personalize how URLs are tracked, follow the steps below:
 
@@ -74,7 +74,7 @@ Message tracking is enabled by default. To personalize how URLs are tracked, fol
    * **[!UICONTROL Opt-out]**: considers this URL as an opt-out or unsubscription URL.
    * **[!UICONTROL Mirror page]**: considers this URL to be a mirror page URL.
 
-1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed in reports, as for example in the **[!UICONTROL URLs and click streams]** report (see [this section](../reporting/delivery-reports.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]**. Learn more about how to work with enumerations in [this section](../config/enumerations.md).
+1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed in reports, as for example in the **[!UICONTROL URLs and click streams]** report (see [URLs and click streams](../reporting/delivery-reports.md#urls-and-click-streams)). Categories are defined in a specific enumeration: **[!UICONTROL urlCategory]**. Learn more about how to work with enumerations in [Manage enumerations](../config/enumerations.md).
 
 ## Best practices for URL delimiters {#url-delimiters}
 

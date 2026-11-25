@@ -85,7 +85,7 @@ For more on creating, designing and targeting a delivery, refer to this [page](d
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [this section](preview-and-proof.md#send-proofs).
+   A proof is sent. The rendering thumbnails can be accessed in that proof a few minutes after sending the emails. For more on sending proofs, refer to [Send proofs](preview-and-proof.md#send-proofs).
 
 1. After being sent, the proof appears in the delivery list. Double-click it.
 

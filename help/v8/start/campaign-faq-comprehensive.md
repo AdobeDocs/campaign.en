@@ -98,7 +98,7 @@ Yes! Thanks to the integration with the IMS (Adobe Identity Management System), 
 
 +++ What are Campaign user interface concepts I should know?
 
-Refer to [this section](campaign-ui.md) to learn more about Adobe Campaign user interface basics.
+Refer to [Discover Campaign user interface](campaign-ui.md) to learn more about Adobe Campaign user interface basics.
 
 Starting Campaign v8.6 release, you also have access to the new **Campaign Web user interface**, available through the central [!DNL CX Enterprise] environment.
 

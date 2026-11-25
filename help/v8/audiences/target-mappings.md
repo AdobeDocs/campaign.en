@@ -67,7 +67,7 @@ You can also create a target mapping. You may need to add a custom target mappin
 * you use a custom recipient table,
 * you configure a filtering dimension which is different from the built-in targeting dimension on the target mapping screen.
 
-Learn more about custom recipient tables in [this page](../dev/custom-recipient.md).
+Learn more about custom recipient tables in [Change your default recipient table](../dev/custom-recipient.md).
 
 Adobe Campaign target mapping creation wizard helps you create all schemas required to use your custom target mapping.
 

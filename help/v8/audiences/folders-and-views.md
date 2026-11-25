@@ -113,7 +113,7 @@ In the example below, we will create a new folder to display only US deliveries,
 
    >[!NOTE]
    >
-   >Learn how to design queries in [this page](create-filters.md#advanced-filters)
+   >Learn how to design queries in [Advanced filters](create-filters.md#advanced-filters)
 
 
 >[!CAUTION]
@@ -142,4 +142,4 @@ For example, the folder below will contain only contacts with an email address a
 
 ## Restrict access to a folder{#restrict-access-to-a-folder}
 
-Use permissions on folders to organize and control access to Campaign data. Learn more about permissions on folders in [this section](../start/folder-permissions.md).
+Use permissions on folders to organize and control access to Campaign data. Learn more about permissions on folders in [Grant and restrict permissions on Campaign folders](../start/folder-permissions.md).

@@ -34,7 +34,7 @@ topic_v2:
 
 Campaign helps you add contacts to the database. You can load a file, schedule and automate multiple contact updates, collect data on the Web, or enter profile information directly into the recipient table. 
 
-Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [this section](../../automation/workflow/recurring-import-workflow.md).
+Profile imports are configured in dedicated templates executed through workflows via the **Import** activity. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. Learn more in [Set up a recurring import](../../automation/workflow/recurring-import-workflow.md).
 
 ![](assets/import-wf.png) 
 
@@ -44,7 +44,7 @@ Adobe Campaign lets you import data into the database from one or more files in 
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [this page](../../automation/workflow/read-list.md).
+>You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function. The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. For more on this, refer to [Read list](../../automation/workflow/read-list.md).
 
 
 ## Use the import assistant
@@ -315,7 +315,7 @@ The next step of the import assistant lets you select or create the folder in wh
     
        ![](assets/s_ncs_user_import_wizard05_7.png)
 
-       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [this section](../start/subscriptions.md).
+       You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. The management of information services is presented in [Manage subscriptions and unsubscriptions in Campaign](../start/subscriptions.md).
 
 * Use the **[!UICONTROL Origin]** field to add information about the origin of recipients to their profiles. This information is particularly useful within the framework of a multiple import.
 
@@ -458,7 +458,7 @@ Use Campaign to create web forms and collect and manage profile information easi
 
 ![](assets/web-form-page.png) 
 
-Learn how to create web forms in [this section](../dev/web/about-web-forms.md).
+Learn how to create web forms in [Get started with web forms](../dev/web/about-web-forms.md).
 
 **Related topics**
 

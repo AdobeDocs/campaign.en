@@ -122,7 +122,7 @@ To create a service to send push notifications, follow the steps below:
 
    >[!NOTE]
    >
-   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. Learn more about target mappings in [this page](../audiences/target-mappings.md).
+   >The default **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** target mapping is linked to the recipients table. If you want to use a different target mapping, you need to create a new target mapping and enter it in the **[!UICONTROL Target mapping]** field of the service. Learn more about target mappings in [Work with target mappings](../audiences/target-mappings.md).
 
 1. Then use the **[!UICONTROL Add]** icon on the right to define the mobile applications that use this service.
 
@@ -271,4 +271,4 @@ The Adobe Experience Platform Mobile SDK helps power [!DNL Adobe CX Enterprise] 
 
 Once you have successfully configured your mobile application in Data Collection, you can now create and send push notifications in Adobe Campaign. 
 
-Refer to [this page](push.md#push-create) for the detailed elements specific to the delivery of iOS and Android notifications.
+Refer to [Create your first push notification](push.md#push-create) for the detailed elements specific to the delivery of iOS and Android notifications.

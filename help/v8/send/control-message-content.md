@@ -48,7 +48,7 @@ For more on defining the address of the sender, see this [page](defining-the-ema
 
 To improve your recipients' experience and make them open your email, Adobe Campaign enables you to personalize your messages.
 
-For more on using personalization fields in Adobe Campaign, see [this section](personalization-fields.md).
+For more on using personalization fields in Adobe Campaign, see [Add personalization fields](personalization-fields.md).
 
 ## Opt-out link and form {#opt-out}
 

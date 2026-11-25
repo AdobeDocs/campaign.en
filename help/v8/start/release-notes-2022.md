@@ -250,14 +250,14 @@ Refer to the [Campaign Compatibility matrix](compatibility-matrix.md).
 
 **Improvements**
 
-* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Read more](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Bounce mails](../config/external-accounts.md#bounce-mails-external-account)
 * Critical fixes have been applied regarding the Microsoft Dynamics Connector web API. 
 * The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas. 
 <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
 <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * Multiple LINE active accounts can now be configured on a single mid-sourcing.
 * The number of default connections for the web process has been increased from 50 to 150. 
-* Campaign comes with a set of new guardrails to prevent insertion of duplicated keys in Snowflake database. [Read more](../architecture/keys.md)
+* Campaign comes with a set of new guardrails to prevent insertion of duplicated keys in Snowflake database. [Key management in Campaign](../architecture/keys.md)
 
 **Fixes**
 

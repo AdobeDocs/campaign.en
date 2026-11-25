@@ -78,7 +78,7 @@ Adobe Campaign currently does not provide recommended secure configuration guida
 
 ## Privacy
 
-To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. Adobe Campaign's capabilities help you comply with the regulations listed in [this page](../start/privacy.md)
+To correctly handle privacy and manage personal data, work within the legislations applicable to the region(s) where you operate. Adobe Campaign's capabilities help you comply with the regulations listed in [Manage Privacy requests in Campaign](../start/privacy.md)
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -94,7 +94,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 
 * **How Adobe Experience Cloud is used to collect information**
 
-    * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
+    * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [Tracking capabilities](#tracking-capabilities).
     * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../send/sms/sms-channel.md) and Mobile app channel.
 
 * **Your users' privacy choices about your use of Adobe Experience Cloud**
@@ -156,19 +156,19 @@ Adobe Campaign enables you to collect data, including personal and sensitive inf
 
 * Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../dev/web/use-cases-web-forms.md).
 * Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
-* Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
-* Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
+* Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [Consent, Retention and Roles](#consent).
+* Facilitate and manage Privacy requests from your recipients. For more on this, see [Privacy requests](#privacy-requests).
 
 ## Privacy management {#privacy-management}
 
 Privacy management refers to all the processes and tools that can help you comply with Privacy regulations (GDPR, CCPA, etc.).
 
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
-* Consent management, data Retention and user Roles. See [this section](#consent).
-* Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
+* Consent management, data Retention and user Roles. See [Consent, Retention and Roles](#consent).
+* Privacy requests (Right to Access and Right to be Forgotten). See [Privacy requests](#privacy-requests).
 * Opt-out for the Sale of Personal Information (CCPA-specific).
 
-The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](#personal-data).
+The main Privacy capabilities in Campaign and an example of the personas involved are presented in [Personal Data and Personas](#personal-data).
 
 ### Consent, Retention and Roles {#consent}
 
@@ -186,9 +186,9 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 * The **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase their personal data.
 
-The **Access** and **Delete** requests are presented in [this section](../start/privacy.md).
+The **Access** and **Delete** requests are presented in [Manage Privacy requests in Campaign](../start/privacy.md).
 
-The implementation steps to create these requests are detailed in [this section](../start/privacy.md).
+The implementation steps to create these requests are detailed in [Manage Privacy requests in Campaign](../start/privacy.md).
 
 ## Tracking capabilities {#tracking-capabilities}
 
@@ -210,13 +210,13 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About messages](../start/gs-message.md).
 
-To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the Tracking tab of the delivery dashboard. Tracking data is interpreted in the Tracking indicators report. To learn more about tracking, refer to [this page](../send/tracking.md).
+To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the Tracking tab of the delivery dashboard. Tracking data is interpreted in the Tracking indicators report. To learn more about tracking, refer to [Get started with message tracking](../send/tracking.md).
 
 ### Web tracking {#web-tracking}
 
 >[!AVAILABILITY]
 >
->Web tracking is not available in Campaign v8. Learn more about unavailable features in [this page](../start/v7-to-v8.md#gs-unavailable-features).
+>Web tracking is not available in Campaign v8. Learn more about unavailable features in [Unavailable features](../start/v7-to-v8.md#gs-unavailable-features).
 
 ## Data and PII protection {#data-and-pii-protection}
 
@@ -244,7 +244,7 @@ Access management is an important part of security hardening. Here are the main 
 * **Use product profiles consistently** – Prefer assigning users to product profiles (operator groups) in Admin Console; keep naming consistent (e.g. `campaign - <instance> - <group>`). See [Get started with permissions](../start/gs-permissions.md).
 * **Control Panel access** – In Campaign v8, product profiles or named rights whose name contains "admin" can grant access to Campaign Control Panel. Avoid using "admin" in profile or group names unless those users should have Control Panel access.
 
-Learn more about permissions in [this section](../start/gs-permissions.md).
+Learn more about permissions in [Get started with permissions in Campaign v8](../start/gs-permissions.md).
 
 ## Authentication and session {#authentication-and-session}
 
@@ -288,7 +288,7 @@ When adding personalized links to your content, always avoid having any personal
 
 You have to make sure that the encrypted passwords will not be accessible by a low privilege authenticated user. To do that, there are two main ways: restrict access to password fields only or to the entire entity.
 
-This restriction allows you to remove password fields but leaves the external account accessible from the interface for all users. Learn more in [this page](../dev/restrict-pi-view.md).
+This restriction allows you to remove password fields but leaves the external account accessible from the interface for all users. Learn more in [Restrict PI view](../dev/restrict-pi-view.md).
 
 1. Go in **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 

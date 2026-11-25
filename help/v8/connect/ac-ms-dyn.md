@@ -182,10 +182,10 @@ First, you must create the Microsoft Dynamics 365 external account.
     1. To configure the Microsoft Dynamics CRM external account to connect with Adobe Campaign with a **Certificate**, provide the following details:
 
         * **Server**: URL of your Microsoft CRM server. To find your Microsoft CRM Server URL, access your Microsoft Dynamics CRM account then click Dynamics 365 and select your app. You can then find your Server URL in the address bar of your browser, e.g. https://myserver.crm.dynamics.com/.
-        * **Private key**: Copy/Paste the private key, encoded base64 as explained in [this section](#config-certificate-key-id).
-        * **Key ID**: Key available in the **Manifest** tab of your application, as explained in [this section](#config-certificate-key-id).
-        * **Custom Key identifier**: Identifier available in the **Manifest** tab of your application, as explained in [this section](#config-certificate-key-id).
-        * **Client identifier**: Application (client) ID which can be found from Microsoft Azure management portal as explained in [this section](#get-client-id-microsoft).
+        * **Private key**: Copy/Paste the private key, encoded base64 as explained in [Generate Microsoft Dynamics Certificate key identifier and Key ID](#config-certificate-key-id).
+        * **Key ID**: Key available in the **Manifest** tab of your application, as explained in [Generate Microsoft Dynamics Certificate key identifier and Key ID](#config-certificate-key-id).
+        * **Custom Key identifier**: Identifier available in the **Manifest** tab of your application, as explained in [Generate Microsoft Dynamics Certificate key identifier and Key ID](#config-certificate-key-id).
+        * **Client identifier**: Application (client) ID which can be found from Microsoft Azure management portal as explained in [Get Dynamics 365 Client ID](#get-client-id-microsoft).
         * **CRM version**: Choose Dynamics CRM 365 CRM version.
 
 1. Select the **Enable** option to activate the account in Campaign.

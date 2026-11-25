@@ -73,7 +73,7 @@ The MTA qualifies the SMTP bounce and sends that qualification back to Campaign 
 >
 >Currently **asynchronous** bounces are qualified by the inMail process through the **[!UICONTROL Inbound email]** rules. 
 
-Learn more on delivery failures in [this section](delivery-failures.md).
+Learn more on delivery failures in [Delivery failures in Campaign](delivery-failures.md).
 
 
 ### Specific MX rules
@@ -108,9 +108,9 @@ When soft-bouncing messages get reported back from the MTA, their log status re
   
 >[!NOTE]
 >
->For more on hard and soft bounces, see [this section](delivery-failures.md#delivery-failure-reasons).
+>For more on hard and soft bounces, see [Why has the message delivery failed](delivery-failures.md#delivery-failure-reasons).
 >
->For more on retries after a delivery temporary failure, see [this section](delivery-failures.md#retries).
+>For more on retries after a delivery temporary failure, see [Retry management](delivery-failures.md#retries).
 
 The table below shows how the KPIs and sending logs statuses are updated at each step of the sending process.
 

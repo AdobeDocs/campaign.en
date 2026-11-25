@@ -49,7 +49,7 @@ To select the file to use as a data source, browse to the To link in the message
 
 Personalization data can be pulled out from an external table through [Federated Data Access](../connect/fda.md).  If you want to carry out personalization in your deliveries using data from the external database, collect the data to use in a workflow to make it available in a temporary table. 
 
-To perform this, add a **Query** activity in the targeting workflow and use the **Add data...** link to select the external database. The detailed process is available in [this section](../../automation/workflow/query.md#adding-data).
+To perform this, add a **Query** activity in the targeting workflow and use the **Add data...** link to select the external database. The detailed process is available in [Add data](../../automation/workflow/query.md#adding-data).
 
 Then use the data from the temporary table to personalize your delivery. Once the query activity is configured, access the external data in the personalization options, from the **Target extension** entry.
 
@@ -83,4 +83,4 @@ Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** an
 
 When a delivery is created in the context of a workflow, you can use the data from the temporary workflow table. The data stored in the workflow temporary work table is available for personalization tasks. Data can be used in the personalization fields.
 
-This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to  [this section](../../automation/workflow/use-workflow-data.md#target-data).
+This data is grouped in the **[!UICONTROL Target extension]** menu. For more on this, refer to  [Leverage target data](../../automation/workflow/use-workflow-data.md#target-data).
