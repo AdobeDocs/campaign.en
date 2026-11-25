@@ -138,7 +138,7 @@ Here are the different personas used in this example:
 
 * **Adobe Campaign** is the **Data Processor**.
 
-![](assets/privacy-gdpr-flow.png)
+![Privacy request flow: Laura sends a request, Anne queries Adobe Campaign, results are returned, then Anne responds to Laura](assets/privacy-gdpr-flow.png)
 
 Here is the general flow for this use case:
 

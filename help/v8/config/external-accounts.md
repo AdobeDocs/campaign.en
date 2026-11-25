@@ -43,7 +43,7 @@ External accounts are used by technical processes such as technical workflows or
 
 You can access external accounts from Adobe Campaign **[!UICONTROL Explorer]**: browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
-![](assets/external-accounts.png)
+![External Accounts list under Administration > Platform, with the Android routing account open on the General tab](assets/external-accounts.png)
 
 
 >[!CAUTION]
@@ -68,7 +68,7 @@ The **Bounce mails** external account specifies the external POP3 account to be 
 
 Learn more about inbound emails in [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
-![](assets/bounce_external_1.png)
+![Bounce mails (POP3) external account with Server, Port, Account, Password, Encryption and Function fields](assets/bounce_external_1.png)
 
 To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external account:
 
@@ -84,7 +84,7 @@ To configure the **[!UICONTROL Bounce mails (defaultPopAccount)]** external acco
 
 * **[!UICONTROL Function]** - Inbound email or SOAP router.
 
-![](assets/bounce_external_2.png)
+![Bounce mails external account with Microsoft OAuth 2.0 checked, showing the Azure tenant, client id, secret and URL fields](assets/bounce_external_2.png)
 
 >[!CAUTION]
 >
