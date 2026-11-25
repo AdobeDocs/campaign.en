@@ -58,7 +58,7 @@ To create a report based on an existing cube, follow the steps below:
 
 1. You can switch the axes of the dimension, delete them, add new measures, etc. To do this, use the appropriate icons.
 
-   ![Report toolbar and axis buttons used to switch, delete or add dimensions and measures](assets/cube-switch-axis.png)
+   ![Creation date dimension dragged from the left axis to the top axis next to Age in the New Client Profile report](assets/cube-switch-axis.png)
 
    These operations are detailed below.
 
