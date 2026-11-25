@@ -29,7 +29,7 @@ topic_v2:
 ---
 # Latest releases {#latest-release}
 
-This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [this page](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
+This page lists new capabilities, improvements and fixes coming with Campaign v8 (console) **latest releases**. Learn more about Campaign releases, versions, and upgrades in [Campaign versions, upgrades, and security](upgrades.md). Other releases are listed in the Previous releases section of this documentation.
 
 ## Release 8.9.4 {#release-8-9-4}
 
@@ -138,8 +138,8 @@ _Jan 27, 2026_
 
 ### Security improvements {#security-8-9-1}
 
-* Snowflake external accounts now support OAuth2 authentication, providing modern and secure authentication methods for federated data access connections. (NEO-87013) [Read more](../config/external-accounts.md#snowflake-external-accounts)
-* Databricks external accounts now support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication methods for federated data access connections. Interactive OAuth2 authentication will be available in a future release. (NEO-87422) [Read more](../config/external-accounts.md#databricks-external-accounts)
+* Snowflake external accounts now support OAuth2 authentication, providing modern and secure authentication methods for federated data access connections. (NEO-87013) [Snowflake external account](../config/external-accounts.md#snowflake-external-accounts)
+* Databricks external accounts now support OAuth2 authentication via service principal (non-interactive client credentials flow), providing secure authentication methods for federated data access connections. Interactive OAuth2 authentication will be available in a future release. (NEO-87422) [Databricks external account](../config/external-accounts.md#databricks-external-accounts)
 * Fixed workflow file access vulnerabilities by restricting operations to authorized directories, preventing unauthorized access and potential remote code execution. (NEO-88460)
 * Added FTP URL allowlisting controls to workflow JavaScript code activities, restricting outbound FTP connections to authorized addresses only. (NEO-89083)
 * Fixed a security issue that could cause application denial of service. (NEO-89984)

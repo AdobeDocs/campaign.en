@@ -63,7 +63,7 @@ To subscribe (opt-in) a profile to a service, available options are:
 
    ![](assets/web-app.png) 
 
-   Learn more in [this section](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
+   Learn more in [Create a subscription form with double opt-in](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 
 * Create a targeting workflow and use a **[!UICONTROL Subscription service]** activity. 

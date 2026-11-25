@@ -81,9 +81,9 @@ Profiles are centralized in a powerful cloud database. There are many possible m
 
 In Adobe Campaign, recipients are the default profiles targeted for sending deliveries (emails, SMS, etc.). Thanks to the recipient data that are stored in the database, you will be able to filter the target that will receive any given delivery and to add personalization data in your delivery contents. Other types of profiles exist in the database. They are designed for different uses. For example, seed profiles are made to test your deliveries before they are sent to the final target.
 
-Profile management basics are explained in [this section](audiences.md).
+Profile management basics are explained in [Work with audiences in Campaign](audiences.md).
 
-Learn how to add profiles to Campaign in [this section](import.md).
+Learn how to add profiles to Campaign in [Get started with profiles](import.md).
 
 ## Targeted segmentation {#targeted-segmentation}
 
@@ -91,13 +91,13 @@ Adobe Campaign has powerful, user-friendly segmentation and targeting features t
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. 
 
-Learn more about segmentation and audience creation in [this section](audiences.md).
+Learn more about segmentation and audience creation in [Work with audiences in Campaign](audiences.md).
 
 ## Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
 Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. 
 
-Learn how to design, schedule and execute a campaign in [this section](campaigns.md).
+Learn how to design, schedule and execute a campaign in [Get Started with Campaigns](campaigns.md).
 
 ## Workflows {#wf-gsv8}
 
@@ -112,7 +112,7 @@ Workflows can be used in different contexts, as for example:
 * Importing data into Campaign database.
 * Technical processes such as database cleanup, recovering tracking information, etc.
 
-Learn how to design and execute workflows in [this section](../config/workflows.md).
+Learn how to design and execute workflows in [Manage and automate processes with Adobe Campaign workflows](../config/workflows.md).
 
 ## Reporting and analysis {#analysis-and-reporting}
 
@@ -123,19 +123,19 @@ In addition to powerful, out-of-the box reporting templates, Adobe Campaign lets
 The campaign reporting feature facilitates the creation of dynamic reports. You can use drag-and-drop variables to customize your reports and to analyze the success of your campaigns. Depending on the complexity of your queries and calculations, the data can be aggregated into a list view or accessed in a format that makes it easy to generate marketing analytics reports.
 
 
-Learn more about report and tracking capabilities in [this section](../reporting/gs-reporting.md).
+Learn more about report and tracking capabilities in [Get started with Adobe Campaign reporting tools](../reporting/gs-reporting.md).
 
 ## [!DNL Adobe CX Enterprise] integrations {#adobe-experience-cloud-integrations}
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example.  
 
-Learn how to integrate with Adobe services and solutions in [this section](../connect/integration.md).
+Learn how to integrate with Adobe services and solutions in [Connect Campaign with your solutions](../connect/integration.md).
 
 ## More about Campaign capabilities {#core-capabilities-and-add-ons}
 
 Adobe Campaign offers a set of capabilities to help you implement and optimize the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package on your configuration. A detailed product description is available here: [Adobe Campaign v8 Product Description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [this page](v7-to-v8.md).
+Already familiar with Campaign Classic? Learn key differences between Campaign Classic and Campaign v8 in [Transition from Campaign Classic v7 to Campaign v8](v7-to-v8.md).
 
 **See also**
 

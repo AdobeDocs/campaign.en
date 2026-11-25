@@ -41,7 +41,7 @@ topic_v2:
 ---
 # 2025 release notes {#2025-rn}
 
-This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. For the latest release, refer to [this page](release-notes.md).
+This page lists new capabilities, improvements, and fixes coming with **2025 Campaign v8 Releases**. For the latest release, refer to [Campaign v8 release notes](release-notes.md).
 
 For any new implementation or upgrade to an existing environment, install [the latest release](release-notes.md).
 
@@ -108,7 +108,7 @@ _July 9, 2025_
 
 Previously released for a small set of customers, the following capability is now available to all Campaign FDA environments:
 
-* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. Contact Adobe if you would like to transition to the new connector. [Read more](../send/sms/sms.md)
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. Contact Adobe if you would like to transition to the new connector. [Send SMS with Adobe Campaign](../send/sms/sms.md)
 
     >[!NOTE]
     >
@@ -165,13 +165,13 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **Rest APIs** - You can now use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. The Transactional Messaging REST API is also available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. Event-based Transactional APIs are also available for Emails. [Read more](../dev/api/get-started-apis.md)
+* **Rest APIs** - You can now use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. The Transactional Messaging REST API is also available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. Event-based Transactional APIs are also available for Emails. [Get started with Campaign REST APIs](../dev/api/get-started-apis.md)
 
     >[!NOTE]
     >
     >This feature is **not** available for [Campaign FFDA deployments](../architecture/enterprise-deployment.md).
 
-* **One-Click List-Unsubscribe** - With major ISPs requiring senders to allow recipients to instantly opt out with a single click, you can now enable the One-Click List-Unsubscribe header in the user interface, directly from the email template or delivery properties. This option is enabled by default. [Read more](../send/email-parameters.md#one-click-list-unsubscribe)
+* **One-Click List-Unsubscribe** - With major ISPs requiring senders to allow recipients to instantly opt out with a single click, you can now enable the One-Click List-Unsubscribe header in the user interface, directly from the email template or delivery properties. This option is enabled by default. [Enable One-click List-unsubscribe](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -192,11 +192,11 @@ Refer to the Campaign Web UI [release notes](https://experienceleague.adobe.com/
 
 ### General improvements {#improvements-8-8-1}
 
-* Microsoft Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA). [Read more](../config/external-accounts.md#transfer-data-external-accounts)
-* Campaign v8 now supports Android 15 and iOS 18 for Push Notifications. [Read more](../start/compatibility-matrix.md#MobileSDK)
-* Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling. [Read more](../config/enhanced-security.md#vpn-databases)
-* A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Read more](../send/sms/smpp-external-account.md#incoming-traffic)
-* Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Read more](../send/quarantines.md)
+* Microsoft Fabrics is now supported as an external database with Adobe Campaign Federated Data Access (FDA). [Transfer data external accounts](../config/external-accounts.md#transfer-data-external-accounts)
+* Campaign v8 now supports Android 15 and iOS 18 for Push Notifications. [Mobile SDK](../start/compatibility-matrix.md#MobileSDK)
+* Cloud databases are now supported in addition to the on-premise databases for Secure Virtual Private Network tunneling. [Supported databases and devices](../config/enhanced-security.md#vpn-databases)
+* A new set of "Provider ID" fields has been added in the "Incoming traffic" section of the SMS 2.0 connector. [Incoming traffic](../send/sms/smpp-external-account.md#incoming-traffic)
+* Unsubscribed recipients through the "mailto" List-Unsubscribe method are no longer sent to quarantine. They are either unsubscribed from the service associated with the delivery, or sent to the denylist (profile's "No longer contact" section) if no service was defined for the delivery. [Quarantine management in Campaign](../send/quarantines.md)
 * A revamped version of the inbox rendering report is now available in the Adobe Campaign client console. 
 * The `setup-client.exe` file has been replaced with an `ac-client.msi` file, providing a simpler method for administrators to perform mass upgrades without requiring user intervention.
 
@@ -308,7 +308,7 @@ _April 25, 2025_
 
 ### New features {#features-8-6-5}
 
-**New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Read more](../send/sms/sms.md). 
+**New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementations are still supported, however recommendation is to move to this new modern and extended connector. [Send SMS with Adobe Campaign](../send/sms/sms.md). 
 
 ### General improvements {#improvements-8-6-5}
 
@@ -360,7 +360,7 @@ _Feb 14, 2025_
 
 * **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
-* **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](../dev/api/get-started-apis.md)
+* **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Get started with Campaign REST APIs](../dev/api/get-started-apis.md)
 
 ### Fixes {#fixes-8-7-3}
 
@@ -376,8 +376,8 @@ _Jan 15, 2025_
 
 * Campaign application stability has been improved during delivery analysis in the context of an [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md).
 * This release comes with improved and strengthened FFDA architecture mechanisms, including key management, staging, and data replication.
-* New technical workflows have been introduced for the [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md). These workflows replicate delivery and related data by centralizing parallel replication requests on corresponding tables. These workflows start with `Replicate nms`. [Read more](../architecture/replication.md)
-* A new **Enable watchdog supervisor to keep workflow running permanently** option is now available in the workflow properties. When this option is enabled, workflows automatically restart after an error occurred. The restart happens every 30 seconds by default if the workflow is still in error. To adjust this interval, you can create a new `XtkWorkflow_WatchdogRestartTimerTimeout` option and set an Integer data type to specify the new delay. This option should only be enabled in technical workflows. [Read more](../../automation/workflow/workflow-properties.md#execution)
+* New technical workflows have been introduced for the [Enterprise (FFDA) deployment](../../v8/architecture/enterprise-deployment.md). These workflows replicate delivery and related data by centralizing parallel replication requests on corresponding tables. These workflows start with `Replicate nms`. [Data replication](../architecture/replication.md)
+* A new **Enable watchdog supervisor to keep workflow running permanently** option is now available in the workflow properties. When this option is enabled, workflows automatically restart after an error occurred. The restart happens every 30 seconds by default if the workflow is still in error. To adjust this interval, you can create a new `XtkWorkflow_WatchdogRestartTimerTimeout` option and set an Integer data type to specify the new delay. This option should only be enabled in technical workflows. [Execution](../../automation/workflow/workflow-properties.md#execution)
 
 ### Security improvements {#security-8-6-4}
 

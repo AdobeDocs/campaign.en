@@ -51,7 +51,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     Depending on the complexity of the queries, calculations and volumes, the data analyzed in these reports can be collected via a query and pre-aggregated in a list (data management type workflow) or in a Cube (using Marketing Analytics). It will be displayed in the form of a pivot table or a group list.
 
-    For more on this, refer to [this section](gs-cubes.md).
+    For more on this, refer to [Get started with Adobe Campaign analytics reports](gs-cubes.md).
 
 * **Built-in reports**
 
@@ -61,7 +61,7 @@ Adobe Campaign provides a set of reporting tools listed in this page.
 
     ![](assets/built-in-reports.png)
 
-   For more on this, refer to [this section](built-in-reports.md).
+   For more on this, refer to [Adobe Campaign built-in reports](built-in-reports.md).
 
 * **Descriptive data analysis**
 

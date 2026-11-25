@@ -40,13 +40,13 @@ Learn how to import, update and manage profiles and audiences [in this section](
 
 A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-Learn how to create and manage lists in [this page](../audiences/create-audiences.md).
+Learn how to create and manage lists in [Create profile audiences in Campaign](../audiences/create-audiences.md).
 
 ## Filter the database{#filter-the-database}
 
 Filter configuration lets you select data from a list **[!UICONTROL dynamically]**: when the data is modified, the filtered data is updated. You can create your own filters or use the built-in filters to define a target audience.
 
-Learn how to create and manage filters in [this page](../audiences/create-filters.md).
+Learn how to create and manage filters in [Work with filters in Adobe Campaign](../audiences/create-filters.md).
 
 ## Create an audience in a workflow
 

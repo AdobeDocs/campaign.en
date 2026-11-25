@@ -40,7 +40,7 @@ The [Inbox rendering report](inbox-rendering.md) enables you to preview your mes
 
 ### Delivery throughput {#throughput-reports}
 
-The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [this section](../reporting/global-reports.md#delivery-throughput).
+The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform's throughput for a given period. For more on this, see [Delivery throughput](../reporting/global-reports.md#delivery-throughput).
 
 ### Broadcast statistics {#broadcast-statistics}
 

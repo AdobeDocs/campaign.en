@@ -123,7 +123,7 @@ In addition, you can select split external accounts as the default routing provi
 
 Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. 
 
-Learn how to send transactional messages in [this section](../send/transactional.md).
+Learn how to send transactional messages in [Campaign Transactional messaging](../send/transactional.md).
 
 In response to an action of a customer on a website, an event is sent to Campaign through a REST API, and the message template is populated with the information or data provided through the API call, and a transactional message is sent in real-time to the customer. These messages can be sent individually or in batches via email, SMS or push notifications. 
 
@@ -131,7 +131,7 @@ In this specific architecture, the execution cell is separated from the control 
 
 * The **Control instance** (or Marketing instance) is used by marketers and IT teams to create, configure and publish message templates. This instance also centralizes event monitoring and history.
     
-    Learn how to create and publish message templates in [this section](../send/transactional.md).
+    Learn how to create and publish message templates in [Campaign Transactional messaging](../send/transactional.md).
 
 * The **Execution instance** retrieves incoming events (password reset or orders from a website for example) and sends out personalized messages. There can be more than one execution instance to process messages via the load-balancer and scale the number of events to be processed for maximum availability.
 
@@ -152,4 +152,4 @@ To use these capabilities, Adobe Campaign users log on to the control instance t
 * Multiple execution instances
     In a multi-cell execution architecture with multiple execution instances behind a load balancer, the logon method invoked by the external application is going through the load balancer: for that reason, a token-based authentication cannot be used. A user/password-based authentication is required. 
 
-Learn more about Transactional messaging events in [this page](../send/event-processing.md).
+Learn more about Transactional messaging events in [Collect and process events](../send/event-processing.md).

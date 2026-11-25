@@ -104,7 +104,7 @@ For more details on the different delivery failures you can encounter, and how t
  </tbody> 
 </table>
 
-To learn how to optimize the deliverability of your Adobe Campaign emails, refer to [this section](about-deliverability.md). For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+To learn how to optimize the deliverability of your Adobe Campaign emails, refer to [Get started with deliverability in Campaign](about-deliverability.md). For a deeper dive on deliverability, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 ## Pending status {#pending-status}
 

@@ -72,7 +72,7 @@ Before starting, as a Campaign **Administrator**, make sure you performed the fo
 
 1. Configure the Offer engine for inbound interactions to present and update one or several offers.
 
-   The various integration modes are detailed in [this section](interaction-present-offers.md).
+   The various integration modes are detailed in [Present an offer (inbound interaction)](interaction-present-offers.md).
 
    >[!NOTE]
    >

@@ -99,7 +99,7 @@ For each delivery, you can also check the **[!UICONTROL Delivery summary]** repo
 * The number of addresses placed in quarantine during the delivery analysis,
 * The number of addresses placed in quarantine following the delivery action.
 
-Learn more about delivery reports in [this section](../reporting/gs-reporting.md).
+Learn more about delivery reports in [Get started with Adobe Campaign reporting tools](../reporting/gs-reporting.md).
 
 ### Non deliverable and bounce addresses{#non-deliverable-bounces}
 
@@ -139,7 +139,7 @@ Addresses that match specific conditions are automatically deleted from the quar
 The addresses are automatically removed from the quarantine list in the following cases:
 
 * Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list after a successful delivery.
-* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [this section](#soft-error-management).
+* Addresses in a **[!UICONTROL With errors]** status will be removed from the quarantine list if the last soft bounce occurred more than 10 days ago. For more on soft error management, see [Soft error management](#soft-error-management).
 * Addresses in a **[!UICONTROL With errors]** status that bounced with the **[!UICONTROL Mailbox full]** error will be removed from the quarantine list after 30 days.
 
 Their status then changes to **[!UICONTROL Valid]**.

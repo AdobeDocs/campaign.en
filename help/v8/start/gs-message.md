@@ -56,21 +56,21 @@ To send messages, you must create a delivery. The delivery creation mode depends
 
 >[!NOTE]
 >
->When creating a delivery, you must select a template. Default templates are available for each channel. Learn more about delivery templates in [this page](../send/create-templates.md).
+>When creating a delivery, you must select a template. Default templates are available for each channel. Learn more about delivery templates in [Work with delivery templates](../send/create-templates.md).
 
-1. **One-shot messages** - You can send one-shot messages to an audience. Learn how to send your first message in [this section](create-message.md).
+1. **One-shot messages** - You can send one-shot messages to an audience. Learn how to send your first message in [Create your first delivery](create-message.md).
 
     ![](assets/send-email.png)
 
-1. **Messages in a marketing campaign** - You can send messages in the context of a [marketing campaign](campaigns.md), define an approval process, send and track them in a consolidated dashboard. Learn how in [this section](../../automation/campaigns/marketing-campaign-deliveries.md).
+1. **Messages in a marketing campaign** - You can send messages in the context of a [marketing campaign](campaigns.md), define an approval process, send and track them in a consolidated dashboard. Learn how in [Marketing campaign deliveries](../../automation/campaigns/marketing-campaign-deliveries.md).
 
     ![](assets/deliveries-in-a-campaign.png) 
 
-1. **Messages in a workflow** - You can send messages via a [workflow](../config/workflows.md) and automate your deliveries. Learn how in [this page](../../automation/workflow/delivery.md).
+1. **Messages in a workflow** - You can send messages via a [workflow](../config/workflows.md) and automate your deliveries. Learn how in [Delivery](../../automation/workflow/delivery.md).
 
     ![](assets/send-in-a-wf.png) 
 
-1. **Triggered messages** - You can [Trigger messages](../send/transactional.md) from an event. Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. Steps to configure and send transactional messages are detailed in [this page](../send/transactional.md)
+1. **Triggered messages** - You can [Trigger messages](../send/transactional.md) from an event. Transactional messaging (Message Center) is the Campaign module designed for managing trigger messages. Steps to configure and send transactional messages are detailed in [Campaign Transactional messaging](../send/transactional.md)
 
 ## Communication channels {#gs-channel}
 
@@ -107,7 +107,7 @@ A **delivery** is a standalone delivery object that is executed once. It can be 
 
 Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../automation/workflow/delivery.md) activity. 
 
-Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../automation/workflow/cross-channel-deliveries.md).
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [Cross-channel deliveries](../../automation/workflow/cross-channel-deliveries.md).
 
 ### Recurring delivery {#recurring-delivery}
 

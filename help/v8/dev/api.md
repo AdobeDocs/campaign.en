@@ -65,7 +65,7 @@ Before using [!DNL Adobe Campaign] APIs, you need to be familiar with the follow
 In order to use APIs and interact with [!DNL Adobe Campaign], you also must be familiar with your data model.  
 
 >[!NOTE]
->You can generate a complete description of your data model. Learn more in [this page](datamodel.md).
+>You can generate a complete description of your data model. Learn more in [Get started with Campaign data model](datamodel.md).
 
 
 **Related topics**

@@ -62,7 +62,7 @@ For a typical built-in recipient, you can access the following tabs:
 
 * **[!UICONTROL General]**, for all general profile data. In particular, it contains the last name, first name, email address, email format, etc. 
 
-    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on the denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such a recipient is no longer targeted on any channel (email, direct mail, etc.). For more on this, refer to [this page](../send/quarantines.md).
+    This tab also stores the **opt-out** flag for the profile: when the **[!UICONTROL No longer contact (by any channel)]** option is selected, the profile is on the denylist. This information is added to the contact data if the recipient clicked on an unsubscription link in a newsletter for example. Such a recipient is no longer targeted on any channel (email, direct mail, etc.). For more on this, refer to [Quarantine management in Campaign](../send/quarantines.md).
 
 * **Contact information**, which contains the direct mail address of the selected profile. 
 

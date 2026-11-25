@@ -41,7 +41,7 @@ topic_v2:
 
 Adobe Campaign is a cross channel marketing solution that automates email, mobile, social and offline campaigns. Adobe Campaign provides a central place to access your customer data and profiles. Use Adobe Campaign to orchestrate consistent experiences to your customers, design, execute, and personalize your marketing across channels, while improving customer experiences on every device and touchpoint. With Adobe Campaign, you can manage multiple data sources, define your audience segments, and plan and execute multi-step, cross-channel campaigns through a drag-and-drop visual workflow interface.
 
-Learn more about Campaign key capabilities in [this page](../start/get-started.md).
+Learn more about Campaign key capabilities in [Get started with Campaign v8](../start/get-started.md).
 
 ## Campaign components {#ac-components}
 

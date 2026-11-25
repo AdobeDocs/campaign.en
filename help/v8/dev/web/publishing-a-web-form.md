@@ -187,7 +187,7 @@ You can process the response logs provided in queries, for instance to target on
 
 When exporting and importing a package including a web form from an instance to another instance (for example, from stage to production), the web form status on the new instance can vary according to several conditions. The different cases are listed below.
 
-Learn more on the different statuses of a web form in [this section](#life-cycle-of-a-form).
+Learn more on the different statuses of a web form in [Life cycle of a form](#life-cycle-of-a-form).
 
 >[!NOTE]
 >

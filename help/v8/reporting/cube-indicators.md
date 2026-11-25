@@ -131,7 +131,7 @@ To create dimensions, follow the steps below:
 
   Only the values in the enumeration will be displayed. The others will be grouped under the label defined in the **[!UICONTROL Label of the other values]** field.
 
-  For more on this, refer to [this section](customize-cubes.md#dynamically-manage-bins).
+  For more on this, refer to [Manage bins dynamically](customize-cubes.md#dynamically-manage-bins).
 
 ### Build indicators {#build-indicators}
 

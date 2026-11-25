@@ -41,13 +41,13 @@ In Adobe Campaign, for fields which express a duration (e.g. validity period of 
 
 You can add folders to Campaign Explorer, create views and assign permissions.
 
-Learn how to manage folders and views in [this page](../audiences/folders-and-views.md)
+Learn how to manage folders and views in [Folders and views](../audiences/folders-and-views.md)
 
 ## Manage and customize lists {#customize-lists}
 
 In Campaign Client Console, data is displayed in lists. You can adapt these lists to your needs. For example, you can add columns, filter data, count records, save and share your settings.
 
-In addition, you can create and save filters.  Learn more about filters in [this page](../audiences/create-filters.md).
+In addition, you can create and save filters.  Learn more about filters in [Work with filters in Adobe Campaign](../audiences/create-filters.md).
 
 ### Number of records {#number-of-records}
 
@@ -141,7 +141,7 @@ To save a list configuration so that it can be reused, follow the steps below:
 1. Click **[!UICONTROL Advanced settings]** and then specify a name in the **[!UICONTROL Configuration]** field. 
 1. Click **[!UICONTROL OK]** and then click **[!UICONTROL Save]**.
 
-You can then apply this configuration to another folder of the same type. Learn more about folders in [this page](../audiences/folders-and-views.md).
+You can then apply this configuration to another folder of the same type. Learn more about folders in [Folders and views](../audiences/folders-and-views.md).
 
 ### Export a list {#exporting-a-list}
 

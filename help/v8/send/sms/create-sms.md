@@ -35,7 +35,7 @@ To create a new SMS delivery, follow the steps below:
 
     ![](assets/sms_create.png){zoomable="yes"}
 
-    Delivery creation steps are detailed in [this page](../../start/create-message.md).
+    Delivery creation steps are detailed in [Create your first delivery](../../start/create-message.md).
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -54,7 +54,7 @@ To create a new SMS delivery, follow the steps below:
 
 1. [Select the audience](sms-audience.md).
 
-Steps to define an audience are detailed on [this page](../../audiences/create-audiences.md).
+Steps to define an audience are detailed on [Create profile audiences in Campaign](../../audiences/create-audiences.md).
 
 ## Validate and send SMS {#sms-validate}
 

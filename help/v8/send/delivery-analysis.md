@@ -41,7 +41,7 @@ To prepare the delivery, make sure the delivery content and target have been def
 
 1. Click **[!UICONTROL Analyze]** to launch the analysis manually. The progress bar shows the progress of the analysis.
 
-    A set of checking rules is applied during the delivery analysis. These rules are defined in a **typology**, which is selected in the **[!UICONTROL Typology]** tab in the delivery properties. Learn more about typologies in [this section](../../automation/campaign-opt/campaign-typologies.md).
+    A set of checking rules is applied during the delivery analysis. These rules are defined in a **typology**, which is selected in the **[!UICONTROL Typology]** tab in the delivery properties. Learn more about typologies in [Get started with campaign typologies](../../automation/campaign-opt/campaign-typologies.md).
     
     By default, for emails, the analysis covers the following points:
 

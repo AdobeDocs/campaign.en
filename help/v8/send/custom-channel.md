@@ -36,11 +36,11 @@ To learn how to create and send a delivery based on a custom channel, refer to t
 
 Here are the steps to configure a new custom channel in the Client Console. These steps are common to custom external and API channels:
 
-1. Configure the schema, [read more](#configure-schema)
-1. Create a new external account, [read more](#create-ext-account)
-1. Create a new delivery template, [read more](#create-template)
+1. Configure the schema, [Configure the schema](#configure-schema)
+1. Create a new external account, [Create a new external account](#create-ext-account)
+1. Create a new delivery template, [Create a new delivery template](#create-template)
 
-Custom API channels require additional configuration. [Read more](#api-additional)
+Custom API channels require additional configuration. [Custom API additional configuration](#api-additional)
 
 ## Configure the schema{#configure-schema}
 
@@ -109,7 +109,7 @@ From the Campaign Web UI, set up the custom screen definition:
 
     ![](assets/cus-schema3.png){zoomable="yes"}
 
-1. In the **Preview for simulate content** section, select the dedicated JSPP. This is optional. This will activate the preview in the delivery simulation screen. [Read more](#api-additional-preview)
+1. In the **Preview for simulate content** section, select the dedicated JSPP. This is optional. This will activate the preview in the delivery simulation screen. [Configure the preview](#api-additional-preview)
 
 ### Configure the preview{#api-additional-preview}
 

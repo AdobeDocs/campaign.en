@@ -146,7 +146,7 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 >
 >If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: **[!UICONTROL Rejected]** = "5", **[!UICONTROL Presented]** = "1" and so on.
 >
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [this page](../dev/create-schema.md).
+>Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [Create a new schema in Campaign](../dev/create-schema.md).
 
 **Outbound interaction**
 
@@ -169,4 +169,4 @@ If a recipient is not eligible for any offers, this is shown in the preview.
 
 The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel. 
 
- For more on this, refer to this sample in [this section](extension-example.md).
+ For more on this, refer to this sample in [Extension example](extension-example.md).

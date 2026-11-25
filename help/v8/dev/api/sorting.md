@@ -37,7 +37,7 @@ topic_v2:
 
 Sorting is available by default in ascending order. To sort in descending order, append **%20desc** to the **_order** parameter's value.
 
-To know if a field can be sorted, check the "sortable" parameter into the resource metadata. For more on this, refer to [this section](metadata-mechanism.md).
+To know if a field can be sorted, check the "sortable" parameter into the resource metadata. For more on this, refer to [Metadata mechanism](metadata-mechanism.md).
 
 <br/>
 
@@ -104,7 +104,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
 ### Retrieving filters metadata
   
-Filters are available for each resource. To identify the filters associated to a resource, you need to perform a GET request on the resource metadata. This request returns the URL where all of the filters are defined for a given resource. For more on metadata, refer to [this section](metadata-mechanism.md).
+Filters are available for each resource. To identify the filters associated to a resource, you need to perform a GET request on the resource metadata. This request returns the URL where all of the filters are defined for a given resource. For more on metadata, refer to [Metadata mechanism](metadata-mechanism.md).
   
 To identify the metadata of a filter and determine how to use it, you have to perform a GET request on the previously returned URL.
 

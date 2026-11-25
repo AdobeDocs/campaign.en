@@ -65,9 +65,9 @@ To add a user, follow the steps below:
     
     ![](assets/add-a-product-profile.png)
 
-    Campaign built-in product profiles are listed in [this section](#ootb-productprofiles).
+    Campaign built-in product profiles are listed in [Default product profiles and operator groups](#ootb-productprofiles).
     
-    Learn how to create user groups in [this section](#user-groups)
+    Learn how to create user groups in [Work with user groups](#user-groups)
 
 1. Click **Save**. The user is added, and displays in the Users list. If you assign an admin role or a Product Profile to users, they receive an email notification. Users must follow the link to complete their profile.
 
@@ -106,20 +106,20 @@ For example to create a 'reviewers' product profile, follow the steps below.
 1. Connect to Campaign, open the Explorer, and browse to **[!UICONTROL Administration > Access management > Operator groups]**.
 1. Click **[!UICONTROL New]**, and define the name of the operator group and set its internal name ('reviewers').
     ![](assets/new-op-group.png)
-1. Define the associated permissions by selecting named rights. Named rights are detailed in [this section](#use-named-rights)
+1. Define the associated permissions by selecting named rights. Named rights are detailed in [Named rights](#use-named-rights)
 1. Save the new operator group.
 
 #### Create the product profile in the Admin Console{#create-profile-in-admin-console}
 
 1. Connect to the [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. From the **Product and services** section of the home page, open Campaign product.
-1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [here](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
+1. Click **New profile** and enter the name of the product profile to create, with the exact correct syntax as explained [Work with product profiles](#product-profiles). For our example, we enter: campaign - `<your-instance-name>` - reviewers
 
     ![](assets/new-product-profile-ui.png)
     
 1. Save your changes.
 
-You can now add users to this new product profile, as explained in [this section](#add-users).
+You can now add users to this new product profile, as explained in [Add users](#add-users).
 
 Best practice is to assign product profiles to user groups. Managing permissions by user is not a sustainable model.
 
@@ -209,7 +209,7 @@ These product profiles match with Campaign **operator groups**. The default oper
     >
     >**Offer managers** can only approve an offer if no reviewer is specified, or if they have been set as reviewers in the offer template.
 
-    Offer manager permission matrix per environment is available in [this page](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
+    Offer manager permission matrix per environment is available in [Permission matrix per Interaction operator](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
 ## Work with user groups{#user-groups}
 

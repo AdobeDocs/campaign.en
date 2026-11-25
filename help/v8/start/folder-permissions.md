@@ -36,7 +36,7 @@ topic_v2:
 
 Use permissions on folders to organize and control access to Campaign data.
 
-Folder management is detailed in [this page](../audiences/folders-and-views.md).
+Folder management is detailed in [Folders and views](../audiences/folders-and-views.md).
 
 To edit permissions on a specific Campaign folder, follow the steps below:
 

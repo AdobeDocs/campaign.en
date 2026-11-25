@@ -73,7 +73,7 @@ Before following the steps below, make sure that you know the type of coupon you
 
    >[!NOTE]
    >
-   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [this section](../start/import.md).
+   >Individual coupons can be imported in bulk. For details regarding importing and exporting, refer to [Get started with profiles](../start/import.md).
 
 ### Configure individual coupons {#configuring-individual-coupons}
 
@@ -90,7 +90,7 @@ Values for **[!UICONTROL status]**, **[!UICONTROL channel]**, and **[!UICONTROL 
 
 ## Insert a coupon into an email delivery {#inserting-a-coupon-into-an-email-delivery}
 
-In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [this section](email.md).
+In the example below, the delivery is created from the Home page. For detailed instructions on how to create a delivery, refer to [Send emails with Adobe Campaign](email.md).
 1. Go to **[!UICONTROL Campaigns]** and choose **[!UICONTROL Deliveries]**.
 1. Click **[!UICONTROL Create]**.
 

@@ -46,7 +46,7 @@ To configure the content of your SMS delivery:
 
     ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-    Learn more about personalization in Adobe Campaign in [this section](../personalize.md).
+    Learn more about personalization in Adobe Campaign in [Get started with personalization](../personalize.md).
 
 1. You can preview your delivery content from the **[!UICONTROL Preview]** tab. To check your personalization settings, click on the **[!UICONTROL Test personalization]** drop-down list, and select a recipient.
 

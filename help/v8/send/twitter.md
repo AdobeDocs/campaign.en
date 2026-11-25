@@ -36,7 +36,7 @@ Once the integration is configured, you can:
 * Collect new contacts by recovering the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies. This action requires user consent.
 
 
-Configuration steps to integrate your X account with Adobe Campaign are described in [this page](../connect/ac-tw.md).
+Configuration steps to integrate your X account with Adobe Campaign are described in [Work with Campaign and X (Twitter)](../connect/ac-tw.md).
 
 ## Create and publish an X post {#publish-on-tw}
 
@@ -122,7 +122,7 @@ To send direct messages to your followers, follow the steps below:
 
         * Select **[!UICONTROL Twitter subscribers]** to send a direct message to all your followers.
 
-        * Select **[!UICONTROL Filter conditions]** to define a query and view its result. Learn how to create a filter in [this section](../audiences/create-filters.md#advanced-filters). 
+        * Select **[!UICONTROL Filter conditions]** to define a query and view its result. Learn how to create a filter in [Advanced filters](../audiences/create-filters.md#advanced-filters). 
 
 1. Select the proof target from the **[!UICONTROL Target of the proofs]** tab: this account will receive the proof of your direct message. 
 
@@ -137,7 +137,7 @@ To send direct messages to your followers, follow the steps below:
 
    ![](assets/tw-dm-content.png)
 
-    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [this section](../send/personalize.md).
+    Personalization fields can be used the same way as for email deliveries, for instance to add the follower's name in the body of the message. Learn more in [Get started with personalization](../send/personalize.md).
 
 1. Preview your message
 

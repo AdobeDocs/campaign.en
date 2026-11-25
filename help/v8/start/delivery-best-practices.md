@@ -56,7 +56,7 @@ Before even starting creating deliveries, you can take several actions to secure
 
 Several factors can directly impact server performance and slow your Campaign platform:
 
-* The number and type of [personalization](../send/personalize.md) elements: personalization in emails pulls data out of the database for each recipient. In case of many personalization elements, the amount of data needed to prepare the delivery is higher. This can slow your platform. Learn more about personalization guardrails in [this section](../send/personalize.md#perso-guardrails).
+* The number and type of [personalization](../send/personalize.md) elements: personalization in emails pulls data out of the database for each recipient. In case of many personalization elements, the amount of data needed to prepare the delivery is higher. This can slow your platform. Learn more about personalization guardrails in [Guardrails and recommendations](../send/personalize.md#perso-guardrails).
 
 * The server load: when the marketing server is handling many different tasks at the same time, it can slow down performance. The marketing server needs to coordinate all of the incoming and outgoing data for all of the deliveries to ensure that the data is correct and on time.
     To avoid this, coordinate the scheduling of deliveries with the other members of your team to ensure the best performance.
@@ -139,7 +139,7 @@ To configure addresses in Campaign interface, follow the steps below:
 
 ### Set up a control group {#set-up-control-group}
 
-Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups in [this section](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
+Once the delivery is sent, you can compare the behavior of the excluded recipients with the recipients who did receive the delivery. You can then measure the efficiency of your campaigns. Learn more about control groups in [Add a control group](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group).
 
 ### Use typologies to apply filters or control rules {#create-typologies}
 
@@ -149,13 +149,13 @@ In the **[!UICONTROL Typology]** tab of the template's properties, you can selec
 
 For example, to better control the outbound traffic, you can define which IP addresses can be used by defining one affinity per sub-domain and creating one typology per affinity. The affinities are defined in the instance's configuration file. Contact your Adobe Campaign administrator.
 
-For more on typologies, refer to [this section](../../automation/campaign-opt/campaign-typologies.md).
+For more on typologies, refer to [Get started with campaign typologies](../../automation/campaign-opt/campaign-typologies.md).
 
 ## Optimize your content {#optimize-content}
 
 ### Build personalized content {#perso-content}
 
-To personalize your messages, you can use recipients' data stored in the database, or collected through tracking, landing pages, subscriptions, etc. Personalization basics are presented in [this section](../send/personalize.md).
+To personalize your messages, you can use recipients' data stored in the database, or collected through tracking, landing pages, subscriptions, etc. Personalization basics are presented in [Get started with personalization](../send/personalize.md).
 
 +++ **Read out few best practices**
 
@@ -167,9 +167,9 @@ To personalize your messages, you can use recipients' data stored in the databas
     %>
     ``
 
-    For more on personalization blocks, refer to [this section](../send/personalization-blocks.md).
+    For more on personalization blocks, refer to [Use personalization blocks](../send/personalization-blocks.md).
 
-* Prepare personalization data - You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used especially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in [this section](../send/personalization-data.md#optimize-personalization)
+* Prepare personalization data - You can prepare personalization data in a workflow to improve delivery preparation analysis. This should be used especially if the personalization data come from an external table through Federated Data Access (FDA). This option is described in [Optimize personalization](../send/personalization-data.md#optimize-personalization)
 +++
 
 ### Build optimized content {#build-optimized-content}
@@ -211,7 +211,7 @@ Work on the email [subject line](../send/personalization-fields.md#personalizati
 
 ### Mirror page {#mirror-page-check}
 
-Always include a mirror page link. The preferred position is at the top of the email. Learn more about the mirror page in [this page](../send/mirror-page.md) 
+Always include a mirror page link. The preferred position is at the top of the email. Learn more about the mirror page in [Add a link to the mirror page](../send/mirror-page.md) 
 
 ### Unsubscription link {#unsub-link-check}
 
@@ -316,7 +316,7 @@ In the delivery assistant, the **[!UICONTROL Preview]** sub-tab lets you view th
 
 ## Define the right audience {#define-the-right-audience}
 
-Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle. Learn more about audiences in [this section](../audiences/gs-audiences.md).
+Targeted population is key: build your lists carefully, test your emails on popular email clients and mobile devices, and ensure that your email lists are up-to-date (with no unknown or obsolete addresses). You can also send proofs that help set up a complete validation cycle. Learn more about audiences in [Get started with profiles and audiences in Campaign](../audiences/gs-audiences.md).
 
 ### Target the right audience {#target-the-right-audience}
 

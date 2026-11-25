@@ -180,9 +180,9 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
 1. **Create an environment and an offer space**
 
-   For more on creating an environment, refer to [this page](interaction-env.md).
+   For more on creating an environment, refer to [Work with Campaign Interaction environments](interaction-env.md).
 
-   For more on creating an offer space, refer to [this page](interaction-offer-spaces.md). 
+   For more on creating an offer space, refer to [Campaign Interaction Offer spaces](interaction-offer-spaces.md). 
 
 1. **Extend the offer schema to add new fields**
 
@@ -266,7 +266,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
 1. **Create an offer**
 
-   For more on creating offers, refer to [this page](interaction-offer.md).
+   For more on creating offers, refer to [Campaign Interaction Offer](interaction-offer.md).
 
    In the following use case, the offer is entered as follows:
 

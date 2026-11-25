@@ -49,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ```
 
-* **&lt;ORGANIZATION&gt;**: your personal ORGANIZATION ID. Refer to [this section](must-read.md).
+* **&lt;ORGANIZATION&gt;**: your personal ORGANIZATION ID. Refer to [Must-read](must-read.md).
 
 * **&lt;transactionalAPI&gt;**: the Transactional Messages API endPoints.
 

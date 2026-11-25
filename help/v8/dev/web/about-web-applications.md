@@ -97,7 +97,7 @@ Compared to Web applications, surveys have a simplified graphical interface with
 >
 >Surveys are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (Campaign v8 documentation).
 >
->The overall functionalities of Web forms in Adobe Campaign are detailed in [this section](about-web-forms.md).
+>The overall functionalities of Web forms in Adobe Campaign are detailed in [Get started with web forms](about-web-forms.md).
 
 ## Web application implementation {#web-application-implementation}
 
@@ -105,7 +105,7 @@ To create and post a Web application, you must:
 
 1. Create the content (fields, lists, tables, graphs, etc.).
 
-   You can also view the section which details the available fields for forms: all these fields are also available for Web applications. This information is available in [this page](adding-fields-to-a-web-form.md).
+   You can also view the section which details the available fields for forms: all these fields are also available for Web applications. This information is available in [Add fields to a web form](adding-fields-to-a-web-form.md).
 
 1. As required, you can add preloading, test, and saving steps, and configure the access control system (mainly within the framework of an extranet publication).
 1. Publish the Web application to make it available on an extranet or in Adobe Campaign.
@@ -116,7 +116,7 @@ Web applications are created via the **[!UICONTROL Web Applications]** link in t
 
 Web applications are stored in the **[!UICONTROL Resources > Online > Web Applications]** node of the Adobe Campaign tree. Configurations are broken down in the following folders:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**: contains the rendering templates for the Web form presentation (applications and surveys). The template enables you to generate the form. It also uses a CSS style sheet. This style sheet can be overloaded at the template level. For more on this, refer to [this page](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contains the rendering templates for the Web form presentation (applications and surveys). The template enables you to generate the form. It also uses a CSS style sheet. This style sheet can be overloaded at the template level. For more on this, refer to [Selecting the form rendering template](form-rendering.md#selecting-the-form-rendering-template).
 * **[!UICONTROL Resources > Templates > Web application templates]**: contains form templates. To create a form or a Web application, you must start from a template.
 
 ## Web application templates {#web-application-templates}

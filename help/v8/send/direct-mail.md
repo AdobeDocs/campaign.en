@@ -48,14 +48,14 @@ To create a new direct mail delivery, follow the steps below:
 
 >[!NOTE]
 >
->Global concepts on delivery creation are presented in [this section](../start/create-message.md).
+>Global concepts on delivery creation are presented in [Create your first delivery](../start/create-message.md).
 
 1. Create a new delivery, for example from the Delivery dashboard.
 1. Select the delivery template **Deliver by direct mail (paper)**.
 
    ![](assets/direct_mail.png)
 
-1. Identify your delivery with a label, code, and description. For more on this, refer to [this section](../start/create-message.md#create-the-delivery).
+1. Identify your delivery with a label, code, and description. For more on this, refer to [Create the delivery](../start/create-message.md#create-the-delivery).
 1. Click **Continue** to confirm this information and display the message configuration window.
 
 ## Define the audience{#defining-the-direct-mail-audience}
@@ -66,7 +66,7 @@ Postal addresses are calculated fields. An address can contain up to six lines b
 
 An address is considered to be complete if the name, ZIP/Postal code field, and town/city fields are not empty. Any recipients with incomplete addresses will be excluded from direct mail deliveries. 
 
-Learn more in [this section](../start/create-message.md#target-population).
+Learn more in [Define the target audience](../start/create-message.md#target-population).
 
 ## Define the content of the file{#defining-the-direct-mail-content}
 
@@ -86,7 +86,7 @@ This link lets you access the extraction assistant and define the information (c
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-You can insert a personalized URL into the extraction file. For more on this, refer to [this section](../dev/web/publishing-a-web-form.md).
+You can insert a personalized URL into the extraction file. For more on this, refer to [Publish a web form](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Check the result of the analysis and the content of the output file.
 
 In the context of a marketing campaign, on the extraction date, the extraction file is created. You can view the content of the extracted file, approve it, or change the format and re-launch the extraction if needed. Once the file has been approved, you can send the notification e-mail to the router. Learn more in [this page](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
-Global concepts when validating a delivery are presented in [this section](../start/create-message.md#validate-the-delivery).
+Global concepts when validating a delivery are presented in [Prepare and validate your delivery](../start/create-message.md#validate-the-delivery).
 
 The output file of a direct mail delivery is generated during the delivery analysis. The file's content depends on the selected output columns (refer to this [section file](#defining-the-direct-mail-content)).
 

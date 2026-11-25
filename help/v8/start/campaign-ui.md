@@ -38,7 +38,7 @@ You can access Adobe Campaign via its client console or its Web user interface. 
 
 * **Client console** - Campaign client console is a native application which communicates with the Adobe Campaign application server through standard internet protocols, such as SOAP and HTTP. Campaign client console centralizes all capabilities and settings, and requires minimal bandwidth as it relies on a local cache. Designed for easy deployment, Campaign client console can be deployed from an internet browser, updated automatically, and does not require any specific network configuration as it only generates HTTP(S) traffic. [Learn more](#ui-access)
 
-    Learn how to install and configure Campaign client console in [this section](../start/connect.md).
+    Learn how to install and configure Campaign client console in [Connect to Campaign v8](../start/connect.md).
 
 * **Web access** - Adobe Campaign web access capabilities let you access a subset of Campaign features with a web browser, using an HTML user interface. Use this web interface to access reports, control and validate messages, access monitoring dashboards, and more.  Learn more about Campaign Web Access [in this section](../start/connect.md#web-access).
 
@@ -131,7 +131,7 @@ Browse Campaign Explorer to access all the Adobe Campaign capabilities and setti
 
 This workspace lets you access the Explorer tree to browse all features and options.
 
-* The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions. You can add and customize folders as explained in [this page](../audiences/folders-and-views.md).
+* The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions. You can add and customize folders as explained in [Folders and views](../audiences/folders-and-views.md).
 
 * The upper section shows the list of records in the current folder. These lists are fully customizable. [Learn more](../config/ui-settings.md)
 

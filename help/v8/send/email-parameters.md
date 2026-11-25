@@ -27,7 +27,7 @@ This section presents the options and parameters available from the delivery pro
 
 ## Use Email BCC {#email-bcc}
 
-You can configure Adobe Campaign to keep a copy of emails sent from your platform. This option is detailed in [this page](email-bcc.md).
+You can configure Adobe Campaign to keep a copy of emails sent from your platform. This option is detailed in [Send a copy of your messages to a BCC address](email-bcc.md).
 
 ## Select message formats {#selecting-message-formats}
 
@@ -79,11 +79,11 @@ The **[!UICONTROL SMTP]** tab of the delivery properties lets you also configure
 
 * **[!UICONTROL Bounce address]**: You can also define another address to which the unprocessed bounced emails are forwarded. This address allows you to investigate the reasons for bouncing when emails could not be automatically qualified by the application.
 
-Each of these fields can be personalized using the dedicated icon. Learn more on personalization fields in [this section](personalization-fields.md).
+Each of these fields can be personalized using the dedicated icon. Learn more on personalization fields in [Add personalization fields](personalization-fields.md).
 
 ![](assets/email-smtp-bounce.png)
 
-For more on bounce mail management, see [this section](delivery-failures.md#bounce-mail-qualification).
+For more on bounce mail management, see [Bounce mail qualification](delivery-failures.md#bounce-mail-qualification).
 
 ## Enable One-click List-unsubscribe {#one-click-list-unsubscribe}
 
@@ -151,4 +151,4 @@ Values are encoded automatically if necessary.
 
 The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
 
-Learn how to insert a link to the mirror page in [this section](mirror-page.md)
+Learn how to insert a link to the mirror page in [Add a link to the mirror page](mirror-page.md)

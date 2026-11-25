@@ -50,7 +50,7 @@ With the Adobe Campaign REST APIs, you get access to the following functionaliti
 </tr></table>
 
 To use the Campaign REST APIs, you need an Adobe I/O account. This is a mandatory first step to go forward and discover the API features. 
-For more on this, refer to [this section](setting-up-api-access.md).
+For more on this, refer to [Setting-up API access](setting-up-api-access.md).
 
 The APIs we provide use **standard concepts** with a REST interface and JSON payloads.
 

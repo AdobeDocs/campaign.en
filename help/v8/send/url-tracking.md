@@ -57,7 +57,7 @@ You can configure the tracking options:
 
 The tracked URLs are listed in the central window in tree form.
 
-You can activate or deactivate tracking individually for each URL of the message. For more on this, refer to [this section](tracked-links.md).
+You can activate or deactivate tracking individually for each URL of the message. For more on this, refer to [Configure tracked links](tracked-links.md).
 
 The **[!UICONTROL Advanced]** tab lets you personalize the calculation formulas of the tracked URLs and the opening URL.
 

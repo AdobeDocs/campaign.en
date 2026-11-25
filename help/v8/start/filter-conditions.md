@@ -271,7 +271,7 @@ Link to a table and collection element:
 
 >[!NOTE]
 >
->* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [this section](#building-expressions).
+>* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [Build expressions](#building-expressions).
 >* Delete an output column by clicking the red 'x' (**Delete**).
 >* Change the order of the output columns using the arrows.
 >* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
@@ -300,7 +300,7 @@ There are four types of calculated fields:
 
   It's possible to use the source value of a column and give it a destination value. This destination value will be displayed in the new output column.
 
-  An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [this section](../../automation/workflow/adding-enumeration-type-calculated-field.md).
+  An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [Add an Enumeration type calculated field](../../automation/workflow/adding-enumeration-type-calculated-field.md).
 
   ![](assets/query_editor_nveau_63.png)
 

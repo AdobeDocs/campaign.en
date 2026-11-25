@@ -22,7 +22,7 @@ level_v2:
 ---
 # Configure and send the delivery {#configure-delivery}
 
-Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery [priority](#delivery-priority), set up [waves](#sending-using-multiple-waves), and test your delivery sending. Once this configuration is done, you can confirm the sending as described in [this section](#confirm-delivery). Messages are then sent immediately, or based on the delivery [schedule](#schedule-delivery-sending).
+Access the delivery parameters to configure more settings and define how to send your messages. You can define delivery [priority](#delivery-priority), set up [waves](#sending-using-multiple-waves), and test your delivery sending. Once this configuration is done, you can confirm the sending as described in [Confirm the delivery](#confirm-delivery). Messages are then sent immediately, or based on the delivery [schedule](#schedule-delivery-sending).
 
 ## Set additional parameters {#delivery-additional-parameters}
 
@@ -87,19 +87,19 @@ You can either define the size of each wave, or add them to a calendar.
 
 ### Wave scheduling check {#check-waves}
 
-A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [this section](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Typology rules and typologies](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->* Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [this section](delivery-failures.md#valid-period).
+>* Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. Otherwise some messages might not be sent. Learn more about the validity period of a delivery in [Validity period](delivery-failures.md#valid-period).
 >
->* You must also set enough time for retries when configuring the last waves. Learn more about retries in [this section](delivery-failures.md#retries).
+>* You must also set enough time for retries when configuring the last waves. Learn more about retries in [Retry management](delivery-failures.md#retries).
 >
 >* Waves are scheduled from the contact date of the delivery. If the delivery starts after the planned time of one or more waves, those overdue waves are all sent together instead of being spaced out.
 
 ### Monitor waves {#monitor-waves}
 
-To monitor your sends, browse to the delivery logs. See [this page](send.md).
+To monitor your sends, browse to the delivery logs. See [Send and monitor your emails](send.md).
 
 You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
 
@@ -139,7 +139,7 @@ To do this, follow the steps below.
     * To send the delivery immediately, select **[!UICONTROL Deliver as soon as possible]**.
     * To schedule the sending to a later date, select **[!UICONTROL Postpone the delivery]**. [Learn more](#schedule-delivery-sending)
 
-1. Click **[!UICONTROL Analyze]**. For more on this, see [this section](delivery-analysis.md).
+1. Click **[!UICONTROL Analyze]**. For more on this, see [Delivery analysis](delivery-analysis.md).
 
     ![](assets/delivery-send-analyze.png)
 

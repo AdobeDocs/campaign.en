@@ -70,7 +70,7 @@ To create a simple **web application**, you need to:
 
 >[!NOTE]
 >
->A complete implementation sample in the context of a web application is available in  [this section](creating-a-landing-page.md).
+>A complete implementation sample in the context of a web application is available in  [Create a landing page](creating-a-landing-page.md).
 
 To create an **email delivery**, you need to:
 

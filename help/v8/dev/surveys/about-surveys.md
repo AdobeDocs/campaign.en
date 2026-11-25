@@ -45,7 +45,7 @@ The optional **Survey** add-on lets you create a new type of Web application to 
 
 This chapter details how to create and manage **Surveys**, field and page management, storage modes and records.
 
-Learn how to create your first survey in [this page](getting-started-with-surveys.md).
+Learn how to create your first survey in [Key steps to create a survey](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

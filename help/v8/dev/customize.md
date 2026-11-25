@@ -63,7 +63,7 @@ Two table extension modes are available:
 
     Learn how to quickly add a new field in Campaign in [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
-* Programmatically, by extending the schema. Learn how to extend an existing schema in [this section](../dev/extend-schema.md).
+* Programmatically, by extending the schema. Learn how to extend an existing schema in [Extend Campaign schemas](../dev/extend-schema.md).
 
 You can also create new tables in the Campaign database and extend the built-in data model.
 
@@ -80,7 +80,7 @@ Use Case: link a field to an existing reference table in [Campaign Classic v7 do
 
 Campaign input forms can be adapted to fit your implementation. You can add or remove form fields by modifying the XML content.
 
-Learn how to modify an existing input form or create a new form in [this section](../dev/forms.md).
+Learn how to modify an existing input form or create a new form in [Campaign input forms](../dev/forms.md).
 
 ## Customize dashboards{#gs-custom-dashboards}
 
@@ -88,7 +88,7 @@ The Adobe Campaign interface uses many Web applications to access, manage, and i
 
 The built-in Web applications are stored in the **Administration > Configuration > Web applications** folder of the Explorer.
 
-Learn how to create an overview page in Campaign in [this section](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
+Learn how to create an overview page in Campaign in [Creating a single-page Web application](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Customize lists and create filters {#gs-lists-and-filters}
@@ -97,8 +97,8 @@ Campaign lists come with pre-defined filters to facilitate navigation and data v
 
 When you navigate in the Adobe Campaign Explorer tree, the data contained in the database is displayed in lists. You can filter these lists, run searches, add information, filter and sort data.
 
-Learn how to configure lists and save a list configuration in [this page](../start/campaign-ui.md).
+Learn how to configure lists and save a list configuration in [Discover Campaign user interface](../start/campaign-ui.md).
 
 You can apply filters to these lists to display only the data needed by the operator. Actions can then be executed on the filtered data. Filter configuration lets you select data from a list dynamically. If the data is modified, the filtered data is updated.
 
-Learn more about filtering options in [this page](../audiences/create-filters.md).
+Learn more about filtering options in [Work with filters in Adobe Campaign](../audiences/create-filters.md).

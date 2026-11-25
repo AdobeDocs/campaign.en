@@ -190,9 +190,9 @@ To send notifications on Android devices, follow these steps:
 
 To send a proof and to send the final delivery, use the same process as for other deliveries. 
 
-Learn how to validate a delivery in [this page](preview-and-proof.md).
+Learn how to validate a delivery in [Preview and test your email](preview-and-proof.md).
 
-Learn how to confirm and send the delivery in [this page](send.md)
+Learn how to confirm and send the delivery in [Send and monitor your emails](send.md)
 
-After sending messages, you can monitor and track your deliveries. Learn more about push notification delivery failure reasons in [this page](delivery-failures.md#push-error-types).
+After sending messages, you can monitor and track your deliveries. Learn more about push notification delivery failure reasons in [Push notifications error types](delivery-failures.md#push-error-types).
 

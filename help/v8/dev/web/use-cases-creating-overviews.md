@@ -190,7 +190,7 @@ These two elements will be grouped in the same container in order to be graphica
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   For information on element layout, refer to [this section](about-web-forms.md).
+   For information on element layout, refer to [Get started with web forms](about-web-forms.md).
 
 1. Apply **dottedFilter**.
 

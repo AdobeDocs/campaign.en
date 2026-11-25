@@ -43,6 +43,6 @@ To create a recipient manually, follow the steps below:
 
     ![](assets/new-recipient.png)
 
-    Learn more about the recipient built-in form in [this page](view-profiles.md#edit-a-profiles).
+    Learn more about the recipient built-in form in [Edit a profile](view-profiles.md#edit-a-profiles).
 
 1. Click **[!UICONTROL Save]**: the profile is added to Campaign, in the default recipient folder.
