@@ -60,7 +60,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien
 
 Perform a GET request on the resource.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
@@ -72,7 +72,7 @@ Perform a GET request on the resource.
 
 It returns the complete description of the profile resource.
 
-```
+```json
 
 {
 ...

@@ -32,7 +32,7 @@ If you want to create the service with specific attributes, add them into the pa
 
 Sample POST request to create a service with specific attributes.
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
 -H 'Content-Type: application/json' \
@@ -51,7 +51,7 @@ Sample POST request to create a service with specific attributes.
 
 It returns the newly created service with the updated attributes.
 
-```
+```json
 
 {
     "PKey": "<PKEY>",

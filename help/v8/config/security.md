@@ -300,7 +300,7 @@ This restriction allows you to remove password fields but leaves the external ac
 
     You can replace the main element (`<element name="extAccount" ... >`) by:
 
-    ```
+    ```xml
     <element name="extAccount">
         <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
         <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -321,7 +321,7 @@ This restriction allows you to remove password fields but leaves the external ac
 
     So your extended srcSchema can look like:
 
-    ```
+    ```xml
     <...>
         <element name="extAccount">
             <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>

@@ -54,7 +54,7 @@ A specific attribute that can be applied to any element or attribute has been ad
 
 You can find a sample of a recipient schema extension that shows this usage below:
 
-```
+```xml
 <srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="xxl:nmsRecipientXl"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
            name="recipient" namespace="sec" xtkschema="xtk:srcSchema">
@@ -93,7 +93,7 @@ In each delivery, email addresses are copied into the **[!UICONTROL broadLog]** 
 
 Below is a sample of log table extension to implement this:
 
-```
+```xml
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
            label="Recipient delivery logs" labelSingular="Recipient delivery log"
            name="broadLogRcp" namespace="sec" xtkschema="xtk:srcSchema">

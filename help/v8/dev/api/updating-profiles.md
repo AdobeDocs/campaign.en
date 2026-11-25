@@ -38,7 +38,7 @@ Updating profiles is performed with a **PATCH** request.
 
 Sample GET request to retrieve a profile.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
 -H 'Content-Type: application/json' \
@@ -50,7 +50,7 @@ Sample GET request to retrieve a profile.
 
 Response to the request.
 
-```
+```json
 
 {
     "content": [
@@ -68,7 +68,7 @@ Response to the request.
 
 PATCH request to update the "phone" attribute.
 
-```
+```bash
 
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -81,7 +81,7 @@ PATCH request to update the "phone" attribute.
 
 It returns the PKEY and URL to retrieve the updated profile.
 
-```
+```json
 
 {
     "PKey": "<PKEY>",

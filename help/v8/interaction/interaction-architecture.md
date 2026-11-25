@@ -116,7 +116,7 @@ On the control instances:
     * Check the type of application used: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, or both.
     * Enter the FDA account used. An operator must be created on the execution instances and must have the following read and write rights on the database of the instance in question:
 
-      ```    
+      ```sql    
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
       grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
       ```
@@ -176,7 +176,7 @@ There are two methods:
 
 **Work table** (recommended)
 
-```
+```sql
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;
 ALTER TABLE nmspropositionrcp_tmp
   ALTER COLUMN ipropositionid TYPE bigint,
@@ -194,7 +194,7 @@ ALTER TABLE nmspropositionrcp_tmp RENAME TO nmspropositionrcp;
 
 **Alter Table**
 
-```
+```sql
 ALTER TABLE nmspropositionrcp
   ALTER COLUMN ipropositionid TYPE bigint,
   ALTER COLUMN iinteractionid TYPE bigint;

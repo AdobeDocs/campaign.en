@@ -74,7 +74,7 @@ If the Web tracking is activated, you can either have:
 
 The default banner has the following structure:
 
-```
+```xml
 
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
@@ -134,7 +134,7 @@ If you have to write a JSSP, Server-Side APIs are available:
 
 JSSP example:
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

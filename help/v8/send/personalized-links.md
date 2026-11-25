@@ -41,7 +41,7 @@ You can add specific pre-processing instructions to script the URL and track it.
 
 For example:
 
-```
+```html
 <%@ value object="myObject" xpath="@myField" %>
 ```
 
@@ -67,7 +67,7 @@ Where:
 
 When the page to download is the same for all recipients, the best practice is to use:
 
-```
+```html
 <%@ include url="http://mynewsletter.com" %>
 ```
 
@@ -77,7 +77,7 @@ In that case, the page is downloaded during the analysis, before the tracking de
 
 After processing `<%@` instructions, the URL to be tracked should have the following syntax:
 
-```
+```xml
 <a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">
 ```
 
@@ -91,7 +91,7 @@ To ensure that personalized URLs are tracked correctly, you must use the `escape
 
 **Example:**
 
-```
+```xml
 <a href="http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>">Click here</a>
 ```
 
@@ -103,7 +103,7 @@ The `<%@ foreach %>` instruction allows you to iterate over arrays of objects lo
 
 ### Syntax
 
-```
+```html
 <%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %>
   <!-- Content to repeat -->
 <%@ end %>
@@ -122,7 +122,7 @@ In the delivery properties/personalization, load an array of articles and a rela
 
 You can display links to these articles with individual tracking:
 
-```
+```html
 <%@ foreach object="articleList" item="article" %>
   <a href="http://example.com/article.jsp?id=<%@ value object="article" xpath="@id" %>">
     <%@ value object="article" xpath="@title" %>

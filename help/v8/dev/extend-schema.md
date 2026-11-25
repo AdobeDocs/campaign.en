@@ -75,7 +75,7 @@ To extend a schema, follow the steps below:
 
     ![](assets/extend-schema-sample.png)
 
-    ```
+    ```xml
     <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
             img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
             mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">

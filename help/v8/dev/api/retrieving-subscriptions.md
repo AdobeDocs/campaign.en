@@ -42,7 +42,7 @@ This is a two-step procedure.
 
 Perform a GET request to retrieve the service.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -54,7 +54,7 @@ Perform a GET request to retrieve the service.
 
 It returns the subscriptions URL for the service.
 
-```
+```json
 
   {
     ...
@@ -70,7 +70,7 @@ It returns the subscriptions URL for the service.
 
 Perform a GET request on the subscriptions URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
@@ -82,7 +82,7 @@ Perform a GET request on the subscriptions URL.
 
 The list of subscriptions for the service displays, with each associated profile.
 
-```
+```json
 
   {
     ...
@@ -112,7 +112,7 @@ This is a two-step procedure.
 
 Perform a GET request to retrieve the profile.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -124,7 +124,7 @@ Perform a GET request to retrieve the profile.
 
 It returns the subscriptions URL for the profile.
 
-```
+```json
 
   {
     ...
@@ -140,7 +140,7 @@ It returns the subscriptions URL for the profile.
 
 Perform a GET request on the subscriptions URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
@@ -152,7 +152,7 @@ Perform a GET request on the subscriptions URL.
 
 It returns the list of services to which the profile subscribed.
 
-```
+```json
 
   {
     ...

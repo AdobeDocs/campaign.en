@@ -97,19 +97,19 @@ For each form, the answers provided can be re-used in the fields or the labels. 
 
 * For content stored in a field of the database:
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * For content stored in a local variable:
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * For content stored in an HTML text field:
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 

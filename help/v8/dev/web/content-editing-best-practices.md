@@ -41,7 +41,7 @@ To ensure the editor's optimal operation, we recommend observing the following g
 
   Example of HTML code in the template:
 
-  ```
+  ```xml
   
   <input id="email" type="email" name="email"/>
      

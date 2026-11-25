@@ -131,7 +131,7 @@ When extending the nms:offer schema, make sure you follow the out-of-the-box str
 * Define any new field for content storage under `<element name="view">`.
 * Each new field needs to be defined twice. Once as a regular XML field, and once as a CDATA XML field with "_jst" appended to the name. For example:
 
-    ```
+    ```xml
     <element label="Price" name="price" type="long" xml="true"/>
     <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
     ```

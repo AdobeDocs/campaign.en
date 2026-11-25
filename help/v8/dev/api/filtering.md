@@ -33,7 +33,7 @@ To identify the metadata of a filter and determine how to use it, you have to pe
 
 The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metadata.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
@@ -45,7 +45,7 @@ The sample payloads below show how to retrieve the "byText" filter metadata for 
 
 It returns the URL where the filters are described.
 
-```
+```json
 
 {
 "filters": {
@@ -57,7 +57,7 @@ It returns the URL where the filters are described.
 
 Perform a GET request on the URL. It returns the list of filters for the profile resource, with the metadata associated to each filter.
 
-```
+```json
 
 {
 "birthday": {
@@ -85,7 +85,7 @@ The same metadata structure is available for each filter:
 
 Filter metadata structure sample:
 
-```
+```json
 
 "byText": {
         "PKey": "...",
@@ -115,7 +115,7 @@ It is possible to combine multiple filters in a single request:
 
 * Sample GET request to retrieve the "service" resources with the type "email".
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
     -H 'Content-Type: application/json' \
@@ -127,7 +127,7 @@ It is possible to combine multiple filters in a single request:
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -152,7 +152,7 @@ It is possible to combine multiple filters in a single request:
 * Sample GET request to retrieve the "profile" resources containing "Doe" in
 the email or last name fields (the byText filter searches into both the email and last name fields).
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
     -H 'Content-Type: application/json' \
@@ -164,7 +164,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -184,7 +184,7 @@ the email or last name fields (the byText filter searches into both the email an
 
 * Sample GET request to retrieve the service resources with the type "email" and the label "sport".
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
     -H 'Content-Type: application/json' \
@@ -196,7 +196,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -235,7 +235,7 @@ For more on this, refer to the Campaign Standard documentation:
 
 Sample GET request to retrieve the "profile" resources with transaction amounts of 100$ or more. Note that the "byAmount" filter has first been defined in the Adobe Campaign Standard interface and linked to the "Transaction" custom table.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \

@@ -45,7 +45,7 @@ Four execution commands are available to control a workflow:
 
 * Start a workflow.
 
-  ```
+  ```bash
 
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
   -H 'Content-Type: application/json' \
@@ -61,7 +61,7 @@ Four execution commands are available to control a workflow:
 
 * Pause a workflow.
 
-  ```
+  ```bash
 
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
   -H 'Content-Type: application/json' \
@@ -77,7 +77,7 @@ Four execution commands are available to control a workflow:
 
 * Resume a workflow.
 
-  ```
+  ```bash
 
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
   -H 'Content-Type: application/json' \
@@ -93,7 +93,7 @@ Four execution commands are available to control a workflow:
 
 * Stop a workflow.
 
-    ```
+    ```bash
 
     -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
     -H 'Content-Type: application/json' \

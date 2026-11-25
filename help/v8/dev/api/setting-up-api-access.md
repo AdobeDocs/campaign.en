@@ -52,7 +52,7 @@ Adobe Campaign Standard API access is set up through the steps below. Each of th
 
 To establish a secure service-to-service Adobe I/O API session, every request to an Adobe service must include in the Authorization header the information below.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
@@ -79,7 +79,7 @@ To establish a secure service-to-service Adobe I/O API session, every request to
 
 During AdobeIO integration, if the following error appears:
 
-```
+```json
 
 { 
 "code": 502, 

@@ -52,7 +52,7 @@ First, you need to configure the schema to add the new channel to the list of av
 
     For example:
 
-    ```
+    ```xml
     <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
     <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
            value="122"/>
@@ -124,7 +124,7 @@ When you click on **Open preview** in the delivery simulation screen in the Web 
 
 In the Client Console, select **Administration** > **Configuration** > **Dynamic JavaScript pages** and create a new JSSP. Here is an example with the parameters that need to be retrieved. 
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

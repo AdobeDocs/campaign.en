@@ -73,7 +73,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. When [listing the identity namespaces](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} available for your organization, you get the following namespace details, for example:
 
-    ```
+    ```json
     {
             "updateTime": 1632903236731,
             "code": "lumanamespace",

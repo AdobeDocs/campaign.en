@@ -29,7 +29,7 @@ The Adobe Campaign REST API can count the number of records in a request. To do 
 
 To count all the services that have a **messageType** value equal to "sms", perform a GET request with the **byChannel** filter.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
@@ -41,7 +41,7 @@ To count all the services that have a **messageType** value equal to "sms", perf
 
 It returns the services corresponding to the filter.
 
-```
+```json
 
 {
     "content": [
@@ -64,7 +64,7 @@ It returns the services corresponding to the filter.
 
 Perform a GET request on the **count** node's URL to retrieve the number of results.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
@@ -76,7 +76,7 @@ Perform a GET request on the **count** node's URL to retrieve the number of resu
 
 It returns the number of records.
 
-```
+```json
 
 {
     "count": 26

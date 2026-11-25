@@ -710,7 +710,7 @@ Before a new type of error is qualified, the failure reason is always set to **R
 
 Example of a generated message:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -746,7 +746,7 @@ Delivery logs are key to learn why a delivery failed. Here is a common error you
 
 Recipient messages are failing with an "Unreachable" error stating:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -760,7 +760,7 @@ Learn more about personalization in [this section](personalize.md).
 
 When a delivery fails, the following error can appear in the delivery logs:
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -772,7 +772,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 Some deliveries can fail with an "Unreachable" error stating:
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

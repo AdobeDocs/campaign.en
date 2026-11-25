@@ -130,13 +130,13 @@ To do this, follow the steps below:
 
 The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and **accepted** offer propositions only. For inbound interaction, the status of offer propositions should be specified directly in the URL for calling the Offer engine, rather than through the interface. This way, you will be able to specify which status to apply in other cases, for example if an offer proposition is rejected.
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
 For instance, the proposition (identifier **40004**) that matches the **Home insurance** offer displayed on the **Neobank** site contains the following URL:
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
@@ -152,7 +152,7 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 
 You can automatically apply the **[!UICONTROL Interested]** status to an offer proposition when the delivery contains a link. Simply add the **_urlType="11"** value to the link:
 
-```
+```xml
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 

@@ -119,7 +119,7 @@ To do this, follow the steps below:
 
    The first **[!UICONTROL Script]** activity will add recipients on denylist until they have confirmed their subscription to the newsletter. Its content must be as follows:
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=1
    ```
 
@@ -127,7 +127,7 @@ To do this, follow the steps below:
 
    The second **[!UICONTROL Script]** activity authorizes deliveries to be sent to the users and subscribes them to the newsletter. The last two lines of the script will allow you to transfer your recipients from the temp folder to another folder and be reconciled with existing profiles as soon as they have confirmed the subscription.
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>

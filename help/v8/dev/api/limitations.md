@@ -94,7 +94,7 @@ Some fields from the database are being dropped during migration. When using a d
 
 When using the following request body format, with "vehicleOwner" representing the link to "nms:recipient":
 
-```
+```json
 {
     "vehicleNumber": "20009",
     "vehicleName": "Model E",

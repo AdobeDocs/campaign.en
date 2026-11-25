@@ -71,7 +71,7 @@ To configure and create the referral block, apply the following steps:
 
    ![](assets/s_ncs_admin_survey_viral_sample_4.png)
 
-   ```
+   ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
    ctx.recipient.visitor.@forwardUrl = "APP5"
    ctx.recipient.visitor.@referrerEmail = ctx.recipient.@email
@@ -117,7 +117,7 @@ To configure and create the referral block, apply the following steps:
 
    ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
-   ```
+   ```javascript
    // Updtate visitor to have a link to the referrer recipient
    ctx.recipient.visitor.@referrerId = ctx.recipient.@id
    ctx.recipient.visitor.@xtkschema = "nms:visitor"

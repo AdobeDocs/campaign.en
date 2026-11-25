@@ -77,7 +77,7 @@ The root element of the schema is **`<srcschema>`**. It contains the **`<element
 
 The first **`<element>`** sub-element coincides with the root of the entity.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>

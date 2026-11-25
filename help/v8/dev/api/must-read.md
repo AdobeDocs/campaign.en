@@ -51,7 +51,7 @@ All API resources are available in **JSON** with a URL extension or inside an HT
 
 ***request sample***
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
 -H 'Content-Type: application/json' \
@@ -85,7 +85,7 @@ Custom keys cannot be modified using a PATCH operation if the key value is diffe
 
 To retrieve the subscriptions for a profile using a custom key, perform a GET operation on the custom key.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
 -H 'Content-Type: application/json' \
@@ -97,7 +97,7 @@ To retrieve the subscriptions for a profile using a custom key, perform a GET op
 
 Perform a GET request on the subscriptions URL returned.
 
-```
+```bash
 
 -X GET <SUBSCRIPTION_URL> \
 -H 'Content-Type: application/json' \
@@ -109,7 +109,7 @@ Perform a GET request on the subscriptions URL returned.
 
 It returns the list of subscriptions for the profile.
 
-```
+```json
 
 "service": {
 "PKey": "<PKEY>",

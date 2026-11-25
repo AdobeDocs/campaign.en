@@ -62,7 +62,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
 
 1. Create a sample custom schema on Campaign Cloud database. No staging enabled at this step.
 
-    ```
+    ```xml
     <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
             entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
             lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -81,7 +81,7 @@ To implement Campaign staging mechanism on a specific table, follow the steps be
 
 1. Enable the staging mechanism in the schema definition by adding the **autoStg="true"** parameter.
 
-    ```
+    ```xml
     <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
             entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
             lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"

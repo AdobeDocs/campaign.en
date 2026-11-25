@@ -44,7 +44,7 @@ Available verbs to perform operations on the resources are:
 * Sample GET request on the profile collection.
 
 
-    ```
+    ```bash
 
     $curl  
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -58,7 +58,7 @@ Available verbs to perform operations on the resources are:
     It returns an array of profiles.
 
 
-    ```
+    ```json
 
     {
         "content": [
@@ -84,7 +84,7 @@ Available verbs to perform operations on the resources are:
 * Sample GET request on a specific profile.
 
 
-    ```
+    ```bash
 
     $curl  
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -98,7 +98,7 @@ Available verbs to perform operations on the resources are:
     It returns the requested profile.
 
 
-    ```
+    ```json
 
     {
         "PKey": "<PKEY>",
@@ -114,7 +114,7 @@ Available verbs to perform operations on the resources are:
 * Sample POST request to create a profile.
 
 
-    ```
+    ```bash
 
     -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
     -H 'Content-Type: application/json' \
@@ -127,7 +127,7 @@ Available verbs to perform operations on the resources are:
 
     It returns the profile with the default fields.
 
-    ```
+    ```json
 
     {
         "PKey": "<PKEY>",
@@ -141,7 +141,7 @@ Available verbs to perform operations on the resources are:
 
 * Sample PATCH request to update a profile.
 
-    ```
+    ```bash
 
     -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
     -H 'Content-Type: application/json' \
@@ -154,7 +154,7 @@ Available verbs to perform operations on the resources are:
 
     It returns the PKEY and URL to retrieve the updated profile.
 
-    ```
+    ```json
 
     {
         "PKey": "<PKEY>",
@@ -165,7 +165,7 @@ Available verbs to perform operations on the resources are:
 
 * Sample DELETE request to delete a profile.
 
-    ```
+    ```bash
 
     -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
     -H 'Content-Type: application/json' \
