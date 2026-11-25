@@ -67,7 +67,7 @@ Before creating a mobile application, you first need to make sure that you have 
 
 >[!CAUTION]
 >
->Push configuration must be performed by an expert user. Depending on your implementation model and personas involved in this implementation, you might need to assign the full set of permissions to a single product profile or share permissions between the app developer and the **Adobe Campaign** administrator. 
+>Push configuration must be performed by an expert user. Depending on your implementation model and the personas involved, you might need to assign the full set of permissions to a single product profile. Alternatively, share the permissions between the app developer and the **Adobe Campaign** administrator. 
 
 To assign **Property** and **Company** rights, follow the steps below:
 
@@ -178,7 +178,7 @@ Once created, open the new tag property and create a library. To do this:
 
 ## Configure your mobile services in Campaign {#push-service}
 
-Once your mobile app has been set up in [!DNL Adobe Experience Platform Data Collection], you need to create two services (one for iOS devices, one for Android devices) to be able to send push notifications from **[!DNL Adobe Campaign]**.
+Once your mobile app has been set up in [!DNL Adobe Experience Platform Data Collection], create two services: one for iOS devices and one for Android devices. These services let you send push notifications from **[!DNL Adobe Campaign]**.
 
 Push notifications are sent to your app users through a dedicated service. When users install your app, they subscribe to this service: Adobe Campaign relies on this service to target only the subscribers of your app. In this service, you need to add your iOS and Android apps to send on iOS and Android devices.
 
