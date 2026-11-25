@@ -40,7 +40,7 @@ topic_v2:
 
 Once a delivery has been sent, the delivery dashboard displays a status that allows you to monitor if the sending has been successful. Possible statuses are detailed in the section below.
 
-![](assets/delivery-status.png)
+![Delivery dashboard summary with the Status field highlighted, showing Finished and the finish date](assets/delivery-status.png)
 
 For more details on the different delivery failures you can encounter, and how to solve them, refer to [Understanding delivery failures](delivery-failures.md).
 

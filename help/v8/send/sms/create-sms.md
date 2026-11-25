@@ -33,7 +33,7 @@ To create a new SMS delivery, follow the steps below:
 
 1. Create a new delivery and select the [SMS delivery template](sms-mid-sourcing.md#sms-delivery-template) you created for your SMS sendings.
 
-    ![](assets/sms_create.png){zoomable="yes"}
+    ![Delivery template list for a new delivery, with the SMS template Send to mobiles (SMPP) highlighted](assets/sms_create.png){zoomable="yes"}
 
     Delivery creation steps are detailed in [Create your first delivery](../../start/create-message.md).
 
@@ -48,7 +48,7 @@ To create a new SMS delivery, follow the steps below:
 
 1. You can check in the **[!UICONTROL Properties]** button that all is set up as needed. [Learn more about SMS tab](sms-delivery-settings.md#sms-tab)
     
-    ![](assets/sms_settings.png){zoomable="yes"}
+    ![Delivery properties of the SMS delivery with the General tab, Routing field and SMS tab highlighted](assets/sms_settings.png){zoomable="yes"}
 
 1. [Define the content](sms-content.md) of your delivery.
 

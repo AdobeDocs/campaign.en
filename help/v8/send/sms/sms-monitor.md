@@ -43,25 +43,25 @@ To access the dashboard, double-click on your delivery in the delivery list.
 
 In the **[!UICONTROL Summary]** tab, you have the main data like the number of messages processed, and the number of success.
 
-![](assets/sms_summary.png){zoomable="yes"}
+![SMS delivery dashboard Summary tab with messages to send, processed and success rates, and delivery status](assets/sms_summary.png){zoomable="yes"}
 
 After the sending of the SMS, the **[!UICONTROL SMS]** tab, which is about the content of the delivery, is no longer accessible for a change.
 
 In the **[!UICONTROL Delivery]** tab, you have the information about the delivery logs. For each address contacted, you can see if the SMS has been sent or not
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![Delivery tab Logs list showing, for each address contacted, whether the SMS was sent, with status and reason](assets/sms_deliverylogs.png){zoomable="yes"}
 
 You can see in the **[!UICONTROL Exclusions]** tab the details on why some addresses are excluded from the target.
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![Delivery tab Exclusions tab listing ignored addresses with the reason, such as Denylisted address or Double](assets/sms_exclusions.png){zoomable="yes"}
 
 The **[!UICONTROL Tracking]** tab is about the tracking. Below the example of a URL tracked in the SMS content.
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![Tracking tab URLs list showing a tracked URL from the SMS content with its label, type and source URL](assets/sms_trackinglogs.png){zoomable="yes"}
 
 And last, the **[!UICONTROL Audit]** tab with all the details during the launch of the delivery:
 
-![](assets/sms_audit.png){zoomable="yes"}
+![Audit tab Log listing the messages recorded during the delivery launch, with date and message columns](assets/sms_audit.png){zoomable="yes"}
 
 ## Understand SMS failures
 

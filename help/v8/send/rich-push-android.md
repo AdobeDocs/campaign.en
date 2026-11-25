@@ -75,17 +75,17 @@ Navigate through the tabs below to learn more on how to personalize these templa
 
 1. From the **[!UICONTROL Notification type]** drop-down, select **[!UICONTROL Default]**.
 
-    ![](assets/rich_push_default.png)
+    ![Notification Type list with Default selected in the Android Content tab](assets/rich_push_default.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Message]** fields.
 
-    ![](assets/rich_push_default_2.png)
+    ![Default notification with Title and Message fields filled in a promo code offer](assets/rich_push_default_2.png)
 
 1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_default_3.png)
+    ![Notification options and HTTPv1 additional options filled in for a Default notification](assets/rich_push_default_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -93,13 +93,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Basic]**.
 
-    ![](assets/rich_push_basic.png)
+    ![Notification Type list with Basic selected in the Android Content tab](assets/rich_push_basic.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_basic_2.png)
+    ![Basic notification with Title, Message and Expanded Message fields filled in](assets/rich_push_basic_2.png)
 
 1. Use dynamic personalization fields to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
 
@@ -126,11 +126,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
     For more information on how to handle Android App Links, refer to [Android Developers documentation](https://developer.android.com/training/app-links).
 
-    ![](assets/rich_push_basic_3.png)
+    ![Basic notification Buttons table with one Web URL button labeled Shop now! and Remind later fields filled in](assets/rich_push_basic_3.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_basic_4.png)
+    ![Notification options and HTTPv1 additional options filled in for a Basic notification](assets/rich_push_basic_4.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -138,13 +138,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Carousel]**.
 
-    ![](assets/rich_push_carousel.png)
+    ![Notification Type list with Carousel selected in the Android Content tab](assets/rich_push_carousel.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_carousel_1.png)
+    ![Carousel notification with Title, Message and Expanded Message fields filled in](assets/rich_push_carousel_1.png)
 
 1. Use the Expression editor to define content, personalize data and add dynamic content. [Learn more](../send/personalize.md)
 
@@ -161,11 +161,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
     Ensure that you include a minimum of three images and a maximum of five images.
 
-    ![](assets/rich_push_carousel_2.png)
+    ![Carousel options set to Manual with Filmstrip layout and three images with action URIs in the Images table](assets/rich_push_carousel_2.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_carousel_3.png)
+    ![Notification options and HTTPv1 additional options filled in for a Carousel notification](assets/rich_push_carousel_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -173,11 +173,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Icon buttons]**.
 
-    ![](assets/rich_push_icon.png)
+    ![Notification Type list with Icon buttons selected in the Android Content tab](assets/rich_push_icon.png)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Background]**.
 
-    ![](assets/rich_push_icon_2.png)
+    ![Icon buttons notification with a hexadecimal value entered in Background Color](assets/rich_push_icon_2.png)
 
 1. Provide the URL for the **[!UICONTROL Cancel button image]**.
 
@@ -185,11 +185,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
     Ensure you include a minimum of three images and a maximum of five buttons.
 
-    ![](assets/rich_push_icon_3.png)
+    ![Cancel Button Image URL and Icon Image Buttons table with three Web URL buttons](assets/rich_push_icon_3.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_icon_5.png)
+    ![Notification options and HTTPv1 additional options filled in for an Icon buttons notification](assets/rich_push_icon_5.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -197,13 +197,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Input box]**.
 
-    ![](assets/rich_push_input.png)
+    ![Notification Type list with Input box selected in the Android Content tab](assets/rich_push_input.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_input_2.png)
+    ![Input box notification with Title, Message and Expanded Message fields filled in](assets/rich_push_input_2.png)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
@@ -214,11 +214,11 @@ Once you have defined your message content, you can use test subscribers to prev
     * **[!UICONTROL Feedback text]**: Enter the text to display after a reply.
     * **[!UICONTROL Feedback image]**: Add the URL for the image displayed after a reply.
 
-    ![](assets/rich_push_input_3.png)
+    ![Input box options: Input Receiver Name, Input Text, Feedback Text and Feedback Image filled in](assets/rich_push_input_3.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_input_4.png)
+    ![Notification options and HTTPv1 additional options filled in for an Input box notification](assets/rich_push_input_4.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -226,13 +226,13 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Product catalog]**.
 
-    ![](assets/rich_push_catalog.png)
+    ![Notification Type list with Product catalog selected in the Android Content tab](assets/rich_push_catalog.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_catalog_2.png)
+    ![Product catalog notification with Title and Message fields filled in](assets/rich_push_catalog_2.png)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
@@ -244,7 +244,7 @@ Once you have defined your message content, you can use test subscribers to prev
     * **[!UICONTROL Action button URI]**: Specify the URI to be executed upon clicking the button.
     * **[!UICONTROL Display type]**: Choose between vertical or horizontal display.
 
-    ![](assets/rich_push_catalog_3.png)
+    ![Product Catalog options: Action Button Text, Action Button Color, Action Button URI and Display Type](assets/rich_push_catalog_3.png)
 
 1. In the **[!UICONTROL Product catalog items]** menu, click **[!UICONTROL Add]** and enter the following details for each item:
  
@@ -256,7 +256,7 @@ Once you have defined your message content, you can use test subscribers to prev
 
     Ensure that you include a maximum of three items.
 
-    ![](assets/rich_push_catalog_4.png)
+    ![Product Catalog Items table with three items showing Title, Image, Price and URI](assets/rich_push_catalog_4.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
@@ -266,19 +266,19 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Product rating]**.
 
-    ![](assets/rich_push_rating.png)
+    ![Notification Type list with Product rating selected in the Android Content tab](assets/rich_push_rating.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_rating_2.png)
+    ![Product rating notification with Title and Message fields filled in](assets/rich_push_rating_2.png)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
 1. In the **[!UICONTROL Product rating options]** menu, enter the URLs for the **[!UICONTROL Rating icon in unselected state]** and **[!UICONTROL Rating icon in selected state]**.
 
-    ![](assets/rich_push_rating_3.png)
+    ![Product rating options with image URLs for Rating icon in unselected state and selected state](assets/rich_push_rating_3.png)
 
 1. Under the **[!UICONTROL Product rating items]** menu, click **[!UICONTROL Add]** and enter your **[!UICONTROL Link URI]** and choose your **[!UICONTROL Link type]**.
     
@@ -292,11 +292,11 @@ Once you have defined your message content, you can use test subscribers to prev
 
     Ensure that you include a minimum of three values and a maximum of five values.
 
-    ![](assets/rich_push_rating_4.png)
+    ![Product Rating Items table with three Link URI entries of type Web URL](assets/rich_push_rating_4.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
-    ![](assets/rich_push_carousel_3.png)
+    ![Notification options and HTTPv1 additional options filled in for a Carousel notification](assets/rich_push_carousel_3.png)
 
 Once you have defined your message content, you can use test subscribers to preview and test the message.
 
@@ -304,23 +304,23 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Timer]**.
 
-    ![](assets/rich_push_timer.png)
+    ![Notification Type list with Timer selected in the Android Content tab](assets/rich_push_timer.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_timer_2.png)
+    ![Timer notification with Title and Message fields filled in, plus the Alternate message fields](assets/rich_push_timer_2.png)
 
 1. Enter the text that will be displayed after the timer has expired in the **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** and **[!UICONTROL Alternate expanded message]** fields.
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]**, **[!UICONTROL Background]** and **[!UICONTROL Timer]**.
 
-    ![](assets/rich_push_timer_3.png)
+    ![Timer notification Color options: Title Color, Message Color, Background Color and Timer Color](assets/rich_push_timer_3.png)
 
 1. Set your **[!UICONTROL Timer duration]** in seconds or the **[!UICONTROL Timer end timestamp]** to a specific epoch timestamp and add your **[!UICONTROL Alternate image]** URL that will be displayed after the timer has expired.
 
-    ![](assets/rich_push_timer_4.png)
+    ![Timer options with Timer Duration set to 3600 and an Alternate Image URL](assets/rich_push_timer_4.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 
@@ -330,19 +330,19 @@ Once you have defined your message content, you can use test subscribers to prev
 
 1. From the **[!UICONTROL Notification Type]** drop-down, select **[!UICONTROL Zero bezel]**.
 
-    ![](assets/rich_push_bezel.png)
+    ![Notification Type list with Zero Bezel selected in the Android Content tab](assets/rich_push_bezel.png)
 
 1. To compose your message, enter your text in the **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Expanded message]** fields. 
 
     The **[!UICONTROL Message]** text appears in the collapsed view while the **[!UICONTROL Expanded message]** is displayed when the notification is expanded.
 
-    ![](assets/rich_push_zero_2.png)
+    ![Zero Bezel notification with Title and Message fields filled in](assets/rich_push_zero_2.png)
 
 1. Under the **[!UICONTROL Color options]** menu, enter the hexadecimal color codes for your **[!UICONTROL Title]**, **[!UICONTROL Message]** and **[!UICONTROL Background]**.
 
 1. In the **[!UICONTROL Zero bezel options]** menu, add your image URL in the **[!UICONTROL Collapsed notification style]** field.
 
-    ![](assets/rich_push_zero_3.png)
+    ![Zero Bezel options with an image URL in Collapsed notification style](assets/rich_push_zero_3.png)
 
 1. To further personalize your push notification, configure the **[!UICONTROL Notification options]** and **[!UICONTROL HTTPv1 additional options]** of your push notification. [Learn more](#push-advanced)
 

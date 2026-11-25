@@ -55,7 +55,7 @@ A template can include partial or full configuration settings, such as:
 * Content, company logo, or signature
 * Other delivery properties, such as resource validity, retry parameters, or quarantine settings.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
+![Play icon for the video link](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#delivery-template-video)
 
 Delivery templates are stored in the **[!UICONTROL Resources > Templates > Delivery templates]** folder of the Explorer. In Adobe Campaign, you can work with two types of templates:
 
@@ -84,15 +84,15 @@ To duplicate a delivery template, follow the steps below:
 1. Select a built-in delivery template. Built-in templates are bolded in the list.
 1. Right-click and select **[!UICONTROL Duplicate]**.
 
-    ![](assets/duplicate-built-in-template.png)
+    ![Delivery templates list with the right-click menu open and Duplicate selected on a built-in template](assets/duplicate-built-in-template.png)
 
 1. Define the template settings and save the new template.
 
-    ![](assets/delivery-template-new.png)
+    ![Properties of a duplicated email template with its label, From address, subject and HTML content](assets/delivery-template-new.png)
 
 The template is added to the list of delivery templates. You can now select it when creating a new delivery.
 
-![](assets/select-the-new-template.png)
+![Delivery template drop-down listing built-in templates and the new custom template Announcement Email Delivery](assets/select-the-new-template.png)
 
 ### Convert an existing delivery to a template {#convert-an-existing-delivery}
 
@@ -104,11 +104,11 @@ To convert a delivery to a template, follow the steps below:
 
 1. Right-click and select **[!UICONTROL Actions > Save as template...]**.
 
-   ![](assets/save-as-template.png)
+   ![Delivery list right-click menu with Actions and Save as template selected](assets/save-as-template.png)
 
 1. Edit the delivery properties and select the folder where the new template must be saved (in the **[!UICONTROL Folder]** field), and the folder where the deliveries created based on this template must be created (in the **[!UICONTROL Execution folder]** field).
 
-   ![](assets/template-select-folders.png)
+   ![Delivery properties with the Execution folder, Folder and Routing fields for the new template](assets/template-select-folders.png)
 
 ### Create a new template {#create-a-new-template}
 
@@ -136,11 +136,11 @@ To configure a delivery template from scratch, follow the steps below:
 
 To create a delivery based on an existing template, select the template from the list of available delivery templates.
 
-![](assets/select-the-new-template.png)
+![Delivery template drop-down listing built-in templates and the new custom template Announcement Email Delivery](assets/select-the-new-template.png)
 
 If you cannot see your template, click the **[!UICONTROL Select link]** folder to the right of the field to browse Campaign folders.
 
-![](assets/browse-templates.png)
+![Folder selection dialog showing delivery templates, opened from the Delivery template field](assets/browse-templates.png)
 
 Select the desired directory from the **[!UICONTROL Folder]** field, or click the **[!UICONTROL Display sub-levels]** icon to display the contents of the directories in the sub-trees of the current directory.
 
@@ -156,7 +156,7 @@ To execute a template manually, follow these steps:
 
     You can also use **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-    ![](assets/execute-delivery-template.png)
+    ![Delivery templates list with the Execute the delivery template menu option selected](assets/execute-delivery-template.png)
 
 1. Enter the delivery parameters and click **[!UICONTROL Send]**.
 

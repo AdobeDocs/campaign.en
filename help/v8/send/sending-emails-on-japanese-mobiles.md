@@ -32,7 +32,7 @@ Adobe Campaign manages three specific Japanese formats for email on mobiles: **D
 
 In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
-![](assets/deco-mail_03.png)
+![Recipient General tab with the Email format list open: Unknown, Text, HTML, Deco-mail, Decoration Mail, Decore Mail](assets/deco-mail_03.png)
 
 However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]**, Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
 
@@ -69,7 +69,7 @@ In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!
 * Check that the number of images in the message does not exceed the limit imposed by the format (20 images)
 * Check the total message size (less than 100kB)
 
-  ![](assets/deco-mail_06.png)
+  ![Preview results window with the Deco-mail diagnostic tab listing warnings for unsupported tags and the 100 kB size limit](assets/deco-mail_06.png)
 
 ### Run typology rule {#running-typology-rule}
 
@@ -87,7 +87,7 @@ You can send proofs to test your delivery. When you send the proof, if you are u
 
 For example, you can replace a profile's address by test@softbank.ne.jp if the email format for this profile was defined beforehand on **[!UICONTROL Decore Mail (Softbank)]**.
 
-![](assets/deco-mail_05.png)
+![Send a proof dialog in Substitution of the address mode with a softbank.ne.jp test address mapped to a profile](assets/deco-mail_05.png)
 
 ## Send messages {#sending-messages}
 
@@ -102,9 +102,9 @@ You can create a workflow that contains two deliveries: one to be read on a Japa
 
 To do this, use the **[!UICONTROL Split]** activity in your workflow and define the Japanese email formats (Deco-mail, Decoration Mail and Decore Mail) as filtering conditions.
 
-![](assets/deco-mail_08.png)
+![Filter dialog with three Email format conditions combined by Or: Deco-mail, Decoration Mail and Decore Mail](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![Workflow: Query, Deduplication, then a split by email format to a Japanese mobiles delivery and a standard delivery](assets/deco-mail_07.png)
 
 ### Design a delivery for all formats {#designing-a-delivery-for-all-formats}
 

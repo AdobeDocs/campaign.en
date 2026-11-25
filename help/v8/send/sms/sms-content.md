@@ -36,25 +36,25 @@ To configure the content of your SMS delivery:
 
 1. Enter the content of your message in the **[!UICONTROL Text content]** tab.
     
-    ![](assets/sms_content.png){zoomable="yes"}
+    ![Text content tab of the SMS delivery with the message text entered](assets/sms_content.png){zoomable="yes"}
 
 1. You can personalize your message by inserting personalization fields (for example adding the first name), or inserting predefined personalization blocks (for example adding the greetings). Click on the personalization button to add these:
 
-    ![](assets/sms_perso.png){zoomable="yes"}
+    ![Personalization menu open in the SMS text content with Recipient submenu showing First name and other fields](assets/sms_perso.png){zoomable="yes"}
 
     For example, after clicking on **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, the SMS content is updated with the personalization field, as below:
 
-    ![](assets/sms_perso_recipient.png){zoomable="yes"}
+    ![SMS text content with the first name personalization field inserted in the message](assets/sms_perso_recipient.png){zoomable="yes"}
 
     Learn more about personalization in Adobe Campaign in [Get started with personalization](../personalize.md).
 
 1. You can preview your delivery content from the **[!UICONTROL Preview]** tab. To check your personalization settings, click on the **[!UICONTROL Test personalization]** drop-down list, and select a recipient.
 
-    ![](assets/sms_preview.png){zoomable="yes"}
+    ![Preview tab of the SMS with the Test personalization drop-down open to select a recipient](assets/sms_preview.png){zoomable="yes"}
 
     You can check the preview of your SMS with the personalization:
 
-    ![](assets/sms_preview_phone.png){zoomable="yes"}
+    ![SMS preview with the first name replaced by the recipient value, shown as text and on a phone mock-up](assets/sms_preview_phone.png){zoomable="yes"}
 
 >[!NOTE]
 >

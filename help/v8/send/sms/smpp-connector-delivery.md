@@ -37,7 +37,7 @@ This section describes how the SMS process handles data.
 
 Here is a high level block diagram that summarizes how the SMS process interacts with its environment.
 
-![](assets/smsv2_highlevel.png){zoomable="yes"}
+![SMS process with SMPP connector and SR reconciliation linked to the Campaign database and the SMPP provider](assets/smsv2_highlevel.png){zoomable="yes"}
 
 The SMS process hosts 2 important components: the SMPP connector itself that handles communication with the SMPP provider, and a background task for SR reconciliation.
 
@@ -87,7 +87,7 @@ For each active SMPP account, the SMPP connector tries to keep connections activ
 
 Here is a diagram describing the whole process:
 
-![](assets/message_processing.png){zoomable="yes"}
+![Sequence diagram of three phases between broad log, providerMsgId, providerMsgStatus, SMPP connector and provider](assets/message_processing.png){zoomable="yes"}
 
 **Phase 1**
 

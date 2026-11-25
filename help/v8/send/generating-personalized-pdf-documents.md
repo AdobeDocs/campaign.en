@@ -71,7 +71,7 @@ To do this, you need to configure a personalization block, then include a call t
 * Create a new "My Logo" personalization block with "My_Logo" as an internal name.
 * Click on the **[!UICONTROL Advanced parameters...]** link then check the **[!UICONTROL "The content of the block is included in an attachment"]** option. This lets you copy the definition of the personalization block directly into the content of the OpenOffice file.
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![My Logo personalization block with its content type and the OpenOffice XML definition in the editor](assets/s_ncs_pdf_bloc_option.png)
 
   You need to differentiate two types of declarations within the personalization block:
 

@@ -35,7 +35,7 @@ You can send a proof for your SMS delivery to validate it:
 
 1. Click on **[!UICONTROL Send a proof]** button, a window will be opened
 
-    ![](assets/proof_targeting.png){zoomable="yes"}
+    ![Send a proof dialog with the Targeting mode list: specific proof target, address substitution, seed addresses, or both](assets/proof_targeting.png){zoomable="yes"}
 
     You have multiple modes to send a proof:
 
@@ -49,12 +49,12 @@ You can send a proof for your SMS delivery to validate it:
 
     In the example below, we choose **[!UICONTROL Definition of a specific proof target]**, and add a recipient: 
 
-    ![](assets/proof_recipient.png){zoomable="yes"}
+    ![Send a proof dialog in Definition of a specific proof target mode with one recipient added and the Analyze button](assets/proof_recipient.png){zoomable="yes"}
 
 1. Click on the **[!UICONTROL Analyze]** button.
 Adobe Campaign will perform all the control before validating the send of proof. At the end of the analysis, the **[!UICONTROL Confirm delivery]** button will be clickable.
 
-    ![](assets/proof_analyze.png){zoomable="yes"}
+    ![Send a proof dialog after analysis: preparation complete, 1 message to send, analysis log, and Confirm delivery button](assets/proof_analyze.png){zoomable="yes"}
 
 1. To send the proof of your SMS delivery, click on **[!UICONTROL Confirm delivery]** button.
 

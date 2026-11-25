@@ -58,7 +58,7 @@ To enable BCC for a specific [delivery template](create-templates.md), follow th
 1. Click the **[!UICONTROL Properties]** button.
 1. From the **[!UICONTROL Delivery]** tab, check the **[!UICONTROL Email BCC with Enhanced MTA]** option.
 
-    ![](assets/email-bcc.png)
+    ![Delivery properties Delivery tab with the Email BCC with enhanced Momentum option highlighted](assets/email-bcc.png)
 
 1. Click **[!UICONTROL Ok]** to confirm.
 

@@ -61,21 +61,21 @@ To attach a local file to a delivery, follow the steps below.
 1. Click the **[!UICONTROL Add]** button.
 1. Click **[!UICONTROL File...]** to select the file to be attached to the delivery.
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![Edit attached files dialog with the Add menu open and File... selected to attach a file to an email delivery](assets/s_ncs_user_wizard_email_attachement.png)
 
   You can also directly drag and drop the file in the delivery **[!UICONTROL Attachments]** field, or use the **[!UICONTROL Attach]** icon from the delivery assistant toolbar,
 
-  ![](assets/s_ncs_user_wizard_add_file_ico.png)
+  ![Attach icon in the delivery assistant toolbar, next to the Email parameters section](assets/s_ncs_user_wizard_add_file_ico.png)
 
 Once the file is selected, it is immediately uploaded onto the server to be available at the time of delivery. It is listed in the **[!UICONTROL Attachments]** field.
 
-  ![](assets/s_ncs_user_wizard_email_attachement_e.png)
+  ![Email parameters with the uploaded file listed in the Attachments field](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## Creating a calculated attachment {#creating-a-calculated-attachment}
 
 When you create a calculated attachment, the name of the attachment can be computed during analysis or delivery of each message and can depend on the recipient. It can also be personalized and converted to PDF.
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![Edit attached files dialog with the Add menu open and Calculated attachment... selected](assets/s_ncs_user_wizard_attachment.png)
 
 To create a personalized attachment, follow these steps:
 
@@ -83,7 +83,7 @@ To create a personalized attachment, follow these steps:
 1. Click the **[!UICONTROL Add]** button, then select **[!UICONTROL Calculated attachment]**.
 1. Select the type of calculation from the **[!UICONTROL Type]** drop-down list:
 
-  ![](assets/s_ncs_user_wizard_email01_136.png)
+  ![Attachment definition dialog with the Type drop-down list showing the four calculated attachment options](assets/s_ncs_user_wizard_email01_136.png)
 
 The following options are available:
 
@@ -99,11 +99,11 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 1. Select the file to upload in the **[!UICONTROL Local file]** field.
 1. Specify the label if necessary. The label replaces the filename when viewed in messaging systems. If nothing is specified, the filename is used by default.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![Attachment definition General tab with Type, Label and Local file fields and the Upload file on the server option](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
 1. If necessary, select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![Upload progress window listing the log messages and showing the file transfer to the server at 100 percent](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
 The file is then available on the server to be attached to the different deliveries created from this template.
 
@@ -111,7 +111,7 @@ The file is then available on the server to be attached to the different deliver
 
 The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+![Word processor document containing recipient first name and last name personalization fields for a PDF attachment](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 For this type of attachment, apply the following configuration steps:
 
@@ -120,13 +120,13 @@ For this type of attachment, apply the following configuration steps:
 1. Select **[!UICONTROL Upload file on the server]**, and then click **[!UICONTROL Update on server]** to start the transfer.
 1. You can display a preview. To do this, select a recipient.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![Attachment definition dialog previewing the personalized PDF for a recipient selected from the Preview list](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. Analyze your delivery and then start it.
 
    Each recipient receives a personalized PDF attached to the delivery.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![Received email with a personalized PDF attachment, opened to show the recipient name in the greeting](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -145,13 +145,13 @@ You can calculate the attachment name during the delivery preparation. To do thi
    >
    >The file must be present on the server.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![Attachment definition with a script computing the file path and name, including the date, during delivery analysis](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. Analyze and then start your delivery.
 
    The filename computation can be seen in the analysis log.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![Delivery analysis log with the line showing the computed attachment file name result highlighted](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### Attach a personalized file {#attach-a-personalized-file}
 
@@ -164,7 +164,7 @@ When selecting the attachment, you can choose the option **[!UICONTROL The file 
 1. Specify the label you wish to apply to the attachment.
 1. Specify the access path of the file and its exact name in the definition window. If the filename is personalized, you can use the Personalization fields for the relevant values.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![Attachment definition using the recipient last name in the file path to pick a different file for each recipient](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -174,21 +174,21 @@ When selecting the attachment, you can choose the option **[!UICONTROL The file 
 
    In the example below, the attached file was chosen according to its name as defined using the merge fields.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![Received email with one attached file whose name was built from the recipient last name](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
 ### Attachment settings {#attachment-settings}
 
 For the first two options, you can choose **[!UICONTROL Upload file on the server]** by selecting the appropriate option. The **[!UICONTROL Update the file on the server]** link lets you start uploading.
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![Attachment definition General tab with Upload file on the server selected and the Update on server link](assets/s_ncs_user_wizard_email01_137.png)
 
 A message tells you that the file has been uploaded to the server:
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+![Attachment definition showing the File already exists on server message](assets/s_ncs_user_wizard_email01_1371.png)
 
 For a change of file, a warning message is displayed:
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![Attachment definition showing the warning that the local file is not equal to the one on the server](assets/s_ncs_user_wizard_email01_1372.png)
 
 The **[!UICONTROL Advanced]** tab lets you define advanced options on attached files:
 
@@ -197,4 +197,4 @@ The **[!UICONTROL Advanced]** tab lets you define advanced options on attached f
 
   Enter your text in the window and use the personalization fields available in the drop-down list. In the following example, the filename is personalized to contain today's date and the name of the recipient.
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![Advanced tab with a script that personalizes the attachment file name, and the email showing the resulting name](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

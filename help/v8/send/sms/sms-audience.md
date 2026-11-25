@@ -41,7 +41,7 @@ To select the audience of your delivery, follow the steps below:
 
 1. Because the audience is stored in the Adobe Campaign database, in the **[!UICONTROL Main target]** tab, choose **[!UICONTROL Defined in the database]** option.
 
-    ![](assets/audience_to.png){zoomable="yes"}
+    ![Select target dialog with the Defined in the database option selected, opened from the To link](assets/audience_to.png){zoomable="yes"}
 
 1. Select the **[!UICONTROL Target mapping]** in the drop-down list. Adobe Campaign default target mapping is Recipients, based on **[!UICONTROL nms:recipient]** schema.
 
@@ -51,7 +51,7 @@ To select the audience of your delivery, follow the steps below:
 
     You can then select the type of filtering to apply:
 
-    ![](assets/audience_filters.png){zoomable="yes"}
+    ![Select target element dialog listing the target types and user filters to choose from](assets/audience_filters.png){zoomable="yes"}
 
     To use a target type, select it and click **[!UICONTROL Next]** button. 
 
@@ -70,7 +70,7 @@ To select the audience of your delivery, follow the steps below:
 
 1. Enter the name of your audience in the label field, and click the **[!UICONTROL Finish]** button to validate your audience.
 
-    ![](assets/audience_finish.png){zoomable="yes"}
+    ![Target element definition with the label mobile is not empty, a filter on Mobile, and Finish highlighted](assets/audience_finish.png){zoomable="yes"}
 
     You can add as many target populations as you need by clicking again on **[!UICONTROL Add]** button. You can also delete some of them by clicking on the cross located after their label.
 
@@ -84,7 +84,7 @@ Here are the steps for this:
 
 1. Choose the **[!UICONTROL Defined in an external file]** option.
 
-    ![](assets/audience_externalfile.png){zoomable="yes"}
+    ![Select target dialog with the Defined in an external file option selected and File format definition link](assets/audience_externalfile.png){zoomable="yes"}
 
 1. By default, recipients are imported in the database. You need to select the **[!UICONTROL Target mapping]** in that case. For more on target mappings, refer to [Work with target mappings](../../audiences/target-mappings.md).
 

@@ -55,7 +55,7 @@ This section details the elements specific to the delivery of iOS and Android no
 
 To create a new delivery, browse to the **[!UICONTROL Campaigns]** tab, click **[!UICONTROL Deliveries]** and click the **[!UICONTROL Create]** button above the list of existing deliveries.
 
-![](assets/delivery_step_1.png)
+![Deliveries list in the Campaigns tab with the Deliveries link highlighted and an arrow on the Create button](assets/delivery_step_1.png)
 
 
 By default, Adobe Campaign comes with two delivery templates: one for iOS, one for Android. You can duplicate them to define your own settings. Steps to configure a push delivery based on these templates are detailed below.
@@ -68,19 +68,19 @@ To send notifications on iOS devices, follow these steps:
 
 1. Select the **[!UICONTROL Deliver on iOS]** delivery template.
 
-   ![](assets/push_ios_1.png)
+   ![Delivery template list with Deliver on iOS (ios) selected before clicking Continue](assets/push_ios_1.png)
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
-   ![](assets/push_ios_2.png)
+   ![Select target dialog with Subscriber applications mapping and the Add button in Delivery target population](assets/push_ios_2.png)
 
 1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, select the service relevant to your mobile application, then select the iOS version of the application.
 
-   ![](assets/push_ios_3.png)
+   ![Target Type step with Subscribers of an iOS mobile application (iPhone, iPad) selected](assets/push_ios_3.png)
 
 1. Choose your **[!UICONTROL Notification type]** between **[!UICONTROL General notification (Alert, Sound, Badge)]** or **[!UICONTROL Silent notification]**.
 
-   ![](assets/push_ios_4.png)
+   ![General tab with Notification Type: General Notification (Alert, Sound, Badge) or Silent Notification](assets/push_ios_4.png)
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ To send notifications on iOS devices, follow these steps:
       >Sounds must be included in the application and defined when the service is created. 
       >
 
-   ![](assets/push_ios_5.png)
+   ![Sound and Badge tab with Badge value, Clean Badge, Critical Alert Mode and sound Name settings](assets/push_ios_5.png)
 
 1. From the **[!UICONTROL Application variables]** tab, your **[!UICONTROL Application variables]** are automatically added. They let you define notification behavior, for instance, you can configure a specific application screen to be displayed when the user activates the notification.
 
@@ -123,7 +123,7 @@ To send notifications on iOS devices, follow these steps:
 
    * **[!UICONTROL Category]**: name of your category ID which will display action buttons. These notifications give the user a faster way to perform different tasks in response to a notification without opening or navigating in the application.
 
-   ![](assets/push_ios_6.png)
+   ![Advanced tab with Mutable content, Thread-id and Category fields highlighted](assets/push_ios_6.png)
 
 1. For time sensitive notification, you can specify the following options:
 
@@ -143,11 +143,11 @@ To send notifications on iOS devices, follow these steps:
 
    * **[!UICONTROL Relevance score]**: set a relevance score from 0 to 100. The system uses this to sort the notifications in the notification summary.
 
-   ![](assets/push_ios_7.png)
+   ![Advanced tab with Target Content id, Launch image, Interruption level and Relevance score filled in](assets/push_ios_7.png)
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification. 
 
-   ![](assets/push-ios-preview.png)
+   ![Preview tab showing the iOS push notification title and message in a phone mockup](assets/push-ios-preview.png)
 
 
 >[!TAB Android]
@@ -156,7 +156,7 @@ To send notifications on Android devices, follow these steps:
 
 1. Select the **[!UICONTROL Deliver on Android (android)]** delivery template.
 
-    ![](assets/push-template-android.png)
+    ![Delivery template list with Deliver on Android (android) selected before clicking Continue](assets/push-template-android.png)
     
      >[!NOTE]
      > 
@@ -165,15 +165,15 @@ To send notifications on Android devices, follow these steps:
 
 1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
 
-    ![](assets/push-android-select-target.png)
+    ![Select target dialog with Subscriber applications mapping and the Add button for the Android delivery](assets/push-android-select-target.png)
 
 1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
 
-   ![](assets/push-android-subscribers.png)
+   ![Target Type step with Subscribers of an Android mobile application selected](assets/push-android-subscribers.png)
 
 1. Then enter the content for the notification.
 
-   ![](assets/push-android-content.png)
+   ![Android delivery Content tab with Message Type options, message text and Application variables table](assets/push-android-content.png)
 
 1. Click the **[!UICONTROL Insert emoticon]** icon to insert emoticons to your push notification.
 

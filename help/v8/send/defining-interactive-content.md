@@ -52,7 +52,7 @@ AMP for Email is compatible with existing emails. The AMP version of the message
 
 For more on the AMP for Email format, specification and requirements, see the [AMP developer documentation](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#amp-email-video)
+![Play icon for the AMP for Email video](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#amp-email-video)
 
 ## Key steps to use AMP for Email with Adobe Campaign {#key-steps-to-use-amp}
 
@@ -83,7 +83,7 @@ To build an email using the AMP format, follow the steps below.
 
 1. Click the **[!UICONTROL AMP content]** tab.
 
-    ![](assets/amp_tab.png)
+    ![Email delivery with the AMP content tab highlighted and the AMP source code displayed](assets/amp_tab.png)
 
 1. Edit the AMP content to suit your needs. 
 
@@ -95,7 +95,7 @@ To build an email using the AMP format, follow the steps below.
 
 1. Personalize your AMP content as needed, as you would usually do with HTML format in Adobe Campaign, with personalization fields and personalization blocks.
 
-    ![](assets/amp_tab_perso.png)
+    ![AMP content editor with a recipient first name personalization field highlighted in the code](assets/amp_tab_perso.png)
 
 1. Once done with editing, select your whole AMP content and copy-paste it into the [AMP web-based validator](https://validator.ampproject.org) or a similar website.
 
@@ -103,7 +103,7 @@ To build an email using the AMP format, follow the steps below.
     >
     >Make sure you select **AMP4 EMAIL** from the drop-down list on top of the screen.
 
-    ![](assets/amp_validator.png)
+    ![AMP validator with AMP4EMAIL format selected and validation status FAIL listing disallowed relative URLs](assets/amp_validator.png)
 
     Errors are flagged inline.
 
@@ -113,7 +113,7 @@ To build an email using the AMP format, follow the steps below.
 
 1. Make amendments as needed until the AMP content passes validation.
 
-    ![](assets/amp_validator_pass.png)
+    ![AMP validator with AMP4EMAIL format selected and Validation Status: PASS highlighted](assets/amp_validator_pass.png)
 
 1. To preview your content, copy-paste your validated content into [AMP Playground](https://playground.amp.dev) or a similar website.
 
@@ -121,7 +121,7 @@ To build an email using the AMP format, follow the steps below.
     >
     >Make sure you select **AMP for Email** from the drop-down list on top of the screen.
 
-    ![](assets/amp_playground.png)
+    ![AMP Playground with AMP for Email selected and a rendered preview of the email on the right](assets/amp_playground.png)
 
     >[!NOTE]
     >
@@ -174,7 +174,7 @@ To do this:
 
 For further details, consult the [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) developer documentation.
 
-![](assets/amp_from_field.png)
+![Email parameters with the From field highlighted above the AMP content tab](assets/amp_from_field.png)
 
 To test sending an AMP email to a Mail.ru address, follow the steps from the [Mail.ru developer documentation](https://postmaster.mail.ru/amp/#howto) (**If you are a user** section).
 

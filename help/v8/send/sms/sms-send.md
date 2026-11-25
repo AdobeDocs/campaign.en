@@ -36,10 +36,10 @@ In the window opened, choose the right action that fits to you.
 
     In the example below, we choose to **[!UICONTROL Deliver it as soon as possible]**, the **[!UICONTROL Analyze]** button appeared. We click on that **[!UICONTROL Analyze]** button.
 
-    ![](assets/send_action.png){zoomable="yes"}
+    ![Send to the main delivery target dialog with Deliver as soon as possible selected and Analyze highlighted](assets/send_action.png){zoomable="yes"}
 
     Adobe Campaign will perform all the control before validating the send of proof. You will see there the real volume of the audience. At the end of the analysis, the **[!UICONTROL Confirm delivery]** button will be clickable.
 
-    ![](assets/send_analyze.png){zoomable="yes"}
+    ![Completed delivery analysis showing the number of messages to send and the Confirm delivery button](assets/send_analyze.png){zoomable="yes"}
 
 1. To send your SMS delivery to its audience, click on **[!UICONTROL Confirm delivery]** button.

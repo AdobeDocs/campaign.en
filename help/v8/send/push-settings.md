@@ -186,7 +186,7 @@ To create a service to send push notifications, follow the steps below:
 
 1. Browse to **[!UICONTROL Profiles and Targets > Services and Subscriptions]** tab, and click **[!UICONTROL Create]**.
 
-   ![](assets/new-service-push.png){width="800"}
+   ![New service dialog with the Mobile application type and the Subscriber applications target mapping](assets/new-service-push.png){width="800"}
 
 1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal name]**, and select a **[!UICONTROL Mobile application]** type.
 
@@ -204,14 +204,14 @@ To create an app for iOS devices, follow these steps:
 
 1. Select **[!UICONTROL Create an iOS application]** and click **[!UICONTROL Next]**.
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![Mobile application creation wizard with Create an iOS application selected and the Next button](assets/new-ios-app.png){width="600"}
 
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. (optional) You can enrich a push message content with some **[!UICONTROL Application variables]**. These are fully customizable and a part of the message payload sent to the mobile device.
 
    In the example below, the **mediaURl** and **mediaExt** variables are added to create rich push notifications and then provide the application with the image to display within the notification.
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![General parameters step of the iOS app wizard with mediaURL and mediaExt listed as application variables](assets/ios-app-parameters.png){width="600"}
 
 1. Browse to the **[!UICONTROL Subscription parameters]** tab to define the mapping with an extension of the **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** schema.
 
@@ -254,7 +254,7 @@ To create an app for Android devices, follow these steps:
 
 1. Select **[!UICONTROL Create an Android application]** and click **[!UICONTROL Next]**.
 
-   ![](assets/new-android-app.png){width="600"}
+   ![Mobile application creation wizard with Create an Android application selected and the Next button](assets/new-android-app.png){width="600"}
 
 1. Enter the name of your app in the **[!UICONTROL Label]** field.
 1. The integration key is specific to each application. It links the mobile application to Adobe Campaign.

@@ -77,7 +77,7 @@ Output details:
 
 Predictive Send Time Optimization is stored at profile level:
 
-![](assets/sto-schema.png)
+![Recipients schema structure with the Predictive Send Time Optimization fields for best time to click and open](assets/sto-schema.png)
 
 
 >[!NOTE]

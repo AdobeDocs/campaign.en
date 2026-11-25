@@ -33,7 +33,7 @@ You can configure Adobe Campaign to keep a copy of emails sent from your platfor
 
 You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
-![](assets/email-message-format.png)
+![Delivery tab of the delivery properties with the Mail formats section highlighted and three format options](assets/email-message-format.png)
 
 Select the format of the email in the lower section of the window:
 
@@ -69,7 +69,7 @@ For example, you want to send an email containing Japanese characters. To make s
 
 To do this, select the **[!UICONTROL Force the encoding used for messages]** option in the **[!UICONTROL Character encoding]** section and choose an encoding from the drop-down list that is displayed.
 
-![](assets/email-smtp-encoding.png)
+![SMTP tab with Force the encoding used for messages selected and the Encoding drop-down list open](assets/email-smtp-encoding.png)
 
 ## Manage bounce emails {#managing-bounce-emails}
 
@@ -81,7 +81,7 @@ The **[!UICONTROL SMTP]** tab of the delivery properties lets you also configure
 
 Each of these fields can be personalized using the dedicated icon. Learn more on personalization fields in [Add personalization fields](personalization-fields.md).
 
-![](assets/email-smtp-bounce.png)
+![SMTP tab with the Bounce mails section highlighted: Errors-to address and Bounce address fields](assets/email-smtp-bounce.png)
 
 For more on bounce mail management, see [Bounce mail qualification](delivery-failures.md#bounce-mail-qualification).
 
@@ -91,7 +91,7 @@ The one-click list-unsubscribe URL is a link or button displayed next to the ema
 
 It displays as an **Unsubscribe** link in the ISPs' email interfaces. For example:
 
-![](assets/email-list-unsubscribe-example.png)
+![Email client sender line with the Unsubscribe link displayed next to the sender address](assets/email-list-unsubscribe-example.png)
 
 Adding an SMTP header called List-Unsubscribe is mandatory to ensure optimal deliverability management, and can be used as an alternative to the "Report as SPAM" icon. Indeed, using this functionality lowers complaint rates and helps to protect your reputation.
 
@@ -105,7 +105,7 @@ To enable this functionality, select the **[!UICONTROL Addition of One-click Lis
 >
 >This option is enabled by default.
 
-![](assets/email-smtp-list-unsubscribe.png)
+![SMTP tab with the One-Click List-Unsubscribe section and the header option selected by default](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -144,7 +144,7 @@ Values are encoded automatically if necessary.
 >
 >The syntax of this script must comply with the requirements of this content type: no unused space, no empty line, etc.
 
-![](assets/email-smtp-headers.png)
+![SMTP tab with the Additional SMTP headers script area highlighted, using the name:value format](assets/email-smtp-headers.png)
 
 
 ## Generate mirror page {#generating-mirror-page}

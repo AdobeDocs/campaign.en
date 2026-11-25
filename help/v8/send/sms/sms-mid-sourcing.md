@@ -55,22 +55,22 @@ To create your SMS operator, follow the steps below:
 
     Note that the Name (login) is to be later used to name your SMPP external account in the Mid-server.
 
-    ![](assets/smsoperator_mid.png){zoomable="yes"}
+    ![New SMS operator form on the mid-server with Name (login), Password and Label, and the Add button for rights](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. In **[!UICONTROL Groups and named rights]** part, click on **[!UICONTROL Add]** button.
 On the new window opened, choose **[!UICONTROL Named rights]** in the **[!UICONTROL Folder]** list, and select **[!UICONTROL ADMINISTRATION]** in the right list.
 
 1. Click on **[!UICONTROL Ok]** button.
 
-    ![](assets/smsoperator_rights.png){zoomable="yes"}
+    ![Add groups or named rights dialog with the ADMINISTRATION named right selected](assets/smsoperator_rights.png){zoomable="yes"}
 
 1. Click on **[!UICONTROL Save]** button to finalize the creation of your SMS operator. 
 
-    ![](assets/smsoperator_save.png){zoomable="yes"}
+    ![SMS operator form with the ADMINISTRATION right added and the Save button highlighted](assets/smsoperator_save.png){zoomable="yes"}
 
 You can see it in the operators list now.
 
-![](assets/smsoperator_list.png){zoomable="yes"}
+![Operators list showing the new Mid sms operator (smsOperator)](assets/smsoperator_list.png){zoomable="yes"}
 
 ## Create an SMS external account on the Marketing server {#sms-external-account}
 
@@ -82,17 +82,17 @@ In a mid infrastructure, you need to create an SMS external account on the Marke
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**, click the **[!UICONTROL New]** icon
 
-    ![](assets/sms_extaccount.png){zoomable="yes"}
+    ![External Accounts list in Administration > Platform with the New icon highlighted](assets/sms_extaccount.png){zoomable="yes"}
 
 1. Set up the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your external account. Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Mid-sourcing]** for the delivery mode.
 
-    ![](assets/mid_smsextaccount.png){zoomable="yes"}
+    ![External account General tab: Routing type, Enabled, Mobile (SMS) channel and Mid-sourcing delivery mode](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mid-sourcing]** tab, fill in the form with the mid-sourcing server URL and the SMS operator created previously on the mid server.
 
     Confirm the connection by clicking on **[!UICONTROL Test the connection]** button.
 
-    ![](assets/midtab_smsextaccount.png){zoomable="yes"}
+    ![Mid-sourcing tab with server URL, SMS operator account, password and Test the connection button](assets/midtab_smsextaccount.png){zoomable="yes"}
 
 1. Click **[!UICONTROL Save]**.
 
@@ -116,13 +116,13 @@ To do this, follow the steps below:
     >
 
     Define the account type as **[!UICONTROL Routing]**, check the **[!UICONTROL Enabled]** box, select **[!UICONTROL Mobile (SMS)]** for the channel, and **[!UICONTROL Bulk delivery]** for the delivery mode.
-    ![](assets/mid_extaccount.png){zoomable="yes"}
+    ![Mid-server external account General tab: Routing type, Enabled, Mobile (SMS) channel and Bulk delivery mode](assets/mid_extaccount.png){zoomable="yes"}
 
 1. In the **[!UICONTROL Mobile]** tab, keep **[!UICONTROL Extended generic SMPP]** in the **[!UICONTROL Connector]** drop-down list.
     
     The **[!UICONTROL Send messages through a dedicated process]** box is checked by default.
 
-    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
+    ![Mobile tab with the Extended generic SMPP connector and Send messages through a dedicated process checked](assets/sms_extaccount_connector.png){zoomable="yes"}
 
     To set up the connection, you need to fill the tabs of this form. For details, [learn more about SMPP external account](smpp-external-account.md#smpp-connection-settings).
 
@@ -132,18 +132,18 @@ To facilitate the creation of your SMS delivery, create an SMS delivery template
 
 In **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** on the Marketing server, right click on the existing Mobile delivery template, and choose **[!UICONTROL Duplicate]**.
 
-![](assets/sms_template_duplicate.png){zoomable="yes"}
+![Delivery templates list with Duplicate selected in the context menu for the Mobile (SMS) template](assets/sms_template_duplicate.png){zoomable="yes"}
 
 Change the **[!UICONTROL Label]** and the **[!UICONTROL Internal name]** of your template to easily recognize it, and click on **[!UICONTROL Properties]** button.
 
-![](assets/sms_template_name.png){zoomable="yes"}
+![Duplicated delivery template with Label and Internal name fields and the Properties button highlighted](assets/sms_template_name.png){zoomable="yes"}
 
 In the **[!UICONTROL General]** tab, in **[!UICONTROL Routing]**, select your SMPP external account. 
 
-![](assets/mid_template.png){zoomable="yes"}
+![Delivery properties General tab with the Routing field set to the SMPP external account](assets/mid_template.png){zoomable="yes"}
 
 In the **[!UICONTROL SMS]** tab, you can add optional parameters to your template.
 
-![](assets/sms_template_properties.png){zoomable="yes"}
+![Delivery properties SMS tab with general parameters and optional SMPP parameters (TLV)](assets/sms_template_properties.png){zoomable="yes"}
 
 [Learn more about this SMS tab configuration](sms-delivery-settings.md).
