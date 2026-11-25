@@ -43,7 +43,7 @@ If the delete request is successful, the response status is 204 No Content.
 
 The sample payloads below show how to unsubscribe a profile from a service. First perform a GET request to retrieve the profile.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -55,7 +55,7 @@ The sample payloads below show how to unsubscribe a profile from a service. Firs
 
 It returns the subscriptions URL for the profile.
 
-```
+```json
 
   {
     ...
@@ -70,7 +70,7 @@ It returns the subscriptions URL for the profile.
 
 Perform a GET request on the subscriptions URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
@@ -82,7 +82,7 @@ Perform a GET request on the subscriptions URL.
 
 It returns the list of subscriptions for the selected profile, with a URL for each subscribed service.
 
-```
+```json
 
 ...
 "service": {
@@ -98,7 +98,7 @@ It returns the list of subscriptions for the selected profile, with a URL for ea
 
 Perform a DELETE request on the desired service URL.
 
-```
+```bash
 
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -126,7 +126,7 @@ If the delete request is successful, the response status is 204 No Content.
 
 Retrieve the service record.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -138,7 +138,7 @@ Retrieve the service record.
 
 It returns the subscriptions URL for the service.
 
-```
+```json
 
 {
   ...
@@ -157,7 +157,7 @@ It returns the subscriptions URL for the service.
 
 Perform a GET request on the subscriptions URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
@@ -169,7 +169,7 @@ Perform a GET request on the subscriptions URL.
 
 It returns the list of subscriptions for the selected service, with a URL (href) for each profile subscription.
 
-```
+```json
 
 {
   "PKey": "<PKEY>",
@@ -188,7 +188,7 @@ It returns the list of subscriptions for the selected service, with a URL (href)
 
 Perform a DELETE request on the desired profile subscription URL.
 
-```
+```bash
 
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
 -H 'Content-Type: application/json' \

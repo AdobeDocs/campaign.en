@@ -45,7 +45,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
 * Sample GET request to retrieve emails in the database alphabetically ordered.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
     -H 'Content-Type: application/json' \
@@ -57,7 +57,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
     Response to the request.
 
-    ```
+    ```json
 
     {
     "content": [
@@ -74,7 +74,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
 * Sample GET request to retrieve the email in the database in a descending alpha order.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
     -H 'Content-Type: application/json' \
@@ -86,7 +86,7 @@ To know if a field can be sorted, check the "sortable" parameter into the resour
 
     Response to the request.
 
-    ```
+    ```json
 
     {
     "content": [
@@ -114,7 +114,7 @@ To identify the metadata of a filter and determine how to use it, you have to pe
 
 The sample payloads below show how to retrieve the "byText" filter metadata for the "profile" resource. First perform a GET request on the "profile" resource metadata.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
@@ -126,7 +126,7 @@ The sample payloads below show how to retrieve the "byText" filter metadata for 
 
 It returns the URL where the filters are described.
 
-```
+```json
 
 {
 "filters": {
@@ -138,7 +138,7 @@ It returns the URL where the filters are described.
 
 Perform a GET request on the URL. It returns the list of filters for the profile resource, with the metadata associated to each filter.
 
-```
+```json
 
 {
 "birthday": {
@@ -166,7 +166,7 @@ The same metadata structure is available for each filter:
 
 Filter metadata structure sample:
 
-```
+```json
 
 "byText": {
         "PKey": "...",
@@ -196,7 +196,7 @@ It is possible to combine multiple filters in a single request:
 
 * Sample GET request to retrieve the "service" resources with the type "email".
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
     -H 'Content-Type: application/json' \
@@ -208,7 +208,7 @@ It is possible to combine multiple filters in a single request:
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -233,7 +233,7 @@ It is possible to combine multiple filters in a single request:
 * Sample GET request to retrieve the "profile" resources containing "Doe" in
 the email or last name fields (the byText filter searches into both the email and last name fields).
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
     -H 'Content-Type: application/json' \
@@ -245,7 +245,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -265,7 +265,7 @@ the email or last name fields (the byText filter searches into both the email an
 
 * Sample GET request to retrieve the service resources with the type "email" and the label "sport".
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
     -H 'Content-Type: application/json' \
@@ -277,7 +277,7 @@ the email or last name fields (the byText filter searches into both the email an
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -316,7 +316,7 @@ For more on this, refer to the Campaign Standard documentation:
 
 Sample GET request to retrieve the "profile" resources with transaction amounts of 100$ or more. Note that the "byAmount" filter has first been defined in the Adobe Campaign Standard interface and linked to the "Transaction" custom table.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
@@ -382,7 +382,7 @@ The Adobe Campaign REST API can count the number of records in a request. To do 
 
 To count all the services that have a **messageType** value equal to "sms", perform a GET request with the **byChannel** filter.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
@@ -394,7 +394,7 @@ To count all the services that have a **messageType** value equal to "sms", perf
 
 It returns the services corresponding to the filter.
 
-```
+```json
 
 {
     "content": [
@@ -417,7 +417,7 @@ It returns the services corresponding to the filter.
 
 Perform a GET request on the **count** node's URL to retrieve the number of results.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
@@ -429,7 +429,7 @@ Perform a GET request on the **count** node's URL to retrieve the number of resu
 
 It returns the number of records.
 
-```
+```json
 
 {
     "count": 26
@@ -455,7 +455,7 @@ The **_lineCount** parameter allows you to limit the number of resources listed 
 
 Sample GET request to display 1 record of the profile resource.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
@@ -467,7 +467,7 @@ Sample GET request to display 1 record of the profile resource.
 
 Response to the request, with the **next** node to perform pagination.
 
-```
+```json
 
 {
     "content": [
@@ -490,7 +490,7 @@ Response to the request, with the **next** node to perform pagination.
 
 By default, the **next** node is not available when interacting with tables with a large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \

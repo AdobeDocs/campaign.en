@@ -43,7 +43,7 @@ For example, you want a "Cart abandonment" event to be triggered whenever one of
 
 The transactional event is sent through a POST request with the following URL structure:
 
-```
+```http
 
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
@@ -65,7 +65,7 @@ The request must contain a "Content-Type: application/json" header.
 
 You must add a charset, for example **utf-8**. Note that this value depends on the REST application you are using.
 
-```
+```bash
 
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -100,7 +100,7 @@ If the payload contains only "mobilePhone", the SMS communication channel will b
 
 The example below shows a payload where an SMS communication will be triggered:
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ The POST response returns the transactional event status at the time it was crea
 
 POST request to send the event.
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -163,7 +163,7 @@ POST request to send the event.
 
 Response to the POST request.
 
-```
+```json
 
 {
   "PKey":"<PKEY>",

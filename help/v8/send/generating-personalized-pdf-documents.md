@@ -80,7 +80,7 @@ To do this, you need to configure a personalization block, then include a call t
 
 In the example, the personalization block looks like this:
 
-```
+```html
 <% if (recipient.country.label == "Germany") { %>
 <draw:frame svg:width="4cm" svg:height="3cm">
 <draw:image xlink:href=https://..../logo_germany.png />

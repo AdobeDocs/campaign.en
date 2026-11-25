@@ -102,7 +102,7 @@ Create your query based on the profiles you want to recover. In the following ex
 
 For each form, the answers provided can be used in fields or labels. Use the following syntax for content stored in an archived field:
 
-```
+```html
 <%= ctx.webAppLogRcpData.name of the archived field %
 ```
 

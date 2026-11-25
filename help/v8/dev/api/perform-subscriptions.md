@@ -26,7 +26,7 @@ level_v2:
 
 Perform a GET request to retrieve the profile.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -38,7 +38,7 @@ Perform a GET request to retrieve the profile.
 
 It returns the subscriptions URL for the profile.
 
-```
+```json
 
   {
     ...
@@ -54,7 +54,7 @@ It returns the subscriptions URL for the profile.
 
 Perform a POST request on the subscriptions URL with the desired service Primary Key inside the payload.
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
@@ -68,7 +68,7 @@ Perform a POST request on the subscriptions URL with the desired service Primary
 
 It returns the updated profile with the service node completed.
 
-```
+```json
 
 {
   ...
@@ -87,7 +87,7 @@ It returns the updated profile with the service node completed.
 
 Perform a GET request to retrieve the service.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
@@ -99,7 +99,7 @@ Perform a GET request to retrieve the service.
 
 It returns the subscriptions URL for the service.
 
-```
+```json
 
   {
     ...
@@ -115,7 +115,7 @@ It returns the subscriptions URL for the service.
 
 Make a POST request on the subscriptions URL with the desired profile Primary Key inside the payload.
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
 -H 'Content-Type: application/json' \
@@ -129,7 +129,7 @@ Make a POST request on the subscriptions URL with the desired profile Primary Ke
 
 It returns the updated service with the subscribers node completed.
 
-```
+```json
 
 {
   ...

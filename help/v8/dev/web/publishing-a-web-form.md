@@ -157,7 +157,7 @@ To be accessed by users, the form must be in production and started, i.e. within
 
 When you deliver an invitation via email, you can use the **[!UICONTROL Adobe Campaign Encryption]** option for data reconciliation. To do this, go to the delivery assistant and adapt the link to the form by adding the following parameter:
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 

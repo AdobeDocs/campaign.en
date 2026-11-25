@@ -178,7 +178,7 @@ First, you need to perform the following steps on Snowflake:
 
 1. You can then query the Client ID and Client Secret using:
 
-   ```
+   ```sql
    select system$show_oauth_client_secrets('OAUTH_INTEGRATION_ABC'); // use uppercase letters
    ```
 

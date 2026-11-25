@@ -57,7 +57,7 @@ These filters are entered at the main **element** level of the schemas and, as s
 
   Here, the filter is used to disallow WRITE permissions on the schema for operators without the ADMINISTRATION permission. This means that only administrators will have write permissions on entities described by this schema.
 
-  ```
+  ```xml
   
   <sysFilter name="writeAccess">      
    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
@@ -68,7 +68,7 @@ These filters are entered at the main **element** level of the schemas and, as s
 
   Here, the filter is used to disallow both READ and WRITE permissions on the schema for all operators. Only the **internal** account, represented by the expression "$(loginId)!=0", has these permissions.
 
-  ```
+  ```xml
   
   <sysFilter name="readAccess"> 
    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>

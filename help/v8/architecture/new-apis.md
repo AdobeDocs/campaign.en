@@ -49,7 +49,7 @@ The **xtk.session.ingest** API is dedicated to Data Insert only. No update/delet
 
 Use the following code in a **Javascript code** activity to insert data in the Cloud database without reconciliation:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -66,7 +66,7 @@ Once the workflow is executed, the staging table is fed as expected.
 1. Get the authentication token. 
 1. Trigger the API. The payload is:
     
-    ```
+    ```xml
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
     <soapenv:Header/>
     <soapenv:Body>
@@ -86,7 +86,7 @@ Once the workflow is executed, the staging table is fed as expected.
 
 1. The UUID is sent back in the SOAP response:
 
-    ```
+    ```xml
     <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP-ENV:Body>
         <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -106,7 +106,7 @@ As a result, the staging table is fed as expected.
 
 Use the following code in a **Javascript code** activity to insert data in the Cloud database with reconciliation:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -126,7 +126,7 @@ Once the workflow is executed, the staging table is fed as expected.
 1. Get the authentication token. 
 1. Trigger the API. The payload is:
     
-    ```
+    ```xml
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
     <soapenv:Header/>
     <soapenv:Body>
@@ -146,7 +146,7 @@ Once the workflow is executed, the staging table is fed as expected.
 
 1. In this case the UUID is not provided back to the response because it has been provided in the payload. The response is:
 
-    ```
+    ```xml
     <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP-ENV:Body>
         <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -168,7 +168,7 @@ The **xtk.session.IngestExt** API is optimized for data update/delete. For inser
 
 Use the following code in a **Javascript code** activity to update data in the Cloud database:
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -186,7 +186,7 @@ Once the workflow is executed, the staging table is updated as expected.
 1. Get the authentication token. 
 1. Trigger the API. The payload is:
     
-    ```
+    ```xml
     <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
     <soapenv:Header/>
     <soapenv:Body>
@@ -206,7 +206,7 @@ Once the workflow is executed, the staging table is updated as expected.
 
 1. The SOAP response is:
 
-    ```
+    ```xml
     <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP-ENV:Body>
         <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>

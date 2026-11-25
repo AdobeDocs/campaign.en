@@ -141,7 +141,7 @@ In our example, the first and last name of the recipient are stored in a field o
 
 ![](assets/webapp_perso_vars_include.png)
 
-```
+```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
 <P>To start your customized study, please select your car <%=ctx.vars.marque%> and its year of purchase.</P>
 ```

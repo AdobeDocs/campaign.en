@@ -76,7 +76,7 @@ In the following example, we want to configure a Web form which, when approved, 
 
 1. The delivery URL must include the internal name of the destination form, for example:
 
-   ```
+   ```text
    https://[myserver]/webForm/APP62?&next=APP22
    ```
 

@@ -37,7 +37,7 @@ The **_lineCount** parameter allows you to limit the number of resources listed 
 
 Sample GET request to display 1 record of the profile resource.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
@@ -49,7 +49,7 @@ Sample GET request to display 1 record of the profile resource.
 
 Response to the request, with the **next** node to perform pagination.
 
-```
+```json
 
 {
     "content": [
@@ -72,7 +72,7 @@ Response to the request, with the **next** node to perform pagination.
 
 By default, the **next** node is not available when interacting with tables with a large amount of data. To be able to perform pagination, you must add the **_forcePagination=true** parameter to your call URL.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \

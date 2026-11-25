@@ -28,7 +28,7 @@ This means that there is an issue with the IMS provisioning of your specific Cam
 To get more details you can call the IMS API with your token to see what your IMS profile looks like: You need to have a prodCtx where the organization_id is the same as the one you put in your URL for Adobe.io to be able to route your request.
 If it is missing the IMS provisioning needs to be fixed.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
@@ -40,7 +40,7 @@ If it is missing the IMS provisioning needs to be fixed.
 
 It returns the following error.
 
-```
+```json
 
 {"error_code":"403023","message":"Profile is not valid"}
 
@@ -48,7 +48,7 @@ It returns the following error.
 
 Check your IMS profile with this request.
 
-```
+```bash
 
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
@@ -60,7 +60,7 @@ Check your IMS profile with this request.
 
 In the response, the ORGANIZATION_ID value must be the same in your first GET request.
 
-```
+```json
 
 {
   "countryCode": "FR",

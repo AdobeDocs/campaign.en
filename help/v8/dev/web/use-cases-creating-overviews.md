@@ -144,7 +144,7 @@ When you configure a list in your overview, you can choose to display additional
 
 1. In the **[!UICONTROL Additional detail]** tab, add the following code:
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=

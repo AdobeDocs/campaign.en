@@ -34,7 +34,7 @@ Additionally, Campaign Standard APIs allow you to search for profiles based on o
 
 * Sample GET request to retrieve all profiles.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
     -H 'Content-Type: application/json' \
@@ -46,7 +46,7 @@ Additionally, Campaign Standard APIs allow you to search for profiles based on o
 
     Response to the request.
 
-    ```
+    ```json
 
     {
         "content": [
@@ -64,7 +64,7 @@ Additionally, Campaign Standard APIs allow you to search for profiles based on o
 
 * Sample GET request to retrieve the first 10 email values.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
     -H 'Content-Type: application/json' \
@@ -76,7 +76,7 @@ Additionally, Campaign Standard APIs allow you to search for profiles based on o
 
     Response to the request. The "next" node returns the URL that gives you access to the 10 next email values.
 
-    ```
+    ```json
 
     {
     "content": [
@@ -111,7 +111,7 @@ The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based 
 
 * Sample request to filter profiles on the basis of first name.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
     -H 'Content-Type: application/json' \
@@ -123,7 +123,7 @@ The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based 
 
 * Sample request to filter profiles on the basis of last name.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
     -H 'Content-Type: application/json' \
@@ -135,7 +135,7 @@ The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based 
 
 * Sample request to filter profiles on the basis of email.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
     -H 'Content-Type: application/json' \
@@ -147,7 +147,7 @@ The **[!UICONTROL filterType]** parameter allows you to retrieve profiles based 
 
 * Sample request to filter profiles based on the "Hobby" custom field.
 
-    ```
+    ```bash
 
     -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
     -H 'Content-Type: application/json' \

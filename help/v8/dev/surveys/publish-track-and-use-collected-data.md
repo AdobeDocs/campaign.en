@@ -59,7 +59,7 @@ Double-click a line to display the survey form as filled in by the respondent. Y
 
 The origin is indicated in the survey URL by adding the following characters:
 
-```
+```text
 ?origin=xxx
 ```
 

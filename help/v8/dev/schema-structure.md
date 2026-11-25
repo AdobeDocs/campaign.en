@@ -44,7 +44,7 @@ topic_v2:
 
 The basic structure of an `<srcschema>` is as follows:
 
-```
+```xml
 
 <srcSchema>
     <enumeration>
@@ -86,7 +86,7 @@ The basic structure of an `<srcschema>` is as follows:
 
 The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -94,7 +94,7 @@ The XML document of a data schema must contain the **`<srcschema>`** root elemen
 
 Let us use the following XML content to illustrate the structure of a data schema:
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -102,7 +102,7 @@ Let us use the following XML content to illustrate the structure of a data schem
 
 With its corresponding data schema:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -122,7 +122,7 @@ The point of entry of the schema is its main element. It is easy to identify bec
 
 In our example, the main element is represented by the following line:
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -130,7 +130,7 @@ The elements **`<attribute>`** and **`<element>`** that follow the main element 
 
 In our sample schema, these are:
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -180,7 +180,7 @@ The following data types are supported in schemas:
 
 Here is our example schema with the types entered:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,7 +208,7 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
   **Example**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   
   ```
@@ -227,7 +227,7 @@ The **`<elements>`** and **`<attributes>`** elements of the data schema can be e
 
   **Example**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   
   ```
@@ -287,7 +287,7 @@ Enumerations allow the user to select a value from a drop-down list instead of e
 
 Example of an enumeration declaration in the data schema:
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -326,7 +326,7 @@ The enumeration values are declared in the **`<value>`** element with the follow
 
 Here is our example schema with the properties filled in:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -354,7 +354,7 @@ The **unbound** attribute with the value "true" lets you populate a collection e
 
 **Example**: definition of the **`<group>`** collection element in the schema.
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -363,7 +363,7 @@ The **unbound** attribute with the value "true" lets you populate a collection e
 
 With projection of the XML content:
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 
@@ -418,7 +418,7 @@ The **Compute string** is defined via the **`<compute-string>`** element under t
 
 **Example**: compute string of the recipient table.
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

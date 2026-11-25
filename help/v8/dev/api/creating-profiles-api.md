@@ -42,7 +42,7 @@ Creating profiles is performed with a **POST** request on the profile resource.
 
 Sample POST request to create a profile with the email "john.doe@mail.com".
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
@@ -56,7 +56,7 @@ Sample POST request to create a profile with the email "john.doe@mail.com".
 
 It returns the newly created profile, with the "john.doe@mail.com" email address.
 
-```
+```json
 
 {
     "PKey": "<PKEY>",

@@ -77,7 +77,7 @@ You will get a tree structure containing your new environment:
 
 1. Edit the HTML rendering function, for example as follows:
 
-   ``` 
+   ```javascript 
    function (imageUrl, targetUrl, shortContent, htmlSource){
          var html = "<p><b>" + shortContent + "</b></p>";
          html += "<p>" + htmlSource + "</p>";

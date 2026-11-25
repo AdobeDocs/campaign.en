@@ -50,7 +50,7 @@ In that case, all resources from the **Transaction**, **TransactionDetails** and
 
 Sample GET request to access the extended profileAndServicesExt resource.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
 -H 'Content-Type: application/json' \
@@ -62,7 +62,7 @@ Sample GET request to access the extended profileAndServicesExt resource.
 
 It returns the list of all linked custom resources. You can then use the resource URLs to perform any API task described in this documentation.
 
-```
+```json
 
 {
 "apiName": "resourceType",

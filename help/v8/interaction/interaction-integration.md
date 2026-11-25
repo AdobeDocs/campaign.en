@@ -31,7 +31,7 @@ To call the Offer engine in a web page, insert a call to a JavaScript code direc
 
 The script calling URL looks like this:
 
-```
+```xml
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
@@ -57,13 +57,13 @@ The HTML page must include an element with an @id attribute with the value of th
 
 In our example, the @id attribute receives the "i_SPC12" value, where "SPC12" is the internal name of the previously created offer space:
 
-```
+```xml
 <div id="i_SPC12"></div>
 ```
 
 In our example, the URL for calling the script is as follows ("OE3" is the internal name of the live environment):
 
-```
+```xml
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
 ```
 
@@ -79,7 +79,7 @@ This behavior lets you use several offer spaces on the same page, to be managed 
 
 The content of the offer representation is returned to the HTML page by the Offer engine:
 
-```
+```xml
 <div id="banner_header">
  <div id="i_SPC12">
    <table>
@@ -107,7 +107,7 @@ To present an offer to an identified contact, the process is similar to the one 
 
 In the content of the web page, you need to add the following script that will identify the contact during the call to the Offer engine:
 
-```
+```xml
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
@@ -123,7 +123,7 @@ In the content of the web page, you need to add the following script that will i
 
    In the following example, the contact has logged on to the website and was recognized during the call to the Offer engine thanks to their email and name.
 
-   ```
+   ```xml
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
@@ -149,7 +149,7 @@ Campaign **Interaction** module lets you return an XML node to the HTML page whi
 
 The call to the Offer engine looks like this:
 
-```
+```xml
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
@@ -167,7 +167,7 @@ The call to the Offer engine looks like this:
 
 The returned XML node looks like this:
 
-```
+```xml
 <propositions>
  <proposition id="" offer-id="" weight="" rank="" space="" div=""> //proposition identifiers
    ...XML content defined in Adobe Campaign...
@@ -190,7 +190,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    The name of the schema in the example is **cus:offer**
 
-   ```
+   ```xml
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
               label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
@@ -227,7 +227,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    In the "Views" section, insert the two new fields with the following content:
 
-   ```
+   ```xml
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
         <form label="Edit title 2" name="editForm" nothingToSave="true">
             <input nolabel="true" toolbarAlign="horizontal" type="jstEdit" xpath="." xpathInsert="/ignored/customizeTitle2">
@@ -280,7 +280,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    The call to the Offer engine in the HTML page looks like this:
 
-   ```
+   ```xml
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
@@ -290,7 +290,7 @@ The use case below details the configurations to carry out in Adobe Campaign to 
 
    The XML node returned by the Offer engine looks like this:
 
-   ```
+   ```xml
    <propositions>
     <proposition id="a28002" offer-id="10322005" weight="1" rank="1" space="SPC14" div="i_SPC14">
      <xmlOfferView>
@@ -316,7 +316,7 @@ It's possible to use an XML rendering function to create an offer presentation. 
 
    The function can look like this:
 
-   ```
+   ```javascript
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
@@ -363,7 +363,7 @@ Add the **nms:interaction#UpdateStatus** command to the URL, followed by these p
 
 Here is an example of code for a SOAP call:
 
-```
+```html
 <%
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(

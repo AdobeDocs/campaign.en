@@ -66,7 +66,7 @@ In the example below, learn how to create a multilingual email. Content displays
 1. Create an email and select the target population. In this example, the condition to display one version or the other will be based on the **Language** value of the recipient's profile. These values are set to **EN**, **FR**, **ES**.
 1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:
 
-   ```
+   ```html
    <% if (language == "EN" ) { %>
    <DIV id=en-version>Hello <%= recipient.firstName %>,</DIV>
    <DIV>Discover your new offers!</DIV>

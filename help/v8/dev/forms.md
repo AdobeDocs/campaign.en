@@ -63,7 +63,7 @@ The description of a form is a structured XML document that observes the grammar
 
 The XML document of the input form must contain the `<form>` root element with the  **name** and  **namespace** attributes to populate the form name and namespace.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
 ...
 </form>
@@ -71,7 +71,7 @@ The XML document of the input form must contain the `<form>` root element with t
 
 By default, a form is associated with the data schema with the same name and namespace. To associate a form with a different name, set the **entity-schema** attribute of the `<form>` element to the name of the schema key. To illustrate the structure of an input form, let us describe an interface using the "cus:recipient" example schema:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -91,7 +91,7 @@ The input form based on the example schema:
 
 ![](assets/do-not-localize/form_exemple1.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
@@ -120,7 +120,7 @@ To display the controls of the above example in two columns:
 
 ![](assets/do-not-localize/form_exemple2.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -136,7 +136,7 @@ The **colspan** attribute on a control extends the control by the number of colu
 
 ![](assets/do-not-localize/form_exemple3.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -150,7 +150,7 @@ By populating the **type="frame"** attribute, the container adds a frame around 
 
 ![](assets/do-not-localize/form_exemple4.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2" type="frame" label="General">
     <input xpath="@gender"/>
@@ -164,7 +164,7 @@ A **`<static>`** element can be used to format the input form:
 
 ![](assets/do-not-localize/form_exemple5.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <static type="separator" colspan="2" label="General"/>
   <input xpath="@gender"/>
@@ -186,7 +186,7 @@ The **xpath** attribute on a `<container>` lets you simplify the referencing of 
 
 Example of a container without "xpath":
 
-```
+```xml
 <container colcount="2">
   <input xpath="location/@zipCode"/>
   <input xpath="location/@city"/>
@@ -195,7 +195,7 @@ Example of a container without "xpath":
 
 Example with the addition of "xpath" to the element called "location":
 
-```
+```xml
 <container colcount="2" xpath="location">
   <input xpath="@zipCode"/>
   <input xpath="@city"/>
@@ -210,7 +210,7 @@ Use a **notebook** container to format data in pages that are accessible from ta
 
 ![](assets/do-not-localize/form_exemple6.png)
 
-```
+```xml
 <container type="notebook">
   <container colcount="2" label="General">
     <input xpath="@gender"/>
@@ -237,7 +237,7 @@ Use this container to display a vertical icon bar that lets you select the pages
 
 ![](assets/do-not-localize/form_exemple8.png)
 
-```
+```xml
 <container type="iconbox">
   <container colcount="2" label="General" img="xtk:properties.png">
     <input xpath="@gender"/>
@@ -262,7 +262,7 @@ You can hide a set of controls via a dynamic condition.
 
 This example illustrates the visibility of controls on the value of the "Gender" field:
 
-```
+```xml
 <container type="visibleGroup" visibleIf="@gender=1">
   ...
 </container>
@@ -283,7 +283,7 @@ Examples of condition syntax:
 
 This container lets you enable or disable a set of data from a dynamic condition. Disabling a control prevents it from being edited. The following example illustrates the enabling of controls from the value of the "Gender" field:
 
-```
+```xml
 <container type="enabledGroup" enabledIf="@gender=1">
   ...
 </container>
@@ -298,7 +298,7 @@ An enabling container is defined by the **type="enabledGroup"** attribute. The *
 
 Remember that a link is declared in the data schema as follows:
 
-```
+```xml
 <element label="Company" name="company" target="cus:company" type="link"/>
 ```
 
@@ -306,7 +306,7 @@ The edit control of the link in its input form is as follows:
 
 ![](assets/do-not-localize/form_exemple9.png)
 
-```
+```xml
 <input xpath="company"/>
 ```
 
@@ -320,7 +320,7 @@ The **[!UICONTROL Edit link]** (magnifier) icon launches the edit form of the li
 
 You can restrict the choice of target elements by adding the **`<sysfilter>`** element from the link definition in the input form:
 
-```
+```xml
 <input xpath="company">
   <sysFilter>
     <condition expr="[location/@city] =  'Newton"/>
@@ -330,7 +330,7 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 
 You can also sort the list with the **`<orderby>`** element:
 
-```
+```xml
 <input xpath="company">
   <orderBy>
     <node expr="[location/@zipCode]"/>
@@ -358,7 +358,7 @@ The principle consists in displaying the list of linked elements with optimized 
 
 Example of a collection link in a schema:
 
-```
+```xml
 <element label="Events" name="rcpEvent" target="cus:event" type="link" unbound="true">
 ...
 </element>
@@ -366,7 +366,7 @@ Example of a collection link in a schema:
 
 The list in its input form:
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -387,7 +387,7 @@ The **[!UICONTROL Detail]** button is automatically added when the **zoom="true"
 
 Filtering and sorting can be applied when the list is being loaded:
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -408,7 +408,7 @@ Adding an element to the list should therefore let you complete a list from one 
 
 Example of a relationship table in a schema:
 
-```
+```xml
 <srcSchema name="subscription" namespace="cus">
   <element name="recipient" type="link" target="cus:recipient" label="Recipient"/>
   <element name="service" type="link" target="cus:service" label="Subscription service"/>
@@ -419,7 +419,7 @@ For our example, we start with the input form of the "cus:recipient" schema. The
 
 ![](assets/do-not-localize/form_exemple12.png)
 
-```
+```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
   <input xpath="recipient"/>
   <input xpath="service"/>
@@ -453,7 +453,7 @@ These lists are used on XML mapped collection elements or on low-volume links.
 
 This control displays an editable column list with a toolbar containing Add and Delete buttons.
 
-```
+```xml
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -470,7 +470,7 @@ The columns are declared in the child **`<input>`** tags of the list. Column lab
 
 The toolbar buttons can be aligned horizontally:
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -483,7 +483,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 Insertion and editing of the data in a list can be entered in a separate edit form.
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -520,7 +520,7 @@ Example on the "Gender" field:
 
 ![](assets/do-not-localize/form_exemple16.png)
 
-```
+```xml
 <value value="@gender"/>
 <input xpath="@gender" readOnly="true"/>
 
@@ -532,7 +532,7 @@ A radio button lets you choose from several options. The **`<input>`** tags are 
 
 Example on the "Gender" field:
 
-```
+```xml
 <input type="RadioButton" xpath="@gender" checkedValue="0" label="Choice 1"/>
 <input type="RadioButton" xpath="@gender" checkedValue="1" label="Choice 2"/>
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
@@ -544,7 +544,7 @@ Example on the "Gender" field:
 
 A checkbox reflects a Boolean state (selected or not). By default, this control is used by "Boolean" (true/false) fields. A variable taking a default value of 0 or 1 can be associated with this button. This value can be overloaded via the **checkValue** attributes.
 
-```
+```xml
 <input xpath="@boolean1"/>
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
@@ -557,7 +557,7 @@ This control builds a tree on a set of fields to be edited.
 
 The controls to be edited are grouped in a **`<container>`** entered under the **`<input>`** tag of the tree control:
 
-```
+```xml
 <input nolabel="true" type="treeEdit">
   <container label="Text fields">
     <input xpath="@text1"/>
@@ -576,7 +576,7 @@ The controls to be edited are grouped in a **`<container>`** entered under the *
 
 An expression field updates a field dynamically from an expression; the **`<input>`** tag is used with an **xpath** attribute to enter the path of the field to be updated and an **expr** attribute containing the update expression.
 
-```
+```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
 <input expr="Iif([/tmp/@flag]=='On', true, false)" type="expr" xpath="@boolean1"/>
 <input expr="[/ignored/@action] == 'FCP'" type="expr" xpath="@launchFCP"/>
@@ -599,7 +599,7 @@ Examples of use of the `<set>` tag:
 
 The context of the form can be updated when initializing and closing the form via the **`<enter>`** and **`<leave>`** tags.
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <enter>
     <set...
@@ -621,7 +621,7 @@ A macro-language can be used in form definition in order to perform conditional 
 
 The **`<if expr="<expression>" />`** tag executes the instructions specified under the tag if the expression is verified:
 
-```
+```xml
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
   <set xpath="@boolean1" expr="true"/>
 </if>
@@ -629,7 +629,7 @@ The **`<if expr="<expression>" />`** tag executes the instructions specified und
 
 The **`<check expr="<condition>" />`** tag combined with the **`<error>`** tag prevents validation of the form and displays an error message if the condition is not satisfied:
 
-```
+```xml
 <leave>
   <check expr="/tmp/@test != ''">
     <error>You must populate the 'Test' field!</error> 
@@ -643,7 +643,7 @@ An assistant guides you through a set of data entry steps in the form of pages. 
 
 To add an assistant, use the following type of structure:
 
-```
+```xml
 <form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
@@ -667,7 +667,7 @@ SOAP method execution can be launched from a populated **`<leave>`** tag at the 
 
 The **`<soapcall>`** tag contains the call for the method with the following input parameters:
 
-```
+```xml
 <soapCall name="<name>" service="<schema>">
   <param type="<type>" exprIn="<xpath>"/>  
   ...
@@ -693,7 +693,7 @@ The **exprIn** attribute contains the location of the data to be passed as a par
 
 **Example**:
 
-```
+```xml
 <leave>
   <soapCall name="RegisterGroup" service="nms:recipient">         
     <param type="DOMElement" exprIn="/tmp/entityList"/>         

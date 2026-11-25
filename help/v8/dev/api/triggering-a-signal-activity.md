@@ -43,7 +43,7 @@ To trigger a workflow, follow the steps below:
 
 If you want to call the workflow with parameters, add them into the payload with the **"parameters"** attribute. The syntax consists of the parameter's name followed by its value (the following  types are supported: **string**, **number**, **boolean** and **date/time**).
 
-```
+```bash
 
   -X POST <TRIGGER_URL>
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ If you want to call the workflow with parameters, add them into the payload with
 
 Perform a GET request on the workflow.
 
-```
+```bash
 
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
 -H 'Content-Type: application/json' \
@@ -86,7 +86,7 @@ Perform a GET request on the workflow.
 
 It returns the workflow signal activity and the associated trigger url.
 
-```
+```json
 
 {
 "PKey": "<PKEY>",
@@ -107,7 +107,7 @@ It returns the workflow signal activity and the associated trigger url.
 
 To trigger a signal activity, perform a POST request on the trigger url with the "source". Add the "parameters" attributes if you want to call the workflow with parameters.
 
-```
+```bash
 
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
 -H 'Content-Type: application/json' \
@@ -133,7 +133,7 @@ To trigger a signal activity, perform a POST request on the trigger url with the
 
 If one of the parameters is not declared in the External signal activity, the POST request returns the error below, indicating which parameter is missing.
 
-```
+```text
 
 RST-360011 An error has occurred - please contact your administrator.
 'contentURL' parameter isn't defined in signal activity.

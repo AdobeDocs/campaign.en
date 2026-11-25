@@ -174,13 +174,13 @@ Once external translation is completed, you can import the translated files.
 
 Web forms are displayed in the default language specified in the **[!UICONTROL Localization]** tab of the Web application properties. To change languages, you must add the following characters to the end of the URL (where **xx** is the symbol of the language):
 
-  ```
+  ```text
   ?lang=xx
   ```
 
   if the language is the first or only parameter of the URL. For example: **https://myserver/webApp/APP34**
 
-  ```
+  ```text
   &lang=xx
   ```
 

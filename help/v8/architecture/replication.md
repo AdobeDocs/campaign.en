@@ -89,7 +89,7 @@ In addition to the built-in **Replicate Reference tables** technical workflow, y
 
 * Add a specific **Javascript code** activity with the following code:
 
-    ```
+    ```javascript
     nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
     ```
 
@@ -97,7 +97,7 @@ In addition to the built-in **Replicate Reference tables** technical workflow, y
 
 * Add a specific **nlmodule** activity with the following command:
 
-    ```
+    ```bash
     nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
     ```
 
@@ -117,7 +117,7 @@ APIs enable replication of both custom and out-of-the-box data from Campaign loc
 
 Example:
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">

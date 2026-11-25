@@ -139,7 +139,7 @@ Use the **[!UICONTROL Content]** tab to define the offer content.
     * **[!UICONTROL Image URL]**: specify a URL or an access path to the image of your offer.
     * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: enter the body of your offer in the tab you would like. To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as follows:
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
