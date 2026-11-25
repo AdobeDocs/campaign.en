@@ -60,7 +60,7 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
 1. Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Workflow HeatMap]** link to display the **[!UICONTROL Campaign Workflow HeatMap]** page.
 
-   ![](assets/wkf_monitoring_path.png)
+   ![Monitoring tab with the Workflow HeatMap link selected, opening the Campaign Workflow HeatMap grid.](assets/wkf_monitoring_path.png)
 
 1. Click the calendar to select a day.
 
@@ -72,15 +72,15 @@ Using the Workflow HeatMap requires to have a good understanding of the followin
 
 1. Click the **[!UICONTROL Filters]** button.
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![Campaign Workflow HeatMap page with the Filters button highlighted next to Help and Load data.](assets/wkf_monitoring_filters.png)
 
 1. Use the slider to set the minimum duration from 0 second to 1 hour. This enables you to search only workflows running for more than a certain number of seconds or minutes.
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ![HeatMap filters panel with the minimum duration slider set to 30 minutes, above the Workflows and Workflow type fields.](assets/wkf_monitoring_filters_duration.png)
 
 1. You can also choose a specific workflow from the **[!UICONTROL Workflows]** drop-down list.
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ![Workflows drop-down list in the HeatMap filters showing all, Database cleanup, Forecasting and other workflows.](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -104,7 +104,7 @@ The Campaign Workflow HeatMap is a grid naturally readable from upper left to bo
 
 To learn how the color code is applied and how to navigate the HeatMap, click the **[!UICONTROL Help]** button.
 
-![](assets/wkf_monitoring_legend.png)
+![HeatMap Help panel listing keyboard controls and the color legend from green for 1 workflow to red for 50.](assets/wkf_monitoring_legend.png)
 
 Each row represents an hour of the day and each cell represents 5 minutes of that hour.
 
@@ -112,11 +112,11 @@ The grid shows all the workflows that are running at the same time for each of t
 
 In the example below, between 8am and 8:05am, three workflows are running (no matter their individual duration):
 
-![](assets/wkf_monitoring_ex_8am.png)
+![HeatMap grid with the 08h row, 00m column cell highlighted, showing three workflows running between 8am and 8:05am.](assets/wkf_monitoring_ex_8am.png)
 
 1. Click a colored cell to display the details of all concurrent workflows running during this period.
 
-   ![](assets/wkf_monitoring_details.png)
+   ![HeatMap with the 08h cell selected and a table listing the three concurrent workflows with activity and duration.](assets/wkf_monitoring_details.png)
 
    For each workflow, all the activities that it contains are listed, with their duration.
 
@@ -135,7 +135,7 @@ As a Campaign administrator, the Workflow HeatMap can help you to understand the
 1. Set duration to a few seconds or a few minutes.
 1. Exclude the shortest workflows that are not significant by increasing the duration filter.
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![HeatMap filters with the minimum duration slider set to 3 minutes (189 seconds) to exclude the shortest workflows.](assets/wkf_monitoring_short_duration.png)
 
 1. Explore the results to understand the load on the instance and take appropriate actions:
 
@@ -149,7 +149,7 @@ As a Campaign administrator, the Workflow HeatMap helps you to find the longest 
 1. From the **[!UICONTROL Campaign Workflow HeatMap]** view, click the **[!UICONTROL Filters]** button.
 1. Set duration to 1 hour.
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![HeatMap filters with the minimum duration slider set to the maximum of 1 hour (3600 seconds).](assets/wkf_monitoring_long_duration.png)
 
 1. Include more results by decreasing the **[!UICONTROL Min duration]** filter.
 1. Explore the results to find the longest workflows, who can potentially have more impact on the server and database resources (CPU, RAM, network, IOPS, and so on).
@@ -169,7 +169,7 @@ In this case, many users are complaining about workflow performance. You need to
 1. Set the **[!UICONTROL Workflow type]** filter to **[!UICONTROL Marketing]**.
 1. From the HeatMap grid, observe the following:
 
-   ![](assets/wkf_monitoring_without.png)
+   ![HeatMap grid without the duration filter, with a peak of 50 workflows in the 10h row and few cells after 14h.](assets/wkf_monitoring_without.png)
 
     * Fifty long-lasting (more than 5 minutes) campaign workflows are running at 10am.
     * Most of them have a pending state (by default, the concurrency limit is set to 20).
@@ -180,7 +180,7 @@ In this case, many users are complaining about workflow performance. You need to
 1. Go back to the **[!UICONTROL Campaign Workflow HeatMap]** page and click the **[!UICONTROL Reload data]** button.
 1. Now observe the following:
 
-   ![](assets/wkf_monitoring_with.png)
+   ![HeatMap grid with the duration filter applied, showing a different distribution with the peak reduced to 18 workflows.](assets/wkf_monitoring_with.png)
 
     * Only eighteen long-lasting campaign workflows are still running at 10am.
     * No more workflows are in pending state (the concurrency limit is still set to 20).

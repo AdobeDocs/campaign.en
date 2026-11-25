@@ -26,7 +26,7 @@ A **Wait** activity activates its transition after a time delay of anywhere betw
 
 You can enter the label and wait time using the editor, as in the example below:
 
-![](assets/edit_wait.png)
+![Wait activity editor with the label Wait 90s and a duration of 1m 30s.](assets/edit_wait.png)
 
 In the **[!UICONTROL Duration]** field, the value can be expressed in the unit of your choice: (according to the operator's regional settings):
 

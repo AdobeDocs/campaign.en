@@ -44,7 +44,7 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     * **[!UICONTROL Deduplication]**: Deduplicate the data from the incoming file before it is inserted in the database.
     * **[!UICONTROL Update data]**: Update the database with the imported profiles.
 
-   ![](assets/import_template_example0.png)
+   ![Import template workflow: Data loading (file), Enrichment, Split, Deduplication, two Update data activities and End.](assets/import_template_example0.png)
 
 1. Configure the **[!UICONTROL Data Loading (file)]** activity:
 
@@ -59,14 +59,14 @@ This example shows how to pre-set a workflow that can be reused for importing pr
 
       You can use any of the options but you have to modify the template accordingly. For example, if you select **[!UICONTROL Specified in the transition]**, you can add a **[!UICONTROL File Transfer]** activity before to retrieve the file to import from a FTP/SFTP server. With S3 or SFTP connection, you can also import segment data to Adobe Campaign with Adobe Real-time Customer Data platform. For more on this, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
     
-      ![](assets/import_template_example1.png)
+      ![Data loading (file) activity with a sample file preview and Upload a file from the local machine selected.](assets/import_template_example1.png)
 
 1. Configure the **[!UICONTROL Enrichment]** activity. The purpose of this activity in this context is to identify the incoming data.
 
     * In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]** and define a link between the imported data and the recipients targeting dimension. In this example, the **CRM ID** custom field is used to create the join condition. Use the field or combination of fields you need as long it allows to identify unique records.
     * In the **[!UICONTROL Reconciliation]** tab, leave the **[!UICONTROL Identify the document from the working data]** option unchecked.
 
-   ![](assets/import_template_example2.png)
+   ![Enrichment activity with the Link definition screen: link whose target may not exist, Recipients (nms) schema.](assets/import_template_example2.png)
 
 1. Configure the **[!UICONTROL Split]** activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
 
@@ -80,13 +80,13 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     
     * In the first subset of the **[!UICONTROL Subsets]** tab, add a filtering condition on the inbound population to select only records for which the recipient primary key is not equal to 0. This way, data from the file that are reconciled with recipients from the database are selected in that subset.
     
-      ![](assets/import_template_example3.png)
+      ![Split subset primary key not equal to 0 with the filter Query: primary key of recipients not equal to 0.](assets/import_template_example3.png)
 
     * Add a second subset that selects unreconciled records that have enough data to be inserted in the database. For example: email address, first name and last name.
 
       Subsets are processed in their creation order, meaning that when this second subset is processed, all records that already exist in the database are already selected in the first subset.
     
-      ![](assets/import_template_example3_2.png)
+      ![Split subset enough data to insert filtering on email, firstname and lastname not empty.](assets/import_template_example3_2.png)
 
     * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
 
@@ -96,18 +96,18 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     * In the **[!UICONTROL Record identification]** section, select **[!UICONTROL Using reconciliation keys]** and define a key between the targeting dimension and the link created in the **[!UICONTROL Enrichment]**. In this example, the **CRM ID** custom field is used.
     * In the **[!UICONTROL Fields to update]** section, indicate the fields from the recipients dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.
     
-      ![](assets/import_template_example6.png)
+      ![Update data with Update operation, reconciliation key @crmid on Recipients, and file columns mapped to fields.](assets/import_template_example6.png)
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled recipients:
 
     * Select **[!UICONTROL Edit configuration]** and set the targeting dimension to the temporary schema generated from the **[!UICONTROL Enrichment]** activity of the workflow.
     
-      ![](assets/import_template_example4.png)
+      ![Deduplication Targeting dimension screen with Temporary schema selected and the Enrichment schema chosen.](assets/import_template_example4.png)
 
     * In this is example, the email field is used to find unique profiles. You can use any field you are sure is filled and part of a unique combination.
     * In the **[!UICONTROL Deduplication method]** screen, select **[!UICONTROL Advanced parameters]** and check the **[!UICONTROL Disable automatic filtering of 0 ID records]** option to make sure records that have a primary key equal to 0 (which should be all records of this transition) are not excluded.
 
-   ![](assets/import_template_example7.png)
+   ![Deduplication activity configured to deduplicate on the email field with the method Choose for me.](assets/import_template_example7.png)
 
 1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
 
@@ -115,11 +115,11 @@ This example shows how to pre-set a workflow that can be reused for importing pr
     * In the **[!UICONTROL Record identification]** section, select **[!UICONTROL Directly using the targeting dimension]** and choose the **[!UICONTROL Recipients]** dimension.
     * In the **[!UICONTROL Fields to update]** section, indicate the fields from the recipients dimension to update with the value of the corresponding column from the file. If the names of the file columns are identical or almost identical to the names of the recipients dimension fields, you can use the magic wand button to automatically match the different fields.
     
-      ![](assets/import_template_example8.png)
+      ![Update data 2 with Insert operation, targeting dimension Recipients and file columns mapped to recipient fields.](assets/import_template_example8.png)
 
 1. After the third transition of the **[!UICONTROL Split]** activity, add a **[!UICONTROL Data extraction (file)]** activity and a **[!UICONTROL File transfer]** activity if you want to keep track of data not inserted in the database. Configure those activities to export the column you need and to transfer the file on a FTP or SFTP server where you can retrieve it.
 1. Add an **[!UICONTROL End]** activity and save the workflow template.
 
 The template can now be used and is available for every new workflow. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Data loading (file)]** activity.
 
-![](assets/import_template_example9.png)
+![Executed import workflow showing record counts on each transition, including the Complement transition to End.](assets/import_template_example9.png)

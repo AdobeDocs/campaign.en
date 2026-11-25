@@ -28,7 +28,7 @@ topic_v2:
 
 You can use workflow activities to perform multiple tasks. Find below samples of usage to update the database by creating lists, manage subscriptions, send messages via a workflow, or enrich your deliveries and their audiences.
 
-A set of workflow use cases is available in [this section](workflow-use-cases.md).
+A set of workflow use cases is available in [Workflow use cases](workflow-use-cases.md).
 
 ## Data life cycle {#data-life-cycle}
 
@@ -38,7 +38,7 @@ In workflows, data transported from one activity to another is stored in a tempo
 
 This data can be displayed and analyzed by right-clicking the appropriate transition. 
 
-![](assets/wf-right-click-analyze.png)
+![Workflow with a right-click menu on a transition showing Display the target and Analyze target options.](assets/wf-right-click-analyze.png)
 
 To do this, select the relevant menu:
 
@@ -46,13 +46,13 @@ To do this, select the relevant menu:
 
   This menu displays the available data on the target population.
 
-  ![](assets/wf-right-click-display.png)
+  ![View population window, Data tab, listing the records of the target with their fields.](assets/wf-right-click-display.png)
 
   You can access the structure of the work table in the **[!UICONTROL Schema]** tab.
 
-  ![](assets/wf-right-click-schema.png)
+  ![View population window, Schema tab, showing the structure of the temp:enrich work table and its fields.](assets/wf-right-click-schema.png)
 
-  For more on this, refer to [this section](monitor-workflow-execution.md#worktables-and-workflow-schema).
+  For more on this, refer to [Worktables and workflow schema](monitor-workflow-execution.md#worktables-and-workflow-schema).
 
 * **[!UICONTROL Analyze target...]**
 
@@ -62,7 +62,7 @@ To do this, select the relevant menu:
 
 The target data is purged as the workflow is executed. Only the last work table is accessible. You can configure the workflow so that all work tables remain accessible: check the **[!UICONTROL Keep the result of interim populations between two executions]** option in the workflow properties.
 
-![](assets/wf-purge-data-option.png)
+![Workflow properties with the Keep the result of interim populations between two executions option checked.](assets/wf-purge-data-option.png)
 
 >[!CAUTION]
 >
@@ -85,7 +85,7 @@ In the following example, you are collecting a list of information on customers,
 
 1. Create a workflow to collect information, reconcile it with the data already in the database, then start a delivery. 
 
-   ![](assets/wf-targetdata-sample-1.png)
+   ![Workflow with Data loading (file), Enrichment and Delivery activities connected in sequence.](assets/wf-targetdata-sample-1.png)
 
 1. In our example, the file content is as follows:
 
@@ -101,15 +101,15 @@ In the following example, you are collecting a list of information on customers,
 
    To load the file, configure the **[!UICONTROL Data loading (file)]** activity as below:
 
-   ![](assets/wf-targetdata-sample-2.png)
+   ![Data loading (file) activity with a sample CSV file, a preview of its columns and Upload a file from the local machine.](assets/wf-targetdata-sample-2.png)
 
 1. Configure the **[!UICONTROL Enrichment]** activity to reconcile the collected data with that already in the Adobe Campaign database. Here, the reconciliation key is the account number:
 
-   ![](assets/wf-targetdata-sample-3.png)
+   ![Enrichment activity, Reconciliation tab, with the source expression Account matched to the destination @account.](assets/wf-targetdata-sample-3.png)
 
 1. Then configure the **[!UICONTROL Delivery]**: it is created based on a template, and the recipients are specified by the inbound transition. 
 
-   ![](assets/wf-targetdata-sample-4.png)
+   ![Delivery activity created from a template, with recipients specified by the inbound events and the Prepare action.](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
@@ -119,13 +119,13 @@ In the following example, you are collecting a list of information on customers,
 
    To do this, insert **[!UICONTROL Target extension]** type personalization fields.
 
-   ![](assets/wf-targetdata-sample-5.png)
+   ![Delivery editor personalization menu with Target extension open, listing fields such as Music, Account and Card.](assets/wf-targetdata-sample-5.png)
 
    Here, we want to insert the customer's favorite music genre and media type (CD or DVD) as stated in the file collected by the workflow.
 
    As a plus, we are going to add a coupon for loyalty card holders, i.e. recipients for whom the 'Card' value equals 1.
 
-   ![](assets/wf-targetdata-sample-6.png)
+   ![Delivery content with a script that adds 10% off when targetData.Card equals 1, and targetData.Music personalization.](assets/wf-targetdata-sample-6.png)
 
    **[!UICONTROL Target extension]** (targetData) type data is inserted into deliveries using the same characteristics as all personalization fields. They may also be used in the subject, link labels, or the links themselves.
 
@@ -142,7 +142,7 @@ The data of the Adobe Campaign database and the existing lists can be updated us
 
   You can select an existing list or create it. In this case, the name and possibly the record folder are computed.
 
-  ![](assets/s_user_create_list.png)
+  ![List update activity with a list specified explicitly, saved in the targeting dimension database with its own table.](assets/s_user_create_list.png)
 
   Refer to [List update](list-update.md).
 

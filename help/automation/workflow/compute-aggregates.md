@@ -44,12 +44,12 @@ To create this example, apply the following steps:
 
 1. In **[!UICONTROL Data to extract]**, define a count for the primary key (as shown in the previous example). Add the **[!UICONTROL Gender]** field in the output column. Check the **[!UICONTROL Group]** option in the **[!UICONTROL Gender]** column. This way recipients will be grouped by gender.
 
-   ![](assets/query_editor_nveau_27.png)
+   ![Data to extract with count(primary key) and Gender columns, and Group set to Yes for Gender.](assets/query_editor_nveau_27.png)
 
 1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]**: no sorting is necessary here.
 1. Configure data filtering. Here, you want to restrict the selection to contacts who live in London.
 
-   ![](assets/query_editor_22.png)
+   ![Target element filter: City (location/@city) equal to London, with the query summary highlighted.](assets/query_editor_22.png)
 
    >[!NOTE]
    >
@@ -60,4 +60,4 @@ To create this example, apply the following steps:
 
    There are three separate values for each sort by gender: **2** for female, **1** for male and **0** when the gender is unknown. In this example, the list contains 10 women, 16 men and 2 people whose gender is not known.
 
-   ![](assets/query_editor_agregat_04.png)
+   ![Data preview showing counts 10, 16 and 2 for gender values 2, 1 and 0.](assets/query_editor_agregat_04.png)

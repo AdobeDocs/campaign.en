@@ -36,7 +36,7 @@ To configure a **[!UICONTROL Fork]** activity and its related activities, follow
 
 1. Open the **[!UICONTROL Fork]** activity and define the name and the label of the outbound transitions.
 
-    ![](assets/s_user_segmentation_fork.png)
+    ![Fork activity with four transitions and the Transition window used to edit the name and label of transition 4.](assets/s_user_segmentation_fork.png)
 
 1. Open each outbound transition and configure it.
 1. Optionally, to join outbound transitions, add an AND-join activity. [Learn more](and-join.md).

@@ -91,7 +91,7 @@ The activity name can be found in the **[!UICONTROL Advanced]** tab. Don't leave
 * Always start your workflow with a **[!UICONTROL Start]** activity or a **[!UICONTROL Scheduler]** activity. When relevant, you can also use an **[!UICONTROL External signal]** activity.
 * When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch. If the same branch of a workflow has several schedulers (linked to each other), the number of tasks to be executed will be multiplied exponentially, which would considerably overload the database. This rule also applies to all activities with a **[!UICONTROL Scheduling & History]** tab. Learn more on [Scheduling](scheduler.md).
 
-  ![](assets/wf-scheduler.png)
+  ![Correct layout with one Scheduler per branch, versus two Schedulers in one branch marked as not allowed.](assets/wf-scheduler.png)
 
 * Use **[!UICONTROL End]** activities for every workflow. This lets Adobe Campaign free up temporary space used for calculations within workflows. For more on this, refer to: [Start and end](start-and-end.md).
 
@@ -154,4 +154,4 @@ Additional best practices should be applied on your workflows execution planning
 
 In a production environment, avoid executing workflows in the engine. When the **[!UICONTROL Execute in the engine]** option is checked in the **[!UICONTROL Workflow properties]**, the workflow takes priority and all other workflows are stopped by the workflow engine until this one is finished.
 
-![](assets/wf-execute-in-engine.png)
+![Workflow properties Execution tab with Execute in the engine (do not use in production) checked.](assets/wf-execute-in-engine.png)

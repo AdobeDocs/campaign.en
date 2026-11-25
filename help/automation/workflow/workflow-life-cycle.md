@@ -38,7 +38,7 @@ The workflow cycle has three main steps.
 
 For example, the **Start** and **Delivery** activities are outlined while the **Approval** activity flashes in the workflow below.
 
-![](assets/new-workflow-6.png)
+![Workflow with Start and Delivery activities outlined and the Approval activity running, then Delivery control and End](assets/new-workflow-6.png)
 
 This means that the first two activities have been successfully executed and that approval is in progress, i.e. it has been created but not yet completed.
 
@@ -46,4 +46,4 @@ The characters **574 -Ok** displayed above the transition following the **Delive
 
 The workflow is started and is waiting for an operator belonging to the group specified in the **Approval** activity to make a decision. The operators belonging to the group and who have an email address or mobile number are notified.
 
-For more on how to monitor you workflows, refer to [this section](monitor-workflow-execution.md).
+For more on how to monitor you workflows, refer to [Monitor workflow execution](monitor-workflow-execution.md).

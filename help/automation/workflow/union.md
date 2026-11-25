@@ -24,11 +24,11 @@ subfeature_v2:
 
 A **[!UICONTROL Union]** groups the result of several inbound activities in a single target. The target is created with all results received: all prior activities must therefore be finished for the union to be executed. 
 
-![](assets/s_user_segmentation_union.png)
+![Union activity with Reconciliation options, the Limit the size of the population generated checkbox and Results label](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->For more on configuring and using the **[!UICONTROL Union]** activity, refer to [this page](targeting-workflows.md#combine-several-targets--union-).
+>For more on configuring and using the **[!UICONTROL Union]** activity, refer to [Combine several targets (Union)](targeting-workflows.md#combine-several-targets--union-).
 
 ## Union example {#union-example}
 
@@ -45,7 +45,7 @@ In the following example, the results from two queries have been combined in ord
 1. Approve the **[!UICONTROL Union]** activity then configure the [List update](list-update.md) activity.
 1. Start the workflow. The number of results is displayed and the list defined in the list update activity is created or updated. This list contains the set of recipients for both queries or, where applicable, the number defined at the previous step.
 
-   ![](assets/union_example.png)
+   ![Workflow where two queries feed a Union activity, which outputs 5 results to a List update activity](assets/union_example.png)
 
 ## Input parameters {#input-parameters}
 

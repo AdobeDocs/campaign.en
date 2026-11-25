@@ -35,7 +35,7 @@ To do this:
 
    Here is an example of an S3 external account:
 
-   ![](assets/delivery_loadcontent_filetransfertexamples3.png)
+   ![External account creation form with type AWS S3, server, AWS access key ID and secret access key fields filled in](assets/delivery_loadcontent_filetransfertexamples3.png)
 
 1. Create a new workflow, for example from **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 1. Add a **[!UICONTROL File transfer]** activity into your workflow, and configure it by specifying
@@ -43,7 +43,7 @@ To do this:
     * The external account to use to connect to the S3 or (S)FTP server.
     * The path of the file on the S3 or (S)FTP server.
 
-   ![](assets/delivery_loadcontent_filetransfertexample.png)
+   ![File transfer activity set to File download, using an external account and a server folder path to an HTML file](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. Add a **[!UICONTROL Delivery]** activity and connect it to the outbound transition of the **[!UICONTROL File transfer]** activity. Configure it as follows:
 
@@ -52,7 +52,7 @@ To do this:
     * Content: Even if the content is imported in the previous activity, select **[!UICONTROL Specified in the delivery]**. As the content is imported directly from a file located on a remote server, it has no identifier when processed by the workflow and cannot be identified as coming from the inbound event.
     * Action to perform: Select **[!UICONTROL Save]** to save the delivery and be able to access it from **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** once the workflow is executed.
 
-   ![](assets/delivery_loadcontent_activityexample.png)
+   ![Delivery activity with a new delivery from a template, content Specified in the delivery and action Save](assets/delivery_loadcontent_activityexample.png)
 
 1. In the **[!UICONTROL Script]** tab of the **[!UICONTROL Delivery]** activity, add the following command to load the content of the imported file in the delivery:
 
@@ -60,7 +60,7 @@ To do this:
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   ![](assets/delivery_loadcontent_script.png)
+   ![Script tab of the Delivery activity with the command delivery.content.html.source=loadFile(vars.filename)](assets/delivery_loadcontent_script.png)
 
 1. Save and execute the workflow. A new delivery with the loaded content is created under **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 

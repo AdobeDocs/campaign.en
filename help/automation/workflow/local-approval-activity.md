@@ -34,13 +34,13 @@ The **[!UICONTROL Local approval]** activity integrated into a targeting workflo
 
 To set up this use case, we created the following targeting workflow:
 
-![](assets/local_validation_workflow.png)
+![Targeting workflow: two queries, intersection, split, approval notification, delivery, wait, feedback notification, end](assets/local_validation_workflow.png)
 
 The main steps of the local approval process are:
 
 1. The population resulting from targeting can be limited thanks to a **[!UICONTROL Split]** type activity using a data distribution model. 
 
-   ![](assets/local_validation_intro_1.png)
+   ![Data distribution list at 10 percent per domain, limiting the split output from 3,332 to 333 recipients in the workflow](assets/local_validation_intro_1.png)
 
 1. The **[!UICONTROL Local approval]** activity then takes over and sends a notification email to each local supervisor. The activity is pended until each local supervisor approves the recipients assigned to them.
 
@@ -50,7 +50,7 @@ The main steps of the local approval process are:
    >
    >Once the deadline is reached, recipients who haven't been approved are excluded from targeting.
 
-   ![](assets/local_validation_intro_6.png)
+   ![Workflow with the Delivery activity highlighted after the validation notification and before the Wait activity](assets/local_validation_intro_6.png)
 
 1. A few days later, the second **[!UICONTROL Local approval]** type activity sends a notification email to each local supervisor with a summary of the actions carried out by their contacts (clicks, opens, etc.). 
 
@@ -62,18 +62,18 @@ For more on creating a data distribution template, refer to [Limiting the number
 
 1. To create the data distribution template, go to the **[!UICONTROL Resources > Campaign management > Data distribution]** node and click **[!UICONTROL New]**.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![Explorer tree at Resources > Campaign Management > Data distribution with the New button highlighted](assets/local_validation_data_distribution_1.png)
 
 1. Select the **[!UICONTROL General]** tab.
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![Data distribution General tab with Label, Targeting dimension, Distribution field and type, and Approval storage](assets/local_validation_data_distribution_2.png)
 
 1. Enter the **[!UICONTROL Label]** and the **[!UICONTROL Distribution context]**. In this example, we have selected the **[!UICONTROL Recipient]** targeting schema and the **[!UICONTROL Email domain]** field as a distribution field. The list of recipients will be broken down by domain.
 1. In the **[!UICONTROL Distribution type]** field, select how the target limitation value will be expressed in the **[!UICONTROL Distribution]** tab. Here, we have chosen **[!UICONTROL Percentage]**.
 1. In the **[!UICONTROL Approval storage]** field, enter the storage schema of the approvals that match the targeting schema in use. Here we are going to use the default storage schema: **[!UICONTROL Local approval of recipients]**.
 1. Then click the **[!UICONTROL Advanced parameters]** link.
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![Advanced parameters: Approve the targeted messages, Delivery label, Grouping field and Edit targeted messages](assets/local_validation_data_distribution_3.png)
 
 1. Keep the **[!UICONTROL Approve the targeted messages]** option checked so that all recipients are pre-selected from the list of recipients to approve.
 1. In the **[!UICONTROL Delivery label]** field, we've left the default expression (compute string of the delivery). The standard label of the delivery will be used in the feedback notification.
@@ -81,7 +81,7 @@ For more on creating a data distribution template, refer to [Limiting the number
 1. In the **[!UICONTROL Edit targeted messages]** section, we've selected the **[!UICONTROL Edit recipients]** web application and the **[!UICONTROL recipientId]** parameter. In the approval and feedback notifications, recipients will be clickable and will point towards the URL of the web application. The additional URL parameter will be **[!UICONTROL recipientId]**.
 1. Then click the **[!UICONTROL Distribution]** tab. For each domain, enter the following fields:
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![Breakdown tab listing each domain with its percentage, label and the group or operator assigned to it](assets/local_validation_data_distribution_4.png)
 
     * **[!UICONTROL Value]**: enter the value of the domain name. 
     * **[!UICONTROL Percentage / Fixed]**: for each domain, enter the max. number of recipients you want to send the delivery to. In this example, we want to limit the delivery to 10% per domain.
@@ -96,7 +96,7 @@ For more on creating a data distribution template, refer to [Limiting the number
 
 To set up this use case, we created the following targeting workflow:
 
-![](assets/local_validation_workflow.png)
+![Targeting workflow: two queries, intersection, split, approval notification, delivery, wait, feedback notification, end](assets/local_validation_workflow.png)
 
 The following activities were added:
 
@@ -119,23 +119,23 @@ If you do not want to limit the population from the query, you do not have to us
 
 1. In the **[!UICONTROL Record count limitation]** section, select the **[!UICONTROL Limit the selected records]** option and click the **[!UICONTROL Edit]** link.
 
-   ![](assets/local_validation_split_1.png)
+   ![Split Subsets tab with the Limit the selected records option selected and the Edit link in Record count limitation](assets/local_validation_split_1.png)
 
 1. Select the **[!UICONTROL Keep only the first records after sorting]** option and click **[!UICONTROL Next]**.
 
-   ![](assets/local_validation_split_1bis.png)
+   ![Type of limit step with Keep only the first records after sorting selected](assets/local_validation_split_1bis.png)
 
 1. In the **[!UICONTROL Sort columns]** section, add the field which the sort is applied to. Here, we have chosen the **[!UICONTROL Email]** field. Click **[!UICONTROL Next]**.
 
-   ![](assets/local_validation_split_2.png)
+   ![Sorting step with the Email column added in Sort columns and the Next button](assets/local_validation_split_2.png)
 
 1. Select the **[!UICONTROL By data distribution]** option, select the distribution template created previously (refer to [Step 1: Creating the data distribution template](#step-1--creating-the-data-distribution-template-)) and click **[!UICONTROL Finish]**.
 
-   ![](assets/local_validation_split_3.png)
+   ![Limits step with By data distribution selected and the Distribution applied to recipients template chosen](assets/local_validation_split_3.png)
 
 In the distribution template, we have chosen to limit the population to 10% per grouping value, which coincides with the values displayed in the workflow (340 as an input and 34 as an output).
 
-![](assets/local_validation_intro_1.png)
+![Data distribution list at 10 percent per domain, limiting the split output from 3,332 to 333 recipients in the workflow](assets/local_validation_intro_1.png)
 
 ### Approval notification {#approval-notification}
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Local approval]** activity lets you send a notification to eac
 
 For more on configuring the **[!UICONTROL Local approval]** activity, refer to [Local approval](local-approval.md).
 
-![](assets/local_validation_workflow_2.png)
+![Local approval activity set to Target approval notification, Specified in the transition, with a 3d delay and a reminder](assets/local_validation_workflow_2.png)
 
 The following fields need to be entered:
 
@@ -161,13 +161,13 @@ A notification email is sent by the **[!UICONTROL Local approval]** activity to 
 
 The wait activity lets you postpone the start of the second local approval activity that will send the delivery feedback notification. In the **[!UICONTROL Duration]** field, we have entered the **[!UICONTROL 5d]** value (5 days). The actions performed by recipients for 5 days following the sending of the delivery will be included in the feedback notification.
 
-![](assets/local_validation_workflow_3.png)
+![Wait activity with the Duration field set to 5d](assets/local_validation_workflow_3.png)
 
 ### Feedback notification {#feedback-notification}
 
 The second **[!UICONTROL Local approval]** activity lets you send a delivery feedback notification to each local supervisor.
 
-![](assets/local_validation_workflow_4.png)
+![Local approval activity set to Delivery feedback report with the delivery Specified in the transition](assets/local_validation_workflow_4.png)
 
 The following fields need to be entered.
 
@@ -177,7 +177,7 @@ The following fields need to be entered.
 
 Once the deadline configured in the wait activity is reached, the second **[!UICONTROL Local approval]** type activity sends the following notification email to each local supervisor:
 
-![](assets/local_validation_intro_3.png)
+![Local validation web page with a Delivery feedback list of recipients by gender and their status: sent, opened, clicked](assets/local_validation_intro_3.png)
 
 ### Approval tracking by the administrator {#approval-tracking-by-the-administrator}
 
@@ -185,15 +185,15 @@ Each time the local approval activity starts, an approval task is created. The a
 
 Go to the targeting workflow of your campaign and click the **[!UICONTROL Local approval tasks]** tab.
 
-![](assets/local_validation_admin_1.png)
+![Local approval tasks tab of the campaign workflow listing the task, approval deadline, workflow and campaign](assets/local_validation_admin_1.png)
 
 The list of local approval tasks can also be accessed via the **[!UICONTROL Approval tasks]** tab of the data distribution template.
 
-![](assets/local_validation_admin_2.png)
+![Approval tasks tab of the data distribution template listing the local approval task and its targeted messages](assets/local_validation_admin_2.png)
 
 Select the task you want to monitor and click the **[!UICONTROL Detail]** button. The **[!UICONTROL General]** tab of the local approval task lets you view information on the task. If necessary, you can alter the approval and the reminder dates.
 
-![](assets/local_validation_admin_3.png)
+![Local approval task General tab with label, identifier, distribution, workflow, campaign, approval and reminder dates](assets/local_validation_admin_3.png)
 
 This tab shows the following information:
 
@@ -205,11 +205,11 @@ This tab shows the following information:
 
 The **[!UICONTROL Distribution]** tab for the task lets you view the approval logs, their status, the number of messages targeted, the approval date, as well as the operator who approved the delivery.
 
-![](assets/local_validation_admin_4.png)
+![Task Breakdown tab listing local approval logs with status, messages targeted, validation date and approver](assets/local_validation_admin_4.png)
 
 Select an approval log and click the **[!UICONTROL Detail]** button to display more information. The **[!UICONTROL General]** tab of the local approval log lets you view general log information. You can also change the approval status.
 
-![](assets/local_validation_admin_5.png)
+![Approval log General tab with the approval task, status, approver, approval date and messages targeted and approved](assets/local_validation_admin_5.png)
 
 This tab shows the following information:
 
@@ -221,4 +221,4 @@ This tab shows the following information:
 
 The **[!UICONTROL Targeted]** tab of the approval log displays the list of targeted recipients and their approval status. You can change this status if necessary. 
 
-![](assets/local_validation_admin_6.png)
+![Approval log Targeted tab listing targeted recipients with an editable approval Yes or No checkbox](assets/local_validation_admin_6.png)

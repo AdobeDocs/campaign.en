@@ -69,7 +69,7 @@ Refer to [SQL code](sql-code-and-javascript-code.md#important-notes) for more de
 
    Otherwise, type or copy-paste your SQL script in the dedicated area.
 
-   ![](assets/sql_datamanagement.png)
+   ![SQL Data Management activity with Outbound schema Recipients and an SQL script using the incoming transition table names](assets/sql_datamanagement.png)
 
    The activity lets you use the following variables in the script:
 

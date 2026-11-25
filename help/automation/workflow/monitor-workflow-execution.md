@@ -37,7 +37,7 @@ topic_v2:
 
 This section presents information on how to monitor your workflows' execution.
 
-A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [this section](workflow-supervision.md#supervising-workflows).
+A use case on how to create a workflow that lets you monitor the status of a set of workflows that are "paused", "stopped" or "with errors" is also available in [Use case: supervise your workflows](workflow-supervision.md#supervising-workflows).
 
 Additionally, administrators of the instance can use the **Audit trail** to check activities and last modifications done to workflows, the state of your workflows. Learn more about Audit trail in this [page](../../v8/reporting/audit-trail.md){target="_blank"}.
 
@@ -47,11 +47,11 @@ You can monitor execution by displaying progress using the appropriate icon on t
 
 The **[!UICONTROL Display progress information]** icon lets you display the status and the activity result in the execution screen.
 
-![](assets/s_user_segmentation_toolbar_progr.png)
+![Display progression information icon in the workflow toolbar](assets/s_user_segmentation_toolbar_progr.png)
 
 When this option is selected, executed activities are shown in blue, pending activities blink, warnings are shown in orange and errors in red. This option also displays the result of activities on their outbound transition, followed by the label of the result as defined in the activity properties and the duration of the job if it exceeds one second 
 
-![](assets/s_user_segmentation_results.png)
+![Workflow diagram with result counts and labels shown on the outbound transitions of the activities](assets/s_user_segmentation_results.png)
 
 ## Displaying logs {#displaying-logs}
 
@@ -59,11 +59,11 @@ The log contains the history or audit trail of the workflow. It registers all us
 
 * Select the **[!UICONTROL Tracking]** tab in the detail. This list contains all workflow messages.
 
-  ![](assets/new-workflow-display-log-tab.png)
+  ![Workflow list with the Audit tab of the selected workflow showing messages in the journal](assets/new-workflow-display-log-tab.png)
 
 * Filter the log messages by activity. To do this, click **[!UICONTROL Display the tasks and the log]** on the toolbar above the diagram in order to display the **[!UICONTROL Log]** and **[!UICONTROL Tasks]** tabs below the diagram. Select an activity to view all related messages. This list contains all the messages when no activity is selected.
 
-  ![](assets/new-workflow-display-log-activity.png)
+  ![Workflow diagram with the Approval activity selected and the Journal tab filtered on that activity](assets/new-workflow-display-log-activity.png)
 
   >[!NOTE]
   >
@@ -71,7 +71,7 @@ The log contains the history or audit trail of the workflow. It registers all us
 
 * View only those messages linked to a given task. To do this, select the **[!UICONTROL Tasks]** tab, and then select an activity in the diagram in order to restrict the list. Double-click a task to display the information; the last tab in the window contains the log.
 
-  ![](assets/new-workflow-display-tasks-activity.png)
+  ![Workflow diagram with the Approval activity selected and the Tasks tab listing its tasks](assets/new-workflow-display-tasks-activity.png)
 
   The **[!UICONTROL Details...]** button lets you display all additional information on activity execution. For example, you can view the validating operator and when applicable, the comment they entered during approval.
 
@@ -85,7 +85,7 @@ The log shows the chronological list of execution messages related to targeting 
 
   Once a targeting campaign has been executed, click the **[!UICONTROL Tracking]** tab to view the execution trace. 
 
-  ![](assets/s_user_segmentation_journal.png)
+  ![Audit view of a workflow listing messages in the journal with date, activity name and message](assets/s_user_segmentation_journal.png)
 
   All campaign messages are shown: campaigns carried out as well as warnings or errors.
 
@@ -95,17 +95,17 @@ The log shows the chronological list of execution messages related to targeting 
 
     1. Select the targeted activity and click the **[!UICONTROL Display the tasks and the log]** icon.
     
-       ![](assets/s_user_segmentation_show_logs.png)
+       ![Display the tasks and the log icon in the workflow toolbar](assets/s_user_segmentation_show_logs.png)
 
        The lower section of the diagram shows two tabs: Log and Tasks.
 
        Activities selected within the diagram act as filters on the log and task list.
     
-       ![](assets/s_user_segmentation_logs.png)
+       ![Workflow diagram with the Journal and Tasks tabs below it, filtered on the selected activity](assets/s_user_segmentation_logs.png)
 
     1. Right-click the targeted activity and select **[!UICONTROL Display logs]**.
     
-       ![](assets/s_user_segmentation_logs_menu.png)
+       ![Right-click menu of an activity with the Display logs option highlighted](assets/s_user_segmentation_logs_menu.png)
 
        The log is shown in a separate window.
 
@@ -113,7 +113,7 @@ The log shows the chronological list of execution messages related to targeting 
 
 Workflow history is not purged automatically: all messages are kept by default. History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. Select **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](start-a-workflow.md) section.
 
-![](assets/purge_historique.png)
+![Actions menu of the workflow list with the Purge history option highlighted](assets/purge_historique.png)
 
 ## Worktables and workflow schema {#worktables-and-workflow-schema}
 
@@ -127,31 +127,31 @@ The worktables of the workflow are deleted automatically when the workflow passi
 
 When an error occurs, the workflow is paused and the activity being executed when the error occurred flashes red. In the workflow overview, under the **[!UICONTROL Monitoring]** tab  -  **[!UICONTROL Workflows]** link, you can display workflows with errors only, as shown below.
 
-![](assets/wf-global-view_filter_only_errors.png)
+![Monitoring tab, Workflows page with the status drop-down list and Failed option selected](assets/wf-global-view_filter_only_errors.png)
 
 In the Adobe Campaign Explorer, the workflow list displays a **[!UICONTROL Failed]** column by default. 
 
-![](assets/wf-explorer_errors_col.png)
+![Workflow list in the Explorer with the Failed column highlighted](assets/wf-explorer_errors_col.png)
 
 When a workflow is in error, the operator(s) belonging to the workflow supervision group are notified by email, as long as their email address is listed in their profile. This group is selected in the **[!UICONTROL Supervisor(s)]** field of the workflow properties.
 
-![](assets/wf-properties_select-supervisors.png)
+![Workflow properties, General tab, with the Supervisor(s) field list and Workflow supervisors selected](assets/wf-properties_select-supervisors.png)
 
 The notification content is configured in the **[!UICONTROL Workflow manager notification]** default template: This template is selected in the **[!UICONTROL Execution]** tab of the workflow properties. The notification shows the name of the error workflow and the concerned task.
 
 Notification example:
 
-![](assets/wf-notification_error-msg.png)
+![Error notification email stating that the workflow is stopped, with a click here link to the workflow detail](assets/wf-notification_error-msg.png)
 
 The link lets you access the Adobe Campaign Client Console in Web mode and work on the error workflow once you have logged on.
 
-![](assets/wf-notification_error-console.png)
+![Web console page showing The workflow has failed, with Start the workflow and Stop buttons](assets/wf-notification_error-console.png)
 
 You can configure the workflow so that it does not pause and continues execution in case of errors. To do this, edit workflow **[!UICONTROL Properties]** and, in the **[!UICONTROL Error management]** section, select the **[!UICONTROL Ignore]** option in the **[!UICONTROL In case of error]** field. You may then specify the number of consecutive errors that can be ignored before the process is paused.
 
 In this case, the error task is aborted. This mode is particularly suited to workflows designed to reattempt the campaign later (periodic actions).
 
-![](assets/wf_edit_properties_for_error_mgt.png)
+![Workflow properties, Execution tab, Error management section with In case of error set to Ignore](assets/wf_edit_properties_for_error_mgt.png)
 
 >[!NOTE]
 >
@@ -183,15 +183,15 @@ The **[!UICONTROL Instance supervision]** page lets you view the Adobe Campaign 
 
 To access this page, go to the **[!UICONTROL Monitoring]** tab and click the **[!UICONTROL General view]** link.
 
-![](assets/wf-monitoring_from-homepage.png)
+![Monitoring instance page with the processes list and the Workflows and Deliveries panels](assets/wf-monitoring_from-homepage.png)
 
 To display all the workflows, click the **[!UICONTROL Workflows]** link. Use the drop-down list to display the workflows in the platform based on their state.
 
-![](assets/wf-monitoring_edit-wf.png)
+![Workflows page of the Monitoring tab with the state drop-down list and Failed selected](assets/wf-monitoring_edit-wf.png)
 
 Click the link on a workflow with errors in order to open it and view its log.
 
-![](assets/wf-monitoring_edit-task-wf.png)
+![Failed workflow opened from the list, showing its diagram with the failed activity and its journal message](assets/wf-monitoring_edit-task-wf.png)
 
 ## Preventing simultaneous multiple executions {#preventing-simultaneous-multiple-executions}
 
@@ -203,17 +203,17 @@ If you have a signal activity at the start of the workflow you may want to skip 
 
 The general principle is as follows:
 
-![](assets/workflow-reentrancy-protection-principle.png)
+![Lock principle: if the lock is set, skip; if not, put lock, run protected steps, then release lock](assets/workflow-reentrancy-protection-principle.png)
 
 The solution is to use an instance variable. Instance variables are shared by all the parallel executions of the workflows.
 
 Here is a simple test workflow:
 
-![](assets/wkf_simultaneous_execution1.png)
+![Workflow with a Scheduler, a Test activity named continue, a Wait activity and two End activities](assets/wkf_simultaneous_execution1.png)
 
 The **[!UICONTROL Scheduler]** is triggering an event every minute. The following **[!UICONTROL Test]** activity is going to test the **isRunning** instance variable to decide whether or not to continue the execution:
 
-![](assets/wkf_simultaneous_execution2.png)
+![Test activity with the yes condition !instance.vars.isRunning and the default branch labeled no](assets/wkf_simultaneous_execution2.png)
 
 >[!NOTE]
 >
@@ -275,7 +275,7 @@ The following views are available:
 * **[!UICONTROL Failed]**: lists all failed workflows.
 * ** ).
 
-![](assets/workflow-monitoring-views.png)
+![Explorer tree, Administration > Audit > Workflows Status node with the Running, Start Pending, Paused and Failed views](assets/workflow-monitoring-views.png)
 
 By default, these views are accessible in the **[!UICONTROL Audit]** folder. However, you can recreate them at the location of your choice in the folders tree. This way, they will be available to standard users with no administration right.
 
@@ -283,7 +283,7 @@ To do this:
 
 1. Right-click on the folder where you want to add the view.
 1. In **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, select the view that you want to add.
-1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is. For more on how to configure views, refer to [this page](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
+1. Once the folder is added to the tree, make sure you configure it as a view, so that it displays all workflows, whatever their origin folder is. For more on how to configure views, refer to [Turn a folder to a view](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Additionally to these views, you can set up filters folders that will allow you to filter the list of workflows according to their execution status. To do this:
 
@@ -291,6 +291,6 @@ Additionally to these views, you can set up filters folders that will allow you 
 1. Configure the filter so that the workflow's **[!UICONTROL @status]** field is equal to the state of your choice.
 1. Save and name the filter. It will then be directly available from the filters list.
 
-![](assets/workflow-monitoring-filter.png)
+![Advanced filter dialog with the condition Real status (@status) equal to Suspended and the save icon highlighted](assets/workflow-monitoring-filter.png)
 
 For more information, refer to these sections:

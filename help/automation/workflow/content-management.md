@@ -43,7 +43,7 @@ The properties of the activity are divided into three steps:
 * **Content update**: the task can modify the subject of the content or import all of the XML content.
 * **Action**: the resulting content can be saved or generated.
 
-  ![](assets/content_mgmt_edit.png)
+  ![Content Management activity with Content, Update content and Action to perform sections and an outbound transition](assets/content_mgmt_edit.png)
 
 1. **Content**
 
@@ -55,19 +55,19 @@ The properties of the activity are divided into three steps:
 
       This option lets you select a content already created, via the **[!UICONTROL Content]** field. This field is visible only when the **[!UICONTROL Explicit]** option is selected.
     
-      ![](assets/content_mgmt_explicit.png)
+      ![Content section with the Explicit option selected and a Content field set to an existing content](assets/content_mgmt_explicit.png)
 
     * **[!UICONTROL Calculated by a script]**
 
       The content identifier is calculated by a script. The **[!UICONTROL Script]** field lets you define a JavaScript template evaluating the identifier (primary key) of the content. This field is visible only when the **[!UICONTROL Calculated by a script]** option is selected.
     
-      ![](assets/content_mgmt_script.png)
+      ![Content section with Calculated by a script selected and the Script field displayed](assets/content_mgmt_script.png)
 
     * **[!UICONTROL New, created from a publication template]**
 
       Creates a new content from a publication template. This new content will be saved in the file specified in the **[!UICONTROL String]** field. The **[!UICONTROL Template]** field specifies the publication template to be used to create the content.
     
-      ![](assets/content_mgmt_new.png)
+      ![Content section with New, created from a publication template selected and the Template and Channel fields](assets/content_mgmt_new.png)
 
 1. **Update content**
 
@@ -79,7 +79,7 @@ The properties of the activity are divided into three steps:
 
       This option lets you construct the content from an XML document downloaded via an XSL stylesheet. When this option is selected, the **[!UICONTROL URL]** field specifies the XML content downloading URL. The **[!UICONTROL XSL stylesheet]** lets you specify the stylesheet to be used to transform the downloaded XML document. This property is optional.
     
-      ![](assets/content_mgmt_xmlcontent.png)
+      ![Update content section with Access to data from an XML feed checked, showing the URL and XSL style sheet fields](assets/content_mgmt_xmlcontent.png)
 
 1. **Action to execute**
 
@@ -93,7 +93,7 @@ The properties of the activity are divided into three steps:
 
       This option saves the content, then generates the output files for each transformation template with a 'File' type publication.
     
-      ![](assets/content_mgmt_generate.png)
+      ![Action to perform section with Generate selected and the Publication folder field displayed](assets/content_mgmt_generate.png)
 
       The outbound transition is activated for each file generated with the identifier of the content saved in the **[!UICONTROL contentId]** variable as its parameter and the filename in the **[!UICONTROL filename]** variable.
 

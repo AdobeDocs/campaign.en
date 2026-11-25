@@ -26,11 +26,11 @@ A **Test** type activity activates the first transition that satisfies the condi
 
 A condition is a JavaScript expression that must be evaluated to 'true' or 'false'. To enter the expression, click the icon to the right of the name of the condition, and then select **[!UICONTROL Edit...]**.
 
-![](assets/edit_test.png)
+![Test activity Conditions table with the personalization menu open on the Edit option, and the Use default connection box](assets/edit_test.png)
 
 For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to [JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
 
-You can also insert variables directly from this editor. For more  information on how to work with variables, refer to [this section](javascript-scripts-and-templates.md#variables).
+You can also insert variables directly from this editor. For more  information on how to work with variables, refer to [Variables](javascript-scripts-and-templates.md#variables).
 
 Conditions can be added, deleted, or ordered from the activity property edit window, but can also be modified from the transition.
 

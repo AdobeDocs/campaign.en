@@ -37,7 +37,7 @@ The images used in the diagrams of the various workflows can be changed. However
 
 * To change the background image, select the desired targeting workflow, then click the **[!UICONTROL Properties]** tab.
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![Workflow properties, Advanced tab: Background image field with the Select link icon highlighted.](assets/s_user_segmentation_properties_tab.png)
 
   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Background image]** field.
 
@@ -45,7 +45,7 @@ The images used in the diagrams of the various workflows can be changed. However
   >
   >The width in pixels of the background image must be a multiple of 4.
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![Images selection window listing background images such as backgrounds/grid.png, with Ok to confirm.](assets/s_user_segmentation_background_select.png)
 
   The **[!UICONTROL Edit link]** icon lets you view the selected image.
 
@@ -53,11 +53,11 @@ The images used in the diagrams of the various workflows can be changed. However
 
   To select the image to be used, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Image]** field. 
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![Advanced tab of an activity with the Image field highlighted, set to activities/dedup.png.](assets/s_user_segmentation_activity_image.png)
 
   The **[!UICONTROL Edit link]** icon lets you view the selected image.
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![Preview of the selected image nms:activities/dedup.png, displayed with the Edit link icon.](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

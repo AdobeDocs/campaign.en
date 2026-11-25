@@ -39,7 +39,7 @@ The **[!UICONTROL Operation type]** field lets you choose the process to be carr
 * **[!UICONTROL Update and merge collections]**: update data and choose a primary record, then link elements linked to the duplicates in this primary record. Duplicates can then be deleted without creating orphan attached elements.
 * **[!UICONTROL Delete]**: delete data.
 
-![](assets/s_advuser_update_data_1.png)
+![Update data activity with the Operation type list open, showing Insert or update through Delete.](assets/s_advuser_update_data_1.png)
 
 The **[!UICONTROL Batch size]** field lets you select the number of inbound transition elements to be updated. For example, if you state 500, the first 500 records dealt with will be updated.
 
@@ -53,17 +53,17 @@ Specify how to identify the records in the database:
 
 * Otherwise, specify one or more links which will enable identification of the data in the database or direct use of reconciliation keys.
 
-![](assets/s_advuser_update_data_2.png)
+![Update data activity, Record identification: selecting the Recipients schema as the Updated dimension.](assets/s_advuser_update_data_2.png)
 
 ## Selecting the fields to be updated {#selecting-the-fields-to-be-updated}
 
 Use the **[!UICONTROL Automatically associate fields with the same name]** option in order for Adobe Campaign to automatically identify the fields to be updated.
 
-![](assets/s_advuser_update_data_3b.png)
+![Fields to update table filled in by the wand button that automatically associates fields with the same name.](assets/s_advuser_update_data_3b.png)
 
 You can also use the **[!UICONTROL Insert]** icon to manually select the database fields to be updated.
 
-![](assets/s_advuser_update_data_3.png)
+![Edit expression button on a new Fields to update row, opening the field selector for the Recipients document.](assets/s_advuser_update_data_3.png)
 
 Select all the fields to be updated and, if necessary, add conditions depending on which the update is to be carried out. To do this, use the **[!UICONTROL Taken into account if]** column. Conditions are applied one after the other and in keeping with the order in the list. Use the arrows on the right to change the order of updates.
 
@@ -71,7 +71,7 @@ You can use the same destination field several times.
 
 Within an **[!UICONTROL Insert or update]** operation, you can select the campaign to be applied, either individually or for each field. To do this, select the desired value in the **[!UICONTROL Operation]** column.
 
-![](assets/s_advuser_update_data_5.png)
+![Operation column of the Fields to update table with the options All, Insert and Update.](assets/s_advuser_update_data_5.png)
 
 The **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** and **[!UICONTROL createdBy]** fields are updated automatically during data updates, unless their management mode is configured specifically in the field update table.
 
@@ -104,11 +104,11 @@ Updating data and merging collections lets you update the data contained in a re
 
 1. Select the **[!UICONTROL Update and merge collections]** operation.
 
-   ![](assets/update_and_merge_collections1.png)
+   ![Update data activity with the Update and merge collections operation type selected in the Operation type list.](assets/update_and_merge_collections1.png)
 
 1. Select the order of priority for the links. This allows you to identify the main record. The available links vary according to the inbound transition.
 
-   ![](assets/update_and_merge_collections2.png)
+   ![Record identification section listing the links, by order of priority, used to find the primary record.](assets/update_and_merge_collections2.png)
 
 1. Select the collections to move to the primary record and the fields to update.
 
@@ -122,7 +122,7 @@ Updating data and merging collections lets you update the data contained in a re
 
 1. Specify the order in which you would like the secondary records to be processed, by selecting **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**.
 
-   ![](assets/update_and_merge_collections3.png)
+   ![Fields and collections of the target record to be updated, with the Source expression and Taken into account if columns.](assets/update_and_merge_collections3.png)
 
 Data for secondary records is associated with the main record if the defined rules are applicable. According to the type of update selected, the secondary records can be deleted.
 

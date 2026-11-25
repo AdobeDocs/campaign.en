@@ -35,7 +35,7 @@ Scripts are ubiquitous in a workflow diagram:
 * The 'Test' activity evaluates JavaScript expressions in order to activate the appropriate transition.
 * Most text fields are JavaScript templates: JavaScript expressions can be included between <%= and %>. These fields offer a button that opens a drop-down list to help you enter expressions.
 
-  ![](assets/script-button.png)
+  ![Button with a drop-down arrow at the right of a text field that lists the properties available for expressions.](assets/script-button.png)
 
 ## Objects exposed {#objects-exposed}
 
@@ -59,7 +59,7 @@ The properties available for these objects are can be viewed in a drop-down list
 
 In this example, and in the following examples, create a workflow that includes a **JavaScript code** activity and an **End** activity as shown in the following diagram.
 
-![](assets/script-1.png)
+![Workflow with a JavaScript code activity connected by an Ok transition to an End activity.](assets/script-1.png)
 
 Double-click the **JavaScript code** activity and insert the following script:
 
@@ -100,7 +100,7 @@ Certain event variables are modified or read by the various activities. These ar
 
 >[!NOTE]
 >
->Additional workflow use cases are available in [this section](workflow-use-cases.md).
+>Additional workflow use cases are available in [Workflow use cases](workflow-use-cases.md).
 
 **Example 1**
 
@@ -112,7 +112,7 @@ In this example, an instance variable is used to compute dynamically the split p
 
     For example: `instance.vars.segmentpercent = 10;`
 
-    ![](assets/js_ex1.png)
+    ![JavaScript code activity with the script instance.vars.segmentpercent = 10; entered in the Script field.](assets/js_ex1.png)
 
 1. Add a Query activity and target recipients according to your needs.
 
@@ -120,7 +120,7 @@ In this example, an instance variable is used to compute dynamically the split p
 
     It is this percentage which is updated dynamically thanks to the instance variable defined previously.
 
-    ![](assets/js_ex2.png)
+    ![Split activity Subsets tab with Limit the selected records enabled and Random sampling limited to 50 %.](assets/js_ex2.png)
 
 1. Inside the Initialization script section of the Advanced tab of the Split activity, define a JS condition. The JS condition selects the random sampling percentage of the first transition coming out of the Split activity and updates it to a value set by the instance variable created previously.
 
@@ -128,13 +128,13 @@ In this example, an instance variable is used to compute dynamically the split p
     activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
     ```
 
-    ![](assets/js_ex3.png)
+    ![Split activity Advanced tab with the initialization script setting limiter.percent to instance.vars.segmentpercent.](assets/js_ex3.png)
 
 1. Make sure that the complement is generated in a separate transition of the Split activity and add End activities after each of the outbound transitions.
 
 1. Save and execute the workflow. The dynamic sampling gets applied according to the instance variable.
 
-    ![](assets/js_ex4.png)
+    ![Workflow with JavaScript code, a query and a Split, with First Set and Complement transitions to two End activities.](assets/js_ex4.png)
 
 **Example 2**
 
@@ -176,7 +176,7 @@ For example:
 
 1. Create an instance variable that defines a delivery's internal name via the **[!UICONTROL JavaScript code]**: **instance.vars.deliveryIN = "DM42"**.
 
-   ![](assets/wkf_js_activity_1.png)
+   ![JavaScript code activity with the script instance.vars.deliveryIN = 'DM42' in the Script field.](assets/wkf_js_activity_1.png)
 
 1. Create a query whose targeting and filtering dimensions are the recipients. In the conditions, specify that you would like to find all the recipients that were sent the delivery specified by the variable.
 
@@ -186,7 +186,7 @@ For example:
 
    The workflow will return the recipients of the DM42 delivery.
 
-   ![](assets/wkf_var_in_query.png)
+   ![Query filter on recipient delivery logs where the delivery internal name equals the value of instance/vars/deliveryIN.](assets/wkf_var_in_query.png)
 
 ## Advanced functions {#advanced-functions}
 

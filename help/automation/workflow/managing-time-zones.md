@@ -42,7 +42,7 @@ You can schedule the execution of tasks using the scheduler (refer to [Scheduler
 
 For all scheduled tasks, i.e. all activities with scheduling options, you can select the time zone to apply. The time zone is selected via the **[!UICONTROL Advanced]** tab of the concerned activity:
 
-![](assets/wf-timezone-in-a-box.png)
+![Scheduler Advanced tab with the Time zone drop-down open, listing Default, Server, Operator and database time zones.](assets/wf-timezone-in-a-box.png)
 
 Possible values are:
 

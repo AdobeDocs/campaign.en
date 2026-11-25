@@ -38,11 +38,11 @@ To configure the **[!UICONTROL Change dimension]** activity, apply the following
 
 1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
 
-   ![](assets/s_user_change_dimension_param1.png)
+   ![Change dimension field of the activity with the field selector open and Subscriptions selected as the new dimension](assets/s_user_change_dimension_param1.png)
 
 1. During dimension change, you can keep all elements or select those to be kept in output. In the following example, the max. number of duplicates is set to 2.
 
-   ![](assets/s_user_change_dimension_limit.png)
+   ![Option Limit the number of items in the new targeting document selected with the Limit field set to 2](assets/s_user_change_dimension_limit.png)
 
    When you choose to keep only one record, a collection is displayed in the work schema: This collection represents all records that will not be targeted in the final result (since only one record is kept). Like all other collections, this one lets you calculate aggregates or recover information in columns.
 
@@ -50,7 +50,7 @@ To configure the **[!UICONTROL Change dimension]** activity, apply the following
 
 1. If you choose not to keep all this information, you can configure the duplicate management mode.
 
-   ![](assets/s_user_change_dimension_param2.png)
+   ![Deduplication dialog listing the email and account number fields with the arrows that set their priority](assets/s_user_change_dimension_param2.png)
 
    The blue arrows enable you to define the duplicate processing priority.
 
@@ -62,7 +62,7 @@ To configure the **[!UICONTROL Change dimension]** activity, apply the following
 
     * Click the **[!UICONTROL Add data...]** link and select **[!UICONTROL Data linked to the filtering dimension]**.
     
-      ![](assets/wf_change-dimension_sample_01.png)
+      ![Result tab Add data link opening the Additional data wizard with Data linked to the filtering dimension selected](assets/wf_change-dimension_sample_01.png)
 
       >[!NOTE]
       >
@@ -70,22 +70,22 @@ To configure the **[!UICONTROL Change dimension]** activity, apply the following
 
     * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient's **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
     
-      ![](assets/wf_change-dimension_sample_02.png)
+      ![Additional data wizard with Zip/Postcode from the Location sub-tree added as an output column and Edit expression](assets/wf_change-dimension_sample_02.png)
 
     * Click **[!UICONTROL Advanced selection]** and choose **[!UICONTROL Edit the formula using an expression]**.
     
-      ![](assets/wf_change-dimension_sample_03.png)
+      ![Advanced selection button opening Formula type with Edit the formula using an expression selected](assets/wf_change-dimension_sample_03.png)
 
     * Use the functions offered in the list and specify the calculation to be performed.
     
-      ![](assets/wf_change-dimension_sample_04.png)
+      ![Expression editor with the formula Substring of the zip code from character 1 with length 2 and the list of functions](assets/wf_change-dimension_sample_04.png)
 
     * Finally, enter the label of the column you have just created.
     
-      ![](assets/wf_change-dimension_sample_05.png)
+      ![Output columns with the label County and the expression Substring(zip/Postcode, 1, 2)](assets/wf_change-dimension_sample_05.png)
 
 1. Execute the workflow to view the result of this configuration. Compare the data in the tables before and after the change dimension activity, and compare the structure of the workflow tables, as shown in the following examples:
 
-   ![](assets/wf_change-dimension_sample_06.png)
+   ![Display the target option on the transition before Change dimension, with its data and schema in View population](assets/wf_change-dimension_sample_06.png)
 
-   ![](assets/wf_change-dimension_sample_07.png)
+   ![Display the target option after Change dimension, showing the data with the County column and the new schema](assets/wf_change-dimension_sample_07.png)

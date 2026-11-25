@@ -46,32 +46,32 @@ To create this example, apply the following steps:
 
 1. Open the **[!UICONTROL Generic query editor]** and choose the Recipient table (**nms:recipient**).
 
-   ![](assets/query_editor_02.png)
+   ![Document type screen of the generic query editor with Recipients (nms) selected.](assets/query_editor_02.png)
 
 1. In the **[!UICONTROL Data to extract]** window, select the **[!UICONTROL Email domain]** and **[!UICONTROL Primary key]** fields. Run a count on the **[!UICONTROL Primary key]** field.
 
 1. Check the **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** box.
 
-   ![](assets/query_editor_nveau_29.png)
+   ![Data to extract screen with Email domain and count(primary key) columns, Handle groupings (GROUP BY + HAVING) checked.](assets/query_editor_nveau_29.png)
 
 1. In the **[!UICONTROL Sorting]** window, sort email domains in descending order. To do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Descending sort]** column. Click **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_nveau_70.png)
+   ![Sorting screen with Email domain sorted, showing the Sort and Descending sort columns.](assets/query_editor_nveau_70.png)
 
 1. In **[!UICONTROL Data filtering]**, select **[!UICONTROL Filtering conditions]**. Go to the **[!UICONTROL Target elements]** window and click **[!UICONTROL Next]**.
 1. In the **[!UICONTROL Data grouping]** window, select the **[!UICONTROL Email domain]** by clicking **[!UICONTROL Add]**.
 
    This data grouping window is only displayed if the **[!UICONTROL Handle groupings (GROUP BY + HAVING]**) box was checked.
 
-   ![](assets/query_editor_blocklist_04.png)
+   ![Data grouping screen listing Email domain (@domain) as the group column for the GROUP BY clause.](assets/query_editor_blocklist_04.png)
 
 1. In the **[!UICONTROL Grouping condition]** window, indicate a primary key count greater than 30 since we only want email domains targeted more than 30 times to be returned as results.
 
    This window appears when the **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** box was checked: this is where the grouping result is filtered (HAVING).
 
-   ![](assets/query_editor_blocklist_05.png)
+   ![Grouping condition screen with count(primary key) greater than 30 for the HAVING clause.](assets/query_editor_blocklist_05.png)
 
 1. In the **[!UICONTROL Data formatting]** window, click **[!UICONTROL Next]**: no formatting is necessary here.
 1. In the data preview window, click **[!UICONTROL Launch data preview]**: here, three different email domains targeted over 30 times are returned.
 
-   ![](assets/query_editor_blocklist_06.png)
+   ![Data preview screen returning two email domains after the preview is started.](assets/query_editor_blocklist_06.png)

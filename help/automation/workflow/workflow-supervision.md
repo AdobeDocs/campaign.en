@@ -45,7 +45,7 @@ To monitor the status of a set of workflows, you need to follow these steps:
 >
 >In addition to the workflow, Campaign **Workflow Heatmap** allows you to analyse in details the workflows that are currently running. For more on this, refer to the [dedicated section](heatmap.md).
 >
->For more on how to **monitor your workflows' execution**, refer to [this section](monitor-workflow-execution.md).
+>For more on how to **monitor your workflows' execution**, refer to [Monitor workflow execution](monitor-workflow-execution.md).
 
 ## Step 1: Creating the monitoring workflow {#step-1--creating-the-monitoring-workflow}
 
@@ -55,7 +55,7 @@ The **Monitoring workflow** is stored at the root of the Technical Workflows fol
 
 The following schema shows the sequence of activities:
 
-![](assets/uc_monitoring_workflow_overview.png)
+![Supervision workflow with Start, JavaScript code, Test, Delivery and Wait activities linked by transitions](assets/uc_monitoring_workflow_overview.png)
 
 This workflow is made up of:
 
@@ -133,11 +133,11 @@ The "Test" activity lets you determine whether a delivery needs to be sent or wh
 
 A delivery is sent to the supervisor **if at least one of the three event variables "vars.strWorkflowError", "vars.strWorkflowPaused", or "vars.strWorkflowStop" is non-void.**
 
-![](assets/uc_monitoring_workflow_test.png)
+![Test activity with a True condition checking that the three workflow variable lengths are 0, and a False default](assets/uc_monitoring_workflow_test.png)
 
 The "Wait" activity can be configured to re-start the monitoring workflow at regular intervals. For this use case, **the wait time is set to one hour**.
 
-![](assets/uc_monitoring_workflow_attente.png)
+![Wait activity with the Duration field set to 1h](assets/uc_monitoring_workflow_attente.png)
 
 ## Step 4: Preparing the delivery {#step-4--preparing-the-delivery}
 
@@ -148,7 +148,7 @@ This template must include:
 * **the email address of the supervisor**.
 * **HTML content** for inserting personalized text.
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![Variables tab of the delivery template listing WF_Stop, WF_Error and WF_Paused as Text variables](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   The three variables declared (WF_Stop, WF_Paused, WF_Error) match the three workflow event variables.
 
@@ -158,7 +158,7 @@ This template must include:
 
   The delivery template has the following content:
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![HTML content of the delivery template with Error, Paused and Stopped workflows headings and variables.WF_ tags](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Once the template has been created and approved, you need to configure the **Delivery** activity to:
 
@@ -172,13 +172,13 @@ Double-click the **Delivery** activity and select the following options:
 * Action to execute: select **Prepare and start**.
 * Uncheck the **Process errors** option.
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![Delivery activity with New, created from a template, Specified in the delivery and Prepare and start selected](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Go to the **Script** tab of the **Delivery** activity, add three **character string** type variables via the personalization field menu. 
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![Script tab of the Delivery activity with the personalization menu open on Delivery and the Other option](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![Available fields window with Variables selected and the Value (text) field highlighted](assets/uc_monitoring_workflow_linkvariables.png)
 
   The three variables declared are:
 

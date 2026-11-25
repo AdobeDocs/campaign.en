@@ -42,11 +42,11 @@ All these activities can be found in the first workflow tab.
 
 >[!NOTE]
 >
->Targeting activities are detailed in [this section](activities.md).
+>Targeting activities are detailed in [About workflow activities](activities.md).
 
 Targeting workflows can be created and edited via the **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** node of the Adobe Campaign tree or via the **[!UICONTROL Profiles and Targets > Targeting workflows]** menu of the home page.
 
-![](assets/target_wf.png)
+![Targeting workflows list in the client console under Profiles and targets, with existing workflows and a Create button.](assets/target_wf.png)
 
 Targeting workflows within the framework of a campaign are stored with all campaign workflows.
 
@@ -72,17 +72,17 @@ These two dimensions must be related. Thus, the content of the **[!UICONTROL Fil
 
 For example, for recipients (**recipient**), the following filtering dimensions will be available:
 
-![](assets/query-filter-dimensions.png)
+![Query dialog with Targeting dimension Recipients and the Filtering dimension list open, showing Recipient delivery log.](assets/query-filter-dimensions.png)
 
 While for **Visitors**, the list will contain the following filtering dimensions:
 
-![](assets/query-filter-dimension-2.png)
+![Query dialog with Targeting dimension Visitors and the Filtering dimension list open, showing Visitor subscription.](assets/query-filter-dimension-2.png)
 
 ## Create queries {#create-queries}
 
 ### Work with additional data {#select-data}
 
-A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [this section](query.md#creating-a-query).
+A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [Create a query](query.md#creating-a-query).
 
 You can also use the following activities to query and refine data from the database: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
@@ -94,19 +94,19 @@ Once additional data has been added, you can edit it or use it to refine the tar
 
 The **[!UICONTROL Edit additional data...]** link lets you view the added data and modify it or add to it.
 
-![](assets/edit-additional-data.png)
+![Query activity with the Edit additional data link highlighted under Complementary information.](assets/edit-additional-data.png)
 
 To add data to the previously defined output columns, select it in the list of available fields. To create a new output column, click the **[!UICONTROL Add]** icon, then select the field and click **[!UICONTROL Edit expression]**.
 
-![](assets/query_add_an_output_column.png)
+![Additional columns window with available fields, output columns and the Add icon highlighted to create an output column.](assets/query_add_an_output_column.png)
 
 Click the **Advanced selection** button.
 
-![](assets/query_add_an_output_column_formula.png)
+![Select an expression window listing recipient fields, with the Advanced selection button at the bottom.](assets/query_add_an_output_column_formula.png)
 
 Define a calculation mode for the field to be added, such as an aggregate for example.
 
-![](assets/query_add_aggregate.png)
+![Formula type step with Process on an aggregate function selected and the Sum option chosen.](assets/query_add_aggregate.png)
 
 The **[!UICONTROL Add a sub-item]** option lets you attach computed data to the collection. This lets you select the additional data from the collection or define aggregate calculations on collection elements. 
 
@@ -118,23 +118,23 @@ Collections are shown in the **[!UICONTROL Collections]** sub-tab. You can filte
 
 The additional data collected can enable you to refine data filtering in the database. To do this, click the **[!UICONTROL Refine the target using additional data...]** link: this lets you over-filter on the added data.
 
-![](assets/wf_add_data_use_additional_data.png)
+![Query activity with the Refine the target using additional data link highlighted.](assets/wf_add_data_use_additional_data.png)
 
 ### Homogenize data {#homogenize-data}
 
 In **[!UICONTROL Union]** or **[!UICONTROL Intersection]** type activities, you can choose to keep only shared additional data to keep the data consistent. In this case, the temporary output worktable of this activity will contain only the additional data found in all inbound sets.
 
-![](assets/use-common-add-data-only.png)
+![Intersection activity with the Use common additional data only option highlighted and selected.](assets/use-common-add-data-only.png)
 
 ### Reconcile with additional data {#reconciliation-with-additional-data}
 
 During the data reconciliation phases (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. activities), you can select the columns to be used for data reconciliation from the additional columns. To do this, configure a reconciliation on a selection of columns and specify the main set. Then select the columns in the lower column of the window, as shown in the following example:
 
-![](assets/select-column-and-join.png)
+![Intersection activity with A selection of columns chosen, a primary set and the Columns used for the join list.](assets/select-column-and-join.png)
 
 Select an expression and confirm. 
 
-![](assets/select-column-and-join-2.png)
+![Select an expression window for an intersection, listing fields under Targeting dimension with Account # selected.](assets/select-column-and-join-2.png)
 
 
 ### Create subsets {#create-subsets}
@@ -143,7 +143,7 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
 You can split a target into several subsets using only additional data as filtering conditions, or in addition to target data. You can also use external data if you have purchased the **Federated Data Access** option.
 
-For more on this, refer to [this section](#create-subsets-using-the-split-activity).
+For more on this, refer to [Create subsets using the Split activity](#create-subsets-using-the-split-activity).
 
 ## Segment data {#segment-data}
 
@@ -151,7 +151,7 @@ For more on this, refer to [this section](#create-subsets-using-the-split-activi
 
 The union activity lets you combine the result of several activities within one transition. Sets do not necessarily have to be homogeneous.
 
-![](assets/union-keys-only.png)
+![Union activity with the Reconciliation options Keys only, All shared columns and A selection of columns.](assets/union-keys-only.png)
 
 The following data reconciliation options are available:
 
@@ -171,7 +171,7 @@ The following data reconciliation options are available:
 
   Start by selecting the main set (the one which contains the source data), then the columns to be used for the join.
 
-  ![](assets/join-reconciliation-options.png)
+  ![Union activity with A selection of columns, a Primary set and the join columns account and origin being selected.](assets/join-reconciliation-options.png)
 
   >[!CAUTION]
   >
@@ -183,11 +183,11 @@ The following data reconciliation options are available:
 
   The records will be taken first from the population of the first inbound transition in the list, then, if the maximum hasn't been reached, they will be taken from the population of the second inbound transition, etc.
 
-  ![](assets/join_limit_nb_priority.png)
+  ![Union activity with Limit the size of the population generated checked and the Priorities of inbound populations.](assets/join_limit_nb_priority.png)
 
 ### Extract joint data (Intersection) {#extract-joint-data--intersection-}
 
-![](assets/traitements.png)
+![Populations A, B and C with outlines marking the areas covered by union, intersection and exclusion.](assets/traitements.png)
 
 The intersection lets you recover only the lines shared by the populations of inbound transitions. This activity must be configured like the union activity.
 
@@ -203,7 +203,7 @@ When necessary, it is possible to manipulate inbound tables. Indeed, to exclude 
 
 Data reconciliation is carried out either via an identifier, changing axis, or a join.
 
-![](assets/exclusion-add-rule.png)
+![Exclusion activity with the Exception definition dialog open, with Exclusion set and Change dimension options.](assets/exclusion-add-rule.png)
 
 ### Create subsets using the Split activity {#create-subsets-using-the-split-activity}
 
@@ -217,15 +217,15 @@ To configure it, you first need to select criteria:
 1. In the **[!UICONTROL General]** tab, select the desired option: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** or **[!UICONTROL Use external data]**.
 1. If the **[!UICONTROL Use data from the target and additional data]** option is selected, the targeting dimension lets you use all the data conveyed by the inbound transition.
 
-   ![](assets/split-general-tab-options.png)
+   ![Split activity General tab with the Use data from the target and additional data option and filtering dimension list.](assets/split-general-tab-options.png)
 
    When subsets are created, the aforementioned filtering parameters are used.
 
    To define filtering conditions, choose the **[!UICONTROL Add a filtering condition on the inbound population]** option and click the **[!UICONTROL Edit...]** link. Then specify the filtering conditions for creating this subset.
 
-   ![](assets/split-subset-config-all-data.png)
+   ![Split activity Subsets tab with Add a filtering condition on the inbound population selected and the Edit link.](assets/split-subset-config-all-data.png)
 
-   An example showing how to use filtering conditions in the **[!UICONTROL Split]** activity to segment the target into different populations is described in [this section](cross-channel-delivery-workflow.md).
+   An example showing how to use filtering conditions in the **[!UICONTROL Split]** activity to segment the target into different populations is described in [Cross-channel delivery workflow](cross-channel-delivery-workflow.md).
 
    The **[!UICONTROL Label]** field lets you give the newly created subset a name, which will match the outbound transition.
 
@@ -233,7 +233,7 @@ To configure it, you first need to select criteria:
 
    If necessary, you can change the targeting and filtering dimensions individually for each subset you want to create. To do this, edit the subset's filtering condition and check the **[!UICONTROL Use a specific filtering dimension]** option.
 
-   ![](assets/split-subset-config-specific-filtering.png)
+   ![Query dialog with the Use a specific filtering dimension option checked, above the targeting and filtering dimensions.](assets/split-subset-config-specific-filtering.png)
 
 1. If the **[!UICONTROL Use the additional data only]** option is selected, only additional data is offered for subset filtering.
 
@@ -243,21 +243,21 @@ Then, we need to add new subsets:
 
 1. Click the **[!UICONTROL Add]** button and define the filtering conditions. 
 
-   ![](assets/wf_split_add_a_tab.png)
+   ![Split activity Subsets tab with the Add button highlighted to create a new subset tab next to Subset.](assets/wf_split_add_a_tab.png)
 
 1. Define the filtering dimension in the **[!UICONTROL General]** tab of the activity (see above).It applies to all subsets by default. 
 
-   ![](assets/wf_split_edit_filtering.png)
+   ![Split activity Subsets tab showing Subset A, B and C tabs and the filtering condition options for Subset B.](assets/wf_split_edit_filtering.png)
 
 1. If necessary, you can change the filtering dimension for each subset individually. This lets you build a set for all Gold card holders, one for all recipients who clicked in the latest newsletter and a third for people aged 18 to 25 who made an in-store purchase within the last 30 days, all using the same split activity. To do this, select the **[!UICONTROL Use a specific filtering dimension]** option and select the data filtering context.
 
 Once subsets have been created, by default the split activity shows as many output transitions as there are subsets:
 
-![](assets/wf_split_multi_outputs.png)
+![Workflow where a Split activity has three outbound transitions, Subset 1, Subset 2 and Subset 3, to separate activities.](assets/wf_split_multi_outputs.png)
 
 You can group all these subsets into a single output transition. In this case, the link to the respective subsets will be visible in the segment code, for example. To do this, select the **[!UICONTROL Generate all subsets in the same table]** option.
 
-![](assets/wf_split_single_output.png)
+![Split activity General tab with the Generate all subsets in the same table option checked and highlighted.](assets/wf_split_single_output.png)
 
 For example, you can place a single delivery activity and personalize the delivery content based on the segment code of each recipient set.
 
@@ -302,7 +302,7 @@ In order to implement these operations, Adobe Campaign offers:
 
 ### Enrich and modify data {#enrich-and-modify-data}
 
-In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [this section](targeting-workflows.md#targeting-and-filtering-dimensions).
+In addition to the targeting dimension, the filtering dimension lets you specify the nature of the collected data. Refer to [Targeting and filtering dimensions](targeting-workflows.md#targeting-and-filtering-dimensions).
 
 The identified and collected data can be enriched, aggregated and manipulated to optimize target construction. To do this, in addition to the data manipulation activities detailed in [this section](#segmen-data), use the following:
 

@@ -31,17 +31,17 @@ topic_v2:
 
 Workflow activities are grouped by category, in four different tabs.
 
-![](assets/wf-activity-tabs.png)
+![Activity palette with its four category tabs highlighted and the Targeting activities listed.](assets/wf-activity-tabs.png)
 
 Depending on your permissions, your implementation, and the context in which the workflow is designed, available activities may differ. 
 
 For example, the workflows created in a campaign have a specific **Deliveries** tab, with all channels. This tab is not available in [technical workflow](technical-workflows.md).
 
-![](assets/campaign-wf-activities.png)
+![Deliveries tab of a campaign workflow: Email, Direct mail, Mobile, iOS, Android, Other and Recurring delivery.](assets/campaign-wf-activities.png)
 
 Technical workflows have a specific **Events** tab which is not available in [campaign workflows](campaign-workflows.md).
 
-![](assets/tech-wf-activities.png)
+![Events tab of a technical workflow: File collector, File transfer, Web download, Inbound Emails and Inbound SMS.](assets/tech-wf-activities.png)
 
 All activities are detailed in the sections below:
 

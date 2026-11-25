@@ -39,11 +39,11 @@ A message is sent to a group of operators and the workflow waits for a response 
 
 An approval can contain multiple options for the operator to choose. However, it is possible to restrict the number of choices to one in order to submit a task to be performed to an operator, such as performing targeting. The operator can then respond once the task is performed (the process then resumes). The following example illustrates these types of approvals:
 
-![](assets/validation-1.png)
+![Workflow with a Delivery Validation approval leading to Send, Notify refusal and Notify modification request](assets/validation-1.png)
 
 In operations, all stages that require approval are based on the same principle. 
 
-![](assets/validation-1-in-op.png)
+![Campaign Delivery block with the Approval menu showing Approve content and Approve targeting, both pending approval](assets/validation-1-in-op.png)
 
 An operator can respond in one of two ways: validating using the Web page linked in the email message, or via the console.
 
@@ -65,7 +65,7 @@ In operations, elements to be approved are displayed on the campaign dashboard.
 
 For technical workflows, the tasks that the user can approve can be accessed from the tree structure in the **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** folder.
 
-![](assets/validation-node.png)
+![Explorer tree with Administration > Production > Objects created automatically > Approvals pending selected](assets/validation-node.png)
 
 ## Groups {#groups}
 
@@ -82,7 +82,7 @@ Expirations are specific transitions that are used in different types of activit
 
 The second tab in the activity approval properties lets you define one or more expirations. In fact, you can define multiple expiration types.
 
-![](assets/expiration.png)
+![Approval Expiration tab with an expiration detail window and the Expiration type list of delay options](assets/expiration.png)
 
 To add a new expiration, click **[!UICONTROL Add]**. A transition is added to each of the expirations created. You can:
 

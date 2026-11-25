@@ -32,7 +32,7 @@ topic_v2:
 
 This use case describes how to use of the **[!UICONTROL Merge]** functionality in the **[!UICONTROL Deduplication]** activity.
 
-For more information on this functionality, refer to [this section](deduplication.md#merging-fields-into-single-record).
+For more information on this functionality, refer to [Merging fields into a single data record](deduplication.md#merging-fields-into-single-record).
 
 The **[!UICONTROL Deduplication]** activity is used for removing duplicate rows from a data set. In this use case, the data shown below is duplicated based on the Email field. 
 
@@ -53,11 +53,11 @@ To enable the merge functionality, you first need to configure the **[!UICONTROL
 
 1. Select the reconciliation field to use for the deduplication, then click **[!UICONTROL Next]**. In this example, we want to deduplicate based on the email field.
 
-    ![](assets/uc_merge_edit.png)
+    ![Deduplication targeting dimension window with Recipients selected and the Email reconciliation field chosen.](assets/uc_merge_edit.png)
 
 1. Click the **[!UICONTROL Advanced parameters]** link, then activate the **[!UICONTROL Merge records]** and **[!UICONTROL Use several record merging criteria]** options.
 
-    ![](assets/uc_merge_advanced_parameters.png)
+    ![Deduplication parameter dialog with Merge records and Use several record merging criteria options checked.](assets/uc_merge_advanced_parameters.png)
 
 1. The **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** configuration screen. We will use this tab to specify the data to merge when performing deduplication.
 
@@ -74,31 +74,31 @@ To configure these rules, follow these steps:
 
 1. Open the **[!UICONTROL Merge]** tab, then click the **[!UICONTROL Add]** button.
 
-    ![](assets/uc_merge_add.png)
+    ![Merge tab of the Deduplication activity with the Add button above an empty list of merged data.](assets/uc_merge_add.png)
 
 1. Specify the identifier and label of the group of fields to be merged.
 
-    ![](assets/uc_merge_identifier.png)
+    ![Identifier and label step of the Select data to be merged wizard, with the identifier name and the label Name entered.](assets/uc_merge_identifier.png)
 
 1. Indicate the conditions for selecting the records to be taken into account.
 
-    ![](assets/uc_merge_filter.png)
+    ![Filter step with conditions First Name is not empty and Last Name is not empty for selecting the records to merge.](assets/uc_merge_filter.png)
 
 1. Sort on the last modification date in order to select the most recent name.
 
-    ![](assets/uc_merge_sort.png)
+    ![Sort step with Modification date sorted in descending order to select the most recent record.](assets/uc_merge_sort.png)
 
 1. Select the fields to merge. In this example, we want to keep the first name and last name fields.
 
-    ![](assets/uc_merge_keep.png)
+    ![Fields to be kept step with First name and Last name selected as output columns.](assets/uc_merge_keep.png)
 
 1. The fields are added to the set of data to merge and a new element is added to the workflow schema.
 
     Repeat these steps to configure the mobile phone and phone fields.
 
-    ![](assets/dedup8.png)
+    ![Merge tab listing the merged groups Name, mobile and phone with their aliases and enabled-if conditions.](assets/dedup8.png)
   
-    ![](assets/dedup9.png)
+    ![Schema tab showing the generated data structure of the deduplication with the mobile, Name and phone nodes.](assets/dedup9.png)
 
 ## Results {#results}
 

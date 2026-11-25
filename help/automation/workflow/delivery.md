@@ -37,7 +37,7 @@ A **Delivery**-type activity lets you create a delivery action. It can be constr
 
 To configure it, edit the activity and enter the delivery options.
 
-![](assets/edit_diffusion.png)
+![Delivery activity window with Delivery, Recipients, Content and Action to perform sections and outbound transition](assets/edit_diffusion.png)
 
 1. **Delivery**
 
@@ -49,27 +49,27 @@ To configure it, edit the activity and enter the delivery options.
 
       In the following example, the delivery is created for the first time. The population and the content are defined later. Next, the information for these three elements is re-entered into a new delivery activity using the inbound transition so that this can be sent.
     
-      ![](assets/specified_transition_option_exemple.png)
+      ![Workflow where a Create the delivery activity feeds a second Delivery activity set to Specified in the transition](assets/specified_transition_option_exemple.png)
 
     * Directly select the delivery concerned. To do this, select the **[!UICONTROL Explicit]** option and select the delivery from the drop-down list of the **[!UICONTROL Delivery]** field.
 
       The list shows unfinished deliveries contained in the **Deliveries** folder by default. To access other campaigns, click the **[!UICONTROL Select link]** icon.
     
-      ![](assets/diffusion_edit_1.png)
+      ![Delivery section with Explicit selected and the Select link icon next to the Delivery field](assets/diffusion_edit_1.png)
 
       Select the campaign from the drop-down list of the **[!UICONTROL Folder]** field, or click **[!UICONTROL Display sub-levels]** to display all of the deliveries contained in sub-folders:
     
-      ![](assets/diffusion_edit_2.png)
+      ![Delivery selection window with the Folder field set to Deliveries and the Display sub-levels icon](assets/diffusion_edit_2.png)
 
       After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
     
     * Create a script to calculate the delivery. To do this, select the **[!UICONTROL Computed by a script]** option and enter the script. You can open an input window by clicking the **[!UICONTROL Edit...]** option. The following example recovers the identifier of the delivery:
     
-      ![](assets/diffusion_edit_3.png)
+      ![Computed by a script option with the Edit script window showing the expression vars.deliveryId](assets/diffusion_edit_3.png)
 
     * Create a new delivery. To do this, select the **[!UICONTROL New, created from a template]** option and select the delivery template which the delivery will be based on.
     
-      ![](assets/diffusion_edit_4.png)
+      ![New, created from a template option with a delivery template selected and the Edit link icon](assets/diffusion_edit_4.png)
 
       Click the **[!UICONTROL Select link]** icon to browse the folders, and click the **[!UICONTROL Edit link]** icon if you wish to view the content of the selected template.
 
@@ -77,19 +77,19 @@ To configure it, edit the activity and enter the delivery options.
 
    Recipients can be specified by the inbound events, for example following a file import, or specified in the delivery action. They can also be stored in one or more files.
 
-   ![](assets/diffusion_edit_5.png)
+   ![Recipients section with options Specified by the inbound event(s), Specified in the delivery and File(s) specified](assets/diffusion_edit_5.png)
 
 1. **Content**
 
    The content of the message can be defined in the delivery or the inbound event.
 
-   ![](assets/diffusion_edit_6.png)
+   ![Content section with Specified by the inbound event and Specified in the delivery options](assets/diffusion_edit_6.png)
 
 1. **Action to execute**
 
    You can create the delivery, prepare it, start it, estimate the target or send a proof. 
 
-   ![](assets/diffusion_edit_7.png)
+   ![Action to perform options from Save to Prepare and start, and the Generate an outbound transition option](assets/diffusion_edit_7.png)
 
    Select the type of action to be carried out:
 
@@ -117,13 +117,13 @@ To configure it, edit the activity and enter the delivery options.
 
    The **Script** tab lets you modify the delivery parameters.
 
-   ![](assets/edit_diffusion_fil_script.png)
+   ![Script tab of the Delivery activity with a delivery object modification script setting the delivery label](assets/edit_diffusion_fil_script.png)
 
 ## Example: delivery workflow {#example--delivery-workflow}
 
 Create a new workflow and add activities as shown in the graphic below:
 
-![](assets/new-workflow-5.png)
+![Workflow with Start, Delivery and Approval activities, then Delivery control on Yes and End on No](assets/new-workflow-5.png)
 
 Open the **Delivery** activity and define the properties as follows:
 
@@ -131,7 +131,7 @@ Open the **Delivery** activity and define the properties as follows:
 * In the **[!UICONTROL Recipients]** section, select **[!UICONTROL Specified in the delivery]**. 
 * In the **[!UICONTROL Action to execute]** section, keep the **[!UICONTROL Prepare]** option.
 
-![](assets/new-workflow-param-delivery.png)
+![Delivery activity with New, created from a template, Specified in the delivery recipients and Prepare selected](assets/new-workflow-param-delivery.png)
 
 Click **[!UICONTROL OK]** to close the properties window. You have just configured an activity that consists of creating and preparing a new delivery based on a delivery template whose target will be specified within it.
 
@@ -146,7 +146,7 @@ Open the **Approval** activity and define the properties as follows:
 
    This is a message that includes an expression written in JavaScript: **[!UICONTROL vars.recCount]** represents the number of recipients targeted by the delivery of the preceding task. For further information on JavaScript expressions, refer to [JavaScript scripts and templates](javascript-scripts-and-templates.md).
 
-   ![](assets/new-workflow-param-validation.png)
+   ![Approval activity with Group assignment type and a message using vars.recCount asking to approve the target](assets/new-workflow-param-validation.png)
 
    The Approval task is detailed in [Approval](approval.md).
 

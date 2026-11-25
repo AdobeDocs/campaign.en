@@ -35,9 +35,9 @@ role_v2:
 ## Create a query {#creating-a-query}
 
 A query lets you select a target according to criteria. You can associate a segment code to the query result and insert additional data into it.
-Learn how to build queries through use cases in [this section](querying-recipient-table.md). See also the section about the [Query editor](../../v8/start/query-editor.md).
+Learn how to build queries through use cases in [Query the recipient table](querying-recipient-table.md). See also the section about the [Query editor](../../v8/start/query-editor.md).
 
-![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
+![Query activity dialog with Edit query, Add data, Edit additional data and Results label and Segment code fields.](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -53,15 +53,15 @@ The **[!UICONTROL Edit query...]** link lets you define the targeting type, the 
 
    For more on this, refer to [Targeting and filtering dimensions](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
+   ![Targeting and filtering dimension step with Recipients as targeting dimension and Recipient as filtering dimension.](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    A query can be based on data from the inbound transition, if necessary, by selecting **[!UICONTROL Temporary schema]** when choosing targeting and filtering dimensions.
 
-   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
+   ![Targeting and filtering dimension step with the Temporary schema option selected and the schema Query A chosen.](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Define the populations using the wizard. The fields to be entered can differ according to the type of target. You can preview the targeted population with your current criteria using the **[!UICONTROL Preview]** tab.
 
-   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
+   ![Query Filter step with a folder, a delivery and an information service selected as criteria, plus a Preview tab.](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. If you have selected **[!UICONTROL Filtering conditions]** at step 1 or using the **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** option, then you will have to manually add filtering criteria later on.
 
@@ -77,11 +77,11 @@ The additional columns let you collect additional information on the targeted po
 
 The **[!UICONTROL Add data...]** link lets you select the additional data to collect.
 
-![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
+![Query activity dialog with the Add data link in the Complementary information section highlighted.](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 Start by selecting the type of data to add:
 
-![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
+![Additional data wizard with the options Data linked to the filtering dimension, External data and An offer proposition.](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Select **[!UICONTROL Data linked to the filtering dimension]** to select the data in the Adobe Campaign database.
 * Select **[!UICONTROL External data]** to add data from an external database. This option is only available if you have purchased the **Federated Data Access** option. For more on this, refer to [Access an external database (FDA)](accessing-an-external-database-fda.md).
@@ -93,11 +93,11 @@ To add data from the Adobe Campaign database:
 
 1. Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables.
 
-   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
+   ![Select fields to add step with Data of the filtering dimension selected and Data linked to the filtering dimension.](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. If the data belongs to the query's filtering dimension, simply select it in the list of available fields to display it in the output columns.
 
-   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
+   ![Data to add step listing recipient fields as available fields and the chosen output columns, including Company.](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    You can add:
 
@@ -111,7 +111,7 @@ To add a collection of information linked to a targeted population:
 1. At the first step of the wizard, select the **[!UICONTROL Data linked to the filtering dimension]** option:
 1. Select the table which contains the information you want to collect and click **[!UICONTROL Next]**.
 
-   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
+   ![Select fields to add step with Data linked to the filtering dimension selected and a tree of linked tables.](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. If necessary, specify the number of elements of the collection that you want to keep by selecting one of the values in the **[!UICONTROL Data collected]** field. By default, all the lines of the collection are recovered then filtered according to the conditions specified at the following step.
 
@@ -126,11 +126,11 @@ To add a collection of information linked to a targeted population:
     * If you choose to recover several lines (**[!UICONTROL Limit the line count]**) you can specify the number of lines to collect. 
     * If the collected columns contain aggregates, for example the number of failures declared, average expenditure on a site, etc. you can use the **[!UICONTROL Aggregates]** value.
 
-   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
+   ![General parameters step with the Data collected list open: All rows, Limit the line count, Aggregates, Merge.](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. Specify the sub-selection of the collection.
 
-   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
+   ![Filter step for the collection with the conditions Label contains offers and Creation date after a given date.](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. If you have selected the **[!UICONTROL Limit the line count]** option, define the order in which the collected data is to be filtered. Once the number of lines collected is more than the number of lines that you specified to keep, the filtering order allows you to specify which lines to keep.
 
@@ -140,7 +140,7 @@ In the following example, the query seeks to identify men aged between 18 and 30
 
 >[!NOTE]
 >
->Additional query samples are presented in [this section](querying-recipient-table.md).
+>Additional query samples are presented in [Query the recipient table](querying-recipient-table.md).
 
 1. Name your query then select the **[!UICONTROL Edit query...]** link.
 1. Select **[!UICONTROL Filtering conditions]** in the list of types of filter available.
@@ -151,20 +151,20 @@ In the following example, the query seeks to identify men aged between 18 and 30
     * Recipients aged over 18.
     * Recipients living in France.
 
-   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
+   ![Query filter with gender equal to Male, age from 18 to 30 and US region equal to West.](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    You can view the SQL matching your criteria combination:
 
-   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
+   ![Native SQL query generated from the filter criteria on gender, age and region.](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. You can check your criteria is correct by previewing the recipients that match your query in the relevant tab:
 
-   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
+   ![Preview tab of the query listing three matching recipients, with a count of 3.](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. Save your filters so that you can use them again at a later date by clicking **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
 1. Continue editing your workflow by adding other activities to it. Once it has been launched and the previous query step finished, the number of recipients found will be displayed. You can display further details using the mouse pop-up menu (right click the transition > **[!UICONTROL Display the target...]**).
 
-   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
+   ![Workflow Query activity with an outbound transition labeled 3 - Result showing the number of recipients found.](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## Output parameters {#output-parameters}
 
@@ -204,7 +204,7 @@ The section below provides best practices to optimize the queries running on Ado
 
 Use the query's filtering dimension instead of using the "exists such as" operator.
 
-![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
+![Filter conditions using Recipient delivery logs (broadLog) exist such as, with Internal name equal to a delivery.](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 In queries, "exists such as" conditions in filters are not efficient. They are the equivalent of a sub-query in SQL:
 
@@ -212,13 +212,13 @@ In queries, "exists such as" conditions in filters are not efficient. They are t
 
 The best practice is to use the query's filtering dimension instead:
 
-![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
+![Targeting dimension Recipients with the filtering dimension set to Recipient delivery logs.](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 The equivalent of the filtering dimension in SQL is the inner join:
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-For more on filtering dimensions, refer to [this section](build-a-workflow.md).
+For more on filtering dimensions, refer to [Build a workflow](build-a-workflow.md).
 
 ### Architecture {#architecture}
 

@@ -30,11 +30,11 @@ role_v2:
 
 A **Continuous delivery** type action lets you add new recipients to an existing delivery. This delivery type avoids you having to create a new delivery each time: This mode is often more efficient, in particular for low-volume alerts or notifications sent out as and when needed.
 
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#continuous-delivery-video)
+![Video play icon](assets/do-not-localize/how-to-video.png) [Discover this feature in video](#continuous-delivery-video)
 
 At a delivery template level, you can specify a script to calculate the label (and the campaign folder) of the associated delivery. If the script calculates a delivery that does not yet exist, it is created on the fly.
 
-![](assets/edit_diffusion_fil.png)
+![Continuous delivery activity with a Template field and Recipients options, plus the Process errors checkbox](assets/edit_diffusion_fil.png)
 
 The **[!UICONTROL Process errors]** option displays a particular transition which will be activated if an error is generated. In this case, the workflow does not go into error mode and carries on with the execution.
 

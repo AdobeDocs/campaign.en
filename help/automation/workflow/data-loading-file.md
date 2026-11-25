@@ -43,11 +43,11 @@ The upper section of the configuration window for this activity lets you define 
 >
 >Only "flat" structure files are supported (e.g. CSV, TXT, etc.). Using the XML format is not recommended. With the client console, you can load files up to a maximum size of 150MB. In the Web User Interface, the Load file activity has a limit of 50MB. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![Data loading (file) activity with a sample file, preview of the columns, file name options and reject management.](assets/s_advuser_wf_etl_file.png)
 
 You can define a pre-process to be executed during file import, for example so as not to have to unzip the file on the server (and therefore save space for the unzipped file) but to include unzipping in file processing. Select the **[!UICONTROL Pre-process the file]** option and choose from one of 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg).
 
-   ![](assets/preprocessing-dataloading.png)
+   ![Data loading (file) with Pre-process the file selected and the Command list: None, Decompression, Decrypt.](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ When you load a file, the column format is automatically detected with the defau
 
 To do this, select **[!UICONTROL Click here to change the file format...]** in the main window of the **[!UICONTROL Data loading (file)]** activity. The format detail window will then open.
 
-![](assets/file_loading_columns_format.png)
+![File format window with general file settings and a Columns table with data type, Allow NULLs and length.](assets/file_loading_columns_format.png)
 
 You can then modify the general formatting of the file as well as the formatting for each column.
 
@@ -104,7 +104,7 @@ The column formatting allows you to define the value processing of each column:
 
 The following example lets you collect a file on the server every day, load its content and update the data in the database depending on the information it contains. The file to be collected contains information on clients who may have made purchases (for more or less than 3,000 Euro), asked for a refund on a purchase or visited the shop without purchasing anything. Depending on this information, various processes will be applied to their profile in the database.
 
-![](assets/s_advuser_load_file_sample_0.png)
+![Workflow with File collector, Data loading (file) and Split, leading to four Update data activities by purchase type.](assets/s_advuser_load_file_sample_0.png)
 
 1. The file collector lets you recover files stored in a directory, depending on the given frequency.
 
@@ -112,13 +112,13 @@ The following example lets you collect a file on the server every day, load its 
 
    Using the **[!UICONTROL File collector]** is detailed in the [File collector](file-collector.md) section.
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![File collector Directory tab with a server directory and the filter for customers text files.](assets/s_advuser_load_file_sample_1.png)
 
    The **[!UICONTROL Schedule]** tab lets you schedule the execution of the collector, i.e. to specify the frequency with which the presence of these files will be checked.
 
    Here, we want to trigger the collector every workday at 9PM.
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   ![File collector Schedule tab with Plan execution checked and the daily 9:00 PM trigger, plus the Change button.](assets/s_advuser_load_file_sample_2.png)
 
    To do this, click the **[!UICONTROL Change...]** button located in the lower right-hand section of the editing tool and configure the schedule.
 
@@ -126,7 +126,7 @@ The following example lets you collect a file on the server every day, load its 
 
 1. Then configure the data loading (file) activity to indicate how the collected file(s) should be read. To do this, select a sample file with the same structure as the files to be loaded.
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![Data loading (file) activity with a sample file and a preview of the Event, lastname, firstname and other columns.](assets/s_advuser_load_file_sample_3.png)
 
    Here, the file contains five columns:
 
@@ -139,15 +139,15 @@ The following example lets you collect a file on the server every day, load its 
 
    The Split activity is detailed in the section.
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![Split subset for No purchase, with the Edit link opening a query where the Event field is selected as the expression.](assets/s_advuser_load_file_sample_4.png)
 
    For each subset, specify one of the values in the **Event** column.
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![Query filter condition with the expression Event (Event) equal to 0 for the subset.](assets/s_advuser_load_file_sample_5.png)
 
    The **[!UICONTROL Split]** activity will therefore contain the following information:
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![Split activity with subset tabs for under 3000 purchase, No purchase, Return and over 3000 purchase; No purchase shown.](assets/s_advuser_load_file_sample_6.png)
 
 1. Then specify the processes to be carried out for each type of population. In our example, we are going to **[!UICONTROL Update the data]** in the database. To do this, place an **[!UICONTROL Update data]** activity at the end of each outbound transition from the split activity.
 

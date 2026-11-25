@@ -38,17 +38,17 @@ Operation is as follows:
 
    The following example comes from a technical workflow of the Message Center module.
 
-   ![](assets/load_soap_002.png)
+   ![Loading (SOAP) activity with Use an example XML selected, a result example and the Initialization script.](assets/load_soap_002.png)
 
 1. For an XML example, select a sample file. The file is analyzed to establish a result example.
 
    For a WSDL, enter the matching access URL then generate the skeletal code. The service and call selected are automatically updated and displayed.
 
-   ![](assets/soap_load_003.png)
+   ![Result format with Use a WSDL selected, an Access URL field and the Generate the skeletal code link.](assets/soap_load_003.png)
 
 1. Select **[!UICONTROL Click here to view and edit analysis results]** to specify each identified column.
 
-   ![](assets/soap_load_001.png)
+   ![File format window listing identified columns, with the label, data type and internal name of the selected column.](assets/soap_load_001.png)
 
    If you wish to update the example, select **[!UICONTROL Re-analyze the example]**.
 

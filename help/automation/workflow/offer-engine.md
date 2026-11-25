@@ -32,7 +32,7 @@ The **[!UICONTROL Offer engine]** activity lets you define a call to the offer e
 
 This activity works on the same principle as the enrichment activity with an engine call, by enriching the inbound population data with an offer calculated by the engine, before a delivery.
 
-![](assets/int_offerengine_activity2.png)
+![Workflow diagram with the Offer engine activity placed between a Query and a Direct mail delivery.](assets/int_offerengine_activity2.png)
 
 After configuring your query (refer to this [section](query.md)):
 
@@ -43,6 +43,6 @@ After configuring your query (refer to this [section](query.md)):
    >
    >If you use this activity, only the offer propositions used in the delivery will be stored.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![Offer engine activity with Offer space, Offer category, Themes, Number of propositions to calculate and Contact date.](assets/int_offerengine_activity1.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](cross-channel-deliveries.md).

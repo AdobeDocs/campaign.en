@@ -26,13 +26,13 @@ The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of ano
 
 You can call multiple sub-workflows in a single workflow. Sub-workflows are executed synchronously.
 
-In the example below, a primary workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [this section](jump-start-point-and-end-point.md).
+In the example below, a primary workflow is calling a sub-workflow using jumps. For more on jump-type graphical objects, see [Jump (start point and end point)](jump-start-point-and-end-point.md).
 
 1. Create a workflow that you will use as a sub-workflow in another workflow.
 1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. If you have multiple "end point" type jumps, Adobe Campaign will use the "end point" jump with the lowest number.
 1. Insert a **[!UICONTROL Jump (start point)]** activity with a priority of 2 at the end of the workflow. If you have multiple "start point" type jumps, Adobe Campaign will use the "start point" jump with the highest number.
 
-   ![](assets/subworkflow_jumps.png)
+   ![Sub-workflow diagram starting with Jump (end point) 1 and ending with Jump (start point) 2 around queries and a Union.](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -45,12 +45,12 @@ In the example below, a primary workflow is calling a sub-workflow using jumps. 
 1. Insert a **[!UICONTROL Sub-workflow]** activity and open it.
 1. Select the workflow that you want to use from the **[!UICONTROL Workflow template]** drop-down list.
 
-   ![](assets/subworkflow_selection.png)
+   ![Sub-workflow activity with the Workflow template drop-down listing available workflows, Sub-workflow (WKF55) selected.](assets/subworkflow_selection.png)
 
 1. You can also add a configuration script to alter the referenced workflow.
 1. Click **[!UICONTROL Ok]**. It will automatically create an outbound transition with the label of the **[!UICONTROL Jump (start point)]** activity from the selected workflow.
 
-   ![](assets/subworkflow_outbound.png)
+   ![Primary workflow with Call Sub-workflow and an outbound transition labeled Jump (start point) 2.](assets/subworkflow_outbound.png)
 
 1. Run the workflow.
 
@@ -60,7 +60,7 @@ Once run, the workflow that was called as a sub-workflow remains in **[!UICONTRO
 * The count of intermediate populations cannot be displayed.
 * The sub-workflow logs display in the primary workflow.
 
-   ![](assets/subworkflow_logs.png)
+   ![Audit tab of the primary workflow showing sub-workflow log messages for the Result query.](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

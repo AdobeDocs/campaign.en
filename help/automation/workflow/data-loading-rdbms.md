@@ -39,15 +39,15 @@ Operation is as follows:
 
 1. Select the data source from the list and enter the name of the table that contains the data to be extracted.
 
-   ![](assets/s_advuser_wf_sgbd_sample_1.png)
+   ![Data loading (RDBMS) activity with a shared external data source selected and the table name nmsrecipient.](assets/s_advuser_wf_sgbd_sample_1.png)
 
    The name of the table entered in the corresponding field is used as a template for collecting data in the external database. The name of the table processed by the workflow can be computed or conveyed by the inbound transition of the data loading activity. To select the table to be used, click the **[!UICONTROL Advanced..]**. link and select the **[!UICONTROL Specified in the transition]** or **[!UICONTROL Explicit]** option.
 
-   ![](assets/s_advuser_wf_sgbd_sample_5.png)
+   ![Advanced parameters for table name selection: Identical to the template, Specified in the transition, Explicit.](assets/s_advuser_wf_sgbd_sample_5.png)
 
 1. Click the **[!UICONTROL Select the columns to extract...]** link to choose the data to be collected in the database.
 
-   ![](assets/s_advuser_wf_sgbd_sample_2.png)
+   ![Select extra columns window listing available fields and the output columns chosen for extraction.](assets/s_advuser_wf_sgbd_sample_2.png)
 
 1. You can define a filter on this data. To do this, click the **[!UICONTROL Edit query....]** link.
 

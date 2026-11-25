@@ -62,7 +62,7 @@ This issue needs to be addressed as follows:
 * Create a **Union** activity to unify each inbound flow.
 * Create a **Deduplication** activity after the **Union** activity.
 
-![](assets/dedup-best-practice.png)
+![Two queries joined by a Union, followed by a Deduplication activity and a List update](assets/dedup-best-practice.png)
 
 ## Configuration {#configuration}
 
@@ -70,7 +70,7 @@ To configure a deduplication, enter its label, the method, and the deduplication
 
 1. Click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![Deduplication activity window with the Edit configuration link in Deduplication parameters](assets/s_user_segmentation_dedup_param.png)
 
 1. Select the type of target for this activity (by default, deduplication is linked to recipients) and the criterion to be used, i.e. the field for which identical values enable you to identify duplicates.
 
@@ -80,30 +80,30 @@ To configure a deduplication, enter its label, the method, and the deduplication
    >
    >In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![Targeting dimension step with Email, SMS, Phone, Fax, Postal address and Other options](assets/s_user_segmentation_dedup_param2.png)
 
 1. In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used in case of identical values.
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![Identification of duplicates step with the Select an expression window and the Birth date field selected](assets/s_user_segmentation_dedup_param3.png)
 
 1. From the drop-down list, select the deduplication method to be used, and enter the number of duplicates to be kept.
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![Deduplication method step with Doubles to keep and the Method list showing four methods](assets/s_user_segmentation_dedup_param4.png)
 
    The following methods are available:
 
     * **[!UICONTROL Choose for me]**: randomly selects the record to be kept out of the duplicates.
     * **[!UICONTROL Following a list of values]**: lets you define a value priority for one or more fields. To define the values, select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+      ![Following a list of values method with English and French in the priority list and Other values options](assets/s_user_segmentation_dedup_param5.png)
 
     * **[!UICONTROL Non-empty value]**: this lets you keep records for which the value of the selected expression is not empty as a priority.
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+      ![Non-empty value method with the Expression field and the Account number field being selected](assets/s_user_segmentation_dedup_param6.png)
 
     * **[!UICONTROL Using an expression]**: lets you keep records with the lowest (or highest) value of the given expression. 
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+      ![Using an expression method with Status as the expression and Keep the records with the largest value selected](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -115,11 +115,11 @@ To configure a deduplication, enter its label, the method, and the deduplication
 
    In the lower section of the activity editor window, you can modify the label for the outbound transition of the graphical object and enter a segment code that will be associated with the result of the activity. This code can later be used as a targeting criterion.
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![Deduplication activity with result label Target, segment code PRO and Generate complement checked](assets/s_user_segmentation_dedup_param8.png)
 
 1. Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity, as follows:
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![Three profile queries feeding Deduplication, with Duplicate and Target outputs sent to two List update activities](assets/s_user_segmentation_dedup_param9.png)
 
 ## Example: Identify the duplicates before a delivery {#example--identify-the-duplicates-before-a-delivery}
 
@@ -129,7 +129,7 @@ The aim of the workflow is to define the target for a delivery by excluding dupl
 
 The identified duplicates will also be integrated into a dedicated duplicates list that can be reused if necessary.
 
-![](assets/deduplication_example.png)
+![Workflow with a Union of three profile queries, Deduplication, a Delivery and a List update on the Complement transition](assets/deduplication_example.png)
 
 1. Add and link the various activities required for the workflow to operate as shown above.
 
@@ -153,23 +153,23 @@ The **[!UICONTROL Merge]** functionality allows you to configure a set of rules 
 
 For example, with a set of duplicate records, you can choose to keep the oldest phone number or most recent name.
 
-A use case leveraging this feature is available in [this section](deduplication-merge.md).
+A use case leveraging this feature is available in [Use the Deduplication activity's Merge functionality](deduplication-merge.md).
 
 To do this, follow these steps:
 
 1. In the **[!UICONTROL Deduplication method]** selection step, click the **[!UICONTROL Advanced Parameters]** link.
 
-   ![](assets/dedup1.png)
+   ![Deduplication method step with the Advanced parameters link highlighted](assets/dedup1.png)
 
 1. Select the **[!UICONTROL Merge records]** option to activate the functionality.
 
    If you want to group multiple data fields in each merging condition, activate the **[!UICONTROL Use several record merging criteria]** option.
 
-   ![](assets/dedup2.png)
+   ![Advanced parameters with Merge records and Use several record merging criteria options checked](assets/dedup2.png)
 
 1. After activating the functionality, a **[!UICONTROL Merge]** tab is added to the **[!UICONTROL Deduplication]** activity. It allows you to define groups of fields to merge and their associated rules.
 
-   For more on this, refer to the dedicated use case available in [this section](deduplication-merge.md).
+   For more on this, refer to the dedicated use case available in [Use the Deduplication activity's Merge functionality](deduplication-merge.md).
 
 ## Input parameters {#input-parameters}
 

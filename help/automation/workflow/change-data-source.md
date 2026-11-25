@@ -57,22 +57,22 @@ To use the **[!UICONTROL Change Data Source]** activity, you must:
 
 1. Add a **[!UICONTROL Change data source]** activity.
 
-   ![](assets/change-data-source.png)
+   ![Workflow with Start and Query, and the Change Data Source activity highlighted in the palette](assets/change-data-source.png)
 
 1. Edit your **[!UICONTROL Change data source]** activity to select **[!UICONTROL Default data source]**.
     
     The working table, which contains the result of your query, is then moved to the default Campaign Local database.
 
-   ![](assets/change-data-source_2.png)
+   ![Change Data Source activity with the Default data source option selected](assets/change-data-source_2.png)
 
 1. Add a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to the [this page](sql-code-and-javascript-code.md#javascript-code).
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to the [JavaScript code and Advanced JavaScript code](sql-code-and-javascript-code.md#javascript-code).
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
 1. Edit this activity and select **[!UICONTROL Active FDA external account]**, and the corresponding **[!UICONTROL External database]** external account.
 
-   ![](assets/change-data-source_3.png)
+   ![Change Data Source activity with Active FDA external account selected and Snowflake highlighted in the list](assets/change-data-source_3.png)
 
 1. You can now start your workflow.

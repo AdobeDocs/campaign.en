@@ -50,15 +50,15 @@ To do this:
 
    In the **[!UICONTROL Schedule editing wizard]** window, you can configure the type of frequency, event recurrence and event validity period.
 
-   ![](assets/s_user_segmentation_wizard_11.png)
+   ![Schedule editing wizard: Weekly frequency, Thursday selected, and a validity period with a Valid from and To date.](assets/s_user_segmentation_wizard_11.png)
 
 1. Click **[!UICONTROL Finish]** to save the schedule.
 
-   ![](assets/s_user_segmentation_wizard_valid.png)
+   ![Schedule editing wizard Summary page with the schedule description, the list of launch times and the Finish button.](assets/s_user_segmentation_wizard_valid.png)
 
 1. The lower section of the **[!UICONTROL Scheduling & History]** tab allows you to select the number of days to be taken into account in the history.
 
-   ![](assets/edit_request_inc.png)
+   ![Incremental query Scheduling & History tab with Plan execution selected and the History in days field set to 10.](assets/edit_request_inc.png)
 
     * **[!UICONTROL History in days]**
 

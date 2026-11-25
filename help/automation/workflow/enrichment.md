@@ -32,24 +32,24 @@ role_v2:
 
 The **[!UICONTROL Enrichment]** activity lets you add information to a profile list and links to an existing table (create a new join). Reconciliation criteria with profiles in the database can also be defined.
 
-![](assets/enrichment_design.png)
+![Workflow diagram with Enrichment activities, such as 3 newsletters and Label service, feeding a Top 1000 activity.](assets/enrichment_design.png)
 
 ## Definitions {#definitions}
 
 To use the enrichment activity, you need to be familiar with the various options available when adding data.
 
-![](assets/enrichment_edit.png)
+![Enrichment activity Add data link opening the Additional data wizard with the five types of data to add.](assets/enrichment_edit.png)
 
 The **[!UICONTROL Data linked to the filtering dimension]** option gives you access to:
 
 * Data of the filtering dimension: access to the work table data
 * Data linked to the filtering dimension: access to data linked to the work table
 
-![](assets/wf_enrich_linkoptions.png)
+![Select fields to add page with Data of the filtering dimension and Data linked to the filtering dimension options.](assets/wf_enrich_linkoptions.png)
 
 The **[!UICONTROL A link]** option lets you create a join on any table of the database.
 
-![](assets/wf_enrich_linkstype.png)
+![Link definition page listing the four link types, with Define a collection selected, and the Link target section.](assets/wf_enrich_linkstype.png)
 
 There are four types of links:
 
@@ -79,27 +79,27 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
 Click the **[!UICONTROL Add data]** link and select the type of data to add. The list of data types offered depends on the modules and options installed on your platform. In a minimal configuration, you can always add data linked to the filtering dimension and a link.
 
-![](assets/enrichment_edit.png)
+![Enrichment activity Add data link opening the Additional data wizard with the five types of data to add.](assets/enrichment_edit.png)
 
 In the example below, the outbound transition will be enriched with information on the age of the targeted profiles.
 
-![](assets/enrichment_add_data.png)
+![Data to add page with the Age field selected under Targeting dimension and listed in Output columns.](assets/enrichment_add_data.png)
 
 Right-click on the enrichment activity's inbound transition to view the data before the enrichment stage. 
 
-![](assets/enrichment_content_before.png)
+![Context menu on the transition after Union 2 with the Display the target option highlighted.](assets/enrichment_content_before.png)
 
 The worktable contains the following data and the associated schema:
 
-![](assets/enrichment_content_before_a.png)
+![View population with the work table data before enrichment and its schema with Primary key and Targeting dimension.](assets/enrichment_content_before_a.png)
 
 Repeat this operation at the enrichment stage output.
 
-![](assets/enrichment_content_after.png)
+![Context menu on the transition after the Enrichment 3 activity with the Display the target option highlighted.](assets/enrichment_content_after.png)
 
 You can see that the data related to profile ages has been added:
 
-![](assets/enrichment_content_after_a.png)
+![View population with the added Age column, and the enriched schema with Age, Primary key and Targeting dimension.](assets/enrichment_content_after_a.png)
 
 The matching schema has also been enriched.
 
@@ -107,11 +107,11 @@ The matching schema has also been enriched.
 
 Deselect the **[!UICONTROL Keep all additional data from the main set]** option if you do not want to keep the previously defined additional data. In this case, only the additional columns that were selected in the enrichment activity will be added to the outgoing work table. The additional information added to the activities upstream will not be saved.
 
-![](assets/enrichment_edit_without_additional.png)
+![Enrichment tab with Keep all additional data from the main set cleared and only Age (Targeting dimension) listed.](assets/enrichment_edit_without_additional.png)
 
 The data and the schema at the enrichment stage output will be as follows:
 
-![](assets/enrichment_content_after_without_additional.png)
+![View population window with the Age column and its schema after enrichment without the main set additional data.](assets/enrichment_content_after_without_additional.png)
 
 ## Creating a link {#creating-a-link}
 
@@ -136,19 +136,19 @@ To do this, apply the following steps:
 
 1. Edit the enrichment activity and click the **Add data...** link to create a join with the Country table.
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![Workflow with File collector, Data loading (file) and Enrichment, with the Add data link of the Enrichment activity.](assets/enrichment_edit_after_file_box.png)
 
 1. Select the **[!UICONTROL Link definition]** option and click the **[!UICONTROL Next]** button. Specify the type of link to be created. In this example, we want to reconcile the file recipient's country with a country in the list of available countries in the dedicated table of the database. Choose the **[!UICONTROL Define a link by searching for a reference among several options]** option. Select the country table in the **[!UICONTROL Target schema]** field. 
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![Link definition with Define a link by searching for a reference among several options and Country (nms) target.](assets/enrichment_add_a_link_select_option4.png)
 
 1. Finally, select the field(s) which will let you link the source file values to those in the database.
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![Link definition join conditions mapping the source Country to the English label field of the Country schema.](assets/enrichment_add_a_link_select_join.png)
 
 At the output of this enrichment activity, the temporary schema will contain the link to the country table:
 
-![](assets/enrichment_external_link_schema.png)
+![Result window Schema tab showing the generated structure with the foreign key and the Country link and its fields.](assets/enrichment_external_link_schema.png)
 
 ## Data reconciliation {#data-reconciliation}
 
@@ -158,7 +158,7 @@ Select the **[!UICONTROL Identify the targeting document based on work data]** o
 
 You can use one or more reconciliation criteria.
 
-![](assets/enrichment_reconciliations_tab_01.png)
+![Reconciliation tab with Identify the document from the working data and source and destination expressions.](assets/enrichment_reconciliations_tab_01.png)
 
 If several join conditions are specified, they must ALL be verified so that the data can be linked together.
 
@@ -170,7 +170,7 @@ For more information on the enrichment activity, refer to this [section](enrichm
 
 For example, you can enrich the data for a recipient query before a delivery.
 
-![](assets/int_enrichment_offer1.png)
+![Workflow with a Query activity, an Enrichment activity and a Direct mail delivery activity connected in sequence.](assets/int_enrichment_offer1.png)
 
 After configuring your query (refer to this [section](query.md)):
 
@@ -178,18 +178,18 @@ After configuring your query (refer to this [section](query.md)):
 1. In the **[!UICONTROL Enrichment]** tab, select **[!UICONTROL Add data]**.
 1. Select **[!UICONTROL An offer proposition]** in the types of data to add.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Select the type of data to add page with An offer proposition selected.](assets/int_enrichment_offer2.png)
 
 1. Specify an identifier as well as a label for the proposition that will be added.
 1. Specify the offer selection. There are two possible options for this:
 
     * **[!UICONTROL Search for the best offer in a category]**: check this option and specify the offer engine call parameters (offer space, category or theme(s), contact date, number of offers to keep). The engine will automatically calculate the offer(s) to add according to these parameters. We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
     
-      ![](assets/int_enrichment_offer3.png)
+      ![Offer proposition page with identifier, label, Space, Offer category and Contact date fields for the best offer search.](assets/int_enrichment_offer3.png)
 
     * **[!UICONTROL A predefined offer]**: check this option and specify an offer space, a specific offer, and a contact date to directly configure the offer that you would like to add, without calling the offer engine.
     
-      ![](assets/int_enrichment_offer4.png)
+      ![Offer proposition page with identifier, label, Space, a specific Offer and Contact date for a predefined offer.](assets/int_enrichment_offer4.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](cross-channel-deliveries.md).
 
@@ -207,11 +207,11 @@ To do this:
 1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
 1. Select the type of link you want to establish as well as its target. In this case, the target is the offer schema.
 
-   ![](assets/int_enrichment_link1.png)
+   ![Link definition page with a link whose target is always available and Marketing offers (nms) as target schema.](assets/int_enrichment_link1.png)
 
 1. Specify the join between the inbound table data in the enrichment activity (here the recipient table) and the offer table. For example, you can link an offer code to a recipient.
 
-   ![](assets/int_enrichment_link2.png)
+   ![Link definition join conditions linking the source cryptedId to the offer code, with Identifier offer.](assets/int_enrichment_link2.png)
 
 1. Then configure a delivery activity that corresponds to your chosen channel. Refer to [Cross-channel deliveries](cross-channel-deliveries.md).
 
@@ -230,11 +230,11 @@ However, you can store this information as follows:
 1. Create a call to the offer engine in an enrichment activity placed after a query and before a delivery activity.
 1. In the activity's main window, select **[!UICONTROL Edit additional data...]**.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![Enrichment tab listing the offer proposition columns, with the Edit additional data link highlighted.](assets/ita_enrichment_rankweight_1.png)
 
 1. Add the **[!UICONTROL @rank]** columns for the ranking and **[!UICONTROL @weight]** for the offer weight.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Select additional columns window with Weight and Ranking columns added to the proposition using Add a sub-item.](assets/ita_enrichment_rankweight_2.png)
 
 1. Confirm your addition and save your workflow.
 

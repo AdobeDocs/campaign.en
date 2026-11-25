@@ -32,7 +32,7 @@ An **Exclusion**-type activity creates a target based on a main target from whic
 
 To configure this activity, enter its label and select the main recipient set: the population from the main set lets you construct the result. Profiles shared by the main set and at least one of the entry activities will be excluded.
 
-![](assets/s_user_segmentation_exclu.png)
+![Exclusion activity with the Primary set, exclusion rules, Result label and Generate complement option.](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ To configure this activity, enter its label and select the main recipient set: t
 
 Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement will contain the main incoming population minus the outgoing population. An additional output transition will then be added to the activity, as follows:
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![Exclusion activity with two outbound transitions labeled Result and Complement.](assets/s_user_segmentation_exclu_compl.png)
 
 ## Exclusion examples {#exclusion-examples}
 
@@ -52,7 +52,7 @@ The following example seeks to compile a list of recipients aged between 18 and 
 1. Approve the exclusion configuration then insert an update list activity to the result. You can also insert an additional list update to the complement where necessary.
 1. Execute the workflow. In this example, the result is made up of recipients aged 18 to 30, but those living in Paris are excluded and sent to the complement.
 
-   ![](assets/exclusion_example.png)
+   ![Workflow where 18-30 and live in paris queries feed an Exclusion with Result and Complement each going to a List update.](assets/exclusion_example.png)
 
 ## Input parameters {#input-parameters}
 

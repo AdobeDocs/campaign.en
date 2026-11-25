@@ -51,18 +51,18 @@ To create this example, apply the following steps:
 1. Click **[!UICONTROL Tools > Generic query editor...]** and choose the **Recipients** (**nms:recipient**) table. Then click **[!UICONTROL Next]**.
 1. Choose: **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** and **[!UICONTROL Account number]**. These fields are added to **[!UICONTROL Output columns]**. Then click **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_03.png)
+   ![Data to extract step with the Email, Last name, First name, City and Account # fields in Output columns](assets/query_editor_03.png)
 
 1. Sort the columns to display them in the right order. Here we want to sort account numbers in descending order and names in alphabetical order. Then click **[!UICONTROL Next]**.
 
-   ![](assets/query_editor_04.png)
+   ![Sorting step with Account # sorted in descending order and Last name sorted ascending](assets/query_editor_04.png)
 
 1. In the **[!UICONTROL Data filtering]** window, refine your search: choose **[!UICONTROL Filtering conditions]** and click **[!UICONTROL Next]**.
 1. The **[!UICONTROL Target element]** window lets you enter the filter settings.
 
    Define the following filter condition: recipients with an email domain equal to "orange.co.uk". To do this, choose **Email domain (@email)** in the **[!UICONTROL Expression]** column, choose **equal to** in the **[!UICONTROL Operator]** column and enter "orange.co.uk" in the **[!UICONTROL Value]** column.
 
-   ![](assets/query_editor_05.png)
+   ![Target element step with the filter Email domain (@domain) equal to orange.co.uk and the query summary](assets/query_editor_05.png)
 
 1. If needed, click the **[!UICONTROL Distribution of values]** button to view a distribution based on the email domain of prospects. A percentage is available for each email domain in the database. Domains other than "orange.co.uk" are displayed until the filter is applied.
 
@@ -70,19 +70,19 @@ To create this example, apply the following steps:
 
 1. Click the **[!UICONTROL Preview]** to get an idea of the query result: only "orange.co.uk" email domains are displayed.
 
-   ![](assets/query_editor_nveau_17.png)
+   ![Target element Preview tab listing only recipients with an orange.co.uk email address](assets/query_editor_nveau_17.png)
 
 1. We will now change the query to find contacts not living in London.
 
    Select **[!UICONTROL City (location/@city)]** in the **[!UICONTROL Expression]** column, **[!UICONTROL different from]** as an operator and enter **[!UICONTROL London]** in the **[!UICONTROL Value]** column.
 
-   ![](assets/query_editor_08.png)
+   ![Target element step with the condition City (location/@city) not equal to London added to the filter](assets/query_editor_08.png)
 
 1. This will take you to the **[!UICONTROL Data formatting]** window. Check the column order. Move the "City" column up under the "Account number" column.
 
    Uncheck the "First name" column to remove it from the list.
 
-   ![](assets/query_editor_nveau_15.png)
+   ![Data formatting step with the column order and the First name column unchecked](assets/query_editor_nveau_15.png)
 
 1. In the **[!UICONTROL Data preview]** window, click **[!UICONTROL Start the preview of the data]**. This function calculates the result of the query.
 
@@ -90,12 +90,12 @@ To create this example, apply the following steps:
 
    The result shows all recipients with an "orange.co.uk" email domain who do not live in London. The "First name" column is not shown because it was unchecked during the previous stage. Account numbers are sorted in descending order.
 
-   ![](assets/query_editor_nveau_12.png)
+   ![Data preview with the Column results tab showing account number, city, email and last name of the query result](assets/query_editor_nveau_12.png)
 
    The **[!UICONTROL XML result]** tab shows the result in XML format.
 
-   ![](assets/query_editor_nveau_13.png)
+   ![Data preview with the XML result tab showing the query result as recipient XML elements](assets/query_editor_nveau_13.png)
 
    The **[!UICONTROL Generated SQL queries]** tab shows the query result in SQL format.
 
-   ![](assets/query_editor_nveau_14.png)
+   ![Data preview with the Generated SQL queries tab showing the SELECT statement of the query](assets/query_editor_nveau_14.png)

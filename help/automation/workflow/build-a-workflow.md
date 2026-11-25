@@ -27,7 +27,7 @@ Workflow creation flow depends on the type of workflows. You can:
 
 * Create [Targeting workflows](#targeting-workflows) from  the **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** node of the Explorer or from the **[!UICONTROL Profiles and Targets]** tab of the home page, via the **[!UICONTROL Targeting workflows]** sub-tab.
 
-  ![](assets/create-targeting-wf.png)
+  ![Targeting workflows list on the Profiles and targets tab with the Create button highlighted](assets/create-targeting-wf.png)
 
 * Create [Campaign workflows](#campaign-workflows) from the **[!UICONTROL Targeting and workflows]** tab of a campaign
 
@@ -35,7 +35,7 @@ Workflow creation flow depends on the type of workflows. You can:
 
 Click the **[!UICONTROL New]** button located above the list of workflows.
 
-![](assets/create_a_wf_icon.png)
+![Targeting workflows list with the New button highlighted above the list](assets/create_a_wf_icon.png)
 
 Enter a label and click **[!UICONTROL Save]**.
 
@@ -43,7 +43,7 @@ Enter a label and click **[!UICONTROL Save]**.
 
 You must now define the various activities and link them together in the diagram. At this stage of the configuration, we can see the diagram label and the workflow status (Editing in progress). The lower section of the window is used for editing the diagram only. It contains a toolbar, a palette of activities (on the left) and the diagram itself (on the right).
 
-![](assets/new-workflow-2.png)
+![Workflow editor with label, Being edited status, toolbar, activity palette and empty diagram area](assets/new-workflow-2.png)
 
 >[!NOTE]
 >
@@ -62,17 +62,17 @@ To create the diagram
 
    Add a **Start** activity and then a **Delivery** activity on the diagram.
 
-   ![](assets/new-workflow-3.png)
+   ![Diagram with a Start activity and a Delivery activity being dropped onto it](assets/new-workflow-3.png)
 
 1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Delivery** activity.
 
-   ![](assets/new-workflow-4.png)
+   ![Start activity linked by a transition to the Delivery activity](assets/new-workflow-4.png)
 
    You can automatically link an activity to the previous one by placing the new activity at the end of the transition.
 
 1. Add the activities you need and link them together as shown in the diagram below.
 
-   ![](assets/new-workflow-5.png)
+   ![Workflow diagram linking Start, Delivery, Approval, Delivery control and End with Yes and No transitions](assets/new-workflow-5.png)
 
 >[!CAUTION]
 >
@@ -84,11 +84,11 @@ You can change the display and layout of the chart using the following elements:
 
   The diagram editing toolbar gives you access to the layout and execution functions of the workflow.
 
-  ![](assets/wf-toolbar.png)
+  ![Diagram editing toolbar highlighted above a workflow with queries, union, deduplication, split and deliveries](assets/wf-toolbar.png)
 
   This lets you adapt the layout of the editing tool: display of the palette and the overview, size and alignment of graphical objects.
 
-  ![](assets/s_user_segmentation_toolbar.png)
+  ![Toolbar groups: Display and layout, Tracking and Execution, plus the Properties button](assets/s_user_segmentation_toolbar.png)
 
   Icons related to progress and logs display are detailed in these sections:
   
@@ -111,17 +111,17 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 >[!NOTE]
 >
->Campaign workflow activities are detailed in [this section](activities.md).
+>Campaign workflow activities are detailed in [About workflow activities](activities.md).
 
 The first tab contains the basic configuration. The **[!UICONTROL Advanced]** tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script.
 
 For a better understanding of the activities and to improve workflow legibility, you can enter comments in the activities.
 
-![](assets/example1-comment.png)
+![Query activity Advanced tab with a comment entered in the Comment field](assets/example1-comment.png)
 
 These comments are displayed automatically when operators scroll over the activity.
 
-![](assets/example2-comment.png)
+![Comment text displayed in a tooltip when the pointer is over the Split activity in the diagram](assets/example2-comment.png)
 
 
 ## Workflow templates {#workflow-templates}
@@ -134,7 +134,7 @@ Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workf
 
 In addition to the usual workflow properties, the template properties allow you to specify the execution file for workflows created based on this template.
 
-![](assets/wf-template-properties.png)
+![Workflow properties General tab with the Execution folder selector open on the Workflows folder](assets/wf-template-properties.png)
 
 ## Duplicate workflows {#duplicate-workflows}
 
@@ -145,7 +145,7 @@ Adobe recommends to duplicate a workflow rather than performing a copy/paste of 
 1. Right-click on a workflow.
 1. Click **Duplicate**.
 
-     ![](assets/duplicate-workflows.png)
+     ![Workflows list with the right-click menu open and the Duplicate option highlighted](assets/duplicate-workflows.png)
 
 1. In the workflow window, change the workflow label.
 1. Click **Save**.

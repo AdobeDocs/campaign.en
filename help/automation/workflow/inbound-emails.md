@@ -30,7 +30,7 @@ role_v2:
 
 The **Inbound emails** activity lets you download and process email messages from a POP3 mail server.
 
-![](assets/email_rec_edit_1.png)
+![Inbound Emails activity dialog with the POP3 server, External account and Script fields](assets/email_rec_edit_1.png)
 
 The first tab of the **Inbound Emails** activity lets you enter the parameters of the POP3 server and enter the script to be executed upon receipt of each message. The second tab lets you assign a schedule to the activity, and the third tab defines the activity expiration conditions.
 
@@ -42,7 +42,7 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
       If this option is not selected, you must specify the following parameters:
     
-      ![](assets/email_rec_edit_1b.png)
+      ![POP3 server section with the POP3 server, POP3 account, Password and Port fields](assets/email_rec_edit_1b.png)
 
         * **[!UICONTROL POP3 server]**
 
@@ -87,6 +87,6 @@ The first tab of the **Inbound Emails** activity lets you enter the parameters o
 
    You can define expiration delays via the **[!UICONTROL Expiration]** tab.
 
-   ![](assets/email_rec_edit_3.png)
+   ![Inbound Emails Expiration tab with the Expiration type list showing delay and expiration options](assets/email_rec_edit_3.png)
 
    Configuration is the same as for the scheduling activity. Refer to [Expirations](define-approvals.md).

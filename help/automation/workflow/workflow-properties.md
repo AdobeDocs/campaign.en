@@ -31,7 +31,7 @@ topic_v2:
 
 The **[!UICONTROL Execution]** tab of the **[!UICONTROL Properties]** window in a workflow is broken down into 3 sections:
 
-![](assets/wf_execution_tab.png)
+![Execution tab with the Scheduler, Execution and Error management sections of the workflow properties.](assets/wf_execution_tab.png)
 
 ### Scheduler {#scheduler}
 
@@ -61,7 +61,7 @@ This section is only displayed in campaign workflows.
 
   Queries are displayed in an **[!UICONTROL SQL logs]** tab which is added to the workflow (except campaign workflows) and to the **[!UICONTROL Properties]** activity when the option is enabled. The **[!UICONTROL Audit]** tab also includes SQL queries. 
 
-  ![](assets/wf_tab_log_sql.png)
+  ![Workflow window with the SQL logs tab highlighted next to the Diagram and Audit tabs.](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
@@ -98,7 +98,7 @@ This section is only displayed in campaign workflows.
 
   The concerned operators will be notified by email, if there is an email address in their profile. To define workflow supervisors, go to the **[!UICONTROL Supervisor(s)]** field of the properties (**[!UICONTROL General]** tab).
 
-  ![](assets/wf-properties_select-supervisors.png)
+  ![General tab with the Supervisor(s) drop-down list open and Workflow supervisors highlighted.](assets/wf-properties_select-supervisors.png)
 
   The **[!UICONTROL Notification to a workflow supervisor]** default template includes a link for accessing the Adobe Campaign Client Console via the Web so that the recipient can work on the issue once they are logged on.
 
