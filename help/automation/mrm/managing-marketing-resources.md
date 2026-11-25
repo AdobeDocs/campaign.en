@@ -39,9 +39,9 @@ To add a marketing resource, follow the steps below:
 1. Browse to the **[!UICONTROL Campaigns]** tab, and select **[!UICONTROL Marketing resouces]**.
 
 1. Click the **[!UICONTROL Create]** button.
-  ![](assets/add-a-mkt-resource.png)
+  ![Marketing resources list in the Campaigns tab with the Create button highlighted.](assets/add-a-mkt-resource.png)
 1. Drag and drop the file it in the Marketing resource window to upload it to Campaign server. You can also use the **[!UICONTROL Upload file to server...]** link.
-  ![](assets/mkt-resource-creation.png) 
+  ![Marketing resource creation window with the Upload file to server link to add the file.](assets/mkt-resource-creation.png) 
 
 When upload is complete, the resource is added to the list of available resources. 
 
@@ -49,11 +49,11 @@ When upload is complete, the resource is added to the list of available resource
 
 Once uploaded, the marketing resource is available to all Adobe Campaign operators. They can view it, make a copy to modify it, or update the file on the server.
 
-![](assets/open-a-marketing-resource.png)
+![Marketing resource dashboard with Dashboard, Edit and Preview tabs, status, file and assigned operator.](assets/open-a-marketing-resource.png)
 
 Use the **[!UICONTROL Assigned to]** drop-down list in the **[!UICONTROL Edit]** tab to select the operator who is responsible for the resource.
 
-![](assets/assign-a-mkt-resource.png)
+![Edit tab of a marketing resource with the Assigned to drop-down list of operators open.](assets/assign-a-mkt-resource.png)
 
 You can also select the operators or groups of operators in charge of the resource validation and resource publication. To access these options, click the  **[!UICONTROL Advanced parameters]** link.
 
@@ -79,18 +79,18 @@ A marketing resource can only be locked if it has not been approved.
 
 To lock a resource, you must click the **[!UICONTROL Lock]** button in the resource dashboard.
 
-![](assets/lock-a-resource.png)
+![Marketing resource dashboard with an arrow pointing to the Lock button.](assets/lock-a-resource.png)
 
 
 When the resource has been updated, click the **[!UICONTROL Lock]** button in the resource dashboard to make available to all operators again.
 
 A special message notifies any operators who try to access it:
 
-![](assets/mkt-resource-locked.png)
+![Edit tab message saying the file is on the server and is being edited by another operator.](assets/mkt-resource-locked.png)
 
 The **[!UICONTROL Tracking]** tab indicates the name of the operator who locked the resource.
 
-![](assets/mkt-resource-audit-tab.png)
+![Audit tab of a marketing resource with the proof reader, availability date, owner and lock entry in the journal.](assets/mkt-resource-audit-tab.png)
 
 
 >[!NOTE]
@@ -101,7 +101,7 @@ The **[!UICONTROL Tracking]** tab indicates the name of the operator who locked 
 
 For each resource, the **[!UICONTROL Forum]** tab lets participants share information.
 
-![](assets/mkt-resource-forum.png)
+![Discussion forum dialog on a marketing resource with Subject, Message and Operator to notify fields.](assets/mkt-resource-forum.png)
 
 Learn more in the [Discussion forums](discussion-forums.md) section.
 
@@ -111,13 +111,13 @@ The expected availability date is displayed in the resource details, if it was s
 
 To approve a resource, click the **[!UICONTROL Approve the resource]** button on its dashboard.
 
-![](assets/mkt-resouce-approve.png)
+![Marketing resource dashboard with an arrow pointing to the Approve the resource button.](assets/mkt-resouce-approve.png)
 
 Authorized operators can then accept or reject approval. This action is possible either: via the email message sent (by clicking the link in the notification message) or via the Client Console (by clicking the **[!UICONTROL Approve]** ) button.
 
 The approval window lets you enter a comment.
 
-![](assets/mkt-resource-approval-confirmation.png)
+![Action on the resource dialog with Accept and Reject options, a Comment field and the Approval button.](assets/mkt-resource-approval-confirmation.png)
 
 Browse to the **[!UICONTROL Tracking]** tab to check approvals.
 
@@ -131,7 +131,7 @@ When approved, the marketing resource must be published. The publication process
 
 To publish a resource, click the **[!UICONTROL Publish]** button in the editing zone of the marketing resource dashboard.
 
-![](assets/mkt-resource-publish.png)
+![Approved marketing resource dashboard with an arrow pointing to the Publish button.](assets/mkt-resource-publish.png)
 
 You can also automate the publishing of a resource via a workflow.
 
@@ -139,7 +139,7 @@ Publishing a resource means making it available for use (by another task, for in
 
 In order for Adobe Campaign to publish, you need to create an adequate workflow and link it to the resource. To do this, open the **[!UICONTROL Advanced settings...]** box of the resource, then select the desired workflow in the **[!UICONTROL Post-processing]** field.
 
-![](assets/mkt-resource-post-processing-wf.png)
+![Advanced parameters dialog with the Post-processing workflow field under Resource publication.](assets/mkt-resource-post-processing-wf.png)
 
 The workflow is executed:
 
@@ -156,7 +156,7 @@ Marketing resources can be associated with campaigns, provided that this feature
 
 Browse to the **[!UICONTROL Edit > Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
 
-![](assets/link-a-mkt-resource-to-a-campaign.png)
+![Resources tab of a campaign with the Add button and the marketing resource selection dialog.](assets/link-a-mkt-resource-to-a-campaign.png)
 
 You can filter resources by status, nature or type, or apply a personalized filter.
 
@@ -166,15 +166,15 @@ Use the **[!UICONTROL Details]** button to edit and preview the resource.
 
 Marketing resources can be associated with deliveries via delivery outlines.
 
-Learn more about delivery outlines in [this section](../campaigns/marketing-campaign-deliveries.md).
+Learn more about delivery outlines in [Marketing campaign deliveries](../campaigns/marketing-campaign-deliveries.md).
 
 To do this, right click on a delivery outline and select **New > Resource**.
 
-![](assets/mkt-resource-add-in-del-outline.png)
+![Delivery outlines context menu with New and the Resource option selected.](assets/mkt-resource-add-in-del-outline.png)
 
 Enter the name of the asset and select it from the **Marketing resource** drop-down list.
 
-![](assets/mkt-resource-select-in-del-outline.png)
+![Delivery outline Marketing resource drop-down list showing the available resources to select.](assets/mkt-resource-select-in-del-outline.png)
 
 
 ## Stock management {#stock-management}
@@ -184,11 +184,11 @@ You can associate a marketing resource with one or more stocks in order to manag
 
 To associate a marketing resource with a stock, follow the steps below:
 
-1. Edit a stock or create a new stock. Learn more about stocks in [this section](../campaigns/providers-stocks-and-budgets.md#stock-management).
+1. Edit a stock or create a new stock. Learn more about stocks in [Stock management](../campaigns/providers-stocks-and-budgets.md#stock-management).
 
 1. Add a stock line, and select the corresponding marketing resource.
 
-    ![](assets/mkt-resource-in-a-stock-line.png)
+    ![Stock line dialog with the Marketing resource field, initial stock and alert level.](assets/mkt-resource-in-a-stock-line.png)
 
     You can edit the selected resource via the **[!UICONTROL Edit the link]** icon located to the right of the resource once it has been selected.
 

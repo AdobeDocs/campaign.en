@@ -36,7 +36,7 @@ The costs committed for the various processes of a campaign are charged to a bud
 
 The management and tracking of budgets is centralized in a dedicated node of the Adobe Campaign tree. This lets you monitor the amounts allocated, reserved, committed, and spent from the same view and for all budgets.
 
-![](assets/s_ncs_user_budget_node_02.png)
+![Budgets node of the Campaign Management tree with the eMarketing budget showing amounts and expense categories.](assets/s_ncs_user_budget_node_02.png)
 
 The following steps must be applied to implement budget management using MRM:
 
@@ -58,11 +58,11 @@ To create a budget, follow the steps below:
 1. Define the validity period by entering the start and end dates. This information is indicative only.
 1. Create the expense categories to which the costs assigned to this budget for campaigns, tasks etc. can be linked. [Learn more](#expense-categories).
 
-  ![](assets/s_ncs_user_budget_create_and_save.png)
+  ![New budget form with label, schedule, Allocated amount and the Design, Resources and Data expense categories.](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
->You can select a related budget. For more on this, refer to [this section](#linking-a-budget-to-another).
+>You can select a related budget. For more on this, refer to [Link a budget to another](#linking-a-budget-to-another).
 >
 
 ### Calculate amounts {#calculating-amounts}
@@ -75,7 +75,7 @@ Each budget is defined by an initial amount which will be decremented from the c
 
 For campaigns, according to the level of commitment, a cost can be planned, committed or reserved for a future action. 
 
-![](assets/s_user_cost_op_engaged.png)
+![Campaign Budget section with the Commitment level list open showing Planned, Reserved and Committed.](assets/s_user_cost_op_engaged.png)
 
 >[!CAUTION]
 >
@@ -85,11 +85,11 @@ For campaigns, according to the level of commitment, a cost can be planned, comm
 
 For example, the estimated planned cost of a web campaign is 45,000 Euro.
 
-![](assets/s_user_edit_budget_node_impact_0.png)
+![Campaign Budget section with an estimated provisional cost of 45,000, charged to the Web budget at Planned level.](assets/s_user_edit_budget_node_impact_0.png)
 
 For the campaign, when the budget creation status is set to **[!UICONTROL Defined]**, the real cost of the campaign (or, if none, the computed cost) will be carried over into the budget totals.
 
-![](assets/s_user_budget_in_op_a.png)
+![Campaign Budget section with the Process status field set to Defined so costs are consolidated on execution.](assets/s_user_budget_in_op_a.png)
 
 According to the level of commitment of the campaign budget, the amount will be entered in the **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** or **[!UICONTROL Committed]** field.
 
@@ -98,15 +98,15 @@ The level of commitment can be modified:
 * in the **campaign** level, in the **[!UICONTROL Budget]** window, found in the **[!UICONTROL Edit]** tab. This is where budgets, costs and expenses are configured.
 * in the **tasks** level, in the **[!UICONTROL Expenses and revenues]** window.
 
-![](assets/s_user_op_engagement_level_costs.png)
+![Campaign Budget section with the Commitment level list open, above the Expenses tab listing an expense line.](assets/s_user_op_engagement_level_costs.png)
 
 When the budget is **[!UICONTROL Reserved]**, the update is performed automatically for the charged budget.
 
-![](assets/s_user_edit_budget_node_impact_2.png)
+![Budget form where the Reserved amount shows 45,000 after the campaign commitment level was set to Reserved.](assets/s_user_edit_budget_node_impact_2.png)
 
 The procedure is the same at task level.
 
-![](assets/s_user_edit_budget_node_impact_task.png)
+![Task Expenses and revenue window with the Commitment level list open showing Planned, Reserved and Committed.](assets/s_user_edit_budget_node_impact_task.png)
 
 When an expenditure gives rise to an invoice and the invoice is paid, its amount is then entered in the **[!UICONTROL Invoiced]** field.
 
@@ -116,7 +116,7 @@ The amounts can be distributed in several expense categories for better readabil
 
 To add a category, click the **[!UICONTROL Add]** button in the lower section of the window.
 
-![](assets/s_user_budget_category.png)
+![Budget form with the Add button of the Expense categories list for the Design, Printing and Web categories.](assets/s_user_budget_category.png)
 
 You can select a category from the existing ones or define a new category by entering it directly in the field. When you confirm your input, a confirmation message lets you add this category to the list of existing categories, and associate it with a Nature if necessary. This information will be used in the budget reports.
 
@@ -124,11 +124,11 @@ You can select a category from the existing ones or define a new category by ent
 
 You can link a budget to a main budget. To do this, select the main budget in the **[!UICONTROL related budget]** field of the secondary budgets. 
 
-![](assets/budget_link.png)
+![Secondary budget form with the Related budget field set to the main eMarketing budget.](assets/budget_link.png)
 
 An additional tab will be added to the main budget in order to display the list of related budgets.
 
-![](assets/budget_link_new_tab.png)
+![Main budget with the added Budgets tab listing its linked budgets.](assets/budget_link_new_tab.png)
 
 This information is carried over to the budget reports.
 
@@ -136,7 +136,7 @@ This information is carried over to the budget reports.
 
 Expense lines are automatically added to the budget. They are created during delivery analysis and when a task is finished.
 
-![](assets/s_ncs_user_budget_line_edit.png)
+![Budget Expenses tab with the Detail button opening an expense line with its campaign, delivery and cost category split.](assets/s_ncs_user_budget_line_edit.png)
 
 For each campaign, delivery, or task, the costs generated are grouped in the expense lines of the budget to which they are charged. These expense lines are created according to the cost lines of the service provider concerned and calculated via the associated cost structures.
 
@@ -152,15 +152,15 @@ In the example above, the expense line edited contains the costs calculated for 
 
 The cost calculation for this delivery is based on the cost categories selected for the service provider concerned:
 
-![](assets/s_user_edit_del_supplier_costs.png)
+![Expense line linked to a delivery whose Direct Mail tab lists the service provider cost categories.](assets/s_user_edit_del_supplier_costs.png)
 
 According to the cost categories selected, the corresponding cost structures are applied in order to calculate the cost lines. In this example, for the service provider concerned, the cost structures are as follows: 
 
-![](assets/s_user_edit_node_supplier_costs.png)
+![Service Cost structure tab with the Graphics - 01 cost structure detail: Direct Mail channel, per message, linear.](assets/s_user_edit_node_supplier_costs.png)
 
 >[!NOTE]
 >
->Cost categories and structures are presented in [this page](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Cost categories and structures are presented in [Create a service provider and its cost categories](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Cost commitment, calculation and charging {#cost-commitment--calculation-and-charging}
 
@@ -176,7 +176,7 @@ Costs are divided into three categories:
 
    This amount is input manually and can be broken down into several expense categories. To bread down a cost, click the **[!UICONTROL Breakdown...]** link, and then the **[!UICONTROL Add]** button to define a new amount. 
 
-   ![](assets/s_user_edit_budget_tab_ventil.png)
+   ![Edit cost breakdown window from the estimated provisional cost Breakdown link, splitting the cost by category.](assets/s_user_edit_budget_tab_ventil.png)
 
    You can associate each cost with a category so that the cost breakdown by expense category can later be viewed in the related budget and the budget reports.
 
@@ -219,29 +219,29 @@ We are going to create a campaign with:
 
 1. Define a budget of 10,000 Euros in the **[!UICONTROL Allocated]** field of the **[!UICONTROL Amounts]** section. Add two expense categories in the lower section of the window:
 
-![](assets/s_user_cost_mgmt_sample_1.png)
+![Budget form with 10,000 allocated and two expense categories, 1st category and 2nd category.](assets/s_user_cost_mgmt_sample_1.png)
 
 #### Step 2 - Configure the service provider and define the cost structures {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [this section](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
+1. Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node. For more on this, refer to [Create a service provider and its cost categories](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
 
    For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). And then create the following cost structures:
 
-   ![](assets/s_user_cost_mgmt_sample_2.png)
+   ![Cost structures Envelopes - 114x229, Postage - Standard and Print - A4: Direct Mail, per message, linear amounts.](assets/s_user_cost_mgmt_sample_2.png)
 
 1. Add a fixed cost (in the cost categories) whose calculation is fixed and whose amount is blank (in the corresponding cost structure) and which will be specified individually for each delivery.
 
-   ![](assets/s_user_cost_mgmt_sample_5.png)
+   ![Cost structure Fixed Cost - Design with the Direct Mail channel, Fixed calculation and a blank amount.](assets/s_user_cost_mgmt_sample_5.png)
 
    For tasks, create the following two cost categories:
 
     * **[!UICONTROL Room reservation]** (Small Room and Large Room), with a **fixed** cost structure in the amount of 300 and 500 Euros:
 
-   ![](assets/s_user_cost_mgmt_sample_6.png)
+   ![Cost structure Room booking - Large for the Task channel with a Fixed calculation and an amount of 500.](assets/s_user_cost_mgmt_sample_6.png)
 
     * **[!UICONTROL Creation]** (**Content template** type), with a **daily** cost structure of 300 Euros:
 
-    ![](assets/s_user_cost_mgmt_sample_7.png)
+    ![Cost structure Design - Content template for the Task channel with a Daily calculation and an amount of 300.](assets/s_user_cost_mgmt_sample_7.png)
 
 #### Step 3 - Charge the budget in the campaign {#step-3---charging-the-budget-in-the-campaign}
 
@@ -251,11 +251,11 @@ We are going to create a campaign with:
    >
    >By default, the budget selected for the program is applied to all campaigns in the program.
 
-   ![](assets/s_user_cost_mgmt_sample_4.png)
+   ![Campaign Budget section with the Charge list open showing Special Operations, eMarketing and Nurturing Program.](assets/s_user_cost_mgmt_sample_4.png)
 
 1. Specify the estimated provisional cost, with breakdown:
 
-   ![](assets/s_user_cost_mgmt_sample_9.png)
+   ![Estimated provisional cost of 3,000 broken down by 1st category and 2nd category in the Edit cost window.](assets/s_user_cost_mgmt_sample_9.png)
 
 1. Click **[!UICONTROL Ok]** and then **[!UICONTROL Save]** to confirm this information. The calculated cost of the campaign is then updated with the estimated provisional cost.
 
@@ -267,7 +267,7 @@ We are going to create a campaign with:
 
 1. Override the cost of the envelopes and add a fixed cost. Also select the categories, concerned by these costs.
 
-   ![](assets/s_user_cost_mgmt_sample_3.png)
+   ![Catalog delivery in the workflow with the service provider cost categories, including the Fixed Cost of 560.](assets/s_user_cost_mgmt_sample_3.png)
 
    >[!NOTE]
    >
@@ -275,19 +275,19 @@ We are going to create a campaign with:
 
 1. Start the workflow that you have just created to launch the analysis and calculate the costs.
 
-   ![](assets/s_user_cost_mgmt_sample_10.png)
+   ![Targeting workflow toolbar with the Start button selected to run the analysis and calculate the costs.](assets/s_user_cost_mgmt_sample_10.png)
 
 1. If budget approval is enabled for this campaign, approve the budget from the dashboard. You can check the approval of cost categories.
 
-   ![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![Delivery Approval menu with Approve budget opening the Action on delivery dialog with cost split and Budget approval.](assets/s_user_cost_mgmt_sample_10b.png)
 
 The expense line concerning the delivery is added in the **[!UICONTROL Edit > Budget]** tab of the campaign. Edit it to view the details of the calculation.
 
-![](assets/s_user_cost_mgmt_sample_11.png)
+![Campaign Budget Expenses tab with the Detail button opening the delivery expense line and its cost split.](assets/s_user_cost_mgmt_sample_11.png)
 
 The cost calculated for the delivery is updated with this information:
 
-![](assets/s_user_cost_mgmt_sample_12.png)
+![Delivery Expenses and revenue window with the calculated cost of 22,844 from the cost structures.](assets/s_user_cost_mgmt_sample_12.png)
 
 When you edit the calculated cost, you can check the cost breakdown and the status and date of the cost calculation.
 
@@ -301,11 +301,11 @@ To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** but
 
 1. In the **[!UICONTROL Properties]** tab, select the service and the corresponding cost category:
 
-   ![](assets/s_user_cost_mgmt_sample_14.png)
+   ![Task properties window with the Room booking cost category type list open showing Large, Medium and Small.](assets/s_user_cost_mgmt_sample_14.png)
 
 1. Next, click the **[!UICONTROL Expenses and revenue]** icon of the task and specify the estimated provisional cost. 
 
-   ![](assets/s_user_cost_mgmt_sample_15.png)
+   ![Task Expenses and revenue window with an estimated provisional cost of 5,500 charged to Special Operations.](assets/s_user_cost_mgmt_sample_15.png)
 
    When the task has been saved, the calculated cost is specified with the value entered for the estimated provisional cost.
 
@@ -313,23 +313,23 @@ To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** but
 
 1. Next, create a second task according to the same procedure; scheduled over five days and related to the cost structure created earlier.
 
-   ![](assets/s_user_cost_mgmt_sample_16.png)
+   ![Second task Content Creation, whose Task properties window shows a cost category type list open.](assets/s_user_cost_mgmt_sample_16.png)
 
    When the task is finished, the calculated cost is specified with the value from the related cost structure, i.e. 1500 Euros in our example (5 days x 300 Euros): 
 
-   ![](assets/s_user_cost_mgmt_sample_17.png)
+   ![Finished Content Creation task with a calculated cost of 1,500 in the Expenses and revenue window.](assets/s_user_cost_mgmt_sample_17.png)
 
 #### Step 6 - Update the campaign budget status {#step-6---update-the-campaign-budget-status}
 
 When the campaign is configured, its status can be updated by setting it to **[!UICONTROL Specified]**. The calculated cost of the campaign will then indicate the sum of the calculated costs of the delivery and the tasks of the campaign:
 
-![](assets/s_user_cost_mgmt_sample_18.png)
+![Campaign Budget section with the Process status list open: Being edited, Defined and Carried out, above cost lines.](assets/s_user_cost_mgmt_sample_18.png)
 
 #### Budget approval {#budget-approval}
 
 When approval is activated, a special link lets you approve the budget from the campaign dashboard. This link is displayed when the targeting workflow has been launched and a direct mail delivery needs to be approved.
 
-![](assets/s_user_cost_mgmt_sample_19.png)
+![Approve budget option in the delivery Approval menu opening Action on delivery with Accept, Reject and Budget approval.](assets/s_user_cost_mgmt_sample_19.png)
 
 You can then click the link to grant or reject approval, or use the link in the notification email if notification has been activated for this campaign.
 
@@ -345,7 +345,7 @@ To save a new order with a service provider, click the **[!UICONTROL MRM > Order
 
 Specify the order number, the service provider concerned, and the total amount of the order. 
 
-![](assets/s_user_cost_create_order.png)
+![Orders node under MRM with the list of orders and an order form showing number, service provider and amount.](assets/s_user_cost_create_order.png)
 
 ### Issue and track invoices {#issuing-and-tracking-invoices}
 
@@ -353,15 +353,15 @@ For each service provider, you can save invoices and define their status and the
 
 Invoices are created and stored in the **[!UICONTROL MRM > Invoices]** node of the Adobe Campaign tree.
 
-![](assets/s_user_cost_create_invoice.png)
+![Invoices node under MRM with an invoice form showing number, service provider, budget, amount and status.](assets/s_user_cost_create_invoice.png)
 
 An invoice consists of invoice lines whose total allows the amount to be calculated automatically. These lines are created manually from the **[!UICONTROL Invoice lines]** tab. They can be associated with an order to upload the information to the orders.
 
-![](assets/s_user_cost_invoice_add_line.png)
+![Invoice lines tab with the Add button opening an invoice line form with order, amount and Settled option.](assets/s_user_cost_invoice_add_line.png)
 
 The invoices of each service provider are displayed in the **[!UICONTROL Invoices]** tab of the profile:
 
-![](assets/s_ncs_user_invoice_from_supplier.png)
+![Service providers node with the Invoices tab listing the invoices of the selected service provider.](assets/s_ncs_user_invoice_from_supplier.png)
 
 The **[!UICONTROL Details]** tab lets you display the content of the invoice.
 

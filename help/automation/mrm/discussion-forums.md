@@ -39,13 +39,13 @@ Operators can subscribe to a forum to receive a notification email each time a m
 
 To access a forum, browse to a dashboard and click the **[!UICONTROL Forum]** link in the upper right corner. 
 
-![](assets/mrm-forum-icon.png)
+![Campaign dashboard with an arrow pointing to the Forum link and the list of discussions.](assets/mrm-forum-icon.png)
 
 Messages and their responses are shown from newest to oldest.
 
 To start a new thread, click the **[!UICONTROL Add a discussion]** button in the top right-hand corner. The **[!UICONTROL Discussion forum]** box comes up (see below).
 
-![](assets/mrm-forum-new-thread.png)
+![Discussion forum dialog with Subject, Message, Operator to notify, Attach a document and Create the message.](assets/mrm-forum-new-thread.png)
 
 
 Enter your text in the **[!UICONTROL Message]** field and a discussion title in the **[!UICONTROL Subject]** field.
@@ -81,7 +81,7 @@ To answer a message, click in the email body, then log in to the Adobe Campaign 
 
 * Your personal dashboard lists the forums which you are subscribed to. Click the **[!UICONTROL Subscription to discussion forums]** link to display the list, then click the item that interests you to access its forum.
 
-  ![](assets/forum-subscribed.png)
+  ![Operator dashboard with the Subscriptions to discussion forums list highlighted.](assets/forum-subscribed.png)
 
 
 ## Troubleshoot notification delivery {#checking-notification-delivery}

@@ -36,7 +36,7 @@ This lets them:
 
 From the **[!UICONTROL Campaigns]** tab, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. You can filter this list so that it displays only campaigns that are either published, late, pending approval, etc. To do this, click the links in the upper section of this view, or use the **[!UICONTROL Filter list]** link and select the campaign package status to display.
 
-![](assets/mkg_dist_catalog_filter.png)
+![Campaign packages list with the status filter open: Being edited, Pending approval, Approved, Rejected, and more.](assets/mkg_dist_catalog_filter.png)
 
 ## Edit packages {#edit-packages}
 
@@ -48,21 +48,21 @@ Click the package name to edit it. You can also view orders by their local entit
 
 This information is also offered in the **[!UICONTROL Campaign orders]** view which lists all orders.
 
-![](assets/mkg_dist_catalog_op_command_details.png)
+![Campaign orders list showing each order with its local entity, campaign and status (Available or Canceled).](assets/mkg_dist_catalog_op_command_details.png)
 
 The central operator can edit the order. There are two ways of doing this:
 
 1. The operator can click the order name to edit it: this displays the order details.
 
-   ![](assets/mkg_dist_catalog_op_command_edit1.png)
+   ![Clicking an order in the Campaign orders list opens its dashboard with status, package, local entity and approvals.](assets/mkg_dist_catalog_op_command_edit1.png)
 
    The **[!UICONTROL Edit > General]** tab lets you view information entered by the local entity when it ordered the campaign.
 
-   ![](assets/mkg_dist_catalog_op_command_edit1a.png)
+   ![Order Edit tab, General: label, organizational entity, assigned operator, status and comment from the local entity.](assets/mkg_dist_catalog_op_command_edit1a.png)
 
 1. The operator can click the campaign package label to edit it and change certain settings.
 
-   ![](assets/mkg_dist_catalog_op_command_edit2.png)
+   ![Opening a package from the list, then one of its campaign orders, each showing its dashboard.](assets/mkg_dist_catalog_op_command_edit2.png)
 
 ## Cancel a package {#cancel-a-package}
 
@@ -70,7 +70,7 @@ The central entity can cancel a campaign package at any time.
 
 Click **[!UICONTROL Cancel]** in the campaign package **[!UICONTROL Dashboard]**.
 
-![](assets/mkg_dist_cancel_op_from_dashboard.png)
+![Cancel the package button on the package Dashboard opens the Action on package dialog with a Comment field.](assets/mkg_dist_cancel_op_from_dashboard.png)
 
 The **[!UICONTROL Comment]** field lets you justify the cancellation.
 
@@ -80,15 +80,15 @@ For **collaborative campaigns**, canceling a package triggers numerous actions:
 
 1. Any orders related to this package are canceled,
 
-   ![](assets/mkg_dist_mutual_op_cancelled.png)
+   ![Canceled package dashboard listing its campaign orders, each with the Canceled status.](assets/mkg_dist_mutual_op_cancelled.png)
 
 1. The reference campaign is canceled and all active processes (workflows, deliveries) are stopped,
 
-   ![](assets/mkg_dist_mutual_op_cancelled1.png)
+   ![Canceled reference campaign dashboard with its email and SMS deliveries shown as Stopped.](assets/mkg_dist_mutual_op_cancelled1.png)
 
 1. A notification is sent to all local entities concerned.
 
-   ![](assets/mkg_dist_mutual_op_cancelled2.png)
+   ![Cancellation of package email notifying a local entity that the campaign was canceled centrally.](assets/mkg_dist_mutual_op_cancelled2.png)
 
 Canceled packages can still be accessed and reinitialized by the central entity (see below) if necessary. They will only be offered to local entities again once they have been approved and started. The package reinitialization process is shown below.
 
@@ -99,11 +99,11 @@ Campaign packages which have already been published can be reinitialized, modifi
 1. Select the package concerned.
 1. Click the **[!UICONTROL Reinitialize the package to reuse it]** link and click **[!UICONTROL OK]**.
 
-   ![](assets/mkg_dist_mutual_op_reinit.png)
+   ![Reinitialize the package confirmation dialog: status becomes Being edited, with the OK button.](assets/mkg_dist_mutual_op_reinit.png)
 
 1. Click the **[!UICONTROL Save]** button to approve package re-initialization.
 
-   ![](assets/mkg_dist_mutual_op_reinit2.png)
+   ![Canceled package dashboard with the Save button highlighted to approve the reinitialization.](assets/mkg_dist_mutual_op_reinit2.png)
 
 1. The package status changes to **[!UICONTROL Being edited]**. Modify, approve and publish it again to restore it to the list of campaign package.
 

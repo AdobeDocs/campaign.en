@@ -34,7 +34,7 @@ The **By form** type web interface involves using a **web application**. Dependi
 
 When creating the campaign template, click the **[!UICONTROL Zoom]** icon within the **[!UICONTROL Web interface]** option of the **[!UICONTROL Advanced campaign parameters...]** link to access details of the web application.
 
-![](assets/mkg_dist_local_op_form1.png)
+![Advanced settings, Distributed marketing tab: Web interface field with the Edit link icon highlighted.](assets/mkg_dist_local_op_form1.png)
 
 >[!NOTE]
 >
@@ -42,21 +42,21 @@ When creating the campaign template, click the **[!UICONTROL Zoom]** icon within
 
 In the **[!UICONTROL Edit]** tab, select the **Campaign order** activity and open it to access its content.
 
-![](assets/mkg_dist_web_app1.png)
+![Web application workflow with the Campaign order page activity opened to show its content.](assets/mkg_dist_web_app1.png)
 
 In this example, the **Campaign order** activity includes:
 
 * fields to be entered by the local entity during the order,
 
-  ![](assets/mkg_dist_web_app2.png)
+  ![Campaign order page fields (contact date, preferred channel, age segment, image, message) and their web form.](assets/mkg_dist_web_app2.png)
 
 * links that will allow the local entity to evaluate the campaign (e.g. the target, budget, content, etc.),
 
-  ![](assets/mkg_dist_web_app3.png)
+  ![Evaluate targeting, Evaluate budget and Evaluate content links in the page and in the web form.](assets/mkg_dist_web_app3.png)
 
 * scripts that allow you to calculate and display the result of these evaluations.
 
-  ![](assets/mkg_dist_web_app4.png)
+  ![Page tree with the Targeting result, Budget result and Content result items highlighted.](assets/mkg_dist_web_app4.png)
 
 In this example, the following APIs are used:
 
@@ -109,15 +109,15 @@ The steps are as follows:
 
 1. The local entities that have been chosen to participate in the campaign will receive an email notification.
 
-   ![](assets/mkg_dist_use_case_target_valid8.png)
+   ![Target approval email with the Access your contact list and approve targeting link.](assets/mkg_dist_use_case_target_valid8.png)
 
 1. By clicking the **[!UICONTROL Access your contact list and approve targeting]** link, the local entity is given access (via web browser) to the list of clients selected for the campaign.
 
-   ![](assets/mkg_dist_use_case_target_valid9.png)
+   ![Target approval web page listing the targeted contacts with checkboxes and the Approve targeting button.](assets/mkg_dist_use_case_target_valid9.png)
 
 1. The local entity unchecks certain contacts from the list because they have already been contacted for a similar offer since the start of the year.
 
-   ![](assets/mkg_dist_use_case_target_valid10.png)
+   ![Target approval page with three contacts unchecked and a comment explaining the deletions.](assets/mkg_dist_use_case_target_valid10.png)
 
 Once the checks have been approved, the campaign can start automatically.
 
@@ -127,7 +127,7 @@ Once the checks have been approved, the campaign can start automatically.
 
 1. To set up a collaborative campaign (by target approval) you must first create a **[!UICONTROL Data distribution activity]**. Click the **[!UICONTROL New]** icon in the **[!UICONTROL Resources > Campaign management > Data distribution]** folder of Campaign explorer.
 
-   ![](assets/mkg_dist_use_case_target_valid3.png)
+   ![Data distribution General tab: targeting dimension, distribution field Origin, assignment type Local entity.](assets/mkg_dist_use_case_target_valid3.png)
 
 1. In the **[!UICONTROL General]** tab, you must specify:
 
@@ -143,7 +143,7 @@ Once the checks have been approved, the campaign can start automatically.
     * the local entity **[!UICONTROL label]**.
     * the **[!UICONTROL Size]** (fixed or as a percentage). The **0 default value** involves selecting all the recipients linked to the local entity.
 
-   ![](assets/mkg_dist_use_case_target_valid4.png)
+   ![Data distribution Breakdown tab listing the East, North, South and West distribution values and local entities.](assets/mkg_dist_use_case_target_valid4.png)
 
 1. Save your new data distribution.
 
@@ -152,7 +152,7 @@ Once the checks have been approved, the campaign can start automatically.
 1. From the **[!UICONTROL Campaign management > Campaign]** folder of Campaign explorer, create a new **[!UICONTROL collaborative campaign (by target approval)]**.
 1. In the **[!UICONTROL Targeting and workflows]** tab, create a workflow for your campaign. This must contain a **Split** activity in which the **[!UICONTROL Record count limitation]** is defined by the **[!UICONTROL Data distribution]** activity.
 
-   ![](assets/mkg_dist_use_case_target_valid5.png)
+   ![Split activity Record count limitation set to By data distribution, using Local entities distribution.](assets/mkg_dist_use_case_target_valid5.png)
 
 1. Add a **[!UICONTROL Local approval]** action where you can specify:
 
@@ -160,7 +160,7 @@ Once the checks have been approved, the campaign can start automatically.
     * the approval reminder,
     * the expected processing for the campaign.
 
-   ![](assets/mkg_dist_use_case_target_valid7.png)
+   ![Local approval activity: Target approval notification, approval type, template and description for local entities.](assets/mkg_dist_use_case_target_valid7.png)
 
 1. Save your record.
 
@@ -173,15 +173,15 @@ You can now add a **campaign package** from the **[!UICONTROL Campaigns]** tab.
     * in **Manual** mode, the local entities participate in the campaign if they accept the invitation from the central entity. They can delete pre-selected contacts if they want to and approval from the manager is necessary to confirm their participation in the campaign.
     * in **Automatic** mode, the local entities must participate in the campaign, unless they unregister themselves from it. They can delete contacts without needing approval.
 
-   ![](assets/mkg_dist_use_case_target_valid.png)
+   ![Campaign package creation dialog with the reference campaign and the Approval mode field set to Manual.](assets/mkg_dist_use_case_target_valid.png)
 
 1. In the **[!UICONTROL Description]** tab, you can add a description for your campaign as well as any documents to be sent to the local entities.
 
-   ![](assets/mkg_dist_use_case_target_valid1.png)
+   ![Campaign package Description tab with the package description and the Attached documents list.](assets/mkg_dist_use_case_target_valid1.png)
 
 1. Approve your campaign package then start your workflow to publish the package and make it available to all the local entities in list of packages.
 
-   ![](assets/mkg_dist_use_case_target_valid2.png)
+   ![Package dashboard with the Approve the package button, showing status Being edited.](assets/mkg_dist_use_case_target_valid2.png)
 
 ## Create a collaborative campaign (by form) {#creating-a-collaborative-campaign--by-form-}
 
@@ -217,7 +217,7 @@ The steps are as follows:
 
 1. The local entities selected to take part in the campaign receive an email notification informing them of their participation in the campaign.
 
-   ![](assets/mkg_dist_use_case_form_7.png)
+   ![Registration for the campaign email with the Register for the campaign link for local entities.](assets/mkg_dist_use_case_form_7.png)
 
 1. The local entities complete the personalized form, then they:
 
@@ -225,35 +225,35 @@ The steps are as follows:
     * preview the delivery content,
     * approve their participation.
     
-      ![](assets/mkg_dist_use_case_form_8.png)
+      ![Campaign order web form with evaluation links, an image preview and the Validate button.](assets/mkg_dist_use_case_form_8.png)
 
 1. The operator in charge of validating orders approves their participation.
 
-   ![](assets/mkg_dist_use_case_form_9.png)
+   ![Campaign order approval page with order details, order comment and the Validate button.](assets/mkg_dist_use_case_form_9.png)
 
 ### Central entity side {#central-entity-side-1}
 
 1. To implement a collaborative campaign (by form), you must create a campaign using the **Collaborative campaign (by form)** template.
 
-   ![](assets/mkg_dist_use_case_form_1.png)
+   ![New marketing campaign dialog using the Collaborative campaign (by form) template.](assets/mkg_dist_use_case_form_1.png)
 
 1. In the campaign's **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign parameters...]** link to configure it as a local campaign. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 
-   ![](assets/mkg_dist_use_case_form_2.png)
+   ![Advanced settings, Distributed marketing tab: Collaborative level, Configurable by form, default values.](assets/mkg_dist_use_case_form_2.png)
 
 1. Configure the campaign workflow and the web form. Refer to [Creating a local campaign (by form)](#creating-a-local-campaign--by-form-).
 1. Create your campaign package by specifying the execution schedule and the local entities involved.
 
-   ![](assets/mkg_dist_use_case_form_3.png)
+   ![Campaign package dialog with reference campaign, execution schedule, deadlines and list of local entities.](assets/mkg_dist_use_case_form_3.png)
 
 1. Finalize the package configuration by selecting the approval mode in the **[!UICONTROL Edit]** tab.
 
-   ![](assets/mkg_dist_use_case_form_4.png)
+   ![Approval mode dropdown offering Manual and Automatic.](assets/mkg_dist_use_case_form_4.png)
 
 1. From the **[!UICONTROL Description]** tab, you can enter a campaign package description, a notification message to be sent to local entities when the package is published, and attach any informative documents to your campaign package.
 
-   ![](assets/mkg_dist_use_case_form_5.png)
+   ![Package Description tab with the notification email option, message for the local entity and attached documents.](assets/mkg_dist_use_case_form_5.png)
 
 1. Approve the package to publish it.
 
-   ![](assets/mkg_dist_use_case_form_6.png)
+   ![Approve the package button opening the Action on package dialog with Accept and Reject options.](assets/mkg_dist_use_case_form_6.png)

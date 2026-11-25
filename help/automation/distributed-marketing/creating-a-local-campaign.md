@@ -48,15 +48,15 @@ To create a campaign package, you must first create the **campaign template** vi
 
 To create a new local template, duplicate the default **[!UICONTROL Local campaign (opLocal)]** template.
 
-![](assets/mkg_dist_local_op_creation.png)
+![Campaign templates list with the Local campaign (opLocal) context menu and the Duplicate option highlighted](assets/mkg_dist_local_op_creation.png)
 
 Name your campaign template and complete the available fields.
 
-![](assets/mkg_dist_local_op_creation1.png)
+![New marketing campaign dialog with Label, Nature, Operation type, Main channel, duration and description fields](assets/mkg_dist_local_op_creation1.png)
 
 In the campaign window, click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Advanced campaign parameters...]** link. 
 
-![](assets/mkt_distr_4.png)
+![Campaign Edit tab with the Advanced campaign parameters link in the Properties section](assets/mkt_distr_4.png)
 
 ### Web interface {#web-interface}
 
@@ -66,17 +66,17 @@ The web interface corresponds to a form to be filled in by the local entity when
 
 Select the type of web interface to be applied to the campaigns created from the template:
 
-![](assets/mkt_distr_1.png)
+![Advanced settings Distributed marketing tab with Web interface type list: Pre-set, By brief, By form, By external form](assets/mkt_distr_1.png)
 
 There are four types of web interfaces available:
 
 * **[!UICONTROL By brief]**: local entity must provide a description whereby it describes the campaign configurations. Once the order has been approved, the central entity configures and executes the campaign as a whole.
 
-  ![](assets/mkt_distr_6.png)
+  ![Campaign order web page for the by brief interface with Targeting and Content description fields and Validate button](assets/mkt_distr_6.png)
 
 * **[!UICONTROL By form]**: local entity has access to a web form where, depending on the template used, they can edit the content, the target, its maximum size, as well as creation and extraction dates using personalization fields. Local entity can evaluate the target and preview content from this web form.
 
-  ![](assets/mkt_distr_8.png)
+  ![Campaign order web form with Contact date, Preferred channel, Age segment, Image, Message fields and evaluation links](assets/mkt_distr_8.png)
 
   The form offered is specified in a web application that must be selected in a drop-down list from the **[!UICONTROL web Interface]** field in the template's **[!UICONTROL Advanced campaign parameters...]** link. Refer to [Creating a local campaign (by form)](examples.md#creating-a-local-campaign--by-form-).
 
@@ -84,12 +84,12 @@ There are four types of web interfaces available:
   >
   >The web application used in this example is an example. You must create a specific web app to be able to use a form.
 
-  ![](assets/mkt_distr_7.png)
+  ![Advanced settings Web interface drop-down listing web applications such as Campaign order personalization](assets/mkt_distr_7.png)
 
 * **[!UICONTROL By external form]**: local entity has access to campaign parameters in its extranet (not Adobe Campaign). These parameters are identical to those of a **local campaign (by form)**.
 * **[!UICONTROL Pre-set]**: local entity orders campaign using the default form, without localizing it.
 
-  ![](assets/mkt_distr_5.png)
+  ![Campaign order form with Start, End, Assigned to, Reviewer 1 and 2 and Description fields, and a Validate button](assets/mkt_distr_5.png)
 
 ### Default values {#default-values}
 
@@ -99,21 +99,21 @@ Select the **[!UICONTROL Default values]** to be completed by local entities. Fo
 * contact and extraction dates,
 * target characteristics (age segment, etc.).
 
-![](assets/mkg_dist_local_op_creation2.png)
+![Advanced settings Default values table with Preferred channel, Contact date and Requested quantity values](assets/mkg_dist_local_op_creation2.png)
 
 Complete the **[!UICONTROL Parent marketing program]** and **[!UICONTROL Charge]** fields.
 
-![](assets/mkg_dist_local_op_creation3.png)
+![Advanced settings with Parent marketing program and Charge fields highlighted below the Default values table](assets/mkg_dist_local_op_creation3.png)
 
 ### Approvals {#approvals}
 
 From the **[!UICONTROL Advanced parameters for campaign entry]** link, you can specify the maximum number of reviewers.
 
-![](assets/s_advuser_mkg_dist_add_valid_op1.png)
+![Advanced parameters for campaign entry dialog with Number of reviewers and Number of documents fields](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
 Reviewers will be entered by the local entity when ordering the campaign.
 
-![](assets/mkt_distr_5.png)
+![Campaign order form with Start, End, Assigned to, Reviewer 1 and 2 and Description fields, and a Validate button](assets/mkt_distr_5.png)
 
 If you do not wish to name reviewers for a campaign, enter 0.
 
@@ -121,11 +121,11 @@ If you do not wish to name reviewers for a campaign, enter 0.
 
 You can allow local entity operators to link documents (text files, spreadsheets, images, campaign descriptions, etc.) to the local campaign when creating the order. The **[!UICONTROL Advanced parameters for campaign entry...]** link lets you restrict the number of documents. To do this, simply enter the maximum number allowed in the **[!UICONTROL Number of documents]** field.
 
-![](assets/s_advuser_mkg_dist_local_docs.png)
+![Number of documents field set to 2, the maximum number of documents defined when creating the order](assets/s_advuser_mkg_dist_local_docs.png)
 
 When ordering a campaign package, the form suggests linking as many documents as indicated in the corresponding field in the template.
 
-![](assets/s_advuser_mkg_dist_add_docs.png)
+![Campaign order web form with Document 1 and Document 2 file upload fields, plus reviewer and budget fields](assets/s_advuser_mkg_dist_add_docs.png)
 
 If you do not wish to display a document upload field, enter **[!UICONTROL 0]** in the **[!UICONTROL Number of documents]** field.
 
@@ -133,43 +133,43 @@ If you do not wish to display a document upload field, enter **[!UICONTROL 0]** 
 >
 >The **[!UICONTROL Advanced parameters for campaign entry]** can be deactivated by checking **[!UICONTROL Do not display the page used to enter the campaign parameters]**.
 
-![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
+![Advanced settings with Do not display the page used to enter the campaign parameters option checked](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### Workflow {#workflow}
 
 In the **[!UICONTROL Targeting and workflows]** tab, create the campaign workflow that collects the **[!UICONTROL Default values]** specified in the **[!UICONTROL Advanced campaign parameters...]** and creates the deliveries.
 
-![](assets/mkg_dist_local_op_creation4b.png)
+![Targeting and workflows tab with a default workflow: query, Split, Email delivery and Deliver by direct mail](assets/mkg_dist_local_op_creation4b.png)
 
 Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]**.
 
-![](assets/mkt_dist_local_campaign_localize_query.png)
+![Query activity with Edit query link opening a filter where Age segment equals the current order's Age segment](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### Delivery {#delivery}
 
 In the **[!UICONTROL Audit]** tab, click the **[!UICONTROL Detail...]** icon to view the **[!UICONTROL Scheduling]** for the selected delivery.
 
-![](assets/mkg_dist_local_op_creation4c.png)
+![Audit tab deliveries list with Detail button opening a delivery whose Scheduling icon is highlighted](assets/mkg_dist_local_op_creation4c.png)
 
 The **[!UICONTROL Scheduling]** icon lets you configure the delivery's contact and execution date.
 
-![](assets/mkg_dist_local_op_creation4d.png)
+![Scheduling dialog with Schedule delivery option selected and Contact date calculation based on additional fields](assets/mkg_dist_local_op_creation4d.png)
 
 If necessary, configure the maximum size of the delivery:
 
-![](assets/mkg_dist_local_op_creation4e.png)
+![Exclusion settings dialog with the Limit delivery to field, opened from the Select target Exclusions tab](assets/mkg_dist_local_op_creation4e.png)
 
 Locate your delivery's HTML. For example, in **[!UICONTROL Delivery > Current order > Additional fields]**, use the **[!UICONTROL Age segment]** field to locate the delivery according to the age of the target.
 
-![](assets/mkt_dist_local_campaign_localize_html.png)
+![Field selection dialog showing the Segment code additional data field, inserted via Message and Other](assets/mkt_dist_local_campaign_localize_html.png)
 
 Save your campaign template. You can now use it from the **[!UICONTROL Campaign packages]** view in the **[!UICONTROL Campaigns]** tab, by clicking the **[!UICONTROL Create]** button.
 
-![](assets/mkt_distr_9.png)
+![Campaign packages view with Create button opening the Campaign package dialog with template and reference campaign](assets/mkt_distr_9.png)
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [this page](../campaigns/marketing-campaign-templates.md).
+>Campaign templates and their general configuration are detailed in [Marketing campaign templates](../campaigns/marketing-campaign-templates.md).
 
 ## Creating the campaign package {#creating-the-campaign-package}
 
@@ -180,7 +180,7 @@ Apply the following steps:
 1. In the **[!UICONTROL Navigation]** section on the **Campaigns** page, click the **[!UICONTROL Campaign packages]** link.
 1. Click the **[!UICONTROL Create]** button.
 
-   ![](assets/mkg_dist_add_an_entry.png)
+   ![Campaign package dialog with Template, Reference campaign, Label, Folder and Execution schedule fields](assets/mkg_dist_add_an_entry.png)
 
 1. The section above the window lets you select the [previously](#creating-a-local-campaign-template) specified campaign package template.
 
@@ -200,19 +200,19 @@ The availability date is the date on which the campaign will become available fo
 
 This information is found in the notification message sent to local agencies, as shown below:
 
-![](assets/s_advuser_mkg_dist_local_notif.png)
+![New catalog entry notification email with Order the campaign link, package schedule and campaign availability date](assets/s_advuser_mkg_dist_local_notif.png)
 
 ### Audience {#audience}
 
 For a local campaign, the central entity can specify the local entities involved by checking the **[!UICONTROL Limit the package to a set of local entities]**.
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
+![Campaign package dialog with the Limit the package to a set of local entities option highlighted](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
 ### Additional settings {#additional-settings}
 
 Once the package is saved, the central entity can edit it from the **[!UICONTROL Edit]** tab.
 
-![](assets/mkg_dist_edit_kit.png)
+![Campaign package Edit tab General section with Approval parameters link, Order options and Execution schedule](assets/mkg_dist_edit_kit.png)
 
 From the **[!UICONTROL General]** tab, the central entity can:
 
@@ -226,7 +226,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 >   
 >Check the **[!UICONTROL Enable multiple creation]** option to allow several local campaigns to be created from the campaign package.
 
-![](assets/mkg_dist_local_op_multi_crea.png)
+![Campaign package Edit tab with Enable multiple creation checked and the list of local entities](assets/mkg_dist_local_op_multi_crea.png)
 
 ### Notifications {#notifications}
 
@@ -240,7 +240,7 @@ Campaign packages become accessible to local entities once they are approved and
 >
 >If some local entities were specified when creating the campaign package, they will be the only ones to receive a notification. If no local entity was specified, all local entities will receive a notification.
 
-![](assets/mkg_dist_local_op_notification.png)
+![Email notifying a new package is available, with Order the campaign link and package schedule details](assets/mkg_dist_local_op_notification.png)
 
 To use a campaign offered by the central entity, the local entity must order it.
 
@@ -252,29 +252,29 @@ To order a campaign:
 
 1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
 
-   ![](assets/mkg_dist_subscribe_step1.png)
+   ![Campaign order web page with order number, local entity, Order label and Order comment fields and Next button](assets/mkg_dist_subscribe_step1.png)
 
 1. Complete the available parameters and approve the order.
 
 1. A notification is sent to the manager of the organizational entity to which the local entity belongs, to approve this order.
 
-   ![](assets/mkg_dist_subscribe_step3.png)
+   ![Order approval web page with Accept and Reject options, Comment field and Approval button](assets/mkg_dist_subscribe_step3.png)
 
 1. The information is returned to the local and central entities. While local entities can only view their own orders, the central entity can view all orders by any local entity, as shown below:
 
-   ![](assets/mkg_dist_subscribe_central_view.png)
+   ![Campaign package Orders tab listing four Summer sales orders with Available status, campaign, start and end dates](assets/mkg_dist_subscribe_central_view.png)
 
    Operators can display order details:
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1.png)
+   ![Order dashboard opened from the Orders list with status, campaign package, local entity and campaign details](assets/mkg_dist_local_op_catalog_detail_1.png)
 
    The **[!UICONTROL Edit]** tab contains information entered by the local entity when ordering the campaign.
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
+   ![Order Edit tab with Label, Organizational entity, Status and the comment entered by the local entity](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
 1. The order must be approved by the central entity to be finalized. 
 
-   ![](assets/mkg_dist_local_op_catalog_detail_3.png)
+   ![Order dashboard with pending approval status and the Approve subscription button](assets/mkg_dist_local_op_catalog_detail_3.png)
 
    For more on this, refer to the [Approval process](#approval-process) section.
 
@@ -282,7 +282,7 @@ To order a campaign:
 
    The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
 
-   ![](assets/mkg_dist_local_op_catalog_use.png)
+   ![Campaign packages list in the Campaigns tab with a published local package available for use](assets/mkg_dist_local_op_catalog_use.png)
 
 ## Approving an order {#approving-an-order}
 
@@ -300,19 +300,19 @@ The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** ta
 
 When a campaign is ordered by a local entity, its reviewers are notified by email, as shown below:
 
-![](assets/mkg_dist_valid_notif_email.png)
+![Approval of campaign order email with Accept or reject link, order and package details and deadlines](assets/mkg_dist_valid_notif_email.png)
 
 >[!NOTE]
 >
 >Selecting reviewers is presented in the [Reviewers](#reviewers) section. They can accept or reject the order.
 
-![](assets/mkg_dist_command_valid_web.png)
+![Order approval web page with Accept selected, a comment and the Approval button](assets/mkg_dist_command_valid_web.png)
 
 #### Approve via the Client Console {#approving-via-the-adobe-campaign-console}
 
 The order may also be approved via the Client Console, in the campaign order overview. To approve an order, select it and click **[!UICONTROL Approve the order]**.
 
-![](assets/mkg_dist_local_order_valid.png)
+![Order dashboard in the console with Approve subscription button opening the Accept or Reject approval dialog](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
@@ -322,7 +322,7 @@ The order may also be approved via the Client Console, in the campaign order ove
 
 Once a campaign order is approved, it may be configured and executed by the local entity. 
 
-![](assets/mkg_dist_mutual_op_created.png)
+![Campaign packages list with Approved, Rejected and Being edited statuses; the campaign link is being clicked](assets/mkg_dist_mutual_op_created.png)
 
 For more on this, refer to [Accessing campaigns](accessing-campaigns.md).
 
@@ -330,17 +330,17 @@ For more on this, refer to [Accessing campaigns](accessing-campaigns.md).
 
 The operator in charge of approval can reject an order or campaign package. 
 
-![](assets/mkg_dist_do_not_valid.png)
+![Action on package dialog with the Reject option selected, a Comment field and the Approval button](assets/mkg_dist_do_not_valid.png)
 
 If the reviewer rejects an order, the relevant notification is automatically sent to the local entities concerned: it displays the comment entered by the operator that rejected the approval.
 
 Information is displayed on the list of campaign packages page or on the campaign order page. If they have access to the Adobe Campaign Client Console, local entities are informed of this rejection.
 
-![](assets/mkg_dist_do_not_valid_view.png)
+![Campaign packages list with the Rejected status badge highlighted on a local campaign package](assets/mkg_dist_do_not_valid_view.png)
 
 They can view the related comment in the campaign package's **[!UICONTROL Edit]** tab.
 
-![](assets/mkg_dist_do_not_valid_tab.png)
+![Campaign package Audit tab with approvals journal showing a Rejected action, with Comment column](assets/mkg_dist_do_not_valid_tab.png)
 
 ### Reviewers {#reviewers}
 
@@ -356,6 +356,6 @@ For each local entity, reviewers are selected for campaign order approval and ca
 
 The central agency can cancel an order using the **[!UICONTROL Delete]** button, located on the order dashboard.
 
-![](assets/mkg_dist_local_op_cancel.png)
+![Campaign package dashboard with the Actions menu on an order and the Delete option highlighted](assets/mkg_dist_local_op_cancel.png)
 
 This cancels the campaign in the **[!UICONTROL Campaign orders]** view.

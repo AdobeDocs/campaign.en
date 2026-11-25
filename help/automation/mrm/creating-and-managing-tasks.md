@@ -36,7 +36,7 @@ All the tasks are grouped in a list accessible via the **Campaigns** tab. For mo
 
 They can be displayed in the schedule of the program to which they belong.
 
-![](assets/campaign-calendar.png)
+![Campaign calendar timeline showing the Winter Campaign and Marketing Campaign with Task 1, Task 2 and Task 3.](assets/campaign-calendar.png)
 
 ## Access tasks {#accessing-tasks}
 
@@ -44,7 +44,7 @@ They can be displayed in the schedule of the program to which they belong.
 
 The tasks are displayed in the task list accessible via the **[!UICONTROL Campaigns]** tab.
 
-![](assets/campaign-task-dashboard.png)
+![Tasks list under Campaigns with Create button, filters and three tasks showing status and progress.](assets/campaign-task-dashboard.png)
 
 You can view all tasks of the current operator.
 
@@ -58,7 +58,7 @@ When you display this view, it is automatically filtered in order to display onl
 
 Click on a task to edit it.
 
-![](assets/edit-a-task.png)
+![Task summary window for Task 3 showing status, priority, schedule, assignee and campaign, with a Cancel button.](assets/edit-a-task.png)
 
 ## Create a new task {#creating-a-new-task}
 
@@ -66,17 +66,17 @@ To create a task, follow the steps below:
 
 1. Browse to the **[!UICONTROL Tasks]** link in the **[!UICONTROL Campaigns]** tab and click **[!UICONTROL Create]**.
 
-   ![](assets/create-a-task-from-dashboard.png)
+   ![Tasks list with an arrow pointing to the Create button used to add a new task.](assets/create-a-task-from-dashboard.png)
 
 1. Enter the name of the task and select the campaign which is it linked to. 
 1. Set the start and end dates.
 1. Click **[!UICONTROL Save]** to create the task.
 
-   ![](assets/new-task-edit.png)
+   ![New task form with template, label, assignee, campaign, start and end dates, workload and description, plus Save.](assets/new-task-edit.png)
 
 You can also create a task via the dashboard of a campaign: in this case, it is automatically linked to the campaign which it was created from.
 
-![](assets/add-a-task-in-a-campaign.png)
+![Campaign dashboard with an arrow pointing to the Add a task link above the campaign Tasks list.](assets/add-a-task-in-a-campaign.png)
 
 After a task is created, it is added to the campaign schedule, the campaign dashboard, and the list of tasks. To edit a task, click its name from the list of tasks, or select it from the schedule or the campaign dashboard, and click **[!UICONTROL Open]**.
 
@@ -88,7 +88,7 @@ Once created, you can configure the task by defining:
 
 You can also add [reviewers](#reviewers) and [reference documents](#documents-referenced).
 
-Task life cycle is presented in [this section](#life-cycle).
+Task life cycle is presented in [Life cycle](#life-cycle).
 
 ### Manager and participants {#manager-and-participants}
 
@@ -96,11 +96,11 @@ By default, the task is assigned to the operator who created it. This operator i
 
 You can select a different operator from the **[!UICONTROL Assigned to]** drop-down list. 
 
-![](assets/task-assigned-to.png)
+![Task General tab with the Assigned to drop-down list open to select a different operator.](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
->Operator management is detailed in [this section](../../v8/start/gs-permissions.md).
+>Operator management is detailed in [Get started with permissions in Campaign v8](../../v8/start/gs-permissions.md).
 >
 >Only the operator in charge of a task is allowed to close it.
 
@@ -110,12 +110,12 @@ To add task operators, follow the steps below:
 
 1. Click the **[!UICONTROL Resources]** icon in the task toolbar. 
 
-   ![](assets/add-task-resources.png)
+   ![Task General tab with an arrow pointing to the Resources icon in the toolbar.](assets/add-task-resources.png)
 
 1. Click **[!UICONTROL Add]** and select the concerned operators.   
 1. Enter the usage rate: this represents the workload assigned to the operator for the duration of task execution. This rate is an indication only and is expressed as a percentage.
 
-   ![](assets/define-operator-task-workload.png)
+   ![Resources window listing operators with usage rate, workload planned and workload performed.](assets/define-operator-task-workload.png)
 
    For example, for a task whose execution schedule is set at 10 days, an operator whose usage rate is 50% will be mobilized on this task for half of their working time for the 10 days.
 
@@ -123,7 +123,7 @@ To add task operators, follow the steps below:
 
 1. You can configure a reminder from the **[!UICONTROL Add a reminder...]** link. An email notification will be sent to all operators involved in the task before its end date.
 
-   ![](assets/task-op-add-a-reminder.png)
+   ![Resources window with the Reminders list and a drop-down offering Delay from approval deadline or Given date.](assets/task-op-add-a-reminder.png)
 
 1. You can also send a notification before the task starts. To set this up, select the date in the **[!UICONTROL Initial notification]** field.
 1. When the end date is reached and the task is not closed, a notification can be sent to the assignee or group of assignees selected in the **[!UICONTROL Assignee]** drop down list.
@@ -131,7 +131,7 @@ To add task operators, follow the steps below:
 
 The operator dashboard lets you check their workload (other tasks in progress).
 
-![](assets/operator-dashboard.png)
+![Operator dashboard with the Tasks assigned to operator list showing each task and its status.](assets/operator-dashboard.png)
 
 ### Task approval {#reviewers}
 
@@ -141,7 +141,7 @@ To do this, click the **[!UICONTROL Enable task approval]** option in the lower 
 
 To specify a list of operators, click the **[!UICONTROL Edit...]** link to the right of the first reviewer and add as many operators as necessary, as shown below:
 
-![](assets/enable-task-approval.png)
+![Resources window with Enable task approval selected and the Edit reviewers dialog listing additional reviewers.](assets/enable-task-approval.png)
 
 You can define an approval schedule for the task in the lower section of the configuration window. By default, reviewers have three days starting from the submission date to approve the task. You can also add a reminder, which will be sent to the concerned operators automatically before the approval deadline.
 
@@ -155,14 +155,14 @@ To perform this:
 
 1. Open the task and click the **[!UICONTROL Documents]** icon in the task toolbar.
 
-   ![](assets/add-documents-to-a-task.png)
+   ![Task General tab with an arrow pointing to the Documents icon in the toolbar.](assets/add-documents-to-a-task.png)
 
 1. Click **[!UICONTROL Add]** and select the document to be added to your task. Apply the same process for marketing resources. 
 
 
 Referenced documents are added to the notifications sent to the operators involved in the task. They are also added on the task dashboard.
 
-![](assets/s_ncs_user_task_notification_documents.png)
+![Task dashboard with the referenced documents Brief.pdf and Central Agency.pdf highlighted in the Document(s) row.](assets/s_ncs_user_task_notification_documents.png)
 
 ### Execution schedule {#execution-schedule}
 
@@ -174,17 +174,17 @@ The validity period of a task is indicated in the **[!UICONTROL Start]** and **[
 
 The **[!UICONTROL Workload performed]** field also expressed in days and hours, lets you manually update the progress of the task with respect to the scheduled workload.
 
-![](assets/s_ncs_user_task_percentage_done_enter.png)
+![Task General tab with an arrow pointing to the Progress (as a %) field set to 35.](assets/s_ncs_user_task_percentage_done_enter.png)
 
 The **[!UICONTROL Progress status]** of the task, expressed as a percentage, is updated automatically based on the tasks carried out by the operators involved. It can be input manually.
 
 This information can be viewed in the task dashboard.
 
-![](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
+![Task dashboard with an arrow pointing to the Progress value of 35 percent.](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
 
 It is also visible in the campaign tab.
 
-![](assets/s_ncs_user_task_percentage_done_from_op.png)
+![Campaign Tasks list with an arrow pointing to the 35 percent progress bar of a task.](assets/s_ncs_user_task_percentage_done_from_op.png)
 
 If the task execution schedule end date has been reached but the task is not completed, the task will be **[!UICONTROL Late]**. A warning message will also be displayed to alert operators.
 
@@ -196,13 +196,13 @@ You can define related expenses and forecast revenue for each task. These will b
 
 To specify this information, click the **[!UICONTROL Expenses and revenue]** icon in the task toolbar.
 
-![](assets/s_ncs_user_task_edit_costs.png)
+![Expenses and revenue window opened from the toolbar, showing charge, commitment level, costs and Add an objective.](assets/s_ncs_user_task_edit_costs.png)
 
 By default, the budget charged is the budget of the campaign to which the task is attached. It is displayed in the task details.
 
 >[!NOTE]
 >
->For more information about expenses and budgets, refer to [this section](../campaigns/providers-stocks-and-budgets.md).
+>For more information about expenses and budgets, refer to [Providers, stocks and budgets](../campaigns/providers-stocks-and-budgets.md).
 
 In this window, you can also define the objectives to be reached. Objectives are expressed in terms of forecast revenue for the task.
 
@@ -214,7 +214,7 @@ To do this, edit the task properties and select the service provider concerned. 
 
 Select the cost categories related to the execution of the task. To do this, select the type of cost and, if necessary, add an amount to surcharge.
 
-![](assets/s_ncs_user_task_edit_simple_costs_tab.png)
+![Task properties window with the Service provider field and cost categories listed with an amount to surcharge.](assets/s_ncs_user_task_edit_simple_costs_tab.png)
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ Select the cost categories related to the execution of the task. To do this, sel
 
 When a service provider is selected, it is displayed in the task dashboard:
 
-![](assets/s_ncs_user_task_supplier_view.png)
+![Task dashboard with an arrow pointing to the Service provider row showing the selected service.](assets/s_ncs_user_task_supplier_view.png)
 
 ### Late tasks {#late-tasks}
 
@@ -230,19 +230,19 @@ A task is late if it has reached its end date without its status changing to **[
 
 Go to the **[!UICONTROL Resources]** box and add the operator to the **[!UICONTROL Assignation]** field. To notify several people, select a group of operators.
 
-![](assets/mrm_task_alert_if_late.png)
+![Resources window with the Assignee field highlighted under Notification in case the task end date is exceeded.](assets/mrm_task_alert_if_late.png)
 
 ### Initial notifications {#initial-notifications}
 
 When you create or modify a task with a start date in the future, Adobe Campaign offers to send an email to the person in charge of the task to let them know when it starts.
 
-![](assets/mrm_task_first_notif.png)
+![Prompt asking whether to send an initial notification for the scheduled task, with Yes and No buttons.](assets/mrm_task_first_notif.png)
 
 However, if the task you are creating is a long way off, it may be preferable to schedule the notification to be sent before the task starts. For instance, if the task starts in one month, you can notify the person in charge of it one week before it starts.
 
 To schedule a notification, go to the **[!UICONTROL Resources]** box and use the **[!UICONTROL Initial notification]** field.
 
-![](assets/mrm_task_alert_before.png)
+![Resources window with the Initial notification field highlighted under the task start date section.](assets/mrm_task_alert_before.png)
 
 * For tasks within campaigns, select a specific date and time.
 * For tasks within campaign templates, the notification time is expressed as the time remaining before the task starts (for instance, if you enter 2d in the **[!UICONTROL Initial notification]** field, the email will be sent 2 days before the task start date).
@@ -260,19 +260,19 @@ To create a task linked directly to a program:
 1. In this window, click **[!UICONTROL Open]**. The program schedule opens.
 1. Click the **[!UICONTROL Add]** button above the schedule on the right, then click **[!UICONTROL Add a task]**.
 
-![](assets/mrm_task_create_from_prg.png)
+![Program schedule with the Add menu open and the Add a task option selected.](assets/mrm_task_create_from_prg.png)
 
 ### Operator availability {#operator-availability}
 
 In the task dashboard, an icon next to the operator's name indicates that they are already working on another task or event during the period covered by the task. Task which the operator is in charge of or involved in appears in the **[!UICONTROL Assigned to]** field or in the task **[!UICONTROL Resources]** box.
 
-![](assets/mrm_task_alert_operator_busy.png)
+![Task dashboard with an arrow pointing to the operator in the Assigned to row.](assets/mrm_task_alert_operator_busy.png)
 
 ### Task in a workflow {#task-in-a-workflow}
 
 Using a **[!UICONTROL Task]** element in a campaign workflow enables you to define two scenarios depending on whether or not the task is approved.
 
-![](assets/mrm_task_in_workflow.png)
+![Workflow where a task activity leads to Direct mail delivery if Complete, or to Wait and back if Incomplete.](assets/mrm_task_in_workflow.png)
 
 In the campaign workflows, the **[!UICONTROL Task]** activity is found in the **[!UICONTROL Flow control]** tab.
 
@@ -280,7 +280,7 @@ In the campaign workflows, the **[!UICONTROL Task]** activity is found in the **
 
 When you create tasks via a campaign, you can create specific tasks. The type of task is defined in the selected template.
 
-![](assets/s_ncs_user_task_select_template.png)
+![Task template list with control, grouping, marketing resource creation, notification and standard task templates.](assets/s_ncs_user_task_select_template.png)
 
 The following tasks can be scheduled:
 
@@ -298,11 +298,11 @@ The following tasks can be scheduled:
 
 A **[!UICONTROL Control task]** is linked to delivery approval: approval of targeting, content, extraction file, budget or proof.
 
-![](assets/s_ncs_user_task_new_control.png)
+![Control task form with the Approval type list showing Target, Content, Budget, Extraction file and Proof approval.](assets/s_ncs_user_task_new_control.png)
 
 Once it is created, the task is added to the campaign dashboard.
 
-![](assets/s_ncs_user_task_edit_from_board.png)
+![Campaign dashboard with an arrow pointing to the new control task in the Tasks list, with Open, Approve and Reject.](assets/s_ncs_user_task_edit_from_board.png)
 
 You can then edit it and specify its parameters.
 
@@ -333,7 +333,7 @@ The marketing resources creation task interacts with the resource linked to it. 
 
 The person who reviews the task isn't necessary the same person who reviews the content defined in the resource. However, if the **[!UICONTROL Publish the marketing resource]** option is checked (see below), the task reviewer is authorized to approve the resource content, as finishing the task automatically approves the resource (or, if no reviewer is defined, the task manager).
 
-![](assets/mrm_task_asset_creation.png)
+![Marketing resource creation task with the Marketing resource field and Publish the marketing resource selected.](assets/mrm_task_asset_creation.png)
 
 In the **[!UICONTROL Marketing resource]** field, define the resource you want to manage via this task. You can:
 
@@ -344,7 +344,7 @@ The **[!UICONTROL Publish the marketing resource]** option lets you automate res
 
 The **[!UICONTROL Publish the resource]** button is made available and the resource publishing reviewer receives a notification email to let them know that it is ready to be published. In the **[!UICONTROL Edit > Tracking]** tab, reviewing and publishing by the task reviewer become visible. If a resource post-processing workflow has been defined, it is executed now.
 
-![](assets/mrm_resource_audit_tab.png)
+![Marketing resource Audit tab showing the approvals and publications journal with Approval and Publication entries.](assets/mrm_resource_audit_tab.png)
 
 ### Group task {#grouping-task}
 
@@ -358,11 +358,11 @@ Grouping tasks have a link that lets you easily create a grouped task.
 
 To create a grouped task based on a grouping task, go to the campaign dashboard and click the name of the grouping task to display its description, then click **[!UICONTROL Add a task]**.
 
-![](assets/mrm_task_grouped_create.png)
+![Campaign dashboard with the grouping task expanded and an arrow pointing to the Add a task link.](assets/mrm_task_grouped_create.png)
 
 However, if you have already created a task that you want to link to a grouping task, you can do it via the **[!UICONTROL Linked to]** field of the **[!UICONTROL Properties]** box.
 
-![](assets/s_ncs_user_task_group_with.png)
+![Task properties window with the Linked to field set to another task under Define links between tasks.](assets/s_ncs_user_task_group_with.png)
 
 ### Notification task {#notification-task}
 
@@ -372,7 +372,7 @@ Notification tasks enable you to schedule email deliveries (to an operator, a gr
 
 Notification tasks don't require approval. This means their life cycle is simpler than that of a standard task:
 
-![](assets/mrm_task_notif_lifecycle.png)
+![Notification task life cycle: Scheduled until start date when email is sent, In progress, then Finished at end date.](assets/mrm_task_notif_lifecycle.png)
 
 A notification task can have the following statuses:
 
@@ -382,7 +382,7 @@ A notification task can have the following statuses:
 
 #### Configuration {#configuration}
 
-![](assets/mrm_task_notif_dashboard.png)
+![Notification task form with template, label, Assigned to, start and end dates and the task description.](assets/mrm_task_notif_dashboard.png)
 
 During creation, the following elements must be entered in the task:
 
@@ -391,7 +391,7 @@ During creation, the following elements must be entered in the task:
 * **Task end date**: date on which the task status changes to **[!UICONTROL Finished]**. By default, the end date is identical to the start date. However, assigning a duration to the task lets you symbolize the amount of time which the operator has to act in the schedule, if necessary.
 * **[!UICONTROL Description]**: the text entered here will appear in the body of the notification email.
 
-  ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![Notification task summary showing Scheduled status, Notification type, assignee, campaign and the description text.](assets/mrm_task_notif_dashboard_msg.png)
 
 You can add an attachment to the task and to the notification email. To do this, click the **[!UICONTROL Documents]** icon in the toolbar in the upper right-hand corner.
 
@@ -407,21 +407,21 @@ Use the **[!UICONTROL Linked task]** field to associate tasks with a grouping ta
 
 In the following example, the approval of targeting is broken down into four sub-tasks. 
 
-![](assets/s_ncs_user_task_linked_tasks.png)
+![Campaign Tasks list with the Update Styles task, a Target Validation task and four linked sub-tasks.](assets/s_ncs_user_task_linked_tasks.png)
 
 Each sub-task is a standard task linked to the main task.
 
-![](assets/s_ncs_user_task_depends_on.png)
+![Task form with an arrow pointing to the Depends on field set to the Target Validation parent task.](assets/s_ncs_user_task_depends_on.png)
 
 #### Group tasks {#grouping-tasks}
 
 Use the **[!UICONTROL Grouped to]** field to make the execution of a task depend on the execution of another task. 
 
-![](assets/s_ncs_user_task_group_with.png)
+![Task properties window with the Linked to field set to another task under Define links between tasks.](assets/s_ncs_user_task_group_with.png)
 
 The dependency between tasks is represented by arrows in the campaign dashboard.
 
-![](assets/s_ncs_user_task_dependencies_from_board.png)
+![Campaign Tasks list with arrows showing two child tasks that depend on the Target Validation task.](assets/s_ncs_user_task_dependencies_from_board.png)
 
 In the case of grouped tasks, Adobe Campaign automatically assigns the end date of the parent task to the child task as a start date. For instance if a **Create invitation** task ends on October 15 at 3:30PM, the **Send invitation email** child task will start on October 15 at 3:30PM.
 
@@ -433,7 +433,7 @@ A parent task scheduled to end on October 9 at 5PM has two child tasks, task A a
 
 Let's postpone the parent task: it now ends on October 11 at 1PM. Only task A is postponed and will start on October 11 at 1PM.
 
-![](assets/mrm_task_parent_postpones_child.png)
+![Before and after view of a parent task postponed, which moves the start of Child task A but not Child task B.](assets/mrm_task_parent_postpones_child.png)
 
 ### Execution status of a task {#execution-status-of-a-task}
 
@@ -469,7 +469,7 @@ Below are the stages of a complete task life cycle for which the person in charg
 
    When creating and editing a task **scheduled in the future** (as long as the task start date isn't reached), it's possible to send a notification to participants and managers to let them know that a new task has been scheduled. 
 
-   ![](assets/s_ncs_user_task_planed_send_message.png)
+   ![Prompt asking whether to send an initial notification for the scheduled task, with an arrow pointing to No.](assets/s_ncs_user_task_planed_send_message.png)
 
    To send this first notification, click **[!UICONTROL Yes]**. This notification tells them about the next task and includes details on content and the number of days remaining until its deadline.
 
@@ -481,21 +481,21 @@ Below are the stages of a complete task life cycle for which the person in charg
     * via the notification email.
     * via the Client Console or the web interface, in the task dashboard.
     
-      ![](assets/s_ncs_user_task_start_rea.png)
+      ![Task summary with the Carry out the task and Reject buttons for a participant to approve the task.](assets/s_ncs_user_task_start_rea.png)
 
 1. Each time a participant approves a job, the progress status of the task is updated.
 
-   ![](assets/s_ncs_user_task_percentage_done_op.png)
+   ![Action on the task dialog with a comment and Carry out the task button, followed by progress updated to 34 percent.](assets/s_ncs_user_task_percentage_done_op.png)
 
 1. The reviewer receives a notification email telling them that the operator has completed the section assigned to them.
 
    They can follow the progress on the task dashboard.
 
-   ![](assets/s_ncs_user_task_follow_from_dashboard.png)
+   ![Task dashboard showing 34 percent progress and an arrow pointing to the approval already given by a participant.](assets/s_ncs_user_task_follow_from_dashboard.png)
 
 1. Once the person in charge of the task decides that it is finished, they can close it, using either the link in the notification email sent when the task was started, the Client Console, or the interface.
 
-   ![](assets/s_ncs_user_task_console_ressource_validation.png)
+   ![Task summary Finish button leading to the Action on the task dialog with a comment and the Finish the task button.](assets/s_ncs_user_task_console_ressource_validation.png)
 
    >[!NOTE]
    >
@@ -507,11 +507,11 @@ Below are the stages of a complete task life cycle for which the person in charg
 
    They can act via the campaign dashboard:
 
-   ![](assets/s_ncs_user_task_console_validation.png)
+   ![Campaign dashboard with the task pending approval selected and an arrow pointing to the Approve button.](assets/s_ncs_user_task_console_validation.png)
 
    They can also use the task approval button:
 
-   ![](assets/s_ncs_user_task__validation.png)
+   ![Task summary with Pending status, 100 percent progress and the Approve the task button.](assets/s_ncs_user_task__validation.png)
 
    >[!NOTE]
    >
