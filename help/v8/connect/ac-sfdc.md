@@ -55,7 +55,7 @@ First, you must create the Salesforce external account.
 1. Select **[!UICONTROL Salesforce.com]** external account in the **Type** section.
 1. Enter settings to enable connection.
     
-    ![](assets/sfdc-external-account.png)
+    ![Salesforce CRM external account with account, password, security token and API version fields](assets/sfdc-external-account.png)
 
     To configure the Salesforce CRM external account to work with Adobe Campaign, you need to provide the following details:
 
@@ -81,7 +81,7 @@ You can now configure tables to synchronize.
 
    Example of a **Salesforce** schema imported in Campaign:
 
-   ![](assets/sfdc-schemas.png)
+   ![Data schemas list filtered on salesforce showing the imported Salesforce CRM source schema](assets/sfdc-schemas.png)
 
 ## Synchronize enumerations{#sfdc-enum-sync}
 
@@ -91,7 +91,7 @@ Once the schema is created, you can synchronize enumerations automatically from 
 1. Select the Adobe Campaign enumeration that matches the Salesforce enumeration. 
     You can replace all values of an Adobe Campaign enumeration with those of the CRM: to do this, select **[!UICONTROL Yes]** in the **[!UICONTROL Replace]** column.
 
-   ![](assets/sfdc-enum.png)
+   ![Synchronizing enumerations dialog mapping CRM enumerations to Campaign enumerations with the Replace column](assets/sfdc-enum.png)
 
 1. Click **[!UICONTROL Next]** and then **[!UICONTROL Start]** to start importing the enumerations.
 

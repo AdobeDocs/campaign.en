@@ -62,7 +62,7 @@ In this email, we want one of the images to vary dynamically according to the fo
 * The email is opened in the United States.
 * If none of these conditions apply, a default image is displayed.
 
-![](assets/target_4.png)
+![Email variants by audience: default shows a plane, French the Eiffel Tower, American the Statue of Liberty](assets/target_4.png)
 
 The following steps need to be achieved in Adobe Campaign and Adobe Target:
 
@@ -82,11 +82,11 @@ In Adobe Campaign, there are two ways to insert a dynamic image from Target into
 
 * If you are using the digital content editor, choose an existing image and select **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** from the toolbar.
 
-   ![](assets/target_5.png)
+   ![Digital content editor with Dynamic image served by Adobe Target selected in the image toolbar menu](assets/target_5.png)
 
 * If you are using the standard editor, place the cursor where you want to insert the image and select **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** from the personalization drop-down menu.
 
-   ![](assets/target_12.png)
+   ![Standard editor with Include then Dynamic image served by Adobe Target selected in the personalization menu](assets/target_12.png)
 
 You can then define the image parameters:
 
@@ -97,7 +97,7 @@ You can then define the image parameters:
 
 If you use Enterprise permissions in your settings in Adobe Target, add the corresponding property in this field. Learn more about Target Enterprise permissions in [Adobe Target documentation](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}.
 
-![](assets/target_13.png)
+![Insert an image served by Adobe Target dialog with default image, target location, landing page and decision parameters](assets/target_13.png)
 
 ### Create redirect offers {#create-redirect-offers}
 
@@ -109,11 +109,11 @@ In our case, we need two redirect offers, the third one (the default one) is to 
 
 1. Click **[!UICONTROL Create]** then **[!UICONTROL Redirect Offer]**.
 
-   ![](assets/target_9.png)
+   ![Adobe Target Offers tab, Code Offers, with Create menu open and Redirect Offer highlighted](assets/target_9.png)
 
 1. Enter a name for the offer and the URL of your image.
 
-   ![](assets/target_6.png)
+   ![Adobe Target Create Redirect Offer form with the Name field set to French audience and the Redirect URL field](assets/target_6.png)
 
 1. Follow the same procedure for the remaining redirect offer. For more on this, refer to this [Adobe Target documentation](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}.
 
@@ -123,11 +123,11 @@ In Adobe Target, you need to create the two audiences into which the people who 
 
 1. To create a new audience in Target, from the **[!UICONTROL Audiences]** tab, click **[!UICONTROL Create Audience]**.
 
-   ![](assets/audiences_1.png)
+   ![Adobe Target Audiences tab with the Create Audience button highlighted](assets/audiences_1.png)
 
 1. Add a name to your audience.
 
-   ![](assets/audiences_2.png)
+   ![Adobe Target New Audience dialog with the Audience Name field and Add Rule button](assets/audiences_2.png)
 
 1. Click **[!UICONTROL Add a rule]** and select a category. The rule uses specific criteria to target the visitors. You can refine the rules by adding conditions or by creating new rules in other categories.
 
@@ -141,17 +141,17 @@ First you need to define the audience:
 
 1. To create an Experience Targeting activity, from the **[!UICONTROL Activities]** tab, click **[!UICONTROL Create Activity]** then **[!UICONTROL Experience Targeting]**.
 
-   ![](assets/target_10.png)
+   ![Adobe Target Activities tab with Create Activity menu open and Experience Targeting highlighted](assets/target_10.png)
 
 1. Select **[!UICONTROL Form]** as **[!UICONTROL Experience Composer]**.
 
 1. Choose an audience by clicking the **[!UICONTROL Change audience]** button.
 
-   ![](assets/target_10_2.png)
+   ![New activity Experiences step with Change Audience selected in the All Visitors audience menu](assets/target_10_2.png)
 
 1. Select the audience that was created in the previous steps.
 
-   ![](assets/target_10_3.png)
+   ![Choose Audience dialog listing the Audience Library with All Visitors and other audiences](assets/target_10_3.png)
 
 1. Create another experience by clicking **[!UICONTROL Add Experience Targeting]**.
 
@@ -159,27 +159,27 @@ Then add content for each audience:
 
 1. Select the location name that you chose when inserting the dynamic offer in Adobe Campaign.
 
-   ![](assets/target_15.png)
+   ![Experience Targeting activity with the v_rawbox location selected in the Select Location list](assets/target_15.png)
 
 1. Click the drop-down button and select **[!UICONTROL Change Redirect Offer]**.
 
-   ![](assets/target_content.png)
+   ![Content menu of the activity with Change Redirect Offer highlighted](assets/target_content.png)
 
 1. Select the redirect offer that you had previously created.
 
-   ![](assets/target_content_2.png)
+   ![Select redirect offer dialog with the French audience offer selected and the Save button](assets/target_content_2.png)
 
 1. Follow the same steps for the second experience.
 
 The **[!UICONTROL Target]** window summarizes your activity. If necessary, you can add other experiences.
 
-   ![](assets/target_experience.png)
+   ![Target step listing French audience as Experience A and American audience as Experience B with Add Experience](assets/target_experience.png)
 
 The **[!UICONTROL Goal & Settings]** window allows you to personalize your activity by setting a priority, an objective, or a duration.
 
 The **[!UICONTROL Reporting Settings]** section lets you select an action and edit the parameters that will determine when your goal is achieved.
 
-   ![](assets/target_experience_2.png)
+   ![Goal and Settings step with Goal Metric set to Conversion and Viewed an mbox for v6_rawbox](assets/target_experience_2.png)
 
 ## Preview and send the message {#preview-send-email}
 
@@ -189,4 +189,4 @@ You will notice that the image changes according to the different experiences cr
 
 You are now ready to send your email including a dynamic offer from Target.
 
-   ![](assets/target_20.png)
+   ![Email preview for Marie Dupont showing the Eiffel Tower image served by Adobe Target for the French audience](assets/target_20.png)

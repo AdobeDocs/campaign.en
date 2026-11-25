@@ -65,7 +65,7 @@ To do this, follow these steps:
     * `CLIENT SECRET`
     * `ORGANIZATION ID`
 
-    ![](assets/ac-lp-oauth.png){width="70%"}
+    ![Adobe Developer Console project with Experience Platform API and OAuth Server-to-Server credentials](assets/ac-lp-oauth.png){width="70%"}
 
 Now that your OAuth connection is configured, create and configure a new **[!UICONTROL HTTP API]** Source connection to link Adobe Campaign with Adobe Experience Platform.
 
@@ -75,21 +75,21 @@ With the OAuth connection in place, the next step is to create an **[!UICONTROL 
 
 1. Navigate to Adobe Experience Platform **[!UICONTROL Sources]**, search for the **[!UICONTROL HTTP API]** source then click **[!UICONTROL Add data]**.
 
-    ![](assets/ac-lp-source.png){width="70%"}
+    ![Experience Platform Sources catalog searched for http, with the HTTP API source Add data button](assets/ac-lp-source.png){width="70%"}
 
 1. Configure the connection depending on your needs. Detailed information on how to configure an HTTP API connection is available in [Adobe Experience Platform sources documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
     At the **[!UICONTROL Authentication]** step, toggle on the **[!UICONTROL Enable authentication]** option to authenticate using the access token generated earlier through the OAuth integration.
 
-    ![](assets/ac-lp-source-authentication.png){width="70%"}
+    ![Connect HTTP API account step with the Enable authentication toggle turned on](assets/ac-lp-source-authentication.png){width="70%"}
 
 1. Once the source connection is configured, the streaming endpoint displays. This endpoint is required to ingest data into Adobe Experience Platform. 
 
-    ![](assets/ac-lp-endpoint.png){width="70%"}
+    ![HTTP API source details page with the Streaming endpoint field highlighted](assets/ac-lp-endpoint.png){width="70%"}
 
     You can also access a sample of the data format ingested into Adobe Experience Platform by opening the newly created dataflow from the **[!UICONTROL Dataflows]** tab.
 
-    ![](assets/ac-lp-schema.png){width="70%"}
+    ![HTTP API dataflow page with the Copy schema payload option highlighted](assets/ac-lp-schema.png){width="70%"}
 
 Now that the HTTP API Source connection is set up, you need to add specific options into Adobe Campaign to enable the connection to Adobe Experience Platform.
 
@@ -111,7 +111,7 @@ Browse the tabs below to discover the two methods:
     * IMS_ORG_ID = ORGANIZATION ID
     * IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
 
-    ![](assets/ac-lp-xtk.png){width="70%"}
+    ![Campaign Options list with IMS_CLIENT_API_KEY, IMS_CLIENT_ID, IMS_CLIENT_SECRET and IMS_ORG_ID selected](assets/ac-lp-xtk.png){width="70%"}
 
     >[!NOTE]
     >
@@ -153,7 +153,7 @@ To allow data synchronization between landing pages and Adobe Experience Platfor
     >
     >Access token and authentication data are automatically retrieved from the options set up previously.
 
-    ![](assets/ac-lp-script.png){width="70%"}
+    ![Campaign JavaScript codes list with the custom aepAPI code that updates a profile in AEP](assets/ac-lp-script.png){width="70%"}
 
     +++  Script 1 - Load profile attributes from Experience Platform
 
@@ -354,13 +354,13 @@ With the JavaScript codes added to Adobe Campaign, you can leverage them into yo
 
 Here is a sample workflow using the JavaScript code activities before and after a landing page: 
 
-![](assets/ac-lp-wkf.png){width="70%"}
+![Landing page workflow: Preloading, Load Profile Details From AEP, Opt-Out/In Web Page, Update Profile, End](assets/ac-lp-wkf.png){width="70%"}
 
 Here is an example of a landing page and a JavaScript code activity configured to update profile attributes in Adobe Experience Platform:
 
-![](assets/ac-lp-example.png){width="70%"}
+![Landing page preview with Opt-Out from Email, SMS and Push checkboxes and a Submit button](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+![Update Profile script activity with code that sends the profile opt-out values to Experience Platform](assets/ac-lp-code.png){width="70%" zoomable="yes"}
 
 ### More information
 

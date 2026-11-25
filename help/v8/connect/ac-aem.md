@@ -52,35 +52,35 @@ This integration can be used for example to create a newsletter in Adobe Experie
 
 1. Navigate to your [!DNL Adobe Experience Manager] author instance and click Adobe Experience at the upper left corner of the page. Choose **[!UICONTROL Sites]** from the menu.
 
-   ![](assets/aem_authoring_1.png)
+   ![Adobe Experience Manager Navigation menu with the Sites option highlighted](assets/aem_authoring_1.png)
 
 1. Access **[!UICONTROL Campaigns > Name of your brand (here we.Shopping) > Main Area > Email]**.
 
 1. Click **[!UICONTROL Create]** and select **[!UICONTROL Page]** from the dropdown menu.
 
-   ![](assets/aem_authoring_2.png)
+   ![AEM Sites Email folder with the Create menu open and Page selected](assets/aem_authoring_2.png)
 
 1. Select the **[!UICONTROL Adobe Campaign Email]** template and name your newsletter.
 
 1. After creating your page, access the **[!UICONTROL Page information]** menu and click **[!UICONTROL Open Properties]**.
 
-   ![](assets/aem_authoring_3.png)
+   ![Newsletter page editor with Page information menu open and Open Properties highlighted](assets/aem_authoring_3.png)
 
 1. Customize your email content by adding components, such as personalization fields from Adobe Campaign. Learn more in [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
 
 1. Once your email is ready, navigate to the **[!UICONTROL Page information]** menu and click **[!UICONTROL Start workflow]**.
 
-   ![](assets/aem_authoring_4.png)
+   ![Newsletter page editor with Page information menu open and Start Workflow highlighted](assets/aem_authoring_4.png)
 
 1. From the first drop-down, select **[!UICONTROL Approve Adobe Campaign]** as workflow model and click **[!UICONTROL Start workflow]**.
 
-   ![](assets/aem_authoring_5.png)
+   ![Start Workflow dialog with Approve for Adobe Campaign selected as the workflow model](assets/aem_authoring_5.png)
 
 1. A disclaimer will appear at the top of your page stating, `This page is subject to the workflow Approve for Adobe Campaign`. Click **[!UICONTROL Complete]** next to the disclaimer to confirm the review and click **[!UICONTROL Ok]**.
 
 1. Click **[!UICONTROL Complete]** again and select **[!UICONTROL Newsletter approval]** in the **[!UICONTROL Next Step]** drop-down.
 
-   ![](assets/aem_authoring_6.png)
+   ![Complete Work Item dialog with Newsletter Approval selected in the Next Step list and Ok button](assets/aem_authoring_6.png)
 
 Your newsletter is now ready and synchronized in Adobe Campaign.
 
@@ -90,7 +90,7 @@ Your newsletter is now ready and synchronized in Adobe Campaign.
 
 1. Choose the **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** template from the **[!UICONTROL Delivery template]** drop-down menu.
 
-   ![](assets/aem_authoring_7.png)
+   ![Campaign delivery template list with Email delivery with AEM content (mailAEMContent) selected](assets/aem_authoring_7.png)
 
 1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
 
@@ -98,15 +98,15 @@ Your newsletter is now ready and synchronized in Adobe Campaign.
 
    If the button is not visible in your interface, navigate to the **[!UICONTROL Properties]** button and access the **[!UICONTROL Advanced]** tab. Ensure that the **[!UICONTROL Content editing mode]** field is configured to **[!UICONTROL AEM]**, and input your AEM instance details in the **[!UICONTROL AEM account]** field.
 
-   ![](assets/aem_authoring_8.png)
+   ![Campaign email delivery toolbar with the Synchronize button highlighted](assets/aem_authoring_8.png)
 
 1. Select the AEM delivery previously created in [!DNL Adobe Experience Manager] and confirm by clicking **[!UICONTROL Ok]**.
 
-   ![](assets/aem_authoring_11.png)
+   ![Synchronize with AEM content dialog listing approved AEM emails with the Newsletter row selected](assets/aem_authoring_11.png)
 
 1. Ensure to click the **[!UICONTROL Refresh content]** button whenever modifications are made to your AEM delivery.
 
-   ![](assets/aem_authoring_12.png)
+   ![Synchronized email delivery with the Refresh content button highlighted and the Desynchronize button](assets/aem_authoring_12.png)
 
 1. To remove linkage between Experience Manager and Campaign, click **[!UICONTROL Desynchronize]**.
 
@@ -120,11 +120,11 @@ You can also directly insert assets from your [!DNL Adobe Experience Manager Ass
 
 1. Navigate to your [!DNL Adobe Experience Manager] author instance and click Adobe Experience at the upper left corner of the page. Choose **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** from the menu.
 
-   ![](assets/aem_assets_1.png)
+   ![AEM Assets navigation menu with the Files option highlighted](assets/aem_assets_1.png)
 
 1. Click **Create** then **Files** to import your asset to your **Adobe Experience Manager Assets Library**. Learn more in [Adobe Experience Manager documentation](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
 
-   ![](assets/aem_assets_2.png)
+   ![AEM Assets Files view with the Create menu open and Files selected to upload an asset](assets/aem_assets_2.png)
 
 1. Rename your asset if needed and select **Upload**.
 
@@ -134,7 +134,7 @@ Your asset is now uploaded to your **Adobe Experience Manager Assets Library**.
 
 1. In Adobe Campaign, create a new delivery by browsing to the **Campaigns** tab, click **Deliveries** and click the **Create** button above the list of existing deliveries.
 
-   ![](assets/aem_assets_3.png)
+   ![Campaign Deliveries list on the Campaigns tab with the Create button highlighted](assets/aem_assets_3.png)
 
 1. Select a **Delivery template**, then name your delivery.
 
@@ -144,14 +144,14 @@ Your asset is now uploaded to your **Adobe Experience Manager Assets Library**.
 
    Choose your **AEM account** and enable the **[!UICONTROL Use above AEM instance as shared asset library]** option.
 
-   ![](assets/aem_authoring_9.png)
+   ![Delivery properties Advanced tab with AEM account set and shared asset library option enabled](assets/aem_authoring_9.png)
 
 1. From the **Image** icon, access the **[!UICONTROL Select a shared asset]** menu.
 
-   ![](assets/aem_assets_4.png)
+   ![Campaign email editor image menu with Select a shared asset highlighted](assets/aem_assets_4.png)
 
 1. From the selection window, select an image from your **Adobe Experience Manager Assets library**, then **Select**.
 
-   ![](assets/aem_assets_5.png)
+   ![Select a shared asset window listing AEM Assets library files with jogging-newsletter.jpg selected](assets/aem_assets_5.png)
 
 Your asset is now uploaded to your email delivery. You can now specify the target audience, confirm the delivery, and proceed with sending it. 
