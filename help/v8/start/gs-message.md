@@ -46,7 +46,7 @@ topic_v2:
 ---
 # Get Started with messages {#gs-ac-msg}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent through deliveries, and can be personalized for each recipient.
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated reports. These messages are designed and sent through deliveries, and can be personalized for each recipient.
 
 Core functionalities include targeting, definition and personalization of messages, execution of communications, and the associated operational reports.
 
