@@ -35,7 +35,18 @@ topic_v2:
 
 Integration between Adobe Campaign and Adobe Experience Manager allows you to manage the content of your email deliveries as well as your forms directly in Adobe Experience Manager.
 
-[Discover how to edit your Adobe Experience Manager as Cloud Service content within Campaign Web Interface](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
+## Use Adobe Experience Manager as a Cloud Service with the Campaign Web user interface {#aem-cs-web-ui}
+
+With the Campaign Web user interface, you can connect your Adobe Experience Manager as a Cloud Service environment to centralize your content. A single source of truth for assets and templates keeps your emails consistent across channels and avoids duplicating content between the two solutions.
+
+* **Assets**: manage your assets in Adobe Experience Manager Assets and reuse them directly in your email content. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
+* **Templates**: create and approve email templates in Adobe Experience Manager as a Cloud Service, then use them as content templates in your deliveries. [Learn more](https://experienceleague.adobe.com/en/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
+
+The connection relies on an **[!UICONTROL AEM]** external account configured in the client console. See [External accounts](../config/external-accounts.md).
+
+## Use Adobe Experience Manager with the client console {#aem-console}
+
+The sections below describe the integration in the Campaign client console.
 
 [Learn more about Adobe Experience Manager in this document](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
