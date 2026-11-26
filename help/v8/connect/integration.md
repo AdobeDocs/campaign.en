@@ -45,7 +45,7 @@ Campaign v8 can connect with the following Adobe solutions. Browse the links to 
 
 * Adobe Analytics. [Learn more](../connect/ac-aa.md)
 * Adobe Experience Cloud triggers. [Learn more](../connect/ac-triggers.md)
-* Adobe Experience Manager. [Learn more](../connect/ac-aem.md)
+* Adobe Experience Manager, including Adobe Experience Manager as a Cloud Service assets and templates in the Campaign Web user interface. [Learn more](../connect/ac-aem.md)
 * Adobe Experience Platform. [Learn more](../connect/ac-aep.md)
 * Adobe Journey Optimizer. [Learn more](../connect/ac-ajo.md)    
 * Adobe Target. [Learn more](../connect/ac-at.md)
