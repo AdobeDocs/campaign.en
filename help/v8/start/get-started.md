@@ -95,7 +95,7 @@ Learn more about segmentation and audience creation in [Work with audiences in C
 
 ## Cross-channel campaign orchestration {#cross-channel-campaign-orchestration}
 
-Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. 
+Adobe Campaign lets you design and orchestrate targeted and personalized campaigns on multiple channels: email, direct mail, SMS, push notification, LINE, and custom channels. A single interface provides you with all the functions required to schedule, orchestrate, configure, personalize, automate, execute, and measure all your campaigns and communications. 
 
 Learn how to design, schedule and execute a campaign in [Get Started with Campaigns](campaigns.md).
 
